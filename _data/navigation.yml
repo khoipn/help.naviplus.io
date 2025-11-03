@@ -1,0 +1,22 @@
+- title: Trang chủ
+  url: /
+- title: Giới thiệu
+  url: /about/
+- title: Hướng dẫn sử dụng
+  url: /guides/
+  children:
+    - title: Bắt đầu
+      url: /guides/getting-started/
+    - title: Tính năng A
+      url: /guides/feature-a/
+      children:
+        - title: Cài đặt
+          url: /guides/feature-a/setup/
+        - title: Sử dụng cơ bản
+          url: /guides/feature-a/basic-usage/
+    - title: Tính năng B
+      url: /guides/feature-b/
+- title: Câu hỏi thường gặp
+  url: /faq/
+- title: Liên hệ
+  url: /contact/

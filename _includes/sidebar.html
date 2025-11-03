@@ -1,0 +1,5 @@
+<ul class="nav flex-column">
+  {% for item in site.data.navigation %}
+    {% include nav_item.html item=item %}
+  {% endfor %}
+</ul>
