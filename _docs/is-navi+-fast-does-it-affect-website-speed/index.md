@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Is Navi+ fast? Does it affect website speed?
+permalink: /docs/is-navi+-fast-does-it-affect-website-speed/
 ---
 
 # Is Navi+ fast? Does it affect website speed?

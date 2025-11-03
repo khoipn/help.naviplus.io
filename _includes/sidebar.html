@@ -1,24 +1,84 @@
+{% assign current_page_url = page.url | remove: 'index.html' | replace: '//', '/' %}
+{% if current_page_url != '/' and current_page_url contains '/' and current_page_url | slice: -1 == '/' %}
+  {% assign current_page_url = current_page_url | remove_last: '/' %}
+{% endif %}
+{% if current_page_url == "" %}{% assign current_page_url = "/" %}{% endif %}
+
+
 <ul class="nav flex-column">
   {% for item in site.data.navigation %}
+    {% assign item_url_normalized = item.url | remove: 'index.html' | replace: '//', '/' %}
+    {% if item_url_normalized != '/' and item_url_normalized contains '/' and item_url_normalized | slice: -1 == '/' %}
+      {% assign item_url_normalized = item_url_normalized | remove_last: '/' %}
+    {% endif %}
+    {% if item_url_normalized == "" %}{% assign item_url_normalized = "/" %}{% endif %}
+
+        
+    {% assign item_is_active_parent = false %}
+    {% if current_page_url contains item_url_normalized and current_page_url != item_url_normalized %}
+      {% assign item_is_active_parent = true %}
+    {% endif %}
+
     <li class="nav-item">
-      <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
       {% if item.children %}
-        <ul class="nav flex-column ps-3">
-          {% for child in item.children %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ child.url | relative_url }}">{{ child.title }}</a>
-              {% if child.children %}
-                <ul class="nav flex-column ps-3">
-                  {% for grand_child in child.children %}
-                    <li class="nav-item">
-                      <a class="nav-link" href="{{ grand_child.url | relative_url }}">{{ grand_child.title }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
+        <a class="nav-link d-flex justify-content-between align-items-center{% if current_page_url == item_url_normalized %} active{% endif %}" data-bs-toggle="collapse" href="#collapse-{{ forloop.index }}" role="button" aria-expanded="{% if item_is_active_parent or current_page_url == item_url_normalized %}true{% else %}false{% endif %}" aria-controls="collapse-{{ forloop.index }}">
+          <span>
+            <i class="ri-folder-line sidebar-folder-icon-closed"></i>
+            <i class="ri-folder-open-line sidebar-folder-icon-open d-none"></i>
+            {{ item.title }}
+          </span>
+        </a>
+        <div class="collapse {% if item_is_active_parent or current_page_url == item_url_normalized %}show{% endif %}" id="collapse-{{ forloop.index }}">
+          <ul class="nav flex-column ps-3">
+            {% for child in item.children %}
+              {% assign child_url_normalized = child.url | remove: 'index.html' | replace: '//', '/' %}
+              {% if child_url_normalized != '/' and child_url_normalized contains '/' and child_url_normalized | slice: -1 == '/' %}
+                {% assign child_url_normalized = child_url_normalized | remove_last: '/' %}
               {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+              {% if child_url_normalized == "" %}{% assign child_url_normalized = "/" %}{% endif %}
+
+              <!-- DEBUG: child.url: {{ child.url }}, child_url_normalized: {{ child_url_normalized }} -->
+
+              {% assign child_is_active_parent = false %}
+              {% if current_page_url contains child_url_normalized and current_page_url != child_url_normalized %}
+                {% assign child_is_active_parent = true %}
+              {% endif %}
+
+              <li class="nav-item">
+                {% if child.children %}
+                  <a class="nav-link d-flex justify-content-between align-items-center{% if current_page_url == child_url_normalized %} active{% endif %}" data-bs-toggle="collapse" href="#collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}" role="button" aria-expanded="{% if child_is_active_parent or current_page_url == child_url_normalized %}true{% else %}false{% endif %}" aria-controls="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                    <span>
+                      <i class="ri-folder-line sidebar-folder-icon-closed"></i>
+                      <i class="ri-folder-open-line sidebar-folder-icon-open d-none"></i>
+                      {{ child.title }}
+                    </span>
+                  </a>
+                  <div class="collapse {% if child_is_active_parent or current_page_url == child_url_normalized %}show{% endif %}" id="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                    <ul class="nav flex-column ps-3">
+                      {% for grand_child in child.children %}
+                        {% assign grand_child_url_normalized = grand_child.url | remove: 'index.html' | replace: '//', '/' %}
+                        {% if grand_child_url_normalized != '/' and grand_child_url_normalized contains '/' and grand_child_url_normalized | slice: -1 == '/' %}
+                          {% assign grand_child_url_normalized = grand_child_url_normalized | remove_last: '/' %}
+                        {% endif %}
+                        {% if grand_child_url_normalized == "" %}{% assign grand_child_url_normalized = "/" %}{% endif %}
+
+                        <!-- DEBUG: grand_child.url: {{ grand_child.url }}, grand_child_url_normalized: {{ grand_child_url_normalized }} -->
+
+                        <li class="nav-item">
+                          <a class="nav-link{% if current_page_url == grand_child_url_normalized %} active{% endif %}" href="{{ grand_child.url | relative_url }}">{{ grand_child.title }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% else %}
+                  <a class="nav-link{% if current_page_url == child_url_normalized %} active{% endif %}" href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% else %}
+        <a class="nav-link{% if current_page_url == item_url_normalized %} active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
       {% endif %}
     </li>
   {% endfor %}

@@ -5,6 +5,7 @@ description: "Your new Jekyll site for documentation"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 gitbook_source_link: https://help.shopifas.com/manual/website/help.naviplus.io.md
+encoding: UTF-8
 
 # Build settings
 markdown: kramdown
@@ -14,3 +15,4 @@ collections:
   docs:
     output: true
     permalink: /docs/:path/
+    index: true

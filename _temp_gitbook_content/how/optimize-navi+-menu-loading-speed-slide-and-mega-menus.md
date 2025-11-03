@@ -1,8 +1,3 @@
----
-layout: default
-title: Optimize Navi+ menu loading speed (Slide & Mega menus)
----
-
 # Optimize Navi+ menu loading speed (Slide & Mega menus)
 
 #### Why do you need to do this? Isn’t Navi+ already fast?

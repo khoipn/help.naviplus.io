@@ -1,12 +1,30 @@
-- title: Tài liệu Navi+
+- title: Why can Navi+ help you save money?
+  url: /docs/why-can-navi+-help-you-save-money/
+- title: Is Navi+ fast? Does it affect website speed?
+  url: /docs/is-navi+-fast-does-it-affect-website-speed/
+- title: How?
   url: /docs/how/
-  children:
-    - title: Why can Navi+ help you save money?
-      url: /docs/why-can-navi+-help-you-save-money/
-    - title: Is Navi+ fast? Does it affect website speed?
-      url: /docs/is-navi+-fast-does-it-affect-website-speed/
-    - title: How?
-      url: /docs/how/
-      children:
-        - title: Optimize Navi+ menu loading speed (Slide & Mega menus)
-          url: /docs/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus/
+- title: Optimize Navi+ menu loading speed (Slide & Mega menus)
+  url: /docs/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus/
+- title: Preventing image compression in Navi+
+  url: /docs/how/preventing-image-compression-in-navi+/
+- title: Prevent image compression when uploading with Navi+
+  url: /docs/how/prevent-image-compression-when-uploading-with-navi+/
+- title: For developers
+  url: /docs/for-developers/
+- title: How to write a correct CSS code in Navi+
+  url: /docs/for-developers/how-to-write-a-correct-css-code-in-navi+/
+- title: Others
+  url: /docs/others/
+- title: How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
+  url: /docs/others/how-to-other-applications-work-with-naviplus/
+- title: How to add Navi+ to a separate page through Theme Session
+  url: /docs/others/how-to-add-navi-to-separate-page-theme-session/
+- title: Why is Navi+ menu not displayed on my website?
+  url: /docs/others/why-navi-not-display/
+- title: What is Menu depth and how to use?
+  url: /docs/others/what-is-menu-depth-and-how-to-use/
+- title: Navi+ service plan policies. (Starter, Business & Elite)
+  url: /docs/others/navi+-service-plan-policies.-starter-business-and-elite/
+- title: Why aren't my Menu, Search, and Cart (panels) working?
+  url: /docs/others/why-arent-my-menu-search-and-cart-panels-working/

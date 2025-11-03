@@ -1,8 +1,3 @@
----
-layout: default
-title: Why can Navi+ help you save money?
----
-
 # Why can Navi+ help you save money?
 
 Navi+ helps you save a lot of time and money. Discover what Navi+ can do for you:

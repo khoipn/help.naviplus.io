@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How? – help.naviplus.io</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- Remixicon CSS -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+<style>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #24292e; /* GitBook like text color */
+  line-height: 1.5;
+}
+
+/* Custom styles for sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  overflow-y: auto; /* Enable scrolling for long content */
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem; /* Adjust for larger navbar on small screens */
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 400;
+  color: #586069; /* GitBook like link color */
+  padding: .25rem 1rem;
+}
+
+.sidebar .nav-link.active {
+  color: #0366d6 !important; /* Force color to be more prominent */
+  background-color: #e6f7ff !important; /* Slightly more noticeable background */
+  font-weight: 600 !important; /* Make it bold */
+}
+
+.sidebar .nav-link:hover {
+  color: #0366d6; /* GitBook like active/hover color */
+  background-color: #f6f8fa;
+}
+
+.sidebar .nav-item .nav-link {
+  font-size: 0.9em; /* Slightly smaller font for nested items */
+  padding-right: 0.5rem; /* Space for the icon */
+}
+
+/* Styling for the collapse icons */
+.sidebar-folder-icon {
+  font-size: 1.1em; /* Adjust icon size */
+  margin-right: 0.5rem; /* Space between icon and text */
+  vertical-align: middle; /* Align icon vertically with text */
+  transition: transform 0.2s ease-in-out; /* Smooth transition for icon rotation */
+}
+
+.sidebar-folder-icon.folder-open::before {
+  content: "\ea65"; /* ri-folder-open-line unicode */
+}
+
+.sidebar-folder-icon.folder-closed::before {
+  content: "\ea62"; /* ri-folder-line unicode */
+}
+
+/* Main content padding */
+main {
+  padding-top: 1rem;
+}
+
+header {
+  text-align: left; /* GitBook header is usually left-aligned */
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.8em;
+  color: #6a737d;
+  margin-top: auto; /* Push footer to the bottom */
+  border-top: 1px solid #eaecef;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Remove extra space below images */
+  margin: 1.5em 0;
+}
+
+/* Typography adjustments for content area */
+.content-wrapper {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+  }
+
+  h1 { font-size: 2.25em; }
+  h2 { font-size: 1.75em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+  h3 { font-size: 1.5em; }
+  h4 { font-size: 1.25em; }
+  h5 { font-size: 1em; }
+  h6 { font-size: 0.875em; color: #6a737d; }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+
+  a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul, ol {
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding-left: 2em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  blockquote {
+    border-left: 0.25em solid #dfe2e5;
+    color: #6a737d;
+    padding: 0 1em;
+    margin: 1em 0;
+  }
+
+  code {
+    background-color: rgba(27,31,35,.05);
+    border-radius: 3px;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+    padding: 0.2em 0.4em;
+  }
+
+  pre > code {
+    display: block;
+    padding: 1em;
+    overflow-x: auto;
+    font-size: 0.85em;
+    line-height: 1.45;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+
+  th, td {
+    border: 1px solid #dfe2e5;
+    padding: 0.6em 1em;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f6f8fa;
+    font-weight: 600;
+  }
+}
+
+/* Fix figure caption styling from GitBook */
+figure figcaption {
+  text-align: center;
+  font-size: 0.85em;
+  color: #6a737d;
+  margin-top: 0.5em;
+}
+</style>
+
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid flex-grow-1">
+      <div class="row">
+        <!-- Sidebar for Sitemap -->
+        <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar shadow-sm border-end">
+          <div class="position-sticky pt-3">
+            
+
+
+
+
+<ul class="nav flex-column">
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/why-can-navi+-help-you-save-money/">Why can Navi+ help you save money?</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/is-navi+-fast-does-it-affect-website-speed/">Is Navi+ fast? Does it affect website speed?</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link active" href="/docs/how/">How?</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus/">Optimize Navi+ menu loading speed (Slide & Mega menus)</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/how/preventing-image-compression-in-navi+/">Preventing image compression in Navi+</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/how/prevent-image-compression-when-uploading-with-navi+/">Prevent image compression when uploading with Navi+</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/for-developers/">For developers</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/for-developers/how-to-write-a-correct-css-code-in-navi+/">How to write a correct CSS code in Navi+</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/others/">Others</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/others/how-to-other-applications-work-with-naviplus/">How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/others/how-to-add-navi-to-separate-page-theme-session/">How to add Navi+ to a separate page through Theme Session</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/others/why-navi-not-display/">Why is Navi+ menu not displayed on my website?</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/others/what-is-menu-depth-and-how-to-use/">What is Menu depth and how to use?</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/others/navi+-service-plan-policies.-starter-business-and-elite/">Navi+ service plan policies. (Starter, Business & Elite)</a>
+      
+    </li>
+  
+    
+    
+    
+
+        
+    
+    
+
+    <li class="nav-item">
+      
+        <a class="nav-link" href="/docs/others/why-arent-my-menu-search-and-cart-panels-working/">Why aren't my Menu, Search, and Cart (panels) working?</a>
+      
+    </li>
+  
+</ul>
+
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
+          <header class="pb-3 mb-4 border-bottom">
+            <h1>help.naviplus.io</h1>
+<nav><a href="/">Home</a></nav>
+
+          </header>
+          <div class="content-wrapper">
+            <h1 id="how">How?</h1>
+
+<ul>
+  <li><a href="/docs/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus/">Optimize Navi+ menu loading speed (Slide &amp; Mega menus)</a></li>
+  <li><a href="/docs/how/preventing-image-compression-in-navi+/">Preventing image compression in Navi+</a></li>
+  <li><a href="/docs/how/prevent-image-compression-when-uploading-with-navi+/">Prevent image compression when uploading with Navi+</a></li>
+</ul>
+
+          </div>
+        </main>
+      </div>
+    </div>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/assets/js/sidebar.js"></script>
+  </body>
+</html>
