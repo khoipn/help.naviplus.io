@@ -2,20 +2,18 @@
   url: /
 - title: Giới thiệu
   url: /about/
-- title: Hướng dẫn sử dụng
-  url: /guides/
+- title: Tài liệu Navi+
+  url: /docs/how/
   children:
-    - title: Bắt đầu
-      url: /guides/getting-started/
-    - title: Tính năng A
-      url: /guides/feature-a/
+    - title: Why can Navi+ help you save money?
+      url: /docs/why-can-navi+-help-you-save-money/
+    - title: Is Navi+ fast? Does it affect website speed?
+      url: /docs/is-navi+-fast-does-it-affect-website-speed/
+    - title: How?
+      url: /docs/how/
       children:
-        - title: Cài đặt
-          url: /guides/feature-a/setup/
-        - title: Sử dụng cơ bản
-          url: /guides/feature-a/basic-usage/
-    - title: Tính năng B
-      url: /guides/feature-b/
+        - title: Optimize Navi+ menu loading speed (Slide & Mega menus)
+          url: /docs/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus/
 - title: Câu hỏi thường gặp
   url: /faq/
 - title: Liên hệ
