@@ -1,4 +1,16 @@
-title: "help.naviplus.io"
-description: "A static site powered by Jekyll"
-url: "https://help.naviplus.io"
-theme: minima
+# Site settings
+title: help.naviplus.io
+email: your-email@example.com
+description: "Your new Jekyll site for documentation"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+gitbook_source_link: https://help.shopifas.com/manual/website/help.naviplus.io.md
+
+# Build settings
+markdown: kramdown
+
+# Jekyll Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/

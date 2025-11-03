@@ -1,7 +1,3 @@
-- title: Trang chủ
-  url: /
-- title: Giới thiệu
-  url: /about/
 - title: Tài liệu Navi+
   url: /docs/how/
   children:
@@ -14,7 +10,3 @@
       children:
         - title: Optimize Navi+ menu loading speed (Slide & Mega menus)
           url: /docs/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus/
-- title: Câu hỏi thường gặp
-  url: /faq/
-- title: Liên hệ
-  url: /contact/

@@ -1,6 +1,7 @@
 body {
-  font-family: system-ui, sans-serif;
-  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #24292e; /* GitBook like text color */
+  line-height: 1.5;
 }
 
 /* Custom styles for sidebar */
@@ -12,6 +13,7 @@ body {
   z-index: 100; /* Behind the navbar */
   padding: 48px 0 0; /* Height of navbar */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  overflow-y: auto; /* Enable scrolling for long content */
 }
 
 @media (max-width: 767.98px) {
@@ -21,16 +23,19 @@ body {
 }
 
 .sidebar .nav-link {
-  font-weight: 500;
-  color: #333;
+  font-weight: 400;
+  color: #586069; /* GitBook like link color */
+  padding: .25rem 1rem;
 }
 
-.sidebar .nav-link.active {
-  color: #007bff;
-}
-
+.sidebar .nav-link.active,
 .sidebar .nav-link:hover {
-  color: #007bff;
+  color: #0366d6; /* GitBook like active/hover color */
+  background-color: #f6f8fa;
+}
+
+.sidebar .nav-item .nav-link {
+  font-size: 0.9em; /* Slightly smaller font for nested items */
 }
 
 /* Main content padding */
@@ -38,7 +43,18 @@ main {
   padding-top: 1rem;
 }
 
-header, footer {
-  text-align: center;
+header {
+  text-align: left; /* GitBook header is usually left-aligned */
   margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.8em;
+  color: #6a737d;
+  margin-top: auto; /* Push footer to the bottom */
+  border-top: 1px solid #eaecef;
 }

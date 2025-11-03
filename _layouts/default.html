@@ -3,23 +3,24 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
-    <div class="container-fluid">
+  <body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid flex-grow-1">
       <div class="row">
         <!-- Sidebar for Sitemap -->
-        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-          {% include sidebar.html %}
+        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse shadow-sm border-end">
+          <div class="position-sticky pt-3">
+            {% include sidebar.html %}
+          </div>
         </nav>
 
         <!-- Main Content -->
-        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-          <header class="py-3 mb-4 border-bottom">
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
+          <header class="pb-3 mb-4 border-bottom">
             {% include header.html %}
           </header>
-          {{ content }}
-          <footer class="pt-4 my-md-5 pt-md-5 border-top">
-            {% include footer.html %}
-          </footer>
+          <div class="content-wrapper mx-auto" style="max-width: 800px;">
+            {{ content }}
+          </div>
         </main>
       </div>
     </div>
