@@ -1,5 +1,25 @@
 <ul class="nav flex-column">
   {% for item in site.data.navigation %}
-    {% include nav_item.html item=item %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% if item.children %}
+        <ul class="nav flex-column ps-3">
+          {% for child in item.children %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ child.url | relative_url }}">{{ child.title }}</a>
+              {% if child.children %}
+                <ul class="nav flex-column ps-3">
+                  {% for grand_child in child.children %}
+                    <li class="nav-item">
+                      <a class="nav-link" href="{{ grand_child.url | relative_url }}">{{ grand_child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>
