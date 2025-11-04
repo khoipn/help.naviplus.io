@@ -5,7 +5,9 @@ description: "Navi+ Official Help Center - Find guides, tutorials, and support f
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://help.naviplus.io" # The base hostname & protocol for your help site
 social_image: "/assets/images/naviplus-social-share.jpg" # Default image for social sharing
-# twitter_username: "@NaviPlusOfficial" # Uncomment and replace with your Twitter handle if applicable
+twitter_username: "@NaviPlusOfficial" # Uncomment and replace with your Twitter handle if applicable
+copyright_text: "© 2025 by Navi+"
+copyright_url: "https://naviplus.io"
 gitbook_source_link: https://help.shopifas.com/manual/website/help.naviplus.io.md
 encoding: UTF-8
 

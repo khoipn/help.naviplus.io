@@ -1,5 +1,6 @@
 :root {
   --navbar-height: 56px; /* Default Bootstrap navbar height */
+  --sidebar-width: 250px; /* Define default sidebar width */
 }
 
 /* Custom styles for sidebar */
@@ -96,6 +97,37 @@ footer {
   color: #6a737d;
   margin-top: auto; /* Push footer to the bottom */
   border-top: 1px solid #eaecef;
+}
+
+/* Fixed footer for sidebar */
+.sidebar-footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: var(--sidebar-width, 250px); /* Default to 250px if --sidebar-width not defined */
+  z-index: 101; /* Ensure it's above other elements */
+  background-color: #f8f9fa; /* Background color matching sidebar or light theme */
+  border-top: 1px solid #e9ecef;
+  padding: 1rem 0.5rem 0.0rem;
+}
+
+@media (max-width: 767.98px) {
+  .sidebar-footer-fixed {
+    width: 100%; /* Full width on mobile when sidebar is hidden */
+    left: -100%; /* Hide off-screen by default on mobile */
+    transition: left 0.3s ease; /* Smooth transition for mobile */
+  }
+  body.offcanvas-active .sidebar-footer-fixed {
+    left: 0; /* Show when offcanvas is active */
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar-footer-fixed {
+    left: 0; /* Ensure it's visible on desktop */
+    width: calc(var(--sidebar-width) - 1px); /* Match sidebar width, minus border */
+    /* Adjust based on your sidebar's actual width */
+  }
 }
 
 /* Ensure images are responsive */
