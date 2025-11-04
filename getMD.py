@@ -339,29 +339,22 @@ def generate_sidebar_navigation(navigation_data):
     print(f"Sidebar navigation generated and saved to {NAVIGATION_YML_PATH}")
 
 def add_image_and_link_seo_attributes(markdown_content):
-    """Adds alt and title attributes to images, and title attributes to links if missing."""
+    """Adds alt attributes to images (without title), and title attributes to links if missing."""
     print("Applying SEO attributes to images and links...")
 
     def process_image_match(match):
         full_match = match.group(0)
         alt_text = match.group('alt')
         image_src = match.group('src')
-        existing_title = match.group('title') # Can be None if no title found
 
         # Infer alt text if missing or empty
         if not alt_text:
             # Try to get alt from filename
             filename = os.path.basename(image_src).split('.')[0] if image_src else "image"
             alt_text = filename.replace('-', ' ').title()
-
-        # Infer title attribute if missing
-        new_title_attr = existing_title
-        if not new_title_attr:
-            new_title_attr = alt_text # Use alt text as title if title is missing
         
-        # Reconstruct the image tag with guaranteed alt and title
-        # Ensure title is properly quoted if it contains spaces or special chars
-        return f'![{alt_text}]({image_src} "{new_title_attr}")'
+        # Reconstruct the image tag with alt only (no title to avoid tooltip)
+        return f'![{alt_text}]({image_src})'
 
     # Regex for images: ![alt](src "title") or ![alt](src)
     # This is a bit complex due to optional title and potentially empty alt
