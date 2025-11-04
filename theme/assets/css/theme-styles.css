@@ -396,7 +396,7 @@ figure figcaption {
     margin-top: 30px; /* Increased space above on mobile */
     margin-bottom: 30px; /* Increased space below on mobile */
     padding-left: 15px; /* Add some padding to align with content */
-    padding-right: 15px;
+    padding-right:0px;
     width: 100%; /* Take full width on mobile */
 }
 
@@ -567,5 +567,103 @@ figure figcaption {
 
 #favoritesList {
   min-height: 50px; /* Ensure there's always some space for the list */
+}
+
+/* Table of Contents (TOC) Styles */
+#tableOfContents {
+  position: fixed;
+  top: 120px;
+  right: 20px;
+  width: 200px;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.toc-title {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #6a737d;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.toc-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.toc-nested {
+  margin-top: 0.25rem;
+}
+
+.toc-item {
+  margin-bottom: 0.5rem;
+}
+
+.toc-link {
+  display: block;
+  color: #586069;
+  text-decoration: none;
+  font-size: 0.85em;
+  line-height: 1.4;
+  padding: 0.25rem 0;
+  transition: color 0.2s ease-in-out;
+}
+
+.toc-link:hover {
+  color: #0366d6;
+}
+
+.toc-link.active {
+  color: #0366d6;
+  font-weight: 600;
+  border-left: 2px solid #0366d6;
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+.toc-level-2 .toc-link {
+  font-weight: 500;
+}
+
+.toc-level-3 .toc-link {
+  font-size: 0.8em;
+}
+
+.toc-level-4 .toc-link {
+  font-size: 0.75em;
+  color: #6a737d;
+}
+
+/* Hide TOC on screens below 1366px */
+@media (max-width: 1365.98px) {
+  #tableOfContents {
+    display: none !important;
+  }
+}
+
+/* Adjust main content padding and width on large screens */
+@media (min-width: 1366px) {
+  main {
+    padding-right: 280px; /* Make room for TOC */
+  }
+  
+  main .content-wrapper {
+    max-width: 920px;
+  }
 }
 

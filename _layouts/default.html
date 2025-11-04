@@ -39,6 +39,11 @@
           <div class="content-wrapper">
             {{ content }}
           </div>
+          
+          <!-- Table of Contents (Right sidebar) -->
+          <aside id="tableOfContents" class="d-none">
+            <div class="toc-title">ON THIS PAGE</div>
+          </aside>
         </main>
       </div>
     </div>
@@ -113,6 +118,7 @@
     <script src="{{ '/theme/assets/js/article-actions.js' | relative_url }}"></script>
     <script src="{{ '/theme/assets/js/favorites.js' | relative_url }}"></script>
     <script src="{{ '/theme/assets/js/image-placeholder.js' | relative_url }}"></script>
+    <script src="{{ '/theme/assets/js/table-of-contents.js' | relative_url }}"></script>
     <footer class="sidebar-footer-fixed">
       {% include footer.html %}
     </footer>
