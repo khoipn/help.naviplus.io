@@ -5,8 +5,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand" href="{{ site.baseurl | relative_url }}/">
+    <a class="navbar-brand d-flex align-items-center" href="{{ site.baseurl | relative_url }}/">
       <img src="https://cdn.naviplus.app/naviplus/images/logo-navi-light.png" alt="Navi+ Logo" class="d-inline-block align-top img-fluid">
+      <span class="navbar-divider"></span>
+      <span class="navbar-site-title">{{ site.site_name | default: "Help" }}</span>
     </a>
     
     <!-- Main Navbar Toggle (Right) -->

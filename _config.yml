@@ -1,5 +1,6 @@
 # Site settings
 title: Navi+ Help Center
+site_name: "Help" # Display name next to logo in navbar
 email: support@naviplus.io
 description: "Navi+ Official Help Center - Find guides, tutorials, and support for optimizing your website's navigation, speed, and user experience with Navi+."
 baseurl: "" # the subpath of your site, e.g. /blog
