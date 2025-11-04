@@ -77,12 +77,19 @@
           <div class="offcanvas-body p-0">
             <!-- Sidebar content -->
             <nav class="bg-light sidebar h-100">
-              <div class="position-sticky pt-3">
+              <div class="position-sticky pt-3 h-100">
                 
 
 
 
+<!-- Favorites Section (at the top) -->
+<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITES</h6>
+<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+  <!-- Favorites will be rendered here by JavaScript -->
+</ul>
+<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
+<!-- Main Navigation -->
 <ul class="nav flex-column">
   
     
@@ -332,12 +339,19 @@
 
         <!-- Sidebar for Desktop/Tablet -->
         <nav class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar shadow-sm border-end">
-          <div class="position-sticky pt-3">
+          <div class="position-sticky pt-3 h-100">
             
 
 
 
+<!-- Favorites Section (at the top) -->
+<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITES</h6>
+<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+  <!-- Favorites will be rendered here by JavaScript -->
+</ul>
+<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
+<!-- Main Navigation -->
 <ul class="nav flex-column">
   
     
@@ -613,22 +627,27 @@
     <div class="d-grid gap-2 d-md-block">
         <!-- Print Button -->
         <button class="btn btn-outline-secondary btn-sm me-2" onclick="window.print()" title="Print page">
-            <i class="ri-printer-line"></i> Print
+            <i class="ri-printer-line"></i>
+        </button>
+
+        <!-- Add to Favorites Button -->
+        <button class="btn btn-outline-secondary btn-sm me-2" id="addFavoriteBtn" title="Add to Favorites">
+            <i class="ri-flag-line"></i> <span class="d-none d-md-inline">Add to Favorites</span>
         </button>
 
         <!-- Export to PDF Button -->
         <button class="btn btn-outline-secondary btn-sm me-2" id="exportPdfBtn" title="Export to PDF">
-            <i class="ri-file-pdf-line"></i> PDF
+            <i class="ri-file-pdf-line"></i>
         </button>
 
         <!-- Email Support Button -->
         <a id="emailSupportBtn" class="btn btn-outline-secondary btn-sm me-2" title="Email support">
-            <i class="ri-mail-line"></i> Email support
+            <i class="ri-mail-line"></i>
         </a>
 
         <!-- Share Button -->
         <button class="btn btn-outline-secondary btn-sm" id="sharePageBtn" title="Share page">
-            <i class="ri-share-line"></i> Share
+            <i class="ri-share-line"></i>
         </button>
     </div>
 </div>
@@ -701,6 +720,7 @@
     </script>
     <script src="/theme/assets/js/lightbox.js"></script>
     <script src="/theme/assets/js/article-actions.js"></script>
+    <script src="/theme/assets/js/favorites.js"></script>
     <footer class="sidebar-footer-fixed">
       <p>© 2025 by Navi+ <a href="https://naviplus.io" target="_blank"> Navi+</a></p>
 

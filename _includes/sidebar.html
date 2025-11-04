@@ -4,7 +4,14 @@
 {% endif %}
 {% if current_page_url == "" %}{% assign current_page_url = "/" %}{% endif %}
 
+<!-- Favorites Section (at the top) -->
+<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITES</h6>
+<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+  <!-- Favorites will be rendered here by JavaScript -->
+</ul>
+<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
+<!-- Main Navigation -->
 <ul class="nav flex-column">
   {% for item in site.data.navigation %}
     {% assign item_url_normalized = item.url | remove: 'index.html' | replace: '//', '/' %}
