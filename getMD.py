@@ -14,6 +14,8 @@ SOURCE_BASE_PATH_IN_URL = "/manual/website/help.naviplus.io/" # Base path to str
 OUTPUT_DIR = "_docs"
 TEMP_CONTENT_DIR = "_temp_content" # Renamed for clarity, no longer specific to GitBook
 NAVIGATION_YML_PATH = "_data/navigation.yml"
+NAVBAR_HTML_PATH = "_includes/navbar.html"
+DEFAULT_LAYOUT_HTML_PATH = "_layouts/default.html"
 
 # --- Utility Functions ---
 def clean_directory(path):
@@ -311,6 +313,103 @@ def generate_sidebar_navigation(navigation_data):
     
     print(f"Sidebar navigation generated and saved to {NAVIGATION_YML_PATH}")
 
+def update_jekyll_includes():
+    """Updates Jekyll include files (navbar.html and default.html) to support dynamic nav links."""
+    print("Updating Jekyll include files...")
+
+    # --- Update _includes/navbar.html ---
+    navbar_content = """
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <!-- Offcanvas Toggle for Sidebar (Left) -->
+    <button class="navbar-toggler d-md-none me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="{{ site.baseurl | relative_url }}/">
+      <img src="https://cdn.naviplus.app/naviplus/images/logo-navi-light.png" alt="Navi+ Logo" style="max-height: 30px; width: auto;" class="d-inline-block align-top img-fluid">
+    </a>
+    
+    <!-- Main Navbar Toggle (Right) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="ri-more-2-fill"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto" id="main-navbar-nav-links">
+      </ul>
+    </div>
+  </div>
+</nav>
+    """
+    try:
+        with open(NAVBAR_HTML_PATH, "w", encoding="utf-8") as f:
+            f.write(navbar_content.strip())
+        print(f"✅ Updated {NAVBAR_HTML_PATH}")
+    except Exception as e:
+        print(f"❌ Error updating {NAVBAR_HTML_PATH}: {e}")
+
+    # --- Update _layouts/default.html ---
+    # Read current content to find insertion point
+    default_layout_original_content = ""
+    try:
+        with open(DEFAULT_LAYOUT_HTML_PATH, "r", encoding="utf-8") as f:
+            default_layout_original_content = f.read()
+    except FileNotFoundError:
+        print(f"❌ Error: {DEFAULT_LAYOUT_HTML_PATH} not found. Cannot update dynamic links.")
+        return
+
+    # Define the script to be injected
+    script_to_inject = """
+    <script src="{{ '/theme/assets/js/navbar-links.js' | relative_url }}"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const navLinksContainer = document.getElementById('main-navbar-nav-links');
+        if (navLinksContainer && typeof navbarLinks !== 'undefined') {
+          navbarLinks.forEach(linkData => {
+            const li = document.createElement('li');
+            li.className = 'nav-item';
+            const a = document.createElement('a');
+            a.className = 'nav-link';
+            a.href = linkData.url;
+            a.textContent = linkData.title;
+            if (linkData.external) {
+              a.target = '_blank'; // Corrected target to _blank
+              a.rel = 'noopener';
+            }
+            // Add active class if current page matches
+            const currentPathname = window.location.pathname;
+            const baseUrl = '{{ site.baseurl | relative_url }}'.endsWith('/') ? '{{ site.baseurl | relative_url }}'.slice(0, -1) : '{{ site.baseurl | relative_url }}';
+            const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
+            const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
+
+            if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
+                a.classList.add('active');
+            }
+
+            li.appendChild(a);
+            navLinksContainer.appendChild(li);
+          });
+        }
+      });
+    </script>
+    """
+
+    # Find insertion point: just before </body>
+    insertion_point_regex = r'(\s*<\/body>)'
+    if re.search(insertion_point_regex, default_layout_original_content):
+        updated_default_layout_content = re.sub(insertion_point_regex, script_to_inject.strip() + r'\n\1', default_layout_original_content, 1)
+        try:
+            with open(DEFAULT_LAYOUT_HTML_PATH, "w", encoding="utf-8") as f:
+                f.write(updated_default_layout_content)
+            print(f"✅ Updated {DEFAULT_LAYOUT_HTML_PATH} with dynamic nav links script.")
+        except Exception as e:
+            print(f"❌ Error writing to {DEFAULT_LAYOUT_HTML_PATH}: {e}")
+    else:
+        print(f"❌ Could not find insertion point in {DEFAULT_LAYOUT_HTML_PATH}. Dynamic links script not added.")
+
+    print("Jekyll include files updated.")
+
 def main():
     """Orchestrates the entire process of downloading and preparing content."""
     clear_old_data()
@@ -341,6 +440,9 @@ def main():
 
         # 5. Generate _data/navigation.yml from the parsed structure
         generate_sidebar_navigation(navigation_structure)
+        
+        # 6. Update Jekyll include files for dynamic navbar links
+        update_jekyll_includes()
 
     else:
         print("Failed to download main navigation Markdown content. Aborting.")

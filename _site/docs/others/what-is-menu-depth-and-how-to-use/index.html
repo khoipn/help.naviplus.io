@@ -55,19 +55,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://naviplus.io/demo" target="_blank" rel="noopener">Live demo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://naviplus.io/pricing" target="_blank" rel="noopener">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://naviplus.io/install" target="_blank" rel="noopener">Free install Navi+</a>
-        </li>
+      <ul class="navbar-nav ms-auto" id="main-navbar-nav-links">
       </ul>
     </div>
   </div>
@@ -635,5 +623,38 @@
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="/theme/assets/js/sidebar.js"></script>
+    <script src="/theme/assets/js/navbar-links.js"></script> <!-- New: Include navbar-links.js -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const navLinksContainer = document.getElementById('main-navbar-nav-links');
+        if (navLinksContainer && typeof navbarLinks !== 'undefined') {
+          navbarLinks.forEach(linkData => {
+            const li = document.createElement('li');
+            li.className = 'nav-item';
+            const a = document.createElement('a');
+            a.className = 'nav-link';
+            a.href = linkData.url;
+            a.textContent = linkData.title;
+            if (linkData.external) {
+              a.target = '_';
+              a.rel = 'noopener';
+            }
+            // Add active class if current page matches
+            // Need to handle site.baseurl if it's not empty
+            const currentPathname = window.location.pathname;
+            const baseUrl = ''.endsWith('/') ? ''.slice(0, -1) : '';
+            const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
+            const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
+
+            if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
+                a.classList.add('active');
+            }
+
+            li.appendChild(a);
+            navLinksContainer.appendChild(li);
+          });
+        }
+      });
+    </script>
   </body>
 </html>
