@@ -5,7 +5,7 @@ description: 'Navi+ offers a trial package with nearly full features for all web
   automatically be flagged for an upgrade. We will take the following actions:'
 layout: default
 permalink: /docs/others/navi-service-plan-policies-starter-business-and-elite/
-title: Navi+ service plan policies. (Starter, Business & Elite)
+title: Navi+ Service Plan Policies. Starter Business And Elite
 ---
 # Navi+ service plan policies. (Starter, Business & Elite)
 

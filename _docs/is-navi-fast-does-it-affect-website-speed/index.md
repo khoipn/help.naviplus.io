@@ -3,7 +3,7 @@ description: 'One of the biggest concerns users often have when using Navi+ is: 
   Navi+ fast enough? Does it significantly affect the website''s speed?'
 layout: default
 permalink: /docs/is-navi-fast-does-it-affect-website-speed/
-title: Is Navi+ fast? Does it affect website speed?
+title: Is Navi+ Fast Does It Affect Website Speed
 ---
 # Is Navi+ fast? Does it affect website speed?
 
@@ -11,7 +11,7 @@ One of the biggest concerns users often have when using Navi+ is: Is Navi+ fast 
 
 Navi+ understands that navigation is always the most important aspect of a website's experience. Navigation is a UI component that always needs to be the fastest and most stable since it directly impacts user interactions, leading to user decisions in making purchases. And in reality, Navi+ runs very quickly and stably, as evidenced by the following:
 
-A. Currently, Navi+ handles millions of requests daily across all customer websites without any decrease in speed. According to the statistics below, in July 2024, Navi+ received over 1 million requests, 10GB of bandwidth, and over 100,000 clicks were handled daily. To achieve this, Navi+ is built on the most advanced technology platforms, with the entire backend infrastructure hosted on [AWS](https://aws.amazon.com/), and all front-end resources distributed on [AWS-S3](https://help.shopifas.com/manual/faqs/others/why-navi-not-display) and [BUNNY-CDN](https://bunny.net/)'s Content Delivery Network. This strict separation between platforms ensures that the Navi+ application on your website is protected in multiple layers: Display on the website will not be affected when the backend undergoes upgrades or encounters issues. Similarly, the overall website display will not be affected if Navi+ is impacted. These occurrences are extremely rare (approximately 0.0001%) due to operating on the highest-end platforms.
+A. Currently, Navi+ handles millions of requests daily across all customer websites without any decrease in speed. According to the statistics below, in July 2024, Navi+ received over 1 million requests, 10GB of bandwidth, and over 100,000 clicks were handled daily. To achieve this, Navi+ is built on the most advanced technology platforms, with the entire backend infrastructure hosted on [AWS](https://aws.amazon.com/ "AWS"), and all front-end resources distributed on [AWS-S3](https://help.shopifas.com/manual/faqs/others/why-navi-not-display "AWS-S3") and [BUNNY-CDN](https://bunny.net/ "BUNNY-CDN")'s Content Delivery Network. This strict separation between platforms ensures that the Navi+ application on your website is protected in multiple layers: Display on the website will not be affected when the backend undergoes upgrades or encounters issues. Similarly, the overall website display will not be affected if Navi+ is impacted. These occurrences are extremely rare (approximately 0.0001%) due to operating on the highest-end platforms.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fk5HvU4QiycM8ZVNbcGWF%2FScreenshot%202024-07-03%20at%2009.17.11.png?alt=media&#x26;token=66ae769d-8392-4e38-b5ca-361d693fac78" alt=""><figcaption></figcaption></figure>
 

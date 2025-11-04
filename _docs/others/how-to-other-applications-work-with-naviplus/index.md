@@ -2,19 +2,19 @@
 description: In many cases, you'll need to use multiple applications embedded on your
   website. This can make an usual usability issue as interface elements may overlap
   (see the picture below). A simple example is when you frequently use a chat application
-  like [Shopify Inbox ](https://www.shopify.com/vn/inbox)or WhatsApp. Typically, these
-  chat apps occupy a prominent position at the bottom right corner of the phone screen.
-  When you decide to use Navi+ to significantly enhance navigation on your website,
-  this issue arises. Here are some ways to address this problem.
+  like [Shopify Inbox ](https://www.shopify.com/vn/inbox "Shopify Inbox ")or WhatsApp.
+  Typically, these chat apps occupy a prominent position at the bottom right corner
+  of the phone screen. When you decide to use Navi+ to significantly enhance navigation
+  on your website, this issue arises. Here are some ways to address this problem.
 layout: default
 permalink: /docs/others/how-to-other-applications-work-with-naviplus/
-title: How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
+title: How To Other Applications Work With Naviplus
 ---
 # How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
 
 ### Why this will be an issue?
 
-In many cases, you'll need to use multiple applications embedded on your website. This can make an usual usability issue as interface elements may overlap (see the picture below). A simple example is when you frequently use a chat application like [Shopify Inbox ](https://www.shopify.com/vn/inbox)or WhatsApp. Typically, these chat apps occupy a prominent position at the bottom right corner of the phone screen. When you decide to use Navi+ to significantly enhance navigation on your website, this issue arises. Here are some ways to address this problem.
+In many cases, you'll need to use multiple applications embedded on your website. This can make an usual usability issue as interface elements may overlap (see the picture below). A simple example is when you frequently use a chat application like [Shopify Inbox ](https://www.shopify.com/vn/inbox "Shopify Inbox ")or WhatsApp. Typically, these chat apps occupy a prominent position at the bottom right corner of the phone screen. When you decide to use Navi+ to significantly enhance navigation on your website, this issue arises. Here are some ways to address this problem.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fdccbwi5aXf4XvOxYGIvU%2FFrame%201.png?alt=media&#x26;token=c953f4d5-442c-486d-9493-90490ffd309f" alt=""><figcaption></figcaption></figure>
 

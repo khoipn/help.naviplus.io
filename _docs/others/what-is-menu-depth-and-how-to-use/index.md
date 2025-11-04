@@ -8,7 +8,7 @@ description: The default depth support for the Navi+ menu is 2 for the Starter p
   to access your services and products.
 layout: default
 permalink: /docs/others/what-is-menu-depth-and-how-to-use/
-title: What is Menu depth and how to use?
+title: What Is Menu Depth And How To Use
 ---
 # What is Menu depth and how to use?
 

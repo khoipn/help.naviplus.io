@@ -3,7 +3,7 @@ description: 'Navi+ helps you save a lot of time and money. Discover what Navi+ 
   do for you:'
 layout: default
 permalink: /docs/why-can-navi-help-you-save-money/
-title: Why can Navi+ help you save money?
+title: Why Can Navi+ Help You Save Money
 ---
 # Why can Navi+ help you save money?
 

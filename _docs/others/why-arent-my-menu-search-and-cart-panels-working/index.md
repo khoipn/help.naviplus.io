@@ -1,24 +1,27 @@
 ---
 description: 'Navi+ supports various Menu, Search, and Cart panels on popular themes:
-  Most free Shopify themes ([Dawn](https://themes.shopify.com/themes/dawn/styles/default),
-  [Spotlight](https://themes.shopify.com/themes/spotlight/styles/default), [Sense](https://themes.shopify.com/themes/sense/styles/default),
-  [Refresh](https://themes.shopify.com/themes/refresh/styles/default), [Craft](https://themes.shopify.com/themes/craft/styles/default)),
-  and several popular premium themes such as [Impulse](https://themes.shopify.com/themes/impulse/styles/modern),
-  [Tailor](https://themes.shopify.com/themes/tailor/styles/cotton), [Warehouse](https://themes.shopify.com/themes/warehouse/styles/metal),
-  [Pipeline](https://themes.shopify.com/themes/pipeline/styles/bright), [Empire](https://themes.shopify.com/themes/empire/styles/supply),
-  [Enterprise](https://themes.shopify.com/themes/enterprise/styles/active), [Local](https://themes.shopify.com/themes/local/styles/light),
-  [Avenue](https://themes.shopify.com/themes/avenue/styles/casual)... This support
-  is demonstrated by displaying the theme''s panels when your customers click on the
-  Menu, Search, and Cart items, instead of redirecting to a corresponding page. This
-  provides a seamless and optimized experience as it avoids page reloads, which can
-  interrupt the customer experience.'
+  Most free Shopify themes ([Dawn](https://themes.shopify.com/themes/dawn/styles/default
+  "Dawn"), [Spotlight](https://themes.shopify.com/themes/spotlight/styles/default
+  "Spotlight"), [Sense](https://themes.shopify.com/themes/sense/styles/default "Sense"),
+  [Refresh](https://themes.shopify.com/themes/refresh/styles/default "Refresh"), [Craft](https://themes.shopify.com/themes/craft/styles/default
+  "Craft")), and several popular premium themes such as [Impulse](https://themes.shopify.com/themes/impulse/styles/modern
+  "Impulse"), [Tailor](https://themes.shopify.com/themes/tailor/styles/cotton "Tailor"),
+  [Warehouse](https://themes.shopify.com/themes/warehouse/styles/metal "Warehouse"),
+  [Pipeline](https://themes.shopify.com/themes/pipeline/styles/bright "Pipeline"),
+  [Empire](https://themes.shopify.com/themes/empire/styles/supply "Empire"), [Enterprise](https://themes.shopify.com/themes/enterprise/styles/active
+  "Enterprise"), [Local](https://themes.shopify.com/themes/local/styles/light "Local"),
+  [Avenue](https://themes.shopify.com/themes/avenue/styles/casual "Avenue")... This
+  support is demonstrated by displaying the theme''s panels when your customers click
+  on the Menu, Search, and Cart items, instead of redirecting to a corresponding page.
+  This provides a seamless and optimized experience as it avoids page reloads, which
+  can interrupt the customer experience.'
 layout: default
 permalink: /docs/others/why-arent-my-menu-search-and-cart-panels-working/
-title: Why aren't my Menu, Search, and Cart (panels) working?
+title: Why Arent My Menu Search And Cart Panels Working
 ---
 # Why aren't my Menu, Search, and Cart (panels) working?
 
-Navi+ supports various Menu, Search, and Cart panels on popular themes: Most free Shopify themes ([Dawn](https://themes.shopify.com/themes/dawn/styles/default), [Spotlight](https://themes.shopify.com/themes/spotlight/styles/default), [Sense](https://themes.shopify.com/themes/sense/styles/default), [Refresh](https://themes.shopify.com/themes/refresh/styles/default), [Craft](https://themes.shopify.com/themes/craft/styles/default)), and several popular premium themes such as [Impulse](https://themes.shopify.com/themes/impulse/styles/modern), [Tailor](https://themes.shopify.com/themes/tailor/styles/cotton), [Warehouse](https://themes.shopify.com/themes/warehouse/styles/metal), [Pipeline](https://themes.shopify.com/themes/pipeline/styles/bright), [Empire](https://themes.shopify.com/themes/empire/styles/supply), [Enterprise](https://themes.shopify.com/themes/enterprise/styles/active), [Local](https://themes.shopify.com/themes/local/styles/light), [Avenue](https://themes.shopify.com/themes/avenue/styles/casual)... This support is demonstrated by displaying the theme's panels when your customers click on the Menu, Search, and Cart items, instead of redirecting to a corresponding page. This provides a seamless and optimized experience as it avoids page reloads, which can interrupt the customer experience.
+Navi+ supports various Menu, Search, and Cart panels on popular themes: Most free Shopify themes ([Dawn](https://themes.shopify.com/themes/dawn/styles/default "Dawn"), [Spotlight](https://themes.shopify.com/themes/spotlight/styles/default "Spotlight"), [Sense](https://themes.shopify.com/themes/sense/styles/default "Sense"), [Refresh](https://themes.shopify.com/themes/refresh/styles/default "Refresh"), [Craft](https://themes.shopify.com/themes/craft/styles/default "Craft")), and several popular premium themes such as [Impulse](https://themes.shopify.com/themes/impulse/styles/modern "Impulse"), [Tailor](https://themes.shopify.com/themes/tailor/styles/cotton "Tailor"), [Warehouse](https://themes.shopify.com/themes/warehouse/styles/metal "Warehouse"), [Pipeline](https://themes.shopify.com/themes/pipeline/styles/bright "Pipeline"), [Empire](https://themes.shopify.com/themes/empire/styles/supply "Empire"), [Enterprise](https://themes.shopify.com/themes/enterprise/styles/active "Enterprise"), [Local](https://themes.shopify.com/themes/local/styles/light "Local"), [Avenue](https://themes.shopify.com/themes/avenue/styles/casual "Avenue")... This support is demonstrated by displaying the theme's panels when your customers click on the Menu, Search, and Cart items, instead of redirecting to a corresponding page. This provides a seamless and optimized experience as it avoids page reloads, which can interrupt the customer experience.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsiEnx7Oa20rt2iWi669a%2Fmenu-search-panel.webp?alt=media&#x26;token=064c033a-4270-4550-ac33-f1a6fdecc7ff" alt=""><figcaption></figcaption></figure>
 

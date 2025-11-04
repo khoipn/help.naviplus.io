@@ -2,7 +2,7 @@
 description: 'To display the Navi+ menu on your website, there are two clear options:'
 layout: default
 permalink: /docs/others/why-navi-not-display/
-title: Why is Navi+ menu not displayed on my website?
+title: Why Navi Not Display
 ---
 # Why is Navi+ menu not displayed on my website?
 

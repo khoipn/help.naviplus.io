@@ -200,9 +200,12 @@ def parse_navigation_markdown(markdown_content, base_url):
 
 def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     """
-    Processes Markdown content (adds front matter) and saves it to the _docs structure.
+    Processes Markdown content (adds front matter, SEO for images/links) and saves it.
     original_url is used to derive the permalink and output path.
     """
+    # Apply SEO enhancements first
+    processed_seo_md_content = add_image_and_link_seo_attributes(raw_md_content)
+
     parsed_url = urlparse(original_url)
     # The part of the path after '/manual/website/help.naviplus.io/'
     # This gives us the relative path like "how/optimize-navi+-menu-loading-speed-slide-and-mega-menus.md"
@@ -235,11 +238,11 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     print(f"  -> Processing and saving to: {final_output_path} (Permalink: {jekyll_permalink})")
 
     # Extract title from H1 or fallback
-    title_match = re.search(r'^#\s*(.+)', raw_md_content, re.MULTILINE)
+    title_match = re.search(r'^#\\s*(.+)', processed_seo_md_content, re.MULTILINE)
     title = title_match.group(1).strip() if title_match else os.path.basename(file_slug.replace('-', ' ')).title()
 
     # Extract description from the first paragraph, or use a default
-    description_match = re.search(r'^(?!#).*?([^#\n]+)', raw_md_content, re.MULTILINE)
+    description_match = re.search(r'^(?!#).*?([^#\n]+)', processed_seo_md_content, re.MULTILINE)
     description = description_match.group(1).strip() if description_match else f"Documentation for {title}"
 
     front_matter = {
@@ -250,7 +253,7 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     }
     front_matter_str = yaml.dump(front_matter, allow_unicode=True, default_flow_style=False)
     
-    final_content = f"---\n{front_matter_str}---\n{raw_md_content}"
+    final_content = f"---\n{front_matter_str}---\n{processed_seo_md_content}"
 
     with open(final_output_path, 'w', encoding='utf-8') as f:
         f.write(final_content)
@@ -334,6 +337,62 @@ def generate_sidebar_navigation(navigation_data):
         yaml.dump(navigation_data, f, allow_unicode=True, indent=2)
     
     print(f"Sidebar navigation generated and saved to {NAVIGATION_YML_PATH}")
+
+def add_image_and_link_seo_attributes(markdown_content):
+    """Adds alt and title attributes to images, and title attributes to links if missing."""
+    print("Applying SEO attributes to images and links...")
+
+    def process_image_match(match):
+        full_match = match.group(0)
+        alt_text = match.group('alt')
+        image_src = match.group('src')
+        existing_title = match.group('title') # Can be None if no title found
+
+        # Infer alt text if missing or empty
+        if not alt_text:
+            # Try to get alt from filename
+            filename = os.path.basename(image_src).split('.')[0] if image_src else "image"
+            alt_text = filename.replace('-', ' ').title()
+
+        # Infer title attribute if missing
+        new_title_attr = existing_title
+        if not new_title_attr:
+            new_title_attr = alt_text # Use alt text as title if title is missing
+        
+        # Reconstruct the image tag with guaranteed alt and title
+        # Ensure title is properly quoted if it contains spaces or special chars
+        return f'![{alt_text}]({image_src} "{new_title_attr}")'
+
+    # Regex for images: ![alt](src "title") or ![alt](src)
+    # This is a bit complex due to optional title and potentially empty alt
+    # (?P<alt>[^\]]*) captures alt text (can be empty)
+    # (?P<src>[^)\s]+) captures src (cannot contain space before title)
+    # (?:\s+\"(?P<title>[^\"]*)\")? captures optional title in double quotes
+    image_pattern = re.compile(r'!\[(?P<alt>[^\]]*)\]\((?P<src>[^)\s]+)(?:\s+\"(?P<title>[^\"]*)\")?\)')
+    markdown_content = image_pattern.sub(process_image_match, markdown_content)
+
+
+    def process_link_match(match):
+        full_match = match.group(0)
+        link_text = match.group('text')
+        link_url = match.group('url')
+        existing_title = match.group('title') # Can be None if no title found
+
+        new_title_attr = existing_title
+        if not new_title_attr: 
+            new_title_attr = link_text # Use link text as title if title is missing
+
+        return f'[{link_text}]({link_url} "{new_title_attr}")'
+
+    # Regex for links: [text](url "title") or [text](url)
+    # (?P<text>[^\]]+) captures link text
+    # (?P<url>[^)\s]+) captures URL
+    # (?:\s+\"(?P<title>[^\"]*)\")? captures optional title in double quotes
+    link_pattern = re.compile(r'\[(?P<text>[^\]]+)\]\((?P<url>[^)\s]+)(?:\s+\"(?P<title>[^\"]*)\")?\)')
+    markdown_content = link_pattern.sub(process_link_match, markdown_content)
+
+    print("SEO attributes applied.")
+    return markdown_content
 
 def main():
     """Orchestrates the entire process of downloading and preparing content."""
