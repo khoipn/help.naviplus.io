@@ -25,10 +25,17 @@
   }
 }
 
+.navbar-brand img {
+  margin: 0px;
+  border-radius: 0px;
+  border: 0px;
+}
+
 .sidebar .nav-link {
   font-weight: 400;
   color: #586069; /* GitBook like link color */
   padding: .3rem 1rem;
+  font-size: 14px;
 }
 
 .sidebar .nav-link:hover {
@@ -94,7 +101,7 @@ footer {
 
 /* Ensure images are responsive */
 img {
-  max-width: 920px;
+  max-width: 100%;
   height: auto;
   display: block; /* Remove extra space below images */
   margin: 1.5em 0;
@@ -112,11 +119,11 @@ img {
     margin-bottom: 0.30em;
   }
 
-  h1 { font-size: 1.80em; }
-  h2 { font-size: 1.55em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
-  h3 { font-size: 1.3em; }
-  h4 { font-size: 1.15em; }
-  h5 { font-size: 1em; }
+  h1 { font-size: 1.60em; }
+  h2 { font-size: 1.45em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+  h3 { font-size: 1.2em; }
+  h4 { font-size: 1.10em; }
+  h5 { font-size: 0.9em; }
   h6 { font-size: 0.875em; color: #6a737d; }
 
   p {
@@ -287,20 +294,4 @@ figure figcaption {
   font-family: "Remixicon"; /* Use Remixicon font */
   color: #fff; /* White color for the icon */
   font-size: 1.5rem; /* Adjust size as needed */
-}
-
-/* Separator line style */
-.sidebar-separator-line {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0; /* Adjust vertical spacing as needed */
-}
-
-.sidebar-separator-line .sidebar-separator-content {
-  border-top: 1px solid #dee2e6; /* Light gray line, adjust color as needed */
-  height: 0;
-  margin: 0 1rem; /* Horizontal padding */
-  /* If there's any text inside, make sure it's not visible */
-  font-size: 0; 
-  line-height: 0;
 }
