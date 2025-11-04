@@ -5,18 +5,25 @@
 /* Custom styles for sidebar */
 .sidebar {
   position: fixed;
-  top: 0;
+  top: var(--navbar-height); /* Align sidebar below fixed navbar */
   bottom: 0;
   left: 0;
   z-index: 100; /* Behind the navbar */
-  padding: 48px 0 0; /* Height of navbar */
+  padding: 0; /* Remove padding here as Offcanvas has its own padding */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
   overflow-y: auto; /* Enable scrolling for long content */
 }
 
 @media (max-width: 767.98px) {
   .sidebar {
-    top: 5rem; /* Adjust for larger navbar on small screens */
+    top: 0; /* Offcanvas takes full height on mobile */
+  }
+  .sidebar-offcanvas.offcanvas {
+    width: 250px; /* Adjust Offcanvas width on mobile */
+  }
+  /* Push main content to the right when offcanvas is open */
+  body.offcanvas-active main {
+    transform: translateX(250px);
   }
 }
 
@@ -60,28 +67,15 @@ body {
   line-height: 1.5;
 }
 
-.sidebar {
-  background-color: #f8f9fa; /* Revert to light sidebar */
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-}
-
-.sidebar .nav-link {
-  color: #586069; /* Revert to default link color */
-}
-
-.sidebar .nav-link.active {
-  color: #0366d6 !important; /* Keep original active color */
-  border-left-color: #0366d6 !important;
-  background-color: transparent !important; /* Keep transparent */
-}
-
-.sidebar .nav-link:hover {
-  background-color: #f6f8fa !important; /* Revert to default hover background */
-}
-
-/* Main content padding */
+/* Main Content adjustment */
 main {
-  padding-top: 1rem;
+  padding-top: 1rem; /* Keep existing padding-top for main */
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-left: calc(var(--sidebar-width)); /* Adjust for desktop sidebar width */
+  }
 }
 
 header {
@@ -102,7 +96,7 @@ footer {
 
 /* Ensure images are responsive */
 img {
-  max-width: 100%;
+  max-width: 920px;
   height: auto;
   display: block; /* Remove extra space below images */
   margin: 1.5em 0;
@@ -114,22 +108,22 @@ img {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     font-weight: 600;
     line-height: 1.25;
-    margin-top: 1.5em;
-    margin-bottom: 0.75em;
+    margin-top: 0.3em;
+    margin-bottom: 0.35em;
   }
 
-  h1 { font-size: 2.25em; }
-  h2 { font-size: 1.75em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
-  h3 { font-size: 1.5em; }
-  h4 { font-size: 1.25em; }
+  h1 { font-size: 2.00em; }
+  h2 { font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+  h3 { font-size: 1.3em; }
+  h4 { font-size: 1.15em; }
   h5 { font-size: 1em; }
   h6 { font-size: 0.875em; color: #6a737d; }
 
   p {
     margin-top: 0;
     margin-bottom: 1em;
-    font-size: 1em;
-    line-height: 1.6;
+    font-size: 0.9em;
+    line-height: 1.45;
   }
 
   a {
@@ -226,7 +220,7 @@ figure figcaption {
     /* Gap between line end and icon start = 8px */
     /* Icon start: 24px + 20px + 8px = 52px */
     /* So, padding-left should be 52px */
-    padding-left: 52px !important; 
+    padding-left: 42px !important; 
     display: block; /* Make it a block to properly contain content and padding */
 }
 
@@ -242,8 +236,8 @@ figure figcaption {
     content: "";
     position: absolute;
     left: calc(1rem + 8px); /* Bắt đầu từ vị trí của đường kẻ ngang */
-    top: 20px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
-    height: calc(100% - 20px + 10px); /* Kéo dài xuống để nối với đường kẻ ngang tiếp theo */
+    top: 12px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
+    height: calc(100% - 20px + 20px); /* Kéo dài xuống để nối với đường kẻ ngang tiếp theo */
     width: 1px;
     background-color: #e0e0e0; /* Màu của đường kẻ */
     z-index: 0; /* Đảm bảo đường kẻ nằm dưới link */
@@ -254,8 +248,8 @@ figure figcaption {
     content: "";
     position: absolute;
     left: calc(1rem + 8px); /* Bắt đầu từ đường kẻ dọc */
-    top: 20px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
-    width: 20px; /* Chiều rộng đường kẻ ngang */
+    top: 12px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
+    width: 10px; /* Chiều rộng đường kẻ ngang */
     height: 1px;
     background-color: #e0e0e0; /* Màu của đường kẻ */
     z-index: 0; /* Đảm bảo đường kẻ nằm dưới link */
@@ -265,10 +259,24 @@ figure figcaption {
 .sidebar .nav-link.active {
     color: #0366d6 !important; /* Giữ nguyên màu chữ */
     background-color: transparent !important; /* Loại bỏ background mặc định để không che dây nối */
-    font-weight: 600 !important; /* Giữ nguyên độ đậm */
 }
 
 /* Điều chỉnh màu background hover để không che đường kẻ */
 .sidebar .nav-link:hover {
     background-color: rgba(230, 247, 255, 0.3) !important; /* Màu nhạt hơn với độ trong suốt */
+}
+
+/* Custom Toggler Icon for Main Navigation (three dots) */
+.navbar-toggler.custom-more-toggler .navbar-toggler-icon {
+  background-image: none; /* Remove default hamburger icon */
+  display: flex; /* Use flex to center custom icon */
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-toggler.custom-more-toggler .navbar-toggler-icon::after {
+  content: "\ed6d"; /* Unicode for ri-more-2-fill icon */
+  font-family: "Remixicon"; /* Use Remixicon font */
+  color: #fff; /* White color for the icon */
+  font-size: 1.5rem; /* Adjust size as needed */
 }

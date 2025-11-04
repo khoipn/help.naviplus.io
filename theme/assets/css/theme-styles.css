@@ -5,18 +5,25 @@
 /* Custom styles for sidebar */
 .sidebar {
   position: fixed;
-  top: 0;
+  top: var(--navbar-height); /* Align sidebar below fixed navbar */
   bottom: 0;
   left: 0;
   z-index: 100; /* Behind the navbar */
-  padding: 48px 0 0; /* Height of navbar */
+  padding: 0; /* Remove padding here as Offcanvas has its own padding */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
   overflow-y: auto; /* Enable scrolling for long content */
 }
 
 @media (max-width: 767.98px) {
   .sidebar {
-    top: 5rem; /* Adjust for larger navbar on small screens */
+    top: 0; /* Offcanvas takes full height on mobile */
+  }
+  .sidebar-offcanvas.offcanvas {
+    width: 250px; /* Adjust Offcanvas width on mobile */
+  }
+  /* Push main content to the right when offcanvas is open */
+  body.offcanvas-active main {
+    transform: translateX(250px);
   }
 }
 
@@ -60,28 +67,15 @@ body {
   line-height: 1.5;
 }
 
-.sidebar {
-  background-color: #f8f9fa; /* Revert to light sidebar */
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-}
-
-.sidebar .nav-link {
-  color: #586069; /* Revert to default link color */
-}
-
-.sidebar .nav-link.active {
-  color: #0366d6 !important; /* Keep original active color */
-  border-left-color: #0366d6 !important;
-  background-color: transparent !important; /* Keep transparent */
-}
-
-.sidebar .nav-link:hover {
-  background-color: #f6f8fa !important; /* Revert to default hover background */
-}
-
-/* Main content padding */
+/* Main Content adjustment */
 main {
-  padding-top: 1rem;
+  padding-top: 1rem; /* Keep existing padding-top for main */
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-left: calc(var(--sidebar-width)); /* Adjust for desktop sidebar width */
+  }
 }
 
 header {
@@ -271,4 +265,19 @@ figure figcaption {
 /* Điều chỉnh màu background hover để không che đường kẻ */
 .sidebar .nav-link:hover {
     background-color: rgba(230, 247, 255, 0.3) !important; /* Màu nhạt hơn với độ trong suốt */
+}
+
+/* Custom Toggler Icon for Main Navigation (three dots) */
+.navbar-toggler.custom-more-toggler .navbar-toggler-icon {
+  background-image: none; /* Remove default hamburger icon */
+  display: flex; /* Use flex to center custom icon */
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-toggler.custom-more-toggler .navbar-toggler-icon::after {
+  content: "\ed6d"; /* Unicode for ri-more-2-fill icon */
+  font-family: "Remixicon"; /* Use Remixicon font */
+  color: #fff; /* White color for the icon */
+  font-size: 1.5rem; /* Adjust size as needed */
 }

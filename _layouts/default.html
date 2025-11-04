@@ -7,15 +7,31 @@
     {% include navbar.html %}
     <div class="container-fluid flex-grow-1">
       <div class="row">
-        <!-- Sidebar for Sitemap -->
-        <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar shadow-sm border-end">
+        <!-- Offcanvas Sidebar for Mobile -->
+        <div class="offcanvas offcanvas-start bg-light sidebar-offcanvas d-md-none" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
+          <div class="offcanvas-header shadow-sm border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasSidebarLabel">{{ site.title }}</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <!-- Sidebar content -->
+            <nav class="bg-light sidebar h-100">
+              <div class="position-sticky pt-3">
+                {% include sidebar.html %}
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Sidebar for Desktop/Tablet -->
+        <nav class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar shadow-sm border-end">
           <div class="position-sticky pt-3">
             {% include sidebar.html %}
           </div>
         </nav>
 
         <!-- Main Content -->
-        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
+        <main class="col-12 col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
           
           <div class="content-wrapper">
             {{ content }}
