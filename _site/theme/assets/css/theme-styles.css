@@ -30,6 +30,8 @@
   margin: 0px;
   border-radius: 0px;
   border: 0px;
+  max-height: 38px; /* Set max-height for the logo */
+  width: auto; /* Ensure width adjusts proportionally */
 }
 
 .sidebar .nav-link {
@@ -128,6 +130,22 @@ footer {
     width: calc(var(--sidebar-width) - 1px); /* Match sidebar width, minus border */
     /* Adjust based on your sidebar's actual width */
   }
+}
+
+.bg-dark {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 15px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .nav-link{
+  color: #212121;
+  font-size: 14px;
 }
 
 /* Ensure images are responsive */

@@ -48,7 +48,7 @@
     </button>
 
     <a class="navbar-brand" href="/">
-      <img src="https://cdn.naviplus.app/naviplus/images/logo-navi-light.png" alt="Navi+ Logo" style="max-height: 30px; width: auto;" class="d-inline-block align-top img-fluid">
+      <img src="https://cdn.naviplus.app/naviplus/images/logo-navi-light.png" alt="Navi+ Logo" class="d-inline-block align-top img-fluid">
     </a>
     
     <!-- Main Navbar Toggle (Right) -->
@@ -58,6 +58,7 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto" id="main-navbar-nav-links">
+        <!-- Links will be dynamically loaded here by JavaScript -->
       </ul>
     </div>
   </div>
@@ -614,32 +615,62 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const navLinksContainer = document.getElementById('main-navbar-nav-links');
-        if (navLinksContainer && typeof navbarLinks !== 'undefined') {
-          navbarLinks.forEach(linkData => {
+
+        function createNavbarLinks(links, parentElement) {
+          links.forEach(linkData => {
             const li = document.createElement('li');
             li.className = 'nav-item';
-            const a = document.createElement('a');
-            a.className = 'nav-link';
-            a.href = linkData.url;
-            a.textContent = linkData.title;
-            if (linkData.external) {
-              a.target = '_';
-              a.rel = 'noopener';
-            }
-            // Add active class if current page matches
-            // Need to handle site.baseurl if it's not empty
-            const currentPathname = window.location.pathname;
-            const baseUrl = ''.endsWith('/') ? ''.slice(0, -1) : '';
-            const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
-            const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
 
-            if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
-                a.classList.add('active');
-            }
+            if (linkData.children && linkData.children.length > 0) {
+              // It's a dropdown parent
+              li.classList.add('dropdown');
 
-            li.appendChild(a);
-            navLinksContainer.appendChild(li);
+              const a = document.createElement('a');
+              a.className = 'nav-link dropdown-toggle';
+              a.href = linkData.url; // Parent link can still have a URL
+              a.textContent = linkData.title;
+              a.setAttribute('role', 'button');
+              a.setAttribute('data-bs-toggle', 'dropdown');
+              a.setAttribute('aria-expanded', 'false');
+              if (linkData.external) {
+                a.target = '_';
+                a.rel = 'noopener';
+              }
+              li.appendChild(a);
+
+              const ul = document.createElement('ul');
+              ul.className = 'dropdown-menu';
+              li.appendChild(ul);
+
+              createNavbarLinks(linkData.children, ul); // Recursively create children
+            } else {
+              // It's a regular link
+              const a = document.createElement('a');
+              a.className = 'nav-link';
+              a.href = linkData.url;
+              a.textContent = linkData.title;
+              if (linkData.external) {
+                a.target = '_';
+                a.rel = 'noopener';
+              }
+
+              // Add active class if current page matches
+              const currentPathname = window.location.pathname;
+              const baseUrl = ''.endsWith('/') ? ''.slice(0, -1) : '';
+              const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
+              const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
+
+              if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
+                  a.classList.add('active');
+              }
+              li.appendChild(a);
+            }
+            parentElement.appendChild(li);
           });
+        }
+
+        if (navLinksContainer && typeof navbarLinks !== 'undefined') {
+          createNavbarLinks(navbarLinks, navLinksContainer);
         }
       });
     </script>

@@ -7,7 +7,19 @@ const navbarLinks = [
   {
     title: "Live demo",
     url: "https://naviplus.io/demo",
-    external: true
+    external: true,
+    children: [
+      {
+        title: "Link 1",
+        url: "#link1",
+        external: false
+      },
+      {
+        title: "Link 2",
+        url: "#link2",
+        external: false
+      }
+    ]
   },
   {
     title: "Pricing",
