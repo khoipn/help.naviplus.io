@@ -154,6 +154,7 @@ img {
   width: 100%;
   height: auto;
   display: block; /* Remove extra space below images */
+  cursor: pointer; /* Add pointer cursor for clickable images */
   margin: 1.5em 0;
   border-radius: 8px;
   border: solid 1px #f5f5f5;

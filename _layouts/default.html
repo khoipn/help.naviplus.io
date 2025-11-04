@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     {% include head.html %}
+    <link rel="stylesheet" href="{{ '/theme/assets/css/theme-styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/theme/assets/css/lightbox-styles.css' | relative_url }}">
   </head>
   <body class="d-flex flex-column min-vh-100">
     {% include navbar.html %}
@@ -105,6 +107,7 @@
         }
       });
     </script>
+    <script src="{{ '/theme/assets/js/lightbox.js' | relative_url }}"></script>
     <footer class="sidebar-footer-fixed">
       {% include footer.html %}
     </footer>
