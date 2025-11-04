@@ -76,4 +76,31 @@ Thank you!`
             lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
         });
     }
+
+    // Add Copy to Clipboard functionality for code blocks
+    document.querySelectorAll('pre').forEach(preElement => {
+        const wrapper = document.createElement('div');
+        wrapper.classList.add('code-block-container');
+        preElement.parentNode.insertBefore(wrapper, preElement); // Insert wrapper before pre
+        wrapper.appendChild(preElement); // Move pre inside wrapper
+
+        const copyButton = document.createElement('button');
+        copyButton.classList.add('copy-code-button');
+        copyButton.innerHTML = '<i class="ri-file-copy-line"></i> Copy';
+        wrapper.appendChild(copyButton);
+
+        copyButton.addEventListener('click', () => {
+            const codeToCopy = preElement.querySelector('code') ? preElement.querySelector('code').textContent : preElement.textContent;
+            navigator.clipboard.writeText(codeToCopy).then(() => {
+                copyButton.innerHTML = '<i class="ri-check-line"></i> Copied!';
+                copyButton.classList.add('copied');
+                setTimeout(() => {
+                    copyButton.innerHTML = '<i class="ri-file-copy-line"></i> Copy';
+                    copyButton.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy code:', err);
+            });
+        });
+    });
 });
