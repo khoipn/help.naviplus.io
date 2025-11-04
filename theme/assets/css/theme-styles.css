@@ -24,6 +24,14 @@
     margin-left: 250px; /* Use margin-left to push content */
     transition: none !important; /* No transition for margin-left */
   }
+
+  #offcanvasSidebar {
+    width: 90%;
+  }
+
+  .sidebar {
+    width: 90%;
+  }
 }
 
 .navbar-brand img {
@@ -479,24 +487,31 @@ figure figcaption {
 
 .favorite-item .nav-link {
     display: flex !important;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 1rem; /* Adjust padding to make space for the delete icon */
+    align-items: center !important;
+    justify-content: flex-start !important;
+    padding: .3rem 1rem .3rem 0.5rem !important;
+    color: #212529 !important;
+    background-color: transparent !important;
 }
 
 .favorite-item .nav-link .sidebar-title-text {
-    flex-grow: 1;
+    flex: 1 1 auto;
+    min-width: 0; /* Important for text-overflow to work in flex */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-right: 8px; /* Space before delete icon */
+    width: 200px;
 }
 
 .delete-favorite-icon {
+    flex-shrink: 0; /* Prevent icon from shrinking */
     font-size: 1.1em;
     color: #6a737d;
     cursor: pointer;
     opacity: 0; /* Hidden by default */
     transition: opacity 0.2s ease-in-out;
+    margin-left: auto; /* Push to the right */
 }
 
 .favorite-item:hover .delete-favorite-icon {
@@ -507,31 +522,19 @@ figure figcaption {
     color: #0366d6; /* Highlight active flag */
 }
 
-/* Ensure favorite items are clearly visible */
-.favorite-item .nav-link {
-    padding: .3rem 1rem; /* Add consistent padding */
-    color: #212529; /* Ensure good text color */
-    background-color: transparent; /* Clear any default background */
-}
-
 .favorite-item .nav-link:hover {
-    background-color: #e9ecef; /* Light background on hover */
-    color: #0366d6;
+    background-color: #e9ecef !important;
+    color: #0366d6 !important;
 }
 
 .favorite-item .nav-link.active {
-    color: #0366d6 !important; /* Keep active color */
-    font-weight: 500; /* Make active item bold */
-    border-right: solid 4px #0366d6; /* Active indicator */
-    background-color: transparent !important; /* No background on active */
-}
-
-.favorite-item .sidebar-title-text {
-    margin-right: 5px; /* Space before delete icon */
+    color: #0366d6 !important;
+    font-weight: 500;
+    border-right: solid 4px #0366d6;
+    background-color: transparent !important;
 }
 
 #favoritesList {
   min-height: 50px; /* Ensure there's always some space for the list */
-  display: block; /* Ensure the list is always visible */
-  visibility: visible; /* Ensure the list is always visible */
 }
+
