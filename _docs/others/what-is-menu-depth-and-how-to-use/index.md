@@ -1,10 +1,15 @@
 ---
+description: The default depth support for the Navi+ menu is 2 for the Starter package
+  (free) and increased to 3 for the Business package. In most cases, a depth of 2
+  is sufficient for ordinary needs - And also easy for users as the large depth of
+  the menu can make users lose their way. However, in some cases, for example, you
+  may want to add your entire product catalog structure to the Navi+ menu, in that
+  case, a depth of 3 levels could be a perfect choice, making it easier for your visitors
+  to access your services and products.
 layout: default
-title: What is Menu depth and how to use?
-description: "Learn about Navi+ menu depth, including default levels for Starter and Business packages, and how to utilize 3-level menus for extensive product catalogs."
 permalink: /docs/others/what-is-menu-depth-and-how-to-use/
+title: What is Menu depth and how to use?
 ---
-
 # What is Menu depth and how to use?
 
 The default depth support for the Navi+ menu is 2 for the Starter package (free) and increased to 3 for the Business package. In most cases, a depth of 2 is sufficient for ordinary needs - And also easy for users as the large depth of the menu can make users lose their way. However, in some cases, for example, you may want to add your entire product catalog structure to the Navi+ menu, in that case, a depth of 3 levels could be a perfect choice, making it easier for your visitors to access your services and products.

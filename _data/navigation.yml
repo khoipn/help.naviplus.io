@@ -1,33 +1,52 @@
-- title: Why can Navi+ help you save money?
-  url: /docs/why-can-navi+-help-you-save-money/
-- title: Is Navi+ fast? Does it affect website speed?
-  url: /docs/is-navi+-fast-does-it-affect-website-speed/
-- title: How?
+- processed_path: why-can-navi-help-you-save-money
+  title: Why can Navi+ help you save money?
+  url: /docs/why-can-navi-help-you-save-money/
+- processed_path: is-navi-fast-does-it-affect-website-speed
+  title: Is Navi+ fast? Does it affect website speed?
+  url: /docs/is-navi-fast-does-it-affect-website-speed/
+- processed_path: line
+  title: line
+  url: /docs/line/
+- children:
+  - processed_path: how/optimize-navi-menu-loading-speed-slide-and-mega-menus
+    title: Optimize Navi+ menu loading speed (Slide & Mega menus)
+    url: /docs/how/optimize-navi-menu-loading-speed-slide-and-mega-menus/
+  - processed_path: how/preventing-image-compression-in-navi
+    title: Preventing image compression in Navi+
+    url: /docs/how/preventing-image-compression-in-navi/
+  - processed_path: how/prevent-image-compression-when-uploading-with-navi
+    title: Prevent image compression when uploading with Navi+
+    url: /docs/how/prevent-image-compression-when-uploading-with-navi/
+  processed_path: how
+  title: How?
   url: /docs/how/
-  children:
-    - title: Optimize Navi+ menu loading speed (Slide & Mega menus)
-      url: /docs/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus/
-    - title: Preventing image compression in Navi+
-      url: /docs/how/preventing-image-compression-in-navi+/
-    - title: Prevent image compression when uploading with Navi+
-      url: /docs/how/prevent-image-compression-when-uploading-with-navi+/
-- title: For developers
+- children:
+  - processed_path: for-developers/how-to-write-a-correct-css-code-in-navi
+    title: How to write a correct CSS code in Navi+
+    url: /docs/for-developers/how-to-write-a-correct-css-code-in-navi/
+  processed_path: for-developers
+  title: For developers
   url: /docs/for-developers/
-  children:
-    - title: How to write a correct CSS code in Navi+
-      url: /docs/for-developers/how-to-write-a-correct-css-code-in-navi+/
-- title: Others
+- children:
+  - children:
+    - processed_path: others/how-to-other-applications-work-with-naviplus/how-to-add-navi-to-separate-page-theme-session
+      title: How to add Navi+ to a separate page through Theme Session
+      url: /docs/others/how-to-other-applications-work-with-naviplus/how-to-add-navi-to-separate-page-theme-session/
+    - processed_path: others/how-to-other-applications-work-with-naviplus/why-navi-not-display
+      title: Why is Navi+ menu not displayed on my website?
+      url: /docs/others/how-to-other-applications-work-with-naviplus/why-navi-not-display/
+    processed_path: others/how-to-other-applications-work-with-naviplus
+    title: How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
+    url: /docs/others/how-to-other-applications-work-with-naviplus/
+  - processed_path: others/what-is-menu-depth-and-how-to-use
+    title: What is Menu depth and how to use?
+    url: /docs/others/what-is-menu-depth-and-how-to-use/
+  - processed_path: others/navi-service-plan-policies-starter-business-and-elite
+    title: Navi+ service plan policies. (Starter, Business & Elite)
+    url: /docs/others/navi-service-plan-policies-starter-business-and-elite/
+  - processed_path: others/why-arent-my-menu-search-and-cart-panels-working
+    title: Why aren't my Menu, Search, and Cart (panels) working?
+    url: /docs/others/why-arent-my-menu-search-and-cart-panels-working/
+  processed_path: others
+  title: Others
   url: /docs/others/
-  children:
-    - title: How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
-      url: /docs/others/how-to-other-applications-work-with-naviplus/
-    - title: How to add Navi+ to a separate page through Theme Session
-      url: /docs/others/how-to-add-navi-to-separate-page-theme-session/
-    - title: Why is Navi+ menu not displayed on my website?
-      url: /docs/others/why-navi-not-display/
-    - title: What is Menu depth and how to use?
-      url: /docs/others/what-is-menu-depth-and-how-to-use/
-    - title: Navi+ service plan policies. (Starter, Business & Elite)
-      url: /docs/others/navi+-service-plan-policies.-starter-business-and-elite/
-    - title: Why aren't my Menu, Search, and Cart (panels) working?
-      url: /docs/others/why-arent-my-menu-search-and-cart-panels-working/

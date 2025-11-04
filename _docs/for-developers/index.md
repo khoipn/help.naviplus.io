@@ -1,9 +1,9 @@
 ---
+description: '- [How to write a correct CSS code in Navi+](/manual/website/help.naviplus.io/for-developers/how-to-write-a-correct-css-code-in-navi+.md)'
 layout: default
-title: For developers
 permalink: /docs/for-developers/
+title: For developers
 ---
-
 # For developers
 
-- [How to write a correct CSS code in Navi+](/docs/for-developers/how-to-write-a-correct-css-code-in-navi+/)
+- [How to write a correct CSS code in Navi+](/manual/website/help.naviplus.io/for-developers/how-to-write-a-correct-css-code-in-navi+.md)

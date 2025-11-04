@@ -20,7 +20,8 @@
   }
   /* Push main content to the right when offcanvas is open */
   body.offcanvas-active main {
-    transform: translateX(250px); /* Use transform for smooth movement */
+    margin-left: 250px; /* Use margin-left to push content */
+    transition: none !important; /* No transition for margin-left */
   }
 }
 
@@ -217,23 +218,24 @@ figure figcaption {
 /* Điều chỉnh padding cho nav-link để tạo không gian cho các đường kẻ và icon */
 .sidebar-children-list .sidebar-tree-item > .nav-link {
     position: relative;
-    padding-left: 52px !important; 
+    padding-left: 32px !important; 
     display: block; /* Make it a block to properly contain content and padding */
     line-height: 1.3;
+    font-size: 13px;
 }
 
 /* Styling for the collapse icons */
 /* Đảm bảo icon có đủ không gian và được căn chỉnh */
 .sidebar-folder-icon-closed, .sidebar-folder-icon-open {
     vertical-align: middle; /* Căn chỉnh icon với text */
-    margin-right: 8px; /* Khoảng cách giữa icon và text */
+    margin-right: 2px; /* Khoảng cách giữa icon và text */
 }
 
 /* Đường kẻ dọc cho nhánh cây (áp dụng cho tất cả trừ con cuối cùng) */
 .sidebar-children-list .sidebar-tree-item:not(:last-child)::before {
     content: "";
     position: absolute;
-    left: calc(1rem + 8px); /* Bắt đầu từ vị trí của đường kẻ ngang */
+    left: 8px; /* Bắt đầu từ vị trí của đường kẻ ngang */
     top: 14px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
     height: calc(100% - 20px + 20px); /* Kéo dài xuống để nối với đường kẻ ngang tiếp theo */
     width: 1px;
@@ -245,7 +247,7 @@ figure figcaption {
 .sidebar-children-list .sidebar-tree-item::after {
     content: "";
     position: absolute;
-    left: calc(1rem + 8px); /* Bắt đầu từ đường kẻ dọc */
+    left: 8px; /* Bắt đầu từ đường kẻ dọc */
     top: 14px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
     width: 20px; /* Chiều rộng đường kẻ ngang */
     height: 1px;

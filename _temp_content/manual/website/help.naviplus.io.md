@@ -1,0 +1,18 @@
+# help.naviplus.io
+
+- [Why can Navi+ help you save money?](/manual/website/help.naviplus.io/why-can-navi+-help-you-save-money.md)
+- [Is Navi+ fast? Does it affect website speed?](/manual/website/help.naviplus.io/is-navi+-fast-does-it-affect-website-speed.md)
+- [line](/manual/website/help.naviplus.io/line.md)
+- [How?](/manual/website/help.naviplus.io/how.md)
+- [Optimize Navi+ menu loading speed (Slide & Mega menus)](/manual/website/help.naviplus.io/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus.md)
+- [Preventing image compression in Navi+](/manual/website/help.naviplus.io/how/preventing-image-compression-in-navi+.md)
+- [Prevent image compression when uploading with Navi+](/manual/website/help.naviplus.io/how/prevent-image-compression-when-uploading-with-navi+.md)
+- [For developers](/manual/website/help.naviplus.io/for-developers.md)
+- [How to write a correct CSS code in Navi+](/manual/website/help.naviplus.io/for-developers/how-to-write-a-correct-css-code-in-navi+.md)
+- [Others](/manual/website/help.naviplus.io/others.md)
+- [How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?](/manual/website/help.naviplus.io/others/how-to-other-applications-work-with-naviplus.md)
+- [How to add Navi+ to a separate page through Theme Session](/manual/website/help.naviplus.io/others/how-to-other-applications-work-with-naviplus/how-to-add-navi-to-separate-page-theme-session.md)
+- [Why is Navi+ menu not displayed on my website?](/manual/website/help.naviplus.io/others/how-to-other-applications-work-with-naviplus/why-navi-not-display.md)
+- [What is Menu depth and how to use?](/manual/website/help.naviplus.io/others/what-is-menu-depth-and-how-to-use.md)
+- [Navi+ service plan policies. (Starter, Business & Elite)](/manual/website/help.naviplus.io/others/navi+-service-plan-policies.-starter-business-and-elite.md)
+- [Why aren't my Menu, Search, and Cart (panels) working?](/manual/website/help.naviplus.io/others/why-arent-my-menu-search-and-cart-panels-working.md)
