@@ -33,6 +33,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const emailSupportBtn = document.getElementById('emailSupportBtn');
+    if (emailSupportBtn) {
+        emailSupportBtn.addEventListener('click', () => {
+            const currentUrl = window.location.href;
+            const domain = window.location.hostname;
+            const subject = encodeURIComponent(`Support request from ${domain}`);
+            const body = encodeURIComponent(
+                `Hello Navi+ Support Team,
+
+I am currently viewing the following page and need some assistance:
+Page URL: ${currentUrl}
+
+Please let me know how you can help.
+
+Thank you!`
+            );
+            window.location.href = `mailto:khoipn@naviplus.io?subject=${subject}&body=${body}`;
+        });
+    }
+
     // Hide/show article actions on scroll for desktop
     const articleActions = document.querySelector('.article-actions');
     if (articleActions) {
