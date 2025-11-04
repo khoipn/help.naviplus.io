@@ -1,7 +1,5 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  color: #24292e; /* GitBook like text color */
-  line-height: 1.5;
+:root {
+  --navbar-height: 56px; /* Default Bootstrap navbar height */
 }
 
 /* Custom styles for sidebar */
@@ -52,6 +50,33 @@ body {
 
 .sidebar-folder-icon.folder-closed::before {
   content: "\ea62"; /* ri-folder-line unicode */
+}
+
+body {
+  background-color: #fff; /* Revert to light background */
+  color: #24292e; /* Revert to dark text */
+  padding-top: var(--navbar-height); /* Add padding to body to prevent content from going under fixed navbar */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
+}
+
+.sidebar {
+  background-color: #f8f9fa; /* Revert to light sidebar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar .nav-link {
+  color: #586069; /* Revert to default link color */
+}
+
+.sidebar .nav-link.active {
+  color: #0366d6 !important; /* Keep original active color */
+  border-left-color: #0366d6 !important;
+  background-color: transparent !important; /* Keep transparent */
+}
+
+.sidebar .nav-link:hover {
+  background-color: #f6f8fa !important; /* Revert to default hover background */
 }
 
 /* Main content padding */
@@ -241,8 +266,6 @@ figure figcaption {
     color: #0366d6 !important; /* Giữ nguyên màu chữ */
     background-color: transparent !important; /* Loại bỏ background mặc định để không che dây nối */
     font-weight: 600 !important; /* Giữ nguyên độ đậm */
-    border-left: 3px solid #0366d6 !important; /* Thêm đường viền bên trái */
-    padding-left: calc(52px - 3px) !important; /* Điều chỉnh padding cho viền */
 }
 
 /* Điều chỉnh màu background hover để không che đường kẻ */

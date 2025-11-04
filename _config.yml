@@ -1,9 +1,11 @@
 # Site settings
-title: help.naviplus.io
-email: your-email@example.com
-description: "Your new Jekyll site for documentation"
+title: Navi+ Help Center
+email: support@naviplus.io
+description: "Navi+ Official Help Center - Find guides, tutorials, and support for optimizing your website's navigation, speed, and user experience with Navi+."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://help.naviplus.io" # The base hostname & protocol for your help site
+social_image: "/assets/images/naviplus-social-share.jpg" # Default image for social sharing
+# twitter_username: "@NaviPlusOfficial" # Uncomment and replace with your Twitter handle if applicable
 gitbook_source_link: https://help.shopifas.com/manual/website/help.naviplus.io.md
 encoding: UTF-8
 

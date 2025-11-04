@@ -1,6 +1,7 @@
 ---
 layout: default
 title: What is Menu depth and how to use?
+description: "Learn about Navi+ menu depth, including default levels for Starter and Business packages, and how to utilize 3-level menus for extensive product catalogs."
 permalink: /docs/others/what-is-menu-depth-and-how-to-use/
 ---
 

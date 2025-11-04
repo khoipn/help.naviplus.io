@@ -4,6 +4,7 @@
     {% include head.html %}
   </head>
   <body class="d-flex flex-column min-vh-100">
+    {% include navbar.html %}
     <div class="container-fluid flex-grow-1">
       <div class="row">
         <!-- Sidebar for Sitemap -->
@@ -15,9 +16,7 @@
 
         <!-- Main Content -->
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
-          <header class="pb-3 mb-4 border-bottom">
-            {% include header.html %}
-          </header>
+          
           <div class="content-wrapper">
             {{ content }}
           </div>
