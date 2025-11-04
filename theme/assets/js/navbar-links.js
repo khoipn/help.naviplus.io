@@ -35,12 +35,7 @@ const navbarLinks = [
     title: "Translate",
     url: "#",
     external: false,
-    children: [
-      {
-        title: "🇬🇧 English",
-        url: "https://translate.google.com/translate?sl=auto&tl=en&u=" + encodeURIComponent(window.location.href),
-        external: true
-      },
+    children: [      
       {
         title: "🇫🇷 Français",
         url: "https://translate.google.com/translate?sl=auto&tl=fr&u=" + encodeURIComponent(window.location.href),
