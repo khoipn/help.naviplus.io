@@ -15,15 +15,12 @@
 }
 
 @media (max-width: 767.98px) {
-  .sidebar {
-    top: 0; /* Offcanvas takes full height on mobile */
-  }
   .sidebar-offcanvas.offcanvas {
     width: 250px; /* Adjust Offcanvas width on mobile */
   }
   /* Push main content to the right when offcanvas is open */
   body.offcanvas-active main {
-    transform: translateX(250px);
+    transform: translateX(250px); /* Use transform for smooth movement */
   }
 }
 
@@ -96,7 +93,7 @@ footer {
 
 /* Ensure images are responsive */
 img {
-  max-width: 920px;
+  max-width: 100%;
   height: auto;
   display: block; /* Remove extra space below images */
   margin: 1.5em 0;
@@ -108,12 +105,12 @@ img {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     font-weight: 600;
     line-height: 1.25;
-    margin-top: 0.3em;
-    margin-bottom: 0.35em;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
   }
 
   h1 { font-size: 2.00em; }
-  h2 { font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+  h2 { font-size: 1.55em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
   h3 { font-size: 1.3em; }
   h4 { font-size: 1.15em; }
   h5 { font-size: 1em; }
@@ -214,13 +211,7 @@ figure figcaption {
 /* Điều chỉnh padding cho nav-link để tạo không gian cho các đường kẻ và icon */
 .sidebar-children-list .sidebar-tree-item > .nav-link {
     position: relative;
-    /* ul.ps-3 (1rem = 16px) left padding */
-    /* Horizontal line starts at 1rem + 8px = 24px (from ul's left edge) */
-    /* Horizontal line width = 20px */
-    /* Gap between line end and icon start = 8px */
-    /* Icon start: 24px + 20px + 8px = 52px */
-    /* So, padding-left should be 52px */
-    padding-left: 42px !important; 
+    padding-left: 52px !important; 
     display: block; /* Make it a block to properly contain content and padding */
 }
 
@@ -236,7 +227,7 @@ figure figcaption {
     content: "";
     position: absolute;
     left: calc(1rem + 8px); /* Bắt đầu từ vị trí của đường kẻ ngang */
-    top: 12px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
+    top: 14px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
     height: calc(100% - 20px + 20px); /* Kéo dài xuống để nối với đường kẻ ngang tiếp theo */
     width: 1px;
     background-color: #e0e0e0; /* Màu của đường kẻ */
@@ -248,8 +239,8 @@ figure figcaption {
     content: "";
     position: absolute;
     left: calc(1rem + 8px); /* Bắt đầu từ đường kẻ dọc */
-    top: 12px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
-    width: 10px; /* Chiều rộng đường kẻ ngang */
+    top: 14px; /* Căn giữa theo chiều dọc với icon folder (ước tính) */
+    width: 20px; /* Chiều rộng đường kẻ ngang */
     height: 1px;
     background-color: #e0e0e0; /* Màu của đường kẻ */
     z-index: 0; /* Đảm bảo đường kẻ nằm dưới link */
@@ -259,6 +250,7 @@ figure figcaption {
 .sidebar .nav-link.active {
     color: #0366d6 !important; /* Giữ nguyên màu chữ */
     background-color: transparent !important; /* Loại bỏ background mặc định để không che dây nối */
+    border-right: solid 4px #0366d6;
 }
 
 /* Điều chỉnh màu background hover để không che đường kẻ */

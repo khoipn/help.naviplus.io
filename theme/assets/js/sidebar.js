@@ -63,6 +63,11 @@ document.addEventListener('DOMContentLoaded', function() {
         break; 
       }
 
+      // Ensure parent collapse is shown and update icon
+      if (!parentCollapse.classList.contains('show')) {
+        new bootstrap.Collapse(parentCollapse, { toggle: false }).show();
+      }
+
       if (parentNavLink.classList.contains('nav-link')) {
         var parentFolderIconClosed = parentNavLink.querySelector('.sidebar-folder-icon-closed');
         var parentFolderIconOpen = parentNavLink.querySelector('.sidebar-folder-icon-open');
@@ -77,4 +82,40 @@ document.addEventListener('DOMContentLoaded', function() {
   } else {
     console.log('  No active link found on this page.');
   }
+
+  // --- Persistence Logic (New) ---
+  // Function to save collapse states to localStorage
+  function saveCollapseStates() {
+    const states = {};
+    collapseElements.forEach(function(collapseEl) {
+      states[collapseEl.id] = collapseEl.classList.contains('show');
+    });
+    localStorage.setItem('sidebarCollapseStates', JSON.stringify(states));
+  }
+
+  // Function to load and apply collapse states from localStorage
+  function loadCollapseStates() {
+    const savedStates = JSON.parse(localStorage.getItem('sidebarCollapseStates'));
+    if (savedStates) {
+      collapseElements.forEach(function(collapseEl) {
+        const isExpanded = savedStates[collapseEl.id];
+        if (isExpanded) {
+          // Use Bootstrap's programmatic API to show without triggering events initially
+          new bootstrap.Collapse(collapseEl, { toggle: false }).show();
+        }
+      });
+    }
+  }
+
+  // Restore states on initial load
+  loadCollapseStates();
+
+  // Attach event listeners to save states on collapse show/hide
+  collapseElements.forEach(function(collapseEl) {
+    collapseEl.addEventListener('shown.bs.collapse', saveCollapseStates);
+    collapseEl.addEventListener('hidden.bs.collapse', saveCollapseStates);
+  });
+  // --- End Persistence Logic ---
+
+
 });

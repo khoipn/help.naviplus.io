@@ -15,15 +15,12 @@
 }
 
 @media (max-width: 767.98px) {
-  .sidebar {
-    top: 0; /* Offcanvas takes full height on mobile */
-  }
   .sidebar-offcanvas.offcanvas {
     width: 250px; /* Adjust Offcanvas width on mobile */
   }
   /* Push main content to the right when offcanvas is open */
   body.offcanvas-active main {
-    transform: translateX(250px);
+    transform: translateX(250px); /* Use transform for smooth movement */
   }
 }
 
@@ -214,12 +211,6 @@ figure figcaption {
 /* Điều chỉnh padding cho nav-link để tạo không gian cho các đường kẻ và icon */
 .sidebar-children-list .sidebar-tree-item > .nav-link {
     position: relative;
-    /* ul.ps-3 (1rem = 16px) left padding */
-    /* Horizontal line starts at 1rem + 8px = 24px (from ul's left edge) */
-    /* Horizontal line width = 20px */
-    /* Gap between line end and icon start = 8px */
-    /* Icon start: 24px + 20px + 8px = 52px */
-    /* So, padding-left should be 52px */
     padding-left: 52px !important; 
     display: block; /* Make it a block to properly contain content and padding */
 }
@@ -260,6 +251,8 @@ figure figcaption {
     color: #0366d6 !important; /* Giữ nguyên màu chữ */
     background-color: transparent !important; /* Loại bỏ background mặc định để không che dây nối */
     font-weight: 600 !important; /* Giữ nguyên độ đậm */
+    border-left: 3px solid #0366d6 !important; /* Thêm đường viền bên trái */
+    padding-left: calc(52px - 3px) !important; /* Điều chỉnh padding cho viền */
 }
 
 /* Điều chỉnh màu background hover để không che đường kẻ */
