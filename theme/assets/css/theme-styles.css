@@ -53,7 +53,6 @@
   font-size: 1.1em; /* Adjust icon size */
   margin-right: 0.5rem; /* Space between icon and text */
   vertical-align: middle; /* Align icon vertically with text */
-  transition: transform 0.2s ease-in-out; /* Smooth transition for icon rotation */
 }
 
 .sidebar-folder-icon.folder-open::before {
@@ -238,6 +237,12 @@ figure figcaption {
 .sidebar-folder-icon-closed, .sidebar-folder-icon-open {
     vertical-align: middle; /* Căn chỉnh icon với text */
     margin-right: 2px; /* Khoảng cách giữa icon và text */
+}
+
+/* Vô hiệu hóa transition cho các animation expand/collapse */
+.collapse,
+.collapsing {
+    transition: none !important;
 }
 
 /* Đường kẻ dọc cho nhánh cây (áp dụng cho tất cả trừ con cuối cùng) */
