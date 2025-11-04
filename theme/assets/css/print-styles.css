@@ -1,0 +1,26 @@
+@media print {
+    .navbar,
+    .sidebar,
+    .offcanvas-start,
+    .sidebar-footer-fixed,
+    .article-actions { /* Hide elements not relevant for print */
+        display: none !important;
+    }
+
+    main.col-12 {
+        width: 100% !important; /* Ensure main content takes full width */
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+
+    .content-wrapper {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Remove any unnecessary spacing or shadows */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}

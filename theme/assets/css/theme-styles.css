@@ -131,7 +131,7 @@ footer {
     /* Adjust based on your sidebar's actual width */
   }
 }
-
+ç
 .bg-dark {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -351,4 +351,60 @@ figure figcaption {
   font-family: "Remixicon"; /* Use Remixicon font */
   color: #fff; /* White color for the icon */
   font-size: 1.5rem; /* Adjust size as needed */
+}
+
+.article-actions {
+    /* Default for mobile - inline with content, full width */
+    position: static;
+    margin-top: 30px; /* Increased space above on mobile */
+    margin-bottom: 30px; /* Increased space below on mobile */
+    padding-left: 15px; /* Add some padding to align with content */
+    padding-right: 15px;
+    width: 100%; /* Take full width on mobile */
+}
+
+.article-actions .d-grid.gap-2.d-md-block {
+    width: 100%; /* Ensure the button container takes full width on mobile */
+    display: flex !important; /* Make it a flex container */
+    flex-wrap: nowrap; /* Ensure buttons stay in a single row on mobile */
+    justify-content: center; /* Center buttons horizontally on mobile */
+}
+
+.article-actions .d-grid.gap-2.d-md-block .btn {
+    margin: 5px 0px; /* Add some margin around buttons on mobile */
+}
+
+@media (min-width: 768px) { /* Apply floating and horizontal layout only on larger screens */
+    .article-actions {
+        position: fixed; /* Make it float */
+        top: 50px; /* Adjust as needed to clear the navbar */
+        right: 20px; /* Distance from the right edge */
+        z-index: 1000; /* Ensure it stays on top */
+        margin-bottom: 0; /* Remove bottom margin when fixed */
+        flex-direction: row; /* Arrange buttons horizontally */
+        width: auto; /* Allow content to dictate width */
+        transition: opacity 0.3s ease-in-out; /* Smooth transition for hiding/showing */
+        opacity: 1; /* Default to visible */
+    }
+
+    .article-actions.hidden {
+        opacity: 0; /* Hidden state */
+        pointer-events: none; /* Disable clicks when hidden */
+    }
+
+    .article-actions .d-grid.gap-2.d-md-block {
+        display: flex !important; /* Override d-grid to make it flex */
+        flex-direction: row; /* Arrange buttons horizontally */
+        width: auto; /* Allow buttons to dictate width */
+        justify-content: flex-end; /* Align buttons to the right */
+    }
+
+    .article-actions .btn {
+        margin-bottom: 0; /* Remove bottom margin when horizontal */
+        margin-left: 5px; /* Reduce space between horizontal buttons for desktop */
+    }
+
+    .article-actions .btn:first-child {
+        margin-left: 0; /* No left margin for the first button */
+    }
 }

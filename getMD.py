@@ -92,14 +92,19 @@ def parse_navigation_markdown(markdown_content, base_url):
     processed_items_by_path = {}
 
     link_pattern = re.compile(r'^\s*-\s*\[(?P<title>[^\]]+)\]\((?P<link_path>[^)]+\.md)\)')
+    # New pattern to match a simple list item, e.g., "- Some Title" or "- line"
+    plain_list_item_pattern = re.compile(r'^\s*-\s*(?P<title>[^\n]+)$')
+
 
     # First pass: Collect all items and their direct properties
     raw_items = []
     for line in lines:
-        match = link_pattern.match(line)
-        if match:
-            title = match.group('title')
-            link_path_raw = match.group('link_path')
+        match_link = link_pattern.match(line)
+        match_plain = plain_list_item_pattern.match(line) # Try to match plain list item
+
+        if match_link:
+            title = match_link.group('title')
+            link_path_raw = match_link.group('link_path')
 
             full_content_url = urljoin(base_url, link_path_raw)
             all_content_urls.add(full_content_url)
@@ -134,12 +139,23 @@ def parse_navigation_markdown(markdown_content, base_url):
                 "processed_path": processed_path, # Store for hierarchy building
                 "children": [] # Initialize children list
             })
+        elif match_plain: # If it's a plain list item, add it as a separator
+            raw_items.append({
+                "title": match_plain.group('title'),
+                "url": None, # No URL for separators
+                "processed_path": None, # No processed path for separators
+                "children": [] # Initialize children list
+            })
 
     # Second pass: Build the hierarchy
     # Sort raw_items by processed_path length to process parents before children
-    raw_items.sort(key=lambda x: len(x["processed_path"].split('/')))
+    raw_items.sort(key=lambda x: len(x["processed_path"].split('/')) if x["processed_path"] else -1)
 
     for item in raw_items:
+        if item["processed_path"] is None: # Skip separator items for hierarchy building
+            navigation_data.append(item) # Separators are always top-level for now
+            continue
+
         path_segments = item["processed_path"].split('/')
         
         if len(path_segments) == 1: # Top-level item
@@ -166,7 +182,13 @@ def parse_navigation_markdown(markdown_content, base_url):
     # After building the hierarchy, clean up empty children lists
     def remove_empty_children(items):
         for item in items:
-            if "children" in item and not item["children"]:
+            if item.get("processed_path") is None: # It's a separator
+                item["type"] = "separator"
+                # Remove unnecessary keys for separator
+                item.pop("url", None)
+                item.pop("processed_path", None)
+                item.pop("children", None) # Ensure no children for separators
+            elif "children" in item and not item["children"]:
                 del item["children"]
             elif "children" in item and item["children"]:
                 remove_empty_children(item["children"])
