@@ -100,7 +100,7 @@ footer {
 
 /* Ensure images are responsive */
 img {
-  max-width: 100%;
+  max-width: 920px;
   height: auto;
   display: block; /* Remove extra space below images */
   margin: 1.5em 0;

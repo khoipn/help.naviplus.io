@@ -74,6 +74,38 @@
           });
         }
       });
+    </script><script src="{{ '/theme/assets/js/navbar-links.js' | relative_url }}"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const navLinksContainer = document.getElementById('main-navbar-nav-links');
+        if (navLinksContainer && typeof navbarLinks !== 'undefined') {
+          navbarLinks.forEach(linkData => {
+            const li = document.createElement('li');
+            li.className = 'nav-item';
+            const a = document.createElement('a');
+            a.className = 'nav-link';
+            a.href = linkData.url;
+            a.textContent = linkData.title;
+            if (linkData.external) {
+              a.target = '_blank'; // Corrected target to _blank
+              a.rel = 'noopener';
+            }
+            // Add active class if current page matches
+            const currentPathname = window.location.pathname;
+            const baseUrl = '{{ site.baseurl | relative_url }}'.endsWith('/') ? '{{ site.baseurl | relative_url }}'.slice(0, -1) : '{{ site.baseurl | relative_url }}';
+            const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
+            const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
+
+            if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
+                a.classList.add('active');
+            }
+
+            li.appendChild(a);
+            navLinksContainer.appendChild(li);
+          });
+        }
+      });
     </script>
+
   </body>
 </html>

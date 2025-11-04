@@ -4,7 +4,7 @@ description: There are several ways to add a Navi+ menu to your website, allowin
   your business goals. One way is to directly embed one or more Navi+ menus into your
   theme as a section, which you can do following the instructions below
 layout: default
-permalink: /docs/others/how-to-other-applications-work-with-naviplus/how-to-add-navi-to-separate-page-theme-session/
+permalink: /docs/others/how-to-add-navi-to-separate-page-theme-session/
 title: How to add Navi+ to a separate page through Theme Session
 ---
 # How to add Navi+ to a separate page through Theme Session

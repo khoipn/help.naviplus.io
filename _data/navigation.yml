@@ -28,14 +28,7 @@
   title: For developers
   url: /docs/for-developers/
 - children:
-  - children:
-    - processed_path: others/how-to-other-applications-work-with-naviplus/how-to-add-navi-to-separate-page-theme-session
-      title: How to add Navi+ to a separate page through Theme Session
-      url: /docs/others/how-to-other-applications-work-with-naviplus/how-to-add-navi-to-separate-page-theme-session/
-    - processed_path: others/how-to-other-applications-work-with-naviplus/why-navi-not-display
-      title: Why is Navi+ menu not displayed on my website?
-      url: /docs/others/how-to-other-applications-work-with-naviplus/why-navi-not-display/
-    processed_path: others/how-to-other-applications-work-with-naviplus
+  - processed_path: others/how-to-other-applications-work-with-naviplus
     title: How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
     url: /docs/others/how-to-other-applications-work-with-naviplus/
   - processed_path: others/what-is-menu-depth-and-how-to-use
@@ -47,6 +40,12 @@
   - processed_path: others/why-arent-my-menu-search-and-cart-panels-working
     title: Why aren't my Menu, Search, and Cart (panels) working?
     url: /docs/others/why-arent-my-menu-search-and-cart-panels-working/
+  - processed_path: others/how-to-add-navi-to-separate-page-theme-session
+    title: How to add Navi+ to a separate page through Theme Session
+    url: /docs/others/how-to-add-navi-to-separate-page-theme-session/
+  - processed_path: others/why-navi-not-display
+    title: Why is Navi+ menu not displayed on my website?
+    url: /docs/others/why-navi-not-display/
   processed_path: others
   title: Others
   url: /docs/others/
