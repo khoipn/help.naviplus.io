@@ -10,11 +10,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hide TOC completely if no headings found
     if (headings.length === 0) {
         tocContainer.classList.add('d-none');
+        // Set content to full width when TOC is hidden
+        mainContent.style.maxWidth = '100%';
         return;
     }
     
     // Show TOC if headings exist
     tocContainer.classList.remove('d-none');
+    // Reset content width when TOC is visible
+    mainContent.style.maxWidth = '';
 
     // Create TOC structure
     const tocList = document.createElement('ul');

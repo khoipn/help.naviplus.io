@@ -10,45 +10,195 @@
 - processed_path: line
   title: line
   url: /docs/line/
+- processed_path: troubleshooting
+  title: Troubleshooting
+  url: /docs/troubleshooting/
+- processed_path: latest-update
+  title: Latest Update
+  url: /docs/latest-update/
+- processed_path: line-1
+  title: line
+  url: /docs/line-1/
 - children:
-  - processed_path: how/optimize-navi-menu-loading-speed-slide-and-mega-menus
-    title: Optimize Navi+ menu loading speed (Slide & Mega menus)
-    url: /docs/how/optimize-navi-menu-loading-speed-slide-and-mega-menus/
-  - processed_path: how/preventing-image-compression-in-navi
-    title: Preventing image compression in Navi+
-    url: /docs/how/preventing-image-compression-in-navi/
-  - processed_path: how/prevent-image-compression-when-uploading-with-navi
-    title: Prevent image compression when uploading with Navi+
-    url: /docs/how/prevent-image-compression-when-uploading-with-navi/
-  processed_path: how
-  title: How?
-  url: /docs/how/
+  - children:
+    - processed_path: usage/tabbar/how-to-use
+      title: How to use?
+      url: /docs/usage/tabbar/how-to-use/
+    - processed_path: usage/tabbar/publishing-on-shopify
+      title: Publishing on Shopify
+      url: /docs/usage/tabbar/publishing-on-shopify/
+    - processed_path: usage/tabbar/publishing-on-other-platforms
+      title: Publishing on other platforms
+      url: /docs/usage/tabbar/publishing-on-other-platforms/
+    processed_path: usage/tabbar
+    title: Tabbar
+    url: /docs/usage/tabbar/
+  - children:
+    - processed_path: usage/fab/how-to-use
+      title: How to use?
+      url: /docs/usage/fab/how-to-use/
+    - processed_path: usage/fab/publishing-on-shopify
+      title: Publishing on Shopify
+      url: /docs/usage/fab/publishing-on-shopify/
+    - processed_path: usage/fab/publishing-on-other-platforms
+      title: Publishing on other platforms
+      url: /docs/usage/fab/publishing-on-other-platforms/
+    processed_path: usage/fab
+    title: FAB
+    url: /docs/usage/fab/
+  - children:
+    - processed_path: usage/slide-menu/how-to-use
+      title: How to use?
+      url: /docs/usage/slide-menu/how-to-use/
+    - processed_path: usage/slide-menu/publishing-on-shopify
+      title: Publishing on Shopify
+      url: /docs/usage/slide-menu/publishing-on-shopify/
+    - processed_path: usage/slide-menu/publishing-on-other-platforms
+      title: Publishing on other platforms
+      url: /docs/usage/slide-menu/publishing-on-other-platforms/
+    processed_path: usage/slide-menu
+    title: Slide menu
+    url: /docs/usage/slide-menu/
+  - children:
+    - processed_path: usage/mega-menu-desktop/how-to-use
+      title: How to use?
+      url: /docs/usage/mega-menu-desktop/how-to-use/
+    - processed_path: usage/mega-menu-desktop/publishing-on-shopify
+      title: Publishing on Shopify
+      url: /docs/usage/mega-menu-desktop/publishing-on-shopify/
+    - processed_path: usage/mega-menu-desktop/publishing-on-other-platforms
+      title: Publishing on other platforms
+      url: /docs/usage/mega-menu-desktop/publishing-on-other-platforms/
+    processed_path: usage/mega-menu-desktop
+    title: Mega menu (desktop)
+    url: /docs/usage/mega-menu-desktop/
+  - children:
+    - processed_path: usage/mega-menu-mobile/how-to-use
+      title: How to use?
+      url: /docs/usage/mega-menu-mobile/how-to-use/
+    - processed_path: usage/mega-menu-mobile/publishing-on-shopify
+      title: Publishing on Shopify
+      url: /docs/usage/mega-menu-mobile/publishing-on-shopify/
+    - processed_path: usage/mega-menu-mobile/publishing-on-other-platforms
+      title: Publishing on other platforms
+      url: /docs/usage/mega-menu-mobile/publishing-on-other-platforms/
+    processed_path: usage/mega-menu-mobile
+    title: Mega menu (mobile)
+    url: /docs/usage/mega-menu-mobile/
+  - children:
+    - processed_path: usage/grid/how-to-use
+      title: How to use?
+      url: /docs/usage/grid/how-to-use/
+    - processed_path: usage/grid/publishing-on-shopify
+      title: Publishing on Shopify
+      url: /docs/usage/grid/publishing-on-shopify/
+    - processed_path: usage/grid/publishing-on-other-platforms
+      title: Publishing on other platforms
+      url: /docs/usage/grid/publishing-on-other-platforms/
+    processed_path: usage/grid
+    title: Grid
+    url: /docs/usage/grid/
+  - children:
+    - processed_path: usage/general/apply-multi-language
+      title: Apply multi-language
+      url: /docs/usage/general/apply-multi-language/
+    - processed_path: usage/general/find-css-selector
+      title: Find CSS Selector
+      url: /docs/usage/general/find-css-selector/
+    - processed_path: usage/general/z-index
+      title: Z-index
+      url: /docs/usage/general/z-index/
+    - processed_path: usage/general/apply-a-custom-font
+      title: Apply a custom font
+      url: /docs/usage/general/apply-a-custom-font/
+    - processed_path: usage/general/advanced-image-upload
+      title: Advanced image upload
+      url: /docs/usage/general/advanced-image-upload/
+    - processed_path: usage/general/menu-depth
+      title: Menu depth
+      url: /docs/usage/general/menu-depth/
+    processed_path: usage/general
+    title: General
+    url: /docs/usage/general/
+  - children:
+    - processed_path: usage/shopify/use-the-multi-language-feature
+      title: Use the multi-language feature.
+      url: /docs/usage/shopify/use-the-multi-language-feature/
+    - processed_path: usage/shopify/optimize-loading-speed-slide-and-mega-menus
+      title: Optimize loading speed (Slide & Mega menus)
+      url: /docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/
+    - processed_path: usage/shopify/how-to-other-applications-work-with-naviplus
+      title: Prevent Navi+ menus from overlapping other apps
+      url: /docs/usage/shopify/how-to-other-applications-work-with-naviplus/
+    processed_path: usage/shopify
+    title: Shopify
+    url: /docs/usage/shopify/
+  processed_path: usage
+  title: Usage
+  url: /docs/usage/
 - children:
-  - processed_path: for-developers/how-to-write-a-correct-css-code-in-navi
-    title: How to write a correct CSS code in Navi+
-    url: /docs/for-developers/how-to-write-a-correct-css-code-in-navi/
-  processed_path: for-developers
-  title: For developers
-  url: /docs/for-developers/
+  - children:
+    - processed_path: integrations/chat-tools/shopify-inbox
+      title: Shopify Inbox
+      url: /docs/integrations/chat-tools/shopify-inbox/
+    - processed_path: integrations/chat-tools/tidi-chat
+      title: Tidi chat
+      url: /docs/integrations/chat-tools/tidi-chat/
+    processed_path: integrations/chat-tools
+    title: Chat tools
+    url: /docs/integrations/chat-tools/
+  - children:
+    - processed_path: integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel
+      title: 'Shopify: Open the hamburger menu or cart, search panel'
+      url: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
+    processed_path: integrations/themes
+    title: Themes
+    url: /docs/integrations/themes/
+  processed_path: integrations
+  title: Integrations
+  url: /docs/integrations/
 - children:
-  - processed_path: others/how-to-other-applications-work-with-naviplus
-    title: How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
-    url: /docs/others/how-to-other-applications-work-with-naviplus/
-  - processed_path: others/what-is-menu-depth-and-how-to-use
-    title: What is Menu depth and how to use?
-    url: /docs/others/what-is-menu-depth-and-how-to-use/
-  - processed_path: others/navi-service-plan-policies-starter-business-and-elite
-    title: Navi+ service plan policies. (Starter, Business & Elite)
-    url: /docs/others/navi-service-plan-policies-starter-business-and-elite/
-  - processed_path: others/why-arent-my-menu-search-and-cart-panels-working
-    title: Why aren't my Menu, Search, and Cart (panels) working?
-    url: /docs/others/why-arent-my-menu-search-and-cart-panels-working/
-  - processed_path: others/how-to-add-navi-to-separate-page-theme-session
-    title: How to add Navi+ to a separate page through Theme Session
-    url: /docs/others/how-to-add-navi-to-separate-page-theme-session/
-  - processed_path: others/why-navi-not-display
+  - processed_path: frequently-asked-questions/menu-interface-ui
+    title: Menu interface (UI)
+    url: /docs/frequently-asked-questions/menu-interface-ui/
+  - processed_path: frequently-asked-questions/optimize-and-ux
+    title: Optimize & UX
+    url: /docs/frequently-asked-questions/optimize-and-ux/
+  - processed_path: frequently-asked-questions/how-does-navi-support-seo
+    title: How does Navi+ support SEO?
+    url: /docs/frequently-asked-questions/how-does-navi-support-seo/
+  - processed_path: frequently-asked-questions/navi-plans-starter-business-and-elite
+    title: Navi+ plans (Starter, Business & Elite)
+    url: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
+  - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
+    title: Why aren't Menu, Search, Cart panels working?
+    url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
+  - processed_path: frequently-asked-questions/why-navi-not-display
     title: Why is Navi+ menu not displayed on my website?
-    url: /docs/others/why-navi-not-display/
-  processed_path: others
-  title: Others
-  url: /docs/others/
+    url: /docs/frequently-asked-questions/why-navi-not-display/
+  processed_path: frequently-asked-questions
+  title: Frequently Asked Questions
+  url: /docs/frequently-asked-questions/
+- processed_path: line-2
+  title: line
+  url: /docs/line-2/
+- children:
+  - processed_path: develop/how-to-write-a-correct-css-code-in-navi
+    title: How to write a correct CSS code in Navi+
+    url: /docs/develop/how-to-write-a-correct-css-code-in-navi/
+  - processed_path: develop/add-walk-through-to-navi
+    title: Add walk-through to Navi+
+    url: /docs/develop/add-walk-through-to-navi/
+  processed_path: develop
+  title: Develop
+  url: /docs/develop/
+- processed_path: line-3
+  title: line
+  url: /docs/line-3/
+- children:
+  - processed_path: partership/earn-up-to-225-revshare-with-navi
+    title: Earn up to 22.5% RevShare with Navi+
+    url: /docs/partership/earn-up-to-225-revshare-with-navi/
+  processed_path: partership
+  title: Partership
+  url: /docs/partership/

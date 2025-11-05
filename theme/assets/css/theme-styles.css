@@ -15,6 +15,18 @@
   overflow-y: auto; /* Enable scrolling for long content */
 }
 
+/* Sidebar separator line */
+.sidebar-separator-line {
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.sidebar-separator-content {
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 1rem;
+}
+
 @media (max-width: 767.98px) {
   .sidebar-offcanvas.offcanvas {
     width: 250px; /* Adjust Offcanvas width on mobile */
@@ -124,7 +136,11 @@ footer {
   z-index: 101; /* Ensure it's above other elements */
   background-color: #f8f9fa; /* Background color matching sidebar or light theme */
   border-top: 1px solid #e9ecef;
-  padding: 1rem 0.5rem 0.0rem;
+  padding: 0.4rem 0.5rem 0.0rem;
+}
+
+.sidebar-footer-fixed p {
+  margin-bottom: 0px;
 }
 
 @media (max-width: 767.98px) {
@@ -190,14 +206,14 @@ footer {
 
 /* Ensure images are responsive */
 img {
-  max-width: 920px;
+  max-width: 1100px;
   width: 100%;
   height: auto;
   display: block; /* Remove extra space below images */
   cursor: pointer; /* Add pointer cursor for clickable images */
   margin: 1.5em 0;
   border-radius: 8px;
-  border: solid 1px #f5f5f5;
+  border: solid 1px #eee;
 }
 
 /* Image placeholder only for main content images */
@@ -251,7 +267,7 @@ main img.error {
     margin-bottom: 12px;
     margin-top: 12px;  
     font-size: 15px;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   a {
@@ -323,6 +339,75 @@ figure figcaption {
   font-size: 0.85em;
   color: #6a737d;
   margin-top: 0.5em;
+}
+
+/* Styles for <details> and <summary> tags */
+.content-wrapper details {
+  margin: 1.5em 0;
+  padding: 1rem;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  background-color: #f6f8fa;
+  transition: background-color 0.2s ease;
+}
+
+.content-wrapper details[open] {
+  background-color: #fff;
+  border-color: #d1d5da;
+}
+
+.content-wrapper details summary {
+  font-weight: 600;
+  font-size: 1em;
+  color: #24292e;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: -1rem -1rem 0 -1rem;
+  border-radius: 6px 6px 0 0;
+  transition: background-color 0.2s ease;
+  list-style: none;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.content-wrapper details summary::-webkit-details-marker {
+  display: none;
+}
+
+.content-wrapper details summary::before {
+  content: "\ea6d"; /* Remixicon arrow-right */
+  font-family: 'remixicon';
+  position: absolute;
+  left: 0.75rem;
+  transition: transform 0.2s ease;
+  font-size: 1.2em;
+  color: #0366d6;
+}
+
+.content-wrapper details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.content-wrapper details summary:hover {
+  background-color: #f4f8fc;
+}
+
+.content-wrapper details[open] summary {
+  background-color: #f4f8fc;
+  margin-bottom: 1rem;
+}
+
+.content-wrapper details > *:not(summary) {
+  margin-left: 0;
+  padding: 0.5rem 0;
+}
+
+.content-wrapper details p:first-of-type {
+  margin-top: 0.5rem;
+}
+
+.content-wrapper details p:last-child {
+  margin-bottom: 0;
 }
 
 .sidebar-children-list {
@@ -397,7 +482,7 @@ figure figcaption {
 /* Sửa lại active state để không đè lên dây nối */
 .sidebar .nav-link.active {
     color: #0366d6 !important; /* Giữ nguyên màu chữ */
-    background-color: transparent !important; /* Loại bỏ background mặc định để không che dây nối */
+    background-color: #f0f0f0 !important; /* Loại bỏ background mặc định để không che dây nối */
     border-right: solid 4px #0366d6;
 }
 
@@ -694,7 +779,7 @@ figure figcaption {
   }
   
   main .content-wrapper {
-    max-width: 920px;
+    max-width: calc(100% - 220px);
   }
 }
 

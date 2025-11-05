@@ -4,6 +4,7 @@ import re
 import yaml
 import json
 import shutil
+import markdown
 from urllib.parse import urljoin, urlparse
 
 # --- Configuration ---
@@ -202,6 +203,67 @@ def unescape_pipes(markdown_content):
     """Unescape \| to | in the content so they display correctly."""
     return markdown_content.replace('\\|', '|')
 
+def escape_custom_liquid_tags(markdown_content):
+    """Comment out custom Liquid tags to prevent Jekyll errors."""
+    # List of custom tags that might cause issues
+    custom_tags = ['hint', 'embed', 'code', 'tab', 'tabs', 'content', 'api']
+    
+    for tag in custom_tags:
+        # Replace {% tag ... %} with {% comment %}tag ...{% endcomment %}
+        markdown_content = re.sub(
+            r'\{%\s*' + tag + r'\s+([^%]*?)%\}',
+            r'{% comment %}' + tag + r' \1{% endcomment %}',
+            markdown_content
+        )
+        # Replace {% endtag %} with {% comment %}endtag{% endcomment %}
+        markdown_content = re.sub(
+            r'\{%\s*end' + tag + r'\s*%\}',
+            r'{% comment %}end' + tag + r'{% endcomment %}',
+            markdown_content
+        )
+    
+    return markdown_content
+
+def process_details_tags(markdown_content):
+    """Parse Markdown inside <details> tags and convert to HTML."""
+    print("Processing <details> tags and converting internal Markdown...")
+    
+    # Pattern to match <details>...</details> blocks
+    # Use DOTALL flag to match across newlines
+    details_pattern = re.compile(
+        r'<details>(.*?)</details>',
+        re.DOTALL | re.IGNORECASE
+    )
+    
+    def convert_details_content(match):
+        full_content = match.group(1)
+        
+        # Extract <summary> if exists
+        summary_match = re.search(r'<summary>(.*?)</summary>', full_content, re.DOTALL | re.IGNORECASE)
+        if summary_match:
+            summary_text = summary_match.group(1).strip()
+            # Remove summary from content
+            remaining_content = re.sub(r'<summary>.*?</summary>', '', full_content, flags=re.DOTALL | re.IGNORECASE).strip()
+        else:
+            summary_text = "Click to expand"
+            remaining_content = full_content.strip()
+        
+        # Convert the remaining Markdown content to HTML
+        # Use markdown library with extensions for better parsing
+        html_content = markdown.markdown(
+            remaining_content,
+            extensions=['extra', 'codehilite', 'tables', 'fenced_code']
+        )
+        
+        # Reconstruct the <details> block with converted HTML
+        return f'<details><summary>{summary_text}</summary>\n{html_content}\n</details>'
+    
+    # Replace all <details> blocks
+    processed_content = details_pattern.sub(convert_details_content, markdown_content)
+    
+    print("Finished processing <details> tags.")
+    return processed_content
+
 def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     """
     Processes Markdown content (adds front matter, SEO for images/links) and saves it.
@@ -209,6 +271,12 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     """
     # Unescape pipes first
     processed_md_content = unescape_pipes(raw_md_content)
+    
+    # Escape custom Liquid tags to prevent Jekyll errors
+    processed_md_content = escape_custom_liquid_tags(processed_md_content)
+    
+    # Process <details> tags and convert internal Markdown to HTML
+    processed_md_content = process_details_tags(processed_md_content)
     
     # Apply SEO enhancements
     processed_seo_md_content = add_image_and_link_seo_attributes(processed_md_content)
