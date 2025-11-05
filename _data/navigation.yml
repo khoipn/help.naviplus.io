@@ -1,9 +1,12 @@
-- processed_path: why-can-navi-help-you-save-money
-  title: Why can Navi+ help you save money?
-  url: /docs/why-can-navi-help-you-save-money/
-- processed_path: is-navi-fast-does-it-affect-website-speed
-  title: Is Navi+ fast? Does it affect website speed?
-  url: /docs/is-navi-fast-does-it-affect-website-speed/
+- processed_path: getting-started
+  title: Getting Started
+  url: /docs/getting-started/
+- processed_path: why-choose-navi
+  title: Why choose Navi+?
+  url: /docs/why-choose-navi/
+- processed_path: how-to-install-navi
+  title: How to install Navi+
+  url: /docs/how-to-install-navi/
 - processed_path: line
   title: line
   url: /docs/line/

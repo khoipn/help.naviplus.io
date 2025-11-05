@@ -3,7 +3,7 @@ description: '- [Optimize Navi+ menu loading speed (Slide & Mega menus)](/manual
   "Optimize Navi+ menu loading speed (Slide & Mega menus)")'
 layout: default
 permalink: /docs/how/
-title: How
+title: How?
 ---
 # How?
 

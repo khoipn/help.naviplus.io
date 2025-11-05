@@ -3,7 +3,7 @@ description: Navi+ is very fast. It is fully deployed on a leading CDN with very
   latency (around 100ms) and can serve millions of customers without slowing down.
 layout: default
 permalink: /docs/how/optimize-navi-menu-loading-speed-slide-and-mega-menus/
-title: Optimize Navi+ Menu Loading Speed Slide And Mega Menus
+title: Optimize Navi+ menu loading speed (Slide & Mega menus)
 ---
 # Optimize Navi+ menu loading speed (Slide & Mega menus)
 

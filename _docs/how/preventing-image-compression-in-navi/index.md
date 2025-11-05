@@ -4,7 +4,7 @@ description: Using smaller image sizes helps your website load faster. Search en
   can improve your SEO.
 layout: default
 permalink: /docs/how/preventing-image-compression-in-navi/
-title: Preventing Image Compression In Navi+
+title: Preventing image compression in Navi+
 ---
 # Preventing image compression in Navi+
 

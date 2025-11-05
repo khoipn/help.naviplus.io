@@ -17,7 +17,7 @@ description: 'Navi+ supports various Menu, Search, and Cart panels on popular th
   can interrupt the customer experience.'
 layout: default
 permalink: /docs/others/why-arent-my-menu-search-and-cart-panels-working/
-title: Why Arent My Menu Search And Cart Panels Working
+title: Why aren't my Menu, Search, and Cart (panels) working?
 ---
 # Why aren't my Menu, Search, and Cart (panels) working?
 

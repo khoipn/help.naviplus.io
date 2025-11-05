@@ -1,7 +1,7 @@
 ---
-description: Documentation for Line
+description: Documentation for line
 layout: default
 permalink: /docs/line/
-title: Line
+title: line
 ---
 # line

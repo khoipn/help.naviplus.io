@@ -3,7 +3,7 @@ description: '- [How to write a correct CSS code in Navi+](/manual/website/help.
   "How to write a correct CSS code in Navi+")'
 layout: default
 permalink: /docs/for-developers/
-title: For Developers
+title: For developers
 ---
 # For developers
 

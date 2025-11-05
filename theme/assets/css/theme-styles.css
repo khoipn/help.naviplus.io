@@ -85,7 +85,12 @@ body {
 /* Main Content adjustment */
 main {
   padding-top: 1rem; /* Keep existing padding-top for main */
-  font-size: 14px;
+  font-size: 15px;
+}
+
+main hr {
+  color: #777;
+  border-top: var(--bs-border-width) dashed;
 }
 
 @media (min-width: 768px) {
@@ -232,7 +237,7 @@ main img.error {
     font-weight: 600;
     line-height: 1.25;
     margin-top: 0.4em;
-    margin-bottom: 0.30em;
+    margin-bottom: 1em;
   }
 
   h1 { font-size: 1.60em; }
@@ -245,7 +250,7 @@ main img.error {
   p {
     margin-bottom: 12px;
     margin-top: 12px;  
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.4;
   }
 

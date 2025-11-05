@@ -8,7 +8,7 @@ description: In many cases, you'll need to use multiple applications embedded on
   on your website, this issue arises. Here are some ways to address this problem.
 layout: default
 permalink: /docs/others/how-to-other-applications-work-with-naviplus/
-title: How To Other Applications Work With Naviplus
+title: How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
 ---
 # How to prevent Navi+ from overlapping other apps like Chat/WhatsApp...?
 

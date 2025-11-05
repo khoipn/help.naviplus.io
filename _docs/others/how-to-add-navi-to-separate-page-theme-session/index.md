@@ -5,7 +5,7 @@ description: There are several ways to add a Navi+ menu to your website, allowin
   theme as a section, which you can do following the instructions below
 layout: default
 permalink: /docs/others/how-to-add-navi-to-separate-page-theme-session/
-title: How To Add Navi To Separate Page Theme Session
+title: How to add Navi+ to a separate page through Theme Session
 ---
 # How to add Navi+ to a separate page through Theme Session
 

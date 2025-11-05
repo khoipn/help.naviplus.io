@@ -4,7 +4,7 @@ description: 'CSS is the key to every problem when you need to customize deeply 
   there are 2 levels of CSS:'
 layout: default
 permalink: /docs/for-developers/how-to-write-a-correct-css-code-in-navi/
-title: How To Write A Correct Css Code In Navi+
+title: How to write a correct CSS code in Navi+
 ---
 # How to write a correct CSS code in Navi+
 

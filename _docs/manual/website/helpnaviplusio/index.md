@@ -1,14 +1,15 @@
 ---
-description: '- [Why can Navi+ help you save money?](/manual/website/help.naviplus.io/why-can-navi+-help-you-save-money.md
-  "Why can Navi+ help you save money?")'
+description: '- [Getting Started](/manual/website/help.naviplus.io/getting-started.md
+  "Getting Started")'
 layout: default
 permalink: /docs/manual/website/helpnaviplusio/
-title: Help.Naviplus.Io
+title: help.naviplus.io
 ---
 # help.naviplus.io
 
-- [Why can Navi+ help you save money?](/manual/website/help.naviplus.io/why-can-navi+-help-you-save-money.md "Why can Navi+ help you save money?")
-- [Is Navi+ fast? Does it affect website speed?](/manual/website/help.naviplus.io/is-navi+-fast-does-it-affect-website-speed.md "Is Navi+ fast? Does it affect website speed?")
+- [Getting Started](/manual/website/help.naviplus.io/getting-started.md "Getting Started")
+- [Why choose Navi+?](/manual/website/help.naviplus.io/why-choose-navi+.md "Why choose Navi+?")
+- [How to install Navi+](/manual/website/help.naviplus.io/how-to-install-navi+.md "How to install Navi+")
 - [line](/manual/website/help.naviplus.io/line.md "line")
 - [How?](/manual/website/help.naviplus.io/how.md "How?")
 - [Optimize Navi+ menu loading speed (Slide & Mega menus)](/manual/website/help.naviplus.io/how/optimize-navi+-menu-loading-speed-slide-and-mega-menus.md "Optimize Navi+ menu loading speed (Slide & Mega menus)")

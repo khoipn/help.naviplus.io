@@ -198,13 +198,20 @@ def parse_navigation_markdown(markdown_content, base_url):
     print("Navigation markdown parsed.")
     return navigation_data, list(all_content_urls)
 
+def unescape_pipes(markdown_content):
+    """Unescape \| to | in the content so they display correctly."""
+    return markdown_content.replace('\\|', '|')
+
 def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     """
     Processes Markdown content (adds front matter, SEO for images/links) and saves it.
     original_url is used to derive the permalink and output path.
     """
-    # Apply SEO enhancements first
-    processed_seo_md_content = add_image_and_link_seo_attributes(raw_md_content)
+    # Unescape pipes first
+    processed_md_content = unescape_pipes(raw_md_content)
+    
+    # Apply SEO enhancements
+    processed_seo_md_content = add_image_and_link_seo_attributes(processed_md_content)
 
     parsed_url = urlparse(original_url)
     # The part of the path after '/manual/website/help.naviplus.io/'
@@ -238,7 +245,7 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     print(f"  -> Processing and saving to: {final_output_path} (Permalink: {jekyll_permalink})")
 
     # Extract title from H1 or fallback
-    title_match = re.search(r'^#\\s*(.+)', processed_seo_md_content, re.MULTILINE)
+    title_match = re.search(r'^#\s*(.+)', processed_seo_md_content, re.MULTILINE)
     title = title_match.group(1).strip() if title_match else os.path.basename(file_slug.replace('-', ' ')).title()
 
     # Extract description from the first paragraph, or use a default
