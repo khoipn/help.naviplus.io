@@ -948,6 +948,10 @@ details strong {
   font-size: 1em;
 }
 
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  min-width: 220px;
+}
+
 /* Responsive adjustments for sitemap */
 @media (max-width: 767.98px) {
   .sitemap-grid {

@@ -1,7 +1,7 @@
 const navbarLinks = [
   {
-    title: "Home",
-    url: "{{ site.baseurl | relative_url }}/",
+    title: "Back to Navi+",
+    url: "https://naviplus.io",
     external: false
   },
   {
@@ -10,13 +10,13 @@ const navbarLinks = [
     external: true,
     children: [
       {
-        title: "Link 1",
-        url: "#link1",
+        title: "Live demo with 1Click",
+        url: "https://naviplus.app/demo/index.php?page=live-demo",
         external: false
       },
       {
-        title: "Link 2",
-        url: "#link2",
+        title: "10 Case studies",
+        url: "https://naviplus.app/demo/index.php?page=case-study",
         external: false
       }
     ]
@@ -24,13 +24,26 @@ const navbarLinks = [
   {
     title: "Pricing",
     url: "https://naviplus.io/pricing",
-    external: true
+    external: false
   },
   {
-    title: "Free install Navi+",
-    url: "https://naviplus.io/install",
-    external: true
+    title: " Free install Navi+",
+    url: "",
+    external: true,
+    children: [
+      {
+        title: "Shopify App",
+        url: "https://apps.shopify.com/pronavi-navigation-design",
+        external: true
+      },
+      {
+        title: "For all platforms (WordPress, Wix, PrestaShop, etc.)",
+        url: "https://dash.naviplus.app/naviplus/authen/authen.php?action=login",
+        external: true
+      }
+    ]
   },
+  
   {
     title: "Translate",
     url: "#",
