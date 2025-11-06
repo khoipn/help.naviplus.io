@@ -413,6 +413,90 @@ def generate_sidebar_navigation(navigation_data):
     
     print(f"Sidebar navigation generated and saved to {NAVIGATION_YML_PATH}")
 
+def generate_sitemap_html(navigation_data):
+    """Generates a beautiful sitemap HTML for the homepage."""
+    print("Generating sitemap for homepage...")
+    
+    def render_nav_item(item, level=0):
+        """Recursively render navigation items as HTML."""
+        # Skip separator items
+        if item.get("type") == "separator" or item.get("title", "").lower() == "line":
+            return ""
+        
+        title = item.get("title", "")
+        url = item.get("url", "#")
+        children = item.get("children", [])
+        
+        # Filter out separator children
+        children = [child for child in children if child.get("type") != "separator" and child.get("title", "").lower() != "line"]
+        
+        html = ""
+        
+        if level == 0:
+            # Top level: Section with heading
+            html += f'<div class="sitemap-section">\n'
+            html += f'  <h2 class="sitemap-section-title">\n'
+            html += f'    <i class="ri-folder-3-line"></i> {title}\n'
+            html += f'  </h2>\n'
+            
+            if children:
+                html += f'  <ul class="sitemap-list">\n'
+                for child in children:
+                    html += render_nav_item(child, level + 1)
+                html += f'  </ul>\n'
+            else:
+                html += f'  <a href="{url}" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>\n'
+            
+            html += f'</div>\n'
+        else:
+            # Child items: Simple list items
+            html += f'<li class="sitemap-list-item">\n'
+            html += f'  <a href="{url}" class="sitemap-link">\n'
+            html += f'    <i class="ri-file-text-line"></i> {title}\n'
+            html += f'  </a>\n'
+            
+            if children:
+                html += f'  <ul class="sitemap-sublist">\n'
+                for child in children:
+                    html += render_nav_item(child, level + 1)
+                html += f'  </ul>\n'
+            
+            html += f'</li>\n'
+        
+        return html
+    
+    # Build the sitemap HTML
+    sitemap_html = '<div class="sitemap-container">\n'
+    sitemap_html += '  <div class="sitemap-header">\n'
+    sitemap_html += '    <h1 class="sitemap-heading">Welcome to Navi+</h1>\n'
+    sitemap_html += '    <p class="sitemap-subtitle">The #1 Menu Builder System Across Multiple Platforms</p>\n'
+    sitemap_html += '  </div>\n'
+    sitemap_html += '  <div class="sitemap-grid">\n'
+    
+    for item in navigation_data:
+        sitemap_html += render_nav_item(item, 0)
+    
+    sitemap_html += '  </div>\n'
+    sitemap_html += '</div>\n'
+    
+    # Create index.md for homepage
+    homepage_path = "index.md"
+    
+    front_matter = {
+        "layout": "default",
+        "title": "Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms",
+        "description": "Navi+ - The #1 Menu Builder system across multiple platforms. Browse our complete documentation.",
+        "permalink": "/"
+    }
+    front_matter_str = yaml.dump(front_matter, allow_unicode=True, default_flow_style=False)
+    
+    final_content = f"---\n{front_matter_str}---\n\n{sitemap_html}"
+    
+    with open(homepage_path, 'w', encoding='utf-8') as f:
+        f.write(final_content)
+    
+    print(f"✅ Sitemap generated and saved to {homepage_path}")
+
 def add_image_and_link_seo_attributes(markdown_content):
     """Adds alt attributes to images (without title), and title attributes to links if missing."""
     print("Applying SEO attributes to images and links...")
@@ -492,6 +576,9 @@ def main():
 
         # 5. Generate _data/navigation.yml from the parsed structure
         generate_sidebar_navigation(navigation_structure)
+        
+        # 6. Generate sitemap for homepage
+        generate_sitemap_html(navigation_structure)
         
     else:
         print("Failed to download main navigation Markdown content. Aborting.")

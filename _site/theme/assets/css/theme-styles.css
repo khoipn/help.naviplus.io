@@ -162,6 +162,29 @@ footer {
   }
 }
 
+.content-wrapper ul.sitemap-list {
+  padding-left: 0px;
+}
+
+.content-wrapper .sitemap-section-title {
+  padding: 0px;
+  border: 0px;
+  font-size: 18px;
+}
+
+.content-wrapper .sitemap-section-title i {
+  color: #777;
+  font-size: 18px;
+}
+
+.content-wrapper .sitemap-list-item {
+  margin: 0px;
+}
+
+.content-wrapper .sitemap-list-item a {
+  padding: 0px;
+}
+
 .bg-dark {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -285,6 +308,8 @@ main img.error {
     padding-left: 2em;
   }
 
+  
+
   li {
     margin-bottom: 0.5em;
   }
@@ -343,7 +368,7 @@ figure figcaption {
 
 /* Styles for <details> and <summary> tags */
 .content-wrapper details {
-  margin: 1.5em 0;
+  margin: 0.5em 0;
   padding: 1rem;
   border: 1px solid #e1e4e8;
   border-radius: 6px;
@@ -408,6 +433,10 @@ figure figcaption {
 
 .content-wrapper details p:last-child {
   margin-bottom: 0;
+}
+
+details strong {
+  font-weight: 600;
 }
 
 .sidebar-children-list {
@@ -783,3 +812,172 @@ figure figcaption {
   }
 }
 
+/* Sitemap Styles */
+.sitemap-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.sitemap-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px dashed #e1e4e8;
+}
+
+.sitemap-heading {
+  font-size: 2.8em;
+  font-weight: 700;
+  color: #212121;
+  margin: 0px;
+}
+
+.sitemap-subtitle {
+  font-size: 1.2em;
+  color: #6a737d;
+  font-weight: 400;
+}
+
+.sitemap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sitemap-section {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 0.5rem 1.0rem;
+  transition: all 0.2s ease;
+}
+
+.sitemap-section:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: #d1d5da;
+}
+
+.sitemap-section-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #24292e;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #f6f8fa;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sitemap-section-title i {
+  color: #0366d6;
+  font-size: 1.2em;
+}
+
+.sitemap-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sitemap-list-item {
+  margin-bottom: 0.5rem;
+}
+
+.sitemap-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #24292e;
+  font-size: 0.95em;
+  padding: 0.4rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.sitemap-link:hover {
+  background-color: #f6f8fa;
+  color: #0366d6;
+  padding-left: 0.75rem;
+}
+
+.sitemap-link i {
+  font-size: 1.1em;
+  color: #6a737d;
+  flex-shrink: 0;
+}
+
+.sitemap-link:hover i {
+  color: #0366d6;
+}
+
+.sitemap-single-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #0366d6;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  background: #f6f8fa;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.sitemap-single-link:hover {
+  background: #e9ecef;
+}
+
+.sitemap-sublist {
+  list-style: none;
+  padding-left: 1.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.sitemap-sublist .sitemap-link {
+  font-size: 0.9em;
+  color: #586069;
+}
+
+.sitemap-sublist .sitemap-link i {
+  font-size: 1em;
+}
+
+/* Responsive adjustments for sitemap */
+@media (max-width: 767.98px) {
+  .sitemap-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .sitemap-heading {
+    font-size: 2em;
+  }
+  
+  .sitemap-subtitle {
+    font-size: 1em;
+  }
+  
+  .sitemap-section {
+    padding: 1rem;
+  }
+  
+  .sitemap-section-title {
+    font-size: 1.1em;
+  }
+}
+
+ul.nav > li.nav-item:last-child {
+  /* CSS cho item cuối cùng */
+  padding-bottom: 60px;
+}
+
+/* Ghi đè lại cho các item cuối cùng trong submenu */
+ul.nav li ul li.nav-item:last-child {
+  padding-bottom: initial !important;
+}

@@ -20,6 +20,13 @@
   title: line
   url: /docs/line-1/
 - children:
+  - processed_path: demo/1click-live-demo
+    title: 1Click live demo
+    url: /docs/demo/1click-live-demo/
+  processed_path: demo
+  title: Demo
+  url: /docs/demo/
+- children:
   - children:
     - processed_path: usage/tabbar/how-to-use
       title: How to use?
@@ -183,18 +190,28 @@
   title: line
   url: /docs/line-2/
 - children:
-  - processed_path: develop/how-to-write-a-correct-css-code-in-navi
+  - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: How to write a correct CSS code in Navi+
-    url: /docs/develop/how-to-write-a-correct-css-code-in-navi/
-  - processed_path: develop/add-walk-through-to-navi
+    url: /docs/development/how-to-write-a-correct-css-code-in-navi/
+  - processed_path: development/add-walk-through-to-navi
     title: Add walk-through to Navi+
-    url: /docs/develop/add-walk-through-to-navi/
-  processed_path: develop
-  title: Develop
-  url: /docs/develop/
+    url: /docs/development/add-walk-through-to-navi/
+  processed_path: development
+  title: Development
+  url: /docs/development/
 - processed_path: line-3
   title: line
   url: /docs/line-3/
+- children:
+  - processed_path: resources/privacy-policy
+    title: Privacy Policy
+    url: /docs/resources/privacy-policy/
+  - processed_path: resources/terms-and-condition
+    title: Terms & Condition
+    url: /docs/resources/terms-and-condition/
+  processed_path: resources
+  title: Resources
+  url: /docs/resources/
 - children:
   - processed_path: partership/earn-up-to-225-revshare-with-navi
     title: Earn up to 22.5% RevShare with Navi+

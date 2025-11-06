@@ -5,7 +5,7 @@ description: You’ll need to use a library like TourGuideJS, a JavaScript libra
   \</div>. It’s completely free. Follow the instructions below to add walkthroughs
   through the Navi+ menus, either for the entire menu or for individual menu items.
 layout: default
-permalink: /docs/develop/add-walk-through-to-navi/
+permalink: /docs/development/add-walk-through-to-navi/
 title: Add walk-through to Navi+
 ---
 # Add walk-through to Navi+

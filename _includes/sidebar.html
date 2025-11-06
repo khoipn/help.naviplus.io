@@ -13,6 +13,16 @@
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
+  <!-- Home Link -->
+  <li class="nav-item">
+    <a class="nav-link{% if current_page_url == '/' %} active{% endif %}" href="{{ site.baseurl | relative_url }}/">
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
+        <span class="sidebar-title-text flex-grow-1">Home</span>
+      </span>
+    </a>
+  </li>
+  
   {% for item in site.data.navigation %}
     {% assign item_url_normalized = item.url | remove: 'index.html' | replace: '//', '/' %}
     {% if item_url_normalized != '/' and item_url_normalized contains '/' and item_url_normalized | slice: -1 == '/' %}
