@@ -1,5 +1,0 @@
-# Mega menu (desktop)
-
-- [How to use?](/manual/website/help.naviplus.io/usage/mega-menu-desktop/how-to-use.md)
-- [Publishing on Shopify](/manual/website/help.naviplus.io/usage/mega-menu-desktop/publishing-on-shopify.md)
-- [Publishing on other platforms](/manual/website/help.naviplus.io/usage/mega-menu-desktop/publishing-on-other-platforms.md)
