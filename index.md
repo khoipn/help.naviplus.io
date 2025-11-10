@@ -65,137 +65,137 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/1-mega-menu-desktop/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> 1. Mega Menu (desktop)
+  <a href="/docs/usage/tabbar-bottom-navigation/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Tabbar (Bottom Navigation)
   </a>
   <ul class="sitemap-sublist">
 <li class="sitemap-list-item">
-  <a href="/docs/usage/1-mega-menu-desktop/how-to-use/" class="sitemap-link">
+  <a href="/docs/usage/tabbar-bottom-navigation/how-to-use/" class="sitemap-link">
     <i class="ri-file-text-line"></i> How to use?
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/1-mega-menu-desktop/publishing-on-shopify/" class="sitemap-link">
+  <a href="/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on Shopify
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/1-mega-menu-desktop/publishing-on-other-platforms/" class="sitemap-link">
+  <a href="/docs/usage/tabbar-bottom-navigation/publishing-on-other-platforms/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publishing on other platforms
+  </a>
+</li>
+  </ul>
+</li>
+<li class="sitemap-list-item">
+  <a href="/docs/usage/mega-menu-desktop/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Mega Menu (desktop)
+  </a>
+  <ul class="sitemap-sublist">
+<li class="sitemap-list-item">
+  <a href="/docs/usage/mega-menu-desktop/how-to-use/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> How to use?
+  </a>
+</li>
+<li class="sitemap-list-item">
+  <a href="/docs/usage/mega-menu-desktop/publishing-on-shopify/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publishing on Shopify
+  </a>
+</li>
+<li class="sitemap-list-item">
+  <a href="/docs/usage/mega-menu-desktop/publishing-on-other-platforms/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on other platforms
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/1-mega-menu-desktop/faq/" class="sitemap-link">
+  <a href="/docs/usage/mega-menu-desktop/faq/" class="sitemap-link">
     <i class="ri-file-text-line"></i> FAQ
   </a>
 </li>
   </ul>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/2-mega-menu-mobile/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> 2. Mega Menu (mobile)
+  <a href="/docs/usage/mega-menu-mobile/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Mega Menu (mobile)
   </a>
   <ul class="sitemap-sublist">
 <li class="sitemap-list-item">
-  <a href="/docs/usage/2-mega-menu-mobile/how-to-use/" class="sitemap-link">
+  <a href="/docs/usage/mega-menu-mobile/how-to-use/" class="sitemap-link">
     <i class="ri-file-text-line"></i> How to use?
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/2-mega-menu-mobile/publishing-on-shopify/" class="sitemap-link">
+  <a href="/docs/usage/mega-menu-mobile/publishing-on-shopify/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on Shopify
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/2-mega-menu-mobile/publishing-on-other-platforms/" class="sitemap-link">
+  <a href="/docs/usage/mega-menu-mobile/publishing-on-other-platforms/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on other platforms
   </a>
 </li>
   </ul>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/3-slide-menu-hamburger-menu/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> 3. Slide menu (Hamburger Menu)
+  <a href="/docs/usage/slide-menu-hamburger-menu/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Slide menu (Hamburger Menu)
   </a>
   <ul class="sitemap-sublist">
 <li class="sitemap-list-item">
-  <a href="/docs/usage/3-slide-menu-hamburger-menu/how-to-use/" class="sitemap-link">
+  <a href="/docs/usage/slide-menu-hamburger-menu/how-to-use/" class="sitemap-link">
     <i class="ri-file-text-line"></i> How to use?
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/3-slide-menu-hamburger-menu/publishing-on-shopify/" class="sitemap-link">
+  <a href="/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on Shopify
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/3-slide-menu-hamburger-menu/publishing-on-other-platforms/" class="sitemap-link">
+  <a href="/docs/usage/slide-menu-hamburger-menu/publishing-on-other-platforms/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on other platforms
   </a>
 </li>
   </ul>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/4-tabbar-bottom-navigation/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> 4. Tabbar (Bottom Navigation)
+  <a href="/docs/usage/fab-floating-menu-quick-access/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> FAB - Floating Menu / Quick Access
   </a>
   <ul class="sitemap-sublist">
 <li class="sitemap-list-item">
-  <a href="/docs/usage/4-tabbar-bottom-navigation/how-to-use/" class="sitemap-link">
+  <a href="/docs/usage/fab-floating-menu-quick-access/how-to-use/" class="sitemap-link">
     <i class="ri-file-text-line"></i> How to use?
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/4-tabbar-bottom-navigation/publishing-on-shopify/" class="sitemap-link">
+  <a href="/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on Shopify
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/4-tabbar-bottom-navigation/publishing-on-other-platforms/" class="sitemap-link">
+  <a href="/docs/usage/fab-floating-menu-quick-access/publishing-on-other-platforms/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on other platforms
   </a>
 </li>
   </ul>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/5-fab-floating-menu-quick-access/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> 5. FAB - Floating Menu / Quick Access
+  <a href="/docs/usage/grid-menu/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Grid Menu
   </a>
   <ul class="sitemap-sublist">
 <li class="sitemap-list-item">
-  <a href="/docs/usage/5-fab-floating-menu-quick-access/how-to-use/" class="sitemap-link">
+  <a href="/docs/usage/grid-menu/how-to-use/" class="sitemap-link">
     <i class="ri-file-text-line"></i> How to use?
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/5-fab-floating-menu-quick-access/publishing-on-shopify/" class="sitemap-link">
+  <a href="/docs/usage/grid-menu/publishing-on-shopify/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on Shopify
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/5-fab-floating-menu-quick-access/publishing-on-other-platforms/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on other platforms
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/6-grid-menu/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> 6. Grid Menu
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/6-grid-menu/how-to-use/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to use?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/6-grid-menu/publishing-on-shopify/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on Shopify
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/6-grid-menu/publishing-on-other-platforms/" class="sitemap-link">
+  <a href="/docs/usage/grid-menu/publishing-on-other-platforms/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on other platforms
   </a>
 </li>

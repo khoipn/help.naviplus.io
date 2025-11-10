@@ -31,86 +31,86 @@
     title: Explore common menus
     url: /docs/usage/explore-common-menus/
   - children:
-    - processed_path: usage/1-mega-menu-desktop/how-to-use
+    - processed_path: usage/tabbar-bottom-navigation/how-to-use
       title: How to use?
-      url: /docs/usage/1-mega-menu-desktop/how-to-use/
-    - processed_path: usage/1-mega-menu-desktop/publishing-on-shopify
+      url: /docs/usage/tabbar-bottom-navigation/how-to-use/
+    - processed_path: usage/tabbar-bottom-navigation/publishing-on-shopify
       title: Publishing on Shopify
-      url: /docs/usage/1-mega-menu-desktop/publishing-on-shopify/
-    - processed_path: usage/1-mega-menu-desktop/publishing-on-other-platforms
+      url: /docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
+    - processed_path: usage/tabbar-bottom-navigation/publishing-on-other-platforms
       title: Publishing on other platforms
-      url: /docs/usage/1-mega-menu-desktop/publishing-on-other-platforms/
-    - processed_path: usage/1-mega-menu-desktop/faq
+      url: /docs/usage/tabbar-bottom-navigation/publishing-on-other-platforms/
+    processed_path: usage/tabbar-bottom-navigation
+    title: Tabbar (Bottom Navigation)
+    url: /docs/usage/tabbar-bottom-navigation/
+  - children:
+    - processed_path: usage/mega-menu-desktop/how-to-use
+      title: How to use?
+      url: /docs/usage/mega-menu-desktop/how-to-use/
+    - processed_path: usage/mega-menu-desktop/publishing-on-shopify
+      title: Publishing on Shopify
+      url: /docs/usage/mega-menu-desktop/publishing-on-shopify/
+    - processed_path: usage/mega-menu-desktop/publishing-on-other-platforms
+      title: Publishing on other platforms
+      url: /docs/usage/mega-menu-desktop/publishing-on-other-platforms/
+    - processed_path: usage/mega-menu-desktop/faq
       title: FAQ
-      url: /docs/usage/1-mega-menu-desktop/faq/
-    processed_path: usage/1-mega-menu-desktop
-    title: 1. Mega Menu (desktop)
-    url: /docs/usage/1-mega-menu-desktop/
+      url: /docs/usage/mega-menu-desktop/faq/
+    processed_path: usage/mega-menu-desktop
+    title: Mega Menu (desktop)
+    url: /docs/usage/mega-menu-desktop/
   - children:
-    - processed_path: usage/2-mega-menu-mobile/how-to-use
+    - processed_path: usage/mega-menu-mobile/how-to-use
       title: How to use?
-      url: /docs/usage/2-mega-menu-mobile/how-to-use/
-    - processed_path: usage/2-mega-menu-mobile/publishing-on-shopify
+      url: /docs/usage/mega-menu-mobile/how-to-use/
+    - processed_path: usage/mega-menu-mobile/publishing-on-shopify
       title: Publishing on Shopify
-      url: /docs/usage/2-mega-menu-mobile/publishing-on-shopify/
-    - processed_path: usage/2-mega-menu-mobile/publishing-on-other-platforms
+      url: /docs/usage/mega-menu-mobile/publishing-on-shopify/
+    - processed_path: usage/mega-menu-mobile/publishing-on-other-platforms
       title: Publishing on other platforms
-      url: /docs/usage/2-mega-menu-mobile/publishing-on-other-platforms/
-    processed_path: usage/2-mega-menu-mobile
-    title: 2. Mega Menu (mobile)
-    url: /docs/usage/2-mega-menu-mobile/
+      url: /docs/usage/mega-menu-mobile/publishing-on-other-platforms/
+    processed_path: usage/mega-menu-mobile
+    title: Mega Menu (mobile)
+    url: /docs/usage/mega-menu-mobile/
   - children:
-    - processed_path: usage/3-slide-menu-hamburger-menu/how-to-use
+    - processed_path: usage/slide-menu-hamburger-menu/how-to-use
       title: How to use?
-      url: /docs/usage/3-slide-menu-hamburger-menu/how-to-use/
-    - processed_path: usage/3-slide-menu-hamburger-menu/publishing-on-shopify
+      url: /docs/usage/slide-menu-hamburger-menu/how-to-use/
+    - processed_path: usage/slide-menu-hamburger-menu/publishing-on-shopify
       title: Publishing on Shopify
-      url: /docs/usage/3-slide-menu-hamburger-menu/publishing-on-shopify/
-    - processed_path: usage/3-slide-menu-hamburger-menu/publishing-on-other-platforms
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
+    - processed_path: usage/slide-menu-hamburger-menu/publishing-on-other-platforms
       title: Publishing on other platforms
-      url: /docs/usage/3-slide-menu-hamburger-menu/publishing-on-other-platforms/
-    processed_path: usage/3-slide-menu-hamburger-menu
-    title: 3. Slide menu (Hamburger Menu)
-    url: /docs/usage/3-slide-menu-hamburger-menu/
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-on-other-platforms/
+    processed_path: usage/slide-menu-hamburger-menu
+    title: Slide menu (Hamburger Menu)
+    url: /docs/usage/slide-menu-hamburger-menu/
   - children:
-    - processed_path: usage/4-tabbar-bottom-navigation/how-to-use
+    - processed_path: usage/fab-floating-menu-quick-access/how-to-use
       title: How to use?
-      url: /docs/usage/4-tabbar-bottom-navigation/how-to-use/
-    - processed_path: usage/4-tabbar-bottom-navigation/publishing-on-shopify
+      url: /docs/usage/fab-floating-menu-quick-access/how-to-use/
+    - processed_path: usage/fab-floating-menu-quick-access/publishing-on-shopify
       title: Publishing on Shopify
-      url: /docs/usage/4-tabbar-bottom-navigation/publishing-on-shopify/
-    - processed_path: usage/4-tabbar-bottom-navigation/publishing-on-other-platforms
+      url: /docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
+    - processed_path: usage/fab-floating-menu-quick-access/publishing-on-other-platforms
       title: Publishing on other platforms
-      url: /docs/usage/4-tabbar-bottom-navigation/publishing-on-other-platforms/
-    processed_path: usage/4-tabbar-bottom-navigation
-    title: 4. Tabbar (Bottom Navigation)
-    url: /docs/usage/4-tabbar-bottom-navigation/
+      url: /docs/usage/fab-floating-menu-quick-access/publishing-on-other-platforms/
+    processed_path: usage/fab-floating-menu-quick-access
+    title: FAB - Floating Menu / Quick Access
+    url: /docs/usage/fab-floating-menu-quick-access/
   - children:
-    - processed_path: usage/5-fab-floating-menu-quick-access/how-to-use
+    - processed_path: usage/grid-menu/how-to-use
       title: How to use?
-      url: /docs/usage/5-fab-floating-menu-quick-access/how-to-use/
-    - processed_path: usage/5-fab-floating-menu-quick-access/publishing-on-shopify
+      url: /docs/usage/grid-menu/how-to-use/
+    - processed_path: usage/grid-menu/publishing-on-shopify
       title: Publishing on Shopify
-      url: /docs/usage/5-fab-floating-menu-quick-access/publishing-on-shopify/
-    - processed_path: usage/5-fab-floating-menu-quick-access/publishing-on-other-platforms
+      url: /docs/usage/grid-menu/publishing-on-shopify/
+    - processed_path: usage/grid-menu/publishing-on-other-platforms
       title: Publishing on other platforms
-      url: /docs/usage/5-fab-floating-menu-quick-access/publishing-on-other-platforms/
-    processed_path: usage/5-fab-floating-menu-quick-access
-    title: 5. FAB - Floating Menu / Quick Access
-    url: /docs/usage/5-fab-floating-menu-quick-access/
-  - children:
-    - processed_path: usage/6-grid-menu/how-to-use
-      title: How to use?
-      url: /docs/usage/6-grid-menu/how-to-use/
-    - processed_path: usage/6-grid-menu/publishing-on-shopify
-      title: Publishing on Shopify
-      url: /docs/usage/6-grid-menu/publishing-on-shopify/
-    - processed_path: usage/6-grid-menu/publishing-on-other-platforms
-      title: Publishing on other platforms
-      url: /docs/usage/6-grid-menu/publishing-on-other-platforms/
-    processed_path: usage/6-grid-menu
-    title: 6. Grid Menu
-    url: /docs/usage/6-grid-menu/
+      url: /docs/usage/grid-menu/publishing-on-other-platforms/
+    processed_path: usage/grid-menu
+    title: Grid Menu
+    url: /docs/usage/grid-menu/
   - children:
     - processed_path: usage/general/apply-multi-language
       title: Apply multi-language

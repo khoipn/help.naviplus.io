@@ -4,7 +4,23 @@ Navi+ offers a comprehensive menu solution for your website — far beyond tradi
 
 Depending on your device type and desired user experience, you can choose from several flexible and optimized menu styles:
 
-#### 1. Mega Menu (Desktop) - Extremely popular
+#### 1. Tab Bar (Bottom Navigation)
+
+As known as Bottom Navigation Bar, Bottom Nav, or Tab Navigation - is a modern navigation style used by global brands like Shein, ASOS, Zara, Etsy, H\&M, Nike, and Uniqlo to enhance mobile user experience. It works well for websites of all sizes and is effective on both mobile and desktop.
+
+Appears at the bottom of mobile screens, helping users:
+
+* Quickly access 4–5 main areas of your site
+* Navigate easily with their thumbs
+* Enjoy an app-like experience that feels natural on mobile
+
+Platform: **Desktop and Mobile (Extremely polular)**
+
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtORhQISThtSYB55HqrKD%2FSlide-0-3.webp?alt=media&#x26;token=4889aad6-bb4a-4fd5-9f43-a7439c779352" alt=""><figcaption></figcaption></figure>
+
+***
+
+#### 2. Mega Menu (Desktop) - Extremely popular
 
 Designed for desktop websites, the Mega Menu is perfect when you want to:
 
@@ -18,7 +34,7 @@ Platform: **Desktop only**
 
 ***
 
-#### 2. Mobile Mega Menu - Not common
+#### 3. Mobile Mega Menu - Not common
 
 A version of the mega menu optimized for mobile screens — compact, thumb-friendly, and easy to navigate.
 
@@ -30,7 +46,7 @@ Platform: **Mobile only**
 
 ***
 
-#### 3. Slide Menu (Hamburger Menu)
+#### 4. Slide Menu (Hamburger Menu)
 
 A slide-out panel from the left or right side of the screen, often used for secondary or utility content such as:
 
@@ -41,22 +57,6 @@ A slide-out panel from the left or right side of the screen, often used for seco
 Platform: **Desktop (not common) and Mobile (Extremely polular)**
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLCmdTapRLNGzq0dIAnMB%2FSlide-0-2.webp?alt=media&#x26;token=67d280d0-58b1-4ce1-b4d3-ddaae8a3307c" alt=""><figcaption></figcaption></figure>
-
-***
-
-#### 4. Tab Bar (Bottom Navigation)
-
-As known as Bottom Navigation Bar, Bottom Nav, or Tab Navigation - is a modern navigation style used by global brands like Shein, ASOS, Zara, Etsy, H\&M, Nike, and Uniqlo to enhance mobile user experience. It works well for websites of all sizes and is effective on both mobile and desktop.
-
-Appears at the bottom of mobile screens, helping users:
-
-* Quickly access 4–5 main areas of your site
-* Navigate easily with their thumbs
-* Enjoy an app-like experience that feels natural on mobile
-
-Platform: **Desktop and Mobile (Extremely polular)**
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtORhQISThtSYB55HqrKD%2FSlide-0-3.webp?alt=media&#x26;token=4889aad6-bb4a-4fd5-9f43-a7439c779352" alt=""><figcaption></figcaption></figure>
 
 ***
 

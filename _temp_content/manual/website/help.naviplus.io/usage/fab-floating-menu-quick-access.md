@@ -1,0 +1,5 @@
+# FAB - Floating Menu / Quick Access
+
+- [How to use?](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md)
+- [Publishing on Shopify](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md)
+- [Publishing on other platforms](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-other-platforms.md)
