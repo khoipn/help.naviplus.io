@@ -985,3 +985,7 @@ ul.nav > li.nav-item:last-child {
 ul.nav li ul li.nav-item:last-child {
   padding-bottom: initial !important;
 }
+
+#favoritesList > li.nav-item:last-child {
+  padding-bottom: initial !important;
+}
