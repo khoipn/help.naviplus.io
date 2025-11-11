@@ -1,0 +1,8 @@
+# .cloudflare/config.yaml
+name: help-naviplus-io
+production:
+  build_command: "bundle exec jekyll build"
+  build_output_dir: "_site"
+  environment:
+    JEKYLL_ENV: "production"
+    RUBY_VERSION: "3.2.2"
