@@ -6,24 +6,24 @@
 <title>Menu interface (UI)</title>
 <meta name="description" content="<details><summary>How to change the menu appearance using Navi+’s built-in settings or by adding custom CSS?</summary>">
 
-<link rel="canonical" href="http://localhost:4000/docs/frequently-asked-questions/menu-interface-ui/">
+<link rel="canonical" href="http://localhost:4001/docs/frequently-asked-questions/menu-interface-ui/">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost:4000/docs/frequently-asked-questions/menu-interface-ui/">
+<meta property="og:url" content="http://localhost:4001/docs/frequently-asked-questions/menu-interface-ui/">
 <meta property="og:title" content="Menu interface (UI)">
 <meta property="og:description" content="<details><summary>How to change the menu appearance using Navi+’s built-in settings or by adding custom CSS?</summary>">
 
-<meta property="og:image" content="http://localhost:4000/assets/images/naviplus-social-share.jpg">
+<meta property="og:image" content="http://localhost:4001/assets/images/naviplus-social-share.jpg">
 
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://localhost:4000/docs/frequently-asked-questions/menu-interface-ui/">
+<meta property="twitter:url" content="http://localhost:4001/docs/frequently-asked-questions/menu-interface-ui/">
 <meta property="twitter:title" content="Menu interface (UI)">
 <meta property="twitter:description" content="<details><summary>How to change the menu appearance using Navi+’s built-in settings or by adding custom CSS?</summary>">
 
-<meta property="twitter:image" content="http://localhost:4000/assets/images/naviplus-social-share.jpg">
+<meta property="twitter:image" content="http://localhost:4001/assets/images/naviplus-social-share.jpg">
 
 
 <meta name="twitter:creator" content="@NaviPlusOfficial">
@@ -31,7 +31,7 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <!-- Remixicon CSS -->
-<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
 <link rel="stylesheet" href="/theme/assets/css/theme-styles.css">
 
 <style>
@@ -2461,18 +2461,22 @@ ul.children[menulevel=&quot;2&quot;] li.child.is-parent.menu-expand ul.children[
               a.href = linkData.url;
               a.textContent = linkData.title;
               if (linkData.external) {
-                a.target = '_';
-                a.rel = 'noopener';
+                a.target = '_blank';
+                a.rel = 'noopener noreferrer';
               }
 
-              // Add active class if current page matches
-              const currentPathname = window.location.pathname;
-              const baseUrl = ''.endsWith('/') ? ''.slice(0, -1) : '';
-              const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
-              const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
+              // Add active class if explicitly set or current page matches
+              if (linkData.active) {
+                a.classList.add('active');
+              } else {
+                const currentPathname = window.location.pathname;
+                const baseUrl = ''.endsWith('/') ? ''.slice(0, -1) : '';
+                const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
+                const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
 
-              if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
-                  a.classList.add('active');
+                if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
+                    a.classList.add('active');
+                }
               }
               li.appendChild(a);
             }
@@ -2492,6 +2496,14 @@ ul.children[menulevel=&quot;2&quot;] li.child.is-parent.menu-expand ul.children[
     <script src="/theme/assets/js/table-of-contents.js"></script>
     <footer class="sidebar-footer-fixed">
       <p>© 2025 by Navi+ <a href="https://naviplus.io" target="_blank"> Navi+</a></p>
+
+<!-- Navi+ Embed Support Widget -->
+<div id="naviman_app"></div>
+<script type="application/javascript" 
+        src="https://naviplus.b-cdn.net/naviplus/golive/uigen-v2.2.js" 
+        shop="amazingtest111.myshopify.com" 
+        embed_id="SF-6284677354" 
+        defer></script>
 
     </footer>
   </body>

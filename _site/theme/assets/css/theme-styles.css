@@ -54,6 +54,18 @@
   width: auto; /* Ensure width adjusts proportionally */
 }
 
+/* Navbar active menu item */
+.navbar .nav-link.active {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.navbar .nav-link.active:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
 .sidebar .nav-link {
   font-weight: 400;
   color: #586069; /* GitBook like link color */
@@ -983,9 +995,5 @@ ul.nav > li.nav-item:last-child {
 
 /* Ghi đè lại cho các item cuối cùng trong submenu */
 ul.nav li ul li.nav-item:last-child {
-  padding-bottom: initial !important;
-}
-
-#favoritesList > li.nav-item:last-child {
   padding-bottom: initial !important;
 }

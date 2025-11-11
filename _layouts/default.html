@@ -90,18 +90,22 @@
               a.href = linkData.url;
               a.textContent = linkData.title;
               if (linkData.external) {
-                a.target = '_';
-                a.rel = 'noopener';
+                a.target = '_blank';
+                a.rel = 'noopener noreferrer';
               }
 
-              // Add active class if current page matches
-              const currentPathname = window.location.pathname;
-              const baseUrl = '{{ site.baseurl | relative_url }}'.endsWith('/') ? '{{ site.baseurl | relative_url }}'.slice(0, -1) : '{{ site.baseurl | relative_url }}';
-              const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
-              const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
+              // Add active class if explicitly set or current page matches
+              if (linkData.active) {
+                a.classList.add('active');
+              } else {
+                const currentPathname = window.location.pathname;
+                const baseUrl = '{{ site.baseurl | relative_url }}'.endsWith('/') ? '{{ site.baseurl | relative_url }}'.slice(0, -1) : '{{ site.baseurl | relative_url }}';
+                const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
+                const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
 
-              if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
-                  a.classList.add('active');
+                if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
+                    a.classList.add('active');
+                }
               }
               li.appendChild(a);
             }

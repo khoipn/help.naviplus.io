@@ -1,35 +1,41 @@
 const navbarLinks = [
   {
-    title: "Back to Navi+",
-    url: "https://naviplus.io",
-    external: false
-  },
-  {
     title: "Live demo",
     url: "https://naviplus.io/demo",
-    external: true,
+    external: true
+  },
+  {
+    title: "Case studies",
+    url: "#",
+    external: false,
     children: [
       {
-        title: "Live demo with 1Click",
-        url: "https://naviplus.app/demo/index.php?page=live-demo",
-        external: false
+        title: "Dawn 4",
+        url: "https://naviplus.io/case-studies/#dawn4",
+        external: true
       },
       {
-        title: "10 Case studies",
-        url: "https://naviplus.app/demo/index.php?page=case-study",
-        external: false
+        title: "Others 6",
+        url: "https://naviplus.io/case-studies/#others6",
+        external: true
       }
     ]
   },
   {
-    title: "Pricing",
-    url: "https://naviplus.io/pricing",
-    external: false
+    title: "User Guide",
+    url: "/",
+    external: false,
+    active: true
   },
   {
-    title: " Free install Navi+",
-    url: "",
-    external: true,
+    title: "Pricing",
+    url: "https://naviplus.io/pricing",
+    external: true
+  },
+  {
+    title: "Install Navi+",
+    url: "#",
+    external: false,
     children: [
       {
         title: "Shopify App",
@@ -37,13 +43,12 @@ const navbarLinks = [
         external: true
       },
       {
-        title: "For all platforms (WordPress, Wix, PrestaShop, etc.)",
+        title: "For all platforms",
         url: "https://dash.naviplus.app/naviplus/authen/authen.php?action=login",
         external: true
       }
     ]
   },
-  
   {
     title: "Translate",
     url: "#",
