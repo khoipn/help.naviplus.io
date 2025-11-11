@@ -1,104 +1,142 @@
+// Navigation data - Edit here to update menu everywhere
 const navbarLinks = [
   {
-    title: "Live demo",
-    url: "https://naviplus.io/demo",
-    external: true
+    title: "← Back to home",
+    url: "https://naviplus.io/",
+    target: "_blank"
   },
   {
-    title: "Case studies",
-    url: "#",
-    external: false,
+    title: "Demo",
+    dropdown: true,
     children: [
       {
-        title: "Dawn 4",
-        url: "https://naviplus.io/case-studies/#dawn4",
-        external: true
+        title: "Live demo (Navi+ 1Click)",
+        url: "https://naviplus.io/demo/",
+        target: "_blank"
+      },
+      { divider: true },
+      {
+        title: "Case studies",
+        url: "https://naviplus.io/demo/case-study",
+        target: "_blank"
       },
       {
-        title: "Others 6",
-        url: "https://naviplus.io/case-studies/#others6",
-        external: true
+        title: "Dawn demos",
+        url: "https://naviplus.io/demo/dawn",
+        target: "_blank"
+      },
+      {
+        title: "Other demos",
+        url: "https://naviplus.io/demo/others",
+        target: "_blank"
       }
     ]
-  },
-  {
-    title: "User Guide",
-    url: "/",
-    external: false,
-    active: true
   },
   {
     title: "Pricing",
     url: "https://naviplus.io/pricing",
-    external: true
+    target: "_blank"
   },
   {
-    title: "Install Navi+",
-    url: "#",
-    external: false,
+    title: "User Guide",
+    dropdown: true,
+    activePage: "user-guide",
     children: [
       {
-        title: "Shopify App",
-        url: "https://apps.shopify.com/pronavi-navigation-design",
-        external: true
+        title: "Home",
+        url: "/",
+        active: true
+      },
+      { divider: true },
+      {
+        title: "Getting Started",
+        url: "/docs/getting-started/"
+      },
+      { divider: true },
+      {
+        title: "Explore common menus",
+        url: "/docs/usage/explore-common-menus/"
       },
       {
-        title: "For all platforms",
-        url: "https://dash.naviplus.app/naviplus/authen/authen.php?action=login",
-        external: true
+        title: "Tabbar",
+        url: "/docs/usage/tabbar-bottom-navigation/how-to-use/"
+      },
+      {
+        title: "Mega Menu",
+        url: "/docs/usage/mega-menu-desktop/how-to-use/"
+      },
+      {
+        title: "Slide (Hamburger) Menu",
+        url: "/docs/usage/slide-menu-hamburger-menu/how-to-use/"
+      },
+      {
+        title: "FAB - Floating Menu",
+        url: "/docs/usage/fab-floating-menu-quick-access/how-to-use/"
+      },
+      {
+        title: "Grid Menu",
+        url: "/docs/usage/grid-menu/how-to-use/"
       }
     ]
   },
   {
-    title: "Translate",
-    url: "#",
-    external: false,
-    children: [      
+    title: "Language",
+    dropdown: true,
+    children: [
       {
-        title: "🇫🇷 Français",
-        url: "https://translate.google.com/translate?sl=auto&tl=fr&u=" + encodeURIComponent(window.location.href),
-        external: true
+        title: "🇬🇧 English",
+        url: typeof window !== 'undefined' ? window.location.href : '/'
+      },
+      { divider: true },
+      {
+        title: "🇫🇷 French",
+        url: "https://translate.google.com/translate?sl=en&tl=fr&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
+        target: "_blank"
       },
       {
-        title: "🇩🇪 Deutsch",
-        url: "https://translate.google.com/translate?sl=auto&tl=de&u=" + encodeURIComponent(window.location.href),
-        external: true
+        title: "🇩🇪 German",
+        url: "https://translate.google.com/translate?sl=en&tl=de&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
+        target: "_blank"
       },
       {
-        title: "🇨🇳 中文 (简体)",
-        url: "https://translate.google.com/translate?sl=auto&tl=zh-CN&u=" + encodeURIComponent(window.location.href),
-        external: true
+        title: "🇨🇳 Chinese (Simplified)",
+        url: "https://translate.google.com/translate?sl=en&tl=zh-CN&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
+        target: "_blank"
       },
       {
-        title: "🇯🇵 日本語",
-        url: "https://translate.google.com/translate?sl=auto&tl=ja&u=" + encodeURIComponent(window.location.href),
-        external: true
+        title: "🇯🇵 Japanese",
+        url: "https://translate.google.com/translate?sl=en&tl=ja&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
+        target: "_blank"
       },
       {
-        title: "🇮🇹 Italiano",
-        url: "https://translate.google.com/translate?sl=auto&tl=it&u=" + encodeURIComponent(window.location.href),
-        external: true
+        title: "🇮🇹 Italian",
+        url: "https://translate.google.com/translate?sl=en&tl=it&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
+        target: "_blank"
       },
       {
-        title: "🇧🇷 Português (Brasil)",
-        url: "https://translate.google.com/translate?sl=auto&tl=pt&u=" + encodeURIComponent(window.location.href),
-        external: true
+        title: "🇧🇷 Portuguese (Brazil)",
+        url: "https://translate.google.com/translate?sl=en&tl=pt&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
+        target: "_blank"
       },
       {
-        title: "🇪🇸 Español",
-        url: "https://translate.google.com/translate?sl=auto&tl=es&u=" + encodeURIComponent(window.location.href),
-        external: true
+        title: "🇪🇸 Spanish",
+        url: "https://translate.google.com/translate?sl=en&tl=es&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
+        target: "_blank"
       },
+      { divider: true },
       {
-        title: "🇻🇳 Tiếng Việt",
-        url: "https://translate.google.com/translate?sl=auto&tl=vi&u=" + encodeURIComponent(window.location.href),
-        external: true
-      },
-      {
-        title: "More languages...",
-        url: "https://translate.google.com/?sl=auto&u=" + encodeURIComponent(window.location.href),
-        external: true
+        title: "🌐 More languages...",
+        url: "https://translate.google.com/?sl=en&tl=auto&op=translate&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
+        target: "_blank"
       }
     ]
   }
 ];
+
+// CTA button configuration
+const navbarCTA = {
+  text: "Get started for free",
+  url: "https://naviplus.io/#get-started-for-free",
+  target: "_blank",
+  class: "btn btn-primary btn-sm"
+};

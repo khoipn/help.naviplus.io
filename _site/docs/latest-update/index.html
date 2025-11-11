@@ -2333,56 +2333,79 @@ Migrated all CDN services from BunnyCDN to Cloudflare due to a cache purge malfu
 
         function createNavbarLinks(links, parentElement) {
           links.forEach(linkData => {
-            const li = document.createElement('li');
-            li.className = 'nav-item';
+            // Handle divider
+            if (linkData.divider) {
+              const li = document.createElement('li');
+              const hr = document.createElement('hr');
+              hr.className = 'dropdown-divider';
+              li.appendChild(hr);
+              parentElement.appendChild(li);
+              return;
+            }
 
-            if (linkData.children && linkData.children.length > 0) {
+            const li = document.createElement('li');
+            const isDropdownItem = parentElement.classList.contains('dropdown-menu');
+            
+            if (linkData.dropdown && linkData.children && linkData.children.length > 0) {
               // It's a dropdown parent
-              li.classList.add('dropdown');
+              li.className = 'nav-item dropdown';
 
               const a = document.createElement('a');
               a.className = 'nav-link dropdown-toggle';
-              a.href = linkData.url; // Parent link can still have a URL
+              a.href = '#';
               a.textContent = linkData.title;
               a.setAttribute('role', 'button');
               a.setAttribute('data-bs-toggle', 'dropdown');
               a.setAttribute('aria-expanded', 'false');
-              if (linkData.external) {
-                a.target = '_';
-                a.rel = 'noopener';
+              
+              // Add active class to dropdown toggle if activePage is set
+              if (linkData.activePage) {
+                a.classList.add('active');
               }
+              
               li.appendChild(a);
 
               const ul = document.createElement('ul');
               ul.className = 'dropdown-menu';
               li.appendChild(ul);
 
-              createNavbarLinks(linkData.children, ul); // Recursively create children
+              createNavbarLinks(linkData.children, ul);
             } else {
               // It's a regular link
-              const a = document.createElement('a');
-              a.className = 'nav-link';
-              a.href = linkData.url;
-              a.textContent = linkData.title;
-              if (linkData.external) {
-                a.target = '_blank';
-                a.rel = 'noopener noreferrer';
-              }
-
-              // Add active class if explicitly set or current page matches
-              if (linkData.active) {
-                a.classList.add('active');
-              } else {
-                const currentPathname = window.location.pathname;
-                const baseUrl = ''.endsWith('/') ? ''.slice(0, -1) : '';
-                const normalizedLinkUrl = linkData.url.startsWith(baseUrl) ? linkData.url.substring(baseUrl.length) : linkData.url;
-                const normalizedCurrentPath = currentPathname.startsWith(baseUrl) ? currentPathname.substring(baseUrl.length) : currentPathname;
-
-                if (normalizedCurrentPath === normalizedLinkUrl || (normalizedLinkUrl === '/' && normalizedCurrentPath === '/')) {
-                    a.classList.add('active');
+              if (isDropdownItem) {
+                // Dropdown item
+                const a = document.createElement('a');
+                a.className = 'dropdown-item';
+                a.href = linkData.url;
+                a.textContent = linkData.title;
+                if (linkData.target) {
+                  a.target = linkData.target;
+                  a.rel = 'noopener noreferrer';
                 }
+                if (linkData.active) {
+                  a.classList.add('active');
+                }
+                li.appendChild(a);
+              } else {
+                // Top-level nav item
+                li.className = 'nav-item';
+                const a = document.createElement('a');
+                a.className = 'nav-link';
+                a.href = linkData.url;
+                a.textContent = linkData.title;
+                
+                if (linkData.target) {
+                  a.target = linkData.target;
+                  a.rel = 'noopener noreferrer';
+                }
+
+                // Add active class if activePage is set
+                if (linkData.activePage) {
+                  a.classList.add('active');
+                }
+                
+                li.appendChild(a);
               }
-              li.appendChild(a);
             }
             parentElement.appendChild(li);
           });
@@ -2390,6 +2413,19 @@ Migrated all CDN services from BunnyCDN to Cloudflare due to a cache purge malfu
 
         if (navLinksContainer && typeof navbarLinks !== 'undefined') {
           createNavbarLinks(navbarLinks, navLinksContainer);
+          
+          // Add CTA button if defined
+          if (typeof navbarCTA !== 'undefined') {
+            const ctaLink = document.createElement('a');
+            ctaLink.className = navbarCTA.class;
+            ctaLink.href = navbarCTA.url;
+            ctaLink.textContent = navbarCTA.text;
+            if (navbarCTA.target) {
+              ctaLink.target = navbarCTA.target;
+              ctaLink.rel = 'noopener noreferrer';
+            }
+            navLinksContainer.parentElement.appendChild(ctaLink);
+          }
         }
       });
     </script>

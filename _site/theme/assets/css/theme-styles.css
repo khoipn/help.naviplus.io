@@ -66,6 +66,34 @@
   background-color: rgba(255, 255, 255, 0.15);
 }
 
+/* Navbar CTA button spacing */
+@media (min-width: 992px) {
+  /* Desktop: Add spacing to the left */
+  .navbar-collapse > .btn {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* Mobile: Full width button, no padding */
+  .navbar-collapse > .btn {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  
+  .navbar-collapse {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .navbar-toggler {
+    border: 0px !important;
+  }
+}
+
 .sidebar .nav-link {
   font-weight: 400;
   color: #586069; /* GitBook like link color */
@@ -249,6 +277,10 @@ img {
   margin: 1.5em 0;
   border-radius: 8px;
   border: solid 1px #eee;
+}
+
+.naviItem img {
+  border: 0px !important;
 }
 
 /* Image placeholder only for main content images */
