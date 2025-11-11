@@ -2,8 +2,8 @@
 const navbarLinks = [
   {
     title: "← Back to home",
-    url: "https://naviplus.io/",
-    target: "_blank"
+    url: "https://naviplus.io/"
+    
   },
   {
     title: "Demo",
@@ -11,31 +11,27 @@ const navbarLinks = [
     children: [
       {
         title: "Live demo (Navi+ 1Click)",
-        url: "https://naviplus.io/demo/",
-        target: "_blank"
+        url: "https://naviplus.io/demo/"
       },
       { divider: true },
       {
         title: "Case studies",
-        url: "https://naviplus.io/demo/case-study",
-        target: "_blank"
+        url: "https://naviplus.io/demo/case-study"
       },
       {
         title: "Dawn demos",
-        url: "https://naviplus.io/demo/dawn",
-        target: "_blank"
+        url: "https://naviplus.io/demo/dawn"
       },
       {
         title: "Other demos",
-        url: "https://naviplus.io/demo/others",
-        target: "_blank"
+        url: "https://naviplus.io/demo/others"
+        
       }
     ]
   },
   {
     title: "Pricing",
-    url: "https://naviplus.io/pricing",
-    target: "_blank"
+    url: "https://naviplus.io/pricing"    
   },
   {
     title: "User Guide",
@@ -137,6 +133,5 @@ const navbarLinks = [
 const navbarCTA = {
   text: "Get started for free",
   url: "https://naviplus.io/#get-started-for-free",
-  target: "_blank",
   class: "btn btn-primary btn-sm"
 };
