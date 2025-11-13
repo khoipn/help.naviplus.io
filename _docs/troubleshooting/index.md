@@ -18,12 +18,8 @@ Click the chat icon at the bottom right of your screen, message me on WhatsApp a
 
 **Khoi Pham**
 
-Founder of Navi+&#x20;
-
-Website: [https://naviplus.io](https://naviplus.io/ "https://naviplus.io")&#x20;
-
-Shopify: <https://apps.shopify.com/pronavi-navigation-design>
-
-What's App: +84 981911011
-
+Founder of Navi+ \
+Website: [https://naviplus.io](https://naviplus.io/ "https://naviplus.io") \
+Shopify: <https://apps.shopify.com/pronavi-navigation-design>\
+What's App: +84 981911011\
 Linked in: <https://www.linkedin.com/in/khoi-pham-443218aa/>
