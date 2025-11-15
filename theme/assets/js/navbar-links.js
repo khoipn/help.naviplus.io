@@ -76,6 +76,10 @@ const navbarLinks = [
     ]
   },
   {
+    title: "Tools",
+    url: "https://tools.naviplus.io/"
+  },
+  {
     title: "Language",
     dropdown: true,
     children: [
