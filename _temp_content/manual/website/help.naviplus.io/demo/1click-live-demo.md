@@ -4,11 +4,11 @@ This is not a website for any specific client. We created it using the Shopify B
 
 ### 1. Mobile:&#x20;
 
-<figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_mobile.gif" alt="small-1-2"><figcaption></figcaption></figure>
+<figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_mobile.gif" alt="small-1-3"><figcaption></figcaption></figure>
 
-Open [akayakay.myshopify.com](https://akayakay.myshopify.com/) on your phone | Password: **12345** Or scan the QR bellow
+Open [akayakay.myshopify.com](https://akayakay.myshopify.com/) on your phone \\| Password: **12345** Or scan the QR bellow
 
-<div align="left"><figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FvIgD9uG5dmT4vVN0l3AK%2Fimage.png?alt=media&#x26;token=a594374c-eeaa-4f6a-8f77-2807c59f3e92" alt="small-1-4" width="225"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FvIgD9uG5dmT4vVN0l3AK%2Fimage.png?alt=media&#x26;token=a594374c-eeaa-4f6a-8f77-2807c59f3e92" alt="fix-200" width="225"><figcaption></figcaption></figure></div>
 
 On mobile, you will have:
 
@@ -21,7 +21,7 @@ On mobile, you will have:
 
 ### 2. Desktop
 
-Click here to test: [akayakay.myshopify.com](https://akayakay.myshopify.com/) | Password: **12345**\\
+Click here to test: [akayakay.myshopify.com](https://akayakay.myshopify.com/) \\| Password: **12345**\\
 
 <figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_desktop.gif" alt=""><figcaption></figcaption></figure>
 
