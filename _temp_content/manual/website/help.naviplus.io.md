@@ -64,6 +64,8 @@
 - [Development](/manual/website/help.naviplus.io/development.md)
 - [How to write a correct CSS code in Navi+](/manual/website/help.naviplus.io/development/how-to-write-a-correct-css-code-in-navi+.md)
 - [Add walk-through to Navi+](/manual/website/help.naviplus.io/development/add-walk-through-to-navi+.md)
+- [Limitation](/manual/website/help.naviplus.io/limitation.md)
+- [Shopify Bottom Bar issue on Google App (iPhone)](/manual/website/help.naviplus.io/limitation/shopify-bottom-bar-issue-on-google-app-iphone.md)
 - [line](/manual/website/help.naviplus.io/line-3.md)
 - [Resources](/manual/website/help.naviplus.io/resources.md)
 - [Privacy Policy](/manual/website/help.naviplus.io/resources/privacy-policy.md)

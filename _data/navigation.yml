@@ -205,6 +205,13 @@
   processed_path: development
   title: Development
   url: /docs/development/
+- children:
+  - processed_path: limitation/shopify-bottom-bar-issue-on-google-app-iphone
+    title: Shopify Bottom Bar issue on Google App (iPhone)
+    url: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
+  processed_path: limitation
+  title: Limitation
+  url: /docs/limitation/
 - processed_path: line-3
   title: line
   url: /docs/line-3/

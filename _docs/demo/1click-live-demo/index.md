@@ -30,7 +30,7 @@ On mobile, you will have:
 
 ### 2. Desktop
 
-Click here to test: [akayakay.myshopify.com](https://akayakay.myshopify.com/ "akayakay.myshopify.com") \| Password: **12345**\\
+Click here to test: [akayakay.myshopify.com](https://akayakay.myshopify.com/ "akayakay.myshopify.com") \| Password: **12345**<br>
 
 <figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_desktop.gif" alt=""><figcaption></figcaption></figure>
 

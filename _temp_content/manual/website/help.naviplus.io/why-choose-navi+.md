@@ -49,7 +49,7 @@ This stability is possible because the backend is hosted on AWS, while all front
 Thanks to Cloudflare’s worldwide edge network, Navi+ loads in about 52 ms on average, even faster than Shopify’s own scripts.\
 Caching mechanisms ensure it’s typically loaded only once per session, so users experience almost **zero wait time** anywhere in the world.
 
-Navi+ on Shopify is also officially recognized as “Built for Shopify,” meeting Shopify’s strict standards for speed, design quality, and reliability.\\
+Navi+ on Shopify is also officially recognized as “Built for Shopify,” meeting Shopify’s strict standards for speed, design quality, and reliability.<br>
 
 ***
 
@@ -62,5 +62,4 @@ Whether you’re using Shopify, WordPress, WooCommerce, Wix, Webflow, or Squares
 Most web themes are desktop-first and only *mobile-friendly*. This means the mobile experience often receives less design attention.\
 Navi+ was created to fix that — to elevate your website’s mobile experience and make it truly engaging and conversion-focused.
 
-In short, your theme builds the structure, but Navi+ brings it to life through better navigation and a richer user experience.\
-\\
+In short, your theme builds the structure, but Navi+ brings it to life through better navigation and a richer user experience.\ <br>

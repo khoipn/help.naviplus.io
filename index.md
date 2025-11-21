@@ -354,6 +354,18 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
 </div>
 <div class="sitemap-section">
   <h2 class="sitemap-section-title">
+    <i class="ri-folder-3-line"></i> Limitation
+  </h2>
+  <ul class="sitemap-list">
+<li class="sitemap-list-item">
+  <a href="/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Shopify Bottom Bar issue on Google App (iPhone)
+  </a>
+</li>
+  </ul>
+</div>
+<div class="sitemap-section">
+  <h2 class="sitemap-section-title">
     <i class="ri-folder-3-line"></i> Resources
   </h2>
   <ul class="sitemap-list">
