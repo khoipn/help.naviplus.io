@@ -4,20 +4,15 @@ Not everyone is an expert in technology or UI/UX design, making it hard to creat
 
 ### How to work?
 
-#### ![](https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F54H7C1qVh1cZbBtHgV3p%2Fimage.png?alt=media\&token=fd7affd8-1af3-4a22-861f-bb88dcb85c1c) Step 1: Register Navi+ Care
+**Step 1: Register Navi+ Care**
 
 **$120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
 
-\
-![](https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fc4coqNevbEypu7AzEl4v%2Fimage.png?alt=media\&token=85d0ff98-75af-413b-b83a-fa09fa907572)
-
-#### Step 2: Design and test iteratively
+**Step 2: Design and test iteratively**
 
 We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
 
-<div align="left"><figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAHEZ6V31eCZGXkXrKLV%2Fimage.png?alt=media&#x26;token=8801b812-12a2-4758-a831-0638ef9fcb41" alt=""><figcaption></figcaption></figure></div>
-
-#### Step 3: Golive your menus
+**Step 3: Golive your menus**
 
 Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
 
