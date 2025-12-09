@@ -391,6 +391,11 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
     <i class="ri-file-text-line"></i> Earn up to 22.5% RevShare with Navi+
   </a>
 </li>
+<li class="sitemap-list-item">
+  <a href="/docs/partership/navi-care-or-design-your-menus-like-an-expert/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Navi+ Care | Design your menus like an expert
+  </a>
+</li>
   </ul>
 </div>
   </div>
