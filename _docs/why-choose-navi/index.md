@@ -44,7 +44,7 @@ Some users ask: *“Will Navi+ slow down my website?”.* The answer is **no** �
 
 Navigation is one of the most critical parts of any website’s user experience. It must always load instantly and run smoothly, since it directly affects how visitors explore your site and make purchase decisions.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F3TcoT4ug7QpX952CsF2K%2Fnaviplus-traffic.webp?alt=media&#x26;token=9769c598-ad3e-47cf-bdef-ab8982a3189e" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F169T8yUsdcuzMgMY7rfu%2Fnaviplus-cloudflare-ga.webp?alt=media&#x26;token=daa5d868-8d84-43d8-aa5f-5938294a1b04" alt=""><figcaption></figcaption></figure>
 
 In practice, Navi+ handles millions of requests every day across all customer websites with no performance drop. As of Nov 2025, Navi+ processed over 2 million requests, 80+ GB of bandwidth, and more than 400,000+ clicks to navigate daily.
 

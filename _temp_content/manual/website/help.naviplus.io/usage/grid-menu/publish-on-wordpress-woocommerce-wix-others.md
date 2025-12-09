@@ -1,3 +1,3 @@
 # Publish on WordPress / WooCommerce / Wix / Others
 
-{md}<https://help.shopifas.com/manual/internal/what-is/common/step-1-other-properties-of-menu-item.md{endmd}>
+{md}<https://help.shopifas.com/manual/~/changes/290/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md>{endmd}
