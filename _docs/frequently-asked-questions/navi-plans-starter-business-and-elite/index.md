@@ -1,8 +1,5 @@
 ---
-description: 'Navi+ offers a trial package with nearly full features for all websites.
-  However, after a certain period, if the visits to your website (where visits are
-  counted when Navi+ is displayed on the website) exceed 50,000, your account will
-  automatically be flagged for an upgrade. We will take the following actions:'
+description: Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are cou...
 layout: default
 permalink: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
 title: Navi+ plans (Starter, Business & Elite)

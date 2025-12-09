@@ -1,6 +1,5 @@
 ---
-description: '- [Explore common menus](/manual/website/help.naviplus.io/usage/explore-common-menus.md
-  "Explore common menus")'
+description: '- Explore common menus'
 layout: default
 permalink: /docs/usage/
 title: Usage

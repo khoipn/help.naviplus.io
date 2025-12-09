@@ -1,6 +1,5 @@
 ---
-description: The browsing experience on desktop and mobile is fundamentally different
-  — especially in how users navigate and interact with a website.
+description: The browsing experience on desktop and mobile is fundamentally different — especially in how users navigate and interact with a website.
 layout: default
 permalink: /docs/usage/mega-menu-desktop/faq/
 title: FAQ

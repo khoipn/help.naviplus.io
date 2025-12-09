@@ -1,6 +1,5 @@
 ---
-description: '- [How to use?](/manual/website/help.naviplus.io/usage/grid-menu/how-to-use.md
-  "How to use?")'
+description: '- How to use?'
 layout: default
 permalink: /docs/usage/grid-menu/
 title: Grid Menu

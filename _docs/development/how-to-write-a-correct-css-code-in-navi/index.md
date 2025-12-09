@@ -1,7 +1,5 @@
 ---
-description: 'CSS is the key to every problem when you need to customize deeply for
-  Navi+. Almost all interface things on Navi+ can be solved with CSS code. In Navi+,
-  there are 2 levels of CSS:'
+description: CSS is the key to every problem when you need to customize deeply for Navi+. Almost all interface things on Navi+ can be solved with CSS code. In Navi+, ther...
 layout: default
 permalink: /docs/development/how-to-write-a-correct-css-code-in-navi/
 title: How to write a correct CSS code in Navi+

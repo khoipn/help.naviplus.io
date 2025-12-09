@@ -1,6 +1,5 @@
 ---
-description: Navi+ is very fast. It is fully deployed on a leading CDN with very low
-  latency (around 100ms) and can serve millions of customers without slowing down.
+description: Navi+ is very fast. It is fully deployed on a leading CDN with very low latency (around 100ms) and can serve millions of customers without slowing down.
 layout: default
 permalink: /docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/
 title: Optimize loading speed (Slide & Mega menus)

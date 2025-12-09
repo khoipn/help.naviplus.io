@@ -1,6 +1,5 @@
 ---
-description: '- [How to use?](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/how-to-use.md
-  "How to use?")'
+description: '- How to use?'
 layout: default
 permalink: /docs/usage/slide-menu-hamburger-menu/
 title: Slide menu (Hamburger Menu)

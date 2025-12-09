@@ -1,6 +1,5 @@
 ---
-description: '- [Apply multi-language](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md
-  "Apply multi-language")'
+description: '- Apply multi-language'
 layout: default
 permalink: /docs/usage/general/
 title: General

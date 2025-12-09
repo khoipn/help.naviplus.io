@@ -1,7 +1,5 @@
 ---
-description: '**Grid Menu** is a popular menu type used on many apps and e-commerce
-  websites. It typically displays catalogs or key features and is often shown on the
-  homepage.'
+description: '**Grid Menu** is a popular menu type used on many apps and e-commerce websites. It typically displays catalogs or key features and is often shown on the home...'
 layout: default
 permalink: /docs/usage/grid-menu/how-to-use/
 title: How to use?

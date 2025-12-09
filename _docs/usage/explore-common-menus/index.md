@@ -1,6 +1,5 @@
 ---
-description: Navi+ offers a comprehensive menu solution for your website — far beyond
-  traditional dropdowns.
+description: Navi+ offers a comprehensive menu solution for your website — far beyond traditional dropdowns.
 layout: default
 permalink: /docs/usage/explore-common-menus/
 title: Explore common menus

@@ -1,8 +1,5 @@
 ---
-description: '**Tab Bar** - as known as Bottom Navigation Bar, Bottom Nav, or Tab
-  Navigation - is a modern navigation style used by global brands like Shein, ASOS,
-  Zara, Etsy, H\&M, Nike, and Uniqlo to enhance mobile user experience. It works well
-  for websites of all sizes and is effective on both mobile and desktop.'
+description: '**Tab Bar** - as known as Bottom Navigation Bar, Bottom Nav, or Tab Navigation - is a modern navigation style used by global brands like Shein, ASOS, Zara, E...'
 layout: default
 permalink: /docs/usage/tabbar-bottom-navigation/how-to-use/
 title: How to use?

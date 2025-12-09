@@ -1,11 +1,5 @@
 ---
-description: In many cases, you'll need to use multiple applications embedded on your
-  website. This can make an usual usability issue as interface elements may overlap
-  (see the picture below). A simple example is when you frequently use a chat application
-  like [Shopify Inbox ](https://www.shopify.com/vn/inbox "Shopify Inbox ")or WhatsApp.
-  Typically, these chat apps occupy a prominent position at the bottom right corner
-  of the phone screen. When you decide to use Navi+ to significantly enhance navigation
-  on your website, this issue arises. Here are some ways to address this problem.
+description: In many cases, you'll need to use multiple applications embedded on your website. This can make an usual usability issue as interface elements may overlap (s...
 layout: default
 permalink: /docs/usage/shopify/how-to-other-applications-work-with-naviplus/
 title: Prevent Navi+ menus from overlapping other apps

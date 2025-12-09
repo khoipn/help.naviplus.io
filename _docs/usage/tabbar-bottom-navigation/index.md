@@ -1,6 +1,5 @@
 ---
-description: '- [How to use?](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/how-to-use.md
-  "How to use?")'
+description: '- How to use?'
 layout: default
 permalink: /docs/usage/tabbar-bottom-navigation/
 title: Tabbar (Bottom Navigation)

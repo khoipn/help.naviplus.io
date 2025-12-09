@@ -1,8 +1,5 @@
 ---
-description: A **FAB (Floating Action Button)** is a simple menu that always floats
-  at the bottom of the screen, typically used for support. FABs often provide chat
-  tools such as WhatsApp, messaging, email, as well as links to support resources
-  and social media channels to promote your website.
+description: A **FAB (Floating Action Button)** is a simple menu that always floats at the bottom of the screen, typically used for support. FABs often provide chat tools...
 layout: default
 permalink: /docs/usage/fab-floating-menu-quick-access/how-to-use/
 title: How to use?

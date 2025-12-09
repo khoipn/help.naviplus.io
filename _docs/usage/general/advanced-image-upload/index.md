@@ -1,7 +1,5 @@
 ---
-description: Using smaller image sizes helps your website load faster. Search engines
-  like Google consider page speed an important ranking factor, so optimized images
-  can improve your SEO.
+description: Using smaller image sizes helps your website load faster. Search engines like Google consider page speed an important ranking factor, so optimized images can...
 layout: default
 permalink: /docs/usage/general/advanced-image-upload/
 title: Advanced image upload

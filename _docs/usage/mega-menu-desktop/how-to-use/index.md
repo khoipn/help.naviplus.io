@@ -1,8 +1,5 @@
 ---
-description: '**Mega Menu** is one of the most popular and effective menu types, especially
-  on desktop. Users naturally expect to find a Mega Menu right below the website header.
-  However, Shopify’s default menu is usually simple, lacks strong structure, and offers
-  little to no image support. That’s why you should use the Navi+ Mega Menu.'
+description: '**Mega Menu** is one of the most popular and effective menu types, especially on desktop. Users naturally expect to find a Mega Menu right below the website ...'
 layout: default
 permalink: /docs/usage/mega-menu-desktop/how-to-use/
 title: How to use?

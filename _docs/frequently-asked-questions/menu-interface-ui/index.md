@@ -1,6 +1,5 @@
 ---
-description: <details><summary>How to change the menu appearance using Navi+’s built-in
-  settings or by adding custom CSS?</summary>
+description: <details><summary>How to change the menu appearance using Navi+’s built-in settings or by adding custom CSS?</summary>
 layout: default
 permalink: /docs/frequently-asked-questions/menu-interface-ui/
 title: Menu interface (UI)

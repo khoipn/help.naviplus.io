@@ -1,9 +1,5 @@
 ---
-description: 'Navi+ offers a wide selection of Google Fonts, providing an optimized
-  and convenient way to style your menu. Google Fonts are fast, highly legible, and
-  widely supported, making them an excellent choice for most designs. However, if
-  you’d like to use a custom font that is not included in the default selection, you
-  can manually apply it to your Navi+ menu. Here’s how:'
+description: Navi+ offers a wide selection of Google Fonts, providing an optimized and convenient way to style your menu. Google Fonts are fast, highly legible, and widel...
 layout: default
 permalink: /docs/usage/general/apply-a-custom-font/
 title: Apply a custom font

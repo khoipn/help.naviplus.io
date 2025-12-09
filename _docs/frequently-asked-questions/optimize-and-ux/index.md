@@ -1,6 +1,5 @@
 ---
-description: <details><summary>How can I prevent my images from being compressed when
-  uploading with the Navi+ tool?</summary>
+description: <details><summary>How can I prevent my images from being compressed when uploading with the Navi+ tool?</summary>
 layout: default
 permalink: /docs/frequently-asked-questions/optimize-and-ux/
 title: Optimize & UX

@@ -1,6 +1,5 @@
 ---
-description: '- [How to use?](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md
-  "How to use?")'
+description: '- How to use?'
 layout: default
 permalink: /docs/usage/fab-floating-menu-quick-access/
 title: FAB - Floating Menu / Quick Access

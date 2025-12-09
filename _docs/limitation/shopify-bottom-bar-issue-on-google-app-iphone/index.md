@@ -1,6 +1,5 @@
 ---
-description: This is about the bottom padding issue under the Bottom Bar when a Shopify
-  website using Navi+ is opened inside the Google App on iPhone.
+description: This is about the bottom padding issue under the Bottom Bar when a Shopify website using Navi+ is opened inside the Google App on iPhone.
 layout: default
 permalink: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
 title: Shopify Bottom Bar issue on Google App (iPhone)

@@ -1,8 +1,5 @@
 ---
-description: You don’t need to know about development or design to use Navi+. It’s
-  a pre-built software that can be easily embedded into your website. All configuration
-  — including features and visual design — is managed directly on Navi+, without causing
-  any conflict with your existing system.
+description: You don’t need to know about development or design to use Navi+. It’s a pre-built software that can be easily embedded into your website. All configuration —...
 layout: default
 permalink: /docs/how-to-install-navi/
 title: How to install Navi+

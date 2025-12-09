@@ -1,6 +1,5 @@
 ---
-description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on
-  Online Store and select “Open Link in New Tab” to save time.&'
+description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.&'
 layout: default
 permalink: /docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
 title: Publishing on Shopify

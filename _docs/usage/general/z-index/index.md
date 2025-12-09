@@ -1,6 +1,5 @@
 ---
-description: This is a common issue but very easy to handle when using Navi+. Your
-  website may have many floating elements—see the examples below to recognize them.&
+description: This is a common issue but very easy to handle when using Navi+. Your website may have many floating elements—see the examples below to recognize them.&
 layout: default
 permalink: /docs/usage/general/z-index/
 title: Z-index

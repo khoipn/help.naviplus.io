@@ -1,8 +1,5 @@
 ---
-description: '**Mobile Mega Menus** are not as common on mobile as Tabbar or Slide
-  Menus, because the tap area of a Mega Menu is often too small for users’ fingers.
-  However, sometimes you may want to maintain a consistent experience between desktop
-  and mobile by using a Mega Menu on both platforms.'
+description: '**Mobile Mega Menus** are not as common on mobile as Tabbar or Slide Menus, because the tap area of a Mega Menu is often too small for users’ fingers. Howeve...'
 layout: default
 permalink: /docs/usage/mega-menu-mobile/how-to-use/
 title: How to use?

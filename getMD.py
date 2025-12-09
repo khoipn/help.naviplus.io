@@ -319,6 +319,19 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     # Extract description from the first paragraph, or use a default
     description_match = re.search(r'^(?!#).*?([^#\n]+)', processed_seo_md_content, re.MULTILINE)
     description = description_match.group(1).strip() if description_match else f"Documentation for {title}"
+    
+    # Clean up description: remove markdown links and extra whitespace first
+    description = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', description)  # Remove markdown links, keep text
+    description = re.sub(r'\s+', ' ', description)  # Normalize whitespace
+    description = description.strip()
+    
+    # Remove newlines and ensure it's a single line
+    description = description.replace('\n', ' ').replace('\r', ' ')
+    description = re.sub(r'\s+', ' ', description).strip()
+    
+    # Limit description length to prevent YAML formatting issues (max 160 chars)
+    if len(description) > 160:
+        description = description[:157] + "..."
 
     front_matter = {
         "layout": "default",
@@ -326,7 +339,8 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
         "description": description,
         "permalink": jekyll_permalink
     }
-    front_matter_str = yaml.dump(front_matter, allow_unicode=True, default_flow_style=False)
+    # Use width parameter to prevent YAML from breaking long strings incorrectly
+    front_matter_str = yaml.dump(front_matter, allow_unicode=True, default_flow_style=False, width=1000)
     
     final_content = f"---\n{front_matter_str}---\n{processed_seo_md_content}"
 

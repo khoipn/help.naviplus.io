@@ -1,6 +1,5 @@
 ---
-description: '- [Use the multi-language feature.](/manual/website/help.naviplus.io/usage/shopify/use-the-multi-language-feature..md
-  "Use the multi-language feature.")'
+description: '- Use the multi-language feature.'
 layout: default
 permalink: /docs/usage/shopify/
 title: Shopify

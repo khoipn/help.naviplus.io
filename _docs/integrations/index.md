@@ -1,6 +1,5 @@
 ---
-description: '- [Chat tools](/manual/website/help.naviplus.io/integrations/chat-tools.md
-  "Chat tools")'
+description: '- Chat tools'
 layout: default
 permalink: /docs/integrations/
 title: Integrations

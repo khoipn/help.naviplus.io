@@ -1,6 +1,5 @@
 ---
-description: '**Are you building Shopify websites for clients? Become a Navi+ Partner
-  and earn up to 22.5% commission!**'
+description: '**Are you building Shopify websites for clients? Become a Navi+ Partner and earn up to 22.5% commission!**'
 layout: default
 permalink: /docs/partership/earn-up-to-225-revshare-with-navi/
 title: Earn up to 22.5% RevShare with Navi+

@@ -1,9 +1,5 @@
 ---
-description: If you encounter any issues, please don’t hesitate to contact the **Navi+
-  Support Team** using the information below — no matter which plan you’re using.
-  We truly value every message from our users. Your feedback and questions not only
-  help us solve your problem but also help us better understand our customers’ needs
-  and keep improving Navi+.
+description: If you encounter any issues, please don’t hesitate to contact the **Navi+ Support Team** using the information below — no matter which plan you’re using. We ...
 layout: default
 permalink: /docs/troubleshooting/
 title: Troubleshooting

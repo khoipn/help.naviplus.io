@@ -1,6 +1,5 @@
 ---
-description: '- [How to use?](/manual/website/help.naviplus.io/usage/mega-menu-desktop/how-to-use.md
-  "How to use?")'
+description: '- How to use?'
 layout: default
 permalink: /docs/usage/mega-menu-desktop/
 title: Mega Menu (desktop)

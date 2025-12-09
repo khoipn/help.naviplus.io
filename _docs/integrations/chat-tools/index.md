@@ -1,6 +1,5 @@
 ---
-description: '- [Shopify Inbox](/manual/website/help.naviplus.io/integrations/chat-tools/shopify-inbox.md
-  "Shopify Inbox")'
+description: '- Shopify Inbox'
 layout: default
 permalink: /docs/integrations/chat-tools/
 title: Chat tools

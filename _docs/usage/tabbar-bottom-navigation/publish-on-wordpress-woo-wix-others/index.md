@@ -1,8 +1,5 @@
 ---
-description: 'If you deploy your website on Shopify, please install the dedicated
-  [Shopify](https://www.shopify.com/ "Shopify") app here: <https://apps.shopify.com/pronavi-navigation-design>
-  - It is optimized for this platform, allowing for stable deployment with many useful
-  built-in options.'
+description: 'If you deploy your website on Shopify, please install the dedicated Shopify app here: <https://apps.shopify.com/pronavi-navigation-design> - It is optimized ...'
 layout: default
 permalink: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
 title: Publish on WordPress / Woo / Wix / Others

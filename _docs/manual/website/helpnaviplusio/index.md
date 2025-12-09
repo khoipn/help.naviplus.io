@@ -1,6 +1,5 @@
 ---
-description: '- [Getting Started](/manual/website/help.naviplus.io/getting-started.md
-  "Getting Started")'
+description: '- Getting Started'
 layout: default
 permalink: /docs/manual/website/helpnaviplusio/
 title: help.naviplus.io

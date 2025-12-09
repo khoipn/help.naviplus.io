@@ -1,7 +1,5 @@
 ---
-description: 'Currently, Navi+ supports a list of popular themes for opening Hamburger
-  menus, Cart, and Search panels. For themes not on this list, you can request Navi+
-  to add support (turnaround time: 1 business day).'
+description: Currently, Navi+ supports a list of popular themes for opening Hamburger menus, Cart, and Search panels. For themes not on this list, you can request Navi+ t...
 layout: default
 permalink: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
 title: 'Shopify: Open the hamburger menu or cart, search panel'

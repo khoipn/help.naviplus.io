@@ -1,8 +1,5 @@
 ---
-description: This is not a website for any specific client. We created it using the
-  Shopify Basic plan with the default Dawn theme and some very basic test data. On
-  this website, we added various menus for both desktop and mobile to help you visualize
-  the impact of Navi+ on your website.
+description: This is not a website for any specific client. We created it using the Shopify Basic plan with the default Dawn theme and some very basic test data. On this ...
 layout: default
 permalink: /docs/demo/1click-live-demo/
 title: 1Click live demo

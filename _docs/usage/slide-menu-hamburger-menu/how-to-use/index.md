@@ -1,8 +1,5 @@
 ---
-description: '**Slide Menu**—also known as Hamburger Menu, Sidebar Menu, or Drawer
-  Menu—is commonly used on Shopify websites by adapting the desktop menu for mobile.
-  Typically, this default menu is simple, without images or advanced layouts. Navi+
-  offers a complete replacement for that basic default menu.'
+description: '**Slide Menu**—also known as Hamburger Menu, Sidebar Menu, or Drawer Menu—is commonly used on Shopify websites by adapting the desktop menu for mobile. Typic...'
 layout: default
 permalink: /docs/usage/slide-menu-hamburger-menu/how-to-use/
 title: How to use?

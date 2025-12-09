@@ -1,6 +1,5 @@
 ---
-description: '- [Menu interface (UI)](/manual/website/help.naviplus.io/frequently-asked-questions/menu-interface-ui.md
-  "Menu interface (UI)")'
+description: '- Menu interface (UI)")'
 layout: default
 permalink: /docs/frequently-asked-questions/
 title: Frequently Asked Questions

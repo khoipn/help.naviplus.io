@@ -1,7 +1,5 @@
 ---
-description: Navi+ \| Website Menu Builder helps you create beautiful and modern menus
-  for your online store — such as Tabbar, Mega Menu, Slide (Hamburger) Menu, and Floating
-  Button Menu — all in just a few clicks, no coding required.
+description: Navi+ \| Website Menu Builder helps you create beautiful and modern menus for your online store — such as Tabbar, Mega Menu, Slide (Hamburger) Menu, and Floa...
 layout: default
 permalink: /docs/getting-started/
 title: Getting Started

@@ -1,8 +1,5 @@
 ---
-description: Navigation is the most important aspect of a website. Similar to intelligently
-  organizing shelves and pathways in a supermarket, customers will easily make purchase
-  decisions aligned with business goals, identify necessary information, share on
-  social media, and become loyal customers..
+description: Navigation is the most important aspect of a website. Similar to intelligently organizing shelves and pathways in a supermarket, customers will easily make p...
 layout: default
 permalink: /docs/why-choose-navi/
 title: Why choose Navi+?

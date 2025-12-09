@@ -1,6 +1,5 @@
 ---
-description: Links are one of the key factors in optimizing SEO with search engines.
-  SEO optimization with links applies to both backlinks and internal links.
+description: Links are one of the key factors in optimizing SEO with search engines. SEO optimization with links applies to both backlinks and internal links.
 layout: default
 permalink: /docs/frequently-asked-questions/how-does-navi-support-seo/
 title: How does Navi+ support SEO?

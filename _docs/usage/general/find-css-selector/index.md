@@ -1,7 +1,5 @@
 ---
-description: '**CSS Selector** is a very interesting concept in CSS — it defines which
-  part of your website can be **replaced** or **have a Navi+ menu inserted** (either
-  *before* or *after* it).'
+description: '**CSS Selector** is a very interesting concept in CSS — it defines which part of your website can be **replaced** or **have a Navi+ menu inserted** (either *...'
 layout: default
 permalink: /docs/usage/general/find-css-selector/
 title: Find CSS Selector

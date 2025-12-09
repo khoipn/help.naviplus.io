@@ -1,6 +1,5 @@
 ---
-description: '- [Privacy Policy](/manual/website/help.naviplus.io/resources/privacy-policy.md
-  "Privacy Policy")'
+description: '- Privacy Policy'
 layout: default
 permalink: /docs/resources/
 title: Resources

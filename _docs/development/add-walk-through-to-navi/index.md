@@ -1,9 +1,5 @@
 ---
-description: You’ll need to use a library like TourGuideJS, a JavaScript library that
-  can be embedded into your website to add step-by-step walkthrough guides through
-  an attribute format like \<div data-tg-tour="\<span>My first tour\</span>"> ...
-  \</div>. It’s completely free. Follow the instructions below to add walkthroughs
-  through the Navi+ menus, either for the entire menu or for individual menu items.
+description: You’ll need to use a library like TourGuideJS, a JavaScript library that can be embedded into your website to add step-by-step walkthrough guides through an ...
 layout: default
 permalink: /docs/development/add-walk-through-to-navi/
 title: Add walk-through to Navi+
