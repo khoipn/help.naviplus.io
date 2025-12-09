@@ -80,7 +80,6 @@ You can also apply this method creatively by finding and using other CSS selecto
 <details><summary><strong>How to find the CSS selector on your website?</strong></summary>
 <p>You can chat with a Navi+ supporter to get instant help instead of doing it yourself.\
 However, (1) this will help you understand the core idea, and (2) if you want to do it on your own, follow the instructions below.</p>
-<h1>How to find CSS Selector</h1>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>

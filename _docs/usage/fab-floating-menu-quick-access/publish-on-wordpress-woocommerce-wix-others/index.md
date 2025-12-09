@@ -6,8 +6,6 @@ title: Publish on WordPress / WooCommerce / Wix / Others
 ---
 # Publish on WordPress / WooCommerce / Wix / Others
 
-# Publish on WordPress / Woo / Wix / Others
-
 If you deploy your website on Shopify, please install the dedicated [Shopify](https://www.shopify.com/ "Shopify") app here: <https://apps.shopify.com/pronavi-navigation-design> - It is optimized for this platform, allowing for stable deployment with many useful built-in options.
 
 If you deploy your website on other platforms (such as [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), and custom websites built with PHP, Node.js, or pure HTML..), you have the following implementation methods:

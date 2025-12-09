@@ -69,7 +69,6 @@ In this guide, we’ll focus on 1 ways: inserting this menu before the main. You
 <details><summary><strong>How to find the CSS selector on your website?</strong></summary>
 <p>You can chat with a Navi+ supporter to get instant help instead of doing it yourself.\
 However, (1) this will help you understand the core idea, and (2) if you want to do it on your own, follow the instructions below.</p>
-<h1>How to find CSS Selector</h1>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -96,7 +95,6 @@ Copy Embed ID of this menu, then insert to block named "Navi+ on Section" on The
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
 <details><summary>Guide to add this menu as a section/block in the Shopify theme</summary>
-<h1>How to add this menu as a section/block in the Shopify theme</h1>
 <p>Below is a detailed guide on inserting a Navi+ menu as a section/block in your Shopify theme. This method allows you to add the menu in a standard, Shopify-supported way, though it is not as flexible as the other methods provided by Navi+.</p>
 <p>This method applies to <strong>Mega Menus</strong> and <strong>Grid Menus</strong>. It <strong>DOES NOT</strong> apply to <strong>Tabbar</strong>, <strong>FAB</strong>, or <strong>Slide Menus</strong>.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>

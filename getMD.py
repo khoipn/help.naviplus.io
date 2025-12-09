@@ -297,6 +297,14 @@ def process_md_include_tags(markdown_content):
                 if len(parts) >= 3:
                     included_content = parts[2].lstrip('\n')
             
+            # Remove the first H1 heading if present (to avoid duplicate with main page title)
+            # Match H1 at the start of content (with optional leading whitespace)
+            # Handles both "# Title" and "#Title" formats
+            h1_pattern = re.compile(r'^\s*#\s*.+?\n', re.MULTILINE)
+            included_content = h1_pattern.sub('', included_content, count=1)
+            # Also remove any leading empty lines after removing H1
+            included_content = included_content.lstrip('\n')
+            
             # Process the included content similarly to main content
             included_content = unescape_pipes(included_content)
             included_content = escape_custom_liquid_tags(included_content)

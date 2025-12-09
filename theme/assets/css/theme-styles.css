@@ -440,7 +440,7 @@ figure figcaption {
 /* Styles for <details> and <summary> tags */
 .content-wrapper details {
   margin: 0.5em 0;
-  padding: 1rem;
+  padding: 16px 16px 0px 16px;
   border: 1px solid #e1e4e8;
   border-radius: 6px;
   background-color: #f6f8fa;
