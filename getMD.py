@@ -264,13 +264,81 @@ def process_details_tags(markdown_content):
     print("Finished processing <details> tags.")
     return processed_content
 
+def process_md_include_tags(markdown_content):
+    """
+    Process {md}URL{endmd} tags by downloading content from URL and replacing the tag.
+    Handles both {md}<URL>{endmd} and {md}URL{endmd} formats.
+    """
+    print("Processing {md}...{endmd} include tags...")
+    
+    # Pattern to match {md}...{endmd} - handles both {md}<URL{endmd}> and {md}URL{endmd}
+    # Group 1: optional < at start
+    # Group 2: the URL
+    # Group 3: optional > at end (after {endmd})
+    md_include_pattern = re.compile(
+        r'\{md\}(<)?([^<>\{]+?)\{endmd\}(>)?',
+        re.IGNORECASE
+    )
+    
+    def replace_md_include(match):
+        url = match.group(2).strip()  # Group 2 is the URL
+        
+        print(f"  -> Processing include: {url}")
+        
+        try:
+            # Download content from URL
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            included_content = response.text
+            
+            # Remove front matter if present (lines between ---)
+            if included_content.startswith('---'):
+                parts = included_content.split('---', 2)
+                if len(parts) >= 3:
+                    included_content = parts[2].lstrip('\n')
+            
+            # Process the included content similarly to main content
+            included_content = unescape_pipes(included_content)
+            included_content = escape_custom_liquid_tags(included_content)
+            included_content = process_details_tags(included_content)
+            included_content = add_image_and_link_seo_attributes(included_content)
+            
+            # Remove leading/trailing whitespace but preserve structure
+            included_content = included_content.strip()
+            
+            print(f"  ✅ Included content from {url}")
+            return included_content
+            
+        except requests.exceptions.RequestException as e:
+            print(f"  ❌ Error downloading {url}: {e}")
+            # Return empty string or keep original tag? Let's return empty to avoid broken display
+            return f"<!-- Error: Could not load content from {url} -->"
+        except Exception as e:
+            print(f"  ❌ Error processing {url}: {e}")
+            return f"<!-- Error: Could not process content from {url} -->"
+    
+    # Replace all {md}...{endmd} tags
+    processed_content = md_include_pattern.sub(replace_md_include, markdown_content)
+    
+    print("Finished processing {md}...{endmd} include tags.")
+    return processed_content
+
 def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     """
     Processes Markdown content (adds front matter, SEO for images/links) and saves it.
     original_url is used to derive the permalink and output path.
     """
-    # Unescape pipes first
-    processed_md_content = unescape_pipes(raw_md_content)
+    # Remove front matter from source file if present (we'll create our own)
+    if raw_md_content.startswith('---'):
+        parts = raw_md_content.split('---', 2)
+        if len(parts) >= 3:
+            raw_md_content = parts[2].lstrip('\n')
+    
+    # Process {md}...{endmd} include tags first (before other processing)
+    processed_md_content = process_md_include_tags(raw_md_content)
+    
+    # Unescape pipes
+    processed_md_content = unescape_pipes(processed_md_content)
     
     # Escape custom Liquid tags to prevent Jekyll errors
     processed_md_content = escape_custom_liquid_tags(processed_md_content)
