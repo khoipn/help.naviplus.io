@@ -80,8 +80,8 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/tabbar-bottom-navigation/publishing-on-other-platforms/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on other platforms
+  <a href="/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publish on WordPress / Woo / Wix / Others
   </a>
 </li>
   </ul>
@@ -102,8 +102,8 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-desktop/publishing-on-other-platforms/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on other platforms
+  <a href="/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
   </a>
 </li>
 <li class="sitemap-list-item">
@@ -129,8 +129,8 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-mobile/publishing-on-other-platforms/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on other platforms
+  <a href="/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
   </a>
 </li>
   </ul>
@@ -151,8 +151,8 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/slide-menu-hamburger-menu/publishing-on-other-platforms/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on other platforms
+  <a href="/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
   </a>
 </li>
   </ul>
@@ -173,8 +173,8 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/fab-floating-menu-quick-access/publishing-on-other-platforms/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on other platforms
+  <a href="/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
   </a>
 </li>
   </ul>
@@ -195,8 +195,8 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/usage/grid-menu/publishing-on-other-platforms/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on other platforms
+  <a href="/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
   </a>
 </li>
   </ul>

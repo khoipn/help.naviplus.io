@@ -1,10 +1,16 @@
 ---
-description: '**2025 - November 7**\'
+description: '**2025 - Dec 9**'
 layout: default
 permalink: /docs/latest-update/
 title: Latest Update
 ---
 # Latest Update
+
+**2025 - Dec 9**
+
+Launching Navi+ version that runs on all platforms beyond Shopify: WordPress, WooCommerce, Wix, and others at [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app")
+
+***
 
 **2025 - November 7**\
 Fix auto hide, auto show still show, hide menu when reaching the edge of the device by creating a safe edge.

@@ -37,9 +37,9 @@
     - processed_path: usage/tabbar-bottom-navigation/publishing-on-shopify
       title: Publishing on Shopify
       url: /docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
-    - processed_path: usage/tabbar-bottom-navigation/publishing-on-other-platforms
-      title: Publishing on other platforms
-      url: /docs/usage/tabbar-bottom-navigation/publishing-on-other-platforms/
+    - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others
+      title: Publish on WordPress / Woo / Wix / Others
+      url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
     processed_path: usage/tabbar-bottom-navigation
     title: Tabbar (Bottom Navigation)
     url: /docs/usage/tabbar-bottom-navigation/
@@ -50,9 +50,9 @@
     - processed_path: usage/mega-menu-desktop/publishing-on-shopify
       title: Publishing on Shopify
       url: /docs/usage/mega-menu-desktop/publishing-on-shopify/
-    - processed_path: usage/mega-menu-desktop/publishing-on-other-platforms
-      title: Publishing on other platforms
-      url: /docs/usage/mega-menu-desktop/publishing-on-other-platforms/
+    - processed_path: usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others
+      title: Publish on WordPress / WooCommerce / Wix / Others
+      url: /docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
     - processed_path: usage/mega-menu-desktop/faq
       title: FAQ
       url: /docs/usage/mega-menu-desktop/faq/
@@ -66,9 +66,9 @@
     - processed_path: usage/mega-menu-mobile/publishing-on-shopify
       title: Publishing on Shopify
       url: /docs/usage/mega-menu-mobile/publishing-on-shopify/
-    - processed_path: usage/mega-menu-mobile/publishing-on-other-platforms
-      title: Publishing on other platforms
-      url: /docs/usage/mega-menu-mobile/publishing-on-other-platforms/
+    - processed_path: usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others
+      title: Publish on WordPress / WooCommerce / Wix / Others
+      url: /docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/mega-menu-mobile
     title: Mega Menu (mobile)
     url: /docs/usage/mega-menu-mobile/
@@ -79,9 +79,9 @@
     - processed_path: usage/slide-menu-hamburger-menu/publishing-on-shopify
       title: Publishing on Shopify
       url: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
-    - processed_path: usage/slide-menu-hamburger-menu/publishing-on-other-platforms
-      title: Publishing on other platforms
-      url: /docs/usage/slide-menu-hamburger-menu/publishing-on-other-platforms/
+    - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others
+      title: Publish on WordPress / WooCommerce / Wix / Others
+      url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/slide-menu-hamburger-menu
     title: Slide menu (Hamburger Menu)
     url: /docs/usage/slide-menu-hamburger-menu/
@@ -92,9 +92,9 @@
     - processed_path: usage/fab-floating-menu-quick-access/publishing-on-shopify
       title: Publishing on Shopify
       url: /docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
-    - processed_path: usage/fab-floating-menu-quick-access/publishing-on-other-platforms
-      title: Publishing on other platforms
-      url: /docs/usage/fab-floating-menu-quick-access/publishing-on-other-platforms/
+    - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others
+      title: Publish on WordPress / WooCommerce / Wix / Others
+      url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/fab-floating-menu-quick-access
     title: FAB - Floating Menu / Quick Access
     url: /docs/usage/fab-floating-menu-quick-access/
@@ -105,9 +105,9 @@
     - processed_path: usage/grid-menu/publishing-on-shopify
       title: Publishing on Shopify
       url: /docs/usage/grid-menu/publishing-on-shopify/
-    - processed_path: usage/grid-menu/publishing-on-other-platforms
-      title: Publishing on other platforms
-      url: /docs/usage/grid-menu/publishing-on-other-platforms/
+    - processed_path: usage/grid-menu/publish-on-wordpress-woocommerce-wix-others
+      title: Publish on WordPress / WooCommerce / Wix / Others
+      url: /docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/grid-menu
     title: Grid Menu
     url: /docs/usage/grid-menu/
