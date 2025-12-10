@@ -16,6 +16,9 @@
 - processed_path: latest-update
   title: Latest Update
   url: /docs/latest-update/
+- processed_path: common-first-questions
+  title: Common first questions
+  url: /docs/common-first-questions/
 - processed_path: line-1
   title: line
   url: /docs/line-1/
@@ -171,12 +174,29 @@
   title: Integrations
   url: /docs/integrations/
 - children:
-  - processed_path: frequently-asked-questions/menu-interface-ui
-    title: Menu interface (UI)
-    url: /docs/frequently-asked-questions/menu-interface-ui/
-  - processed_path: frequently-asked-questions/optimize-and-ux
-    title: Optimize & UX
-    url: /docs/frequently-asked-questions/optimize-and-ux/
+  - children:
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css
+      title: Using built-in settings or custom CSS?
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state
+      title: Remove menu item active state?
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu
+      title: Align level 3 submenu in mega menu?
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/
+    processed_path: frequently-asked-questions/customize-user-interface-ui
+    title: Customize User interface (UI)
+    url: /docs/frequently-asked-questions/customize-user-interface-ui/
+  - children:
+    - processed_path: frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images
+      title: Optimize images
+      url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/
+    - processed_path: frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux
+      title: Optimize speed and improve the user experience (UX).
+      url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/
+    processed_path: frequently-asked-questions/optimize-speeds-images-and-ux
+    title: Optimize speeds, images and UX
+    url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/
   - processed_path: frequently-asked-questions/how-does-navi-support-seo
     title: How does Navi+ support SEO?
     url: /docs/frequently-asked-questions/how-does-navi-support-seo/

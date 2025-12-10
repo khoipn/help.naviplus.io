@@ -44,6 +44,12 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
 </div>
 <div class="sitemap-section">
   <h2 class="sitemap-section-title">
+    <i class="ri-folder-3-line"></i> Common first questions
+  </h2>
+  <a href="/docs/common-first-questions/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
+</div>
+<div class="sitemap-section">
+  <h2 class="sitemap-section-title">
     <i class="ri-folder-3-line"></i> Demo
   </h2>
   <ul class="sitemap-list">
@@ -304,14 +310,43 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </h2>
   <ul class="sitemap-list">
 <li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/menu-interface-ui/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Menu interface (UI)
+  <a href="/docs/frequently-asked-questions/customize-user-interface-ui/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Customize User interface (UI)
+  </a>
+  <ul class="sitemap-sublist">
+<li class="sitemap-list-item">
+  <a href="/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Using built-in settings or custom CSS?
   </a>
 </li>
 <li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/optimize-and-ux/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Optimize & UX
+  <a href="/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Remove menu item active state?
   </a>
+</li>
+<li class="sitemap-list-item">
+  <a href="/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Align level 3 submenu in mega menu?
+  </a>
+</li>
+  </ul>
+</li>
+<li class="sitemap-list-item">
+  <a href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Optimize speeds, images and UX
+  </a>
+  <ul class="sitemap-sublist">
+<li class="sitemap-list-item">
+  <a href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Optimize images
+  </a>
+</li>
+<li class="sitemap-list-item">
+  <a href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Optimize speed and improve the user experience (UX).
+  </a>
+</li>
+  </ul>
 </li>
 <li class="sitemap-list-item">
   <a href="/docs/frequently-asked-questions/how-does-navi-support-seo/" class="sitemap-link">
