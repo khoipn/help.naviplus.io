@@ -30,7 +30,7 @@ More details: <https://naviplus.io/demo/>
 
 Virtually negligible. With 3 menus embedded on your website, you'll spend about 300ms on the first load — while your website hasn't even finished rendering yet — and 0ms on subsequent loads.
 
-#### **6. What can Navi+ interact with? Other apps, devices, websites?**
+#### 6. What can Navi+ interact with? Other apps, devices, websites?
 
 Navi+ offers extensive interaction capabilities including: consolidating sticky apps into menu items, connecting with device features like phone calls and WhatsApp chat, simulating user interactions on websites such as clicking elements, enabling social media sharing to boost virality, and allowing Navi+ menus to communicate with each other through mutual triggering. [See detail here](https://help.naviplus.io/docs/integrations/integrating-navi+-with-your-website-and-external-apps/)
 
