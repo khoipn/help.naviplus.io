@@ -36,75 +36,79 @@ More details: <https://naviplus.io/demo/>
 
 Virtually negligible. With 3 menus embedded on your website, you'll spend about 300ms on the first load — while your website hasn't even finished rendering yet — and 0ms on subsequent loads.
 
-#### 6. How many menu types does Navi+ offer?
+#### **6. What can Navi+ interact with? Other apps, devices, websites?**
+
+Navi+ offers extensive interaction capabilities including: consolidating sticky apps into menu items, connecting with device features like phone calls and WhatsApp chat, simulating user interactions on websites such as clicking elements, enabling social media sharing to boost virality, and allowing Navi+ menus to communicate with each other through mutual triggering. [See detail here](https://help.naviplus.io/docs/integrations/integrating-navi+-with-your-website-and-external-apps/ "See detail here")
+
+#### 7. How many menu types does Navi+ offer?
 
 Navi+ offers 6+ menu types: Bottom/Tab Bar, Slide Menu (Drawer or Hamburger), FAB, Grid, and Mega Menus — with more coming soon.\
 Explore all common menus here: <https://help.naviplus.io/docs/usage/explore-common-menus/>
 
-#### 7. How many menus can I create?
+#### 8. How many menus can I create?
 
 You can declare unlimited domain names. However, for each domain:\
 • Starter (Free): Create up to 1 menu\
 • Business: Create up to 4 menus\
 • Elite: Unlimited menu creation
 
-#### 8. Can I customize the menu design?
+#### 9. Can I customize the menu design?
 
 • Structure: Menu layers, links, and actions\
 • Design: Colors, fonts, icons, spacing, layout\
 • Display: Position, keyword triggers, device-specific visibility... and more
 
-#### 9. Is Navi+ mobile-friendly?
+#### 10. Is Navi+ mobile-friendly?
 
 Navi+ is built with a mobile-first philosophy because we know that up to 80% of your traffic comes from mobile devices. We don't even support responsive design — because we believe you need deeper optimization for each device type, not just a one-size-fits-all approach.\
 Explore all common menus here: <https://help.naviplus.io/docs/usage/explore-common-menus/>
 
-#### 10. Can the menu appear on all pages or specific pages?
+#### 11. Can the menu appear on all pages or specific pages?
 
 Absolutely. Navi+ is extremely flexible. You can create menus that appear on all pages — like Tab Bars or FAB buttons — or create specific menus that only show on certain pages, such as Grid menus for category pages.\
 You can configure menus to show or hide by device type, login status, or URL keywords.
 
-#### 11. Will Navi+ conflict with or integrate with my theme or other apps?
+#### 12. Will Navi+ conflict with or integrate with my theme or other apps?
 
 Mostly no, but conflicts can occasionally happen — and they're easy to fix.\
 • Sometimes Navi+ and other apps overlap, especially sticky menus. Adjust the z-index: <https://help.naviplus.io/docs/usage/general/z-index/>\
 • Navi+ can work as a navigation hub: consolidate apps like Chat, Loyalty, Support into clean menu items.
 
-#### 12. Does Navi+ provide analytics?
+#### 13. Does Navi+ provide analytics?
 
 Navi+'s analytics feature is powerful. You can track visits and clicks by device, menu, and keywords — helping you understand user behavior and optimize your menus over time.
 
-#### 13. How much does Navi+ cost?
+#### 14. How much does Navi+ cost?
 
 Begin with the free Starter plan (2-level menus, no image uploads, no SEO tools).\
 Business and Elite plans unlock advanced features.\
 Pricing: <https://naviplus.io/pricing/>
 
-#### 14. Is there a free trial?
+#### 15. Is there a free trial?
 
 Try free for 7 days — no charges.\
 Payments are secure via Shopify, LemonSqueezy.
 
-#### 15. Do menu changes update instantly?
+#### 16. Do menu changes update instantly?
 
 Updates are instant. Whether we push improvements or you edit your menus, changes appear in real-time. Worst case: a 60-second cache delay globally.
 
-#### 16. If I change my theme, will my menus disappear?
+#### 17. If I change my theme, will my menus disappear?
 
 Navi+ menus are fully independent from your theme and code. Change themes anytime — you may need to republish menus, but it's just one click.
 
-#### 17. Does Navi+ support multiple languages?
+#### 18. Does Navi+ support multiple languages?
 
 Multi-language is fully supported on Shopify.\
 We're working to bring this to other platforms soon.\
 Detail: <https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/>
 
-#### 18. Can Navi+ handle high traffic?
+#### 19. Can Navi+ handle high traffic?
 
 Powered by Cloudflare and BunnyCDN, Navi+ handles millions of daily visits with zero latency concerns.\
 Detail: <https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed>
 
-#### 19. Can I import or export menus?
+#### 20. Can I import or export menus?
 
 Export and import your menus as .npx files — perfect for backing up, storing, or quickly transferring menus between different websites.
 
