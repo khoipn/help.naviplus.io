@@ -2,11 +2,11 @@
 
 - [Getting Started](/manual/website/help.naviplus.io/getting-started.md)
 - [Why choose Navi+?](/manual/website/help.naviplus.io/why-choose-navi+.md)
+- [Common first questions](/manual/website/help.naviplus.io/common-first-questions.md)
 - [How to install Navi+](/manual/website/help.naviplus.io/how-to-install-navi+.md)
 - [line](/manual/website/help.naviplus.io/line.md)
 - [Troubleshooting](/manual/website/help.naviplus.io/troubleshooting.md)
 - [Latest Update](/manual/website/help.naviplus.io/latest-update.md)
-- [Common first questions](/manual/website/help.naviplus.io/common-first-questions.md)
 - [line](/manual/website/help.naviplus.io/line-1.md)
 - [Demo](/manual/website/help.naviplus.io/demo.md): Demo
 - [1Click live demo](/manual/website/help.naviplus.io/demo/1click-live-demo.md)
@@ -49,6 +49,8 @@
 - [Optimize loading speed (Slide & Mega menus)](/manual/website/help.naviplus.io/usage/shopify/optimize-loading-speed-slide-and-mega-menus.md)
 - [Prevent Navi+ menus from overlapping other apps](/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md)
 - [Integrations](/manual/website/help.naviplus.io/integrations.md)
+- [Integrating Navi+ with your website and external apps](/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md)
+- [The HTML and CSS structure of all Navi+ menus](/manual/website/help.naviplus.io/integrations/the-html-and-css-structure-of-all-navi+-menus.md)
 - [Chat tools](/manual/website/help.naviplus.io/integrations/chat-tools.md)
 - [Shopify Inbox](/manual/website/help.naviplus.io/integrations/chat-tools/shopify-inbox.md)
 - [Tidi chat](/manual/website/help.naviplus.io/integrations/chat-tools/tidi-chat.md)

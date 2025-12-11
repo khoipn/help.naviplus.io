@@ -4,17 +4,11 @@ Not everyone is an expert in technology or UI/UX design, making it hard to creat
 
 ### How to work?
 
-**Step 1: Register Navi+ Care**
+**Step 1: Register Navi+ Care: $120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
 
-**$120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
+**Step 2: Design and test iteratively:** We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
 
-**Step 2: Design and test iteratively**
-
-We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
-
-**Step 3: Golive your menus**
-
-Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
+**Step 3: Golive your menus:** Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
 
 ***
 

@@ -25,7 +25,7 @@ if (document.readyState === 'complete') {
   naviman.waitElementToAddStyle("#tidio-chat-root", "margin-bottom: 50px !important;");
 } else {
   window.addEventListener('load', function () {
-    navimanwaitElementToAddStyle("#tidio-chat-root", "margin-bottom: 50px !important;");
+    naviman.waitElementToAddStyle("#tidio-chat-root", "margin-bottom: 50px !important;");
   });
 }
 ```

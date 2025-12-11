@@ -8,11 +8,11 @@ title: help.naviplus.io
 
 - [Getting Started](/manual/website/help.naviplus.io/getting-started.md "Getting Started")
 - [Why choose Navi+?](/manual/website/help.naviplus.io/why-choose-navi+.md "Why choose Navi+?")
+- [Common first questions](/manual/website/help.naviplus.io/common-first-questions.md "Common first questions")
 - [How to install Navi+](/manual/website/help.naviplus.io/how-to-install-navi+.md "How to install Navi+")
 - [line](/manual/website/help.naviplus.io/line.md "line")
 - [Troubleshooting](/manual/website/help.naviplus.io/troubleshooting.md "Troubleshooting")
 - [Latest Update](/manual/website/help.naviplus.io/latest-update.md "Latest Update")
-- [Common first questions](/manual/website/help.naviplus.io/common-first-questions.md "Common first questions")
 - [line](/manual/website/help.naviplus.io/line-1.md "line")
 - [Demo](/manual/website/help.naviplus.io/demo.md "Demo"): Demo
 - [1Click live demo](/manual/website/help.naviplus.io/demo/1click-live-demo.md "1Click live demo")
@@ -55,6 +55,8 @@ title: help.naviplus.io
 - [Optimize loading speed (Slide & Mega menus)](/manual/website/help.naviplus.io/usage/shopify/optimize-loading-speed-slide-and-mega-menus.md "Optimize loading speed (Slide & Mega menus)")
 - [Prevent Navi+ menus from overlapping other apps](/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md "Prevent Navi+ menus from overlapping other apps")
 - [Integrations](/manual/website/help.naviplus.io/integrations.md "Integrations")
+- [Integrating Navi+ with your website and external apps](/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md "Integrating Navi+ with your website and external apps")
+- [The HTML and CSS structure of all Navi+ menus](/manual/website/help.naviplus.io/integrations/the-html-and-css-structure-of-all-navi+-menus.md "The HTML and CSS structure of all Navi+ menus")
 - [Chat tools](/manual/website/help.naviplus.io/integrations/chat-tools.md "Chat tools")
 - [Shopify Inbox](/manual/website/help.naviplus.io/integrations/chat-tools/shopify-inbox.md "Shopify Inbox")
 - [Tidi chat](/manual/website/help.naviplus.io/integrations/chat-tools/tidi-chat.md "Tidi chat")

@@ -26,6 +26,12 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
 </div>
 <div class="sitemap-section">
   <h2 class="sitemap-section-title">
+    <i class="ri-folder-3-line"></i> Common first questions
+  </h2>
+  <a href="/docs/common-first-questions/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
+</div>
+<div class="sitemap-section">
+  <h2 class="sitemap-section-title">
     <i class="ri-folder-3-line"></i> How to install Navi+
   </h2>
   <a href="/docs/how-to-install-navi/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
@@ -41,12 +47,6 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
     <i class="ri-folder-3-line"></i> Latest Update
   </h2>
   <a href="/docs/latest-update/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Common first questions
-  </h2>
-  <a href="/docs/common-first-questions/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
 </div>
 <div class="sitemap-section">
   <h2 class="sitemap-section-title">
@@ -273,6 +273,16 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
     <i class="ri-folder-3-line"></i> Integrations
   </h2>
   <ul class="sitemap-list">
+<li class="sitemap-list-item">
+  <a href="/docs/integrations/integrating-navi-with-your-website-and-external-apps/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Integrating Navi+ with your website and external apps
+  </a>
+</li>
+<li class="sitemap-list-item">
+  <a href="/docs/integrations/the-html-and-css-structure-of-all-navi-menus/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> The HTML and CSS structure of all Navi+ menus
+  </a>
+</li>
 <li class="sitemap-list-item">
   <a href="/docs/integrations/chat-tools/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Chat tools

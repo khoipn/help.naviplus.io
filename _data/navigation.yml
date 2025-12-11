@@ -4,6 +4,9 @@
 - processed_path: why-choose-navi
   title: Why choose Navi+?
   url: /docs/why-choose-navi/
+- processed_path: common-first-questions
+  title: Common first questions
+  url: /docs/common-first-questions/
 - processed_path: how-to-install-navi
   title: How to install Navi+
   url: /docs/how-to-install-navi/
@@ -16,9 +19,6 @@
 - processed_path: latest-update
   title: Latest Update
   url: /docs/latest-update/
-- processed_path: common-first-questions
-  title: Common first questions
-  url: /docs/common-first-questions/
 - processed_path: line-1
   title: line
   url: /docs/line-1/
@@ -153,6 +153,12 @@
   title: Usage
   url: /docs/usage/
 - children:
+  - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
+    title: Integrating Navi+ with your website and external apps
+    url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/
+  - processed_path: integrations/the-html-and-css-structure-of-all-navi-menus
+    title: The HTML and CSS structure of all Navi+ menus
+    url: /docs/integrations/the-html-and-css-structure-of-all-navi-menus/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox
       title: Shopify Inbox
