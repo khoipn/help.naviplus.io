@@ -196,6 +196,11 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
+  <a href="/docs/usage/grid-menu/responsive-grid-menu/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Responsive Grid Menu
+  </a>
+</li>
+<li class="sitemap-list-item">
   <a href="/docs/usage/grid-menu/publishing-on-shopify/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on Shopify
   </a>

@@ -105,6 +105,9 @@
     - processed_path: usage/grid-menu/how-to-use
       title: How to use?
       url: /docs/usage/grid-menu/how-to-use/
+    - processed_path: usage/grid-menu/responsive-grid-menu
+      title: Responsive Grid Menu
+      url: /docs/usage/grid-menu/responsive-grid-menu/
     - processed_path: usage/grid-menu/publishing-on-shopify
       title: Publishing on Shopify
       url: /docs/usage/grid-menu/publishing-on-shopify/
