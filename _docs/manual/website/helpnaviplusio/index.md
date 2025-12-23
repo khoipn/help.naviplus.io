@@ -41,6 +41,7 @@ title: help.naviplus.io
 - [Publish on WordPress / WooCommerce / Wix / Others](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
 - [Grid Menu](/manual/website/help.naviplus.io/usage/grid-menu.md "Grid Menu")
 - [How to use?](/manual/website/help.naviplus.io/usage/grid-menu/how-to-use.md "How to use?")
+- [Responsive Grid Menu](/manual/website/help.naviplus.io/usage/grid-menu/responsive-grid-menu.md "Responsive Grid Menu")
 - [Publishing on Shopify](/manual/website/help.naviplus.io/usage/grid-menu/publishing-on-shopify.md "Publishing on Shopify")
 - [Publish on WordPress / WooCommerce / Wix / Others](/manual/website/help.naviplus.io/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
 - [General](/manual/website/help.naviplus.io/usage/general.md "General")
