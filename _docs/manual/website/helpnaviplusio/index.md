@@ -55,6 +55,7 @@ title: help.naviplus.io
 - [Use the multi-language feature.](/manual/website/help.naviplus.io/usage/shopify/use-the-multi-language-feature..md "Use the multi-language feature.")
 - [Optimize loading speed (Slide & Mega menus)](/manual/website/help.naviplus.io/usage/shopify/optimize-loading-speed-slide-and-mega-menus.md "Optimize loading speed (Slide & Mega menus)")
 - [Prevent Navi+ menus from overlapping other apps](/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md "Prevent Navi+ menus from overlapping other apps")
+- [Some FAQs about publishing Navi+ menu](/manual/website/help.naviplus.io/usage/some-faqs-about-publishing-navi+-menu.md "Some FAQs about publishing Navi+ menu")
 - [Integrations](/manual/website/help.naviplus.io/integrations.md "Integrations")
 - [Integrating Navi+ with your website and external apps](/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md "Integrating Navi+ with your website and external apps")
 - [The HTML and CSS structure of all Navi+ menus](/manual/website/help.naviplus.io/integrations/the-html-and-css-structure-of-all-navi+-menus.md "The HTML and CSS structure of all Navi+ menus")

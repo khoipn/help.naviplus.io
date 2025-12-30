@@ -74,7 +74,7 @@ The code below can be used multiple times on a website with different insertion 
 <div class="naviman_app section_naviman_app" id="[SF-123456789]-container"></div>
 <script
   type="application/javascript"
-  src="https://dev-shopify.naviplus.app/naviplus/frontend/start.js.php"
+  src="https://live.naviplus.app/start.js"
   shop="[your-domain.com]"
   embed_id="[SF-123456789]"
   async  
