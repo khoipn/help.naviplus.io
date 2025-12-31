@@ -271,6 +271,11 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
 </li>
   </ul>
 </li>
+<li class="sitemap-list-item">
+  <a href="/docs/usage/some-faqs-about-publishing-navi-menu/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Some FAQs about publishing Navi+ menu
+  </a>
+</li>
   </ul>
 </div>
 <div class="sitemap-section">

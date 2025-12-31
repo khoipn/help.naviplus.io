@@ -152,6 +152,9 @@
     processed_path: usage/shopify
     title: Shopify
     url: /docs/usage/shopify/
+  - processed_path: usage/some-faqs-about-publishing-navi-menu
+    title: Some FAQs about publishing Navi+ menu
+    url: /docs/usage/some-faqs-about-publishing-navi-menu/
   processed_path: usage
   title: Usage
   url: /docs/usage/
