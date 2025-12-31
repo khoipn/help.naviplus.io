@@ -17,15 +17,10 @@ The code below is extremely lightweight and can be inserted into your website wi
 **Best position to insert into your website:** in the head section (or as early as possible). Why? The website will sequentially load resources to render the interface. Placing Navi+ earliest in the HTML code will help your menu be ready to display as soon as possible by waiting until conditions are met, then the menu will immediately appear. This improves user experience.
 
 ```html
-<!---- Navi+ embed code ---->
-<script
-  type="application/javascript"
-  src="https://live.naviplus.app/start.js"
-  shop="[your-domain.com]"
-  async  
-  onerror="var t=this,s=document.createElement('script'); for(var i=0;i<t.attributes.length;i++){ var a=t.attributes[i];if(a.name!=='src' && a.name!=='onerror') s.setAttribute(a.name,a.value);} s.src='https://flov.naviplus.app/start.js';document.head.appendChild(s);">
-</script>
-
+<!-- Insert this code to the <head> of website. (c) naviplus.io -->
+<script>(window._navi_setting ||= []).push({});</script>
+<script src="https://live.naviplus.app/start.js" async></script>
+<!-- Insert this code to the <head> of website -->
 ```
 
 ### Important Notes:
@@ -54,15 +49,6 @@ Non-standard cases (not recommended):
 <p>The script is simultaneously distributed on two of the world's leading CDNs: Cloudflare and BunnyCDN, ensuring optimal speed globally. Thanks to the multi-cluster distribution mechanism and ultra-stable infrastructure of these two providers, the error rate is nearly 0 (approximately 0.00001%), and it works perfectly on all modern browsers.</p>
 </details>
 
-<details><summary>What is "async"?</summary>
-<p>This script is written following the async standard, meaning it loads in parallel and does not block any component of the website. The browser continues to render normally while the script loads in the background, ensuring maximum speed without affecting your page performance.</p>
-</details>
-
-<details><summary>What is "onerror"? I don't understand it</summary>
-<p>Navi+ is simultaneously distributed on two of the world's leading CDNs: Cloudflare and BunnyCDN, providing extremely strong load capacity — virtually no latency, even when traffic spikes suddenly.</p>
-<p>The <code>onerror</code> mechanism is used as an automatic failover system: if Cloudflare encounters an error (probability around 0.001%), the browser will immediately switch to loading from BunnyCDN (which also has only a 0.001% error probability). Thanks to this dual redundancy mechanism, Navi+'s actual error rate is nearly 0 — only about 0.00001%.</p>
-</details>
-
 ***
 
 ### 2. Insert a Navi+ Menu at Any Point on Your Website
@@ -70,20 +56,22 @@ Non-standard cases (not recommended):
 The code below can be used multiple times on a website with different insertion information (especially the **Embeded ID**, such as SF-123456789). When the website is rendered, the menu will be deployed and displayed at the position where the code is inserted when conditions are met. This menu type is suitable for: Mega menu, Grid, etc.
 
 ```html
-<!---- Navi+ insert menu SF-123456789 ---->
-<div class="naviman_app section_naviman_app" id="[SF-123456789]-container"></div>
-<script
-  type="application/javascript"
-  src="https://live.naviplus.app/start.js"
-  shop="[your-domain.com]"
-  embed_id="[SF-123456789]"
-  async  
-  onerror="var t=this,s=document.createElement('script'); for(var i=0;i<t.attributes.length;i++){ var a=t.attributes[i];if(a.name!=='src' && a.name!=='onerror') s.setAttribute(a.name,a.value);} s.src='https://flov.naviplus.app/start.js';document.head.appendChild(s);">
-</script>
+<!-- Insert the code where the menu SF-123456789 appears. (c) naviplus.io -->
+<div class="naviman_app section_naviman_app" id="SF-123456789-container"></div>
+<script>(window._navi_setting ||= []).push({
+   embed_id: "SF-123456789"
+});</script>
+<script src="https://live.naviplus.app/start.js" async></script>
+<!-- Insert the code where the menu SF-123456789 appears -->
 ```
+
+{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">**Important**</mark>**:** The code above uses the sample embed code [<mark style="color:orange;">SF-123456789</mark>](#user-content-fn-1 "<mark style="color:orange;">SF-123456789</mark>")[^1]. Make sure to replace it with your actual menu embed code.
+{% comment %}endhint{% endcomment %}
 
 ### Important Notes:
 
 You need to fill in your information in **\[your-domain.com]**, matching the domain declaration you created in the backend at <https://dash.naviplus.io>. You also need to fill in the **Embeded ID** information of the menu (in the format SF-123456789) into 2 places in the code above. Note: do not keep the \[] brackets when filling in and replacing in the code.
 
 Other information is similar to case 1, which you can refer to above.
+
+[^1]:
