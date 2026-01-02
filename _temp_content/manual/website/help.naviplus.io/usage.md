@@ -16,6 +16,7 @@
 - [Publish on WordPress / WooCommerce / Wix / Others](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md)
 - [Slide menu (Hamburger Menu)](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu.md)
 - [How to use?](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/how-to-use.md)
+- [Publishing examples](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-examples.md)
 - [Publishing on Shopify](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-on-shopify.md)
 - [Publish on WordPress / WooCommerce / Wix / Others](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others.md)
 - [FAB - Floating Menu / Quick Access](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access.md)

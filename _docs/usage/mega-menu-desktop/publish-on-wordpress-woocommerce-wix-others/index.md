@@ -65,7 +65,7 @@ The code below can be used multiple times on a website with different insertion 
 <!-- Insert the code where the menu SF-123456789 appears -->
 ```
 
-{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">**Important**</mark>**:** The code above uses the sample embed code [<mark style="color:orange;">SF-123456789</mark>](#user-content-fn-1 "<mark style="color:orange;">SF-123456789</mark>")[^1]. Make sure to replace it with your actual menu embed code.
+{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Important</mark>**:** The code above uses the sample embed code <mark style="color:orange;">SF-123456789</mark>. Make sure to replace it with your actual menu embed code.
 {% comment %}endhint{% endcomment %}
 
 ### Important Notes:
@@ -73,5 +73,3 @@ The code below can be used multiple times on a website with different insertion 
 You need to fill in your information in **\[your-domain.com]**, matching the domain declaration you created in the backend at <https://dash.naviplus.io>. You also need to fill in the **Embeded ID** information of the menu (in the format SF-123456789) into 2 places in the code above. Note: do not keep the \[] brackets when filling in and replacing in the code.
 
 Other information is similar to case 1, which you can refer to above.
-
-[^1]:

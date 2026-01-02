@@ -22,6 +22,7 @@ title: Usage
 - [Publish on WordPress / WooCommerce / Wix / Others](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
 - [Slide menu (Hamburger Menu)](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu.md "Slide menu (Hamburger Menu)")
 - [How to use?](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/how-to-use.md "How to use?")
+- [Publishing examples](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-examples.md "Publishing examples")
 - [Publishing on Shopify](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-on-shopify.md "Publishing on Shopify")
 - [Publish on WordPress / WooCommerce / Wix / Others](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
 - [FAB - Floating Menu / Quick Access](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access.md "FAB - Floating Menu / Quick Access")

@@ -152,6 +152,11 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </a>
 </li>
 <li class="sitemap-list-item">
+  <a href="/docs/usage/slide-menu-hamburger-menu/publishing-examples/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Publishing examples
+  </a>
+</li>
+<li class="sitemap-list-item">
   <a href="/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/" class="sitemap-link">
     <i class="ri-file-text-line"></i> Publishing on Shopify
   </a>
