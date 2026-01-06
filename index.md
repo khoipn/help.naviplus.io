@@ -281,6 +281,11 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
     <i class="ri-file-text-line"></i> Some FAQs about publishing Navi+ menu
   </a>
 </li>
+<li class="sitemap-list-item">
+  <a href="/docs/usage/debug-mode-find-css-selectors/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Debug mode - Find CSS Selectors
+  </a>
+</li>
   </ul>
 </div>
 <div class="sitemap-section">

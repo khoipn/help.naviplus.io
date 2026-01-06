@@ -200,7 +200,7 @@ def parse_navigation_markdown(markdown_content, base_url):
     return navigation_data, list(all_content_urls)
 
 def unescape_pipes(markdown_content):
-    """Unescape \| to | in the content so they display correctly."""
+    r"""Unescape \| to | in the content so they display correctly."""
     return markdown_content.replace('\\|', '|')
 
 def escape_custom_liquid_tags(markdown_content):
