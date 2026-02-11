@@ -13,6 +13,7 @@ title: Frequently Asked Questions
 - [Optimize speeds, images and UX](/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux.md "Optimize speeds, images and UX")
 - [Optimize images](/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images.md "Optimize images")
 - [Optimize speed and improve the user experience (UX).](/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md "Optimize speed and improve the user experience (UX).")
+- [How to Transfer a Navi+ Menu to Another Navi+ Menu](/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md "How to Transfer a Navi+ Menu to Another Navi+ Menu")
 - [How does Navi+ support SEO?](/manual/website/help.naviplus.io/frequently-asked-questions/how-does-navi+-support-seo.md "How does Navi+ support SEO?")
 - [Navi+ plans (Starter, Business & Elite)](/manual/website/help.naviplus.io/frequently-asked-questions/navi+-plans-starter-business-and-elite.md "Navi+ plans (Starter, Business & Elite)")
 - [Why aren't Menu, Search, Cart panels working?](/manual/website/help.naviplus.io/frequently-asked-questions/why-arent-menu-search-cart-panels-working.md "Why aren't Menu, Search, Cart panels working?")

@@ -379,6 +379,11 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </ul>
 </li>
 <li class="sitemap-list-item">
+  <a href="/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> How to Transfer a Navi+ Menu to Another Navi+ Menu
+  </a>
+</li>
+<li class="sitemap-list-item">
   <a href="/docs/frequently-asked-questions/how-does-navi-support-seo/" class="sitemap-link">
     <i class="ri-file-text-line"></i> How does Navi+ support SEO?
   </a>
