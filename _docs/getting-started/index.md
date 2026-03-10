@@ -20,3 +20,7 @@ Design smarter navigation. Improve user experience. Boost conversions.
 
 **Khoi Pham**\
 Founder of Navi+&#x20;
+
+Email: <khoipn@naviplus.io>
+
+What's App: +84 981911011
