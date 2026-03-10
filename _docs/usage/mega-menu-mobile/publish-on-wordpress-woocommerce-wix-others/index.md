@@ -14,14 +14,12 @@ If you deploy your website on other platforms (such as [WordPress](https://wordp
 
 This implementation method is suitable for all menu types that Navi+ currently supports, including: Tabbar, Mega menu, Slide menu, FAB, and Grid menu. This code only needs to be used once for all menus.
 
-```html
-<!-- Insert this code to the <head> of website. (c) naviplus.io -->
-<script>(window._navi_setting ||= []).push({
-   token: "NAVI123456"
-});</script>
-<script src="https://live.naviplus.app/start.js" async></script>
-<!-- Insert this code to the <head> of website -->
-```
+{% capture naviplus_embed_head %}
+{% include snippets/naviplus-embed-head.html token="NAVI123456" %}
+{% endcapture %}
+{% highlight html %}
+{{ naviplus_embed_head | strip }}
+{% endhighlight %}
 
 ### FAQ (Frequently Asked Questions)
 
@@ -56,16 +54,12 @@ This implementation method is suitable for all menu types that Navi+ currently s
 
 The code below can be used multiple times on a website with different insertion information (especially the **Embeded ID**, such as SF-123456789). When the website is rendered, the menu will be deployed and displayed at the position where the code is inserted when conditions are met. This menu type is suitable for: Mega menu, Grid, etc.
 
-```html
-<!-- Insert the code where the menu SF-123456789 appears. (c) naviplus.io -->
-<div class="naviman_app section_naviman_app" id="SF-123456789-container"></div>
-<script>(window._navi_setting ||= []).push({
-   token: "NAVI123456",
-   embed_id: "SF-123456789"
-});</script>
-<script src="https://live.naviplus.app/start.js" async></script>
-<!-- Insert the code where the menu SF-123456789 appears -->
-```
+{% capture naviplus_insert_menu %}
+{% include snippets/naviplus-insert-menu.html token="NAVI123456" embed_id="SF-123456789" %}
+{% endcapture %}
+{% highlight html %}
+{{ naviplus_insert_menu | strip }}
+{% endhighlight %}
 
 {% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Important</mark>**:** The code above uses the sample embed code <mark style="color:orange;">SF-123456789</mark>. Make sure to replace it with your actual menu embed code.
 {% comment %}endhint{% endcomment %}
