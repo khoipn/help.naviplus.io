@@ -17,6 +17,11 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
+      <form class="navbar-search d-flex position-relative my-2 my-lg-0 ms-lg-3 me-lg-3" role="search" autocomplete="off" data-search-index-url="{{ '/search.json' | relative_url }}">
+        <i class="ri-search-line navbar-search-icon" aria-hidden="true"></i>
+        <input class="form-control form-control-sm" type="search" placeholder="Search docs" aria-label="Search docs" id="siteSearchInput">
+        <div class="navbar-search-results list-group position-absolute top-100 start-0 w-100 shadow d-none" id="siteSearchResults"></div>
+      </form>
       <ul class="navbar-nav ms-auto" id="main-navbar-nav-links">
         <!-- Links will be dynamically loaded here by JavaScript -->
       </ul>

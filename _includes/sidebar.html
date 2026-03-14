@@ -41,14 +41,14 @@
         <!-- Render a separator line -->
         <div class="sidebar-separator-content"></div>
       {% elsif item.children %}
-        <a class="nav-link{% if current_page_url == item_url_normalized %} active{% endif %}" data-bs-toggle="collapse" href="#collapse-{{ forloop.index }}" role="button" aria-expanded="{% if item_is_active_parent or current_page_url == item_url_normalized %}true{% else %}false{% endif %}" aria-controls="collapse-{{ forloop.index }}">
+        <a class="nav-link{% if current_page_url == item_url_normalized %} active{% endif %}" data-bs-toggle="collapse" href="#collapse-{{ include.id_prefix }}-{{ forloop.index }}" role="button" aria-expanded="{% if item_is_active_parent or current_page_url == item_url_normalized %}true{% else %}false{% endif %}" aria-controls="collapse-{{ include.id_prefix }}-{{ forloop.index }}">
           <span class="d-flex align-items-start sidebar-link-container">
             <i class="ri-folder-line sidebar-folder-icon-closed{% if item_is_active_parent or current_page_url == item_url_normalized %} d-none{% endif %}"></i>
             <i class="ri-folder-open-line sidebar-folder-icon-open{% unless item_is_active_parent or current_page_url == item_url_normalized %} d-none{% endunless %}"></i>
             <span class="sidebar-title-text flex-grow-1">{{ item.title }}</span>
           </span>
         </a>
-        <div class="collapse {% if item_is_active_parent or current_page_url == item_url_normalized %}show{% endif %}" id="collapse-{{ forloop.index }}">
+        <div class="collapse {% if item_is_active_parent or current_page_url == item_url_normalized %}show{% endif %}" id="collapse-{{ include.id_prefix }}-{{ forloop.index }}">
           <ul class="nav flex-column ps-3 sidebar-children-list">
             {% for child in item.children %}
               {% assign child_url_normalized = child.url | remove: 'index.html' | replace: '//', '/' %}
@@ -57,20 +57,25 @@
               {% endif %}
               {% if child_url_normalized == "" %}{% assign child_url_normalized = "/" %}{% endif %}
 
+              {% assign child_is_active_parent = false %}
+              {% if current_page_url contains child_url_normalized and current_page_url != child_url_normalized %}
+                {% assign child_is_active_parent = true %}
+              {% endif %}
+
               <!-- DEBUG: child.url: {{ child.url }}, child_url_normalized: {{ child_url_normalized }} -->
 
               <li class="nav-item sidebar-tree-item{% if child.title == 'line' %} sidebar-separator-line{% endif %}">
                 {% if child.title == 'line' %}
                   <div class="sidebar-separator-content"></div>
                 {% elsif child.children %}
-                  <a class="nav-link{% if current_page_url == child_url_normalized %} active{% endif %}" data-bs-toggle="collapse" href="#collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}" role="button" aria-expanded="{% if child_is_active_parent or current_page_url == child_url_normalized %}true{% else %}false{% endif %}" aria-controls="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                  <a class="nav-link{% if current_page_url == child_url_normalized %} active{% endif %}" data-bs-toggle="collapse" href="#collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}" role="button" aria-expanded="{% if child_is_active_parent or current_page_url == child_url_normalized %}true{% else %}false{% endif %}" aria-controls="collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}">
                     <span class="d-flex align-items-start sidebar-link-container">
                       <i class="ri-folder-line sidebar-folder-icon-closed{% if child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endif %}"></i>
                       <i class="ri-folder-open-line sidebar-folder-icon-open{% unless child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endunless %}"></i>
                       <span class="sidebar-title-text flex-grow-1">{{ child.title }}</span>
                     </span>
                   </a>
-                  <div class="collapse {% if child_is_active_parent or current_page_url == child_url_normalized %}show{% endif %}" id="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                  <div class="collapse {% if child_is_active_parent or current_page_url == child_url_normalized %}show{% endif %}" id="collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}">
                     <ul class="nav flex-column ps-3 sidebar-children-list">
                       {% for grand_child in child.children %}
                         {% assign grand_child_url_normalized = grand_child.url | remove: 'index.html' | replace: '//', '/' %}

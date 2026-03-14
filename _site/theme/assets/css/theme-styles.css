@@ -27,6 +27,33 @@
   margin: 0 1rem;
 }
 
+img[alt="small-1-2"] {
+  width: 50%;
+}
+img[alt="small-1-3"] {
+  width: 33%;
+}
+
+img[alt="fix-100"] {
+  width: 100px;
+}
+
+img[alt="fix-200"] {
+  width: 200px;
+}
+
+img[alt="fix-300"] {
+  width: 300px;
+}
+
+img[alt="fix-400"] {
+  width: 400px;
+}
+
+img[alt="fix-500"] {
+  width: 500px;
+}
+
 @media (max-width: 767.98px) {
   .sidebar-offcanvas.offcanvas {
     width: 250px; /* Adjust Offcanvas width on mobile */
@@ -267,6 +294,48 @@ footer {
   letter-spacing: 0.02em;
 }
 
+.navbar-search {
+  width: 100%;
+  max-width: 360px;
+}
+
+.navbar-search .form-control {
+  padding-left: 32px;
+}
+
+.navbar-search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-search {
+    max-width: none;
+  }
+}
+
+.navbar-search-results {
+  max-height: 60vh;
+  overflow: auto;
+  z-index: 2000;
+}
+
+.navbar-search-result-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.navbar-search-result-desc {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-top: 0.15rem;
+}
+
 /* Ensure images are responsive */
 img {
   max-width: 1100px;
@@ -413,7 +482,7 @@ figure figcaption {
 /* Styles for <details> and <summary> tags */
 .content-wrapper details {
   margin: 0.5em 0;
-  padding: 1rem;
+  padding: 16px 16px 0px 16px;
   border: 1px solid #e1e4e8;
   border-radius: 6px;
   background-color: #f6f8fa;
@@ -554,14 +623,87 @@ details strong {
 
 /* Sửa lại active state để không đè lên dây nối */
 .sidebar .nav-link.active {
-    color: #0366d6 !important; /* Giữ nguyên màu chữ */
-    background-color: #f0f0f0 !important; /* Loại bỏ background mặc định để không che dây nối */
-    border-right: solid 4px #0366d6;
+    color: #fff !important;
+    background-color: #0366d6 !important;
+    border-right: solid 4px #4e95e5;
+}
+
+.sidebar .nav-link.active i {
+  color: #fff !important;
 }
 
 /* Điều chỉnh màu background hover để không che đường kẻ */
 .sidebar .nav-link:hover {
     background-color: rgba(230, 247, 255, 0.3) !important; /* Màu nhạt hơn với độ trong suốt */
+}
+
+.prev-next-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 48px;
+  padding-top: 16px;
+}
+
+.prev-next-nav a {
+  background: #f4f9ff;
+}
+
+.prev-next-nav a:hover {
+  background: #edf5ff;
+  text-decoration: none;
+}
+
+.prev-next-col {
+  min-width: 0;
+}
+
+.prev-next-link {
+  display: block;
+  padding: 12px 14px;
+  border: 1px solid #eaecef;
+  border-radius: 10px;
+  background: #fff;
+  text-decoration: none;
+}
+
+.prev-next-link:hover {
+  background: #f6f8fa;
+  text-decoration: none;
+}
+
+.prev-next-prev {
+  text-align: left;
+}
+
+.prev-next-next {
+  text-align: right;
+}
+
+.prev-next-label {
+  display: block;
+  font-size: 12px;
+  color: #6a737d;
+  margin-bottom: 4px;
+}
+
+.prev-next-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #24292e;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 767.98px) {
+  .prev-next-nav {
+    grid-template-columns: 1fr;
+  }
+  .prev-next-next {
+    text-align: left;
+  }
 }
 
 /* Custom Toggler Icon for Main Navigation (three dots) */
@@ -761,7 +903,7 @@ details strong {
 /* Table of Contents (TOC) Styles */
 #tableOfContents {
   position: fixed;
-  top: 120px;
+  top: 160px;
   right: 20px;
   width: 200px;
   max-height: calc(100vh - 200px);

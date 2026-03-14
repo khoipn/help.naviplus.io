@@ -1,13 +1,31 @@
 document.addEventListener('DOMContentLoaded', function() {
   console.log('DOMContentLoaded fired. Initializing sidebar icons...');
-  var collapseElements = document.querySelectorAll('.collapse');
+  var collapseElements = document.querySelectorAll('nav.sidebar .collapse');
   console.log('Found collapse elements:', collapseElements.length);
+
+  function findToggleLinkForCollapse(collapseEl) {
+    if (!collapseEl || !collapseEl.id) return null;
+
+    var sibling = collapseEl.previousElementSibling;
+    if (sibling && sibling.matches('a[data-bs-toggle="collapse"]')) {
+      var href = sibling.getAttribute('href');
+      var target = sibling.getAttribute('data-bs-target');
+      if (href === '#' + collapseEl.id || target === '#' + collapseEl.id) return sibling;
+    }
+
+    var parent = collapseEl.parentElement;
+    if (parent) {
+      var inSameItem = parent.querySelector(`a[data-bs-toggle="collapse"][href="#${collapseEl.id}"], a[data-bs-toggle="collapse"][data-bs-target="#${collapseEl.id}"]`);
+      if (inSameItem) return inSameItem;
+    }
+
+    return document.querySelector(`a[data-bs-toggle="collapse"][href="#${collapseEl.id}"], a[data-bs-toggle="collapse"][data-bs-target="#${collapseEl.id}"]`);
+  }
 
   collapseElements.forEach(function(collapseEl) {
     console.log('  Collapse Element:', collapseEl);
     var collapseId = collapseEl.id;
-    // Robustly find the navLink that triggers this collapse element
-    var navLink = document.querySelector('a[data-bs-target="#' + collapseId + '"]');
+    var navLink = findToggleLinkForCollapse(collapseEl);
     var folderIconClosed = navLink ? navLink.querySelector('.sidebar-folder-icon-closed') : null;
     var folderIconOpen = navLink ? navLink.querySelector('.sidebar-folder-icon-open') : null;
     console.log('  Processing collapse ID:', collapseEl.id, 'NavLink:', navLink, 'FolderIconClosed:', folderIconClosed, 'FolderIconOpen:', folderIconOpen);
@@ -48,14 +66,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Highlight active item's parent folders on load
   console.log('Checking for active links and parents...');
-  var activeLink = document.querySelector('.nav-link.active');
+  var activeLink = document.querySelector('nav.sidebar .nav-link.active');
   if (activeLink) {
     console.log('  Active link found:', activeLink);
     var parentCollapse = activeLink.closest('.collapse');
     while (parentCollapse) {
       console.log('    Current Parent Collapse Element:', parentCollapse);
       var parentId = parentCollapse.id;
-      var parentNavLink = document.querySelector('a[data-bs-target="#' + parentId + '"]');
+      var parentNavLink = findToggleLinkForCollapse(parentCollapse);
       console.log('    Current Parent NavLink:', parentNavLink);
       
       if (!parentNavLink) {

@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /search.json
+---
+[
+{% assign docs = site.docs | where_exp: "d", "d.url != nil" %}
+{% for doc in docs %}
+  {
+    "title": {{ doc.title | default: "" | jsonify }},
+    "url": {{ doc.url | jsonify }},
+    "description": {{ doc.description | default: "" | jsonify }},
+    "content": {{ doc.content | markdownify | strip_html | strip_newlines | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
+

@@ -1,0 +1,98 @@
+{% assign current_page_url = page.url | remove: 'index.html' | replace: '//', '/' %}
+{% if current_page_url != '/' and current_page_url contains '/' and current_page_url | slice: -1 == '/' %}
+  {% assign current_page_url = current_page_url | remove_last: '/' %}
+{% endif %}
+{% if current_page_url == "" %}{% assign current_page_url = "/" %}{% endif %}
+
+{% assign flat = "" %}
+{% for item in site.data.navigation %}
+  {% if item.url and item.title and item.title != "line" and item.type != "separator" %}
+    {% assign flat = flat | append: item.url | append: "||" | append: item.title | append: "\n" %}
+  {% endif %}
+  {% if item.children %}
+    {% for child in item.children %}
+      {% if child.url and child.title and child.title != "line" and child.type != "separator" %}
+        {% assign flat = flat | append: child.url | append: "||" | append: child.title | append: "\n" %}
+      {% endif %}
+      {% if child.children %}
+        {% for grand_child in child.children %}
+          {% if grand_child.url and grand_child.title and grand_child.title != "line" and grand_child.type != "separator" %}
+            {% assign flat = flat | append: grand_child.url | append: "||" | append: grand_child.title | append: "\n" %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign flat_list = flat | split: "\n" %}
+{% assign current_index = nil %}
+
+{% for entry in flat_list %}
+  {% if entry != "" and current_index == nil %}
+    {% assign parts = entry | split: "||" %}
+    {% assign entry_url = parts[0] | default: "" %}
+    {% assign entry_url_normalized = entry_url | remove: 'index.html' | replace: '//', '/' %}
+    {% if entry_url_normalized != '/' and entry_url_normalized contains '/' and entry_url_normalized | slice: -1 == '/' %}
+      {% assign entry_url_normalized = entry_url_normalized | remove_last: '/' %}
+    {% endif %}
+    {% if entry_url_normalized == "" %}{% assign entry_url_normalized = "/" %}{% endif %}
+
+    {% if entry_url_normalized == current_page_url %}
+      {% assign current_index = forloop.index0 %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index != nil %}
+  {% assign prev_index = current_index | minus: 1 %}
+  {% assign next_index = current_index | plus: 1 %}
+
+  {% assign prev_entry = nil %}
+  {% assign next_entry = nil %}
+
+  {% if prev_index >= 0 %}
+    {% assign prev_entry = flat_list[prev_index] %}
+  {% endif %}
+  {% if next_index < flat_list.size %}
+    {% assign next_entry = flat_list[next_index] %}
+  {% endif %}
+
+  {% assign prev_url = nil %}
+  {% assign prev_title = nil %}
+  {% if prev_entry and prev_entry != "" %}
+    {% assign prev_parts = prev_entry | split: "||" %}
+    {% assign prev_url = prev_parts[0] %}
+    {% assign prev_title = prev_parts[1] %}
+  {% endif %}
+
+  {% assign next_url = nil %}
+  {% assign next_title = nil %}
+  {% if next_entry and next_entry != "" %}
+    {% assign next_parts = next_entry | split: "||" %}
+    {% assign next_url = next_parts[0] %}
+    {% assign next_title = next_parts[1] %}
+  {% endif %}
+
+  {% if prev_url or next_url %}
+    <nav class="prev-next-nav" aria-label="Page navigation">
+      <div class="prev-next-col">
+        {% if prev_url %}
+          <a class="prev-next-link prev-next-prev" href="{{ prev_url | relative_url }}">
+            <span class="prev-next-label">Back</span>
+            <span class="prev-next-title">{{ prev_title }}</span>
+          </a>
+        {% endif %}
+      </div>
+      <div class="prev-next-col">
+        {% if next_url %}
+          <a class="prev-next-link prev-next-next" href="{{ next_url | relative_url }}">
+            <span class="prev-next-label">Next</span>
+            <span class="prev-next-title">{{ next_title }}</span>
+          </a>
+        {% endif %}
+      </div>
+    </nav>
+  {% endif %}
+{% endif %}
+
