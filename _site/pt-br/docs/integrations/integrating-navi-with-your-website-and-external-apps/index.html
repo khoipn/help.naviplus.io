@@ -37,6 +37,23 @@
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
 <link rel="stylesheet" href="/theme/assets/css/theme-styles.css">
 
+<script>
+(() => {
+  try {
+    const raw = localStorage.getItem('favorites') || '[]';
+    const favorites = JSON.parse(raw);
+    const count = Array.isArray(favorites) ? favorites.length : 0;
+    if (count > 0) {
+      const maxItems = 6;
+      const rowHeight = 34;
+      const reserved = Math.min(count, maxItems) * rowHeight;
+      document.documentElement.classList.add('has-favorites');
+      document.documentElement.style.setProperty('--favorites-reserved-height', reserved + 'px');
+    }
+  } catch (e) {}
+})();
+</script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
 <script>
@@ -67,12 +84,23 @@ gtag('config', 'G-1PWVMJYX4Z');
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
     <!-- Offcanvas Toggle for Sidebar (Left) -->
     <button class="navbar-toggler d-md-none me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand d-flex align-items-center" href="/">
+    <a class="navbar-brand d-flex align-items-center" href="/pt-br/docs/getting-started/">
       <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+ Logo" class="d-inline-block align-top img-fluid">
       <span class="navbar-divider"></span>
       <span class="navbar-site-title">Help</span>
@@ -84,14 +112,6 @@ gtag('config', 'G-1PWVMJYX4Z');
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      
-      
-      
-
-      
-      
-      
-
       
       
 
@@ -138,11 +158,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITOS</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITOS</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -150,7 +170,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/pt-br/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">Início</span>
       </span>
     </a>
@@ -1826,11 +1845,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITOS</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITOS</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -1838,7 +1857,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/pt-br/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">Início</span>
       </span>
     </a>
@@ -3500,9 +3518,13 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h3 id="1-integre-outros-aplicativos-fixos-em-um-único-item-de-menu-do-navi">1. Integre outros aplicativos fixos em um único item de menu do Navi+</h3>
 
-<p>O Navi+ consolida vários aplicativos (Chat Box, Fidelidade, Prova Social, Barras de Promoção, etc.) em itens de menu, mantendo seu site limpo e prevenindo sobreposições—especialmente valioso em dispositivos móveis com espaço de tela limitado.\nPara conseguir isso, siga estes 2 passos:</p>
+<p>O Navi+ consolida vários aplicativos (Chat Box, Fidelidade, Prova Social, Barras de Promoção, etc.) em itens de menu, mantendo seu site limpo e prevenindo sobreposições—especialmente valioso em dispositivos móveis com espaço de tela limitado.</p>
 
-<p>• Passo 1: Oculte os ícones dos aplicativos fixos usando CSS. Veja os detalhes aqui\n• Passo 2: Use JavaScript para itens de menu para que clicar neles abra os painéis de aplicativos respectivos.</p>
+<p>Para conseguir isso, siga estes 2 passos:</p>
+
+<p>• Passo 1: Oculte os ícones dos aplicativos fixos usando CSS. Veja os detalhes aqui</p>
+
+<p>• Passo 2: Use JavaScript para itens de menu para que clicar neles abra os painéis de aplicativos respectivos.</p>
 
 <p>Veja o exemplo de integração do chat Tidi. Esta é uma configuração relativamente avançada, então entre em contato com o suporte do Navi+ para assistência.</p>
 
@@ -3519,7 +3541,9 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h3 id="3-personalizando-a-interface-do-navi-com-css-externo">3. Personalizando a Interface do Navi+ com CSS Externo</h3>
 
-<p>Cada menu do Navi+ é definido por um elemento div com id=”SF-123456789” (id embutido). Veja a estrutura HTML/CSS de um menu do Navi+ aqui para escrever código CSS para personalizar a interface do menu.\nPor exemplo, para mudar a cor de um item de menu de nível 2, você pode escrever o seguinte CSS:</p>
+<p>Cada menu do Navi+ é definido por um elemento div com id=”SF-123456789” (id embutido). Veja a estrutura HTML/CSS de um menu do Navi+ aqui para escrever código CSS para personalizar a interface do menu.</p>
+
+<p>Por exemplo, para mudar a cor de um item de menu de nível 2, você pode escrever o seguinte CSS:</p>
 
 <p><code class="language-plaintext highlighter-rouge">#SF-123456789 ul li ul.children li .name { color: red; }</code></p>
 
@@ -3527,11 +3551,15 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h3 id="4-comunicação-entre-menus-do-navi">4. Comunicação Entre Menus do Navi+</h3>
 
-<p>A partir de um item de menu do Navi+, você pode chamar para abrir outro menu Slide do Navi+ usando a sintaxe: <code class="language-plaintext highlighter-rouge">open:NaviMenu.</code>\nCom esta sintaxe, você pode expandir infinitamente os níveis de menu fazendo com que menus deslizantes chamem outros menus deslizantes.</p>
+<p>A partir de um item de menu do Navi+, você pode chamar para abrir outro menu Slide do Navi+ usando a sintaxe: <code class="language-plaintext highlighter-rouge">open:NaviMenu.</code></p>
+
+<p>Com esta sintaxe, você pode expandir infinitamente os níveis de menu fazendo com que menus deslizantes chamem outros menus deslizantes.</p>
 
 <h3 id="5-abra-um-menu-slide-de-qualquer-lugar-em-seu-site">5. Abra um Menu Slide de qualquer lugar em seu site</h3>
 
-<p>Com menus deslizantes, além de abri-los via itens de menu de outros menus do Navi+, você também pode acionar um menu deslizante do Navi+ chamando a função JavaScript: <code class="language-plaintext highlighter-rouge">naviman.openNaviMenu()</code>.\nPor exemplo: Crie um botão flutuante usando HTML e CSS, então atribua sua ação de clique para abrir um menu Slide do Navi+ – você terá instantaneamente um menu com aparência profissional.</p>
+<p>Com menus deslizantes, além de abri-los via itens de menu de outros menus do Navi+, você também pode acionar um menu deslizante do Navi+ chamando a função JavaScript: <code class="language-plaintext highlighter-rouge">naviman.openNaviMenu()</code>.</p>
+
+<p>Por exemplo: Crie um botão flutuante usando HTML e CSS, então atribua sua ação de clique para abrir um menu Slide do Navi+ – você terá instantaneamente um menu com aparência profissional.</p>
 
 <h3 id="6-simular-ações-do-usuário-clique-foco-rolagem-etc">6. Simular ações do usuário (clique, foco, rolagem, etc.)</h3>
 

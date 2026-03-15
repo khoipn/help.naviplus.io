@@ -6,27 +6,27 @@
 <title>よくある最初の質問</title>
 <meta name="description" content="**私たちの使命:** 誰でも数回のクリックで美しいメニューを作成できるように支援します — コーディングは不要です。訪問者を重要なものに導きます: 主要な製品、キャンペーン、重要なページ。明確なメニューは信頼を築き、行動を促します。">
 
-<link rel="canonical" href="http://0.0.0.0:4002/jp/docs/common-first-questions/">
+<link rel="canonical" href="http://0.0.0.0:4000/jp/docs/common-first-questions/">
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://0.0.0.0:4002/jp/docs/common-first-questions/">
+<meta property="og:url" content="http://0.0.0.0:4000/jp/docs/common-first-questions/">
 <meta property="og:title" content="よくある最初の質問">
 <meta property="og:description" content="**私たちの使命:** 誰でも数回のクリックで美しいメニューを作成できるように支援します — コーディングは不要です。訪問者を重要なものに導きます: 主要な製品、キャンペーン、重要なページ。明確なメニューは信頼を築き、行動を促します。">
 
-<meta property="og:image" content="http://0.0.0.0:4002/assets/images/naviplus-social-share.jpg">
+<meta property="og:image" content="http://0.0.0.0:4000/assets/images/naviplus-social-share.jpg">
 
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://0.0.0.0:4002/jp/docs/common-first-questions/">
+<meta property="twitter:url" content="http://0.0.0.0:4000/jp/docs/common-first-questions/">
 <meta property="twitter:title" content="よくある最初の質問">
 <meta property="twitter:description" content="**私たちの使命:** 誰でも数回のクリックで美しいメニューを作成できるように支援します — コーディングは不要です。訪問者を重要なものに導きます: 主要な製品、キャンペーン、重要なページ。明確なメニューは信頼を築き、行動を促します。">
 
-<meta property="twitter:image" content="http://0.0.0.0:4002/assets/images/naviplus-social-share.jpg">
+<meta property="twitter:image" content="http://0.0.0.0:4000/assets/images/naviplus-social-share.jpg">
 
 
 <meta name="twitter:creator" content="@NaviPlusOfficial">
@@ -36,6 +36,23 @@
 <!-- Remixicon CSS -->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
 <link rel="stylesheet" href="/theme/assets/css/theme-styles.css">
+
+<script>
+(() => {
+  try {
+    const raw = localStorage.getItem('favorites') || '[]';
+    const favorites = JSON.parse(raw);
+    const count = Array.isArray(favorites) ? favorites.length : 0;
+    if (count > 0) {
+      const maxItems = 6;
+      const rowHeight = 34;
+      const reserved = Math.min(count, maxItems) * rowHeight;
+      document.documentElement.classList.add('has-favorites');
+      document.documentElement.style.setProperty('--favorites-reserved-height', reserved + 'px');
+    }
+  } catch (e) {}
+})();
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
@@ -67,12 +84,23 @@ gtag('config', 'G-1PWVMJYX4Z');
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
     <!-- Offcanvas Toggle for Sidebar (Left) -->
     <button class="navbar-toggler d-md-none me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand d-flex align-items-center" href="/">
+    <a class="navbar-brand d-flex align-items-center" href="/jp/docs/getting-started/">
       <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+ Logo" class="d-inline-block align-top img-fluid">
       <span class="navbar-divider"></span>
       <span class="navbar-site-title">Help</span>
@@ -84,14 +112,6 @@ gtag('config', 'G-1PWVMJYX4Z');
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      
-      
-      
-
-      
-      
-      
-
       
       
 
@@ -138,11 +158,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">お気に入り</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">お気に入り</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -150,7 +170,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/jp/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">ホーム</span>
       </span>
     </a>
@@ -1826,11 +1845,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">お気に入り</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">お気に入り</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -1838,7 +1857,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/jp/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">ホーム</span>
       </span>
     </a>
@@ -3500,19 +3518,35 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-naviとは何ですか">1. Navi+とは何ですか？</h4>
 
-<p><strong>私たちの使命:</strong> 誰でも数回のクリックで美しいメニューを作成できるように支援します — コーディングは不要です。訪問者を重要なものに導きます: 主要な製品、キャンペーン、重要なページ。明確なメニューは信頼を築き、行動を促します。\n<strong>技術的なスキルは不要です。開発者は必要ありません。あなたのビジョンと機能するメニューだけです。</strong>\n詳細を確認するには <a href="https://help.naviplus.io/docs/usage/general/what-is-navi/">https://help.naviplus.io/docs/usage/general/what-is-navi/</a> をご覧ください。</p>
+<p><strong>私たちの使命:</strong> 誰でも数回のクリックで美しいメニューを作成できるように支援します — コーディングは不要です。訪問者を重要なものに導きます: 主要な製品、キャンペーン、重要なページ。明確なメニューは信頼を築き、行動を促します。</p>
+
+<p><strong>技術的なスキルは不要です。開発者は必要ありません。あなたのビジョンと機能するメニューだけです。</strong></p>
+
+<p>詳細を確認するには <a href="https://help.naviplus.io/docs/usage/general/what-is-navi/">https://help.naviplus.io/docs/usage/general/what-is-navi/</a> をご覧ください。</p>
 
 <h4 id="2-naviはどのプラットフォームをサポートしていますか">2. Navi+はどのプラットフォームをサポートしていますか？</h4>
 
-<p>Shopify、WordPress、WooCommerce、Wix、またはその他のプラットフォームで動作します。\nここから無料で始めましょう: <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a></p>
+<p>Shopify、WordPress、WooCommerce、Wix、またはその他のプラットフォームで動作します。</p>
+
+<p>ここから無料で始めましょう: <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a></p>
 
 <h4 id="3-naviをどのようにインストールしますか">3. Navi+をどのようにインストールしますか？</h4>
 
-<p>コンピュータにソフトウェアをインストールする必要はありません。Shopifyにメニューを追加したい場合は、こちらの専用アプリをご利用ください: \n<a href="https://apps.shopify.com/pronavi-navigation-design">https://apps.shopify.com/pronavi-navigation-design</a>\n他のウェブサイトの場合は、<a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a>にサインアップし、無料でドメインを宣言し、数回のクリックでメニューをデザインして埋め込むことができます。</p>
+<p>コンピュータにソフトウェアをインストールする必要はありません。Shopifyにメニューを追加したい場合は、こちらの専用アプリをご利用ください:</p>
+
+<p><a href="https://apps.shopify.com/pronavi-navigation-design">https://apps.shopify.com/pronavi-navigation-design</a></p>
+
+<p>他のウェブサイトの場合は、<a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a>にサインアップし、無料でドメインを宣言し、数回のクリックでメニューをデザインして埋め込むことができます。</p>
 
 <h4 id="4-naviを試して実際の使用方法を確認できますか">4. Navi+を試して、実際の使用方法を確認できますか？</h4>
 
-<p>もちろんです。このリンクで試すことができます: <a href="https://akayakay.myshopify.com/" title="https://akayakay.myshopify.com">https://akayakay.myshopify.com</a>\nパスワード: 12345\nモバイルとデスクトップの両方で、ライトブルーの色で異なるタイプのNavi+メニューがデモされます。\n詳細はこちら: <a href="https://naviplus.io/demo/">https://naviplus.io/demo/</a></p>
+<p>もちろんです。このリンクで試すことができます: <a href="https://akayakay.myshopify.com/" title="https://akayakay.myshopify.com">https://akayakay.myshopify.com</a></p>
+
+<p>パスワード: 12345</p>
+
+<p>モバイルとデスクトップの両方で、ライトブルーの色で異なるタイプのNavi+メニューがデモされます。</p>
+
+<p>詳細はこちら: <a href="https://naviplus.io/demo/">https://naviplus.io/demo/</a></p>
 
 <h4 id="5-naviは私のウェブサイトを遅くしますか">5. Navi+は私のウェブサイトを遅くしますか？</h4>
 
@@ -3524,27 +3558,47 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="7-naviは何種類のメニューを提供していますか">7. Navi+は何種類のメニューを提供していますか？</h4>
 
-<p>Navi+は6種類以上のメニュータイプを提供しています: ボトム/タブバー、スライドメニュー（ドロワーまたはハンバーガー）、FAB、グリッド、メガメニュー — さらに多くが近日登場予定です。\nすべての一般的なメニューをこちらで探検してください: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
+<p>Navi+は6種類以上のメニュータイプを提供しています: ボトム/タブバー、スライドメニュー（ドロワーまたはハンバーガー）、FAB、グリッド、メガメニュー — さらに多くが近日登場予定です。</p>
+
+<p>すべての一般的なメニューをこちらで探検してください: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
 
 <h4 id="8-いくつのメニューを作成できますか">8. いくつのメニューを作成できますか？</h4>
 
-<p>無制限のドメイン名を宣言できます。ただし、各ドメインについて: \n• Starter (無料): 最大1つのメニューを作成\n• Business: 最大4つのメニューを作成\n• Elite: 無制限のメニュー作成</p>
+<p>無制限のドメイン名を宣言できます。ただし、各ドメインについて:</p>
+
+<p>• Starter (無料): 最大1つのメニューを作成</p>
+
+<p>• Business: 最大4つのメニューを作成</p>
+
+<p>• Elite: 無制限のメニュー作成</p>
 
 <h4 id="9-メニューのデザインをカスタマイズできますか">9. メニューのデザインをカスタマイズできますか？</h4>
 
-<p>• 構造: メニューのレイヤー、リンク、アクション\n• デザイン: 色、フォント、アイコン、間隔、レイアウト\n• 表示: 位置、キーワードトリガー、デバイス特有の可視性… など</p>
+<p>• 構造: メニューのレイヤー、リンク、アクション</p>
+
+<p>• デザイン: 色、フォント、アイコン、間隔、レイアウト</p>
+
+<p>• 表示: 位置、キーワードトリガー、デバイス特有の可視性… など</p>
 
 <h4 id="10-naviはモバイルフレンドリーですか">10. Navi+はモバイルフレンドリーですか？</h4>
 
-<p>Navi+はモバイルファーストの哲学で構築されています。なぜなら、あなたのトラフィックの最大80%がモバイルデバイスから来ることを知っているからです。私たちはレスポンシブデザインをサポートしていません — なぜなら、私たちは各デバイスタイプに対してより深い最適化が必要だと信じているからです。\nすべての一般的なメニューをこちらで探検してください: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
+<p>Navi+はモバイルファーストの哲学で構築されています。なぜなら、あなたのトラフィックの最大80%がモバイルデバイスから来ることを知っているからです。私たちはレスポンシブデザインをサポートしていません — なぜなら、私たちは各デバイスタイプに対してより深い最適化が必要だと信じているからです。</p>
+
+<p>すべての一般的なメニューをこちらで探検してください: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
 
 <h4 id="11-メニューはすべてのページに表示できますかそれとも特定のページにのみ表示できますか">11. メニューはすべてのページに表示できますか、それとも特定のページにのみ表示できますか？</h4>
 
-<p>もちろんです。Navi+は非常に柔軟です。すべてのページに表示されるメニューを作成できます — タブバーやFABボタンのように — または特定のページにのみ表示される特定のメニューを作成できます。たとえば、カテゴリページ用のグリッドメニューなどです。\nデバイスタイプ、ログインステータス、URLキーワードによってメニューを表示または非表示にするように構成できます。</p>
+<p>もちろんです。Navi+は非常に柔軟です。すべてのページに表示されるメニューを作成できます — タブバーやFABボタンのように — または特定のページにのみ表示される特定のメニューを作成できます。たとえば、カテゴリページ用のグリッドメニューなどです。</p>
+
+<p>デバイスタイプ、ログインステータス、URLキーワードによってメニューを表示または非表示にするように構成できます。</p>
 
 <h4 id="12-naviは私のテーマや他のアプリと衝突しますかそれとも統合しますか">12. Navi+は私のテーマや他のアプリと衝突しますか、それとも統合しますか？</h4>
 
-<p>ほとんどの場合、いいえ。ただし、衝突が発生することがあります — それらは簡単に修正できます。\n• 時々、Navi+と他のアプリが重なることがあります。特にスティッキーメニューの場合です。z-indexを調整してください: <a href="https://help.naviplus.io/docs/usage/general/z-index/">https://help.naviplus.io/docs/usage/general/z-index/</a>\n• Navi+はナビゲーションハブとして機能できます: チャット、ロイヤルティ、サポートなどのアプリをクリーンなメニュー項目に統合します。</p>
+<p>ほとんどの場合、いいえ。ただし、衝突が発生することがあります — それらは簡単に修正できます。</p>
+
+<p>• 時々、Navi+と他のアプリが重なることがあります。特にスティッキーメニューの場合です。z-indexを調整してください: <a href="https://help.naviplus.io/docs/usage/general/z-index/">https://help.naviplus.io/docs/usage/general/z-index/</a></p>
+
+<p>• Navi+はナビゲーションハブとして機能できます: チャット、ロイヤルティ、サポートなどのアプリをクリーンなメニュー項目に統合します。</p>
 
 <h4 id="13-naviは分析機能を提供しますか">13. Navi+は分析機能を提供しますか？</h4>
 
@@ -3552,11 +3606,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="14-naviの料金はいくらですか">14. Navi+の料金はいくらですか？</h4>
 
-<p>無料のStarterプランから始めましょう（2レベルのメニュー、画像アップロードなし、SEOツールなし）。\nBusinessおよびEliteプランでは高度な機能がアンロックされます。\n料金: <a href="https://naviplus.io/pricing/">https://naviplus.io/pricing/</a></p>
+<p>無料のStarterプランから始めましょう（2レベルのメニュー、画像アップロードなし、SEOツールなし）。</p>
+
+<p>BusinessおよびEliteプランでは高度な機能がアンロックされます。</p>
+
+<p>料金: <a href="https://naviplus.io/pricing/">https://naviplus.io/pricing/</a></p>
 
 <h4 id="15-無料トライアルはありますか">15. 無料トライアルはありますか？</h4>
 
-<p>7日間無料でお試しいただけます — 料金は発生しません。\n支払いはShopify、LemonSqueezyを通じて安全です。</p>
+<p>7日間無料でお試しいただけます — 料金は発生しません。</p>
+
+<p>支払いはShopify、LemonSqueezyを通じて安全です。</p>
 
 <h4 id="16-メニューの変更は即座に更新されますか">16. メニューの変更は即座に更新されますか？</h4>
 
@@ -3568,11 +3628,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="18-naviは複数の言語をサポートしていますか">18. Navi+は複数の言語をサポートしていますか？</h4>
 
-<p>マルチランゲージはShopifyで完全にサポートされています。\n他のプラットフォームにもこれを持ち込むために取り組んでいます。\n詳細: <a href="https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/">https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/</a></p>
+<p>マルチランゲージはShopifyで完全にサポートされています。</p>
+
+<p>他のプラットフォームにもこれを持ち込むために取り組んでいます。</p>
+
+<p>詳細: <a href="https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/">https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/</a></p>
 
 <h4 id="19-naviは高トラフィックに対応できますか">19. Navi+は高トラフィックに対応できますか？</h4>
 
-<p>CloudflareとBunnyCDNによって支えられ、Navi+は毎日数百万の訪問を処理し、遅延の懸念はゼロです。\n詳細: <a href="https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed">https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed</a></p>
+<p>CloudflareとBunnyCDNによって支えられ、Navi+は毎日数百万の訪問を処理し、遅延の懸念はゼロです。</p>
+
+<p>詳細: <a href="https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed">https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed</a></p>
 
 <h4 id="20-メニューをインポートまたはエクスポートできますか">20. メニューをインポートまたはエクスポートできますか？</h4>
 
@@ -3584,19 +3650,43 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-メニューの色フォント間隔をカスタマイズできますか">1. メニューの色、フォント、間隔をカスタマイズできますか？</h4>
 
-<p>もちろんです。Navi+は完全なデザインコントロールを提供します: \n• アイコン: 3000以上のRemix Icons、Flaticon画像、または自分のものをアップロード\n• タイポグラフィ: 1500以上のGoogle Fontsまたはカスタムフォント\n• 色: テキスト、アイコン、背景をカスタマイズ\n• 間隔: 各レベルでパディングとマージンを調整</p>
+<p>もちろんです。Navi+は完全なデザインコントロールを提供します:</p>
+
+<p>• アイコン: 3000以上のRemix Icons、Flaticon画像、または自分のものをアップロード</p>
+
+<p>• タイポグラフィ: 1500以上のGoogle Fontsまたはカスタムフォント</p>
+
+<p>• 色: テキスト、アイコン、背景をカスタマイズ</p>
+
+<p>• 間隔: 各レベルでパディングとマージンを調整</p>
 
 <h4 id="2-レイアウト水平垂直メガメニューサイドバーなどを変更できますか">2. レイアウト（水平、垂直、メガメニュー、サイドバーなど）を変更できますか？</h4>
 
-<p>はい。柔軟な構成で6種類以上のメニュータイプを提供しています。たとえば: \n• タブバー: 上/下、左/右、カスタムマージン\n• スライドメニュー: 左、右、上、下、または中央からスライド\nすべてのメニュータイプに同じ柔軟性が適用されます。</p>
+<p>はい。柔軟な構成で6種類以上のメニュータイプを提供しています。たとえば:</p>
+
+<p>• タブバー: 上/下、左/右、カスタムマージン</p>
+
+<p>• スライドメニュー: 左、右、上、下、または中央からスライド</p>
+
+<p>すべてのメニュータイプに同じ柔軟性が適用されます。</p>
 
 <h4 id="3-naviはアニメーションやホバー効果をサポートしていますか">3. Navi+はアニメーションやホバー効果をサポートしていますか？</h4>
 
-<p>Animate.cssによる完全なアニメーションコントロール — メニューや個々のアイテムのために100以上の効果から選択できます。\nモバイルインタラクションはクリックまたはホバーでトリガーできます。</p>
+<p>Animate.cssによる完全なアニメーションコントロール — メニューや個々のアイテムのために100以上の効果から選択できます。</p>
+
+<p>モバイルインタラクションはクリックまたはホバーでトリガーできます。</p>
 
 <h4 id="4-メニューの外観を変更するためにカスタムcssを追加できますか">4. メニューの外観を変更するためにカスタムCSSを追加できますか？</h4>
 
-<p>はい。Navi+は完全なCSSコントロールを提供します: \n• メニューまたはサイト全体にスコープされたCSSを追加\n• Navi+内で直接すべてを管理\n• id=”menu_item_1”のようにカスタムクラスやIDを割り当てる\n詳細: <a href="https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/">https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/</a></p>
+<p>はい。Navi+は完全なCSSコントロールを提供します:</p>
+
+<p>• メニューまたはサイト全体にスコープされたCSSを追加</p>
+
+<p>• Navi+内で直接すべてを管理</p>
+
+<p>• id=”menu_item_1”のようにカスタムクラスやIDを割り当てる</p>
+
+<p>詳細: <a href="https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/">https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/</a></p>
 
 <h4 id="5-公開前にデザインをプレビューできますか">5. 公開前にデザインをプレビューできますか？</h4>
 
@@ -3612,11 +3702,19 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-naviは私のストアの既存のアプリと連携しますか">1. Navi+は私のストアの既存のアプリと連携しますか？</h4>
 
-<p>Navi+は非侵襲的です — 権限は不要で、コードの変更もありません。\n衝突はまれです。重複が発生した場合は、z-indexを調整してください。</p>
+<p>Navi+は非侵襲的です — 権限は不要で、コードの変更もありません。</p>
+
+<p>衝突はまれです。重複が発生した場合は、z-indexを調整してください。</p>
 
 <h4 id="2-naviはアプリブロックやアプリ埋め込みをサポートしていますか">2. Navi+はアプリブロックやアプリ埋め込みをサポートしていますか？</h4>
 
-<p>はい。\n• 自動表示メニュー（タブバー、FAB、スライドメニュー）\n• 配置特定の埋め込み（グリッドメニュー、メガメニュー）\n詳細: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
+<p>はい。</p>
+
+<p>• 自動表示メニュー（タブバー、FAB、スライドメニュー）</p>
+
+<p>• 配置特定の埋め込み（グリッドメニュー、メガメニュー）</p>
+
+<p>詳細: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
 
 <h4 id="3-naviはseo速度最適化または画像最適化アプリと互換性がありますか">3. Navi+はSEO、速度最適化、または画像最適化アプリと互換性がありますか？</h4>
 
@@ -3636,7 +3734,13 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-naviは軽量ですか">1. Navi+は軽量ですか？</h4>
 
-<p>Navi+は非常に軽量です: \n• 最初の読み込み: 2KBファイル（約50ms） + 100KB未満のライブラリ（約200ms）\n• その後の読み込み: キャッシュにより即時（0ms）\n初回訪問時の合計影響: &lt;250ms。</p>
+<p>Navi+は非常に軽量です:</p>
+
+<p>• 最初の読み込み: 2KBファイル（約50ms） + 100KB未満のライブラリ（約200ms）</p>
+
+<p>• その後の読み込み: キャッシュにより即時（0ms）</p>
+
+<p>初回訪問時の合計影響: &lt;250ms。</p>
 
 <h4 id="2-naviは非常に高いトラフィックのためにダウンすることがありますか">2. Navi+は非常に高いトラフィックのためにダウンすることがありますか？</h4>
 
@@ -3676,11 +3780,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-naviをどのようにインストールまたはアンインストールしますか">1. Navi+をどのようにインストールまたはアンインストールしますか？</h4>
 
-<p>Shopify: <a href="https://apps.shopify.com/pronavi-navigation-design">https://apps.shopify.com/pronavi-navigation-design</a>\n他のサイト: <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a>\n埋め込みコードを削除するか、アプリをアンインストールすることでアンインストールします。データは保持されます。</p>
+<p>Shopify: <a href="https://apps.shopify.com/pronavi-navigation-design">https://apps.shopify.com/pronavi-navigation-design</a></p>
+
+<p>他のサイト: <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a></p>
+
+<p>埋め込みコードを削除するか、アプリをアンインストールすることでアンインストールします。データは保持されます。</p>
 
 <h4 id="2-naviが更新された場合顧客に影響しますか">2. Navi+が更新された場合、顧客に影響しますか？</h4>
 
-<p>• フロントエンドの更新: グローバルに約10秒の遅延（ユーザーはまだ古いバージョンを見ています）\n• バックエンドの更新: 影響なし</p>
+<p>• フロントエンドの更新: グローバルに約10秒の遅延（ユーザーはまだ古いバージョンを見ています）</p>
+
+<p>• バックエンドの更新: 影響なし</p>
 
 <h4 id="3-テーマが変更された場合どうなりますか">3. テーマが変更された場合、どうなりますか？</h4>
 
@@ -3688,7 +3798,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="4-サポートに連絡して助けを求めるにはどうすればよいですか">4. サポートに連絡して助けを求めるにはどうすればよいですか？</h4>
 
-<p>WhatsApp: <a href="https://wa.me/84981911011">https://wa.me/84981911011</a>\nメール: <a href="mailto:khoipng@naviplus.io">khoipng@naviplus.io</a>\nトラブルシューティング: <a href="https://help.naviplus.io/docs/troubleshooting/">https://help.naviplus.io/docs/troubleshooting/</a></p>
+<p>WhatsApp: <a href="https://wa.me/84981911011">https://wa.me/84981911011</a></p>
+
+<p>メール: <a href="mailto:khoipng@naviplus.io">khoipng@naviplus.io</a></p>
+
+<p>トラブルシューティング: <a href="https://help.naviplus.io/docs/troubleshooting/">https://help.naviplus.io/docs/troubleshooting/</a></p>
 
 <hr />
 
@@ -3696,11 +3810,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-既存のメニューをnaviに移行できますか">1. 既存のメニューをNavi+に移行できますか？</h4>
 
-<p>現在はサポートされていません。この機能は開発中で、AIを使用する予定です。\nその間、コピー/ペーストのようなツールがメニュー作成を迅速化するのに役立ちます。</p>
+<p>現在はサポートされていません。この機能は開発中で、AIを使用する予定です。</p>
+
+<p>その間、コピー/ペーストのようなツールがメニュー作成を迅速化するのに役立ちます。</p>
 
 <h4 id="2-naviはダウンタイムなしで現在のメニューアプリを置き換えることができますか">2. Navi+はダウンタイムなしで現在のメニューアプリを置き換えることができますか？</h4>
 
-<p>• タブバー、FAB: ダウンタイムなし\n• スライドメニュー: メニューを割り当てるのに約200msの遅延（最適化可能）\n• メガメニュー: 約200msの遅延（最適化可能）</p>
+<p>• タブバー、FAB: ダウンタイムなし</p>
+
+<p>• スライドメニュー: メニューを割り当てるのに約200msの遅延（最適化可能）</p>
+
+<p>• メガメニュー: 約200msの遅延（最適化可能）</p>
 
 <h4 id="3-naviは他のアプリやapiからデータをインポートすることをサポートしていますか">3. Navi+は他のアプリやAPIからデータをインポートすることをサポートしていますか？</h4>
 
@@ -3708,7 +3828,9 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="4-ドメインを変更した場合メニューはどうなりますか">4. ドメインを変更した場合、メニューはどうなりますか？</h4>
 
-<p>Shopify: Navi+はyour-domain.myshopify.comドメインのみを使用します（変更不可）。\n他のプラットフォーム: Navi+ダッシュボード内でドメインを更新してください。</p>
+<p>Shopify: Navi+はyour-domain.myshopify.comドメインのみを使用します（変更不可）。</p>
+
+<p>他のプラットフォーム: Navi+ダッシュボード内でドメインを更新してください。</p>
 
 <h4 id="5-naviの設定を別のウェブサイトに移動できますか">5. Navi+の設定を別のウェブサイトに移動できますか？</h4>
 
@@ -3720,11 +3842,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-naviは一回限りの購入ですかそれともサブスクリプションで安全に使用できますか">1. Navi+は一回限りの購入ですか、それともサブスクリプションで、安全に使用できますか？</h4>
 
-<p>有料プラン（Business、Elite）はサブスクリプションベースで、Shopify PaymentsとLemonSqueezyによって保護されています。\n7日間の無料トライアルが利用可能です。\nいつでもキャンセルできます。</p>
+<p>有料プラン（Business、Elite）はサブスクリプションベースで、Shopify PaymentsとLemonSqueezyによって保護されています。</p>
+
+<p>7日間の無料トライアルが利用可能です。</p>
+
+<p>いつでもキャンセルできます。</p>
 
 <h4 id="2-高トラフィックや重い使用に対して追加料金はありますか">2. 高トラフィックや重い使用に対して追加料金はありますか？</h4>
 
-<p>プランの制限を超えた場合、警告が表示されます。過剰な警告はメニューに小さな広告アイコンをトリガーする可能性があります。\n追加料金はありません。</p>
+<p>プランの制限を超えた場合、警告が表示されます。過剰な警告はメニューに小さな広告アイコンをトリガーする可能性があります。</p>
+
+<p>追加料金はありません。</p>
 
 <h4 id="3-サブスクリプションをキャンセルした場合どうなりますか">3. サブスクリプションをキャンセルした場合、どうなりますか？</h4>
 

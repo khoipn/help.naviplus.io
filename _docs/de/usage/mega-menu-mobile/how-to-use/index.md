@@ -59,7 +59,9 @@ Support
 Mehr 
 ```
 
-Dies ist ein 3-stufiger Menübaum. Stufe 1 umfasst **Menü, Startseite**, **Katalog**, **Support, Blogs** und **Mehr**.\n**All-Mountain** ist ein Menüpunkt der Stufe 2, mit einigen untergeordneten Punkten: **Cruise Flex** und **Balance Ride**.
+Dies ist ein 3-stufiger Menübaum. Stufe 1 umfasst **Menü, Startseite**, **Katalog**, **Support, Blogs** und **Mehr**.
+
+**All-Mountain** ist ein Menüpunkt der Stufe 2, mit einigen untergeordneten Punkten: **Cruise Flex** und **Balance Ride**.
 
 Sie werden die meiste Zeit damit verbringen, diesen Menübaum für Ihre Website zu erstellen, um den Kunden zu helfen, die Inhalte zu finden, die sie suchen.
 

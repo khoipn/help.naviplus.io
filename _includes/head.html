@@ -34,6 +34,23 @@
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
 <link rel="stylesheet" href="{{ '/theme/assets/css/theme-styles.css' | relative_url }}">
 
+<script>
+(() => {
+  try {
+    const raw = localStorage.getItem('favorites') || '[]';
+    const favorites = JSON.parse(raw);
+    const count = Array.isArray(favorites) ? favorites.length : 0;
+    if (count > 0) {
+      const maxItems = 6;
+      const rowHeight = 34;
+      const reserved = Math.min(count, maxItems) * rowHeight;
+      document.documentElement.classList.add('has-favorites');
+      document.documentElement.style.setProperty('--favorites-reserved-height', reserved + 'px');
+    }
+  } catch (e) {}
+})();
+</script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
 <script>

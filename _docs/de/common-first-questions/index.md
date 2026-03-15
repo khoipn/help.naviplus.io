@@ -11,19 +11,35 @@ title: Häufige erste Fragen
 
 #### 1. Was ist Navi+?
 
-**Unsere Mission:** Helfen Sie jedem, in nur wenigen Klicks schöne Menüs zu erstellen – keine Programmierkenntnisse erforderlich. Führen Sie die Besucher zu dem, was wichtig ist: Schlüsselprodukte, Kampagnen, wichtige Seiten. Klare Menüs schaffen Vertrauen und fördern Handlungen.\n**Keine technischen Fähigkeiten erforderlich. Kein Entwickler nötig. Nur Ihre Vision und ein funktionierendes Menü.**\nSiehe Details <https://help.naviplus.io/docs/usage/general/what-is-navi/>
+**Unsere Mission:** Helfen Sie jedem, in nur wenigen Klicks schöne Menüs zu erstellen – keine Programmierkenntnisse erforderlich. Führen Sie die Besucher zu dem, was wichtig ist: Schlüsselprodukte, Kampagnen, wichtige Seiten. Klare Menüs schaffen Vertrauen und fördern Handlungen.
+
+**Keine technischen Fähigkeiten erforderlich. Kein Entwickler nötig. Nur Ihre Vision und ein funktionierendes Menü.**
+
+Siehe Details <https://help.naviplus.io/docs/usage/general/what-is-navi/>
 
 #### 2. Welche Plattformen unterstützt Navi+?
 
-Funktioniert auf Shopify, WordPress, WooCommerce, Wix oder jeder anderen Plattform.\nLassen Sie uns hier kostenlos starten: [https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app")
+Funktioniert auf Shopify, WordPress, WooCommerce, Wix oder jeder anderen Plattform.
+
+Lassen Sie uns hier kostenlos starten: [https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app")
 
 #### 3. Wie installiere ich Navi+?
 
-Sie müssen keine Software auf Ihrem Computer installieren. Wenn Sie Menüs zu Shopify hinzufügen möchten, verwenden Sie bitte unsere spezielle App hier: \n<https://apps.shopify.com/pronavi-navigation-design>\nFür andere Websites melden Sie sich unter [https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app") an, erklären Sie Ihre Domain kostenlos und beginnen Sie dann mit dem Entwerfen und Einbetten von Menüs in nur wenigen Klicks.
+Sie müssen keine Software auf Ihrem Computer installieren. Wenn Sie Menüs zu Shopify hinzufügen möchten, verwenden Sie bitte unsere spezielle App hier: 
+
+<https://apps.shopify.com/pronavi-navigation-design>
+
+Für andere Websites melden Sie sich unter [https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app") an, erklären Sie Ihre Domain kostenlos und beginnen Sie dann mit dem Entwerfen und Einbetten von Menüs in nur wenigen Klicks.
 
 #### 4. Kann ich Navi+ ausprobieren, um zu sehen, wie es in der Praxis funktioniert?
 
-Absolut. Sie können es unter diesem Link ausprobieren: [https://akayakay.myshopify.com](https://akayakay.myshopify.com/ "https://akayakay.myshopify.com")\nPasswort: 12345\nSie werden verschiedene Arten von Navi+ Menüs sowohl auf Mobilgeräten als auch auf Desktop in hellblauer Farbe sehen.\nWeitere Details: <https://naviplus.io/demo/>
+Absolut. Sie können es unter diesem Link ausprobieren: [https://akayakay.myshopify.com](https://akayakay.myshopify.com/ "https://akayakay.myshopify.com")
+
+Passwort: 12345
+
+Sie werden verschiedene Arten von Navi+ Menüs sowohl auf Mobilgeräten als auch auf Desktop in hellblauer Farbe sehen.
+
+Weitere Details: <https://naviplus.io/demo/>
 
 #### 5. Wird Navi+ meine Website verlangsamen?
 
@@ -35,27 +51,47 @@ Navi+ bietet umfangreiche Interaktionsmöglichkeiten, einschließlich: Konsolidi
 
 #### 7. Wie viele Menütpyen bietet Navi+ an?
 
-Navi+ bietet 6+ Menütpyen: Bottom/Tab Bar, Slide Menu (Drawer oder Hamburger), FAB, Grid und Mega Menüs – mit weiteren, die bald kommen.\nEntdecken Sie alle gängigen Menüs hier: <https://help.naviplus.io/docs/usage/explore-common-menus/>
+Navi+ bietet 6+ Menütpyen: Bottom/Tab Bar, Slide Menu (Drawer oder Hamburger), FAB, Grid und Mega Menüs – mit weiteren, die bald kommen.
+
+Entdecken Sie alle gängigen Menüs hier: <https://help.naviplus.io/docs/usage/explore-common-menus/>
 
 #### 8. Wie viele Menüs kann ich erstellen?
 
-Sie können unbegrenzt viele Domainnamen erklären. Für jede Domain: \n• Starter (Kostenlos): Erstellen Sie bis zu 1 Menü\n• Business: Erstellen Sie bis zu 4 Menüs\n• Elite: Unbegrenzte Menüerstellung
+Sie können unbegrenzt viele Domainnamen erklären. Für jede Domain: 
+
+• Starter (Kostenlos): Erstellen Sie bis zu 1 Menü
+
+• Business: Erstellen Sie bis zu 4 Menüs
+
+• Elite: Unbegrenzte Menüerstellung
 
 #### 9. Kann ich das Menüdesign anpassen?
 
-• Struktur: Menüebenen, Links und Aktionen\n• Design: Farben, Schriftarten, Icons, Abstände, Layout\n• Anzeige: Position, Schlüsselwortauslöser, gerätespezifische Sichtbarkeit... und mehr
+• Struktur: Menüebenen, Links und Aktionen
+
+• Design: Farben, Schriftarten, Icons, Abstände, Layout
+
+• Anzeige: Position, Schlüsselwortauslöser, gerätespezifische Sichtbarkeit... und mehr
 
 #### 10. Ist Navi+ mobilfreundlich?
 
-Navi+ wurde mit einer Mobile-First-Philosophie entwickelt, weil wir wissen, dass bis zu 80 % Ihres Traffics von mobilen Geräten kommen. Wir unterstützen nicht einmal responsives Design – denn wir glauben, dass Sie eine tiefere Optimierung für jeden Gerätetyp benötigen, nicht nur einen Ansatz, der für alle passt.\nEntdecken Sie alle gängigen Menüs hier: <https://help.naviplus.io/docs/usage/explore-common-menus/>
+Navi+ wurde mit einer Mobile-First-Philosophie entwickelt, weil wir wissen, dass bis zu 80 % Ihres Traffics von mobilen Geräten kommen. Wir unterstützen nicht einmal responsives Design – denn wir glauben, dass Sie eine tiefere Optimierung für jeden Gerätetyp benötigen, nicht nur einen Ansatz, der für alle passt.
+
+Entdecken Sie alle gängigen Menüs hier: <https://help.naviplus.io/docs/usage/explore-common-menus/>
 
 #### 11. Kann das Menü auf allen Seiten oder bestimmten Seiten erscheinen?
 
-Absolut. Navi+ ist extrem flexibel. Sie können Menüs erstellen, die auf allen Seiten erscheinen – wie Tab Bars oder FAB-Buttons – oder spezifische Menüs erstellen, die nur auf bestimmten Seiten angezeigt werden, wie z. B. Grid-Menüs für Kategorieseiten.\nSie können Menüs so konfigurieren, dass sie je nach Gerätetyp, Anmeldestatus oder URL-Schlüsselwörtern angezeigt oder ausgeblendet werden.
+Absolut. Navi+ ist extrem flexibel. Sie können Menüs erstellen, die auf allen Seiten erscheinen – wie Tab Bars oder FAB-Buttons – oder spezifische Menüs erstellen, die nur auf bestimmten Seiten angezeigt werden, wie z. B. Grid-Menüs für Kategorieseiten.
+
+Sie können Menüs so konfigurieren, dass sie je nach Gerätetyp, Anmeldestatus oder URL-Schlüsselwörtern angezeigt oder ausgeblendet werden.
 
 #### 12. Wird Navi+ mit meinem Theme oder anderen Apps in Konflikt stehen oder integrieren?
 
-Meistens nein, aber Konflikte können gelegentlich auftreten – und sie sind leicht zu beheben.\n• Manchmal überschneiden sich Navi+ und andere Apps, insbesondere Sticky-Menüs. Passen Sie den z-index an: <https://help.naviplus.io/docs/usage/general/z-index/>\n• Navi+ kann als Navigationshub fungieren: Konsolidieren Sie Apps wie Chat, Loyalty, Support in saubere Menüelemente.
+Meistens nein, aber Konflikte können gelegentlich auftreten – und sie sind leicht zu beheben.
+
+• Manchmal überschneiden sich Navi+ und andere Apps, insbesondere Sticky-Menüs. Passen Sie den z-index an: <https://help.naviplus.io/docs/usage/general/z-index/>
+
+• Navi+ kann als Navigationshub fungieren: Konsolidieren Sie Apps wie Chat, Loyalty, Support in saubere Menüelemente.
 
 #### 13. Bietet Navi+ Analysen an?
 
@@ -63,11 +99,17 @@ Die Analysefunktion von Navi+ ist leistungsstark. Sie können Besuche und Klicks
 
 #### 14. Wie viel kostet Navi+?
 
-Beginnen Sie mit dem kostenlosen Starter-Plan (2-stufige Menüs, keine Bild-Uploads, keine SEO-Tools).\nBusiness- und Elite-Pläne schalten erweiterte Funktionen frei.\nPreise: <https://naviplus.io/pricing/>
+Beginnen Sie mit dem kostenlosen Starter-Plan (2-stufige Menüs, keine Bild-Uploads, keine SEO-Tools).
+
+Business- und Elite-Pläne schalten erweiterte Funktionen frei.
+
+Preise: <https://naviplus.io/pricing/>
 
 #### 15. Gibt es eine kostenlose Testversion?
 
-Testen Sie 7 Tage kostenlos – keine Gebühren.\nZahlungen sind sicher über Shopify, LemonSqueezy.
+Testen Sie 7 Tage kostenlos – keine Gebühren.
+
+Zahlungen sind sicher über Shopify, LemonSqueezy.
 
 #### 16. Aktualisieren sich Menüänderungen sofort?
 
@@ -79,11 +121,17 @@ Navi+ Menüs sind vollständig unabhängig von Ihrem Theme und Code. Ändern Sie
 
 #### 18. Unterstützt Navi+ mehrere Sprachen?
 
-Mehrsprachigkeit wird auf Shopify vollständig unterstützt.\nWir arbeiten daran, dies bald auf andere Plattformen zu bringen.\nDetails: <https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/>
+Mehrsprachigkeit wird auf Shopify vollständig unterstützt.
+
+Wir arbeiten daran, dies bald auf andere Plattformen zu bringen.
+
+Details: <https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/>
 
 #### 19. Kann Navi+ mit hohem Traffic umgehen?
 
-Angetrieben von Cloudflare und BunnyCDN, bewältigt Navi+ Millionen von täglichen Besuchen ohne Latenzprobleme.\nDetails: <https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed>
+Angetrieben von Cloudflare und BunnyCDN, bewältigt Navi+ Millionen von täglichen Besuchen ohne Latenzprobleme.
+
+Details: <https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed>
 
 #### 20. Kann ich Menüs importieren oder exportieren?
 
@@ -95,19 +143,43 @@ Exportieren und importieren Sie Ihre Menüs als .npx-Dateien – perfekt zum Sic
 
 #### 1. Kann ich die Farben, Schriftarten und Abstände meines Menüs anpassen?
 
-Absolut. Navi+ gibt Ihnen die volle Designkontrolle:\n• Icons: 3000+ Remix Icons, Flaticon-Bilder oder eigene hochladen\n• Typografie: 1500+ Google Fonts oder benutzerdefinierte Schriftarten\n• Farben: Passen Sie Text, Icons, Hintergründe an\n• Abstände: Passen Sie Polsterung und Ränder auf jeder Ebene an
+Absolut. Navi+ gibt Ihnen die volle Designkontrolle:
+
+• Icons: 3000+ Remix Icons, Flaticon-Bilder oder eigene hochladen
+
+• Typografie: 1500+ Google Fonts oder benutzerdefinierte Schriftarten
+
+• Farben: Passen Sie Text, Icons, Hintergründe an
+
+• Abstände: Passen Sie Polsterung und Ränder auf jeder Ebene an
 
 #### 2. Kann ich das Layout (horizontal, vertikal, Mega-Menü, Sidebar usw.) ändern?
 
-Ja. Wir bieten 6+ Menütpyen mit flexibler Konfiguration. Zum Beispiel:\n• Tab Bars: Oben/unten, links/rechts, benutzerdefinierte Abstände\n• Slide Menüs: Von links, rechts, oben, unten oder in der Mitte schieben\nDie gleiche Flexibilität gilt für alle Menütpyen.
+Ja. Wir bieten 6+ Menütpyen mit flexibler Konfiguration. Zum Beispiel:
+
+• Tab Bars: Oben/unten, links/rechts, benutzerdefinierte Abstände
+
+• Slide Menüs: Von links, rechts, oben, unten oder in der Mitte schieben
+
+Die gleiche Flexibilität gilt für alle Menütpyen.
 
 #### 3. Unterstützt Navi+ Animationen oder Hover-Effekte?
 
-Vollständige Animationskontrolle, unterstützt von Animate.css – wählen Sie aus 100+ Effekten für Menüs oder einzelne Elemente.\nMobile Interaktionen können durch Klicken oder Hover ausgelöst werden.
+Vollständige Animationskontrolle, unterstützt von Animate.css – wählen Sie aus 100+ Effekten für Menüs oder einzelne Elemente.
+
+Mobile Interaktionen können durch Klicken oder Hover ausgelöst werden.
 
 #### 4. Kann ich benutzerdefiniertes CSS hinzufügen, um das Erscheinungsbild des Menüs zu ändern?
 
-Ja. Navi+ gibt Ihnen die volle CSS-Kontrolle:\n• Fügen Sie CSS hinzu, das auf das Menü oder die gesamte Website beschränkt ist\n• Verwalten Sie alles direkt in Navi+\n• Weisen Sie benutzerdefinierte Klassen oder IDs zu wie id="menu_item_1"\nDetails: <https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/>
+Ja. Navi+ gibt Ihnen die volle CSS-Kontrolle:
+
+• Fügen Sie CSS hinzu, das auf das Menü oder die gesamte Website beschränkt ist
+
+• Verwalten Sie alles direkt in Navi+
+
+• Weisen Sie benutzerdefinierte Klassen oder IDs zu wie id="menu_item_1"
+
+Details: <https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/>
 
 #### 5. Kann ich mein Design vor der Veröffentlichung in der Vorschau anzeigen?
 
@@ -123,11 +195,19 @@ Ja. Navi+ funktioniert einwandfrei auf Chrome, Safari, Edge, iPhone, Android, Ta
 
 #### 1. Funktioniert Navi+ mit den bestehenden Apps meines Shops?
 
-Navi+ ist nicht invasiv – keine Berechtigungen erforderlich, keine Codeänderungen.\nKonflikte sind selten. Wenn es zu Überlappungen kommt, passen Sie den z-index an.
+Navi+ ist nicht invasiv – keine Berechtigungen erforderlich, keine Codeänderungen.
+
+Konflikte sind selten. Wenn es zu Überlappungen kommt, passen Sie den z-index an.
 
 #### 2. Unterstützt Navi+ App-Blöcke oder App-Einbettungen?
 
-Ja.\n• Automatische Anzeige von Menüs (Tab Bars, FABs, Slide Menüs)\n• Platzierungsspezifische Einbettungen (Grid-Menüs, Mega Menüs)\nDetails: <https://help.naviplus.io/docs/usage/explore-common-menus/>
+Ja.
+
+• Automatische Anzeige von Menüs (Tab Bars, FABs, Slide Menüs)
+
+• Platzierungsspezifische Einbettungen (Grid-Menüs, Mega Menüs)
+
+Details: <https://help.naviplus.io/docs/usage/explore-common-menus/>
 
 #### 3. Ist Navi+ mit SEO-, Geschwindigkeitsoptimierungs- oder Bildoptimierungs-Apps kompatibel?
 
@@ -147,7 +227,13 @@ Ja. Navi+ hilft Ihnen, Chat-Widgets, Loyalty-Apps, Support-Apps und andere schwe
 
 #### 1. Ist Navi+ leichtgewichtig?
 
-Navi+ ist extrem leicht:\n• Erstes Laden: 2KB-Datei (~50ms) + Bibliotheken unter 100KB (~200ms)\n• Nachfolgende Ladevorgänge: Sofort (0ms) aufgrund von Caching\nGesamter Einfluss beim ersten Besuch: <250ms.
+Navi+ ist extrem leicht:
+
+• Erstes Laden: 2KB-Datei (~50ms) + Bibliotheken unter 100KB (~200ms)
+
+• Nachfolgende Ladevorgänge: Sofort (0ms) aufgrund von Caching
+
+Gesamter Einfluss beim ersten Besuch: <250ms.
 
 #### 2. Kann Navi+ jemals aufgrund von extrem hohem Traffic ausfallen?
 
@@ -187,11 +273,17 @@ Ja. Navi+ funktioniert unabhängig. Selbst wenn Ihre Website DDoS-, SQL-Injectio
 
 #### 1. Wie installiere oder deinstalliere ich Navi+?
 
-Shopify: <https://apps.shopify.com/pronavi-navigation-design>\nAndere Seiten: [https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app")\nDeinstallieren Sie, indem Sie den Einbettungscode entfernen oder die App deinstallieren. Daten bleiben erhalten.
+Shopify: <https://apps.shopify.com/pronavi-navigation-design>
+
+Andere Seiten: [https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app")
+
+Deinstallieren Sie, indem Sie den Einbettungscode entfernen oder die App deinstallieren. Daten bleiben erhalten.
 
 #### 2. Wenn Navi+ aktualisiert wird, hat das Auswirkungen auf meine Kunden?
 
-• Front-End-Updates: ~10s Verzögerung global (Benutzer sehen weiterhin die alte Version)\n• Backend-Updates: Keine Auswirkungen
+• Front-End-Updates: ~10s Verzögerung global (Benutzer sehen weiterhin die alte Version)
+
+• Backend-Updates: Keine Auswirkungen
 
 #### 3. Was passiert, wenn sich mein Theme ändert?
 
@@ -199,7 +291,11 @@ Menüs sind unabhängig. Veröffentlichen Sie sie erneut, wenn nötig – keine 
 
 #### 4. Wie kontaktiere ich den Support um Hilfe zu erhalten?
 
-WhatsApp: <https://wa.me/84981911011>\nE-Mail: <khoipng@naviplus.io>\nFehlerbehebung: <https://help.naviplus.io/docs/troubleshooting/>
+WhatsApp: <https://wa.me/84981911011>
+
+E-Mail: <khoipng@naviplus.io>
+
+Fehlerbehebung: <https://help.naviplus.io/docs/troubleshooting/>
 
 ***
 
@@ -207,11 +303,17 @@ WhatsApp: <https://wa.me/84981911011>\nE-Mail: <khoipng@naviplus.io>\nFehlerbehe
 
 #### 1. Kann ich meine bestehenden Menüs zu Navi+ migrieren?
 
-Derzeit nicht unterstützt. Diese Funktion ist in Entwicklung und soll KI nutzen.\nIn der Zwischenzeit helfen Tools wie Copy/Paste, die Menüerstellung zu beschleunigen.
+Derzeit nicht unterstützt. Diese Funktion ist in Entwicklung und soll KI nutzen.
+
+In der Zwischenzeit helfen Tools wie Copy/Paste, die Menüerstellung zu beschleunigen.
 
 #### 2. Kann Navi+ meine aktuelle Menü-App ohne Ausfallzeiten ersetzen?
 
-• Tabbar, FAB: Keine Ausfallzeiten\n• Slide Menü: ~200ms Verzögerung zur Zuweisung des Menüs (Optimierung verfügbar)\n• Mega Menü: ~200ms Verzögerung (Optimierung verfügbar)
+• Tabbar, FAB: Keine Ausfallzeiten
+
+• Slide Menü: ~200ms Verzögerung zur Zuweisung des Menüs (Optimierung verfügbar)
+
+• Mega Menü: ~200ms Verzögerung (Optimierung verfügbar)
 
 #### 3. Unterstützt Navi+ den Import von Daten aus anderen Apps oder APIs?
 
@@ -219,7 +321,9 @@ Derzeit nicht. Navi+ kann nur von .npx-Dateien importieren, die aus einem andere
 
 #### 4. Was passiert mit meinen Menüs, wenn ich meine Domain ändere?
 
-Shopify: Navi+ verwendet nur die your-domain.myshopify.com-Domain (nicht änderbar).\nAndere Plattformen: Aktualisieren Sie die Domain im Navi+ Dashboard.
+Shopify: Navi+ verwendet nur die your-domain.myshopify.com-Domain (nicht änderbar).
+
+Andere Plattformen: Aktualisieren Sie die Domain im Navi+ Dashboard.
 
 #### 5. Kann ich die Navi+ Einstellungen von einer Website auf eine andere übertragen?
 
@@ -231,11 +335,17 @@ Ja. Exportieren Sie .npx, und importieren Sie dann auf der neuen Website.
 
 #### 1. Ist Navi+ ein einmaliger Kauf oder ein Abonnement, und ist es sicher zu verwenden?
 
-Bezahlte Pläne (Business, Elite) sind abonnementbasiert, gesichert durch Shopify Payments und LemonSqueezy.\nEine 7-tägige kostenlose Testversion ist verfügbar.\nJederzeit kündbar.
+Bezahlte Pläne (Business, Elite) sind abonnementbasiert, gesichert durch Shopify Payments und LemonSqueezy.
+
+Eine 7-tägige kostenlose Testversion ist verfügbar.
+
+Jederzeit kündbar.
 
 #### 2. Gibt es zusätzliche Gebühren für hohen Traffic oder intensive Nutzung?
 
-Wenn Sie die Planlimits überschreiten, erhalten Sie Warnungen. Übermäßige Warnungen können ein kleines Werbe-Icon im Menü auslösen.\nKeine zusätzlichen Gebühren.
+Wenn Sie die Planlimits überschreiten, erhalten Sie Warnungen. Übermäßige Warnungen können ein kleines Werbe-Icon im Menü auslösen.
+
+Keine zusätzlichen Gebühren.
 
 #### 3. Was passiert, wenn ich mein Abonnement kündige?
 

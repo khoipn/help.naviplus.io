@@ -124,5 +124,7 @@ Para mudanças materiais, notificaremos os usuários por e-mail ou em nosso site
 
 ### 11. Contato
 
-Se você tiver alguma dúvida, preocupação ou solicitação em relação a esta Política de Privacidade, entre em contato: \n**Email:** <khoipn@naviplus.io>\
+Se você tiver alguma dúvida, preocupação ou solicitação em relação a esta Política de Privacidade, entre em contato: 
+
+**Email:** <khoipn@naviplus.io>\
 **Website:** <https://naviplus.io>

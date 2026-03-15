@@ -6,27 +6,27 @@
 <title>Perguntas comuns iniciais</title>
 <meta name="description" content="**Nossa missão:** Ajudar qualquer pessoa a criar menus bonitos em apenas alguns cliques — sem necessidade de codificação. Guiar os visitantes para o que importa: produtos-chave, campanhas, impor...">
 
-<link rel="canonical" href="http://0.0.0.0:4002/pt-br/docs/common-first-questions/">
+<link rel="canonical" href="http://0.0.0.0:4000/pt-br/docs/common-first-questions/">
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://0.0.0.0:4002/pt-br/docs/common-first-questions/">
+<meta property="og:url" content="http://0.0.0.0:4000/pt-br/docs/common-first-questions/">
 <meta property="og:title" content="Perguntas comuns iniciais">
 <meta property="og:description" content="**Nossa missão:** Ajudar qualquer pessoa a criar menus bonitos em apenas alguns cliques — sem necessidade de codificação. Guiar os visitantes para o que importa: produtos-chave, campanhas, impor...">
 
-<meta property="og:image" content="http://0.0.0.0:4002/assets/images/naviplus-social-share.jpg">
+<meta property="og:image" content="http://0.0.0.0:4000/assets/images/naviplus-social-share.jpg">
 
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://0.0.0.0:4002/pt-br/docs/common-first-questions/">
+<meta property="twitter:url" content="http://0.0.0.0:4000/pt-br/docs/common-first-questions/">
 <meta property="twitter:title" content="Perguntas comuns iniciais">
 <meta property="twitter:description" content="**Nossa missão:** Ajudar qualquer pessoa a criar menus bonitos em apenas alguns cliques — sem necessidade de codificação. Guiar os visitantes para o que importa: produtos-chave, campanhas, impor...">
 
-<meta property="twitter:image" content="http://0.0.0.0:4002/assets/images/naviplus-social-share.jpg">
+<meta property="twitter:image" content="http://0.0.0.0:4000/assets/images/naviplus-social-share.jpg">
 
 
 <meta name="twitter:creator" content="@NaviPlusOfficial">
@@ -36,6 +36,23 @@
 <!-- Remixicon CSS -->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
 <link rel="stylesheet" href="/theme/assets/css/theme-styles.css">
+
+<script>
+(() => {
+  try {
+    const raw = localStorage.getItem('favorites') || '[]';
+    const favorites = JSON.parse(raw);
+    const count = Array.isArray(favorites) ? favorites.length : 0;
+    if (count > 0) {
+      const maxItems = 6;
+      const rowHeight = 34;
+      const reserved = Math.min(count, maxItems) * rowHeight;
+      document.documentElement.classList.add('has-favorites');
+      document.documentElement.style.setProperty('--favorites-reserved-height', reserved + 'px');
+    }
+  } catch (e) {}
+})();
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
@@ -67,12 +84,23 @@ gtag('config', 'G-1PWVMJYX4Z');
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
     <!-- Offcanvas Toggle for Sidebar (Left) -->
     <button class="navbar-toggler d-md-none me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand d-flex align-items-center" href="/">
+    <a class="navbar-brand d-flex align-items-center" href="/pt-br/docs/getting-started/">
       <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+ Logo" class="d-inline-block align-top img-fluid">
       <span class="navbar-divider"></span>
       <span class="navbar-site-title">Help</span>
@@ -84,14 +112,6 @@ gtag('config', 'G-1PWVMJYX4Z');
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      
-      
-      
-
-      
-      
-      
-
       
       
 
@@ -138,11 +158,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITOS</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITOS</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -150,7 +170,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/pt-br/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">Início</span>
       </span>
     </a>
@@ -1826,11 +1845,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITOS</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">FAVORITOS</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -1838,7 +1857,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/pt-br/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">Início</span>
       </span>
     </a>
@@ -3500,19 +3518,35 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-o-que-é-o-navi">1. O que é o Navi+?</h4>
 
-<p><strong>Nossa missão:</strong> Ajudar qualquer pessoa a criar menus bonitos em apenas alguns cliques — sem necessidade de codificação. Guiar os visitantes para o que importa: produtos-chave, campanhas, páginas importantes. Menus claros constroem confiança e impulsionam ações.\n<strong>Nenhuma habilidade técnica necessária. Nenhum desenvolvedor requerido. Apenas sua visão e um menu que funciona.</strong>\nVeja detalhes <a href="https://help.naviplus.io/docs/usage/general/what-is-navi/">https://help.naviplus.io/docs/usage/general/what-is-navi/</a></p>
+<p><strong>Nossa missão:</strong> Ajudar qualquer pessoa a criar menus bonitos em apenas alguns cliques — sem necessidade de codificação. Guiar os visitantes para o que importa: produtos-chave, campanhas, páginas importantes. Menus claros constroem confiança e impulsionam ações.</p>
+
+<p><strong>Nenhuma habilidade técnica necessária. Nenhum desenvolvedor requerido. Apenas sua visão e um menu que funciona.</strong></p>
+
+<p>Veja detalhes <a href="https://help.naviplus.io/docs/usage/general/what-is-navi/">https://help.naviplus.io/docs/usage/general/what-is-navi/</a></p>
 
 <h4 id="2-quais-plataformas-o-navi-suporta">2. Quais plataformas o Navi+ suporta?</h4>
 
-<p>Funciona no Shopify, WordPress, WooCommerce, Wix ou qualquer outra plataforma.\nVamos começar aqui gratuitamente: <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a></p>
+<p>Funciona no Shopify, WordPress, WooCommerce, Wix ou qualquer outra plataforma.</p>
+
+<p>Vamos começar aqui gratuitamente: <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a></p>
 
 <h4 id="3-como-faço-para-instalar-o-navi">3. Como faço para instalar o Navi+?</h4>
 
-<p>Você não precisa instalar nenhum software no seu computador. Se você quiser adicionar menus ao Shopify, use nosso aplicativo dedicado aqui: \n<a href="https://apps.shopify.com/pronavi-navigation-design">https://apps.shopify.com/pronavi-navigation-design</a>\nPara outros sites, inscreva-se em <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a>, declare seu domínio gratuitamente e comece a projetar e incorporar menus com apenas alguns cliques.</p>
+<p>Você não precisa instalar nenhum software no seu computador. Se você quiser adicionar menus ao Shopify, use nosso aplicativo dedicado aqui:</p>
+
+<p><a href="https://apps.shopify.com/pronavi-navigation-design">https://apps.shopify.com/pronavi-navigation-design</a></p>
+
+<p>Para outros sites, inscreva-se em <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a>, declare seu domínio gratuitamente e comece a projetar e incorporar menus com apenas alguns cliques.</p>
 
 <h4 id="4-posso-experimentar-o-navi-para-ver-como-funciona-em-uso-real">4. Posso experimentar o Navi+ para ver como funciona em uso real?</h4>
 
-<p>Absolutamente. Você pode experimentá-lo neste link: <a href="https://akayakay.myshopify.com/" title="https://akayakay.myshopify.com">https://akayakay.myshopify.com</a>\nSenha: 12345\nVocê verá diferentes tipos de menus do Navi+ demonstrados tanto em dispositivos móveis quanto em desktop na cor azul clara.\nMais detalhes: <a href="https://naviplus.io/demo/">https://naviplus.io/demo/</a></p>
+<p>Absolutamente. Você pode experimentá-lo neste link: <a href="https://akayakay.myshopify.com/" title="https://akayakay.myshopify.com">https://akayakay.myshopify.com</a></p>
+
+<p>Senha: 12345</p>
+
+<p>Você verá diferentes tipos de menus do Navi+ demonstrados tanto em dispositivos móveis quanto em desktop na cor azul clara.</p>
+
+<p>Mais detalhes: <a href="https://naviplus.io/demo/">https://naviplus.io/demo/</a></p>
 
 <h4 id="5-o-navi-vai-desacelerar-meu-site">5. O Navi+ vai desacelerar meu site?</h4>
 
@@ -3524,27 +3558,47 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="7-quantos-tipos-de-menu-o-navi-oferece">7. Quantos tipos de menu o Navi+ oferece?</h4>
 
-<p>O Navi+ oferece mais de 6 tipos de menu: Bottom/Tab Bar, Slide Menu (Drawer ou Hamburger), FAB, Grid e Mega Menus — com mais chegando em breve.\nExplore todos os menus comuns aqui: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
+<p>O Navi+ oferece mais de 6 tipos de menu: Bottom/Tab Bar, Slide Menu (Drawer ou Hamburger), FAB, Grid e Mega Menus — com mais chegando em breve.</p>
+
+<p>Explore todos os menus comuns aqui: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
 
 <h4 id="8-quantos-menus-posso-criar">8. Quantos menus posso criar?</h4>
 
-<p>Você pode declarar nomes de domínio ilimitados. No entanto, para cada domínio:\n• Starter (Gratuito): Crie até 1 menu\n• Business: Crie até 4 menus\n• Elite: Criação de menus ilimitada</p>
+<p>Você pode declarar nomes de domínio ilimitados. No entanto, para cada domínio:</p>
+
+<p>• Starter (Gratuito): Crie até 1 menu</p>
+
+<p>• Business: Crie até 4 menus</p>
+
+<p>• Elite: Criação de menus ilimitada</p>
 
 <h4 id="9-posso-personalizar-o-design-do-menu">9. Posso personalizar o design do menu?</h4>
 
-<p>• Estrutura: Camadas de menu, links e ações\n• Design: Cores, fontes, ícones, espaçamento, layout\n• Exibição: Posição, gatilhos de palavras-chave, visibilidade específica do dispositivo… e mais</p>
+<p>• Estrutura: Camadas de menu, links e ações</p>
+
+<p>• Design: Cores, fontes, ícones, espaçamento, layout</p>
+
+<p>• Exibição: Posição, gatilhos de palavras-chave, visibilidade específica do dispositivo… e mais</p>
 
 <h4 id="10-o-navi-é-amigável-para-dispositivos-móveis">10. O Navi+ é amigável para dispositivos móveis?</h4>
 
-<p>O Navi+ é construído com uma filosofia mobile-first porque sabemos que até 80% do seu tráfego vem de dispositivos móveis. Nós nem suportamos design responsivo — porque acreditamos que você precisa de uma otimização mais profunda para cada tipo de dispositivo, não apenas uma abordagem única para todos.\nExplore todos os menus comuns aqui: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
+<p>O Navi+ é construído com uma filosofia mobile-first porque sabemos que até 80% do seu tráfego vem de dispositivos móveis. Nós nem suportamos design responsivo — porque acreditamos que você precisa de uma otimização mais profunda para cada tipo de dispositivo, não apenas uma abordagem única para todos.</p>
+
+<p>Explore todos os menus comuns aqui: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
 
 <h4 id="11-o-menu-pode-aparecer-em-todas-as-páginas-ou-em-páginas-específicas">11. O menu pode aparecer em todas as páginas ou em páginas específicas?</h4>
 
-<p>Absolutamente. O Navi+ é extremamente flexível. Você pode criar menus que aparecem em todas as páginas — como Tab Bars ou botões FAB — ou criar menus específicos que aparecem apenas em certas páginas, como menus Grid para páginas de categoria.\nVocê pode configurar menus para mostrar ou ocultar por tipo de dispositivo, status de login ou palavras-chave de URL.</p>
+<p>Absolutamente. O Navi+ é extremamente flexível. Você pode criar menus que aparecem em todas as páginas — como Tab Bars ou botões FAB — ou criar menus específicos que aparecem apenas em certas páginas, como menus Grid para páginas de categoria.</p>
+
+<p>Você pode configurar menus para mostrar ou ocultar por tipo de dispositivo, status de login ou palavras-chave de URL.</p>
 
 <h4 id="12-o-navi-vai-entrar-em-conflito-ou-se-integrar-com-meu-tema-ou-outros-aplicativos">12. O Navi+ vai entrar em conflito ou se integrar com meu tema ou outros aplicativos?</h4>
 
-<p>Na maioria das vezes não, mas conflitos podem ocasionalmente acontecer — e são fáceis de corrigir.\n• Às vezes, o Navi+ e outros aplicativos se sobrepõem, especialmente menus fixos. Ajuste o z-index: <a href="https://help.naviplus.io/docs/usage/general/z-index/">https://help.naviplus.io/docs/usage/general/z-index/</a>\n• O Navi+ pode funcionar como um hub de navegação: consolidar aplicativos como Chat, Loyalty, Support em itens de menu limpos.</p>
+<p>Na maioria das vezes não, mas conflitos podem ocasionalmente acontecer — e são fáceis de corrigir.</p>
+
+<p>• Às vezes, o Navi+ e outros aplicativos se sobrepõem, especialmente menus fixos. Ajuste o z-index: <a href="https://help.naviplus.io/docs/usage/general/z-index/">https://help.naviplus.io/docs/usage/general/z-index/</a></p>
+
+<p>• O Navi+ pode funcionar como um hub de navegação: consolidar aplicativos como Chat, Loyalty, Support em itens de menu limpos.</p>
 
 <h4 id="13-o-navi-fornece-análises">13. O Navi+ fornece análises?</h4>
 
@@ -3552,11 +3606,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="14-quanto-custa-o-navi">14. Quanto custa o Navi+?</h4>
 
-<p>Comece com o plano gratuito Starter (menus de 2 níveis, sem uploads de imagem, sem ferramentas de SEO).\nOs planos Business e Elite desbloqueiam recursos avançados.\nPreços: <a href="https://naviplus.io/pricing/">https://naviplus.io/pricing/</a></p>
+<p>Comece com o plano gratuito Starter (menus de 2 níveis, sem uploads de imagem, sem ferramentas de SEO).</p>
+
+<p>Os planos Business e Elite desbloqueiam recursos avançados.</p>
+
+<p>Preços: <a href="https://naviplus.io/pricing/">https://naviplus.io/pricing/</a></p>
 
 <h4 id="15-existe-um-teste-gratuito">15. Existe um teste gratuito?</h4>
 
-<p>Experimente gratuitamente por 7 dias — sem cobranças.\nOs pagamentos são seguros via Shopify, LemonSqueezy.</p>
+<p>Experimente gratuitamente por 7 dias — sem cobranças.</p>
+
+<p>Os pagamentos são seguros via Shopify, LemonSqueezy.</p>
 
 <h4 id="16-as-mudanças-no-menu-são-atualizadas-instantaneamente">16. As mudanças no menu são atualizadas instantaneamente?</h4>
 
@@ -3568,11 +3628,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="18-o-navi-suporta-múltiplos-idiomas">18. O Navi+ suporta múltiplos idiomas?</h4>
 
-<p>O multi-idioma é totalmente suportado no Shopify.\nEstamos trabalhando para trazer isso para outras plataformas em breve.\nDetalhe: <a href="https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/">https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/</a></p>
+<p>O multi-idioma é totalmente suportado no Shopify.</p>
+
+<p>Estamos trabalhando para trazer isso para outras plataformas em breve.</p>
+
+<p>Detalhe: <a href="https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/">https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/</a></p>
 
 <h4 id="19-o-navi-pode-lidar-com-alto-tráfego">19. O Navi+ pode lidar com alto tráfego?</h4>
 
-<p>Impulsionado pelo Cloudflare e BunnyCDN, o Navi+ lida com milhões de visitas diárias sem preocupações de latência.\nDetalhe: <a href="https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed">https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed</a></p>
+<p>Impulsionado pelo Cloudflare e BunnyCDN, o Navi+ lida com milhões de visitas diárias sem preocupações de latência.</p>
+
+<p>Detalhe: <a href="https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed">https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed</a></p>
 
 <h4 id="20-posso-importar-ou-exportar-menus">20. Posso importar ou exportar menus?</h4>
 
@@ -3584,19 +3650,43 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-posso-personalizar-as-cores-fontes-e-espaçamento-do-meu-menu">1. Posso personalizar as cores, fontes e espaçamento do meu menu?</h4>
 
-<p>Absolutamente. O Navi+ oferece controle total de design:\n• Ícones: 3000+ Remix Icons, imagens do Flaticon ou faça upload dos seus\n• Tipografia: 1500+ Google Fonts ou fontes personalizadas\n• Cores: Personalize texto, ícones, fundos\n• Espaçamento: Ajuste o preenchimento e as margens em todos os níveis</p>
+<p>Absolutamente. O Navi+ oferece controle total de design:</p>
+
+<p>• Ícones: 3000+ Remix Icons, imagens do Flaticon ou faça upload dos seus</p>
+
+<p>• Tipografia: 1500+ Google Fonts ou fontes personalizadas</p>
+
+<p>• Cores: Personalize texto, ícones, fundos</p>
+
+<p>• Espaçamento: Ajuste o preenchimento e as margens em todos os níveis</p>
 
 <h4 id="2-posso-mudar-o-layout-horizontal-vertical-mega-menu-barra-lateral-etc">2. Posso mudar o layout (horizontal, vertical, mega menu, barra lateral, etc.)?</h4>
 
-<p>Sim. Oferecemos mais de 6 tipos de menu com configuração flexível. Por exemplo:\n• Tab Bars: Topo/fundo, esquerda/direita, margens personalizadas\n• Slide menus: Deslizar da esquerda, direita, topo, fundo ou centro\nA mesma flexibilidade se aplica a todos os tipos de menu.</p>
+<p>Sim. Oferecemos mais de 6 tipos de menu com configuração flexível. Por exemplo:</p>
+
+<p>• Tab Bars: Topo/fundo, esquerda/direita, margens personalizadas</p>
+
+<p>• Slide menus: Deslizar da esquerda, direita, topo, fundo ou centro</p>
+
+<p>A mesma flexibilidade se aplica a todos os tipos de menu.</p>
 
 <h4 id="3-o-navi-suporta-animações-ou-efeitos-de-hover">3. O Navi+ suporta animações ou efeitos de hover?</h4>
 
-<p>Controle total de animação alimentado pelo Animate.css — escolha entre mais de 100 efeitos para menus ou itens individuais.\nInterações móveis podem ser acionadas ao clicar ou passar o mouse.</p>
+<p>Controle total de animação alimentado pelo Animate.css — escolha entre mais de 100 efeitos para menus ou itens individuais.</p>
+
+<p>Interações móveis podem ser acionadas ao clicar ou passar o mouse.</p>
 
 <h4 id="4-posso-adicionar-css-personalizado-para-mudar-a-aparência-do-menu">4. Posso adicionar CSS personalizado para mudar a aparência do menu?</h4>
 
-<p>Sim. O Navi+ oferece controle total de CSS:\n• Adicione CSS escopado ao menu ou em todo o site\n• Gerencie tudo diretamente dentro do Navi+\n• Atribua classes ou IDs personalizados como id=”menu_item_1”\nDetalhe: <a href="https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/">https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/</a></p>
+<p>Sim. O Navi+ oferece controle total de CSS:</p>
+
+<p>• Adicione CSS escopado ao menu ou em todo o site</p>
+
+<p>• Gerencie tudo diretamente dentro do Navi+</p>
+
+<p>• Atribua classes ou IDs personalizados como id=”menu_item_1”</p>
+
+<p>Detalhe: <a href="https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/">https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/</a></p>
 
 <h4 id="5-posso-visualizar-meu-design-antes-de-publicar">5. Posso visualizar meu design antes de publicar?</h4>
 
@@ -3612,11 +3702,19 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-o-navi-funciona-com-os-aplicativos-existentes-da-minha-loja">1. O Navi+ funciona com os aplicativos existentes da minha loja?</h4>
 
-<p>O Navi+ é não invasivo — sem permissões necessárias, sem alterações de código.\nConflitos são raros. Se ocorrer sobreposição, ajuste o z-index.</p>
+<p>O Navi+ é não invasivo — sem permissões necessárias, sem alterações de código.</p>
+
+<p>Conflitos são raros. Se ocorrer sobreposição, ajuste o z-index.</p>
 
 <h4 id="2-o-navi-suporta-blocos-de-aplicativos-ou-incorporações-de-aplicativos">2. O Navi+ suporta blocos de aplicativos ou incorporações de aplicativos?</h4>
 
-<p>Sim.\n• Menus de exibição automática (Tab Bars, FABs, Slide Menus)\n• Incorporações específicas de colocação (Grid menus, Mega Menus)\nDetalhe: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
+<p>Sim.</p>
+
+<p>• Menus de exibição automática (Tab Bars, FABs, Slide Menus)</p>
+
+<p>• Incorporações específicas de colocação (Grid menus, Mega Menus)</p>
+
+<p>Detalhe: <a href="https://help.naviplus.io/docs/usage/explore-common-menus/">https://help.naviplus.io/docs/usage/explore-common-menus/</a></p>
 
 <h4 id="3-o-navi-é-compatível-com-aplicativos-de-seo-otimização-de-velocidade-ou-otimização-de-imagem">3. O Navi+ é compatível com aplicativos de SEO, otimização de velocidade ou otimização de imagem?</h4>
 
@@ -3636,7 +3734,13 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-o-navi-é-leve">1. O Navi+ é leve?</h4>
 
-<p>O Navi+ é extremamente leve:\n• Primeiro carregamento: arquivo de 2KB (~50ms) + bibliotecas abaixo de 100KB (~200ms)\n• Carregamentos subsequentes: Instantâneo (0ms) devido ao cache\nImpacto total na primeira visita: &lt;250ms.</p>
+<p>O Navi+ é extremamente leve:</p>
+
+<p>• Primeiro carregamento: arquivo de 2KB (~50ms) + bibliotecas abaixo de 100KB (~200ms)</p>
+
+<p>• Carregamentos subsequentes: Instantâneo (0ms) devido ao cache</p>
+
+<p>Impacto total na primeira visita: &lt;250ms.</p>
 
 <h4 id="2-o-navi-pode-ficar-fora-do-ar-devido-a-tráfego-extremamente-alto">2. O Navi+ pode ficar fora do ar devido a tráfego extremamente alto?</h4>
 
@@ -3676,11 +3780,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-como-faço-para-instalar-ou-desinstalar-o-navi">1. Como faço para instalar ou desinstalar o Navi+?</h4>
 
-<p>Shopify: <a href="https://apps.shopify.com/pronavi-navigation-design">https://apps.shopify.com/pronavi-navigation-design</a>\nOutros sites: <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a>\nDesinstale removendo o código de incorporação ou desinstalando o aplicativo. Os dados permanecem preservados.</p>
+<p>Shopify: <a href="https://apps.shopify.com/pronavi-navigation-design">https://apps.shopify.com/pronavi-navigation-design</a></p>
+
+<p>Outros sites: <a href="https://dash.naviplus.app/" title="https://dash.naviplus.app">https://dash.naviplus.app</a></p>
+
+<p>Desinstale removendo o código de incorporação ou desinstalando o aplicativo. Os dados permanecem preservados.</p>
 
 <h4 id="2-se-o-navi-atualizar-isso-afetará-meus-clientes">2. Se o Navi+ atualizar, isso afetará meus clientes?</h4>
 
-<p>• Atualizações de front-end: ~10s de atraso globalmente (os usuários ainda veem a versão antiga)\n• Atualizações de back-end: Sem impacto</p>
+<p>• Atualizações de front-end: ~10s de atraso globalmente (os usuários ainda veem a versão antiga)</p>
+
+<p>• Atualizações de back-end: Sem impacto</p>
 
 <h4 id="3-o-que-acontece-se-meu-tema-mudar">3. O que acontece se meu tema mudar?</h4>
 
@@ -3688,7 +3798,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="4-como-faço-para-entrar-em-contato-com-o-suporte-para-ajuda">4. Como faço para entrar em contato com o suporte para ajuda?</h4>
 
-<p>WhatsApp: <a href="https://wa.me/84981911011">https://wa.me/84981911011</a>\nEmail: <a href="mailto:khoipng@naviplus.io">khoipng@naviplus.io</a>\nSolução de problemas: <a href="https://help.naviplus.io/docs/troubleshooting/">https://help.naviplus.io/docs/troubleshooting/</a></p>
+<p>WhatsApp: <a href="https://wa.me/84981911011">https://wa.me/84981911011</a></p>
+
+<p>Email: <a href="mailto:khoipng@naviplus.io">khoipng@naviplus.io</a></p>
+
+<p>Solução de problemas: <a href="https://help.naviplus.io/docs/troubleshooting/">https://help.naviplus.io/docs/troubleshooting/</a></p>
 
 <hr />
 
@@ -3696,11 +3810,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-posso-migrar-meus-menus-existentes-para-o-navi">1. Posso migrar meus menus existentes para o Navi+?</h4>
 
-<p>Atualmente não suportado. Este recurso está em desenvolvimento e espera-se que use IA.\nEnquanto isso, ferramentas como Copiar/Colar ajudam a acelerar a criação de menus.</p>
+<p>Atualmente não suportado. Este recurso está em desenvolvimento e espera-se que use IA.</p>
+
+<p>Enquanto isso, ferramentas como Copiar/Colar ajudam a acelerar a criação de menus.</p>
 
 <h4 id="2-o-navi-pode-substituir-meu-aplicativo-de-menu-atual-sem-tempo-de-inatividade">2. O Navi+ pode substituir meu aplicativo de menu atual sem tempo de inatividade?</h4>
 
-<p>• Tabbar, FAB: Sem tempo de inatividade\n• Slide menu: ~200ms de atraso para atribuir menu (otimização disponível)\n• Mega menu: ~200ms de atraso (otimização disponível)</p>
+<p>• Tabbar, FAB: Sem tempo de inatividade</p>
+
+<p>• Slide menu: ~200ms de atraso para atribuir menu (otimização disponível)</p>
+
+<p>• Mega menu: ~200ms de atraso (otimização disponível)</p>
 
 <h4 id="3-o-navi-suporta-a-importação-de-dados-de-outros-aplicativos-ou-apis">3. O Navi+ suporta a importação de dados de outros aplicativos ou APIs?</h4>
 
@@ -3708,7 +3828,9 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="4-o-que-acontece-com-meus-menus-se-eu-mudar-meu-domínio">4. O que acontece com meus menus se eu mudar meu domínio?</h4>
 
-<p>Shopify: O Navi+ usa apenas o domínio your-domain.myshopify.com (não alterável).\nOutras plataformas: Atualize o domínio dentro do painel do Navi+.</p>
+<p>Shopify: O Navi+ usa apenas o domínio your-domain.myshopify.com (não alterável).</p>
+
+<p>Outras plataformas: Atualize o domínio dentro do painel do Navi+.</p>
 
 <h4 id="5-posso-mover-as-configurações-do-navi-de-um-site-para-outro">5. Posso mover as configurações do Navi+ de um site para outro?</h4>
 
@@ -3720,11 +3842,17 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h4 id="1-o-navi-é-uma-compra-única-ou-uma-assinatura-e-é-seguro-de-usar">1. O Navi+ é uma compra única ou uma assinatura, e é seguro de usar?</h4>
 
-<p>Os planos pagos (Business, Elite) são baseados em assinatura, garantidos pelos pagamentos do Shopify e LemonSqueezy.\nUm teste gratuito de 7 dias está disponível.\nCancele a qualquer momento.</p>
+<p>Os planos pagos (Business, Elite) são baseados em assinatura, garantidos pelos pagamentos do Shopify e LemonSqueezy.</p>
+
+<p>Um teste gratuito de 7 dias está disponível.</p>
+
+<p>Cancele a qualquer momento.</p>
 
 <h4 id="2-existem-taxas-extras-para-alto-tráfego-ou-uso-intenso">2. Existem taxas extras para alto tráfego ou uso intenso?</h4>
 
-<p>Se você exceder os limites do plano, receberá avisos. Avisos excessivos podem acionar um pequeno ícone de publicidade no menu.\nSem taxas adicionais.</p>
+<p>Se você exceder os limites do plano, receberá avisos. Avisos excessivos podem acionar um pequeno ícone de publicidade no menu.</p>
+
+<p>Sem taxas adicionais.</p>
 
 <h4 id="3-o-que-acontece-se-eu-cancelar-minha-assinatura">3. O que acontece se eu cancelar minha assinatura?</h4>
 

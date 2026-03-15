@@ -150,8 +150,7 @@ def strip_md_markers(text):
 def unescape_newlines(text):
     if not text:
         return text
-    # Replace literal \n with actual newline
-    return text.replace("\\n", "\n")
+    return text.replace("\\n", "\n\n")
 
 
 def openai_translate(api_key, model, target_language_name, payload):

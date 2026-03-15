@@ -11,7 +11,9 @@ title: Chính Sách Bảo Mật
 
 ### 1. Giới thiệu
 
-Chúng tôi tôn trọng quyền riêng tư của bạn.\nChính Sách Bảo Mật này giải thích cách **Navi+** ("chúng tôi", "Ứng dụng", "Dịch vụ") thu thập, sử dụng và bảo vệ thông tin cá nhân khi bạn sử dụng các sản phẩm và dịch vụ của Navi+ trên các nền tảng như **Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace**, và các trang web tự lưu trữ khác.
+Chúng tôi tôn trọng quyền riêng tư của bạn.
+
+Chính Sách Bảo Mật này giải thích cách **Navi+** ("chúng tôi", "Ứng dụng", "Dịch vụ") thu thập, sử dụng và bảo vệ thông tin cá nhân khi bạn sử dụng các sản phẩm và dịch vụ của Navi+ trên các nền tảng như **Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace**, và các trang web tự lưu trữ khác.
 
 Bằng cách sử dụng Navi+, bạn đồng ý với Chính Sách Bảo Mật này.
 
@@ -101,22 +103,34 @@ Chúng tôi sử dụng các biện pháp bảo mật tiên tiến để bảo v
 * Lưu trữ trên hạ tầng được chứng nhận quốc tế (AWS, Cloudflare).
 * Truy cập nội bộ hạn chế và giám sát hệ thống liên tục.
 
-Tuy nhiên, không có phương pháp truyền tải hoặc lưu trữ nào là 100% an toàn.\nBằng cách sử dụng Navi+, bạn thừa nhận rằng chúng tôi không chịu trách nhiệm cho các vi phạm ngoài tầm kiểm soát hợp lý của chúng tôi.
+Tuy nhiên, không có phương pháp truyền tải hoặc lưu trữ nào là 100% an toàn.
+
+Bằng cách sử dụng Navi+, bạn thừa nhận rằng chúng tôi không chịu trách nhiệm cho các vi phạm ngoài tầm kiểm soát hợp lý của chúng tôi.
 
 ***
 
 ### 9. Chuyển dữ liệu quốc tế
 
-Dữ liệu của bạn có thể được xử lý trên các máy chủ đặt tại **Singapore, Hoa Kỳ, Canada, hoặc Châu Âu**, tùy thuộc vào vị trí trung tâm dữ liệu của AWS hoặc Cloudflare.\nBằng cách sử dụng Navi+, bạn đồng ý với việc chuyển giao và xử lý này theo các khuôn khổ quyền riêng tư được công nhận quốc tế.
+Dữ liệu của bạn có thể được xử lý trên các máy chủ đặt tại **Singapore, Hoa Kỳ, Canada, hoặc Châu Âu**, tùy thuộc vào vị trí trung tâm dữ liệu của AWS hoặc Cloudflare.
+
+Bằng cách sử dụng Navi+, bạn đồng ý với việc chuyển giao và xử lý này theo các khuôn khổ quyền riêng tư được công nhận quốc tế.
 
 ***
 
 ### 10. Cập nhật chính sách
 
-Chúng tôi có thể cập nhật Chính Sách Bảo Mật này từ thời gian này sang thời gian khác để phản ánh những thay đổi trong pháp luật hoặc hoạt động của chúng tôi.\nNgày cập nhật gần nhất sẽ luôn xuất hiện ở đầu trang này.\nĐối với những thay đổi quan trọng, chúng tôi sẽ thông báo cho người dùng qua email hoặc trên trang web của chúng tôi.
+Chúng tôi có thể cập nhật Chính Sách Bảo Mật này từ thời gian này sang thời gian khác để phản ánh những thay đổi trong pháp luật hoặc hoạt động của chúng tôi.
+
+Ngày cập nhật gần nhất sẽ luôn xuất hiện ở đầu trang này.
+
+Đối với những thay đổi quan trọng, chúng tôi sẽ thông báo cho người dùng qua email hoặc trên trang web của chúng tôi.
 
 ***
 
 ### 11. Liên hệ
 
-Nếu bạn có bất kỳ câu hỏi, mối quan tâm, hoặc yêu cầu nào liên quan đến Chính Sách Bảo Mật này, vui lòng liên hệ với chúng tôi:\n**Email:** <khoipn@naviplus.io>\n**Website:** <https://naviplus.io>
+Nếu bạn có bất kỳ câu hỏi, mối quan tâm, hoặc yêu cầu nào liên quan đến Chính Sách Bảo Mật này, vui lòng liên hệ với chúng tôi:
+
+**Email:** <khoipn@naviplus.io>
+
+**Website:** <https://naviplus.io>

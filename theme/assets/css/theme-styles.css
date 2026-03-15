@@ -165,6 +165,8 @@ body {
 main {
   padding-top: 1rem; /* Keep existing padding-top for main */
   font-size: 15px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 main hr {
@@ -384,6 +386,21 @@ main img.error {
 
 /* Typography adjustments for content area */
 .content-wrapper {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 48px;
+  padding-right: 48px;
+
+  img {
+    width: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     line-height: 1.25;
@@ -399,10 +416,16 @@ main img.error {
   h5 { font-size: 0.9em; }
   h6 { font-size: 0.875em; color: #6a737d; }
 
-  h1 {margin-top: 8px; font-size: 32px;}
+  h1 {margin-top: 8px; font-size: 32px; margin-top:8px; padding-bottom: 16px;}
   h2 {font-size: 28px;}
   h3 {font-size: 24px; font-weight: 600;}
   h4 {font-size: 18px; font-weight: 600;}
+
+  @media (max-width: 767.98px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
 
 
   p {
@@ -489,7 +512,7 @@ figure figcaption {
 .content-wrapper details {
   margin: 0.5em 0;
   padding: 16px 16px 0px 16px;
-  border: 1px solid #e1e4e8;
+  border: 1px solid #f0eeee;
   border-radius: 6px;
   background-color: #f6f8fa;
   transition: background-color 0.2s ease;
@@ -498,6 +521,7 @@ figure figcaption {
 .content-wrapper details[open] {
   background-color: #fff;
   border-color: #d1d5da;
+  padding-bottom: 10px;
 }
 
 .content-wrapper details summary {
@@ -538,7 +562,6 @@ figure figcaption {
 
 .content-wrapper details[open] summary {
   background-color: #f4f8fc;
-  margin-bottom: 1rem;
 }
 
 .content-wrapper details > *:not(summary) {
@@ -635,7 +658,7 @@ details strong {
 }
 
 .sidebar .nav-link.active i {
-  color: #fff !important;
+  color: #fff;
 }
 
 .sidebar .nav-link.active:hover {
@@ -916,23 +939,46 @@ details strong {
 }
 
 
-#favoritesList {
-  min-height: 50px; /* Ensure there's always some space for the list */
+html:not(.has-favorites) .favorites-heading,
+html:not(.has-favorites) #favoritesList,
+html:not(.has-favorites) .favorites-separator {
+  display: none !important;
+}
+
+html.has-favorites .favorites-heading,
+html.has-favorites .favorites-separator {
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
+}
+
+html.has-favorites.favorites-ready .favorites-heading,
+html.has-favorites.favorites-ready .favorites-separator {
+  opacity: 1;
+}
+
+html.has-favorites #favoritesList {
+  min-height: var(--favorites-reserved-height, 102px);
+  max-height: 220px;
+  overflow-y: auto;
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
+}
+
+html.has-favorites.favorites-ready #favoritesList {
+  opacity: 1;
 }
 
 /* Table of Contents (TOC) Styles */
 #tableOfContents {
   position: fixed;
-  top: 160px;
+  top: 120px;
   right: 20px;
   width: 200px;
   max-height: calc(100vh - 200px);
   overflow-y: auto;
   background: #fff;
-  border: 1px solid #e9ecef;
   border-radius: 8px;
   padding: 16px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 999;
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
   opacity: 1;
@@ -1010,11 +1056,12 @@ details strong {
 /* Adjust main content padding and width on large screens */
 @media (min-width: 1366px) {
   main {
-    padding-right: 280px; /* Make room for TOC */
+    padding-right: 0 !important;
   }
   
   main .content-wrapper {
-    max-width: calc(100% - 220px);
+    max-width: none;
+    padding-right: 230px;
   }
 }
 
@@ -1194,6 +1241,4 @@ ul.nav li ul li.nav-item:last-child {
 
 .content-wrapper a {
   color: #003d82 !important;
-  text-decoration: underline;
 }
-

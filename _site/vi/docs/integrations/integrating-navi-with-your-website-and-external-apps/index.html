@@ -6,27 +6,27 @@
 <title>Tích hợp Navi+ với trang web và ứng dụng bên ngoài của bạn</title>
 <meta name="description" content="Tại đây bạn sẽ tìm thấy hướng dẫn về cách kết nối Navi+ với các ứng dụng khác (như công cụ Chat, Loyalty, v.v.). Bạn có thể thêm chúng vào các mục menu, mở ứng dụng trực tiếp từ Nav...">
 
-<link rel="canonical" href="http://0.0.0.0:4001/vi/docs/integrations/integrating-navi-with-your-website-and-external-apps/">
+<link rel="canonical" href="http://0.0.0.0:4000/vi/docs/integrations/integrating-navi-with-your-website-and-external-apps/">
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://0.0.0.0:4001/vi/docs/integrations/integrating-navi-with-your-website-and-external-apps/">
+<meta property="og:url" content="http://0.0.0.0:4000/vi/docs/integrations/integrating-navi-with-your-website-and-external-apps/">
 <meta property="og:title" content="Tích hợp Navi+ với trang web và ứng dụng bên ngoài của bạn">
 <meta property="og:description" content="Tại đây bạn sẽ tìm thấy hướng dẫn về cách kết nối Navi+ với các ứng dụng khác (như công cụ Chat, Loyalty, v.v.). Bạn có thể thêm chúng vào các mục menu, mở ứng dụng trực tiếp từ Nav...">
 
-<meta property="og:image" content="http://0.0.0.0:4001/assets/images/naviplus-social-share.jpg">
+<meta property="og:image" content="http://0.0.0.0:4000/assets/images/naviplus-social-share.jpg">
 
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://0.0.0.0:4001/vi/docs/integrations/integrating-navi-with-your-website-and-external-apps/">
+<meta property="twitter:url" content="http://0.0.0.0:4000/vi/docs/integrations/integrating-navi-with-your-website-and-external-apps/">
 <meta property="twitter:title" content="Tích hợp Navi+ với trang web và ứng dụng bên ngoài của bạn">
 <meta property="twitter:description" content="Tại đây bạn sẽ tìm thấy hướng dẫn về cách kết nối Navi+ với các ứng dụng khác (như công cụ Chat, Loyalty, v.v.). Bạn có thể thêm chúng vào các mục menu, mở ứng dụng trực tiếp từ Nav...">
 
-<meta property="twitter:image" content="http://0.0.0.0:4001/assets/images/naviplus-social-share.jpg">
+<meta property="twitter:image" content="http://0.0.0.0:4000/assets/images/naviplus-social-share.jpg">
 
 
 <meta name="twitter:creator" content="@NaviPlusOfficial">
@@ -36,6 +36,23 @@
 <!-- Remixicon CSS -->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
 <link rel="stylesheet" href="/theme/assets/css/theme-styles.css">
+
+<script>
+(() => {
+  try {
+    const raw = localStorage.getItem('favorites') || '[]';
+    const favorites = JSON.parse(raw);
+    const count = Array.isArray(favorites) ? favorites.length : 0;
+    if (count > 0) {
+      const maxItems = 6;
+      const rowHeight = 34;
+      const reserved = Math.min(count, maxItems) * rowHeight;
+      document.documentElement.classList.add('has-favorites');
+      document.documentElement.style.setProperty('--favorites-reserved-height', reserved + 'px');
+    }
+  } catch (e) {}
+})();
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
@@ -67,12 +84,23 @@ gtag('config', 'G-1PWVMJYX4Z');
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
     <!-- Offcanvas Toggle for Sidebar (Left) -->
     <button class="navbar-toggler d-md-none me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand d-flex align-items-center" href="/">
+    <a class="navbar-brand d-flex align-items-center" href="/vi/docs/getting-started/">
       <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+ Logo" class="d-inline-block align-top img-fluid">
       <span class="navbar-divider"></span>
       <span class="navbar-site-title">Help</span>
@@ -84,14 +112,6 @@ gtag('config', 'G-1PWVMJYX4Z');
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      
-      
-      
-
-      
-      
-      
-
       
       
 
@@ -138,11 +158,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">YÊU THÍCH</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">YÊU THÍCH</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -150,7 +170,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/vi/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">Trang chủ</span>
       </span>
     </a>
@@ -1826,11 +1845,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">YÊU THÍCH</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">YÊU THÍCH</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -1838,7 +1857,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/vi/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">Trang chủ</span>
       </span>
     </a>
@@ -3500,9 +3518,13 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h3 id="1-tích-hợp-các-ứng-dụng-dính-khác-vào-một-mục-menu-navi-duy-nhất">1. Tích hợp các ứng dụng dính khác vào một mục menu Navi+ duy nhất</h3>
 
-<p>Navi+ hợp nhất nhiều ứng dụng (Chat Box, Loyalty, Social Proof, Promo bars, v.v.) thành các mục menu, giữ cho trang web của bạn sạch sẽ và ngăn chặn sự chồng chéo—đặc biệt có giá trị trên các thiết bị di động với không gian màn hình hạn chế.\nĐể đạt được điều này, hãy làm theo 2 bước sau:</p>
+<p>Navi+ hợp nhất nhiều ứng dụng (Chat Box, Loyalty, Social Proof, Promo bars, v.v.) thành các mục menu, giữ cho trang web của bạn sạch sẽ và ngăn chặn sự chồng chéo—đặc biệt có giá trị trên các thiết bị di động với không gian màn hình hạn chế.</p>
 
-<p>• Bước 1: Ẩn biểu tượng ứng dụng dính bằng CSS. Xem chi tiết tại đây\n• Bước 2: Sử dụng JavaScript cho các mục menu để khi nhấp vào chúng sẽ mở các bảng ứng dụng tương ứng.</p>
+<p>Để đạt được điều này, hãy làm theo 2 bước sau:</p>
+
+<p>• Bước 1: Ẩn biểu tượng ứng dụng dính bằng CSS. Xem chi tiết tại đây</p>
+
+<p>• Bước 2: Sử dụng JavaScript cho các mục menu để khi nhấp vào chúng sẽ mở các bảng ứng dụng tương ứng.</p>
 
 <p>Xem ví dụ về tích hợp chat Tidi. Đây là một thiết lập tương đối nâng cao, vì vậy vui lòng liên hệ với bộ phận hỗ trợ của Navi+ để được trợ giúp.</p>
 
@@ -3519,7 +3541,9 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h3 id="3-tùy-chỉnh-giao-diện-navi-với-css-bên-ngoài">3. Tùy chỉnh Giao diện Navi+ với CSS Bên ngoài</h3>
 
-<p>Mỗi menu Navi+ được định nghĩa bởi một phần tử div với id=”SF-123456789” (id nhúng). Xem cấu trúc HTML/CSS của một menu Navi+ tại đây để viết mã CSS cho việc tùy chỉnh giao diện menu.\nVí dụ, để thay đổi màu của một mục menu cấp 2, bạn có thể viết mã CSS sau:</p>
+<p>Mỗi menu Navi+ được định nghĩa bởi một phần tử div với id=”SF-123456789” (id nhúng). Xem cấu trúc HTML/CSS của một menu Navi+ tại đây để viết mã CSS cho việc tùy chỉnh giao diện menu.</p>
+
+<p>Ví dụ, để thay đổi màu của một mục menu cấp 2, bạn có thể viết mã CSS sau:</p>
 
 <p><code class="language-plaintext highlighter-rouge">#SF-123456789 ul li ul.children li .name { color: red; }</code></p>
 
@@ -3527,11 +3551,15 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h3 id="4-giao-tiếp-giữa-các-menu-navi">4. Giao tiếp Giữa Các Menu Navi+</h3>
 
-<p>Từ một mục menu Navi+, bạn có thể gọi để mở một menu Slide Navi+ khác bằng cú pháp: <code class="language-plaintext highlighter-rouge">open:NaviMenu.</code>\nVới cú pháp này, bạn có thể mở rộng vô hạn các cấp menu bằng cách để các menu slide gọi các menu slide khác.</p>
+<p>Từ một mục menu Navi+, bạn có thể gọi để mở một menu Slide Navi+ khác bằng cú pháp: <code class="language-plaintext highlighter-rouge">open:NaviMenu.</code></p>
+
+<p>Với cú pháp này, bạn có thể mở rộng vô hạn các cấp menu bằng cách để các menu slide gọi các menu slide khác.</p>
 
 <h3 id="5-mở-một-menu-slide-từ-bất-kỳ-đâu-trên-trang-web-của-bạn">5. Mở một Menu Slide từ bất kỳ đâu trên trang web của bạn</h3>
 
-<p>Với các menu slide, ngoài việc mở chúng thông qua các mục menu từ các menu Navi+ khác, bạn cũng có thể kích hoạt một menu slide Navi+ bằng cách gọi hàm JavaScript: <code class="language-plaintext highlighter-rouge">naviman.openNaviMenu()</code>.\nVí dụ: Tạo một nút nổi bằng HTML và CSS, sau đó gán hành động nhấp của nó để mở một menu Slide Navi+ – bạn sẽ ngay lập tức có một menu trông chuyên nghiệp.</p>
+<p>Với các menu slide, ngoài việc mở chúng thông qua các mục menu từ các menu Navi+ khác, bạn cũng có thể kích hoạt một menu slide Navi+ bằng cách gọi hàm JavaScript: <code class="language-plaintext highlighter-rouge">naviman.openNaviMenu()</code>.</p>
+
+<p>Ví dụ: Tạo một nút nổi bằng HTML và CSS, sau đó gán hành động nhấp của nó để mở một menu Slide Navi+ – bạn sẽ ngay lập tức có một menu trông chuyên nghiệp.</p>
 
 <h3 id="6-mô-phỏng-hành-động-của-người-dùng-nhấp-tập-trung-cuộn-vv">6. Mô phỏng hành động của người dùng (nhấp, tập trung, cuộn, v.v.)</h3>
 

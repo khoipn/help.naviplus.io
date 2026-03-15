@@ -11,9 +11,13 @@ Aqui você encontrará guias sobre como conectar o Navi+ com outros aplicativos 
 
 ### 1. Integre outros aplicativos fixos em um único item de menu do Navi+
 
-O Navi+ consolida vários aplicativos (Chat Box, Fidelidade, Prova Social, Barras de Promoção, etc.) em itens de menu, mantendo seu site limpo e prevenindo sobreposições—especialmente valioso em dispositivos móveis com espaço de tela limitado.\nPara conseguir isso, siga estes 2 passos:
+O Navi+ consolida vários aplicativos (Chat Box, Fidelidade, Prova Social, Barras de Promoção, etc.) em itens de menu, mantendo seu site limpo e prevenindo sobreposições—especialmente valioso em dispositivos móveis com espaço de tela limitado.
 
-• Passo 1: Oculte os ícones dos aplicativos fixos usando CSS. Veja os detalhes aqui\n• Passo 2: Use JavaScript para itens de menu para que clicar neles abra os painéis de aplicativos respectivos.
+Para conseguir isso, siga estes 2 passos:
+
+• Passo 1: Oculte os ícones dos aplicativos fixos usando CSS. Veja os detalhes aqui
+
+• Passo 2: Use JavaScript para itens de menu para que clicar neles abra os painéis de aplicativos respectivos.
 
 Veja o exemplo de integração do chat Tidi. Esta é uma configuração relativamente avançada, então entre em contato com o suporte do Navi+ para assistência.
 
@@ -28,7 +32,9 @@ O Navi+ também suporta que você defina as classes e atribuições de atributos
 
 ### 3. Personalizando a Interface do Navi+ com CSS Externo
 
-Cada menu do Navi+ é definido por um elemento div com id="SF-123456789" (id embutido). Veja a estrutura HTML/CSS de um menu do Navi+ aqui para escrever código CSS para personalizar a interface do menu.\nPor exemplo, para mudar a cor de um item de menu de nível 2, você pode escrever o seguinte CSS:
+Cada menu do Navi+ é definido por um elemento div com id="SF-123456789" (id embutido). Veja a estrutura HTML/CSS de um menu do Navi+ aqui para escrever código CSS para personalizar a interface do menu.
+
+Por exemplo, para mudar a cor de um item de menu de nível 2, você pode escrever o seguinte CSS:
 
 `#SF-123456789 ul li ul.children li .name { color: red; }`
 
@@ -36,11 +42,15 @@ O Navi+ também suporta que você defina as classes e atribuições de atributos
 
 ### 4. Comunicação Entre Menus do Navi+
 
-A partir de um item de menu do Navi+, você pode chamar para abrir outro menu Slide do Navi+ usando a sintaxe: `open:NaviMenu.`\nCom esta sintaxe, você pode expandir infinitamente os níveis de menu fazendo com que menus deslizantes chamem outros menus deslizantes.
+A partir de um item de menu do Navi+, você pode chamar para abrir outro menu Slide do Navi+ usando a sintaxe: `open:NaviMenu.`
+
+Com esta sintaxe, você pode expandir infinitamente os níveis de menu fazendo com que menus deslizantes chamem outros menus deslizantes.
 
 ### 5. Abra um Menu Slide de qualquer lugar em seu site
 
-Com menus deslizantes, além de abri-los via itens de menu de outros menus do Navi+, você também pode acionar um menu deslizante do Navi+ chamando a função JavaScript: `naviman.openNaviMenu()`.\nPor exemplo: Crie um botão flutuante usando HTML e CSS, então atribua sua ação de clique para abrir um menu Slide do Navi+ – você terá instantaneamente um menu com aparência profissional.
+Com menus deslizantes, além de abri-los via itens de menu de outros menus do Navi+, você também pode acionar um menu deslizante do Navi+ chamando a função JavaScript: `naviman.openNaviMenu()`.
+
+Por exemplo: Crie um botão flutuante usando HTML e CSS, então atribua sua ação de clique para abrir um menu Slide do Navi+ – você terá instantaneamente um menu com aparência profissional.
 
 ### 6. Simular ações do usuário (clique, foco, rolagem, etc.)
 

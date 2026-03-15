@@ -37,6 +37,23 @@
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
 <link rel="stylesheet" href="/theme/assets/css/theme-styles.css">
 
+<script>
+(() => {
+  try {
+    const raw = localStorage.getItem('favorites') || '[]';
+    const favorites = JSON.parse(raw);
+    const count = Array.isArray(favorites) ? favorites.length : 0;
+    if (count > 0) {
+      const maxItems = 6;
+      const rowHeight = 34;
+      const reserved = Math.min(count, maxItems) * rowHeight;
+      document.documentElement.classList.add('has-favorites');
+      document.documentElement.style.setProperty('--favorites-reserved-height', reserved + 'px');
+    }
+  } catch (e) {}
+})();
+</script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
 <script>
@@ -67,12 +84,23 @@ gtag('config', 'G-1PWVMJYX4Z');
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
     <!-- Offcanvas Toggle for Sidebar (Left) -->
     <button class="navbar-toggler d-md-none me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand d-flex align-items-center" href="/">
+    <a class="navbar-brand d-flex align-items-center" href="/vi/docs/getting-started/">
       <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+ Logo" class="d-inline-block align-top img-fluid">
       <span class="navbar-divider"></span>
       <span class="navbar-site-title">Help</span>
@@ -84,14 +112,6 @@ gtag('config', 'G-1PWVMJYX4Z');
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      
-      
-      
-
-      
-      
-      
-
       
       
 
@@ -138,11 +158,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">YÊU THÍCH</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">YÊU THÍCH</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -150,7 +170,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/vi/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">Trang chủ</span>
       </span>
     </a>
@@ -1826,11 +1845,11 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-none d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">YÊU THÍCH</h6>
-<ul class="nav flex-column d-none" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">YÊU THÍCH</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator d-none" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
@@ -1838,7 +1857,6 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li class="nav-item">
     <a class="nav-link" href="/vi/docs/getting-started/">
       <span class="d-flex align-items-start sidebar-link-container">
-        <i class="ri-home-4-line" style="margin-right: 8px; font-size: 1.1em; color: #0366d6;"></i>
         <span class="sidebar-title-text flex-grow-1">Trang chủ</span>
       </span>
     </a>
@@ -3500,7 +3518,9 @@ gtag('config', 'G-1PWVMJYX4Z');
 
 <h3 id="1-giới-thiệu">1. Giới thiệu</h3>
 
-<p>Chúng tôi tôn trọng quyền riêng tư của bạn.\nChính Sách Bảo Mật này giải thích cách <strong>Navi+</strong> (“chúng tôi”, “Ứng dụng”, “Dịch vụ”) thu thập, sử dụng và bảo vệ thông tin cá nhân khi bạn sử dụng các sản phẩm và dịch vụ của Navi+ trên các nền tảng như <strong>Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace</strong>, và các trang web tự lưu trữ khác.</p>
+<p>Chúng tôi tôn trọng quyền riêng tư của bạn.</p>
+
+<p>Chính Sách Bảo Mật này giải thích cách <strong>Navi+</strong> (“chúng tôi”, “Ứng dụng”, “Dịch vụ”) thu thập, sử dụng và bảo vệ thông tin cá nhân khi bạn sử dụng các sản phẩm và dịch vụ của Navi+ trên các nền tảng như <strong>Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace</strong>, và các trang web tự lưu trữ khác.</p>
 
 <p>Bằng cách sử dụng Navi+, bạn đồng ý với Chính Sách Bảo Mật này.</p>
 
@@ -3608,25 +3628,37 @@ gtag('config', 'G-1PWVMJYX4Z');
   <li>Truy cập nội bộ hạn chế và giám sát hệ thống liên tục.</li>
 </ul>
 
-<p>Tuy nhiên, không có phương pháp truyền tải hoặc lưu trữ nào là 100% an toàn.\nBằng cách sử dụng Navi+, bạn thừa nhận rằng chúng tôi không chịu trách nhiệm cho các vi phạm ngoài tầm kiểm soát hợp lý của chúng tôi.</p>
+<p>Tuy nhiên, không có phương pháp truyền tải hoặc lưu trữ nào là 100% an toàn.</p>
+
+<p>Bằng cách sử dụng Navi+, bạn thừa nhận rằng chúng tôi không chịu trách nhiệm cho các vi phạm ngoài tầm kiểm soát hợp lý của chúng tôi.</p>
 
 <hr />
 
 <h3 id="9-chuyển-dữ-liệu-quốc-tế">9. Chuyển dữ liệu quốc tế</h3>
 
-<p>Dữ liệu của bạn có thể được xử lý trên các máy chủ đặt tại <strong>Singapore, Hoa Kỳ, Canada, hoặc Châu Âu</strong>, tùy thuộc vào vị trí trung tâm dữ liệu của AWS hoặc Cloudflare.\nBằng cách sử dụng Navi+, bạn đồng ý với việc chuyển giao và xử lý này theo các khuôn khổ quyền riêng tư được công nhận quốc tế.</p>
+<p>Dữ liệu của bạn có thể được xử lý trên các máy chủ đặt tại <strong>Singapore, Hoa Kỳ, Canada, hoặc Châu Âu</strong>, tùy thuộc vào vị trí trung tâm dữ liệu của AWS hoặc Cloudflare.</p>
+
+<p>Bằng cách sử dụng Navi+, bạn đồng ý với việc chuyển giao và xử lý này theo các khuôn khổ quyền riêng tư được công nhận quốc tế.</p>
 
 <hr />
 
 <h3 id="10-cập-nhật-chính-sách">10. Cập nhật chính sách</h3>
 
-<p>Chúng tôi có thể cập nhật Chính Sách Bảo Mật này từ thời gian này sang thời gian khác để phản ánh những thay đổi trong pháp luật hoặc hoạt động của chúng tôi.\nNgày cập nhật gần nhất sẽ luôn xuất hiện ở đầu trang này.\nĐối với những thay đổi quan trọng, chúng tôi sẽ thông báo cho người dùng qua email hoặc trên trang web của chúng tôi.</p>
+<p>Chúng tôi có thể cập nhật Chính Sách Bảo Mật này từ thời gian này sang thời gian khác để phản ánh những thay đổi trong pháp luật hoặc hoạt động của chúng tôi.</p>
+
+<p>Ngày cập nhật gần nhất sẽ luôn xuất hiện ở đầu trang này.</p>
+
+<p>Đối với những thay đổi quan trọng, chúng tôi sẽ thông báo cho người dùng qua email hoặc trên trang web của chúng tôi.</p>
 
 <hr />
 
 <h3 id="11-liên-hệ">11. Liên hệ</h3>
 
-<p>Nếu bạn có bất kỳ câu hỏi, mối quan tâm, hoặc yêu cầu nào liên quan đến Chính Sách Bảo Mật này, vui lòng liên hệ với chúng tôi:\n<strong>Email:</strong> <a href="mailto:khoipn@naviplus.io">khoipn@naviplus.io</a>\n<strong>Website:</strong> <a href="https://naviplus.io">https://naviplus.io</a></p>
+<p>Nếu bạn có bất kỳ câu hỏi, mối quan tâm, hoặc yêu cầu nào liên quan đến Chính Sách Bảo Mật này, vui lòng liên hệ với chúng tôi:</p>
+
+<p><strong>Email:</strong> <a href="mailto:khoipn@naviplus.io">khoipn@naviplus.io</a></p>
+
+<p><strong>Website:</strong> <a href="https://naviplus.io">https://naviplus.io</a></p>
 
             
               

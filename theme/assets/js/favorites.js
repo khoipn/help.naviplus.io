@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const addFavoriteBtn = document.getElementById('addFavoriteBtn');
     const currentUrl = window.location.pathname;
     const currentPageTitle = document.title;
+    const root = document.documentElement;
 
     function getFavorites() {
         try {
@@ -19,6 +20,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function isFavorite(url) {
         return getFavorites().some(item => item.url === url);
+    }
+
+    function applyFavoritesLayoutState(favorites) {
+        const count = Array.isArray(favorites) ? favorites.length : 0;
+        if (count <= 0) {
+            root.classList.remove('has-favorites');
+            root.classList.remove('favorites-ready');
+            root.style.removeProperty('--favorites-reserved-height');
+            return;
+        }
+
+        const maxItems = 6;
+        const rowHeight = 34;
+        const reserved = Math.min(count, maxItems) * rowHeight;
+        root.classList.add('has-favorites');
+        root.style.setProperty('--favorites-reserved-height', reserved + 'px');
     }
 
     function toggleFavorite() {
@@ -41,28 +58,24 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderFavorites() {
         // Find ALL favoritesList elements (desktop and mobile sidebars)
         const favoritesLists = document.querySelectorAll('#favoritesList');
-        const favoritesHeadings = document.querySelectorAll('.favorites-heading');
-        const favoritesSeparators = document.querySelectorAll('.favorites-separator');
         
         if (favoritesLists.length === 0) {
             console.error('No favoritesList elements found in DOM.');
             return;
         }
 
+        root.classList.remove('favorites-ready');
+
         const favorites = getFavorites();
+        applyFavoritesLayoutState(favorites);
         
         // Hide or show the entire favorites section based on whether there are favorites
         if (favorites.length === 0) {
-            favoritesLists.forEach(list => list.classList.add('d-none'));
-            favoritesHeadings.forEach(heading => heading.classList.add('d-none'));
-            favoritesSeparators.forEach(separator => separator.classList.add('d-none'));
+            favoritesLists.forEach(list => {
+                list.innerHTML = '';
+            });
             return;
         }
-
-        // Show favorites section
-        favoritesLists.forEach(list => list.classList.remove('d-none'));
-        favoritesHeadings.forEach(heading => heading.classList.remove('d-none'));
-        favoritesSeparators.forEach(separator => separator.classList.remove('d-none'));
         
         favoritesLists.forEach(favoritesList => {
             favoritesList.innerHTML = ''; // Clear existing list
@@ -107,6 +120,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 favoritesList.appendChild(listItem);
             });
         });
+
+        requestAnimationFrame(() => {
+            root.classList.add('favorites-ready');
+        });
     }
 
     function removeFavorite(urlToRemove) {
@@ -133,6 +150,5 @@ document.addEventListener('DOMContentLoaded', () => {
         addFavoriteBtn.addEventListener('click', toggleFavorite);
     }
 
-    // Render favorites on sidebar load with a slight delay to avoid conflicts with other DOM manipulations
-    setTimeout(renderFavorites, 100);
+    renderFavorites();
 });

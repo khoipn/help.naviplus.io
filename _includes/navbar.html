@@ -1,11 +1,31 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
+    {% assign nav_current_page_url = page.url | remove: 'index.html' | replace: '//', '/' %}
+    {% if nav_current_page_url != '/' and nav_current_page_url contains '/' and nav_current_page_url | slice: -1 == '/' %}
+      {% assign nav_current_page_url = nav_current_page_url | remove_last: '/' %}
+    {% endif %}
+    {% if nav_current_page_url == "" %}{% assign nav_current_page_url = "/" %}{% endif %}
+
+    {% assign nav_current_lang_prefix = nil %}
+    {% assign nav_lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: "," %}
+    {% for candidate in nav_lang_candidates %}
+      {% assign candidate_prefix = "/" | append: candidate | append: "/docs" %}
+      {% if nav_current_page_url contains candidate_prefix %}
+        {% assign nav_current_lang_prefix = candidate %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign brand_href = "/" %}
+    {% if nav_current_lang_prefix %}
+      {% assign brand_href = "/" | append: nav_current_lang_prefix | append: "/docs/getting-started/" %}
+    {% endif %}
+
     <!-- Offcanvas Toggle for Sidebar (Left) -->
     <button class="navbar-toggler d-md-none me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand d-flex align-items-center" href="{{ site.baseurl | relative_url }}/">
+    <a class="navbar-brand d-flex align-items-center" href="{{ brand_href | relative_url }}">
       <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+ Logo" class="d-inline-block align-top img-fluid">
       <span class="navbar-divider"></span>
       <span class="navbar-site-title">{{ site.site_name | default: "Help" }}</span>
@@ -17,21 +37,6 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      {% assign nav_current_page_url = page.url | remove: 'index.html' | replace: '//', '/' %}
-      {% if nav_current_page_url != '/' and nav_current_page_url contains '/' and nav_current_page_url | slice: -1 == '/' %}
-        {% assign nav_current_page_url = nav_current_page_url | remove_last: '/' %}
-      {% endif %}
-      {% if nav_current_page_url == "" %}{% assign nav_current_page_url = "/" %}{% endif %}
-
-      {% assign nav_current_lang_prefix = nil %}
-      {% assign nav_lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: "," %}
-      {% for candidate in nav_lang_candidates %}
-        {% assign candidate_prefix = "/" | append: candidate | append: "/docs" %}
-        {% if nav_current_page_url contains candidate_prefix %}
-          {% assign nav_current_lang_prefix = candidate %}
-        {% endif %}
-      {% endfor %}
-
       {% assign label_search = "Search docs" %}
       {% if nav_current_lang_prefix == "vi" %}
         {% assign label_search = "Tìm kiếm tài liệu" %}

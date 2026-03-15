@@ -56,7 +56,9 @@ Support
 More  
 ```
 
-Esta é uma árvore de menu de 3 níveis. O nível 1 inclui **Home**, **Catalog**, **Support** e **More**.\n**All-Mountain** é um item de menu de nível 2, com dois itens filhos: **Cruise Flex** e **Balance Ride**.
+Esta é uma árvore de menu de 3 níveis. O nível 1 inclui **Home**, **Catalog**, **Support** e **More**.
+
+**All-Mountain** é um item de menu de nível 2, com dois itens filhos: **Cruise Flex** e **Balance Ride**.
 
 Você passará a maior parte do seu tempo construindo esta árvore de menu para o seu site, ajudando os clientes a encontrar o conteúdo que estão procurando.
 

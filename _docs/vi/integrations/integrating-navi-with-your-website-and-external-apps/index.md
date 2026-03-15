@@ -11,9 +11,13 @@ Tại đây bạn sẽ tìm thấy hướng dẫn về cách kết nối Navi+ v
 
 ### 1. Tích hợp các ứng dụng dính khác vào một mục menu Navi+ duy nhất
 
-Navi+ hợp nhất nhiều ứng dụng (Chat Box, Loyalty, Social Proof, Promo bars, v.v.) thành các mục menu, giữ cho trang web của bạn sạch sẽ và ngăn chặn sự chồng chéo—đặc biệt có giá trị trên các thiết bị di động với không gian màn hình hạn chế.\nĐể đạt được điều này, hãy làm theo 2 bước sau:
+Navi+ hợp nhất nhiều ứng dụng (Chat Box, Loyalty, Social Proof, Promo bars, v.v.) thành các mục menu, giữ cho trang web của bạn sạch sẽ và ngăn chặn sự chồng chéo—đặc biệt có giá trị trên các thiết bị di động với không gian màn hình hạn chế.
 
-• Bước 1: Ẩn biểu tượng ứng dụng dính bằng CSS. Xem chi tiết tại đây\n• Bước 2: Sử dụng JavaScript cho các mục menu để khi nhấp vào chúng sẽ mở các bảng ứng dụng tương ứng.
+Để đạt được điều này, hãy làm theo 2 bước sau:
+
+• Bước 1: Ẩn biểu tượng ứng dụng dính bằng CSS. Xem chi tiết tại đây
+
+• Bước 2: Sử dụng JavaScript cho các mục menu để khi nhấp vào chúng sẽ mở các bảng ứng dụng tương ứng.
 
 Xem ví dụ về tích hợp chat Tidi. Đây là một thiết lập tương đối nâng cao, vì vậy vui lòng liên hệ với bộ phận hỗ trợ của Navi+ để được trợ giúp.
 
@@ -28,7 +32,9 @@ Navi+ cũng hỗ trợ bạn định nghĩa các lớp và thuộc tính (ngay c
 
 ### 3. Tùy chỉnh Giao diện Navi+ với CSS Bên ngoài
 
-Mỗi menu Navi+ được định nghĩa bởi một phần tử div với id="SF-123456789" (id nhúng). Xem cấu trúc HTML/CSS của một menu Navi+ tại đây để viết mã CSS cho việc tùy chỉnh giao diện menu.\nVí dụ, để thay đổi màu của một mục menu cấp 2, bạn có thể viết mã CSS sau:
+Mỗi menu Navi+ được định nghĩa bởi một phần tử div với id="SF-123456789" (id nhúng). Xem cấu trúc HTML/CSS của một menu Navi+ tại đây để viết mã CSS cho việc tùy chỉnh giao diện menu.
+
+Ví dụ, để thay đổi màu của một mục menu cấp 2, bạn có thể viết mã CSS sau:
 
 `#SF-123456789 ul li ul.children li .name { color: red; }`
 
@@ -36,11 +42,15 @@ Navi+ cũng hỗ trợ bạn định nghĩa các lớp và thuộc tính (ngay c
 
 ### 4. Giao tiếp Giữa Các Menu Navi+
 
-Từ một mục menu Navi+, bạn có thể gọi để mở một menu Slide Navi+ khác bằng cú pháp: `open:NaviMenu.`\nVới cú pháp này, bạn có thể mở rộng vô hạn các cấp menu bằng cách để các menu slide gọi các menu slide khác.
+Từ một mục menu Navi+, bạn có thể gọi để mở một menu Slide Navi+ khác bằng cú pháp: `open:NaviMenu.`
+
+Với cú pháp này, bạn có thể mở rộng vô hạn các cấp menu bằng cách để các menu slide gọi các menu slide khác.
 
 ### 5. Mở một Menu Slide từ bất kỳ đâu trên trang web của bạn
 
-Với các menu slide, ngoài việc mở chúng thông qua các mục menu từ các menu Navi+ khác, bạn cũng có thể kích hoạt một menu slide Navi+ bằng cách gọi hàm JavaScript: `naviman.openNaviMenu()`.\nVí dụ: Tạo một nút nổi bằng HTML và CSS, sau đó gán hành động nhấp của nó để mở một menu Slide Navi+ – bạn sẽ ngay lập tức có một menu trông chuyên nghiệp.
+Với các menu slide, ngoài việc mở chúng thông qua các mục menu từ các menu Navi+ khác, bạn cũng có thể kích hoạt một menu slide Navi+ bằng cách gọi hàm JavaScript: `naviman.openNaviMenu()`.
+
+Ví dụ: Tạo một nút nổi bằng HTML và CSS, sau đó gán hành động nhấp của nó để mở một menu Slide Navi+ – bạn sẽ ngay lập tức có một menu trông chuyên nghiệp.
 
 ### 6. Mô phỏng hành động của người dùng (nhấp, tập trung, cuộn, v.v.)
 
