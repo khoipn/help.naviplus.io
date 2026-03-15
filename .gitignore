@@ -6,3 +6,5 @@ _site/.DS_Store
 _site/docs/.DS_Store
 _temp_content/.DS_Store
 _temp_content/manual/.DS_Store
+.openai_api_key
+.venv/

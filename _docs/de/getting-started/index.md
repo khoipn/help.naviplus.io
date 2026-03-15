@@ -20,8 +20,8 @@ Starten Sie kostenlos. Upgrade, wenn Sie mehr Kontrolle und Skalierung benötige
 Gestalten Sie eine intelligentere Navigation. Verbessern Sie die Benutzererfahrung. Steigern Sie die Konversionen.
 
 **Khoi Pham**\
-Gründer von Navi+&#x20;
+Gründer und Unterstützer von Navi+&#x20;
 
 E-Mail: <khoipn@naviplus.io>
 
-What's App: +84 981911011
+Whats App: +84 981911011

@@ -19,7 +19,7 @@ Start free. Upgrade when you need more control and scale.
 Design smarter navigation. Improve user experience. Boost conversions.
 
 **Khoi Pham**\
-Founder of Navi+&#x20;
+Founder and Supporter of Navi+&#x20;
 
 Email: <khoipn@naviplus.io>
 

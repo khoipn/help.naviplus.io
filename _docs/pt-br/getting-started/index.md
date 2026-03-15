@@ -20,7 +20,7 @@ Comece grátis. Faça upgrade quando precisar de mais controle e escalabilidade.
 Desenhe uma navegação mais inteligente. Melhore a experiência do usuário. Aumente as conversões.
 
 **Khoi Pham**\
-Fundador da Navi+&#x20;
+Fundador e Apoiante do Navi+&#x20;
 
 Email: <khoipn@naviplus.io>
 

@@ -20,7 +20,7 @@ Commencez gratuitement. Mettez à niveau lorsque vous avez besoin de plus de con
 Concevez une navigation plus intelligente. Améliorez l'expérience utilisateur. Augmentez les conversions.
 
 **Khoi Pham**\
-Fondateur de Navi+&#x20;
+Fondateur et Supporter de Navi+&#x20;
 
 Email : <khoipn@naviplus.io>
 

@@ -1,5 +1,5 @@
 ---
-description: "Navi+ \x7F ウェブサイトメニュービルダーは、訪問者を正しい場所に迅速に導くためのノーコードのウェブサイトナビゲーションビルダーです。"
+description: "Navi+ \x7F ウェブサイトメニュービルダーは、訪問者を正しい場所に迅速に案内するためのノーコードのウェブサイトナビゲーションビルダーです。"
 lang: jp
 layout: default
 permalink: /jp/docs/getting-started/
@@ -7,7 +7,7 @@ title: 始めに
 ---
 # 始めに
 
-Navi+  ウェブサイトメニュービルダーは、訪問者を正しい場所に迅速に導くためのノーコードのウェブサイトナビゲーションビルダーです。
+Navi+  ウェブサイトメニュービルダーは、訪問者を正しい場所に迅速に案内するためのノーコードのウェブサイトナビゲーションビルダーです。
 
 **Tabbar, Mega Menu, Slide (Hamburger), Grid Menu, and Floating Button**のようなモダンなメニューを数分で作成できます。ドラッグ＆ドロップするだけで、コーディングは不要です。
 
@@ -20,7 +20,7 @@ Navi+は、[Shopify](https://www.shopify.com/ "Shopify"), [Wix](https://www.wix.
 よりスマートなナビゲーションをデザインしましょう。ユーザーエクスペリエンスを向上させましょう。コンバージョンを増やしましょう。
 
 **Khoi Pham**\
-Navi+の創設者&#x20;
+Navi+の創設者およびサポーター
 
 メール: <khoipn@naviplus.io>
 
