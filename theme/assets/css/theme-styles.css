@@ -399,10 +399,16 @@ main img.error {
   h5 { font-size: 0.9em; }
   h6 { font-size: 0.875em; color: #6a737d; }
 
+  h1 {margin-top: 8px; font-size: 32px;}
+  h2 {font-size: 28px;}
+  h3 {font-size: 24px; font-weight: 600;}
+  h4 {font-size: 18px; font-weight: 600;}
+
+
   p {
-    margin-bottom: 16px;
-    margin-top: 4px;  
-    font-size: 14px;
+    margin-bottom: 12px;
+    margin-top: 10px;  
+    font-size: 15px;
     line-height: 1.5;
   }
 
@@ -632,6 +638,10 @@ details strong {
   color: #fff !important;
 }
 
+.sidebar .nav-link.active:hover {
+  background-color: #0053b1 !important;
+}
+
 /* Điều chỉnh màu background hover để không che đường kẻ */
 .sidebar .nav-link:hover {
     background-color: rgba(230, 247, 255, 0.3) !important; /* Màu nhạt hơn với độ trong suốt */
@@ -647,6 +657,7 @@ details strong {
 
 .prev-next-nav a {
   background: #f4f9ff;
+  text-decoration: none;
 }
 
 .prev-next-nav a:hover {
@@ -890,11 +901,20 @@ details strong {
 }
 
 .favorite-item .nav-link.active {
-    color: #0366d6 !important;
+    color: #0053b1 !important;
     font-weight: 500;
     border-right: solid 4px #0366d6;
     background-color: transparent !important;
 }
+
+.favorite-item .nav-link.active i.ri-flag-line {
+    color: #0053b1 !important;
+}
+
+.favorite-item .nav-link.active:hover {
+  color: #fff !important;
+}
+
 
 #favoritesList {
   min-height: 50px; /* Ensure there's always some space for the list */
@@ -1164,10 +1184,16 @@ details strong {
 
 ul.nav > li.nav-item:last-child {
   /* CSS cho item cuối cùng */
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 /* Ghi đè lại cho các item cuối cùng trong submenu */
 ul.nav li ul li.nav-item:last-child {
   padding-bottom: initial !important;
 }
+
+.content-wrapper a {
+  color: #003d82 !important;
+  text-decoration: underline;
+}
+
