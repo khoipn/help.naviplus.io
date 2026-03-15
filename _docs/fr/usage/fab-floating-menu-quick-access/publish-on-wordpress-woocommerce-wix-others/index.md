@@ -20,7 +20,7 @@ Cette méthode d'implémentation convient à tous les types de menus que Navi+ p
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456"
 });</script>
-<script src="https://live.naviplus.app/start.js" async></script>
+&lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
 <!-- Insérez ce code dans le <head> du site Web -->
 ```
 
@@ -64,7 +64,7 @@ Le code ci-dessous peut être utilisé plusieurs fois sur un site Web avec diff�
    token: "NAVI123456",
    embed_id: "SF-123456789"
 });</script>
-<script src="https://live.naviplus.app/start.js" async></script>
+&lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
 <!-- Insérez le code où le menu SF-123456789 apparaît -->
 ```
 

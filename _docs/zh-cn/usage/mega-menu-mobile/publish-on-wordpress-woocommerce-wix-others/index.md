@@ -20,7 +20,7 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456"
 });</script>
-<script src="https://live.naviplus.app/start.js" async></script>
+&lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
 <!-- 将此代码插入到网站的 <head> 中 -->
 ```
 
@@ -64,7 +64,7 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
    token: "NAVI123456",
    embed_id: "SF-123456789"
 });</script>
-<script src="https://live.naviplus.app/start.js" async></script>
+&lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
 <!-- 在菜单 SF-123456789 出现的地方插入代码 -->
 ```
 

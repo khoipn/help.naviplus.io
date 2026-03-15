@@ -20,7 +20,7 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456"
 });</script>
-<script src="https://live.naviplus.app/start.js" async></script>
+&lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
 <!-- Chèn mã này vào <head> của trang web -->
 ```
 
@@ -64,7 +64,7 @@ Mã dưới đây có thể được sử dụng nhiều lần trên một trang
    token: "NAVI123456",
    embed_id: "SF-123456789"
 });</script>
-<script src="https://live.naviplus.app/start.js" async></script>
+&lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
 <!-- Chèn mã ở nơi menu SF-123456789 xuất hiện -->
 ```
 

@@ -236,6 +236,21 @@ def escape_custom_liquid_tags(markdown_content):
     
     return markdown_content
 
+def escape_external_script_tags(markdown_content):
+    if not markdown_content:
+        return markdown_content
+
+    script_pattern = re.compile(
+        r'(<script\b[^>]*\bsrc="https://(?:live|flov)\.naviplus\.app/start\.js"[^>]*>\s*</script>)',
+        re.IGNORECASE,
+    )
+
+    def escape_match(match):
+        tag = match.group(1)
+        return tag.replace("<", "&lt;").replace(">", "&gt;")
+
+    return script_pattern.sub(escape_match, markdown_content)
+
 def process_details_tags(markdown_content):
     """Parse Markdown inside <details> tags and convert to HTML."""
     print("Processing <details> tags and converting internal Markdown...")
@@ -362,6 +377,8 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     
     # Escape custom Liquid tags to prevent Jekyll errors
     processed_md_content = escape_custom_liquid_tags(processed_md_content)
+
+    processed_md_content = escape_external_script_tags(processed_md_content)
     
     # Process <details> tags and convert internal Markdown to HTML
     processed_md_content = process_details_tags(processed_md_content)
