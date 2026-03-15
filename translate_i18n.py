@@ -123,20 +123,27 @@ def apply_md_markers_to_protected_spans(text):
             return value
         return f"{marker_open}{value}{marker_close}"
 
+    protected = []
+
+    def protect(match):
+        protected.append(match.group(0))
+        return f"__PROTECTED_SPAN_{len(protected) - 1}__"
+
     fenced_code_re = re.compile(r"```[\s\S]*?```", re.MULTILINE)
-    text = fenced_code_re.sub(wrap, text)
-
     html_pre_re = re.compile(r"<pre\b[\s\S]*?</pre>", re.IGNORECASE)
-    text = html_pre_re.sub(wrap, text)
-
     html_code_re = re.compile(r"<code\b[\s\S]*?</code>", re.IGNORECASE)
-    text = html_code_re.sub(wrap, text)
-
+    html_figure_re = re.compile(r"<figure\b[\s\S]*?</figure>", re.IGNORECASE)
+    html_img_tag_re = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
     inline_code_re = re.compile(r"`[^`\n]+`")
-    text = inline_code_re.sub(wrap, text)
+
+    for pattern in (fenced_code_re, html_pre_re, html_code_re, html_figure_re, html_img_tag_re, inline_code_re):
+        text = pattern.sub(protect, text)
 
     quoted_re = re.compile(r"\"(?:\\.|[^\"\\])*\"")
     text = quoted_re.sub(wrap, text)
+
+    for i, value in enumerate(protected):
+        text = text.replace(f"__PROTECTED_SPAN_{i}__", f"{marker_open}{value}{marker_close}")
 
     return text
 
@@ -293,6 +300,7 @@ def main():
     parser.add_argument("--model", default=os.environ.get("OPENAI_MODEL", "gpt-4o-mini"))
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--max-pages", type=int, default=0)
+    parser.add_argument("--only", default="")
     parser.add_argument("--mock", action="store_true")
     parser.add_argument("--sleep-ms", type=int, default=0)
     parser.add_argument("--force", action="store_true")
@@ -368,6 +376,15 @@ def main():
                     "src_hash": src_hash,
                 }
             )
+
+    if args.only:
+        only_terms = [t.strip() for t in args.only.split(",") if t.strip()]
+        if only_terms:
+            tasks = [
+                t
+                for t in tasks
+                if any(term in t.get("docs_rel", "") or term in t.get("permalink", "") for term in only_terms)
+            ]
 
     total = len(tasks)
     if args.dry_run:

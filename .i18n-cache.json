@@ -382,7 +382,7 @@
   "usage/slide-menu-hamburger-menu/how-to-use/index.md::vi": {
     "src_hash": "7b34b8a3827544f4137b7905bbdcef92725bb60ce0ea98c2db92b19b72164b61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497823
+    "updated_at": 1773554350
   },
   "usage/slide-menu-hamburger-menu/index.md::vi": {
     "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
