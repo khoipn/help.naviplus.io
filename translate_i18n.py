@@ -147,6 +147,13 @@ def strip_md_markers(text):
     return text.replace("{md}", "").replace("{endmd}", "")
 
 
+def unescape_newlines(text):
+    if not text:
+        return text
+    # Replace literal \n with actual newline
+    return text.replace("\\n", "\n")
+
+
 def openai_translate(api_key, model, target_language_name, payload):
     url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1/chat/completions")
     timeout_s = int(os.environ.get("OPENAI_REQUEST_TIMEOUT", "120") or "120")
@@ -202,8 +209,8 @@ def openai_translate(api_key, model, target_language_name, payload):
 
     return {
         "title": strip_md_markers((parsed.get("title") or "").strip()),
-        "description": strip_md_markers((parsed.get("description") or "").strip()),
-        "content": strip_md_markers((parsed.get("content") or "").rstrip()) + "\n",
+        "description": unescape_newlines(strip_md_markers((parsed.get("description") or "").strip())),
+        "content": unescape_newlines(strip_md_markers((parsed.get("content") or "").rstrip())) + "\n",
     }
 
 

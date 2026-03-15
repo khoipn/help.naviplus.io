@@ -44,8 +44,14 @@ Dự án sử dụng 3 kịch bản Python chính để quản lý nội dung:
 Đảm bảo bạn đã cài đặt Ruby và Python 3.
 
 ```bash
+# Dùng Ruby của Homebrew (tránh /usr/bin/ruby 2.6 gây lỗi bundler)
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+# Cài bundler đúng phiên bản theo Gemfile.lock (chỉ cần làm 1 lần)
+gem install bundler -v 4.0.8
+
 # Cài đặt các gem Ruby
-bundle install
+bundle _4.0.8_ install
 
 # Kích hoạt môi trường ảo Python (nếu có)
 source .venv/bin/activate
@@ -64,7 +70,8 @@ python3 build_navigation_i18n.py
 
 ### 3. Chạy Server Local
 ```bash
-bundle exec jekyll serve
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+bundle _4.0.8_ exec jekyll serve
 ```
 Sau đó truy cập: [http://localhost:4000](http://localhost:4000)
 
