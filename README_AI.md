@@ -20,20 +20,26 @@ Dự án này là trung tâm trợ giúp chính thức của **Navi+**, được
 
 ## ⚙️ Quy trình tự động hóa (Workflow)
 
-Dự án sử dụng 3 kịch bản Python chính để quản lý nội dung:
+Quy trình cập nhật nội dung từ GitBook đã được gói vào 1 script để chạy 1 lệnh là xong.
 
-### 1. `getMD.py` (Lấy nội dung)
+### 1) `update_content_and_translate.sh` (1 lệnh để update content)
+- Tự tạo `.venv` và cài dependencies Python cần thiết.
+- Chạy lần lượt: `getMD.py` → `translate_i18n.py` → `build_navigation_i18n.py`.
+- Dịch theo cơ chế incremental (chỉ dịch trang thay đổi nhờ `.i18n-cache.json`).
+
+### 2) `getMD.py` (Lấy nội dung)
 -   Tải tệp Markdown gốc từ một URL từ xa (cấu hình trong `MAIN_NAVIGATION_MD_URL`).
 -   Phân tích cấu trúc tệp để xây dựng sơ đồ trang web.
 -   Tải tất cả các tệp nội dung liên quan và lưu vào thư mục `_docs/`.
 -   Tự động tạo tệp `_data/navigation.yml`.
 
-### 2. `translate_i18n.py` (Dịch thuật AI)
+### 3) `translate_i18n.py` (Dịch thuật AI)
 -   Sử dụng AI (thông qua API) để dịch nội dung từ tiếng Anh sang các ngôn ngữ đích: `vi`, `fr`, `de`, `zh-cn`, `jp`, `it`, `pt-br`, `es`.
 -   Có cơ chế cache (`.i18n-cache.json`) để tránh dịch lại các nội dung không thay đổi, giúp tiết kiệm chi phí và thời gian.
--   Giữ nguyên các thẻ HTML, mã nguồn và các thuật ngữ chuyên môn của Navi+.
+-   Bảo vệ HTML ảnh (`<figure>`, `<img>`) để không bị hỏng khi dịch và tự phát hiện bản dịch lỗi để dịch lại.
+-   Hỗ trợ dịch lại 1 trang bằng `--only` (ví dụ chỉ fix một URL bị lỗi).
 
-### 3. `build_navigation_i18n.py` (Xây dựng Menu đa ngôn ngữ)
+### 4) `build_navigation_i18n.py` (Xây dựng Menu đa ngôn ngữ)
 -   Đọc tệp `_data/navigation.yml` gốc.
 -   Tìm kiếm tiêu đề đã được dịch trong các tệp `index.md` tương ứng ở các thư mục ngôn ngữ.
 -   Tạo ra các tệp menu riêng biệt cho từng ngôn ngữ (ví dụ: `_data/navigation_vi.yml`).
@@ -52,20 +58,13 @@ gem install bundler -v 4.0.8
 
 # Cài đặt các gem Ruby
 bundle _4.0.8_ install
-
-# Kích hoạt môi trường ảo Python (nếu có)
-source .venv/bin/activate
-# Hoặc cài đặt dependencies cho Python
-pip install requests pyyaml markdown
 ```
 
 ### 2. Cập nhật nội dung mới
-Mỗi khi có thay đổi từ nguồn Markdown gốc:
+Mỗi khi có thay đổi từ GitBook, chạy đúng 1 lệnh:
 
 ```bash
-python3 getMD.py
-python3 translate_i18n.py
-python3 build_navigation_i18n.py
+bash update_content_and_translate.sh
 ```
 
 ### 3. Chạy Server Local

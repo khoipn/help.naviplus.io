@@ -148,6 +148,50 @@ def apply_md_markers_to_protected_spans(text):
     return text
 
 
+def tokenize_image_html_blocks(text):
+    if not text:
+        return text, {}
+
+    blocks = {}
+    next_id = 0
+
+    def token_for(value):
+        nonlocal next_id
+        key = f"__HTML_BLOCK_{next_id}__"
+        next_id += 1
+        blocks[key] = value
+        return f"{{md}}{key}{{endmd}}"
+
+    figure_re = re.compile(r"<figure\b[\s\S]*?</figure>", re.IGNORECASE)
+    text = figure_re.sub(lambda m: token_for(m.group(0)), text)
+
+    img_re = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
+    text = img_re.sub(lambda m: token_for(m.group(0)), text)
+
+    return text, blocks
+
+
+def restore_image_html_blocks(text, blocks):
+    if not text or not blocks:
+        return text
+    out = text
+    for key, value in blocks.items():
+        out = out.replace(key, value)
+    return out
+
+
+def looks_like_broken_image_markup(text):
+    if not text:
+        return False
+    if "&lt;img" in text:
+        return True
+    if 'alt="\\' in text:
+        return True
+    if 'src=" `' in text or 'src="`' in text:
+        return True
+    return False
+
+
 def strip_md_markers(text):
     if not text:
         return text
@@ -164,9 +208,17 @@ def openai_translate(api_key, model, target_language_name, payload):
     url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1/chat/completions")
     timeout_s = int(os.environ.get("OPENAI_REQUEST_TIMEOUT", "120") or "120")
 
-    title_in = apply_md_markers_to_protected_spans((payload.get("title") or "").strip())
-    description_in = apply_md_markers_to_protected_spans((payload.get("description") or "").strip())
-    content_in = apply_md_markers_to_protected_spans((payload.get("content") or "").rstrip() + "\n")
+    title_raw = (payload.get("title") or "").strip()
+    description_raw = (payload.get("description") or "").strip()
+    content_raw = (payload.get("content") or "").rstrip() + "\n"
+
+    title_tok, title_blocks = tokenize_image_html_blocks(title_raw)
+    description_tok, description_blocks = tokenize_image_html_blocks(description_raw)
+    content_tok, content_blocks = tokenize_image_html_blocks(content_raw)
+
+    title_in = apply_md_markers_to_protected_spans(title_tok)
+    description_in = apply_md_markers_to_protected_spans(description_tok)
+    content_in = apply_md_markers_to_protected_spans(content_tok)
 
     prompt = PROMPT_SINGLE_TEMPLATE.format(
         LANG_NAME=target_language_name,
@@ -214,9 +266,15 @@ def openai_translate(api_key, model, target_language_name, payload):
             raise
 
     return {
-        "title": strip_md_markers((parsed.get("title") or "").strip()),
-        "description": unescape_newlines(strip_md_markers((parsed.get("description") or "").strip())),
-        "content": unescape_newlines(strip_md_markers((parsed.get("content") or "").rstrip())) + "\n",
+        "title": restore_image_html_blocks(strip_md_markers((parsed.get("title") or "").strip()), title_blocks),
+        "description": restore_image_html_blocks(
+            unescape_newlines(strip_md_markers((parsed.get("description") or "").strip())),
+            description_blocks,
+        ),
+        "content": restore_image_html_blocks(
+            unescape_newlines(strip_md_markers((parsed.get("content") or "").rstrip())) + "\n",
+            content_blocks,
+        ),
     }
 
 
@@ -358,6 +416,7 @@ def main():
                 and cached.get("src_hash") == src_hash
                 and cached.get("engine") == engine
                 and out_path.exists()
+                and not looks_like_broken_image_markup(out_path.read_text(encoding="utf-8"))
             ):
                 skipped += 1
                 continue

@@ -322,7 +322,7 @@
   "usage/mega-menu-desktop/how-to-use/index.md::vi": {
     "src_hash": "ca47557134d4743dc969c205d849739b09fa86a8195a60b012789e00106ccd6e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494077
+    "updated_at": 1773555014
   },
   "usage/mega-menu-desktop/index.md::vi": {
     "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
@@ -342,7 +342,7 @@
   "usage/mega-menu-mobile/how-to-use/index.md::vi": {
     "src_hash": "9b3060c05abc66ce0d098f0e51690c2c4ee544090503ce24a5a11bddcf185cdc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773495759
+    "updated_at": 1773555489
   },
   "usage/mega-menu-mobile/index.md::vi": {
     "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
@@ -382,7 +382,7 @@
   "usage/slide-menu-hamburger-menu/how-to-use/index.md::vi": {
     "src_hash": "7b34b8a3827544f4137b7905bbdcef92725bb60ce0ea98c2db92b19b72164b61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773554350
+    "updated_at": 1773554878
   },
   "usage/slide-menu-hamburger-menu/index.md::vi": {
     "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
