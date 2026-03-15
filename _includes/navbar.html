@@ -17,9 +17,43 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
+      {% assign nav_current_page_url = page.url | remove: 'index.html' | replace: '//', '/' %}
+      {% if nav_current_page_url != '/' and nav_current_page_url contains '/' and nav_current_page_url | slice: -1 == '/' %}
+        {% assign nav_current_page_url = nav_current_page_url | remove_last: '/' %}
+      {% endif %}
+      {% if nav_current_page_url == "" %}{% assign nav_current_page_url = "/" %}{% endif %}
+
+      {% assign nav_current_lang_prefix = nil %}
+      {% assign nav_lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: "," %}
+      {% for candidate in nav_lang_candidates %}
+        {% assign candidate_prefix = "/" | append: candidate | append: "/docs" %}
+        {% if nav_current_page_url contains candidate_prefix %}
+          {% assign nav_current_lang_prefix = candidate %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign label_search = "Search docs" %}
+      {% if nav_current_lang_prefix == "vi" %}
+        {% assign label_search = "Tìm kiếm tài liệu" %}
+      {% elsif nav_current_lang_prefix == "jp" %}
+        {% assign label_search = "ドキュメント検索" %}
+      {% elsif nav_current_lang_prefix == "fr" %}
+        {% assign label_search = "Rechercher dans la documentation" %}
+      {% elsif nav_current_lang_prefix == "de" %}
+        {% assign label_search = "Dokumentation durchsuchen" %}
+      {% elsif nav_current_lang_prefix == "zh-cn" %}
+        {% assign label_search = "搜索文档" %}
+      {% elsif nav_current_lang_prefix == "it" %}
+        {% assign label_search = "Cerca nella documentazione" %}
+      {% elsif nav_current_lang_prefix == "pt-br" %}
+        {% assign label_search = "Pesquisar na documentação" %}
+      {% elsif nav_current_lang_prefix == "es" %}
+        {% assign label_search = "Buscar en la documentación" %}
+      {% endif %}
+
       <form class="navbar-search d-flex position-relative my-2 my-lg-0 ms-lg-3 me-lg-3" role="search" autocomplete="off" data-search-index-url="{{ '/search.json' | relative_url }}">
         <i class="ri-search-line navbar-search-icon" aria-hidden="true"></i>
-        <input class="form-control form-control-sm" type="search" placeholder="Search docs" aria-label="Search docs" id="siteSearchInput">
+        <input class="form-control form-control-sm" type="search" placeholder="{{ label_search }}" aria-label="{{ label_search }}" id="siteSearchInput">
         <div class="navbar-search-results list-group position-absolute top-100 start-0 w-100 shadow d-none" id="siteSearchResults"></div>
       </form>
       <ul class="navbar-nav ms-auto" id="main-navbar-nav-links">

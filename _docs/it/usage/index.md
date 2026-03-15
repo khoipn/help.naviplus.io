@@ -1,0 +1,50 @@
+---
+description: '- Esplora i menu comuni'
+lang: it
+layout: default
+permalink: /it/docs/usage/
+title: Utilizzo
+---
+# Utilizzo
+
+- [Esplora i menu comuni](/manual/website/help.naviplus.io/usage/explore-common-menus.md "Esplora i menu comuni")
+- [Tabbar (Bottom Navigation)](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation.md "Tabbar (Bottom Navigation)")
+- [Come si usa?](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/how-to-use.md "Come si usa?")
+- [Pubblicazione su Shopify](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publishing-on-shopify.md "Pubblicazione su Shopify")
+- [Pubblica su WordPress / Woo / Wix / Altri](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md "Pubblica su WordPress / Woo / Wix / Altri")
+- [Mega Menu (desktop)](/manual/website/help.naviplus.io/usage/mega-menu-desktop.md "Mega Menu (desktop)")
+- [Come si usa?](/manual/website/help.naviplus.io/usage/mega-menu-desktop/how-to-use.md "Come si usa?")
+- [Pubblicazione su Shopify](/manual/website/help.naviplus.io/usage/mega-menu-desktop/publishing-on-shopify.md "Pubblicazione su Shopify")
+- [Pubblica su WordPress / WooCommerce / Wix / Altri](/manual/website/help.naviplus.io/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others.md "Pubblica su WordPress / WooCommerce / Wix / Altri")
+- [FAQ](/manual/website/help.naviplus.io/usage/mega-menu-desktop/faq.md "FAQ")
+- [Mega Menu (mobile)](/manual/website/help.naviplus.io/usage/mega-menu-mobile.md "Mega Menu (mobile)")
+- [Come si usa?](/manual/website/help.naviplus.io/usage/mega-menu-mobile/how-to-use.md "Come si usa?")
+- [Pubblicazione su Shopify](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publishing-on-shopify.md "Pubblicazione su Shopify")
+- [Pubblica su WordPress / WooCommerce / Wix / Altri](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md "Pubblica su WordPress / WooCommerce / Wix / Altri")
+- [Slide menu (Hamburger Menu)](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu.md "Slide menu (Hamburger Menu)")
+- [Come si usa?](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/how-to-use.md "Come si usa?")
+- [Esempi di pubblicazione](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-examples.md "Esempi di pubblicazione")
+- [Pubblicazione su Shopify](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-on-shopify.md "Pubblicazione su Shopify")
+- [Pubblica su WordPress / WooCommerce / Wix / Altri](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others.md "Pubblica su WordPress / WooCommerce / Wix / Altri")
+- [FAB - Floating Menu / Quick Access](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access.md "FAB - Floating Menu / Quick Access")
+- [Come si usa?](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md "Come si usa?")
+- [Pubblicazione su Shopify](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md "Pubblicazione su Shopify")
+- [Pubblica su WordPress / WooCommerce / Wix / Altri](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md "Pubblica su WordPress / WooCommerce / Wix / Altri")
+- [Grid Menu](/manual/website/help.naviplus.io/usage/grid-menu.md "Grid Menu")
+- [Come si usa?](/manual/website/help.naviplus.io/usage/grid-menu/how-to-use.md "Come si usa?")
+- [Responsive Grid Menu](/manual/website/help.naviplus.io/usage/grid-menu/responsive-grid-menu.md "Responsive Grid Menu")
+- [Pubblicazione su Shopify](/manual/website/help.naviplus.io/usage/grid-menu/publishing-on-shopify.md "Pubblicazione su Shopify")
+- [Pubblica su WordPress / WooCommerce / Wix / Altri](/manual/website/help.naviplus.io/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others.md "Pubblica su WordPress / WooCommerce / Wix / Altri")
+- [Generale](/manual/website/help.naviplus.io/usage/general.md "Generale")
+- [Applica multi-lingua](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Applica multi-lingua")
+- [Trova il selettore CSS](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Trova il selettore CSS")
+- [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")
+- [Applica un font personalizzato](/manual/website/help.naviplus.io/usage/general/apply-a-custom-font.md "Applica un font personalizzato")
+- [Caricamento avanzato delle immagini](/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md "Caricamento avanzato delle immagini")
+- [Profondità del menu](/manual/website/help.naviplus.io/usage/general/menu-depth.md "Profondità del menu")
+- [Shopify](/manual/website/help.naviplus.io/usage/shopify.md "Shopify")
+- [Usa la funzione multi-lingua.](/manual/website/help.naviplus.io/usage/shopify/use-the-multi-language-feature..md "Usa la funzione multi-lingua.")
+- [Ottimizza la velocità di caricamento (Slide & Mega menus)](/manual/website/help.naviplus.io/usage/shopify/optimize-loading-speed-slide-and-mega-menus.md "Ottimizza la velocità di caricamento (Slide & Mega menus)")
+- [Impedisci ai menu Navi+ di sovrapporsi ad altre app](/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md "Impedisci ai menu Navi+ di sovrapporsi ad altre app")
+- [Alcune FAQ sulla pubblicazione del menu Navi+](/manual/website/help.naviplus.io/usage/some-faqs-about-publishing-navi+-menu.md "Alcune FAQ sulla pubblicazione del menu Navi+")
+- [Modalità debug - Trova selettori CSS](/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md "Modalità debug - Trova selettori CSS")

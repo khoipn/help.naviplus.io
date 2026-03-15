@@ -386,10 +386,10 @@ main img.error {
 .content-wrapper {
   h1, h2, h3, h4, h5, h6 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-    font-weight: 600;
     line-height: 1.25;
-    margin-top: 0.4em;
-    margin-bottom: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 0.01em;
+
   }
 
   h1 { font-size: 1.60em; }
@@ -400,9 +400,9 @@ main img.error {
   h6 { font-size: 0.875em; color: #6a737d; }
 
   p {
-    margin-bottom: 12px;
-    margin-top: 12px;  
-    font-size: 15px;
+    margin-bottom: 16px;
+    margin-top: 4px;  
+    font-size: 14px;
     line-height: 1.5;
   }
 

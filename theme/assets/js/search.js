@@ -114,6 +114,32 @@
     };
   })();
 
+  const getCurrentLangPrefix = () => {
+    const pathname = (typeof window !== "undefined" && window.location && window.location.pathname) || "/";
+    const prefixes = ["vi", "jp", "fr", "de", "zh-cn", "it", "pt-br", "es"];
+    for (const prefix of prefixes) {
+      if (pathname.startsWith(`/${prefix}/`)) return prefix;
+    }
+    return "";
+  };
+
+  const filterDocsByLanguage = (docs) => {
+    const prefix = getCurrentLangPrefix();
+    if (!prefix) {
+      const otherPrefixes = ["vi", "jp", "fr", "de", "zh-cn", "it", "pt-br", "es"];
+      return docs.filter((doc) => {
+        const url = doc.url || "";
+        if (!url.startsWith("/docs/")) return false;
+        for (const p of otherPrefixes) {
+          if (url.startsWith(`/${p}/docs/`)) return false;
+        }
+        return true;
+      });
+    }
+
+    return docs.filter((doc) => (doc.url || "").startsWith(`/${prefix}/docs/`));
+  };
+
   const searchDocs = (docs, query) => {
     const normalized = normalizeText(query).trim();
     if (!normalized) return [];
@@ -121,7 +147,9 @@
     const tokens = normalized.split(/\s+/).filter(Boolean);
     const matches = [];
 
-    for (const doc of docs) {
+    const filteredDocs = filterDocsByLanguage(docs);
+
+    for (const doc of filteredDocs) {
       const text = doc.searchableContent;
       let ok = true;
       let score = 0;
@@ -195,4 +223,3 @@
     setup();
   }
 })();
-

@@ -1,0 +1,278 @@
+- processed_path: getting-started
+  title: Começando
+  url: /docs/getting-started/
+- processed_path: why-choose-navi
+  title: Por que escolher o Navi+?
+  url: /docs/why-choose-navi/
+- processed_path: common-first-questions
+  title: Perguntas comuns iniciais
+  url: /docs/common-first-questions/
+- processed_path: how-to-install-navi
+  title: Como instalar o Navi+
+  url: /docs/how-to-install-navi/
+- processed_path: line
+  title: line
+  url: /docs/line/
+- processed_path: troubleshooting
+  title: Solução de Problemas
+  url: /docs/troubleshooting/
+- processed_path: latest-update
+  title: Última Atualização
+  url: /docs/latest-update/
+- processed_path: line-1
+  title: line
+  url: /docs/line-1/
+- children:
+  - processed_path: demo/1click-live-demo
+    title: 1Click live demo
+    url: /docs/demo/1click-live-demo/
+  processed_path: demo
+  title: Demonstração
+  url: /docs/demo/
+- children:
+  - processed_path: usage/explore-common-menus
+    title: Explore menus comuns
+    url: /docs/usage/explore-common-menus/
+  - children:
+    - processed_path: usage/tabbar-bottom-navigation/how-to-use
+      title: Como usar?
+      url: /docs/usage/tabbar-bottom-navigation/how-to-use/
+    - processed_path: usage/tabbar-bottom-navigation/publishing-on-shopify
+      title: Publicando no Shopify
+      url: /docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
+    - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others
+      title: Publicar no WordPress / Woo / Wix / Outros
+      url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
+    processed_path: usage/tabbar-bottom-navigation
+    title: Tabbar (Bottom Navigation)
+    url: /docs/usage/tabbar-bottom-navigation/
+  - children:
+    - processed_path: usage/mega-menu-desktop/how-to-use
+      title: Como usar?
+      url: /docs/usage/mega-menu-desktop/how-to-use/
+    - processed_path: usage/mega-menu-desktop/publishing-on-shopify
+      title: Publicando no Shopify
+      url: /docs/usage/mega-menu-desktop/publishing-on-shopify/
+    - processed_path: usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others
+      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      url: /docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
+    - processed_path: usage/mega-menu-desktop/faq
+      title: FAQ
+      url: /docs/usage/mega-menu-desktop/faq/
+    processed_path: usage/mega-menu-desktop
+    title: Mega Menu (desktop)
+    url: /docs/usage/mega-menu-desktop/
+  - children:
+    - processed_path: usage/mega-menu-mobile/how-to-use
+      title: Como usar?
+      url: /docs/usage/mega-menu-mobile/how-to-use/
+    - processed_path: usage/mega-menu-mobile/publishing-on-shopify
+      title: Publicando no Shopify
+      url: /docs/usage/mega-menu-mobile/publishing-on-shopify/
+    - processed_path: usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others
+      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      url: /docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
+    processed_path: usage/mega-menu-mobile
+    title: Mega Menu (mobile)
+    url: /docs/usage/mega-menu-mobile/
+  - children:
+    - processed_path: usage/slide-menu-hamburger-menu/how-to-use
+      title: Como usar?
+      url: /docs/usage/slide-menu-hamburger-menu/how-to-use/
+    - processed_path: usage/slide-menu-hamburger-menu/publishing-examples
+      title: Exemplos de publicação
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-examples/
+    - processed_path: usage/slide-menu-hamburger-menu/publishing-on-shopify
+      title: Publicando no Shopify
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
+    - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others
+      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
+    processed_path: usage/slide-menu-hamburger-menu
+    title: Menu deslizante (Menu Hambúrguer)
+    url: /docs/usage/slide-menu-hamburger-menu/
+  - children:
+    - processed_path: usage/fab-floating-menu-quick-access/how-to-use
+      title: Como usar?
+      url: /docs/usage/fab-floating-menu-quick-access/how-to-use/
+    - processed_path: usage/fab-floating-menu-quick-access/publishing-on-shopify
+      title: Publicando no Shopify
+      url: /docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
+    - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others
+      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
+    processed_path: usage/fab-floating-menu-quick-access
+    title: FAB - Menu Flutuante / Acesso Rápido
+    url: /docs/usage/fab-floating-menu-quick-access/
+  - children:
+    - processed_path: usage/grid-menu/how-to-use
+      title: Como usar?
+      url: /docs/usage/grid-menu/how-to-use/
+    - processed_path: usage/grid-menu/responsive-grid-menu
+      title: Menu de Grade Responsivo
+      url: /docs/usage/grid-menu/responsive-grid-menu/
+    - processed_path: usage/grid-menu/publishing-on-shopify
+      title: Publicando no Shopify
+      url: /docs/usage/grid-menu/publishing-on-shopify/
+    - processed_path: usage/grid-menu/publish-on-wordpress-woocommerce-wix-others
+      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      url: /docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
+    processed_path: usage/grid-menu
+    title: Menu em Grade
+    url: /docs/usage/grid-menu/
+  - children:
+    - processed_path: usage/general/apply-multi-language
+      title: Aplicar multi-idioma
+      url: /docs/usage/general/apply-multi-language/
+    - processed_path: usage/general/find-css-selector
+      title: Encontrar Seletor CSS
+      url: /docs/usage/general/find-css-selector/
+    - processed_path: usage/general/z-index
+      title: Z-index
+      url: /docs/usage/general/z-index/
+    - processed_path: usage/general/apply-a-custom-font
+      title: Aplicar uma fonte personalizada
+      url: /docs/usage/general/apply-a-custom-font/
+    - processed_path: usage/general/advanced-image-upload
+      title: Upload avançado de imagens
+      url: /docs/usage/general/advanced-image-upload/
+    - processed_path: usage/general/menu-depth
+      title: Menu depth
+      url: /docs/usage/general/menu-depth/
+    processed_path: usage/general
+    title: Geral
+    url: /docs/usage/general/
+  - children:
+    - processed_path: usage/shopify/use-the-multi-language-feature
+      title: Use the multi-language feature.
+      url: /docs/usage/shopify/use-the-multi-language-feature/
+    - processed_path: usage/shopify/optimize-loading-speed-slide-and-mega-menus
+      title: Otimizar a velocidade de carregamento (Slide & Mega menus)
+      url: /docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/
+    - processed_path: usage/shopify/how-to-other-applications-work-with-naviplus
+      title: Impedir que os menus do Navi+ se sobreponham a outros aplicativos
+      url: /docs/usage/shopify/how-to-other-applications-work-with-naviplus/
+    processed_path: usage/shopify
+    title: Shopify
+    url: /docs/usage/shopify/
+  - processed_path: usage/some-faqs-about-publishing-navi-menu
+    title: Algumas perguntas frequentes sobre a publicação do menu Navi+
+    url: /docs/usage/some-faqs-about-publishing-navi-menu/
+  - processed_path: usage/debug-mode-find-css-selectors
+    title: Modo de depuração - Encontrar seletores CSS
+    url: /docs/usage/debug-mode-find-css-selectors/
+  processed_path: usage
+  title: Uso
+  url: /docs/usage/
+- children:
+  - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
+    title: Integrando Navi+ com seu site e aplicativos externos
+    url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/
+  - processed_path: integrations/the-html-and-css-structure-of-all-navi-menus
+    title: A estrutura HTML e CSS de todos os menus Navi+
+    url: /docs/integrations/the-html-and-css-structure-of-all-navi-menus/
+  - children:
+    - processed_path: integrations/chat-tools/shopify-inbox
+      title: Shopify Inbox
+      url: /docs/integrations/chat-tools/shopify-inbox/
+    - processed_path: integrations/chat-tools/tidi-chat
+      title: Tidi chat
+      url: /docs/integrations/chat-tools/tidi-chat/
+    processed_path: integrations/chat-tools
+    title: Ferramentas de chat
+    url: /docs/integrations/chat-tools/
+  - children:
+    - processed_path: integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel
+      title: 'Shopify: Open the hamburger menu or cart, search panel'
+      url: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
+    processed_path: integrations/themes
+    title: Temas
+    url: /docs/integrations/themes/
+  processed_path: integrations
+  title: Integrações
+  url: /docs/integrations/
+- children:
+  - children:
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css
+      title: Usando configurações internas ou CSS personalizado?
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state
+      title: Remover estado ativo do item do menu?
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu
+      title: Alinhar submenu de nível 3 no mega menu?
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/
+    processed_path: frequently-asked-questions/customize-user-interface-ui
+    title: Personalizar a interface do usuário (UI)
+    url: /docs/frequently-asked-questions/customize-user-interface-ui/
+  - children:
+    - processed_path: frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images
+      title: Otimizar imagens
+      url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/
+    - processed_path: frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux
+      title: Otimize a velocidade e melhore a experiência do usuário (UX).
+      url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/
+    processed_path: frequently-asked-questions/optimize-speeds-images-and-ux
+    title: Otimize velocidades, imagens e UX
+    url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/
+  - processed_path: frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu
+    title: Como Transferir um Menu Navi+ para Outro Menu Navi+
+    url: /docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
+  - processed_path: frequently-asked-questions/how-does-navi-support-seo
+    title: Como o Navi+ suporta SEO?
+    url: /docs/frequently-asked-questions/how-does-navi-support-seo/
+  - processed_path: frequently-asked-questions/navi-plans-starter-business-and-elite
+    title: Planos Navi+ (Starter, Business & Elite)
+    url: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
+  - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
+    title: Por que os painéis de Menu, Pesquisa e Carrinho não estão funcionando?
+    url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
+  - processed_path: frequently-asked-questions/why-navi-not-display
+    title: Por que o menu Navi+ não é exibido no meu site?
+    url: /docs/frequently-asked-questions/why-navi-not-display/
+  processed_path: frequently-asked-questions
+  title: Perguntas Frequentes
+  url: /docs/frequently-asked-questions/
+- processed_path: line-2
+  title: line
+  url: /docs/line-2/
+- children:
+  - processed_path: development/how-to-write-a-correct-css-code-in-navi
+    title: Como escrever um código CSS correto no Navi+
+    url: /docs/development/how-to-write-a-correct-css-code-in-navi/
+  - processed_path: development/add-walk-through-to-navi
+    title: Adicionar walkthrough ao Navi+
+    url: /docs/development/add-walk-through-to-navi/
+  processed_path: development
+  title: Desenvolvimento
+  url: /docs/development/
+- children:
+  - processed_path: limitation/shopify-bottom-bar-issue-on-google-app-iphone
+    title: Problema da Barra Inferior do Shopify no Google App (iPhone)
+    url: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
+  processed_path: limitation
+  title: Limitação
+  url: /docs/limitation/
+- processed_path: line-3
+  title: line
+  url: /docs/line-3/
+- children:
+  - processed_path: resources/privacy-policy
+    title: Política de Privacidade
+    url: /docs/resources/privacy-policy/
+  - processed_path: resources/terms-and-condition
+    title: Termos e Condições
+    url: /docs/resources/terms-and-condition/
+  processed_path: resources
+  title: Recursos
+  url: /docs/resources/
+- children:
+  - processed_path: partership/earn-up-to-225-revshare-with-navi
+    title: Ganhe até 22,5% de RevShare com Navi+
+    url: /docs/partership/earn-up-to-225-revshare-with-navi/
+  - processed_path: partership/navi-care-or-design-your-menus-like-an-expert
+    title: Navi+ Care | Design seus menus como um especialista
+    url: /docs/partership/navi-care-or-design-your-menus-like-an-expert/
+  processed_path: partership
+  title: Partership
+  url: /docs/partership/

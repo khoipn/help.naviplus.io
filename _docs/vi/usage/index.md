@@ -1,0 +1,50 @@
+---
+description: '- Khám phá các menu phổ biến'
+lang: vi
+layout: default
+permalink: /vi/docs/usage/
+title: Sử dụng
+---
+# Sử dụng
+
+- [Khám phá các menu phổ biến](/manual/website/help.naviplus.io/usage/explore-common-menus.md "Explore common menus")
+- [Tabbar (Bottom Navigation)](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation.md "Tabbar (Bottom Navigation)")
+- [Cách sử dụng?](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/how-to-use.md "How to use?")
+- [Xuất bản trên Shopify](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publishing-on-shopify.md "Publishing on Shopify")
+- [Xuất bản trên WordPress / Woo / Wix / Khác](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md "Publish on WordPress / Woo / Wix / Others")
+- [Mega Menu (desktop)](/manual/website/help.naviplus.io/usage/mega-menu-desktop.md "Mega Menu (desktop)")
+- [Cách sử dụng?](/manual/website/help.naviplus.io/usage/mega-menu-desktop/how-to-use.md "How to use?")
+- [Xuất bản trên Shopify](/manual/website/help.naviplus.io/usage/mega-menu-desktop/publishing-on-shopify.md "Publishing on Shopify")
+- [Xuất bản trên WordPress / WooCommerce / Wix / Khác](/manual/website/help.naviplus.io/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [Câu hỏi thường gặp](/manual/website/help.naviplus.io/usage/mega-menu-desktop/faq.md "FAQ")
+- [Mega Menu (mobile)](/manual/website/help.naviplus.io/usage/mega-menu-mobile.md "Mega Menu (mobile)")
+- [Cách sử dụng?](/manual/website/help.naviplus.io/usage/mega-menu-mobile/how-to-use.md "How to use?")
+- [Xuất bản trên Shopify](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publishing-on-shopify.md "Publishing on Shopify")
+- [Xuất bản trên WordPress / WooCommerce / Wix / Khác](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [Slide menu (Hamburger Menu)](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu.md "Slide menu (Hamburger Menu)")
+- [Cách sử dụng?](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/how-to-use.md "How to use?")
+- [Ví dụ xuất bản](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-examples.md "Publishing examples")
+- [Xuất bản trên Shopify](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-on-shopify.md "Publishing on Shopify")
+- [Xuất bản trên WordPress / WooCommerce / Wix / Khác](/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [FAB - Floating Menu / Quick Access](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access.md "FAB - Floating Menu / Quick Access")
+- [Cách sử dụng?](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md "How to use?")
+- [Xuất bản trên Shopify](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md "Publishing on Shopify")
+- [Xuất bản trên WordPress / WooCommerce / Wix / Khác](/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [Grid Menu](/manual/website/help.naviplus.io/usage/grid-menu.md "Grid Menu")
+- [Cách sử dụng?](/manual/website/help.naviplus.io/usage/grid-menu/how-to-use.md "How to use?")
+- [Responsive Grid Menu](/manual/website/help.naviplus.io/usage/grid-menu/responsive-grid-menu.md "Responsive Grid Menu")
+- [Xuất bản trên Shopify](/manual/website/help.naviplus.io/usage/grid-menu/publishing-on-shopify.md "Publishing on Shopify")
+- [Xuất bản trên WordPress / WooCommerce / Wix / Khác](/manual/website/help.naviplus.io/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [Chung](/manual/website/help.naviplus.io/usage/general.md "General")
+- [Áp dụng đa ngôn ngữ](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Apply multi-language")
+- [Tìm CSS Selector](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
+- [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")
+- [Áp dụng phông chữ tùy chỉnh](/manual/website/help.naviplus.io/usage/general/apply-a-custom-font.md "Apply a custom font")
+- [Tải lên hình ảnh nâng cao](/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md "Advanced image upload")
+- [Độ sâu menu](/manual/website/help.naviplus.io/usage/general/menu-depth.md "Menu depth")
+- [Shopify](/manual/website/help.naviplus.io/usage/shopify.md "Shopify")
+- [Sử dụng tính năng đa ngôn ngữ.](/manual/website/help.naviplus.io/usage/shopify/use-the-multi-language-feature..md "Use the multi-language feature.")
+- [Tối ưu tốc độ tải (Slide & Mega menus)](/manual/website/help.naviplus.io/usage/shopify/optimize-loading-speed-slide-and-mega-menus.md "Optimize loading speed (Slide & Mega menus)")
+- [Ngăn chặn menu Navi+ chồng lên các ứng dụng khác](/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md "Prevent Navi+ menus from overlapping other apps")
+- [Một số câu hỏi thường gặp về việc xuất bản menu Navi+](/manual/website/help.naviplus.io/usage/some-faqs-about-publishing-navi+-menu.md "Some FAQs about publishing Navi+ menu")
+- [Chế độ gỡ lỗi - Tìm CSS Selectors](/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md "Debug mode - Find CSS Selectors")

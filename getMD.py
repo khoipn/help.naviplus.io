@@ -18,6 +18,8 @@ NAVIGATION_YML_PATH = "_data/navigation.yml"
 NAVBAR_HTML_PATH = "_includes/navbar.html"
 DEFAULT_LAYOUT_HTML_PATH = "_layouts/default.html"
 
+LANGUAGE_PREFIX_DIRS = {"vi", "jp", "fr", "de", "zh-cn", "it", "pt-br", "es"}
+
 # --- Utility Functions ---
 def clean_directory(path):
     if os.path.exists(path):
@@ -59,7 +61,17 @@ def download_file(url, local_path):
 def clear_old_data():
     """Cleans up old generated markdown files and temporary content."""
     print("Clearing old data...")
-    clean_directory(OUTPUT_DIR)
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+    else:
+        for entry in os.listdir(OUTPUT_DIR):
+            if entry in LANGUAGE_PREFIX_DIRS:
+                continue
+            entry_path = os.path.join(OUTPUT_DIR, entry)
+            if os.path.isdir(entry_path):
+                shutil.rmtree(entry_path)
+            else:
+                os.remove(entry_path)
     clean_directory(TEMP_CONTENT_DIR)
     print("Old data cleared.")
 

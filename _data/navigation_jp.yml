@@ -1,0 +1,278 @@
+- processed_path: getting-started
+  title: 始めに
+  url: /docs/getting-started/
+- processed_path: why-choose-navi
+  title: なぜNavi+を選ぶのか？
+  url: /docs/why-choose-navi/
+- processed_path: common-first-questions
+  title: よくある最初の質問
+  url: /docs/common-first-questions/
+- processed_path: how-to-install-navi
+  title: Navi+のインストール方法
+  url: /docs/how-to-install-navi/
+- processed_path: line
+  title: line
+  url: /docs/line/
+- processed_path: troubleshooting
+  title: トラブルシューティング
+  url: /docs/troubleshooting/
+- processed_path: latest-update
+  title: 最新の更新
+  url: /docs/latest-update/
+- processed_path: line-1
+  title: line
+  url: /docs/line-1/
+- children:
+  - processed_path: demo/1click-live-demo
+    title: 1Click live demo
+    url: /docs/demo/1click-live-demo/
+  processed_path: demo
+  title: デモ
+  url: /docs/demo/
+- children:
+  - processed_path: usage/explore-common-menus
+    title: 一般的なメニューを探る
+    url: /docs/usage/explore-common-menus/
+  - children:
+    - processed_path: usage/tabbar-bottom-navigation/how-to-use
+      title: 使い方は？
+      url: /docs/usage/tabbar-bottom-navigation/how-to-use/
+    - processed_path: usage/tabbar-bottom-navigation/publishing-on-shopify
+      title: Shopifyでの公開
+      url: /docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
+    - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others
+      title: WordPress / Woo / Wix / その他で公開
+      url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
+    processed_path: usage/tabbar-bottom-navigation
+    title: タブバー (ボトムナビゲーション)
+    url: /docs/usage/tabbar-bottom-navigation/
+  - children:
+    - processed_path: usage/mega-menu-desktop/how-to-use
+      title: 使い方は？
+      url: /docs/usage/mega-menu-desktop/how-to-use/
+    - processed_path: usage/mega-menu-desktop/publishing-on-shopify
+      title: Shopifyでの公開
+      url: /docs/usage/mega-menu-desktop/publishing-on-shopify/
+    - processed_path: usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others
+      title: WordPress / WooCommerce / Wix / その他で公開
+      url: /docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
+    - processed_path: usage/mega-menu-desktop/faq
+      title: FAQ
+      url: /docs/usage/mega-menu-desktop/faq/
+    processed_path: usage/mega-menu-desktop
+    title: メガメニュー (デスクトップ)
+    url: /docs/usage/mega-menu-desktop/
+  - children:
+    - processed_path: usage/mega-menu-mobile/how-to-use
+      title: 使い方は？
+      url: /docs/usage/mega-menu-mobile/how-to-use/
+    - processed_path: usage/mega-menu-mobile/publishing-on-shopify
+      title: Shopifyでの公開
+      url: /docs/usage/mega-menu-mobile/publishing-on-shopify/
+    - processed_path: usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others
+      title: WordPress / WooCommerce / Wix / その他で公開
+      url: /docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
+    processed_path: usage/mega-menu-mobile
+    title: メガメニュー (モバイル)
+    url: /docs/usage/mega-menu-mobile/
+  - children:
+    - processed_path: usage/slide-menu-hamburger-menu/how-to-use
+      title: 使い方は？
+      url: /docs/usage/slide-menu-hamburger-menu/how-to-use/
+    - processed_path: usage/slide-menu-hamburger-menu/publishing-examples
+      title: 公開例
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-examples/
+    - processed_path: usage/slide-menu-hamburger-menu/publishing-on-shopify
+      title: Shopifyでの公開
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
+    - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others
+      title: WordPress / WooCommerce / Wix / その他での公開
+      url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
+    processed_path: usage/slide-menu-hamburger-menu
+    title: スライドメニュー（ハンバーガーメニュー）
+    url: /docs/usage/slide-menu-hamburger-menu/
+  - children:
+    - processed_path: usage/fab-floating-menu-quick-access/how-to-use
+      title: 使い方は？
+      url: /docs/usage/fab-floating-menu-quick-access/how-to-use/
+    - processed_path: usage/fab-floating-menu-quick-access/publishing-on-shopify
+      title: Shopifyでの公開
+      url: /docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
+    - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others
+      title: WordPress / WooCommerce / Wix / その他で公開
+      url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
+    processed_path: usage/fab-floating-menu-quick-access
+    title: FAB - Floating Menu / Quick Access
+    url: /docs/usage/fab-floating-menu-quick-access/
+  - children:
+    - processed_path: usage/grid-menu/how-to-use
+      title: 使い方は？
+      url: /docs/usage/grid-menu/how-to-use/
+    - processed_path: usage/grid-menu/responsive-grid-menu
+      title: レスポンシブグリッドメニュー
+      url: /docs/usage/grid-menu/responsive-grid-menu/
+    - processed_path: usage/grid-menu/publishing-on-shopify
+      title: Shopifyでの公開
+      url: /docs/usage/grid-menu/publishing-on-shopify/
+    - processed_path: usage/grid-menu/publish-on-wordpress-woocommerce-wix-others
+      title: WordPress / WooCommerce / Wix / その他で公開
+      url: /docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
+    processed_path: usage/grid-menu
+    title: グリッドメニュー
+    url: /docs/usage/grid-menu/
+  - children:
+    - processed_path: usage/general/apply-multi-language
+      title: 多言語の適用
+      url: /docs/usage/general/apply-multi-language/
+    - processed_path: usage/general/find-css-selector
+      title: CSSセレクタを見つける
+      url: /docs/usage/general/find-css-selector/
+    - processed_path: usage/general/z-index
+      title: Z-index
+      url: /docs/usage/general/z-index/
+    - processed_path: usage/general/apply-a-custom-font
+      title: カスタムフォントを適用する
+      url: /docs/usage/general/apply-a-custom-font/
+    - processed_path: usage/general/advanced-image-upload
+      title: 高度な画像アップロード
+      url: /docs/usage/general/advanced-image-upload/
+    - processed_path: usage/general/menu-depth
+      title: メニューの深さ
+      url: /docs/usage/general/menu-depth/
+    processed_path: usage/general
+    title: 一般
+    url: /docs/usage/general/
+  - children:
+    - processed_path: usage/shopify/use-the-multi-language-feature
+      title: 多言語機能を使用する。
+      url: /docs/usage/shopify/use-the-multi-language-feature/
+    - processed_path: usage/shopify/optimize-loading-speed-slide-and-mega-menus
+      title: 読み込み速度の最適化 (スライド & メガメニュー)
+      url: /docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/
+    - processed_path: usage/shopify/how-to-other-applications-work-with-naviplus
+      title: Navi+メニューが他のアプリと重ならないようにする
+      url: /docs/usage/shopify/how-to-other-applications-work-with-naviplus/
+    processed_path: usage/shopify
+    title: Shopify
+    url: /docs/usage/shopify/
+  - processed_path: usage/some-faqs-about-publishing-navi-menu
+    title: Navi+ メニューの公開に関するいくつかの FAQ
+    url: /docs/usage/some-faqs-about-publishing-navi-menu/
+  - processed_path: usage/debug-mode-find-css-selectors
+    title: デバッグモード - CSSセレクタを見つける
+    url: /docs/usage/debug-mode-find-css-selectors/
+  processed_path: usage
+  title: 使用法
+  url: /docs/usage/
+- children:
+  - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
+    title: Navi+をあなたのウェブサイトや外部アプリと統合する
+    url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/
+  - processed_path: integrations/the-html-and-css-structure-of-all-navi-menus
+    title: Navi+メニューのHTMLおよびCSS構造
+    url: /docs/integrations/the-html-and-css-structure-of-all-navi-menus/
+  - children:
+    - processed_path: integrations/chat-tools/shopify-inbox
+      title: Shopify Inbox
+      url: /docs/integrations/chat-tools/shopify-inbox/
+    - processed_path: integrations/chat-tools/tidi-chat
+      title: Tidi chat
+      url: /docs/integrations/chat-tools/tidi-chat/
+    processed_path: integrations/chat-tools
+    title: チャットツール
+    url: /docs/integrations/chat-tools/
+  - children:
+    - processed_path: integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel
+      title: 'Shopify: Open the hamburger menu or cart, search panel'
+      url: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
+    processed_path: integrations/themes
+    title: テーマ
+    url: /docs/integrations/themes/
+  processed_path: integrations
+  title: 統合
+  url: /docs/integrations/
+- children:
+  - children:
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css
+      title: 組み込み設定またはカスタムCSSを使用しますか？
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state
+      title: メニュー項目のアクティブ状態を削除しますか？
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/
+    - processed_path: frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu
+      title: メガメニューのレベル3サブメニューを整列させるには？
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/
+    processed_path: frequently-asked-questions/customize-user-interface-ui
+    title: ユーザーインターフェース (UI) のカスタマイズ
+    url: /docs/frequently-asked-questions/customize-user-interface-ui/
+  - children:
+    - processed_path: frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images
+      title: 画像の最適化
+      url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/
+    - processed_path: frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux
+      title: 速度を最適化し、ユーザーエクスペリエンス（UX）を向上させる。
+      url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/
+    processed_path: frequently-asked-questions/optimize-speeds-images-and-ux
+    title: 速度、画像、UXを最適化する
+    url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/
+  - processed_path: frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu
+    title: Navi+ メニューを別の Navi+ メニューに転送する方法
+    url: /docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
+  - processed_path: frequently-asked-questions/how-does-navi-support-seo
+    title: Navi+はSEOをどのようにサポートしますか？
+    url: /docs/frequently-asked-questions/how-does-navi-support-seo/
+  - processed_path: frequently-asked-questions/navi-plans-starter-business-and-elite
+    title: Navi+ plans (Starter, Business & Elite)
+    url: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
+  - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
+    title: なぜメニュー、検索、カートパネルが機能しないのですか？
+    url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
+  - processed_path: frequently-asked-questions/why-navi-not-display
+    title: Navi+メニューが私のウェブサイトに表示されないのはなぜですか？
+    url: /docs/frequently-asked-questions/why-navi-not-display/
+  processed_path: frequently-asked-questions
+  title: よくある質問
+  url: /docs/frequently-asked-questions/
+- processed_path: line-2
+  title: line
+  url: /docs/line-2/
+- children:
+  - processed_path: development/how-to-write-a-correct-css-code-in-navi
+    title: Navi+で正しいCSSコードを書く方法
+    url: /docs/development/how-to-write-a-correct-css-code-in-navi/
+  - processed_path: development/add-walk-through-to-navi
+    title: Navi+へのウォークスルーの追加
+    url: /docs/development/add-walk-through-to-navi/
+  processed_path: development
+  title: 開発
+  url: /docs/development/
+- children:
+  - processed_path: limitation/shopify-bottom-bar-issue-on-google-app-iphone
+    title: Shopify Bottom Bar issue on Google App (iPhone)
+    url: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
+  processed_path: limitation
+  title: 制限
+  url: /docs/limitation/
+- processed_path: line-3
+  title: line
+  url: /docs/line-3/
+- children:
+  - processed_path: resources/privacy-policy
+    title: プライバシーポリシー
+    url: /docs/resources/privacy-policy/
+  - processed_path: resources/terms-and-condition
+    title: 利用規約
+    url: /docs/resources/terms-and-condition/
+  processed_path: resources
+  title: リソース
+  url: /docs/resources/
+- children:
+  - processed_path: partership/earn-up-to-225-revshare-with-navi
+    title: Navi+で最大22.5%のRevShareを獲得
+    url: /docs/partership/earn-up-to-225-revshare-with-navi/
+  - processed_path: partership/navi-care-or-design-your-menus-like-an-expert
+    title: Navi+ Care | Design your menus like an expert
+    url: /docs/partership/navi-care-or-design-your-menus-like-an-expert/
+  processed_path: partership
+  title: パートナーシップ
+  url: /docs/partership/

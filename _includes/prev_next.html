@@ -4,8 +4,53 @@
 {% endif %}
 {% if current_page_url == "" %}{% assign current_page_url = "/" %}{% endif %}
 
+{% assign current_lang_prefix = nil %}
+{% assign lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: "," %}
+{% for candidate in lang_candidates %}
+  {% assign candidate_prefix = "/" | append: candidate | append: "/docs" %}
+  {% if current_page_url contains candidate_prefix %}
+    {% assign current_lang_prefix = candidate %}
+  {% endif %}
+{% endfor %}
+
+{% assign nav_data = site.data.navigation %}
+{% if current_lang_prefix %}
+  {% assign nav_key = "navigation_" | append: current_lang_prefix %}
+  {% if site.data[nav_key] %}
+    {% assign nav_data = site.data[nav_key] %}
+  {% endif %}
+{% endif %}
+
+{% assign label_prev = "Back" %}
+{% assign label_next = "Next" %}
+{% if current_lang_prefix == "vi" %}
+  {% assign label_prev = "Trước" %}
+  {% assign label_next = "Tiếp" %}
+{% elsif current_lang_prefix == "jp" %}
+  {% assign label_prev = "前へ" %}
+  {% assign label_next = "次へ" %}
+{% elsif current_lang_prefix == "fr" %}
+  {% assign label_prev = "Précédent" %}
+  {% assign label_next = "Suivant" %}
+{% elsif current_lang_prefix == "de" %}
+  {% assign label_prev = "Zurück" %}
+  {% assign label_next = "Weiter" %}
+{% elsif current_lang_prefix == "zh-cn" %}
+  {% assign label_prev = "上一页" %}
+  {% assign label_next = "下一页" %}
+{% elsif current_lang_prefix == "it" %}
+  {% assign label_prev = "Indietro" %}
+  {% assign label_next = "Avanti" %}
+{% elsif current_lang_prefix == "pt-br" %}
+  {% assign label_prev = "Anterior" %}
+  {% assign label_next = "Próximo" %}
+{% elsif current_lang_prefix == "es" %}
+  {% assign label_prev = "Anterior" %}
+  {% assign label_next = "Siguiente" %}
+{% endif %}
+
 {% assign flat = "" %}
-{% for item in site.data.navigation %}
+{% for item in nav_data %}
   {% if item.url and item.title and item.title != "line" and item.type != "separator" %}
     {% assign flat = flat | append: item.url | append: "||" | append: item.title | append: "\n" %}
   {% endif %}
@@ -32,7 +77,12 @@
   {% if entry != "" and current_index == nil %}
     {% assign parts = entry | split: "||" %}
     {% assign entry_url = parts[0] | default: "" %}
-    {% assign entry_url_normalized = entry_url | remove: 'index.html' | replace: '//', '/' %}
+    {% assign entry_url_display = entry_url %}
+    {% if current_lang_prefix and entry_url_display and entry_url_display contains "/docs/" %}
+      {% assign entry_url_display = "/" | append: current_lang_prefix | append: entry_url_display %}
+    {% endif %}
+
+    {% assign entry_url_normalized = entry_url_display | remove: 'index.html' | replace: '//', '/' %}
     {% if entry_url_normalized != '/' and entry_url_normalized contains '/' and entry_url_normalized | slice: -1 == '/' %}
       {% assign entry_url_normalized = entry_url_normalized | remove_last: '/' %}
     {% endif %}
@@ -63,6 +113,9 @@
   {% if prev_entry and prev_entry != "" %}
     {% assign prev_parts = prev_entry | split: "||" %}
     {% assign prev_url = prev_parts[0] %}
+    {% if current_lang_prefix and prev_url and prev_url contains "/docs/" %}
+      {% assign prev_url = "/" | append: current_lang_prefix | append: prev_url %}
+    {% endif %}
     {% assign prev_title = prev_parts[1] %}
   {% endif %}
 
@@ -71,6 +124,9 @@
   {% if next_entry and next_entry != "" %}
     {% assign next_parts = next_entry | split: "||" %}
     {% assign next_url = next_parts[0] %}
+    {% if current_lang_prefix and next_url and next_url contains "/docs/" %}
+      {% assign next_url = "/" | append: current_lang_prefix | append: next_url %}
+    {% endif %}
     {% assign next_title = next_parts[1] %}
   {% endif %}
 
@@ -79,7 +135,7 @@
       <div class="prev-next-col">
         {% if prev_url %}
           <a class="prev-next-link prev-next-prev" href="{{ prev_url | relative_url }}">
-            <span class="prev-next-label">Back</span>
+            <span class="prev-next-label">{{ label_prev }}</span>
             <span class="prev-next-title">{{ prev_title }}</span>
           </a>
         {% endif %}
@@ -87,7 +143,7 @@
       <div class="prev-next-col">
         {% if next_url %}
           <a class="prev-next-link prev-next-next" href="{{ next_url | relative_url }}">
-            <span class="prev-next-label">Next</span>
+            <span class="prev-next-label">{{ label_next }}</span>
             <span class="prev-next-title">{{ next_title }}</span>
           </a>
         {% endif %}
@@ -95,4 +151,3 @@
     </nav>
   {% endif %}
 {% endif %}
-

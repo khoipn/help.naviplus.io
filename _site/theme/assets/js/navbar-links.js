@@ -1,12 +1,172 @@
 // Navigation data - Edit here to update menu everywhere
-const navbarLinks = [
+const languageRoutes = [
+  { code: "en", label: "🇬🇧 English", prefix: "" },
+  { code: "vi", label: "🇻🇳 Vietnamese", prefix: "vi" },
+  { code: "fr", label: "🇫🇷 French", prefix: "fr" },
+  { code: "de", label: "🇩🇪 German", prefix: "de" },
+  { code: "zh-CN", label: "🇨🇳 Chinese (Simplified)", prefix: "zh-cn" },
+  { code: "ja", label: "🇯🇵 Japanese", prefix: "jp" },
+  { code: "it", label: "🇮🇹 Italian", prefix: "it" },
+  { code: "pt-BR", label: "🇧🇷 Portuguese (Brazil)", prefix: "pt-br" },
+  { code: "es", label: "🇪🇸 Spanish", prefix: "es" }
+];
+
+const getCurrentLangPrefix = () => {
+  if (typeof window === "undefined") return "";
+  const pathname = window.location.pathname || "/";
+  for (const lang of languageRoutes) {
+    if (!lang.prefix) continue;
+    if (pathname.startsWith(`/${lang.prefix}/`)) return lang.prefix;
+  }
+  return "";
+};
+
+const getCurrentLanguageLabel = () => {
+  const prefix = getCurrentLangPrefix();
+  const match = languageRoutes.find((lang) => lang.prefix === prefix) || languageRoutes[0];
+  return match ? match.label : "🇬🇧 English";
+};
+
+const uiTranslations = {
+  "": {
+    backToHome: "← Back to home",
+    demo: "Demo",
+    pricing: "Pricing",
+    userGuide: "User Guide",
+    tools: "Tools",
+    language: "Language",
+    getStartedForFree: "Get started for free"
+  },
+  "vi": {
+    backToHome: "← Về trang chủ",
+    demo: "Demo",
+    pricing: "Bảng giá",
+    userGuide: "Hướng dẫn",
+    tools: "Công cụ",
+    language: "Ngôn ngữ",
+    getStartedForFree: "Bắt đầu miễn phí"
+  },
+  "fr": {
+    backToHome: "← Retour à l’accueil",
+    demo: "Démo",
+    pricing: "Tarifs",
+    userGuide: "Guide",
+    tools: "Outils",
+    language: "Langue",
+    getStartedForFree: "Commencer gratuitement"
+  },
+  "de": {
+    backToHome: "← Zur Startseite",
+    demo: "Demo",
+    pricing: "Preise",
+    userGuide: "Handbuch",
+    tools: "Tools",
+    language: "Sprache",
+    getStartedForFree: "Kostenlos starten"
+  },
+  "zh-cn": {
+    backToHome: "← 返回首页",
+    demo: "演示",
+    pricing: "价格",
+    userGuide: "使用指南",
+    tools: "工具",
+    language: "语言",
+    getStartedForFree: "免费开始"
+  },
+  "jp": {
+    backToHome: "← ホームへ戻る",
+    demo: "デモ",
+    pricing: "料金",
+    userGuide: "ガイド",
+    tools: "ツール",
+    language: "言語",
+    getStartedForFree: "無料で始める"
+  },
+  "it": {
+    backToHome: "← Torna alla home",
+    demo: "Demo",
+    pricing: "Prezzi",
+    userGuide: "Guida",
+    tools: "Strumenti",
+    language: "Lingua",
+    getStartedForFree: "Inizia gratis"
+  },
+  "pt-br": {
+    backToHome: "← Voltar para a home",
+    demo: "Demonstração",
+    pricing: "Preços",
+    userGuide: "Guia",
+    tools: "Ferramentas",
+    language: "Idioma",
+    getStartedForFree: "Começar grátis"
+  },
+  "es": {
+    backToHome: "← Volver al inicio",
+    demo: "Demo",
+    pricing: "Precios",
+    userGuide: "Guía",
+    tools: "Herramientas",
+    language: "Idioma",
+    getStartedForFree: "Empezar gratis"
+  }
+};
+
+const t = (key) => {
+  const prefix = getCurrentLangPrefix();
+  const dict = uiTranslations[prefix] || uiTranslations[""];
+  return dict[key] || uiTranslations[""][key] || key;
+};
+
+const ensureTrailingSlash = (path) => {
+  if (!path) return "/";
+  return path.endsWith("/") ? path : path + "/";
+};
+
+const getBasePathWithoutLangPrefix = (pathname) => {
+  const clean = ensureTrailingSlash(pathname || "/");
+  for (const lang of languageRoutes) {
+    if (!lang.prefix) continue;
+    const prefix = `/${lang.prefix}/`;
+    if (clean.startsWith(prefix)) return "/" + clean.slice(prefix.length);
+  }
+  return clean;
+};
+
+const resolveLanguageUrl = (targetPrefix) => {
+  if (typeof window === "undefined") return "/";
+
+  const pathname = window.location.pathname || "/";
+  let basePath = getBasePathWithoutLangPrefix(pathname);
+
+  if (!basePath.includes("/docs/")) {
+    basePath = "/docs/getting-started/";
+  }
+
+  basePath = ensureTrailingSlash(basePath);
+
+  if (!targetPrefix) return basePath;
+  return `/${targetPrefix}${basePath}`;
+};
+
+const languageDropdownChildren = (() => {
+  const children = [];
+  languageRoutes.forEach((lang, index) => {
+    children.push({
+      title: lang.label,
+      url: resolveLanguageUrl(lang.prefix)
+    });
+    if (index === 0) children.push({ divider: true });
+  });
+  return children;
+})();
+
+const navbarLinks = (() => [
   {
-    title: "← Back to home",
+    title: t("backToHome"),
     url: "https://naviplus.io/"
-    
   },
   {
-    title: "Demo",
+    title: t("demo"),
     dropdown: true,
     children: [
       {
@@ -25,16 +185,15 @@ const navbarLinks = [
       {
         title: "Other demos",
         url: "https://naviplus.io/demo/others"
-        
       }
     ]
   },
   {
-    title: "Pricing",
-    url: "https://naviplus.io/pricing"    
+    title: t("pricing"),
+    url: "https://naviplus.io/pricing"
   },
   {
-    title: "User Guide",
+    title: t("userGuide"),
     dropdown: true,
     activePage: "user-guide",
     children: [
@@ -76,66 +235,19 @@ const navbarLinks = [
     ]
   },
   {
-    title: "Tools",
+    title: t("tools"),
     url: "https://tools.naviplus.io/"
   },
   {
-    title: "Language",
+    title: `${t("language")}: ${getCurrentLanguageLabel()}`,
     dropdown: true,
-    children: [
-      {
-        title: "🇬🇧 English",
-        url: typeof window !== 'undefined' ? window.location.href : '/'
-      },
-      { divider: true },
-      {
-        title: "🇫🇷 French",
-        url: "https://translate.google.com/translate?sl=en&tl=fr&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
-        target: "_blank"
-      },
-      {
-        title: "🇩🇪 German",
-        url: "https://translate.google.com/translate?sl=en&tl=de&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
-        target: "_blank"
-      },
-      {
-        title: "🇨🇳 Chinese (Simplified)",
-        url: "https://translate.google.com/translate?sl=en&tl=zh-CN&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
-        target: "_blank"
-      },
-      {
-        title: "🇯🇵 Japanese",
-        url: "https://translate.google.com/translate?sl=en&tl=ja&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
-        target: "_blank"
-      },
-      {
-        title: "🇮🇹 Italian",
-        url: "https://translate.google.com/translate?sl=en&tl=it&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
-        target: "_blank"
-      },
-      {
-        title: "🇧🇷 Portuguese (Brazil)",
-        url: "https://translate.google.com/translate?sl=en&tl=pt&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
-        target: "_blank"
-      },
-      {
-        title: "🇪🇸 Spanish",
-        url: "https://translate.google.com/translate?sl=en&tl=es&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
-        target: "_blank"
-      },
-      { divider: true },
-      {
-        title: "🌐 More languages...",
-        url: "https://translate.google.com/?sl=en&tl=auto&op=translate&u=" + (typeof window !== 'undefined' ? encodeURIComponent(window.location.href) : ''),
-        target: "_blank"
-      }
-    ]
+    children: languageDropdownChildren
   }
-];
+])();
 
 // CTA button configuration
 const navbarCTA = {
-  text: "Get started for free",
+  text: t("getStartedForFree"),
   url: "https://naviplus.io/#get-started-for-free",
   class: "btn btn-primary btn-sm"
 };
