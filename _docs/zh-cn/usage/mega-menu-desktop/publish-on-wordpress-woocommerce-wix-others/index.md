@@ -9,25 +9,25 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
 
 如果您在 Shopify 上部署您的网站，请在此处安装专用的 [Shopify](https://www.shopify.com/ "Shopify") 应用程序：<https://apps.shopify.com/pronavi-navigation-design> - 它经过优化以适应该平台，允许稳定部署并提供许多有用的内置选项。
 
-如果您在其他平台上部署您的网站（例如 [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), 以及使用 PHP、Node.js 或纯 HTML 构建的自定义网站..)，您有以下实施方法：
+如果您在其他平台上部署您的网站（例如 [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), 以及使用 PHP、Node.js 或纯 HTML 构建的自定义网站..)，您可以使用以下实施方法：
 
 ### 1. 在您的网站上嵌入 Navi+
 
 此实施方法适用于 Navi+ 当前支持的所有菜单类型，包括：Tabbar, Mega menu, Slide menu, FAB 和 Grid menu。此代码只需使用一次即可适用于所有菜单。
 
 ```html
-<!-- 将此代码插入网站的 <head> 中。 (c) naviplus.io -->
+<!-- 将此代码插入到网站的 <head> 中。 (c) naviplus.io -->
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456"
 });</script>
 &lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
-<!-- 将此代码插入网站的 <head> 中 -->
+<!-- 将此代码插入到网站的 <head> 中 -->
 ```
 
 ### 常见问题解答 (FAQ)
 
 <details><summary>什么是 token？</summary>
-<p>每个 Navi+ 账户都分配有一个唯一的 token。您可以直接从应用程序头部查看和复制此 token。该 token 用于安全地发布您的菜单。</p>
+<p>每个 Navi+ 账户都会分配一个唯一的 token。您可以直接从应用程序头部查看和复制此 token。该 token 用于安全地发布您的菜单。</p>
 </details>
 
 <details><summary>什么是 https://live.naviplus.app/start.js？</summary>
@@ -40,7 +40,7 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
 </details>
 
 <details><summary>插入此代码片段的最佳位置是什么？</summary>
-<p>在头部部分（或尽可能早）。为什么？网站将按顺序加载资源以呈现界面。将 Navi+ 尽早放置在 HTML 代码中将帮助您的菜单在条件满足时尽快准备好显示，然后菜单将立即出现。这改善了用户体验。</p>
+<p>在头部部分（或尽可能早）。为什么？网站将按顺序加载资源以呈现界面。将 Navi+ 尽早放入 HTML 代码中将有助于您的菜单在条件满足时尽快准备好显示，然后菜单将立即出现。这改善了用户体验。</p>
 </details>
 
 <details><summary>我如何判断此代码是否已成功嵌入我的网站？</summary>
@@ -58,15 +58,15 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
 下面的代码可以在网站上多次使用，具有不同的插入信息（特别是 **Embeded ID**，例如 SF-123456789）。当网站被渲染时，菜单将在代码插入的位置部署并显示，当条件满足时。此菜单类型适用于：Mega menu, Grid 等。
 
 ```html
-<!-- 在菜单 SF-123456789 出现的地方插入代码。 (c) naviplus.io -->
+<!-- 在菜单 SF-123456789 出现的位置插入代码。 (c) naviplus.io -->
 <div class="naviman_app section_naviman_app" id="SF-123456789-container"></div>
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456",
    embed_id: "SF-123456789"
 });</script>
 &lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
-<!-- 在菜单 SF-123456789 出现的地方插入代码 -->
+<!-- 在菜单 SF-123456789 出现的位置插入代码 -->
 ```
 
-{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">重要</mark>**:** 上面的代码使用示例嵌入代码 <mark style="color:orange;">SF-123456789</mark>。确保将其替换为您实际的菜单嵌入代码。
+{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">重要</mark>**:** 上面的代码使用了示例嵌入代码 <mark style="color:orange;">SF-123456789</mark>。确保将其替换为您实际的菜单嵌入代码。
 {% comment %}endhint{% endcomment %}

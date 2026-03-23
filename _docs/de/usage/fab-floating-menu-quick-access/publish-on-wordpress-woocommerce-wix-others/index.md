@@ -9,7 +9,7 @@ title: Veröffentlichen auf WordPress / WooCommerce / Wix / Andere
 
 Wenn Sie Ihre Website auf Shopify bereitstellen, installieren Sie bitte die dedizierte [Shopify](https://www.shopify.com/ "Shopify")-App hier: <https://apps.shopify.com/pronavi-navigation-design> - Sie ist für diese Plattform optimiert und ermöglicht eine stabile Bereitstellung mit vielen nützlichen integrierten Optionen.
 
-Wenn Sie Ihre Website auf anderen Plattformen (wie [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") und benutzerdefinierten Websites, die mit PHP, Node.js oder reinem HTML erstellt wurden..), haben Sie die folgenden Implementierungsmethoden:
+Wenn Sie Ihre Website auf anderen Plattformen (wie [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") und benutzerdefinierten Websites, die mit PHP, Node.js oder reinem HTML erstellt wurden..) bereitstellen, haben Sie die folgenden Implementierungsmethoden:
 
 ### 1. Navi+ auf Ihrer Website einbetten
 
@@ -36,11 +36,11 @@ Diese Implementierungsmethode eignet sich für alle Menütypen, die Navi+ derzei
 </details>
 
 <details><summary>Verlangsamt dieser Einbettungscode meine Website?</summary>
-<p>Der folgende Code ist extrem leichtgewichtig und kann in Ihre Website eingefügt werden, ohne die Geschwindigkeit (nur etwa 100-200 ms für den ersten Ladevorgang und 0 ms für nachfolgende Ladevorgänge), die Benutzererfahrung oder die SEO-Werte zu beeinträchtigen.</p>
+<p>Der folgende Code ist extrem leichtgewichtig und kann in Ihre Website eingefügt werden, ohne die Geschwindigkeit (nur etwa 100-200ms für den ersten Ladevorgang und 0ms für nachfolgende Ladevorgänge), die Benutzererfahrung oder die SEO-Werte zu beeinträchtigen.</p>
 </details>
 
 <details><summary>Was ist der beste Ort, um diesen Code-Schnipsel einzufügen?</summary>
-<p>Im Kopfbereich (oder so früh wie möglich). Warum? Die Website lädt die Ressourcen sequenziell, um die Benutzeroberfläche darzustellen. Wenn Sie Navi+ so früh wie möglich im HTML-Code platzieren, wird Ihr Menü bereit sein, so schnell wie möglich angezeigt zu werden, indem es wartet, bis die Bedingungen erfüllt sind, dann wird das Menü sofort erscheinen. Dies verbessert die Benutzererfahrung.</p>
+<p>Im Kopfbereich (oder so früh wie möglich). Warum? Die Website lädt Ressourcen sequenziell, um die Benutzeroberfläche darzustellen. Wenn Sie Navi+ so früh wie möglich im HTML-Code platzieren, wird Ihr Menü bereit sein, so schnell wie möglich angezeigt zu werden, indem es wartet, bis die Bedingungen erfüllt sind, und dann wird das Menü sofort erscheinen. Dies verbessert die Benutzererfahrung.</p>
 </details>
 
 <details><summary>Wie kann ich feststellen, ob dieser Code erfolgreich in meine Website eingebettet wurde?</summary>

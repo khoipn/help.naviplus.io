@@ -1,5 +1,5 @@
 ---
-description: 'Shopifyにウェブサイトを展開する場合は、こちらに専用のShopifyアプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - このプラットフォームに最適化されています...'
+description: 'Shopifyにウェブサイトを展開する場合は、こちらに専用のShopifyアプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - このプラットフォームに最適化されており、便利な組み込みオプションが多数用意されています。'
 lang: jp
 layout: default
 permalink: /jp/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
@@ -7,7 +7,7 @@ title: WordPress / Woo / Wix / その他で公開
 ---
 # WordPress / Woo / Wix / その他で公開
 
-Shopifyにウェブサイトを展開する場合は、こちらに専用の[Shopify](https://www.shopify.com/ "Shopify")アプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - このプラットフォームに最適化されており、多くの便利な組み込みオプションを使用して安定した展開を可能にします。
+Shopifyにウェブサイトを展開する場合は、こちらに専用の[Shopify](https://www.shopify.com/ "Shopify")アプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - このプラットフォームに最適化されており、便利な組み込みオプションが多数用意されています。
 
 他のプラットフォーム（[WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), およびPHP、Node.js、または純粋なHTMLで構築されたカスタムウェブサイトなど）にウェブサイトを展開する場合、以下の実装方法があります:
 
@@ -27,23 +27,23 @@ Shopifyにウェブサイトを展開する場合は、こちらに専用の[Sho
 ### FAQ (よくある質問)
 
 <details><summary>トークンとは何ですか？</summary>
-<p>各Navi+アカウントには一意のトークンが割り当てられています。このトークンはアプリケーションのヘッダーから直接表示およびコピーできます。トークンは、メニューを安全に公開するために使用されます。</p>
+<p>各Navi+アカウントには一意のトークンが割り当てられます。このトークンはアプリケーションのヘッダーから直接表示およびコピーできます。トークンはメニューを安全に公開するために使用されます。</p>
 </details>
 
 <details><summary>https://live.naviplus.app/start.jsとは何ですか？</summary>
 <p>これはNavi+の固定URLで、アプリケーションの初期化ロジックが含まれています。このスクリプトは軽量（約4KB）で、ほとんどのデバイスやネットワーク条件で迅速に読み込むことができます。CloudflareとBunnyCDNを介して配信され、安定したグローバルパフォーマンスと最新のブラウザとの信頼性のある互換性を提供します。</p>
-<p>非同期読み込み方法を使用することで、ウェブサイトの読み込みプロセスに影響を与えません。</p>
+<p>非同期読み込み方式を使用することで、ウェブサイトの読み込みプロセスに影響を与えません。</p>
 </details>
 
 <details><summary>この埋め込みコードは私のウェブサイトを遅くしますか？</summary>
-<p>以下のコードは非常に軽量で、速度（初回読み込みに約100-200ms、以降の読み込みに0msかかるだけ）や顧客体験、SEOスコアに影響を与えることなく、ウェブサイトに挿入できます。</p>
+<p>以下のコードは非常に軽量で、速度（最初の読み込みに約100-200ms、以降の読み込みは0ms）や顧客体験、SEOスコアに影響を与えることなく、ウェブサイトに挿入できます。</p>
 </details>
 
 <details><summary>このコードスニペットを挿入するのに最適な場所はどこですか？</summary>
 <p>ヘッダーセクション（またはできるだけ早く）。なぜなら、ウェブサイトはインターフェースをレンダリングするためにリソースを順次読み込むからです。HTMLコード内でNavi+を最初に配置することで、条件が満たされるとすぐにメニューが表示されるようになります。これにより、ユーザー体験が向上します。</p>
 </details>
 
-<details><summary>このコードがウェブサイトに正常に埋め込まれたかどうかをどうやって確認できますか？</summary>
+<details><summary>このコードがウェブサイトに正常に埋め込まれたかどうかを確認するにはどうすればよいですか？</summary>
 <p>2つの方法があります：</p>
 <p><strong>方法1（誰でも）：</strong></p>
 <p>ウェブサイトを#navidebug-onのサフィックスで開きます。例えば：<a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>。ウェブサイトがデバッグモードに切り替わる場合、埋め込みは正常に機能しています。デバッグモードはCSSセレクタを簡単に特定するのに役立ちます。#navidebug-offを使用してオフにします。</p>

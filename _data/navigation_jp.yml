@@ -86,7 +86,7 @@
       title: Shopifyでの公開
       url: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
     - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others
-      title: WordPress / WooCommerce / Wix / その他での公開
+      title: WordPress / WooCommerce / Wix / その他で公開
       url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/slide-menu-hamburger-menu
     title: スライドメニュー（ハンバーガーメニュー）
@@ -99,7 +99,7 @@
       title: Shopifyでの公開
       url: /docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
     - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others
-      title: WordPress / WooCommerce / Wix / その他で公開
+      title: WordPress / WooCommerce / Wix / その他での公開
       url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/fab-floating-menu-quick-access
     title: FAB - Floating Menu / Quick Access
@@ -237,6 +237,9 @@
   title: line
   url: /docs/line-2/
 - children:
+  - processed_path: development/menu-structure-and-css
+    title: メニュー構造とCSS
+    url: /docs/development/menu-structure-and-css/
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: Navi+で正しいCSSコードを書く方法
     url: /docs/development/how-to-write-a-correct-css-code-in-navi/

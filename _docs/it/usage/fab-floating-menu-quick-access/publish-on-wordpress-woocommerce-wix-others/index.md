@@ -40,7 +40,7 @@ Questo metodo di implementazione è adatto per tutti i tipi di menu che Navi+ at
 </details>
 
 <details><summary>Qual è il posto migliore per inserire questo frammento di codice?</summary>
-<p>Nella sezione head (o il prima possibile). Perché? Il sito web caricherà sequenzialmente le risorse per rendere l'interfaccia. Posizionare Navi+ per primo nel codice HTML aiuterà il tuo menu a essere pronto per la visualizzazione il prima possibile, aspettando che le condizioni siano soddisfatte, quindi il menu apparirà immediatamente. Questo migliora l'esperienza dell'utente.</p>
+<p>Nella sezione head (o il prima possibile). Perché? Il sito web caricherà sequenzialmente le risorse per rendere l'interfaccia. Posizionare Navi+ per primo nel codice HTML aiuterà il tuo menu a essere pronto per essere visualizzato il prima possibile, aspettando che le condizioni siano soddisfatte, quindi il menu apparirà immediatamente. Questo migliora l'esperienza dell'utente.</p>
 </details>
 
 <details><summary>Come posso sapere se questo codice è stato incorporato con successo nel mio sito web?</summary>
@@ -48,7 +48,7 @@ Questo metodo di implementazione è adatto per tutti i tipi di menu che Navi+ at
 <p><strong>Metodo 1 (per tutti):</strong></p>
 <p>Apri il tuo sito web con il suffisso #navidebug-on, ad esempio: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Se il sito web passa alla modalità Debug, l'incorporamento funziona correttamente. La modalità Debug ti aiuta a identificare facilmente i selettori CSS. Usa #navidebug-off per disattivarlo.</p>
 <p><strong>Metodo 2 (per sviluppatori):</strong></p>
-<p>Apri gli strumenti di ispezione del tuo browser, vai alla scheda Console e cerca un messaggio verde: “Utilizzando Navi+..”. Questo messaggio indica che il codice è stato incorporato con successo.</p>
+<p>Apri gli strumenti di ispezione del tuo browser, vai alla scheda Console e cerca un messaggio verde: "Utilizzando Navi+..". Questo messaggio indica che il codice è stato incorporato con successo.</p>
 </details>
 
 ***

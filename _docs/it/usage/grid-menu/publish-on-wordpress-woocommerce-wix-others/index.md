@@ -32,7 +32,7 @@ Questo metodo di implementazione è adatto per tutti i tipi di menu che Navi+ at
 
 <details><summary>Che cos'è https://live.naviplus.app/start.js?</summary>
 <p>Questo è l'URL fisso di Navi+ che contiene la logica di inizializzazione dell'applicazione. Lo script è leggero (circa 4KB), consentendo un caricamento rapido su la maggior parte dei dispositivi e delle condizioni di rete. Viene fornito tramite Cloudflare e BunnyCDN per garantire prestazioni globali stabili e compatibilità affidabile con i browser moderni.</p>
-<p>Utilizzare il metodo di caricamento async significa anche che non influisce sul processo di caricamento del sito web.</p>
+<p>Utilizzare il metodo di caricamento asincrono significa anche che non influisce sul processo di caricamento del sito web.</p>
 </details>
 
 <details><summary>Questo codice di incorporamento rallenta il mio sito web?</summary>

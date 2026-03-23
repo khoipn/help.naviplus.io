@@ -40,7 +40,7 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 </details>
 
 <details><summary>Nơi tốt nhất để chèn đoạn mã này là ở đâu?</summary>
-<p>Trong phần head (hoặc càng sớm càng tốt). Tại sao? Trang web sẽ tải tài nguyên theo thứ tự để hiển thị giao diện. Đặt Navi+ sớm nhất trong mã HTML sẽ giúp menu của bạn sẵn sàng hiển thị càng sớm càng tốt bằng cách chờ cho đến khi các điều kiện được đáp ứng, sau đó menu sẽ ngay lập tức xuất hiện. Điều này cải thiện trải nghiệm người dùng.</p>
+<p>Trong phần đầu (hoặc càng sớm càng tốt). Tại sao? Trang web sẽ tải tài nguyên theo thứ tự để hiển thị giao diện. Đặt Navi+ sớm nhất trong mã HTML sẽ giúp menu của bạn sẵn sàng hiển thị càng sớm càng tốt bằng cách chờ cho đến khi các điều kiện được đáp ứng, sau đó menu sẽ ngay lập tức xuất hiện. Điều này cải thiện trải nghiệm người dùng.</p>
 </details>
 
 <details><summary>Làm thế nào tôi có thể biết mã này đã được nhúng thành công trên trang web của tôi chưa?</summary>

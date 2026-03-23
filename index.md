@@ -411,6 +411,11 @@ title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
   </h2>
   <ul class="sitemap-list">
 <li class="sitemap-list-item">
+  <a href="/docs/development/menu-structure-and-css/" class="sitemap-link">
+    <i class="ri-file-text-line"></i> Menu structure and CSS
+  </a>
+</li>
+<li class="sitemap-list-item">
   <a href="/docs/development/how-to-write-a-correct-css-code-in-navi/" class="sitemap-link">
     <i class="ri-file-text-line"></i> How to write a correct CSS code in Navi+
   </a>

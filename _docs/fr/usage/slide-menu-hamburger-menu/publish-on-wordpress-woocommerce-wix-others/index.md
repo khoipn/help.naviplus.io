@@ -27,16 +27,16 @@ Cette méthode d'implémentation convient à tous les types de menus que Navi+ p
 ### FAQ (Questions Fréquemment Posées)
 
 <details><summary>Qu'est-ce que le token ?</summary>
-<p>Chaque compte Navi+ se voit attribuer un token unique. Vous pouvez visualiser et copier ce token directement depuis l'en-tête de l'application. Le token est utilisé pour publier votre menu de manière sécurisée.</p>
+<p>Chaque compte Navi+ se voit attribuer un token unique. Vous pouvez voir et copier ce token directement depuis l'en-tête de l'application. Le token est utilisé pour publier votre menu de manière sécurisée.</p>
 </details>
 
 <details><summary>Qu'est-ce que https://live.naviplus.app/start.js ?</summary>
 <p>C'est l'URL fixe de Navi+ qui contient la logique d'initialisation de l'application. Le script est léger (environ 4 Ko), ce qui lui permet de se charger rapidement sur la plupart des appareils et des conditions réseau. Il est livré via Cloudflare et BunnyCDN pour fournir des performances globales stables et une compatibilité fiable avec les navigateurs modernes.</p>
-<p>L'utilisation de la méthode de chargement asynchrone signifie également qu'elle n'affecte pas le processus de chargement du site Web.</p>
+<p>Utiliser la méthode de chargement asynchrone signifie également qu'elle n'affecte pas le processus de chargement du site Web.</p>
 </details>
 
 <details><summary>Ce code d'intégration ralentit-il mon site Web ?</summary>
-<p>Le code ci-dessous est extrêmement léger et peut être inséré dans votre site Web sans affecter la vitesse (ne prenant que 100-200 ms pour le premier chargement et 0 ms pour les chargements suivants), l'expérience client ou les scores SEO</p>
+<p>Le code ci-dessous est extrêmement léger et peut être inséré dans votre site Web sans affecter la vitesse (ne prenant que 100 à 200 ms pour le premier chargement et 0 ms pour les chargements suivants), l'expérience client ou les scores SEO</p>
 </details>
 
 <details><summary>Quel est le meilleur endroit pour insérer ce code ?</summary>
@@ -48,14 +48,14 @@ Cette méthode d'implémentation convient à tous les types de menus que Navi+ p
 <p><strong>Méthode 1 (pour tout le monde) :</strong></p>
 <p>Ouvrez votre site Web avec le suffixe #navidebug-on, par exemple : <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Si le site Web passe en mode Debug, l'intégration fonctionne correctement. Le mode Debug vous aide à identifier facilement les sélecteurs CSS. Utilisez #navidebug-off pour l'éteindre.</p>
 <p><strong>Méthode 2 (pour les développeurs) :</strong></p>
-<p>Ouvrez les outils d'inspection de votre navigateur, allez dans l'onglet Console, et recherchez un message vert : “Using Navi+..”. Ce message indique que le code a été intégré avec succès.</p>
+<p>Ouvrez les outils d'inspection de votre navigateur, allez dans l'onglet Console, et recherchez un message vert : "Utilisation de Navi+..". Ce message indique que le code a été intégré avec succès.</p>
 </details>
 
 ***
 
 ### 2. Insérer un Menu Navi+ à Tout Moment sur Votre Site Web
 
-Le code ci-dessous peut être utilisé plusieurs fois sur un site Web avec différentes informations d'insertion (en particulier l'**ID intégré**, tel que SF-123456789). Lorsque le site Web est rendu, le menu sera déployé et affiché à l'endroit où le code est inséré lorsque les conditions sont remplies. Ce type de menu convient à : Mega menu, Grid, etc.
+Le code ci-dessous peut être utilisé plusieurs fois sur un site Web avec différentes informations d'insertion (en particulier l'**ID Embarqué**, tel que SF-123456789). Lorsque le site Web est rendu, le menu sera déployé et affiché à l'endroit où le code est inséré lorsque les conditions sont remplies. Ce type de menu convient à : Mega menu, Grid, etc.
 
 ```html
 <!-- Insérez le code où le menu SF-123456789 apparaît. (c) naviplus.io -->

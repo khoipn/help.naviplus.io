@@ -9,7 +9,7 @@ title: Publicar no WordPress / WooCommerce / Wix / Outros
 
 Se você implantar seu site no Shopify, instale o aplicativo dedicado do [Shopify](https://www.shopify.com/ "Shopify") aqui: <https://apps.shopify.com/pronavi-navigation-design> - Ele é otimizado para esta plataforma, permitindo uma implantação estável com muitas opções úteis integradas.
 
-Se você implantar seu site em outras plataformas (como [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), e sites personalizados construídos com PHP, Node.js, ou HTML puro..), você tem os seguintes métodos de implementação:
+Se você implantar seu site em outras plataformas (como [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), e sites personalizados construídos com PHP, Node.js ou HTML puro..), você tem os seguintes métodos de implementação:
 
 ### 1. Incorporar o Navi+ no Seu Site
 
@@ -55,7 +55,7 @@ Este método de implementação é adequado para todos os tipos de menu que o Na
 
 ### 2. Inserir um Menu Navi+ em Qualquer Ponto do Seu Site
 
-O código abaixo pode ser usado várias vezes em um site com diferentes informações de inserção (especialmente o **ID Embedido**, como SF-123456789). Quando o site é renderizado, o menu será implantado e exibido na posição onde o código é inserido quando as condições forem atendidas. Este tipo de menu é adequado para: Mega menu, Grid, etc.
+O código abaixo pode ser usado várias vezes em um site com diferentes informações de inserção (especialmente o **Embeded ID**, como SF-123456789). Quando o site é renderizado, o menu será implantado e exibido na posição onde o código é inserido quando as condições forem atendidas. Este tipo de menu é adequado para: Mega menu, Grid, etc.
 
 ```html
 <!-- Insira o código onde o menu SF-123456789 aparece. (c) naviplus.io -->

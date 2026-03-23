@@ -1,19 +1,19 @@
 ---
-description: 'Shopifyにウェブサイトを展開する場合は、こちらに専用のShopifyアプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - このプラットフォームに最適化されており、便利な組み込みオプションが多数用意されています。'
+description: 'Shopifyにウェブサイトを展開する場合は、こちらに専用のShopifyアプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - このプラットフォームに最適化されています...'
 lang: jp
 layout: default
 permalink: /jp/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
-title: WordPress / WooCommerce / Wix / その他で公開
+title: WordPress / WooCommerce / Wix / その他での公開
 ---
-# WordPress / WooCommerce / Wix / その他で公開
+# WordPress / WooCommerce / Wix / その他での公開
 
-Shopifyにウェブサイトを展開する場合は、こちらに専用の[Shopify](https://www.shopify.com/ "Shopify")アプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - このプラットフォームに最適化されており、便利な組み込みオプションが多数用意されています。
+Shopifyにウェブサイトを展開する場合は、こちらに専用の[Shopify](https://www.shopify.com/ "Shopify")アプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - このプラットフォームに最適化されており、多くの便利な組み込みオプションを使用して安定した展開を可能にします。
 
-他のプラットフォーム（[WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), PHP、Node.js、または純粋なHTMLで構築されたカスタムウェブサイトなど）にウェブサイトを展開する場合、以下の実装方法があります:
+他のプラットフォーム（[WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), およびPHP、Node.js、または純粋なHTMLで構築されたカスタムウェブサイトなど）にウェブサイトを展開する場合、次の実装方法があります:
 
 ### 1. ウェブサイトにNavi+を埋め込む
 
-この実装方法は、Navi+が現在サポートしているすべてのメニュータイプ（Tabbar、Mega menu、Slide menu、FAB、Grid menuを含む）に適しています。このコードは、すべてのメニューに対して一度だけ使用する必要があります。
+この実装方法は、Navi+が現在サポートしているすべてのメニュータイプ（Tabbar、Mega menu、Slide menu、FAB、Grid menu）に適しています。このコードは、すべてのメニューに対して一度だけ使用する必要があります。
 
 ```html
 <!-- Insert this code to the <head> of website. (c) naviplus.io -->
@@ -35,12 +35,12 @@ Shopifyにウェブサイトを展開する場合は、こちらに専用の[Sho
 <p>非同期読み込み方法を使用することで、ウェブサイトの読み込みプロセスに影響を与えません。</p>
 </details>
 
-<details><summary>この埋め込みコードはウェブサイトを遅くしますか？</summary>
-<p>以下のコードは非常に軽量で、速度（初回読み込みに約100-200ms、以降の読み込みは0ms）や顧客体験、SEOスコアに影響を与えることなく、ウェブサイトに挿入できます。</p>
+<details><summary>この埋め込みコードは私のウェブサイトを遅くしますか？</summary>
+<p>以下のコードは非常に軽量で、速度（最初の読み込みに約100-200ms、以降の読み込みは0ms）や顧客体験、SEOスコアに影響を与えることなく、ウェブサイトに挿入できます。</p>
 </details>
 
 <details><summary>このコードスニペットを挿入するのに最適な場所はどこですか？</summary>
-<p>ヘッダーセクション（またはできるだけ早い段階）です。なぜなら、ウェブサイトはインターフェースをレンダリングするためにリソースを順次読み込むからです。HTMLコード内でNavi+を最初に配置することで、条件が満たされるとすぐにメニューが表示されるようになります。これにより、ユーザー体験が向上します。</p>
+<p>ヘッダーセクション（またはできるだけ早く）。なぜなら、ウェブサイトはインターフェースをレンダリングするためにリソースを順次読み込むからです。HTMLコード内でNavi+を最初に配置することで、条件が満たされるとすぐにメニューが表示されるようになります。これにより、ユーザー体験が向上します。</p>
 </details>
 
 <details><summary>このコードがウェブサイトに正常に埋め込まれたかどうかをどうやって確認できますか？</summary>

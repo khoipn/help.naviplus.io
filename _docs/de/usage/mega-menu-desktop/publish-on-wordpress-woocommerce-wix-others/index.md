@@ -9,11 +9,11 @@ title: Veröffentlichen auf WordPress / WooCommerce / Wix / Andere
 
 Wenn Sie Ihre Website auf Shopify bereitstellen, installieren Sie bitte die dedizierte [Shopify](https://www.shopify.com/ "Shopify")-App hier: <https://apps.shopify.com/pronavi-navigation-design> - Sie ist für diese Plattform optimiert und ermöglicht eine stabile Bereitstellung mit vielen nützlichen integrierten Optionen.
 
-Wenn Sie Ihre Website auf anderen Plattformen (wie [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") und benutzerdefinierten Websites, die mit PHP, Node.js oder reinem HTML erstellt wurden..) bereitstellen, haben Sie die folgenden Implementierungsmethoden:
+Wenn Sie Ihre Website auf anderen Plattformen (wie [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") und benutzerdefinierten Websites, die mit PHP, Node.js oder reinem HTML erstellt wurden..), haben Sie die folgenden Implementierungsmethoden:
 
 ### 1. Navi+ auf Ihrer Website einbetten
 
-Diese Implementierungsmethode eignet sich für alle Menütpyen, die Navi+ derzeit unterstützt, einschließlich: Tabbar, Mega menu, Slide menu, FAB und Grid menu. Dieser Code muss nur einmal für alle Menüs verwendet werden.
+Diese Implementierungsmethode eignet sich für alle Menütypen, die Navi+ derzeit unterstützt, einschließlich: Tabbar, Mega menu, Slide menu, FAB und Grid menu. Dieser Code muss nur einmal für alle Menüs verwendet werden.
 
 ```html
 <!-- Fügen Sie diesen Code in den <head> der Website ein. (c) naviplus.io -->
@@ -40,7 +40,7 @@ Diese Implementierungsmethode eignet sich für alle Menütpyen, die Navi+ derzei
 </details>
 
 <details><summary>Was ist der beste Ort, um diesen Code-Schnipsel einzufügen?</summary>
-<p>Im Kopfbereich (oder so früh wie möglich). Warum? Die Website lädt die Ressourcen sequenziell, um die Benutzeroberfläche darzustellen. Wenn Sie Navi+ so früh wie möglich im HTML-Code platzieren, wird Ihr Menü bereit sein, so schnell wie möglich angezeigt zu werden, indem es wartet, bis die Bedingungen erfüllt sind, dann wird das Menü sofort erscheinen. Dies verbessert die Benutzererfahrung.</p>
+<p>Im Kopfbereich (oder so früh wie möglich). Warum? Die Website lädt Ressourcen sequenziell, um die Benutzeroberfläche darzustellen. Wenn Sie Navi+ so früh wie möglich im HTML-Code platzieren, wird Ihr Menü bereit sein, so schnell wie möglich angezeigt zu werden, indem es wartet, bis die Bedingungen erfüllt sind, dann wird das Menü sofort erscheinen. Dies verbessert die Benutzererfahrung.</p>
 </details>
 
 <details><summary>Wie kann ich feststellen, ob dieser Code erfolgreich in meine Website eingebettet wurde?</summary>
@@ -55,7 +55,7 @@ Diese Implementierungsmethode eignet sich für alle Menütpyen, die Navi+ derzei
 
 ### 2. Fügen Sie ein Navi+-Menü an beliebiger Stelle auf Ihrer Website ein
 
-Der folgende Code kann mehrfach auf einer Website mit unterschiedlichen Einfügeinformationen (insbesondere der **Embeded ID**, wie SF-123456789) verwendet werden. Wenn die Website gerendert wird, wird das Menü an der Stelle bereitgestellt und angezeigt, an der der Code eingefügt wurde, wenn die Bedingungen erfüllt sind. Dieser Menütpy ist geeignet für: Mega menu, Grid usw.
+Der folgende Code kann mehrfach auf einer Website mit unterschiedlichen Einfügeinformationen (insbesondere der **Embeded ID**, wie SF-123456789) verwendet werden. Wenn die Website gerendert wird, wird das Menü an der Stelle bereitgestellt und angezeigt, an der der Code eingefügt wurde, wenn die Bedingungen erfüllt sind. Dieser Menütetyp eignet sich für: Mega menu, Grid usw.
 
 ```html
 <!-- Fügen Sie den Code dort ein, wo das Menü SF-123456789 erscheint. (c) naviplus.io -->

@@ -81,6 +81,7 @@ title: help.naviplus.io
 - [Why is Navi+ menu not displayed on my website?](/manual/website/help.naviplus.io/frequently-asked-questions/why-navi-not-display.md "Why is Navi+ menu not displayed on my website?")
 - [line](/manual/website/help.naviplus.io/line-2.md "line")
 - [Development](/manual/website/help.naviplus.io/development.md "Development")
+- [Menu structure and CSS](/manual/website/help.naviplus.io/development/menu-structure-and-css.md "Menu structure and CSS")
 - [How to write a correct CSS code in Navi+](/manual/website/help.naviplus.io/development/how-to-write-a-correct-css-code-in-navi+.md "How to write a correct CSS code in Navi+")
 - [Add walk-through to Navi+](/manual/website/help.naviplus.io/development/add-walk-through-to-navi+.md "Add walk-through to Navi+")
 - [Limitation](/manual/website/help.naviplus.io/limitation.md "Limitation")

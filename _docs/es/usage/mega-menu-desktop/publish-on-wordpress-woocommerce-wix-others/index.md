@@ -26,8 +26,8 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 
 ### FAQ (Preguntas Frecuentes)
 
-<details><summary>¿Qué es un token?</summary>
-<p>Cada cuenta de Navi+ se asigna un token único. Puede ver y copiar este token directamente desde el encabezado de la aplicación. El token se utiliza para publicar su menú de forma segura.</p>
+<details><summary>¿Qué es el token?</summary>
+<p>Cada cuenta de Navi+ se le asigna un token único. Puede ver y copiar este token directamente desde el encabezado de la aplicación. El token se utiliza para publicar su menú de forma segura.</p>
 </details>
 
 <details><summary>¿Qué es https://live.naviplus.app/start.js?</summary>
@@ -40,7 +40,7 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 </details>
 
 <details><summary>¿Cuál es el mejor lugar para insertar este fragmento de código?</summary>
-<p>En la sección del head (o tan pronto como sea posible). ¿Por qué? El sitio web cargará secuencialmente los recursos para renderizar la interfaz. Colocar Navi+ lo más temprano posible en el código HTML ayudará a que su menú esté listo para mostrarse tan pronto como sea posible, esperando hasta que se cumplan las condiciones, luego el menú aparecerá inmediatamente. Esto mejora la experiencia del usuario.</p>
+<p>En la sección del head (o tan pronto como sea posible). ¿Por qué? El sitio web cargará secuencialmente los recursos para renderizar la interfaz. Colocar Navi+ lo más temprano posible en el código HTML ayudará a que su menú esté listo para mostrarse tan pronto como sea posible al esperar hasta que se cumplan las condiciones, luego el menú aparecerá inmediatamente. Esto mejora la experiencia del usuario.</p>
 </details>
 
 <details><summary>¿Cómo puedo saber si este código se ha incrustado correctamente en mi sitio web?</summary>
@@ -48,7 +48,7 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 <p><strong>Método 1 (para todos):</strong></p>
 <p>Abra su sitio web con el sufijo #navidebug-on, por ejemplo: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Si el sitio web cambia a modo Debug, la incrustación está funcionando correctamente. El modo Debug le ayuda a identificar fácilmente los selectores CSS. Use #navidebug-off para desactivarlo.</p>
 <p><strong>Método 2 (para desarrolladores):</strong></p>
-<p>Abra las herramientas de inspección de su navegador, vaya a la pestaña de Consola, y busque un mensaje verde: “Usando Navi+..”. Este mensaje indica que el código se ha incrustado con éxito.</p>
+<p>Abra las herramientas de inspección de su navegador, vaya a la pestaña de Consola, y busque un mensaje verde: “Usando Navi+..”. Este mensaje indica que el código se ha incrustado correctamente.</p>
 </details>
 
 ***

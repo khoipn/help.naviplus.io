@@ -32,18 +32,18 @@ Diese Implementierungsmethode eignet sich für alle Menütypen, die Navi+ derzei
 
 <details><summary>Was ist https://live.naviplus.app/start.js?</summary>
 <p>Dies ist die feste URL von Navi+, die die Initialisierungslogik der Anwendung enthält. Das Skript ist leichtgewichtig (ca. 4KB), sodass es schnell auf den meisten Geräten und Netzwerkbedingungen geladen werden kann. Es wird über Cloudflare und BunnyCDN bereitgestellt, um eine stabile globale Leistung und zuverlässige Kompatibilität mit modernen Browsern zu gewährleisten.</p>
-<p>Die Verwendung der asynchronen Lade-Methode bedeutet auch, dass sie den Ladeprozess der Website nicht beeinträchtigt.</p>
+<p>Die Verwendung der asynchronen Lade-Methode bedeutet auch, dass sie den Ladeprozess der Website nicht beeinflusst.</p>
 </details>
 
 <details><summary>Verlangsamt dieser Einbettungscode meine Website?</summary>
-<p>Der folgende Code ist extrem leichtgewichtig und kann in Ihre Website eingefügt werden, ohne die Geschwindigkeit (nur etwa 100-200ms für den ersten Ladevorgang und 0ms für nachfolgende Ladevorgänge), die Benutzererfahrung oder die SEO-Werte zu beeinträchtigen.</p>
+<p>Der folgende Code ist extrem leichtgewichtig und kann in Ihre Website eingefügt werden, ohne die Geschwindigkeit zu beeinträchtigen (er benötigt nur etwa 100-200 ms für den ersten Ladevorgang und 0 ms für nachfolgende Ladevorgänge), die Benutzererfahrung oder die SEO-Werte.</p>
 </details>
 
 <details><summary>Was ist der beste Ort, um diesen Code-Schnipsel einzufügen?</summary>
-<p>Im Kopfbereich (oder so früh wie möglich). Warum? Die Website lädt Ressourcen sequenziell, um die Benutzeroberfläche darzustellen. Wenn Sie Navi+ so früh wie möglich im HTML-Code platzieren, wird Ihr Menü bereit sein, so schnell wie möglich angezeigt zu werden, indem es wartet, bis die Bedingungen erfüllt sind, und dann wird das Menü sofort erscheinen. Dies verbessert die Benutzererfahrung.</p>
+<p>Im Kopfbereich (oder so früh wie möglich). Warum? Die Website lädt die Ressourcen sequenziell, um die Benutzeroberfläche darzustellen. Wenn Sie Navi+ so früh wie möglich im HTML-Code platzieren, wird Ihr Menü bereit sein, so schnell wie möglich angezeigt zu werden, indem es wartet, bis die Bedingungen erfüllt sind, dann wird das Menü sofort erscheinen. Dies verbessert die Benutzererfahrung.</p>
 </details>
 
-<details><summary>Wie kann ich feststellen, ob dieser Code erfolgreich in meine Website eingebettet wurde?</summary>
+<details><summary>Wie kann ich feststellen, ob dieser Code erfolgreich auf meiner Website eingebettet wurde?</summary>
 <p>Es gibt zwei Möglichkeiten:</p>
 <p><strong>Methode 1 (für alle):</strong></p>
 <p>Öffnen Sie Ihre Website mit dem Suffix #navidebug-on, zum Beispiel: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Wenn die Website in den Debug-Modus wechselt, funktioniert die Einbettung korrekt. Der Debug-Modus hilft Ihnen, CSS-Selektoren leicht zu identifizieren. Verwenden Sie #navidebug-off, um ihn auszuschalten.</p>

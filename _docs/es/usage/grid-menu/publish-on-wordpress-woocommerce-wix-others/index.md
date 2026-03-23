@@ -26,8 +26,8 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 
 ### FAQ (Preguntas Frecuentes)
 
-<details><summary>¿Qué es un token?</summary>
-<p>Cada cuenta de Navi+ se asigna un token único. Puede ver y copiar este token directamente desde el encabezado de la aplicación. El token se utiliza para publicar su menú de forma segura.</p>
+<details><summary>¿Qué es el token?</summary>
+<p>Cada cuenta de Navi+ se le asigna un token único. Puede ver y copiar este token directamente desde el encabezado de la aplicación. El token se utiliza para publicar su menú de forma segura.</p>
 </details>
 
 <details><summary>¿Qué es https://live.naviplus.app/start.js?</summary>
@@ -40,7 +40,7 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 </details>
 
 <details><summary>¿Cuál es el mejor lugar para insertar este fragmento de código?</summary>
-<p>En la sección del encabezado (o tan pronto como sea posible). ¿Por qué? El sitio web cargará secuencialmente los recursos para renderizar la interfaz. Colocar Navi+ lo más temprano posible en el código HTML ayudará a que su menú esté listo para mostrarse tan pronto como sea posible, esperando a que se cumplan las condiciones, luego el menú aparecerá inmediatamente. Esto mejora la experiencia del usuario.</p>
+<p>En la sección de encabezado (o tan pronto como sea posible). ¿Por qué? El sitio web cargará secuencialmente los recursos para renderizar la interfaz. Colocar Navi+ lo más temprano posible en el código HTML ayudará a que su menú esté listo para mostrarse tan pronto como sea posible, esperando hasta que se cumplan las condiciones, luego el menú aparecerá inmediatamente. Esto mejora la experiencia del usuario.</p>
 </details>
 
 <details><summary>¿Cómo puedo saber si este código se ha incrustado correctamente en mi sitio web?</summary>

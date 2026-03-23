@@ -237,6 +237,9 @@
   title: line
   url: /docs/line-2/
 - children:
+  - processed_path: development/menu-structure-and-css
+    title: Estrutura do menu e CSS
+    url: /docs/development/menu-structure-and-css/
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: Como escrever um código CSS correto no Navi+
     url: /docs/development/how-to-write-a-correct-css-code-in-navi/

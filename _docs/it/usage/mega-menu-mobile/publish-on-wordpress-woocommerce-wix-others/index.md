@@ -40,7 +40,7 @@ Questo metodo di implementazione è adatto per tutti i tipi di menu che Navi+ at
 </details>
 
 <details><summary>Qual è il posto migliore per inserire questo frammento di codice?</summary>
-<p>Nella sezione head (o il prima possibile). Perché? Il sito web caricherà sequenzialmente le risorse per rendere l'interfaccia. Posizionare Navi+ il prima possibile nel codice HTML aiuterà il tuo menu a essere pronto per essere visualizzato il prima possibile, aspettando che le condizioni siano soddisfatte, quindi il menu apparirà immediatamente. Questo migliora l'esperienza dell'utente.</p>
+<p>Nella sezione head (o il prima possibile). Perché? Il sito web caricherà sequenzialmente le risorse per rendere l'interfaccia. Posizionare Navi+ per primo nel codice HTML aiuterà il tuo menu a essere pronto per essere visualizzato il prima possibile, aspettando che le condizioni siano soddisfatte, quindi il menu apparirà immediatamente. Questo migliora l'esperienza dell'utente.</p>
 </details>
 
 <details><summary>Come posso sapere se questo codice è stato incorporato con successo nel mio sito web?</summary>

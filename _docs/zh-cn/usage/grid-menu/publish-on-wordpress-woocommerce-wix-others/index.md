@@ -13,7 +13,7 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
 
 ### 1. 在您的网站上嵌入 Navi+
 
-此实施方法适用于 Navi+ 当前支持的所有菜单类型，包括：Tabbar, Mega menu, Slide menu, FAB 和 Grid menu。此代码只需使用一次即可适用于所有菜单。
+此实施方法适用于 Navi+ 当前支持的所有菜单类型，包括：Tabbar, Mega menu, Slide menu, FAB, 和 Grid menu。此代码只需使用一次即可适用于所有菜单。
 
 ```html
 <!-- 将此代码插入到网站的 <head> 中。 (c) naviplus.io -->
@@ -27,11 +27,11 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
 ### 常见问题解答 (FAQ)
 
 <details><summary>什么是 token？</summary>
-<p>每个 Navi+ 账户都会分配一个唯一的 token。您可以直接从应用程序头部查看和复制此 token。该 token 用于安全地发布您的菜单。</p>
+<p>每个 Navi+ 账户都分配有一个唯一的 token。您可以直接从应用程序头部查看和复制此 token。该 token 用于安全地发布您的菜单。</p>
 </details>
 
 <details><summary>什么是 https://live.naviplus.app/start.js？</summary>
-<p>这是 Navi+ 的固定 URL，包含应用程序的初始化逻辑。该脚本非常轻量（约 4KB），允许它在大多数设备和网络条件下快速加载。它通过 Cloudflare 和 BunnyCDN 提供，以确保全球性能稳定并与现代浏览器可靠兼容。</p>
+<p>这是 Navi+ 的固定 URL，包含应用程序的初始化逻辑。该脚本非常轻量（约 4KB），允许它在大多数设备和网络条件下快速加载。它通过 Cloudflare 和 BunnyCDN 提供，以提供稳定的全球性能和与现代浏览器的可靠兼容性。</p>
 <p>使用异步加载方法也意味着它不会影响网站的加载过程。</p>
 </details>
 
@@ -40,7 +40,7 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
 </details>
 
 <details><summary>插入此代码片段的最佳位置是什么？</summary>
-<p>在头部部分（或尽早）。为什么？网站将按顺序加载资源以呈现界面。将 Navi+ 尽早放置在 HTML 代码中将帮助您的菜单在条件满足时尽快准备好显示，然后菜单将立即出现。这改善了用户体验。</p>
+<p>在头部部分（或尽可能早）。为什么？网站将按顺序加载资源以呈现界面。将 Navi+ 尽早放置在 HTML 代码中将帮助您的菜单在条件满足时尽快准备好显示，然后菜单将立即出现。这改善了用户体验。</p>
 </details>
 
 <details><summary>我如何判断此代码是否已成功嵌入我的网站？</summary>
@@ -68,5 +68,5 @@ title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
 <!-- 在菜单 SF-123456789 出现的地方插入代码 -->
 ```
 
-{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">重要</mark>**:** 上面的代码使用了示例嵌入代码 <mark style="color:orange;">SF-123456789</mark>。确保将其替换为您实际的菜单嵌入代码。
+{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">重要</mark>**:** 上面的代码使用了示例嵌入代码 <mark style="color:orange;">SF-123456789</mark>。确保将其替换为您的实际菜单嵌入代码。
 {% comment %}endhint{% endcomment %}

@@ -27,12 +27,12 @@ Este método de implementação é adequado para todos os tipos de menu que o Na
 ### FAQ (Perguntas Frequentes)
 
 <details><summary>O que é token?</summary>
-<p>Cada conta do Navi+ é atribuída um token único. Você pode visualizar e copiar este token diretamente do cabeçalho do aplicativo. O token é usado para publicar seu menu de forma segura.</p>
+<p>Cada conta Navi+ é atribuída um token único. Você pode visualizar e copiar este token diretamente do cabeçalho do aplicativo. O token é usado para publicar seu menu de forma segura.</p>
 </details>
 
 <details><summary>O que é https://live.naviplus.app/start.js?</summary>
 <p>Este é o URL fixo do Navi+ que contém a lógica de inicialização do aplicativo. O script é leve (cerca de 4KB), permitindo que ele carregue rapidamente na maioria dos dispositivos e condições de rede. Ele é entregue via Cloudflare e BunnyCDN para fornecer desempenho global estável e compatibilidade confiável com navegadores modernos.</p>
-<p>Usar o método de carregamento assíncrono também significa que ele não afeta o processo de carregamento do site.</p>
+<p>Usar o método de carregamento assíncrono também significa que não afeta o processo de carregamento do site.</p>
 </details>
 
 <details><summary>Este código de incorporação desacelera meu site?</summary>
@@ -55,7 +55,7 @@ Este método de implementação é adequado para todos os tipos de menu que o Na
 
 ### 2. Inserir um Menu Navi+ em Qualquer Ponto do Seu Site
 
-O código abaixo pode ser usado várias vezes em um site com diferentes informações de inserção (especialmente o **ID Embedido**, como SF-123456789). Quando o site é renderizado, o menu será implantado e exibido na posição onde o código é inserido quando as condições forem atendidas. Este tipo de menu é adequado para: Mega menu, Grid, etc.
+O código abaixo pode ser usado várias vezes em um site com diferentes informações de inserção (especialmente o **Embeded ID**, como SF-123456789). Quando o site é renderizado, o menu será implantado e exibido na posição onde o código é inserido quando as condições forem atendidas. Este tipo de menu é adequado para: Mega menu, Grid, etc.
 
 ```html
 <!-- Insira o código onde o menu SF-123456789 aparece. (c) naviplus.io -->

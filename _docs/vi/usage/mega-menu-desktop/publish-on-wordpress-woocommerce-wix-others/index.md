@@ -24,14 +24,14 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 <!-- Chèn mã này vào <head> của trang web -->
 ```
 
-### FAQ (Câu hỏi thường gặp)
+### FAQ (Câu Hỏi Thường Gặp)
 
 <details><summary>Token là gì?</summary>
 <p>Mỗi tài khoản Navi+ được gán một token duy nhất. Bạn có thể xem và sao chép token này trực tiếp từ tiêu đề ứng dụng. Token được sử dụng để xuất bản menu của bạn một cách an toàn.</p>
 </details>
 
 <details><summary>https://live.naviplus.app/start.js là gì?</summary>
-<p>Đây là URL cố định của Navi+ chứa logic khởi tạo của ứng dụng. Script này nhẹ (khoảng 4KB), cho phép nó tải nhanh trên hầu hết các thiết bị và điều kiện mạng. Nó được cung cấp qua Cloudflare và BunnyCDN để đảm bảo hiệu suất toàn cầu ổn định và tương thích đáng tin cậy với các trình duyệt hiện đại.</p>
+<p>Đây là URL cố định của Navi+ chứa logic khởi tạo của ứng dụng. Script này nhẹ (khoảng 4KB), cho phép tải nhanh trên hầu hết các thiết bị và điều kiện mạng. Nó được cung cấp qua Cloudflare và BunnyCDN để đảm bảo hiệu suất toàn cầu ổn định và tương thích đáng tin cậy với các trình duyệt hiện đại.</p>
 <p>Sử dụng phương pháp tải không đồng bộ cũng có nghĩa là nó không ảnh hưởng đến quá trình tải trang web.</p>
 </details>
 
@@ -53,7 +53,7 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 
 ***
 
-### 2. Chèn Menu Navi+ ở Bất kỳ Điểm Nào trên Trang Web của Bạn
+### 2. Chèn Menu Navi+ ở Bất Kỳ Điểm Nào trên Trang Web của Bạn
 
 Mã dưới đây có thể được sử dụng nhiều lần trên một trang web với thông tin chèn khác nhau (đặc biệt là **Embeded ID**, chẳng hạn như SF-123456789). Khi trang web được hiển thị, menu sẽ được triển khai và hiển thị tại vị trí mà mã được chèn khi các điều kiện được đáp ứng. Loại menu này phù hợp cho: Mega menu, Grid, v.v.
 
