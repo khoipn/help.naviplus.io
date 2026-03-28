@@ -3916,6 +3916,15 @@ I link interni tra le pagine dello stesso sito web aiutano a guidare gli utenti 
           navbarLinks.forEach((link) => mobileNav.appendChild(buildTopItem(link)));
         }
 
+        // Language switcher → inject into .np-help-right (before search)
+        if (typeof navbarLanguage !== "undefined") {
+          const search = document.querySelector(".np-help-search");
+          const langLi = buildTopItem(navbarLanguage);
+          langLi.className = "np-help-nav-item np-help-lang-item";
+          const right = document.querySelector(".np-help-right");
+          if (right && search) right.insertBefore(langLi, search);
+        }
+
         // CTA → inject into .np-help-right
         const right = document.querySelector(".np-help-right");
         if (right) {
@@ -3965,7 +3974,7 @@ I link interni tra le pagine dello stesso sito web aiutano a guidare gli utenti 
         hljs.highlightAll();
       });
     </script>
-    <footer class="sidebar-footer-fixed"><p>
+    <footer><p>
   © 2025 by Navi+
   <a href="https://naviplus.io" target="_blank"> Navi+</a>
 </p>

@@ -279,10 +279,6 @@ const navbarLinks = (() => [
     })),
   },
   {
-    title: t("demo"),
-    url: "https://showcase.naviplus.io/",
-  },
-  {
     title: t("pricing"),
     url: "https://naviplus.io" + resolveLangUrl("/pricing"),
   },
@@ -313,12 +309,13 @@ const navbarLinks = (() => [
     title: t("tools"),
     url: "https://tools.naviplus.io/",
   },
-  {
-    title: getCurrentLanguageLabel(),
-    dropdown: true,
-    children: languageDropdownChildren,
-  },
 ])();
+
+const navbarLanguage = {
+  title: getCurrentLanguageLabel(),
+  dropdown: true,
+  children: languageDropdownChildren,
+};
 
 // CTA button configuration
 const navbarCTA = {
