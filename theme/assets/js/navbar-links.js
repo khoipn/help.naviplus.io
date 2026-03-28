@@ -30,6 +30,7 @@ const getCurrentLanguageLabel = () => {
 
 const uiTranslations = {
   "": {
+    home: "Home",
     features: "Features",
     demo: "Demo",
     pricing: "Pricing",
@@ -49,6 +50,7 @@ const uiTranslations = {
     howToInstall: "How to install Navi+",
   },
   vi: {
+    home: "Trang chủ",
     features: "Tính năng",
     demo: "Demo",
     pricing: "Bảng giá",
@@ -68,6 +70,7 @@ const uiTranslations = {
     howToInstall: "Cách cài đặt Navi+",
   },
   fr: {
+    home: "Accueil",
     features: "Fonctionnalités",
     demo: "Démo",
     pricing: "Tarifs",
@@ -87,6 +90,7 @@ const uiTranslations = {
     howToInstall: "Comment installer Navi+",
   },
   de: {
+    home: "Startseite",
     features: "Funktionen",
     demo: "Demo",
     pricing: "Preise",
@@ -106,6 +110,7 @@ const uiTranslations = {
     howToInstall: "Navi+ installieren",
   },
   "zh-cn": {
+    home: "首页",
     features: "功能",
     demo: "演示",
     pricing: "价格",
@@ -125,6 +130,7 @@ const uiTranslations = {
     howToInstall: "如何安装 Navi+",
   },
   jp: {
+    home: "ホーム",
     features: "機能",
     demo: "デモ",
     pricing: "料金",
@@ -144,6 +150,7 @@ const uiTranslations = {
     howToInstall: "Navi+ のインストール方法",
   },
   it: {
+    home: "Home",
     features: "Funzionalità",
     demo: "Demo",
     pricing: "Prezzi",
@@ -163,6 +170,7 @@ const uiTranslations = {
     howToInstall: "Come installare Navi+",
   },
   "pt-br": {
+    home: "Início",
     features: "Recursos",
     demo: "Demonstração",
     pricing: "Preços",
@@ -182,6 +190,7 @@ const uiTranslations = {
     howToInstall: "Como instalar o Navi+",
   },
   es: {
+    home: "Inicio",
     features: "Características",
     demo: "Demo",
     pricing: "Precios",
@@ -266,6 +275,10 @@ const featureMegaItems = [
 ];
 
 const navbarLinks = (() => [
+  {
+    title: t("home"),
+    url: "https://naviplus.io" + resolveLangUrl("/"),
+  },
   {
     title: t("features"),
     mega: true,
