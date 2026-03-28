@@ -1,5 +1,10 @@
 <!doctype html>
-<html lang="en">
+{% assign _html_lang = page.lang | default: "en" %}
+{% if _html_lang == "jp" %}{% assign _html_lang = "ja" %}
+{% elsif _html_lang == "zh-cn" %}{% assign _html_lang = "zh-Hans" %}
+{% elsif _html_lang == "pt-br" %}{% assign _html_lang = "pt-BR" %}
+{% endif %}
+<html lang="{{ _html_lang }}">
   <head>
     {% include head.html %}
     <link
@@ -222,7 +227,7 @@
             const ghost = document.createElement("a");
             ghost.className = "np-help-cta-ghost";
             ghost.href = navbarCTADemo.url;
-            ghost.textContent = navbarCTADemo.text;
+            ghost.innerHTML = '<i class="ri-slideshow-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTADemo.text + '</span>';
             if (navbarCTADemo.target) { ghost.target = navbarCTADemo.target; ghost.rel = "noopener noreferrer"; }
             right.appendChild(ghost);
           }
@@ -233,10 +238,10 @@
             cta.className = "np-help-cta";
             if (isLoggedIn) {
               cta.href = "https://app.naviplus.io/";
-              cta.textContent = "Dashboard";
+              cta.innerHTML = '<i class="ri-layout-grid-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">Dashboard</span>';
             } else {
               cta.href = navbarCTA.url;
-              cta.textContent = navbarCTA.text;
+              cta.innerHTML = '<i class="ri-rocket-2-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTA.text + '</span>';
             }
             if (navbarCTA.target) { cta.target = navbarCTA.target; cta.rel = "noopener noreferrer"; }
             right.appendChild(cta);

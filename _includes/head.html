@@ -1,70 +1,166 @@
+{% comment %} ── Language detection ──────────────────────────────── {% endcomment %}
+{% assign _page_lang = page.lang | default: "en" %}
+{% assign _page_url  = page.url  | remove: 'index.html' %}
+
+{% comment %} Map internal lang code → BCP 47 for hreflang / og:locale {% endcomment %}
+{% assign _hreflang  = _page_lang %}
+{% assign _og_locale = "en_US" %}
+{% if _page_lang == "jp"    %}{% assign _hreflang = "ja"    %}{% assign _og_locale = "ja_JP" %}
+{% elsif _page_lang == "zh-cn" %}{% assign _hreflang = "zh-Hans" %}{% assign _og_locale = "zh_CN" %}
+{% elsif _page_lang == "pt-br" %}{% assign _hreflang = "pt-BR"  %}{% assign _og_locale = "pt_BR" %}
+{% elsif _page_lang == "vi" %}{% assign _og_locale = "vi_VN" %}
+{% elsif _page_lang == "fr" %}{% assign _og_locale = "fr_FR" %}
+{% elsif _page_lang == "de" %}{% assign _og_locale = "de_DE" %}
+{% elsif _page_lang == "it" %}{% assign _og_locale = "it_IT" %}
+{% elsif _page_lang == "es" %}{% assign _og_locale = "es_ES" %}
+{% endif %}
+
+{% comment %} Base path without language prefix for hreflang alternates {% endcomment %}
+{% assign _base_path = _page_url %}
+{% if _page_lang != "en" %}
+  {% assign _strip_prefix = "/" | append: _page_lang %}
+  {% assign _base_path = _page_url | remove_first: _strip_prefix %}
+{% endif %}
+{% if _base_path == "" %}{% assign _base_path = "/" %}{% endif %}
+
+{% comment %} Title & description {% endcomment %}
+{% assign _title = page.title | default: site.title %}
+{% assign _desc  = page.description | default: site.description %}
+{% assign _is_doc = false %}
+{% if page.url contains '/docs/' %}{% assign _is_doc = true %}{% endif %}
+
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>{{ page.title | default: site.title }}</title>
-<meta
-  name="description"
-  content="{{ page.description | default: site.description }}"
-/>
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0f2d1e" />
 
+{% if page.title and page.title != site.title %}
+<title>{{ page.title }} | {{ site.title }}</title>
+{% else %}
+<title>{{ site.title }}</title>
+{% endif %}
+
+<meta name="description" content="{{ _desc | truncate: 160 | strip_html }}" />
+
+<!-- Canonical & hreflang alternates -->
 <link rel="canonical" href="{{ page.url | absolute_url }}" />
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ _base_path }}" />
+<link rel="alternate" hreflang="en"      href="{{ site.url }}{{ _base_path }}" />
+<link rel="alternate" hreflang="vi"      href="{{ site.url }}/vi{{ _base_path }}" />
+<link rel="alternate" hreflang="fr"      href="{{ site.url }}/fr{{ _base_path }}" />
+<link rel="alternate" hreflang="de"      href="{{ site.url }}/de{{ _base_path }}" />
+<link rel="alternate" hreflang="zh-Hans" href="{{ site.url }}/zh-cn{{ _base_path }}" />
+<link rel="alternate" hreflang="ja"      href="{{ site.url }}/jp{{ _base_path }}" />
+<link rel="alternate" hreflang="it"      href="{{ site.url }}/it{{ _base_path }}" />
+<link rel="alternate" hreflang="pt-BR"   href="{{ site.url }}/pt-br{{ _base_path }}" />
+<link rel="alternate" hreflang="es"      href="{{ site.url }}/es{{ _base_path }}" />
 
 <!-- Favicon -->
-<link
-  rel="icon"
-  type="image/png"
-  href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png"
-/>
+<link rel="icon" type="image/png"
+  href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-<meta property="og:title" content="{{ page.title | default: site.title }}" />
-<meta
-  property="og:description"
-  content="{{ page.description | default: site.description }}"
-/>
+<!-- Open Graph -->
+<meta property="og:site_name"   content="{{ site.title }}" />
+<meta property="og:locale"      content="{{ _og_locale }}" />
+{% if _is_doc %}
+<meta property="og:type"        content="article" />
+{% else %}
+<meta property="og:type"        content="website" />
+{% endif %}
+<meta property="og:url"         content="{{ page.url | absolute_url }}" />
+<meta property="og:title"       content="{{ _title | escape }}" />
+<meta property="og:description" content="{{ _desc | truncate: 200 | strip_html | escape }}" />
 {% if site.social_image %}
-<meta
-  property="og:image"
-  content="{{ site.url }}{{ site.social_image | relative_url }}"
-/>
+<meta property="og:image"        content="{{ site.url }}{{ site.social_image }}" />
+<meta property="og:image:width"  content="1200" />
+<meta property="og:image:height" content="630" />
 {% endif %}
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="{{ page.url | absolute_url }}" />
-<meta
-  property="twitter:title"
-  content="{{ page.title | default: site.title }}"
-/>
-<meta
-  property="twitter:description"
-  content="{{ page.description | default: site.description }}"
-/>
+<meta name="twitter:card"        content="summary_large_image" />
+<meta name="twitter:url"         content="{{ page.url | absolute_url }}" />
+<meta name="twitter:title"       content="{{ _title | escape }}" />
+<meta name="twitter:description" content="{{ _desc | truncate: 200 | strip_html | escape }}" />
 {% if site.social_image %}
-<meta
-  property="twitter:image"
-  content="{{ site.url }}{{ site.social_image | relative_url }}"
-/>
-{% endif %} {% if site.twitter_username %}
+<meta name="twitter:image" content="{{ site.url }}{{ site.social_image }}" />
+{% endif %}
+{% if site.twitter_username %}
 <meta name="twitter:creator" content="{{ site.twitter_username }}" />
 {% endif %}
 
-<link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+<!-- JSON-LD: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.title | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "inLanguage": {{ _hreflang | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": "Navi+",
+    "url": "https://naviplus.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ site.url }}/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+{% if _is_doc %}
+<!-- JSON-LD: TechArticle (doc pages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ _desc | truncate: 200 | strip_html | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "inLanguage": {{ _hreflang | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.title | jsonify }},
+    "url": {{ site.url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Navi+",
+    "url": "https://naviplus.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp"
+    }
+  }
+}
+</script>
+{% endif %}
+
+<!-- Preconnect to CDNs -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+<link rel="preconnect" href="https://cdn.naviplus.app" crossorigin />
+<link rel="preconnect" href="https://live.naviplus.app" crossorigin />
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
   rel="stylesheet"
   integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-  crossorigin="anonymous"
-/>
+  crossorigin="anonymous" />
+
 <!-- Remixicon CSS -->
-<link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
-<link
-  rel="stylesheet"
-  href="{{ '/theme/assets/css/theme-styles.css' | relative_url }}"
-/>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="{{ '/theme/assets/css/theme-styles.css' | relative_url }}" />
 
 <script>
   (() => {
@@ -77,36 +173,24 @@
         const rowHeight = 34;
         const reserved = Math.min(count, maxItems) * rowHeight;
         document.documentElement.classList.add("has-favorites");
-        document.documentElement.style.setProperty(
-          "--favorites-reserved-height",
-          reserved + "px",
-        );
+        document.documentElement.style.setProperty("--favorites-reserved-height", reserved + "px");
       }
     } catch (e) {}
   })();
 </script>
 
 <!-- Google tag (gtag.js) -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"
-></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+  function gtag() { dataLayer.push(arguments); }
   gtag("js", new Date());
   gtag("config", "G-1PWVMJYX4Z");
 </script>
 
 <!-- Insert this code to the <head> of website. (c) naviplus.io -->
 <script>
-  (window._navi_setting ||= []).push({
-    token: "NAVI733440",
-  });
+  (window._navi_setting ||= []).push({ token: "NAVI733440" });
 </script>
 <script src="https://live.naviplus.app/start.js" async></script>
 <!-- Insert this code to the <head> of website -->
-
-<style></style>
