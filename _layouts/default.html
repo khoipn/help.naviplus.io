@@ -1,20 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     {% include head.html %}
-    <link rel="stylesheet" href="{{ '/theme/assets/css/theme-styles.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/theme/assets/css/lightbox-styles.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/theme/assets/css/print-styles.css' | relative_url }}" media="print">
+    <link
+      rel="stylesheet"
+      href="{{ '/theme/assets/css/theme-styles.css' | relative_url }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/theme/assets/css/lightbox-styles.css' | relative_url }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/theme/assets/css/print-styles.css' | relative_url }}"
+      media="print"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+    />
   </head>
   <body class="d-flex flex-column min-vh-100">
     {% include navbar.html %}
     <div class="container-fluid flex-grow-1">
       <div class="row">
         <!-- Offcanvas Sidebar for Mobile -->
-        <div class="offcanvas offcanvas-start bg-light sidebar-offcanvas d-md-none" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
+        <div
+          class="offcanvas offcanvas-start bg-light sidebar-offcanvas d-md-none"
+          tabindex="-1"
+          id="offcanvasSidebar"
+          aria-labelledby="offcanvasSidebarLabel"
+        >
           <div class="offcanvas-header shadow-sm border-bottom">
-            <h5 class="offcanvas-title" id="offcanvasSidebarLabel">{{ site.title }}</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="offcanvasSidebarLabel">
+              {{ site.title }}
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="offcanvas-body p-0">
             <!-- Sidebar content -->
@@ -27,7 +53,9 @@
         </div>
 
         <!-- Sidebar for Desktop/Tablet -->
-        <nav class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar shadow-sm border-end">
+        <nav
+          class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar shadow-sm border-end"
+        >
           <div class="position-sticky pt-3 h-100">
             {% include sidebar.html id_prefix="desktop" %}
           </div>
@@ -35,14 +63,11 @@
 
         <!-- Main Content -->
         <main class="col-12 col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
-          
           <div class="content-wrapper">
-            {{ content }}
-            {% if page.url contains '/docs/' %}
-              {% include prev_next.html %}
-            {% endif %}
+            {{ content }} {% if page.url contains '/docs/' %} {% include
+            prev_next.html %} {% endif %}
           </div>
-          
+
           <!-- Table of Contents (Right sidebar) -->
           <aside id="tableOfContents" class="d-none">
             <div class="toc-title">ON THIS PAGE</div>
@@ -52,108 +77,160 @@
     </div>
     {% include article_actions.html %}
     <!-- Bootstrap JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script src="{{ '/theme/assets/js/sidebar.js' | relative_url }}"></script>
-    <script src="{{ '/theme/assets/js/navbar-links.js' | relative_url }}"></script> <!-- New: Include navbar-links.js -->
+    <script src="{{ '/theme/assets/js/navbar-links.js' | relative_url }}"></script>
+    <!-- New: Include navbar-links.js -->
     <script src="{{ '/theme/assets/js/search.js' | relative_url }}"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const navLinksContainer = document.getElementById('main-navbar-nav-links');
+      document.addEventListener("DOMContentLoaded", function () {
+        if (typeof navbarLinks === "undefined") return;
 
-        function createNavbarLinks(links, parentElement) {
-          links.forEach(linkData => {
-            // Handle divider
-            if (linkData.divider) {
-              const li = document.createElement('li');
-              const hr = document.createElement('hr');
-              hr.className = 'dropdown-divider';
-              li.appendChild(hr);
-              parentElement.appendChild(li);
-              return;
-            }
+        const chevronSVG = `<svg class="np-help-chevron" viewBox="0 0 16 16" fill="none">
+          <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>`;
 
-            const li = document.createElement('li');
-            const isDropdownItem = parentElement.classList.contains('dropdown-menu');
-            
-            if (linkData.dropdown && linkData.children && linkData.children.length > 0) {
-              // It's a dropdown parent
-              li.className = 'nav-item dropdown';
-
-              const a = document.createElement('a');
-              a.className = 'nav-link dropdown-toggle';
-              a.href = '#';
-              a.textContent = linkData.title;
-              a.setAttribute('role', 'button');
-              a.setAttribute('data-bs-toggle', 'dropdown');
-              a.setAttribute('aria-expanded', 'false');
-              
-              // Add active class to dropdown toggle if activePage is set
-              if (linkData.activePage) {
-                a.classList.add('active');
-              }
-              
-              li.appendChild(a);
-
-              const ul = document.createElement('ul');
-              ul.className = 'dropdown-menu';
-              li.appendChild(ul);
-
-              createNavbarLinks(linkData.children, ul);
-            } else {
-              // It's a regular link
-              if (isDropdownItem) {
-                // Dropdown item
-                const a = document.createElement('a');
-                a.className = 'dropdown-item';
-                a.href = linkData.url;
-                a.textContent = linkData.title;
-                if (linkData.target) {
-                  a.target = linkData.target;
-                  a.rel = 'noopener noreferrer';
-                }
-                if (linkData.active) {
-                  a.classList.add('active');
-                }
-                li.appendChild(a);
-              } else {
-                // Top-level nav item
-                li.className = 'nav-item';
-                const a = document.createElement('a');
-                a.className = 'nav-link';
-                a.href = linkData.url;
-                a.textContent = linkData.title;
-                
-                if (linkData.target) {
-                  a.target = linkData.target;
-                  a.rel = 'noopener noreferrer';
-                }
-
-                // Add active class if activePage is set
-                if (linkData.activePage) {
-                  a.classList.add('active');
-                }
-                
-                li.appendChild(a);
-              }
-            }
-            parentElement.appendChild(li);
-          });
+        function buildDropdownItem(linkData) {
+          if (linkData.divider) {
+            const d = document.createElement("div");
+            d.className = "np-help-dropdown-divider";
+            return d;
+          }
+          const a = document.createElement("a");
+          a.className = "np-help-dropdown-item";
+          a.href = linkData.url || "#";
+          if (linkData.target) { a.target = linkData.target; a.rel = "noopener noreferrer"; }
+          if (linkData.active) a.classList.add("active");
+          if (linkData.icon) {
+            const i = document.createElement("i");
+            i.className = linkData.icon;
+            if (linkData.iconColor) i.style.color = linkData.iconColor;
+            a.appendChild(i);
+          }
+          const span = document.createElement("span");
+          span.textContent = linkData.title;
+          a.appendChild(span);
+          return a;
         }
 
-        if (navLinksContainer && typeof navbarLinks !== 'undefined') {
-          createNavbarLinks(navbarLinks, navLinksContainer);
-          
-          // Add CTA button if defined
-          if (typeof navbarCTA !== 'undefined') {
-            const ctaLink = document.createElement('a');
-            ctaLink.className = navbarCTA.class;
-            ctaLink.href = navbarCTA.url;
-            ctaLink.textContent = navbarCTA.text;
-            if (navbarCTA.target) {
-              ctaLink.target = navbarCTA.target;
-              ctaLink.rel = 'noopener noreferrer';
+        function buildMegaItem(child) {
+          const a = document.createElement("a");
+          a.className = "np-help-mega-item";
+          a.href = child.url || "#";
+          if (child.target) { a.target = child.target; a.rel = "noopener noreferrer"; }
+          const iconDiv = document.createElement("div");
+          iconDiv.className = "np-help-mega-icon";
+          const i = document.createElement("i");
+          i.className = child.icon || "";
+          iconDiv.appendChild(i);
+          const textDiv = document.createElement("div");
+          textDiv.className = "np-help-mega-text";
+          const titleDiv = document.createElement("div");
+          titleDiv.className = "np-help-mega-title";
+          titleDiv.textContent = child.title;
+          const descDiv = document.createElement("div");
+          descDiv.className = "np-help-mega-desc";
+          descDiv.textContent = child.desc || "";
+          textDiv.appendChild(titleDiv);
+          textDiv.appendChild(descDiv);
+          a.appendChild(iconDiv);
+          a.appendChild(textDiv);
+          return a;
+        }
+
+        function buildTopItem(linkData) {
+          const li = document.createElement("li");
+          li.className = "np-help-nav-item";
+
+          if (linkData.mega && linkData.children && linkData.children.length > 0) {
+            const trigger = document.createElement("span");
+            trigger.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            trigger.innerHTML = linkData.title + chevronSVG;
+            li.appendChild(trigger);
+
+            const mega = document.createElement("div");
+            mega.className = "np-help-mega";
+            if (linkData.megaWidth) mega.style.width = linkData.megaWidth + "px";
+            const inner = document.createElement("div");
+            inner.className = "np-help-mega-inner";
+            if (linkData.megaHeader) {
+              const hdr = document.createElement("div");
+              hdr.className = "np-help-mega-header";
+              hdr.textContent = linkData.megaHeader;
+              inner.appendChild(hdr);
             }
-            navLinksContainer.parentElement.appendChild(ctaLink);
+            const grid = document.createElement("div");
+            grid.className = "np-help-mega-grid";
+            linkData.children.forEach((child) => grid.appendChild(buildMegaItem(child)));
+            inner.appendChild(grid);
+            mega.appendChild(inner);
+            li.appendChild(mega);
+          } else if (linkData.dropdown && linkData.children && linkData.children.length > 0) {
+            const trigger = document.createElement("span");
+            trigger.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            trigger.innerHTML = linkData.title + chevronSVG;
+            li.appendChild(trigger);
+
+            const drop = document.createElement("div");
+            drop.className = "np-help-dropdown";
+            const inner = document.createElement("div");
+            inner.className = "np-help-dropdown-inner";
+            linkData.children.forEach((child) => inner.appendChild(buildDropdownItem(child)));
+            drop.appendChild(inner);
+            li.appendChild(drop);
+          } else {
+            const a = document.createElement("a");
+            a.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            a.href = linkData.url || "#";
+            a.textContent = linkData.title;
+            if (linkData.target) { a.target = linkData.target; a.rel = "noopener noreferrer"; }
+            li.appendChild(a);
+          }
+          return li;
+        }
+
+        // Desktop nav
+        const desktopNav = document.getElementById("main-navbar-nav-links");
+        if (desktopNav) {
+          navbarLinks.forEach((link) => desktopNav.appendChild(buildTopItem(link)));
+        }
+
+        // Mobile nav (duplicate)
+        const mobileNav = document.getElementById("main-navbar-nav-links-mobile");
+        if (mobileNav) {
+          navbarLinks.forEach((link) => mobileNav.appendChild(buildTopItem(link)));
+        }
+
+        // CTA → inject into .np-help-right
+        const right = document.querySelector(".np-help-right");
+        if (right) {
+          // "See demo" ghost button
+          if (typeof navbarCTADemo !== "undefined") {
+            const ghost = document.createElement("a");
+            ghost.className = "np-help-cta-ghost";
+            ghost.href = navbarCTADemo.url;
+            ghost.textContent = navbarCTADemo.text;
+            if (navbarCTADemo.target) { ghost.target = navbarCTADemo.target; ghost.rel = "noopener noreferrer"; }
+            right.appendChild(ghost);
+          }
+          // "Get started" / "Dashboard" primary button
+          if (typeof navbarCTA !== "undefined") {
+            const isLoggedIn = sessionStorage.getItem("navi_isGlobalLogging") === "1";
+            const cta = document.createElement("a");
+            cta.className = "np-help-cta";
+            if (isLoggedIn) {
+              cta.href = "https://app.naviplus.io/";
+              cta.textContent = "Dashboard";
+            } else {
+              cta.href = navbarCTA.url;
+              cta.textContent = navbarCTA.text;
+            }
+            if (navbarCTA.target) { cta.target = navbarCTA.target; cta.rel = "noopener noreferrer"; }
+            right.appendChild(cta);
           }
         }
       });
@@ -163,8 +240,20 @@
     <script src="{{ '/theme/assets/js/favorites.js' | relative_url }}"></script>
     <script src="{{ '/theme/assets/js/image-placeholder.js' | relative_url }}"></script>
     <script src="{{ '/theme/assets/js/table-of-contents.js' | relative_url }}"></script>
-    <footer class="sidebar-footer-fixed">
-      {% include footer.html %}
-    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Decode double-encoded HTML entities from Jekyll (e.g. &amp;lt; → &lt;)
+        document.querySelectorAll("pre code").forEach(function (el) {
+          el.innerHTML = el.innerHTML
+            .replace(/&amp;lt;/g, "&lt;")
+            .replace(/&amp;gt;/g, "&gt;")
+            .replace(/&amp;amp;/g, "&amp;")
+            .replace(/&amp;#x26;/g, "&#x26;");
+        });
+        hljs.highlightAll();
+      });
+    </script>
+    <footer class="sidebar-footer-fixed">{% include footer.html %}</footer>
   </body>
 </html>

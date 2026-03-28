@@ -1,175 +1,201 @@
-{% assign current_page_url = page.url | remove: 'index.html' | replace: '//', '/' %}
-{% if current_page_url != '/' and current_page_url contains '/' and current_page_url | slice: -1 == '/' %}
-  {% assign current_page_url = current_page_url | remove_last: '/' %}
-{% endif %}
-{% if current_page_url == "" %}{% assign current_page_url = "/" %}{% endif %}
-
-{% assign current_lang_prefix = nil %}
-{% assign lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: "," %}
-{% for candidate in lang_candidates %}
-  {% assign candidate_prefix = "/" | append: candidate | append: "/docs" %}
-  {% if current_page_url contains candidate_prefix %}
-    {% assign current_lang_prefix = candidate %}
-  {% endif %}
-{% endfor %}
-
-{% assign nav_data = site.data.navigation %}
-{% if current_lang_prefix %}
-  {% assign nav_key = "navigation_" | append: current_lang_prefix %}
-  {% if site.data[nav_key] %}
-    {% assign nav_data = site.data[nav_key] %}
-  {% endif %}
-{% endif %}
-
-{% assign label_home = "Home" %}
-{% assign label_favorites = "FAVORITES" %}
-{% if current_lang_prefix == "vi" %}
-  {% assign label_home = "Trang chủ" %}
-  {% assign label_favorites = "YÊU THÍCH" %}
-{% elsif current_lang_prefix == "jp" %}
-  {% assign label_home = "ホーム" %}
-  {% assign label_favorites = "お気に入り" %}
-{% elsif current_lang_prefix == "fr" %}
-  {% assign label_home = "Accueil" %}
-  {% assign label_favorites = "FAVORIS" %}
-{% elsif current_lang_prefix == "de" %}
-  {% assign label_home = "Start" %}
-  {% assign label_favorites = "FAVORITEN" %}
-{% elsif current_lang_prefix == "zh-cn" %}
-  {% assign label_home = "首页" %}
-  {% assign label_favorites = "收藏" %}
-{% elsif current_lang_prefix == "it" %}
-  {% assign label_home = "Home" %}
-  {% assign label_favorites = "PREFERITI" %}
-{% elsif current_lang_prefix == "pt-br" %}
-  {% assign label_home = "Início" %}
-  {% assign label_favorites = "FAVORITOS" %}
-{% elsif current_lang_prefix == "es" %}
-  {% assign label_home = "Inicio" %}
-  {% assign label_favorites = "FAVORITOS" %}
-{% endif %}
-
-{% assign home_href = "/" %}
-{% if current_lang_prefix %}
-  {% assign home_href = "/" | append: current_lang_prefix | append: "/docs/getting-started/" %}
-{% endif %}
+{% assign current_page_url = page.url | remove: 'index.html' | replace: '//',
+'/' %} {% if current_page_url != '/' and current_page_url contains '/' and
+current_page_url | slice: -1 == '/' %} {% assign current_page_url =
+current_page_url | remove_last: '/' %} {% endif %} {% if current_page_url == ""
+%}{% assign current_page_url = "/" %}{% endif %} {% assign current_lang_prefix =
+nil %} {% assign lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: ","
+%} {% for candidate in lang_candidates %} {% assign candidate_prefix = "/" |
+append: candidate | append: "/docs" %} {% if current_page_url contains
+candidate_prefix %} {% assign current_lang_prefix = candidate %} {% endif %} {%
+endfor %} {% assign nav_data = site.data.navigation %} {% if current_lang_prefix
+%} {% assign nav_key = "navigation_" | append: current_lang_prefix %} {% if
+site.data[nav_key] %} {% assign nav_data = site.data[nav_key] %} {% endif %} {%
+endif %} {% assign label_home = "Home" %} {% assign label_favorites =
+"FAVORITES" %} {% if current_lang_prefix == "vi" %} {% assign label_home =
+"Trang chủ" %} {% assign label_favorites = "YÊU THÍCH" %} {% elsif
+current_lang_prefix == "jp" %} {% assign label_home = "ホーム" %} {% assign
+label_favorites = "お気に入り" %} {% elsif current_lang_prefix == "fr" %} {%
+assign label_home = "Accueil" %} {% assign label_favorites = "FAVORIS" %} {%
+elsif current_lang_prefix == "de" %} {% assign label_home = "Start" %} {% assign
+label_favorites = "FAVORITEN" %} {% elsif current_lang_prefix == "zh-cn" %} {%
+assign label_home = "首页" %} {% assign label_favorites = "收藏" %} {% elsif
+current_lang_prefix == "it" %} {% assign label_home = "Home" %} {% assign
+label_favorites = "PREFERITI" %} {% elsif current_lang_prefix == "pt-br" %} {%
+assign label_home = "Início" %} {% assign label_favorites = "FAVORITOS" %} {%
+elsif current_lang_prefix == "es" %} {% assign label_home = "Inicio" %} {%
+assign label_favorites = "FAVORITOS" %} {% endif %} {% assign home_href = "/" %}
+{% if current_lang_prefix %} {% assign home_href = "/" | append:
+current_lang_prefix | append: "/docs/getting-started/" %} {% endif %}
 
 <!-- Favorites Section (at the top) -->
-<h6 class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted" style="margin-top: 0.5rem; margin-bottom: 0.25rem;">{{ label_favorites }}</h6>
-<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem;">
+<h6
+  class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted"
+  style="margin-top: 0.5rem; margin-bottom: 0.25rem"
+>
+  {{ label_favorites }}
+</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem">
   <!-- Favorites will be rendered here by JavaScript -->
 </ul>
-<div class="favorites-separator" style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0;"></div>
+<div
+  class="favorites-separator"
+  style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0"
+></div>
 
 <!-- Main Navigation -->
 <ul class="nav flex-column">
   <!-- Home Link -->
   <li class="nav-item">
-    <a class="nav-link{% if current_page_url == '/' %} active{% endif %}" href="{{ home_href | relative_url }}">
+    <a
+      class="nav-link{% if current_page_url == '/' %} active{% endif %}"
+      href="{{ home_href | relative_url }}"
+    >
       <span class="d-flex align-items-start sidebar-link-container">
         <span class="sidebar-title-text flex-grow-1">{{ label_home }}</span>
       </span>
     </a>
   </li>
-  
-  {% for item in nav_data %}
-    {% assign item_url_display = item.url %}
-    {% if current_lang_prefix and item_url_display and item_url_display contains "/docs/" %}
-      {% assign item_url_display = "/" | append: current_lang_prefix | append: item_url_display %}
-    {% endif %}
 
-    {% assign item_url_normalized = item_url_display | remove: 'index.html' | replace: '//', '/' %}
-    {% if item_url_normalized != '/' and item_url_normalized contains '/' and item_url_normalized | slice: -1 == '/' %}
-      {% assign item_url_normalized = item_url_normalized | remove_last: '/' %}
-    {% endif %}
-    {% if item_url_normalized == "" %}{% assign item_url_normalized = "/" %}{% endif %}
+  {% for item in nav_data %} {% assign item_url_display = item.url %} {% if
+  current_lang_prefix and item_url_display and item_url_display contains
+  "/docs/" %} {% assign item_url_display = "/" | append: current_lang_prefix |
+  append: item_url_display %} {% endif %} {% assign item_url_normalized =
+  item_url_display | remove: 'index.html' | replace: '//', '/' %} {% if
+  item_url_normalized != '/' and item_url_normalized contains '/' and
+  item_url_normalized | slice: -1 == '/' %} {% assign item_url_normalized =
+  item_url_normalized | remove_last: '/' %} {% endif %} {% if
+  item_url_normalized == "" %}{% assign item_url_normalized = "/" %}{% endif %}
+  {% assign item_is_active_parent = false %} {% if current_page_url contains
+  item_url_normalized and current_page_url != item_url_normalized %} {% assign
+  item_is_active_parent = true %} {% endif %}
 
-        
-    {% assign item_is_active_parent = false %}
-    {% if current_page_url contains item_url_normalized and current_page_url != item_url_normalized %}
-      {% assign item_is_active_parent = true %}
-    {% endif %}
+  <li
+    class="nav-item{% if item.title == 'line' %} sidebar-separator-line{% endif %}"
+  >
+    {% if item.title == 'line' %}
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    {% elsif item.children %}
+    <a
+      class="nav-link{% if current_page_url == item_url_normalized %} active{% endif %}"
+      data-bs-toggle="collapse"
+      href="#collapse-{{ include.id_prefix }}-{{ forloop.index }}"
+      role="button"
+      aria-expanded="{% if item_is_active_parent or current_page_url == item_url_normalized %}true{% else %}false{% endif %}"
+      aria-controls="collapse-{{ include.id_prefix }}-{{ forloop.index }}"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed{% if item_is_active_parent or current_page_url == item_url_normalized %} d-none{% endif %}"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open{% unless item_is_active_parent or current_page_url == item_url_normalized %} d-none{% endunless %}"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">{{ item.title }}</span>
+      </span>
+    </a>
+    <div
+      class="collapse {% if item_is_active_parent or current_page_url == item_url_normalized %}show{% endif %}"
+      id="collapse-{{ include.id_prefix }}-{{ forloop.index }}"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+        {% for child in item.children %} {% assign child_url_display = child.url
+        %} {% if current_lang_prefix and child_url_display and child_url_display
+        contains "/docs/" %} {% assign child_url_display = "/" | append:
+        current_lang_prefix | append: child_url_display %} {% endif %} {% assign
+        child_url_normalized = child_url_display | remove: 'index.html' |
+        replace: '//', '/' %} {% if child_url_normalized != '/' and
+        child_url_normalized contains '/' and child_url_normalized | slice: -1
+        == '/' %} {% assign child_url_normalized = child_url_normalized |
+        remove_last: '/' %} {% endif %} {% if child_url_normalized == "" %}{%
+        assign child_url_normalized = "/" %}{% endif %} {% assign
+        child_is_active_parent = false %} {% if current_page_url contains
+        child_url_normalized and current_page_url != child_url_normalized %} {%
+        assign child_is_active_parent = true %} {% endif %}
 
-    <li class="nav-item{% if item.title == 'line' %} sidebar-separator-line{% endif %}">
-      {% if item.title == 'line' %}
-        <!-- Render a separator line -->
-        <div class="sidebar-separator-content"></div>
-      {% elsif item.children %}
-        <a class="nav-link{% if current_page_url == item_url_normalized %} active{% endif %}" data-bs-toggle="collapse" href="#collapse-{{ include.id_prefix }}-{{ forloop.index }}" role="button" aria-expanded="{% if item_is_active_parent or current_page_url == item_url_normalized %}true{% else %}false{% endif %}" aria-controls="collapse-{{ include.id_prefix }}-{{ forloop.index }}">
-          <span class="d-flex align-items-start sidebar-link-container">
-            <i class="ri-folder-line sidebar-folder-icon-closed{% if item_is_active_parent or current_page_url == item_url_normalized %} d-none{% endif %}"></i>
-            <i class="ri-folder-open-line sidebar-folder-icon-open{% unless item_is_active_parent or current_page_url == item_url_normalized %} d-none{% endunless %}"></i>
-            <span class="sidebar-title-text flex-grow-1">{{ item.title }}</span>
-          </span>
-        </a>
-        <div class="collapse {% if item_is_active_parent or current_page_url == item_url_normalized %}show{% endif %}" id="collapse-{{ include.id_prefix }}-{{ forloop.index }}">
-          <ul class="nav flex-column ps-3 sidebar-children-list">
-            {% for child in item.children %}
-              {% assign child_url_display = child.url %}
-              {% if current_lang_prefix and child_url_display and child_url_display contains "/docs/" %}
-                {% assign child_url_display = "/" | append: current_lang_prefix | append: child_url_display %}
-              {% endif %}
+        <li
+          class="nav-item sidebar-tree-item{% if child.title == 'line' %} sidebar-separator-line{% endif %}"
+        >
+          {% if child.title == 'line' %}
+          <div class="sidebar-separator-content"></div>
+          {% elsif child.children %}
+          <a
+            class="nav-link{% if current_page_url == child_url_normalized %} active{% endif %}"
+            data-bs-toggle="collapse"
+            href="#collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+            role="button"
+            aria-expanded="{% if child_is_active_parent or current_page_url == child_url_normalized %}true{% else %}false{% endif %}"
+            aria-controls="collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed{% if child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endif %}"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open{% unless child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endunless %}"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >{{ child.title }}</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse {% if child_is_active_parent or current_page_url == child_url_normalized %}show{% endif %}"
+            id="collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+              {% for grand_child in child.children %} {% assign
+              grand_child_url_display = grand_child.url %} {% if
+              current_lang_prefix and grand_child_url_display and
+              grand_child_url_display contains "/docs/" %} {% assign
+              grand_child_url_display = "/" | append: current_lang_prefix |
+              append: grand_child_url_display %} {% endif %} {% assign
+              grand_child_url_normalized = grand_child_url_display | remove:
+              'index.html' | replace: '//', '/' %} {% if
+              grand_child_url_normalized != '/' and grand_child_url_normalized
+              contains '/' and grand_child_url_normalized | slice: -1 == '/' %}
+              {% assign grand_child_url_normalized = grand_child_url_normalized
+              | remove_last: '/' %} {% endif %} {% if grand_child_url_normalized
+              == "" %}{% assign grand_child_url_normalized = "/" %}{% endif %}
 
-              {% assign child_url_normalized = child_url_display | remove: 'index.html' | replace: '//', '/' %}
-              {% if child_url_normalized != '/' and child_url_normalized contains '/' and child_url_normalized | slice: -1 == '/' %}
-                {% assign child_url_normalized = child_url_normalized | remove_last: '/' %}
-              {% endif %}
-              {% if child_url_normalized == "" %}{% assign child_url_normalized = "/" %}{% endif %}
-
-              {% assign child_is_active_parent = false %}
-              {% if current_page_url contains child_url_normalized and current_page_url != child_url_normalized %}
-                {% assign child_is_active_parent = true %}
-              {% endif %}
-
-              <!-- DEBUG: child.url: {{ child.url }}, child_url_normalized: {{ child_url_normalized }} -->
-
-              <li class="nav-item sidebar-tree-item{% if child.title == 'line' %} sidebar-separator-line{% endif %}">
-                {% if child.title == 'line' %}
-                  <div class="sidebar-separator-content"></div>
-                {% elsif child.children %}
-                  <a class="nav-link{% if current_page_url == child_url_normalized %} active{% endif %}" data-bs-toggle="collapse" href="#collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}" role="button" aria-expanded="{% if child_is_active_parent or current_page_url == child_url_normalized %}true{% else %}false{% endif %}" aria-controls="collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}">
-                    <span class="d-flex align-items-start sidebar-link-container">
-                      <i class="ri-folder-line sidebar-folder-icon-closed{% if child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endif %}"></i>
-                      <i class="ri-folder-open-line sidebar-folder-icon-open{% unless child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endunless %}"></i>
-                      <span class="sidebar-title-text flex-grow-1">{{ child.title }}</span>
-                    </span>
-                  </a>
-                  <div class="collapse {% if child_is_active_parent or current_page_url == child_url_normalized %}show{% endif %}" id="collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}">
-                    <ul class="nav flex-column ps-3 sidebar-children-list">
-                      {% for grand_child in child.children %}
-                        {% assign grand_child_url_display = grand_child.url %}
-                        {% if current_lang_prefix and grand_child_url_display and grand_child_url_display contains "/docs/" %}
-                          {% assign grand_child_url_display = "/" | append: current_lang_prefix | append: grand_child_url_display %}
-                        {% endif %}
-
-                        {% assign grand_child_url_normalized = grand_child_url_display | remove: 'index.html' | replace: '//', '/' %}
-                        {% if grand_child_url_normalized != '/' and grand_child_url_normalized contains '/' and grand_child_url_normalized | slice: -1 == '/' %}
-                          {% assign grand_child_url_normalized = grand_child_url_normalized | remove_last: '/' %}
-                        {% endif %}
-                        {% if grand_child_url_normalized == "" %}{% assign grand_child_url_normalized = "/" %}{% endif %}
-
-                        <!-- DEBUG: grand_child.url: {{ grand_child.url }}, grand_child_url_normalized: {{ grand_child_url_normalized }} -->
-
-                        <li class="nav-item sidebar-tree-item{% if grand_child.title == 'line' %} sidebar-separator-line{% endif %}">
-                          {% if grand_child.title == 'line' %}
-                            <div class="sidebar-separator-content"></div>
-                          {% else %}
-                            <a class="nav-link{% if current_page_url == grand_child_url_normalized %} active{% endif %}" href="{{ grand_child_url_display | relative_url }}"><span class="sidebar-title-text flex-grow-1">{{ grand_child.title }}</span></a>
-                          {% endif %}
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  </div>
+              <li
+                class="nav-item sidebar-tree-item{% if grand_child.title == 'line' %} sidebar-separator-line{% endif %}"
+              >
+                {% if grand_child.title == 'line' %}
+                <div class="sidebar-separator-content"></div>
                 {% else %}
-                  <a class="nav-link{% if current_page_url == child_url_normalized %} active{% endif %}" href="{{ child_url_display | relative_url }}"><span class="sidebar-title-text flex-grow-1">{{ child.title }}</span></a>
+                <a
+                  class="nav-link{% if current_page_url == grand_child_url_normalized %} active{% endif %}"
+                  href="{{ grand_child_url_display | relative_url }}"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >{{ grand_child.title }}</span
+                  ></a
+                >
                 {% endif %}
               </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% else %}
-        <a class="nav-link{% if current_page_url == item_url_normalized %} active{% endif %}" href="{{ item_url_display | relative_url }}"><span class="sidebar-title-text flex-grow-1">{{ item.title }}</span></a>
-      {% endif %}
-    </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% else %}
+          <a
+            class="nav-link{% if current_page_url == child_url_normalized %} active{% endif %}"
+            href="{{ child_url_display | relative_url }}"
+            ><span class="sidebar-title-text flex-grow-1"
+              >{{ child.title }}</span
+            ></a
+          >
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% else %}
+    <a
+      class="nav-link{% if current_page_url == item_url_normalized %} active{% endif %}"
+      href="{{ item_url_display | relative_url }}"
+      ><span class="sidebar-title-text flex-grow-1">{{ item.title }}</span></a
+    >
+    {% endif %}
+  </li>
   {% endfor %}
 </ul>

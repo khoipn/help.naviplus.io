@@ -1,7 +1,12 @@
 <!-- Insert the code where the menu {{ include.embed_id | default: 'SF-123456789' }} appears. (c) naviplus.io -->
-<div class="naviman_app section_naviman_app" id="{{ include.embed_id | default: 'SF-123456789' }}-container"></div>
-<script>(window._navi_setting ||= []).push({
-   token: "{{ include.token | default: 'NAVI733440' }}",
-   embed_id: "{{ include.embed_id | default: 'SF-123456789' }}"
-});</script>
+<div
+  class="naviman_app section_naviman_app"
+  id="{{ include.embed_id | default: 'SF-123456789' }}-container"
+></div>
+<script>
+  (window._navi_setting ||= []).push({
+    token: "{{ include.token | default: 'NAVI733440' }}",
+    embed_id: "{{ include.embed_id | default: 'SF-123456789' }}",
+  });
+</script>
 <!-- Insert the code where the menu {{ include.embed_id | default: 'SF-123456789' }} appears -->

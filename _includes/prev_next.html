@@ -1,153 +1,91 @@
-{% assign current_page_url = page.url | remove: 'index.html' | replace: '//', '/' %}
-{% if current_page_url != '/' and current_page_url contains '/' and current_page_url | slice: -1 == '/' %}
-  {% assign current_page_url = current_page_url | remove_last: '/' %}
-{% endif %}
-{% if current_page_url == "" %}{% assign current_page_url = "/" %}{% endif %}
-
-{% assign current_lang_prefix = nil %}
-{% assign lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: "," %}
-{% for candidate in lang_candidates %}
-  {% assign candidate_prefix = "/" | append: candidate | append: "/docs" %}
-  {% if current_page_url contains candidate_prefix %}
-    {% assign current_lang_prefix = candidate %}
-  {% endif %}
-{% endfor %}
-
-{% assign nav_data = site.data.navigation %}
-{% if current_lang_prefix %}
-  {% assign nav_key = "navigation_" | append: current_lang_prefix %}
-  {% if site.data[nav_key] %}
-    {% assign nav_data = site.data[nav_key] %}
-  {% endif %}
-{% endif %}
-
-{% assign label_prev = "Back" %}
-{% assign label_next = "Next" %}
-{% if current_lang_prefix == "vi" %}
-  {% assign label_prev = "Trước" %}
-  {% assign label_next = "Tiếp" %}
-{% elsif current_lang_prefix == "jp" %}
-  {% assign label_prev = "前へ" %}
-  {% assign label_next = "次へ" %}
-{% elsif current_lang_prefix == "fr" %}
-  {% assign label_prev = "Précédent" %}
-  {% assign label_next = "Suivant" %}
-{% elsif current_lang_prefix == "de" %}
-  {% assign label_prev = "Zurück" %}
-  {% assign label_next = "Weiter" %}
-{% elsif current_lang_prefix == "zh-cn" %}
-  {% assign label_prev = "上一页" %}
-  {% assign label_next = "下一页" %}
-{% elsif current_lang_prefix == "it" %}
-  {% assign label_prev = "Indietro" %}
-  {% assign label_next = "Avanti" %}
-{% elsif current_lang_prefix == "pt-br" %}
-  {% assign label_prev = "Anterior" %}
-  {% assign label_next = "Próximo" %}
-{% elsif current_lang_prefix == "es" %}
-  {% assign label_prev = "Anterior" %}
-  {% assign label_next = "Siguiente" %}
-{% endif %}
-
-{% assign flat = "" %}
-{% for item in nav_data %}
-  {% if item.url and item.title and item.title != "line" and item.type != "separator" %}
-    {% assign flat = flat | append: item.url | append: "||" | append: item.title | append: "\n" %}
-  {% endif %}
-  {% if item.children %}
-    {% for child in item.children %}
-      {% if child.url and child.title and child.title != "line" and child.type != "separator" %}
-        {% assign flat = flat | append: child.url | append: "||" | append: child.title | append: "\n" %}
-      {% endif %}
-      {% if child.children %}
-        {% for grand_child in child.children %}
-          {% if grand_child.url and grand_child.title and grand_child.title != "line" and grand_child.type != "separator" %}
-            {% assign flat = flat | append: grand_child.url | append: "||" | append: grand_child.title | append: "\n" %}
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-{% endfor %}
-
-{% assign flat_list = flat | split: "\n" %}
-{% assign current_index = nil %}
-
-{% for entry in flat_list %}
-  {% if entry != "" and current_index == nil %}
-    {% assign parts = entry | split: "||" %}
-    {% assign entry_url = parts[0] | default: "" %}
-    {% assign entry_url_display = entry_url %}
-    {% if current_lang_prefix and entry_url_display and entry_url_display contains "/docs/" %}
-      {% assign entry_url_display = "/" | append: current_lang_prefix | append: entry_url_display %}
+{% assign current_page_url = page.url | remove: 'index.html' | replace: '//',
+'/' %} {% if current_page_url != '/' and current_page_url contains '/' and
+current_page_url | slice: -1 == '/' %} {% assign current_page_url =
+current_page_url | remove_last: '/' %} {% endif %} {% if current_page_url == ""
+%}{% assign current_page_url = "/" %}{% endif %} {% assign current_lang_prefix =
+nil %} {% assign lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: ","
+%} {% for candidate in lang_candidates %} {% assign candidate_prefix = "/" |
+append: candidate | append: "/docs" %} {% if current_page_url contains
+candidate_prefix %} {% assign current_lang_prefix = candidate %} {% endif %} {%
+endfor %} {% assign nav_data = site.data.navigation %} {% if current_lang_prefix
+%} {% assign nav_key = "navigation_" | append: current_lang_prefix %} {% if
+site.data[nav_key] %} {% assign nav_data = site.data[nav_key] %} {% endif %} {%
+endif %} {% assign label_prev = "Back" %} {% assign label_next = "Next" %} {% if
+current_lang_prefix == "vi" %} {% assign label_prev = "Trước" %} {% assign
+label_next = "Tiếp" %} {% elsif current_lang_prefix == "jp" %} {% assign
+label_prev = "前へ" %} {% assign label_next = "次へ" %} {% elsif
+current_lang_prefix == "fr" %} {% assign label_prev = "Précédent" %} {% assign
+label_next = "Suivant" %} {% elsif current_lang_prefix == "de" %} {% assign
+label_prev = "Zurück" %} {% assign label_next = "Weiter" %} {% elsif
+current_lang_prefix == "zh-cn" %} {% assign label_prev = "上一页" %} {% assign
+label_next = "下一页" %} {% elsif current_lang_prefix == "it" %} {% assign
+label_prev = "Indietro" %} {% assign label_next = "Avanti" %} {% elsif
+current_lang_prefix == "pt-br" %} {% assign label_prev = "Anterior" %} {% assign
+label_next = "Próximo" %} {% elsif current_lang_prefix == "es" %} {% assign
+label_prev = "Anterior" %} {% assign label_next = "Siguiente" %} {% endif %} {%
+assign flat = "" %} {% for item in nav_data %} {% if item.url and item.title and
+item.title != "line" and item.type != "separator" %} {% assign flat = flat |
+append: item.url | append: "||" | append: item.title | append: "\n" %} {% endif
+%} {% if item.children %} {% for child in item.children %} {% if child.url and
+child.title and child.title != "line" and child.type != "separator" %} {% assign
+flat = flat | append: child.url | append: "||" | append: child.title | append:
+"\n" %} {% endif %} {% if child.children %} {% for grand_child in child.children
+%} {% if grand_child.url and grand_child.title and grand_child.title != "line"
+and grand_child.type != "separator" %} {% assign flat = flat | append:
+grand_child.url | append: "||" | append: grand_child.title | append: "\n" %} {%
+endif %} {% endfor %} {% endif %} {% endfor %} {% endif %} {% endfor %} {%
+assign flat_list = flat | split: "\n" %} {% assign current_index = nil %} {% for
+entry in flat_list %} {% if entry != "" and current_index == nil %} {% assign
+parts = entry | split: "||" %} {% assign entry_url = parts[0] | default: "" %}
+{% assign entry_url_display = entry_url %} {% if current_lang_prefix and
+entry_url_display and entry_url_display contains "/docs/" %} {% assign
+entry_url_display = "/" | append: current_lang_prefix | append:
+entry_url_display %} {% endif %} {% assign entry_url_normalized =
+entry_url_display | remove: 'index.html' | replace: '//', '/' %} {% if
+entry_url_normalized != '/' and entry_url_normalized contains '/' and
+entry_url_normalized | slice: -1 == '/' %} {% assign entry_url_normalized =
+entry_url_normalized | remove_last: '/' %} {% endif %} {% if
+entry_url_normalized == "" %}{% assign entry_url_normalized = "/" %}{% endif %}
+{% if entry_url_normalized == current_page_url %} {% assign current_index =
+forloop.index0 %} {% endif %} {% endif %} {% endfor %} {% if current_index !=
+nil %} {% assign prev_index = current_index | minus: 1 %} {% assign next_index =
+current_index | plus: 1 %} {% assign prev_entry = nil %} {% assign next_entry =
+nil %} {% if prev_index >= 0 %} {% assign prev_entry = flat_list[prev_index] %}
+{% endif %} {% if next_index < flat_list.size %} {% assign next_entry =
+flat_list[next_index] %} {% endif %} {% assign prev_url = nil %} {% assign
+prev_title = nil %} {% if prev_entry and prev_entry != "" %} {% assign
+prev_parts = prev_entry | split: "||" %} {% assign prev_url = prev_parts[0] %}
+{% if current_lang_prefix and prev_url and prev_url contains "/docs/" %} {%
+assign prev_url = "/" | append: current_lang_prefix | append: prev_url %} {%
+endif %} {% assign prev_title = prev_parts[1] %} {% endif %} {% assign next_url
+= nil %} {% assign next_title = nil %} {% if next_entry and next_entry != "" %}
+{% assign next_parts = next_entry | split: "||" %} {% assign next_url =
+next_parts[0] %} {% if current_lang_prefix and next_url and next_url contains
+"/docs/" %} {% assign next_url = "/" | append: current_lang_prefix | append:
+next_url %} {% endif %} {% assign next_title = next_parts[1] %} {% endif %} {%
+if prev_url or next_url %}
+<nav class="prev-next-nav" aria-label="Page navigation">
+  <div class="prev-next-col">
+    {% if prev_url %}
+    <a class="prev-next-link prev-next-prev" href="{{ prev_url | relative_url }}">
+      <span class="prev-next-arrow">←</span>
+      <span class="prev-next-body">
+        <span class="prev-next-label">{{ label_prev }}</span>
+        <span class="prev-next-title">{{ prev_title }}</span>
+      </span>
+    </a>
     {% endif %}
-
-    {% assign entry_url_normalized = entry_url_display | remove: 'index.html' | replace: '//', '/' %}
-    {% if entry_url_normalized != '/' and entry_url_normalized contains '/' and entry_url_normalized | slice: -1 == '/' %}
-      {% assign entry_url_normalized = entry_url_normalized | remove_last: '/' %}
+  </div>
+  <div class="prev-next-col">
+    {% if next_url %}
+    <a class="prev-next-link prev-next-next" href="{{ next_url | relative_url }}">
+      <span class="prev-next-body">
+        <span class="prev-next-label">{{ label_next }}</span>
+        <span class="prev-next-title">{{ next_title }}</span>
+      </span>
+      <span class="prev-next-arrow">→</span>
+    </a>
     {% endif %}
-    {% if entry_url_normalized == "" %}{% assign entry_url_normalized = "/" %}{% endif %}
-
-    {% if entry_url_normalized == current_page_url %}
-      {% assign current_index = forloop.index0 %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-{% if current_index != nil %}
-  {% assign prev_index = current_index | minus: 1 %}
-  {% assign next_index = current_index | plus: 1 %}
-
-  {% assign prev_entry = nil %}
-  {% assign next_entry = nil %}
-
-  {% if prev_index >= 0 %}
-    {% assign prev_entry = flat_list[prev_index] %}
-  {% endif %}
-  {% if next_index < flat_list.size %}
-    {% assign next_entry = flat_list[next_index] %}
-  {% endif %}
-
-  {% assign prev_url = nil %}
-  {% assign prev_title = nil %}
-  {% if prev_entry and prev_entry != "" %}
-    {% assign prev_parts = prev_entry | split: "||" %}
-    {% assign prev_url = prev_parts[0] %}
-    {% if current_lang_prefix and prev_url and prev_url contains "/docs/" %}
-      {% assign prev_url = "/" | append: current_lang_prefix | append: prev_url %}
-    {% endif %}
-    {% assign prev_title = prev_parts[1] %}
-  {% endif %}
-
-  {% assign next_url = nil %}
-  {% assign next_title = nil %}
-  {% if next_entry and next_entry != "" %}
-    {% assign next_parts = next_entry | split: "||" %}
-    {% assign next_url = next_parts[0] %}
-    {% if current_lang_prefix and next_url and next_url contains "/docs/" %}
-      {% assign next_url = "/" | append: current_lang_prefix | append: next_url %}
-    {% endif %}
-    {% assign next_title = next_parts[1] %}
-  {% endif %}
-
-  {% if prev_url or next_url %}
-    <nav class="prev-next-nav" aria-label="Page navigation">
-      <div class="prev-next-col">
-        {% if prev_url %}
-          <a class="prev-next-link prev-next-prev" href="{{ prev_url | relative_url }}">
-            <span class="prev-next-label">{{ label_prev }}</span>
-            <span class="prev-next-title">{{ prev_title }}</span>
-          </a>
-        {% endif %}
-      </div>
-      <div class="prev-next-col">
-        {% if next_url %}
-          <a class="prev-next-link prev-next-next" href="{{ next_url | relative_url }}">
-            <span class="prev-next-label">{{ label_next }}</span>
-            <span class="prev-next-title">{{ next_title }}</span>
-          </a>
-        {% endif %}
-      </div>
-    </nav>
-  {% endif %}
-{% endif %}
+  </div>
+</nav>
+{% endif %} {% endif %}

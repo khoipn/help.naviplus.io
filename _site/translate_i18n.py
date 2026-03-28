@@ -189,7 +189,47 @@ def looks_like_broken_image_markup(text):
         return True
     if 'src=" `' in text or 'src="`' in text:
         return True
+    if 'alt="")' in text:
+        return True
+    if "__HTML_BLOCK_" in text:
+        return True
     return False
+
+
+def ensure_images_match_source(source_body, translated_content):
+    """Force all <figure> and <img> blocks in translation to be identical to source.
+
+    The AI must never alter image HTML. This acts as a hard guarantee regardless
+    of what the translation model returns.
+    """
+    if not source_body or not translated_content:
+        return translated_content
+
+    figure_re = re.compile(r"<figure\b[\s\S]*?</figure>", re.IGNORECASE)
+
+    source_figures = figure_re.findall(source_body)
+    if not source_figures:
+        return translated_content
+
+    result = translated_content
+    translated_figures = figure_re.findall(result)
+
+    if len(source_figures) == len(translated_figures):
+        for src_fig, trans_fig in zip(source_figures, translated_figures):
+            if src_fig != trans_fig:
+                result = result.replace(trans_fig, src_fig, 1)
+        return result
+
+    # Count mismatch: fall back to img-level replacement
+    img_re = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
+    source_imgs = img_re.findall(source_body)
+    translated_imgs = img_re.findall(result)
+    if source_imgs and len(source_imgs) == len(translated_imgs):
+        for src_img, trans_img in zip(source_imgs, translated_imgs):
+            if src_img != trans_img:
+                result = result.replace(trans_img, src_img, 1)
+
+    return result
 
 
 def strip_md_markers(text):
@@ -473,6 +513,8 @@ def main():
                 target_language_name=task["lang_name"],
                 payload=payload,
             )
+
+        translated["content"] = ensure_images_match_source(task["body"], translated["content"])
 
         out_fm = {
             "layout": task["layout"],

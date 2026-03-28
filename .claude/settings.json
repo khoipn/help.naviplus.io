@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle exec:*)",
+      "Bash(bundle --version)",
+      "Bash(RBENV_VERSION=3.3.11 bundle exec jekyll build)",
+      "Bash(RBENV_VERSION=3.2.2 bundle exec jekyll build)",
+      "Bash(/opt/homebrew/opt/ruby@3.2/bin/bundle exec:*)"
+    ]
+  }
+}

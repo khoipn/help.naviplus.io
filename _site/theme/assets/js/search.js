@@ -83,7 +83,8 @@
       if (loadingPromise) return loadingPromise;
       loadingPromise = fetch(indexUrl, { credentials: "same-origin" })
         .then((res) => {
-          if (!res.ok) throw new Error(`Failed to load search index: ${res.status}`);
+          if (!res.ok)
+            throw new Error(`Failed to load search index: ${res.status}`);
           return res.json();
         })
         .then((items) => {
@@ -96,14 +97,16 @@
               const description = item.description || "";
               const content = item.content || "";
               const searchableTitle = normalizeText(title);
-              const searchableContent = normalizeText(`${title} ${description} ${content}`);
+              const searchableContent = normalizeText(
+                `${title} ${description} ${content}`,
+              );
               return {
                 title,
                 url,
                 description,
                 content,
                 searchableTitle,
-                searchableContent
+                searchableContent,
               };
             })
             .filter((item) => item.url);
@@ -115,7 +118,11 @@
   })();
 
   const getCurrentLangPrefix = () => {
-    const pathname = (typeof window !== "undefined" && window.location && window.location.pathname) || "/";
+    const pathname =
+      (typeof window !== "undefined" &&
+        window.location &&
+        window.location.pathname) ||
+      "/";
     const prefixes = ["vi", "jp", "fr", "de", "zh-cn", "it", "pt-br", "es"];
     for (const prefix of prefixes) {
       if (pathname.startsWith(`/${prefix}/`)) return prefix;
@@ -126,7 +133,16 @@
   const filterDocsByLanguage = (docs) => {
     const prefix = getCurrentLangPrefix();
     if (!prefix) {
-      const otherPrefixes = ["vi", "jp", "fr", "de", "zh-cn", "it", "pt-br", "es"];
+      const otherPrefixes = [
+        "vi",
+        "jp",
+        "fr",
+        "de",
+        "zh-cn",
+        "it",
+        "pt-br",
+        "es",
+      ];
       return docs.filter((doc) => {
         const url = doc.url || "";
         if (!url.startsWith("/docs/")) return false;
@@ -174,7 +190,7 @@
     return matches.slice(0, 12).map((m) => ({
       title: m.doc.title,
       url: m.doc.url,
-      description: m.doc.description
+      description: m.doc.description,
     }));
   };
 
@@ -182,7 +198,8 @@
     const { input, results, form } = getElements();
     if (!input || !results || !form) return;
 
-    const indexUrl = form.getAttribute("data-search-index-url") || "/search.json";
+    const indexUrl =
+      form.getAttribute("data-search-index-url") || "/search.json";
     let docs = [];
 
     const ensureIndexLoaded = async () => {
