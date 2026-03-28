@@ -62,7 +62,7 @@ Você passará a maior parte do seu tempo construindo esta árvore de menu para 
 
 Você pode arrastar e soltar itens de menu para cima e para baixo ou para a esquerda e para a direita para mudar sua posição e relacionamentos pai-filho na árvore do menu.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FVNWPtc0JxdsboCeWXXDd%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=e9e733f9-bc80-4b60-87ef-d9cbbcfd70d4" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FVNWPtc0JxdsboCeWXXDd%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=e9e733f9-bc80-4b60-87ef-d9cbbcfd70d4" alt=""><figcaption></figcaption></figure>
 
 Quando você passa o mouse sobre qualquer item de menu, verá opções adicionais: editar os detalhes do item, excluí-lo da árvore do menu ou copiá-lo e colá-lo em outro lugar.
 
@@ -76,9 +76,9 @@ Esta é uma situação comum ao criar um menu com o Navi+. Quando você cria um 
 
 Se você gosta desses recursos avançados, considere fazer upgrade para um plano Business ou Elite. Mas se você quiser continuar com o plano Starter, por favor, encontre e exclua os itens de menu com avisos vermelhos (i).
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F6lDZMlCZezUMlORppuh7%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=eb973b63-27d9-496e-bacd-cf2db1d5e4a9" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F6lDZMlCZezUMlORppuh7%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=eb973b63-27d9-496e-bacd-cf2db1d5e4a9" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
 **Dica Importante:** Quando a confirmação de exclusão aparecer, ative “Não perguntar novamente na próxima vez” para excluir mais rápido.
@@ -90,10 +90,10 @@ Para adicionar um item de menu, você tem duas opções:
 
 **Opção 1&#x20;**<mark style="background-color:$warning;">**(Não recomendado se você é novo no Navi+)**</mark>**:** Clique em “Adicionar menu” para inserir um item de menu em branco no final da árvore do menu. Este método requer um bom entendimento das configurações do item de menu, que abordaremos abaixo. Pode parecer esmagador no início, então você pode explorar isso mais tarde.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 
 **Opção 2 (Recomendada):** Já preparamos muitos modelos de itens de menu bem projetados para você. Basta copiá-los e colá-los no lugar certo. Depois de terminar sua árvore de menu, basta excluir os modelos não utilizados.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FjBJUHMA8dTOONOJoOt8S%2FHelp.MenuTree.1.1.5.png?alt=media&#x26;token=e6316df1-e99a-4259-8370-5fc3afaf331a" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FjBJUHMA8dTOONOJoOt8S%2FHelp.MenuTree.1.1.5.png?alt=media&#x26;token=e6316df1-e99a-4259-8370-5fc3afaf331a" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FChui5Q4pxEpW1cDVoE3E%2FHelp.MenuTree.1.1.5b.png?alt=media&#x26;token=9e29309f-3177-4d89-ac38-d319bba7a541" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FChui5Q4pxEpW1cDVoE3E%2FHelp.MenuTree.1.1.5b.png?alt=media&#x26;token=9e29309f-3177-4d89-ac38-d319bba7a541" alt=""><figcaption></figcaption></figure>

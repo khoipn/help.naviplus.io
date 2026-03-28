@@ -62,7 +62,7 @@ Vous passerez la plupart de votre temps à construire cet arbre de menu pour vot
 
 Vous pouvez faire glisser et déposer des éléments de menu vers le haut et vers le bas ou à gauche et à droite pour changer leur position et leurs relations parent-enfant dans l'arbre de menu.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FVNWPtc0JxdsboCeWXXDd%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=e9e733f9-bc80-4b60-87ef-d9cbbcfd70d4" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FVNWPtc0JxdsboCeWXXDd%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=e9e733f9-bc80-4b60-87ef-d9cbbcfd70d4" alt=""><figcaption></figcaption></figure>
 
 Lorsque vous survolez n'importe quel élément de menu, vous verrez des options supplémentaires : modifier les détails de l'élément, le supprimer de l'arbre de menu, ou le copier et le coller ailleurs.
 
@@ -76,9 +76,9 @@ C'est une situation courante lors de la création d'un menu avec Navi+. Lorsque 
 
 Si vous aimez ces fonctionnalités avancées, envisagez de passer à un plan Business ou Elite. Mais si vous souhaitez continuer avec le plan Starter, veuillez trouver et supprimer les éléments de menu avec des avertissements rouges (i).
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F6lDZMlCZezUMlORppuh7%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=eb973b63-27d9-496e-bacd-cf2db1d5e4a9" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F6lDZMlCZezUMlORppuh7%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=eb973b63-27d9-496e-bacd-cf2db1d5e4a9" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
 **Astuce importante :** Lorsque la confirmation de suppression apparaît, activez « Ne demandez plus la prochaine fois » pour supprimer plus rapidement.
@@ -90,10 +90,10 @@ Pour ajouter un élément de menu, vous avez deux options :
 
 **Option 1&#x20;**<mark style="background-color:$warning;">**(Non recommandé si vous êtes nouveau dans Navi+)**</mark>**:** Cliquez sur « Ajouter un menu » pour insérer un élément de menu vide à la fin de l'arbre de menu. Cette méthode nécessite une bonne compréhension des paramètres des éléments de menu, que nous aborderons ci-dessous. Cela peut sembler écrasant au début, donc vous pouvez explorer cela plus tard.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 
 **Option 2 (Recommandée) :** Nous avons déjà préparé de nombreux modèles d'éléments de menu bien conçus pour vous. Il vous suffit de les copier et de les coller au bon endroit. Après avoir terminé votre arbre de menu, il vous suffit de supprimer les modèles inutilisés.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FjBJUHMA8dTOONOJoOt8S%2FHelp.MenuTree.1.1.5.png?alt=media&#x26;token=e6316df1-e99a-4259-8370-5fc3afaf331a" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FjBJUHMA8dTOONOJoOt8S%2FHelp.MenuTree.1.1.5.png?alt=media&#x26;token=e6316df1-e99a-4259-8370-5fc3afaf331a" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FChui5Q4pxEpW1cDVoE3E%2FHelp.MenuTree.1.1.5b.png?alt=media&#x26;token=9e29309f-3177-4d89-ac38-d319bba7a541" alt="")><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FChui5Q4pxEpW1cDVoE3E%2FHelp.MenuTree.1.1.5b.png?alt=media&#x26;token=9e29309f-3177-4d89-ac38-d319bba7a541" alt=""><figcaption></figcaption></figure>
