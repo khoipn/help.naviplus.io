@@ -121,6 +121,9 @@
     title: Menu Grille
     url: /docs/usage/grid-menu/
   - children:
+    - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
+      title: Tab Slide — Regrouper les éléments du menu en onglets
+      url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
     - processed_path: usage/general/apply-multi-language
       title: Appliquer plusieurs langues
       url: /docs/usage/general/apply-multi-language/

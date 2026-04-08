@@ -36,6 +36,7 @@ title: Utilizzo
 - [Pubblicazione su Shopify](/manual/website/help.naviplus.io/usage/grid-menu/publishing-on-shopify.md "Pubblicazione su Shopify")
 - [Pubblica su WordPress / WooCommerce / Wix / Altri](/manual/website/help.naviplus.io/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others.md "Pubblica su WordPress / WooCommerce / Wix / Altri")
 - [Generale](/manual/website/help.naviplus.io/usage/general.md "Generale")
+- [Tab Slide — Raggruppa gli elementi del menu in schede](/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md "Tab Slide — Raggruppa gli elementi del menu in schede")
 - [Applica multi-lingua](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Applica multi-lingua")
 - [Trova il selettore CSS](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Trova il selettore CSS")
 - [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")

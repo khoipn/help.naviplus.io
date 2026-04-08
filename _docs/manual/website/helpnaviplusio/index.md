@@ -46,6 +46,7 @@ title: help.naviplus.io
 - [Publishing on Shopify](/manual/website/help.naviplus.io/usage/grid-menu/publishing-on-shopify.md "Publishing on Shopify")
 - [Publish on WordPress / WooCommerce / Wix / Others](/manual/website/help.naviplus.io/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
 - [General](/manual/website/help.naviplus.io/usage/general.md "General")
+- [Tab Slide — Group Menu Items into Tabs](/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md "Tab Slide — Group Menu Items into Tabs")
 - [Apply multi-language](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Apply multi-language")
 - [Find CSS Selector](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
 - [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")

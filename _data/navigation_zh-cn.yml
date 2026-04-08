@@ -121,6 +121,9 @@
     title: 网格菜单
     url: /docs/usage/grid-menu/
   - children:
+    - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
+      title: 标签滑动 — 将菜单项分组到标签中
+      url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
     - processed_path: usage/general/apply-multi-language
       title: 应用多语言
       url: /docs/usage/general/apply-multi-language/
@@ -140,7 +143,7 @@
       title: 菜单深度
       url: /docs/usage/general/menu-depth/
     processed_path: usage/general
-    title: 通用
+    title: 常规
     url: /docs/usage/general/
   - children:
     - processed_path: usage/shopify/use-the-multi-language-feature

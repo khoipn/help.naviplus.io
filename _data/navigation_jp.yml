@@ -121,6 +121,9 @@
     title: グリッドメニュー
     url: /docs/usage/grid-menu/
   - children:
+    - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
+      title: タブスライド — メニュー項目をタブにグループ化
+      url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
     - processed_path: usage/general/apply-multi-language
       title: 多言語の適用
       url: /docs/usage/general/apply-multi-language/

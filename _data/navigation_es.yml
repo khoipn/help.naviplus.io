@@ -121,6 +121,9 @@
     title: Menú de cuadrícula
     url: /docs/usage/grid-menu/
   - children:
+    - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
+      title: Tab Slide — Agrupar elementos del menú en pestañas
+      url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
     - processed_path: usage/general/apply-multi-language
       title: Aplicar múltiples idiomas
       url: /docs/usage/general/apply-multi-language/

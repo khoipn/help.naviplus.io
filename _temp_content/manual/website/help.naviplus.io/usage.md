@@ -29,6 +29,7 @@
 - [Publishing on Shopify](/manual/website/help.naviplus.io/usage/grid-menu/publishing-on-shopify.md)
 - [Publish on WordPress / WooCommerce / Wix / Others](/manual/website/help.naviplus.io/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others.md)
 - [General](/manual/website/help.naviplus.io/usage/general.md)
+- [Tab Slide — Group Menu Items into Tabs](/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md)
 - [Apply multi-language](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md)
 - [Find CSS Selector](/manual/website/help.naviplus.io/usage/general/find-css-selector.md)
 - [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md)

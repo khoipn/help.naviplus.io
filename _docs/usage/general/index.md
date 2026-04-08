@@ -1,11 +1,12 @@
 ---
-description: '- Apply multi-language'
+description: '- Tab Slide — Group Menu Items into Tabs'
 layout: default
 permalink: /docs/usage/general/
 title: General
 ---
 # General
 
+- [Tab Slide — Group Menu Items into Tabs](/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md "Tab Slide — Group Menu Items into Tabs")
 - [Apply multi-language](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Apply multi-language")
 - [Find CSS Selector](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
 - [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")

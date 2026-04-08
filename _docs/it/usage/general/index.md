@@ -1,5 +1,5 @@
 ---
-description: '- Applica multi-lingua'
+description: '- Tab Slide — Raggruppa gli elementi del menu in schede'
 lang: it
 layout: default
 permalink: /it/docs/usage/general/
@@ -7,9 +7,10 @@ title: Generale
 ---
 # Generale
 
-- [Applica multi-lingua](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Apply multi-language")
-- [Trova selettore CSS](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
+- [Tab Slide — Raggruppa gli elementi del menu in schede](/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md "Tab Slide — Group Menu Items into Tabs")
+- [Apply multi-language](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Apply multi-language")
+- [Find CSS Selector](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
 - [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")
-- [Applica un font personalizzato](/manual/website/help.naviplus.io/usage/general/apply-a-custom-font.md "Apply a custom font")
-- [Caricamento avanzato delle immagini](/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md "Advanced image upload")
-- [Profondità del menu](/manual/website/help.naviplus.io/usage/general/menu-depth.md "Menu depth")
+- [Apply a custom font](/manual/website/help.naviplus.io/usage/general/apply-a-custom-font.md "Apply a custom font")
+- [Advanced image upload](/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md "Advanced image upload")
+- [Menu depth](/manual/website/help.naviplus.io/usage/general/menu-depth.md "Menu depth")

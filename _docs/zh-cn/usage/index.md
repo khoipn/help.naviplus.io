@@ -36,6 +36,7 @@ title: 使用
 - [在 Shopify 上发布](/manual/website/help.naviplus.io/usage/grid-menu/publishing-on-shopify.md "Publishing on Shopify")
 - [在 WordPress / WooCommerce / Wix / 其他平台上发布](/manual/website/help.naviplus.io/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
 - [常规](/manual/website/help.naviplus.io/usage/general.md "General")
+- [标签滑动 - 将菜单项分组到标签中](/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md "Tab Slide — Group Menu Items into Tabs")
 - [应用多语言](/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Apply multi-language")
 - [查找 CSS 选择器](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
 - [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")
