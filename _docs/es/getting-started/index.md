@@ -1,5 +1,5 @@
 ---
-description: "Navi+ \x7F Website Menu Builder es un constructor de navegación de sitios web sin código que te ayuda a guiar a los visitantes al lugar correcto — más rápido."
+description: ¡Bienvenido a **Navi+** — estamos contentos de que estés aquí! 🎉
 lang: es
 layout: default
 permalink: /es/docs/getting-started/
@@ -7,21 +7,48 @@ title: Comenzando
 ---
 # Comenzando
 
-Navi+  Website Menu Builder es un constructor de navegación de sitios web sin código que te ayuda a guiar a los visitantes al lugar correcto — más rápido.
+¡Bienvenido a **Navi+** — estamos contentos de que estés aquí! 🎉
 
-Crea menús modernos como **Tabbar, Mega Menu, Slide (Hamburger), Grid Menu, y Floating Button** en solo minutos. Simplemente arrastra y suelta. No se requiere codificación.
+Si los visitantes de tu sitio web tienen dificultades para encontrar lo que buscan, tu menú podría estar fallando. Navi+ te ayuda a solucionar eso — sin escribir una sola línea de código.
 
-Navi+ funciona sin problemas con [Shopify](https://www.shopify.com/ "Shopify"), [Wix](https://www.wix.com/ "Wix"), [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Webflow](https://webflow.com/ "Webflow"), [Squarespace](https://www.squarespace.com/ "Squarespace"), y cualquier sitio web a través de código de inserción.
+## ¿Qué es Navi+?
 
-Es basado en la nube, ultrarrápido, y no tiene impacto en la velocidad de la página o SEO.
+Navi+ es un **constructor de navegación sin código** que facilita la creación de menús hermosos y de alta conversión para cualquier sitio web. Ya sea que administres una tienda en línea o un sitio de negocios, puedes configurar una navegación profesional en **solo minutos**.
 
-Comienza gratis. Mejora cuando necesites más control y escalabilidad.
+Elige entre cinco tipos de menú poderosos para adaptarse a tus necesidades:
 
-Diseña una navegación más inteligente. Mejora la experiencia del usuario. Aumenta las conversiones.
+| Tipo de Menú       | Mejor Para                                         |
+| ------------------- | ------------------------------------------------ |
+| **Tab Bar**         | Navegación móvil primero, se siente como una app nativa |
+| **Mega Menu**       | Desplegables ricos con imágenes, columnas y enlaces      |
+| **Slide Menu**      | Menús de hamburguesa suaves con soporte de múltiples niveles  |
+| **Grid Menu**       | Navegación visual por categorías — excelente para comercio electrónico  |
+| **Floating Button** | Acciones de acceso rápido siempre al alcance         |
+
+## Funciona con tu plataforma
+
+Navi+ se integra perfectamente con las herramientas que ya usas:
+
+[Shopify](https://www.shopify.com/ "Shopify") · [Wix](https://www.wix.com/ "Wix") · [WordPress](https://wordpress.org/ "WordPress") · [WooCommerce](https://woocommerce.com/ "WooCommerce") · [Webflow](https://webflow.com/ "Webflow") · [Squarespace](https://www.squarespace.com/ "Squarespace") · y **cualquier sitio web** a través de código de inserción.
+
+## Construido para la velocidad, no solo para la apariencia
+
+* ☁️ **Basado en la nube** — siempre actualizado, nada que mantener
+* ⚡ **Ultra rápido** — cero impacto en la velocidad de tu página o SEO
+* 🔒 **Confiable** — confiado por más de 5,000 comerciantes en 6 continentes
+
+## ¿Listo para sumergirte?
+
+[**Comienza gratis**](https://naviplus.io/#get-started-for-free "**Comienza gratis**") — no se requiere tarjeta de crédito. Mejora en cualquier momento cuando estés listo para escalar.
+
+> 💡 **¿Nuevo aquí?** Dirígete a la siguiente sección para configurar tu primer menú en minutos.
+
+***
+
+Estamos aquí para ayudar en cada paso del camino. Si tienes alguna pregunta, no dudes en ponerte en contacto — nos encantaría saber de ti.
 
 **Khoi Pham**\
-Fundador y Apoyo de Navi+&#x20;
+Fundador, Navi+
 
-Email: <khoipn@naviplus.io>
-
-What's App: +84 981911011
+📧 <khoipn@naviplus.io>\
+💬 WhatsApp: [+84 981 911 011](https://wa.me/84981911011 "+84 981 911 011")

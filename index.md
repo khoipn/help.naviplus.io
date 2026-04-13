@@ -1,482 +1,158 @@
 ---
-description: 'Navi+ - The #1 Menu Builder system across multiple platforms. Browse
-  our complete documentation.'
+description: 'Navi+ Help Center — Everything you need to build beautiful, high-converting navigation menus for your website.'
 layout: default
 permalink: /
-title: 'Welcome to Navi+ | The #1 Menu Builder System Across Multiple Platforms'
+protected: true
+title: 'Navi+ Help Center'
 ---
 
-<div class="sitemap-container">
-  <div class="sitemap-header">
-    <h1 class="sitemap-heading">Welcome to Navi+</h1>
-    <p class="sitemap-subtitle">The #1 Menu Builder System Across Multiple Platforms</p>
-  </div>
-  <div class="sitemap-grid">
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Getting Started
-  </h2>
-  <a href="/docs/getting-started/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Why choose Navi+?
-  </h2>
-  <a href="/docs/why-choose-navi/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Common first questions
-  </h2>
-  <a href="/docs/common-first-questions/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> How to install Navi+
-  </h2>
-  <a href="/docs/how-to-install-navi/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Troubleshooting
-  </h2>
-  <a href="/docs/troubleshooting/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Latest Update
-  </h2>
-  <a href="/docs/latest-update/" class="sitemap-single-link"><i class="ri-arrow-right-s-line"></i> View page</a>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Demo
-  </h2>
-  <ul class="sitemap-list">
-<li class="sitemap-list-item">
-  <a href="/docs/demo/1click-live-demo/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> 1Click live demo
-  </a>
-</li>
-  </ul>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Usage
-  </h2>
-  <ul class="sitemap-list">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/explore-common-menus/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Explore common menus
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/tabbar-bottom-navigation/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Tabbar (Bottom Navigation)
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/tabbar-bottom-navigation/how-to-use/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to use?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on Shopify
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publish on WordPress / Woo / Wix / Others
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-desktop/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Mega Menu (desktop)
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-desktop/how-to-use/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to use?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-desktop/publishing-on-shopify/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on Shopify
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-desktop/faq/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> FAQ
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-mobile/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Mega Menu (mobile)
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-mobile/how-to-use/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to use?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-mobile/publishing-on-shopify/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on Shopify
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/slide-menu-hamburger-menu/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Slide menu (Hamburger Menu)
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/slide-menu-hamburger-menu/how-to-use/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to use?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/slide-menu-hamburger-menu/publishing-examples/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing examples
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on Shopify
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/fab-floating-menu-quick-access/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> FAB - Floating Menu / Quick Access
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/fab-floating-menu-quick-access/how-to-use/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to use?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on Shopify
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/grid-menu/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Grid Menu
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/grid-menu/how-to-use/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to use?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/grid-menu/responsive-grid-menu/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Responsive Grid Menu
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/grid-menu/publishing-on-shopify/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publishing on Shopify
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Publish on WordPress / WooCommerce / Wix / Others
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/general/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> General
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/general/tab-slide-group-menu-items-into-tabs/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Tab Slide — Group Menu Items into Tabs
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/general/apply-multi-language/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Apply multi-language
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/general/find-css-selector/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Find CSS Selector
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/general/z-index/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Z-index
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/general/apply-a-custom-font/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Apply a custom font
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/general/advanced-image-upload/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Advanced image upload
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/general/menu-depth/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Menu depth
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/shopify/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Shopify
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/usage/shopify/use-the-multi-language-feature/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Use the multi-language feature.
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Optimize loading speed (Slide & Mega menus)
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/shopify/how-to-other-applications-work-with-naviplus/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Prevent Navi+ menus from overlapping other apps
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/some-faqs-about-publishing-navi-menu/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Some FAQs about publishing Navi+ menu
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/usage/debug-mode-find-css-selectors/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Debug mode - Find CSS Selectors
-  </a>
-</li>
-  </ul>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Integrations
-  </h2>
-  <ul class="sitemap-list">
-<li class="sitemap-list-item">
-  <a href="/docs/integrations/integrating-navi-with-your-website-and-external-apps/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Integrating Navi+ with your website and external apps
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/integrations/the-html-and-css-structure-of-all-navi-menus/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> The HTML and CSS structure of all Navi+ menus
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/integrations/chat-tools/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Chat tools
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/integrations/chat-tools/shopify-inbox/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Shopify Inbox
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/integrations/chat-tools/tidi-chat/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Tidi chat
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/integrations/themes/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Themes
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Shopify: Open the hamburger menu or cart, search panel
-  </a>
-</li>
-  </ul>
-</li>
-  </ul>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Frequently Asked Questions
-  </h2>
-  <ul class="sitemap-list">
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/customize-user-interface-ui/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Customize User interface (UI)
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Using built-in settings or custom CSS?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Remove menu item active state?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Align level 3 submenu in mega menu?
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Optimize speeds, images and UX
-  </a>
-  <ul class="sitemap-sublist">
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Optimize images
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Optimize speed and improve the user experience (UX).
-  </a>
-</li>
-  </ul>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to Transfer a Navi+ Menu to Another Navi+ Menu
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/how-does-navi-support-seo/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How does Navi+ support SEO?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Navi+ plans (Starter, Business & Elite)
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Why aren't Menu, Search, Cart panels working?
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/frequently-asked-questions/why-navi-not-display/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Why is Navi+ menu not displayed on my website?
-  </a>
-</li>
-  </ul>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Development
-  </h2>
-  <ul class="sitemap-list">
-<li class="sitemap-list-item">
-  <a href="/docs/development/menu-structure-and-css/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Menu structure and CSS
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/development/how-to-write-a-correct-css-code-in-navi/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> How to write a correct CSS code in Navi+
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/development/add-walk-through-to-navi/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Add walk-through to Navi+
-  </a>
-</li>
-  </ul>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Limitation
-  </h2>
-  <ul class="sitemap-list">
-<li class="sitemap-list-item">
-  <a href="/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Shopify Bottom Bar issue on Google App (iPhone)
-  </a>
-</li>
-  </ul>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Resources
-  </h2>
-  <ul class="sitemap-list">
-<li class="sitemap-list-item">
-  <a href="/docs/resources/privacy-policy/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Privacy Policy
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/resources/terms-and-condition/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Terms & Condition
-  </a>
-</li>
-  </ul>
-</div>
-<div class="sitemap-section">
-  <h2 class="sitemap-section-title">
-    <i class="ri-folder-3-line"></i> Partership
-  </h2>
-  <ul class="sitemap-list">
-<li class="sitemap-list-item">
-  <a href="/docs/partership/earn-up-to-225-revshare-with-navi/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Earn up to 22.5% RevShare with Navi+
-  </a>
-</li>
-<li class="sitemap-list-item">
-  <a href="/docs/partership/navi-care-or-design-your-menus-like-an-expert/" class="sitemap-link">
-    <i class="ri-file-text-line"></i> Navi+ Care | Design your menus like an expert
-  </a>
-</li>
-  </ul>
-</div>
-  </div>
+<div class="home-page">
+
+  <!-- Hero -->
+  <section class="home-hero">
+    <div class="home-hero-inner">
+      <p class="home-hero-eyebrow">Navi+ Help Center</p>
+      <h1 class="home-hero-title">Build navigation your visitors<br>will actually use.</h1>
+      <p class="home-hero-desc">From setup to advanced customization — everything you need to create fast, beautiful menus for Shopify, WordPress, Wix, and more.</p>
+      <div class="home-hero-actions">
+        <a href="/docs/getting-started/" class="home-btn-primary"><i class="ri-rocket-line"></i> Get Started</a>
+        <a href="/docs/demo/1click-live-demo/" class="home-btn-ghost"><i class="ri-play-circle-line"></i> See Live Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- New here? -->
+  <section class="home-section">
+    <h2 class="home-section-label">New here?</h2>
+    <h3 class="home-section-title">Start in the right place</h3>
+    <div class="home-cards-3">
+      <a href="/docs/why-choose-navi/" class="home-card">
+        <span class="home-card-icon"><i class="ri-question-line"></i></span>
+        <span class="home-card-body">
+          <span class="home-card-title">What is Navi+?</span>
+          <span class="home-card-desc">Understand how Navi+ works and why thousands of stores use it.</span>
+        </span>
+      </a>
+      <a href="/docs/how-to-install-navi/" class="home-card">
+        <span class="home-card-icon"><i class="ri-download-line"></i></span>
+        <span class="home-card-body">
+          <span class="home-card-title">Install in minutes</span>
+          <span class="home-card-desc">Step-by-step installation guide for Shopify, WordPress, Wix and others.</span>
+        </span>
+      </a>
+      <a href="/docs/common-first-questions/" class="home-card">
+        <span class="home-card-icon"><i class="ri-chat-smile-2-line"></i></span>
+        <span class="home-card-body">
+          <span class="home-card-title">Common first questions</span>
+          <span class="home-card-desc">The questions every new user asks — answered clearly and quickly.</span>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Menu types -->
+  <section class="home-section">
+    <h2 class="home-section-label">What you can build</h2>
+    <h3 class="home-section-title">Six powerful menu types, one app</h3>
+    <p class="home-section-desc">Pick the right menu for your layout. Mix and match across devices for the best experience.</p>
+    <div class="home-menu-grid">
+      <a href="/docs/usage/tabbar-bottom-navigation/how-to-use/" class="home-menu-card">
+        <span class="home-menu-icon"><i class="ri-layout-bottom-2-line"></i></span>
+        <span class="home-menu-name">Tabbar</span>
+        <span class="home-menu-desc">Bottom navigation bar — the standard for mobile-first sites and apps.</span>
+      </a>
+      <a href="/docs/usage/mega-menu-desktop/how-to-use/" class="home-menu-card">
+        <span class="home-menu-icon"><i class="ri-layout-grid-line"></i></span>
+        <span class="home-menu-name">Mega Menu</span>
+        <span class="home-menu-desc">Rich dropdown with images, columns and custom content. Built for desktop.</span>
+      </a>
+      <a href="/docs/usage/slide-menu-hamburger-menu/how-to-use/" class="home-menu-card">
+        <span class="home-menu-icon"><i class="ri-menu-line"></i></span>
+        <span class="home-menu-name">Slide Menu</span>
+        <span class="home-menu-desc">Classic hamburger panel that slides in from the side. Clean and familiar.</span>
+      </a>
+      <a href="/docs/usage/fab-floating-menu-quick-access/how-to-use/" class="home-menu-card">
+        <span class="home-menu-icon"><i class="ri-add-circle-line"></i></span>
+        <span class="home-menu-name">FAB Menu</span>
+        <span class="home-menu-desc">Floating action button that gives quick access to key pages anywhere on screen.</span>
+      </a>
+      <a href="/docs/usage/grid-menu/how-to-use/" class="home-menu-card">
+        <span class="home-menu-icon"><i class="ri-apps-line"></i></span>
+        <span class="home-menu-name">Grid Menu</span>
+        <span class="home-menu-desc">Visual grid of categories or products — great for home pages and landing pages.</span>
+      </a>
+      <a href="/docs/usage/mega-menu-mobile/how-to-use/" class="home-menu-card">
+        <span class="home-menu-icon"><i class="ri-smartphone-line"></i></span>
+        <span class="home-menu-name">Mega Menu Mobile</span>
+        <span class="home-menu-desc">Full-featured mega menu optimized for touch screens and small viewports.</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Popular guides -->
+  <section class="home-section">
+    <h2 class="home-section-label">Popular guides</h2>
+    <h3 class="home-section-title">Most visited docs</h3>
+    <div class="home-guides">
+      <a href="/docs/usage/shopify/how-to-other-applications-work-with-naviplus/" class="home-guide-item">
+        <i class="ri-link-unlink-m"></i>
+        <span>Prevent menus from overlapping other apps</span>
+        <i class="ri-arrow-right-s-line home-guide-arrow"></i>
+      </a>
+      <a href="/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/" class="home-guide-item">
+        <i class="ri-price-tag-3-line"></i>
+        <span>Navi+ plans — Starter, Business & Elite</span>
+        <i class="ri-arrow-right-s-line home-guide-arrow"></i>
+      </a>
+      <a href="/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/" class="home-guide-item">
+        <i class="ri-store-2-line"></i>
+        <span>Publishing Tabbar on Shopify</span>
+        <i class="ri-arrow-right-s-line home-guide-arrow"></i>
+      </a>
+      <a href="/docs/usage/general/z-index/" class="home-guide-item">
+        <i class="ri-stack-line"></i>
+        <span>Understanding z-index conflicts</span>
+        <i class="ri-arrow-right-s-line home-guide-arrow"></i>
+      </a>
+      <a href="/docs/troubleshooting/" class="home-guide-item">
+        <i class="ri-bug-line"></i>
+        <span>Troubleshooting — menu not showing</span>
+        <i class="ri-arrow-right-s-line home-guide-arrow"></i>
+      </a>
+      <a href="/docs/frequently-asked-questions/how-does-navi-support-seo/" class="home-guide-item">
+        <i class="ri-search-eye-line"></i>
+        <span>How Navi+ supports SEO</span>
+        <i class="ri-arrow-right-s-line home-guide-arrow"></i>
+      </a>
+      <a href="/docs/development/how-to-write-a-correct-css-code-in-navi/" class="home-guide-item">
+        <i class="ri-code-s-slash-line"></i>
+        <span>How to write correct CSS in Navi+</span>
+        <i class="ri-arrow-right-s-line home-guide-arrow"></i>
+      </a>
+      <a href="/docs/latest-update/" class="home-guide-item">
+        <i class="ri-sparkle-line"></i>
+        <span>Latest updates & release notes</span>
+        <i class="ri-arrow-right-s-line home-guide-arrow"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Need help -->
+  <section class="home-section home-support-section">
+    <div class="home-support-grid">
+      <div class="home-support-card">
+        <i class="ri-customer-service-2-line home-support-icon"></i>
+        <h4>Still stuck?</h4>
+        <p>Our support team is available via live chat. We usually respond in minutes.</p>
+        <a href="https://naviplus.io/#get-started-for-free" target="_blank" class="home-btn-primary">Chat with us</a>
+      </div>
+      <div class="home-support-card">
+        <i class="ri-gift-line home-support-icon"></i>
+        <h4>Partner with Navi+</h4>
+        <p>Earn up to 22.5% revenue share by referring merchants to Navi+.</p>
+        <a href="/docs/partership/earn-up-to-225-revshare-with-navi/" class="home-btn-ghost-dark">Learn about partnership →</a>
+      </div>
+    </div>
+  </section>
+
 </div>

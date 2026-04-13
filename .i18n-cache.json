@@ -95,9 +95,9 @@
     "updated_at": 1773487020
   },
   "getting-started/index.md::vi": {
-    "src_hash": "fba7f44c9377fad33774ca457b1c51a02b6723ce45de0750a120589541d6dcb6",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773550219
+    "updated_at": 1776069748
   },
   "how-to-install-navi/index.md::vi": {
     "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
@@ -1100,39 +1100,39 @@
     "updated_at": 1773487167
   },
   "getting-started/index.md::fr": {
-    "src_hash": "fba7f44c9377fad33774ca457b1c51a02b6723ce45de0750a120589541d6dcb6",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773550226
+    "updated_at": 1776069761
   },
   "getting-started/index.md::de": {
-    "src_hash": "fba7f44c9377fad33774ca457b1c51a02b6723ce45de0750a120589541d6dcb6",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773550233
+    "updated_at": 1776069773
   },
   "getting-started/index.md::zh-cn": {
-    "src_hash": "fba7f44c9377fad33774ca457b1c51a02b6723ce45de0750a120589541d6dcb6",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773550241
+    "updated_at": 1776069788
   },
   "getting-started/index.md::jp": {
-    "src_hash": "fba7f44c9377fad33774ca457b1c51a02b6723ce45de0750a120589541d6dcb6",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773550248
+    "updated_at": 1776069810
   },
   "getting-started/index.md::it": {
-    "src_hash": "fba7f44c9377fad33774ca457b1c51a02b6723ce45de0750a120589541d6dcb6",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773550257
+    "updated_at": 1776069826
   },
   "getting-started/index.md::pt-br": {
-    "src_hash": "fba7f44c9377fad33774ca457b1c51a02b6723ce45de0750a120589541d6dcb6",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773550263
+    "updated_at": 1776069842
   },
   "getting-started/index.md::es": {
-    "src_hash": "fba7f44c9377fad33774ca457b1c51a02b6723ce45de0750a120589541d6dcb6",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773550270
+    "updated_at": 1776069857
   },
   "how-to-install-navi/index.md::fr": {
     "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",

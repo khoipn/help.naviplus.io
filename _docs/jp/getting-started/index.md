@@ -1,5 +1,5 @@
 ---
-description: "Navi+ \x7F ウェブサイトメニュービルダーは、訪問者を正しい場所に迅速に案内するためのノーコードのウェブサイトナビゲーションビルダーです。"
+description: ようこそ、**Navi+**へ — あなたがここにいることを嬉しく思います！🎉
 lang: jp
 layout: default
 permalink: /jp/docs/getting-started/
@@ -7,21 +7,48 @@ title: 始めに
 ---
 # 始めに
 
-Navi+  ウェブサイトメニュービルダーは、訪問者を正しい場所に迅速に案内するためのノーコードのウェブサイトナビゲーションビルダーです。
+ようこそ、**Navi+**へ — あなたがここにいることを嬉しく思います！🎉
 
-**Tabbar, Mega Menu, Slide (Hamburger), Grid Menu, and Floating Button**のようなモダンなメニューを数分で作成できます。ドラッグ＆ドロップするだけで、コーディングは不要です。
+もしあなたのウェブサイトの訪問者が探しているものを見つけるのに苦労しているなら、あなたのメニューが彼らを失望させているかもしれません。Navi+はそれを解決する手助けをします — コードを一行も書かずに。
 
-Navi+は、[Shopify](https://www.shopify.com/ "Shopify"), [Wix](https://www.wix.com/ "Wix"), [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Webflow](https://webflow.com/ "Webflow"), [Squarespace](https://www.squarespace.com/ "Squarespace")、および埋め込みコードを介して任意のウェブサイトとシームレスに連携します。
+## Navi+とは？
 
-クラウドベースで、超高速で、ページ速度やSEOに影響を与えません。
+Navi+は、**ノーコードナビゲーションビルダー**で、どんなウェブサイトでも美しく、高いコンバージョン率のメニューを簡単に作成できます。オンラインストアを運営している場合でも、ビジネスサイトの場合でも、**数分**でプロフェッショナルなナビゲーションを設定できます。
 
-無料で始めましょう。より多くのコントロールとスケールが必要なときにアップグレードしてください。
+あなたのニーズに合わせて、5つの強力なメニュータイプから選択できます：
 
-よりスマートなナビゲーションをデザインしましょう。ユーザーエクスペリエンスを向上させましょう。コンバージョンを増やしましょう。
+| メニュータイプ         | 最適な用途                                         |
+| ------------------- | ------------------------------------------------ |
+| **Tab Bar**         | モバイルファーストのナビゲーション、ネイティブアプリのような感覚 |
+| **Mega Menu**       | 画像、カラム、リンクを含むリッチドロップダウン      |
+| **Slide Menu**      | マルチレベルサポートのスムーズなハンバーガーメニュー  |
+| **Grid Menu**       | ビジュアルカテゴリブラウジング — eコマースに最適  |
+| **Floating Button** | 常に手の届くところにあるクイックアクセスアクション         |
+
+## あなたのプラットフォームに対応
+
+Navi+は、あなたがすでに使用しているツールにぴったりフィットします：
+
+[Shopify](https://www.shopify.com/ "Shopify") · [Wix](https://www.wix.com/ "Wix") · [WordPress](https://wordpress.org/ "WordPress") · [WooCommerce](https://woocommerce.com/ "WooCommerce") · [Webflow](https://webflow.com/ "Webflow") · [Squarespace](https://www.squarespace.com/ "Squarespace") · そして**任意のウェブサイト**を埋め込みコードで。
+
+## 見た目だけでなく、スピードのために作られた
+
+* ☁️ **クラウドベース** — 常に最新、メンテナンス不要
+* ⚡ **超高速** — ページスピードやSEOに影響なし
+* 🔒 **信頼性** — 6大陸で5,000以上の商人に信頼されています
+
+## さあ、始めましょうか？
+
+[**無料で始める**](https://naviplus.io/#get-started-for-free "**無料で始める**") — クレジットカードは不要です。スケールする準備ができたら、いつでもアップグレードできます。
+
+> 💡 **初めてですか？** 次のセクションに進んで、数分で最初のメニューを設定しましょう。
+
+***
+
+私たちは、あなたのすべてのステップでお手伝いします。質問があれば、遠慮なくお問い合わせください — あなたからの連絡を楽しみにしています。
 
 **Khoi Pham**\
-Navi+の創設者およびサポーター
+創設者、Navi+
 
-メール: <khoipn@naviplus.io>
-
-Whats App: +84 981911011
+📧 <khoipn@naviplus.io>\
+💬 WhatsApp: [+84 981 911 011](https://wa.me/84981911011 "+84 981 911 011")
