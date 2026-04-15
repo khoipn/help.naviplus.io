@@ -1,8 +1,10 @@
 ---
 description: 'Navi+ Help Center — Everything you need to build beautiful, high-converting navigation menus for your website.'
 layout: default
-permalink: /
+permalink: /home/
 protected: true
+redirect_from:
+  - /
 title: 'Navi+ Help Center'
 ---
 

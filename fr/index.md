@@ -2,7 +2,9 @@
 description: 'Navi+ Help Center — Tout ce dont vous avez besoin pour créer de beaux menus de navigation à fort taux de conversion pour votre site web.'
 lang: fr
 layout: default
-permalink: /fr/
+permalink: /fr/home/
+redirect_from:
+  - /fr/
 protected: true
 title: 'Navi+ Help Center'
 ---

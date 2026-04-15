@@ -2,7 +2,9 @@
 description: 'Navi+ Help Center — 美しく、コンバージョンを最大化するナビゲーションメニューを構築するために必要なすべて。'
 lang: jp
 layout: default
-permalink: /jp/
+permalink: /jp/home/
+redirect_from:
+  - /jp/
 protected: true
 title: 'Navi+ Help Center'
 ---

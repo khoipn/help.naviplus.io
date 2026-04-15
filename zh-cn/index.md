@@ -2,7 +2,9 @@
 description: 'Navi+ Help Center — 为您的网站构建美观、高转化率导航菜单所需的一切。'
 lang: zh-cn
 layout: default
-permalink: /zh-cn/
+permalink: /zh-cn/home/
+redirect_from:
+  - /zh-cn/
 protected: true
 title: 'Navi+ Help Center'
 ---

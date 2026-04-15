@@ -2,7 +2,9 @@
 description: 'Navi+ Help Center — Tất cả những gì bạn cần để xây dựng menu điều hướng đẹp, tối ưu chuyển đổi cho website của mình.'
 lang: vi
 layout: default
-permalink: /vi/
+permalink: /vi/home/
+redirect_from:
+  - /vi/
 protected: true
 title: 'Navi+ Help Center'
 ---
