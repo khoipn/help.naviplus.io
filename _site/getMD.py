@@ -532,6 +532,24 @@ def generate_sidebar_navigation(navigation_data):
     
     print(f"Sidebar navigation generated and saved to {NAVIGATION_YML_PATH}")
 
+def is_homepage_protected(homepage_path="index.md"):
+    """Returns True if index.md exists and has protected: true in its front matter."""
+    if not os.path.exists(homepage_path):
+        return False
+    try:
+        with open(homepage_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        if not content.startswith("---"):
+            return False
+        parts = content.split("---", 2)
+        if len(parts) < 3:
+            return False
+        fm = yaml.safe_load(parts[1]) or {}
+        return bool(fm.get("protected"))
+    except Exception:
+        return False
+
+
 def generate_sitemap_html(navigation_data):
     """Generates a beautiful sitemap HTML for the homepage."""
     print("Generating sitemap for homepage...")
@@ -611,9 +629,13 @@ def generate_sitemap_html(navigation_data):
     
     final_content = f"---\n{front_matter_str}---\n\n{sitemap_html}"
     
+    if is_homepage_protected(homepage_path):
+        print(f"⚠️  Skipping homepage overwrite — {homepage_path} has protected: true in front matter.")
+        return
+
     with open(homepage_path, 'w', encoding='utf-8') as f:
         f.write(final_content)
-    
+
     print(f"✅ Sitemap generated and saved to {homepage_path}")
 
 def add_image_and_link_seo_attributes(markdown_content):

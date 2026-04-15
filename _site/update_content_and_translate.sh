@@ -36,3 +36,11 @@ fi
 python3 getMD.py
 python3 translate_i18n.py
 python3 build_navigation_i18n.py
+
+echo ""
+echo "📦 Committing and pushing to git..."
+cd "$ROOT_DIR"
+git add -A
+COMMIT_MSG="Update content $(date '+%Y-%m-%d %H:%M')"
+git commit -m "$COMMIT_MSG" || echo "ℹ️  Nothing to commit."
+git push && echo "✅ Pushed to git." || echo "❌ Git push failed."

@@ -1,73 +1,130 @@
 <!doctype html>
+
+
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Navi+ Help Center</title>
-<meta
-  name="description"
-  content="Navi+ Help Center — Everything you need to build beautiful, high-converting navigation menus for your website."
-/>
+    
 
-<link rel="canonical" href="http://localhost:4002/" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0f2d1e" />
+
+
+<title>Navi+ Help Center</title>
+
+
+<meta name="description" content="Navi+ Help Center — Everything you need to build beautiful, high-converting navigation menus for your website." />
+
+<!-- Canonical & hreflang alternates -->
+<link rel="canonical" href="https://help.naviplus.io/" />
+<link rel="alternate" hreflang="x-default" href="https://help.naviplus.io/" />
+<link rel="alternate" hreflang="en"      href="https://help.naviplus.io/" />
+<link rel="alternate" hreflang="vi"      href="https://help.naviplus.io/vi/" />
+<link rel="alternate" hreflang="fr"      href="https://help.naviplus.io/fr/" />
+<link rel="alternate" hreflang="de"      href="https://help.naviplus.io/de/" />
+<link rel="alternate" hreflang="zh-Hans" href="https://help.naviplus.io/zh-cn/" />
+<link rel="alternate" hreflang="ja"      href="https://help.naviplus.io/jp/" />
+<link rel="alternate" hreflang="it"      href="https://help.naviplus.io/it/" />
+<link rel="alternate" hreflang="pt-BR"   href="https://help.naviplus.io/pt-br/" />
+<link rel="alternate" hreflang="es"      href="https://help.naviplus.io/es/" />
 
 <!-- Favicon -->
-<link
-  rel="icon"
-  type="image/png"
-  href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png"
-/>
+<link rel="icon" type="image/png"
+  href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:4002/" />
-<meta property="og:title" content="Navi+ Help Center" />
-<meta
-  property="og:description"
-  content="Navi+ Help Center — Everything you need to build beautiful, high-converting navigation menus for your website."
-/>
+<!-- Open Graph -->
+<meta property="og:site_name"   content="Navi+ Help Center" />
+<meta property="og:locale"      content="en_US" />
 
-<meta
-  property="og:image"
-  content="http://localhost:4002/assets/images/naviplus-social-share.jpg"
-/>
+<meta property="og:type"        content="website" />
+
+<meta property="og:url"         content="https://help.naviplus.io/" />
+<meta property="og:title"       content="Navi+ Help Center" />
+<meta property="og:description" content="Navi+ Help Center — Everything you need to build beautiful, high-converting navigation menus for your website." />
+
+<meta property="og:image"        content="https://help.naviplus.io/assets/images/naviplus-social-share.jpg" />
+<meta property="og:image:width"  content="1200" />
+<meta property="og:image:height" content="630" />
 
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="http://localhost:4002/" />
-<meta
-  property="twitter:title"
-  content="Navi+ Help Center"
-/>
-<meta
-  property="twitter:description"
-  content="Navi+ Help Center — Everything you need to build beautiful, high-converting navigation menus for your website."
-/>
+<meta name="twitter:card"        content="summary_large_image" />
+<meta name="twitter:url"         content="https://help.naviplus.io/" />
+<meta name="twitter:title"       content="Navi+ Help Center" />
+<meta name="twitter:description" content="Navi+ Help Center — Everything you need to build beautiful, high-converting navigation menus for your website." />
 
-<meta
-  property="twitter:image"
-  content="http://localhost:4002/assets/images/naviplus-social-share.jpg"
-/>
- 
+<meta name="twitter:image" content="https://help.naviplus.io/assets/images/naviplus-social-share.jpg" />
+
+
 <meta name="twitter:creator" content="@NaviPlusOfficial" />
 
 
-<link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+<!-- JSON-LD: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Navi+ Help Center",
+  "url": "https://help.naviplus.io",
+  "description": "Navi+ Help Center — Official guides, tutorials and FAQs for Mega Menu, Tab Bar, Slide Menu, Sticky Navbar, FAB and Grid Menu on Shopify, WordPress, Wix and more.",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Navi+",
+    "url": "https://naviplus.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://help.naviplus.io/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+
+<!-- Preconnect to CDNs -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+<link rel="preconnect" href="https://cdn.naviplus.app" crossorigin />
+<link rel="preconnect" href="https://live.naviplus.app" crossorigin />
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
   rel="stylesheet"
   integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-  crossorigin="anonymous"
-/>
+  crossorigin="anonymous" />
+
 <!-- Remixicon CSS -->
-<link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
-<link
-  rel="stylesheet"
-  href="/theme/assets/css/theme-styles.css"
-/>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="/theme/assets/css/theme-styles.css" />
 
 <script>
   (() => {
@@ -80,39 +137,27 @@
         const rowHeight = 34;
         const reserved = Math.min(count, maxItems) * rowHeight;
         document.documentElement.classList.add("has-favorites");
-        document.documentElement.style.setProperty(
-          "--favorites-reserved-height",
-          reserved + "px",
-        );
+        document.documentElement.style.setProperty("--favorites-reserved-height", reserved + "px");
       }
     } catch (e) {}
   })();
 </script>
 
 <!-- Google tag (gtag.js) -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"
-></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+  function gtag() { dataLayer.push(arguments); }
   gtag("js", new Date());
   gtag("config", "G-1PWVMJYX4Z");
 </script>
 
 <!-- Insert this code to the <head> of website. (c) naviplus.io -->
 <script>
-  (window._navi_setting ||= []).push({
-    token: "NAVI733440",
-  });
+  (window._navi_setting ||= []).push({ token: "NAVI733440" });
 </script>
 <script src="https://live.naviplus.app/start.js" async></script>
 <!-- Insert this code to the <head> of website -->
-
-<style></style>
 
     <link
       rel="stylesheet"
@@ -238,7 +283,7 @@ document.addEventListener("DOMContentLoaded", function () {
   class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted"
   style="margin-top: 0.5rem; margin-bottom: 0.25rem"
 >
-  FAVORITES
+  FAVORITOS
 </h6>
 <ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem">
   <!-- Favorites will be rendered here by JavaScript -->
@@ -254,10 +299,10 @@ document.addEventListener("DOMContentLoaded", function () {
   <li class="nav-item">
     <a
       class="nav-link active"
-      href="/"
+      href="/es/docs/getting-started/"
     >
       <span class="d-flex align-items-start sidebar-link-container">
-        <span class="sidebar-title-text flex-grow-1">Home</span>
+        <span class="sidebar-title-text flex-grow-1">Inicio</span>
       </span>
     </a>
   </li>
@@ -271,8 +316,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/getting-started/"
-      ><span class="sidebar-title-text flex-grow-1">Getting Started</span></a
+      href="/es/docs/getting-started/"
+      ><span class="sidebar-title-text flex-grow-1">Comenzando</span></a
     >
     
   </li>
@@ -285,8 +330,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/why-choose-navi/"
-      ><span class="sidebar-title-text flex-grow-1">Why choose Navi+?</span></a
+      href="/es/docs/why-choose-navi/"
+      ><span class="sidebar-title-text flex-grow-1">¿Por qué elegir Navi+?</span></a
     >
     
   </li>
@@ -299,8 +344,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/common-first-questions/"
-      ><span class="sidebar-title-text flex-grow-1">Common first questions</span></a
+      href="/es/docs/common-first-questions/"
+      ><span class="sidebar-title-text flex-grow-1">Preguntas comunes iniciales</span></a
     >
     
   </li>
@@ -313,8 +358,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/how-to-install-navi/"
-      ><span class="sidebar-title-text flex-grow-1">How to install Navi+</span></a
+      href="/es/docs/how-to-install-navi/"
+      ><span class="sidebar-title-text flex-grow-1">Cómo instalar Navi+</span></a
     >
     
   </li>
@@ -338,8 +383,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/troubleshooting/"
-      ><span class="sidebar-title-text flex-grow-1">Troubleshooting</span></a
+      href="/es/docs/troubleshooting/"
+      ><span class="sidebar-title-text flex-grow-1">Solución de problemas</span></a
     >
     
   </li>
@@ -352,8 +397,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/latest-update/"
-      ><span class="sidebar-title-text flex-grow-1">Latest Update</span></a
+      href="/es/docs/latest-update/"
+      ><span class="sidebar-title-text flex-grow-1">Última Actualización</span></a
     >
     
   </li>
@@ -406,7 +451,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/demo/1click-live-demo/"
+            href="/es/docs/demo/1click-live-demo/"
             ><span class="sidebar-title-text flex-grow-1"
               >1Click live demo</span
             ></a
@@ -440,7 +485,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Usage</span>
+        <span class="sidebar-title-text flex-grow-1">Uso</span>
       </span>
     </a>
     <div
@@ -456,9 +501,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/usage/explore-common-menus/"
+            href="/es/docs/usage/explore-common-menus/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Explore common menus</span
+              >Explorar menús comunes</span
             ></a
           >
           
@@ -502,9 +547,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/tabbar-bottom-navigation/how-to-use/"
+                  href="/es/docs/usage/tabbar-bottom-navigation/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -517,9 +562,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/"
+                  href="/es/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -532,9 +577,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/"
+                  href="/es/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / Woo / Wix / Others</span
+                    >Publicar en WordPress / Woo / Wix / Otros</span
                   ></a
                 >
                 
@@ -583,9 +628,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-desktop/how-to-use/"
+                  href="/es/docs/usage/mega-menu-desktop/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -598,9 +643,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-desktop/publishing-on-shopify/"
+                  href="/es/docs/usage/mega-menu-desktop/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -613,9 +658,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -628,7 +673,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-desktop/faq/"
+                  href="/es/docs/usage/mega-menu-desktop/faq/"
                   ><span class="sidebar-title-text flex-grow-1"
                     >FAQ</span
                   ></a
@@ -679,9 +724,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-mobile/how-to-use/"
+                  href="/es/docs/usage/mega-menu-mobile/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -694,9 +739,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-mobile/publishing-on-shopify/"
+                  href="/es/docs/usage/mega-menu-mobile/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -709,9 +754,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -743,7 +788,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Slide menu (Hamburger Menu)</span
+                >Menú deslizante (Menú Hamburguesa)</span
               >
             </span>
           </a>
@@ -760,9 +805,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/slide-menu-hamburger-menu/how-to-use/"
+                  href="/es/docs/usage/slide-menu-hamburger-menu/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -775,9 +820,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/slide-menu-hamburger-menu/publishing-examples/"
+                  href="/es/docs/usage/slide-menu-hamburger-menu/publishing-examples/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing examples</span
+                    >Ejemplos de publicación</span
                   ></a
                 >
                 
@@ -790,9 +835,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/"
+                  href="/es/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -805,9 +850,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -839,7 +884,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >FAB - Floating Menu / Quick Access</span
+                >FAB - Menú Flotante / Acceso Rápido</span
               >
             </span>
           </a>
@@ -856,9 +901,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/fab-floating-menu-quick-access/how-to-use/"
+                  href="/es/docs/usage/fab-floating-menu-quick-access/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -871,9 +916,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/"
+                  href="/es/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -886,9 +931,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -920,7 +965,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Grid Menu</span
+                >Menú de cuadrícula</span
               >
             </span>
           </a>
@@ -937,9 +982,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/grid-menu/how-to-use/"
+                  href="/es/docs/usage/grid-menu/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -952,9 +997,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/grid-menu/responsive-grid-menu/"
+                  href="/es/docs/usage/grid-menu/responsive-grid-menu/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Responsive Grid Menu</span
+                    >Menú de cuadrícula receptivo</span
                   ></a
                 >
                 
@@ -967,9 +1012,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/grid-menu/publishing-on-shopify/"
+                  href="/es/docs/usage/grid-menu/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -982,9 +1027,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -1033,9 +1078,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/apply-multi-language/"
+                  href="/es/docs/usage/general/tab-slide-group-menu-items-into-tabs/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Apply multi-language</span
+                    >Tab Slide — Agrupar elementos del menú en pestañas</span
                   ></a
                 >
                 
@@ -1048,9 +1093,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/find-css-selector/"
+                  href="/es/docs/usage/general/apply-multi-language/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Find CSS Selector</span
+                    >Aplicar múltiples idiomas</span
                   ></a
                 >
                 
@@ -1063,7 +1108,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/z-index/"
+                  href="/es/docs/usage/general/find-css-selector/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Encontrar Selector CSS</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/es/docs/usage/general/z-index/"
                   ><span class="sidebar-title-text flex-grow-1"
                     >Z-index</span
                   ></a
@@ -1078,9 +1138,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/apply-a-custom-font/"
+                  href="/es/docs/usage/general/apply-a-custom-font/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Apply a custom font</span
+                    >Aplicar una fuente personalizada</span
                   ></a
                 >
                 
@@ -1093,9 +1153,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/advanced-image-upload/"
+                  href="/es/docs/usage/general/advanced-image-upload/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Advanced image upload</span
+                    >Carga avanzada de imágenes</span
                   ></a
                 >
                 
@@ -1108,9 +1168,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/menu-depth/"
+                  href="/es/docs/usage/general/menu-depth/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Menu depth</span
+                    >Profundidad del menú</span
                   ></a
                 >
                 
@@ -1159,9 +1219,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/shopify/use-the-multi-language-feature/"
+                  href="/es/docs/usage/shopify/use-the-multi-language-feature/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Use the multi-language feature.</span
+                    >Usa la función de múltiples idiomas.</span
                   ></a
                 >
                 
@@ -1174,9 +1234,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/"
+                  href="/es/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Optimize loading speed (Slide & Mega menus)</span
+                    >Optimizar la velocidad de carga (Slide & Mega menus)</span
                   ></a
                 >
                 
@@ -1189,9 +1249,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/shopify/how-to-other-applications-work-with-naviplus/"
+                  href="/es/docs/usage/shopify/how-to-other-applications-work-with-naviplus/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Prevent Navi+ menus from overlapping other apps</span
+                    >Evitar que los menús de Navi+ se superpongan a otras aplicaciones</span
                   ></a
                 >
                 
@@ -1209,9 +1269,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/usage/some-faqs-about-publishing-navi-menu/"
+            href="/es/docs/usage/some-faqs-about-publishing-navi-menu/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Some FAQs about publishing Navi+ menu</span
+              >Algunas preguntas frecuentes sobre la publicación del menú Navi+</span
             ></a
           >
           
@@ -1224,9 +1284,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/usage/debug-mode-find-css-selectors/"
+            href="/es/docs/usage/debug-mode-find-css-selectors/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Debug mode - Find CSS Selectors</span
+              >Modo de depuración - Encontrar selectores CSS</span
             ></a
           >
           
@@ -1258,7 +1318,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Integrations</span>
+        <span class="sidebar-title-text flex-grow-1">Integraciones</span>
       </span>
     </a>
     <div
@@ -1274,9 +1334,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/integrations/integrating-navi-with-your-website-and-external-apps/"
+            href="/es/docs/integrations/integrating-navi-with-your-website-and-external-apps/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Integrating Navi+ with your website and external apps</span
+              >Integrando Navi+ con tu sitio web y aplicaciones externas</span
             ></a
           >
           
@@ -1289,9 +1349,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/integrations/the-html-and-css-structure-of-all-navi-menus/"
+            href="/es/docs/integrations/the-html-and-css-structure-of-all-navi-menus/"
             ><span class="sidebar-title-text flex-grow-1"
-              >The HTML and CSS structure of all Navi+ menus</span
+              >La estructura HTML y CSS de todos los menús de Navi+</span
             ></a
           >
           
@@ -1318,7 +1378,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Chat tools</span
+                >Herramientas de chat</span
               >
             </span>
           </a>
@@ -1335,7 +1395,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/integrations/chat-tools/shopify-inbox/"
+                  href="/es/docs/integrations/chat-tools/shopify-inbox/"
                   ><span class="sidebar-title-text flex-grow-1"
                     >Shopify Inbox</span
                   ></a
@@ -1350,7 +1410,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/integrations/chat-tools/tidi-chat/"
+                  href="/es/docs/integrations/chat-tools/tidi-chat/"
                   ><span class="sidebar-title-text flex-grow-1"
                     >Tidi chat</span
                   ></a
@@ -1384,7 +1444,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Themes</span
+                >Temas</span
               >
             </span>
           </a>
@@ -1401,9 +1461,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/"
+                  href="/es/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Shopify: Open the hamburger menu or cart, search panel</span
+                    >Shopify: Abre el menú hamburguesa o el carrito, panel de búsqueda</span
                   ></a
                 >
                 
@@ -1440,7 +1500,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Frequently Asked Questions</span>
+        <span class="sidebar-title-text flex-grow-1">Preguntas Frecuentes</span>
       </span>
     </a>
     <div
@@ -1470,7 +1530,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Customize User interface (UI)</span
+                >Personalizar la interfaz de usuario (UI)</span
               >
             </span>
           </a>
@@ -1487,9 +1547,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/"
+                  href="/es/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Using built-in settings or custom CSS?</span
+                    >¿Usando configuraciones integradas o CSS personalizado?</span
                   ></a
                 >
                 
@@ -1502,9 +1562,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/"
+                  href="/es/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Remove menu item active state?</span
+                    >¿Eliminar el estado activo del elemento del menú?</span
                   ></a
                 >
                 
@@ -1517,9 +1577,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/"
+                  href="/es/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Align level 3 submenu in mega menu?</span
+                    >¿Alinear el submenú de nivel 3 en el mega menú?</span
                   ></a
                 >
                 
@@ -1551,7 +1611,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Optimize speeds, images and UX</span
+                >Optimizar velocidades, imágenes y UX</span
               >
             </span>
           </a>
@@ -1568,9 +1628,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/"
+                  href="/es/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Optimize images</span
+                    >Optimizar imágenes</span
                   ></a
                 >
                 
@@ -1583,9 +1643,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/"
+                  href="/es/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Optimize speed and improve the user experience (UX).</span
+                    >Optimizar la velocidad y mejorar la experiencia del usuario (UX).</span
                   ></a
                 >
                 
@@ -1603,9 +1663,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/"
+            href="/es/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/"
             ><span class="sidebar-title-text flex-grow-1"
-              >How to Transfer a Navi+ Menu to Another Navi+ Menu</span
+              >Cómo Transferir un Menú de Navi+ a Otro Menú de Navi+</span
             ></a
           >
           
@@ -1618,9 +1678,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/how-does-navi-support-seo/"
+            href="/es/docs/frequently-asked-questions/how-does-navi-support-seo/"
             ><span class="sidebar-title-text flex-grow-1"
-              >How does Navi+ support SEO?</span
+              >¿Cómo apoya Navi+ al SEO?</span
             ></a
           >
           
@@ -1633,9 +1693,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/"
+            href="/es/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Navi+ plans (Starter, Business & Elite)</span
+              >Planes de Navi+ (Starter, Business & Elite)</span
             ></a
           >
           
@@ -1648,9 +1708,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/"
+            href="/es/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Why aren't Menu, Search, Cart panels working?</span
+              >¿Por qué no funcionan los paneles de Menú, Búsqueda y Carrito?</span
             ></a
           >
           
@@ -1663,9 +1723,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/why-navi-not-display/"
+            href="/es/docs/frequently-asked-questions/why-navi-not-display/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Why is Navi+ menu not displayed on my website?</span
+              >¿Por qué no se muestra el menú de Navi+ en mi sitio web?</span
             ></a
           >
           
@@ -1708,7 +1768,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Development</span>
+        <span class="sidebar-title-text flex-grow-1">Desarrollo</span>
       </span>
     </a>
     <div
@@ -1724,9 +1784,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/development/menu-structure-and-css/"
+            href="/es/docs/development/menu-structure-and-css/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Menu structure and CSS</span
+              >Estructura del menú y CSS</span
             ></a
           >
           
@@ -1739,9 +1799,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/development/how-to-write-a-correct-css-code-in-navi/"
+            href="/es/docs/development/how-to-write-a-correct-css-code-in-navi/"
             ><span class="sidebar-title-text flex-grow-1"
-              >How to write a correct CSS code in Navi+</span
+              >Cómo escribir un código CSS correcto en Navi+</span
             ></a
           >
           
@@ -1754,9 +1814,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/development/add-walk-through-to-navi/"
+            href="/es/docs/development/add-walk-through-to-navi/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Add walk-through to Navi+</span
+              >Agregar recorrido a Navi+</span
             ></a
           >
           
@@ -1788,7 +1848,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Limitation</span>
+        <span class="sidebar-title-text flex-grow-1">Limitación</span>
       </span>
     </a>
     <div
@@ -1804,9 +1864,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/"
+            href="/es/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Shopify Bottom Bar issue on Google App (iPhone)</span
+              >Problema de la barra inferior de Shopify en la aplicación de Google (iPhone)</span
             ></a
           >
           
@@ -1849,7 +1909,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Resources</span>
+        <span class="sidebar-title-text flex-grow-1">Recursos</span>
       </span>
     </a>
     <div
@@ -1865,9 +1925,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/resources/privacy-policy/"
+            href="/es/docs/resources/privacy-policy/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Privacy Policy</span
+              >Política de Privacidad</span
             ></a
           >
           
@@ -1880,9 +1940,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/resources/terms-and-condition/"
+            href="/es/docs/resources/terms-and-condition/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Terms & Condition</span
+              >Términos y Condiciones</span
             ></a
           >
           
@@ -1930,9 +1990,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/partership/earn-up-to-225-revshare-with-navi/"
+            href="/es/docs/partership/earn-up-to-225-revshare-with-navi/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Earn up to 22.5% RevShare with Navi+</span
+              >Gana hasta un 22.5% de RevShare con Navi+</span
             ></a
           >
           
@@ -1945,7 +2005,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/partership/navi-care-or-design-your-menus-like-an-expert/"
+            href="/es/docs/partership/navi-care-or-design-your-menus-like-an-expert/"
             ><span class="sidebar-title-text flex-grow-1"
               >Navi+ Care | Design your menus like an expert</span
             ></a
@@ -1978,7 +2038,7 @@ document.addEventListener("DOMContentLoaded", function () {
   class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted"
   style="margin-top: 0.5rem; margin-bottom: 0.25rem"
 >
-  FAVORITES
+  FAVORITOS
 </h6>
 <ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem">
   <!-- Favorites will be rendered here by JavaScript -->
@@ -1994,10 +2054,10 @@ document.addEventListener("DOMContentLoaded", function () {
   <li class="nav-item">
     <a
       class="nav-link active"
-      href="/"
+      href="/es/docs/getting-started/"
     >
       <span class="d-flex align-items-start sidebar-link-container">
-        <span class="sidebar-title-text flex-grow-1">Home</span>
+        <span class="sidebar-title-text flex-grow-1">Inicio</span>
       </span>
     </a>
   </li>
@@ -2011,8 +2071,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/getting-started/"
-      ><span class="sidebar-title-text flex-grow-1">Getting Started</span></a
+      href="/es/docs/getting-started/"
+      ><span class="sidebar-title-text flex-grow-1">Comenzando</span></a
     >
     
   </li>
@@ -2025,8 +2085,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/why-choose-navi/"
-      ><span class="sidebar-title-text flex-grow-1">Why choose Navi+?</span></a
+      href="/es/docs/why-choose-navi/"
+      ><span class="sidebar-title-text flex-grow-1">¿Por qué elegir Navi+?</span></a
     >
     
   </li>
@@ -2039,8 +2099,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/common-first-questions/"
-      ><span class="sidebar-title-text flex-grow-1">Common first questions</span></a
+      href="/es/docs/common-first-questions/"
+      ><span class="sidebar-title-text flex-grow-1">Preguntas comunes iniciales</span></a
     >
     
   </li>
@@ -2053,8 +2113,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/how-to-install-navi/"
-      ><span class="sidebar-title-text flex-grow-1">How to install Navi+</span></a
+      href="/es/docs/how-to-install-navi/"
+      ><span class="sidebar-title-text flex-grow-1">Cómo instalar Navi+</span></a
     >
     
   </li>
@@ -2078,8 +2138,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/troubleshooting/"
-      ><span class="sidebar-title-text flex-grow-1">Troubleshooting</span></a
+      href="/es/docs/troubleshooting/"
+      ><span class="sidebar-title-text flex-grow-1">Solución de problemas</span></a
     >
     
   </li>
@@ -2092,8 +2152,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a
       class="nav-link"
-      href="/docs/latest-update/"
-      ><span class="sidebar-title-text flex-grow-1">Latest Update</span></a
+      href="/es/docs/latest-update/"
+      ><span class="sidebar-title-text flex-grow-1">Última Actualización</span></a
     >
     
   </li>
@@ -2146,7 +2206,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/demo/1click-live-demo/"
+            href="/es/docs/demo/1click-live-demo/"
             ><span class="sidebar-title-text flex-grow-1"
               >1Click live demo</span
             ></a
@@ -2180,7 +2240,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Usage</span>
+        <span class="sidebar-title-text flex-grow-1">Uso</span>
       </span>
     </a>
     <div
@@ -2196,9 +2256,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/usage/explore-common-menus/"
+            href="/es/docs/usage/explore-common-menus/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Explore common menus</span
+              >Explorar menús comunes</span
             ></a
           >
           
@@ -2242,9 +2302,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/tabbar-bottom-navigation/how-to-use/"
+                  href="/es/docs/usage/tabbar-bottom-navigation/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -2257,9 +2317,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/"
+                  href="/es/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -2272,9 +2332,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/"
+                  href="/es/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / Woo / Wix / Others</span
+                    >Publicar en WordPress / Woo / Wix / Otros</span
                   ></a
                 >
                 
@@ -2323,9 +2383,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-desktop/how-to-use/"
+                  href="/es/docs/usage/mega-menu-desktop/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -2338,9 +2398,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-desktop/publishing-on-shopify/"
+                  href="/es/docs/usage/mega-menu-desktop/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -2353,9 +2413,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -2368,7 +2428,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-desktop/faq/"
+                  href="/es/docs/usage/mega-menu-desktop/faq/"
                   ><span class="sidebar-title-text flex-grow-1"
                     >FAQ</span
                   ></a
@@ -2419,9 +2479,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-mobile/how-to-use/"
+                  href="/es/docs/usage/mega-menu-mobile/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -2434,9 +2494,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-mobile/publishing-on-shopify/"
+                  href="/es/docs/usage/mega-menu-mobile/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -2449,9 +2509,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -2483,7 +2543,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Slide menu (Hamburger Menu)</span
+                >Menú deslizante (Menú Hamburguesa)</span
               >
             </span>
           </a>
@@ -2500,9 +2560,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/slide-menu-hamburger-menu/how-to-use/"
+                  href="/es/docs/usage/slide-menu-hamburger-menu/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -2515,9 +2575,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/slide-menu-hamburger-menu/publishing-examples/"
+                  href="/es/docs/usage/slide-menu-hamburger-menu/publishing-examples/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing examples</span
+                    >Ejemplos de publicación</span
                   ></a
                 >
                 
@@ -2530,9 +2590,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/"
+                  href="/es/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -2545,9 +2605,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -2579,7 +2639,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >FAB - Floating Menu / Quick Access</span
+                >FAB - Menú Flotante / Acceso Rápido</span
               >
             </span>
           </a>
@@ -2596,9 +2656,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/fab-floating-menu-quick-access/how-to-use/"
+                  href="/es/docs/usage/fab-floating-menu-quick-access/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -2611,9 +2671,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/"
+                  href="/es/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -2626,9 +2686,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -2660,7 +2720,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Grid Menu</span
+                >Menú de cuadrícula</span
               >
             </span>
           </a>
@@ -2677,9 +2737,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/grid-menu/how-to-use/"
+                  href="/es/docs/usage/grid-menu/how-to-use/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >How to use?</span
+                    >¿Cómo usar?</span
                   ></a
                 >
                 
@@ -2692,9 +2752,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/grid-menu/responsive-grid-menu/"
+                  href="/es/docs/usage/grid-menu/responsive-grid-menu/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Responsive Grid Menu</span
+                    >Menú de cuadrícula receptivo</span
                   ></a
                 >
                 
@@ -2707,9 +2767,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/grid-menu/publishing-on-shopify/"
+                  href="/es/docs/usage/grid-menu/publishing-on-shopify/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publishing on Shopify</span
+                    >Publicación en Shopify</span
                   ></a
                 >
                 
@@ -2722,9 +2782,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  href="/es/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                    >Publicar en WordPress / WooCommerce / Wix / Otros</span
                   ></a
                 >
                 
@@ -2773,9 +2833,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/apply-multi-language/"
+                  href="/es/docs/usage/general/tab-slide-group-menu-items-into-tabs/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Apply multi-language</span
+                    >Tab Slide — Agrupar elementos del menú en pestañas</span
                   ></a
                 >
                 
@@ -2788,9 +2848,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/find-css-selector/"
+                  href="/es/docs/usage/general/apply-multi-language/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Find CSS Selector</span
+                    >Aplicar múltiples idiomas</span
                   ></a
                 >
                 
@@ -2803,7 +2863,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/z-index/"
+                  href="/es/docs/usage/general/find-css-selector/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Encontrar Selector CSS</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/es/docs/usage/general/z-index/"
                   ><span class="sidebar-title-text flex-grow-1"
                     >Z-index</span
                   ></a
@@ -2818,9 +2893,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/apply-a-custom-font/"
+                  href="/es/docs/usage/general/apply-a-custom-font/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Apply a custom font</span
+                    >Aplicar una fuente personalizada</span
                   ></a
                 >
                 
@@ -2833,9 +2908,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/advanced-image-upload/"
+                  href="/es/docs/usage/general/advanced-image-upload/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Advanced image upload</span
+                    >Carga avanzada de imágenes</span
                   ></a
                 >
                 
@@ -2848,9 +2923,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/general/menu-depth/"
+                  href="/es/docs/usage/general/menu-depth/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Menu depth</span
+                    >Profundidad del menú</span
                   ></a
                 >
                 
@@ -2899,9 +2974,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/shopify/use-the-multi-language-feature/"
+                  href="/es/docs/usage/shopify/use-the-multi-language-feature/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Use the multi-language feature.</span
+                    >Usa la función de múltiples idiomas.</span
                   ></a
                 >
                 
@@ -2914,9 +2989,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/"
+                  href="/es/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Optimize loading speed (Slide & Mega menus)</span
+                    >Optimizar la velocidad de carga (Slide & Mega menus)</span
                   ></a
                 >
                 
@@ -2929,9 +3004,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/usage/shopify/how-to-other-applications-work-with-naviplus/"
+                  href="/es/docs/usage/shopify/how-to-other-applications-work-with-naviplus/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Prevent Navi+ menus from overlapping other apps</span
+                    >Evitar que los menús de Navi+ se superpongan a otras aplicaciones</span
                   ></a
                 >
                 
@@ -2949,9 +3024,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/usage/some-faqs-about-publishing-navi-menu/"
+            href="/es/docs/usage/some-faqs-about-publishing-navi-menu/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Some FAQs about publishing Navi+ menu</span
+              >Algunas preguntas frecuentes sobre la publicación del menú Navi+</span
             ></a
           >
           
@@ -2964,9 +3039,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/usage/debug-mode-find-css-selectors/"
+            href="/es/docs/usage/debug-mode-find-css-selectors/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Debug mode - Find CSS Selectors</span
+              >Modo de depuración - Encontrar selectores CSS</span
             ></a
           >
           
@@ -2998,7 +3073,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Integrations</span>
+        <span class="sidebar-title-text flex-grow-1">Integraciones</span>
       </span>
     </a>
     <div
@@ -3014,9 +3089,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/integrations/integrating-navi-with-your-website-and-external-apps/"
+            href="/es/docs/integrations/integrating-navi-with-your-website-and-external-apps/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Integrating Navi+ with your website and external apps</span
+              >Integrando Navi+ con tu sitio web y aplicaciones externas</span
             ></a
           >
           
@@ -3029,9 +3104,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/integrations/the-html-and-css-structure-of-all-navi-menus/"
+            href="/es/docs/integrations/the-html-and-css-structure-of-all-navi-menus/"
             ><span class="sidebar-title-text flex-grow-1"
-              >The HTML and CSS structure of all Navi+ menus</span
+              >La estructura HTML y CSS de todos los menús de Navi+</span
             ></a
           >
           
@@ -3058,7 +3133,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Chat tools</span
+                >Herramientas de chat</span
               >
             </span>
           </a>
@@ -3075,7 +3150,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/integrations/chat-tools/shopify-inbox/"
+                  href="/es/docs/integrations/chat-tools/shopify-inbox/"
                   ><span class="sidebar-title-text flex-grow-1"
                     >Shopify Inbox</span
                   ></a
@@ -3090,7 +3165,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/integrations/chat-tools/tidi-chat/"
+                  href="/es/docs/integrations/chat-tools/tidi-chat/"
                   ><span class="sidebar-title-text flex-grow-1"
                     >Tidi chat</span
                   ></a
@@ -3124,7 +3199,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Themes</span
+                >Temas</span
               >
             </span>
           </a>
@@ -3141,9 +3216,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/"
+                  href="/es/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Shopify: Open the hamburger menu or cart, search panel</span
+                    >Shopify: Abre el menú hamburguesa o el carrito, panel de búsqueda</span
                   ></a
                 >
                 
@@ -3180,7 +3255,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Frequently Asked Questions</span>
+        <span class="sidebar-title-text flex-grow-1">Preguntas Frecuentes</span>
       </span>
     </a>
     <div
@@ -3210,7 +3285,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Customize User interface (UI)</span
+                >Personalizar la interfaz de usuario (UI)</span
               >
             </span>
           </a>
@@ -3227,9 +3302,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/"
+                  href="/es/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Using built-in settings or custom CSS?</span
+                    >¿Usando configuraciones integradas o CSS personalizado?</span
                   ></a
                 >
                 
@@ -3242,9 +3317,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/"
+                  href="/es/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Remove menu item active state?</span
+                    >¿Eliminar el estado activo del elemento del menú?</span
                   ></a
                 >
                 
@@ -3257,9 +3332,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/"
+                  href="/es/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Align level 3 submenu in mega menu?</span
+                    >¿Alinear el submenú de nivel 3 en el mega menú?</span
                   ></a
                 >
                 
@@ -3291,7 +3366,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 class="ri-folder-open-line sidebar-folder-icon-open d-none"
               ></i>
               <span class="sidebar-title-text flex-grow-1"
-                >Optimize speeds, images and UX</span
+                >Optimizar velocidades, imágenes y UX</span
               >
             </span>
           </a>
@@ -3308,9 +3383,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/"
+                  href="/es/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Optimize images</span
+                    >Optimizar imágenes</span
                   ></a
                 >
                 
@@ -3323,9 +3398,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <a
                   class="nav-link"
-                  href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/"
+                  href="/es/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Optimize speed and improve the user experience (UX).</span
+                    >Optimizar la velocidad y mejorar la experiencia del usuario (UX).</span
                   ></a
                 >
                 
@@ -3343,9 +3418,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/"
+            href="/es/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/"
             ><span class="sidebar-title-text flex-grow-1"
-              >How to Transfer a Navi+ Menu to Another Navi+ Menu</span
+              >Cómo Transferir un Menú de Navi+ a Otro Menú de Navi+</span
             ></a
           >
           
@@ -3358,9 +3433,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/how-does-navi-support-seo/"
+            href="/es/docs/frequently-asked-questions/how-does-navi-support-seo/"
             ><span class="sidebar-title-text flex-grow-1"
-              >How does Navi+ support SEO?</span
+              >¿Cómo apoya Navi+ al SEO?</span
             ></a
           >
           
@@ -3373,9 +3448,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/"
+            href="/es/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Navi+ plans (Starter, Business & Elite)</span
+              >Planes de Navi+ (Starter, Business & Elite)</span
             ></a
           >
           
@@ -3388,9 +3463,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/"
+            href="/es/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Why aren't Menu, Search, Cart panels working?</span
+              >¿Por qué no funcionan los paneles de Menú, Búsqueda y Carrito?</span
             ></a
           >
           
@@ -3403,9 +3478,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/frequently-asked-questions/why-navi-not-display/"
+            href="/es/docs/frequently-asked-questions/why-navi-not-display/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Why is Navi+ menu not displayed on my website?</span
+              >¿Por qué no se muestra el menú de Navi+ en mi sitio web?</span
             ></a
           >
           
@@ -3448,7 +3523,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Development</span>
+        <span class="sidebar-title-text flex-grow-1">Desarrollo</span>
       </span>
     </a>
     <div
@@ -3464,9 +3539,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/development/menu-structure-and-css/"
+            href="/es/docs/development/menu-structure-and-css/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Menu structure and CSS</span
+              >Estructura del menú y CSS</span
             ></a
           >
           
@@ -3479,9 +3554,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/development/how-to-write-a-correct-css-code-in-navi/"
+            href="/es/docs/development/how-to-write-a-correct-css-code-in-navi/"
             ><span class="sidebar-title-text flex-grow-1"
-              >How to write a correct CSS code in Navi+</span
+              >Cómo escribir un código CSS correcto en Navi+</span
             ></a
           >
           
@@ -3494,9 +3569,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/development/add-walk-through-to-navi/"
+            href="/es/docs/development/add-walk-through-to-navi/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Add walk-through to Navi+</span
+              >Agregar recorrido a Navi+</span
             ></a
           >
           
@@ -3528,7 +3603,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Limitation</span>
+        <span class="sidebar-title-text flex-grow-1">Limitación</span>
       </span>
     </a>
     <div
@@ -3544,9 +3619,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/"
+            href="/es/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Shopify Bottom Bar issue on Google App (iPhone)</span
+              >Problema de la barra inferior de Shopify en la aplicación de Google (iPhone)</span
             ></a
           >
           
@@ -3589,7 +3664,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i
           class="ri-folder-open-line sidebar-folder-icon-open d-none"
         ></i>
-        <span class="sidebar-title-text flex-grow-1">Resources</span>
+        <span class="sidebar-title-text flex-grow-1">Recursos</span>
       </span>
     </a>
     <div
@@ -3605,9 +3680,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/resources/privacy-policy/"
+            href="/es/docs/resources/privacy-policy/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Privacy Policy</span
+              >Política de Privacidad</span
             ></a
           >
           
@@ -3620,9 +3695,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/resources/terms-and-condition/"
+            href="/es/docs/resources/terms-and-condition/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Terms & Condition</span
+              >Términos y Condiciones</span
             ></a
           >
           
@@ -3670,9 +3745,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/partership/earn-up-to-225-revshare-with-navi/"
+            href="/es/docs/partership/earn-up-to-225-revshare-with-navi/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Earn up to 22.5% RevShare with Navi+</span
+              >Gana hasta un 22.5% de RevShare con Navi+</span
             ></a
           >
           
@@ -3685,7 +3760,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <a
             class="nav-link"
-            href="/docs/partership/navi-care-or-design-your-menus-like-an-expert/"
+            href="/es/docs/partership/navi-care-or-design-your-menus-like-an-expert/"
             ><span class="sidebar-title-text flex-grow-1"
               >Navi+ Care | Design your menus like an expert</span
             ></a
@@ -4032,7 +4107,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const ghost = document.createElement("a");
             ghost.className = "np-help-cta-ghost";
             ghost.href = navbarCTADemo.url;
-            ghost.textContent = navbarCTADemo.text;
+            ghost.innerHTML = '<i class="ri-slideshow-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTADemo.text + '</span>';
             if (navbarCTADemo.target) { ghost.target = navbarCTADemo.target; ghost.rel = "noopener noreferrer"; }
             right.appendChild(ghost);
           }
@@ -4043,10 +4118,10 @@ document.addEventListener("DOMContentLoaded", function () {
             cta.className = "np-help-cta";
             if (isLoggedIn) {
               cta.href = "https://app.naviplus.io/";
-              cta.textContent = "Dashboard";
+              cta.innerHTML = '<i class="ri-layout-grid-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">Dashboard</span>';
             } else {
               cta.href = navbarCTA.url;
-              cta.textContent = navbarCTA.text;
+              cta.innerHTML = '<i class="ri-rocket-2-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTA.text + '</span>';
             }
             if (navbarCTA.target) { cta.target = navbarCTA.target; cta.rel = "noopener noreferrer"; }
             right.appendChild(cta);
@@ -4074,7 +4149,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     </script>
     <footer><p>
-  © 2025 by Navi+
+  © 2026 by Navi+
   <a href="https://naviplus.io" target="_blank"> Navi+</a>
 </p>
 </footer>

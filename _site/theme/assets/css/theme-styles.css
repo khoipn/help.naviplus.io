@@ -562,6 +562,15 @@ body {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
+/* CTA button icon + text layout */
+.np-help-btn-icon {
+  font-size: 15px;
+  flex-shrink: 0;
+}
+.np-help-btn-text {
+  margin-left: 6px;
+}
+
 /* CTA buttons */
 .np-help-cta {
   display: inline-flex;
@@ -760,6 +769,12 @@ body {
   .np-help-search { width: 160px; }
   .np-help-logo-text { display: none; }
   .np-help-logo-divider { display: none; }
+
+  /* Icon-only CTA buttons on mobile */
+  .np-help-btn-text { display: none; }
+  .np-help-btn-icon { margin: 0; }
+  .np-help-cta { padding: 0; width: 34px; justify-content: center; }
+  .np-help-cta-ghost { padding: 0; width: 34px; justify-content: center; }
 }
 
 @media (max-width: 400px) {

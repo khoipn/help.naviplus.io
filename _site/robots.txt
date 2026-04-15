@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://help.naviplus.io/sitemap.xml
