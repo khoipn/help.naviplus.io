@@ -6,8 +6,9 @@
 {% assign nav_current_lang_prefix = nil %}
 {% assign nav_lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: "," %}
 {% for candidate in nav_lang_candidates %}
-  {% assign candidate_prefix = "/" | append: candidate | append: "/docs" %}
-  {% if nav_current_page_url contains candidate_prefix %}{% assign nav_current_lang_prefix = candidate %}{% endif %}
+  {% assign candidate_prefix_docs = "/" | append: candidate | append: "/docs" %}
+  {% assign candidate_prefix_home = "/" | append: candidate | append: "/" %}
+  {% if nav_current_page_url contains candidate_prefix_docs or nav_current_page_url == candidate_prefix_home %}{% assign nav_current_lang_prefix = candidate %}{% endif %}
 {% endfor %}
 {% assign brand_href = "/" %}
 {% if nav_current_lang_prefix %}

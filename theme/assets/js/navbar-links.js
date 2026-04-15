@@ -238,8 +238,10 @@ const resolveLanguageUrl = (targetPrefix) => {
   const pathname = window.location.pathname || "/";
   let basePath = getBasePathWithoutLangPrefix(pathname);
 
+  // If we're on a home page (no /docs/ in path), go to the lang home
   if (!basePath.includes("/docs/")) {
-    basePath = "/docs/getting-started/";
+    if (!targetPrefix) return "/";
+    return `/${targetPrefix}/`;
   }
 
   basePath = ensureTrailingSlash(basePath);

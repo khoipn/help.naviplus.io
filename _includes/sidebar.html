@@ -4,9 +4,12 @@ current_page_url | slice: -1 == '/' %} {% assign current_page_url =
 current_page_url | remove_last: '/' %} {% endif %} {% if current_page_url == ""
 %}{% assign current_page_url = "/" %}{% endif %} {% assign current_lang_prefix =
 nil %} {% assign lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: ","
-%} {% for candidate in lang_candidates %} {% assign candidate_prefix = "/" |
-append: candidate | append: "/docs" %} {% if current_page_url contains
-candidate_prefix %} {% assign current_lang_prefix = candidate %} {% endif %} {%
+%} {% for candidate in lang_candidates %} {% assign candidate_prefix_docs = "/" |
+append: candidate | append: "/docs" %} {% assign candidate_prefix_home = "/" |
+append: candidate | append: "/" %} {% if current_page_url contains
+candidate_prefix_docs or current_page_url == candidate_prefix_home or
+current_page_url == "/" | append: candidate %} {% assign current_lang_prefix =
+candidate %} {% endif %} {%
 endfor %} {% assign nav_data = site.data.navigation %} {% if current_lang_prefix
 %} {% assign nav_key = "navigation_" | append: current_lang_prefix %} {% if
 site.data[nav_key] %} {% assign nav_data = site.data[nav_key] %} {% endif %} {%
@@ -47,7 +50,7 @@ current_lang_prefix | append: "/docs/getting-started/" %} {% endif %}
   <!-- Home Link -->
   <li class="nav-item">
     <a
-      class="nav-link{% if current_page_url == '/' %} active{% endif %}"
+      class="nav-link{% if current_page_url == '/' or current_page_url == home_href %} active{% endif %}"
       href="{{ home_href | relative_url }}"
     >
       <span class="d-flex align-items-start sidebar-link-container">
