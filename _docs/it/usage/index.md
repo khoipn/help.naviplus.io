@@ -47,5 +47,6 @@ title: Utilizzo
 - [Usa la funzione multi-lingua.](/manual/website/help.naviplus.io/usage/shopify/use-the-multi-language-feature..md "Usa la funzione multi-lingua.")
 - [Ottimizza la velocità di caricamento (Slide & Mega menus)](/manual/website/help.naviplus.io/usage/shopify/optimize-loading-speed-slide-and-mega-menus.md "Ottimizza la velocità di caricamento (Slide & Mega menus)")
 - [Impedisci ai menu Navi+ di sovrapporsi ad altre app](/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md "Impedisci ai menu Navi+ di sovrapporsi ad altre app")
+- [Struttura del menu e CSS](/manual/website/help.naviplus.io/usage/menu-structure-and-css.md "Struttura del menu e CSS")
 - [Alcune FAQ sulla pubblicazione del menu Navi+](/manual/website/help.naviplus.io/usage/some-faqs-about-publishing-navi+-menu.md "Alcune FAQ sulla pubblicazione del menu Navi+")
-- [Modalità debug - Trova selettori CSS](/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md "Modalità debug - Trova selettori CSS")
+- [Modalità debug - Trova i selettori CSS](/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md "Modalità debug - Trova i selettori CSS")

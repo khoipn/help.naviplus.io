@@ -158,6 +158,9 @@
     processed_path: usage/shopify
     title: Shopify
     url: /docs/usage/shopify/
+  - processed_path: usage/menu-structure-and-css
+    title: Menüstruktur und CSS
+    url: /docs/usage/menu-structure-and-css/
   - processed_path: usage/some-faqs-about-publishing-navi-menu
     title: Einige FAQs zur Veröffentlichung des Navi+ Menüs
     url: /docs/usage/some-faqs-about-publishing-navi-menu/

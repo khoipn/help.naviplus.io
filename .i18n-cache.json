@@ -180,9 +180,9 @@
     "updated_at": 1773488200
   },
   "manual/website/helpnaviplusio/index.md::vi": {
-    "src_hash": "51918413127d52eab3b159bde410c3a182d65ac70cd7af8aca6cacd7d4aacad4",
+    "src_hash": "b96109b2fb4820aa54e4e469ac9c606935475aa4a9005a94a88718d34eab014a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775556113
+    "updated_at": 1776678787
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::vi": {
     "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
@@ -310,9 +310,9 @@
     "updated_at": 1773493514
   },
   "usage/index.md::vi": {
-    "src_hash": "023e0143c41f476cb855ad2fb29e24bb9072bd297d80dd196458f9459f1a00ff",
+    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775557113
+    "updated_at": 1776679274
   },
   "usage/mega-menu-desktop/faq/index.md::vi": {
     "src_hash": "cf2d6b1867eaae6ccc5f89089509d23d510f96daa96e60409ede199a1db12a16",
@@ -1695,39 +1695,39 @@
     "updated_at": 1773488209
   },
   "manual/website/helpnaviplusio/index.md::fr": {
-    "src_hash": "51918413127d52eab3b159bde410c3a182d65ac70cd7af8aca6cacd7d4aacad4",
+    "src_hash": "b96109b2fb4820aa54e4e469ac9c606935475aa4a9005a94a88718d34eab014a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775556213
+    "updated_at": 1776678845
   },
   "manual/website/helpnaviplusio/index.md::de": {
-    "src_hash": "51918413127d52eab3b159bde410c3a182d65ac70cd7af8aca6cacd7d4aacad4",
+    "src_hash": "b96109b2fb4820aa54e4e469ac9c606935475aa4a9005a94a88718d34eab014a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775556311
+    "updated_at": 1776678915
   },
   "manual/website/helpnaviplusio/index.md::zh-cn": {
-    "src_hash": "51918413127d52eab3b159bde410c3a182d65ac70cd7af8aca6cacd7d4aacad4",
+    "src_hash": "b96109b2fb4820aa54e4e469ac9c606935475aa4a9005a94a88718d34eab014a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775556413
+    "updated_at": 1776678990
   },
   "manual/website/helpnaviplusio/index.md::jp": {
-    "src_hash": "51918413127d52eab3b159bde410c3a182d65ac70cd7af8aca6cacd7d4aacad4",
+    "src_hash": "b96109b2fb4820aa54e4e469ac9c606935475aa4a9005a94a88718d34eab014a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775556496
+    "updated_at": 1776679061
   },
   "manual/website/helpnaviplusio/index.md::it": {
-    "src_hash": "51918413127d52eab3b159bde410c3a182d65ac70cd7af8aca6cacd7d4aacad4",
+    "src_hash": "b96109b2fb4820aa54e4e469ac9c606935475aa4a9005a94a88718d34eab014a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775556579
+    "updated_at": 1776679128
   },
   "manual/website/helpnaviplusio/index.md::pt-br": {
-    "src_hash": "51918413127d52eab3b159bde410c3a182d65ac70cd7af8aca6cacd7d4aacad4",
+    "src_hash": "b96109b2fb4820aa54e4e469ac9c606935475aa4a9005a94a88718d34eab014a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775556685
+    "updated_at": 1776679175
   },
   "manual/website/helpnaviplusio/index.md::es": {
-    "src_hash": "51918413127d52eab3b159bde410c3a182d65ac70cd7af8aca6cacd7d4aacad4",
+    "src_hash": "b96109b2fb4820aa54e4e469ac9c606935475aa4a9005a94a88718d34eab014a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775556765
+    "updated_at": 1776679236
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::fr": {
     "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
@@ -2605,39 +2605,39 @@
     "updated_at": 1773493656
   },
   "usage/index.md::fr": {
-    "src_hash": "023e0143c41f476cb855ad2fb29e24bb9072bd297d80dd196458f9459f1a00ff",
+    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775557158
+    "updated_at": 1776679306
   },
   "usage/index.md::de": {
-    "src_hash": "023e0143c41f476cb855ad2fb29e24bb9072bd297d80dd196458f9459f1a00ff",
+    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775557195
+    "updated_at": 1776679349
   },
   "usage/index.md::zh-cn": {
-    "src_hash": "023e0143c41f476cb855ad2fb29e24bb9072bd297d80dd196458f9459f1a00ff",
+    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775557235
+    "updated_at": 1776679385
   },
   "usage/index.md::jp": {
-    "src_hash": "023e0143c41f476cb855ad2fb29e24bb9072bd297d80dd196458f9459f1a00ff",
+    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775557275
+    "updated_at": 1776679418
   },
   "usage/index.md::it": {
-    "src_hash": "023e0143c41f476cb855ad2fb29e24bb9072bd297d80dd196458f9459f1a00ff",
+    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775557316
+    "updated_at": 1776679452
   },
   "usage/index.md::pt-br": {
-    "src_hash": "023e0143c41f476cb855ad2fb29e24bb9072bd297d80dd196458f9459f1a00ff",
+    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775557367
+    "updated_at": 1776679485
   },
   "usage/index.md::es": {
-    "src_hash": "023e0143c41f476cb855ad2fb29e24bb9072bd297d80dd196458f9459f1a00ff",
+    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1775557403
+    "updated_at": 1776679519
   },
   "usage/mega-menu-desktop/faq/index.md::fr": {
     "src_hash": "cf2d6b1867eaae6ccc5f89089509d23d510f96daa96e60409ede199a1db12a16",
@@ -3558,5 +3558,45 @@
     "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
     "updated_at": 1775557073
+  },
+  "usage/menu-structure-and-css/index.md::vi": {
+    "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1776679580
+  },
+  "usage/menu-structure-and-css/index.md::fr": {
+    "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1776679633
+  },
+  "usage/menu-structure-and-css/index.md::de": {
+    "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1776679685
+  },
+  "usage/menu-structure-and-css/index.md::zh-cn": {
+    "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1776679738
+  },
+  "usage/menu-structure-and-css/index.md::jp": {
+    "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1776679799
+  },
+  "usage/menu-structure-and-css/index.md::it": {
+    "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1776679852
+  },
+  "usage/menu-structure-and-css/index.md::pt-br": {
+    "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1776679919
+  },
+  "usage/menu-structure-and-css/index.md::es": {
+    "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1776679968
   }
 }

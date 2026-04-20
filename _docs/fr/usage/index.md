@@ -1,5 +1,5 @@
 ---
-description: '- Explorer les menus communs'
+description: '- Explorer les menus courants'
 lang: fr
 layout: default
 permalink: /fr/docs/usage/
@@ -7,7 +7,7 @@ title: Utilisation
 ---
 # Utilisation
 
-- [Explorer les menus communs](/manual/website/help.naviplus.io/usage/explore-common-menus.md "Explore common menus")
+- [Explorer les menus courants](/manual/website/help.naviplus.io/usage/explore-common-menus.md "Explore common menus")
 - [Tabbar (Bottom Navigation)](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation.md "Tabbar (Bottom Navigation)")
 - [Comment utiliser ?](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/how-to-use.md "How to use?")
 - [Publication sur Shopify](/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publishing-on-shopify.md "Publishing on Shopify")
@@ -41,11 +41,12 @@ title: Utilisation
 - [Trouver le sélecteur CSS](/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
 - [Z-index](/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")
 - [Appliquer une police personnalisée](/manual/website/help.naviplus.io/usage/general/apply-a-custom-font.md "Apply a custom font")
-- [Téléchargement d'image avancé](/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md "Advanced image upload")
+- [Téléchargement d'images avancé](/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md "Advanced image upload")
 - [Profondeur du menu](/manual/website/help.naviplus.io/usage/general/menu-depth.md "Menu depth")
 - [Shopify](/manual/website/help.naviplus.io/usage/shopify.md "Shopify")
 - [Utiliser la fonction multilingue.](/manual/website/help.naviplus.io/usage/shopify/use-the-multi-language-feature..md "Use the multi-language feature.")
 - [Optimiser la vitesse de chargement (Slide & Mega menus)](/manual/website/help.naviplus.io/usage/shopify/optimize-loading-speed-slide-and-mega-menus.md "Optimize loading speed (Slide & Mega menus)")
 - [Empêcher les menus Navi+ de chevaucher d'autres applications](/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md "Prevent Navi+ menus from overlapping other apps")
+- [Structure du menu et CSS](/manual/website/help.naviplus.io/usage/menu-structure-and-css.md "Menu structure and CSS")
 - [Quelques FAQ sur la publication du menu Navi+](/manual/website/help.naviplus.io/usage/some-faqs-about-publishing-navi+-menu.md "Some FAQs about publishing Navi+ menu")
-- [Mode débogage - Trouver des sélecteurs CSS](/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md "Debug mode - Find CSS Selectors")
+- [Mode débogage - Trouver les sélecteurs CSS](/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md "Debug mode - Find CSS Selectors")
