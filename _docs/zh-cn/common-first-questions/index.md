@@ -1,320 +1,95 @@
 ---
-description: '**我们的使命：**帮助任何人仅需几次点击即可创建美丽的菜单——无需编码。引导访客关注重要内容：关键产品、活动、重要页面。清晰的菜单建立信任并推动行动。**无需技术技能。无需开发人员。只需您的愿景和一个有效的菜单。**
-
-  查看详细信息 <https://help.naviplus.io/docs/usage/general/what-is-navi/>'
+description: Navi+ 是一个可以在任何网站上使用的菜单构建器——Shopify、WordPress、WooCommerce、Wix、Webflow 等等。它让您可以添加 Tab Bars、Mega Menus、Slide Menu...
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/common-first-questions/
-title: 常见的首要问题
+title: 常见的第一个问题
 ---
-# 常见的首要问题
+# 常见的第一个问题
 
-### I. 一般
+### 一般
 
-#### 1. 什么是 Navi+？
+#### 什么是 Navi+？
 
-**我们的使命：**帮助任何人仅需几次点击即可创建美丽的菜单——无需编码。引导访客关注重要内容：关键产品、活动、重要页面。清晰的菜单建立信任并推动行动。\**无需技术技能。无需开发人员。只需您的愿景和一个有效的菜单。**\
-查看详细信息 <https://help.naviplus.io/docs/usage/general/what-is-navi/>
+Navi+ 是一个可以在任何网站上使用的菜单构建器——Shopify、WordPress、WooCommerce、Wix、Webflow 等等。它让您可以添加 Tab Bars、Mega Menus、Slide Menus、Grid Menus 和 FABs，而无需编写代码。
 
-#### 2. Navi+ 支持哪些平台？
+#### Navi+ 支持哪些平台？
 
-在 Shopify、WordPress、WooCommerce、Wix 或任何其他平台上均可使用。\
-让我们在这里免费开始：[https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app")
+任何网站。对于 Shopify，请使用专用应用程序。对于其他所有平台，请在 [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app") 注册并嵌入代码片段。
 
-#### 3. 我该如何安装 Navi+？
+#### 我该如何安装 Navi+？
 
-您无需在计算机上安装任何软件。如果您想在 Shopify 上添加菜单，请在这里使用我们的专用应用：\
-<https://apps.shopify.com/pronavi-navigation-design>\
-对于其他网站，请在 [https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app") 注册，免费声明您的域名，然后只需几次点击即可开始设计和嵌入菜单。
+* **Shopify：** 从 [Shopify App Store](https://apps.shopify.com/pronavi-navigation-design "Shopify App Store") 安装
+* **其他平台：** 在 [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app") 注册，声明您的域名，然后嵌入代码片段
 
-#### 4. 我可以试用 Navi+ 以查看其在实际使用中的效果吗？
+#### 我可以在设置之前试用 Navi+ 吗？
 
-当然可以。您可以在此链接试用：[https://akayakay.myshopify.com](https://akayakay.myshopify.com/ "https://akayakay.myshopify.com")\
-密码：12345\
-您将看到不同类型的 Navi+ 菜单在移动设备和桌面上以浅蓝色展示。\
-更多详细信息：<https://naviplus.io/demo/>
+可以。访问 [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") 查看真实商店中的所有菜单类型——移动设备、平板电脑和桌面。
 
-#### 5. Navi+ 会减慢我的网站速度吗？
+#### Navi+ 会减慢我的网站速度吗？
 
-几乎可以忽略不计。在您的网站上嵌入 3 个菜单时，您将在第一次加载时花费大约 300 毫秒——而您的网站甚至还没有完成渲染——后续加载时间为 0 毫秒。
+不会。资产通过 Cloudflare CDN 以 ~52ms 的平均加载时间交付——通常比 Shopify 自己的脚本更快。在第一次加载后，菜单会被缓存并立即加载。
 
-#### 6. Navi+ 可以与哪些应用、设备、网站互动？
+#### Navi+ 提供多少种菜单类型？
 
-Navi+ 提供广泛的互动能力，包括：将粘性应用整合为菜单项，连接设备功能，如电话和 WhatsApp 聊天，模拟用户在网站上的互动，例如点击元素，启用社交媒体分享以提升传播性，并允许 Navi+ 菜单通过相互触发进行通信。[在这里查看详细信息](https://help.naviplus.io/docs/integrations/integrating-navi+-with-your-website-and-external-apps/ "在这里查看详细信息")
+六种：Tab Bar、Slide Menu、FAB、Grid Menu、Mega Menu（移动）和 Mega Menu（桌面）。您可以在同一网站上同时使用多种类型。
 
-#### 7. Navi+ 提供多少种菜单类型？
+#### 我可以创建多少个菜单？
 
-Navi+ 提供 6 种以上的菜单类型：底部/标签栏、滑动菜单（抽屉或汉堡）、FAB、网格和 Mega 菜单——更多类型即将推出。\
-在这里探索所有常见菜单：<https://help.naviplus.io/docs/usage/explore-common-menus/>
+* **Starter (免费)：** 每个域名 1 个菜单
+* **Business：** 每个域名 4 个菜单
+* **Elite：** 无限
 
-#### 8. 我可以创建多少个菜单？
+#### Navi+ 的费用是多少？
 
-您可以声明无限的域名。然而，对于每个域名：\
-• Starter（免费）：最多创建 1 个菜单\
-• Business：最多创建 4 个菜单\
-• Elite：无限菜单创建
+从 Starter 计划开始免费。Business 和 Elite 计划解锁高级功能。请查看完整定价信息，访问 [naviplus.io/pricing](https://naviplus.io/pricing/ "naviplus.io/pricing")。
 
-#### 9. 我可以自定义菜单设计吗？
+#### 有免费试用吗？
 
-• 结构：菜单层、链接和操作\
-• 设计：颜色、字体、图标、间距、布局\
-• 显示：位置、关键字触发器、设备特定可见性……以及更多
-
-#### 10. Navi+ 适合移动设备吗？
-
-Navi+ 采用移动优先的理念构建，因为我们知道高达 80% 的流量来自移动设备。我们甚至不支持响应式设计——因为我们相信您需要针对每种设备类型进行更深入的优化，而不仅仅是一个通用的解决方案。\
-在这里探索所有常见菜单：<https://help.naviplus.io/docs/usage/explore-common-menus/>
-
-#### 11. 菜单可以出现在所有页面还是特定页面？
-
-当然可以。Navi+ 非常灵活。您可以创建出现在所有页面的菜单——如标签栏或 FAB 按钮——或创建仅在特定页面上显示的特定菜单，例如类别页面的网格菜单。\
-您可以根据设备类型、登录状态或 URL 关键字配置菜单的显示或隐藏。
-
-#### 12. Navi+ 会与我的主题或其他应用冲突或集成吗？
-
-大多数情况下不会，但偶尔会发生冲突——而且很容易修复。\
-• 有时 Navi+ 和其他应用会重叠，特别是粘性菜单。调整 z-index：<https://help.naviplus.io/docs/usage/general/z-index/>\
-• Navi+ 可以作为导航中心：将聊天、忠诚度、支持等应用整合为干净的菜单项。
-
-#### 13. Navi+ 提供分析功能吗？
-
-Navi+ 的分析功能非常强大。您可以按设备、菜单和关键字跟踪访问和点击——帮助您了解用户行为并随着时间的推移优化您的菜单。
-
-#### 14. Navi+ 的费用是多少？
-
-从免费的 Starter 计划开始（2 级菜单，无图像上传，无 SEO 工具）。\
-Business 和 Elite 计划解锁高级功能。\
-定价：<https://naviplus.io/pricing/>
-
-#### 15. 有免费试用吗？
-
-免费试用 7 天——无费用。\
-通过 Shopify、LemonSqueezy 进行安全支付。
-
-#### 16. 菜单更改会立即更新吗？
-
-更新是即时的。无论我们推送改进还是您编辑菜单，变化都会实时出现。最坏的情况：全球范围内有 60 秒的缓存延迟。
-
-#### 17. 如果我更改主题，我的菜单会消失吗？
-
-Navi+ 菜单与您的主题和代码完全独立。随时更改主题——您可能需要重新发布菜单，但只需点击一下。
-
-#### 18. Navi+ 支持多语言吗？
-
-在 Shopify 上完全支持多语言。\
-我们正在努力将此功能带到其他平台。\
-详细信息：<https://help.naviplus.io/docs/usage/shopify/use-the-multi-language-feature/>
-
-#### 19. Navi+ 能处理高流量吗？
-
-由 Cloudflare 和 BunnyCDN 提供支持，Navi+ 每天处理数百万次访问，零延迟问题。\
-详细信息：<https://help.naviplus.io/docs/why-choose-navi/#3-is-navi-fast-does-it-affect-website-speed>
-
-#### 20. 我可以导入或导出菜单吗？
-
-导出和导入您的菜单为 .npx 文件——非常适合备份、存储或在不同网站之间快速转移菜单。
+有——7 天免费，无需收费。随时取消。
 
 ***
 
-### II. 设计与用户体验 (UX)
+### 设计与自定义
 
-#### 1. 我可以自定义菜单的颜色、字体和间距吗？
+#### 我可以自定义颜色、字体和间距吗？
 
-当然可以。Navi+ 给予您完全的设计控制：\
-• 图标：3000+ Remix 图标、Flaticon 图片，或上传您自己的\
-• 排版：1500+ Google 字体或自定义字体\
-• 颜色：自定义文本、图标、背景\
-• 间距：在每个级别调整填充和边距
+可以。您可以完全控制图标（3000+ 选项）、字体（1500+ Google Fonts 或自定义）、颜色、内边距和每个级别的边距。
 
-#### 2. 我可以更改布局（水平、垂直、Mega 菜单、侧边栏等）吗？
+#### 我可以添加自定义 CSS 吗？
 
-可以。我们提供 6 种以上的菜单类型，具有灵活的配置。例如：\
-• 标签栏：顶部/底部、左/右、自定义边距\
-• 滑动菜单：从左、右、顶部、底部或中心滑动\
-同样的灵活性适用于所有菜单类型。
+可以。可以在 Navi+ 中直接添加作用于菜单或全站的 CSS。您还可以为任何项目分配自定义类或 ID。
 
-#### 3. Navi+ 支持动画或悬停效果吗？
+#### 我可以在发布之前预览吗？
 
-完全的动画控制，由 Animate.css 提供支持——从 100 多种效果中选择菜单或单个项目。\
-移动交互可以在点击或悬停时触发。
+可以。使用内置模拟器，然后使用基于 URL 的显示规则安全发布，先在特定页面上进行测试。
 
-#### 4. 我可以添加自定义 CSS 来更改菜单的外观吗？
+#### 菜单可以只出现在特定页面上吗？
 
-可以。Navi+ 提供完全的 CSS 控制：\
-• 添加作用于菜单或全站的 CSS\
-• 直接在 Navi+ 内部管理所有内容\
-• 分配自定义类或 ID，如 id="menu_item_1"\
-详细信息：<https://help.naviplus.io/docs/development/how-to-write-a-correct-css-code-in-navi/>
-
-#### 5. 我可以在发布之前预览我的设计吗？
-
-可以。自由使用 Navi+ 模拟器，然后使用基于 URL 的显示规则安全发布（例如，仅在低流量页面上测试）。
-
-#### 6. Navi+ 确保在所有浏览器和设备上提供一致的用户体验吗？
-
-可以。Navi+ 在 Chrome、Safari、Edge、iPhone、Android、平板电脑、笔记本电脑等设备上完美运行。
+可以。通过页面 URL、设备类型（移动/桌面）或登录状态控制可见性。
 
 ***
 
-### III. 应用兼容性与集成
+### 兼容性与集成
 
-#### 1. Navi+ 是否与我商店现有的应用兼容？
+#### Navi+ 会与我的主题或其他应用程序冲突吗？
 
-Navi+ 是非侵入式的——无需权限，无需代码更改。\
-冲突很少。如果发生重叠，请调整 z-index。
+很少。Navi+ 不会修改您的主题或要求任何权限。如果菜单与其他固定元素重叠，请调整 z-index——[查看指南](https://help.naviplus.io/docs/usage/general/z-index/ "查看指南")。
 
-#### 2. Navi+ 支持应用块或应用嵌入吗？
+#### Navi+ 可以将其他应用程序小部件整合到一个菜单中吗？
 
-可以。\
-• 自动显示菜单（标签栏、FAB、滑动菜单）\
-• 特定位置的嵌入（网格菜单、Mega 菜单）\
-详细信息：<https://help.naviplus.io/docs/usage/explore-common-menus/>
+可以。聊天小部件、忠诚度应用程序、支持按钮和其他浮动图标都可以组合成干净的 Navi+ 菜单项。
 
-#### 3. Navi+ 是否与 SEO、速度优化或图像优化应用兼容？
+#### Navi+ 支持多种语言吗？
 
-可以。Navi+ 完全优化，并且与这些工具没有冲突。
+在 Shopify 上完全支持。其他平台即将推出。
 
-#### 4. Navi+ 是否独立加载，不会被其他应用减慢或阻塞？
+#### 我可以导出和导入菜单吗？
 
-可以。Navi+ 独立加载，并与其他应用并行，通常先完成加载，以便导航立即准备好。
-
-#### 5. 我在商店中显示的应用太多——Navi+ 能否将它们分组或整合到一个菜单中？
-
-可以。Navi+ 帮助您将聊天小部件、忠诚度应用、支持应用和其他浮动图标整合为干净的菜单项——使您的网站看起来更专业。
+可以。菜单以 JSON 格式存储——您可以导出文件，手动编辑或使用 AI 工具，然后再导入。这也适用于备份或在网站之间转移菜单。
 
 ***
 
-### IV. 性能与可扩展性
+### 没有看到您的问题？
 
-#### 1. Navi+ 轻量吗？
-
-Navi+ 非常轻：\
-• 首次加载：2KB 文件（~50ms）+ 库小于 100KB（~200ms）\
-• 后续加载：由于缓存，瞬时（0ms）\
-首次访问的总影响：<250ms。
-
-#### 2. Navi+ 会因极高的流量而崩溃吗？
-
-只有在 Cloudflare 和 BunnyCDN 同时宕机的情况下——概率 ~0.00001%。
-
-#### 3. Navi+ 能否在低延迟下处理高流量？
-
-可以。所有菜单直接从 CDN 边缘位置提供——无限可扩展性。
-
-#### 4. 菜单更新是否即时发布？
-
-可以。更新通过 CDN 缓存在 20-60 秒内全球传播。
-
-***
-
-### V. 安全性
-
-#### 1. 我的数据在 Navi+ 中安全吗？
-
-Navi+ 不存储商业细节、产品数据或销售信息。它仅存储菜单访问和点击数据（按嵌入 ID、设备、时间戳组织）用于分析。
-
-#### 2. Navi+ 是否符合 GDPR 或隐私标准？
-
-符合 GDPR。未收集个人数据。所有数据均加密。绝不共享。
-
-#### 3. 黑客能否修改或注入代码到菜单中？
-
-不可以，除非您的登录凭据（用户名/密码、Google、Shopify）被泄露。
-
-#### 4. 如果我的网站受到攻击——Navi+ 会保持在线吗？
-
-可以。Navi+ 独立运行。即使您的网站面临 DDoS、SQL 注入或网络钓鱼尝试，Navi+ 菜单仍会正常运行。
-
-***
-
-### VI. 操作
-
-#### 1. 我该如何安装或卸载 Navi+？
-
-Shopify: <https://apps.shopify.com/pronavi-navigation-design>\
-其他网站：[https://dash.naviplus.app](https://dash.naviplus.app/ "https://dash.naviplus.app")\
-通过删除嵌入代码或卸载应用来卸载。数据将保留。
-
-#### 2. 如果 Navi+ 更新，会影响我的客户吗？
-
-• 前端更新：全球延迟 ~10s（用户仍然看到旧版本）\
-• 后端更新：无影响
-
-#### 3. 如果我的主题更改，会发生什么？
-
-菜单是独立的。如有需要，请重新发布——无需编码。
-
-#### 4. 我该如何联系支持以获取帮助？
-
-WhatsApp: <https://wa.me/84981911011>\
-电子邮件: <khoipng@naviplus.io>\
-故障排除: <https://help.naviplus.io/docs/troubleshooting/>
-
-***
-
-### VII. 迁移与切换
-
-#### 1. 我可以将现有菜单迁移到 Navi+ 吗？
-
-目前不支持。此功能正在开发中，预计将使用 AI。\
-同时，像复制/粘贴这样的工具可以加速菜单创建。
-
-#### 2. Navi+ 能否在没有停机时间的情况下替换我当前的菜单应用？
-
-• Tabbar、FAB：无停机时间\
-• 滑动菜单：分配菜单时 ~200ms 延迟（可优化）\
-• Mega 菜单：~200ms 延迟（可优化）
-
-#### 3. Navi+ 是否支持从其他应用或 API 导入数据？
-
-目前不支持。Navi+ 只能从另一个 Navi+ 菜单导入导出的 .npx 文件。
-
-#### 4. 如果我更改域名，我的菜单会发生什么？
-
-Shopify：Navi+ 仅使用 your-domain.myshopify.com 域（不可更改）。\
-其他平台：在 Navi+ 仪表板中更新域名。
-
-#### 5. 我可以将 Navi+ 设置从一个网站移动到另一个网站吗？
-
-可以。导出 .npx，然后在新网站上导入。
-
-***
-
-### VIII. 计费与订阅
-
-#### 1. Navi+ 是一次性购买还是订阅，使用安全吗？
-
-付费计划（Business、Elite）是基于订阅的，由 Shopify Payments 和 LemonSqueezy 保障。\
-提供 7 天的免费试用。\
-随时取消。
-
-#### 2. 高流量或重度使用是否会产生额外费用？
-
-如果您超过计划限制，您将收到警告。过多的警告可能会在菜单上触发一个小广告图标。\
-没有额外费用。
-
-#### 3. 如果我取消订阅，会发生什么？
-
-我们会审查您的菜单以查找不支持的功能。如果警告持续，功能可能会被禁用或应用小广告图标。
-
-#### 4. 我的菜单在取消后会保持活跃吗？
-
-可以，但不支持的功能在审核后可能会被禁用。客户最初不会受到影响。
-
-#### 5. 我可以随时更改我的计划吗？
-
-可以。随时升级或降级（可能适用支付平台政策）。
-
-#### 6. 如果我不满意，您是否提供退款？
-
-可以，如果 Navi+ 菜单未在您的网站上使用。
-
-#### 7. 作为企业，我可以收到我的付款发票吗？
-
-可以。Shopify Payments 和 LemonSqueezy 都提供官方发票。
-
-***
-
-### 没有在列表中看到它？
-
-请随时发送您的集成请求。我很乐意提供帮助，这也支持 Navi+ 的增长。
+通过 [WhatsApp](https://wa.me/84981911011 "WhatsApp") 或电子邮件 <khoipng@naviplus.io> 联系我们。
