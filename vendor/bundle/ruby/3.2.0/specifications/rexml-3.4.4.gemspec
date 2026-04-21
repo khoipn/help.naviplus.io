@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rexml".freeze
-  s.version = "3.4.4".freeze
+  s.version = "3.4.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "changelog_uri" => "https://github.com/ruby/rexml/releases/tag/v3.4.4" } if s.respond_to? :metadata=
@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.licenses = ["BSD-2-Clause".freeze]
   s.rdoc_options = ["--main".freeze, "README.md".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.5.0".freeze)
-  s.rubygems_version = "3.6.9".freeze
+  s.rubygems_version = "3.4.10".freeze
   s.summary = "An XML toolkit for Ruby".freeze
 
-  s.installed_by_version = "3.7.1".freeze
+  s.installed_by_version = "3.4.10" if s.respond_to? :installed_by_version
 end

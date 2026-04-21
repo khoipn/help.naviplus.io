@@ -21,8 +21,8 @@ title: Comment utiliser?
 <p>Absolument ! Les groupes de menus sont principalement là pour aider les débutants à éviter de se sentir submergés par les fonctionnalités avancées de Navi+ 😄. La meilleure façon est d'essayer les menus professionnels pour explorer toutes les fonctionnalités et options de mise en page. Plus tard, vous pouvez simplement supprimer tout menu dont vous n'avez pas besoin ou que vous trouvez inadapté.</p>
 </details>
 
-<details><summary><strong>2. Créer un menu ici le fait-il apparaître sur mon site immédiatement ?</strong></summary>
-<p>Pas encore. Vous devrez <strong>publier</strong> le bon menu pour qu'il apparaisse sur votre site. Ne vous inquiétez pas — c'est facile !</p>
+<details><summary><strong>2. Créer un menu ici le fait-il apparaître sur mon site web immédiatement ?</strong></summary>
+<p>Pas encore. Vous devrez <strong>publier</strong> le bon menu pour qu'il apparaisse sur votre site web. Ne vous inquiétez pas — c'est facile !</p>
 </details>
 
 <details><summary><strong>3. Que se passe-t-il si je choisis le mauvais modèle ou fais une erreur ?</strong></summary>
@@ -30,7 +30,7 @@ title: Comment utiliser?
 </details>
 
 <details><summary><strong>4. Dois-je créer un seul menu ou plusieurs ?</strong></summary>
-<p>Vous devriez créer <strong>plusieurs menus</strong>. Seul le menu <strong>actif</strong> s'affichera sur votre site, mais vous pouvez préparer de nombreuses versions — en sélectionnant différents modèles ou en clonant des menus. Les menus peuvent être configurés pour afficher/masquer en fonction du type de page (accueil, produit, collection...), de l'appareil (mobile ou desktop) ou des mots-clés d'URL. Alors allez-y et construisez des menus qui s'adaptent à chaque situation !</p>
+<p>Vous devriez créer <strong>plusieurs menus</strong>. Seul le menu <strong>actif</strong> s'affichera sur votre site, mais vous pouvez préparer de nombreuses versions — en sélectionnant différents modèles ou en clonant des menus. Les menus peuvent être configurés pour s'afficher/cacher en fonction du type de page (accueil, produit, collection...), de l'appareil (mobile ou desktop) ou des mots-clés d'URL. Alors allez-y et construisez des menus qui s'adaptent à chaque situation !</p>
 </details>
 
 ### Étape 1 : Modifier l'arbre du menu
@@ -49,7 +49,7 @@ Skateboarding
    - Composants (Nom du groupe)  
    - Bureaux
    - Trucks
-   - Plus (Lien bleu vers le détail..)   
+   - Plus (lien bleu vers les détails..)   
    - Completes      
         - Chapeaux (Nom du groupe)
         - Burton Lunchlap Earflap Hat           
@@ -63,7 +63,7 @@ Skateboarding
 
 C'est un arbre de menu à 3 niveaux. Le niveau 1 comprend **Menu**, **Catégories, Alphabets, Skateboarding...** et **Plus..**. **Skateboarding** a 5 sous-menus de niveau 2 : **Composants, Bureaux, Completes** (comprend quelques sous-menus de niveau 3 : **Chapeaux, Burton Lunchlap Earflap Hat**...)
 
-Vous passerez la plupart de votre temps à construire cet arbre de menu pour votre site web, aidant les clients à trouver le contenu qu'ils recherchent.&#x20;
+Vous passerez la plupart de votre temps à construire cet arbre de menu pour votre site web, aidant les clients à trouver le contenu qu'ils recherchent.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJdoP60xMLS1qPJRoP1NB%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=abcbf81d-d5d6-4e08-89a5-8409c9d9608d" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
@@ -75,13 +75,13 @@ Vous pouvez faire glisser et déposer des éléments de menu vers le haut et ver
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FfDZzxdLeYHGDsuS5AIU2%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=1df0b87e-06cf-4ce7-ba13-e6b0b3d3ad76" alt=""><figcaption></figcaption></figure>
 
-Lorsque vous survolez n'importe quel élément de menu, vous verrez des options supplémentaires : modifier les détails de l'élément, le supprimer de l'arbre du menu ou le copier et le coller ailleurs.
+Lorsque vous survolez un élément de menu, vous verrez des options supplémentaires : modifier les détails de l'élément, le supprimer de l'arbre du menu ou le copier et le coller ailleurs.
 
 {% comment %}hint style="info" {% endcomment %}
 **Astuce :** Vous pouvez copier un élément de menu d'un menu à un autre en ouvrant l'application Navi+ dans deux onglets de navigateur.
 {% comment %}endhint{% endcomment %}
 
-#### 1.3. IMPORTANT ! Supprimez les éléments de menu d'exemple et gardez uniquement la structure que vous souhaitez.
+#### 1.3. IMPORTANT ! Supprimez les éléments de menu d'exemple et conservez uniquement la structure que vous souhaitez.
 
 C'est une situation courante lors de la création d'un menu avec Navi+. Lorsque vous créez un nouveau menu, nous incluons un exemple complet avec des éléments de menu populaires pour montrer des idées de mise en page et vous permettre de copier/coller au besoin. Cependant, si vous êtes nouveau sur Navi+ et utilisez le plan Starter, vous verrez de nombreux avertissements rouges (i) pour des fonctionnalités qui ne sont pas disponibles, comme le téléchargement d'images ou l'utilisation d'interactions avancées.
 
@@ -92,7 +92,7 @@ Si vous aimez ces fonctionnalités avancées, envisagez de passer à un plan Bus
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
-**Astuce importante :** Lorsque la confirmation de suppression apparaît, activez « Ne demandez plus la prochaine fois » pour supprimer plus rapidement.
+**Astuce importante :** Lorsque la confirmation de suppression apparaît, activez « Ne pas demander à nouveau la prochaine fois » pour supprimer plus rapidement.
 {% comment %}endhint{% endcomment %}
 
 #### 1.4. Ajouter des éléments de menu à l'arbre du menu
@@ -109,25 +109,25 @@ Pour ajouter un élément de menu, vous avez deux options :
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FChui5Q4pxEpW1cDVoE3E%2FHelp.MenuTree.1.1.5b.png?alt=media&#x26;token=9e29309f-3177-4d89-ac38-d319bba7a541" alt=""><figcaption></figcaption></figure>
 
-#### **1.5. IMPORTANT !** L'attribut « Élément de menu multi-colonnes » (disponible uniquement pour Desktop et pour les méga menus).
+#### **1.5. IMPORTANT !** L'attribut « Est un élément de menu multi-colonnes » (disponible uniquement pour Desktop et pour les Mega menus).
 
-C'est une fonctionnalité hautement spécialisée conçue spécifiquement pour les méga menus desktop. Elle est utilisée lorsque vous avez besoin d'un élément de menu plein écran avec plusieurs colonnes. Chaque colonne peut être configurée avec des largeurs personnalisées (par exemple, 3/12, 4/12, 6/12...). L'élément de menu multi-colonnes est extrêmement puissant et flexible pour construire des mises en page de menu complexes adaptées à vos besoins.
+C'est une fonctionnalité hautement spécialisée conçue spécifiquement pour les Mega Menus de bureau. Elle est utilisée lorsque vous avez besoin d'un élément de menu plein écran avec plusieurs colonnes. Chaque colonne peut être configurée avec des largeurs personnalisées (par exemple, 3/12, 4/12, 6/12...). L'élément de menu multi-colonnes est extrêmement puissant et flexible pour construire des mises en page de menu complexes adaptées à vos besoins.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FybsBSjopbkXc3LeUUO11%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=a04b3a4a-bbea-40f1-83d6-6dadd0b3288c" alt=""><figcaption></figcaption></figure>
 
 Si vous n'avez pas besoin de mises en page complexes comme les éléments de menu multi-colonnes — ou si vous prévoyez de les utiliser plus tard — vous pouvez les supprimer en toute sécurité de vos éléments de menu de niveau 1.
 
-<details><summary>Voir les instructions détaillées sur l'utilisation de l'attribut « Élément de menu multi-colonnes ».</summary>
-<p>Lorsqu'un élément de menu de niveau 1 est défini sur <strong>« Élément de menu multi-colonnes »</strong>, il sera mis en surbrillance en jaune clair sur l'arbre du menu, et ses éléments de menu de niveau 2 seront automatiquement convertis en <strong>Colonnes</strong> (avec une icône rouge), indépendamment de tout autre attribut que vous assignez.</p>
-<p>Pour ces <strong>éléments de menu de niveau 2 en colonne</strong>, le seul attribut utilisable est <strong>Disposition de largeur</strong>. Tous les sous-éléments de menu sous cette colonne seront alors disposés dans une seule colonne.</p>
+<details><summary>Voir les instructions détaillées sur l'utilisation de l'attribut « Est un élément de menu multi-colonnes ».</summary>
+<p>Lorsqu'un élément de menu de niveau 1 est défini sur <strong>« Est un élément de menu multi-colonnes »</strong>, il sera mis en surbrillance en jaune clair sur l'arbre du menu, et ses éléments de menu de niveau 2 seront automatiquement convertis en <strong>Colonnes</strong> (avec une icône rouge), indépendamment de tout autre attribut que vous assignez.</p>
+<p>Pour ces <strong>éléments de menu de niveau 2 en colonne</strong>, le seul attribut utilisable est <strong>Disposition de largeur</strong>. Tous les éléments de sous-menu sous cette colonne seront alors disposés dans une seule colonne.</p>
 <p>{% comment %}hint style="info" {% endcomment %}
 Vous trouvez ce type de menu difficile à utiliser ? Vous avez raison ! Mais les résultats que vous obtenez avec cet attribut sont vraiment WOW.
 {% comment %}endhint{% endcomment %}</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FRlftdLgJtyudsMcrmBDl%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=9648c4e6-ddf9-43ae-9832-0117d3be867b" alt=""><figcaption></figcaption></figure>
 
-<p>Si vous supprimez l'attribut <strong>« Élément de menu multi-colonnes »</strong> de l'élément de menu de niveau 1, tout reviendra à l'état d'origine.</p>
-<h4>Pourquoi avez-vous besoin de l'attribut <strong>« Largeur du menu déroulant lorsqu'il est développé »</strong> ?</h4>
-<p>Par défaut, lorsque vous utilisez l'attribut <strong>« Élément de menu multi-colonnes »</strong>, le sous-menu (déroulant) s'étend à la largeur de l'écran complet (ou en fonction de la taille du conteneur, généralement 1280, 1366, 1440 ou 100 % — configurable dans l'onglet <em>Avancé</em>). Cependant, avec une zone aussi large, vous n'aurez peut-être pas toujours suffisamment de contenu ou d'idées pour remplir l'espace.</p>
+<p>Si vous supprimez l'attribut <strong>« Est un menu multi-colonnes »</strong> de l'élément de menu de niveau 1, tout reviendra à l'état d'origine.</p>
+<p><strong>Pourquoi avez-vous besoin de l'attribut « Largeur du menu déroulant lorsqu'il est développé » ?</strong></p>
+<p>Par défaut, lorsque vous utilisez l'attribut <strong>« Est un élément de menu multi-colonnes »</strong>, le sous-menu (menu déroulant) s'étend à la largeur de l'écran (ou en fonction de la taille du conteneur, généralement 1280, 1366, 1440 ou 100 % — configurable dans l'onglet <em>Avancé</em>). Cependant, avec une zone aussi large, vous n'aurez peut-être pas toujours suffisamment de contenu ou d'idées pour remplir l'espace.</p>
 <p>Dans ce cas, vous pouvez limiter la largeur du sous-menu (individuellement pour chaque élément de menu multi-colonnes) pour éviter un aspect vide ou déséquilibré.</p>
 <p><strong>Exemple :</strong> Vous pouvez créer un menu avec une largeur de 700px et deux colonnes à 6/12 chacune. De cette façon, vous obtenez toujours une mise en page spacieuse sans gaspiller trop d'espace à l'écran.</p>
 </details>

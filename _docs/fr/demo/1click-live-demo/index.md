@@ -1,5 +1,5 @@
 ---
-description: Ce n'est pas un site Web pour un client spécifique. Nous l'avons créé en utilisant le plan Shopify Basic avec le thème Dawn par défaut et quelques données de test très basiques. Sur ce ...
+description: Découvrez Navi+ en action sur un vrai magasin — aucune configuration requise. Notre démo en direct vous permet d'explorer tous les types de menus sur mobile, tablette et ordinateurs de bureau.
 lang: fr
 layout: default
 permalink: /fr/docs/demo/1click-live-demo/
@@ -7,35 +7,19 @@ title: 1Click live demo
 ---
 # 1Click live demo
 
-Ce n'est pas un site Web pour un client spécifique. Nous l'avons créé en utilisant le plan Shopify Basic avec le thème Dawn par défaut et quelques données de test très basiques. Sur ce site Web, nous avons ajouté divers menus pour les ordinateurs de bureau et les mobiles afin de vous aider à visualiser l'impact de Navi+ sur votre site Web.
+Découvrez Navi+ en action sur un vrai magasin — aucune configuration requise. Notre démo en direct vous permet d'explorer tous les types de menus sur mobile, tablette et ordinateurs de bureau.
 
-### 1. Mobile:&#x20;
+Visitez la démo à [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io")
 
-<figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_mobile.gif" alt="small-1-3"><figcaption></figcaption></figure>
+### Ce que vous pouvez explorer
 
-Ouvrez [akayakay.myshopify.com](https://akayakay.myshopify.com/ "akayakay.myshopify.com") sur votre téléphone \| Mot de passe: **12345** Ou scannez le QR ci-dessous
+Utilisez le sélecteur de périphériques (Mobile / Tablet / Desktop) et le sélecteur de site pour prévisualiser différentes configurations de magasin avec :
 
-<div align="left"><figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FvIgD9uG5dmT4vVN0l3AK%2Fimage.png?alt=media&#x26;token=a594374c-eeaa-4f6a-8f77-2807c59f3e92" alt="fix-200" width="225"><figcaption></figcaption></figure></div>
+* **Tab Bar** — barre de navigation fixe en bas pour mobile
+* **Mega Menu** — menu déroulant riche avec colonnes, images et liens (desktop)
+* **Slide Menu** — panneau coulissant avec navigation multi-niveaux
+* **Sticky Navbar** — barre de navigation qui reste fixe lors du défilement
+* **FAB / Floating Menu** — bouton flottant pour un accès rapide (WhatsApp, chat et plus)
+* **Grid Menu** — grille d'images pour présenter les principales catégories
 
-Sur mobile, vous aurez:
-
-* Barre inférieure: Située tout en bas du site Web. (Fonctionne à la fois sur mobile et sur ordinateur de bureau)
-* Menu hamburger: Un menu extensible complet et illimité qui peut contenir l'ensemble de votre menu principal. (Fonctionne à la fois sur mobile et sur ordinateur de bureau)
-* Menu d'en-tête: Juste en dessous de l'en-tête, améliorant la navigation pour l'en-tête par défaut simple.
-* Menu en grille: Présentant les principales catégories du site Web.
-* Menu de barre droite: Pour le support et le partage. (Fonctionne à la fois sur mobile et sur ordinateur de bureau)
-* Bouton flottant: Pour le support avec divers outils gratuits (WhatsApp, chat et plus). (Fonctionne à la fois sur mobile et sur ordinateur de bureau)
-
-### 2. Desktop
-
-Cliquez ici pour tester: [akayakay.myshopify.com](https://akayakay.myshopify.com/ "akayakay.myshopify.com") \| Mot de passe: **12345**<br>
-
-<figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_desktop.gif" alt=""><figcaption></figcaption></figure>
-
-Sur ordinateur de bureau, vous aurez:
-
-* Barre inférieure: Située tout en bas du site Web. (Fonctionne à la fois sur mobile et sur ordinateur de bureau)
-* Menu hamburger: Un menu extensible complet et illimité qui peut contenir l'ensemble de votre menu principal. (Fonctionne à la fois sur mobile et sur ordinateur de bureau)
-* Menu d'en-tête: Juste en dessous de l'en-tête, améliorant la navigation pour l'en-tête par défaut simple.
-* Menu de barre droite: Pour le support et le partage. (Fonctionne à la fois sur mobile et sur ordinateur de bureau)
-* Bouton flottant: Pour le support avec divers outils gratuits (WhatsApp, chat et plus). (Fonctionne à la fois sur mobile et sur ordinateur de bureau)
+Visitez [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") sur n'importe quel appareil, ou scannez le code QR sur la page de démo pour l'ouvrir sur votre téléphone.

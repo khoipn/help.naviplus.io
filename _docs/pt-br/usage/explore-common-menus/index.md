@@ -1,5 +1,5 @@
 ---
-description: Navi+ oferece uma solução de menu abrangente para o seu site — muito além dos menus suspensos tradicionais.
+description: Navi+ oferece uma solução de menu abrangente para o seu site — muito além dos tradicionais menus suspensos.
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/explore-common-menus/
@@ -7,13 +7,13 @@ title: Explore menus comuns
 ---
 # Explore menus comuns
 
-Navi+ oferece uma solução de menu abrangente para o seu site — muito além dos menus suspensos tradicionais.
+Navi+ oferece uma solução de menu abrangente para o seu site — muito além dos tradicionais menus suspensos.
 
 Dependendo do tipo de dispositivo e da experiência do usuário desejada, você pode escolher entre vários estilos de menu flexíveis e otimizados:
 
 #### 1. Tab Bar (Bottom Navigation)
 
-Como conhecido como Bottom Navigation Bar, Bottom Nav, ou Tab Navigation - é um estilo de navegação moderno usado por marcas globais como Shein, ASOS, Zara, Etsy, H&amp;M, Nike e Uniqlo para melhorar a experiência do usuário móvel. Funciona bem para sites de todos os tamanhos e é eficaz tanto em dispositivos móveis quanto em desktops.
+Como é conhecido como Bottom Navigation Bar, Bottom Nav, ou Tab Navigation - é um estilo de navegação moderno usado por marcas globais como Shein, ASOS, Zara, Etsy, H&amp;M, Nike, e Uniqlo para melhorar a experiência do usuário móvel. Funciona bem para sites de todos os tamanhos e é eficaz tanto em dispositivos móveis quanto em desktop.
 
 Aparece na parte inferior das telas móveis, ajudando os usuários:
 
@@ -29,7 +29,7 @@ Plataforma: **Desktop e Móvel (Extremamente popular)**
 
 #### 2. Mega Menu (Desktop) - Extremamente popular
 
-Projetado para sites de desktop, o Mega Menu é perfeito quando você deseja:
+Projetado para sites desktop, o Mega Menu é perfeito quando você deseja:
 
 * Exibir várias categorias de produtos ou seções de conteúdo ao mesmo tempo
 * Organizar links em colunas, grupos ou layouts visuais
@@ -73,7 +73,7 @@ Um botão ou menu flutuante fixo em um canto da tela (geralmente inferior direit
 
 Ideal para:
 
-* Botões de contato rápidos (Chat, Hotline, Zalo, Messenger)
+* Botões de contato rápido (Chat, Hotline, Zalo, Messenger)
 * Ações principais (CTAs) como “Comprar Agora” ou “Iniciar Teste Gratuito”
 * Aumentar conversões sem ocupar muito espaço
 
@@ -83,7 +83,7 @@ Plataforma: **Desktop (popular) e Móvel (Extremamente popular)**
 
 ***
 
-#### 6. Grid Menu 
+#### 6. Grid Menu
 
 O Grid Menu exibe itens de navegação em um layout de grade, permitindo que os usuários visualizem várias categorias ao mesmo tempo — cada uma como um bloco quadrado com um ícone ou imagem.
 

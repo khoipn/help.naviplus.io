@@ -1,5 +1,5 @@
 ---
-description: '**Grid Menu** é um tipo de menu popular usado em muitos aplicativos e sites de e-commerce. Ele geralmente exibe catálogos ou recursos principais e é frequentemente mostrado na página inicial...'
+description: '**Grid Menu** é um tipo de menu popular usado em muitos aplicativos e sites de e-commerce. Ele normalmente exibe catálogos ou recursos principais e é frequentemente mostrado na página inicial...'
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/grid-menu/how-to-use/
@@ -7,7 +7,7 @@ title: Como usar?
 ---
 # Como usar?
 
-**Grid Menu** é um tipo de menu popular usado em muitos aplicativos e sites de e-commerce. Ele geralmente exibe catálogos ou recursos principais e é frequentemente mostrado na página inicial.
+**Grid Menu** é um tipo de menu popular usado em muitos aplicativos e sites de e-commerce. Ele normalmente exibe catálogos ou recursos principais e é frequentemente mostrado na página inicial.
 
 O menu Grid móvel ocupa espaço na tela, pois flutua na tela. Como um menu de seção, ele rola junto com a página.
 
@@ -20,7 +20,7 @@ O menu Grid móvel ocupa espaço na tela, pois flutua na tela. Como um menu de s
 **FAQ:**
 
 <details><summary><strong>1. Eu ainda não decidi se vou usar a versão gratuita ou paga. Posso experimentar os modelos de menu profissional?</strong></summary>
-<p>Com certeza! Os grupos de menu são principalmente para ajudar iniciantes a evitar se sentir sobrecarregados por recursos avançados no Navi+ 😄. A melhor maneira é experimentar os menus profissionais para explorar todos os recursos e opções de layout. Depois, você pode simplesmente excluir qualquer menu que não precise ou que considere inadequado.</p>
+<p>Com certeza! Os grupos de menu são principalmente para ajudar iniciantes a evitar se sentir sobrecarregados por recursos avançados no Navi+ 😄. A melhor maneira é experimentar os menus profissionais para explorar todos os recursos e opções de layout. Mais tarde, você pode simplesmente excluir qualquer menu que não precise ou ache inadequado.</p>
 </details>
 
 <details><summary><strong>2. Criar um menu aqui faz com que ele apareça no meu site imediatamente?</strong></summary>
@@ -32,7 +32,7 @@ O menu Grid móvel ocupa espaço na tela, pois flutua na tela. Como um menu de s
 </details>
 
 <details><summary><strong>4. Devo criar apenas um menu ou vários?</strong></summary>
-<p>Você deve criar <strong>vários menus</strong>. Apenas o menu <strong>ativo</strong> será exibido no seu site, mas você pode preparar muitas versões — selecionando diferentes modelos ou clonando menus. Os menus podem ser configurados para mostrar/ocultar com base no tipo de página (início, produto, coleção...), dispositivo (móvel ou desktop) ou palavras-chave da URL. Então, vá em frente e construa menus que se encaixem em cada situação!</p>
+<p>Você deve criar <strong>vários menus</strong>. Apenas o menu <strong>ativo</strong> será exibido no seu site, mas você pode preparar muitas versões — selecionando diferentes modelos ou clonando menus. Menus podem ser configurados para mostrar/ocultar com base no tipo de página (início, produto, coleção...), dispositivo (móvel ou desktop) ou palavras-chave de URL. Então, vá em frente e construa menus que se encaixem em cada situação!</p>
 </details>
 
 ### Passo 1: Edite a árvore do menu
@@ -46,17 +46,17 @@ Aqui está um exemplo de uma árvore de menu de menu grid móvel:
 ```
 Eventos
 Fatura
-Lista de desejos
+Lista de desejos 
 Voucher
-Produtos
-...
+Produtos  
+... 
 ```
 
 Esta é uma árvore de menu de 1 nível. Menus Grid não suportam múltiplos níveis de menu para manter a simplicidade..
 
 Você passará a maior parte do seu tempo construindo esta árvore de menu para o seu site, ajudando os clientes a encontrar o conteúdo que estão procurando.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkeOMBYNpAOjrcWmKMGt%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=4d5e87b7-39d5-4869-9215-fcdfeb02ff63" alt="Catálogo: Um item de menu de nível 1, exibido como uma aba na barra de abas. All-Mountain: Item de menu de nível 2 que aparece quando você toca em Catálogo."><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkeOMBYNpAOjrcWmKMGt%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=4d5e87b7-39d5-4869-9215-fcdfeb02ff63" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
 #### 1.2. Interações Básicas com a Árvore do Menu
 
@@ -64,7 +64,7 @@ Você pode arrastar e soltar itens de menu para cima e para baixo ou para a esqu
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FVNWPtc0JxdsboCeWXXDd%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=e9e733f9-bc80-4b60-87ef-d9cbbcfd70d4" alt=""><figcaption></figcaption></figure>
 
-Quando você passa o mouse sobre qualquer item de menu, verá opções adicionais: editar os detalhes do item, excluí-lo da árvore do menu ou copiá-lo e colá-lo em outro lugar.
+Quando você passar o mouse sobre qualquer item de menu, verá opções adicionais: editar os detalhes do item, excluí-lo da árvore do menu ou copiá-lo e colá-lo em outro lugar.
 
 {% comment %}hint style="info" {% endcomment %}
 **Dica:** Você pode copiar um item de menu de um menu para outro abrindo o aplicativo Navi+ em duas abas do navegador.

@@ -1,5 +1,5 @@
 ---
-description: 'Passo 1: Fai clic su Negozio Online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio Online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.&'
+description: 'Passo 1: Fai clic su Negozio online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.'
 lang: it
 layout: default
 permalink: /it/docs/usage/mega-menu-desktop/publishing-on-shopify/
@@ -13,7 +13,7 @@ title: Pubblicazione su Shopify
 
 #### I.1. Attiva Navi+ su App Embeds
 
-Passo 1: Fai clic su Negozio Online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio Online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.&#x20;
+Passo 1: Fai clic su Negozio online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.
 
 Passo 2: Seleziona il tema in cui desideri pubblicare il menu.  Fai clic: **Personalizza**
 
@@ -36,11 +36,11 @@ Passo 1: Fai clic sul pulsante **Pubblica sul sito web**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Passo 2: Attiva l'interruttore "Pubblica menu tramite metodo Inserisci/Sostituisci".&#x20;
+Passo 2: Attiva l'interruttore “Pubblica menu con metodo Inserisci/Sostituisci”.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
-Passo 3: Seleziona il selettore CSS corretto e metodo di sostituzione/inserimento
+Passo 3: Seleziona il corretto Selettore CSS e metodo di sostituzione/inserimento
 
 In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intestazione o sostituire il Mega Menu predefinito. Puoi anche utilizzare questo metodo in modo creativo trovando e applicando altri selettori CSS per attivare il menu.
 
@@ -83,7 +83,8 @@ In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intest
 </details>
 
 <details><summary><strong>Come trovare il selettore CSS sul tuo sito web?</strong></summary>
-<p>Puoi chattare con un sostenitore di Navi+ per ricevere assistenza immediata invece di farlo da solo.\ Tuttavia, (1) questo ti aiuterà a capire l'idea principale, e (2) se vuoi farlo da solo, segui le istruzioni qui sotto.</p>
+<p>Puoi chattare con un sostenitore di Navi+ per ricevere assistenza immediata invece di farlo da solo.\
+Tuttavia, (1) questo ti aiuterà a comprendere l'idea principale, e (2) se vuoi farlo da solo, segui le istruzioni qui sotto.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -94,6 +95,8 @@ In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intest
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwwbgyipKDVFeCcnTgk7z%2FHelp.MenuTree.1.4.6.png?alt=media&#x26;token=6d806208-cff1-4a5b-b40e-031df20120d0" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtSRUcDl65hpc3xQ1ON8k%2FHelp.MenuTree.1.4.7.png?alt=media&#x26;token=a63979b3-b38f-44bc-92f0-f39b15c79804" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
@@ -103,10 +106,10 @@ In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intest
 
 Quando sostituisci un menu con un altro, Navi+ aspetta che il vecchio menu venga visualizzato e poi lo sostituisce istantaneamente con il nuovo. Anche se questo avviene quasi immediatamente, c'è ancora un breve momento in cui appare il vecchio menu, il che può confondere gli utenti.
 
-Con questo passaggio, puoi nascondere completamente il vecchio menu e mostrare invece un effetto di caricamento. Questo fa sembrare il sito web più veloce e migliora l'esperienza utente.
+Con questo passaggio, puoi nascondere completamente il vecchio menu e mostrare invece un effetto di caricamento. Questo fa sentire il sito web più veloce e migliora l'esperienza utente.
 
 <details><summary>Navi+ fornisce una soluzione semplice per ottimizzare l'esperienza utente e la velocità come segue</summary>
-<h4>Perché hai bisogno di farlo? Navi+ non è già veloce?</h4>
+<p><strong>Perché hai bisogno di fare questo? Navi+ non è già veloce?</strong></p>
 <p>Navi+ è molto veloce. È completamente distribuito su una CDN leader con latenza molto bassa (circa 100 ms) e può servire milioni di clienti senza rallentare.</p>
 <p>Tuttavia, Navi+ funziona ancora all'interno dell'ecosistema Shopify. Shopify ha le proprie regole di caricamento:</p>
 <ol>
@@ -116,7 +119,7 @@ Con questo passaggio, puoi nascondere completamente il vecchio menu e mostrare i
 </ol>
 <p>Questo significa che se stai utilizzando più app, Navi+ potrebbe a volte essere caricato più tardi del previsto. Ecco perché può sembrare più lento in alcuni casi.</p>
 <hr />
-<h3>Qual è la mia soluzione?</h3>
+<h4>Qual è la mia soluzione?</h4>
 <p>Attualmente, Navi+ ha alta priorità quando viene caricato sui siti web Shopify. Tuttavia, c'è ancora un certo ritardo. Affronteremo questi problemi uno per uno qui:</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fk4HYuop9Aq2GRnk4OEWT%2F2.1.png?alt=media&#x26;token=ddeb17b5-23d7-4870-b9ac-fb95b6e250b7" alt=""><figcaption></figcaption></figure>
 
@@ -136,13 +139,13 @@ Con questo passaggio, puoi nascondere completamente il vecchio menu e mostrare i
 
 Questo metodo inserisce il menu aggiungendo un Blocco/Sezione nel tuo tema Shopify. È un approccio tradizionale, quindi non lo descriverò in dettaglio. Con questo metodo, non è nemmeno necessario **“Attivare Navi+ in App Embeds”** come richiesto nel Passo 1 del Metodo 1.
 
-Copia l'ID di incorporamento di questo menu, quindi inseriscilo nel blocco denominato "Navi+ su Sezione" nelle Sezioni del Tema. Puoi aggiungere un titolo, impostare la larghezza completa e regolare il margine per questa sezione dopo averla aggiunta.
+Copia l'ID di incorporamento di questo menu, quindi inseriscilo nel blocco chiamato “Navi+ su Sezione” nelle Sezioni del Tema. Puoi aggiungere un titolo, impostare la larghezza completa e regolare il margine per questa sezione dopo averla aggiunta.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
 <details><summary>Guida per aggiungere questo menu come sezione/blocco nel tema Shopify</summary>
 <p>Di seguito è riportata una guida dettagliata su come inserire un menu Navi+ come sezione/blocco nel tuo tema Shopify. Questo metodo ti consente di aggiungere il menu in un modo standard, supportato da Shopify, anche se non è flessibile come gli altri metodi forniti da Navi+.</p>
-<p>Questo metodo si applica a <strong>Mega Menus</strong> e <strong>Grid Menus</strong>. Non si <strong>APPLICA</strong> a <strong>Tabbar</strong>, <strong>FAB</strong> o <strong>Slide Menus</strong>.</p>
+<p>Questo metodo si applica a <strong>Mega Menus</strong> e <strong>Grid Menus</strong>. Non si applica a <strong>Tabbar</strong>, <strong>FAB</strong> o <strong>Slide Menus</strong>.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>

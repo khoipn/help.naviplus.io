@@ -15,8 +15,8 @@ title: 故障排除
 
 **Khoi Pham**
 
-Navi+创始人  
-网站: [https://naviplus.io](https://naviplus.io/ "https://naviplus.io")  
+Navi+创始人\
+网站: [https://naviplus.io](https://naviplus.io/ "https://naviplus.io")\
 Shopify: <https://apps.shopify.com/pronavi-navigation-design>\
 Whats App: +84 981911011\
 Linked in: <https://www.linkedin.com/in/khoi-pham-443218aa/>

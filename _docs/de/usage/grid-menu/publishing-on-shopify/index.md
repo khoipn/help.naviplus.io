@@ -1,5 +1,5 @@
 ---
-description: 'Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.&'
+description: 'Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.'
 lang: de
 layout: default
 permalink: /de/docs/usage/grid-menu/publishing-on-shopify/
@@ -11,9 +11,9 @@ title: Veröffentlichung auf Shopify
 
 #### **I) METHODE 1: FÜGEN SIE (VOR ODER NACH) DIESEM MENÜ AN EINER BESTIMMTEN STELLE AUF IHRER WEBSITE EIN, ODER ERSETZEN SIE EIN BESTEHENDES MENÜ, MIT EINEM CSS-SELECTOR. (**&#x52;ECOMMENDED)
 
-#### I.1. Aktivieren Sie Navi+ in App-Integrationen
+#### I.1. Aktivieren Sie Navi+ in App-Embeds
 
-Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.&#x20;
+Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.
 
 Schritt 2: Wählen Sie das Theme aus, in dem Sie das Menü veröffentlichen möchten.  Klicken Sie auf: **Anpassen**
 
@@ -22,7 +22,7 @@ Schritt 2: Wählen Sie das Theme aus, in dem Sie das Menü veröffentlichen möc
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
-Schritt 3: Gehen Sie zu App-Integrationen, suchen Sie „Navi+ auf allen Seiten“ und aktivieren Sie es.
+Schritt 3: Gehen Sie zu App-Embeds, suchen Sie nach „Navi+ auf allen Seiten“ und aktivieren Sie es.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
@@ -36,7 +36,7 @@ Schritt 1: Klicken Sie auf die Schaltfläche **Auf Website veröffentlichen**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Schritt 2: Aktivieren Sie den Schalter "Menü veröffentlichen durch Einfügen/Ersetzen-Methode".&#x20;
+Schritt 2: Aktivieren Sie den Schalter "Menü veröffentlichen durch Einfügen/Ersetzen-Methode".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
@@ -44,12 +44,12 @@ Schritt 3: Wählen Sie den richtigen CSS-Selector und die Ersetzen/Einfügen-Met
 
 In diesem Leitfaden konzentrieren wir uns auf 1 Möglichkeit: dieses Menü vor dem Hauptmenü einzufügen. Sie können diese Methode auch kreativ nutzen, indem Sie andere CSS-Selectoren finden und anwenden, um das Menü auszulösen.
 
-<details><summary>Wie fügt man dieses Menü vor dem Hauptmenü der Website ein<strong>?</strong></summary>
+<details><summary>Wie fügt man dieses Menü vor dem Hauptmenü der Website<strong>?</strong></summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FFdsoRiQZP0I26RofqljL%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=51fec431-31e7-4bce-8c22-50a84664ee65" alt=""><figcaption></figcaption></figure>
 
 <p>Um dies zu tun, identifizieren Sie einfach den CSS-Selector des Headers Ihrer Website und geben Sie ihn in das Textfeld ein. Wir haben bereits die CSS-Selectoren für einige der beliebtesten Themes für Sie gefunden, die unten aufgeführt sind.</p>
 <ol>
-<li>CSS-Selectoren für einige beliebte, kostenlose Themes.. von Shopify wie Dawn, Sense, Savor, Horizon..&#x20;</li>
+<li>CSS-Selectoren für einige beliebte, kostenlose Themes.. von Shopify wie Dawn, Sense, Savor, Horizon..</li>
 </ol>
 <pre class="codehilite"><code>main
 </code></pre>
@@ -64,7 +64,7 @@ In diesem Leitfaden konzentrieren wir uns auf 1 Möglichkeit: dieses Menü vor d
 </details>
 
 <details><summary>Wie ersetzt man das Standard-Grid-Menü?</summary>
-<p>Auf Mobilgeräten gibt es kein Grid-Menü zum Ersetzen, daher ist diese Methode normalerweise nicht praktikabel</p>
+<p>Auf Mobilgeräten gibt es kein Grid-Menü zu ersetzen, daher ist diese Methode normalerweise nicht machbar</p>
 </details>
 
 <details><summary><strong>Wie findet man den CSS-Selector auf Ihrer Website?</strong></summary>
@@ -89,9 +89,9 @@ Allerdings wird (1) dies Ihnen helfen, die Grundidee zu verstehen, und (2) wenn 
 
 #### **II) METHODE 2: FÜGEN SIE DIESES MENÜ ALS ABSCHNITT/BLOCK IM SHOPIFY-THEME HINZU**
 
-Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Integrationen aktivieren“**, wie es in Schritt 1 der Methode 1 erforderlich ist.
+Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie in Schritt 1 der Methode 1 erforderlich.
 
-Kopieren Sie die Einbettungs-ID dieses Menüs und fügen Sie sie in den Block mit dem Namen "Navi+ auf Abschnitt" in den Theme-Abschnitten ein. Sie können einen Titel hinzufügen, die volle Breite einstellen und den Rand für diesen Abschnitt nach dem Hinzufügen anpassen.
+Kopieren Sie die Embed-ID dieses Menüs und fügen Sie sie in den Block mit dem Namen "Navi+ auf Abschnitt" in den Theme-Abschnitten ein. Sie können einen Titel hinzufügen, die volle Breite einstellen und den Abstand für diesen Abschnitt nach dem Hinzufügen anpassen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 

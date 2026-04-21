@@ -340,5 +340,5 @@ const navbarCTA = {
 
 const navbarCTADemo = {
   text: "See demo",
-  url: "https://naviplus.io/demo/",
+  url: "https://showcase.naviplus.io/",
 };

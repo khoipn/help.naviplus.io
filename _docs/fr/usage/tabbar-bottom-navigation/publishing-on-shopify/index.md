@@ -1,5 +1,5 @@
 ---
-description: 'Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Faites un clic droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.&'
+description: 'Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Faites un clic droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.'
 lang: fr
 layout: default
 permalink: /fr/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
@@ -11,7 +11,7 @@ title: Publication sur Shopify
 
 #### 2.1. Activez Navi+ sur les intégrations d'applications
 
-Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Faites un clic droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.&#x20;
+Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Faites un clic droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.
 
 Étape 2 : Sélectionnez le thème où vous souhaitez publier le menu.  Cliquez : **Personnaliser**
 
@@ -34,6 +34,6 @@ Après ces 4 étapes, Navi+ a été installé sur votre site web et est prêt à
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Étape 2 : Choisissez les paramètres d'affichage puis PUBLIER LE MENU.&#x20;
+Étape 2 : Choisissez les paramètres d'affichage puis PUBLIER LE MENU.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Ft10CP8LGGGIBDaN6I5lF%2FHelp.MenuTree.1.2.2-tabbar.png?alt=media&#x26;token=2c6c7418-0df0-4426-8b13-8ba187dc9fb8" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FytLn61LOvxrMtSSUsjEu%2FHelp.MenuTree.1.2.2-tabbar.png?alt=media&#x26;token=30371944-343f-4a0b-a4bf-70176ba832de" alt=""><figcaption></figcaption></figure>

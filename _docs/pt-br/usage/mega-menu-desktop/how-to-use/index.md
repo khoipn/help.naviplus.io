@@ -18,7 +18,7 @@ title: Como usar?
 **FAQ:**
 
 <details><summary><strong>1. Eu ainda não decidi se vou usar a versão gratuita ou paga. Posso experimentar os modelos de menu profissional?</strong></summary>
-<p>Absolutamente! Os grupos de menu são principalmente para ajudar iniciantes a evitar se sentir sobrecarregados com recursos avançados no Navi+ 😄. A melhor maneira é experimentar os menus profissionais para explorar todos os recursos e opções de layout. Mais tarde, você pode simplesmente excluir qualquer menu que não precise ou que considere inadequado.</p>
+<p>Com certeza! Os grupos de menu são principalmente para ajudar iniciantes a evitar se sentir sobrecarregados com recursos avançados no Navi+ 😄. A melhor maneira é experimentar os menus profissionais para explorar todos os recursos e opções de layout. Mais tarde, você pode simplesmente excluir qualquer menu que não precise ou que considere inadequado.</p>
 </details>
 
 <details><summary><strong>2. Criar um menu aqui faz com que ele apareça no meu site imediatamente?</strong></summary>
@@ -30,7 +30,7 @@ title: Como usar?
 </details>
 
 <details><summary><strong>4. Devo criar apenas um menu ou vários?</strong></summary>
-<p>Você deve criar <strong>vários menus</strong>. Apenas o menu <strong>ativo</strong> será exibido no seu site, mas você pode preparar muitas versões — selecionando diferentes modelos ou clonando menus. Os menus podem ser configurados para mostrar/ocultar com base no tipo de página (início, produto, coleção...), dispositivo (móvel ou desktop) ou palavras-chave da URL. Então, vá em frente e construa menus que se encaixem em cada situação!</p>
+<p>Você deve criar <strong>vários menus</strong>. Apenas o menu <strong>ativo</strong> será exibido no seu site, mas você pode preparar muitas versões — selecionando diferentes modelos ou clonando menus. Os menus podem ser configurados para mostrar/ocultar com base no tipo de página (início, produto, coleção...), dispositivo (móvel ou desktop) ou palavras-chave de URL. Então, vá em frente e construa menus que se encaixem em cada situação!</p>
 </details>
 
 ### Passo 1: Edite a árvore do menu
@@ -52,8 +52,8 @@ Skateboarding
    - Mais (link azul para detalhes..)   
    - Completes      
         - Chapéus (Nome do grupo)
-        - Burton Lunchlap Earflap Hat           
-        - Volcom Ramp Stone Adjustable Hat
+        - Chapéu Burton Lunchlap Earflap           
+        - Chapéu Volcom Ramp Stone Ajustável
         - ...
 [+] Acessórios  
 [+] Blogs  
@@ -61,9 +61,9 @@ Skateboarding
 [+] Mais
 ```
 
-Esta é uma árvore de menu de 3 níveis. O nível 1 inclui **Menu**, **Categorias, Alfabeto, Skateboarding...** e **Mais..**. **Skateboarding** tem 5 submenus de nível 2: **Componentes, Mesas, Completes** (Consiste em alguns submenus de nível 3: **Chapéus, Burton Lunchlap Earflap Hat**...)
+Esta é uma árvore de menu de 3 níveis. O nível 1 inclui **Menu**, **Categorias, Alfabeto, Skateboarding...** e **Mais..**. **Skateboarding** tem 5 submenus de nível 2: **Componentes, Mesas, Completes** (Consiste em alguns submenus de menu de nível 3: **Chapéus, Chapéu Burton Lunchlap Earflap...**)
 
-Você passará a maior parte do seu tempo construindo esta árvore de menu para o seu site, ajudando os clientes a encontrar o conteúdo que estão procurando.&#x20;
+Você passará a maior parte do seu tempo construindo esta árvore de menu para o seu site, ajudando os clientes a encontrar o conteúdo que estão procurando.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJdoP60xMLS1qPJRoP1NB%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=abcbf81d-d5d6-4e08-89a5-8409c9d9608d" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
@@ -75,7 +75,7 @@ Você pode arrastar e soltar itens de menu para cima e para baixo ou para a esqu
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FfDZzxdLeYHGDsuS5AIU2%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=1df0b87e-06cf-4ce7-ba13-e6b0b3d3ad76" alt=""><figcaption></figcaption></figure>
 
-Quando você passa o mouse sobre qualquer item de menu, verá opções adicionais: editar os detalhes do item, excluí-lo da árvore do menu ou copiá-lo e colá-lo em outro lugar.
+Quando você passar o mouse sobre qualquer item de menu, verá opções adicionais: editar os detalhes do item, excluí-lo da árvore do menu ou copiá-lo e colá-lo em outro lugar.
 
 {% comment %}hint style="info" {% endcomment %}
 **Dica:** Você pode copiar um item de menu de um menu para outro abrindo o aplicativo Navi+ em duas abas do navegador.
@@ -85,7 +85,7 @@ Quando você passa o mouse sobre qualquer item de menu, verá opções adicionai
 
 Esta é uma situação comum ao criar um menu com o Navi+. Quando você cria um novo menu, incluímos um exemplo completo com itens de menu populares para mostrar ideias de layout e permitir que você copie/cole conforme necessário. No entanto, se você é novo no Navi+ e está usando o plano Starter, verá muitos avisos vermelhos (i) para recursos que não estão disponíveis, como fazer upload de imagens ou usar interações avançadas.
 
-Se você gosta desses recursos avançados, considere atualizar para um plano Business ou Elite. Mas se você quiser continuar com o plano Starter, por favor, encontre e exclua os itens de menu com avisos vermelhos (i).
+Se você gosta desses recursos avançados, considere fazer upgrade para um plano Business ou Elite. Mas se você quiser continuar com o plano Starter, por favor, encontre e exclua os itens de menu com avisos vermelhos (i).
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FuUi6snWaLS1ZC6kSuRDG%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=72b33ea5-7941-4036-b1ef-cf9199fb90f2" alt=""><figcaption></figcaption></figure>
 
@@ -119,15 +119,15 @@ Se você não precisa de layouts complexos como itens de menu de várias colunas
 
 <details><summary>Veja instruções detalhadas sobre como usar o atributo “É item de menu de várias colunas”.</summary>
 <p>Quando um item de menu de nível 1 é definido como <strong>“É item de menu de várias colunas”</strong>, ele será destacado em amarelo claro na Árvore do Menu, e seus itens de menu de nível 2 serão automaticamente convertidos em <strong>Colunas</strong> (com um ícone vermelho), independentemente de quaisquer outros atributos que você atribua.</p>
-<p>Para esses <strong>itens de menu de nível 2 Coluna</strong>, o único atributo utilizável é <strong>Largura do layout</strong>. Todos os itens de submenu sob essa coluna serão então organizados dentro de uma única coluna.</p>
+<p>Para esses <strong>itens de menu de nível 2 de Coluna</strong>, o único atributo utilizável é <strong>Layout de largura</strong>. Todos os itens de submenu sob essa coluna serão então organizados dentro de uma única coluna.</p>
 <p>{% comment %}hint style="info" {% endcomment %}
 Você acha esse tipo de menu difícil de usar? Você está certo! Mas os resultados que você obtém com esse atributo são realmente UAU.
 {% comment %}endhint{% endcomment %}</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FRlftdLgJtyudsMcrmBDl%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=9648c4e6-ddf9-43ae-9832-0117d3be867b" alt=""><figcaption></figcaption></figure>
 
-<p>Se você remover o <strong>“É item de menu de várias colunas”</strong> atributo do item de menu de nível 1, tudo voltará ao estado original.</p>
-<h4>Por que você precisa do atributo <strong>“Largura do dropdown quando expandido”</strong>?</h4>
-<p>Por padrão, ao usar o <strong>“É item de menu de várias colunas”</strong> atributo, o submenu (dropdown) se expande para a largura total da tela (ou com base no tamanho do contêiner, geralmente 1280, 1366, 1440 ou 100% — configurável na aba <em>Avançado</em>). No entanto, com uma área tão ampla, você pode não ter sempre conteúdo ou ideias suficientes para preencher o espaço.</p>
+<p>Se você remover o atributo <strong>“É menu de várias colunas”</strong> do item de menu de nível 1, tudo voltará ao estado original.</p>
+<p><strong>Por que você precisa do atributo “Largura do dropdown quando expandido”?</strong></p>
+<p>Por padrão, ao usar o atributo <strong>“É item de menu de várias colunas”</strong>, o submenu (dropdown) se expande para a largura total da tela (ou com base no tamanho do contêiner, geralmente 1280, 1366, 1440 ou 100% — configurável na aba <em>Avançado</em>). No entanto, com uma área tão ampla, você pode não ter sempre conteúdo ou ideias suficientes para preencher o espaço.</p>
 <p>Neste caso, você pode limitar a largura do submenu (individualmente para cada item de menu de várias colunas) para evitar uma aparência vazia ou desequilibrada.</p>
 <p><strong>Exemplo:</strong> Você pode criar um menu com uma largura de 700px e duas colunas de 6/12 cada. Dessa forma, você ainda obtém um layout espaçoso sem desperdiçar muito espaço na tela.</p>
 </details>

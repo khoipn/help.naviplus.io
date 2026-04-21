@@ -38,17 +38,17 @@ Although the Bottom Bar is the most effective tool to lead users, used by almost
 
 ### Z-index - prioritizing the display order of "floating applications"
 
-The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order. See picture below to undertand more.&#x20;
+The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order. See picture below to undertand more.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FyMHcqutHWOUtEEYqMDn6%2Fz-index1.png?alt=media&#x26;token=fb6a0100-e337-4115-9212-a8c8d32888ef" alt=""><figcaption></figcaption></figure>
 
-The default z-index for the Navi+ menu is set to 50 for all, as we 'do not consider ourselves more important than other apps,' but 50 is also the number sufficient to display well on all Shopify themes. Sometimes you may need to adjust the z-index of your Navi+ menu in the following cases:&#x20;
+The default z-index for the Navi+ menu is set to 50 for all, as we 'do not consider ourselves more important than other apps,' but 50 is also the number sufficient to display well on all Shopify themes. Sometimes you may need to adjust the z-index of your Navi+ menu in the following cases:
 
-1. When you use multiple Navi+ menus on one page and you want them to overlap, but one menu appears above the others.&#x20;
+1. When you use multiple Navi+ menus on one page and you want them to overlap, but one menu appears above the others.
 2. When there are other objects/apps overlapping your Navi+ menu, in which case, the z-index will resolve all.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg93TvrzCEEKdFZvdmdbh%2Fz-index2.png?alt=media&#x26;token=1289e3a7-6ea1-44ec-a284-8964ac4b6f35" alt=""><figcaption></figcaption></figure>
 
-There's a challenging question: what z-index should you set up for your Navi+ menu to avoid overlapping as desired? If you have multiple Navi+ menus, you can arrange them according to your preferences without worrying – that's why we're building Navi+ to be as versatile as possible for current 'floating applications' on Shopify.&#x20;
+There's a challenging question: what z-index should you set up for your Navi+ menu to avoid overlapping as desired? If you have multiple Navi+ menus, you can arrange them according to your preferences without worrying – that's why we're building Navi+ to be as versatile as possible for current 'floating applications' on Shopify.
 
 If you need to set up the z-index for your Navi+ menu to handle conflicts with other apps, you can search for your z-index from a minimum of 0 to a maximum of 2,147,483,647. This may seem a bit difficult, but it's the easiest and best way because the z-index won't affect your interface display other than the issue you're facing. If you're experienced with CSS and HTML debugging – this is easy, just turn on inspect mode to see what z-index the conflicting app has. Or, the easiest way, simply click on the Crisp chat icon to chat with a Navi+ advisor; we'd be happy to assist you with this issue.

@@ -1,5 +1,5 @@
 ---
-description: '**Mega Menu** ist einer der beliebtesten und effektivsten Menütypen, insbesondere auf Desktop. Benutzer erwarten natürlich, ein Mega Menu direkt unter dem Website-Header zu finden...'
+description: '**Mega Menu** ist einer der beliebtesten und effektivsten Menütypen, insbesondere auf Desktop. Benutzer erwarten natürlich, ein Mega Menu direkt unter dem Website...'
 lang: de
 layout: default
 permalink: /de/docs/usage/mega-menu-desktop/how-to-use/
@@ -7,7 +7,7 @@ title: Wie benutzt man?
 ---
 # Wie benutzt man?
 
-**Mega Menu** ist einer der beliebtesten und effektivsten Menütypen, insbesondere auf Desktop. Benutzer erwarten natürlich, ein Mega Menu direkt unter dem Website-Header zu finden. Das Standardmenü von Shopify ist jedoch normalerweise einfach, hat eine schwache Struktur und bietet wenig bis gar keine Bildunterstützung. Deshalb sollten Sie das Navi+ Mega Menu verwenden.
+**Mega Menu** ist einer der beliebtesten und effektivsten Menütypen, insbesondere auf Desktop. Benutzer erwarten natürlich, ein Mega Menu direkt unter dem Website-Header zu finden. Das Standardmenü von Shopify ist jedoch normalerweise einfach, hat keine starke Struktur und bietet wenig bis gar keine Bildunterstützung. Deshalb sollten Sie das Navi+ Mega Menu verwenden.
 
 **Hauptvorteile:**
 
@@ -26,10 +26,10 @@ title: Wie benutzt man?
 </details>
 
 <details><summary><strong>3. Was ist, wenn ich die falsche Vorlage wähle oder einen Fehler mache?</strong></summary>
-<p>Kein Problem. Sie können es jederzeit löschen und ein neues erstellen. Wenn Sie ein Menü testen und eine andere Vorlage ausprobieren möchten, können Sie das aktuelle als Backup-Datei <strong>speichern</strong> und später wieder öffnen. Sie können sogar Teile zwischen Menüs <strong>kopieren und einfügen</strong> (indem Sie zwei Browser-Tabs öffnen), um Ihre vorherige Arbeit zu behalten. Fühlen Sie sich frei, zu experimentieren!</p>
+<p>Kein Problem. Sie können es jederzeit löschen und ein neues erstellen. Wenn Sie ein Menü testen und eine andere Vorlage ausprobieren möchten, können Sie das aktuelle als Sicherungsdatei <strong>speichern</strong> und später wieder öffnen. Sie können sogar Teile zwischen Menüs <strong>kopieren und einfügen</strong> (indem Sie zwei Browser-Tabs öffnen), um Ihre vorherige Arbeit zu behalten. Fühlen Sie sich frei, zu experimentieren!</p>
 </details>
 
-<details><summary><strong>4. Sollte ich nur ein Menü oder mehrere erstellen?</strong></summary>
+<details><summary><strong>4. Soll ich nur ein Menü oder mehrere erstellen?</strong></summary>
 <p>Sie sollten <strong>mehrere Menüs</strong> erstellen. Nur das <strong>aktive</strong> Menü wird auf Ihrer Seite angezeigt, aber Sie können viele Versionen vorbereiten — indem Sie verschiedene Vorlagen auswählen oder Menüs klonen. Menüs können so konfiguriert werden, dass sie je nach Seitentyp (Startseite, Produkt, Sammlung...), Gerät (mobil oder Desktop) oder URL-Schlüsselwörtern angezeigt oder ausgeblendet werden. Also legen Sie los und erstellen Sie Menüs, die zu jeder Situation passen!</p>
 </details>
 
@@ -50,7 +50,7 @@ Skateboarding
    - Tische
    - Trucks
    - Mehr (Blauer Link zu Details..)   
-   - Komplett      
+   - Komplettsets      
         - Hüte (Gruppenname)
         - Burton Lunchlap Earflap Hat           
         - Volcom Ramp Stone Adjustable Hat
@@ -62,13 +62,13 @@ Skateboarding
 ```
 
 Dies ist ein 3-stufiger Menübaum. Stufe 1 umfasst **Menü**, **Kategorien, Alphabete, Skateboarding...** und **Mehr..**.  
-**Skateboarding** hat 5 Stufen-2 Untermenüs: **Komponenten, Tische, Komplett** (besteht aus einigen Stufen-3 Menüuntermenüs: **Hüte, Burton Lunchlap Earflap Hat**...)
+**Skateboarding** hat 5 Stufen-2 Untermenüs: **Komponenten, Tische, Komplettsets** (besteht aus einigen Stufen-3 Menüuntermenüs: **Hüte, Burton Lunchlap Earflap Hat**...)
 
-Sie werden die meiste Zeit damit verbringen, diesen Menübaum für Ihre Website zu erstellen, um den Kunden zu helfen, die Inhalte zu finden, nach denen sie suchen.&#x20;
+Sie werden die meiste Zeit damit verbringen, diesen Menübaum für Ihre Website zu erstellen, um den Kunden zu helfen, die Inhalte zu finden, nach denen sie suchen.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJdoP60xMLS1qPJRoP1NB%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=abcbf81d-d5d6-4e08-89a5-8409c9d9608d" alt="Katalog: Ein Level-1-Menüelement, das als Tab in der Tabbar angezeigt wird. All-Mountain: Level-2-Menüelement, das erscheint, wenn Sie auf Katalog tippen."><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJdoP60xMLS1qPJRoP1NB%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=abcbf81d-d5d6-4e08-89a5-8409c9d9608d" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FGJpo5jWFTPreiPlpJM2P%2FHelp.MenuTree.1.1.1.png?alt=media&#x26;token=504bf18a-d988-404d-a4af-427826a0edd8" alt="Cruise Flex, Balance Ride: Level-3-Menüelement, das erscheint, wenn Sie auf All-Mountain tippen."><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FGJpo5jWFTPreiPlpJM2P%2FHelp.MenuTree.1.1.1.png?alt=media&#x26;token=504bf18a-d988-404d-a4af-427826a0edd8" alt="Cruise Flex, Balance Ride: Level 3 menu item that appears when you tap on All-Mountain."><figcaption></figcaption></figure>
 
 #### 1.2. Grundlegende Interaktionen mit dem Menübaum
 
@@ -93,7 +93,7 @@ Wenn Sie diese erweiterten Funktionen mögen, sollten Sie ein Upgrade auf einen 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
-**Wichtiger Tipp:** Wenn die Bestätigung zum Löschen erscheint, aktivieren Sie „Nächstes Mal nicht mehr fragen“, um schneller zu löschen.
+**Wichtiger Tipp:** Wenn die Bestätigungsaufforderung zum Löschen erscheint, aktivieren Sie „Beim nächsten Mal nicht mehr fragen“, um schneller zu löschen.
 {% comment %}endhint{% endcomment %}
 
 #### 1.4. Menüelemente zum Menübaum hinzufügen
@@ -104,7 +104,7 @@ Um ein Menüelement hinzuzufügen, haben Sie zwei Optionen:
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 
-**Option 2 (Empfohlen):** Wir haben bereits viele gut gestaltete Vorlagen für Menüelemente für Sie vorbereitet. Kopieren Sie sie einfach und fügen Sie sie an die richtige Stelle ein. Nachdem Sie Ihren Menübaum fertiggestellt haben, löschen Sie einfach die ungenutzten Vorlagen.
+**Option 2 (Empfohlen):** Wir haben bereits viele gut gestaltete Menüelementvorlagen für Sie vorbereitet. Kopieren Sie sie einfach und fügen Sie sie an die richtige Stelle ein. Nachdem Sie Ihren Menübaum fertiggestellt haben, löschen Sie einfach die ungenutzten Vorlagen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FjBJUHMA8dTOONOJoOt8S%2FHelp.MenuTree.1.1.5.png?alt=media&#x26;token=e6316df1-e99a-4259-8370-5fc3afaf331a" alt=""><figcaption></figcaption></figure>
 
@@ -116,20 +116,20 @@ Dies ist eine hochspezialisierte Funktion, die speziell für Desktop-Mega-Menüs
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FybsBSjopbkXc3LeUUO11%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=a04b3a4a-bbea-40f1-83d6-6dadd0b3288c" alt=""><figcaption></figcaption></figure>
 
-Wenn Sie keine komplexen Layouts wie Mehrspalten-Menüelemente benötigen — oder planen, sie später zu verwenden — können Sie sie sicher aus Ihren Level-1-Menüelementen löschen.
+Wenn Sie keine komplexen Layouts wie Mehrspalten-Menüelemente benötigen — oder planen, sie später zu verwenden — können Sie sie sicher aus Ihren Stufen-1-Menüelementen löschen.
 
 <details><summary>Siehe detaillierte Anweisungen zur Verwendung des Attributs „Ist Mehrspalten-Menüelement“.</summary>
-<p>Wenn ein Level-1-Menüelement auf <strong>„Ist Mehrspalten-Menüelement“</strong> gesetzt ist, wird es im Menübaum hellgelb hervorgehoben, und seine Level-2-Menüelemente werden automatisch in <strong>Spalten</strong> (mit einem roten Symbol) umgewandelt, unabhängig von anderen Attributen, die Sie zuweisen.</p>
-<p>Für diese <strong>Spalten-Level-2-Menüelemente</strong> ist das einzige verwendbare Attribut <strong>Breitenlayout</strong>. Alle Untermenüelemente unter dieser Spalte werden dann innerhalb einer einzigen Spalte angeordnet.</p>
+<p>Wenn ein Stufen-1-Menüelement auf <strong>„Ist Mehrspalten-Menüelement“</strong> gesetzt ist, wird es im Menübaum hellgelb hervorgehoben, und seine Stufen-2-Menüelemente werden automatisch in <strong>Spalten</strong> (mit einem roten Symbol) umgewandelt, unabhängig von anderen Attributen, die Sie zuweisen.</p>
+<p>Für diese <strong>Spalten-Stufen-2-Menüelemente</strong> ist das einzige verwendbare Attribut <strong>Breitenlayout</strong>. Alle Untermenüelemente unter dieser Spalte werden dann innerhalb einer einzigen Spalte angeordnet.</p>
 <p>{% comment %}hint style="info" {% endcomment %}
 Finden Sie diesen Typ von Menü schwierig zu verwenden? Sie haben recht! Aber die Ergebnisse, die Sie mit diesem Attribut erzielen, sind wirklich WOW.
 {% comment %}endhint{% endcomment %}</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FRlftdLgJtyudsMcrmBDl%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=9648c4e6-ddf9-43ae-9832-0117d3be867b" alt=""><figcaption></figcaption></figure>
 
-<p>Wenn Sie das Attribut <strong>„Ist Mehrspalten-Menü“</strong> von dem Level-1-Menüelement entfernen, wird alles in den ursprünglichen Zustand zurückversetzt.</p>
-<h4>Warum benötigen Sie das Attribut <strong>„Dropdown-Breite bei Erweiterung“</strong>?</h4>
+<p>Wenn Sie das Attribut <strong>„Ist Mehrspalten-Menü“</strong> vom Stufen-1-Menüelement entfernen, wird alles in den ursprünglichen Zustand zurückversetzt.</p>
+<p><strong>Warum benötigen Sie das Attribut „Dropdown-Breite bei Erweiterung“?</strong></p>
 <p>Standardmäßig, wenn Sie das Attribut <strong>„Ist Mehrspalten-Menüelement“</strong> verwenden, wird das Untermenü (Dropdown) auf die volle Bildschirmbreite (oder basierend auf der Containergröße, normalerweise 1280, 1366, 1440 oder 100% — konfigurierbar im <em>Erweitert</em>-Tab) erweitert.  
-Allerdings haben Sie mit einem so großen Bereich möglicherweise nicht immer genügend Inhalte oder Ideen, um den Raum zu füllen.</p>
+Allerdings haben Sie bei einem so großen Bereich möglicherweise nicht immer genügend Inhalte oder Ideen, um den Raum zu füllen.</p>
 <p>In diesem Fall können Sie die Breite des Untermenüs (einzeln für jedes Mehrspalten-Menüelement) begrenzen, um ein leeres oder unausgewogenes Aussehen zu vermeiden.</p>
-<p><strong>Beispiel:</strong> Sie können ein Menü mit einer Breite von 700px und zwei Spalten mit jeweils 6/12 erstellen. Auf diese Weise erhalten Sie immer noch ein geräumiges Layout, ohne zu viel Bildschirmfläche zu verschwenden.</p>
+<p><strong>Beispiel:</strong> Sie können ein Menü mit einer Breite von 700px und zwei Spalten von jeweils 6/12 erstellen. Auf diese Weise erhalten Sie immer noch ein geräumiges Layout, ohne zu viel Bildschirmfläche zu verschwenden.</p>
 </details>

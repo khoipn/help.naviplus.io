@@ -1,5 +1,5 @@
 ---
-description: 'Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Faites un clic droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.&'
+description: 'Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Faites un clic droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.'
 lang: fr
 layout: default
 permalink: /fr/docs/usage/grid-menu/publishing-on-shopify/
@@ -9,11 +9,11 @@ title: Publication sur Shopify
 
 ### Étape 2 : (Shopify) Publiez le menu sur votre site web.
 
-#### **I) MÉTHODE 1 : INSÉRER (AVANT OU APRÈS) CE MENU À UN ENDROIT SPÉCIFIQUE SUR VOTRE SITE WEB, OU REMPLACER UN MENU EXISTANT, EN UTILISANT UN SÉLECTEUR CSS. (**&#x52;ECOMMENDÉ)
+#### **I) MÉTHODE 1 : INSÉRER (AVANT OU APRÈS) CE MENU À UN ENDROIT SPÉCIFIQUE DE VOTRE SITE WEB, OU REMPLACER UN MENU EXISTANT, EN UTILISANT UN SÉLECTEUR CSS. (**&#x52;ECOMMENDÉ)
 
 #### I.1. Activez Navi+ sur les intégrations d'applications
 
-Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Faites un clic droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.&#x20;
+Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Faites un clic droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.
 
 Étape 2 : Sélectionnez le thème où vous souhaitez publier le menu.  Cliquez : **Personnaliser**
 
@@ -36,7 +36,7 @@ Après ces 4 étapes, Navi+ a été installé sur votre site web et est prêt à
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Étape 2 : Activez le commutateur "Publier le menu par méthode d'insertion/remplacement".&#x20;
+Étape 2 : Activez le bascule "Publier le menu par méthode d'insertion/remplacement".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
@@ -49,7 +49,7 @@ Dans ce guide, nous nous concentrerons sur 1 façon : insérer ce menu avant le 
 
 <p>Pour ce faire, identifiez simplement le sélecteur CSS de l'en-tête de votre site web et entrez-le dans la zone de texte. Nous avons déjà trouvé les sélecteurs CSS pour certains des thèmes les plus populaires pour vous, listés ci-dessous.</p>
 <ol>
-<li>Sélecteurs CSS pour certains thèmes populaires et gratuits.. de Shopify comme Dawn, Sense, Savor, Horizon..&#x20;</li>
+<li>Sélecteurs CSS pour certains thèmes populaires et gratuits.. de Shopify comme Dawn, Sense, Savor, Horizon..</li>
 </ol>
 <pre class="codehilite"><code>main
 </code></pre>
@@ -59,16 +59,17 @@ Dans ce guide, nous nous concentrerons sur 1 façon : insérer ce menu avant le 
 </ol>
 <pre class="codehilite"><code>- Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée—cela ne prend que quelques minutes pour trouver le sélecteur CSS.
 
-- Ou, vous pouvez suivre le guide d'auto-assistance dans les sujets suivants (juste après ce sujet).
+- Ou, vous pouvez suivre le guide d'auto-assistance dans les sujets suivants (Juste après ce sujet).
 </code></pre>
 </details>
 
-<details><summary>Comment remplacer le menu de grille par défaut?</summary>
-<p>Sur mobile, il n'y a pas de menu de grille à remplacer, donc cette méthode n'est généralement pas réalisable</p>
+<details><summary>Comment remplacer le menu Grid par défaut?</summary>
+<p>Sur mobile, il n'y a pas de menu Grid à remplacer, donc cette méthode n'est généralement pas réalisable</p>
 </details>
 
 <details><summary><strong>Comment trouver le sélecteur CSS sur votre site web?</strong></summary>
-<p>Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée au lieu de le faire vous-même.\ Cependant, (1) cela vous aidera à comprendre l'idée principale, et (2) si vous souhaitez le faire vous-même, suivez les instructions ci-dessous.</p>
+<p>Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée au lieu de le faire vous-même.
+Cependant, (1) cela vous aidera à comprendre l'idée principale, et (2) si vous souhaitez le faire vous-même, suivez les instructions ci-dessous.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -90,7 +91,7 @@ Dans ce guide, nous nous concentrerons sur 1 façon : insérer ce menu avant le 
 
 Cette méthode insère le menu en ajoutant un Bloc/Section dans votre thème Shopify. C'est une approche traditionnelle, donc je ne vais pas la décrire en détail. Avec cette méthode, vous n'avez même pas besoin de **« Activer Navi+ dans les intégrations d'applications »** comme requis à l'étape 1 de la méthode 1.
 
-Copiez l'ID d'intégration de ce menu, puis insérez-le dans le bloc nommé "Navi+ sur Section" dans les sections de thème. Vous pouvez ajouter un titre, configurer la largeur complète et ajuster la marge pour cette section après l'avoir ajoutée.
+Copiez l'ID d'intégration de ce menu, puis insérez-le dans le bloc nommé "Navi+ sur Section" dans les Sections de Thème. Vous pouvez ajouter un titre, configurer la largeur complète et ajuster la marge pour cette section après l'avoir ajoutée.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 

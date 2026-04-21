@@ -48,7 +48,7 @@
     url: /docs/usage/tabbar-bottom-navigation/
   - children:
     - processed_path: usage/mega-menu-desktop/how-to-use
-      title: Come usare?
+      title: Come si usa?
       url: /docs/usage/mega-menu-desktop/how-to-use/
     - processed_path: usage/mega-menu-desktop/publishing-on-shopify
       title: Pubblicazione su Shopify
@@ -106,7 +106,7 @@
     url: /docs/usage/fab-floating-menu-quick-access/
   - children:
     - processed_path: usage/grid-menu/how-to-use
-      title: Come usare?
+      title: Come si usa?
       url: /docs/usage/grid-menu/how-to-use/
     - processed_path: usage/grid-menu/responsive-grid-menu
       title: Menu a Griglia Responsivo
@@ -234,7 +234,7 @@
     title: Perché i pannelli Menu, Ricerca, Carrello non funzionano?
     url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
   - processed_path: frequently-asked-questions/why-navi-not-display
-    title: Perché il menu Navi+ non è visualizzato sul mio sito web?
+    title: Perché il menu Navi+ non viene visualizzato sul mio sito web?
     url: /docs/frequently-asked-questions/why-navi-not-display/
   processed_path: frequently-asked-questions
   title: Domande Frequenti

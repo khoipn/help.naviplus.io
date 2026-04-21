@@ -1,17 +1,17 @@
 # Z-index
 
-This is a common issue but very easy to handle when using Navi+. Your website may have many floating elements—see the examples below to recognize them.&#x20;
+This is a common issue but very easy to handle when using Navi+. Your website may have many floating elements—see the examples below to recognize them.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FL6naWQmaqD1bKTtzaALP%2FHelp.MenuTree.1.3.1b.png?alt=media&#x26;token=0e7dad3b-0395-4f66-9589-2562175e8800" alt=""><figcaption><p>Note: These are the current z-index setups on the Dawn theme (Shopify’s most popular free default theme) at this time.</p></figcaption></figure>
 
 These floating elements are controlled by their own **z-index values**. The higher the z-index, the more priority that element has in being displayed above others. The tricky part is that there are no fixed rules for z-index values. You can assign any number up to 2,147,483,647. Each theme you use and every app running on your Shopify store can assign their own z-index to floating components—usually based on the developer’s preference. When these elements interact on your website, they may overlap in unintended ways.
 
 {% hint style="info" %}
-Let’s have a little fun :joy:: Take a closer look at the screenshot above and you’ll see—yes, it’s a mess, and there are absolutely **no rules**. There are three developers behind the website you're looking at.&#x20;
+Let’s have a little fun :joy:: Take a closer look at the screenshot above and you’ll see—yes, it’s a mess, and there are absolutely **no rules**. There are three developers behind the website you're looking at.
 
-The developer who built the Dawn theme chose a z-index of 3 for the Menu Panel and 1000 for the Cart Panel—completely unrelated, with no clear logic.&#x20;
+The developer who built the Dawn theme chose a z-index of 3 for the Menu Panel and 1000 for the Cart Panel—completely unrelated, with no clear logic.
 
-Then there’s the developer of the Rivo Loyalty Rewards app—a popular loyalty tool—who picked a z-index of 99999999999, probably without even counting how many nines they typed. Their only goal: make sure the floating “Rewards” button always stays on top, no matter what, even above your Cart Panel.&#x20;
+Then there’s the developer of the Rivo Loyalty Rewards app—a popular loyalty tool—who picked a z-index of 99999999999, probably without even counting how many nines they typed. Their only goal: make sure the floating “Rewards” button always stays on top, no matter what, even above your Cart Panel.
 
 Meanwhile, the Navi+ developer humbly picked a smaller number—just 5—because we didn’t want to be too aggressive or intrusive. So, what should you do?
 {% endhint %}

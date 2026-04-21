@@ -1,5 +1,5 @@
 ---
-description: This is not a website for any specific client. We created it using the Shopify Basic plan with the default Dawn theme and some very basic test data. On this ...
+description: Experience Navi+ in action on a real store — no setup required. Our live demo lets you explore all menu types across mobile, tablet, and desktop layouts.
 lang: vi
 layout: default
 permalink: /vi/docs/demo/1click-live-demo/
@@ -7,35 +7,19 @@ title: 1Click live demo
 ---
 # 1Click live demo
 
-This is not a website for any specific client. We created it using the Shopify Basic plan with the default Dawn theme and some very basic test data. On this website, we added various menus for both desktop and mobile to help you visualize the impact of Navi+ on your website.
+Experience Navi+ in action on a real store — no setup required. Our live demo lets you explore all menu types across mobile, tablet, and desktop layouts.
 
-### 1. Mobile:&#x20;
+Visit the demo at [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io")
 
-<figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_mobile.gif" alt="small-1-3"><figcaption></figcaption></figure>
+### What you can explore
 
-Open [akayakay.myshopify.com](https://akayakay.myshopify.com/ "akayakay.myshopify.com") on your phone \| Password: **12345** Or scan the QR bellow
+Use the device switcher (Mobile / Tablet / Desktop) and the site selector to preview different store configurations with:
 
-<div align="left"><figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FvIgD9uG5dmT4vVN0l3AK%2Fimage.png?alt=media&#x26;token=a594374c-eeaa-4f6a-8f77-2807c59f3e92" alt="fix-200" width="225"><figcaption></figcaption></figure></div>
+* **Tab Bar** — fixed bottom navigation bar for mobile
+* **Mega Menu** — rich dropdown with columns, images, and links (desktop)
+* **Slide Menu** — sliding panel with multi-level navigation
+* **Sticky Navbar** — navigation bar that sticks when scrolling
+* **FAB / Floating Menu** — floating button for quick access (WhatsApp, chat & more)
+* **Grid Menu** — image grid for showcasing main categories
 
-On mobile, you will have:
-
-* Bottom bar: Located at the very bottom of the website. (Work for both mobile and desktop)
-* Hamburger menu: A comprehensive, unlimited expandable menu that can hold your entire main menu. (Work for both mobile and desktop)
-* Header menu: Just below the header, enhancing navigation for the simple default header.
-* Grid menu: Showcasing the website's main categories.
-* Right bar menu: For support and sharing. (Work for both mobile and desktop)
-* Float button: For support with various free tools (WhatsApp, chat & more). (Work for both mobile and desktop)
-
-### 2. Desktop
-
-Click here to test: [akayakay.myshopify.com](https://akayakay.myshopify.com/ "akayakay.myshopify.com") \| Password: **12345**<br>
-
-<figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_desktop.gif" alt=""><figcaption></figcaption></figure>
-
-On desktop, you will have:
-
-* Bottom bar: Located at the very bottom of the website. (Work for both mobile and desktop)
-* Hamburger menu: A comprehensive, unlimited expandable menu that can hold your entire main menu. (Work for both mobile and desktop)
-* Header menu: Just below the header, enhancing navigation for the simple default header.
-* Right bar menu: For support and sharing. (Work for both mobile and desktop)
-* Float button: For support with various free tools (WhatsApp, chat & more). (Work for both mobile and desktop)
+Visit [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") on any device, or scan the QR code on the demo page to open it on your phone.

@@ -11,7 +11,7 @@ title: Shopifyでの公開
 
 #### 2.1. アプリ埋め込みでNavi+をオンにする
 
-ステップ1: オンラインストアをクリックし、次にテーマをクリックします。ヒント: オンラインストアを右クリックして「新しいタブでリンクを開く」を選択すると、時間を節約できます。&#x20;
+ステップ1: オンラインストアをクリックし、次にテーマをクリックします。ヒント: オンラインストアを右クリックして「新しいタブでリンクを開く」を選択すると、時間を節約できます。
 
 ステップ2: メニューを公開したいテーマを選択します。  クリック: **カスタマイズ**
 
@@ -34,6 +34,6 @@ title: Shopifyでの公開
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-ステップ2: 表示設定を選択し、メニューを公開します。&#x20;
+ステップ2: 表示設定を選択し、次にメニューを公開します。
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Ft10CP8LGGGIBDaN6I5lF%2FHelp.MenuTree.1.2.2-tabbar.png?alt=media&#x26;token=2c6c7418-0df0-4426-8b13-8ba187dc9fb8" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FytLn61LOvxrMtSSUsjEu%2FHelp.MenuTree.1.2.2-tabbar.png?alt=media&#x26;token=30371944-343f-4a0b-a4bf-70176ba832de" alt=""><figcaption></figcaption></figure>

@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "colorator".freeze
-  s.version = "1.1.0".freeze
+  s.version = "1.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
@@ -15,12 +15,12 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/octopress/colorator".freeze
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--charset=UTF-8".freeze]
-  s.rubygems_version = "2.5.1".freeze
+  s.rubygems_version = "3.4.10".freeze
   s.summary = "Colorize your text in the terminal.".freeze
 
-  s.installed_by_version = "3.7.1".freeze
+  s.installed_by_version = "3.4.10" if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 
-  s.add_development_dependency(%q<rspec>.freeze, ["~> 3.1".freeze])
+  s.add_development_dependency(%q<rspec>.freeze, ["~> 3.1"])
 end

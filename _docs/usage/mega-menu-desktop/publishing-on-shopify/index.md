@@ -1,5 +1,5 @@
 ---
-description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.&'
+description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.'
 layout: default
 permalink: /docs/usage/mega-menu-desktop/publishing-on-shopify/
 title: Publishing on Shopify
@@ -12,7 +12,7 @@ title: Publishing on Shopify
 
 #### I.1. Turn on Navi+ on App Embeds
 
-Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.&#x20;
+Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.
 
 Step 2: Select the theme where you want to publish the menu.  Click: **Customize**
 
@@ -35,7 +35,7 @@ Step 1: Click the **Publish to website** button.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Step 2: Turn on toggle "Publish menu by Insert/Replace method".&#x20;
+Step 2: Turn on toggle "Publish menu by Insert/Replace method".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
@@ -108,7 +108,7 @@ When you replace one menu with another, Navi+ waits until the old menu is displa
 With this step, you can completely hide the old menu and show a loading effect instead. This makes the website feel faster and improves the user experience.
 
 <details><summary>Navi+ provides a simple solution to optimize the user experience and speed as follows steps</summary>
-<h4>Why do you need to do this? Isn’t Navi+ already fast?</h4>
+<p><strong>Why do you need to do this? Isn’t Navi+ already fast?</strong></p>
 <p>Navi+ is very fast. It is fully deployed on a leading CDN with very low latency (around 100ms) and can serve millions of customers without slowing down.</p>
 <p>However, Navi+ still runs within the Shopify ecosystem. Shopify has its own loading rules:</p>
 <ol>
@@ -118,7 +118,7 @@ With this step, you can completely hide the old menu and show a loading effect i
 </ol>
 <p>This means if you are using multiple apps, Navi+ may sometimes be loaded later than expected. That’s why it can feel slower in certain cases.</p>
 <hr />
-<h3>What is my solution?</h3>
+<h4>What is my solution?</h4>
 <p>Currently, Navi+ has high priority when loading on Shopify websites. However, there is still a certain delay. We will address these issues one by one here:</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fk4HYuop9Aq2GRnk4OEWT%2F2.1.png?alt=media&#x26;token=ddeb17b5-23d7-4870-b9ac-fb95b6e250b7" alt=""><figcaption></figcaption></figure>
 

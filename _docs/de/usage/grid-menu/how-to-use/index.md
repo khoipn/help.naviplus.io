@@ -20,7 +20,7 @@ Mobile Grid-Menüs nehmen Platz auf dem Bildschirm ein, da sie auf dem Bildschir
 **FAQ:**
 
 <details><summary><strong>1. Ich habe mich noch nicht entschieden, ob ich die kostenlose oder die kostenpflichtige Version verwenden soll. Kann ich die professionellen Menüvorlagen ausprobieren?</strong></summary>
-<p>Absolut! Die Menügruppen sollen hauptsächlich Anfängern helfen, sich nicht von fortgeschrittenen Funktionen in Navi+ überwältigt zu fühlen 😄. Der beste Weg ist, die professionellen Menüs auszuprobieren, um alle Funktionen und Layout-Optionen zu erkunden. Später können Sie einfach jedes Menü löschen, das Sie nicht benötigen oder als ungeeignet empfinden.</p>
+<p>Absolut! Die Menügruppen sollen hauptsächlich Anfängern helfen, sich nicht von den erweiterten Funktionen in Navi+ überwältigt zu fühlen 😄. Der beste Weg ist, die professionellen Menüs auszuprobieren, um alle Funktionen und Layout-Optionen zu erkunden. Später können Sie einfach jedes Menü löschen, das Sie nicht benötigen oder als ungeeignet empfinden.</p>
 </details>
 
 <details><summary><strong>2. Wird das Erstellen eines Menüs hier dazu führen, dass es sofort auf meiner Website angezeigt wird?</strong></summary>
@@ -56,7 +56,7 @@ Dies ist ein 1-stufiger Menübaum. Grid-Menüs unterstützen keine mehreren Men�
 
 Sie werden die meiste Zeit damit verbringen, diesen Menübaum für Ihre Website zu erstellen, um den Kunden zu helfen, die Inhalte zu finden, die sie suchen.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkeOMBYNpAOjrcWmKMGt%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=4d5e87b7-39d5-4869-9215-fcdfeb02ff63" alt="Katalog: Ein Level 1-Menüelement, das als Tab in der Tabbar angezeigt wird. All-Mountain: Level 2-Menüelement, das erscheint, wenn Sie auf Katalog tippen."><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkeOMBYNpAOjrcWmKMGt%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=4d5e87b7-39d5-4869-9215-fcdfeb02ff63" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
 #### 1.2. Grundlegende Interaktionen mit dem Menübaum
 
@@ -72,9 +72,9 @@ Wenn Sie mit der Maus über ein Menüelement fahren, sehen Sie zusätzliche Opti
 
 #### 1.3. WICHTIG! Löschen Sie die Beispielmenüelemente und behalten Sie nur die Struktur, die Sie möchten.
 
-Dies ist eine häufige Situation beim Erstellen eines Menüs mit Navi+. Wenn Sie ein neues Menü erstellen, fügen wir ein vollständiges Beispiel mit beliebten Menüelementen hinzu, um Layout-Ideen zu zeigen und Ihnen das Kopieren/Einfügen nach Bedarf zu ermöglichen. Wenn Sie jedoch neu bei Navi+ sind und den Starter-Plan verwenden, sehen Sie viele rote (i) Warnungen für Funktionen, die nicht verfügbar sind, wie das Hochladen von Bildern oder die Verwendung fortgeschrittener Interaktionen.
+Dies ist eine häufige Situation beim Erstellen eines Menüs mit Navi+. Wenn Sie ein neues Menü erstellen, fügen wir ein vollständiges Beispiel mit beliebten Menüelementen hinzu, um Layout-Ideen zu zeigen und Ihnen das Kopieren/Einfugen nach Bedarf zu ermöglichen. Wenn Sie jedoch neu bei Navi+ sind und den Starter-Plan verwenden, sehen Sie viele rote (i) Warnungen für Funktionen, die nicht verfügbar sind, wie das Hochladen von Bildern oder die Verwendung erweiterter Interaktionen.
 
-Wenn Sie diese fortgeschrittenen Funktionen mögen, sollten Sie ein Upgrade auf einen Business- oder Elite-Plan in Betracht ziehen. Wenn Sie jedoch mit dem Starter-Plan fortfahren möchten, suchen und löschen Sie bitte die Menüelemente mit roten (i) Warnungen.
+Wenn Sie diese erweiterten Funktionen mögen, sollten Sie ein Upgrade auf einen Business- oder Elite-Plan in Betracht ziehen. Wenn Sie jedoch mit dem Starter-Plan fortfahren möchten, suchen und löschen Sie bitte die Menüelemente mit roten (i) Warnungen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F6lDZMlCZezUMlORppuh7%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=eb973b63-27d9-496e-bacd-cf2db1d5e4a9" alt=""><figcaption></figcaption></figure>
 

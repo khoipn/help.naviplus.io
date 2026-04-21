@@ -1,5 +1,5 @@
 ---
-description: 'Passo 1: Fai clic su Negozio Online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio Online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.&'
+description: 'Passo 1: Fai clic su Negozio Online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio Online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.'
 lang: it
 layout: default
 permalink: /it/docs/usage/mega-menu-mobile/publishing-on-shopify/
@@ -13,7 +13,7 @@ title: Pubblicazione su Shopify
 
 #### I.1. Attiva Navi+ su App Embeds
 
-Passo 1: Fai clic su Negozio Online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio Online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.&#x20;
+Passo 1: Fai clic su Negozio Online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio Online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.
 
 Passo 2: Seleziona il tema in cui desideri pubblicare il menu.  Fai clic: **Personalizza**
 
@@ -36,18 +36,18 @@ Passo 1: Fai clic sul pulsante **Pubblica sul sito web**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Passo 2: Attiva l'interruttore "Pubblica menu con il metodo Inserisci/Sostituisci".&#x20;
+Passo 2: Attiva l'interruttore "Pubblica menu con il metodo Inserisci/Sostituisci".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
-Passo 3: Seleziona il corretto Selettore CSS e metodo di sostituzione/inserimento
+Passo 3: Seleziona il corretto Selettore CSS e il metodo di sostituzione/inserimento
 
 In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intestazione o sostituire il Mega Menu predefinito. Puoi anche utilizzare questo metodo in modo creativo trovando e applicando altri selettori CSS per attivare il menu.
 
 <details><summary>Come inserire questo menu sotto l'intestazione del sito web<strong>?</strong></summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fxnqh5jYfeS6e8oOaI0Hv%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=0fa38175-6024-401d-9f9e-6adf3b64ad7b" alt=""><figcaption></figcaption></figure>
 
-<p>Per farlo, identifica semplicemente il selettore CSS dell'intestazione del tuo sito web e inseriscilo nella casella di testo. Abbiamo già trovato i selettori CSS per alcuni dei temi più popolari per te, elencati di seguito.</p>
+<p>Per fare ciò, identifica semplicemente il selettore CSS dell'intestazione del tuo sito web e inseriscilo nella casella di testo. Abbiamo già trovato i selettori CSS per alcuni dei temi più popolari per te, elencati di seguito.</p>
 <ol>
 <li>Selettori CSS per alcuni temi popolari e gratuiti.. da Shopify come Dawn, Sense, Savor, Horizon..</li>
 </ol>
@@ -68,7 +68,8 @@ In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intest
 </details>
 
 <details><summary><strong>Come trovare il selettore CSS sul tuo sito web?</strong></summary>
-<p>Puoi chattare con un sostenitore di Navi+ per ricevere assistenza immediata invece di farlo da solo.\ Tuttavia, (1) questo ti aiuterà a capire l'idea principale, e (2) se vuoi farlo da solo, segui le istruzioni qui sotto.</p>
+<p>Puoi chattare con un sostenitore di Navi+ per ricevere assistenza immediata invece di farlo da solo.\
+Tuttavia, (1) questo ti aiuterà a comprendere l'idea principale, e (2) se vuoi farlo da solo, segui le istruzioni qui sotto.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -90,7 +91,7 @@ In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intest
 
 Questo metodo inserisce il menu aggiungendo un Blocco/Sezione nel tuo tema Shopify. È un approccio tradizionale, quindi non lo descriverò in dettaglio. Con questo metodo, non è nemmeno necessario **“Attivare Navi+ in App Embeds”** come richiesto nel Passo 1 del Metodo 1.
 
-Copia l'ID di incorporamento di questo menu, quindi inseriscilo nel blocco denominato "Navi+ su Sezione" nelle Sezioni del Tema. Puoi aggiungere un titolo, impostare la larghezza completa e regolare il margine per questa sezione dopo averla aggiunta.
+Copia l'ID di incorporamento di questo menu, quindi inseriscilo nel blocco chiamato "Navi+ su Sezione" nelle Sezioni del Tema. Puoi aggiungere un titolo, impostare la larghezza completa e regolare il margine per questa sezione dopo averla aggiunta.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 

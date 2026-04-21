@@ -77,7 +77,7 @@
     url: /docs/usage/mega-menu-mobile/
   - children:
     - processed_path: usage/slide-menu-hamburger-menu/how-to-use
-      title: Wie benutzt man?
+      title: Wie man es benutzt?
       url: /docs/usage/slide-menu-hamburger-menu/how-to-use/
     - processed_path: usage/slide-menu-hamburger-menu/publishing-examples
       title: Veröffentlichungsbeispiele

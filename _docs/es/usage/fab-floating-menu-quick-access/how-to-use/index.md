@@ -11,9 +11,9 @@ Un **FAB (Floating Action Button)** es un menú simple que siempre flota en la p
 
 **Beneficios Clave:**
 
-* Simple, generalmente utilizado para soporte.&#x20;
+* Simple, generalmente utilizado para soporte.
 * Puede ser utilizado para agrupar botones flotantes de otras aplicaciones o para activar un Slide Menu.
-* Coloca enlaces importantes al alcance para un acceso rápido y conveniente
+* Coloca enlaces importantes al alcance para un acceso rápido y conveniente.
 * Centraliza la navegación clave, ayudando a los usuarios y motores de búsqueda a entender mejor tu sitio – excelente para SEO
 
 **FAQ:**
@@ -27,18 +27,18 @@ Un **FAB (Floating Action Button)** es un menú simple que siempre flota en la p
 </details>
 
 <details><summary><strong>3. ¿Qué pasa si elijo la plantilla incorrecta o cometo un error?</strong></summary>
-<p>No hay problema en absoluto. Puedes eliminarlo y crear uno nuevo en cualquier momento. Si estás probando un menú y quieres intentar otra plantilla, puedes <strong>guardar</strong> la actual como un archivo de respaldo y volver a abrirlo más tarde. Puedes incluso <strong>copiar y pegar</strong> partes entre menús (abriendo dos pestañas del navegador) para mantener tu trabajo anterior. ¡Siéntete libre de experimentar!</p>
+<p>No hay problema en absoluto. Puedes eliminarlo y crear uno nuevo en cualquier momento. Si estás probando un menú y quieres intentar otra plantilla, puedes <strong>guardar</strong> la actual como un archivo de respaldo y volver a abrirlo más tarde. Incluso puedes <strong>copiar y pegar</strong> partes entre menús (abriendo dos pestañas del navegador) para mantener tu trabajo anterior. ¡Siéntete libre de experimentar!</p>
 </details>
 
 <details><summary><strong>4. ¿Debería crear solo un menú o múltiples?</strong></summary>
-<p>Deberías crear <strong>múltiples menús</strong>. Solo el menú <strong>activo</strong> se mostrará en tu sitio, pero puedes preparar muchas versiones — seleccionando diferentes plantillas o clonando menús. Los menús pueden configurarse para mostrar/ocultar según el tipo de página (inicio, producto, colección...), dispositivo (móvil o de escritorio), o palabras clave de URL. ¡Así que adelante y construye menús que se adapten a cada situación!</p>
+<p>Deberías crear <strong>múltiples menús</strong>. Solo el menú <strong>activo</strong> se mostrará en tu sitio, pero puedes preparar muchas versiones — seleccionando diferentes plantillas o clonando menús. Los menús pueden configurarse para mostrar/ocultar según el tipo de página (inicio, producto, colección...), dispositivo (móvil o escritorio), o palabras clave de URL. ¡Así que adelante y construye menús que se ajusten a cada situación!</p>
 </details>
 
 ### Paso 1: Editar el árbol de menú
 
 #### 1.1. Entendiendo el Árbol de Menú
 
-El **árbol de menú** es la parte más importante de cualquier menú—define la estructura.
+El **árbol de menú** es la parte más importante de cualquier menú: define la estructura.
 
 Aquí hay un ejemplo de un árbol de menú:
 
@@ -53,7 +53,7 @@ Soporte
 
 ```
 
-Este es un árbol de menú de 2 niveles. Puedes crear hasta 3 niveles en un FAB dependiendo de tu creatividad; sin embargo, para simplificar, 2 niveles son generalmente la opción óptima.
+Este es un árbol de menú de 2 niveles. Puedes crear hasta 3 niveles en un FAB dependiendo de tu creatividad; sin embargo, para simplicidad, 2 niveles son generalmente la opción óptima.
 
 Pasarás la mayor parte de tu tiempo construyendo este árbol de menú para tu sitio web, ayudando a los clientes a encontrar el contenido que están buscando.
 
@@ -65,7 +65,7 @@ Puedes arrastrar y soltar elementos del menú hacia arriba y hacia abajo o de iz
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FOjwwfWQFThvk6rmLU8D7%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=98bdcda6-25c8-4793-8936-fb7d594d2b43" alt=""><figcaption></figcaption></figure>
 
-Cuando pases el cursor sobre cualquier elemento del menú, verás opciones adicionales: editar los detalles del elemento, eliminarlo del árbol de menú, o copiar y pegarlo en otro lugar.
+Cuando pases el cursor sobre cualquier elemento del menú, verás opciones adicionales: editar los detalles del elemento, eliminarlo del árbol de menú, o copiar y pegar en otro lugar.
 
 {% comment %}hint style="info" {% endcomment %}
 **Consejo:** Puedes copiar un elemento del menú de un menú a otro abriendo la aplicación Navi+ en dos pestañas del navegador.
@@ -103,11 +103,11 @@ Para agregar un elemento de menú, tienes dos opciones:
 
 #### 2.1. Activar Navi+ en Integraciones de Aplicaciones
 
-Paso 1: Haz clic en Tienda en Línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en Línea y selecciona “Abrir enlace en nueva pestaña” para ahorrar tiempo.&#x20;
+Paso 1: Haz clic en Tienda en Línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en Línea y selecciona “Abrir enlace en nueva pestaña” para ahorrar tiempo.
 
 Paso 2: Selecciona el tema donde deseas publicar el menú.  Haz clic en: **Personalizar**
 
-* Si tu sitio web es nuevo y aún no tiene usuarios, siéntete libre de publicar el menú sin preocupaciones—puedes activarlo o desactivarlo fácilmente en cualquier momento sin afectar a los visitantes.
+* Si tu sitio web es nuevo y aún no tiene usuarios, siéntete libre de publicar el menú sin preocupaciones: puedes activarlo o desactivarlo fácilmente en cualquier momento sin afectar a los visitantes.
 * Si tu sitio web ya tiene tráfico regular, ten más cuidado. La mejor práctica es crear un **Tema duplicado** y probar Navi+ en esa versión primero.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
@@ -126,6 +126,6 @@ Paso 1: Haz clic en el botón **Publicar en el sitio web**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Paso 2: Elige configuraciones de visualización y luego PUBLICA EL MENÚ.&#x20;
+Paso 2: Elige configuraciones de visualización y luego PUBLICA EL MENÚ.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>

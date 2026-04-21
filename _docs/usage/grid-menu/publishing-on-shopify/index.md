@@ -1,5 +1,5 @@
 ---
-description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.&'
+description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.'
 layout: default
 permalink: /docs/usage/grid-menu/publishing-on-shopify/
 title: Publishing on Shopify
@@ -12,7 +12,7 @@ title: Publishing on Shopify
 
 #### I.1. Turn on Navi+ on App Embeds
 
-Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.&#x20;
+Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.
 
 Step 2: Select the theme where you want to publish the menu.  Click: **Customize**
 
@@ -35,7 +35,7 @@ Step 1: Click the **Publish to website** button.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Step 2: Turn on toggle "Publish menu by Insert/Replace method".&#x20;
+Step 2: Turn on toggle "Publish menu by Insert/Replace method".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
@@ -48,7 +48,7 @@ In this guide, we’ll focus on 1 ways: inserting this menu before the main. You
 
 <p>To do this, simply identify the CSS selector of your website’s header enter it into the textbox. We’ve already found the CSS selectors for some of the most popular themes for you, listed below.</p>
 <ol>
-<li>CSS selectors for some popular, free themes.. from Shopify as Dawn, Sense, Savor, Horizon..&#x20;</li>
+<li>CSS selectors for some popular, free themes.. from Shopify as Dawn, Sense, Savor, Horizon..</li>
 </ol>
 <pre class="codehilite"><code>main
 </code></pre>

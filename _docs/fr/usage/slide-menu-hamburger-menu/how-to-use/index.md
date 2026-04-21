@@ -11,7 +11,7 @@ title: Comment utiliser?
 
 **Avantages clés :**
 
-* Remplace entièrement le menu par défaut simple de Shopify
+* Remplace entièrement le menu simple par défaut de Shopify
 * Offre plusieurs styles de présentation avec **images**, **grilles**, et **mises en page multi-niveaux** pour une expérience riche et professionnelle
 * Fonctionne sans problème sur mobile et bureau pour une expérience cohérente
 
@@ -44,7 +44,7 @@ Voici un exemple d'un arbre de menu de Slide menu :
 ```
 Slide banner  
 Deal of the Day
-Catalog 
+Catalog  
 All Mountain  
    - Cruise Flex  
    - Balance Ride
@@ -60,9 +60,9 @@ More...
 
 C'est un arbre de menu à 3 niveaux. Le niveau 1 comprend **Slide banner**, **Deal of the Day**, 
 [**Catalog + All-Mountain + Freestyle + Other products], Blogs** et **More..**. 
-Catalog agira comme un nom de groupe. **All-Mountain** est également un élément de menu de niveau 1, avec trois sous-menus de niveau 2 : **Cruise Flex,** **Balance Ride** et **Other all-mountain.**&#x20;
+Catalog agira comme un nom de groupe. **All-Mountain** est également un élément de menu de niveau 1, avec trois sous-menus de niveau 2 : **Cruise Flex,** **Balance Ride** et **Other all-mountain.**
 
-Vous passerez la plupart de votre temps à construire cet arbre de menu pour votre site Web, aidant les clients à trouver le contenu qu'ils recherchent.&#x20;
+Vous passerez la plupart de votre temps à construire cet arbre de menu pour votre site web, aidant les clients à trouver le contenu qu'ils recherchent.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
@@ -91,7 +91,7 @@ Si vous aimez ces fonctionnalités avancées, envisagez de passer à un plan Bus
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
-**Astuce importante :** Lorsque la confirmation de suppression apparaît, activez « Ne plus demander la prochaine fois » pour supprimer plus rapidement.
+**Astuce importante :** Lorsque la confirmation de suppression apparaît, activez « Ne pas demander à nouveau la prochaine fois » pour supprimer plus rapidement.
 {% comment %}endhint{% endcomment %}
 
 #### 1.4. Ajouter des éléments de menu à l'arbre du menu

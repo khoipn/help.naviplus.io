@@ -1,5 +1,5 @@
 ---
-description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.&'
+description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.'
 layout: default
 permalink: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
 title: Publishing on Shopify
@@ -10,7 +10,7 @@ title: Publishing on Shopify
 
 #### 2.1. Turn on Navi+ on App Embeds
 
-Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.&#x20;
+Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.
 
 Step 2: Select the theme where you want to publish the menu.  Click: **Customize**
 
@@ -33,11 +33,11 @@ Step 1: Click the **Publish to website** button.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Step 2: Turn on toggle "Publish menu (visible only when opened by the user)".&#x20;
+Step 2: Turn on toggle "Publish menu (visible only when opened by the user)".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FhSDziWrg4Jxr9bZ9jB4j%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=3c39339c-fe75-4653-86e7-411318cf506d" alt=""><figcaption></figcaption></figure>
 
-Step 3: Select display method&#x20;
+Step 3: Select display method
 
 **Method 1: Open this menu from another Navi+ menu item using the syntax open:NaviMenu**
 
@@ -102,7 +102,7 @@ However, (1) this will help you understand the core idea, and (2) if you want to
 It’s not something you need to fix right away, but in the long run it’s important for the slide menu experience created by Navi+. Before Navi+ fully replaces the old slide menu, the theme’s original menu is still active. For a brief moment—about half a second—if a user loads the menu and quickly taps the hamburger button (a rare case, but still possible), the old theme menu may appear and cause a visual glitch.
 
 <details><summary>Navi+ provides a simple solution to optimize the user experience and speed as follows steps</summary>
-<h4>Why do you need to do this? Isn’t Navi+ already fast?</h4>
+<p><strong>Why do you need to do this? Isn’t Navi+ already fast?</strong></p>
 <p>Navi+ is very fast. It is fully deployed on a leading CDN with very low latency (around 100ms) and can serve millions of customers without slowing down.</p>
 <p>However, Navi+ still runs within the Shopify ecosystem. Shopify has its own loading rules:</p>
 <ol>
@@ -112,9 +112,9 @@ It’s not something you need to fix right away, but in the long run it’s impo
 </ol>
 <p>This means if you are using multiple apps, Navi+ may sometimes be loaded later than expected. That’s why it can feel slower in certain cases.</p>
 <hr />
-<h3>What is my solution?</h3>
+<h4>What is my solution?</h4>
 <p>Currently, Navi+ has high priority when loading on Shopify websites. However, there is still a certain delay. We will address these issues one by one here:</p>
-<h4>Slide Menu: Add a loading effect and lock the trigger selector</h4>
+<p><strong>Slide Menu: Add a loading effect and lock the trigger selector</strong></p>
 <p>Very simple: just enter the CSS selector you use for the Slide Menu into the embed section of the Navi+ app (see image below).</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>
 

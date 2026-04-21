@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "ffi".freeze
-  s.version = "1.17.3".freeze
+  s.version = "1.17.3"
   s.platform = "arm64-darwin".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.licenses = ["BSD-3-Clause".freeze]
   s.rdoc_options = ["--exclude=ext/ffi_c/.*\\.o$".freeze, "--exclude=ffi_c\\.(bundle|so)$".freeze]
   s.required_ruby_version = Gem::Requirement.new([">= 3.0".freeze, "< 4.1.dev".freeze])
-  s.rubygems_version = "4.0.3".freeze
+  s.rubygems_version = "3.4.10".freeze
   s.summary = "Ruby FFI".freeze
 
-  s.installed_by_version = "3.7.1".freeze
+  s.installed_by_version = "3.4.10" if s.respond_to? :installed_by_version
 end

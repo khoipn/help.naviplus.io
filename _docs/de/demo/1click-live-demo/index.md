@@ -1,5 +1,5 @@
 ---
-description: Dies ist keine Website für einen bestimmten Kunden. Wir haben sie mit dem Shopify Basic-Plan und dem Standard-Dawn-Theme sowie einigen sehr grundlegenden Testdaten erstellt. Auf dieser ...
+description: Erleben Sie Navi+ in Aktion in einem echten Geschäft – keine Einrichtung erforderlich. Unsere Live-Demo ermöglicht es Ihnen, alle Menütypen auf mobilen, Tablet- und Desktop-Layouts zu erkunden.
 lang: de
 layout: default
 permalink: /de/docs/demo/1click-live-demo/
@@ -7,35 +7,19 @@ title: 1Click live demo
 ---
 # 1Click live demo
 
-Dies ist keine Website für einen bestimmten Kunden. Wir haben sie mit dem Shopify Basic-Plan und dem Standard-Dawn-Theme sowie einigen sehr grundlegenden Testdaten erstellt. Auf dieser Website haben wir verschiedene Menüs für Desktop und Mobil hinzugefügt, um Ihnen zu helfen, die Auswirkungen von Navi+ auf Ihre Website zu visualisieren.
+Erleben Sie Navi+ in Aktion in einem echten Geschäft – keine Einrichtung erforderlich. Unsere Live-Demo ermöglicht es Ihnen, alle Menütypen auf mobilen, Tablet- und Desktop-Layouts zu erkunden.
 
-### 1. Mobile:&#x20;
+Besuchen Sie die Demo unter [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io")
 
-<figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_mobile.gif" alt="small-1-3"><figcaption></figcaption></figure>
+### Was Sie erkunden können
 
-Öffnen Sie [akayakay.myshopify.com](https://akayakay.myshopify.com/ "akayakay.myshopify.com") auf Ihrem Telefon \| Passwort: **12345** Oder scannen Sie den QR-Code unten
+Verwenden Sie den Geräteschalter (Mobil / Tablet / Desktop) und den Standortauswähler, um verschiedene Store-Konfigurationen mit:
 
-<div align="left"><figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FvIgD9uG5dmT4vVN0l3AK%2Fimage.png?alt=media&#x26;token=a594374c-eeaa-4f6a-8f77-2807c59f3e92" alt="fix-200" width="225"><figcaption></figcaption></figure></div>
+* **Tab Bar** — feste untere Navigationsleiste für mobile Geräte
+* **Mega Menu** — reichhaltiges Dropdown mit Spalten, Bildern und Links (Desktop)
+* **Slide Menu** — schiebendes Panel mit mehrstufiger Navigation
+* **Sticky Navbar** — Navigationsleiste, die beim Scrollen haften bleibt
+* **FAB / Floating Menu** — schwebende Schaltfläche für schnellen Zugriff (WhatsApp, Chat & mehr)
+* **Grid Menu** — Bildraster zur Präsentation der Hauptkategorien
 
-Auf Mobilgeräten haben Sie:
-
-* Bottom bar: Befindet sich ganz unten auf der Website. (Funktioniert sowohl für Mobilgeräte als auch für Desktop)
-* Hamburger menu: Ein umfassendes, unbegrenzt erweiterbares Menü, das Ihr gesamtes Hauptmenü aufnehmen kann. (Funktioniert sowohl für Mobilgeräte als auch für Desktop)
-* Header menu: Direkt unter dem Header, verbessert die Navigation für den einfachen Standard-Header.
-* Grid menu: Zeigt die Hauptkategorien der Website an.
-* Right bar menu: Für Unterstützung und Teilen. (Funktioniert sowohl für Mobilgeräte als auch für Desktop)
-* Float button: Für Unterstützung mit verschiedenen kostenlosen Tools (WhatsApp, Chat & mehr). (Funktioniert sowohl für Mobilgeräte als auch für Desktop)
-
-### 2. Desktop
-
-Klicken Sie hier, um zu testen: [akayakay.myshopify.com](https://akayakay.myshopify.com/ "akayakay.myshopify.com") \| Passwort: **12345**<br>
-
-<figure><img src="https://naviplus.b-cdn.net/demo/case-studies/akayakay_desktop.gif" alt=""><figcaption></figcaption></figure>
-
-Auf Desktop haben Sie:
-
-* Bottom bar: Befindet sich ganz unten auf der Website. (Funktioniert sowohl für Mobilgeräte als auch für Desktop)
-* Hamburger menu: Ein umfassendes, unbegrenzt erweiterbares Menü, das Ihr gesamtes Hauptmenü aufnehmen kann. (Funktioniert sowohl für Mobilgeräte als auch für Desktop)
-* Header menu: Direkt unter dem Header, verbessert die Navigation für den einfachen Standard-Header.
-* Right bar menu: Für Unterstützung und Teilen. (Funktioniert sowohl für Mobilgeräte als auch für Desktop)
-* Float button: Für Unterstützung mit verschiedenen kostenlosen Tools (WhatsApp, Chat & mehr). (Funktioniert sowohl für Mobilgeräte als auch für Desktop)
+Besuchen Sie [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") auf jedem Gerät oder scannen Sie den QR-Code auf der Demoseite, um ihn auf Ihrem Telefon zu öffnen.

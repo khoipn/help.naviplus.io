@@ -1,5 +1,5 @@
 current directory: /Users/khoipham/Dev/MDWebsites/help.naviplus.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-4.0.1/ext/bigdecimal
-/opt/homebrew/opt/ruby@3.2/bin/ruby extconf.rb
+/Users/khoipham/.rbenv/versions/3.2.2/bin/ruby extconf.rb
 checking for __builtin_clz()... yes
 checking for __builtin_clzl()... yes
 checking for __builtin_clzll()... yes
@@ -20,18 +20,18 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/khoipham/Dev/MDWebsites/help.naviplus.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-4.0.1/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20260314-47842-aeoxep sitelibdir\=./.gem.20260314-47842-aeoxep clean
+make DESTDIR\= sitearchdir\=./.gem.20260421-95288-68pj68 sitelibdir\=./.gem.20260421-95288-68pj68 clean
 
 current directory: /Users/khoipham/Dev/MDWebsites/help.naviplus.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-4.0.1/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20260314-47842-aeoxep sitelibdir\=./.gem.20260314-47842-aeoxep
+make DESTDIR\= sitearchdir\=./.gem.20260421-95288-68pj68 sitelibdir\=./.gem.20260421-95288-68pj68
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 ld: warning: ignoring duplicate libraries: '-lruby.3.2'
 
 current directory: /Users/khoipham/Dev/MDWebsites/help.naviplus.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-4.0.1/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20260314-47842-aeoxep sitelibdir\=./.gem.20260314-47842-aeoxep install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20260314-47842-aeoxep
+make DESTDIR\= sitearchdir\=./.gem.20260421-95288-68pj68 sitelibdir\=./.gem.20260421-95288-68pj68 install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20260421-95288-68pj68
 
 current directory: /Users/khoipham/Dev/MDWebsites/help.naviplus.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-4.0.1/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20260314-47842-aeoxep sitelibdir\=./.gem.20260314-47842-aeoxep clean
+make DESTDIR\= sitearchdir\=./.gem.20260421-95288-68pj68 sitelibdir\=./.gem.20260421-95288-68pj68 clean

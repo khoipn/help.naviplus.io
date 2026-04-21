@@ -1,5 +1,5 @@
 ---
-description: 'Paso 1: Haz clic en Tienda en línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en línea y selecciona “Abrir enlace en una nueva pestaña” para ahorrar tiempo.&'
+description: 'Paso 1: Haz clic en Tienda en línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en línea y selecciona “Abrir enlace en nueva pestaña” para ahorrar tiempo.'
 lang: es
 layout: default
 permalink: /es/docs/usage/mega-menu-mobile/publishing-on-shopify/
@@ -9,11 +9,11 @@ title: Publicación en Shopify
 
 ### Paso 2: (Shopify) Publica el menú en tu sitio web.
 
-#### **I) MÉTODO 1: INSERTAR (ANTES O DESPUÉS) ESTE MENÚ EN UNA UBICACIÓN ESPECÍFICA EN TU SITIO WEB, O REEMPLAZAR UN MENÚ EXISTENTE, USANDO UN SELECTOR CSS. (**&#x52;ECOMMENDADO)
+#### **I) MÉTODO 1: INSERTAR (ANTES O DESPUÉS) ESTE MENÚ EN UNA UBICACIÓN ESPECÍFICA EN TU SITIO WEB, O REEMPLAZAR UN MENÚ EXISTENTE, USANDO UN SELECTOR CSS. (**&#x52;ECOMMENDED)
 
 #### I.1. Activa Navi+ en Integraciones de aplicaciones
 
-Paso 1: Haz clic en Tienda en línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en línea y selecciona “Abrir enlace en una nueva pestaña” para ahorrar tiempo.&#x20;
+Paso 1: Haz clic en Tienda en línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en línea y selecciona “Abrir enlace en nueva pestaña” para ahorrar tiempo.
 
 Paso 2: Selecciona el tema donde deseas publicar el menú.  Haz clic: **Personalizar**
 
@@ -36,20 +36,20 @@ Paso 1: Haz clic en el botón **Publicar en el sitio web**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Paso 2: Activa el interruptor "Publicar menú por método Insertar/Reemplazar".&#x20;
+Paso 2: Activa el interruptor "Publicar menú por método de Insertar/Reemplazar".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
-Paso 3: Selecciona el selector CSS correcto y método de reemplazo/inserción
+Paso 3: Selecciona el Selector CSS correcto y método de reemplazo/inserción
 
 En esta guía, nos centraremos en 2 formas: insertar este menú debajo del encabezado o reemplazar el Mega Menú predeterminado. También puedes usar este método de manera creativa encontrando y aplicando otros selectores CSS para activar el menú.
 
 <details><summary>¿Cómo insertar este menú debajo del encabezado del sitio web<strong>?</strong></summary>
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FXnqh5jYfeS6e8oOaI0Hv%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=0fa38175-6024-401d-9f9e-6adf3b64ad7b" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fxnqh5jYfeS6e8oOaI0Hv%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=0fa38175-6024-401d-9f9e-6adf3b64ad7b" alt=""><figcaption></figcaption></figure>
 
 <p>Para hacer esto, simplemente identifica el selector CSS del encabezado de tu sitio web e introdúcelo en el cuadro de texto. Ya hemos encontrado los selectores CSS para algunos de los temas más populares para ti, que se enumeran a continuación.</p>
 <ol>
-<li>Selectores CSS para algunos temas populares y gratuitos.. de Shopify como Dawn, Sense, Savor, Horizon..</li>
+<li>selectores CSS para algunos temas populares y gratuitos.. de Shopify como Dawn, Sense, Savor, Horizon..</li>
 </ol>
 <pre class="codehilite"><code>header
 </code></pre>
@@ -68,7 +68,8 @@ En esta guía, nos centraremos en 2 formas: insertar este menú debajo del encab
 </details>
 
 <details><summary><strong>¿Cómo encontrar el selector CSS en tu sitio web?</strong></summary>
-<p>Puedes chatear con un soporte de Navi+ para obtener ayuda instantánea en lugar de hacerlo tú mismo.\ Sin embargo, (1) esto te ayudará a entender la idea principal, y (2) si deseas hacerlo por tu cuenta, sigue las instrucciones a continuación.</p>
+<p>Puedes chatear con un soporte de Navi+ para obtener ayuda instantánea en lugar de hacerlo tú mismo.
+Sin embargo, (1) esto te ayudará a entender la idea principal, y (2) si deseas hacerlo por tu cuenta, sigue las instrucciones a continuación.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -90,13 +91,13 @@ En esta guía, nos centraremos en 2 formas: insertar este menú debajo del encab
 
 Este método inserta el menú añadiendo un Bloque/Sección en tu tema de Shopify. Es un enfoque tradicional, así que no lo describiré en detalle. Con este método, ni siquiera necesitas **“Activar Navi+ en Integraciones de aplicaciones”** como se requiere en el Paso 1 del Método 1.
 
-Copia el ID de inserción de este menú, luego insértalo en el bloque llamado "Navi+ en Sección" en Secciones del tema. Puedes añadir un título, configurar el ancho completo y ajustar el margen para esta sección después de añadirla.
+Copia el ID de inserción de este menú, luego insértalo en el bloque llamado "Navi+ en Sección" en Secciones del tema. Puedes agregar un título, configurar el ancho completo y ajustar el margen para esta sección después de agregarla.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
 <details><summary>Guía para añadir este menú como una sección/bloque en el tema de Shopify</summary>
-<p>A continuación se presenta una guía detallada sobre cómo insertar un menú de Navi+ como una sección/bloque en tu tema de Shopify. Este método te permite añadir el menú de una manera estándar, compatible con Shopify, aunque no es tan flexible como los otros métodos proporcionados por Navi+.</p>
-<p>Este método se aplica a <strong>Menús Mega</strong> y <strong>Menús de cuadrícula</strong>. <strong>NO SE APLICA</strong> a <strong>Tabbar</strong>, <strong>FAB</strong> o <strong>Menús deslizantes</strong>.</p>
+<p>A continuación se presenta una guía detallada sobre cómo insertar un menú de Navi+ como una sección/bloque en tu tema de Shopify. Este método te permite agregar el menú de una manera estándar, compatible con Shopify, aunque no es tan flexible como los otros métodos proporcionados por Navi+.</p>
+<p>Este método se aplica a <strong>Mega Menús</strong> y <strong>Menús de cuadrícula</strong>. <strong>NO SE APLICA</strong> a <strong>Tabbar</strong>, <strong>FAB</strong> o <strong>Menús deslizantes</strong>.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>

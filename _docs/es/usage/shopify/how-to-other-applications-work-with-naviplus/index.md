@@ -31,7 +31,7 @@ El padding y el margen son herramientas ampliamente utilizadas y poderosas en te
 
 ### Solución 3: Reemplazar las barras inferiores por barras superiores/barras de soporte o botones de acción flotantes
 
-Aunque la barra inferior es la herramienta más efectiva para guiar a los usuarios, utilizada por casi todas las aplicaciones nativas móviles, o web móvil (más lentas), a veces puedes querer colocar tu menú de Navi+ en una posición diferente, como en la parte superior (barra superior), derecha/izquierda (barra de soporte), flotando sobre la interfaz (botón de acción flotante). O puedes combinarlas para la mejor eficiencia de navegación. Consulta las siguientes opciones de Navi+ para entender cómo hacerlo, a veces solo toma 1 segundo, y resolverás tu problema.
+Aunque la barra inferior es la herramienta más efectiva para guiar a los usuarios, utilizada por casi todas las aplicaciones nativas móviles, o web móvil (más lenta), a veces puedes querer colocar tu menú de Navi+ en una posición diferente, como en la parte superior (barra superior), derecha/izquierda (barra de soporte), flotando sobre la interfaz (botón de acción flotante). O puedes combinarlas para la mejor eficiencia de navegación. Consulta las siguientes opciones de Navi+ para entender cómo hacerlo, a veces solo toma 1 segundo, y resolverás tu problema.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiCuFsYdJSucFduHw9zJO%2FFrame%207.png?alt=media&#x26;token=1be98c44-27c3-489d-9e6d-87e1a95fafb7" alt=""><figcaption></figcaption></figure>
 
@@ -39,17 +39,17 @@ Aunque la barra inferior es la herramienta más efectiva para guiar a los usuari
 
 ### Z-index - priorizando el orden de visualización de "aplicaciones flotantes"
 
-La propiedad z-index especifica el orden de apilamiento de un elemento. Un elemento con un mayor orden de apilamiento siempre está delante de un elemento con un menor orden de apilamiento. Ver la imagen a continuación para entender más.&#x20;
+La propiedad z-index especifica el orden de apilamiento de un elemento. Un elemento con un mayor orden de apilamiento siempre está delante de un elemento con un orden de apilamiento menor. Ver la imagen a continuación para entender más.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FyMHcqutHWOUtEEYqMDn6%2Fz-index1.png?alt=media&#x26;token=fb6a0100-e337-4115-9212-a8c8d32888ef" alt=""><figcaption></figcaption></figure>
 
-El z-index predeterminado para el menú de Navi+ está configurado en 50 para todos, ya que 'no nos consideramos más importantes que otras aplicaciones', pero 50 también es el número suficiente para mostrarse bien en todos los temas de Shopify. A veces, es posible que necesites ajustar el z-index de tu menú de Navi+ en los siguientes casos:&#x20;
+El z-index predeterminado para el menú de Navi+ está configurado en 50 para todos, ya que 'no nos consideramos más importantes que otras aplicaciones', pero 50 también es el número suficiente para mostrarse bien en todos los temas de Shopify. A veces, es posible que necesites ajustar el z-index de tu menú de Navi+ en los siguientes casos:
 
-1. Cuando usas múltiples menús de Navi+ en una página y deseas que se superpongan, pero un menú aparece por encima de los otros.&#x20;
+1. Cuando usas múltiples menús de Navi+ en una página y deseas que se superpongan, pero un menú aparece por encima de los otros.
 2. Cuando hay otros objetos/aplicaciones superponiéndose a tu menú de Navi+, en cuyo caso, el z-index resolverá todo.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg93TvrzCEEKdFZvdmdbh%2Fz-index2.png?alt=media&#x26;token=1289e3a7-6ea1-44ec-a284-8964ac4b6f35" alt=""><figcaption></figcaption></figure>
 
-Hay una pregunta desafiante: ¿qué z-index deberías configurar para tu menú de Navi+ para evitar superposiciones como deseas? Si tienes múltiples menús de Navi+, puedes organizarlos según tus preferencias sin preocuparte, por eso estamos construyendo Navi+ para que sea lo más versátil posible para las actuales 'aplicaciones flotantes' en Shopify.&#x20;
+Hay una pregunta desafiante: ¿qué z-index deberías configurar para tu menú de Navi+ para evitar superposiciones como deseas? Si tienes múltiples menús de Navi+, puedes organizarlos según tus preferencias sin preocuparte; por eso estamos construyendo Navi+ para que sea lo más versátil posible para las actuales 'aplicaciones flotantes' en Shopify.
 
 Si necesitas configurar el z-index para tu menú de Navi+ para manejar conflictos con otras aplicaciones, puedes buscar tu z-index desde un mínimo de 0 hasta un máximo de 2,147,483,647. Esto puede parecer un poco difícil, pero es la forma más fácil y mejor porque el z-index no afectará la visualización de tu interfaz más allá del problema que estás enfrentando. Si tienes experiencia con la depuración de CSS y HTML, esto es fácil, solo activa el modo de inspección para ver qué z-index tiene la aplicación en conflicto. O, la forma más fácil, simplemente haz clic en el ícono de chat de Crisp para chatear con un asesor de Navi+; estaremos encantados de ayudarte con este problema.

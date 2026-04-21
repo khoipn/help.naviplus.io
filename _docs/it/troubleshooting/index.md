@@ -15,8 +15,8 @@ Clicca sull'icona della chat in basso a destra dello schermo, inviami un messagg
 
 **Khoi Pham**
 
-Fondatore di Navi+ \
-Sito web: [https://naviplus.io](https://naviplus.io/ "https://naviplus.io") \
+Fondatore di Navi+\
+Sito web: [https://naviplus.io](https://naviplus.io/ "https://naviplus.io")\
 Shopify: <https://apps.shopify.com/pronavi-navigation-design>\
 Whats App: +84 981911011\
 Linked in: <https://www.linkedin.com/in/khoi-pham-443218aa/>

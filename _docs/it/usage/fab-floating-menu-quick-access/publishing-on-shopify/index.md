@@ -1,5 +1,5 @@
 ---
-description: 'Passo 1: Fai clic su Negozio online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.&'
+description: 'Passo 1: Fai clic su Negozio Online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio Online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.'
 lang: it
 layout: default
 permalink: /it/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
@@ -11,11 +11,11 @@ title: Pubblicazione su Shopify
 
 #### 2.1. Attiva Navi+ su App Embeds
 
-Passo 1: Fai clic su Negozio online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.&#x20;
+Passo 1: Fai clic su Negozio Online, quindi fai clic su Temi. Suggerimenti: Fai clic con il tasto destro su Negozio Online e seleziona “Apri link in una nuova scheda” per risparmiare tempo.
 
 Passo 2: Seleziona il tema in cui desideri pubblicare il menu.  Fai clic: **Personalizza**
 
-* Se il tuo sito web è nuovo e non ha ancora utenti, sentiti libero di pubblicare il menu senza preoccupazioni: puoi attivarlo o disattivarlo facilmente in qualsiasi momento senza influenzare i visitatori.
+* Se il tuo sito web è nuovo e non ha ancora utenti, sentiti libero di pubblicare il menu senza preoccupazioni: puoi facilmente attivarlo o disattivarlo in qualsiasi momento senza influenzare i visitatori.
 * Se il tuo sito web ha già un traffico regolare, fai più attenzione. La prassi migliore è creare un **Tema duplicato** e testare Navi+ su quella versione prima.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
@@ -34,6 +34,6 @@ Passo 1: Fai clic sul pulsante **Pubblica sul sito web**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Passo 2: Scegli le impostazioni di visualizzazione e poi PUBBLICA IL MENU.&#x20;
+Passo 2: Scegli le impostazioni di visualizzazione e poi PUBBLICA IL MENU.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>

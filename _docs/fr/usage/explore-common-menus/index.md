@@ -13,7 +13,7 @@ Selon le type de votre appareil et l'expérience utilisateur souhaitée, vous po
 
 #### 1. Tab Bar (Bottom Navigation)
 
-Également connu sous le nom de Bottom Navigation Bar, Bottom Nav, ou Tab Navigation - est un style de navigation moderne utilisé par des marques mondiales comme Shein, ASOS, Zara, Etsy, H&amp;M, Nike, et Uniqlo pour améliorer l'expérience utilisateur mobile. Il fonctionne bien pour des sites web de toutes tailles et est efficace sur mobile et desktop.
+Également connu sous le nom de Bottom Navigation Bar, Bottom Nav, ou Tab Navigation - est un style de navigation moderne utilisé par des marques mondiales comme Shein, ASOS, Zara, Etsy, H&amp;M, Nike, et Uniqlo pour améliorer l'expérience utilisateur mobile. Il fonctionne bien pour des sites web de toutes tailles et est efficace à la fois sur mobile et sur desktop.
 
 Apparaît en bas des écrans mobiles, aidant les utilisateurs :
 
@@ -32,7 +32,7 @@ Plateforme : **Desktop et Mobile (Extrêmement populaire)**
 Conçu pour les sites web de bureau, le Mega Menu est parfait lorsque vous souhaitez :
 
 * Afficher plusieurs catégories de produits ou sections de contenu à la fois
-* Organiser des liens en colonnes, groupes, ou mises en page visuelles
+* Organiser des liens en colonnes, groupes ou mises en page visuelles
 * Offrir une expérience de navigation professionnelle et intuitive
 
 Plateforme : **Desktop uniquement**
@@ -45,7 +45,7 @@ Plateforme : **Desktop uniquement**
 
 Une version du mega menu optimisée pour les écrans mobiles — compacte, conviviale pour les pouces, et facile à naviguer.
 
-Vous pouvez personnaliser la façon dont les catégories, icônes, et visuels sont affichés pour garantir la meilleure expérience utilisateur mobile. La plus grande différence entre le Mobile Mega Menu et le Desktop Mega Menu est que sur mobile, vous pouvez avoir jusqu'à 4 éléments de menu, donc vous devez décider lesquels sont les plus importants et doivent être prioritaires.
+Vous pouvez personnaliser la façon dont les catégories, icônes et visuels sont affichés pour garantir la meilleure expérience utilisateur mobile. La plus grande différence entre le Mobile Mega Menu et le Desktop Mega Menu est que sur mobile, vous pouvez avoir jusqu'à 4 éléments de menu, donc vous devez décider lesquels sont les plus importants et doivent être prioritaires.
 
 Plateforme : **Mobile uniquement**
 
@@ -83,13 +83,13 @@ Plateforme : **Desktop (populaire) et Mobile (Extrêmement populaire)**
 
 ***
 
-#### 6. Grid Menu&#x20;
+#### 6. Grid Menu
 
-Le Grid Menu affiche des éléments de navigation dans une mise en page en grille, permettant aux utilisateurs de voir plusieurs catégories à la fois — chacune sous forme de tuile carrée avec une icône ou une image.
+Le Grid Menu affiche les éléments de navigation dans une mise en page en grille, permettant aux utilisateurs de voir plusieurs catégories à la fois — chacune sous forme de tuile carrée avec une icône ou une image.
 
 Ce style fonctionne particulièrement bien pour :
 
-* Pages d'accueil mobiles ou tablettes et sous-menus méga
+* Pages d'accueil mobiles ou tablettes et sous-mega menus
 * Collections de produits avec 6–12 catégories
 * Créer une expérience visuelle propre, semblable à une application
 

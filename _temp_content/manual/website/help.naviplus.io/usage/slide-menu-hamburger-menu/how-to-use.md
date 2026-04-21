@@ -74,9 +74,9 @@ More...
 ```
 
 This is a 3-level menu tree. Level 1 includes **Slide banner**, **Deal of the Day**, \[**Catalog + All-Mountain + Freestyle + Other products], Blogs** and **More..**.\
-Catalog will acts as a group name. **All-Mountain** is also a level-1 menu item, with three level-2 submenus: **Cruise Flex,** **Balance Ride** and **Other all-mountain.**&#x20;
+Catalog will acts as a group name. **All-Mountain** is also a level-1 menu item, with three level-2 submenus: **Cruise Flex,** **Balance Ride** and **Other all-mountain.**
 
-You’ll spend most of your time building this menu tree for your website, helping customers find the content they’re looking for.&#x20;
+You’ll spend most of your time building this menu tree for your website, helping customers find the content they’re looking for.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 

@@ -13,7 +13,7 @@ A seconda del tipo di dispositivo e dell'esperienza utente desiderata, puoi sceg
 
 #### 1. Tab Bar (Bottom Navigation)
 
-Conosciuto anche come Bottom Navigation Bar, Bottom Nav, o Tab Navigation - è uno stile di navigazione moderno utilizzato da marchi globali come Shein, ASOS, Zara, Etsy, H&M, Nike e Uniqlo per migliorare l'esperienza utente mobile. Funziona bene per siti web di tutte le dimensioni ed è efficace sia su mobile che su desktop.
+Conosciuto anche come Bottom Navigation Bar, Bottom Nav o Tab Navigation - è uno stile di navigazione moderno utilizzato da marchi globali come Shein, ASOS, Zara, Etsy, H&amp;M, Nike e Uniqlo per migliorare l'esperienza utente mobile. Funziona bene per siti web di tutte le dimensioni ed è efficace sia su mobile che su desktop.
 
 Appare nella parte inferiore degli schermi mobili, aiutando gli utenti:
 
@@ -45,7 +45,7 @@ Piattaforma: **Solo Desktop**
 
 Una versione del mega menu ottimizzata per schermi mobili — compatta, amichevole per il pollice e facile da navigare.
 
-Puoi personalizzare come vengono mostrati categorie, icone e immagini per garantire la migliore esperienza utente mobile. La principale differenza tra il Mobile Mega Menu e il Desktop Mega Menu è che su mobile puoi avere fino a 4 elementi di menu, quindi devi decidere quali sono i più importanti e dovrebbero essere prioritizzati.
+Puoi personalizzare come vengono mostrati categorie, icone e immagini per garantire la migliore esperienza utente mobile. La differenza principale tra il Mobile Mega Menu e il Desktop Mega Menu è che su mobile puoi avere fino a 4 elementi di menu, quindi devi decidere quali sono i più importanti e dovrebbero essere prioritizzati.
 
 Piattaforma: **Solo Mobile**
 
@@ -59,7 +59,7 @@ Un pannello scorrevole dal lato sinistro o destro dello schermo, spesso utilizza
 
 * Informazioni sull'account, politiche, pagine di supporto
 * Categorie di prodotto meno frequentemente accessibili
-* Link aggiuntivi come “Chi Siamo,” “Contatti,” o “Blog”
+* Link aggiuntivi come “Chi Siamo,” “Contatto,” o “Blog”
 
 Piattaforma: **Desktop (non comune) e Mobile (Estremamente popolare)**
 
@@ -83,13 +83,13 @@ Piattaforma: **Desktop (popolare) e Mobile (Estremamente popolare)**
 
 ***
 
-#### 6. Grid Menu 
+#### 6. Grid Menu
 
 Il Grid Menu visualizza gli elementi di navigazione in un layout a griglia, consentendo agli utenti di visualizzare più categorie contemporaneamente — ciascuna come una piastrella quadrata con un'icona o un'immagine.
 
 Questo stile funziona particolarmente bene per:
 
-* Homepage mobili o tablet e sotto-mega menu
+* Homepage e sotto-mega menu per mobile o tablet
 * Collezioni di prodotti con 6–12 categorie
 * Creare un'esperienza visiva pulita e simile a un'app
 

@@ -1,5 +1,5 @@
 ---
-description: '**Slide Menu**—también conocido como Hamburger Menu, Sidebar Menu o Drawer Menu—se utiliza comúnmente en sitios web de Shopify al adaptar el menú de escritorio para móviles. Típicamente...'
+description: '**Slide Menu**—también conocido como Hamburger Menu, Sidebar Menu, o Drawer Menu—se utiliza comúnmente en sitios web de Shopify al adaptar el menú de escritorio para móviles. Típicamente...'
 lang: es
 layout: default
 permalink: /es/docs/usage/slide-menu-hamburger-menu/how-to-use/
@@ -7,7 +7,7 @@ title: ¿Cómo usar?
 ---
 # ¿Cómo usar?
 
-**Slide Menu**—también conocido como Hamburger Menu, Sidebar Menu o Drawer Menu—se utiliza comúnmente en sitios web de Shopify al adaptar el menú de escritorio para móviles. Típicamente, este menú predeterminado es simple, sin imágenes ni diseños avanzados. Navi+ ofrece un reemplazo completo para ese menú básico predeterminado.
+**Slide Menu**—también conocido como Hamburger Menu, Sidebar Menu, o Drawer Menu—se utiliza comúnmente en sitios web de Shopify al adaptar el menú de escritorio para móviles. Típicamente, este menú predeterminado es simple, sin imágenes ni diseños avanzados. Navi+ ofrece un reemplazo completo para ese menú básico predeterminado.
 
 **Beneficios Clave:**
 
@@ -18,7 +18,7 @@ title: ¿Cómo usar?
 **FAQ:**
 
 <details><summary><strong>1. No he decidido si usar la versión gratuita o de pago. ¿Puedo probar las plantillas de menú profesional?</strong></summary>
-<p>¡Absolutamente! Los grupos de menú están principalmente para ayudar a los principiantes a evitar sentirse abrumados por las funciones avanzadas en Navi+ 😄. La mejor manera es probar los menús profesionales para explorar todas las características y opciones de diseño. Más tarde, puedes simplemente eliminar cualquier menú que no necesites o que consideres inadecuado.</p>
+<p>¡Absolutamente! Los grupos de menú están principalmente para ayudar a los principiantes a evitar sentirse abrumados por las características avanzadas en Navi+ 😄. La mejor manera es probar los menús profesionales para explorar todas las características y opciones de diseño. Más tarde, simplemente puedes eliminar cualquier menú que no necesites o que consideres inadecuado.</p>
 </details>
 
 <details><summary><strong>2. ¿Crear un menú aquí hace que aparezca en mi sitio web de inmediato?</strong></summary>
@@ -60,9 +60,9 @@ More...
 
 Este es un árbol de menú de 3 niveles. El nivel 1 incluye **Slide banner**, **Deal of the Day**, 
 [**Catalog + All-Mountain + Freestyle + Other products], Blogs** y **More..**. 
-Catalog actuará como un nombre de grupo. **All-Mountain** también es un elemento de menú de nivel 1, con tres submenús de nivel 2: **Cruise Flex,** **Balance Ride** y **Other all-mountain.**&#x20;
+Catalog actuará como un nombre de grupo. **All-Mountain** también es un elemento de menú de nivel 1, con tres submenús de nivel 2: **Cruise Flex,** **Balance Ride** y **Other all-mountain.**
 
-Pasarás la mayor parte de tu tiempo construyendo este árbol de menú para tu sitio web, ayudando a los clientes a encontrar el contenido que están buscando.&#x20;
+Pasarás la mayor parte de tu tiempo construyendo este árbol de menú para tu sitio web, ayudando a los clientes a encontrar el contenido que están buscando.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
@@ -70,11 +70,11 @@ Pasarás la mayor parte de tu tiempo construyendo este árbol de menú para tu s
 
 #### 1.2. Interacciones Básicas con el Árbol de Menú
 
-Puedes arrastrar y soltar elementos del menú hacia arriba y hacia abajo o hacia la izquierda y hacia la derecha para cambiar su posición y relaciones padre-hijo en el árbol de menú.
+Puedes arrastrar y soltar elementos del menú hacia arriba y hacia abajo o de izquierda a derecha para cambiar su posición y relaciones padre-hijo en el árbol de menú.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fdexnk8WyoGnydVqI6TJ9%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=ae89e32d-4d3b-46e7-bb27-0ca69082b93e" alt=""><figcaption></figcaption></figure>
 
-Cuando pases el cursor sobre cualquier elemento del menú, verás opciones adicionales: editar los detalles del elemento, eliminarlo del árbol de menú o copiar y pegar en otro lugar.
+Cuando pases el cursor sobre cualquier elemento del menú, verás opciones adicionales: editar los detalles del elemento, eliminarlo del árbol de menú o copiar y pegarlo en otro lugar.
 
 {% comment %}hint style="info" {% endcomment %}
 **Consejo:** Puedes copiar un elemento de menú de un menú a otro abriendo la aplicación Navi+ en dos pestañas del navegador.
@@ -82,9 +82,9 @@ Cuando pases el cursor sobre cualquier elemento del menú, verás opciones adici
 
 #### 1.3. ¡IMPORTANTE! Elimina los elementos de menú de muestra y mantén solo la estructura que deseas.
 
-Esta es una situación común al crear un menú con Navi+. Cuando creas un nuevo menú, incluimos un ejemplo completo con elementos de menú populares para mostrar ideas de diseño y permitirte copiar/pegar según sea necesario. Sin embargo, si eres nuevo en Navi+ y usas el plan Starter, verás muchas advertencias rojas (i) para funciones que no están disponibles, como subir imágenes o usar interacciones avanzadas.
+Esta es una situación común al crear un menú con Navi+. Cuando creas un nuevo menú, incluimos un ejemplo completo con elementos de menú populares para mostrar ideas de diseño y permitirte copiar/pegar según sea necesario. Sin embargo, si eres nuevo en Navi+ y usas el plan Starter, verás muchas advertencias rojas (i) para características que no están disponibles, como subir imágenes o usar interacciones avanzadas.
 
-Si te gustan estas funciones avanzadas, considera actualizar a un plan Business o Elite. Pero si deseas continuar con el plan Starter, por favor encuentra y elimina los elementos de menú con advertencias rojas (i).
+Si te gustan estas características avanzadas, considera actualizar a un plan Business o Elite. Pero si deseas continuar con el plan Starter, por favor encuentra y elimina los elementos de menú con advertencias rojas (i).
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg2kAhlxANcsXQT6RPrH9%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=da8a7362-0017-43f8-865b-dbdd23803d9a" alt=""><figcaption></figcaption></figure>
 

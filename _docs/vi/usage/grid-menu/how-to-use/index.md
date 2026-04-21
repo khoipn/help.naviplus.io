@@ -9,7 +9,7 @@ title: Cách sử dụng?
 
 **Grid Menu** là một loại menu phổ biến được sử dụng trên nhiều ứng dụng và trang web thương mại điện tử. Nó thường hiển thị các danh mục hoặc tính năng chính và thường được hiển thị trên trang chủ.
 
-Mobile  Grid menu chiếm không gian màn hình vì chúng nổi trên màn hình. Là một menu phần, chúng cuộn theo trang.
+Menu Grid di động chiếm không gian màn hình vì chúng nổi trên màn hình. Là một menu phần, chúng cuộn theo trang.
 
 **Lợi ích chính:**
 
@@ -20,19 +20,25 @@ Mobile  Grid menu chiếm không gian màn hình vì chúng nổi trên màn hì
 **Câu hỏi thường gặp:**
 
 <details><summary><strong>1. Tôi chưa quyết định có nên sử dụng phiên bản miễn phí hay trả phí. Tôi có thể thử các mẫu menu chuyên nghiệp không?</strong></summary>
-<p>Chắc chắn rồi! Các nhóm menu chủ yếu giúp người mới bắt đầu tránh cảm thấy choáng ngợp bởi các tính năng nâng cao trong Navi+ 😄.\Cách tốt nhất là thử các menu chuyên nghiệp để khám phá tất cả các tính năng và tùy chọn bố cục. Sau đó, bạn có thể đơn giản xóa bất kỳ menu nào bạn không cần hoặc thấy không phù hợp.</p>
+<p>Chắc chắn rồi! Các nhóm menu chủ yếu nhằm giúp người mới bắt đầu tránh cảm thấy choáng ngợp bởi các tính năng nâng cao trong Navi+ 😄.\
+Cách tốt nhất là thử các menu chuyên nghiệp để khám phá tất cả các tính năng và tùy chọn bố cục. Sau đó, bạn có thể đơn giản xóa bất kỳ menu nào bạn không cần hoặc thấy không phù hợp.</p>
 </details>
 
 <details><summary><strong>2. Việc tạo một menu ở đây có làm nó xuất hiện trên trang web của tôi ngay lập tức không?</strong></summary>
-<p>Chưa. Bạn sẽ cần phải <strong>xuất bản</strong> menu đúng để nó xuất hiện trên trang web của bạn. Đừng lo — điều đó rất dễ!</p>
+<p>Chưa. Bạn sẽ cần phải <strong>xuất bản</strong> menu đúng để nó xuất hiện trên trang web của bạn. Đừng lo — điều này rất dễ!</p>
 </details>
 
 <details><summary><strong>3. Nếu tôi chọn sai mẫu hoặc mắc lỗi thì sao?</strong></summary>
-<p>Không vấn đề gì cả. Bạn có thể xóa nó và tạo một cái mới bất cứ lúc nào.\Nếu bạn đang thử nghiệm một menu và muốn thử một mẫu khác, bạn có thể <strong>lưu</strong> cái hiện tại như một tệp sao lưu và mở lại sau.\Bạn thậm chí có thể <strong>sao chép và dán</strong> các phần giữa các menu (bằng cách mở hai tab trình duyệt) để giữ lại công việc trước đó. Hãy thoải mái thử nghiệm!</p>
+<p>Không vấn đề gì cả. Bạn có thể xóa nó và tạo một cái mới bất cứ lúc nào.\
+Nếu bạn đang thử nghiệm một menu và muốn thử một mẫu khác, bạn có thể <strong>lưu</strong> cái hiện tại như một tệp sao lưu và mở lại sau.\
+Bạn thậm chí có thể <strong>sao chép và dán</strong> các phần giữa các menu (bằng cách mở hai tab trình duyệt) để giữ lại công việc trước đó của bạn. Hãy thoải mái thử nghiệm!</p>
 </details>
 
 <details><summary><strong>4. Tôi nên tạo chỉ một menu hay nhiều menu?</strong></summary>
-<p>Bạn nên tạo <strong>nhiều menu</strong>.\Chỉ menu <strong>hoạt động</strong> mới hiển thị trên trang của bạn, nhưng bạn có thể chuẩn bị nhiều phiên bản — bằng cách chọn các mẫu khác nhau hoặc nhân bản các menu.\Các menu có thể được cấu hình để hiển thị/ẩn dựa trên loại trang (trang chủ, sản phẩm, bộ sưu tập...), thiết bị (di động hoặc máy tính để bàn), hoặc từ khóa URL.\Vì vậy, hãy tiếp tục và xây dựng các menu phù hợp với từng tình huống!</p>
+<p>Bạn nên tạo <strong>nhiều menu</strong>.\
+Chỉ menu <strong>đang hoạt động</strong> sẽ hiển thị trên trang web của bạn, nhưng bạn có thể chuẩn bị nhiều phiên bản — bằng cách chọn các mẫu khác nhau hoặc nhân bản các menu.\
+Các menu có thể được cấu hình để hiển thị/ẩn dựa trên loại trang (trang chủ, sản phẩm, bộ sưu tập...), thiết bị (di động hoặc máy tính để bàn), hoặc từ khóa URL.\
+Vì vậy, hãy tiếp tục và xây dựng các menu phù hợp với từng tình huống!</p>
 </details>
 
 ### Bước 1: Chỉnh sửa cây menu
@@ -41,7 +47,7 @@ Mobile  Grid menu chiếm không gian màn hình vì chúng nổi trên màn hì
 
 Cây **menu** là phần quan trọng nhất của bất kỳ menu nào — nó xác định cấu trúc.
 
-Dưới đây là một ví dụ về cây menu của menu lưới di động:
+Dưới đây là một ví dụ về cây menu của menu grid di động:
 
 ```
 Events
@@ -52,15 +58,15 @@ Products
 ... 
 ```
 
-Đây là một cây menu 1 cấp. Các Menu Lưới không hỗ trợ nhiều cấp menu để duy trì sự đơn giản..
+Đây là một cây menu 1 cấp. Các Menu Grid không hỗ trợ nhiều cấp menu để duy trì sự đơn giản..
 
 Bạn sẽ dành phần lớn thời gian của mình để xây dựng cây menu này cho trang web của bạn, giúp khách hàng tìm thấy nội dung họ đang tìm kiếm.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkeOMBYNpAOjrcWmKMGt%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=4d5e87b7-39d5-4869-9215-fcdfeb02ff63" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
-#### 1.2. Các tương tác cơ bản với Cây Menu
+#### 1.2. Tương tác cơ bản với Cây Menu
 
-Bạn có thể kéo và thả các mục menu lên và xuống hoặc sang trái và phải để thay đổi vị trí và mối quan hệ cha-con trong cây menu.
+Bạn có thể kéo và thả các mục menu lên và xuống hoặc trái và phải để thay đổi vị trí và mối quan hệ cha-con của chúng trong cây menu.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FVNWPtc0JxdsboCeWXXDd%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=e9e733f9-bc80-4b60-87ef-d9cbbcfd70d4" alt=""><figcaption></figcaption></figure>
 

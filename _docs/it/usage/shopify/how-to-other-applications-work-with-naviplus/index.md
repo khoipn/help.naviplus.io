@@ -9,7 +9,7 @@ title: Impedire che i menu Navi+ si sovrappongano ad altre app
 
 ### Perché questo sarà un problema?
 
-In molti casi, sarà necessario utilizzare più applicazioni incorporate nel tuo sito web. Questo può creare un problema di usabilità abituale poiché gli elementi dell'interfaccia possono sovrapporsi (vedi l'immagine qui sotto). Un semplice esempio è quando utilizzi frequentemente un'applicazione di chat come [Shopify Inbox ](https://www.shopify.com/vn/inbox "Shopify Inbox ")o WhatsApp. Tipicamente, queste app di chat occupano una posizione prominente nell'angolo in basso a destra dello schermo del telefono. Quando decidi di utilizzare Navi+ per migliorare significativamente la navigazione sul tuo sito web, si presenta questo problema. Ecco alcuni modi per affrontare questo problema.
+In molti casi, sarà necessario utilizzare più applicazioni incorporate nel tuo sito web. Questo può creare un problema di usabilità abituale poiché gli elementi dell'interfaccia possono sovrapporsi (vedi l'immagine qui sotto). Un semplice esempio è quando utilizzi frequentemente un'app di chat come [Shopify Inbox ](https://www.shopify.com/vn/inbox "Shopify Inbox ")o WhatsApp. Tipicamente, queste app di chat occupano una posizione prominente nell'angolo in basso a destra dello schermo del telefono. Quando decidi di utilizzare Navi+ per migliorare significativamente la navigazione sul tuo sito web, si presenta questo problema. Ecco alcuni modi per affrontare questo problema.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fdccbwi5aXf4XvOxYGIvU%2FFrame%201.png?alt=media&#x26;token=c953f4d5-442c-486d-9493-90490ffd309f" alt=""><figcaption></figcaption></figure>
 
@@ -23,7 +23,7 @@ In molti casi, sarà necessario utilizzare più applicazioni incorporate nel tuo
 
 ### Soluzione 2: Impostare il padding del menu Navi+ per evitare sovrapposizioni con le applicazioni.
 
-Il padding e il margine sono strumenti ampiamente utilizzati e potenti nella tecnologia, specialmente in HTML5/CSS. Impostando il padding in base alla posizione di quell'area, puoi evitare sovrapposizioni di applicazioni. Puoi anche impostare la distanza dal menu Navi+ ai bordi regolando il margine.
+Il padding e il margine sono strumenti ampiamente utilizzati e potenti nella tecnologia, specialmente in HTML5/CSS. Impostando il padding in base alla posizione di quell'area, puoi evitare sovrapposizioni delle applicazioni. Puoi anche impostare la distanza dal menu Navi+ ai bordi regolando il margine.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fo0hlCj8BSJLa9WBqrLo8%2FFrame%205.png?alt=media&#x26;token=dfe6c2d9-ea6c-4b97-bd55-8ec33ef7d729" alt=""><figcaption></figcaption></figure>
 
@@ -39,17 +39,17 @@ Sebbene la Barra Inferiore sia lo strumento più efficace per guidare gli utenti
 
 ### Z-index - dare priorità all'ordine di visualizzazione delle "applicazioni flottanti"
 
-La proprietà z-index specifica l'ordine di sovrapposizione di un elemento. Un elemento con un ordine di sovrapposizione maggiore è sempre davanti a un elemento con un ordine di sovrapposizione inferiore. Vedi l'immagine qui sotto per capire meglio.&#x20;
+La proprietà z-index specifica l'ordine di sovrapposizione di un elemento. Un elemento con un ordine di sovrapposizione maggiore è sempre davanti a un elemento con un ordine di sovrapposizione inferiore. Vedi l'immagine qui sotto per capire meglio.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FyMHcqutHWOUtEEYqMDn6%2Fz-index1.png?alt=media&#x26;token=fb6a0100-e337-4115-9212-a8c8d32888ef" alt=""><figcaption></figcaption></figure>
 
-Il valore predefinito dello z-index per il menu Navi+ è impostato a 50 per tutti, poiché 'non ci consideriamo più importanti di altre app', ma 50 è anche il numero sufficiente per visualizzarsi bene su tutti i temi Shopify. A volte potresti dover regolare lo z-index del tuo menu Navi+ nei seguenti casi:&#x20;
+Il valore predefinito dello z-index per il menu Navi+ è impostato su 50 per tutti, poiché 'non ci consideriamo più importanti di altre app', ma 50 è anche il numero sufficiente per visualizzarsi bene su tutti i temi Shopify. A volte potresti dover regolare lo z-index del tuo menu Navi+ nei seguenti casi:
 
-1. Quando utilizzi più menu Navi+ su una pagina e desideri che si sovrappongano, ma un menu appare sopra gli altri.&#x20;
+1. Quando utilizzi più menu Navi+ su una pagina e desideri che si sovrappongano, ma un menu appare sopra gli altri.
 2. Quando ci sono altri oggetti/app che sovrappongono il tuo menu Navi+, in tal caso, lo z-index risolverà tutto.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg93TvrzCEEKdFZvdmdbh%2Fz-index2.png?alt=media&#x26;token=1289e3a7-6ea1-44ec-a284-8964ac4b6f35" alt=""><figcaption></figcaption></figure>
 
-C'è una domanda difficile: quale z-index dovresti impostare per il tuo menu Navi+ per evitare sovrapposizioni come desiderato? Se hai più menu Navi+, puoi disporli secondo le tue preferenze senza preoccuparti – ecco perché stiamo costruendo Navi+ per essere il più versatile possibile per le attuali 'applicazioni flottanti' su Shopify.&#x20;
+C'è una domanda difficile: quale z-index dovresti impostare per il tuo menu Navi+ per evitare sovrapposizioni come desiderato? Se hai più menu Navi+, puoi disporli secondo le tue preferenze senza preoccuparti – ecco perché stiamo costruendo Navi+ per essere il più versatile possibile per le attuali 'applicazioni flottanti' su Shopify.
 
 Se hai bisogno di impostare lo z-index per il tuo menu Navi+ per gestire conflitti con altre app, puoi cercare il tuo z-index da un minimo di 0 a un massimo di 2.147.483.647. Questo potrebbe sembrare un po' difficile, ma è il modo più semplice e migliore perché lo z-index non influenzerà la visualizzazione della tua interfaccia al di fuori del problema che stai affrontando. Se hai esperienza con il debug di CSS e HTML – questo è facile, basta attivare la modalità di ispezione per vedere quale z-index ha l'app in conflitto. Oppure, il modo più semplice, clicca semplicemente sull'icona della chat di Crisp per chattare con un consulente Navi+; saremo felici di assisterti con questo problema.

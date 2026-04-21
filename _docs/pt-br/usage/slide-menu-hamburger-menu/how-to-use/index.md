@@ -18,7 +18,7 @@ title: Como usar?
 **FAQ:**
 
 <details><summary><strong>1. Eu ainda não decidi se vou usar a versão gratuita ou paga. Posso experimentar os templates de menu profissional?</strong></summary>
-<p>Absolutamente! Os grupos de menu são principalmente para ajudar iniciantes a evitar se sentir sobrecarregados por recursos avançados no Navi+ 😄. A melhor maneira é experimentar os menus profissionais para explorar todos os recursos e opções de layout. Mais tarde, você pode simplesmente excluir qualquer menu que não precise ou que considere inadequado.</p>
+<p>Com certeza! Os grupos de menu são principalmente para ajudar iniciantes a evitar se sentir sobrecarregados por recursos avançados no Navi+ 😄. A melhor maneira é experimentar os menus profissionais para explorar todos os recursos e opções de layout. Depois, você pode simplesmente excluir qualquer menu que não precise ou que considere inadequado.</p>
 </details>
 
 <details><summary><strong>2. Criar um menu aqui faz com que ele apareça no meu site imediatamente?</strong></summary>
@@ -30,7 +30,7 @@ title: Como usar?
 </details>
 
 <details><summary><strong>4. Devo criar apenas um menu ou vários?</strong></summary>
-<p>Você deve criar <strong>vários menus</strong>. Apenas o menu <strong>ativo</strong> será exibido no seu site, mas você pode preparar muitas versões — selecionando diferentes templates ou clonando menus. Menus podem ser configurados para mostrar/ocultar com base no tipo de página (início, produto, coleção...), dispositivo (mobile ou desktop) ou palavras-chave de URL. Então, vá em frente e construa menus que se encaixem em cada situação!</p>
+<p>Você deve criar <strong>vários menus</strong>. Apenas o menu <strong>ativo</strong> será exibido no seu site, mas você pode preparar muitas versões — selecionando diferentes templates ou clonando menus. Menus podem ser configurados para mostrar/ocultar com base no tipo de página (início, produto, coleção...), dispositivo (mobile ou desktop) ou palavras-chave da URL. Então, vá em frente e construa menus que se encaixem em cada situação!</p>
 </details>
 
 ### Passo 1: Edite a árvore do menu
@@ -60,9 +60,9 @@ More...
 
 Esta é uma árvore de menu de 3 níveis. O nível 1 inclui **Slide banner**, **Deal of the Day**, 
 [**Catalog + All-Mountain + Freestyle + Other products], Blogs** e **More..**. 
-Catalog atuará como um nome de grupo. **All-Mountain** também é um item de menu de nível 1, com três submenus de nível 2: **Cruise Flex,** **Balance Ride** e **Other all-mountain.**&#x20;
+Catalog atuará como um nome de grupo. **All-Mountain** também é um item de menu de nível 1, com três submenus de nível 2: **Cruise Flex,** **Balance Ride** e **Other all-mountain.**
 
-Você passará a maior parte do seu tempo construindo esta árvore de menu para o seu site, ajudando os clientes a encontrar o conteúdo que estão procurando.&#x20;
+Você passará a maior parte do seu tempo construindo esta árvore de menu para o seu site, ajudando os clientes a encontrar o conteúdo que estão procurando.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
@@ -102,7 +102,7 @@ Para adicionar um item de menu, você tem duas opções:
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 
-**Opção 2 (Recomendada):** Já preparamos muitos templates de itens de menu bem projetados para você. Basta copiá-los e colá-los no lugar certo. Após terminar sua árvore de menu, basta excluir os templates não utilizados.
+**Opção 2 (Recomendada):** Já preparamos muitos templates de itens de menu bem projetados para você. Basta copiá-los e colá-los no lugar certo. Depois de terminar sua árvore de menu, basta excluir os templates não utilizados.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FjBJUHMA8dTOONOJoOt8S%2FHelp.MenuTree.1.1.5.png?alt=media&#x26;token=e6316df1-e99a-4259-8370-5fc3afaf331a" alt=""><figcaption></figcaption></figure>
 

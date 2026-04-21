@@ -14,9 +14,9 @@ To display the Navi+ menu on your website, there are two clear options:
    * Level 3: By keyword: You can show/hide when the URL of the webpage contains/does not contain one or several keywords. This option is very useful and flexible, allowing you to create specific menus for each page or each product.
 2. **Session \[Navi+ On Session] is used to embed directly into each page of the Shopify theme**. With this option, you can have an additional choice of not sticking the menu (at the bottom, header, or floating) but allowing it to flow with the content of the page. This effect is useful when you want to create grid-type menus or bar-type menus that flow as you scroll the screen.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FQuWJTBwcXPXlDJsJrA08%2F001.png?alt=media&#x26;token=09c8a23d-233d-440b-a108-8c0da62df58e" alt=""><figcaption><p>Enable [Navi+] All Page </p></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FQuWJTBwcXPXlDJsJrA08%2F001.png?alt=media&#x26;token=09c8a23d-233d-440b-a108-8c0da62df58e" alt=""><figcaption><p>Enable [Navi+] All Page</p></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPqPJwLCLMrGOMxMxR2UA%2F002.png?alt=media&#x26;token=f102dddc-b3bd-4bc2-89b0-7efeb9daed13" alt=""><figcaption><p>Enable [Navi+] All Page </p></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPqPJwLCLMrGOMxMxR2UA%2F002.png?alt=media&#x26;token=f102dddc-b3bd-4bc2-89b0-7efeb9daed13" alt=""><figcaption><p>Enable [Navi+] All Page</p></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fbppbosfp50BLyZQcwvhU%2F003.png?alt=media&#x26;token=a930264c-1ef8-4b08-9e2b-d05b00d32f48" alt=""><figcaption></figcaption></figure>
 

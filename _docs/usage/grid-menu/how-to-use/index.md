@@ -8,7 +8,7 @@ title: How to use?
 
 **Grid Menu** is a popular menu type used on many apps and e-commerce websites. It typically displays catalogs or key features and is often shown on the homepage.
 
-Mobile  Grid menu take up screen space since they float on the screen. As a section menu, they scroll along with the page.
+Mobile Grid menu take up screen space since they float on the screen. As a section menu, they scroll along with the page.
 
 **Key Benefits:**
 

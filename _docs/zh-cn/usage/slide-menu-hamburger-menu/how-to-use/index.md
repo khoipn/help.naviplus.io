@@ -1,5 +1,5 @@
 ---
-description: '**滑动菜单**—也称为汉堡菜单、侧边菜单或抽屉菜单—通常通过将桌面菜单适配为移动端菜单而在 Shopify 网站上使用。典型...'
+description: '**滑动菜单**—也称为汉堡菜单、侧边菜单或抽屉菜单—通常通过将桌面菜单适配为移动端来在 Shopify 网站上使用。典型...'
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/slide-menu-hamburger-menu/how-to-use/
@@ -7,7 +7,7 @@ title: 如何使用？
 ---
 # 如何使用？
 
-**滑动菜单**—也称为汉堡菜单、侧边菜单或抽屉菜单—通常通过将桌面菜单适配为移动端菜单而在 Shopify 网站上使用。典型情况下，这个默认菜单很简单，没有图像或高级布局。Navi+ 提供了一个完整的替代方案来替换这个基本的默认菜单。
+**滑动菜单**—也称为汉堡菜单、侧边菜单或抽屉菜单—通常通过将桌面菜单适配为移动端来在 Shopify 网站上使用。典型情况下，这个默认菜单很简单，没有图像或高级布局。Navi+ 提供了一个完整的替代方案来替换这个基本的默认菜单。
 
 **主要好处：**
 
@@ -18,11 +18,11 @@ title: 如何使用？
 **常见问题：**
 
 <details><summary><strong>1. 我还没有决定是使用免费版还是付费版。我可以试用专业菜单模板吗？</strong></summary>
-<p>当然可以！菜单组主要是为了帮助初学者避免被 Navi+ 中的高级功能所淹没 😄。最好的方法是试用专业菜单，以探索所有功能和布局选项。之后，您可以简单地删除任何不需要或觉得不合适的菜单。</p>
+<p>当然可以！菜单组主要是为了帮助初学者避免被 Navi+ 中的高级功能所压倒 😄。最好的方法是试用专业菜单，以探索所有功能和布局选项。之后，您可以简单地删除任何不需要或觉得不合适的菜单。</p>
 </details>
 
 <details><summary><strong>2. 在这里创建菜单会立即在我的网站上显示吗？</strong></summary>
-<p>还不行。您需要<strong>发布</strong>正确的菜单才能在您的网站上显示。别担心——这很简单！</p>
+<p>还没有。您需要<strong>发布</strong>正确的菜单才能在您的网站上显示。别担心——这很简单！</p>
 </details>
 
 <details><summary><strong>3. 如果我选择了错误的模板或犯了错误怎么办？</strong></summary>
@@ -30,7 +30,7 @@ title: 如何使用？
 </details>
 
 <details><summary><strong>4. 我应该只创建一个菜单还是多个菜单？</strong></summary>
-<p>您应该创建<strong>多个菜单</strong>。只有<strong>活动</strong>菜单会显示在您的网站上，但您可以准备多个版本——通过选择不同的模板或克隆菜单。菜单可以根据页面类型（主页、产品、集合...）、设备（移动或桌面）或 URL 关键字进行配置以显示/隐藏。因此，请继续构建适合每种情况的菜单！</p>
+<p>您应该创建<strong>多个菜单</strong>。只有<strong>活动</strong>菜单会显示在您的网站上，但您可以准备多个版本——通过选择不同的模板或克隆菜单。菜单可以根据页面类型（主页、产品、集合...）、设备（移动或桌面）或 URL 关键字进行配置以显示/隐藏。因此，尽管去构建适合每种情况的菜单吧！</p>
 </details>
 
 ### 第一步：编辑菜单树
@@ -45,10 +45,10 @@ title: 如何使用？
 滑动横幅  
 今日特惠
 目录  
-全山  
+全山地  
    - 巡航灵活  
    - 平衡骑行
-   - 其他全山
+   - 其他全山地
         - 三级菜单项
 自由式  
    - 公园板  
@@ -58,24 +58,24 @@ title: 如何使用？
 更多...  
 ```
 
-这是一个三级菜单树。第一级包括 **滑动横幅**、**今日特惠**、**目录 + 全山 + 自由式 + 其他产品**、**博客** 和 **更多..**。目录将作为组名。**全山**也是一个一级菜单项，具有三个二级子菜单：**巡航灵活**、**平衡骑行** 和 **其他全山**。&#x20;
+这是一个三级菜单树。第一级包括 **滑动横幅**、**今日特惠**、**目录 + 全山地 + 自由式 + 其他产品**、**博客** 和 **更多..**。目录将作为组名。**全山地**也是一个一级菜单项，具有三个二级子菜单：**巡航灵活**、**平衡骑行** 和 **其他全山地**。
 
-您将花费大部分时间来构建此菜单树，以帮助客户找到他们所寻找的内容。&#x20;
+您将花费大部分时间来构建这个菜单树，以帮助客户找到他们所寻找的内容。
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="目录：一个一级菜单项，显示为选项卡上的标签。全山：当您点击目录时出现的二级菜单项。"><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FnNyXxyermApo9zO1eTgy%2FHelp.MenuTree.1.1.1.png?alt=media&#x26;token=0cd15617-75b0-469d-9170-f10158b85a07" alt="巡航灵活、平衡骑行：当您点击全山时出现的三级菜单项。"><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FnNyXxyermApo9zO1eTgy%2FHelp.MenuTree.1.1.1.png?alt=media&#x26;token=0cd15617-75b0-469d-9170-f10158b85a07" alt="Cruise Flex, Balance Ride: Level 3 menu item that appears when you tap on All-Mountain."><figcaption></figcaption></figure>
 
 #### 1.2. 与菜单树的基本交互
 
-您可以拖放菜单项上下或左右以更改它们在菜单树中的位置和父子关系。
+您可以上下或左右拖放菜单项，以更改它们在菜单树中的位置和父子关系。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fdexnk8WyoGnydVqI6TJ9%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=ae89e32d-4d3b-46e7-bb27-0ca69082b93e" alt=""><figcaption></figcaption></figure>
 
-当您将鼠标悬停在任何菜单项上时，您将看到其他选项：编辑该项的详细信息、将其从菜单树中删除或在其他地方复制和粘贴。
+当您将鼠标悬停在任何菜单项上时，您将看到额外的选项：编辑该项的详细信息、从菜单树中删除它，或将其复制并粘贴到其他地方。
 
 {% comment %}hint style="info" {% endcomment %}
-**提示：** 您可以通过在两个浏览器标签中打开 Navi+ 应用程序，从一个菜单复制菜单项到另一个菜单。
+**提示：** 您可以通过在两个浏览器标签中打开 Navi+ 应用程序，将一个菜单项从一个菜单复制到另一个菜单。
 {% comment %}endhint{% endcomment %}
 
 #### 1.3. 重要！删除示例菜单项，仅保留您想要的结构。

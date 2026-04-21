@@ -1,5 +1,5 @@
 ---
-description: 'Paso 1: Haz clic en Tienda en línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en línea y selecciona “Abrir enlace en nueva pestaña” para ahorrar tiempo.&'
+description: 'Paso 1: Haz clic en Tienda en línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en línea y selecciona “Abrir enlace en nueva pestaña” para ahorrar tiempo.'
 lang: es
 layout: default
 permalink: /es/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
@@ -11,11 +11,11 @@ title: Publicación en Shopify
 
 #### 2.1. Activa Navi+ en Integraciones de aplicaciones
 
-Paso 1: Haz clic en Tienda en línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en línea y selecciona “Abrir enlace en nueva pestaña” para ahorrar tiempo.&#x20;
+Paso 1: Haz clic en Tienda en línea, luego haz clic en Temas. Consejos: Haz clic derecho en Tienda en línea y selecciona “Abrir enlace en nueva pestaña” para ahorrar tiempo.
 
 Paso 2: Selecciona el tema donde deseas publicar el menú.  Haz clic: **Personalizar**
 
-* Si tu sitio web es nuevo y aún no tiene usuarios, siéntete libre de publicar el menú sin preocupaciones; puedes activarlo o desactivarlo en cualquier momento sin afectar a los visitantes.
+* Si tu sitio web es nuevo y aún no tiene usuarios, siéntete libre de publicar el menú sin preocupaciones; puedes activarlo o desactivarlo fácilmente en cualquier momento sin afectar a los visitantes.
 * Si tu sitio web ya tiene tráfico regular, ten más cuidado. La mejor práctica es crear un **Tema duplicado** y probar Navi+ en esa versión primero.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
@@ -34,11 +34,11 @@ Paso 1: Haz clic en el botón **Publicar en el sitio web**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Paso 2: Activa el interruptor "Publicar menú (visible solo cuando lo abra el usuario)".&#x20;
+Paso 2: Activa el interruptor "Publicar menú (visible solo cuando lo abre el usuario)".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FhSDziWrg4Jxr9bZ9jB4j%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=3c39339c-fe75-4653-86e7-411318cf506d" alt=""><figcaption></figcaption></figure>
 
-Paso 3: Selecciona el método de visualización&#x20;
+Paso 3: Selecciona el método de visualización
 
 **Método 1: Abre este menú desde otro elemento del menú Navi+ usando la sintaxis open:NaviMenu**
 
@@ -54,12 +54,12 @@ Este método te permite abrir un menú deslizante cuando el usuario hace clic o 
 
 **Método 2: Cuando se hace clic o se toca un elemento de la interfaz de usuario (definido por un selector CSS como #id_of_element o .class_name), se mostrará este menú.**
 
-Este es, sin duda, el mejor y más comúnmente utilizado método con el Menú Deslizante.\
+Este es, sin duda, el mejor y más utilizado método con el Menú Deslizante.\
 En esta guía, nos centraremos en reemplazar el menú hamburguesa predeterminado del sitio web en dispositivos móviles.\
 También puedes aplicar este método de manera creativa encontrando y utilizando otros selectores CSS para activar el menú.
 
 <details><summary>¿Cómo reemplazar el menú hamburguesa predeterminado de tu sitio web con el Menú Deslizante de Navi+ (<strong>Guía popular)?</strong></summary>
-<p>En la mayoría de los sitios web de Shopify, el menú hamburguesa predeterminado se genera a partir de la versión de escritorio a través del diseño responsivo. Como resultado, suele ser muy simple, tiene poca profundidad y carece de soporte para íconos, imágenes o diseños avanzados. Reemplazarlo con un Menú Deslizante de Navi+ es una opción común y práctica para aprovechar las características avanzadas de Navi+.</p>
+<p>En la mayoría de los sitios web de Shopify, el menú hamburguesa predeterminado se genera a partir de la versión de escritorio a través del diseño responsivo. Como resultado, suele ser muy simple, tiene poca profundidad y carece de soporte para íconos, imágenes o diseños avanzados. Reemplazarlo con un Menú Deslizante de Navi+ es una elección común y práctica para aprovechar las características avanzadas de Navi+.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FIB9UqVXh9bL1z4AuHAQj%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=1bef8174-8a59-4765-b2ea-e669c1d12fd6" alt=""><figcaption></figcaption></figure>
 
 <p>Para hacer esto, simplemente identifica el selector CSS del ícono del menú hamburguesa de tu sitio web e ingrésalo en el cuadro de texto. Ya hemos encontrado los selectores CSS para algunos de los temas más populares para ti, que se enumeran a continuación.</p>
@@ -70,7 +70,7 @@ También puedes aplicar este método de manera creativa encontrando y utilizando
 </code></pre>
 
 <ol>
-<li>Si no está en esta lista, no te preocupes</li>
+<li>No está en esta lista, no te preocupes</li>
 </ol>
 <pre class="codehilite"><code>- Puedes chatear con un soporte de Navi+ para obtener ayuda instantánea; esto solo toma unos minutos para encontrar el selector CSS.
 
@@ -102,8 +102,8 @@ Sin embargo, (1) esto te ayudará a entender la idea principal, y (2) si deseas 
 
 No es algo que necesites arreglar de inmediato, pero a largo plazo es importante para la experiencia del menú deslizante creada por Navi+. Antes de que Navi+ reemplace completamente el antiguo menú deslizante, el menú original del tema sigue activo. Por un breve momento—alrededor de medio segundo—si un usuario carga el menú y toca rápidamente el botón de hamburguesa (un caso raro, pero aún posible), el antiguo menú del tema puede aparecer y causar un error visual.
 
-<details><summary>Navi+ proporciona una solución simple para optimizar la experiencia del usuario y la velocidad como sigue pasos</summary>
-<h4>¿Por qué necesitas hacer esto? ¿No es Navi+ ya rápido?</h4>
+<details><summary>Navi+ proporciona una solución simple para optimizar la experiencia del usuario y la velocidad como sigue</summary>
+<p><strong>¿Por qué necesitas hacer esto? ¿No es Navi+ ya rápido?</strong></p>
 <p>Navi+ es muy rápido. Está completamente desplegado en una CDN líder con muy baja latencia (alrededor de 100ms) y puede atender a millones de clientes sin desacelerarse.</p>
 <p>Sin embargo, Navi+ aún funciona dentro del ecosistema de Shopify. Shopify tiene sus propias reglas de carga:</p>
 <ol>
@@ -113,9 +113,9 @@ No es algo que necesites arreglar de inmediato, pero a largo plazo es importante
 </ol>
 <p>Esto significa que si estás utilizando múltiples aplicaciones, Navi+ puede a veces cargarse más tarde de lo esperado. Por eso puede sentirse más lento en ciertos casos.</p>
 <hr />
-<h3>¿Cuál es mi solución?</h3>
+<h4>¿Cuál es mi solución?</h4>
 <p>Actualmente, Navi+ tiene alta prioridad al cargarse en sitios web de Shopify. Sin embargo, todavía hay un cierto retraso. Abordaremos estos problemas uno por uno aquí:</p>
-<h4>Menú Deslizante: Agrega un efecto de carga y bloquea el selector de activación</h4>
+<p><strong>Menú Deslizante: Agrega un efecto de carga y bloquea el selector de activación</strong></p>
 <p>Muy simple: solo ingresa el selector CSS que usas para el Menú Deslizante en la sección de integración de la aplicación Navi+ (ver imagen a continuación).</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>
 

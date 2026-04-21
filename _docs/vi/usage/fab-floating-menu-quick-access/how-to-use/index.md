@@ -1,5 +1,5 @@
 ---
-description: Một **FAB (Nút Hành Động Nổi)** là một menu đơn giản luôn nổi ở dưới cùng của màn hình, thường được sử dụng để hỗ trợ. Các FAB thường cung cấp các công cụ trò chuyện...
+description: Một **FAB (Nút Hành Động Nổi)** là một menu đơn giản luôn nổi ở dưới cùng của màn hình, thường được sử dụng để hỗ trợ. FAB thường cung cấp các công cụ trò chuyện...
 lang: vi
 layout: default
 permalink: /vi/docs/usage/fab-floating-menu-quick-access/how-to-use/
@@ -7,11 +7,11 @@ title: Cách sử dụng?
 ---
 # Cách sử dụng?
 
-Một **FAB (Nút Hành Động Nổi)** là một menu đơn giản luôn nổi ở dưới cùng của màn hình, thường được sử dụng để hỗ trợ. Các FAB thường cung cấp các công cụ trò chuyện như WhatsApp, nhắn tin, email, cũng như các liên kết đến tài nguyên hỗ trợ và các kênh truyền thông xã hội để quảng bá trang web của bạn.
+Một **FAB (Nút Hành Động Nổi)** là một menu đơn giản luôn nổi ở dưới cùng của màn hình, thường được sử dụng để hỗ trợ. FAB thường cung cấp các công cụ trò chuyện như WhatsApp, nhắn tin, email, cũng như các liên kết đến tài nguyên hỗ trợ và các kênh truyền thông xã hội để quảng bá trang web của bạn.
 
 **Lợi ích chính:**
 
-* Đơn giản, thường được sử dụng để hỗ trợ.&#x20;
+* Đơn giản, thường được sử dụng để hỗ trợ.
 * Có thể được sử dụng để nhóm các nút nổi từ các ứng dụng khác hoặc để kích hoạt một Slide Menu.
 * Đặt các liên kết quan trọng trong tầm tay để truy cập nhanh chóng, thuận tiện
 * Tập trung hóa điều hướng chính, giúp người dùng và các công cụ tìm kiếm hiểu rõ hơn về trang web của bạn – tuyệt vời cho SEO
@@ -31,7 +31,7 @@ Một **FAB (Nút Hành Động Nổi)** là một menu đơn giản luôn nổi
 </details>
 
 <details><summary><strong>4. Tôi nên tạo chỉ một menu hay nhiều menu?</strong></summary>
-<p>Bạn nên tạo <strong>nhiều menu</strong>. Chỉ menu <strong>đang hoạt động</strong> sẽ hiển thị trên trang web của bạn, nhưng bạn có thể chuẩn bị nhiều phiên bản — bằng cách chọn các mẫu khác nhau hoặc nhân bản các menu. Các menu có thể được cấu hình để hiển thị/ẩn dựa trên loại trang (trang chủ, sản phẩm, bộ sưu tập...), thiết bị (di động hoặc máy tính để bàn), hoặc từ khóa URL. Vậy hãy tiếp tục và xây dựng các menu phù hợp với từng tình huống!</p>
+<p>Bạn nên tạo <strong>nhiều menu</strong>. Chỉ có menu <strong>đang hoạt động</strong> mới hiển thị trên trang web của bạn, nhưng bạn có thể chuẩn bị nhiều phiên bản — bằng cách chọn các mẫu khác nhau hoặc nhân bản các menu. Các menu có thể được cấu hình để hiển thị/ẩn dựa trên loại trang (trang chủ, sản phẩm, bộ sưu tập...), thiết bị (di động hoặc máy tính để bàn), hoặc từ khóa URL. Vậy nên hãy tiếp tục và xây dựng các menu phù hợp với từng tình huống!</p>
 </details>
 
 ### Bước 1: Chỉnh sửa cây menu
@@ -57,11 +57,11 @@ Hỗ trợ
 
 Bạn sẽ dành phần lớn thời gian của mình để xây dựng cây menu này cho trang web của bạn, giúp khách hàng tìm thấy nội dung họ đang tìm kiếm.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F5v5r0Gq0uj3HON77hsNC%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=e0c34d5d-b77d-4b7b-8938-98bb344ac0fe" alt="Danh mục: Một mục menu cấp 1, hiển thị dưới dạng tab trên tab bar. Tất cả các núi: Mục menu cấp 2 xuất hiện khi bạn nhấn vào Danh mục."><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F5v5r0Gq0uj3HON77hsNC%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=e0c34d5d-b77d-4b7b-8938-98bb344ac0fe" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
-#### 1.2. Các tương tác cơ bản với Cây Menu
+#### 1.2. Tương tác cơ bản với Cây Menu
 
-Bạn có thể kéo và thả các mục menu lên và xuống hoặc sang trái và phải để thay đổi vị trí và mối quan hệ cha-con trong cây menu.
+Bạn có thể kéo và thả các mục menu lên và xuống hoặc trái và phải để thay đổi vị trí và mối quan hệ cha-con trong cây menu.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FOjwwfWQFThvk6rmLU8D7%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=98bdcda6-25c8-4793-8936-fb7d594d2b43" alt=""><figcaption></figcaption></figure>
 
@@ -82,14 +82,14 @@ Nếu bạn thích những tính năng nâng cao này, hãy xem xét nâng cấp
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
-**Mẹo quan trọng:** Khi xác nhận xóa xuất hiện, hãy bật “Đừng hỏi lại lần sau” để xóa nhanh hơn.
+**Mẹo Quan Trọng:** Khi xác nhận xóa xuất hiện, hãy bật “Đừng hỏi lại lần sau” để xóa nhanh hơn.
 {% comment %}endhint{% endcomment %}
 
 #### 1.4. Thêm các mục menu vào Cây Menu
 
 Để thêm một mục menu, bạn có hai tùy chọn:
 
-**Tùy chọn 1&#x20;**<mark style="background-color:$warning;">**(Không khuyến nghị nếu bạn mới sử dụng Navi+)**</mark>**:** Nhấp vào “Thêm menu” để chèn một mục menu trống ở cuối cây menu. Phương pháp này yêu cầu hiểu biết tốt về cài đặt mục menu, mà chúng tôi sẽ đề cập bên dưới. Nó có thể cảm thấy choáng ngợp lúc đầu, vì vậy bạn có thể khám phá điều này sau.
+**Tùy chọn 1&#x20;**<mark style="background-color:$warning;">**(Không được khuyến nghị nếu bạn mới sử dụng Navi+)**</mark>**:** Nhấp vào “Thêm menu” để chèn một mục menu trống ở cuối cây menu. Phương pháp này yêu cầu bạn phải hiểu rõ về các cài đặt mục menu, mà chúng tôi sẽ đề cập bên dưới. Nó có thể cảm thấy choáng ngợp lúc đầu, vì vậy bạn có thể khám phá điều này sau.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 
@@ -101,9 +101,9 @@ Nếu bạn thích những tính năng nâng cao này, hãy xem xét nâng cấp
 
 ### Bước 2: (Shopify) Xuất bản menu trên trang web của bạn.
 
-#### 2.1. Bật Navi+ trên Ứng dụng Nhúng
+#### 2.1. Bật Navi+ trên App Embeds
 
-Bước 1: Nhấp vào Cửa hàng trực tuyến, sau đó nhấp vào Chủ đề. Mẹo: Nhấp chuột phải vào Cửa hàng trực tuyến và chọn “Mở liên kết trong tab mới” để tiết kiệm thời gian.&#x20;
+Bước 1: Nhấp vào Cửa hàng trực tuyến, sau đó nhấp vào Chủ đề. Mẹo: Nhấp chuột phải vào Cửa hàng trực tuyến và chọn “Mở liên kết trong tab mới” để tiết kiệm thời gian.
 
 Bước 2: Chọn chủ đề mà bạn muốn xuất bản menu.  Nhấp: **Tùy chỉnh**
 
@@ -112,7 +112,7 @@ Bước 2: Chọn chủ đề mà bạn muốn xuất bản menu.  Nhấp: *
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
-Bước 3: Đi đến Ứng dụng nhúng, tìm “Navi+ trên Tất cả các trang”, và bật nó lên.
+Bước 3: Đi đến App embeds, tìm “Navi+ trên Tất cả các trang”, và bật nó lên.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
@@ -126,6 +126,6 @@ Bước 1: Nhấp vào nút **Xuất bản lên trang web**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Bước 2: Chọn cài đặt hiển thị rồi XUẤT BẢN MENU.&#x20;
+Bước 2: Chọn cài đặt hiển thị sau đó XUẤT BẢN MENU.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>

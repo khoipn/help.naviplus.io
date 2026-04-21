@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "sass-embedded".freeze
-  s.version = "1.98.0".freeze
+  s.version = "1.98.0"
   s.platform = "arm64-darwin".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
@@ -19,12 +19,12 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/sass-contrib/sass-embedded-host-ruby".freeze
   s.licenses = ["MIT".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 3.1".freeze)
-  s.rubygems_version = "4.0.8".freeze
+  s.rubygems_version = "3.4.10".freeze
   s.summary = "Use dart-sass with Ruby!".freeze
 
-  s.installed_by_version = "3.7.1".freeze
+  s.installed_by_version = "3.4.10" if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 
-  s.add_runtime_dependency(%q<google-protobuf>.freeze, ["~> 4.31".freeze])
+  s.add_runtime_dependency(%q<google-protobuf>.freeze, ["~> 4.31"])
 end

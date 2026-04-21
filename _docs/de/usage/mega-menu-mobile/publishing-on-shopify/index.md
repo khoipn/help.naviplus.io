@@ -1,5 +1,5 @@
 ---
-description: 'Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.&'
+description: 'Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.'
 lang: de
 layout: default
 permalink: /de/docs/usage/mega-menu-mobile/publishing-on-shopify/
@@ -13,7 +13,7 @@ title: Veröffentlichung auf Shopify
 
 #### I.1. Aktivieren Sie Navi+ in App-Embeds
 
-Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.&#x20;
+Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.
 
 Schritt 2: Wählen Sie das Theme aus, in dem Sie das Menü veröffentlichen möchten.  Klicken Sie auf: **Anpassen**
 
@@ -36,7 +36,7 @@ Schritt 1: Klicken Sie auf die Schaltfläche **Auf Website veröffentlichen**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Schritt 2: Aktivieren Sie den Schalter "Menü veröffentlichen durch Einfügen/Ersetzen-Methode".&#x20;
+Schritt 2: Aktivieren Sie den Schalter "Menü veröffentlichen durch Einfügen/Ersetzen-Methode".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
@@ -69,14 +69,14 @@ In diesem Leitfaden konzentrieren wir uns auf 2 Möglichkeiten: dieses Menü unt
 
 <details><summary><strong>Wie findet man den CSS-Selector auf Ihrer Website?</strong></summary>
 <p>Sie können mit einem Navi+-Supporter chatten, um sofortige Hilfe zu erhalten, anstatt es selbst zu tun.\
-Allerdings wird (1) dies Ihnen helfen, die Grundidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
+Allerdings wird (1) dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F955EzmFE24Jusqk5AGdx%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=17e5795c-3b2a-416a-877b-63d99d931e74" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F955EzmFE24Jusqk5AGdx%2FHelp.MenuTree.1.4.4.png?alt=media&#x26;token=feed527e-2504-4609-941c-2b61885cbaab" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTna1I28ss21P5aVQW0lB%2FHelp.MenuTree.1.4.4.png?alt=media&#x26;token=feed527e-2504-4609-941c-2b61885cbaab" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwwbgyipKDVFeCcnTgk7z%2FHelp.MenuTree.1.4.6.png?alt=media&#x26;token=6d806208-cff1-4a5b-b40e-031df20120d0" alt=""><figcaption></figcaption></figure>
 
@@ -89,15 +89,15 @@ Allerdings wird (1) dies Ihnen helfen, die Grundidee zu verstehen, und (2) wenn 
 
 #### **II) METHODE 2: FÜGEN SIE DIESES MENÜ ALS ABSCHNITT/BLOCK IM SHOPIFY-THEME HINZU**
 
-Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie es in Schritt 1 von Methode 1 erforderlich ist.
+Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie in Schritt 1 der Methode 1 erforderlich.
 
 Kopieren Sie die Einbettungs-ID dieses Menüs und fügen Sie sie in den Block mit dem Namen "Navi+ auf Abschnitt" in den Theme-Abschnitten ein. Sie können einen Titel hinzufügen, die volle Breite einstellen und den Rand für diesen Abschnitt nach dem Hinzufügen anpassen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
 <details><summary>Leitfaden zum Hinzufügen dieses Menüs als Abschnitt/Block im Shopify-Theme</summary>
-<p>Unten finden Sie einen detaillierten Leitfaden zum Einfügen eines Navi+-Menüs als Abschnitt/Block in Ihr Shopify-Theme. Diese Methode ermöglicht es Ihnen, das Menü auf eine standardisierte, von Shopify unterstützte Weise hinzuzufügen, obwohl sie nicht so flexibel ist wie die anderen von Navi+ bereitgestellten Methoden.</p>
-<p>Diese Methode gilt für <strong>Mega-Menüs</strong> und <strong>Grid-Menüs</strong>. Sie <strong>GILT NICHT</strong> für <strong>Tabbar</strong>, <strong>FAB</strong> oder <strong>Slide Menüs</strong>.</p>
+<p>Unten finden Sie einen detaillierten Leitfaden zum Einfügen eines Navi+-Menüs als Abschnitt/Block in Ihr Shopify-Theme. Diese Methode ermöglicht es Ihnen, das Menü auf eine standardmäßige, von Shopify unterstützte Weise hinzuzufügen, obwohl sie nicht so flexibel ist wie die anderen von Navi+ bereitgestellten Methoden.</p>
+<p>Diese Methode gilt für <strong>Mega Menüs</strong> und <strong>Grid Menüs</strong>. Sie <strong>GILT NICHT</strong> für <strong>Tabbar</strong>, <strong>FAB</strong> oder <strong>Slide Menüs</strong>.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>

@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "forwardable-extended".freeze
-  s.version = "2.6.0".freeze
+  s.version = "2.6.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.email = ["jordon@envygeeks.io".freeze]
   s.homepage = "http://github.com/envygeeks/forwardable-extended".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.6.2".freeze
+  s.rubygems_version = "3.4.10".freeze
   s.summary = "Forwardable with hash, and instance variable extensions.".freeze
 
-  s.installed_by_version = "3.7.1".freeze
+  s.installed_by_version = "3.4.10" if s.respond_to? :installed_by_version
 end

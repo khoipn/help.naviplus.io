@@ -13,12 +13,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /opt/homebrew/Cellar/ruby@3.2/3.2.10/include/ruby-3.2.0
+topdir = /Users/khoipham/.rbenv/versions/3.2.2/include/ruby-3.2.0
 hdrdir = $(topdir)
-arch_hdrdir = /opt/homebrew/Cellar/ruby@3.2/3.2.10/include/ruby-3.2.0/arm64-darwin25
+arch_hdrdir = /Users/khoipham/.rbenv/versions/3.2.2/include/ruby-3.2.0/arm64-darwin25
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/opt/homebrew/Cellar/ruby@3.2/3.2.10
+prefix = $(DESTDIR)/Users/khoipham/.rbenv/versions/3.2.2
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -31,10 +31,10 @@ sitehdrdir = $(rubyhdrdir)/site_ruby
 rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
-vendordir = $(DESTDIR)/opt/homebrew/lib/ruby/vendor_ruby
+vendordir = $(rubylibprefix)/vendor_ruby
 sitearchdir = $(sitelibdir)/$(sitearch)
 sitelibdir = $(sitedir)/$(ruby_version)
-sitedir = $(DESTDIR)/opt/homebrew/lib/ruby/site_ruby
+sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
 sitearchincludedir = $(includedir)/$(sitearch)
@@ -52,7 +52,7 @@ htmldir = $(docdir)
 infodir = $(datarootdir)/info
 docdir = $(datarootdir)/doc/$(PACKAGE)
 oldincludedir = $(DESTDIR)/usr/include
-includedir = $(prefix)/include
+includedir = $(SDKROOT)$(prefix)/include
 runstatedir = $(localstatedir)/run
 localstatedir = $(prefix)/var
 sharedstatedir = $(prefix)/com
@@ -88,10 +88,10 @@ CCDLFLAGS = -fno-common
 CFLAGS   = $(CCDLFLAGS) $(cflags)  -fno-common -pipe -std=c99 $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
-CPPFLAGS = -DJSON_GENERATOR -DHAVE_ARM_NEON_H -DJSON_ENABLE_SIMD -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@3/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
+CPPFLAGS = -DJSON_GENERATOR -DHAVE_ARM_NEON_H -DJSON_ENABLE_SIMD -I/opt/homebrew/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
 CXXFLAGS = $(CCDLFLAGS) -fdeclspec $(ARCH_FLAG)
-ldflags  = -L. -fstack-protector-strong -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@3/lib -L/opt/homebrew/opt/readline/lib
-dldflags = -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@3/lib -L/opt/homebrew/opt/readline/lib -Wl,-undefined,dynamic_lookup $(LIBRUBYARG_SHARED)
+ldflags  = -L. -fstack-protector-strong -L/opt/homebrew/opt/gmp/lib
+dldflags = -L/opt/homebrew/opt/gmp/lib -Wl,-undefined,dynamic_lookup $(LIBRUBYARG_SHARED)
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
 LDSHARED = $(CC) -dynamic -bundle
@@ -127,8 +127,8 @@ TOUCH = exit >
 #### End of system configuration section. ####
 
 preload = 
-libpath = . $(libdir) /opt/homebrew/opt/libyaml/lib /opt/homebrew/opt/openssl@3/lib /opt/homebrew/opt/readline/lib
-LIBPATH =  -L. -L$(libdir) -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@3/lib -L/opt/homebrew/opt/readline/lib
+libpath = . $(libdir)
+LIBPATH =  -L. -L$(libdir)
 DEFFILE = 
 
 CLEANFILES = mkmf.log

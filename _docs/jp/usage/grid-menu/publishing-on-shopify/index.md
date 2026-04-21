@@ -9,26 +9,26 @@ title: Shopifyでの公開
 
 ### ステップ2: (Shopify) ウェブサイトにメニューを公開します。
 
-#### **I) 方法1: このメニューをウェブサイトの特定の場所に挿入（前または後）するか、既存のメニューをCSSセレクターを使用して置き換えます。 (**&#x52;ECOMMENDED)
+#### **I) 方法1: このメニューをウェブサイトの特定の場所に挿入（前または後）するか、既存のメニューを置き換え、CSSセレクターを使用します。 (**&#x52;ECOMMENDED)
 
-#### I.1. App EmbedsでNavi+をオンにする
+#### I.1. アプリ埋め込みでNavi+をオンにする
 
-ステップ1: オンラインストアをクリックし、次にテーマをクリックします。ヒント: オンラインストアを右クリックして「新しいタブでリンクを開く」を選択すると、時間を節約できます。&#x20;
+ステップ1: オンラインストアをクリックし、次にテーマをクリックします。ヒント: オンラインストアを右クリックして「新しいタブでリンクを開く」を選択すると、時間を節約できます。
 
 ステップ2: メニューを公開したいテーマを選択します。  クリック: **カスタマイズ**
 
-* ウェブサイトが新しく、まだユーザーがいない場合は、心配せずにメニューを公開できます。訪問者に影響を与えることなく、いつでも簡単にオンまたはオフにできます。
-* ウェブサイトにすでに定期的なトラフィックがある場合は、より注意が必要です。最良の方法は、**複製テーマ**を作成し、そのバージョンでNavi+を最初にテストすることです。
+* あなたのウェブサイトが新しく、まだユーザーがいない場合は、心配せずにメニューを公開してください—訪問者に影響を与えることなく、いつでも簡単にオンまたはオフにできます。
+* あなたのウェブサイトにすでに定期的なトラフィックがある場合は、より注意が必要です。最良の方法は、**複製テーマ**を作成し、そのバージョンでNavi+を最初にテストすることです。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
-ステップ3: App embedsに移動し、「すべてのページでNavi+」を見つけてオンにします。
+ステップ3: アプリ埋め込みに移動し、「すべてのページでNavi+」を見つけてオンにします。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
 ステップ4: 変更を適用するために「保存」をクリックするのを忘れないでください。
 
-これらの4つのステップの後、Navi+はウェブサイトにインストールされ、表示の準備が整いました。ただし、プロセスはまだ完了していません。Navi+アプリタブに戻って、実際に**メニューを公開**をオンにします。
+これらの4つのステップの後、Navi+はあなたのウェブサイトにインストールされ、表示の準備が整いました。しかし、プロセスはまだ完了していません。Navi+アプリタブに戻って、実際に**メニューを公開**をオンにしてください。
 
 #### I.2. 表示設定を選択し、メニューを公開します。
 
@@ -36,7 +36,7 @@ title: Shopifyでの公開
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-ステップ2: トグルをオンにします "メニューを挿入/置き換え方法で公開".&#x20;
+ステップ2: トグルをオンにします "挿入/置き換え方法でメニューを公開する"。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
@@ -47,9 +47,9 @@ title: Shopifyでの公開
 <details><summary>このメニューをウェブサイトのメインの前に挿入する方法<strong>?</strong></summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FFdsoRiQZP0I26RofqljL%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=51fec431-31e7-4bce-8c22-50a84664ee65" alt=""><figcaption></figcaption></figure>
 
-<p>これを行うには、ウェブサイトのヘッダーのCSSセレクターを特定し、テキストボックスに入力します。人気のあるテーマのいくつかのCSSセレクターをすでに見つけており、以下にリストされています。</p>
+<p>これを行うには、単にウェブサイトのヘッダーのCSSセレクターを特定し、それをテキストボックスに入力します。私たちはすでに、あなたのためにいくつかの最も人気のあるテーマのCSSセレクターを見つけました。以下にリストされています。</p>
 <ol>
-<li>Shopifyの人気のある無料テーマのCSSセレクター.. Dawn、Sense、Savor、Horizonなど..&#x20;</li>
+<li>ShopifyのDawn、Sense、Savor、Horizonなどの人気のある無料テーマのCSSセレクター。</li>
 </ol>
 <pre class="codehilite"><code>main
 </code></pre>
@@ -57,7 +57,7 @@ title: Shopifyでの公開
 <ol>
 <li>このリストにない場合は、心配しないでください</li>
 </ol>
-<pre class="codehilite"><code>- Navi+のサポーターとチャットして、CSSセレクターを見つけるための即時サポートを受けることができます—これには数分しかかかりません。
+<pre class="codehilite"><code>- Navi+サポーターとチャットして、CSSセレクターを見つけるための即時サポートを受けることができます—これには数分しかかかりません。
 
 - または、次のトピックで自己支援ガイドに従うことができます（このトピックのすぐ後）。
 </code></pre>
@@ -68,8 +68,7 @@ title: Shopifyでの公開
 </details>
 
 <details><summary><strong>ウェブサイトでCSSセレクターを見つける方法?</strong></summary>
-<p>Navi+のサポーターとチャットして、即時サポートを受けることができます。自分でやる代わりに。\
-ただし、(1) これによりコアアイデアを理解するのに役立ち、(2) 自分でやりたい場合は、以下の指示に従ってください。</p>
+<p>Navi+サポーターとチャットして、即時サポートを受けることができますが、自分でやりたくない場合は、(1) これがコアアイデアを理解するのに役立ち、(2) 自分でやりたい場合は、以下の指示に従ってください。</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -89,15 +88,15 @@ title: Shopifyでの公開
 
 #### **II) 方法2: このメニューをShopifyテーマのセクション/ブロックとして追加する**
 
-この方法では、Shopifyテーマにブロック/セクションを追加することでメニューを挿入します。これは従来のアプローチであるため、詳細には説明しません。この方法では、方法1のステップ1で必要なように**「App EmbedsでNavi+をオンにする」**必要すらありません。
+この方法は、Shopifyテーマにブロック/セクションを追加することによってメニューを挿入します。これは従来のアプローチなので、詳細には説明しません。この方法では、方法1のステップ1で必要なように**「アプリ埋め込みでNavi+をオンにする」**必要すらありません。
 
-このメニューの埋め込みIDをコピーし、テーマセクションの"Navi+ on Section"というブロックに挿入します。追加後にタイトルを追加し、全幅を設定し、このセクションのマージンを調整できます。
+このメニューの埋め込みIDをコピーし、テーマセクションの"セクションにNavi+"という名前のブロックに挿入します。追加後にタイトルを追加し、全幅を設定し、このセクションのマージンを調整できます。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
 <details><summary>Shopifyテーマにこのメニューをセクション/ブロックとして追加するためのガイド</summary>
 <p>以下は、ShopifyテーマにNavi+メニューをセクション/ブロックとして挿入するための詳細なガイドです。この方法では、標準的でShopifyがサポートする方法でメニューを追加できますが、Navi+が提供する他の方法ほど柔軟ではありません。</p>
-<p>この方法は<strong>メガメニュー</strong>と<strong>グリッドメニュー</strong>に適用されます。<strong>タブバー</strong>、<strong>FAB</strong>、または<strong>スライドメニュー</strong>には<strong>適用されません</strong>。</p>
+<p>この方法は<strong>メガメニュー</strong>と<strong>グリッドメニュー</strong>に適用されます。これは<strong>タブバー</strong>、<strong>FAB</strong>、または<strong>スライドメニュー</strong>には<strong>適用されません</strong>。</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>

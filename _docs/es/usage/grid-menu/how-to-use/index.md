@@ -1,5 +1,5 @@
 ---
-description: '**Grid Menu** es un tipo de menú popular utilizado en muchas aplicaciones y sitios web de comercio electrónico. Típicamente muestra catálogos o características clave y a menudo se muestra en la página de inicio...'
+description: '**Grid Menu** es un tipo de menú popular utilizado en muchas aplicaciones y sitios web de comercio electrónico. Normalmente muestra catálogos o características clave y a menudo se muestra en la página de inicio...'
 lang: es
 layout: default
 permalink: /es/docs/usage/grid-menu/how-to-use/
@@ -7,7 +7,7 @@ title: ¿Cómo usar?
 ---
 # ¿Cómo usar?
 
-**Grid Menu** es un tipo de menú popular utilizado en muchas aplicaciones y sitios web de comercio electrónico. Típicamente muestra catálogos o características clave y a menudo se muestra en la página de inicio.
+**Grid Menu** es un tipo de menú popular utilizado en muchas aplicaciones y sitios web de comercio electrónico. Normalmente muestra catálogos o características clave y a menudo se muestra en la página de inicio.
 
 El menú Grid móvil ocupa espacio en la pantalla ya que flota en la pantalla. Como un menú de sección, se desplaza junto con la página.
 
@@ -56,7 +56,7 @@ Este es un árbol de menú de 1 nivel. Los menús Grid no admiten múltiples niv
 
 Pasarás la mayor parte de tu tiempo construyendo este árbol de menú para tu sitio web, ayudando a los clientes a encontrar el contenido que están buscando.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkeOMBYNpAOjrcWmKMGt%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=4d5e87b7-39d5-4869-9215-fcdfeb02ff63" alt="Catálogo: Un elemento de menú de nivel 1, mostrado como una pestaña en la barra de pestañas. Todo-Montaña: Elemento de menú de nivel 2 que aparece cuando tocas en Catálogo."><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkeOMBYNpAOjrcWmKMGt%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=4d5e87b7-39d5-4869-9215-fcdfeb02ff63" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
 #### 1.2. Interacciones básicas con el árbol de menú
 
@@ -64,10 +64,10 @@ Puedes arrastrar y soltar elementos del menú hacia arriba y hacia abajo o hacia
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FVNWPtc0JxdsboCeWXXDd%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=e9e733f9-bc80-4b60-87ef-d9cbbcfd70d4" alt=""><figcaption></figcaption></figure>
 
-Cuando pasas el cursor sobre cualquier elemento del menú, verás opciones adicionales: editar los detalles del elemento, eliminarlo del árbol de menú o copiar y pegar en otro lugar.
+Cuando pases el cursor sobre cualquier elemento del menú, verás opciones adicionales: editar los detalles del elemento, eliminarlo del árbol de menú o copiar y pegarlo en otro lugar.
 
 {% comment %}hint style="info" {% endcomment %}
-**Consejo:** Puedes copiar un elemento de menú de un menú a otro abriendo la aplicación Navi+ en dos pestañas del navegador.
+**Consejo:** Puedes copiar un elemento del menú de un menú a otro abriendo la aplicación Navi+ en dos pestañas del navegador.
 {% comment %}endhint{% endcomment %}
 
 #### 1.3. ¡IMPORTANTE! Elimina los elementos de menú de muestra y mantén solo la estructura que deseas.

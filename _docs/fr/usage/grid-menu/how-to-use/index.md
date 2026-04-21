@@ -1,5 +1,5 @@
 ---
-description: '**Grid Menu** est un type de menu populaire utilisé sur de nombreuses applications et sites web de commerce électronique. Il affiche généralement des catalogues ou des fonctionnalités clés et est souvent affiché sur la page d''accueil...'
+description: '**Grid Menu** est un type de menu populaire utilisé sur de nombreuses applications et sites web de commerce électronique. Il affiche généralement des catalogues ou des fonctionnalités clés et est souvent montré sur la page d''accueil...'
 lang: fr
 layout: default
 permalink: /fr/docs/usage/grid-menu/how-to-use/
@@ -7,20 +7,20 @@ title: Comment utiliser?
 ---
 # Comment utiliser?
 
-**Grid Menu** est un type de menu populaire utilisé sur de nombreuses applications et sites web de commerce électronique. Il affiche généralement des catalogues ou des fonctionnalités clés et est souvent affiché sur la page d'accueil.
+**Grid Menu** est un type de menu populaire utilisé sur de nombreuses applications et sites web de commerce électronique. Il affiche généralement des catalogues ou des fonctionnalités clés et est souvent montré sur la page d'accueil.
 
-Mobile  Grid menu prend de l'espace à l'écran puisqu'ils flottent sur l'écran. En tant que menu de section, ils défilent avec la page.
+Le menu Grid mobile prend de l'espace à l'écran puisqu'il flotte sur l'écran. En tant que menu de section, il défile avec la page.
 
 **Avantages clés :**
 
 * Fonctionne parfaitement sur mobile et desktop pour une expérience cohérente
 * Économise de l'espace et défile avec la page.
-* Offre plusieurs styles de présentation avec **images**, **grilles**, et **multi-niveaux** pour une expérience riche et professionnelle
+* Offre plusieurs styles de présentation avec **images**, **grilles** et **dispositions multi-niveaux** pour une expérience riche et professionnelle
 
 **FAQ :**
 
 <details><summary><strong>1. Je n'ai pas encore décidé d'utiliser la version gratuite ou payante. Puis-je essayer les modèles de menu professionnels ?</strong></summary>
-<p>Absolument ! Les groupes de menus sont principalement là pour aider les débutants à éviter de se sentir submergés par des fonctionnalités avancées dans Navi+ 😄. La meilleure façon est d'essayer les menus professionnels pour explorer toutes les fonctionnalités et options de mise en page. Plus tard, vous pouvez simplement supprimer tout menu dont vous n'avez pas besoin ou que vous trouvez inapproprié.</p>
+<p>Absolument ! Les groupes de menus sont principalement là pour aider les débutants à éviter de se sentir submergés par des fonctionnalités avancées dans Navi+ 😄. La meilleure façon est d'essayer les menus professionnels pour explorer toutes les fonctionnalités et options de mise en page. Plus tard, vous pouvez simplement supprimer tout menu dont vous n'avez pas besoin ou que vous trouvez inadapté.</p>
 </details>
 
 <details><summary><strong>2. Créer un menu ici le fait-il apparaître sur mon site web immédiatement ?</strong></summary>
@@ -32,7 +32,7 @@ Mobile  Grid menu prend de l'espace à l'écran puisqu'ils flottent sur l'écran
 </details>
 
 <details><summary><strong>4. Dois-je créer un seul menu ou plusieurs ?</strong></summary>
-<p>Vous devriez créer <strong>plusieurs menus</strong>. Seul le <strong>menu actif</strong> s'affichera sur votre site, mais vous pouvez préparer de nombreuses versions — en sélectionnant différents modèles ou en clonant des menus. Les menus peuvent être configurés pour s'afficher/cacher en fonction du type de page (accueil, produit, collection...), de l'appareil (mobile ou desktop), ou des mots-clés d'URL. Alors allez-y et construisez des menus qui s'adaptent à chaque situation !</p>
+<p>Vous devriez créer <strong>plusieurs menus</strong>. Seul le menu <strong>actif</strong> s'affichera sur votre site, mais vous pouvez préparer de nombreuses versions — en sélectionnant différents modèles ou en clonant des menus. Les menus peuvent être configurés pour s'afficher/cacher en fonction du type de page (accueil, produit, collection...), de l'appareil (mobile ou desktop) ou des mots-clés d'URL. Alors allez-y et construisez des menus qui s'adaptent à chaque situation !</p>
 </details>
 
 ### Étape 1 : Modifier l'arbre de menu
@@ -41,7 +41,7 @@ Mobile  Grid menu prend de l'espace à l'écran puisqu'ils flottent sur l'écran
 
 L'**arbre de menu** est la partie la plus importante de tout menu — il définit la structure.
 
-Voici un exemple d'un arbre de menu de menu grille mobile :
+Voici un exemple d'un arbre de menu de menu grid mobile :
 
 ```
 Événements
@@ -52,7 +52,7 @@ Produits
 ... 
 ```
 
-C'est un arbre de menu à 1 niveau. Les menus Grille ne prennent pas en charge plusieurs niveaux de menu pour maintenir la simplicité..
+C'est un arbre de menu à 1 niveau. Les menus Grid ne supportent pas plusieurs niveaux de menu pour maintenir la simplicité..
 
 Vous passerez la plupart de votre temps à construire cet arbre de menu pour votre site web, aidant les clients à trouver le contenu qu'ils recherchent.
 
@@ -64,7 +64,7 @@ Vous pouvez faire glisser et déposer des éléments de menu vers le haut et ver
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FVNWPtc0JxdsboCeWXXDd%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=e9e733f9-bc80-4b60-87ef-d9cbbcfd70d4" alt=""><figcaption></figcaption></figure>
 
-Lorsque vous survolez n'importe quel élément de menu, vous verrez des options supplémentaires : modifier les détails de l'élément, le supprimer de l'arbre de menu, ou le copier et le coller ailleurs.
+Lorsque vous survolez un élément de menu, vous verrez des options supplémentaires : modifier les détails de l'élément, le supprimer de l'arbre de menu, ou le copier et le coller ailleurs.
 
 {% comment %}hint style="info" {% endcomment %}
 **Astuce :** Vous pouvez copier un élément de menu d'un menu à un autre en ouvrant l'application Navi+ dans deux onglets de navigateur.
@@ -81,14 +81,14 @@ Si vous aimez ces fonctionnalités avancées, envisagez de passer à un plan Bus
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
-**Astuce importante :** Lorsque la confirmation de suppression apparaît, activez « Ne demandez plus la prochaine fois » pour supprimer plus rapidement.
+**Astuce importante :** Lorsque la confirmation de suppression apparaît, activez « Ne pas demander à nouveau la prochaine fois » pour supprimer plus rapidement.
 {% comment %}endhint{% endcomment %}
 
 #### 1.4. Ajouter des éléments de menu à l'arbre de menu
 
 Pour ajouter un élément de menu, vous avez deux options :
 
-**Option 1&#x20;**<mark style="background-color:$warning;">**(Non recommandé si vous êtes nouveau dans Navi+)**</mark>**:** Cliquez sur « Ajouter un menu » pour insérer un élément de menu vide à la fin de l'arbre de menu. Cette méthode nécessite une bonne compréhension des paramètres des éléments de menu, que nous aborderons ci-dessous. Cela peut sembler écrasant au début, donc vous pouvez explorer cela plus tard.
+**Option 1&#x20;**<mark style="background-color:$warning;">**(Non recommandé si vous êtes nouveau dans Navi+)**</mark>** :** Cliquez sur « Ajouter un menu » pour insérer un élément de menu vide à la fin de l'arbre de menu. Cette méthode nécessite une bonne compréhension des paramètres des éléments de menu, que nous aborderons ci-dessous. Cela peut sembler écrasant au début, donc vous pouvez explorer cela plus tard.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 

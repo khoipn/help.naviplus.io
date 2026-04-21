@@ -55,11 +55,11 @@ Plataforma: **Solo Móvil**
 
 #### 4. Slide Menu (Hamburger Menu)
 
-Un panel que se desliza desde el lado izquierdo o derecho de la pantalla, a menudo utilizado para contenido secundario o de utilidad como:
+Un panel deslizante desde el lado izquierdo o derecho de la pantalla, a menudo utilizado para contenido secundario o utilitario como:
 
 * Información de cuenta, políticas, páginas de soporte
 * Categorías de productos de acceso menos frecuente
-* Enlaces adicionales como “Acerca de nosotros”, “Contacto” o “Blog”
+* Enlaces adicionales como “About Us,” “Contact,” o “Blog”
 
 Plataforma: **Escritorio (no común) y Móvil (Extremadamente popular)**
 
@@ -73,8 +73,8 @@ Un botón o menú flotante fijado a una esquina de la pantalla (generalmente en 
 
 Ideal para:
 
-* Botones de contacto rápidos (Chat, Línea directa, Zalo, Messenger)
-* Acciones clave (CTAs) como “Comprar ahora” o “Iniciar prueba gratuita”
+* Botones de contacto rápidos (Chat, Hotline, Zalo, Messenger)
+* Acciones clave (CTAs) como “Buy Now” o “Start Free Trial”
 * Aumentar conversiones sin ocupar demasiado espacio
 
 Plataforma: **Escritorio (popular) y Móvil (Extremadamente popular)**
@@ -83,7 +83,7 @@ Plataforma: **Escritorio (popular) y Móvil (Extremadamente popular)**
 
 ***
 
-#### 6. Grid Menu 
+#### 6. Grid Menu
 
 El Grid Menu muestra elementos de navegación en un diseño de cuadrícula, permitiendo a los usuarios ver múltiples categorías a la vez — cada una como un mosaico cuadrado con un ícono o imagen.
 
@@ -91,7 +91,7 @@ Este estilo funciona especialmente bien para:
 
 * Páginas de inicio móviles o tabletas y sub-mega menús
 * Colecciones de productos con 6–12 categorías
-* Crear una experiencia visual limpia, similar a una aplicación
+* Crear una experiencia visual limpia y similar a una aplicación
 
 Plataforma: **Solo Móvil (Popular)**
 

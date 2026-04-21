@@ -24,7 +24,7 @@
   url: /docs/line-1/
 - children:
   - processed_path: demo/1click-live-demo
-    title: 1Click live demo
+    title: Demonstração ao vivo 1Click
     url: /docs/demo/1click-live-demo/
   processed_path: demo
   title: Demonstração

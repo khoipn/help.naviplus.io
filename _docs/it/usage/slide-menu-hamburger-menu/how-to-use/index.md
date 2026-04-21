@@ -12,13 +12,13 @@ title: Come usare?
 **Vantaggi principali:**
 
 * Sostituisce completamente il semplice menu predefinito di Shopify
-* Offre più stili di presentazione con **immagini**, **griglie** e layout **multi-livello** per un'esperienza ricca e professionale
+* Offre molteplici stili di presentazione con **immagini**, **griglie** e layout **multi-livello** per un'esperienza ricca e professionale
 * Funziona senza problemi sia su mobile che su desktop per un'esperienza coerente
 
 **FAQ:**
 
 <details><summary><strong>1. Non ho deciso se usare la versione gratuita o quella a pagamento. Posso provare i modelli di menu professionali?</strong></summary>
-<p>Assolutamente! I gruppi di menu servono principalmente ad aiutare i principianti a non sentirsi sopraffatti dalle funzionalità avanzate di Navi+ 😄. La cosa migliore è provare i menu professionali per esplorare tutte le funzionalità e le opzioni di layout. In seguito, puoi semplicemente eliminare qualsiasi menu di cui non hai bisogno o che trovi inadeguato.</p>
+<p>Assolutamente! I gruppi di menu servono principalmente ad aiutare i principianti a non sentirsi sopraffatti dalle funzionalità avanzate in Navi+ 😄. Il modo migliore è provare i menu professionali per esplorare tutte le funzionalità e le opzioni di layout. In seguito, puoi semplicemente eliminare qualsiasi menu di cui non hai bisogno o che trovi inadeguato.</p>
 </details>
 
 <details><summary><strong>2. Creare un menu qui lo fa apparire subito sul mio sito web?</strong></summary>
@@ -60,9 +60,9 @@ Di più...
 
 Questo è un albero del menu a 3 livelli. Il livello 1 include **Slide banner**, **Deal of the Day**, 
 [**Catalogo + All-Mountain + Freestyle + Altri prodotti], Blog** e **Di più..**. 
-Il Catalogo fungerà da nome di gruppo. **All-Mountain** è anche un elemento di menu di livello 1, con tre sottomenu di livello 2: **Cruise Flex,** **Balance Ride** e **Other all-mountain.**&#x20;
+Il Catalogo fungerà da nome di gruppo. **All-Mountain** è anche un elemento di menu di livello 1, con tre sottomenu di livello 2: **Cruise Flex,** **Balance Ride** e **Other all-mountain.**
 
-Trascorrerai la maggior parte del tuo tempo a costruire questo albero del menu per il tuo sito web, aiutando i clienti a trovare i contenuti che cercano.&#x20;
+Trascorrerai la maggior parte del tuo tempo a costruire questo albero del menu per il tuo sito web, aiutando i clienti a trovare i contenuti che cercano.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 

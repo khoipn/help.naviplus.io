@@ -3,9 +3,9 @@ description: '**Slide Menu**—auch bekannt als Hamburger Menu, Sidebar Menu ode
 lang: de
 layout: default
 permalink: /de/docs/usage/slide-menu-hamburger-menu/how-to-use/
-title: Wie benutzt man?
+title: Wie man es benutzt?
 ---
-# Wie benutzt man?
+# Wie man es benutzt?
 
 **Slide Menu**—auch bekannt als Hamburger Menu, Sidebar Menu oder Drawer Menu—wird häufig auf Shopify-Websites verwendet, indem das Desktop-Menü für mobile Geräte angepasst wird. Typischerweise ist dieses Standardmenü einfach, ohne Bilder oder erweiterte Layouts. Navi+ bietet einen vollständigen Ersatz für dieses grundlegende Standardmenü.
 
@@ -48,7 +48,7 @@ Katalog
 All Mountain  
    - Cruise Flex  
    - Balance Ride
-   - Andere All-Mountain
+   - Other all-mountain
         - Level 3 Menüpunkt
 Freestyle  
    - Park Board  
@@ -59,14 +59,14 @@ Mehr...
 ```
 
 Dies ist ein 3-stufiger Menübaum. Stufe 1 umfasst **Slide banner**, **Deal of the Day**, 
-[**Katalog + All-Mountain + Freestyle + Andere Produkte], Blogs** und **Mehr..**.  
-Katalog fungiert als Gruppenname. **All-Mountain** ist ebenfalls ein Menüpunkt der Stufe 1, mit drei Untermenüs der Stufe 2: **Cruise Flex,** **Balance Ride** und **Andere All-Mountain.**&#x20;
+[**Katalog + All-Mountain + Freestyle + Andere Produkte], Blogs** und **Mehr..**. 
+Katalog fungiert als Gruppenname. **All-Mountain** ist ebenfalls ein Menüpunkt der Stufe 1, mit drei Untermenüs der Stufe 2: **Cruise Flex,** **Balance Ride** und **Other all-mountain.**
 
-Sie werden die meiste Zeit damit verbringen, diesen Menübaum für Ihre Website zu erstellen, um den Kunden zu helfen, die Inhalte zu finden, die sie suchen.&#x20;
+Sie werden die meiste Zeit damit verbringen, diesen Menübaum für Ihre Website zu erstellen, um den Kunden zu helfen, die Inhalte zu finden, die sie suchen.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="Katalog: Ein Menüpunkt der Stufe 1, der als Tab in der Tabbar angezeigt wird. All-Mountain: Menüpunkt der Stufe 2, der erscheint, wenn Sie auf Katalog tippen."><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FiLkKHBvckAjUmgqjoEyu%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=63628235-a03f-47b8-b0dc-eb27512ac21e" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FnNyXxyermApo9zO1eTgy%2FHelp.MenuTree.1.1.1.png?alt=media&#x26;token=0cd15617-75b0-469d-9170-f10158b85a07" alt="Cruise Flex, Balance Ride: Menüpunkt der Stufe 3, der erscheint, wenn Sie auf All-Mountain tippen."><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FnNyXxyermApo9zO1eTgy%2FHelp.MenuTree.1.1.1.png?alt=media&#x26;token=0cd15617-75b0-469d-9170-f10158b85a07" alt="Cruise Flex, Balance Ride: Level 3 menu item that appears when you tap on All-Mountain."><figcaption></figcaption></figure>
 
 #### 1.2. Grundlegende Interaktionen mit dem Menübaum
 
@@ -91,7 +91,7 @@ Wenn Sie diese erweiterten Funktionen mögen, sollten Sie ein Upgrade auf einen 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
-**Wichtiger Tipp:** Wenn die Bestätigung zum Löschen erscheint, aktivieren Sie „Nächstes Mal nicht mehr fragen“, um schneller zu löschen.
+**Wichtiger Tipp:** Wenn die Bestätigung zum Löschen erscheint, aktivieren Sie „Beim nächsten Mal nicht mehr fragen“, um schneller zu löschen.
 {% comment %}endhint{% endcomment %}
 
 #### 1.4. Menüelemente zum Menübaum hinzufügen

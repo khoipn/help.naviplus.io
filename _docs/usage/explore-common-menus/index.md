@@ -82,7 +82,7 @@ Platform: **Desktop (polular) and Mobile (Extremely polular)**
 
 ***
 
-#### 6. Grid Menu&#x20;
+#### 6. Grid Menu
 
 The Grid Menu displays navigation items in a grid layout, allowing users to view multiple categories at once — each as a square tile with an icon or image.
 

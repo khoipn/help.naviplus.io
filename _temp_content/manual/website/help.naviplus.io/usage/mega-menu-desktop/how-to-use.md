@@ -79,7 +79,7 @@ Skateboarding
 This is a 3-level menu tree. Level 1 includes **Menu**, **Categories, Alphabets, Skateboarding...** and **More..**.\
 **Skateboarding** has 5 level-2 submenus: **Components, Desks, Completes** (Consists some level-3 menu submenus: **Hats, Burton Lunchlap Earflap Hat**...)
 
-You’ll spend most of your time building this menu tree for your website, helping customers find the content they’re looking for.&#x20;
+You’ll spend most of your time building this menu tree for your website, helping customers find the content they’re looking for.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJdoP60xMLS1qPJRoP1NB%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=abcbf81d-d5d6-4e08-89a5-8409c9d9608d" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
@@ -149,7 +149,7 @@ Do you find this type of menu difficult to use? You’re right! But the results 
 
 If you remove the **“Is Multi-Column menu”** attribute from the level-1 menu item, everything will revert to the original state.
 
-#### Why do you need the **“Dropdown width when expanded”** attribute?
+**Why do you need the “Dropdown width when expanded” attribute?**
 
 By default, when using the **“Is Multi-Column menu item”** attribute, the submenu (dropdown) expands to full screen width (or based on the container size, usually 1280, 1366, 1440, or 100% — configurable in the *Advanced* tab).\
 However, with such a wide area, you may not always have enough content or ideas to fill the space.
