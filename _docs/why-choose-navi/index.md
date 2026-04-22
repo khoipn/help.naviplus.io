@@ -1,85 +1,83 @@
 ---
-description: Most merchants build their store with full intention — every product, every image, every word carefully chosen.
+description: Most merchants put careful thought into every part of their store.
 layout: default
 permalink: /docs/why-choose-navi/
 title: Why choose Navi+?
 ---
 # Why choose Navi+?
 
-Most merchants build their store with full intention — every product, every image, every word carefully chosen.
+Most merchants put careful thought into every part of their store.
 
-But when it comes to navigation, they accept whatever the theme provides. A generic menu built by a developer who has never met their customers, for a store that isn't theirs.
+Every product. Every image. Every word.
 
-**Navi+ exists to change that.**
+But when it comes to navigation — they accept whatever the theme provides. A generic menu built by a developer who has never met their customers, for a store that isn't theirs.
 
-![Web Demo Mobile](https://naviplus.b-cdn.net/naviplus/images/web-demo-mobile.webp "Web Demo Mobile")
+Nobody asked:
+
+* When a visitor lands on mobile — what's the first thing they see?
+* With 200 products in the catalog — can someone find the right one in 10 seconds?
+* A flash sale is running — does the menu actually lead people there?
+
+**That's the gap Navi+ was built to close.**
 
 ***
 
 ### Navigation is a strategic decision, not a technical detail
 
-Your theme builds the structure. But navigation answers a different question entirely:
+Your theme handles layout and design. But navigation answers a completely different question:
 
 > *Where do you want your customers to go — and in what order?*
 
 That decision belongs to you, not the theme developer. And it directly affects whether visitors find what they're looking for, explore more, and buy.
 
-A well-designed navigation means customers stay longer, discover more, and convert. A default menu means they leave.
+Navi+ gives merchants on any platform — Shopify, WordPress, Wix, Webflow, and more — a way to build navigation that reflects their own strategy, their brand, and their customers. No code. No compromise.
 
 ***
 
-### 1. Build the navigation your store actually needs
+### Every navigation type. One app.
 
-Navi+ gives you every navigation type in one place — Tab Bar, Mega Menu, Slide Menu, Grid Menu, and FAB — so you can match the right format to the right context.
+Different contexts call for different navigation. A mobile shopper behaves differently from a desktop visitor. A fashion store needs different wayfinding than a tech catalog.
 
-* **Tab Bar** — fixed bottom navigation for mobile visitors
-* **Mega Menu** — rich desktop menus with columns, images, and links
-* **Slide Menu** — multi-level panels for deep catalogs
-* **Grid Menu** — visual browsing for category-heavy stores
-* **FAB / Floating Menu** — quick access to chat, support, and actions
+Navi+ includes five navigation formats you can use independently or together:
 
-Not "pick one and live with it." Use them together — like an architect, not a user.
+| Type           | Best for                                                        |
+| -------------- | --------------------------------------------------------------- |
+| **Tab Bar**    | Fixed bottom nav for mobile — always visible, always accessible |
+| **Mega Menu**  | Rich desktop menus with columns, images, and featured links     |
+| **Slide Menu** | Multi-level panels for deep catalogs and complex hierarchies    |
+| **Grid Menu**  | Visual browsing for category-heavy or image-first stores        |
+| **FAB**        | Floating quick access — chat, WhatsApp, support, custom actions |
 
-See it in action: [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io")
+Not "pick one and live with it." Use them together — matched to the right context, the right device, the right customer.
+
+See it live: [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io")
 
 ![Web Demo Desktop](https://naviplus.b-cdn.net/naviplus/images/web-demo-desktop.webp "Web Demo Desktop")
 
 ***
 
-### 2. No code. No expensive themes. No compromise.
+### Works on any theme. Live in minutes.
 
-Navi+ works on top of any existing theme — free or paid — on Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace, and more.
+Navi+ runs as an independent layer on top of your existing theme — free or paid. You don't need to switch themes, hire a developer, or touch a single line of code.
 
-You don't need to buy a premium theme to get a premium navigation experience. With ready-made templates reviewed by UX designers, you can go live in minutes.
+Ready-made templates designed by UX professionals get you live in under 2 minutes. Support tools — WhatsApp, chat buttons, social links, call actions — integrate directly inside Navi+, so your store stays clean and fast without stacking extra apps.
 
-All support tools — chat buttons, WhatsApp, social sharing, call links — integrate directly inside Navi+, keeping your site clean and fast without stacking extra apps.
+One platform. Every navigation type. Total control.
 
 ***
 
-### 3. Fast enough that you'll never think about it
+### Fast enough to never think about
 
-Navigation must load instantly. It's the first thing visitors interact with — any delay affects the entire experience.
+Navigation is the first thing visitors interact with. Any delay affects the entire experience.
 
-Navi+ is built around this constraint. The backend runs on AWS; all front-end assets are delivered globally through [Cloudflare CDN](https://cloudflare.com "Cloudflare CDN"), cached at the edge closest to each visitor.
+Navi+ is built around this constraint. All front-end assets are delivered globally through [Cloudflare CDN](https://cloudflare.com "Cloudflare CDN"), cached at the edge closest to each visitor — and served independently from the backend, so your navigation stays visible even if anything else hiccups.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F169T8yUsdcuzMgMY7rfu%2Fnaviplus-cloudflare-ga.webp?alt=media&#x26;token=daa5d868-8d84-43d8-aa5f-5938294a1b04" alt=""><figcaption></figcaption></figure>
 
-Average load time: **\~52 ms** — typically faster than Shopify's own scripts. Cached after first load, so return visitors experience near-zero wait time anywhere in the world.
-
-In practice, Navi+ handles millions of requests daily across all customer stores with no performance drop. Backend interruptions are extremely rare (\~0.0001%) — and even when they occur, your store's display remains stable because the front-end is served independently from CDN.
+Average load time: **\~52 ms**. Cached after the first visit, so returning visitors experience near-zero wait time anywhere in the world.
 
 On Shopify, Navi+ is officially **Built for Shopify** — meeting Shopify's strict standards for speed, design quality, and reliability.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FbONCf1jstJBV5i227eYW%2Fimage.png?alt=media&#x26;token=b0ef8048-4cab-45b0-a605-560b276789e8" alt=""><figcaption></figcaption></figure>
-
 ***
 
-### 4. Your theme is not enough on its own
-
-Most themes are designed desktop-first and only *mobile-friendly* as an afterthought. Mobile gets less design attention — even though most visitors are on mobile.
-
-Navi+ was built specifically to close that gap. It sits as an independent layer on top of your theme, adding navigation that's intentional, responsive, and focused on conversion — without touching your theme's core.
-
-Your theme is the store. Navi+ is how people move through it.
-
-> *You've always known what you wanted. Now you can build it.*
+*Your store. Your path.*
