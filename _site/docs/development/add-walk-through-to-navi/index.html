@@ -1,0 +1,4113 @@
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0f2d1e" />
+
+
+<title>Add walk-through to Navi+ | Navi+ Help Center</title>
+
+
+<meta name="description" content="You’ll need to use a library like TourGuideJS, a JavaScript library that can be embedded into your website to add step-by-step walkthrough guides through an ..." />
+
+<!-- Canonical & hreflang alternates -->
+<link rel="canonical" href="http://localhost:4001/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="x-default" href="http://localhost:4001/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="en"      href="http://localhost:4001/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="vi"      href="http://localhost:4001/vi/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="fr"      href="http://localhost:4001/fr/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="de"      href="http://localhost:4001/de/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="zh-Hans" href="http://localhost:4001/zh-cn/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="ja"      href="http://localhost:4001/jp/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="it"      href="http://localhost:4001/it/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="pt-BR"   href="http://localhost:4001/pt-br/docs/development/add-walk-through-to-navi/" />
+<link rel="alternate" hreflang="es"      href="http://localhost:4001/es/docs/development/add-walk-through-to-navi/" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png"
+  href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png" />
+
+<!-- Open Graph -->
+<meta property="og:site_name"   content="Navi+ Help Center" />
+<meta property="og:locale"      content="en_US" />
+
+<meta property="og:type"        content="article" />
+
+<meta property="og:url"         content="http://localhost:4001/docs/development/add-walk-through-to-navi/" />
+<meta property="og:title"       content="Add walk-through to Navi+" />
+<meta property="og:description" content="You’ll need to use a library like TourGuideJS, a JavaScript library that can be embedded into your website to add step-by-step walkthrough guides through an ..." />
+
+<meta property="og:image"        content="http://localhost:4001/assets/images/naviplus-social-share.jpg" />
+<meta property="og:image:width"  content="1200" />
+<meta property="og:image:height" content="630" />
+
+
+<!-- Twitter -->
+<meta name="twitter:card"        content="summary_large_image" />
+<meta name="twitter:url"         content="http://localhost:4001/docs/development/add-walk-through-to-navi/" />
+<meta name="twitter:title"       content="Add walk-through to Navi+" />
+<meta name="twitter:description" content="You’ll need to use a library like TourGuideJS, a JavaScript library that can be embedded into your website to add step-by-step walkthrough guides through an ..." />
+
+<meta name="twitter:image" content="http://localhost:4001/assets/images/naviplus-social-share.jpg" />
+
+
+<meta name="twitter:creator" content="@NaviPlusOfficial" />
+
+
+<!-- JSON-LD: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Navi+ Help Center",
+  "url": "http://localhost:4001",
+  "description": "Navi+ Help Center — Official guides, tutorials and FAQs for Mega Menu, Tab Bar, Slide Menu, Sticky Navbar, FAB and Grid Menu on Shopify, WordPress, Wix and more.",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Navi+",
+    "url": "https://naviplus.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "http://localhost:4001/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+<!-- JSON-LD: TechArticle (doc pages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Add walk-through to Navi+",
+  "description": "You’ll need to use a library like TourGuideJS, a JavaScript library that can be embedded into your website to add step-by-step walkthrough guides through an ...",
+  "url": "http://localhost:4001/docs/development/add-walk-through-to-navi/",
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Navi+ Help Center",
+    "url": "http://localhost:4001"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Navi+",
+    "url": "https://naviplus.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp"
+    }
+  }
+}
+</script>
+
+
+<!-- Preconnect to CDNs -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+<link rel="preconnect" href="https://cdn.naviplus.app" crossorigin />
+<link rel="preconnect" href="https://live.naviplus.app" crossorigin />
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous" />
+
+<!-- Remixicon CSS -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="/theme/assets/css/theme-styles.css" />
+
+<script>
+  (() => {
+    try {
+      const raw = localStorage.getItem("favorites") || "[]";
+      const favorites = JSON.parse(raw);
+      const count = Array.isArray(favorites) ? favorites.length : 0;
+      if (count > 0) {
+        const maxItems = 6;
+        const rowHeight = 34;
+        const reserved = Math.min(count, maxItems) * rowHeight;
+        document.documentElement.classList.add("has-favorites");
+        document.documentElement.style.setProperty("--favorites-reserved-height", reserved + "px");
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag("js", new Date());
+  gtag("config", "G-1PWVMJYX4Z");
+</script>
+
+<!-- Insert this code to the <head> of website. (c) naviplus.io -->
+<script>
+  (window._navi_setting ||= []).push({ token: "NAVI733440" });
+</script>
+<script src="https://live.naviplus.app/start.js" async></script>
+<!-- Insert this code to the <head> of website -->
+
+    <link
+      rel="stylesheet"
+      href="/theme/assets/css/theme-styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/theme/assets/css/lightbox-styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/theme/assets/css/print-styles.css"
+      media="print"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+    />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    
+
+
+
+
+
+
+
+
+
+
+<header class="np-help-header">
+  <nav class="np-help-nav">
+
+    <!-- Mobile: sidebar toggle -->
+    <button class="np-help-sidebar-toggle d-md-none" type="button"
+      data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar"
+      aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Logo -->
+    <a href="/home/" class="np-help-logo">
+      <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+" height="28" />
+      <span class="np-help-logo-divider"></span>
+      <span class="np-help-logo-text">Help</span>
+    </a>
+
+    <!-- Nav links (generated by JS) -->
+    <ul class="np-help-links" id="main-navbar-nav-links"></ul>
+
+    <!-- Right side -->
+    <div class="np-help-right">
+      <!-- Search -->
+      <form class="np-help-search" role="search" autocomplete="off"
+        data-search-index-url="/search.json">
+        <i class="ri-search-line np-help-search-icon" aria-hidden="true"></i>
+        <input class="np-help-search-input" type="search"
+          placeholder="Search docs" aria-label="Search docs"
+          id="siteSearchInput" />
+        <div class="navbar-search-results list-group position-absolute top-100 start-0 w-100 shadow d-none"
+          id="siteSearchResults"></div>
+      </form>
+
+      <!-- CTA injected by JS here -->
+    </div>
+
+    <!-- Mobile hamburger (nav links toggle) -->
+    <button class="np-help-hamburger" id="np-help-hamburger-btn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+  </nav>
+
+  <!-- Mobile nav panel -->
+  <div class="np-help-mobile-nav" id="np-help-mobile-nav">
+    <ul class="np-help-mobile-links" id="main-navbar-nav-links-mobile"></ul>
+  </div>
+</header>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.getElementById("np-help-hamburger-btn");
+  const mobileNav = document.getElementById("np-help-mobile-nav");
+  if (hamburger && mobileNav) {
+    hamburger.addEventListener("click", function () {
+      mobileNav.classList.toggle("open");
+      hamburger.classList.toggle("open");
+    });
+  }
+});
+</script>
+
+    <div class="container-fluid flex-grow-1">
+      <div class="row">
+        <!-- Offcanvas Sidebar for Mobile -->
+        <div
+          class="offcanvas offcanvas-start bg-light sidebar-offcanvas d-md-none"
+          tabindex="-1"
+          id="offcanvasSidebar"
+          aria-labelledby="offcanvasSidebarLabel"
+        >
+          <div class="offcanvas-header shadow-sm border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasSidebarLabel">
+              Navi+ Help Center
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <!-- Sidebar content -->
+            <nav class="bg-light sidebar h-100">
+              <div class="position-sticky pt-3 h-100">
+                           
+
+
+<!-- Favorites Section (at the top) -->
+<h6
+  class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted"
+  style="margin-top: 0.5rem; margin-bottom: 0.25rem"
+>
+  FAVORITES
+</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem">
+  <!-- Favorites will be rendered here by JavaScript -->
+</ul>
+<div
+  class="favorites-separator"
+  style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0"
+></div>
+
+<!-- Main Navigation -->
+<ul class="nav flex-column">
+  <!-- Home Link -->
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      href="/home/"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <span class="sidebar-title-text flex-grow-1">Home</span>
+      </span>
+    </a>
+  </li>
+
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/getting-started/"
+      ><span class="sidebar-title-text flex-grow-1">Getting Started</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/why-choose-navi/"
+      ><span class="sidebar-title-text flex-grow-1">Why choose Navi+?</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/common-first-questions/"
+      ><span class="sidebar-title-text flex-grow-1">Common first questions</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/how-to-install-navi/"
+      ><span class="sidebar-title-text flex-grow-1">How to install Navi+</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/troubleshooting/"
+      ><span class="sidebar-title-text flex-grow-1">Troubleshooting</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/latest-update/"
+      ><span class="sidebar-title-text flex-grow-1">Latest Update</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-9"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-mobile-9"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Demo</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-mobile-9"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/demo/1click-live-demo/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >1Click live demo</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-10"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-mobile-10"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Usage</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-mobile-10"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/usage/explore-common-menus/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Explore common menus</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Tabbar (Bottom Navigation)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/tabbar-bottom-navigation/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / Woo / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-3"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Mega Menu (desktop)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-3"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-desktop/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-desktop/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-desktop/faq/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >FAQ</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-4"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Mega Menu (mobile)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-4"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-mobile/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-mobile/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-5"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-5"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Slide menu (Hamburger Menu)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-5"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/slide-menu-hamburger-menu/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/slide-menu-hamburger-menu/publishing-examples/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing examples</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-6"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-6"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >FAB - Floating Menu / Quick Access</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-6"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/fab-floating-menu-quick-access/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-7"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-7"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Grid Menu</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-7"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/grid-menu/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/grid-menu/responsive-grid-menu/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Responsive Grid Menu</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/grid-menu/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-8"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-8"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >General</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-8"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/tab-slide-group-menu-items-into-tabs/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Tab Slide — Group Menu Items into Tabs</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/apply-multi-language/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Apply multi-language</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/find-css-selector/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Find CSS Selector</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/z-index/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Z-index</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/apply-a-custom-font/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Apply a custom font</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/advanced-image-upload/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Advanced image upload</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/menu-depth/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Menu depth</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-9"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-9"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Shopify</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-9"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/shopify/use-the-multi-language-feature/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Use the multi-language feature.</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Optimize loading speed (Slide & Mega menus)</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/shopify/how-to-other-applications-work-with-naviplus/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Prevent Navi+ menus from overlapping other apps</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/usage/menu-structure-and-css/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Menu structure and CSS</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/usage/some-faqs-about-publishing-navi-menu/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Some FAQs about publishing Navi+ menu</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/usage/debug-mode-find-css-selectors/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Debug mode - Find CSS Selectors</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-11"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-mobile-11"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Integrations</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-mobile-11"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/integrations/integrating-navi-with-your-website-and-external-apps/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Integrating Navi+ with your website and external apps</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/integrations/the-html-and-css-structure-of-all-navi-menus/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >The HTML and CSS structure of all Navi+ menus</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-11-3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-11-3"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Chat tools</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-11-3"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/integrations/chat-tools/shopify-inbox/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopify Inbox</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/integrations/chat-tools/tidi-chat/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Tidi chat</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-11-4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-11-4"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Themes</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-11-4"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopify: Open the hamburger menu or cart, search panel</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-12"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-mobile-12"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Frequently Asked Questions</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-mobile-12"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-12-1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-12-1"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Customize User interface (UI)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-12-1"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Using built-in settings or custom CSS?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Remove menu item active state?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Align level 3 submenu in mega menu?</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-12-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-12-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Optimize speeds, images and UX</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-12-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Optimize images</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Optimize speed and improve the user experience (UX).</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >How to Transfer a Navi+ Menu to Another Navi+ Menu</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/how-does-navi-support-seo/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >How does Navi+ support SEO?</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ plans (Starter, Business & Elite)</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Why aren't Menu, Search, Cart panels working?</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/why-navi-not-display/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Why is Navi+ menu not displayed on my website?</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-14"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-14"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed d-none"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Development</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-14"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/development/menu-structure-and-css/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Menu structure and CSS</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/development/how-to-write-a-correct-css-code-in-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >How to write a correct CSS code in Navi+</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link active"
+            href="/docs/development/add-walk-through-to-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Add walk-through to Navi+</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-15"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-mobile-15"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Limitation</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-mobile-15"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Shopify Bottom Bar issue on Google App (iPhone)</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-17"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-mobile-17"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Resources</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-mobile-17"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/resources/privacy-policy/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Privacy Policy</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/resources/terms-and-condition/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Terms & Condition</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-18"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-mobile-18"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Partership</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-mobile-18"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/partership/earn-up-to-225-revshare-with-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Earn up to 22.5% RevShare with Navi+</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/partership/navi-care-or-design-your-menus-like-an-expert/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ Care | Design your menus like an expert</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+  
+</ul>
+
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Sidebar for Desktop/Tablet -->
+        <nav
+          class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar shadow-sm border-end"
+        >
+          <div class="position-sticky pt-3 h-100">
+                       
+
+
+<!-- Favorites Section (at the top) -->
+<h6
+  class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted"
+  style="margin-top: 0.5rem; margin-bottom: 0.25rem"
+>
+  FAVORITES
+</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem">
+  <!-- Favorites will be rendered here by JavaScript -->
+</ul>
+<div
+  class="favorites-separator"
+  style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0"
+></div>
+
+<!-- Main Navigation -->
+<ul class="nav flex-column">
+  <!-- Home Link -->
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      href="/home/"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <span class="sidebar-title-text flex-grow-1">Home</span>
+      </span>
+    </a>
+  </li>
+
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/getting-started/"
+      ><span class="sidebar-title-text flex-grow-1">Getting Started</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/why-choose-navi/"
+      ><span class="sidebar-title-text flex-grow-1">Why choose Navi+?</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/common-first-questions/"
+      ><span class="sidebar-title-text flex-grow-1">Common first questions</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/how-to-install-navi/"
+      ><span class="sidebar-title-text flex-grow-1">How to install Navi+</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/troubleshooting/"
+      ><span class="sidebar-title-text flex-grow-1">Troubleshooting</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/docs/latest-update/"
+      ><span class="sidebar-title-text flex-grow-1">Latest Update</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-9"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-desktop-9"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Demo</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-desktop-9"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/demo/1click-live-demo/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >1Click live demo</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-10"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-desktop-10"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Usage</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-desktop-10"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/usage/explore-common-menus/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Explore common menus</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Tabbar (Bottom Navigation)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/tabbar-bottom-navigation/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / Woo / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-3"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Mega Menu (desktop)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-3"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-desktop/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-desktop/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-desktop/faq/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >FAQ</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-4"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Mega Menu (mobile)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-4"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-mobile/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-mobile/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-5"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-5"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Slide menu (Hamburger Menu)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-5"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/slide-menu-hamburger-menu/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/slide-menu-hamburger-menu/publishing-examples/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing examples</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-6"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-6"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >FAB - Floating Menu / Quick Access</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-6"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/fab-floating-menu-quick-access/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-7"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-7"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Grid Menu</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-7"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/grid-menu/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >How to use?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/grid-menu/responsive-grid-menu/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Responsive Grid Menu</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/grid-menu/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publishing on Shopify</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Publish on WordPress / WooCommerce / Wix / Others</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-8"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-8"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >General</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-8"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/tab-slide-group-menu-items-into-tabs/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Tab Slide — Group Menu Items into Tabs</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/apply-multi-language/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Apply multi-language</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/find-css-selector/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Find CSS Selector</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/z-index/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Z-index</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/apply-a-custom-font/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Apply a custom font</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/advanced-image-upload/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Advanced image upload</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/general/menu-depth/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Menu depth</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-9"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-9"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Shopify</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-9"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/shopify/use-the-multi-language-feature/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Use the multi-language feature.</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Optimize loading speed (Slide & Mega menus)</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/usage/shopify/how-to-other-applications-work-with-naviplus/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Prevent Navi+ menus from overlapping other apps</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/usage/menu-structure-and-css/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Menu structure and CSS</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/usage/some-faqs-about-publishing-navi-menu/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Some FAQs about publishing Navi+ menu</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/usage/debug-mode-find-css-selectors/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Debug mode - Find CSS Selectors</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-11"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-desktop-11"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Integrations</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-desktop-11"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/integrations/integrating-navi-with-your-website-and-external-apps/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Integrating Navi+ with your website and external apps</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/integrations/the-html-and-css-structure-of-all-navi-menus/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >The HTML and CSS structure of all Navi+ menus</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-11-3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-11-3"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Chat tools</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-11-3"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/integrations/chat-tools/shopify-inbox/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopify Inbox</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/integrations/chat-tools/tidi-chat/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Tidi chat</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-11-4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-11-4"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Themes</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-11-4"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopify: Open the hamburger menu or cart, search panel</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-12"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-desktop-12"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Frequently Asked Questions</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-desktop-12"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-12-1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-12-1"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Customize User interface (UI)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-12-1"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Using built-in settings or custom CSS?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Remove menu item active state?</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Align level 3 submenu in mega menu?</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-12-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-12-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i
+                class="ri-folder-line sidebar-folder-icon-closed"
+              ></i>
+              <i
+                class="ri-folder-open-line sidebar-folder-icon-open d-none"
+              ></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Optimize speeds, images and UX</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-12-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Optimize images</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Optimize speed and improve the user experience (UX).</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >How to Transfer a Navi+ Menu to Another Navi+ Menu</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/how-does-navi-support-seo/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >How does Navi+ support SEO?</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ plans (Starter, Business & Elite)</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Why aren't Menu, Search, Cart panels working?</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/frequently-asked-questions/why-navi-not-display/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Why is Navi+ menu not displayed on my website?</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-14"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-14"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed d-none"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Development</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-14"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/development/menu-structure-and-css/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Menu structure and CSS</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/development/how-to-write-a-correct-css-code-in-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >How to write a correct CSS code in Navi+</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link active"
+            href="/docs/development/add-walk-through-to-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Add walk-through to Navi+</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-15"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-desktop-15"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Limitation</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-desktop-15"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Shopify Bottom Bar issue on Google App (iPhone)</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-17"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-desktop-17"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Resources</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-desktop-17"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/resources/privacy-policy/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Privacy Policy</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/resources/terms-and-condition/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Terms & Condition</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-18"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapse-desktop-18"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i
+          class="ri-folder-line sidebar-folder-icon-closed"
+        ></i>
+        <i
+          class="ri-folder-open-line sidebar-folder-icon-open d-none"
+        ></i>
+        <span class="sidebar-title-text flex-grow-1">Partership</span>
+      </span>
+    </a>
+    <div
+      class="collapse "
+      id="collapse-desktop-18"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/partership/earn-up-to-225-revshare-with-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Earn up to 22.5% RevShare with Navi+</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/docs/partership/navi-care-or-design-your-menus-like-an-expert/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ Care | Design your menus like an expert</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+  
+</ul>
+
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="col-12 col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
+          <div class="content-wrapper">
+            <h1 id="add-walk-through-to-navi">Add walk-through to Navi+</h1>
+
+<p>You’ll need to use a library like TourGuideJS, a JavaScript library that can be embedded into your website to add step-by-step walkthrough guides through an attribute format like &lt;div data-tg-tour=”&lt;span&gt;My first tour&lt;/span&gt;”&gt; … &lt;/div&gt;. It’s completely free. Follow the instructions below to add walkthroughs through the Navi+ menus, either for the entire menu or for individual menu items.</p>
+
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgmsAKbB1RrFhKxGHHznd%2Fimage.png?alt=media&#x26;token=a24149db-b3ac-456b-810e-3ffb7e0213e4" alt="" /><figcaption></figcaption></figure>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- Navi+ insert Tour Guide library ---&gt;
+&lt;script src="https://unpkg.com/@sjmc11/tourguidejs/dist/tour.js" crossorigin="anonymous" referrerpolicy="no-referrer"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="https://unpkg.com/@sjmc11/tourguidejs/dist/css/tour.min.css"&gt;
+ 
+&lt;script&gt;
+  setTimeout(function() {
+      const tg = new tourguide.TourGuideClient();
+      tg.start();        
+  }, 2000);
+&lt;/script&gt;
+&lt;!-- Navi+ insert Tour Guide library ---&gt;
+</code></pre></div></div>
+
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FZd2WXeOFi673MXis8P5Z%2Fimage.png?alt=media&#x26;token=66b7d8c5-5ece-40ec-87f9-4ef6f33d23b8" alt="" /><figcaption></figcaption></figure>
+
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F4T8gzFPxbRyPUMVGOKJc%2Fimage.png?alt=media&#x26;token=cff87c3b-d6e9-4430-8c21-419b7da019f9" alt="" /><figcaption></figcaption></figure>
+
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTQ1AYMdEbDyFvme90s9Z%2Fimage.png?alt=media&#x26;token=363f644e-6acd-4112-ae32-9eb9c7a1a81f" alt="" /><figcaption></figcaption></figure>
+                               
+<nav class="prev-next-nav" aria-label="Page navigation">
+  <div class="prev-next-col">
+    
+    <a class="prev-next-link prev-next-prev" href="/docs/development/how-to-write-a-correct-css-code-in-navi/">
+      <span class="prev-next-arrow">←</span>
+      <span class="prev-next-body">
+        <span class="prev-next-label">Back</span>
+        <span class="prev-next-title">How to write a correct CSS code in Navi+</span>
+      </span>
+    </a>
+    
+  </div>
+  <div class="prev-next-col">
+    
+    <a class="prev-next-link prev-next-next" href="/docs/limitation/">
+      <span class="prev-next-body">
+        <span class="prev-next-label">Next</span>
+        <span class="prev-next-title">Limitation</span>
+      </span>
+      <span class="prev-next-arrow">→</span>
+    </a>
+    
+  </div>
+</nav>
+ 
+ 
+          </div>
+
+          <!-- Table of Contents (Right sidebar) -->
+          <aside id="tableOfContents" class="d-none">
+            <div class="toc-title">ON THIS PAGE</div>
+          </aside>
+        </main>
+      </div>
+    </div>
+    <div class="article-actions">
+  <div class="article-actions-inner">
+    <button class="action-btn" onclick="window.print()" title="Print page">
+      <i class="ri-printer-line"></i>
+    </button>
+    <button class="action-btn" id="addFavoriteBtn" title="Add to Favorites">
+      <i class="ri-flag-line"></i>
+    </button>
+    <button class="action-btn" id="exportPdfBtn" title="Export to PDF">
+      <i class="ri-file-pdf-line"></i>
+    </button>
+    <a class="action-btn" id="emailSupportBtn" title="Email support">
+      <i class="ri-mail-line"></i>
+    </a>
+    <button class="action-btn" id="sharePageBtn" title="Share page">
+      <i class="ri-share-line"></i>
+    </button>
+  </div>
+</div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/theme/assets/js/sidebar.js"></script>
+    <script src="/theme/assets/js/navbar-links.js"></script>
+    <!-- New: Include navbar-links.js -->
+    <script src="/theme/assets/js/search.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (typeof navbarLinks === "undefined") return;
+
+        const chevronSVG = `<svg class="np-help-chevron" viewBox="0 0 16 16" fill="none">
+          <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>`;
+
+        function buildDropdownItem(linkData) {
+          if (linkData.divider) {
+            const d = document.createElement("div");
+            d.className = "np-help-dropdown-divider";
+            return d;
+          }
+          const a = document.createElement("a");
+          a.className = "np-help-dropdown-item";
+          a.href = linkData.url || "#";
+          if (linkData.target) { a.target = linkData.target; a.rel = "noopener noreferrer"; }
+          if (linkData.active) a.classList.add("active");
+          if (linkData.icon) {
+            const i = document.createElement("i");
+            i.className = linkData.icon;
+            if (linkData.iconColor) i.style.color = linkData.iconColor;
+            a.appendChild(i);
+          }
+          const span = document.createElement("span");
+          span.textContent = linkData.title;
+          a.appendChild(span);
+          return a;
+        }
+
+        function buildMegaItem(child) {
+          const a = document.createElement("a");
+          a.className = "np-help-mega-item";
+          a.href = child.url || "#";
+          if (child.target) { a.target = child.target; a.rel = "noopener noreferrer"; }
+          const iconDiv = document.createElement("div");
+          iconDiv.className = "np-help-mega-icon";
+          const i = document.createElement("i");
+          i.className = child.icon || "";
+          iconDiv.appendChild(i);
+          const textDiv = document.createElement("div");
+          textDiv.className = "np-help-mega-text";
+          const titleDiv = document.createElement("div");
+          titleDiv.className = "np-help-mega-title";
+          titleDiv.textContent = child.title;
+          const descDiv = document.createElement("div");
+          descDiv.className = "np-help-mega-desc";
+          descDiv.textContent = child.desc || "";
+          textDiv.appendChild(titleDiv);
+          textDiv.appendChild(descDiv);
+          a.appendChild(iconDiv);
+          a.appendChild(textDiv);
+          return a;
+        }
+
+        function buildTopItem(linkData) {
+          const li = document.createElement("li");
+          li.className = "np-help-nav-item";
+
+          if (linkData.mega && linkData.children && linkData.children.length > 0) {
+            const trigger = document.createElement("span");
+            trigger.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            trigger.innerHTML = linkData.title + chevronSVG;
+            li.appendChild(trigger);
+
+            const mega = document.createElement("div");
+            mega.className = "np-help-mega";
+            if (linkData.megaWidth) mega.style.width = linkData.megaWidth + "px";
+            const inner = document.createElement("div");
+            inner.className = "np-help-mega-inner";
+            if (linkData.megaHeader) {
+              const hdr = document.createElement("div");
+              hdr.className = "np-help-mega-header";
+              hdr.textContent = linkData.megaHeader;
+              inner.appendChild(hdr);
+            }
+            const grid = document.createElement("div");
+            grid.className = "np-help-mega-grid";
+            linkData.children.forEach((child) => grid.appendChild(buildMegaItem(child)));
+            inner.appendChild(grid);
+            mega.appendChild(inner);
+            li.appendChild(mega);
+          } else if (linkData.dropdown && linkData.children && linkData.children.length > 0) {
+            const trigger = document.createElement("span");
+            trigger.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            trigger.innerHTML = linkData.title + chevronSVG;
+            li.appendChild(trigger);
+
+            const drop = document.createElement("div");
+            drop.className = "np-help-dropdown";
+            const inner = document.createElement("div");
+            inner.className = "np-help-dropdown-inner";
+            linkData.children.forEach((child) => inner.appendChild(buildDropdownItem(child)));
+            drop.appendChild(inner);
+            li.appendChild(drop);
+          } else {
+            const a = document.createElement("a");
+            a.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            a.href = linkData.url || "#";
+            a.textContent = linkData.title;
+            if (linkData.target) { a.target = linkData.target; a.rel = "noopener noreferrer"; }
+            li.appendChild(a);
+          }
+          return li;
+        }
+
+        // Desktop nav
+        const desktopNav = document.getElementById("main-navbar-nav-links");
+        if (desktopNav) {
+          navbarLinks.forEach((link) => desktopNav.appendChild(buildTopItem(link)));
+        }
+
+        // Mobile nav (duplicate)
+        const mobileNav = document.getElementById("main-navbar-nav-links-mobile");
+        if (mobileNav) {
+          navbarLinks.forEach((link) => mobileNav.appendChild(buildTopItem(link)));
+        }
+
+        // Language switcher → inject into .np-help-right (before search)
+        if (typeof navbarLanguage !== "undefined") {
+          const search = document.querySelector(".np-help-search");
+          const langLi = buildTopItem(navbarLanguage);
+          langLi.className = "np-help-nav-item np-help-lang-item";
+          const right = document.querySelector(".np-help-right");
+          if (right && search) right.insertBefore(langLi, search);
+        }
+
+        // CTA → inject into .np-help-right
+        const right = document.querySelector(".np-help-right");
+        if (right) {
+          // "See demo" ghost button
+          if (typeof navbarCTADemo !== "undefined") {
+            const ghost = document.createElement("a");
+            ghost.className = "np-help-cta-ghost";
+            ghost.href = navbarCTADemo.url;
+            ghost.innerHTML = '<i class="ri-slideshow-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTADemo.text + '</span>';
+            if (navbarCTADemo.target) { ghost.target = navbarCTADemo.target; ghost.rel = "noopener noreferrer"; }
+            right.appendChild(ghost);
+          }
+          // "Get started" / "Dashboard" primary button
+          if (typeof navbarCTA !== "undefined") {
+            const isLoggedIn = sessionStorage.getItem("navi_isGlobalLogging") === "1";
+            const cta = document.createElement("a");
+            cta.className = "np-help-cta";
+            if (isLoggedIn) {
+              cta.href = "https://app.naviplus.io/";
+              cta.innerHTML = '<i class="ri-layout-grid-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">Dashboard</span>';
+            } else {
+              cta.href = navbarCTA.url;
+              cta.innerHTML = '<i class="ri-rocket-2-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTA.text + '</span>';
+            }
+            if (navbarCTA.target) { cta.target = navbarCTA.target; cta.rel = "noopener noreferrer"; }
+            right.appendChild(cta);
+          }
+        }
+      });
+    </script>
+    <script src="/theme/assets/js/lightbox.js"></script>
+    <script src="/theme/assets/js/article-actions.js"></script>
+    <script src="/theme/assets/js/favorites.js"></script>
+    <script src="/theme/assets/js/image-placeholder.js"></script>
+    <script src="/theme/assets/js/table-of-contents.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Decode double-encoded HTML entities from Jekyll (e.g. &amp;lt; → &lt;)
+        document.querySelectorAll("pre code").forEach(function (el) {
+          el.innerHTML = el.innerHTML
+            .replace(/&amp;lt;/g, "&lt;")
+            .replace(/&amp;gt;/g, "&gt;")
+            .replace(/&amp;amp;/g, "&amp;")
+            .replace(/&amp;#x26;/g, "&#x26;");
+        });
+        hljs.highlightAll();
+      });
+    </script>
+    <footer><p>
+  © 2026 by Navi+
+  <a href="https://naviplus.io" target="_blank"> Navi+</a>
+</p>
+</footer>
+  </body>
+</html>
