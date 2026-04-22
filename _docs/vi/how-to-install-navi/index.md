@@ -9,7 +9,9 @@ title: Cách cài đặt Navi+
 
 Bạn không cần phải biết về phát triển hoặc thiết kế để sử dụng Navi+. Đây là một phần mềm được xây dựng sẵn có thể dễ dàng nhúng vào trang web của bạn. Tất cả cấu hình — bao gồm các tính năng và thiết kế trực quan — được quản lý trực tiếp trên Navi+, mà không gây ra bất kỳ xung đột nào với hệ thống hiện có của bạn.
 
-***
+
+
+<div class="install-step" markdown="1">
 
 ### Bước 1: Cài đặt Ứng dụng
 
@@ -23,7 +25,11 @@ Vui lòng cài đặt ứng dụng chính thức từ liên kết dưới đây:
 2. Tạo một tài khoản miễn phí
 3. Đăng nhập và kết nối trang web của bạn theo hướng dẫn.
 
-***
+
+
+</div>
+
+<div class="install-step" markdown="1">
 
 ### Bước 2: Tạo Menu và Nhúng Chúng vào Trang Web của Bạn
 
@@ -42,3 +48,6 @@ Khi bạn đã đăng nhập, bạn có thể bắt đầu tạo menu cho trang 
 Mỗi loại menu có quy trình thiết lập riêng, được hướng dẫn đầy đủ từng bước bên trong bảng điều khiển của Navi+.
 
 Bạn cũng có thể sử dụng nhiều loại menu của Navi+ cùng một lúc trên các trang khác nhau — ví dụ, một Tabbar cho di động, một Mega Menu cho máy tính để bàn, và một Floating Button cho lời kêu gọi hành động hoặc khuyến mãi của bạn.
+
+
+</div>

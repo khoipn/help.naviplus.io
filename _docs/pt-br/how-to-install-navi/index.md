@@ -9,7 +9,9 @@ title: Como instalar o Navi+
 
 Você não precisa saber sobre desenvolvimento ou design para usar o Navi+. É um software pré-construído que pode ser facilmente incorporado ao seu site. Toda a configuração — incluindo recursos e design visual — é gerenciada diretamente no Navi+, sem causar qualquer conflito com seu sistema existente.
 
-***
+
+
+<div class="install-step" markdown="1">
 
 ### Passo 1: Instalar o Aplicativo
 
@@ -23,7 +25,11 @@ Por favor, instale o aplicativo oficial pelo link abaixo:\
 2. Crie uma conta gratuita
 3. Faça login e conecte seu site seguindo as instruções.
 
-***
+
+
+</div>
+
+<div class="install-step" markdown="1">
 
 ### Passo 2: Criar Menus e Incorporá-los ao Seu Site
 
@@ -42,3 +48,6 @@ Uma vez que você tenha feito login, você pode começar a criar menus para seu 
 Cada tipo de menu tem seu próprio processo de configuração, que é totalmente guiado passo a passo dentro do painel do Navi+.
 
 Você também pode usar vários tipos de menus do Navi+ ao mesmo tempo em diferentes páginas — por exemplo, um Tabbar para mobile, um Mega Menu para desktop, e um Floating Button para sua chamada à ação ou promoções.
+
+
+</div>
