@@ -121,21 +121,3 @@ It also works at **any menu level** — not just the main menu, but inside subme
 **Is there a limit on how many tabs I can have?** There's no hard limit, but we recommend keeping it to 3–6 tabs for the best experience on mobile screens.
 
 **Can I use Tab Slide inside a submenu?** Yes. Place Tab markers inside any submenu and the tab behavior will work at that level.
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

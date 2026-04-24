@@ -21,21 +21,3 @@ We understand that features and user experience are crucial for your customers, 
 #### Question 3: What happens if I exceed the limit on the Business plan (e.g., more than 500,000 Navi+ views/month)?
 
 As with the previous questions, Navi+ will not hide or remove any menu features. However, once the limit is exceeded, and after email notifications are sent to you to consider upgrading to the Elite plan, ads may be displayed on your menu until the start of a new monthly cycle.
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/navi+-plans-starter-business-and-elite.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

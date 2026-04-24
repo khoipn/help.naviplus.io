@@ -23,21 +23,3 @@ On desktop, swipe gestures are not common, so the Grid Menu is displayed with a 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FB2co4DVahpG0xfxrHG7Y%2FGrid%201.3.webp?alt=media&#x26;token=c6b2b6fd-1e34-4e66-975f-4a2ec9388ffa" alt=""><figcaption></figcaption></figure>
 
 This approach keeps your Grid Menu consistent across mobile and desktop, easy to manage, and simple to update—without maintaining two separate menu systems. You only need to design the Grid Menu once on mobile, and Navi+ takes care of the rest.
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/grid-menu/responsive-grid-menu.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

@@ -383,6 +383,14 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     # Process <details> tags and convert internal Markdown to HTML
     processed_md_content = process_details_tags(processed_md_content)
     
+    # Strip "Agent Instructions" block injected by source server
+    processed_md_content = re.sub(
+        r'\n*---\n+# Agent Instructions:.*',
+        '\n',
+        processed_md_content,
+        flags=re.DOTALL
+    )
+
     # Apply SEO enhancements
     processed_seo_md_content = add_image_and_link_seo_attributes(processed_md_content)
 

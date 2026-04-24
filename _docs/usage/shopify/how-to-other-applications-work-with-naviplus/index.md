@@ -52,21 +52,3 @@ The default z-index for the Navi+ menu is set to 50 for all, as we 'do not consi
 There's a challenging question: what z-index should you set up for your Navi+ menu to avoid overlapping as desired? If you have multiple Navi+ menus, you can arrange them according to your preferences without worrying – that's why we're building Navi+ to be as versatile as possible for current 'floating applications' on Shopify.
 
 If you need to set up the z-index for your Navi+ menu to handle conflicts with other apps, you can search for your z-index from a minimum of 0 to a maximum of 2,147,483,647. This may seem a bit difficult, but it's the easiest and best way because the z-index won't affect your interface display other than the issue you're facing. If you're experienced with CSS and HTML debugging – this is easy, just turn on inspect mode to see what z-index the conflicting app has. Or, the easiest way, simply click on the Crisp chat icon to chat with a Navi+ advisor; we'd be happy to assist you with this issue.
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

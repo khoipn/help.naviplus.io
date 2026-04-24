@@ -138,21 +138,3 @@ However, with such a wide area, you may not always have enough content or ideas 
 <p>In this case, you can limit the submenu width (individually for each Multi-Column menu item) to avoid an empty or unbalanced look.</p>
 <p><strong>Example:</strong> You can create a menu with a width of 700px and two columns at 6/12 each. This way, you still get a spacious layout without wasting too much screen real estate.</p>
 </details>
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-desktop/how-to-use.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

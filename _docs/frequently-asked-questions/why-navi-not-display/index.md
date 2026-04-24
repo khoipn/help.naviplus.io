@@ -25,21 +25,3 @@ To display the Navi+ menu on your website, there are two clear options:
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Ff8mpogKCx9fpCRbGCKPp%2F005.png?alt=media&#x26;token=7180be60-03a6-4fc3-8edc-62aeae5af4f9" alt=""><figcaption><p>Publish on mobile/desktop</p></figcaption></figure>
 
 <br>
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-navi-not-display.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

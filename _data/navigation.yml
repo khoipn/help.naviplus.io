@@ -1,5 +1,3 @@
-- title: --
-  type: separator
 - processed_path: getting-started
   title: Getting Started
   url: /docs/getting-started/
@@ -242,9 +240,6 @@
   title: line
   url: /docs/line-2/
 - children:
-  - processed_path: development/menu-structure-and-css
-    title: Menu structure and CSS
-    url: /docs/development/menu-structure-and-css/
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: How to write a correct CSS code in Navi+
     url: /docs/development/how-to-write-a-correct-css-code-in-navi/

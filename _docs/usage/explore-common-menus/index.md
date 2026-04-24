@@ -123,21 +123,3 @@ You don't have to pick just one. The best-performing stores layer multiple menu 
 <details><summary>Can I import my existing menu into Navi+?</summary>
 <p>Yes. Navi+ supports AI-assisted import — but you'll need to adjust the result. Here's why: most websites today have a single Mega Menu that automatically collapses into a Hamburger Menu on mobile. Navi+ gives you specialized menu types instead. You'll need to redistribute your content across the right types to get the best experience for your customers.</p>
 </details>
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/explore-common-menus.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
