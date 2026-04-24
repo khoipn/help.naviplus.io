@@ -9,7 +9,7 @@ title: 隐私政策
 
 *最后更新：2024年10月*
 
-### 1. 引言
+### 1. 介绍
 
 我们尊重您的隐私。\
 本隐私政策解释了**Navi+**（“我们”，“应用程序”，“服务”）在您使用Navi+产品和服务时如何收集、使用和保护个人信息，这些产品和服务在**Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace**等平台以及其他自托管网站上提供。
@@ -90,7 +90,7 @@ title: 隐私政策
 * 请求更正或删除您的信息。
 * 撤回同意或反对进一步的数据处理。
 
-要行使这些权利，请联系我们：**<khoipn@naviplus.io>**
+要行使这些权利，请通过以下方式与我们联系：**<khoipn@naviplus.io>**
 
 ***
 
@@ -127,3 +127,20 @@ title: 隐私政策
 如果您对本隐私政策有任何问题、担忧或请求，请联系：\
 **电子邮件：** <khoipn@naviplus.io>\
 **网站：** <https://naviplus.io>
+
+---
+
+# 代理指令：查询此文档
+
+如果您需要本页面中未直接提供的额外信息，您可以通过提问动态查询文档。
+
+在当前页面URL上执行HTTP GET请求，使用`ask`查询参数：
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<question>
+```
+
+问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。
+
+当答案未在当前页面中明确存在时，您需要澄清或获取额外上下文，或希望检索相关文档部分时，请使用此机制。

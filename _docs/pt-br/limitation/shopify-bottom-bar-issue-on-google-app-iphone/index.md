@@ -20,7 +20,7 @@ Esse problema ocorre apenas no Google App e **não é causado pelo Navi+**. Abai
 O problema ocorre apenas quando:
 
 * O site está rodando em **Shopify**
-* Há uma **Barra Inferior** (Navi+ ou qualquer outro app), ou um **Botão de Ação Flutuante (FAB)** como widgets de chat, botões de fidelidade, etc.
+* Há uma **Barra Inferior** (Navi+ ou qualquer outro aplicativo), ou um **Botão de Ação Flutuante (FAB)** como widgets de chat, botões de fidelidade, etc.
 * O usuário abre o site **via o Google App no iPhone** (geralmente pesquisando e tocando no site)
 
 O problema **não** ocorre ao abrir o site usando:
@@ -41,7 +41,7 @@ O Google App usa uma maneira especial de renderizar sites (WebView da Apple). Es
 
 * Uma Barra Inferior fixa
 * HTML ou UI gerados dinamicamente por JavaScript
-* Layouts complexos como Shopify (múltiplas camadas de contêiner e seções que mudam constantemente)
+* Layouts complexos como Shopify (múltiplas camadas de contêiner e seções em constante mudança)
 
 Quando essas condições ocorrem, o Google App pode calcular incorretamente a altura real da viewport e criar um **preenchimento inferior falso**.
 
@@ -54,7 +54,7 @@ Quando essas condições ocorrem, o Google App pode calcular incorretamente a al
 Não.
 Isso é um bug inerente do **Google App no iPhone**, e existe há muitos anos.
 
-Mesmo que o Navi+ esteja desativado, outros aplicativos Shopify que exibem barras inferiores ou FABs ainda experimentam o mesmo problema dentro do Google App.
+Mesmo se o Navi+ estiver desativado, outros aplicativos Shopify que exibem barras inferiores ou FABs ainda experimentam o mesmo problema dentro do Google App.
 
 ***
 
@@ -115,3 +115,20 @@ Esta mensagem é destinada a usuários não técnicos:
 ✔️ Um bug de exibição no Google App no iPhone
 ✔️ O Navi+ minimiza o problema para que apareça apenas uma vez e depois desapareça
 ✔️ Safari/Chrome estão totalmente isentos
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/limitation/shopify-bottom-bar-issue-on-google-app-iphone.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

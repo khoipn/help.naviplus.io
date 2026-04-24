@@ -37,3 +37,21 @@ Après ces 4 étapes, Navi+ a été installé sur votre site web et est prêt à
 Étape 2 : Choisissez les paramètres d'affichage puis PUBLIER LE MENU.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instructions pour l'agent : Interrogation de cette documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

@@ -13,7 +13,7 @@ title: Điều Khoản & Điều Kiện
 
 Chào mừng bạn đến với **Navi+** (“chúng tôi”, “của chúng tôi”).\ Những Điều Khoản Dịch Vụ (“Điều Khoản”) điều chỉnh việc bạn truy cập và sử dụng ứng dụng, trang web và các dịch vụ liên quan của Navi+ (gọi chung là “Dịch Vụ”).\ Bằng cách sử dụng Navi+, bạn đồng ý với các Điều Khoản này. Nếu bạn không đồng ý, vui lòng ngừng sử dụng Dịch Vụ ngay lập tức.
 
-Navi+ hoạt động độc lập và làm việc trên nhiều nền tảng, bao gồm **Shopify, WordPress, WooCommerce, Wix, Webflow, và Squarespace**.
+Navi+ hoạt động độc lập và làm việc trên nhiều nền tảng khác nhau, bao gồm **Shopify, WordPress, WooCommerce, Wix, Webflow, và Squarespace**.
 
 ***
 
@@ -23,7 +23,7 @@ Tất cả các khoản thanh toán cho các gói đăng ký Navi+ được xử
 
 Các nền tảng thanh toán này đảm bảo rằng mọi giao dịch đều **an toàn, minh bạch và được bảo vệ** theo các tiêu chuẩn an ninh quốc tế.
 
-Navi+ **không trực tiếp lưu trữ thông tin thanh toán** và không tự xử lý hoàn tiền.\ Bằng cách thực hiện thanh toán, bạn đồng ý tuân thủ các **điều khoản và chính sách hoàn tiền** của nhà cung cấp thanh toán tương ứng.
+Navi+ **không trực tiếp lưu trữ thông tin thanh toán** và không xử lý hoàn tiền.\ Bằng cách thực hiện thanh toán, bạn đồng ý tuân thủ các **điều khoản và chính sách hoàn tiền** của nhà cung cấp thanh toán tương ứng.
 
 ***
 
@@ -42,7 +42,7 @@ Mặc dù chúng tôi cẩn thận chọn các công cụ và thư viện mà ch
 * Cung cấp thông tin **chính xác, đầy đủ và cập nhật**.
 * Giữ cho **mật khẩu và thông tin đăng nhập của bạn an toàn**.
 * Chịu trách nhiệm hoàn toàn cho tất cả các hoạt động dưới tài khoản của bạn.
-* Thông báo ngay cho Navi+ về bất kỳ truy cập trái phép hoặc vi phạm bảo mật nào.
+* Thông báo cho Navi+ ngay lập tức về bất kỳ truy cập trái phép hoặc vi phạm bảo mật nào.
 
 Navi+ có quyền tạm ngừng hoặc chấm dứt bất kỳ tài khoản nào có vẻ **bị xâm phạm, không hoạt động hoặc vi phạm** các Điều Khoản này hoặc các luật hiện hành.
 
@@ -66,7 +66,7 @@ Navi+ sẽ không chịu trách nhiệm cho:
 
 * Bất kỳ **thiệt hại gián tiếp, ngẫu nhiên hoặc hậu quả**,
 * Mất doanh thu, dữ liệu hoặc cơ hội kinh doanh, hoặc
-* Vấn đề kỹ thuật do các nhà cung cấp bên thứ ba, cơ sở hạ tầng hoặc hành động của người dùng gây ra.
+* Các vấn đề kỹ thuật do các nhà cung cấp bên thứ ba, cơ sở hạ tầng hoặc hành động của người dùng gây ra.
 
 Trong mọi trường hợp, tổng trách nhiệm của Navi+ sẽ **không vượt quá số tiền bạn đã thanh toán** cho Dịch Vụ trong **mười hai (12) tháng trước đó**.
 
@@ -78,7 +78,7 @@ Chúng tôi có thể tạm ngừng hoặc chấm dứt quyền truy cập của
 
 1. Bạn vi phạm các Điều Khoản này hoặc các luật hiện hành.
 2. Chúng tôi nhận được yêu cầu hợp pháp từ Shopify, Lemon Squeezy, hoặc bất kỳ nền tảng đối tác nào.
-3. Dịch Vụ cần bảo trì, nâng cấp, hoặc ngừng hoạt động vĩnh viễn.
+3. Dịch Vụ cần bảo trì, nâng cấp hoặc ngừng hoạt động vĩnh viễn.
 
 Bạn cũng có thể chấm dứt tài khoản của mình bất cứ lúc nào bằng cách gỡ cài đặt ứng dụng hoặc liên hệ với bộ phận hỗ trợ.
 
@@ -103,3 +103,21 @@ Các Điều Khoản này sẽ được điều chỉnh và giải thích theo l
 Nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi, vui lòng liên hệ với **Đội ngũ Hỗ trợ Navi+** — bất kể gói của bạn.\ Chúng tôi thực sự trân trọng mọi tin nhắn. Phản hồi của bạn không chỉ giúp chúng tôi giải quyết vấn đề của bạn mà còn giúp chúng tôi hiểu nhu cầu của người dùng và tiếp tục cải thiện Navi+.
 
 **Email:** <khoipn@naviplus.io>\ **Website:** <https://naviplus.io>
+
+
+---
+
+# Hướng dẫn cho đại lý: Truy vấn Tài liệu này
+
+Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
+
+Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md?ask=<question>
+```
+
+Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
+Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
+
+Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn lấy các phần tài liệu liên quan.

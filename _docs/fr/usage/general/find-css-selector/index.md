@@ -16,7 +16,7 @@ Voici quelques **exemples de sélecteurs CSS** que vous pouvez utiliser :
 .navbar           /* La barre de navigation principale */
 .footer           /* La section de pied de page */
 .main-content     /* Le conteneur de contenu principal */
-.product-gallery  /* La section d'image de produit */
+.product-gallery  /* La section d'image du produit */
 div#menu-wrapper  /* Un div spécifique avec l'ID “menu-wrapper” */
 section.hero      /* La section héro en haut de la page */
 ```
@@ -38,3 +38,21 @@ Suivez les instructions ci-dessous pour **trouver le sélecteur CSS correct** su
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instructions de l'agent : Interroger cette documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/find-css-selector.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

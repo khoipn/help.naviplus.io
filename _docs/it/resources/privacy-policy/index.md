@@ -18,7 +18,7 @@ Utilizzando Navi+, accetti questa Informativa sulla Privacy.
 
 ***
 
-### 2. Ambito di applicazione
+### 2. Ambito di Applicazione
 
 Questa Politica si applica a tre tipi di utenti:
 
@@ -28,7 +28,7 @@ Questa Politica si applica a tre tipi di utenti:
 
 ***
 
-### 3. Informazioni che raccogliamo
+### 3. Informazioni che Raccogliamo
 
 #### a. Informazioni fornite da te
 
@@ -48,7 +48,7 @@ Questa Politica si applica a tre tipi di utenti:
 
 ***
 
-### 4. Come utilizziamo le tue informazioni
+### 4. Come Utilizziamo le Tue Informazioni
 
 Utilizziamo i tuoi dati per:
 
@@ -62,11 +62,11 @@ Non **vendiamo né condividiamo i tuoi dati personali** con terze parti per scop
 
 ***
 
-### 5. Condivisione dei dati
+### 5. Condivisione dei Dati
 
 Condividiamo informazioni solo quando necessario:
 
-* Con fornitori di infrastruttura come **AWS** e **Cloudflare** per hosting dei dati e distribuzione dei contenuti.
+* Con fornitori di infrastrutture come **AWS** e **Cloudflare** per hosting dei dati e distribuzione dei contenuti.
 * Con piattaforme di pagamento come **Shopify Payments** o **Lemon Squeezy** per transazioni sicure.
 * Con autorità governative quando richiesto dalla legge o per proteggere i diritti e la sicurezza di Navi+ e dei suoi utenti.
 
@@ -74,15 +74,15 @@ Tutti i fornitori di terze parti rispettano gli standard internazionali di prote
 
 ***
 
-### 6. Conservazione dei dati
+### 6. Conservazione dei Dati
 
 * Conserviamo i tuoi dati mentre utilizzi attivamente il Servizio.
-* Quando il tuo account viene chiuso, Navi+ eliminerà o anonimizza tutte le informazioni personali **entro 90 giorni**.
+* Quando il tuo account viene chiuso, Navi+ eliminerà o anonimizzerà tutte le informazioni personali **entro 90 giorni**.
 * Alcuni registri tecnici o analisi aggregate possono essere conservati più a lungo per motivi di sicurezza o auditing.
 
 ***
 
-### 7. I tuoi diritti
+### 7. I Tuoi Diritti
 
 Hai il diritto di:
 
@@ -94,12 +94,12 @@ Per esercitare questi diritti, ti preghiamo di contattarci a: **<khoipn@naviplus
 
 ***
 
-### 8. Sicurezza dei dati
+### 8. Sicurezza dei Dati
 
 Utilizziamo misure di sicurezza avanzate per proteggere le tue informazioni, tra cui:
 
 * Crittografia SSL/TLS per tutte le trasmissioni di dati.
-* Hosting su infrastrutture certificate a livello internazionale (AWS, Cloudflare).
+* Hosting su infrastrutture internazionalmente certificate (AWS, Cloudflare).
 * Accesso interno ristretto e monitoraggio continuo del sistema.
 
 Tuttavia, nessun metodo di trasmissione o archiviazione è 100% sicuro.\
@@ -107,17 +107,17 @@ Utilizzando Navi+, riconosci che non siamo responsabili per violazioni al di fuo
 
 ***
 
-### 9. Trasferimenti internazionali di dati
+### 9. Trasferimenti Internazionali di Dati
 
 I tuoi dati possono essere elaborati su server situati in **Singapore, Stati Uniti, Canada o Europa**, a seconda delle posizioni dei data center di AWS o Cloudflare.\
 Utilizzando Navi+, acconsenti a questo trasferimento e trattamento secondo i quadri di privacy riconosciuti a livello internazionale.
 
 ***
 
-### 10. Aggiornamenti della politica
+### 10. Aggiornamenti della Politica
 
 Potremmo aggiornare questa Informativa sulla Privacy di tanto in tanto per riflettere cambiamenti nella legge o nelle nostre operazioni.\
-La data dell'aggiornamento più recente apparirà sempre in cima a questa pagina.\
+La data dell'ultimo aggiornamento apparirà sempre in cima a questa pagina.\
 Per cambiamenti materiali, notificheremo gli utenti via email o sul nostro sito web.
 
 ***
@@ -127,3 +127,21 @@ Per cambiamenti materiali, notificheremo gli utenti via email o sul nostro sito 
 Se hai domande, preoccupazioni o richieste riguardo a questa Informativa sulla Privacy, ti preghiamo di contattarci: \ 
 **Email:** <khoipn@naviplus.io>\ 
 **Sito web:** <https://naviplus.io>
+
+
+---
+
+# Istruzioni per l'Agente: Consultazione di Questa Documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o desideri recuperare sezioni di documentazione correlate.

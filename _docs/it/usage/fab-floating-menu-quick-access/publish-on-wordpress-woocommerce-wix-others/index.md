@@ -70,3 +70,37 @@ Il codice qui sotto può essere utilizzato più volte su un sito web con diverse
 
 {% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Importante</mark>**:** Il codice sopra utilizza il codice di incorporamento di esempio <mark style="color:orange;">SF-123456789</mark>. Assicurati di sostituirlo con il tuo codice di incorporamento del menu reale.
 {% comment %}endhint{% endcomment %}
+
+---
+
+# Istruzioni per l'Agente: Interrogare Questa Documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.
+
+---
+
+# Istruzioni per l'Agente: Interrogare Questa Documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

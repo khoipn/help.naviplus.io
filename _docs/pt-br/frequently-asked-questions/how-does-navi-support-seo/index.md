@@ -22,3 +22,20 @@ Links são um dos fatores chave na otimização de SEO com motores de busca. A o
 Navi+ começa a suportar automaticamente SEO baseado em links a partir do plano Elite. Nesse nível, cada link no menu do Navi+ é otimizado com uma URL completa (garantindo a indexação adequada pelos motores de busca), texto âncora e tags relacionadas. O Navi+ também suporta SEO de imagens adicionando tags de título e alt para otimizar buscas de imagens.
 
 Adicionar todo o seu catálogo de produtos ao menu do Navi+ é muito benéfico para os motores de busca, ajudando-os a entender a lista de páginas, sitemap e conteúdo relacionado a palavras-chave. A velocidade do Navi+ é outra grande vantagem para SEO. Todas as bibliotecas e recursos (imagens, JS e CSS) são hospedados em sistemas CDN de primeira linha com tempos de resposta abaixo de 100ms e cache estável, o que aumenta sua pontuação de SEO.
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, você pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma requisição HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-does-navi+-support-seo.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

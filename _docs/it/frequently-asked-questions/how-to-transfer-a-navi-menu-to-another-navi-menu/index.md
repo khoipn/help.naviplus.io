@@ -1,5 +1,5 @@
 ---
-description: Hai mai creato un menu che ti è piaciuto davvero... e poi ti sei reso conto che ne avevi bisogno dello stesso da un'altra parte? 😅
+description: Hai mai costruito un menu che ti è piaciuto davvero... e poi ti sei reso conto che ne avevi bisogno dello stesso da un'altra parte? 😅
 lang: it
 layout: default
 permalink: /it/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
@@ -7,7 +7,7 @@ title: Come trasferire un menu Navi+ a un altro menu Navi+
 ---
 # Come trasferire un menu Navi+ a un altro menu Navi+
 
-Hai mai creato un menu che ti è piaciuto davvero... e poi ti sei reso conto che ne avevi bisogno dello stesso da un'altra parte? 😅
+Hai mai costruito un menu che ti è piaciuto davvero... e poi ti sei reso conto che ne avevi bisogno dello stesso da un'altra parte? 😅
 
 Buone notizie: non devi ricostruirlo da zero.
 
@@ -16,17 +16,17 @@ Buone notizie: non devi ricostruirlo da zero.
 Questo è comunemente necessario nelle seguenti situazioni:
 
 * Hai completato un menu su mobile e vuoi usarlo su desktop (o viceversa)
-* Hai creato un menu per un sito web e vuoi riutilizzarlo su un altro sito web, con alcune modifiche per adattarlo meglio al nuovo design
+* Hai costruito un menu per un sito web e vuoi riutilizzarlo su un altro sito web, con alcune modifiche per adattarlo meglio al nuovo design
 
 Attualmente, non esiste uno strumento automatico che possa trasferire i menu tra i sistemi Navi+. Quindi, il metodo più efficace per ora è il classico ma affidabile: copia e incolla.
 
-### Guida passo passo
+### Guida passo-passo
 
-#### Passo 1: Prepara la struttura del menu di destinazione
+#### Passo 1: Prepara il menu di destinazione
 
 Per prima cosa, imposta la struttura del menu di destinazione.
 
-Crea la struttura di base con gli elementi di menu di Livello 1 e Livello 2 in modo che sia pronta a ricevere il contenuto trasferito
+Crea la struttura di base con gli elementi di menu di Livello 1 e Livello 2 in modo che sia pronta a ricevere il contenuto trasferito.
 
 #### Passo 2: Apri entrambi i menu affiancati
 
@@ -52,3 +52,20 @@ Passa alla scheda del menu di destinazione, naviga nella posizione corretta e in
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLX3Be5eqfItKUMpXSCCj%2F1.3.webp?alt=media&#x26;token=74143e7e-efb7-485a-9eba-6a28d2ec9229" alt=""><figcaption></figcaption></figure>
 
 🔁 Ripeti i Passi 3 e 4 fino a quando l'intera struttura del menu è stata completamente trasferita. Suggerimenti: sposta il menu in sezioni (per livello o per ramo) per assicurarti che nulla venga perso e che la struttura rimanga organizzata.
+
+---
+
+# Istruzioni per l'agente: Consultazione di questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

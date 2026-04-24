@@ -7,7 +7,7 @@ title: Căn chỉnh menu con cấp 3 trong mega menu?
 ---
 # Căn chỉnh menu con cấp 3 trong mega menu?
 
-Một số mega menu có thể rất cao. Trong trường hợp đó, việc mở rộng menu cấp 3 có thể không để lại đủ không gian. Khi điều này xảy ra, bạn nên ghim menu cấp 3 lên trên cùng thay vì vậy.
+Một số mega menu có thể rất cao. Trong trường hợp đó, việc mở rộng menu cấp 3 có thể không để lại đủ không gian. Khi điều này xảy ra, bạn nên ghim menu cấp 3 lên trên cùng thay vì.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fro68elhDmY0dYZVM33lW%2F1.1.png?alt=media&#x26;token=f8dc87a7-e10d-4ac7-a398-a4b5220ce72c" alt=""><figcaption></figcaption></figure>
 
@@ -26,3 +26,20 @@ ul.children[menulevel="2"] li.child.is-parent.menu-expand ul.children[menulevel=
   top: 0px;
 }
 ```
+
+---
+
+# Hướng dẫn cho đại lý: Truy vấn tài liệu này
+
+Nếu bạn cần thông tin bổ sung không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
+
+Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu.md?ask=<question>
+```
+
+Câu hỏi nên cụ thể, tự chứa, và được viết bằng ngôn ngữ tự nhiên.
+Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
+
+Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc ngữ cảnh bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.

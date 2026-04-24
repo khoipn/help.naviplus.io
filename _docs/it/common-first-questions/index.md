@@ -19,7 +19,7 @@ Qualsiasi sito web. Per Shopify, utilizza l'app dedicata. Per tutto il resto, re
 
 #### Come installo Navi+?
 
-* **Shopify:** Installa dal [Shopify App Store](https://apps.shopify.com/pronavi-navigation-design "Shopify App Store")
+* **Shopify:** Installa dall'[Shopify App Store](https://apps.shopify.com/pronavi-navigation-design "Shopify App Store")
 * **Altre piattaforme:** Registrati su [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app"), dichiara il tuo dominio, quindi incorpora lo snippet
 
 #### Posso provare Navi+ prima di configurarlo?
@@ -93,3 +93,21 @@ Sì. I menu sono memorizzati come JSON — puoi esportare il file, modificarlo m
 ### Non vedi la tua domanda qui?
 
 Contattaci tramite [WhatsApp](https://wa.me/84981911011 "WhatsApp") o email <khoipng@naviplus.io>.
+
+
+---
+
+# Istruzioni per l'agente: Interrogare questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Usa questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

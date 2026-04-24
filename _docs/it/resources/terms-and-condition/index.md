@@ -23,7 +23,7 @@ Tutti i pagamenti per gli abbonamenti a Navi+ vengono elaborati in modo sicuro t
 
 Queste piattaforme di pagamento garantiscono che ogni transazione sia **sicura, trasparente e protetta** secondo gli standard di sicurezza internazionali.
 
-Navi+ **non memorizza direttamente le informazioni di pagamento** e non elabora rimborsi.\ Effettuando un pagamento, accetti di rispettare i rispettivi **termini e politiche di rimborso** del fornitore di pagamento.
+Navi+ non **memorizza direttamente le informazioni di pagamento** e non elabora rimborsi.\ Effettuando un pagamento, accetti di rispettare i rispettivi **termini e politiche di rimborso** del fornitore di pagamento.
 
 ***
 
@@ -37,7 +37,7 @@ Sebbene selezioniamo con cura gli strumenti e le librerie che utilizziamo, **Nav
 
 ### 4. Account e Registrazione
 
-Per utilizzare alcune funzionalità, potresti dover creare un account.\ Accetti di:
+Per utilizzare alcune funzionalità, potrebbe essere necessario creare un account.\ Accetti di:
 
 * Fornire informazioni **accurate, complete e aggiornate**.
 * Mantenere le tue **credenziali e password sicure**.
@@ -54,7 +54,7 @@ Mantieni la piena proprietà di tutti i **contenuti, immagini, dati e materiali*
 
 Utilizzando il Servizio, concedi a Navi+ una **licenza non esclusiva, mondiale e senza diritti d'autore** per memorizzare, elaborare e visualizzare i tuoi contenuti **solo per scopi di funzionamento e miglioramento del Servizio**.
 
-Navi+ non rivendica la proprietà o l'uso dei tuoi contenuti per marketing, rivendita o qualsiasi scopo non correlato.\ Tutti i diritti rimangono con te.
+Navi+ non rivendica la proprietà o l'uso dei tuoi contenuti per scopi di marketing, rivendita o qualsiasi scopo non correlato.\ Tutti i diritti rimangono con te.
 
 ***
 
@@ -64,8 +64,8 @@ Navi+ è fornito “**così com'è**” e “**come disponibile**.”\ Non garan
 
 Navi+ non sarà responsabile per:
 
-* Qualsiasi **danno indiretto, incidentale o consequenziale**,
-* Perdita di entrate, dati o opportunità commerciali, o
+* Qualsiasi **danno indiretto, incidentale o consequenziale**, 
+* Perdita di entrate, dati o opportunità commerciali, o 
 * Problemi tecnici causati da fornitori di terze parti, infrastrutture o azioni degli utenti.
 
 In ogni caso, la responsabilità totale di Navi+ non supererà **l'importo pagato da te** per il Servizio durante i **dodici (12) mesi precedenti**.
@@ -82,7 +82,7 @@ Possiamo sospendere o terminare il tuo accesso a Navi+ in qualsiasi momento, sen
 
 Puoi anche terminare il tuo account in qualsiasi momento disinstallando l'applicazione o contattando il supporto.
 
-Dopo la risoluzione, Navi+ può conservare determinati dati per un periodo limitato per motivi tecnici o legali prima della cancellazione permanente.
+Dopo la risoluzione, Navi+ può conservare alcuni dati per un periodo limitato per motivi tecnici o legali prima della cancellazione permanente.
 
 ***
 
@@ -103,3 +103,21 @@ Questi Termini saranno regolati e interpretati secondo le leggi di **Singapore**
 Se riscontri problemi o hai domande, ti preghiamo di contattare il **Navi+ Support Team** — indipendentemente dal tuo piano.\ Valutiamo sinceramente ogni messaggio. Il tuo feedback non solo ci aiuta a risolvere il tuo problema, ma ci aiuta anche a comprendere le esigenze degli utenti e a continuare a migliorare Navi+.
 
 **Email:** <khoipn@naviplus.io>\ **Sito web:** <https://naviplus.io>
+
+
+---
+
+# Istruzioni per l'Agente: Consultazione di Questa Documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o desideri recuperare sezioni di documentazione correlate.

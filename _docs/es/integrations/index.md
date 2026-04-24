@@ -7,10 +7,27 @@ title: Integraciones
 ---
 # Integraciones
 
-- [Integrando Navi+ con tu sitio web y aplicaciones externas](/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md "Integrating Navi+ with your website and external apps")
-- [La estructura HTML y CSS de todos los menús de Navi+](/manual/website/help.naviplus.io/integrations/the-html-and-css-structure-of-all-navi+-menus.md "The HTML and CSS structure of all Navi+ menus")
-- [Herramientas de chat](/manual/website/help.naviplus.io/integrations/chat-tools.md "Chat tools")
-- [Shopify Inbox](/manual/website/help.naviplus.io/integrations/chat-tools/shopify-inbox.md "Shopify Inbox")
-- [Tidi chat](/manual/website/help.naviplus.io/integrations/chat-tools/tidi-chat.md "Tidi chat")
-- [Temas](/manual/website/help.naviplus.io/integrations/themes.md "Themes")
-- [Shopify: Abre el menú hamburguesa o carrito, panel de búsqueda](/manual/website/help.naviplus.io/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel.md "Shopify: Open the hamburger menu or cart, search panel")
+- [Integrando Navi+ con tu sitio web y aplicaciones externas](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md "Integrating Navi+ with your website and external apps")
+- [Chat tools](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/chat-tools.md "Chat tools")
+- [Shopify Inbox](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/chat-tools/shopify-inbox.md "Shopify Inbox")
+- [Tidi chat](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/chat-tools/tidi-chat.md "Tidi chat")
+- [Themes](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/themes.md "Themes")
+- [Shopify: Open the hamburger menu or cart, search panel](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel.md "Shopify: Open the hamburger menu or cart, search panel")
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/integrations.md?ask=<question>
+```
+
+La pregunta debe ser específica, autónoma y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

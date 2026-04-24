@@ -32,7 +32,7 @@ Esta Política se aplica a três tipos de usuários:
 
 #### a. Informações que você fornece
 
-* Nome, endereço de e-mail, país e (opcional) informações comerciais.
+* Nome, endereço de e-mail, país e informações comerciais (opcionais).
 * Dados de configuração e personalização que você cria ao usar o Navi+.
 
 #### b. Informações coletadas automaticamente
@@ -128,3 +128,21 @@ Se você tiver alguma dúvida, preocupação ou solicitação em relação a est
 
 **Email:** <khoipn@naviplus.io>\
 **Website:** <https://naviplus.io>
+
+
+---
+
+# Instruções do Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

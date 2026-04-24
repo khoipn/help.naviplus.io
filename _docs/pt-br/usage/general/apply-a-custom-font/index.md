@@ -18,3 +18,21 @@ Por exemplo, se você comprou a fonte **Honey Salt** de [MJ Type](https://mjtype
 ```
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FzNP2SBCn15jjziVslrWM%2Fimage.png?alt=media&#x26;token=bd4231ed-5713-4e48-b44c-70241088a229" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instruções do Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, você pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/apply-a-custom-font.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -7,5 +7,22 @@ title: Risorse
 ---
 # Risorse
 
-- [Informativa sulla privacy](/manual/website/help.naviplus.io/resources/privacy-policy.md "Privacy Policy")
-- [Termini e condizioni](/manual/website/help.naviplus.io/resources/terms-and-condition.md "Terms & Condition")
+- [Informativa sulla privacy](https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md "Privacy Policy")
+- [Termini e condizioni](https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md "Terms & Condition")
+
+---
+
+# Istruzioni per l'agente: Consultazione di questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

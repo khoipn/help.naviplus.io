@@ -1,5 +1,5 @@
 ---
-description: Sử dụng kích thước hình ảnh nhỏ hơn giúp trang web của bạn tải nhanh hơn. Các công cụ tìm kiếm như Google coi tốc độ tải trang là một yếu tố xếp hạng quan trọng, vì vậy hình ảnh tối ưu có thể...
+description: Sử dụng kích thước hình ảnh nhỏ hơn giúp trang web của bạn tải nhanh hơn. Các công cụ tìm kiếm như Google coi tốc độ tải trang là một yếu tố xếp hạng quan trọng, vì vậy hình ảnh được tối ưu hóa có thể...
 lang: vi
 layout: default
 permalink: /vi/docs/usage/general/advanced-image-upload/
@@ -9,17 +9,17 @@ title: Tải lên hình ảnh nâng cao
 
 #### I. Tại sao kích thước hình ảnh nhỏ hơn lại tốt hơn cho SEO và trải nghiệm người dùng?
 
-Sử dụng kích thước hình ảnh nhỏ hơn giúp trang web của bạn tải nhanh hơn. Các công cụ tìm kiếm như Google coi tốc độ tải trang là một yếu tố xếp hạng quan trọng, vì vậy hình ảnh tối ưu có thể cải thiện SEO của bạn.
+Sử dụng kích thước hình ảnh nhỏ hơn giúp trang web của bạn tải nhanh hơn. Các công cụ tìm kiếm như Google coi tốc độ tải trang là một yếu tố xếp hạng quan trọng, vì vậy hình ảnh được tối ưu hóa có thể cải thiện SEO của bạn.
 
 Tốc độ tải nhanh hơn cũng làm cho trang web mượt mà hơn và thú vị hơn cho khách truy cập, đặc biệt là trên các thiết bị di động hoặc kết nối chậm. Điều này có nghĩa là người dùng có khả năng ở lại trang web của bạn và tiếp tục khám phá sản phẩm của bạn.
 
 #### II. Navi+ xử lý hình ảnh của bạn như thế nào?
 
-Navi+ đầu tiên tải lên hình ảnh của bạn ở kích thước gốc. Sau đó, nó nén hình ảnh bằng một thuật toán tối ưu và giảm kích thước hiển thị. Kích thước này được Navi+ chọn một cách cẩn thận để lý tưởng cho cả trải nghiệm người dùng và SEO, vì hình ảnh trong các menu thường là hình thu nhỏ hoặc biểu tượng cần nhỏ và tải nhanh.
+Navi+ đầu tiên tải lên hình ảnh của bạn ở kích thước gốc. Sau đó, nó nén hình ảnh bằng một thuật toán tối ưu hóa và giảm kích thước hiển thị. Kích thước này được Navi+ chọn lựa cẩn thận để lý tưởng cho cả trải nghiệm người dùng và SEO, vì hình ảnh trong các menu thường là hình thu nhỏ hoặc biểu tượng cần phải nhỏ và tải nhanh.
 
 **Lưu ý:** Đối với các hình ảnh nhỏ như logo hoặc biểu tượng, Navi+ không nén chúng để bảo tồn độ sắc nét.
 
-Sau đó, Navi+ lưu trữ hình ảnh của bạn trên BunnyCDN — một mạng lưới phân phối nội dung (CDN) mạnh mẽ cho hình ảnh, JavaScript, CSS và nhiều hơn nữa. BunnyCDN cung cấp tốc độ tải cực nhanh thông qua mạng máy chủ toàn cầu của nó. Điều này đảm bảo rằng trang web của bạn có thể xử lý hàng triệu lượt truy cập mà không bị chậm lại hoặc gây ra độ trễ.
+Sau đó, Navi+ lưu trữ hình ảnh của bạn trên BunnyCDN — một mạng lưới phân phối nội dung (CDN) mạnh mẽ cho hình ảnh, JavaScript, CSS và nhiều hơn nữa. BunnyCDN cung cấp tốc độ tải cực nhanh thông qua mạng lưới máy chủ toàn cầu của nó. Điều này đảm bảo rằng trang web của bạn có thể xử lý hàng triệu lượt truy cập mà không bị chậm lại hoặc gây ra độ trễ.
 
 #### III. Tôi nên làm gì nếu tôi muốn giữ hình ảnh của mình ở chất lượng gốc?
 
@@ -40,3 +40,21 @@ Nhấp chuột phải vào menu **Nội dung**, chọn **Mở liên kết trong 
 Dán URL thu được từ Bước 2 vào Navi+ bằng cách sử dụng công cụ **Tải lên Hình ảnh**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPy9nqxsNKCo4RMjo1cTP%2F1.4.png?alt=media&#x26;token=a0a4897c-5e1c-47d8-951c-52028b705e1e" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Hướng dẫn cho đại lý: Truy vấn tài liệu này
+
+Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
+
+Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md?ask=<question>
+```
+
+Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
+Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
+
+Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn truy xuất các phần tài liệu liên quan.

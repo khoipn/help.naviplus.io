@@ -87,7 +87,7 @@ Jeder Tab-Marker kann unabhängig gestaltet werden:
 | Option         | Beschreibung                                                      |
 | -------------- | ---------------------------------------------------------------- |
 | **Tab-Name**   | Der Text, der auf der Tab-Schaltfläche angezeigt wird            |
-| **Symbol**     | Ein kleines Symbol neben dem Namen (aus der Symbolbibliothek)    |
+| **Icon**       | Ein kleines Symbol neben dem Namen (aus der Symbolbibliothek)    |
 | **Bild**       | Ein Bild anstelle eines Symbols                                   |
 | **Layout**     | Symbol über/unter/links/rechts vom Namen, nur Symbol oder nur Text |
 | **Textfarbe**  | Benutzerdefinierte Farbe für jedes Tab-Label                     |
@@ -122,3 +122,20 @@ Es funktioniert auch auf **jeder Menüebene** — nicht nur im Hauptmenü, sonde
 **Gibt es eine Begrenzung für die Anzahl der Tabs, die ich haben kann?** Es gibt keine feste Begrenzung, aber wir empfehlen, es auf 3–6 Tabs für die beste Erfahrung auf mobilen Bildschirmen zu beschränken.
 
 **Kann ich Tab Slide in einem Untermenü verwenden?** Ja. Platzieren Sie Tab-Marker in jedem Untermenü, und das Tab-Verhalten funktioniert auf dieser Ebene.
+
+---
+
+# Agentenanweisungen: Abfragen dieser Dokumentation
+
+Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
+
+Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md?ask=<question>
+```
+
+Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
+
+Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie Klarstellungen oder zusätzliche Kontexte benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

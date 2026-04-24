@@ -11,15 +11,15 @@ title: Conditions Générales
 
 ### 1. Introduction
 
-Bienvenue chez **Navi+** (“nous”, “notre”, “nos”).\ Ces Conditions de Service (“Conditions”) régissent votre accès et votre utilisation de l'application, du site web et des services associés de Navi+ (collectivement, le “Service”).\ En utilisant Navi+, vous acceptez ces Conditions. Si vous n'acceptez pas, veuillez cesser immédiatement d'utiliser le Service.
+Bienvenue chez **Navi+** (“nous”, “notre”, “nos”).\ Ces Conditions de Service (“Conditions”) régissent votre accès et votre utilisation de l'application, du site web et des services associés de Navi+ (collectivement, le “Service”).\ En utilisant Navi+, vous acceptez ces Conditions. Si vous n'êtes pas d'accord, veuillez cesser immédiatement d'utiliser le Service.
 
-Navi+ fonctionne de manière indépendante et opère sur plusieurs plateformes, y compris **Shopify, WordPress, WooCommerce, Wix, Webflow et Squarespace**.
+Navi+ fonctionne de manière indépendante et fonctionne sur plusieurs plateformes, y compris **Shopify, WordPress, WooCommerce, Wix, Webflow et Squarespace**.
 
 ***
 
 ### 2. Paiement et Sécurité
 
-Tous les paiements pour les abonnements Navi+ sont traités de manière sécurisée via des plateformes tierces de confiance telles que **Shopify Payments** ou **Lemon Squeezy**, selon l'endroit où vous installez l'application.
+Tous les paiements pour les abonnements Navi+ sont traités en toute sécurité via des plateformes tierces de confiance telles que **Shopify Payments** ou **Lemon Squeezy**, selon l'endroit où vous installez l'application.
 
 Ces plateformes de paiement garantissent que chaque transaction est **sûre, transparente et protégée** conformément aux normes de sécurité internationales.
 
@@ -29,7 +29,7 @@ Navi+ ne **stocke pas directement les informations de paiement** et ne traite pa
 
 ### 3. Applications Tierces
 
-Navi+ peut inclure ou intégrer des logiciels, extensions ou services tiers.\ Toutes les applications tierces utilisées au sein de Navi+ respectent les **principes de la licence MIT** et doivent respecter toutes les **lois sur le droit d'auteur et la propriété intellectuelle**.
+Navi+ peut inclure ou intégrer des logiciels, des extensions ou des services tiers.\ Toutes les applications tierces utilisées dans Navi+ respectent les **principes de la licence MIT** et doivent respecter toutes les **lois sur le droit d'auteur et la propriété intellectuelle**.
 
 Bien que nous sélectionnions soigneusement les outils et bibliothèques que nous utilisons, **Navi+ n'est pas responsable** des problèmes, dommages ou pertes de données causés par des applications tierces.\ En utilisant ces outils, vous reconnaissez que tous les risques associés sont de votre responsabilité.
 
@@ -54,7 +54,7 @@ Vous conservez l'entière propriété de tout **contenu, images, données et mat
 
 En utilisant le Service, vous accordez à Navi+ une **licence non exclusive, mondiale et sans redevance** pour stocker, traiter et afficher votre contenu **uniquement dans le but d'exploiter et d'améliorer le Service**.
 
-Navi+ ne revendique pas la propriété ni n'utilise votre contenu à des fins de marketing, de revente ou de tout autre but non lié.\ Tous les droits restent avec vous.
+Navi+ ne revendique pas la propriété ni n'utilise votre contenu à des fins de marketing, de revente ou de toute autre fin non liée.\ Tous les droits restent avec vous.
 
 ***
 
@@ -88,18 +88,35 @@ Après résiliation, Navi+ peut conserver certaines données pendant une périod
 
 ### 8. Propriété Intellectuelle
 
-Toutes les marques, conceptions et technologies utilisées au sein de Navi+ restent la **propriété intellectuelle de Navi+ ou de ses concédants de licence**.\ Vous ne pouvez pas copier, modifier, redistribuer ou revendre une partie du Service sans consentement écrit explicite.
+Toutes les marques, conceptions et technologies utilisées dans Navi+ restent la **propriété intellectuelle de Navi+ ou de ses concédants de licence**.\ Vous ne pouvez pas copier, modifier, redistribuer ou revendre une partie du Service sans consentement écrit explicite.
 
 ***
 
 ### 9. Juridiction et Droit Applicable
 
-Ces Conditions seront régies et interprétées selon les lois de **Singapour**, sans tenir compte des principes de conflit de lois.\ Tout litige découlant de ou lié à ces Conditions sera résolu par **arbitrage contraignant** à Singapour ou dans un autre lieu convenu mutuellement.
+Ces Conditions seront régies et interprétées selon les lois de **Singapour**, sans tenir compte des principes de conflit de lois.\ Tout litige découlant de ou lié à ces Conditions sera résolu par **arbitrage contraignant** à Singapour ou dans un autre lieu convenu d'un commun accord.
 
 ***
 
 ### 10. Contact et Support
 
-Si vous rencontrez des problèmes ou avez des questions, veuillez contacter l'**Équipe de Support de Navi+** — quel que soit votre plan.\ Nous apprécions sincèrement chaque message. Vos retours nous aident non seulement à résoudre votre problème mais aussi à comprendre les besoins des utilisateurs et à continuer d'améliorer Navi+.
+Si vous rencontrez des problèmes ou avez des questions, veuillez contacter l'**Équipe de Support de Navi+** — quel que soit votre plan.\ Nous apprécions sincèrement chaque message. Vos retours nous aident non seulement à résoudre votre problème, mais aussi à comprendre les besoins des utilisateurs et à continuer d'améliorer Navi+.
 
 **Email :** <khoipn@naviplus.io>\ **Site Web :** <https://naviplus.io>
+
+
+---
+
+# Instructions pour l'Agent : Interroger cette Documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et rédigée en langage naturel.\ La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

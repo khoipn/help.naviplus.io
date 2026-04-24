@@ -449,6 +449,14 @@ def process_and_save_markdown(raw_md_content, original_url, output_base_dir):
     
     final_content = f"---\n{front_matter_str}---\n{processed_seo_md_content}"
 
+    # Only write if content has changed (avoids invalidating translation cache)
+    if os.path.exists(final_output_path):
+        with open(final_output_path, 'r', encoding='utf-8') as f:
+            existing_content = f.read()
+        if existing_content == final_content:
+            print(f"  ⏭️  No change, skipping: {final_output_path}")
+            return
+
     with open(final_output_path, 'w', encoding='utf-8') as f:
         f.write(final_content)
     print(f"  ✅ Saved processed Markdown to {final_output_path}")

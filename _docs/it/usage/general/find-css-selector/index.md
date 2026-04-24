@@ -3,13 +3,13 @@ description: '**Selettore CSS** è un concetto molto interessante in CSS — def
 lang: it
 layout: default
 permalink: /it/docs/usage/general/find-css-selector/
-title: Trova il selettore CSS
+title: Trova Selettore CSS
 ---
-# Trova il selettore CSS
+# Trova Selettore CSS
 
 **Selettore CSS** è un concetto molto interessante in CSS — definisce quale parte del tuo sito web può essere **sostituita** o **avere un menu Navi+ inserito** (sia *prima* che *dopo* di essa).
 
-Ecco alcuni **esempi di selettori CSS** che puoi utilizzare:
+Ecco alcuni **esempi di Selettori CSS** che puoi utilizzare:
 
 ```css
 #header           /* L'area dell'intestazione */
@@ -21,7 +21,7 @@ div#menu-wrapper  /* Un div specifico con ID “menu-wrapper” */
 section.hero      /* La sezione hero in cima alla pagina */
 ```
 
-Segui le istruzioni qui sotto per **trovare il selettore CSS corretto** sul tuo sito web.
+Segui le istruzioni qui sotto per **trovare il corretto Selettore CSS** sul tuo sito web.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
@@ -38,3 +38,21 @@ Segui le istruzioni qui sotto per **trovare il selettore CSS corretto** sul tuo 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Istruzioni per l'Agente: Interrogare Questa Documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/find-css-selector.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

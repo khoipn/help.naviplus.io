@@ -3,9 +3,9 @@ description: Navi+ fornisce diverse opzioni di configurazione comuni per i menu,
 lang: it
 layout: default
 permalink: /it/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/
-title: Utilizzare le impostazioni integrate o CSS personalizzato?
+title: Utilizzare impostazioni integrate o CSS personalizzato?
 ---
-# Utilizzare le impostazioni integrate o CSS personalizzato?
+# Utilizzare impostazioni integrate o CSS personalizzato?
 
 Navi+ fornisce diverse opzioni di configurazione comuni per i menu, nella scheda **"Design"**, come sfondo, tipografia (famiglia di font, dimensione..), e icone/immagini (dimensione, intervallo, curvatura...). Utilizzando queste impostazioni, il tuo menu può solitamente essere stilizzato per abbinarsi al design e al branding complessivo del tuo sito web.
 
@@ -29,7 +29,7 @@ Tuttavia, se tu o il tuo sviluppatore web avete una comprensione di base del CSS
 
 #### Alcuni casi studio tipici di utilizzo del CSS
 
-1) Per configurare l'aspetto dell'intero menu al livello più alto, puoi scrivere un frammento che non è CSS standard ma molto semplice. Ad esempio, il frammento qui sotto cambia lo sfondo del menu in rosso. Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
+1) Per configurare l'aspetto dell'intero menu al livello più alto, puoi scrivere uno snippet che non è CSS standard ma molto semplice. Ad esempio, lo snippet qui sotto cambia lo sfondo del menu in rosso. Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
 
 ```
 {
@@ -40,26 +40,26 @@ Tuttavia, se tu o il tuo sviluppatore web avete una comprensione di base del CSS
 2) Configura dimensione, tipografia e colori per ciascun livello di voce di menu. Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
 
 ```
-// Personalizza lo stile del testo degli elementi di menu di livello 1
+// Personalizza lo stile del testo delle voci di menu di livello 1
 ul > li.item > .inner .name {
     font-size: 14px;
     color: red;
 }
 
-// Personalizza lo stile del testo degli elementi di menu di livello 2
+// Personalizza lo stile del testo delle voci di menu di livello 2
 ul.children[menulevel="2"] > li.child > .inner .name{
      font-size: 16px; 
      color: blue;
 }
 
-// Personalizza lo stile del testo degli elementi di menu di livello 3
+// Personalizza lo stile del testo delle voci di menu di livello 3
 ul.children[menulevel="3"] > li.child > .inner .name{
      font-size: 13px; 
      color: green;     
 }
 ```
 
-3) Cambia lo spessore del font utilizzando `font-weight.` Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
+3) Cambia lo spessore del font usando `font-weight.` Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
 
 ```
 // Imposta lo spessore del font del nome
@@ -80,3 +80,20 @@ ul > li.is-parent-top::after {
   font-size: 24px !important;
 }
 ```
+
+---
+
+# Istruzioni per l'agente: Interrogare questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

@@ -23,7 +23,7 @@ Em vez de mostrar todos os itens do menu de uma vez, **Tab Slide** permite que v
 └──────────────────────────────────┘
 ```
 
-Quando um visitante toca "Blog", o conteúdo muda instantaneamente para os artigos do blog — sem necessidade de recarregar a página.
+Quando um visitante toca em "Blog", o conteúdo muda instantaneamente para os artigos do blog — sem necessidade de recarregar a página.
 
 ***
 
@@ -31,10 +31,10 @@ Quando um visitante toca "Blog", o conteúdo muda instantaneamente para os artig
 
 #### Passo 1 — Adicionar um marcador de Aba
 
-1. Na árvore do menu, clique **"Adicionar item"**
+1. Na árvore do menu, clique em **"Adicionar item"**
 2. Selecione o tipo de item **Tab Slide** (o ícone de aba azul)
 3. Insira um **nome da aba** (por exemplo, "Shop", "Blog", "Deals")
-4. Clique **Adicionar**
+4. Clique em **Adicionar**
 
 > O marcador de Aba aparecerá na árvore do menu com um distintivo azul **[Tab]**.
 
@@ -54,18 +54,18 @@ Todos os itens do menu colocados **diretamente abaixo** de um marcador de Aba pe
 
 #### Passo 3 — Adicionar mais abas (opcional)
 
-Repita os passos 1–2 para cada aba que você deseja. Não há limite para o número de abas.
+Repita os passos 1–2 para cada aba que você deseja. Não há limite no número de abas.
 
 ***
 
 ### Encerrando o Grupo de Abas
 
-Às vezes, você quer que certos itens **estejam sempre visíveis** — fora de qualquer aba — por exemplo, um link "Contact" ou "Search" na parte inferior.
+Às vezes, você quer que certos itens **sempre sejam visíveis** — fora de qualquer aba — por exemplo, um link "Contact" ou "Search" na parte inferior.
 
 Para fazer isso:
 
 1. Adicione um novo item **Tab Slide**
-2. No painel de edição, marque **"Fim do grupo de Abas"**
+2. No painel de edição, marque **"Fim do grupo de abas"**
 3. Todos os itens abaixo deste marcador serão exibidos como itens de menu regulares
 
 ```
@@ -73,7 +73,7 @@ Para fazer isso:
   T-Shirts, Pants...
 [Tab] Blog
   News, Guides...
-[End of Tab group]   ← marca o fim das abas
+[Fim do grupo de abas]   ← marca o fim das abas
   Contact Us         ← sempre visível, não dentro de nenhuma aba
   About              ← sempre visível
 ```
@@ -113,7 +113,7 @@ Ele também funciona em **qualquer nível de menu** — não apenas no menu prin
 
 ### Perguntas Frequentes
 
-**O marcador de Aba aparecerá como um item de menu?** Não. Marcadores de Aba são invisíveis para os visitantes — eles apenas criam o botão da aba. Seus itens de menu reais são o que aparece dentro de cada aba.
+**O marcador de Aba aparecerá como um item de menu?** Não. Os marcadores de Aba são invisíveis para os visitantes — eles apenas criam o botão da aba. Seus itens de menu reais são o que aparece dentro de cada aba.
 
 **Posso adicionar um ícone a uma aba?** Sim. Edite o marcador de Aba como qualquer outro item e escolha um ícone da biblioteca ou faça upload de uma imagem personalizada.
 
@@ -122,3 +122,20 @@ Ele também funciona em **qualquer nível de menu** — não apenas no menu prin
 **Há um limite para quantas abas posso ter?** Não há um limite rígido, mas recomendamos manter entre 3–6 abas para a melhor experiência em telas móveis.
 
 **Posso usar o Tab Slide dentro de um submenu?** Sim. Coloque marcadores de Aba dentro de qualquer submenu e o comportamento da aba funcionará nesse nível.
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -12,7 +12,7 @@ title: Política de Privacidad
 ### 1. Introducción
 
 Respetamos su privacidad.\
-Esta Política de Privacidad explica cómo **Navi+** (“nosotros”, “la App”, “el Servicio”) recopila, utiliza y protege la información personal cuando utiliza los productos y servicios de Navi+ en plataformas como **Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace** y otros sitios web autohospedados.
+Esta Política de Privacidad explica cómo **Navi+** (“nosotros”, “la App”, “el Servicio”) recopila, utiliza y protege la información personal cuando utiliza los productos y servicios de Navi+ en plataformas como **Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace**, y otros sitios web autohospedados.
 
 Al utilizar Navi+, usted acepta esta Política de Privacidad.
 
@@ -32,7 +32,7 @@ Esta Política se aplica a tres tipos de usuarios:
 
 #### a. Información que usted proporciona
 
-* Nombre, dirección de correo electrónico, país y (opcional) información comercial.
+* Nombre, dirección de correo electrónico, país, y (opcional) información comercial.
 * Datos de configuración y personalización que crea mientras utiliza Navi+.
 
 #### b. Información recopilada automáticamente
@@ -44,13 +44,13 @@ Esta Política se aplica a tres tipos de usuarios:
 #### c. Información de plataformas de terceros
 
 * Datos compartidos por plataformas integradas (Shopify, Lemon Squeezy, Wix, etc.) para autenticación y conexión.
-* **Navi+ nunca almacena información de pago ni contraseñas**.
+* **Navi+ nunca almacena información de pago o contraseñas**.
 
 ***
 
 ### 4. Cómo Usamos Su Información
 
-Utilizamos sus datos para:
+Usamos sus datos para:
 
 * Operar y entregar los servicios de Navi+.
 * Mejorar el rendimiento, diseño y experiencia del usuario.
@@ -98,7 +98,7 @@ Para ejercer estos derechos, comuníquese con nosotros en: **<khoipn@naviplus.io
 
 Utilizamos medidas de seguridad avanzadas para proteger su información, incluyendo:
 
-* Cifrado SSL/TLS para toda la transmisión de datos.
+* Cifrado SSL/TLS para toda transmisión de datos.
 * Alojamiento en infraestructura certificada internacionalmente (AWS, Cloudflare).
 * Acceso interno restringido y monitoreo continuo del sistema.
 
@@ -124,6 +124,24 @@ Para cambios materiales, notificaremos a los usuarios por correo electrónico o 
 
 ### 11. Contacto
 
-Si tiene alguna pregunta, inquietud o solicitud relacionada con esta Política de Privacidad, comuníquese con nosotros:\
-**Correo electrónico:** <khoipn@naviplus.io>\
+Si tiene alguna pregunta, inquietud o solicitud relacionada con esta Política de Privacidad, comuníquese con nosotros: \ 
+**Correo electrónico:** <khoipn@naviplus.io>\ 
 **Sitio web:** <https://naviplus.io>
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesita información adicional que no esté directamente disponible en esta página, puede consultar la documentación dinámicamente haciendo una pregunta.
+
+Realice una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utilice este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesite aclaraciones o contexto adicional, o desee recuperar secciones de documentación relacionadas.

@@ -1,5 +1,5 @@
 ---
-description: Você já construiu um menu de que realmente gostou... e então percebeu que precisava do mesmo em outro lugar? 😅
+description: Você já construiu um menu que realmente gostou... e então percebeu que precisava do mesmo em outro lugar? 😅
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
@@ -7,7 +7,7 @@ title: Como Transferir um Menu Navi+ para Outro Menu Navi+
 ---
 # Como Transferir um Menu Navi+ para Outro Menu Navi+
 
-Você já construiu um menu de que realmente gostou... e então percebeu que precisava do mesmo em outro lugar? 😅
+Você já construiu um menu que realmente gostou... e então percebeu que precisava do mesmo em outro lugar? 😅
 
 Boas notícias: você não precisa reconstruí-lo do zero.
 
@@ -26,7 +26,7 @@ Atualmente, não há uma ferramenta automática que possa transferir menus entre
 
 Primeiro, configure a estrutura do menu de destino.
 
-Crie a estrutura base com itens de menu de Nível 1 e Nível 2 para que esteja pronto para receber o conteúdo transferido.
+Crie a estrutura base com itens de menu de Nível 1 e Nível 2 para que esteja pronta para receber o conteúdo transferido.
 
 #### Passo 2: Abra ambos os menus lado a lado
 
@@ -52,3 +52,20 @@ Mude para a aba do menu de destino, navegue até o local correto e cole os itens
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLX3Be5eqfItKUMpXSCCj%2F1.3.webp?alt=media&#x26;token=74143e7e-efb7-485a-9eba-6a28d2ec9229" alt=""><figcaption></figcaption></figure>
 
 🔁 Repita os Passos 3 e 4 até que toda a estrutura do menu tenha sido totalmente transferida. Dicas: Mova o menu em seções (por nível ou por ramo) para garantir que nada seja esquecido e a estrutura permaneça organizada.
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -20,3 +20,20 @@ Website: [https://naviplus.io](https://naviplus.io/ "https://naviplus.io")\
 Shopify: <https://apps.shopify.com/pronavi-navigation-design>\
 What's App: +84 981911011\
 Linked in: <https://www.linkedin.com/in/khoi-pham-443218aa/>
+
+---
+
+# Instruções para Agentes: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, você pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/troubleshooting.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.
+
+Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

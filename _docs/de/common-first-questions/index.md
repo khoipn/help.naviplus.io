@@ -20,11 +20,11 @@ Jede Website. Für Shopify verwenden Sie die dedizierte App. Für alles andere m
 #### Wie installiere ich Navi+?
 
 * **Shopify:** Installieren Sie aus dem [Shopify App Store](https://apps.shopify.com/pronavi-navigation-design "Shopify App Store")
-* **Andere Plattformen:** Melden Sie sich unter [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app") an, erklären Sie Ihre Domain und betten Sie dann das Snippet ein.
+* **Andere Plattformen:** Melden Sie sich unter [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app") an, erklären Sie Ihre Domain und betten Sie dann den Snippet ein.
 
 #### Kann ich Navi+ ausprobieren, bevor ich es einrichte?
 
-Ja. Besuchen Sie [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io"), um alle Menütypen in einem echten Shop zu sehen – mobil, Tablet und Desktop.
+Ja. Besuchen Sie [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io"), um alle Menütypen in einem echten Geschäft zu sehen – mobil, Tablet und Desktop.
 
 #### Wird Navi+ meine Website verlangsamen?
 
@@ -54,7 +54,7 @@ Ja – 7 Tage kostenlos, keine Gebühren. Jederzeit kündbar.
 
 #### Kann ich Farben, Schriftarten und Abstände anpassen?
 
-Ja. Sie haben die volle Kontrolle über Icons (3000+ Optionen), Schriftarten (1500+ Google Fonts oder benutzerdefiniert), Farben, Polsterung und Abstände auf jeder Ebene.
+Ja. Sie haben die volle Kontrolle über Icons (3000+ Optionen), Schriftarten (1500+ Google Fonts oder benutzerdefiniert), Farben, Polsterung und Ränder auf jeder Ebene.
 
 #### Kann ich benutzerdefiniertes CSS hinzufügen?
 
@@ -64,7 +64,7 @@ Ja. Fügen Sie CSS hinzu, das auf das Menü oder die gesamte Website beschränkt
 
 Ja. Verwenden Sie den integrierten Simulator und veröffentlichen Sie dann sicher mit URL-basierten Anzeige-Regeln, um zuerst auf einer bestimmten Seite zu testen.
 
-#### Kann das Menü nur auf bestimmten Seiten angezeigt werden?
+#### Kann das Menü nur auf bestimmten Seiten erscheinen?
 
 Ja. Steuern Sie die Sichtbarkeit nach Seiten-URL, Gerätetyp (mobil/Desktop) oder Anmeldestatus.
 
@@ -74,7 +74,7 @@ Ja. Steuern Sie die Sichtbarkeit nach Seiten-URL, Gerätetyp (mobil/Desktop) ode
 
 #### Wird Navi+ mit meinem Theme oder anderen Apps in Konflikt stehen?
 
-Selten. Navi+ ändert Ihr Theme nicht und benötigt keine Berechtigungen. Wenn Menüs mit anderen fixierten Elementen überlappen, passen Sie den z-index an – [siehe Anleitung](https://help.naviplus.io/docs/usage/general/z-index/ "siehe Anleitung").
+Selten. Navi+ ändert Ihr Theme nicht und benötigt keine Berechtigungen. Wenn Menüs mit anderen haftenden Elementen überlappen, passen Sie den z-index an – [siehe Anleitung](https://help.naviplus.io/docs/usage/general/z-index/ "siehe Anleitung").
 
 #### Kann Navi+ andere App-Widgets in einem Menü konsolidieren?
 
@@ -90,6 +90,24 @@ Ja. Menüs werden als JSON gespeichert – Sie können die Datei exportieren, ma
 
 ***
 
-### Ihre Frage hier nicht gefunden?
+### Sehen Sie Ihre Frage hier nicht?
 
 Kontaktieren Sie uns über [WhatsApp](https://wa.me/84981911011 "WhatsApp") oder per E-Mail an <khoipng@naviplus.io>.
+
+
+---
+
+# Agentenanweisungen: Abfragen dieser Dokumentation
+
+Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
+
+Führen Sie eine HTTP GET-Anfrage an der aktuellen Seiten-URL mit dem `ask` Abfrageparameter aus:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md?ask=<question>
+```
+
+Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
+
+Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie Klarstellungen oder zusätzliche Kontexte benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

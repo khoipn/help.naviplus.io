@@ -7,7 +7,7 @@ title: Shopify Bottom Bar-Problem in der Google App (iPhone)
 ---
 # Shopify Bottom Bar-Problem in der Google App (iPhone)
 
-Es geht um das Problem mit dem unteren Padding unter der Bottom Bar, wenn eine Shopify-Website, die Navi+, verwendet, in der Google App auf dem iPhone geöffnet wird.
+Es geht um das Problem mit dem unteren Padding unter der Bottom Bar, wenn eine Shopify-Website, die Navi+ verwendet, in der Google App auf dem iPhone geöffnet wird.
 
 Wenn Benutzer eine Shopify-Website, die **Navi+** verwendet (oder eine Anwendung mit einem festen unteren Menü, schwebenden Schaltflächen usw.), **in der Google App auf dem iPhone** öffnen, sehen sie manchmal einen ungewöhnlichen weißen Raum, der am unteren Bildschirmrand erscheint.
 
@@ -31,7 +31,7 @@ Das Problem tritt **nicht** auf, wenn die Website mit:
 * TikTok Browser
 * …
 
-Dies bestätigt, dass das Problem von der Google App auf iOS stammt.
+Dies bestätigt, dass das Problem von der Google App auf iOS kommt.
 
 ***
 
@@ -43,7 +43,7 @@ Die Google App verwendet eine spezielle Methode zur Darstellung von Websites (Ap
 * HTML oder UI, die dynamisch von JavaScript generiert wird
 * Komplexe Layouts wie Shopify (mehrere Container-Schichten & ständig wechselnde Abschnitte)
 
-Wenn diese Bedingungen auftreten, kann die Google App die tatsächliche Viewport-Höhe falsch berechnen und ein **falsches unteres Padding** erstellen.
+Wenn diese Bedingungen auftreten, kann die Google App die tatsächliche Viewport-Höhe falsch berechnen und ein **falsches unteres Padding** erzeugen.
 
 ➡️ Deshalb tritt das Problem häufiger auf Shopify-Websites auf, die Navi+ oder andere Bottom Bar/FAB-Apps verwenden.
 
@@ -51,8 +51,8 @@ Wenn diese Bedingungen auftreten, kann die Google App die tatsächliche Viewport
 
 ### 3. Ist das ein Navi+-Problem?
 
-Nein.\
-Das ist ein inhärenter Fehler der **Google App auf dem iPhone**, und er besteht seit vielen Jahren.
+Nein.
+Dies ist ein inhärenter Fehler der **Google App auf dem iPhone**, und er besteht seit vielen Jahren.
 
 Selbst wenn Navi+ deaktiviert ist, haben andere Shopify-Apps, die Bottom Bars oder FABs anzeigen, immer noch dasselbe Problem in der Google App.
 
@@ -63,7 +63,7 @@ Selbst wenn Navi+ deaktiviert ist, haben andere Shopify-Apps, die Bottom Bars od
 * Viele Shopify-Apps, die eine Bottom Bar oder FAB enthalten, haben genau dasselbe Problem.
 * Selbst einige integrierte Shopify-Funktionen zeigen ein ähnliches Verhalten in der Google App.
 * Dies ist ein bekanntes Problem in der Entwicklergemeinschaft, aber die Google App hat es nicht angesprochen.
-* Das Problem verschwindet, sobald der Benutzer **irgendwo auf den Bildschirm tippt** → Die Google App zwingt zu einem erneuten Rendern und berechnet die korrekte Höhe neu.
+* Das Problem verschwindet, sobald der Benutzer **irgendwo auf dem Bildschirm tippt** → Die Google App zwingt zu einem Neurendering und berechnet die korrekte Höhe neu.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FIJeUOw7iYKzsFXSLVQK3%2FEx-1.1.2.png?alt=media&#x26;token=c2c351d9-10fd-47ed-bbef-1e436ab3ac4f" alt=""><figcaption></figcaption></figure>
 
@@ -71,7 +71,7 @@ Selbst wenn Navi+ deaktiviert ist, haben andere Shopify-Apps, die Bottom Bars od
 
 ### 5. Aktuelle Lösung von Navi+
 
-Navi+ hat mehrere Ansätze erforscht und getestet, aber da das Problem von der Google App selbst ausgeht, kann es nicht vollständig behoben werden.
+Navi+ hat mehrere Ansätze erforscht und getestet, aber da das Problem von der Google App selbst ausgeht, kann es nicht vollständig gelöst werden.
 
 Navi+ hat jedoch die **bestmögliche Minderung** implementiert:
 
@@ -103,15 +103,32 @@ Die Google App wird das gesamte Layout neu rendern, und von diesem Moment an:
 
 Diese Nachricht ist für nicht-technische Benutzer gedacht:
 
-> "Die Google App auf dem iPhone hat einen Anzeige-Bug beim Öffnen von Shopify-Websites, die eine Bottom Bar wie Navi+ verwenden. Dieses Problem stammt von der Google App und betrifft viele Apps, nicht nur Navi+. Es tritt nur einmal auf und verschwindet nach jedem Tipp oder Scrollen auf dem Bildschirm. Wenn Sie stattdessen Safari oder Chrome verwenden, tritt das Problem nicht auf."
+> “Die Google App auf dem iPhone hat einen Anzeige-Bug beim Öffnen von Shopify-Websites, die eine Bottom Bar wie Navi+ verwenden. Dieses Problem kommt von der Google App und betrifft viele Apps, nicht nur Navi+. Es tritt nur einmal auf und verschwindet nach jedem Tipp oder Scrollen auf dem Bildschirm. Wenn Sie stattdessen Safari oder Chrome verwenden, tritt das Problem nicht auf.”
 
 ***
 
 ### 7. Fazit
 
-❌ Kein Navi+-Problem\
+❌ Kein Navi+-Problem
 ❌ Kein Shopify-Problem
 
-✔️ Ein Anzeige-Bug in der Google App auf dem iPhone\
-✔️ Navi+ minimiert das Problem, sodass es nur einmal auftritt und dann verschwindet\
+✔️ Ein Anzeige-Bug in der Google App auf dem iPhone
+✔️ Navi+ minimiert das Problem, sodass es nur einmal auftritt und dann verschwindet
 ✔️ Safari/Chrome sind vollständig unbeeinflusst
+
+---
+
+# Agenten-Anweisungen: Abfragen dieser Dokumentation
+
+Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
+
+Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/limitation/shopify-bottom-bar-issue-on-google-app-iphone.md?ask=<question>
+```
+
+Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
+
+Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzliche Informationen benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

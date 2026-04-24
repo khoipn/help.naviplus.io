@@ -1,5 +1,5 @@
 ---
-description: Par défaut, Navi+ vérifie l'URL de la page actuelle pour afficher l'état actif sur le menu (en utilisant un fond gris). Cela aide vos clients à naviguer plus facilement.
+description: Par défaut, Navi+ vérifie l'URL de la page actuelle pour afficher l'état actif sur le menu (en utilisant un arrière-plan gris). Cela aide vos clients à naviguer plus facilement.
 lang: fr
 layout: default
 permalink: /fr/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/
@@ -7,7 +7,7 @@ title: Supprimer l'état actif de l'élément de menu ?
 ---
 # Supprimer l'état actif de l'élément de menu ?
 
-Par défaut, Navi+ vérifie l'URL de la page actuelle pour afficher l'état actif sur le menu (en utilisant un fond gris). Cela aide vos clients à naviguer plus facilement.
+Par défaut, Navi+ vérifie l'URL de la page actuelle pour afficher l'état actif sur le menu (en utilisant un arrière-plan gris). Cela aide vos clients à naviguer plus facilement.
 
 Cependant, l'état actif n'est pas toujours nécessaire, surtout sur les grands écrans de bureau où il existe d'autres moyens d'indiquer "où vous êtes," comme les fils d'Ariane. Parfois, vous pouvez vouloir supprimer l'état actif pour rendre le menu plus propre.
 
@@ -36,3 +36,20 @@ Méthode 2 : Si vous souhaitez supprimer tous les effets actifs sur tous les men
   background: initial;
 }
 ```
+
+---
+
+# Instructions pour l'agent : Interroger cette documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et rédigée en langage naturel.
+La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

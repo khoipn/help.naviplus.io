@@ -46,3 +46,20 @@ Ve el ejemplo antes y después de compilar CSS en esta caja a continuación
 ### Nivel 2: Hoja de estilo global / CSS
 
 A menos que tengas experiencia con CSS, evita abusar de esta caja porque todo se empujará directamente en la forma en que escribes el código CSS sin ninguna capa de protección contra conflictos.
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el `ask` parámetro de consulta:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/development/how-to-write-a-correct-css-code-in-navi+.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

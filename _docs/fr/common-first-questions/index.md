@@ -1,5 +1,5 @@
 ---
-description: Navi+ est un constructeur de menus qui fonctionne sur n'importe quel site Web — Shopify, WordPress, WooCommerce, Wix, Webflow, et plus encore. Il vous permet d'ajouter des Tab Bars, Mega Menus, Slide Menu...
+description: Navi+ est un constructeur de menus qui fonctionne sur n'importe quel site Web — Shopify, WordPress, WooCommerce, Wix, Webflow, et plus encore. Il vous permet d'ajouter des Tab Bars, des Mega Menus, des Slide Menus...
 lang: fr
 layout: default
 permalink: /fr/docs/common-first-questions/
@@ -11,7 +11,7 @@ title: Questions fréquentes
 
 #### Qu'est-ce que Navi+ ?
 
-Navi+ est un constructeur de menus qui fonctionne sur n'importe quel site Web — Shopify, WordPress, WooCommerce, Wix, Webflow, et plus encore. Il vous permet d'ajouter des Tab Bars, Mega Menus, Slide Menus, Grid Menus, et FABs sans écrire de code.
+Navi+ est un constructeur de menus qui fonctionne sur n'importe quel site Web — Shopify, WordPress, WooCommerce, Wix, Webflow, et plus encore. Il vous permet d'ajouter des Tab Bars, des Mega Menus, des Slide Menus, des Grid Menus, et des FABs sans écrire de code.
 
 #### Quelles plateformes Navi+ prend-il en charge ?
 
@@ -24,11 +24,11 @@ N'importe quel site Web. Pour Shopify, utilisez l'application dédiée. Pour tou
 
 #### Puis-je essayer Navi+ avant de le configurer ?
 
-Oui. Visitez [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") pour voir tous les types de menus sur un vrai magasin — mobile, tablette et bureau.
+Oui. Visitez [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") pour voir tous les types de menus sur un vrai magasin — mobile, tablette, et bureau.
 
 #### Navi+ va-t-il ralentir mon site Web ?
 
-Non. Les ressources sont livrées via Cloudflare CDN avec un temps de chargement moyen de 52ms — généralement plus rapide que les propres scripts de Shopify. Après le premier chargement, les menus sont mis en cache et se chargent instantanément.
+Non. Les ressources sont livrées via Cloudflare CDN à 52ms de temps de chargement moyen — généralement plus rapide que les propres scripts de Shopify. Après le premier chargement, les menus sont mis en cache et se chargent instantanément.
 
 #### Combien de types de menus Navi+ propose-t-il ?
 
@@ -54,7 +54,7 @@ Oui — 7 jours gratuits, sans frais. Annulez à tout moment.
 
 #### Puis-je personnaliser les couleurs, les polices et l'espacement ?
 
-Oui. Vous avez un contrôle total sur les icônes (plus de 3000 options), les polices (plus de 1500 Google Fonts ou personnalisées), les couleurs, le rembourrage et les marges à chaque niveau.
+Oui. Vous avez un contrôle total sur les icônes (3000+ options), les polices (1500+ Google Fonts ou personnalisées), les couleurs, le rembourrage et les marges à chaque niveau.
 
 #### Puis-je ajouter du CSS personnalisé ?
 
@@ -66,7 +66,7 @@ Oui. Utilisez le simulateur intégré, puis publiez en toute sécurité en utili
 
 #### Le menu peut-il apparaître uniquement sur des pages spécifiques ?
 
-Oui. Contrôlez la visibilité par URL de page, type d'appareil (mobile/bureau) ou statut de connexion.
+Oui. Contrôlez la visibilité par URL de page, type d'appareil (mobile/bureau), ou statut de connexion.
 
 ***
 
@@ -78,7 +78,7 @@ Rarement. Navi+ ne modifie pas votre thème et ne nécessite aucune autorisation
 
 #### Navi+ peut-il consolider d'autres widgets d'application en un seul menu ?
 
-Oui. Les widgets de chat, les applications de fidélité, les boutons de support et d'autres icônes flottantes peuvent tous être regroupés en éléments de menu Navi+ propres.
+Oui. Les widgets de chat, les applications de fidélité, les boutons de support, et d'autres icônes flottantes peuvent tous être regroupés en éléments de menu Navi+ propres.
 
 #### Navi+ prend-il en charge plusieurs langues ?
 
@@ -93,3 +93,21 @@ Oui. Les menus sont stockés au format JSON — vous pouvez exporter le fichier,
 ### Vous ne voyez pas votre question ici ?
 
 Contactez-nous via [WhatsApp](https://wa.me/84981911011 "WhatsApp") ou par e-mail <khoipng@naviplus.io>.
+
+
+---
+
+# Instructions pour l'agent : Interroger cette documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md?ask=<question>
+```
+
+La question doit être spécifique, autonome, et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

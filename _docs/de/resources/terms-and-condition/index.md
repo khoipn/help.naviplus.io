@@ -11,7 +11,7 @@ title: Allgemeine Geschäftsbedingungen
 
 ### 1. Einführung
 
-Willkommen bei **Navi+** ("wir", "uns", "unser").\ Diese Allgemeinen Geschäftsbedingungen ("Bedingungen") regeln Ihren Zugang zu und die Nutzung der Navi+ Anwendung, Website und verwandten Dienstleistungen (gemeinsam als "Dienstleistung" bezeichnet).\ Durch die Nutzung von Navi+ stimmen Sie diesen Bedingungen zu. Wenn Sie nicht zustimmen, stellen Sie bitte die Nutzung der Dienstleistung sofort ein.
+Willkommen bei **Navi+** (“wir”, “uns”, “unser”).\ Diese Allgemeinen Geschäftsbedingungen (“Bedingungen”) regeln Ihren Zugang zu und die Nutzung der Navi+ Anwendung, Website und verwandten Dienstleistungen (gemeinsam, der “Dienst”).\ Durch die Nutzung von Navi+ stimmen Sie diesen Bedingungen zu. Wenn Sie nicht zustimmen, stellen Sie bitte die Nutzung des Dienstes sofort ein.
 
 Navi+ operiert unabhängig und arbeitet über mehrere Plattformen hinweg, einschließlich **Shopify, WordPress, WooCommerce, Wix, Webflow und Squarespace**.
 
@@ -50,9 +50,9 @@ Navi+ behält sich das Recht vor, jedes Konto zu sperren oder zu kündigen, das 
 
 ### 5. Eigentum und Lizenz des Inhalts
 
-Sie behalten das volle Eigentum an allen **Inhalten, Bildern, Daten und Materialien**, die Sie während der Nutzung von Navi+ hochladen oder erstellen.
+Sie behalten das volle Eigentum an allen **Inhalten, Bildern, Daten und Materialien**, die während der Nutzung von Navi+ hochgeladen oder erstellt werden.
 
-Durch die Nutzung der Dienstleistung gewähren Sie Navi+ eine **nicht-exklusive, weltweite, gebührenfreie Lizenz**, um Ihre Inhalte **nur zum Zweck des Betriebs und der Verbesserung der Dienstleistung** zu speichern, zu verarbeiten und anzuzeigen.
+Durch die Nutzung des Dienstes gewähren Sie Navi+ eine **nicht-exklusive, weltweite, gebührenfreie Lizenz**, um Ihre Inhalte **nur zum Zweck des Betriebs und der Verbesserung des Dienstes** zu speichern, zu verarbeiten und anzuzeigen.
 
 Navi+ erhebt keinen Anspruch auf das Eigentum oder die Nutzung Ihrer Inhalte für Marketing, Wiederverkauf oder andere nicht verwandte Zwecke.\ Alle Rechte verbleiben bei Ihnen.
 
@@ -60,7 +60,7 @@ Navi+ erhebt keinen Anspruch auf das Eigentum oder die Nutzung Ihrer Inhalte fü
 
 ### 6. Haftungsbeschränkung
 
-Navi+ wird "**wie besehen**" und "**wie verfügbar**" bereitgestellt.\ Wir geben keine Garantien, dass die Dienstleistung ununterbrochen, fehlerfrei oder mit jedem Gerät oder jeder Plattform kompatibel ist.
+Navi+ wird “**wie besehen**” und “**wie verfügbar**” bereitgestellt.\ Wir geben keine Garantien, dass der Dienst ununterbrochen, fehlerfrei oder mit jedem Gerät oder jeder Plattform kompatibel ist.
 
 Navi+ haftet nicht für:
 
@@ -68,17 +68,17 @@ Navi+ haftet nicht für:
 * Verlust von Einnahmen, Daten oder Geschäftsmöglichkeiten, oder
 * Technische Probleme, die durch Drittanbieter, Infrastruktur oder Benutzeraktionen verursacht werden.
 
-In jedem Fall darf die Gesamthaftung von Navi+ **nicht den Betrag übersteigen, den Sie** für die Dienstleistung während der **vorangegangenen zwölf (12) Monate** bezahlt haben.
+In jedem Fall darf die Gesamthaftung von Navi+ **nicht den Betrag übersteigen, den Sie** für den Dienst während der **vorangegangenen zwölf (12) Monate** bezahlt haben.
 
 ***
 
-### 7. Kündigung der Dienstleistung
+### 7. Kündigung des Dienstes
 
 Wir können Ihren Zugang zu Navi+ jederzeit ohne vorherige Ankündigung aussetzen oder kündigen, wenn:
 
 1. Sie gegen diese Bedingungen oder geltende Gesetze verstoßen.
 2. Wir eine rechtmäßige Anfrage von Shopify, Lemon Squeezy oder einer anderen Partnerplattform erhalten.
-3. Die Dienstleistung Wartung, Upgrade oder dauerhafte Einstellung erfordert.
+3. Der Dienst Wartung, Upgrade oder dauerhafte Einstellung erfordert.
 
 Sie können Ihr Konto auch jederzeit kündigen, indem Sie die Anwendung deinstallieren oder den Support kontaktieren.
 
@@ -88,7 +88,7 @@ Nach der Kündigung kann Navi+ bestimmte Daten aus technischen oder rechtlichen 
 
 ### 8. Geistiges Eigentum
 
-Alle Marken, Designs und Technologien, die innerhalb von Navi+ verwendet werden, bleiben das **geistige Eigentum von Navi+ oder seinen Lizenzgebern**.\ Sie dürfen keinen Teil der Dienstleistung ohne ausdrückliche schriftliche Zustimmung kopieren, modifizieren, weiterverbreiten oder weiterverkaufen.
+Alle Marken, Designs und Technologien, die innerhalb von Navi+ verwendet werden, bleiben das **geistige Eigentum von Navi+ oder seinen Lizenzgebern**.\ Sie dürfen keinen Teil des Dienstes ohne ausdrückliche schriftliche Zustimmung kopieren, modifizieren, weiterverbreiten oder weiterverkaufen.
 
 ***
 
@@ -103,3 +103,21 @@ Diese Bedingungen unterliegen den Gesetzen von **Singapur** und sind nach diesen
 Wenn Sie auf Probleme stoßen oder Fragen haben, kontaktieren Sie bitte das **Navi+ Support-Team** – unabhängig von Ihrem Plan.\ Wir schätzen jede Nachricht aufrichtig. Ihr Feedback hilft uns nicht nur, Ihr Problem zu lösen, sondern auch, die Bedürfnisse der Benutzer zu verstehen und Navi+ weiter zu verbessern.
 
 **E-Mail:** <khoipn@naviplus.io>\ **Website:** <https://naviplus.io>
+
+
+---
+
+# Anweisungen für Agenten: Abfragen dieser Dokumentation
+
+Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
+
+Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md?ask=<question>
+```
+
+Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
+
+Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf dieser Seite vorhanden ist, Sie eine Klärung oder zusätzliche Informationen benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

@@ -4,21 +4,13 @@
 👀 **Want to see them in action?** [View live demo → showcase.naviplus.io](http://showcase.naviplus.io/)
 {% endhint %}
 
-Most stores use only one menu type — but each kind serves a different purpose.
-
-Combining multiple menu types gives your customers a much better experience: a Tab Bar for instant access, a Slide Menu for deep catalog, a Mega Menu for desktop discovery, a FAB for support — each doing exactly one job, perfectly.
+Most stores use only one menu type — but each kind serves a different purpose. Combining multiple menu types gives your customers a much better experience: a Tab Bar for instant access, a Slide Menu for deep catalog, a Mega Menu for desktop discovery, a FAB for support — each doing exactly one job, perfectly.
 
 ***
 
-## 1. Tab Bar
+## 1. Tab Bar *(also called: Bottom Navigation, Nav Bar, Bottom Nav)*
 
-**Also called:** Bottom Navigation, Nav Bar, Bottom Nav
-
-A fixed navigation bar — placeable at bottom, top, left, or right. Holds 4–5 sections with icon + label. Makes your store feel like a native app.
-
-Works on both mobile and desktop. Best as primary site-wide nav — always visible, always within thumb reach.
-
-**Used by:** Shein, ASOS, Zara, Etsy, H\&M, Nike, Uniqlo.
+A fixed navigation bar — placeable at bottom, top, left, or right. Holds 4–5 sections with icon + label. Makes your store feel like a native app. Works on both mobile and desktop. Best as primary site-wide nav — always visible, always within thumb reach. **Used by:** Shein, ASOS, Zara, Etsy, H\&M, Nike, Uniqlo.
 
 **Platform:** Desktop and Mobile *(Extremely popular)*
 
@@ -26,13 +18,9 @@ Works on both mobile and desktop. Best as primary site-wide nav — always visib
 
 ***
 
-## 2. Slide Menu
+## 2. Slide Menu *(also called: Drawer Menu, Hamburger Menu)*
 
-**Also called:** Drawer Menu, Hamburger Menu
-
-Slides in from left or right — unlimited items, no size limit, fits your entire site structure.
-
-The most popular and mobile-friendly nav pattern. Can be triggered by a hamburger icon, a Tab Bar item, or any button placed within thumb reach. Use it for your full catalog, account links, policies, and anything that doesn't need to be always visible.
+Slides in from left or right — unlimited items, no size limit, fits your entire site structure. The most popular and mobile-friendly nav pattern. Can be triggered by a hamburger icon, a Tab Bar item, or any button placed within thumb reach. Use it for your full catalog, account links, policies, and anything that doesn't need to be always visible.
 
 **Platform:** Mobile *(Extremely popular)* · Desktop *(less common)*
 
@@ -40,13 +28,9 @@ The most popular and mobile-friendly nav pattern. Can be triggered by a hamburge
 
 ***
 
-## 3. Desktop Mega Menu
+## 3. Desktop Mega Menu *(also called: Dropdown Menu, Multi-column Menu)*
 
-**Also called:** Dropdown Menu, Multi-column Menu
-
-A multi-column dropdown that expands below the header — built to cover your entire desktop navigation in one place.
-
-Takes full advantage of the large screen with images, banners, and rich layouts across multiple columns. Replaces the default header menu entirely. The standard for any store with a substantial catalog on desktop.
+A multi-column dropdown that expands below the header — built to cover your entire desktop navigation in one place. Takes full advantage of the large screen with images, banners, and rich layouts across multiple columns. Replaces the default header menu entirely. The standard for any store with a substantial catalog on desktop.
 
 **Platform:** Desktop only *(Extremely popular)*
 
@@ -54,13 +38,9 @@ Takes full advantage of the large screen with images, banners, and rich layouts 
 
 ***
 
-## 4. Mobile Mega Menu
+## 4. Mobile Mega Menu *(also called: Header Menu, Scrollable Top Menu)*
 
-**Also called:** Header Menu, Scrollable Top Menu
-
-A compact menu bar sitting just below the header — always visible, no tap needed.
-
-Scrolls horizontally or splits into tabs to surface your top categories instantly. One of the most recognizable nav patterns on mobile websites. Best for stores with 4–8 priority categories that customers should reach in one tap.
+A compact menu bar sitting just below the header — always visible, no tap needed. Scrolls horizontally or splits into tabs to surface your top categories instantly. One of the most recognizable nav patterns on mobile websites. Best for stores with 4–8 priority categories that customers should reach in one tap.
 
 **Platform:** Mobile only *(Popular)*
 
@@ -68,13 +48,9 @@ Scrolls horizontally or splits into tabs to surface your top categories instantl
 
 ***
 
-## 5. FAB & Support
+## 5. FAB & Support *(also called: Floating Button, Speed Dial)*
 
-**Also called:** Floating Button, Speed Dial, Quick Access
-
-A floating button fixed to any corner — always visible regardless of scroll.
-
-Expands into multiple actions: WhatsApp, Messenger, chat widgets (Shopify Inbox, Tidio, Crisp), hotline, or any custom link. The first place customers look when they need help. Can auto-hide when not needed to save screen space.
+A floating button fixed to any corner — always visible regardless of scroll. Expands into multiple actions: WhatsApp, Messenger, chat widgets (Shopify Inbox, Tidio, Crisp), hotline, or any custom link. The first place customers look when they need help or support docs. Can auto-hide when not needed to save screen space.
 
 **Platform:** Desktop *(popular)* · Mobile *(Extremely popular)*
 
@@ -82,13 +58,9 @@ Expands into multiple actions: WhatsApp, Messenger, chat widgets (Shopify Inbox,
 
 ***
 
-## 6. Grid Menu
+## 6. Grid Menu *(also called: Icon Menu, Category Grid)*
 
-**Also called:** Icon Menu, Category Grid
-
-A grid of tiles — each with an icon or image and a label.
-
-Embeds directly into any page section, not a site-wide nav. Gives your store an app-like look and feel, ideal for showcasing 6–12 categories at a glance. Works especially well on homepages, landing pages, and inside Slide Menus.
+A grid of tiles — each with an icon or image and a label. Embeds directly into any page section, not a site-wide nav. Gives your store an app-like look and feel, ideal for showcasing 6–12 categories at a glance. Works especially well on homepages, landing pages, and inside Slide Menus.
 
 **Platform:** Mobile *(Popular)*
 
@@ -126,7 +98,7 @@ Start with a **Tab Bar** or **Slide Menu** — both are built for mobile. Tab Ba
 
 <summary>My store has a lot of categories. How do I show them all without overwhelming customers?</summary>
 
-Use a **Desktop Mega Menu** on desktop (multi-column, supports images and banners) combined with a **Slide Menu** on mobile (unlimited items, scrollable). Each handles its platform's constraints perfectly.
+Use a **Desktop Mega Menu** on desktop (multi-column, supports images and banners) combined with a **Slide Menu** on mobile (unlimited items, scrollable). Each handles its platform perfectly.
 
 </details>
 

@@ -9,7 +9,7 @@ title: Kiếm tới 22.5% RevShare với Navi+
 
 **Bạn có đang xây dựng các trang web Shopify cho khách hàng không? Trở thành Đối tác Navi+ và kiếm tới 22.5% hoa hồng!**
 
-Nếu bạn là một freelancer, đại lý, hoặc chuyên gia Shopify, đừng bỏ lỡ cơ hội tạo ra thu nhập định kỳ từ mỗi dự án bạn thực hiện.
+Nếu bạn là một freelancer, đại lý, hoặc chuyên gia Shopify, đừng bỏ lỡ cơ hội tạo ra thu nhập định kỳ từ mỗi dự án bạn giao.
 
 Với Chương trình RevShare của Navi+, bạn sẽ nhận được:
 
@@ -23,4 +23,4 @@ Với Chương trình RevShare của Navi+, bạn sẽ nhận được:
 
 Navi+ là một công cụ mạnh mẽ và giàu tính năng, được xếp hạng trong số những công cụ hàng đầu trên Thị trường Shopify. Tuy nhiên, nó có thể khá phức tạp và yêu cầu một số kinh nghiệm kỹ thuật. Đó là lý do tại sao Navi+ là công cụ hoàn hảo cho bạn—những người có kỹ năng kỹ thuật, hiểu biết vững về UI/UX, và thành thạo web.
 
-Với Navi+, bạn sẽ có sự linh hoạt để **tùy chỉnh sâu dựa trên yêu cầu khắt khe của khách hàng**—thường cung cấp các tính năng mà các công cụ khác trên thị trường không thể so sánh được.
+Với Navi+, bạn sẽ có sự linh hoạt để **tùy chỉnh sâu dựa trên yêu cầu khắt khe của khách hàng**—thường cung cấp các tính năng mà các công cụ khác trên thị trường không thể sánh kịp.

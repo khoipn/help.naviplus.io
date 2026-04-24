@@ -26,7 +26,7 @@ Paso 3: Ve a Integraciones de aplicaciones, encuentra “Navi+ en todas las pág
 
 Paso 4: No olvides hacer clic en “Guardar” para aplicar los cambios.
 
-Después de estos 4 pasos, Navi+ ha sido instalado en tu sitio web y está listo para mostrarse. Sin embargo, el proceso aún no está completo. Regresa a la pestaña de la aplicación Navi+ para activar realmente **Publicar menú**.
+Después de estos 4 pasos, Navi+ se ha instalado en tu sitio web y está listo para mostrarse. Sin embargo, el proceso aún no está completo. Regresa a la pestaña de la aplicación Navi+ para activar realmente **Publicar menú**.
 
 #### 2.2. Selecciona la configuración de visualización y publica el menú.
 
@@ -37,3 +37,21 @@ Paso 1: Haz clic en el botón **Publicar en el sitio web**.
 Paso 2: Elige la configuración de visualización y luego PUBLICA EL MENÚ.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autónoma y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

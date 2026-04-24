@@ -3,15 +3,15 @@ description: Qui troverai guide su come connettere Navi+ con altre app (come str
 lang: it
 layout: default
 permalink: /it/docs/integrations/integrating-navi-with-your-website-and-external-apps/
-title: Integrando Navi+ con il tuo sito web e app esterne
+title: Integrare Navi+ con il tuo sito web e app esterne
 ---
-# Integrando Navi+ con il tuo sito web e app esterne
+# Integrare Navi+ con il tuo sito web e app esterne
 
 Qui troverai guide su come connettere Navi+ con altre app (come strumenti di chat, fedeltà, ecc.). Puoi aggiungerle come elementi di menu, aprire app direttamente da Navi+, e assicurarti che tutto funzioni insieme senza sovrapposizioni sul tuo sito.
 
 ### 1. Integrare altre app sticky in un singolo elemento di menu Navi+
 
-Navi+ consolida più app (Chat Box, Fedeltà, Prova sociale, Barre promozionali, ecc.) in elementi di menu, mantenendo il tuo sito web pulito e prevenendo sovrapposizioni—particolarmente prezioso sui dispositivi mobili con spazio limitato sullo schermo.\Per ottenere questo, segui questi 2 passaggi:
+Navi+ consolida più app (Chat Box, Fedeltà, Prova Sociale, Barre Promozionali, ecc.) in elementi di menu, mantenendo il tuo sito web pulito e prevenendo sovrapposizioni—particolarmente prezioso sui dispositivi mobili con spazio limitato sullo schermo.\Per ottenere questo, segui questi 2 passaggi:
 
 • Passo 1: Nascondi le icone delle app sticky usando CSS. Vedi i dettagli qui\• Passo 2: Usa JavaScript per gli elementi di menu in modo che cliccando su di essi si aprano i rispettivi pannelli delle app.
 
@@ -19,12 +19,12 @@ Vedi l'esempio di integrazione della chat Tidi. Questa è una configurazione rel
 
 ### 2. Trigger JavaScript – interagire con app esterne
 
-Navi+ consente di eseguire funzioni JavaScript dagli elementi di menu quando cliccati dagli utenti (javascript:Function). Vedi l'esempio di integrazione della chat Tidi per capire come utilizzare due funzioni JavaScript per integrare la chat Tidio come elemento di menu Navi+:
+Navi+ consente di eseguire funzioni JavaScript dagli elementi di menu quando vengono cliccati dagli utenti (javascript:Function). Vedi l'esempio di integrazione della chat Tidi per capire come utilizzare due funzioni JavaScript per integrare la chat Tidio come elemento di menu Navi+:
 
 1. Nascondi l'icona Tidio: Una funzione globale che aspetta che Tidio venga renderizzato, poi lo nasconde
 2. openTidio(): Apre il pannello di chat di Tidio quando gli utenti cliccano sull'elemento di menu "Chat with us"
 
-Navi+ supporta anche la definizione delle assegnazioni di classi e attributi (anche sotto forma di id="menu-item-1") per abilitare l'interazione con altre applicazioni o codice JavaScript. Puoi usare funzioni JavaScript per accedere direttamente agli elementi di menu tramite classi o attributi, ad esempio: per creare un tutorial passo-passo.
+Navi+ supporta anche la definizione delle assegnazioni di classe e attributo (anche sotto forma di id="menu-item-1") per abilitare l'interazione con altre applicazioni o codice JavaScript. Puoi utilizzare funzioni JavaScript per accedere direttamente agli elementi di menu tramite classe o attributo, ad esempio: per creare un tutorial guidato.
 
 ### 3. Personalizzare l'interfaccia di Navi+ con CSS esterno
 
@@ -32,17 +32,17 @@ Ogni menu di Navi+ è definito da un elemento div con id="SF-123456789" (id inco
 
 `#SF-123456789 ul li ul.children li .name { color: red; }`
 
-Navi+ supporta anche la definizione delle assegnazioni di classi e attributi (anche sotto forma di id="menu-item-1") per abilitare l'interazione con altre applicazioni o codice JavaScript. Puoi stilizzare ogni elemento di menu usando nomi di classi o attributi.
+Navi+ supporta anche la definizione delle assegnazioni di classe e attributo (anche sotto forma di id="menu-item-1") per abilitare l'interazione con altre applicazioni o codice JavaScript. Puoi stilizzare ogni elemento di menu utilizzando nomi di classe o attributi.
 
 ### 4. Comunicazione tra i menu di Navi+
 
-Da un elemento di menu Navi+, puoi chiamare per aprire un altro menu Slide di Navi+ usando la sintassi: `open:NaviMenu.`\Con questa sintassi, puoi espandere infinitamente i livelli di menu facendo chiamare altri menu slide.
+Da un elemento di menu di Navi+, puoi chiamare per aprire un altro menu Slide di Navi+ utilizzando la sintassi: `open:NaviMenu.`\Con questa sintassi, puoi espandere infinitamente i livelli di menu facendo chiamare altri menu slide.
 
 ### 5. Aprire un menu Slide da qualsiasi parte del tuo sito web
 
-Con i menu slide, oltre ad aprirli tramite elementi di menu di altri menu Navi+, puoi anche attivare un menu slide di Navi+ chiamando la funzione JavaScript: `naviman.openNaviMenu()`.\Ad esempio: Crea un pulsante flottante usando HTML e CSS, poi assegna la sua azione di clic per aprire un menu Slide di Navi+ – avrai immediatamente un menu dall'aspetto professionale.
+Con i menu slide, oltre ad aprirli tramite elementi di menu di altri menu di Navi+, puoi anche attivare un menu slide di Navi+ chiamando la funzione JavaScript: `naviman.openNaviMenu()`.\Ad esempio: Crea un pulsante flottante utilizzando HTML e CSS, poi assegna la sua azione di clic per aprire un menu Slide di Navi+ – avrai immediatamente un menu dall'aspetto professionale.
 
-### 6. Simulare azioni degli utenti (clic, focus, scroll, ecc.)
+### 6. Simulare azioni dell'utente (clic, focus, scroll, ecc.)
 
 Navi+ fornisce diverse funzioni (attivate quando un elemento di menu viene cliccato):
 
@@ -66,7 +66,7 @@ Navi+ fornisce diverse funzioni (attivate quando un elemento di menu viene clicc
 * `tel:+[Country code][Phone]` per chiamare il numero
 * `sms:+[Country code][Phone]?body=[Text]` per inviare un messaggio SMS al numero con un contenuto preimpostato (opzionale)
 * `mailto:[Address]` per inviare un'email
-* `https://m.me/[YourName]` per chattare con il tuo Messenger di Facebook
+* `https://m.me/[YourName]` per chattare con il tuo Facebook Messenger
 * `https://wa.me/[Phone]` per chattare con il tuo WhatsApp
 * `https://lin.ee/[line-code]` per chattare con il tuo Line
 * `https://zalo.me/+[Country code][Phone]` per chattare con il tuo Zalo
@@ -82,3 +82,20 @@ Navi+ fornisce diverse funzioni (attivate quando un elemento di menu viene clicc
 ### Non lo vedi nella lista?
 
 Sentiti libero di inviarmi la tua richiesta di integrazione. Sono felice di aiutarti, e supporta anche la crescita di Navi+.
+
+---
+
+# Istruzioni per l'agente: Interrogare questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

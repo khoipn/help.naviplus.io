@@ -13,6 +13,24 @@ Navi+ admite varios paneles de Menú, Búsqueda y Carrito en temas populares: La
 
 Esta función solo está disponible para el plan Business y superior (no es compatible con el plan gratuito). Por lo tanto, si está utilizando el plan gratuito, actualice a un plan de pago para mejorar significativamente la experiencia de su sitio web, optimizar la velocidad, mejorar el SEO y obtener acceso a muchas funciones útiles. Si ya está utilizando un plan de pago y su tema no está en la lista de temas compatibles con Navi+, comuníquese con el soporte de Navi+ a través de canales como WhatsApp, iMessage o correo electrónico. Integraremos Navi+ para que sea compatible con su tema dentro de un día hábil.
 
-<mark style="background-color:yellow;">Nota: Si está utilizando un plan de pago y baja al plan gratuito, estas funciones exclusivas no funcionarán en su menú. Enviaremos una notificación por correo electrónico antes de desactivar la función en su aplicación.</mark>
+<mark style="background-color:yellow;">Nota: Si está utilizando un plan de pago y reduce a un plan gratuito, estas funciones exclusivas no funcionarán en su menú. Enviaremos una notificación por correo electrónico antes de desactivar la función en su aplicación.</mark>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkBNy56enqVb3wJ4TWyX%2Fscreenbud-639e2e18-56b1-49d0-8e66-b831983a6577.png?alt=media&#x26;token=9fed32bf-b1ac-4a67-af36-59f4b90bdec1" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesita información adicional que no esté directamente disponible en esta página, puede consultar la documentación dinámicamente haciendo una pregunta.
+
+Realice una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-arent-menu-search-cart-panels-working.md?ask=<question>
+```
+
+La pregunta debe ser específica, autónoma y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utilice este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesite aclaraciones o contexto adicional, o desee recuperar secciones de documentación relacionadas.

@@ -18,11 +18,11 @@ Ein **FAB (Floating Action Button)** ist ein einfaches Menü, das immer am unter
 
 **FAQ:**
 
-<details><summary><strong>1. Ich habe mich noch nicht entschieden, ob ich die kostenlose oder die kostenpflichtige Version verwenden soll. Kann ich die professionellen Menüvorlagen ausprobieren?</strong></summary>
-<p>Absolut! Die Menügruppen sollen hauptsächlich Anfängern helfen, sich nicht von den erweiterten Funktionen in Navi+ überwältigt zu fühlen 😄. Der beste Weg ist, die professionellen Menüs auszuprobieren, um alle Funktionen und Layout-Optionen zu erkunden. Später können Sie einfach jedes Menü löschen, das Sie nicht benötigen oder als ungeeignet empfinden.</p>
+<details><summary><strong>1. Ich habe noch nicht entschieden, ob ich die kostenlose oder die kostenpflichtige Version verwenden soll. Kann ich die professionellen Menüvorlagen ausprobieren?</strong></summary>
+<p>Absolut! Die Menügruppen sollen hauptsächlich Anfängern helfen, sich nicht von fortgeschrittenen Funktionen in Navi+ überwältigt zu fühlen 😄. Der beste Weg ist, die professionellen Menüs auszuprobieren, um alle Funktionen und Layout-Optionen zu erkunden. Später können Sie einfach jedes Menü löschen, das Sie nicht benötigen oder als ungeeignet empfinden.</p>
 </details>
 
-<details><summary><strong>2. Führt das Erstellen eines Menüs hier dazu, dass es sofort auf meiner Website angezeigt wird?</strong></summary>
+<details><summary><strong>2. Wird ein hier erstelltes Menü sofort auf meiner Website angezeigt?</strong></summary>
 <p>Noch nicht. Sie müssen das richtige Menü <strong>veröffentlichen</strong>, damit es auf Ihrer Website erscheint. Keine Sorge – es ist einfach!</p>
 </details>
 
@@ -31,7 +31,7 @@ Ein **FAB (Floating Action Button)** ist ein einfaches Menü, das immer am unter
 </details>
 
 <details><summary><strong>4. Soll ich nur ein Menü oder mehrere erstellen?</strong></summary>
-<p>Sie sollten <strong>mehrere Menüs</strong> erstellen. Nur das <strong>aktive</strong> Menü wird auf Ihrer Website angezeigt, aber Sie können viele Versionen vorbereiten – indem Sie verschiedene Vorlagen auswählen oder Menüs klonen. Menüs können so konfiguriert werden, dass sie je nach Seitentyp (Startseite, Produkt, Sammlung...), Gerät (mobil oder Desktop) oder URL-Schlüsselwörtern angezeigt oder ausgeblendet werden. Also legen Sie los und erstellen Sie Menüs, die zu jeder Situation passen!</p>
+<p>Sie sollten <strong>mehrere Menüs</strong> erstellen. Nur das <strong>aktive</strong> Menü wird auf Ihrer Seite angezeigt, aber Sie können viele Versionen vorbereiten – indem Sie verschiedene Vorlagen auswählen oder Menüs klonen. Menüs können so konfiguriert werden, dass sie je nach Seitentyp (Startseite, Produkt, Sammlung...), Gerät (mobil oder Desktop) oder URL-Schlüsselwörtern angezeigt oder ausgeblendet werden. Also legen Sie los und erstellen Sie Menüs, die zu jeder Situation passen!</p>
 </details>
 
 ### Schritt 1: Bearbeiten Sie den Menübaum
@@ -73,9 +73,9 @@ Wenn Sie mit der Maus über ein Menüelement fahren, sehen Sie zusätzliche Opti
 
 #### 1.3. WICHTIG! Löschen Sie die Beispielmenüelemente und behalten Sie nur die Struktur, die Sie möchten.
 
-Dies ist eine häufige Situation beim Erstellen eines Menüs mit Navi+. Wenn Sie ein neues Menü erstellen, fügen wir ein vollständiges Beispiel mit beliebten Menüelementen hinzu, um Layout-Ideen zu zeigen und Ihnen das Kopieren/Einfügen nach Bedarf zu ermöglichen. Wenn Sie jedoch neu bei Navi+ sind und den Starter-Plan verwenden, sehen Sie viele rote (i) Warnungen für Funktionen, die nicht verfügbar sind, wie das Hochladen von Bildern oder die Verwendung erweiterter Interaktionen.
+Dies ist eine häufige Situation beim Erstellen eines Menüs mit Navi+. Wenn Sie ein neues Menü erstellen, fügen wir ein vollständiges Beispiel mit beliebten Menüelementen hinzu, um Layout-Ideen zu zeigen und Ihnen das Kopieren/Einfügen nach Bedarf zu ermöglichen. Wenn Sie jedoch neu bei Navi+ sind und den Starter-Plan verwenden, sehen Sie viele rote (i) Warnungen für Funktionen, die nicht verfügbar sind, wie das Hochladen von Bildern oder die Verwendung fortgeschrittener Interaktionen.
 
-Wenn Sie diese erweiterten Funktionen mögen, sollten Sie ein Upgrade auf einen Business- oder Elite-Plan in Betracht ziehen. Wenn Sie jedoch mit dem Starter-Plan fortfahren möchten, suchen und löschen Sie bitte die Menüelemente mit roten (i) Warnungen.
+Wenn Sie diese fortgeschrittenen Funktionen mögen, sollten Sie ein Upgrade auf einen Business- oder Elite-Plan in Betracht ziehen. Wenn Sie jedoch mit dem Starter-Plan fortfahren möchten, suchen und löschen Sie bitte die Menüelemente mit roten (i) Warnungen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FZ96svTLcRzpi6XQYOV6b%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=72336bcd-e878-4149-b33a-f65d05d092eb" alt=""><figcaption></figcaption></figure>
 
@@ -129,3 +129,20 @@ Schritt 1: Klicken Sie auf die Schaltfläche **Auf Website veröffentlichen**.
 Schritt 2: Wählen Sie die Anzeigeeinstellungen und VERÖFFENTLICHEN SIE DAS MENÜ.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Agentenanweisungen: Abfragen dieser Dokumentation
+
+Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
+
+Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md?ask=<question>
+```
+
+Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein. Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
+
+Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

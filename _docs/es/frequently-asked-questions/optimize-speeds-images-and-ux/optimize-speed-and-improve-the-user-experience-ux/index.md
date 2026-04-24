@@ -7,7 +7,7 @@ title: Optimizar la velocidad y mejorar la experiencia del usuario (UX).
 ---
 # Optimizar la velocidad y mejorar la experiencia del usuario (UX).
 
-#### ¿Por qué necesitas hacer esto? ¿No es ya Navi+ rápido?
+#### ¿Por qué necesitas hacer esto? ¿No es Navi+ ya rápido?
 
 Navi+ es muy rápido. Está completamente desplegado en una CDN líder con muy baja latencia (alrededor de 100ms) y puede atender a millones de clientes sin desacelerarse.
 
@@ -27,7 +27,7 @@ Actualmente, Navi+ tiene alta prioridad al cargarse en sitios web de Shopify. Si
 
 #### Slide Menu: Agregar un efecto de carga y bloquear el selector del disparador
 
-Muy simple: solo ingresa el selector CSS que usas para el Slide Menu en la sección de incrustación de la aplicación Navi+ (ver imagen a continuación).
+Muy simple: solo ingresa el selector CSS que usas para el Slide Menu en la sección de incrustación de la aplicación Navi+ (ver imagen abajo).
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Muy simple: solo ingresa el selector CSS que usas para el Slide Menu en la secci
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgvnasnKF0IHLNHJUnl8n%2F1.3.png?alt=media&#x26;token=47ae5ab0-eb82-4fa7-99ae-264869a09059" alt=""><figcaption></figcaption></figure>
 
-#### Mega Menu (Modo de reemplazo): Agregar un efecto de carga y bloquear el selector del disparador
+#### Mega Menu (modo de reemplazo): Agregar un efecto de carga y bloquear el selector del disparador
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fk4HYuop9Aq2GRnk4OEWT%2F2.1.png?alt=media&#x26;token=ddeb17b5-23d7-4870-b9ac-fb95b6e250b7" alt=""><figcaption></figcaption></figure>
 
@@ -48,3 +48,21 @@ Nota:
 * Agrega el sufijo **(M)** si deseas que se aplique solo en móvil.
 * Agrega el sufijo **(D)** si deseas que se aplique solo en escritorio.
 * No dejes sufijo si deseas que se aplique en ambas plataformas.
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autosuficiente y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

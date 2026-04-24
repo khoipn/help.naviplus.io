@@ -1,5 +1,5 @@
 ---
-description: Haben Sie jemals ein Menü erstellt, das Ihnen wirklich gefiel… und dann festgestellt, dass Sie dasselbe woanders benötigten? 😅
+description: Haben Sie jemals ein Menü erstellt, das Ihnen wirklich gefallen hat… und dann festgestellt, dass Sie dasselbe woanders benötigen? 😅
 lang: de
 layout: default
 permalink: /de/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
@@ -7,11 +7,11 @@ title: Wie man ein Navi+ Menü in ein anderes Navi+ Menü überträgt
 ---
 # Wie man ein Navi+ Menü in ein anderes Navi+ Menü überträgt
 
-Haben Sie jemals ein Menü erstellt, das Ihnen wirklich gefiel… und dann festgestellt, dass Sie dasselbe woanders benötigten? 😅
+Haben Sie jemals ein Menü erstellt, das Ihnen wirklich gefallen hat… und dann festgestellt, dass Sie dasselbe woanders benötigen? 😅
 
 Gute Nachrichten: Sie müssen es nicht von Grund auf neu erstellen.
 
-### Wann müssten Sie ein Menü übertragen?
+### Wann müssen Sie ein Menü übertragen?
 
 Dies ist häufig in den folgenden Situationen erforderlich:
 
@@ -35,7 +35,7 @@ Erstellen Sie das Grundgerüst mit Level 1 und Level 2 Menüelementen, damit es 
 * Ein Tab: Quellmenü (das Menü, das bereits Inhalte hat)
 * Ein Tab: Zielmenü (das Menü, in das Sie übertragen)
 
-Wenn Sie sie nebeneinander geöffnet lassen, wird der Prozess schneller und hilft, Fehler zu vermeiden.
+Wenn Sie sie nebeneinander geöffnet halten, wird der Prozess schneller und hilft, Fehler zu vermeiden.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8R0Fc3nJiM5ZhtFrcYsC%2F1.1.webp?alt=media&#x26;token=aec03e77-5a0c-42f5-88a6-c9632466fee9" alt=""><figcaption></figcaption></figure>
 
@@ -52,3 +52,20 @@ Wechseln Sie zum Tab des Zielmenüs, navigieren Sie zur richtigen Stelle und fü
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLX3Be5eqfItKUMpXSCCj%2F1.3.webp?alt=media&#x26;token=74143e7e-efb7-485a-9eba-6a28d2ec9229" alt=""><figcaption></figcaption></figure>
 
 🔁 Wiederholen Sie die Schritte 3 und 4, bis die gesamte Menüstruktur vollständig übertragen wurde. Tipps: Bewegen Sie das Menü in Abschnitten (nach Ebene oder nach Zweig), um sicherzustellen, dass nichts übersehen wird und die Struktur organisiert bleibt.
+
+---
+
+# Agentenanweisungen: Abfragen dieser Dokumentation
+
+Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
+
+Führen Sie eine HTTP GET-Anfrage an die URL der aktuellen Seite mit dem `ask` Abfrageparameter aus:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md?ask=<question>
+```
+
+Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
+
+Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klarstellung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

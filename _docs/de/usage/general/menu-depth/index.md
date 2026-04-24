@@ -7,7 +7,7 @@ title: Menütiefe
 ---
 # Menütiefe
 
-Die standardmäßige Unterstützung der Menütiefe für das Navi+ Menü beträgt 2 für das Starter-Paket (kostenlos) und wird auf 3 für das Business-Paket erhöht. In den meisten Fällen ist eine Tiefe von 2 ausreichend für gewöhnliche Bedürfnisse - und auch einfach für die Benutzer, da eine große Tiefe des Menüs die Benutzer verwirren kann. In einigen Fällen, zum Beispiel, möchten Sie möglicherweise die gesamte Produktkatalogstruktur zum Navi+ Menü hinzufügen, in diesem Fall könnte eine Tiefe von 3 Ebenen eine perfekte Wahl sein, um es Ihren Besuchern zu erleichtern, auf Ihre Dienstleistungen und Produkte zuzugreifen.
+Die standardmäßige Unterstützung der Menütiefe für das Navi+ Menü beträgt 2 für das Starter-Paket (kostenlos) und wird auf 3 für das Business-Paket erhöht. In den meisten Fällen ist eine Tiefe von 2 ausreichend für gewöhnliche Bedürfnisse - Und auch einfach für die Benutzer, da eine große Tiefe des Menüs die Benutzer verwirren kann. In einigen Fällen, zum Beispiel, möchten Sie möglicherweise die gesamte Produktkatalogstruktur zum Navi+ Menü hinzufügen, in diesem Fall könnte eine Tiefe von 3 Ebenen eine perfekte Wahl sein, um es Ihren Besuchern zu erleichtern, auf Ihre Dienstleistungen und Produkte zuzugreifen.
 
 Derzeit haben Sie mit dem Business-Paket bis zu 3 Menütiefen
 
@@ -16,3 +16,21 @@ Derzeit haben Sie mit dem Business-Paket bis zu 3 Menütiefen
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FGqZPIZE0Zh4KrVH3m3io%2FFrame%2015.png?alt=media&#x26;token=7bd0f7a8-28d0-49ae-8345-62334fd2dff0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FNHBWP1mRXYKhEyOwjO9n%2FFrame%2014.png?alt=media&#x26;token=56c17290-ef6b-4069-b417-99d08b54b3c4" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Agentenanweisungen: Abfragen dieser Dokumentation
+
+Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
+
+Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/menu-depth.md?ask=<question>
+```
+
+Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
+
+Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

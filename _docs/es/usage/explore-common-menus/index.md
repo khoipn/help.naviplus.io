@@ -1,5 +1,5 @@
 ---
-description: Navi+ ofrece una solución de menú integral para su sitio web, mucho más allá de los menús desplegables tradicionales.
+description: '{% comment %}hint style="info" {% endcomment %}'
 lang: es
 layout: default
 permalink: /es/docs/usage/explore-common-menus/
@@ -7,92 +7,138 @@ title: Explorar menús comunes
 ---
 # Explorar menús comunes
 
-Navi+ ofrece una solución de menú integral para su sitio web, mucho más allá de los menús desplegables tradicionales.
+{% comment %}hint style="info" {% endcomment %}
+👀 **¿Quieres verlos en acción?** [Ver demostración en vivo → showcase.naviplus.io](http://showcase.naviplus.io/ "Ver demostración en vivo → showcase.naviplus.io")
+{% comment %}endhint{% endcomment %}
 
-Dependiendo de su tipo de dispositivo y la experiencia de usuario deseada, puede elegir entre varios estilos de menú flexibles y optimizados:
-
-#### 1. Tab Bar (Bottom Navigation)
-
-Como se conoce como Bottom Navigation Bar, Bottom Nav, o Tab Navigation - es un estilo de navegación moderno utilizado por marcas globales como Shein, ASOS, Zara, Etsy, H&amp;M, Nike y Uniqlo para mejorar la experiencia del usuario móvil. Funciona bien para sitios web de todos los tamaños y es efectivo tanto en móvil como en escritorio.
-
-Aparece en la parte inferior de las pantallas móviles, ayudando a los usuarios:
-
-* Acceder rápidamente a 4–5 áreas principales de su sitio
-* Navegar fácilmente con sus pulgares
-* Disfrutar de una experiencia similar a una aplicación que se siente natural en móvil
-
-Plataforma: **Escritorio y Móvil (Extremadamente popular)**
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtORhQISThtSYB55HqrKD%2FSlide-0-3.webp?alt=media&#x26;token=4889aad6-bb4a-4fd5-9f43-a7439c779352" alt=""><figcaption></figcaption></figure>
+La mayoría de las tiendas utilizan solo un tipo de menú, pero cada tipo tiene un propósito diferente. Combinar múltiples tipos de menús brinda a tus clientes una experiencia mucho mejor: una Tab Bar para acceso instantáneo, un Slide Menu para un catálogo profundo, un Mega Menu para descubrimiento en escritorio, un FAB para soporte, cada uno haciendo exactamente un trabajo, perfectamente.
 
 ***
 
-#### 2. Mega Menu (Desktop) - Extremadamente popular
+## 1. Tab Bar *(también llamado: Navegación Inferior, Nav Bar, Bottom Nav)*
 
-Diseñado para sitios web de escritorio, el Mega Menu es perfecto cuando desea:
+Una barra de navegación fija, colocable en la parte inferior, superior, izquierda o derecha. Contiene de 4 a 5 secciones con ícono + etiqueta. Hace que tu tienda se sienta como una aplicación nativa. Funciona tanto en móvil como en escritorio. Mejor como navegación principal en todo el sitio, siempre visible, siempre al alcance del pulgar. **Usado por:** Shein, ASOS, Zara, Etsy, H&M, Nike, Uniqlo.
 
-* Mostrar múltiples categorías de productos o secciones de contenido a la vez
-* Organizar enlaces en columnas, grupos o diseños visuales
-* Ofrecer una experiencia de navegación profesional e intuitiva
+**Plataforma:** Escritorio y Móvil *(Extremadamente popular)*
 
-Plataforma: **Solo Escritorio**
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwXn5EF8H17b2QVSEYSQp%2FSlide-0.webp?alt=media&#x26;token=5ad18e94-82ba-43fa-aede-943741b49221" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtORhQISThtSYB55HqrKD%2FSlide-0-3.webp?alt=media&#x26;token=4889aad6-bb4a-4fd5-9f43-a7439c779352" alt="Tab Bar navigation example"><figcaption><p>Tab Bar — fixed nav bar with icon + label, feels like a native app</p></figcaption></figure>
 
 ***
 
-#### 3. Mobile Mega Menu - No común
+## 2. Slide Menu *(también llamado: Menú de Cajón, Menú Hamburguesa)*
 
-Una versión del mega menú optimizada para pantallas móviles — compacta, amigable para el pulgar y fácil de navegar.
+Se desliza desde la izquierda o la derecha, con elementos ilimitados, sin límite de tamaño, se adapta a toda la estructura de tu sitio. El patrón de navegación más popular y amigable para móviles. Puede ser activado por un ícono de hamburguesa, un elemento de Tab Bar, o cualquier botón colocado al alcance del pulgar. Úsalo para tu catálogo completo, enlaces de cuenta, políticas y cualquier cosa que no necesite estar siempre visible.
 
-Puede personalizar cómo se muestran las categorías, íconos y visuales para garantizar la mejor experiencia de usuario móvil. La mayor diferencia entre el Mobile Mega Menu y el Desktop Mega Menu es que en móvil, puede tener hasta 4 elementos de menú, por lo que necesita decidir cuáles son los más importantes y deben ser priorizados.
+**Plataforma:** Móvil *(Extremadamente popular)* · Escritorio *(menos común)*
 
-Plataforma: **Solo Móvil**
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Froax2ECBLjO03CIm2ITb%2FSlide-0-1.webp?alt=media&#x26;token=3c6aae5c-e7fb-4399-bf86-ce46bbc2d21d" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLCmdTapRLNGzq0dIAnMB%2FSlide-0-2.webp?alt=media&#x26;token=67d280d0-58b1-4ce1-b4d3-ddaae8a3307c" alt="Slide Menu example"><figcaption><p>Slide Menu — slides in from the side, unlimited depth and items</p></figcaption></figure>
 
 ***
 
-#### 4. Slide Menu (Hamburger Menu)
+## 3. Desktop Mega Menu *(también llamado: Menú Desplegable, Menú de Múltiples Columnas)*
 
-Un panel deslizante desde el lado izquierdo o derecho de la pantalla, a menudo utilizado para contenido secundario o utilitario como:
+Un menú desplegable de múltiples columnas que se expande debajo del encabezado, diseñado para cubrir toda tu navegación de escritorio en un solo lugar. Aprovecha al máximo la pantalla grande con imágenes, banners y diseños ricos en múltiples columnas. Reemplaza completamente el menú de encabezado predeterminado. El estándar para cualquier tienda con un catálogo sustancial en escritorio.
 
-* Información de cuenta, políticas, páginas de soporte
-* Categorías de productos de acceso menos frecuente
-* Enlaces adicionales como “About Us,” “Contact,” o “Blog”
+**Plataforma:** Solo Escritorio *(Extremadamente popular)*
 
-Plataforma: **Escritorio (no común) y Móvil (Extremadamente popular)**
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLCmdTapRLNGzq0dIAnMB%2FSlide-0-2.webp?alt=media&#x26;token=67d280d0-58b1-4ce1-b4d3-ddaae8a3307c" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwXn5EF8H17b2QVSEYSQp%2FSlide-0.webp?alt=media&#x26;token=5ad18e94-82ba-43fa-aede-943741b49221" alt="Desktop Mega Menu example"><figcaption><p>Desktop Mega Menu — multi-column dropdown with images and rich layouts</p></figcaption></figure>
 
 ***
 
-#### 5. FAB - Floating Menu / Quick Access
+## 4. Mobile Mega Menu *(también llamado: Menú de Encabezado, Menú Superior Desplazable)*
 
-Un botón o menú flotante fijado a una esquina de la pantalla (generalmente en la parte inferior derecha o en el centro inferior).
+Una barra de menú compacta que se sitúa justo debajo del encabezado, siempre visible, sin necesidad de tocar. Se desplaza horizontalmente o se divide en pestañas para mostrar tus categorías principales al instante. Uno de los patrones de navegación más reconocibles en sitios web móviles. Mejor para tiendas con 4 a 8 categorías prioritarias que los clientes deberían alcanzar con un solo toque.
 
-Ideal para:
+**Plataforma:** Solo Móvil *(Popular)*
 
-* Botones de contacto rápidos (Chat, Hotline, Zalo, Messenger)
-* Acciones clave (CTAs) como “Buy Now” o “Start Free Trial”
-* Aumentar conversiones sin ocupar demasiado espacio
-
-Plataforma: **Escritorio (popular) y Móvil (Extremadamente popular)**
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FEvl9OEyL4dvNUcaOoAJt%2FSlide-0-4.webp?alt=media&#x26;token=1f436f9b-74c6-4703-95fb-f38ad7be87f2" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Froax2ECBLjO03CIm2ITb%2FSlide-0-1.webp?alt=media&#x26;token=3c6aae5c-e7fb-4399-bf86-ce46bbc2d21d" alt="Mobile Mega Menu example"><figcaption><p>Mobile Mega Menu — always-visible horizontal bar just below the header</p></figcaption></figure>
 
 ***
 
-#### 6. Grid Menu
+## 5. FAB & Soporte *(también llamado: Botón Flotante, Marcación Rápida)*
 
-El Grid Menu muestra elementos de navegación en un diseño de cuadrícula, permitiendo a los usuarios ver múltiples categorías a la vez — cada una como un mosaico cuadrado con un ícono o imagen.
+Un botón flotante fijado en cualquier esquina, siempre visible independientemente del desplazamiento. Se expande en múltiples acciones: WhatsApp, Messenger, widgets de chat (Shopify Inbox, Tidio, Crisp), línea directa, o cualquier enlace personalizado. El primer lugar donde los clientes miran cuando necesitan ayuda o documentos de soporte. Puede ocultarse automáticamente cuando no se necesita para ahorrar espacio en la pantalla.
 
-Este estilo funciona especialmente bien para:
+**Plataforma:** Escritorio *(popular)* · Móvil *(Extremadamente popular)*
 
-* Páginas de inicio móviles o tabletas y sub-mega menús
-* Colecciones de productos con 6–12 categorías
-* Crear una experiencia visual limpia y similar a una aplicación
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FEvl9OEyL4dvNUcaOoAJt%2FSlide-0-4.webp?alt=media&#x26;token=1f436f9b-74c6-4703-95fb-f38ad7be87f2" alt="FAB floating button example"><figcaption><p>FAB &#x26; Support — floating button that expands into chat, hotline, and quick actions</p></figcaption></figure>
 
-Plataforma: **Solo Móvil (Popular)**
+***
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FAZoJ7pwHdl31I6cbJKcs%2FSlide-0.webp?alt=media&#x26;token=f74a7779-486d-4b86-9904-317d1a313612" alt=""><figcaption></figcaption></figure>
+## 6. Grid Menu *(también llamado: Menú de Íconos, Cuadrícula de Categorías)*
+
+Una cuadrícula de mosaicos, cada uno con un ícono o imagen y una etiqueta. Se incrusta directamente en cualquier sección de la página, no es una navegación en todo el sitio. Le da a tu tienda un aspecto y sensación de aplicación, ideal para mostrar de 6 a 12 categorías de un vistazo. Funciona especialmente bien en páginas de inicio, páginas de destino y dentro de Slide Menus.
+
+**Plataforma:** Móvil *(Popular)*
+
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FAZoJ7pwHdl31I6cbJKcs%2FSlide-0.webp?alt=media&#x26;token=f74a7779-486d-4b86-9904-317d1a313612" alt="Grid Menu example"><figcaption><p>Grid Menu — icon + label tiles embedded into a page section</p></figcaption></figure>
+
+***
+
+## Cómo combinarlos
+
+No tienes que elegir solo uno. Las tiendas de mejor rendimiento superponen múltiples tipos de menús, cada uno haciendo un trabajo específico:
+
+| Objetivo                                 | Recomendado          |
+| ------------------------------------ | -------------------- |
+| Navegación principal en todo el sitio en móvil      | Tab Bar + Slide Menu |
+| Navegación completa en escritorio              | Desktop Mega Menu    |
+| Mostrar categorías principales en móvil     | Mobile Mega Menu     |
+| Soporte y contacto siempre visible          | FAB & Support        |
+| Navegación visual de categorías en la página de inicio | Grid Menu            |
+
+→ [**Comienza a construir tu menú →**](https://help.naviplus.io/docs/usage/getting-started/ "**Comienza a construir tu menú →**")
+
+***
+
+## Preguntas Frecuentes
+
+<details><summary>Quiero que mi menú funcione bien en móvil. ¿Qué tipo debería elegir?</summary>
+<p>Comienza con un <strong>Tab Bar</strong> o <strong>Slide Menu</strong> — ambos están diseñados para móviles. Tab Bar ofrece acceso instantáneo a 4-5 secciones principales; Slide Menu contiene toda la estructura de tu sitio sin límite de elementos.</p>
+</details>
+
+<details><summary>Mi tienda tiene muchas categorías. ¿Cómo puedo mostrarlas todas sin abrumar a los clientes?</summary>
+<p>Utiliza un <strong>Desktop Mega Menu</strong> en escritorio (multi-columnas, soporta imágenes y banners) combinado con un <strong>Slide Menu</strong> en móvil (elementos ilimitados, desplazable). Cada uno maneja su plataforma perfectamente.</p>
+</details>
+
+<details><summary>¿Puedo usar múltiples tipos de menús al mismo tiempo?</summary>
+<p>Sí — y deberías. Una combinación popular: <strong>Tab Bar</strong> (navegación principal) + <strong>Slide Menu</strong> (estructura completa del sitio) + <strong>FAB</strong> (WhatsApp / soporte). Cada tipo cumple un propósito diferente sin superposición.</p>
+</details>
+
+<details><summary>Quiero que los clientes lleguen fácilmente al soporte o se pongan en contacto conmigo. ¿Qué debería agregar?</summary>
+<p>Agrega un botón <strong>FAB &amp; Soporte</strong>. Se mantiene fijo en una esquina de la pantalla, siempre visible, y te permite agrupar WhatsApp, Messenger, línea directa y widgets de chat en un solo botón.</p>
+</details>
+
+<details><summary>¿Dónde debería colocar un Grid Menu?</summary>
+<p>Grid Menu no es una navegación en todo el sitio — se incrusta en una sección de la página (página de inicio, página de categoría). Úsalo para mostrar visualmente de 6 a 12 categorías destacadas como mosaicos estilo aplicación.</p>
+</details>
+
+<details><summary>¿Qué pasa si elijo el tipo de menú incorrecto?</summary>
+<p>No hay problema — puedes agregar, editar o eliminar menús en cualquier momento. Si deseas guardar tu trabajo, simplemente expórtalo como un archivo JSON para reutilizarlo más tarde. Piensa en ello como guardar un documento de Word.</p>
+</details>
+
+<details><summary>Estoy en el plan Starter con solo 1 espacio de menú. ¿Cómo puedo probar más?</summary>
+<p>Actualiza a <strong>Business o Elite</strong> — obtienes una <strong>prueba gratuita de 7 días</strong> para explorar todo antes de comprometerte.</p>
+</details>
+
+<details><summary>¿Puedo importar mi menú existente a Navi+?</summary>
+<p>Sí. Navi+ soporta importación asistida por IA, pero necesitarás ajustar el resultado. Aquí está el porqué: la mayoría de los sitios web hoy en día tienen un solo Mega Menu que se colapsa automáticamente en un Hamburger Menu en móvil. Navi+ te ofrece tipos de menú especializados en su lugar. Necesitarás redistribuir tu contenido a través de los tipos correctos para obtener la mejor experiencia para tus clientes.</p>
+</details>
+
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/explore-common-menus.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autocontenida y escrita en lenguaje natural. La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

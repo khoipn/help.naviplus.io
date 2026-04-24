@@ -1,5 +1,5 @@
 ---
-description: Um **FAB (Floating Action Button)** é um menu simples que sempre flutua na parte inferior da tela, tipicamente usado para suporte. Os FABs frequentemente fornecem ferramentas de chat...
+description: Um **FAB (Botão de Ação Flutuante)** é um menu simples que sempre flutua na parte inferior da tela, tipicamente usado para suporte. Os FABs frequentemente fornecem ferramentas de chat...
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/fab-floating-menu-quick-access/how-to-use/
@@ -7,7 +7,7 @@ title: Como usar?
 ---
 # Como usar?
 
-Um **FAB (Floating Action Button)** é um menu simples que sempre flutua na parte inferior da tela, tipicamente usado para suporte. Os FABs frequentemente fornecem ferramentas de chat, como WhatsApp, mensagens, e-mail, além de links para recursos de suporte e canais de mídia social para promover seu site.
+Um **FAB (Botão de Ação Flutuante)** é um menu simples que sempre flutua na parte inferior da tela, tipicamente usado para suporte. Os FABs frequentemente fornecem ferramentas de chat, como WhatsApp, mensagens, e-mail, além de links para recursos de suporte e canais de mídia social para promover seu site.
 
 **Principais Benefícios:**
 
@@ -19,7 +19,7 @@ Um **FAB (Floating Action Button)** é um menu simples que sempre flutua na part
 **FAQ:**
 
 <details><summary><strong>1. Eu ainda não decidi se vou usar a versão gratuita ou paga. Posso experimentar os modelos de menu profissional?</strong></summary>
-<p>Absolutamente! Os grupos de menu são principalmente para ajudar iniciantes a evitar se sentir sobrecarregados por recursos avançados no Navi+ 😄. A melhor maneira é experimentar os menus profissionais para explorar todos os recursos e opções de layout. Mais tarde, você pode simplesmente excluir qualquer menu que não precise ou ache inadequado.</p>
+<p>Com certeza! Os grupos de menu são principalmente para ajudar iniciantes a evitar se sentir sobrecarregados por recursos avançados no Navi+ 😄. A melhor maneira é experimentar os menus profissionais para explorar todos os recursos e opções de layout. Mais tarde, você pode simplesmente excluir qualquer menu que não precise ou ache inadequado.</p>
 </details>
 
 <details><summary><strong>2. Criar um menu aqui faz com que ele apareça no meu site imediatamente?</strong></summary>
@@ -31,7 +31,7 @@ Um **FAB (Floating Action Button)** é um menu simples que sempre flutua na part
 </details>
 
 <details><summary><strong>4. Devo criar apenas um menu ou vários?</strong></summary>
-<p>Você deve criar <strong>vários menus</strong>. Apenas o menu <strong>ativo</strong> será exibido no seu site, mas você pode preparar muitas versões — selecionando diferentes modelos ou clonando menus. Menus podem ser configurados para mostrar/ocultar com base no tipo de página (início, produto, coleção...), dispositivo (móvel ou desktop) ou palavras-chave da URL. Então, vá em frente e construa menus que se encaixem em cada situação!</p>
+<p>Você deve criar <strong>vários menus</strong>. Apenas o menu <strong>ativo</strong> será exibido no seu site, mas você pode preparar muitas versões — selecionando diferentes modelos ou clonando menus. Menus podem ser configurados para mostrar/ocultar com base no tipo de página (início, produto, coleção...), dispositivo (móvel ou desktop) ou palavras-chave de URL. Então, vá em frente e construa menus que se encaixem em cada situação!</p>
 </details>
 
 ### Passo 1: Edite a árvore de menu
@@ -55,7 +55,7 @@ Suporte
 
 Esta é uma árvore de menu de 2 níveis. Você pode criar até 3 níveis em um FAB, dependendo da sua criatividade; no entanto, para simplicidade, 2 níveis são geralmente a escolha ideal.
 
-Você passará a maior parte do seu tempo construindo esta árvore de menu para seu site, ajudando os clientes a encontrar o conteúdo que estão procurando.
+Você passará a maior parte do seu tempo construindo esta árvore de menu para o seu site, ajudando os clientes a encontrar o conteúdo que estão procurando.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F5v5r0Gq0uj3HON77hsNC%2FHelp.MenuTree.1.1.0.png?alt=media&#x26;token=e0c34d5d-b77d-4b7b-8938-98bb344ac0fe" alt="Catalog: A level 1 menu item, displayed as a tab on the tab bar. All-Mountain: Level 2 menu item that appears when you tap on Catalog."><figcaption></figcaption></figure>
 
@@ -75,7 +75,7 @@ Quando você passar o mouse sobre qualquer item de menu, verá opções adiciona
 
 Esta é uma situação comum ao criar um menu com o Navi+. Quando você cria um novo menu, incluímos um exemplo completo com itens de menu populares para mostrar ideias de layout e permitir que você copie/cole conforme necessário. No entanto, se você é novo no Navi+ e está usando o plano Starter, verá muitos avisos vermelhos (i) para recursos que não estão disponíveis, como upload de imagens ou uso de interações avançadas.
 
-Se você gosta desses recursos avançados, considere fazer upgrade para um plano Business ou Elite. Mas se você quiser continuar com o plano Starter, por favor, encontre e exclua os itens de menu com avisos vermelhos (i).
+Se você gosta desses recursos avançados, considere atualizar para um plano Business ou Elite. Mas se você quiser continuar com o plano Starter, por favor, encontre e exclua os itens de menu com avisos vermelhos (i).
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FZ96svTLcRzpi6XQYOV6b%2FHelp.MenuTree.1.1.3.png?alt=media&#x26;token=72336bcd-e878-4149-b33a-f65d05d092eb" alt=""><figcaption></figcaption></figure>
 
@@ -105,10 +105,10 @@ Para adicionar um item de menu, você tem duas opções:
 
 Passo 1: Clique em Loja Online, depois clique em Temas. Dicas: Clique com o botão direito em Loja Online e selecione “Abrir Link em Nova Aba” para economizar tempo.
 
-Passo 2: Selecione o tema onde você deseja publicar o menu.  Clique: **Personalizar**
+Passo 2: Selecione o tema onde deseja publicar o menu.  Clique: **Personalizar**
 
-* Se seu site é novo e ainda não tem usuários, sinta-se à vontade para publicar o menu sem preocupações — você pode facilmente ativá-lo ou desativá-lo a qualquer momento sem afetar os visitantes.
-* Se seu site já tem tráfego regular, seja mais cuidadoso. A melhor prática é criar um **Tema duplicado** e testar o Navi+ nessa versão primeiro.
+* Se o seu site é novo e ainda não tem usuários, sinta-se à vontade para publicar o menu sem preocupações — você pode ativá-lo ou desativá-lo facilmente a qualquer momento sem afetar os visitantes.
+* Se o seu site já tem tráfego regular, seja mais cuidadoso. A melhor prática é criar um **Tema duplicado** e testar o Navi+ nessa versão primeiro.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
@@ -118,7 +118,7 @@ Passo 3: Vá para Embeds de Aplicativos, encontre “Navi+ em Todas as páginas�
 
 Passo 4: Não se esqueça de clicar em “Salvar” para aplicar as alterações.
 
-Após esses 4 passos, o Navi+ foi instalado no seu site e está pronto para ser exibido. No entanto, o processo ainda não está completo. Volte para a aba do aplicativo Navi+ para realmente ativar **Publicar Menu**.
+Após esses 4 passos, o Navi+ foi instalado no seu site e está pronto para exibir. No entanto, o processo ainda não está completo. Volte para a aba do aplicativo Navi+ para realmente ativar **Publicar Menu**.
 
 #### 2.2. Selecione as configurações de exibição e publique o menu.
 
@@ -129,3 +129,20 @@ Passo 1: Clique no botão **Publicar no site**.
 Passo 2: Escolha as configurações de exibição e depois PUBLIQUE O MENU.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instruções do Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural. A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

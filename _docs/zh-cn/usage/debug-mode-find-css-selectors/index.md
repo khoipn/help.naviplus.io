@@ -29,7 +29,7 @@ title: 调试模式 - 查找 CSS 选择器
 
 **快捷键 2.** 在选择器级别之间导航
 
-* 按 [↑/←] 或 Backspace 移动到父级选择器
+* 按 [↑/←]，或 Backspace 移动到父级选择器
 * 按 [↓/→] 移动到子级选择器
 
 **重要提示：** 在大多数情况下，您不会立即找到完美的 CSS 选择器。根据经验，通常更容易：
@@ -64,3 +64,21 @@ title: 调试模式 - 查找 CSS 选择器
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsNvXhBMniymbZ1tD9c4p%2FFrame%20214.webp?alt=media&#x26;token=257f082d-ff6b-4ce0-8eaa-6160a697a67e" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAZm1dPEZrfeqtpNXA8O%2FFrame%20215.webp?alt=media&#x26;token=2847a4ef-e298-4986-9367-36a6abf914d8" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# 代理说明：查询此文档
+
+如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
+
+在当前页面 URL 上执行 HTTP GET 请求，带上 `ask` 查询参数：
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md?ask=<question>
+```
+
+问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。
+
+当答案未在当前页面中明确存在时，您需要澄清或额外的上下文，或想要检索相关文档部分时，请使用此机制。

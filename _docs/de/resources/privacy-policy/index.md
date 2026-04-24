@@ -102,21 +102,21 @@ Wir verwenden fortschrittliche Sicherheitsmaßnahmen, um Ihre Informationen zu s
 * Hosting auf international zertifizierter Infrastruktur (AWS, Cloudflare).
 * Eingeschränkter interner Zugang und kontinuierliche Systemüberwachung.
 
-Allerdings ist keine Methode der Übertragung oder Speicherung 100 % sicher.\
+Allerdings ist keine Methode der Übertragung oder Speicherung 100% sicher.\
 Durch die Nutzung von Navi+ erkennen Sie an, dass wir nicht für Verstöße verantwortlich sind, die außerhalb unserer angemessenen Kontrolle liegen.
 
 ***
 
 ### 9. Internationale Datenübertragungen
 
-Ihre Daten können auf Servern verarbeitet werden, die sich in **Singapur, den Vereinigten Staaten, Kanada oder Europa** befinden, abhängig von den Standorten der AWS- oder Cloudflare-Rechenzentren.\
+Ihre Daten können auf Servern in **Singapur, den Vereinigten Staaten, Kanada oder Europa** verarbeitet werden, abhängig von den Standorten der AWS- oder Cloudflare-Rechenzentren.\
 Durch die Nutzung von Navi+ stimmen Sie dieser Übertragung und Verarbeitung unter international anerkannten Datenschutzrahmen zu.
 
 ***
 
 ### 10. Aktualisierungen der Richtlinie
 
-Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, um Änderungen in den Gesetzen oder unseren Abläufen zu berücksichtigen.\
+Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, um Änderungen im Gesetz oder unseren Abläufen zu berücksichtigen.\
 Das Datum der letzten Aktualisierung wird immer oben auf dieser Seite angezeigt.\
 Bei wesentlichen Änderungen werden wir die Nutzer per E-Mail oder auf unserer Website benachrichtigen.
 
@@ -127,3 +127,21 @@ Bei wesentlichen Änderungen werden wir die Nutzer per E-Mail oder auf unserer W
 Wenn Sie Fragen, Bedenken oder Anfragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:\
 **E-Mail:** <khoipn@naviplus.io>\
 **Website:** <https://naviplus.io>
+
+
+---
+
+# Agentenanweisungen: Abfragen dieser Dokumentation
+
+Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
+
+Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<question>
+```
+
+Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
+
+Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

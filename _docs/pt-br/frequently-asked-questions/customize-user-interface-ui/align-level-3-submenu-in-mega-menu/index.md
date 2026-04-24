@@ -15,7 +15,7 @@ Alguns mega menus podem ser muito altos. Nesse caso, expandir um menu de nível 
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F2tyR71IfHrMmPmZN0Ewi%2F1.3.png?alt=media&#x26;token=cdd6854c-2782-40ec-a959-a74d576eb177" alt=""><figcaption></figcaption></figure>
 
-Cole isso na caixa de Estilos Internos / CSS:
+Cole isso na caixa de Folhas de Estilo Internas / CSS:
 
 ```
 ul.children[menulevel="2"] li.child.is-parent.menu-expand {
@@ -26,3 +26,20 @@ ul.children[menulevel="2"] li.child.is-parent.menu-expand ul.children[menulevel=
   top: 0px;
 }
 ```
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

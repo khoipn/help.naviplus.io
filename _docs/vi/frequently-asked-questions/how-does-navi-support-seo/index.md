@@ -22,3 +22,20 @@ Liên kết là một trong những yếu tố chính trong việc tối ưu hó
 Navi+ bắt đầu tự động hỗ trợ SEO dựa trên liên kết từ gói Elite. Ở cấp độ đó, mọi liên kết trong menu Navi+ đều được tối ưu hóa với một URL đầy đủ (đảm bảo chỉ mục đúng bởi các công cụ tìm kiếm), văn bản liên kết và các thẻ liên quan. Navi+ cũng hỗ trợ SEO hình ảnh bằng cách thêm thẻ tiêu đề và thẻ alt để tối ưu hóa tìm kiếm hình ảnh.
 
 Việc thêm toàn bộ danh mục sản phẩm của bạn vào menu Navi+ rất có lợi cho các công cụ tìm kiếm, giúp chúng hiểu danh sách các trang, sơ đồ trang và nội dung liên quan đến từ khóa. Tốc độ của Navi+ là một lợi thế lớn khác cho SEO. Tất cả các thư viện và tài nguyên (hình ảnh, JS và CSS) đều được lưu trữ trên các hệ thống CDN hàng đầu với thời gian phản hồi dưới 100ms và bộ nhớ đệm ổn định, điều này nâng cao điểm số SEO của bạn.
+
+---
+
+# Hướng dẫn cho đại lý: Truy vấn tài liệu này
+
+Nếu bạn cần thêm thông tin mà không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
+
+Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-does-navi+-support-seo.md?ask=<question>
+```
+
+Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
+Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
+
+Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn lấy các phần tài liệu liên quan.

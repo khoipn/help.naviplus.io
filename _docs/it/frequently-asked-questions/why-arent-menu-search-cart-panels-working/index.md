@@ -1,5 +1,5 @@
 ---
-description: 'Navi+ supporta vari pannelli Menu, Ricerca e Carrello su temi popolari: La maggior parte dei temi Shopify gratuiti (Dawn, Spotlight, Sense, Refresh, Craft), e diversi temi premium popolari...'
+description: 'Navi+ supporta vari pannelli Menu, Ricerca e Carrello su temi popolari: La maggior parte dei temi Shopify gratuiti (Dawn, Spotlight, Sense, Refresh, Craft) e diversi temi premium popolari...'
 lang: it
 layout: default
 permalink: /it/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
@@ -11,8 +11,26 @@ Navi+ supporta vari pannelli Menu, Ricerca e Carrello su temi popolari: La maggi
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsiEnx7Oa20rt2iWi669a%2Fmenu-search-panel.webp?alt=media&#x26;token=064c033a-4270-4550-ac33-f1a6fdecc7ff" alt=""><figcaption></figcaption></figure>
 
-Questa funzione è disponibile solo per il piano Business e superiore (non supportata nel piano gratuito). Pertanto, se stai utilizzando il piano gratuito, ti preghiamo di passare a un piano a pagamento per migliorare significativamente l'esperienza del tuo sito web, ottimizzare la velocità, migliorare la SEO e accedere a molte funzionalità utili. Se stai già utilizzando un piano a pagamento e il tuo tema non è nell'elenco dei temi supportati da Navi+, ti preghiamo di contattare il supporto di Navi+ tramite canali come WhatsApp, iMessage o email. Integreremo Navi+ per supportare il tuo tema entro un giorno lavorativo.
+Questa funzionalità è disponibile solo per il piano Business e superiore (non supportato sul piano gratuito). Pertanto, se stai utilizzando il piano gratuito, ti preghiamo di passare a un piano a pagamento per migliorare significativamente l'esperienza del tuo sito web, ottimizzare la velocità, migliorare la SEO e accedere a molte funzionalità utili. Se stai già utilizzando un piano a pagamento e il tuo tema non è nell'elenco dei temi supportati da Navi+, ti preghiamo di contattare il supporto di Navi+ tramite canali come WhatsApp, iMessage o email. Integreremo Navi+ per supportare il tuo tema entro un giorno lavorativo.
 
 <mark style="background-color:yellow;">Nota: Se stai utilizzando un piano a pagamento e passi al piano gratuito, queste funzionalità esclusive non funzioneranno sul tuo menu. Invieremo una notifica via email prima di disabilitare la funzionalità sulla tua applicazione.</mark>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkBNy56enqVb3wJ4TWyX%2Fscreenbud-639e2e18-56b1-49d0-8e66-b831983a6577.png?alt=media&#x26;token=9fed32bf-b1ac-4a67-af36-59f4b90bdec1" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Istruzioni per l'agente: Consultazione di questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-arent-menu-search-cart-panels-working.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

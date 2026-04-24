@@ -22,7 +22,7 @@ Por favor, presta atención a los atajos de teclado a continuación para trabaja
 
 * Presiona **⌘+C** en MacOS o **Ctrl+C** en Windows para copiar el selector CSS seleccionado.
 
-Luego puedes pegarlo en la configuración del **Menú de Publicación** para:
+Luego puedes pegarlo en la configuración del **Publish Menu** para:
 
 * Mega Menu / Grid Menu: para insertar el menú antes, después o reemplazar el selector CSS objetivo
 * Slide Menu: para activar el menú deslizante cuando se hace clic o se toca el selector CSS objetivo
@@ -49,7 +49,7 @@ A veces, puede que necesites repetir este proceso varias veces al insertar, reem
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FuE3IlMcHedAfwQR98YhM%2FFrame%20212.webp?alt=media&#x26;token=e02c2aa2-0792-4811-8005-46a5b7b0b9fe" alt=""><figcaption></figcaption></figure>
 
-#### 1.2. Encontrar el selector CSS en Móvil
+#### 1.2. Encontrar selector CSS en Móvil
 
 Para encontrar un selector CSS en móvil, habilita el modo Móvil (Responsivo) en tu navegador.
 Luego haz clic derecho en cualquier parte de la página y selecciona:
@@ -64,3 +64,21 @@ Luego haz clic derecho en cualquier parte de la página y selecciona:
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsNvXhBMniymbZ1tD9c4p%2FFrame%20214.webp?alt=media&#x26;token=257f082d-ff6b-4ce0-8eaa-6160a697a67e" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAZm1dPEZrfeqtpNXA8O%2FFrame%20215.webp?alt=media&#x26;token=2847a4ef-e298-4986-9367-36a6abf914d8" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md?ask=<question>
+```
+
+La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

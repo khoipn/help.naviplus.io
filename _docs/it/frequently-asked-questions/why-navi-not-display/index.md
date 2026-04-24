@@ -11,7 +11,7 @@ Per visualizzare il menu Navi+ sul tuo sito web, ci sono due opzioni chiare:
 
 1. **Incorpora 
 [Navi+ On all page] nel tuo tema e regola la visualizzazione nell'applicazione Navi+**: Questo è anche il modo più comune e semplice per farlo. Tuttavia, i tuoi menu Navi+ possono solo rimanere fissi sullo schermo (in basso, nell'intestazione o fluttuante). Le regolazioni sono molto diverse, con tre livelli differenti per garantire che tu possa navigare secondo le tue esigenze.
-   * Livello 1: Mostra/nascondi il menu Navi+ e mostra/nascondilo su gruppi specifici di pagine. In Shopify, ci sono alcuni gruppi comuni di pagine come la pagina principale, il catalogo, i prodotti e la pagina.
+   * Livello 1: Mostra/nascondi il menu Navi+ e mostralo/nascondilo su gruppi specifici di pagine. In Shopify, ci sono alcuni gruppi comuni di pagine come la pagina principale, il catalogo, i prodotti e la pagina.
    * Livello 2: Mostra/nascondi su dispositivi mobili o desktop. A causa delle esperienze completamente diverse tra mobile e desktop, molti utenti creano menu separati per mobile e desktop.
    * Livello 3: Per parola chiave: Puoi mostrare/nascondere quando l'URL della pagina web contiene/non contiene una o più parole chiave. Questa opzione è molto utile e flessibile, permettendoti di creare menu specifici per ogni pagina o prodotto.
 2. **Session 
@@ -28,3 +28,20 @@ Per visualizzare il menu Navi+ sul tuo sito web, ci sono due opzioni chiare:
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Ff8mpogKCx9fpCRbGCKPp%2F005.png?alt=media&#x26;token=7180be60-03a6-4fc3-8edc-62aeae5af4f9" alt=""><figcaption><p>Publish on mobile/desktop</p></figcaption></figure>
 
 <br>
+
+---
+
+# Istruzioni per l'agente: Consultazione di questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-navi-not-display.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

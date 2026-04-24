@@ -14,7 +14,7 @@ C'est un problème courant mais très facile à gérer lorsque vous utilisez Nav
 Ces éléments flottants sont contrôlés par leurs propres **valeurs de z-index**. Plus le z-index est élevé, plus cet élément a de priorité pour être affiché au-dessus des autres. La partie délicate est qu'il n'y a pas de règles fixes pour les valeurs de z-index. Vous pouvez attribuer n'importe quel nombre jusqu'à 2 147 483 647. Chaque thème que vous utilisez et chaque application fonctionnant sur votre boutique Shopify peuvent attribuer leur propre z-index aux composants flottants—généralement basé sur la préférence du développeur. Lorsque ces éléments interagissent sur votre site Web, ils peuvent se chevaucher de manière inattendue.
 
 {% comment %}hint style="info" {% endcomment %}
-Amusons-nous un peu :joy:: Jetez un coup d'œil de plus près à la capture d'écran ci-dessus et vous verrez—oui, c'est un désordre, et il n'y a absolument **aucune règle**. Il y a trois développeurs derrière le site Web que vous regardez.
+Amusons-nous un peu :joy:: Jetez un coup d'œil à la capture d'écran ci-dessus et vous verrez—oui, c'est un désordre, et il n'y a absolument **aucune règle**. Il y a trois développeurs derrière le site Web que vous regardez.
 
 Le développeur qui a construit le thème Dawn a choisi un z-index de 3 pour le Menu Panel et 1000 pour le Cart Panel—complètement sans rapport, sans logique claire.
 
@@ -25,14 +25,14 @@ Pendant ce temps, le développeur de Navi+ a humblement choisi un nombre plus pe
 
 **Étape 1 :** Trouvez le z-index correct de votre menu Navi+
 
-<details><summary><strong>Méthode 1 : Demandez au support de Navi+ (</strong>la plus simple)</summary>
+<details><summary><strong>Méthode 1 : Demandez au support Navi+ (</strong>la plus simple)</summary>
 <p>C'est le meilleur et le plus efficace. Nous pouvons vous fournir des informations sur les valeurs de z-index des éléments clés de l'interface tels que le Menu Panel, le Cart Panel et toutes les applications tierces que vous utilisez, puis recommander le meilleur paramètre de z-index pour votre cas.</p>
 <p>N'hésitez pas à utiliser la boîte de chat dans le coin inférieur droit de l'écran pour parler à un supporter de Navi+. Navi+ est en pleine croissance, et nous apprécions vraiment vos retours—vos problèmes nous aident à construire un meilleur produit.</p>
 <p>Nous ne sommes pas en ligne 24/7—seulement 14 heures par jour, selon le fuseau horaire du Vietnam. Cependant, dès que nous voyons votre message, nous répondrons immédiatement.</p>
 </details>
 
 <details><summary><strong>Méthode 2 : Utilisez le mode Inspect de votre navigateur</strong> (détaillé, mais nécessite des connaissances techniques)</summary>
-<p>Jusqu'à présent, il n'y a pas de meilleure méthode pour vérifier cela vous-même à moins que vous n'utilisiez le mode Inspect. Cet outil de développement est disponible dans tous les navigateurs modernes comme Chrome, Firefox, Safari ou Edge. Cliquez avec le bouton droit de la souris n'importe où sur votre site Web et sélectionnez <strong>Inspecter</strong> pour ouvrir le mode Inspect.</p>
+<p>Jusqu'à présent, il n'y a pas de meilleure méthode pour vérifier cela vous-même à moins que vous n'utilisiez le mode Inspect. Cet outil de développement est disponible dans tous les navigateurs modernes comme Chrome, Firefox, Safari ou Edge. Cliquez avec le bouton droit n'importe où sur votre site Web et sélectionnez <strong>Inspecter</strong> pour ouvrir le mode Inspect.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FswowawWsXN01MlvSqqjX%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=470cd65f-0ce8-416a-8749-b9a210f6f08f" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FOabxqNlZUroNKJQfTKsI%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=2b872306-63e3-4dcf-b89a-f16f162727b4" alt=""><figcaption></figcaption></figure>
@@ -50,7 +50,7 @@ Pendant ce temps, le développeur de Navi+ a humblement choisi un nombre plus pe
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FG7lIvYAGwNMcV4NRQUKI%2FHelp.MenuTree.1.4.10.png?alt=media&#x26;token=2a9db521-805c-4374-bc3b-303e97e8b990" alt=""><figcaption></figcaption></figure>
 </details>
 
-<details><summary><strong>Méthode 3 :</strong> Essayez et testez en fonction de nos suggestions (Expérience personnelle)</summary>
+<details><summary><strong>Méthode 3 :</strong> Essayez et testez en fonction de nos suggestions (expérience personnelle)</summary>
 <p>Dans la plupart des cas, les problèmes de z-index sont rares si vous n'utilisez pas trop d'applications. Le principal problème provient généralement des chevauchements entre votre menu et d'autres éléments de l'interface comme le Menu Panel ou le Cart Panel.</p>
 <ul>
 <li>Pour les menus collants Navi+ comme Tabbar ou FAB : Nous recommandons de garder le z-index bas, autour de 2 ou 3. Ces menus prennent de l'espace à l'écran, et cela semblerait cassé ou ennuyeux s'ils couvraient des panneaux fonctionnels comme le panier.</li>
@@ -68,3 +68,21 @@ Pendant ce temps, le développeur de Navi+ a humblement choisi un nombre plus pe
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F7np7UDMk5KFGnSvMr8HK%2Fz-index%201.2.png?alt=media&#x26;token=ae4aa403-fbd6-41c9-a16d-861e8cd032bc" alt=""><figcaption></figcaption></figure>
 </details>
+
+
+---
+
+# Instructions pour l'agent : Interroger cette documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/z-index.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

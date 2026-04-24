@@ -9,7 +9,7 @@ title: Última Atualização
 
 **2025 - 9 de Dez**
 
-Lançando a versão Navi+ que funciona em todas as plataformas além do Shopify: WordPress, WooCommerce, Wix e outros em [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app")
+Lançando a versão Navi+ que funciona em todas as plataformas além do Shopify: WordPress, WooCommerce, Wix e outras em [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app")
 
 ***
 
@@ -21,4 +21,21 @@ Corrigir auto ocultar, auto mostrar ainda mostra, oculta o menu ao atingir a bor
 ***
 
 **2025 - 20 de Outubro**\
-Migrado todos os serviços de CDN do BunnyCDN para o Cloudflare devido a uma falha na purgação de cache no BunnyCDN.
+Migrado todos os serviços CDN do BunnyCDN para Cloudflare devido a uma falha de purga de cache no BunnyCDN.
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/latest-update.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

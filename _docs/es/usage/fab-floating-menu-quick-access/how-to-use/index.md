@@ -31,7 +31,7 @@ Un **FAB (Floating Action Button)** es un menú simple que siempre flota en la p
 </details>
 
 <details><summary><strong>4. ¿Debería crear solo un menú o múltiples?</strong></summary>
-<p>Deberías crear <strong>múltiples menús</strong>. Solo el menú <strong>activo</strong> se mostrará en tu sitio, pero puedes preparar muchas versiones — seleccionando diferentes plantillas o clonando menús. Los menús pueden configurarse para mostrar/ocultar según el tipo de página (inicio, producto, colección...), dispositivo (móvil o escritorio), o palabras clave de URL. ¡Así que adelante y construye menús que se ajusten a cada situación!</p>
+<p>Deberías crear <strong>múltiples menús</strong>. Solo el menú <strong>activo</strong> se mostrará en tu sitio, pero puedes preparar muchas versiones — seleccionando diferentes plantillas o clonando menús. Los menús pueden configurarse para mostrar/ocultar según el tipo de página (inicio, producto, colección...), dispositivo (móvil o escritorio), o palabras clave de URL. ¡Así que adelante y construye menús que se adapten a cada situación!</p>
 </details>
 
 ### Paso 1: Editar el árbol de menú
@@ -53,7 +53,7 @@ Soporte
 
 ```
 
-Este es un árbol de menú de 2 niveles. Puedes crear hasta 3 niveles en un FAB dependiendo de tu creatividad; sin embargo, para simplicidad, 2 niveles son generalmente la opción óptima.
+Este es un árbol de menú de 2 niveles. Puedes crear hasta 3 niveles en un FAB dependiendo de tu creatividad; sin embargo, para simplificar, 2 niveles son generalmente la opción óptima.
 
 Pasarás la mayor parte de tu tiempo construyendo este árbol de menú para tu sitio web, ayudando a los clientes a encontrar el contenido que están buscando.
 
@@ -65,7 +65,7 @@ Puedes arrastrar y soltar elementos del menú hacia arriba y hacia abajo o de iz
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FOjwwfWQFThvk6rmLU8D7%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=98bdcda6-25c8-4793-8936-fb7d594d2b43" alt=""><figcaption></figcaption></figure>
 
-Cuando pases el cursor sobre cualquier elemento del menú, verás opciones adicionales: editar los detalles del elemento, eliminarlo del árbol de menú, o copiar y pegar en otro lugar.
+Cuando pases el cursor sobre cualquier elemento del menú, verás opciones adicionales: editar los detalles del elemento, eliminarlo del árbol de menú, o copiar y pegarlo en otro lugar.
 
 {% comment %}hint style="info" {% endcomment %}
 **Consejo:** Puedes copiar un elemento del menú de un menú a otro abriendo la aplicación Navi+ en dos pestañas del navegador.
@@ -129,3 +129,20 @@ Paso 1: Haz clic en el botón **Publicar en el sitio web**.
 Paso 2: Elige configuraciones de visualización y luego PUBLICA EL MENÚ.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autocontenida y escrita en lenguaje natural. La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

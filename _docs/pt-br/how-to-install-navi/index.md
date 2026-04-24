@@ -9,11 +9,9 @@ title: Como instalar o Navi+
 
 Você não precisa saber sobre desenvolvimento ou design para usar o Navi+. É um software pré-construído que pode ser facilmente incorporado ao seu site. Toda a configuração — incluindo recursos e design visual — é gerenciada diretamente no Navi+, sem causar qualquer conflito com seu sistema existente.
 
+***
 
-
-<div class="install-step" markdown="1">
-
-### Passo 1: Instalar o Aplicativo
+### Passo 1: Instale o Aplicativo
 
 **Se você estiver usando Shopify:**\
 Por favor, instale o aplicativo oficial pelo link abaixo:\
@@ -25,22 +23,18 @@ Por favor, instale o aplicativo oficial pelo link abaixo:\
 2. Crie uma conta gratuita
 3. Faça login e conecte seu site seguindo as instruções.
 
+***
 
+### Passo 2: Crie Menus e Incorpore-os ao Seu Site
 
-</div>
-
-<div class="install-step" markdown="1">
-
-### Passo 2: Criar Menus e Incorporá-los ao Seu Site
-
-Uma vez que você tenha feito login, você pode começar a criar menus para seu site.\
+Uma vez que você tenha feito login, pode começar a criar menus para seu site.\
 **Navi+** fornece vários tipos de menus para atender a diferentes necessidades:
 
 * **Tabbar**\
   Uma barra de navegação fixa na parte inferior da tela, permitindo que os usuários acessem seções principais rapidamente. Ideal para layouts móveis.
 * **Mega Menu**\
   Um grande menu suspenso com várias colunas, perfeito para exibir categorias de produtos ou conteúdo detalhado em uma estrutura clara.
-* **Slide Menu (Hamburger Menu)**\
+* **Slide Menu (Menu Hambúrguer)**\
   Um menu lateral oculto que desliza da borda da tela. Ótimo para economizar espaço e manter um design limpo e moderno.
 * **Floating Button Menu**\
   Um botão de ação flutuante que pode abrir uma lista de links rápidos ou destacar campanhas ou promoções especiais.
@@ -50,4 +44,19 @@ Cada tipo de menu tem seu próprio processo de configuração, que é totalmente
 Você também pode usar vários tipos de menus do Navi+ ao mesmo tempo em diferentes páginas — por exemplo, um Tabbar para mobile, um Mega Menu para desktop, e um Floating Button para sua chamada à ação ou promoções.
 
 
-</div>
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/how-to-install-navi+.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

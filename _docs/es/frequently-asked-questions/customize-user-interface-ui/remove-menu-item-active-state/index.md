@@ -36,3 +36,20 @@ Método 2: Si desea eliminar todos los efectos activos en todos los menús de Na
   background: initial;
 }
 ```
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesita información adicional que no está directamente disponible en esta página, puede consultar la documentación dinámicamente haciendo una pregunta.
+
+Realice una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autónoma y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utilice este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesite aclaraciones o contexto adicional, o desee recuperar secciones de documentación relacionadas.

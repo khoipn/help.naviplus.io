@@ -17,8 +17,25 @@ Navi+ propose un forfait d'essai avec presque toutes les fonctionnalités pour t
 
 #### Question 2: Que se passe-t-il si vous rétrogradez de Business ou Elite vers Starter, mais qu'il semble que toutes les fonctionnalités restent ?
 
-Nous comprenons que les fonctionnalités et l'expérience utilisateur sont cruciales pour vos clients, donc nous veillons à ce qu'aucune fonctionnalité de votre menu ne soit cachée ou retirée. Cependant, nous avons un système qui effectue une analyse quotidienne. Dès qu'il détecte que votre site web est dans cette situation, nous vous enverrons une notification par e-mail pour vous encourager à passer à un plan supérieur. Ces notifications par e-mail seront espacées dans le temps pour éviter de vous submerger avec trop de messages. Si vous choisissez de ne pas revenir aux plans Business ou Elite, Navi+ commencera à afficher des annonces comme expliqué dans la Question 1.
+Nous comprenons que les fonctionnalités et l'expérience utilisateur sont cruciales pour vos clients, donc nous veillons à ce qu'aucune fonctionnalité de votre menu ne soit cachée ou retirée. Cependant, nous avons un système qui effectue un scan quotidien. Dès qu'il détecte que votre site web est dans cette situation, nous vous enverrons une notification par e-mail pour vous encourager à passer à un plan supérieur. Ces notifications par e-mail seront espacées dans le temps pour éviter de vous submerger avec trop de messages. Si vous choisissez de ne pas revenir aux plans Business ou Elite, Navi+ commencera à afficher des annonces comme expliqué dans la Question 1.
 
 #### Question 3: Que se passe-t-il si je dépasse la limite du plan Business (par exemple, plus de 500 000 vues Navi+/mois) ?
 
-Comme pour les questions précédentes, Navi+ ne cachera ni ne retirera aucune fonctionnalité du menu. Cependant, une fois la limite dépassée, et après que des notifications par e-mail vous aient été envoyées pour envisager de passer au plan Elite, des annonces peuvent être affichées sur votre menu jusqu'au début d'un nouveau cycle mensuel.
+Comme pour les questions précédentes, Navi+ ne cachera ni ne retirera aucune fonctionnalité de menu. Cependant, une fois la limite dépassée, et après que des notifications par e-mail vous aient été envoyées pour envisager de passer au plan Elite, des annonces peuvent être affichées sur votre menu jusqu'au début d'un nouveau cycle mensuel.
+
+---
+
+# Instructions pour l'agent : Interroger cette documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/navi+-plans-starter-business-and-elite.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et rédigée en langage naturel.
+La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

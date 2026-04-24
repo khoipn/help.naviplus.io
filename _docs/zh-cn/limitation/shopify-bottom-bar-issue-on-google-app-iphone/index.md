@@ -7,7 +7,7 @@ title: Shopify Bottom Bar issue on Google App (iPhone)
 ---
 # Shopify Bottom Bar issue on Google App (iPhone)
 
-This is about the bottom padding issue under the Bottom Bar when a Shopify website using Navi+ is opened inside the Google App on iPhone.
+This is about the bottom padding issue under the Bottom Bar when a Shopify website using **Navi+** is opened inside the Google App on iPhone.
 
 When accessing a Shopify website that uses **Navi+** (or any application with a fixed bottom menu, floating buttons, etc.), users opening the website **inside the Google App on iPhone** may sometimes see an unusual white space appearing at the bottom of the screen.
 
@@ -115,3 +115,20 @@ This message is designed for non-technical users:
 ✔️ A display bug in the Google App on iPhone\
 ✔️ Navi+ minimizes the issue so it appears only once and then disappears\
 ✔️ Safari/Chrome are fully unaffected
+
+---
+
+# Agent Instructions: Querying This Documentation
+
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/limitation/shopify-bottom-bar-issue-on-google-app-iphone.md?ask=<question>
+```
+
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

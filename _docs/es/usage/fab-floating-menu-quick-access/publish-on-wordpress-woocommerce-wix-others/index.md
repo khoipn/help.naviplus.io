@@ -16,17 +16,17 @@ Si despliega su sitio web en otras plataformas (como [WordPress](https://wordpre
 Este método de implementación es adecuado para todos los tipos de menú que Navi+ actualmente soporta, incluyendo: Tabbar, Mega menu, Slide menu, FAB, y Grid menu. Este código solo necesita ser utilizado una vez para todos los menús.
 
 ```html
-<!-- Insert this code to the <head> of website. (c) naviplus.io -->
+<!-- Inserte este código en el <head> del sitio web. (c) naviplus.io -->
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456"
 });</script>
 &lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
-<!-- Insert this code to the <head> of website -->
+<!-- Inserte este código en el <head> del sitio web -->
 ```
 
 ### FAQ (Preguntas Frecuentes)
 
-<details><summary>¿Qué es el token?</summary>
+<details><summary>¿Qué es un token?</summary>
 <p>Cada cuenta de Navi+ se le asigna un token único. Puede ver y copiar este token directamente desde el encabezado de la aplicación. El token se utiliza para publicar su menú de forma segura.</p>
 </details>
 
@@ -40,13 +40,13 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 </details>
 
 <details><summary>¿Cuál es el mejor lugar para insertar este fragmento de código?</summary>
-<p>En la sección de encabezado (o tan pronto como sea posible). ¿Por qué? El sitio web cargará secuencialmente los recursos para renderizar la interfaz. Colocar Navi+ lo más temprano posible en el código HTML ayudará a que su menú esté listo para mostrarse tan pronto como sea posible al esperar hasta que se cumplan las condiciones, luego el menú aparecerá inmediatamente. Esto mejora la experiencia del usuario.</p>
+<p>En la sección del head (o tan pronto como sea posible). ¿Por qué? El sitio web cargará secuencialmente los recursos para renderizar la interfaz. Colocar Navi+ lo más temprano posible en el código HTML ayudará a que su menú esté listo para mostrarse tan pronto como sea posible, esperando hasta que se cumplan las condiciones, luego el menú aparecerá inmediatamente. Esto mejora la experiencia del usuario.</p>
 </details>
 
 <details><summary>¿Cómo puedo saber si este código se ha incrustado correctamente en mi sitio web?</summary>
-<p>Hay dos formas:</p>
+<p>Hay dos maneras:</p>
 <p><strong>Método 1 (para todos):</strong></p>
-<p>Abra su sitio web con el sufijo #navidebug-on, por ejemplo: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Si el sitio web cambia a modo de depuración, la incrustación está funcionando correctamente. El modo de depuración le ayuda a identificar fácilmente los selectores CSS. Use #navidebug-off para desactivarlo.</p>
+<p>Abra su sitio web con el sufijo #navidebug-on, por ejemplo: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Si el sitio web cambia a modo Debug, la incrustación está funcionando correctamente. El modo Debug le ayuda a identificar fácilmente los selectores CSS. Use #navidebug-off para desactivarlo.</p>
 <p><strong>Método 2 (para desarrolladores):</strong></p>
 <p>Abra las herramientas de inspección de su navegador, vaya a la pestaña de Consola, y busque un mensaje verde: “Usando Navi+..”. Este mensaje indica que el código se ha incrustado correctamente.</p>
 </details>
@@ -58,15 +58,49 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 El código a continuación se puede usar múltiples veces en un sitio web con diferentes información de inserción (especialmente el **ID Embebido**, como SF-123456789). Cuando el sitio web se renderiza, el menú se desplegará y mostrará en la posición donde se inserta el código cuando se cumplan las condiciones. Este tipo de menú es adecuado para: Mega menu, Grid, etc.
 
 ```html
-<!-- Insert the code where the menu SF-123456789 appears. (c) naviplus.io -->
+<!-- Inserte el código donde aparece el menú SF-123456789. (c) naviplus.io -->
 <div class="naviman_app section_naviman_app" id="SF-123456789-container"></div>
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456",
    embed_id: "SF-123456789"
 });</script>
 &lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
-<!-- Insert the code where the menu SF-123456789 appears -->
+<!-- Inserte el código donde aparece el menú SF-123456789 -->
 ```
 
 {% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Importante</mark>**:** El código anterior utiliza el código de incrustación de muestra <mark style="color:orange;">SF-123456789</mark>. Asegúrese de reemplazarlo con su código de incrustación de menú real.
 {% comment %}endhint{% endcomment %}
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesita información adicional que no está directamente disponible en esta página, puede consultar la documentación dinámicamente haciendo una pregunta.
+
+Realice una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autocontenida, y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utilice este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesite aclaraciones o contexto adicional, o desee recuperar secciones de documentación relacionadas.
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesita información adicional que no está directamente disponible en esta página, puede consultar la documentación dinámicamente haciendo una pregunta.
+
+Realice una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autocontenida, y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Utilice este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesite aclaraciones o contexto adicional, o desee recuperar secciones de documentación relacionadas.

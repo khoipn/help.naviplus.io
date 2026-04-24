@@ -1,5 +1,5 @@
 ---
-description: Navi+ 非常快。它完全部署在领先的 CDN 上，延迟非常低（约 100 毫秒），可以在不减速的情况下为数百万客户提供服务。
+description: Navi+ 非常快。它完全部署在一个领先的 CDN 上，延迟非常低（约 100 毫秒），可以在不减慢速度的情况下为数百万客户提供服务。
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/
@@ -9,7 +9,7 @@ title: 优化速度并改善用户体验（UX）。
 
 #### 为什么需要这样做？Navi+ 不已经很快了吗？
 
-Navi+ 非常快。它完全部署在领先的 CDN 上，延迟非常低（约 100 毫秒），可以在不减速的情况下为数百万客户提供服务。
+Navi+ 非常快。它完全部署在一个领先的 CDN 上，延迟非常低（约 100 毫秒），可以在不减慢速度的情况下为数百万客户提供服务。
 
 然而，Navi+ 仍然在 Shopify 生态系统内运行。Shopify 有自己的加载规则：
 
@@ -47,4 +47,21 @@ Navi+ 非常快。它完全部署在领先的 CDN 上，延迟非常低（约 10
 
 * 如果您希望它仅在移动设备上应用，请添加后缀 **(M)**。
 * 如果您希望它仅在桌面上应用，请添加后缀 **(D)**。
-* 如果希望它在两个平台上都适用，请不添加后缀。
+* 如果您希望它在两个平台上都应用，请不添加后缀。
+
+---
+
+# 代理指令：查询此文档
+
+如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
+
+在当前页面 URL 上执行 HTTP GET 请求，使用 `ask` 查询参数：
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md?ask=<question>
+```
+
+问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。
+
+当答案在当前页面中未明确存在时，您需要澄清或额外的上下文，或想要检索相关文档部分时，请使用此机制。

@@ -24,7 +24,7 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 <!-- Chèn mã này vào <head> của trang web -->
 ```
 
-### FAQ (Câu hỏi thường gặp)
+### Câu hỏi thường gặp (FAQ)
 
 <details><summary>Token là gì?</summary>
 <p>Mỗi tài khoản Navi+ được gán một token duy nhất. Bạn có thể xem và sao chép token này trực tiếp từ tiêu đề ứng dụng. Token được sử dụng để xuất bản menu của bạn một cách an toàn.</p>
@@ -39,7 +39,7 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 <p>Mã dưới đây cực kỳ nhẹ và có thể được chèn vào trang web của bạn mà không ảnh hưởng đến tốc độ (chỉ mất khoảng 100-200ms cho lần tải đầu tiên và 0ms cho các lần tải tiếp theo), trải nghiệm của khách hàng, hoặc điểm SEO</p>
 </details>
 
-<details><summary>Nơi tốt nhất để chèn đoạn mã này là ở đâu?</summary>
+<details><summary>Nơi tốt nhất để chèn đoạn mã này là đâu?</summary>
 <p>Trong phần head (hoặc càng sớm càng tốt). Tại sao? Trang web sẽ tải tài nguyên theo thứ tự để hiển thị giao diện. Đặt Navi+ sớm nhất trong mã HTML sẽ giúp menu của bạn sẵn sàng hiển thị càng sớm càng tốt bằng cách chờ cho đến khi các điều kiện được đáp ứng, sau đó menu sẽ ngay lập tức xuất hiện. Điều này cải thiện trải nghiệm người dùng.</p>
 </details>
 
@@ -70,3 +70,37 @@ Mã dưới đây có thể được sử dụng nhiều lần trên một trang
 
 {% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Quan trọng</mark>**:** Mã ở trên sử dụng mã nhúng mẫu <mark style="color:orange;">SF-123456789</mark>. Hãy chắc chắn thay thế nó bằng mã nhúng menu thực tế của bạn.
 {% comment %}endhint{% endcomment %}
+
+---
+
+# Hướng dẫn cho đại lý: Truy vấn Tài liệu này
+
+Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
+
+Thực hiện yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md?ask=<question>
+```
+
+Câu hỏi nên cụ thể, tự chứa, và được viết bằng ngôn ngữ tự nhiên.
+Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
+
+Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc ngữ cảnh bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.
+
+---
+
+# Hướng dẫn cho đại lý: Truy vấn Tài liệu này
+
+Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
+
+Thực hiện yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md?ask=<question>
+```
+
+Câu hỏi nên cụ thể, tự chứa, và được viết bằng ngôn ngữ tự nhiên.
+Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
+
+Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc ngữ cảnh bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.

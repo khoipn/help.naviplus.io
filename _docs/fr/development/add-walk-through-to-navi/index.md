@@ -1,13 +1,13 @@
 ---
-description: Vous devrez utiliser une bibliothèque comme TourGuideJS, une bibliothèque JavaScript qui peut être intégrée à votre site Web pour ajouter des guides pas à pas à travers un ...
+description: Vous devrez utiliser une bibliothèque comme TourGuideJS, une bibliothèque JavaScript qui peut être intégrée à votre site Web pour ajouter des guides étape par étape à travers un ...
 lang: fr
 layout: default
 permalink: /fr/docs/development/add-walk-through-to-navi/
-title: Ajouter un guide pas à pas à Navi+
+title: Ajouter un guide étape par étape à Navi+
 ---
-# Ajouter un guide pas à pas à Navi+
+# Ajouter un guide étape par étape à Navi+
 
-Vous devrez utiliser une bibliothèque comme TourGuideJS, une bibliothèque JavaScript qui peut être intégrée à votre site Web pour ajouter des guides pas à pas à travers un format d'attribut comme <div data-tg-tour="<span>Mon premier tour</span>"> ... </div>. C'est complètement gratuit. Suivez les instructions ci-dessous pour ajouter des guides à travers les menus Navi+, soit pour l'ensemble du menu, soit pour des éléments de menu individuels.
+Vous devrez utiliser une bibliothèque comme TourGuideJS, une bibliothèque JavaScript qui peut être intégrée à votre site Web pour ajouter des guides étape par étape à travers un format d'attribut comme <div data-tg-tour="<span>Mon premier tour</span>"> ... </div>. C'est complètement gratuit. Suivez les instructions ci-dessous pour ajouter des guides à travers les menus de Navi+, soit pour l'ensemble du menu, soit pour des éléments de menu individuels.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgmsAKbB1RrFhKxGHHznd%2Fimage.png?alt=media&#x26;token=a24149db-b3ac-456b-810e-3ffb7e0213e4" alt=""><figcaption></figcaption></figure>
 
@@ -30,3 +30,21 @@ Vous devrez utiliser une bibliothèque comme TourGuideJS, une bibliothèque Java
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F4T8gzFPxbRyPUMVGOKJc%2Fimage.png?alt=media&#x26;token=cff87c3b-d6e9-4430-8c21-419b7da019f9" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTQ1AYMdEbDyFvme90s9Z%2Fimage.png?alt=media&#x26;token=363f644e-6acd-4112-ae32-9eb9c7a1a81f" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instructions pour les agents : Interroger cette documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/development/add-walk-through-to-navi+.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et rédigée en langage naturel.
+La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

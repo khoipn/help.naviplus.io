@@ -1,5 +1,5 @@
 ---
-description: Necesitarás usar una biblioteca como TourGuideJS, una biblioteca de JavaScript que se puede incrustar en tu sitio web para agregar guías de recorrido paso a paso a través de un formato de atributo como <div data-tg-tour="<span>Mi primer recorrido</span>"> ... </div>. Es completamente gratis. Sigue las instrucciones a continuación para agregar recorridos a través de los menús de Navi+, ya sea para todo el menú o para elementos de menú individuales.
+description: Necesitarás usar una biblioteca como TourGuideJS, una biblioteca de JavaScript que se puede incrustar en tu sitio web para agregar guías de recorrido paso a paso a través de un ...
 lang: es
 layout: default
 permalink: /es/docs/development/add-walk-through-to-navi/
@@ -30,3 +30,21 @@ Necesitarás usar una biblioteca como TourGuideJS, una biblioteca de JavaScript 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F4T8gzFPxbRyPUMVGOKJc%2Fimage.png?alt=media&#x26;token=cff87c3b-d6e9-4430-8c21-419b7da019f9" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTQ1AYMdEbDyFvme90s9Z%2Fimage.png?alt=media&#x26;token=363f644e-6acd-4112-ae32-9eb9c7a1a81f" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el `ask` parámetro de consulta:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/development/add-walk-through-to-navi+.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autosuficiente y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

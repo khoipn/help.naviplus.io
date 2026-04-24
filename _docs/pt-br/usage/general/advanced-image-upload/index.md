@@ -15,7 +15,7 @@ Carregamentos mais rápidos também tornam o site mais suave e agradável para o
 
 #### II. Como o Navi+ processa suas imagens?
 
-O Navi+ primeiro faz o upload da sua imagem em seu tamanho original. Em seguida, ele comprime a imagem com um algoritmo otimizado e reduz o tamanho de exibição. Esse tamanho é cuidadosamente escolhido pelo Navi+ para ser ideal tanto para a experiência do usuário quanto para SEO, uma vez que imagens em menus geralmente são miniaturas ou ícones que precisam ser pequenos e carregar rapidamente.
+Navi+ primeiro faz o upload da sua imagem em seu tamanho original. Em seguida, ele comprime a imagem com um algoritmo otimizado e reduz o tamanho de exibição. Esse tamanho é cuidadosamente escolhido pelo Navi+ para ser ideal tanto para a experiência do usuário quanto para SEO, uma vez que imagens em menus geralmente são miniaturas ou ícones que precisam ser pequenos e carregar rapidamente.
 
 **Nota:** Para imagens pequenas como logotipos ou ícones, o Navi+ não as comprime para preservar a nitidez.
 
@@ -29,7 +29,7 @@ Em alguns casos especiais, você pode querer que o Navi+ não modifique a qualid
 Prepare sua imagem como desejar e renomeie-a para otimização de SEO. (O Navi+ só renomeará imagens para SEO se forem carregadas através da ferramenta Navi+.)\
 Você também deve comprimir a imagem para um tamanho razoável—idealmente algumas centenas de KB. Você pode usar o Redutor de Imagens do Shopify aqui: <https://www.shopify.com/tools/image-resizer>.
 
-**Passo 2: Carregar no Shopify**\
+**Passo 2: Faça o upload para o Shopify**\
 Clique com o botão direito no menu **Content**, selecione **Open link in new Tab**, depois vá para **Files**. Arraste e solte a imagem preparada no Passo 1. Uma vez carregada, encontre seu arquivo na lista e clique no ícone de link para copiar sua URL. Esta URL será usada no Navi+ para fazer o upload da imagem.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F35kK3wzf4jQ6lgRuPIK6%2F1.2.png?alt=media&#x26;token=1b45a6ad-32fb-4988-bda2-9de4aaa7db53" alt=""><figcaption></figcaption></figure>
@@ -40,3 +40,21 @@ Clique com o botão direito no menu **Content**, selecione **Open link in new Ta
 Cole a URL obtida no Passo 2 no Navi+ usando a ferramenta **Upload Image**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPy9nqxsNKCo4RMjo1cTP%2F1.4.png?alt=media&#x26;token=a0a4897c-5e1c-47d8-951c-52028b705e1e" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -27,7 +27,7 @@ When a visitor taps "Blog", the content instantly switches to the blog articles 
 
 ***
 
-### Come Configurare Tab Slide
+### Come impostare Tab Slide
 
 #### Passo 1 — Aggiungi un marcatore Tab
 
@@ -36,7 +36,7 @@ When a visitor taps "Blog", the content instantly switches to the blog articles 
 3. Enter a **tab name** (e.g. "Shop", "Blog", "Deals")
 4. Click **Add**
 
-> The Tab marker will appear in the menu tree with a blue **\[Tab]** badge.
+> The Tab marker will appear in the menu tree with a blue **[Tab]** badge.
 
 #### Passo 2 — Aggiungi contenuto alla scheda
 
@@ -122,3 +122,20 @@ It also works at **any menu level** — not just the main menu, but inside subme
 **Is there a limit on how many tabs I can have?** There's no hard limit, but we recommend keeping it to 3–6 tabs for the best experience on mobile screens.
 
 **Can I use Tab Slide inside a submenu?** Yes. Place Tab markers inside any submenu and the tab behavior will work at that level.
+
+---
+
+# Istruzioni per l'Agente: Interrogare Questa Documentazione
+
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md?ask=<question>
+```
+
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

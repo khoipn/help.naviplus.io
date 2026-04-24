@@ -25,7 +25,7 @@ Navi+ 菜单支持最多 3 个级别。在 **"Design"** 标签中，您只能配
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FRMPDJmuihVuXKunOmmAZ%2FCSS.1.2.png?alt=media&#x26;token=0ebcac44-dba7-4306-80aa-815323c027b3" alt=""><figcaption></figcaption></figure>
 
-**重要提示：** **内部样式表 / CSS 文本框** 会在每个 CSS 规则前自动添加前缀（例如，`#SF-123456789`）。这确保您的 CSS 仅适用于正在自定义的特定菜单，并防止样式冲突。
+**重要说明：** **内部样式表 / CSS 文本框** 会在每个 CSS 规则之前自动添加前缀（例如，`#SF-123456789`），这确保您的 CSS 仅适用于正在自定义的特定菜单，并防止样式冲突。
 
 #### 使用 CSS 的一些典型案例研究
 
@@ -68,7 +68,7 @@ ul.children[menulevel="3"] > li.child > .inner .name{
 }
 
 // 设置描述的字体粗细
-description {
+.description {
   font-weight: 700;
 }
 ```
@@ -80,3 +80,20 @@ ul > li.is-parent-top::after {
   font-size: 24px !important;
 }
 ```
+
+---
+
+# 代理说明：查询此文档
+
+如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
+
+在当前页面 URL 上执行 HTTP GET 请求，使用 `ask` 查询参数：
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css.md?ask=<question>
+```
+
+问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。
+
+当答案未在当前页面中明确存在时，您需要澄清或获取额外上下文，或者您想检索相关文档部分时，请使用此机制。

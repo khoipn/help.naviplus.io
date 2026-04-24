@@ -23,7 +23,7 @@ Dopo di ciò, Navi+ memorizza la tua immagine su BunnyCDN — una potente rete d
 
 #### III. Cosa devo fare se voglio mantenere le mie immagini alla loro qualità originale?
 
-In alcuni casi speciali, potresti voler che Navi+ non modifichi la qualità della tua immagine—altrimenti, la compressione potrebbe ridurre la qualità che ti aspetti, ad esempio, alcune immagini di prodotto importanti. In questo caso, devi caricare l'immagine direttamente su Shopify e fornire il link a Navi+ per mantenere la qualità originale.
+In alcuni casi speciali, potresti voler che Navi+ non modifichi la qualità della tua immagine; altrimenti, la compressione potrebbe ridurre la qualità che ti aspetti, ad esempio, alcune immagini di prodotto importanti. In questo caso, devi caricare l'immagine direttamente su Shopify e fornire il link a Navi+ per mantenere la qualità originale.
 
 **Passo 1: Prepara la tua immagine (processo manuale)**\
 Prepara la tua immagine come desiderato e rinominala per l'ottimizzazione SEO. (Navi+ rinominerà solo le immagini per SEO se caricate tramite lo strumento Navi+.)\
@@ -40,3 +40,21 @@ Fai clic con il tasto destro sul menu **Content**, seleziona **Open link in new 
 Incolla l'URL ottenuto dal Passo 2 in Navi+ utilizzando lo strumento **Upload Image**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPy9nqxsNKCo4RMjo1cTP%2F1.4.png?alt=media&#x26;token=a0a4897c-5e1c-47d8-951c-52028b705e1e" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Istruzioni per l'agente: Consultazione di questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

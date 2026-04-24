@@ -37,3 +37,21 @@ title: 在 Shopify 上发布
 步骤 2：选择显示设置，然后发布菜单。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# 代理说明：查询此文档
+
+如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
+
+在当前页面 URL 上执行 HTTP GET 请求，使用 `ask` 查询参数：
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md?ask=<question>
+```
+
+问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。
+
+当答案未在当前页面中明确存在时，您需要澄清或额外的上下文，或想要检索相关文档部分时，请使用此机制。

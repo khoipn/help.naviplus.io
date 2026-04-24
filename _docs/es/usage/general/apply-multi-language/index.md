@@ -15,19 +15,19 @@ Por ejemplo, imagina que tienes un Tabbar de Navi+ mostrado en tu sitio web con 
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F6k6V0wCgNOrg7o30S7PT%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=5eb3293f-9f55-4917-87e1-dacff684ca9e" alt=""><figcaption></figcaption></figure>
 
-Para mostrar el elemento del menú **Home** en el idioma correcto, usa esta sintaxis:
+Para mostrar el elemento del menú **Inicio** en el idioma correcto, usa esta sintaxis:
 
 ```
-Home <fr: Maison> <vi: Trang chủ>
+Inicio <fr: Maison> <vi: Trang chủ>
 ```
 
 Cuando tu Tabbar se muestre, Navi+ comprobará automáticamente el idioma actual.
 
-* Si el predeterminado es inglés, muestra **Home**.
+* Si el predeterminado es inglés, muestra **Inicio**.
 * Si se selecciona francés, muestra **Maison**.
 * Si se selecciona vietnamita, muestra **Trang chủ**.
 
-Esto funciona tanto para los campos **description** como **link-to**.
+Esto funciona tanto para los campos **descripción** como **enlace a**.
 
 2) Crea un menú de cambio de idioma en Navi+
 
@@ -41,3 +41,20 @@ open:ChangeLanguage(fr)
 ```
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FdTn5Nk2ETEUXO7unkIu9%2FHelp.MenuTree.1.1.2-1.png?alt=media&#x26;token=e1f13362-de09-4438-ad5a-a075a9750b7d" alt=""><figcaption></figcaption></figure>
+
+---
+
+# Instrucciones para el Agente: Consultando Esta Documentación
+
+Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
+
+Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/apply-multi-language.md?ask=<pregunta>
+```
+
+La pregunta debe ser específica, autosuficiente y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
+
+Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

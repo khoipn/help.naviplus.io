@@ -27,19 +27,19 @@ Cette méthode d'implémentation convient à tous les types de menus que Navi+ p
 ### FAQ (Questions Fréquemment Posées)
 
 <details><summary>Qu'est-ce que le token ?</summary>
-<p>Chaque compte Navi+ se voit attribuer un token unique. Vous pouvez visualiser et copier ce token directement depuis l'en-tête de l'application. Le token est utilisé pour publier votre menu de manière sécurisée.</p>
+<p>Chaque compte Navi+ se voit attribuer un token unique. Vous pouvez voir et copier ce token directement depuis l'en-tête de l'application. Le token est utilisé pour publier votre menu de manière sécurisée.</p>
 </details>
 
 <details><summary>Qu'est-ce que https://live.naviplus.app/start.js ?</summary>
-<p>C'est l'URL fixe de Navi+ qui contient la logique d'initialisation de l'application. Le script est léger (environ 4 Ko), ce qui lui permet de se charger rapidement sur la plupart des appareils et des conditions réseau. Il est livré via Cloudflare et BunnyCDN pour offrir des performances globales stables et une compatibilité fiable avec les navigateurs modernes.</p>
-<p>L'utilisation de la méthode de chargement asynchrone signifie également qu'elle n'affecte pas le processus de chargement du site Web.</p>
+<p>C'est l'URL fixe de Navi+ qui contient la logique d'initialisation de l'application. Le script est léger (environ 4 Ko), ce qui lui permet de se charger rapidement sur la plupart des appareils et des conditions réseau. Il est livré via Cloudflare et BunnyCDN pour fournir des performances globales stables et une compatibilité fiable avec les navigateurs modernes.</p>
+<p>Utiliser la méthode de chargement asynchrone signifie également qu'elle n'affecte pas le processus de chargement du site Web.</p>
 </details>
 
 <details><summary>Ce code d'intégration ralentit-il mon site Web ?</summary>
 <p>Le code ci-dessous est extrêmement léger et peut être inséré dans votre site Web sans affecter la vitesse (ne prenant que 100 à 200 ms pour le premier chargement et 0 ms pour les chargements suivants), l'expérience client ou les scores SEO</p>
 </details>
 
-<details><summary>Quel est le meilleur endroit pour insérer ce snippet de code ?</summary>
+<details><summary>Quel est le meilleur endroit pour insérer ce code ?</summary>
 <p>Dans la section head (ou aussi tôt que possible). Pourquoi ? Le site Web chargera séquentiellement les ressources pour rendre l'interface. Placer Navi+ le plus tôt possible dans le code HTML aidera votre menu à être prêt à s'afficher dès que possible en attendant que les conditions soient remplies, puis le menu apparaîtra immédiatement. Cela améliore l'expérience utilisateur.</p>
 </details>
 
@@ -70,3 +70,37 @@ Le code ci-dessous peut être utilisé plusieurs fois sur un site Web avec diff�
 
 {% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Important</mark>**:** Le code ci-dessus utilise le code d'intégration d'exemple <mark style="color:orange;">SF-123456789</mark>. Assurez-vous de le remplacer par votre code d'intégration de menu réel.
 {% comment %}endhint{% endcomment %}
+
+---
+
+# Instructions de l'Agent : Interroger Cette Documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.
+
+---
+
+# Instructions de l'Agent : Interroger Cette Documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md?ask=<question>
+```
+
+La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

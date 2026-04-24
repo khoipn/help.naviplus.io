@@ -28,3 +28,20 @@ title: 为什么我的网站上不显示Navi+菜单？
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Ff8mpogKCx9fpCRbGCKPp%2F005.png?alt=media&#x26;token=7180be60-03a6-4fc3-8edc-62aeae5af4f9" alt=""><figcaption><p>Publish on mobile/desktop</p></figcaption></figure>
 
 <br>
+
+---
+
+# 代理说明：查询此文档
+
+如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
+
+在当前页面URL上执行HTTP GET请求，使用`ask`查询参数：
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-navi-not-display.md?ask=<question>
+```
+
+问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。
+
+当答案未在当前页面中明确存在时，您需要澄清或额外的上下文，或者您想要检索相关文档部分时，请使用此机制。

@@ -1,5 +1,5 @@
 ---
-description: Bạn đã bao giờ xây dựng một menu mà bạn thực sự thích… và sau đó nhận ra rằng bạn cần cái tương tự ở nơi khác chưa? 😅
+description: Bạn đã bao giờ xây dựng một menu mà bạn thực sự thích… và sau đó nhận ra rằng bạn cần cái giống như vậy ở nơi khác chưa? 😅
 lang: vi
 layout: default
 permalink: /vi/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
@@ -7,7 +7,7 @@ title: Cách Chuyển Menu Navi+ Sang Menu Navi+ Khác
 ---
 # Cách Chuyển Menu Navi+ Sang Menu Navi+ Khác
 
-Bạn đã bao giờ xây dựng một menu mà bạn thực sự thích… và sau đó nhận ra rằng bạn cần cái tương tự ở nơi khác chưa? 😅
+Bạn đã bao giờ xây dựng một menu mà bạn thực sự thích… và sau đó nhận ra rằng bạn cần cái giống như vậy ở nơi khác chưa? 😅
 
 Tin tốt: bạn không cần phải xây dựng lại từ đầu.
 
@@ -52,3 +52,20 @@ Chuyển sang tab menu đích, điều hướng đến vị trí chính xác và
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLX3Be5eqfItKUMpXSCCj%2F1.3.webp?alt=media&#x26;token=74143e7e-efb7-485a-9eba-6a28d2ec9229" alt=""><figcaption></figcaption></figure>
 
 🔁 Lặp lại Bước 3 và 4 cho đến khi toàn bộ cấu trúc menu đã được chuyển hoàn toàn. Mẹo: Di chuyển menu theo từng phần (theo cấp độ hoặc theo nhánh) để đảm bảo không có gì bị bỏ sót và cấu trúc vẫn được tổ chức.
+
+---
+
+# Hướng dẫn cho nhân viên: Truy vấn Tài liệu này
+
+Nếu bạn cần thêm thông tin mà không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
+
+Thực hiện yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md?ask=<question>
+```
+
+Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
+Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
+
+Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trên trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn lấy các phần tài liệu liên quan.

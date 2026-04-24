@@ -1,5 +1,5 @@
 ---
-description: This is a common issue but very easy to handle when using Navi+. Your website may have many floating elements—see the examples below to recognize them.
+description: Questo è un problema comune ma molto facile da gestire quando si utilizza Navi+. Il tuo sito web potrebbe avere molti elementi flottanti—guarda gli esempi qui sotto per riconoscerli.
 lang: it
 layout: default
 permalink: /it/docs/usage/general/z-index/
@@ -7,32 +7,32 @@ title: Z-index
 ---
 # Z-index
 
-This is a common issue but very easy to handle when using Navi+. Your website may have many floating elements—see the examples below to recognize them.
+Questo è un problema comune ma molto facile da gestire quando si utilizza Navi+. Il tuo sito web potrebbe avere molti elementi flottanti—guarda gli esempi qui sotto per riconoscerli.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FL6naWQmaqD1bKTtzaALP%2FHelp.MenuTree.1.3.1b.png?alt=media&#x26;token=0e7dad3b-0395-4f66-9589-2562175e8800" alt=""><figcaption><p>Note: These are the current z-index setups on the Dawn theme (Shopify’s most popular free default theme) at this time.</p></figcaption></figure>
 
-These floating elements are controlled by their own **z-index values**. The higher the z-index, the more priority that element has in being displayed above others. The tricky part is that there are no fixed rules for z-index values. You can assign any number up to 2,147,483,647. Each theme you use and every app running on your Shopify store can assign their own z-index to floating components—usually based on the developer’s preference. When these elements interact on your website, they may overlap in unintended ways.
+Questi elementi flottanti sono controllati dai propri **valori di z-index**. Maggiore è lo z-index, maggiore è la priorità che quell'elemento ha nel essere visualizzato sopra gli altri. La parte complicata è che non ci sono regole fisse per i valori di z-index. Puoi assegnare qualsiasi numero fino a 2.147.483.647. Ogni tema che utilizzi e ogni app in esecuzione sul tuo negozio Shopify possono assegnare il proprio z-index ai componenti flottanti—di solito basato sulla preferenza dello sviluppatore. Quando questi elementi interagiscono sul tuo sito web, potrebbero sovrapporsi in modi imprevisti.
 
 {% comment %}hint style="info" {% endcomment %}
-Let’s have a little fun :joy:: Take a closer look at the screenshot above and you’ll see—yes, it’s a mess, and there are absolutely **no rules**. There are three developers behind the website you're looking at.
+Divertiamoci un po' :joy:: Dai un'occhiata più da vicino allo screenshot qui sopra e vedrai—sì, è un pasticcio, e non ci sono assolutamente **regole**. Ci sono tre sviluppatori dietro il sito web che stai guardando.
 
-The developer who built the Dawn theme chose a z-index of 3 for the Menu Panel and 1000 for the Cart Panel—completely unrelated, with no clear logic.
+Lo sviluppatore che ha creato il tema Dawn ha scelto uno z-index di 3 per il Menu Panel e 1000 per il Cart Panel—completamente non correlati, senza una logica chiara.
 
-Then there’s the developer of the Rivo Loyalty Rewards app—a popular loyalty tool—who picked a z-index of 99999999999, probably without even counting how many nines they typed. Their only goal: make sure the floating “Rewards” button always stays on top, no matter what, even above your Cart Panel.
+Poi c'è lo sviluppatore dell'app Rivo Loyalty Rewards—uno strumento di fidelizzazione popolare—che ha scelto uno z-index di 99999999999, probabilmente senza nemmeno contare quanti nove ha digitato. Il loro unico obiettivo: assicurarsi che il pulsante flottante “Rewards” rimanga sempre in cima, a prescindere da tutto, anche sopra il tuo Cart Panel.
 
-Meanwhile, the Navi+ developer humbly picked a smaller number—just 5—because we didn’t want to be too aggressive or intrusive. So, what should you do?
+Nel frattempo, lo sviluppatore di Navi+ ha umilmente scelto un numero più piccolo—solo 5—perché non volevamo essere troppo aggressivi o invadenti. Quindi, cosa dovresti fare?
 {% comment %}endhint{% endcomment %}
 
-**Step 1:** Find the correct z-index of your Navi+ menu
+**Passo 1:** Trova il corretto z-index del tuo menu Navi+
 
-<details><summary><strong>Method 1: Ask Navi+ support (</strong>Simplest)</summary>
-<p>This is the best and most effective way. We can provide you with information about the z-index values of key interface elements such as the Menu Panel, Cart Panel, and any third-party apps you're using, then recommend the best z-index setting for your case.</p>
-<p>Don’t hesitate to use the chat box in the bottom-right corner of the screen to talk to a Navi+ supporter. Navi+ is growing, and we truly value your feedback—your issues help guide us to build a better product.</p>
-<p>We’re not online 24/7—only 14 hours a day, based on Vietnam time zone. However, as soon as we see your message, we’ll reply right away.</p>
+<details><summary><strong>Metodo 1: Chiedi supporto a Navi+ (</strong>Il più semplice)</summary>
+<p>Questo è il modo migliore e più efficace. Possiamo fornirti informazioni sui valori di z-index degli elementi chiave dell'interfaccia come il Menu Panel, il Cart Panel e qualsiasi app di terze parti che stai utilizzando, quindi raccomandare la migliore impostazione di z-index per il tuo caso.</p>
+<p>Non esitare a utilizzare la chat in basso a destra dello schermo per parlare con un sostenitore di Navi+. Navi+ sta crescendo e apprezziamo davvero il tuo feedback—i tuoi problemi ci aiutano a costruire un prodotto migliore.</p>
+<p>Non siamo online 24 ore su 24, 7 giorni su 7—solo 14 ore al giorno, in base al fuso orario del Vietnam. Tuttavia, non appena vediamo il tuo messaggio, risponderemo subito.</p>
 </details>
 
-<details><summary><strong>Method 2: Use your browser’s Inspect mode</strong> (detailed, but requires some technical knowledge)</summary>
-<p>So far, there’s no better method for checking this yourself unless you use Inspect mode. This developer tool is available in all modern browsers like Chrome, Firefox, Safari, or Edge. Right-click anywhere on your website and select <strong>Inspect</strong> to open Inspect mode.</p>
+<details><summary><strong>Metodo 2: Usa la modalità Ispeziona del tuo browser</strong> (dettagliato, ma richiede alcune conoscenze tecniche)</summary>
+<p>Finora, non c'è modo migliore per controllare questo da solo a meno che tu non utilizzi la modalità Ispeziona. Questo strumento per sviluppatori è disponibile in tutti i browser moderni come Chrome, Firefox, Safari o Edge. Fai clic destro in qualsiasi punto del tuo sito web e seleziona <strong>Ispeziona</strong> per aprire la modalità Ispeziona.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FswowawWsXN01MlvSqqjX%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=470cd65f-0ce8-416a-8749-b9a210f6f08f" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FOabxqNlZUroNKJQfTKsI%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=2b872306-63e3-4dcf-b89a-f16f162727b4" alt=""><figcaption></figcaption></figure>
@@ -50,21 +50,39 @@ Meanwhile, the Navi+ developer humbly picked a smaller number—just 5—because
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FG7lIvYAGwNMcV4NRQUKI%2FHelp.MenuTree.1.4.10.png?alt=media&#x26;token=2a9db521-805c-4374-bc3b-303e97e8b990" alt=""><figcaption></figcaption></figure>
 </details>
 
-<details><summary><strong>Method 3:</strong> Try and test based on our suggestions (Personal experience)</summary>
-<p>In most cases, z-index problems are rare if you’re not using too many apps. The main issue usually comes from overlaps between your menu and other interface elements like the Menu Panel or Cart Panel.</p>
+<details><summary><strong>Metodo 3:</strong> Prova e testa in base ai nostri suggerimenti (Esperienza personale)</summary>
+<p>Nella maggior parte dei casi, i problemi di z-index sono rari se non stai utilizzando troppe app. Il problema principale di solito deriva dalle sovrapposizioni tra il tuo menu e altri elementi dell'interfaccia come il Menu Panel o il Cart Panel.</p>
 <ul>
-<li>For Navi+ sticky menus like Tabbar or FAB: We recommend keeping the z-index low, around 2 or 3. These menus take up screen space, and it would feel broken or annoying if they covered functional panels like the cart.</li>
-<li>For Navi+ section menus like Mega menus: If placed at the top (in the header), you can safely set a very high z-index (e.g. 2000000000) to make sure the dropdown submenu isn’t hidden behind other components.</li>
-<li>For Navi+ Grid menus: z-index has no effect, as the menu is flat and doesn’t have layered depth.</li>
-<li>For Navi+ Slide menus: z-index should be set very high (e.g. 2000000000) to avoid being hidden behind other elements.</li>
+<li>Per i menu appiccicosi di Navi+ come Tabbar o FAB: Ti consigliamo di mantenere lo z-index basso, intorno a 2 o 3. Questi menu occupano spazio sullo schermo e sarebbe scomodo o fastidioso se coprissero pannelli funzionali come il carrello.</li>
+<li>Per i menu di sezione di Navi+ come i Mega menu: Se posizionati in alto (nell'intestazione), puoi impostare in sicurezza uno z-index molto alto (ad es. 2000000000) per assicurarti che il sottomenu a discesa non sia nascosto dietro altri componenti.</li>
+<li>Per i menu Grid di Navi+: lo z-index non ha effetto, poiché il menu è piatto e non ha profondità stratificata.</li>
+<li>Per i menu Slide di Navi+: lo z-index dovrebbe essere impostato molto alto (ad es. 2000000000) per evitare di essere nascosto dietro altri elementi.</li>
 </ul>
 </details>
 
-**Step 2:** Update the z-index of your Navi+ menu
+**Passo 2:** Aggiorna lo z-index del tuo menu Navi+
 
-<details><summary>How to update the z-index of the Navi+ menu?</summary>
-<p>Select the Advanced menu and scroll down to find the Z-index card then update the z-index and don’t forget to click SAVE to apply the changes.</p>
+<details><summary>Come aggiornare lo z-index del menu Navi+?</summary>
+<p>Seleziona il menu Avanzato e scorri verso il basso per trovare la scheda Z-index, quindi aggiorna lo z-index e non dimenticare di fare clic su SALVA per applicare le modifiche.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fh2SfwqpjqjNzZwmbs2yL%2Fz-index%201.1.png?alt=media&#x26;token=47b5f318-d0b3-4f2a-9668-f9e3ed7dab09" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F7np7UDMk5KFGnSvMr8HK%2Fz-index%201.2.png?alt=media&#x26;token=ae4aa403-fbd6-41c9-a16d-861e8cd032bc" alt=""><figcaption></figcaption></figure>
 </details>
+
+
+---
+
+# Istruzioni per l'agente: Consultazione di questa documentazione
+
+Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
+
+Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/z-index.md?ask=<question>
+```
+
+La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
+La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
+
+Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

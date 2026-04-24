@@ -1,25 +1,42 @@
 ---
-description: Experimente o Navi+ em ação em uma loja real — sem necessidade de configuração. Nossa demonstração ao vivo permite que você explore todos os tipos de menu em layouts móveis, tablet e desktop.
+description: Experience Navi+ in action on a real store — no setup required. Our live demo lets you explore all menu types across mobile, tablet, and desktop layouts.
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/demo/1click-live-demo/
-title: Demonstração ao vivo 1Click
+title: 1Click live demo
 ---
-# Demonstração ao vivo 1Click
+# 1Click live demo
 
-Experimente o Navi+ em ação em uma loja real — sem necessidade de configuração. Nossa demonstração ao vivo permite que você explore todos os tipos de menu em layouts móveis, tablet e desktop.
+Experience Navi+ in action on a real store — no setup required. Our live demo lets you explore all menu types across mobile, tablet, and desktop layouts.
 
-Visite a demonstração em [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io")
+Visit the demo at [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io")
 
-### O que você pode explorar
+### What you can explore
 
-Use o seletor de dispositivos (Móvel / Tablet / Desktop) e o seletor de site para visualizar diferentes configurações de loja com:
+Use the device switcher (Mobile / Tablet / Desktop) and the site selector to preview different store configurations with:
 
-* **Tab Bar** — barra de navegação fixa na parte inferior para dispositivos móveis
-* **Mega Menu** — dropdown rico com colunas, imagens e links (desktop)
-* **Slide Menu** — painel deslizante com navegação em múltiplos níveis
-* **Sticky Navbar** — barra de navegação que permanece fixa ao rolar
-* **FAB / Floating Menu** — botão flutuante para acesso rápido (WhatsApp, chat e mais)
-* **Grid Menu** — grade de imagens para exibir as principais categorias
+* **Tab Bar** — fixed bottom navigation bar for mobile
+* **Mega Menu** — rich dropdown with columns, images, and links (desktop)
+* **Slide Menu** — sliding panel with multi-level navigation
+* **Sticky Navbar** — navigation bar that sticks when scrolling
+* **FAB / Floating Menu** — floating button for quick access (WhatsApp, chat & more)
+* **Grid Menu** — image grid for showcasing main categories
 
-Visite [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") em qualquer dispositivo, ou escaneie o código QR na página da demonstração para abri-lo no seu telefone.
+Visit [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") on any device, or scan the QR code on the demo page to open it on your phone.
+
+---
+
+# Agent Instructions: Querying This Documentation
+
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/demo/1click-live-demo.md?ask=<question>
+```
+
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

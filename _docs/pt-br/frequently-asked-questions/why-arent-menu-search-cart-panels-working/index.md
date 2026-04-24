@@ -11,8 +11,26 @@ Navi+ suporta vários painéis de Menu, Pesquisa e Carrinho em temas populares: 
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsiEnx7Oa20rt2iWi669a%2Fmenu-search-panel.webp?alt=media&#x26;token=064c033a-4270-4550-ac33-f1a6fdecc7ff" alt=""><figcaption></figcaption></figure>
 
-Esse recurso está disponível apenas para o plano Business e acima (não suportado no plano gratuito). Portanto, se você estiver usando o plano gratuito, faça um upgrade para um plano pago para melhorar significativamente a experiência do seu site, otimizar a velocidade, melhorar o SEO e ter acesso a muitos recursos úteis. Se você já estiver usando um plano pago e seu tema não estiver na lista de temas suportados pelo Navi+, entre em contato com o suporte do Navi+ através de canais como WhatsApp, iMessage ou e-mail. Nós integraremos o Navi+ para suportar seu tema dentro de um dia útil.
+Esse recurso está disponível apenas para o plano Business e acima (não suportado no plano gratuito). Portanto, se você estiver usando o plano gratuito, faça um upgrade para um plano pago para melhorar significativamente a experiência do seu site, otimizar a velocidade, melhorar o SEO e ter acesso a muitos recursos úteis. Se você já estiver usando um plano pago e seu tema não estiver na lista de temas suportados pelo Navi+, entre em contato com o suporte do Navi+ através de canais como WhatsApp, iMessage ou e-mail. Integraremos o Navi+ para suportar seu tema dentro de um dia útil.
 
 <mark style="background-color:yellow;">Nota: Se você estiver usando um plano pago e rebaixar para o plano gratuito, esses recursos exclusivos não funcionarão no seu menu. Enviaremos uma notificação por e-mail antes de desativar o recurso em sua aplicação.</mark>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkBNy56enqVb3wJ4TWyX%2Fscreenbud-639e2e18-56b1-49d0-8e66-b831983a6577.png?alt=media&#x26;token=9fed32bf-b1ac-4a67-af36-59f4b90bdec1" alt=""><figcaption></figcaption></figure>
+
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-arent-menu-search-cart-panels-working.md?ask=<question>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -12,7 +12,7 @@ title: Politique de confidentialité
 ### 1. Introduction
 
 Nous respectons votre vie privée.\
-Cette Politique de confidentialité explique comment **Navi+** (“nous”, “l'Application”, “le Service”) collecte, utilise et protège les informations personnelles lorsque vous utilisez les produits et services de Navi+ sur des plateformes telles que **Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace**, et d'autres sites web auto-hébergés.
+Cette Politique de confidentialité explique comment **Navi+** (“nous”, “l'App”, “le Service”) collecte, utilise et protège les informations personnelles lorsque vous utilisez les produits et services de Navi+ sur des plateformes telles que **Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace**, et d'autres sites web auto-hébergés.
 
 En utilisant Navi+, vous acceptez cette Politique de confidentialité.
 
@@ -39,7 +39,7 @@ Cette Politique s'applique à trois types d'utilisateurs :
 
 * Adresse IP, type d'appareil, navigateur, langue, et fuseau horaire.
 * Cookies et journaux utilisés pour la performance, l'analyse, et la sécurité.
-* Données d'utilisation telles que les visites de pages, les clics sur le menu, et les temps de chargement.
+* Données d'utilisation telles que les visites de pages, les clics sur les menus, et les temps de chargement.
 
 #### c. Informations provenant de plateformes tierces
 
@@ -68,7 +68,7 @@ Nous ne partageons des informations que lorsque cela est nécessaire :
 
 * Avec des fournisseurs d'infrastructure tels que **AWS** et **Cloudflare** pour l'hébergement de données et la livraison de contenu.
 * Avec des plateformes de paiement telles que **Shopify Payments** ou **Lemon Squeezy** pour des transactions sécurisées.
-* Avec les autorités gouvernementales lorsque la loi l'exige ou pour protéger les droits et la sécurité de Navi+ et de ses utilisateurs.
+* Avec des autorités gouvernementales lorsque la loi l'exige ou pour protéger les droits et la sécurité de Navi+ et de ses utilisateurs.
 
 Tous les fournisseurs tiers respectent les normes internationales de protection des données (GDPR, ISO 27001, CCPA).
 
@@ -109,7 +109,7 @@ En utilisant Navi+, vous reconnaissez que nous ne sommes pas responsables des vi
 
 ### 9. Transferts internationaux de données
 
-Vos données peuvent être traitées sur des serveurs situés à **Singapour, aux États-Unis, au Canada, ou en Europe**, en fonction des emplacements des centres de données AWS ou Cloudflare.\
+Vos données peuvent être traitées sur des serveurs situés à **Singapour, aux États-Unis, au Canada, ou en Europe**, selon les emplacements des centres de données AWS ou Cloudflare.\
 En utilisant Navi+, vous consentez à ce transfert et à ce traitement dans le cadre de cadres de confidentialité reconnus internationalement.
 
 ***
@@ -124,6 +124,24 @@ Pour des changements matériels, nous informerons les utilisateurs par e-mail ou
 
 ### 11. Contact
 
-Si vous avez des questions, des préoccupations, ou des demandes concernant cette Politique de confidentialité, veuillez contacter :\
+Si vous avez des questions, des préoccupations ou des demandes concernant cette Politique de confidentialité, veuillez contacter :\
 **Email :** <khoipn@naviplus.io>\
 **Site web :** <https://naviplus.io>
+
+
+---
+
+# Instructions de l'agent : Interroger cette documentation
+
+Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
+
+Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<question>
+```
+
+La question doit être spécifique, autonome, et rédigée en langage naturel.
+La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
+
+Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

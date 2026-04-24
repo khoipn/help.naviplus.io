@@ -1,24 +1,41 @@
 ---
-description: Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are cou...
+description: Navi+ 提供一个几乎完整功能的试用包，适用于所有网站。然而，在一定时间后，如果您网站的访问量（访问量在 Navi+ 显示在网站上时计算）超过 50,000，您的账户将自动标记为需要升级。
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-title: Navi+ plans (Starter, Business & Elite)
+title: Navi+ 计划 (Starter, Business & Elite)
 ---
-# Navi+ plans (Starter, Business & Elite)
+# Navi+ 计划 (Starter, Business & Elite)
 
-#### Question 1: What happens when my Starter plan exceeds 50,000 visits?
+#### 问题 1: 当我的 Starter 计划超过 50,000 次访问时会发生什么？
 
-Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are counted when Navi+ is displayed on the website) exceed 50,000, your account will automatically be flagged for an upgrade. We will take the following actions:
+Navi+ 提供一个几乎完整功能的试用包，适用于所有网站。然而，在一定时间后，如果您网站的访问量（访问量在 Navi+ 显示在网站上时计算）超过 50,000，您的账户将自动标记为需要升级。我们将采取以下措施：
 
-1. We will send multiple emails to notify you about the status of your Navi+ Starter plan (Please ensure you receive our notifications, as this is crucial). Upon receiving the notification, consider upgrading your account to a higher plan like Business or Elite.
-2. If you do not receive the information or if your website does not intend to upgrade to a higher plan, we will start displaying small Navi+ ads on your menus. The size of the ads will not affect user interaction but will be noticeable enough for users to understand that the menu is powered by Navi+. We will consider gradually increasing the visibility of the ads over time, from very subtle to more noticeable. This helps Navi+ reach more people and generates additional revenue from other customers.
-3. We will not disable or remove any features of Navi+ that are currently displayed on your site. We fully understand that these features are crucial for user interaction on your website, so this is something we will strictly avoid.
+1. 我们将发送多封电子邮件通知您关于您的 Navi+ Starter 计划的状态（请确保您收到我们的通知，因为这非常重要）。收到通知后，请考虑将您的账户升级到更高的计划，如 Business 或 Elite。
+2. 如果您没有收到信息，或者您的网站不打算升级到更高的计划，我们将开始在您的菜单上显示小型的 Navi+ 广告。广告的大小不会影响用户互动，但会足够明显，让用户理解菜单是由 Navi+ 提供支持的。我们将考虑逐渐增加广告的可见性，从非常微妙到更明显。这有助于 Navi+ 接触更多人，并从其他客户那里产生额外收入。
+3. 我们不会禁用或移除您网站上当前显示的任何 Navi+ 功能。我们完全理解这些功能对您网站的用户互动至关重要，因此我们将严格避免这样做。
 
-#### Question 2: What happens if you downgrade from Business or Elite back to Starter, yet it seems like all the features remain?
+#### 问题 2: 如果您从 Business 或 Elite 降级回 Starter，但似乎所有功能仍然保留，会发生什么？
 
-We understand that features and user experience are crucial for your customers, so we ensure that no features on your menu will be hidden or removed. However, we have a system that performs a daily scan. As soon as it detects that your website is in this situation, we will send you an email notification to encourage you to upgrade to a higher plan. These email notifications will be spaced out over time to avoid overwhelming you with too many messages. If you choose not to upgrade back to the Business or Elite plans, Navi+ will start displaying ads as explained in Question 1.
+我们理解功能和用户体验对您的客户至关重要，因此我们确保您的菜单上不会隐藏或移除任何功能。然而，我们有一个系统会进行每日扫描。一旦检测到您的网站处于这种情况，我们将向您发送电子邮件通知，鼓励您升级到更高的计划。这些电子邮件通知将分散发送，以避免让您感到信息过载。如果您选择不升级回 Business 或 Elite 计划，Navi+ 将开始显示广告，如问题 1 中所述。
 
-#### Question 3: What happens if I exceed the limit on the Business plan (e.g., more than 500,000 Navi+ views/month)?
+#### 问题 3: 如果我超过 Business 计划的限制（例如，每月超过 500,000 次 Navi+ 查看）会发生什么？
 
-As with the previous questions, Navi+ will not hide or remove any menu features. However, once the limit is exceeded, and after email notifications are sent to you to consider upgrading to the Elite plan, ads may be displayed on your menu until the start of a new monthly cycle.
+与之前的问题一样，Navi+ 不会隐藏或移除任何菜单功能。然而，一旦超过限制，并在向您发送电子邮件通知以考虑升级到 Elite 计划后，广告可能会在您的菜单上显示，直到新月周期的开始。
+
+---
+
+# 代理说明：查询此文档
+
+如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
+
+在当前页面 URL 上执行 HTTP GET 请求，使用 `ask` 查询参数：
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/navi+-plans-starter-business-and-elite.md?ask=<question>
+```
+
+问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。
+
+当答案未在当前页面中明确存在时，您需要澄清或额外上下文，或者想要检索相关文档部分时，请使用此机制。

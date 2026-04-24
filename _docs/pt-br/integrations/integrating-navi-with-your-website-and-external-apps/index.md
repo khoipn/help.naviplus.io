@@ -7,11 +7,11 @@ title: Integrando Navi+ com seu site e aplicativos externos
 ---
 # Integrando Navi+ com seu site e aplicativos externos
 
-Aqui você encontrará guias sobre como conectar o Navi+ com outros aplicativos (como ferramentas de chat, fidelidade, etc.). Você pode adicioná-los como itens de menu, abrir aplicativos diretamente do Navi+, e garantir que tudo funcione junto de forma suave, sem sobreposições em seu site.
+Aqui você encontrará guias sobre como conectar o Navi+ com outros aplicativos (como ferramentas de chat, fidelidade, etc.). Você pode adicioná-los como itens de menu, abrir aplicativos diretamente do Navi+, e garantir que tudo funcione em conjunto de forma suave, sem sobreposições em seu site.
 
 ### 1. Integre outros aplicativos fixos em um único item de menu do Navi+
 
-O Navi+ consolida vários aplicativos (Chat Box, Fidelidade, Prova Social, Barras de Promoção, etc.) em itens de menu, mantendo seu site limpo e prevenindo sobreposições—especialmente valioso em dispositivos móveis com espaço de tela limitado.
+Navi+ consolida vários aplicativos (Chat Box, Fidelidade, Prova Social, Barras de Promoção, etc.) em itens de menu, mantendo seu site limpo e prevenindo sobreposições—especialmente valioso em dispositivos móveis com espaço de tela limitado.
 
 Para conseguir isso, siga estes 2 passos:
 
@@ -23,12 +23,12 @@ Veja o exemplo de integração do chat Tidi. Esta é uma configuração relativa
 
 ### 2. Gatilhos JavaScript – interaja com aplicativos externos
 
-O Navi+ permite executar funções JavaScript a partir de itens de menu quando clicados pelos usuários (javascript:Function). Veja o exemplo de integração do chat Tidi para entender como usar duas funções JavaScript para integrar o chat Tidio como um item de menu do Navi+:
+Navi+ permite executar funções JavaScript a partir de itens de menu quando clicados pelos usuários (javascript:Function). Veja o exemplo de integração do chat Tidi para entender como usar duas funções JavaScript para integrar o chat Tidio como um item de menu do Navi+:
 
 1. Oculte o ícone do Tidio: Uma função global que espera o Tidio renderizar, então o oculta
 2. openTidio(): Abre o painel de chat do Tidio quando os usuários clicam no item de menu "Chat with us"
 
-O Navi+ também suporta que você defina as classes e atribuições de atributos (mesmo na forma de id="menu-item-1") para habilitar a interação com outros aplicativos ou código JavaScript. Você pode usar funções JavaScript para acessar diretamente os itens de menu via classe ou atributo, por exemplo: para criar um tutorial passo a passo.
+Navi+ também suporta que você defina as atribuições de classe e atributo (mesmo na forma de id="menu-item-1") para habilitar a interação com outros aplicativos ou código JavaScript. Você pode usar funções JavaScript para acessar diretamente itens de menu via classe ou atributo, por exemplo: para criar um tutorial passo a passo.
 
 ### 3. Personalizando a Interface do Navi+ com CSS Externo
 
@@ -38,7 +38,7 @@ Por exemplo, para mudar a cor de um item de menu de nível 2, você pode escreve
 
 `#SF-123456789 ul li ul.children li .name { color: red; }`
 
-O Navi+ também suporta que você defina as classes e atribuições de atributos (mesmo na forma de id="menu-item-1") para habilitar a interação com outros aplicativos ou código JavaScript. Você pode estilizar cada item de menu usando nomes de classe ou atributos.
+Navi+ também suporta que você defina as atribuições de classe e atributo (mesmo na forma de id="menu-item-1") para habilitar a interação com outros aplicativos ou código JavaScript. Você pode estilizar cada item de menu usando nomes de classe ou atributos.
 
 ### 4. Comunicação Entre Menus do Navi+
 
@@ -54,15 +54,15 @@ Por exemplo: Crie um botão flutuante usando HTML e CSS, então atribua sua aç�
 
 ### 6. Simular ações do usuário (clique, foco, rolagem, etc.)
 
-O Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
+Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
 
-* `open:clickTo` para simular um clique em um Seletor CSS HTML. Isso é extremamente útil para permitir que o menu do Navi+ acione menus de hambúrguer padrão, ferramentas de busca, painéis de carrinho, dropdowns de idioma... ou ative ferramentas de chat de outros aplicativos.
+* `open:clickTo` para simular um clique em um Seletor CSS HTML. Isso é extremamente útil para habilitar o menu do Navi+ a acionar menus de hambúrguer padrão, ferramentas de busca, painéis de carrinho, dropdowns de idioma... ou ativar ferramentas de chat de outros aplicativos.
 * `open:focusTo` para simular o foco em um Seletor CSS HTML. Isso é extremamente útil para simular cliques em ferramentas de busca ou campos de assinatura de e-mail
 * `scroll:Top`, `scroll:Bottom`, `scroll:OnPage` para rolar a página da web para a área desejada. Isso é extremamente útil quando você quer rolar para uma seção alvo na página em vez de navegar para uma página diferente.
 
 ### 7. Para compartilhar e melhorar o engajamento do site
 
-O Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
+Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
 
 * `open:ShareMe` para compartilhar o link do site
 * `share:CopyUrl` para copiar a URL atual para a área de transferência do dispositivo
@@ -71,7 +71,7 @@ O Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
 
 ### 8. Integração com outros aplicativos de dispositivos (como Telefone)
 
-O Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
+Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
 
 * `tel:+[Código do país][Telefone]` para ligar para o número
 * `sms:+[Código do país][Telefone]?body=[Texto]` para enviar uma mensagem SMS para o número com um conteúdo configurado (opcional)
@@ -83,7 +83,7 @@ O Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
 
 ### 9. Somente para Shopify
 
-O Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
+Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
 
 * `open:ChangeLanguage` para mudar o idioma se o site usar Shopify
 * Shopify Inbox: Oculte o ícone do Shopify Inbox e integre-o ao menu do Navi+ como um item de menu que abre o painel de chat ao clicar. Veja os detalhes aqui
@@ -92,3 +92,20 @@ O Navi+ fornece várias funções (ativadas quando um item de menu é clicado):
 ### Não vê na lista?
 
 Sinta-se à vontade para me enviar seu pedido de integração. Estou feliz em ajudar, e isso também apoia o crescimento do Navi+.
+
+---
+
+# Instruções para o Agente: Consultando Esta Documentação
+
+Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
+
+Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md?ask=<pergunta>
+```
+
+A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
+
+Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.
