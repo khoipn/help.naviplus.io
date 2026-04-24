@@ -35,7 +35,7 @@ title: 如何将Navi+菜单转移到另一个Navi+菜单
 * 一个标签：源菜单（已经有内容的菜单）
 * 一个标签：目标菜单（你要转移到的菜单）
 
-并排打开它们将使过程更快，并帮助避免错误。
+并排保持它们打开将使过程更快，并帮助避免错误。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8R0Fc3nJiM5ZhtFrcYsC%2F1.1.webp?alt=media&#x26;token=aec03e77-5a0c-42f5-88a6-c9632466fee9" alt=""><figcaption></figcaption></figure>
 
@@ -51,21 +51,4 @@ title: 如何将Navi+菜单转移到另一个Navi+菜单
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLX3Be5eqfItKUMpXSCCj%2F1.3.webp?alt=media&#x26;token=74143e7e-efb7-485a-9eba-6a28d2ec9229" alt=""><figcaption></figcaption></figure>
 
-🔁 重复步骤3和4，直到整个菜单结构完全转移。提示：按部分（按级别或按分支）移动菜单，以确保没有遗漏，并保持结构的组织。
-
----
-
-# 代理说明：查询此文档
-
-如果你需要此页面中没有直接提供的额外信息，你可以通过提问动态查询文档。
-
-在当前页面URL上执行HTTP GET请求，使用`ask`查询参数：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md?ask=<question>
-```
-
-问题应该具体、自包含，并用自然语言书写。
-响应将包含对问题的直接回答以及文档中的相关摘录和来源。
-
-当答案在当前页面中没有明确存在时，或者你需要澄清或额外的上下文，或者你想检索相关文档部分时，请使用此机制。
+🔁 重复步骤3和4，直到整个菜单结构完全转移。提示：按部分（按级别或按分支）移动菜单，以确保没有遗漏，并保持结构有序。

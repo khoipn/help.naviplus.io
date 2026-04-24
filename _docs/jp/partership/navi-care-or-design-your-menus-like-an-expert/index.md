@@ -1,57 +1,40 @@
 ---
-description: テクノロジーやUI/UXデザインの専門家でない人も多く、最適化されたウェブサイトナビゲーションを作成するのが難しいです。Navi+ Careは、...のための完全なソリューションを提供します。
+description: Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to...
 lang: jp
 layout: default
 permalink: /jp/docs/partership/navi-care-or-design-your-menus-like-an-expert/
-title: Navi+ Care | メニューを専門家のようにデザインする
+title: Navi+ Care | Design your menus like an expert
 ---
-# Navi+ Care | メニューを専門家のようにデザインする
+# Navi+ Care | Design your menus like an expert
 
-テクノロジーやUI/UXデザインの専門家でない人も多く、最適化されたウェブサイトナビゲーションを作成するのが難しいです。Navi+ Careは、美的でユーザーフレンドリーなメニューをデザインするための完全なソリューションを提供します。
+Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to design menus that are both aesthetic and user-friendly.
 
-### どのように作業しますか？
+### How to work?
 
-**ステップ1: Navi+ Careに登録: $120.0 USD** 一度限りの支払いで、3ヶ月間有効です。その後、メールまたはWhatsAppでご連絡いただければ、すぐに開始できます。
+**Step 1: Register Navi+ Care: $120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
 
-**ステップ2: 繰り返しデザインとテスト:** Figmaでいくつかのオプションをデザインし、テーマをクローンし、ここでライブメニューを実装して、ニーズに合っているかどうかを確認し、満足していただけるようにします。
+**Step 2: Design and test iteratively:** We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
 
-**ステップ3: メニューを公開:** 訪問者のためにメニューを公開します。ヘルプ、CSSおよびJSコードの重要なドキュメントを含む詳細なWordファイルを提供します。
-
-***
-
-### なぜこのサービスがあなたに適しているのか？
-
-ウェブサイトに適したメニューを選ぶのは難しいことがあります - モバイル用のボトムバー、ホームページ用のグリッドメニュー、デスクトップ用のメガメニュー、サポート用のFloating Action Button (FAB)、そしてフルナビゲーション用のスライドメニュー？
-
-* メニューの色、フォント、スタイルをウェブサイトのデザインに合わせてカスタマイズする必要があるかもしれませんが、ツールに不慣れかもしれません。
-* メニューのデザインが視覚的に魅力的で最適化されているかどうかについて、UI/UXの専門家からフィードバックが必要かもしれません。
-* あなたのウェブサイトを際立たせるメニューのユニークなアイデアが必要かもしれません。
-* 現在のメニューを新しいレベルにアップグレードする必要があるかもしれませんが、時間や専門知識が不足しているかもしれません。
-* ゼロからメニューを構築する必要があるか、Excelファイルから構築する必要があるか、専門的なアドバイスとサポートが必要かもしれません。
+**Step 3: Golive your menus:** Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
 
 ***
 
-### このサービスを利用するための要件は何ですか？
+### Why is this service right for you?
 
-1. 有料のNavi+プラン（BusinessまたはElite）に登録する必要があります。これは、メニューの追加、編集、削除や画像のアップロードに完全にアクセスできることを保証します。4つ以上のメニューが必要なウェブサイトの場合、Eliteプランへのアップグレードが必要になる場合があります。
+Choosing the right menu for your website can be challenging - a bottom bar for mobile, a grid menu for the homepage, a mega menu for desktop, a Floating Action Button (FAB) for support, and a slide menu for full navigation?
 
-2. Shopifyウェブサイトへの基本的なアクセスを許可する必要があるかもしれません。これにより、Navi+メニューを作成および変更し、CSSおよびJSコードを追加し、パフォーマンスとユーザーエクスペリエンスを最適化できます。
+* You may need to customize your menu's colors, fonts, and style to match your website's design but feel unfamiliar with the tools.
+* You may need feedback from UI/UX experts on whether your menu design is visually appealing and optimized.
+* You may need unique ideas for a menu that sets your website apart.
+* You may need to upgrade your current menu to a new level but lack the time or expertise.
+* You may need to build a menu from scratch or from an Excel file, or require professional advice and support.
+
+***
+
+### What are the requirements to use this service?
+
+1\. you must subscribe to a paid Navi+ plan (Business or Elite), either monthly or annually. This ensures full access to add, edit, or delete menus and upload images. For websites needing more than four menus, an upgrade to the Elite plan may be required.
+
+2\. You may need to grant us basic access to your Shopify website. This allows us to create and modify Navi+ menus, add CSS and JS code, and optimize performance and user experience.
 
 <br>
-
----
-
-# エージェントの指示: このドキュメントを照会する
-
-このページに直接利用できない追加情報が必要な場合は、質問をしてドキュメントを動的に照会できます。
-
-現在のページのURLに`ask`クエリパラメータを付けてHTTP GETリクエストを実行します:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/partership/navi+-care-or-design-your-menus-like-an-expert.md?ask=<question>
-```
-
-質問は具体的で自己完結しており、自然言語で書かれている必要があります。
-回答には、質問への直接的な回答と、ドキュメントからの関連する抜粋や情報源が含まれます。
-
-このメカニズムは、回答が現在のページに明示的に存在しない場合、明確化や追加のコンテキストが必要な場合、または関連するドキュメントセクションを取得したい場合に使用します。

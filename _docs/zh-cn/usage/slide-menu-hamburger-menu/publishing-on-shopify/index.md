@@ -42,10 +42,10 @@ title: 在 Shopify 上发布
 
 **方法 1：使用语法 open:NaviMenu 从另一个 Navi+ 菜单项打开此菜单**
 
-此方法允许您在用户点击或轻触来自另一个 Navi+ 菜单的菜单项时打开滑动菜单（例如：在选项卡栏、屏幕右下角的 FAB 或大菜单上）。此方法的主要目的：
+此方法允许您在用户点击或轻触来自另一个 Navi+ 菜单的菜单项时打开滑动菜单（例如：在选项卡栏、屏幕底角的 FAB 或大菜单上）。此方法的主要目的：
 
 <details><summary>目的 1：通过在滑动菜单中显示完整网站地图来改善可见性和用户体验，同时保持易于访问。</summary>
-<p>滑动菜单非常适合展示您的完整网站地图，因为它具有较大的空间和灵活的布局，非常适合展示整个产品目录、关键页面的链接、博客、支持工具等。然而，滑动菜单通常默认情况下可见性较低。为了提高可发现性，您可以使用另一个 Navi+ 菜单（例如选项卡栏）来展示您最重要和最具识别性的链接，并放置一个突出显示的菜单项来触发滑动菜单。这确保了滑动菜单的更好可见性和用户参与度。</p>
+<p>滑动菜单非常适合展示您的完整网站地图，因为它具有较大的空间和灵活的布局，非常适合展示整个产品目录、关键页面的链接、博客、支持工具等。然而，滑动菜单通常默认情况下可见性较低。为了提高可发现性，您可以使用另一个 Navi+ 菜单（例如选项卡栏）来展示您最重要和最易识别的链接，并放置一个突出显示的菜单项来触发滑动菜单。这确保了滑动菜单的更好可见性和用户参与度。</p>
 </details>
 
 <details><summary>目的 2：<strong>无限菜单深度与大型灵活菜单结构（仅限 Navi+）</strong></summary>
@@ -54,7 +54,7 @@ title: 在 Shopify 上发布
 
 **方法 2：当点击或轻触 UI 元素（由 CSS 选择器定义，例如 #id_of_element 或 .class_name）时，将显示此菜单。**
 
-这可以说是滑动菜单中最好和最常用的方法。\在本指南中，我们将重点介绍替换网站的默认汉堡菜单。\您还可以通过查找和使用其他 CSS 选择器来创造性地应用此方法以触发菜单。
+这可以说是使用滑动菜单的最佳和最常用的方法。\在本指南中，我们将重点介绍替换网站的默认汉堡菜单。\您还可以通过查找和使用其他 CSS 选择器来创造性地应用此方法以触发菜单。
 
 <details><summary>如何用 Navi+ 滑动菜单替换您网站的默认汉堡菜单（<strong>热门指南）？</strong></summary>
 <p>在大多数 Shopify 网站上，默认汉堡菜单是通过响应式设计从桌面版本生成的。因此，它通常非常简单，深度较浅，并且缺乏对图标、图像或高级布局的支持。用 Navi+ 滑动菜单替换它是一个常见且实用的选择，以利用 Navi+ 的高级功能。</p>
@@ -93,15 +93,25 @@ title: 在 Shopify 上发布
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>代理指令：查询此文档</h1>
+<p>如果您需要此页面中未直接提供的其他信息，您可以通过提问动态查询文档。</p>
+<p>在当前页面 URL 上执行 HTTP GET 请求，使用 <code>ask</code> 查询参数：</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>问题应具体、自包含，并用自然语言书写。响应将包含对问题的直接回答以及文档中的相关摘录和来源。</p>
+<p>当当前页面中没有明确的答案时，您需要澄清或额外的上下文，或者您想检索相关文档部分时，请使用此机制。</p>
 </details>
 
 #### 2.3. 重要！优化滑动菜单速度，添加加载效果，并防止重复菜单
 
 这不是您需要立即修复的事情，但从长远来看，它对 Navi+ 创建的滑动菜单体验很重要。在 Navi+ 完全替换旧的滑动菜单之前，主题的原始菜单仍然处于活动状态。在短暂的时刻——大约半秒钟——如果用户加载菜单并快速点击汉堡按钮（这种情况很少见，但仍然可能），旧主题菜单可能会出现并导致视觉故障。
 
-<details><summary>Navi+ 提供了一个简单的解决方案来优化用户体验和速度，如下步骤</summary>
+<details><summary>Navi+ 提供了一个简单的解决方案来优化用户体验和速度，如下步骤所示</summary>
 <p><strong>为什么您需要这样做？难道 Navi+ 还不够快吗？</strong></p>
-<p>Navi+ 非常快。它完全部署在领先的 CDN 上，延迟非常低（约 100 毫秒），可以在不减速的情况下为数百万客户提供服务。</p>
+<p>Navi+ 非常快。它完全部署在领先的 CDN 上，延迟非常低（约 100 毫秒），可以在不减慢速度的情况下为数百万客户提供服务。</p>
 <p>然而，Navi+ 仍然在 Shopify 生态系统内运行。Shopify 有自己的加载规则：</p>
 <ol>
 <li>Shopify 优先加载自己的资源。</li>
@@ -122,8 +132,8 @@ title: 在 Shopify 上发布
 
 <p>注意：</p>
 <ul>
-<li>如果您希望它仅在移动设备上应用，请添加后缀<strong>(M)</strong>。</li>
-<li>如果您希望它仅在桌面上应用，请添加后缀<strong>(D)</strong>。</li>
+<li>如果您希望它仅在移动设备上应用，请添加后缀 <strong>(M)</strong>。</li>
+<li>如果您希望它仅在桌面上应用，请添加后缀 <strong>(D)</strong>。</li>
 <li>如果您希望它在两个平台上都适用，请不添加后缀。</li>
 </ul>
 </details>

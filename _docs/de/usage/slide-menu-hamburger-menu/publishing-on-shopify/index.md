@@ -1,5 +1,5 @@
 ---
-description: 'Schritt 1: Klicken Sie auf Online-Shop und dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.'
+description: 'Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.'
 lang: de
 layout: default
 permalink: /de/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
@@ -11,7 +11,7 @@ title: Veröffentlichung auf Shopify
 
 #### 2.1. Aktivieren Sie Navi+ in App-Embeds
 
-Schritt 1: Klicken Sie auf Online-Shop und dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.
+Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.
 
 Schritt 2: Wählen Sie das Theme aus, in dem Sie das Menü veröffentlichen möchten.  Klicken Sie auf: **Anpassen**
 
@@ -26,7 +26,7 @@ Schritt 3: Gehen Sie zu App-Embeds, suchen Sie nach „Navi+ auf allen Seiten“
 
 Schritt 4: Vergessen Sie nicht, auf „Speichern“ zu klicken, um die Änderungen anzuwenden.
 
-Nach diesen 4 Schritten wurde Navi+ auf Ihrer Website installiert und ist bereit zur Anzeige. Der Prozess ist jedoch noch nicht abgeschlossen. Gehen Sie zurück zum Navi+-App-Tab, um tatsächlich **Menü veröffentlichen** zu aktivieren.
+Nach diesen 4 Schritten wurde Navi+ auf Ihrer Website installiert und ist bereit zur Anzeige. Der Prozess ist jedoch noch nicht abgeschlossen. Gehen Sie zurück zum Navi+-App-Tab, um **Menü veröffentlichen** tatsächlich zu aktivieren.
 
 #### 2.2. Wählen Sie die Anzeigeeinstellungen und veröffentlichen Sie das Menü.
 
@@ -44,12 +44,12 @@ Schritt 3: Wählen Sie die Anzeigemethode
 
 Diese Methode ermöglicht es Ihnen, ein Slide-Menü zu öffnen, wenn der Benutzer auf ein Menüelement aus einem anderen Navi+-Menü klickt oder tippt (zum Beispiel: auf einer Tabbar, einem FAB in der unteren Ecke des Bildschirms oder einem Mega-Menü). Hauptziele dieser Methode:
 
-<details><summary>Zweck 1: Verbesserte Sichtbarkeit und Benutzererfahrung, indem die gesamte Sitemap im Slide-Menü angezeigt wird, während sie leicht zugänglich bleibt.</summary>
-<p>Das Slide-Menü ist ideal, um Ihre gesamte Sitemap anzuzeigen, dank seines großen Raums und flexiblen Layouts, was es perfekt macht, um den gesamten Produktkatalog, Links zu wichtigen Seiten, Blogs, Support-Tools usw. anzuzeigen. Das Slide-Menü ist jedoch standardmäßig oft weniger sichtbar. Um die Auffindbarkeit zu verbessern, können Sie ein anderes Navi+-Menü (wie eine Tabbar) verwenden, um Ihre wichtigsten und erkennbaren Links zu präsentieren, und ein hervorgehobenes Menüelement platzieren, das das Slide-Menü auslöst. Dies sorgt für bessere Sichtbarkeit und Benutzerengagement für das Slide-Menü.</p>
+<details><summary>Zweck 1: Verbesserte Sichtbarkeit und Benutzererfahrung, indem die vollständige Sitemap im Slide-Menü angezeigt wird, während der Zugriff einfach bleibt.</summary>
+<p>Das Slide-Menü ist ideal, um Ihre vollständige Sitemap anzuzeigen, dank seines großen Raums und flexiblen Layouts, was es perfekt macht, um den gesamten Produktkatalog, Links zu wichtigen Seiten, Blogs, Support-Tools usw. anzuzeigen. Das Slide-Menü ist jedoch standardmäßig oft weniger sichtbar. Um die Auffindbarkeit zu verbessern, können Sie ein anderes Navi+-Menü (wie eine Tabbar) verwenden, um Ihre wichtigsten und erkennbaren Links zu präsentieren, und ein hervorgehobenes Menüelement platzieren, das das Slide-Menü auslöst. Dies sorgt für bessere Sichtbarkeit und Benutzerengagement für das Slide-Menü.</p>
 </details>
 
 <details><summary>Zweck 2: <strong>Unbegrenzte Menütiefe mit einer großen, flexiblen Menüstruktur (Nur Navi+)</strong></summary>
-<p>Anstatt ein Popup mit begrenztem Platz anzuzeigen, wenn auf ein Menüelement geklickt wird, können Sie ein anderes Slide-Menü mit drei Ebenen und mehreren Möglichkeiten zur Präsentation von Informationen öffnen. Dies kann für andere Menüelemente oder sogar für dasselbe Slide-Menü wiederholt werden, sodass Sie praktisch unbegrenzte Tiefe für Ihre Navi+-Menüs erstellen können.</p>
+<p>Anstatt ein Popup mit begrenztem Platz anzuzeigen, wenn ein Menüelement angeklickt wird, können Sie ein anderes Slide-Menü mit drei Ebenen und mehreren Möglichkeiten zur Präsentation von Informationen öffnen. Dies kann für andere Menüelemente oder sogar für dasselbe Slide-Menü wiederholt werden, sodass Sie praktisch unbegrenzte Tiefe für Ihre Navi+-Menüs erstellen können.</p>
 </details>
 
 **Methode 2: Wenn ein UI-Element (definiert durch einen CSS-Selektor wie #id_of_element oder .class_name) angeklickt oder angetippt wird, wird dieses Menü angezeigt.**
@@ -59,12 +59,12 @@ In diesem Leitfaden konzentrieren wir uns darauf, das Standard-Hamburger-Menü d
 Sie können diese Methode auch kreativ anwenden, indem Sie andere CSS-Selektoren finden und verwenden, um das Menü auszulösen.
 
 <details><summary>Wie man das Standard-Hamburger-Menü Ihrer Website mit dem Navi+ Slide-Menü ersetzt (<strong>Beliebter Leitfaden)?</strong></summary>
-<p>Auf den meisten Shopify-Websites wird das Standard-Hamburger-Menü aus der Desktop-Version über responsives Design generiert. Daher ist es normalerweise sehr einfach, hat eine flache Tiefe und unterstützt keine Icons, Bilder oder fortgeschrittene Layouts. Es durch ein Navi+ Slide-Menü zu ersetzen, ist eine gängige und praktische Wahl, um die fortschrittlichen Funktionen von Navi+ zu nutzen.</p>
+<p>Auf den meisten Shopify-Websites wird das Standard-Hamburger-Menü aus der Desktop-Version über responsives Design generiert. Infolgedessen ist es normalerweise sehr einfach, hat eine flache Tiefe und unterstützt keine Symbole, Bilder oder fortgeschrittene Layouts. Es durch ein Navi+ Slide-Menü zu ersetzen, ist eine gängige und praktische Wahl, um die fortschrittlichen Funktionen von Navi+ zu nutzen.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FIB9UqVXh9bL1z4AuHAQj%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=1bef8174-8a59-4765-b2ea-e669c1d12fd6" alt=""><figcaption></figcaption></figure>
 
 <p>Um dies zu tun, identifizieren Sie einfach den CSS-Selektor des Hamburger-Menü-Icons Ihrer Website und geben Sie ihn in das Textfeld ein. Wir haben bereits die CSS-Selektoren für einige der beliebtesten Themes für Sie gefunden, die unten aufgeführt sind.</p>
 <ol>
-<li>CSS-Selektoren für einige beliebte, kostenlose Themes von Shopify wie Dawn, Sense, Savor, Horizon..</li>
+<li>CSS-Selektoren für einige beliebte, kostenlose Themes.. von Shopify wie Dawn, Sense, Savor, Horizon..</li>
 </ol>
 <pre class="codehilite"><code>#Details-menu-drawer-container 
 </code></pre>
@@ -80,7 +80,7 @@ Sie können diese Methode auch kreativ anwenden, indem Sie andere CSS-Selektoren
 
 <details><summary><strong>Wie finde ich den CSS-Selektor auf meiner Website?</strong></summary>
 <p>Sie können mit einem Navi+-Supporter chatten, um sofortige Hilfe zu erhalten, anstatt es selbst zu tun.\
-Allerdings (1) wird dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
+Allerdings wird (1) dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -96,6 +96,17 @@ Allerdings (1) wird dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn S
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Agenten-Anweisungen: Abfragen dieser Dokumentation</h1>
+<p>Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.</p>
+<p>Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem <code>ask</code> Abfrageparameter aus:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.</p>
+<p>Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.</p>
 </details>
 
 #### 2.3. Wichtig! Optimieren Sie die Geschwindigkeit des Slide-Menüs, fügen Sie einen Ladeeffekt hinzu und verhindern Sie doppelte Menüs
@@ -108,10 +119,10 @@ Es ist nichts, was Sie sofort beheben müssen, aber auf lange Sicht ist es wicht
 <p>Allerdings läuft Navi+ weiterhin innerhalb des Shopify-Ökosystems. Shopify hat seine eigenen Lade-Regeln:</p>
 <ol>
 <li>Shopify priorisiert das Laden seiner eigenen Ressourcen zuerst.</li>
-<li>Dann lädt Shopify den Theme-Inhalt.</li>
+<li>Dann lädt Shopify den Inhalt des Themes.</li>
 <li>Schließlich lädt Shopify den App-Inhalt, jedoch nicht in einer bestimmten Reihenfolge.</li>
 </ol>
-<p>Das bedeutet, dass, wenn Sie mehrere Apps verwenden, Navi+ manchmal später als erwartet geladen werden kann. Deshalb kann es in bestimmten Fällen langsamer erscheinen.</p>
+<p>Das bedeutet, wenn Sie mehrere Apps verwenden, kann es sein, dass Navi+ manchmal später als erwartet geladen wird. Deshalb kann es sich in bestimmten Fällen langsamer anfühlen.</p>
 <hr />
 <h4>Was ist meine Lösung?</h4>
 <p>Derzeit hat Navi+ eine hohe Priorität beim Laden auf Shopify-Websites. Es gibt jedoch immer noch eine gewisse Verzögerung. Wir werden diese Probleme hier nacheinander angehen:</p>

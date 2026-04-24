@@ -36,11 +36,11 @@ Après ces 4 étapes, Navi+ a été installé sur votre site web et est prêt à
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Étape 2 : Activez le toggle "Publier le menu par méthode d'insertion/remplacement".
+Étape 2 : Activez le bascule "Publier le menu par méthode d'insertion/remplacement".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
-Étape 3 : Sélectionnez le bon sélecteur CSS et la méthode de remplacement/insertion
+Étape 3 : Sélectionnez le bon sélecteur CSS et méthode de remplacement/insertion
 
 Dans ce guide, nous nous concentrerons sur 2 façons : insérer ce menu sous l'en-tête ou remplacer le Mega Menu par défaut. Vous pouvez également utiliser cette méthode de manière créative en trouvant et en appliquant d'autres sélecteurs CSS pour déclencher le menu.
 
@@ -59,7 +59,7 @@ Dans ce guide, nous nous concentrerons sur 2 façons : insérer ce menu sous l'e
 </ol>
 <pre class="codehilite"><code>- Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée—cela ne prend que quelques minutes pour trouver le sélecteur CSS.
 
-- Ou, vous pouvez suivre le guide d'auto-assistance dans les prochains sujets (Juste après ce sujet).
+- Ou, vous pouvez suivre le guide d'auto-assistance dans les sujets suivants (Juste après ce sujet).
 </code></pre>
 </details>
 
@@ -78,7 +78,7 @@ Dans ce guide, nous nous concentrerons sur 2 façons : insérer ce menu sous l'e
 </ol>
 <pre class="codehilite"><code>- Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée—cela ne prend que quelques minutes pour trouver le sélecteur CSS.
 
-- Ou, vous pouvez suivre le guide d'auto-assistance dans les prochains sujets (Juste après ce sujet).
+- Ou, vous pouvez suivre le guide d'auto-assistance dans les sujets suivants (Juste après ce sujet).
 </code></pre>
 </details>
 
@@ -100,11 +100,22 @@ Cependant, (1) cela vous aidera à comprendre l'idée principale, et (2) si vous
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instructions pour l'agent : Interroger cette documentation</h1>
+<p>Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.</p>
+<p>Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête <code>ask</code> :</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.</p>
+<p>Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.</p>
 </details>
 
-**I.3. Important ! Optimisez la vitesse du Mega Menu et l'expérience utilisateur (Mode de remplacement)**
+**I.3. Important ! Optimisez la vitesse du Mega Menu et l'expérience utilisateur (mode de remplacement)**
 
-Lorsque vous remplacez un menu par un autre, Navi+ attend que l'ancien menu soit affiché puis l'échange instantanément avec le nouveau. Bien que cela se produise presque immédiatement, il y a encore un bref moment où l'ancien menu apparaît, ce qui peut confondre les utilisateurs.
+Lorsque vous remplacez un menu par un autre, Navi+ attend que l'ancien menu soit affiché, puis le remplace instantanément par le nouveau. Bien que cela se produise presque immédiatement, il y a encore un bref moment où l'ancien menu apparaît, ce qui peut confondre les utilisateurs.
 
 Avec cette étape, vous pouvez complètement cacher l'ancien menu et montrer un effet de chargement à la place. Cela rend le site web plus rapide et améliore l'expérience utilisateur.
 
@@ -139,7 +150,7 @@ Avec cette étape, vous pouvez complètement cacher l'ancien menu et montrer un 
 
 Cette méthode insère le menu en ajoutant un Bloc/Section dans votre thème Shopify. C'est une approche traditionnelle, donc je ne vais pas la décrire en détail. Avec cette méthode, vous n'avez même pas besoin d'**« Activer Navi+ dans les intégrations d'applications »** comme requis à l'étape 1 de la méthode 1.
 
-Copiez l'ID d'intégration de ce menu, puis insérez-le dans le bloc nommé "Navi+ sur Section" dans les Sections de Thème. Vous pouvez ajouter un titre, configurer la largeur complète et ajuster la marge pour cette section après l'avoir ajoutée.
+Copiez l'ID d'intégration de ce menu, puis insérez-le dans le bloc nommé "Navi+ sur Section" dans les Sections de thème. Vous pouvez ajouter un titre, configurer la largeur complète et ajuster la marge pour cette section après l'avoir ajoutée.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
@@ -151,4 +162,15 @@ Copiez l'ID d'intégration de ce menu, puis insérez-le dans le bloc nommé "Nav
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instructions pour l'agent : Interroger cette documentation</h1>
+<p>Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.</p>
+<p>Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête <code>ask</code> :</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.</p>
+<p>Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.</p>
 </details>

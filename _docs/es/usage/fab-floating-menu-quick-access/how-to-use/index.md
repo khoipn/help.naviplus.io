@@ -26,12 +26,12 @@ Un **FAB (Floating Action Button)** es un menú simple que siempre flota en la p
 <p>Aún no. Necesitarás <strong>publicar</strong> el menú correcto para que aparezca en tu sitio web. ¡No te preocupes, es fácil!</p>
 </details>
 
-<details><summary><strong>3. ¿Qué pasa si elijo la plantilla incorrecta o cometo un error?</strong></summary>
+<details><summary><strong>3. ¿Qué pasa si elijo la plantilla equivocada o cometo un error?</strong></summary>
 <p>No hay problema en absoluto. Puedes eliminarlo y crear uno nuevo en cualquier momento. Si estás probando un menú y quieres intentar otra plantilla, puedes <strong>guardar</strong> la actual como un archivo de respaldo y volver a abrirlo más tarde. Incluso puedes <strong>copiar y pegar</strong> partes entre menús (abriendo dos pestañas del navegador) para mantener tu trabajo anterior. ¡Siéntete libre de experimentar!</p>
 </details>
 
 <details><summary><strong>4. ¿Debería crear solo un menú o múltiples?</strong></summary>
-<p>Deberías crear <strong>múltiples menús</strong>. Solo el menú <strong>activo</strong> se mostrará en tu sitio, pero puedes preparar muchas versiones — seleccionando diferentes plantillas o clonando menús. Los menús pueden configurarse para mostrar/ocultar según el tipo de página (inicio, producto, colección...), dispositivo (móvil o escritorio), o palabras clave de URL. ¡Así que adelante y construye menús que se adapten a cada situación!</p>
+<p>Deberías crear <strong>múltiples menús</strong>. Solo el menú <strong>activo</strong> se mostrará en tu sitio, pero puedes preparar muchas versiones — seleccionando diferentes plantillas o clonando menús. Los menús pueden configurarse para mostrar/ocultar según el tipo de página (inicio, producto, colección...), dispositivo (móvil o escritorio), o palabras clave de URL. ¡Así que adelante y construye menús que se ajusten a cada situación!</p>
 </details>
 
 ### Paso 1: Editar el árbol de menú
@@ -120,7 +120,7 @@ Paso 4: No olvides hacer clic en “Guardar” para aplicar los cambios.
 
 Después de estos 4 pasos, Navi+ ha sido instalado en tu sitio web y está listo para mostrarse. Sin embargo, el proceso aún no está completo. Regresa a la pestaña de la aplicación Navi+ para activar realmente **Publicar Menú**.
 
-#### 2.2. Selecciona configuraciones de visualización y publica el menú.
+#### 2.2. Seleccionar configuraciones de visualización y publicar el menú.
 
 Paso 1: Haz clic en el botón **Publicar en el sitio web**.
 
@@ -129,20 +129,3 @@ Paso 1: Haz clic en el botón **Publicar en el sitio web**.
 Paso 2: Elige configuraciones de visualización y luego PUBLICA EL MENÚ.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural. La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

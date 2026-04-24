@@ -93,21 +93,3 @@ Sí. Los menús se almacenan como JSON; puedes exportar el archivo, editarlo man
 ### ¿No ves tu pregunta aquí?
 
 Contáctanos a través de [WhatsApp](https://wa.me/84981911011 "WhatsApp") o envía un correo a <khoipng@naviplus.io>.
-
-
----
-
-# Instrucciones para el agente: Consultando esta documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

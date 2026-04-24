@@ -11,7 +11,7 @@ Không phải ai cũng là chuyên gia về công nghệ hoặc thiết kế UI/
 
 ### Cách làm việc?
 
-**Bước 1: Đăng ký Navi+ Care: $120.0 USD** cho khoản thanh toán một lần có hiệu lực trong ba tháng. Sau đó, liên hệ với chúng tôi qua email hoặc WhatsApp, và chúng tôi có thể bắt đầu ngay lập tức
+**Bước 1: Đăng ký Navi+ Care: $120.0 USD** cho khoản thanh toán một lần có hiệu lực trong ba tháng. Sau đó, hãy liên hệ với chúng tôi qua email hoặc WhatsApp, và chúng tôi có thể bắt đầu ngay lập tức
 
 **Bước 2: Thiết kế và thử nghiệm lặp đi lặp lại:** Chúng tôi sẽ thiết kế một số tùy chọn trên Figma, sao chép chủ đề của bạn, sau đó triển khai menu trực tiếp ở đây để đảm bảo chúng đáp ứng nhu cầu của bạn và làm bạn hài lòng.
 
@@ -21,7 +21,7 @@ Không phải ai cũng là chuyên gia về công nghệ hoặc thiết kế UI/
 
 ### Tại sao dịch vụ này lại phù hợp với bạn?
 
-Việc chọn menu phù hợp cho website của bạn có thể là một thách thức - một thanh dưới cho di động, một menu lưới cho trang chủ, một mega menu cho máy tính để bàn, một Nút Hành Động Nổi (FAB) để hỗ trợ, và một menu trượt cho điều hướng đầy đủ?
+Việc chọn menu phù hợp cho website của bạn có thể là một thách thức - một thanh dưới cùng cho di động, một menu lưới cho trang chủ, một mega menu cho máy tính để bàn, một Floating Action Button (FAB) để hỗ trợ, và một slide menu cho điều hướng đầy đủ?
 
 * Bạn có thể cần tùy chỉnh màu sắc, phông chữ và kiểu dáng của menu để phù hợp với thiết kế website của bạn nhưng cảm thấy không quen thuộc với các công cụ.
 * Bạn có thể cần phản hồi từ các chuyên gia UI/UX về việc thiết kế menu của bạn có hấp dẫn về mặt thị giác và tối ưu hay không.
@@ -38,20 +38,3 @@ Việc chọn menu phù hợp cho website của bạn có thể là một thách
 2\. Bạn có thể cần cấp cho chúng tôi quyền truy cập cơ bản vào website Shopify của bạn. Điều này cho phép chúng tôi tạo và sửa đổi menu Navi+, thêm mã CSS và JS, và tối ưu hóa hiệu suất và trải nghiệm người dùng.
 
 <br>
-
----
-
-# Hướng dẫn cho đại lý: Truy vấn tài liệu này
-
-Nếu bạn cần thông tin bổ sung không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/partership/navi+-care-or-design-your-menus-like-an-expert.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc ngữ cảnh bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.

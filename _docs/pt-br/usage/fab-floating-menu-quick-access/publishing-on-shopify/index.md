@@ -16,7 +16,7 @@ Passo 1: Clique em Loja Online, depois clique em Temas. Dicas: Clique com o bot�
 Passo 2: Selecione o tema onde você deseja publicar o menu.  Clique: **Personalizar**
 
 * Se seu site é novo e ainda não tem usuários, sinta-se à vontade para publicar o menu sem preocupações—você pode facilmente ativá-lo ou desativá-lo a qualquer momento sem afetar os visitantes.
-* Se seu site já tem tráfego regular, seja mais cauteloso. A melhor prática é criar um **Tema duplicado** e testar o Navi+ nessa versão primeiro.
+* Se seu site já tem tráfego regular, seja mais cuidadoso. A melhor prática é criar um **Tema duplicado** e testar o Navi+ nessa versão primeiro.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
@@ -37,21 +37,3 @@ Passo 1: Clique no botão **Publicar no site**.
 Passo 2: Escolha as configurações de exibição e depois PUBLIQUE O MENU.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instruções do Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -18,7 +18,7 @@ title: 在 Shopify 上发布
 步骤 2：选择您想要发布菜单的主题。  点击：**自定义**
 
 * 如果您的网站是新的且尚无用户，请随意发布菜单，无需担心——您可以随时轻松开启或关闭，而不会影响访客。
-* 如果您的网站已经有常规流量，请更加小心。最佳实践是创建一个**重复主题**，并先在该版本上测试 Navi+。
+* 如果您的网站已经有常规流量，请更加小心。最佳做法是创建一个**重复主题**，并首先在该版本上测试 Navi+。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
@@ -44,10 +44,10 @@ title: 在 Shopify 上发布
 
 在本指南中，我们将重点关注 2 种方式：在页眉下方插入此菜单或替换默认的 Mega Menu。您还可以通过查找和应用其他 CSS 选择器来创造性地使用此方法以触发菜单。
 
-<details><summary>如何在网站的页眉下插入此菜单<strong>?</strong></summary>
+<details><summary>如何在网站的页眉下方插入此菜单<strong>?</strong></summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fxnqh5jYfeS6e8oOaI0Hv%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=0fa38175-6024-401d-9f9e-6adf3b64ad7b" alt=""><figcaption></figcaption></figure>
 
-<p>要做到这一点，只需识别您网站页眉的 CSS 选择器并将其输入到文本框中。我们已经为您找到了一些最流行主题的 CSS 选择器，列在下面。</p>
+<p>要做到这一点，只需识别您网站页眉的 CSS 选择器并将其输入文本框中。我们已经为您找到了一些最流行主题的 CSS 选择器，列在下面。</p>
 <ol>
 <li>一些流行的免费主题的 CSS 选择器.. 来自 Shopify 的 Dawn、Sense、Savor、Horizon..</li>
 </ol>
@@ -84,17 +84,27 @@ title: 在 Shopify 上发布
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>代理说明：查询此文档</h1>
+<p>如果您需要此页面中未直接提供的其他信息，您可以通过提问动态查询文档。</p>
+<p>对当前页面 URL 执行 HTTP GET 请求，带上 <code>ask</code> 查询参数：</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>问题应具体、自包含，并用自然语言书写。<br />响应将包含对问题的直接回答以及文档中的相关摘录和来源。</p>
+<p>当当前页面中未明确存在答案时，您需要澄清或额外的上下文，或者您想检索相关文档部分时，请使用此机制。</p>
 </details>
 
 #### **II) 方法 2：将此菜单作为 Shopify 主题中的部分/区块添加**
 
-此方法通过在您的 Shopify 主题中添加一个区块/部分来插入菜单。这是一种传统方法，因此我不会详细描述。使用此方法，您甚至不需要像方法 1 的步骤 1 中要求的那样**“在应用嵌入中打开 Navi+”**。
+此方法通过在您的 Shopify 主题中添加区块/部分来插入菜单。这是一种传统方法，因此我不会详细描述。使用此方法，您甚至不需要在方法 1 的步骤 1 中所需的**“在应用嵌入中打开 Navi+”**。
 
 复制此菜单的嵌入 ID，然后插入到主题部分中名为 "Navi+ on Section" 的区块中。您可以在添加后添加标题，设置全宽，并调整此部分的边距。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
-<details><summary>在 Shopify 主题中将此菜单作为部分/区块添加的指南</summary>
+<details><summary>将此菜单作为 Shopify 主题中的部分/区块添加的指南</summary>
 <p>以下是将 Navi+ 菜单作为部分/区块插入到您的 Shopify 主题中的详细指南。此方法允许您以标准的、 Shopify 支持的方式添加菜单，尽管它不如 Navi+ 提供的其他方法灵活。</p>
 <p>此方法适用于<strong>Mega Menus</strong>和<strong>Grid Menus</strong>。它<strong>不适用于</strong><strong>Tabbar</strong>、<strong>FAB</strong>或<strong>Slide Menus</strong>。</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
@@ -102,4 +112,14 @@ title: 在 Shopify 上发布
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>代理说明：查询此文档</h1>
+<p>如果您需要此页面中未直接提供的其他信息，您可以通过提问动态查询文档。</p>
+<p>对当前页面 URL 执行 HTTP GET 请求，带上 <code>ask</code> 查询参数：</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>问题应具体、自包含，并用自然语言书写。<br />响应将包含对问题的直接回答以及文档中的相关摘录和来源。</p>
+<p>当当前页面中未明确存在答案时，您需要澄清或额外的上下文，或者您想检索相关文档部分时，请使用此机制。</p>
 </details>

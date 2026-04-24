@@ -26,7 +26,7 @@ Actualmente, no hay ninguna herramienta automática que pueda transferir menús 
 
 Primero, configura la estructura del menú de destino.
 
-Crea la estructura base con elementos de menú de Nivel 1 y Nivel 2 para que esté lista para recibir el contenido transferido.
+Crea la estructura base con elementos de menú de Nivel 1 y Nivel 2 para que esté listo para recibir el contenido transferido.
 
 #### Paso 2: Abre ambos menús uno al lado del otro
 
@@ -52,20 +52,3 @@ Cambia a la pestaña del menú de destino, navega a la ubicación correcta y peg
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLX3Be5eqfItKUMpXSCCj%2F1.3.webp?alt=media&#x26;token=74143e7e-efb7-485a-9eba-6a28d2ec9229" alt=""><figcaption></figcaption></figure>
 
 🔁 Repite los Pasos 3 y 4 hasta que toda la estructura del menú haya sido completamente transferida. Consejos: Mueve el menú en secciones (por nivel o por rama) para asegurarte de que no se pierda nada y la estructura se mantenga organizada.
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md?ask=<question>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

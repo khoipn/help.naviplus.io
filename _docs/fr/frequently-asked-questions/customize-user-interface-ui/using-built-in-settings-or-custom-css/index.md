@@ -3,13 +3,13 @@ description: Navi+ fournit plusieurs options de configuration courantes pour les
 lang: fr
 layout: default
 permalink: /fr/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/
-title: Utiliser les paramètres intégrés ou le CSS personnalisé ?
+title: Utiliser les paramètres intégrés ou CSS personnalisé ?
 ---
-# Utiliser les paramètres intégrés ou le CSS personnalisé ?
+# Utiliser les paramètres intégrés ou CSS personnalisé ?
 
 Navi+ fournit plusieurs options de configuration courantes pour les menus, dans l'**"Design"** onglet, telles que l'arrière-plan, la typographie (famille de police, taille..), et les icônes/images (taille, espacement, courbe...). En utilisant ces paramètres, votre menu peut généralement être stylisé pour correspondre au design global et à la marque de votre site web.
 
-Navi+ prend en charge jusqu'à 3 niveaux. Dans l'**"Design"** onglet, vous ne pouvez configurer le style que pour 2 niveaux, et il n'y a pas d'option directe pour définir la taille de la police ou la taille de l'icône/image pour les menus de niveau 2 et 3. Alors, comment pouvez-vous faire cela ?
+Navi+ prend en charge jusqu'à 3 niveaux de menus. Dans l'**"Design"** onglet, vous ne pouvez configurer le style que pour 2 niveaux, et il n'y a pas d'option directe pour définir la taille de la police ou la taille de l'icône/image pour les menus de niveau 2 et niveau 3. Alors, comment pouvez-vous faire cela ?
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FEeUzjyXb0DDSzsPobpqC%2FCSS%201.0.png?alt=media&#x26;token=ab2b0265-e0cd-4777-964d-285e4d947c64" alt=""><figcaption></figcaption></figure>
 
@@ -27,9 +27,9 @@ Cependant, si vous ou votre développeur de site web avez une compréhension de 
 
 **Remarque importante :** La **zone de texte Stylesheet interne / CSS** ajoute automatiquement un préfixe (par exemple, `#SF-123456789`) avant chaque règle CSS. Cela garantit que votre CSS ne s'applique qu'au menu spécifique en cours de personnalisation et empêche les conflits de style.
 
-#### Quelques études de cas typiques de l'utilisation du CSS
+#### Quelques études de cas typiques d'utilisation du CSS
 
-1) Pour configurer l'apparence de l'ensemble du menu au niveau le plus élevé, vous pouvez écrire un extrait qui n'est pas du CSS standard mais très simple. Par exemple, l'extrait ci-dessous change l'arrière-plan du menu en rouge. Ajoutez le code suivant à la zone de texte Stylesheet interne / CSS :
+1\) Pour configurer l'apparence de l'ensemble du menu au niveau le plus élevé, vous pouvez écrire un extrait qui n'est pas du CSS standard mais très simple. Par exemple, l'extrait ci-dessous change l'arrière-plan du menu en rouge. Ajoutez le code suivant à la zone de texte Stylesheet interne / CSS :
 
 ```
 {
@@ -37,7 +37,7 @@ Cependant, si vous ou votre développeur de site web avez une compréhension de 
 }
 ```
 
-2) Configurez la taille, la typographie et les couleurs pour chaque niveau d'élément de menu. Ajoutez le code suivant à la zone de texte Stylesheet interne / CSS :
+2\) Configurez la taille, la typographie et les couleurs pour chaque niveau d'élément de menu. Ajoutez le code suivant à la zone de texte Stylesheet interne / CSS :
 
 ```
 // Personnaliser le style de texte des éléments de menu de niveau 1
@@ -59,7 +59,7 @@ ul.children[menulevel="3"] > li.child > .inner .name{
 }
 ```
 
-3) Changez l'épaisseur de la police en utilisant `font-weight.` Ajoutez le code suivant à la zone de texte Stylesheet interne / CSS :
+3\) Changez l'épaisseur de la police en utilisant `font-weight.` Ajoutez le code suivant à la zone de texte Stylesheet interne / CSS :
 
 ```
 // Définir l'épaisseur de la police du nom
@@ -73,27 +73,10 @@ ul.children[menulevel="3"] > li.child > .inner .name{
 }
 ```
 
-4) Ajustez la taille de la flèche. Ajoutez le code suivant à la zone de texte Stylesheet interne / CSS :
+4\) Ajustez la taille de la flèche. Ajoutez le code suivant à la zone de texte Stylesheet interne / CSS :
 
 ```
 ul > li.is-parent-top::after {
   font-size: 24px !important;
 }
 ```
-
----
-
-# Instructions pour l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et écrite en langage naturel.
-La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

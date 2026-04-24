@@ -20,7 +20,7 @@ title: Z-index
 
 然后是Rivo Loyalty Rewards应用的开发者——一个流行的忠诚度工具——他们选择了z-index为99999999999，可能甚至没有计算他们输入了多少个9。他们唯一的目标是：确保浮动的“奖励”按钮始终位于顶部，无论如何，甚至在您的购物车面板之上。
 
-与此同时，Navi+的开发者谦虚地选择了一个较小的数字——仅5——因为我们不想过于激进或侵入。那么，您应该怎么做？
+与此同时，Navi+的开发者谦虚地选择了一个较小的数字——仅为5——因为我们不想过于激进或侵入。那么，您应该怎么做？
 {% comment %}endhint{% endcomment %}
 
 **步骤1：** 找到您的Navi+菜单的正确z-index
@@ -28,11 +28,11 @@ title: Z-index
 <details><summary><strong>方法1：询问Navi+支持（</strong>最简单)</summary>
 <p>这是最好的和最有效的方法。我们可以为您提供有关关键界面元素的z-index值的信息，例如菜单面板、购物车面板以及您正在使用的任何第三方应用程序，然后推荐最适合您情况的z-index设置。</p>
 <p>请随时使用屏幕右下角的聊天框与Navi+支持人员交谈。Navi+正在成长，我们非常重视您的反馈——您的问题帮助我们指导我们构建更好的产品。</p>
-<p>我们不是24/7在线——每天只有14小时，基于越南时区。然而，一旦我们看到您的消息，我们会立即回复。</p>
+<p>我们不是24/7在线——每天仅14小时，基于越南时区。然而，一旦我们看到您的消息，我们会立即回复。</p>
 </details>
 
 <details><summary><strong>方法2：使用浏览器的检查模式</strong>（详细，但需要一些技术知识）</summary>
-<p>到目前为止，除非您使用检查模式，否则没有更好的方法可以自己检查。此开发者工具在所有现代浏览器中都可用，如Chrome、Firefox、Safari或Edge。右键单击您网站上的任何地方并选择<strong>检查</strong>以打开检查模式。</p>
+<p>到目前为止，除非您使用检查模式，否则没有更好的方法可以自己检查。此开发者工具在所有现代浏览器中可用，如Chrome、Firefox、Safari或Edge。右键单击您网站上的任何地方并选择<strong>检查</strong>以打开检查模式。</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FswowawWsXN01MlvSqqjX%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=470cd65f-0ce8-416a-8749-b9a210f6f08f" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FOabxqNlZUroNKJQfTKsI%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=2b872306-63e3-4dcf-b89a-f16f162727b4" alt=""><figcaption></figcaption></figure>
@@ -68,21 +68,3 @@ title: Z-index
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F7np7UDMk5KFGnSvMr8HK%2Fz-index%201.2.png?alt=media&#x26;token=ae4aa403-fbd6-41c9-a16d-861e8cd032bc" alt=""><figcaption></figcaption></figure>
 </details>
-
-
----
-
-# 代理说明：查询此文档
-
-如果您需要此页面中未直接提供的其他信息，您可以通过提问动态查询文档。
-
-在当前页面URL上执行HTTP GET请求，带上`ask`查询参数：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/z-index.md?ask=<question>
-```
-
-问题应具体、自包含，并用自然语言书写。
-响应将包含对问题的直接回答以及文档中的相关摘录和来源。
-
-当答案未在当前页面中明确存在时，您需要澄清或获取额外上下文，或者您想检索相关文档部分时，请使用此机制。

@@ -11,7 +11,7 @@ title: 高级图像上传
 
 使用较小的图像尺寸可以帮助您的网站加载更快。搜索引擎如Google将页面速度视为一个重要的排名因素，因此优化过的图像可以改善您的SEO。
 
-更快的加载速度也使网站对访客来说更加流畅和愉快，尤其是在移动设备或较慢的连接上。这意味着用户更有可能停留在您的网站上并继续浏览您的产品。
+更快的加载速度也使网站对访客更加流畅和愉悦，尤其是在移动设备或较慢的连接上。这意味着用户更有可能停留在您的网站上并继续浏览您的产品。
 
 #### II. Navi+如何处理您的图像？
 
@@ -19,7 +19,7 @@ Navi+首先以原始大小上传您的图像。然后，它使用优化的算法
 
 **注意：** 对于像徽标或图标这样的小图像，Navi+不会压缩它们以保持清晰度。
 
-之后，Navi+将您的图像存储在BunnyCDN上——一个强大的内容分发网络（CDN），用于图像、JavaScript、CSS等。BunnyCDN通过其全球服务器网络提供极快的加载速度。这确保了您的网站可以处理数百万次访问而不会减慢或造成延迟。
+之后，Navi+将您的图像存储在BunnyCDN上——一个强大的内容交付网络（CDN），用于图像、JavaScript、CSS等。BunnyCDN通过其全球服务器网络提供极快的加载速度。这确保您的网站可以处理数百万次访问而不会减慢或造成延迟。
 
 #### III. 如果我想保持图像的原始质量，我该怎么办？
 
@@ -40,21 +40,3 @@ Navi+首先以原始大小上传您的图像。然后，它使用优化的算法
 使用**上传图像**工具将步骤2中获得的URL粘贴到Navi+中。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPy9nqxsNKCo4RMjo1cTP%2F1.4.png?alt=media&#x26;token=a0a4897c-5e1c-47d8-951c-52028b705e1e" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# 代理指令：查询此文档
-
-如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
-
-在当前页面URL上执行HTTP GET请求，使用`ask`查询参数：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md?ask=<question>
-```
-
-问题应具体、自包含，并用自然语言书写。
-响应将包含对问题的直接回答以及文档中的相关摘录和来源。
-
-当答案未在当前页面中明确存在时，您需要澄清或额外的上下文，或者您想检索相关文档部分时，请使用此机制。

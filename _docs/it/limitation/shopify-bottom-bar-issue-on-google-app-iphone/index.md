@@ -63,13 +63,13 @@ Anche se Navi+ è disabilitato, altre app Shopify che visualizzano barre inferio
 * Molte app Shopify che includono una barra inferiore o FAB sperimentano esattamente lo stesso problema.
 * Anche alcune funzionalità integrate di Shopify mostrano un comportamento simile all'interno dell'App Google.
 * Questo è un problema ben noto nella comunità degli sviluppatori, ma l'App Google non lo ha affrontato.
-* Il problema scompare non appena l'utente **tocca qualsiasi punto dello schermo** → L'App Google forza un nuovo rendering e ricalcola l'altezza corretta.
+* Il problema scompare non appena l'utente **tocca qualsiasi parte dello schermo** → l'App Google forza un nuovo rendering e ricalcola l'altezza corretta.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FIJeUOw7iYKzsFXSLVQK3%2FEx-1.1.2.png?alt=media&#x26;token=c2c351d9-10fd-47ed-bbef-1e436ab3ac4f" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### 5. La soluzione attuale di Navi+
+### 5. Soluzione attuale di Navi+
 
 Navi+ ha ricercato e testato più approcci, ma poiché il problema origina dall'App Google stessa, non può essere completamente risolto.
 
@@ -80,7 +80,7 @@ Tuttavia, Navi+ ha implementato la **migliore mitigazione possibile**:
 Di solito si verifica quando l'utente:
 
 * apre il sito web all'interno dell'App Google
-* e naviga o tocca qualsiasi punto della pagina
+* e naviga o tocca qualsiasi parte della pagina
 
 Quando ciò accade, Navi+ attiva un meccanismo di correzione una tantum. Non appena l'utente:
 
@@ -115,20 +115,3 @@ Questo messaggio è progettato per utenti non tecnici:
 ✔️ Un bug di visualizzazione nell'App Google su iPhone\
 ✔️ Navi+ minimizza il problema in modo che appaia solo una volta e poi scompaia\
 ✔️ Safari/Chrome sono completamente non influenzati
-
----
-
-# Istruzioni per l'agente: Consultazione di questa documentazione
-
-Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
-
-Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/limitation/shopify-bottom-bar-issue-on-google-app-iphone.md?ask=<question>
-```
-
-La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
-
-Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o ulteriori contesti, o desideri recuperare sezioni di documentazione correlate.

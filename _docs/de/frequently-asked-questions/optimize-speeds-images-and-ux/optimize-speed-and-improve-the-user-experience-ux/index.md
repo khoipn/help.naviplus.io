@@ -3,9 +3,9 @@ description: Navi+ ist sehr schnell. Es ist vollständig auf einem führenden CD
 lang: de
 layout: default
 permalink: /de/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/
-title: Geschwindigkeit optimieren und das Benutzererlebnis (UX) verbessern.
+title: Geschwindigkeit optimieren und die Benutzererfahrung (UX) verbessern.
 ---
-# Geschwindigkeit optimieren und das Benutzererlebnis (UX) verbessern.
+# Geschwindigkeit optimieren und die Benutzererfahrung (UX) verbessern.
 
 #### Warum müssen Sie das tun? Ist Navi+ nicht bereits schnell?
 
@@ -14,7 +14,7 @@ Navi+ ist sehr schnell. Es ist vollständig auf einem führenden CDN mit sehr ni
 Allerdings läuft Navi+ immer noch innerhalb des Shopify-Ökosystems. Shopify hat seine eigenen Lade-Regeln:
 
 1. Shopify priorisiert das Laden seiner eigenen Ressourcen zuerst.
-2. Dann lädt Shopify den Inhalt des Themas.
+2. Dann lädt Shopify den Theme-Inhalt.
 3. Schließlich lädt Shopify den App-Inhalt, jedoch nicht in einer bestimmten Reihenfolge.
 
 Das bedeutet, wenn Sie mehrere Apps verwenden, kann es sein, dass Navi+ manchmal später als erwartet geladen wird. Deshalb kann es in bestimmten Fällen langsamer erscheinen.
@@ -48,20 +48,3 @@ Hinweis:
 * Fügen Sie das Suffix **(M)** hinzu, wenn Sie möchten, dass es nur auf Mobilgeräten angewendet wird.
 * Fügen Sie das Suffix **(D)** hinzu, wenn Sie möchten, dass es nur auf Desktop angewendet wird.
 * Lassen Sie kein Suffix, wenn Sie möchten, dass es auf beiden Plattformen angewendet wird.
-
----
-
-# Agenten-Anweisungen: Abfragen dieser Dokumentation
-
-Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
-
-Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md?ask=<question>
-```
-
-Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
-
-Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

@@ -11,12 +11,12 @@ title: デバッグモード - CSSセレクターを見つける
 
 ### 1. CSSセレクターを見つける
 
-デバッグモードを有効にするには、次のURL形式を使用します：
+デバッグモードを有効にするには、次のURL形式を使用します：\
 `yourdomain.com#navidebug-on`
 
 あなたのウェブサイトはNavi+デバッグモードに切り替わります。ウェブサイトのさまざまな領域にマウスをホバーさせて、それに対応するCSSセレクターを表示します。カーソルを移動させて、目的のターゲットエリアを正確に特定してください。
 
-より効率的に作業するために、以下のキーボードショートカットに注意してください。
+効率的に作業するために、以下のキーボードショートカットに注意してください。
 
 **ショートカット 1.** CSSセレクターのコピー
 
@@ -30,18 +30,18 @@ title: デバッグモード - CSSセレクターを見つける
 **ショートカット 2.** セレクターレベル間のナビゲーション
 
 * 親レベルのセレクターに移動するには、
-[↑/←]またはBackspaceを押します。
+  	* [↑/←]を押すか、Backspaceを押します
 * 子レベルのセレクターに移動するには、
-[↓/→]を押します。
+  	* [↓/→]を押します
 
 **重要なヒント：** ほとんどの場合、完璧なCSSセレクターをすぐに見つけることはできません。経験に基づくと、次のようにする方が簡単です：
 
 1. 子レベルのセレクターを選択することから始める
 2. その後、1〜2の親レベルに移動する（ウェブサイトに視覚的なハイライトが表示されます）
 3. ⌘+C（Ctrl+C）を使用してセレクターをコピーする
-4. メニュー設定に貼り付けてテストする
+4. メニュー構成に貼り付けてテストする
 
-時には、目的のユーザーエクスペリエンスを達成するために、CSSセレクターにメニューイベントを挿入、置き換え、またはバインドする際に、このプロセスを何度も繰り返す必要があるかもしれません。
+時には、メニューイベントをCSSセレクターに挿入、置き換え、またはバインドする際に、望ましいユーザーエクスペリエンスを達成するためにこのプロセスを何度も繰り返す必要があるかもしれません。
 
 #### 1.1. デスクトップでCSSセレクターを見つける
 
@@ -53,34 +53,16 @@ title: デバッグモード - CSSセレクターを見つける
 
 #### 1.2. モバイルでCSSセレクターを見つける
 
-モバイルでCSSセレクターを見つけるには、ブラウザでモバイル（レスポンシブ）モードを有効にします。
-その後、ページの任意の場所を右クリックして、次を選択します：
+モバイルでCSSセレクターを見つけるには、ブラウザでモバイル（レスポンシブ）モードを有効にします。\
+次に、ページの任意の場所を右クリックし、次を選択します：
 
-* Chrome: 検査
+* Chrome: インスペクト
 * Safari: 要素を検査
-* Firefox: 検査
-* Edge: 検査 / 要素を検査
+* Firefox: インスペクト
+* Edge: インスペクト / 要素を検査
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FK7F58NVYCerBTqG9EWjB%2FFrame%20213.webp?alt=media&#x26;token=2f2c059a-1346-446d-a19f-e2998050791a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsNvXhBMniymbZ1tD9c4p%2FFrame%20214.webp?alt=media&#x26;token=257f082d-ff6b-4ce0-8eaa-6160a697a67e" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAZm1dPEZrfeqtpNXA8O%2FFrame%20215.webp?alt=media&#x26;token=2847a4ef-e298-4986-9367-36a6abf914d8" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# エージェントの指示：このドキュメントを照会する
-
-このページに直接利用できない追加情報が必要な場合は、質問をしてドキュメントを動的に照会できます。
-
-現在のページURLに対して、`ask`クエリパラメータを使用してHTTP GETリクエストを実行します：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md?ask=<question>
-```
-
-質問は具体的で、自己完結しており、自然言語で書かれている必要があります。
-回答には、質問への直接的な回答と、ドキュメントからの関連する抜粋と情報源が含まれます。
-
-現在のページに明示的に存在しない回答が必要な場合、明確化や追加のコンテキストが必要な場合、または関連するドキュメントセクションを取得したい場合に、このメカニズムを使用してください。

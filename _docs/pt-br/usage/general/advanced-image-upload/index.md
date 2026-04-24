@@ -26,8 +26,8 @@ Depois disso, o Navi+ armazena sua imagem no BunnyCDN — uma poderosa rede de e
 Em alguns casos especiais, você pode querer que o Navi+ não modifique a qualidade da sua imagem—caso contrário, a compressão pode reduzir a qualidade que você espera, por exemplo, algumas imagens de produtos importantes. Nesse caso, você precisa fazer o upload da imagem diretamente para o Shopify e fornecer o link ao Navi+ para manter a qualidade original.
 
 **Passo 1: Prepare sua imagem (processo manual)**\
-Prepare sua imagem como desejar e renomeie-a para otimização de SEO. (O Navi+ só renomeará imagens para SEO se forem carregadas através da ferramenta Navi+.)\
-Você também deve comprimir a imagem para um tamanho razoável—idealmente algumas centenas de KB. Você pode usar o Redutor de Imagens do Shopify aqui: <https://www.shopify.com/tools/image-resizer>.
+Prepare sua imagem como desejar e renomeie-a para otimização de SEO. (O Navi+ só renomeará imagens para SEO se forem enviadas através da ferramenta Navi+.)\
+Você também deve comprimir a imagem para um tamanho razoável—idealmente algumas centenas de KB. Você pode usar o Redutor de Imagem do Shopify aqui: <https://www.shopify.com/tools/image-resizer>.
 
 **Passo 2: Faça o upload para o Shopify**\
 Clique com o botão direito no menu **Content**, selecione **Open link in new Tab**, depois vá para **Files**. Arraste e solte a imagem preparada no Passo 1. Uma vez carregada, encontre seu arquivo na lista e clique no ícone de link para copiar sua URL. Esta URL será usada no Navi+ para fazer o upload da imagem.
@@ -40,21 +40,3 @@ Clique com o botão direito no menu **Content**, selecione **Open link in new Ta
 Cole a URL obtida no Passo 2 no Navi+ usando a ferramenta **Upload Image**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPy9nqxsNKCo4RMjo1cTP%2F1.4.png?alt=media&#x26;token=a0a4897c-5e1c-47d8-951c-52028b705e1e" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instruções para o Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -23,7 +23,7 @@ Bằng cách sử dụng Navi+, bạn đồng ý với Chính Sách Bảo Mật 
 Chính sách này áp dụng cho ba loại người dùng:
 
 1. **Chủ sở hữu website (Thương nhân)** – những người cài đặt hoặc quản lý Navi+ trên trang web của họ.
-2. **Khách truy cập website hoặc khách hàng** – những người tương tác với một trang web sử dụng Navi+.
+2. **Khách truy cập website hoặc khách hàng** – những người tương tác với một trang sử dụng Navi+.
 3. **Đối tác hoặc nhà phát triển** – những người tích hợp hoặc mở rộng Navi+ thông qua API hoặc ứng dụng kết nối.
 
 ***
@@ -107,7 +107,7 @@ Bằng cách sử dụng Navi+, bạn thừa nhận rằng chúng tôi không ch
 
 ***
 
-### 9. Chuyển giao dữ liệu quốc tế
+### 9. Chuyển dữ liệu quốc tế
 
 Dữ liệu của bạn có thể được xử lý trên các máy chủ đặt tại **Singapore, Hoa Kỳ, Canada, hoặc Châu Âu**, tùy thuộc vào vị trí trung tâm dữ liệu của AWS hoặc Cloudflare.\
 Bằng cách sử dụng Navi+, bạn đồng ý với việc chuyển giao và xử lý này theo các khuôn khổ quyền riêng tư được công nhận quốc tế.
@@ -116,7 +116,7 @@ Bằng cách sử dụng Navi+, bạn đồng ý với việc chuyển giao và 
 
 ### 10. Cập nhật chính sách
 
-Chúng tôi có thể cập nhật Chính Sách Bảo Mật này từ thời gian này sang thời gian khác để phản ánh những thay đổi trong pháp luật hoặc hoạt động của chúng tôi.\
+Chúng tôi có thể cập nhật Chính Sách Bảo Mật này từ thời gian này sang thời gian khác để phản ánh những thay đổi trong luật pháp hoặc hoạt động của chúng tôi.\
 Ngày cập nhật gần nhất sẽ luôn xuất hiện ở đầu trang này.\
 Đối với những thay đổi quan trọng, chúng tôi sẽ thông báo cho người dùng qua email hoặc trên trang web của chúng tôi.
 
@@ -124,24 +124,8 @@ Ngày cập nhật gần nhất sẽ luôn xuất hiện ở đầu trang này.\
 
 ### 11. Liên hệ
 
-Nếu bạn có bất kỳ câu hỏi, mối quan tâm, hoặc yêu cầu nào liên quan đến Chính Sách Bảo Mật này, vui lòng liên hệ:
-**Email:** <khoipn@naviplus.io>\
+Nếu bạn có bất kỳ câu hỏi, mối quan tâm, hoặc yêu cầu nào liên quan đến Chính Sách Bảo Mật này, vui lòng liên hệ: 
+
+**Email:** <khoipn@naviplus.io>
+
 **Website:** <https://naviplus.io>
-
-
----
-
-# Hướng Dẫn Đại Lý: Truy Vấn Tài Liệu Này
-
-Nếu bạn cần thông tin bổ sung không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa, và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc thông tin bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.

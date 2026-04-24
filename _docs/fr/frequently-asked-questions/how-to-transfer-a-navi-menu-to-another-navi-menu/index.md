@@ -52,20 +52,3 @@ Passez à l'onglet du menu de destination, naviguez vers l'emplacement correct e
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLX3Be5eqfItKUMpXSCCj%2F1.3.webp?alt=media&#x26;token=74143e7e-efb7-485a-9eba-6a28d2ec9229" alt=""><figcaption></figcaption></figure>
 
 🔁 Répétez les étapes 3 et 4 jusqu'à ce que l'ensemble de la structure du menu ait été entièrement transféré. Conseils : Déplacez le menu par sections (par niveau ou par branche) pour vous assurer que rien n'est oublié et que la structure reste organisée.
-
----
-
-# Instructions pour l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et rédigée en langage naturel.
-La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

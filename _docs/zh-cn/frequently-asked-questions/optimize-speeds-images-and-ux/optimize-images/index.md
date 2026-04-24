@@ -1,5 +1,5 @@
 ---
-description: 如何防止在使用Navi+工具上传时压缩我的图像？
+description: 如何防止我在使用Navi+工具上传时图像被压缩？
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/
@@ -7,11 +7,11 @@ title: 优化图像
 ---
 # 优化图像
 
-如何防止在使用Navi+工具上传时压缩我的图像？
+如何防止我在使用Navi+工具上传时图像被压缩？
 
 #### I. 为什么较小的图像尺寸对SEO和用户体验更好？
 
-使用较小的图像尺寸可以帮助您的网站更快加载。搜索引擎如Google将页面速度视为一个重要的排名因素，因此优化过的图像可以改善您的SEO。
+使用较小的图像尺寸可以帮助您的网站更快加载。搜索引擎如Google将页面速度视为一个重要的排名因素，因此优化后的图像可以改善您的SEO。
 
 更快的加载速度也使网站对访问者更加流畅和愉悦，尤其是在移动设备或较慢的连接上。这意味着用户更有可能停留在您的网站上并继续浏览您的产品。
 
@@ -42,21 +42,3 @@ Navi+首先以原始大小上传您的图像。然后，它使用优化算法压
 使用**上传图像**工具将步骤2中获得的URL粘贴到Navi+中。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPy9nqxsNKCo4RMjo1cTP%2F1.4.png?alt=media&#x26;token=a0a4897c-5e1c-47d8-951c-52028b705e1e" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# 代理指令：查询此文档
-
-如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
-
-在当前页面URL上执行HTTP GET请求，带上`ask`查询参数：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images.md?ask=<question>
-```
-
-问题应具体、自包含，并用自然语言书写。
-响应将包含对问题的直接回答以及文档中的相关摘录和来源。
-
-当答案未在当前页面中明确存在时，您需要澄清或额外的上下文，或者您想检索相关文档部分时，请使用此机制。

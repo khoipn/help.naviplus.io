@@ -18,7 +18,7 @@ Passo 1: Clique em Loja Online, depois clique em Temas. Dicas: Clique com o bot�
 Passo 2: Selecione o tema onde você deseja publicar o menu.  Clique: **Personalizar**
 
 * Se o seu site é novo e ainda não tem usuários, sinta-se à vontade para publicar o menu sem preocupações—você pode facilmente ativá-lo ou desativá-lo a qualquer momento sem afetar os visitantes.
-* Se o seu site já tem tráfego regular, seja mais cuidadoso. A melhor prática é criar um **Tema duplicado** e testar o Navi+ nessa versão primeiro.
+* Se o seu site já tem tráfego regular, seja mais cauteloso. A melhor prática é criar um **Tema duplicado** e testar o Navi+ nessa versão primeiro.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +42,7 @@ Passo 2: Ative o toggle "Publicar menu pelo método Inserir/Substituir".
 
 Passo 3: Selecione o Seletor CSS correto e método de substituir/inserir
 
-Neste guia, vamos nos concentrar em 1 maneira: inserir este menu antes do principal. Você também pode usar este método de forma criativa, encontrando e aplicando outros seletores CSS para acionar o menu.
+Neste guia, vamos nos concentrar em 1 maneira: inserindo este menu antes do principal. Você também pode usar este método de forma criativa, encontrando e aplicando outros seletores CSS para acionar o menu.
 
 <details><summary>Como inserir este menu antes do principal do site<strong>?</strong></summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FFdsoRiQZP0I26RofqljL%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=51fec431-31e7-4bce-8c22-50a84664ee65" alt=""><figcaption></figcaption></figure>
@@ -85,6 +85,17 @@ No entanto, (1) isso ajudará você a entender a ideia central, e (2) se você q
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instruções do Agente: Consultando Esta Documentação</h1>
+<p>Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.</p>
+<p>Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta <code>ask</code>:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.</p>
+<p>Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.</p>
 </details>
 
 #### **II) MÉTODO 2: ADICIONAR ESTE MENU COMO UMA SEÇÃO/BLOCO NO TEMA DO SHOPIFY**
@@ -97,10 +108,21 @@ Copie o ID de Embed deste menu, depois insira no bloco chamado "Navi+ na Seção
 
 <details><summary>Guia para adicionar este menu como uma seção/bloco no tema do Shopify</summary>
 <p>Abaixo está um guia detalhado sobre como inserir um menu Navi+ como uma seção/bloco no seu tema Shopify. Este método permite que você adicione o menu de uma maneira padrão, suportada pelo Shopify, embora não seja tão flexível quanto os outros métodos fornecidos pelo Navi+.</p>
-<p>Este método se aplica a <strong>Mega Menus</strong> e <strong>Grid Menus</strong>. Ele <strong>NÃO SE APLICA</strong> a <strong>Tabbar</strong>, <strong>FAB</strong>, ou <strong>Slide Menus</strong>.</p>
+<p>Este método se aplica a <strong>Mega Menus</strong> e <strong>Grid Menus</strong>. Ele <strong>NÃO SE APLICA</strong> a <strong>Tabbar</strong>, <strong>FAB</strong> ou <strong>Slide Menus</strong>.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instruções do Agente: Consultando Esta Documentação</h1>
+<p>Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.</p>
+<p>Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta <code>ask</code>:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.</p>
+<p>Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.</p>
 </details>

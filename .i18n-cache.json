@@ -1,133 +1,133 @@
 {
   "common-first-questions/index.md::vi": {
-    "src_hash": "aecd07a3346d3c0642f524d8c1c0cb4dc730e05eed8d6dbeb887e8851b1c5032",
+    "src_hash": "39e4c105ae6f6e8d2913cbafd6aff4b835e215211a60ec08363046730e41d7a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777019948
+    "updated_at": 1777029004
   },
   "demo/1click-live-demo/index.md::vi": {
-    "src_hash": "353f39dfeb81cd8f82e7b80442c9334940764e34eefd90b7240391aa5e2739fd",
+    "src_hash": "eddba7546f3c9e07039ae01565dffea6aa2d72f044dda2412fc42b5e80a016eb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020124
+    "updated_at": 1777029137
   },
   "demo/index.md::vi": {
-    "src_hash": "1ec8133774f9c4496adf36f033550d13215d4f01d9a65b65225e7adb9dd79d5c",
+    "src_hash": "00c512cf58b9f6fcc3cd17a470463d926404778f4fd6934eeadabef025954b4a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020199
+    "updated_at": 1777029182
   },
   "development/add-walk-through-to-navi/index.md::vi": {
-    "src_hash": "e78d5c9371b070915fd4151283e7c5a69f0f73ec16b99dcbd067bb237ba1aa91",
+    "src_hash": "779cf9adb3b522a14a19e1209243eab112930521b4130e8fbb27ea9770b230fe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020244
+    "updated_at": 1777029202
   },
   "development/how-to-write-a-correct-css-code-in-navi/index.md::vi": {
-    "src_hash": "c7e5288a13b5979320b29a02934717da8388bbe20e66fcd593c1ba017251cca8",
+    "src_hash": "7776f4abab3d911d3d5e67b98dcc99e0b4be19e18184774bb702fec6a9cce651",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020324
+    "updated_at": 1777029255
   },
   "development/index.md::vi": {
-    "src_hash": "dd72625b1271176b6440a096cc2e8c163c556766b2373566b9f7b986b239e8ad",
+    "src_hash": "bf1891a89b4157ac035d179288eb52121342848e89db022fea4885c4fcc2c33e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020411
+    "updated_at": 1777029312
   },
   "frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/index.md::vi": {
-    "src_hash": "2830bfee4d59c82e8f0198d685b43dc4638ef86b936713dc42b4351bd8d1e035",
+    "src_hash": "e27c2e8d0b0cf3399d009bebd1cda245ca0be32260c653758fcdbfc10c283b4b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020474
+    "updated_at": 1777029343
   },
   "frequently-asked-questions/customize-user-interface-ui/index.md::vi": {
-    "src_hash": "3654602ac7e63f19bf369a4950d3b65522db1a5a955865952849c15d0ff1eafd",
+    "src_hash": "1ddf758f02fe1a3acce854fe0830931b853ad8818f9ab70d5cef3585e152425c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020546
+    "updated_at": 1777029383
   },
   "frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/index.md::vi": {
-    "src_hash": "f95d9d7e1df33616a7b88d61eaeb121158d2e50c7bc97fddf4319ceab0ed8dc9",
+    "src_hash": "8116f34f809b841e21f8f9786d43ac5355e71b6d9a9cfd58bb37d1e06bfd4662",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020611
+    "updated_at": 1777029424
   },
   "frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/index.md::vi": {
-    "src_hash": "c2d6ffc3aedf942b8f96f03c341e2d0b86b41ba383f6ab60e2b3d02deb078901",
+    "src_hash": "6afdcc2d53f47f21f58d4cf2d060cc6efc3e18420ea477e9e832ebbeb163c587",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020718
+    "updated_at": 1777029494
   },
   "frequently-asked-questions/how-does-navi-support-seo/index.md::vi": {
-    "src_hash": "23b08206e7c2e33df8cfe1a49180faf874b173879addae529bcc4959e8371332",
+    "src_hash": "d4b77cf159fd391af6b3667ff1c5dfebc5bfd073867e1c4ced60faeaf9f9c871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020886
+    "updated_at": 1777029615
   },
   "frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/index.md::vi": {
-    "src_hash": "c865e01d52e72e2dd5a1ae7292bd93ad9065684675a45a82d0d529f5aa50ba32",
+    "src_hash": "432ecb9af408171314e0292d5f84b60b7f5677d7da147e82ccbfa133b7922b20",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020984
+    "updated_at": 1777029690
   },
   "frequently-asked-questions/index.md::vi": {
-    "src_hash": "5d18c50226ef7a2854aad166f6243180e9d61152f2a3b6435e914e9740a479b5",
+    "src_hash": "ededad26fd7e6855a47e29130e95cfd21c49d86c26a5505590b2b7242e815a75",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021100
+    "updated_at": 1777029796
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::vi": {
-    "src_hash": "290d155e10cc55436242536d6e3b5e74822c56da07b755a0a010518135ac72ca",
+    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021218
+    "updated_at": 1777029892
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::vi": {
-    "src_hash": "5baac8a0a2a7c713147af597e4a7e597eb37842e3d44db429a08ad8d46204cdb",
+    "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021329
+    "updated_at": 1777029969
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/index.md::vi": {
-    "src_hash": "ba35980e495c1a53a73c72feb61d71bd9d36135097a2db926298664726499cd1",
+    "src_hash": "228718c5b81b80b772fcbb4a20c9b1cff7c092063451e39aafd1a54afac18c1d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021401
+    "updated_at": 1777030007
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/index.md::vi": {
-    "src_hash": "9d6b9c02d2cc149f33258f1533372797f706a7fcc358e2c8ac20a36f1a45aaad",
+    "src_hash": "50fd774cc2e9c90f6da2c6aef6ba98a7678d8ace904e278250337b773e6a0d83",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021538
+    "updated_at": 1777030092
   },
   "frequently-asked-questions/why-arent-menu-search-cart-panels-working/index.md::vi": {
-    "src_hash": "e8eb87838297abf9f6721470d00266002c8d9b2cdf30829a97318cc8367dd78e",
+    "src_hash": "beebbf8d2e7f083465ecbb5999e6c2df8b1d836da2127127a83a83dd6b541b85",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021648
+    "updated_at": 1777030163
   },
   "frequently-asked-questions/why-navi-not-display/index.md::vi": {
-    "src_hash": "75c74fb9cb1ac014b1f8a711dd8c98ae27ee877d45ef6f0ee49e410a414fb247",
+    "src_hash": "61bb9cc00213dee9d66c2c736226235351d016b6f2353ec6bde6adb3394398be",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021780
+    "updated_at": 1777030254
   },
   "getting-started/index.md::vi": {
-    "src_hash": "6d02f38148ab399543522d4fa9a9847f8161ba75b64f431c87216c9291186c95",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021886
+    "updated_at": 1777030323
   },
   "how-to-install-navi/index.md::vi": {
-    "src_hash": "d79ae58b4c85dda72f61b92a13250c932f0cbf58f106db87222c17ca77e46aae",
+    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022015
+    "updated_at": 1777030414
   },
   "integrations/chat-tools/index.md::vi": {
-    "src_hash": "7757c52f888d3ca6b527f335c3bbade998985ba3b5582e083c5c1a65189d05c9",
+    "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022114
+    "updated_at": 1777030476
   },
   "integrations/chat-tools/shopify-inbox/index.md::vi": {
-    "src_hash": "69239e73fda7ea39a61285705ab2b3e7cd19e4afbd8a789f64478c99412a2b83",
+    "src_hash": "0ac24f827975354c539a94819e9784bf9362dfd099c49392651f1e593e3cd6e5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022167
+    "updated_at": 1777030493
   },
   "integrations/chat-tools/tidi-chat/index.md::vi": {
-    "src_hash": "d02c8c9543c196bd121a340a8fe736c9c918bf061d7acaf27c2399c163040f54",
+    "src_hash": "ec42788778028b63504a3d7c382b1e5816ea6cf5c2a9b8cdaf79ce8434d83cb6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022210
+    "updated_at": 1777030510
   },
   "integrations/index.md::vi": {
-    "src_hash": "67a18e9c9094cada055e4ac1af9b7c157e46ddd31de9789684e800c64e2a5e61",
+    "src_hash": "9106d759e63a3cc1b7670bb185caf1241eb2b797e5a21218ab1ff0d62335806b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022289
+    "updated_at": 1777030550
   },
   "integrations/integrating-navi-with-your-website-and-external-apps/index.md::vi": {
-    "src_hash": "008b65069b15c2a98169be215014068206d4e23fe0947cce77ed2b7b456e7c3b",
+    "src_hash": "24911235bdaad5a062505417967e98684f3c6abaa55d0bf9a2f35b6c0b5e55cb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022377
+    "updated_at": 1777030609
   },
   "integrations/the-html-and-css-structure-of-all-navi-menus/index.md::vi": {
     "src_hash": "2798ef9fec1bb1e945cb1af108cd5e422088e88ae2601354ea4a7763f5c0f0ad",
@@ -135,154 +135,154 @@
     "updated_at": 1773487767
   },
   "integrations/themes/index.md::vi": {
-    "src_hash": "fd43d9e6192f35fbeae85663addddcc62e72f0416cfbb95dc2c86ed6511465c8",
+    "src_hash": "74dd647bd3b620843e7a9e0ce712b7e53420c73e521eb79ca5656feed9454087",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022540
+    "updated_at": 1777030779
   },
   "integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/index.md::vi": {
-    "src_hash": "f962b4ed7d86b43a4c027fcac64711b920747bc513568647b0e96d1dbc781aec",
+    "src_hash": "0eb9ac73d1e6a3fd1f9da02dc14b3c0bf743011fff3a19b23e26a0dfdfed22f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022584
+    "updated_at": 1777030799
   },
   "latest-update/index.md::vi": {
-    "src_hash": "43c7ef89e140d059fcf7026b8912006e6f506f2aa825291a875cae943c2c9a5e",
+    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022647
+    "updated_at": 1777030834
   },
   "limitation/index.md::vi": {
-    "src_hash": "da2e0123a15f0514e5e68329dcf4fd0dba49b01b1dfd18b54c2e5c6ed5eddc4a",
+    "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022705
+    "updated_at": 1777030869
   },
   "limitation/shopify-bottom-bar-issue-on-google-app-iphone/index.md::vi": {
-    "src_hash": "c793a938105ab12d907a6f02883167320cae94aa0c9d429a411683d9f561c6bd",
+    "src_hash": "cc6a484e98d23c5ceb813188eb2212c75dcdea2392ffa38ec876f680cf2d88dc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022756
+    "updated_at": 1777030909
   },
   "line/index.md::vi": {
-    "src_hash": "a740f338a926a3be8330f727b2824cacfa44e2b20a2bd45882ca235110806e77",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022893
+    "updated_at": 1777031049
   },
   "line-1/index.md::vi": {
-    "src_hash": "689035be9d5de2e65669d9fda0b3bd389600a6be288ace7fcad33888b98ba709",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022919
+    "updated_at": 1777031058
   },
   "line-2/index.md::vi": {
-    "src_hash": "884e7122557681863acca7493037269710a91df49035ce682cf1c8d62fc614c8",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022946
+    "updated_at": 1777031068
   },
   "line-3/index.md::vi": {
-    "src_hash": "6017028f2a599a623a1c2f86bc370069c8d296804425bb610f1a6a519da20f0c",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022974
+    "updated_at": 1777031080
   },
   "manual/website/helpnaviplusio/index.md::vi": {
-    "src_hash": "b8f1ee51446b8e6110e1ff8f8c398f41a555524999003783a5c8eee656ac49e9",
+    "src_hash": "3b6067111f880a72d5d59018f6a6ba21b518e9b0231f5dc9361c2192ce4b47bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023069
+    "updated_at": 1777031159
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::vi": {
-    "src_hash": "a3d79eebad4b8abc5128a8713dcf8dfe024fb7907028a5f62fb3a0472572383b",
+    "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023498
+    "updated_at": 1777031651
   },
   "partership/index.md::vi": {
-    "src_hash": "493f7cba735d78a884c054b4ae64da6397fe13a1a5f43f50ed820dd63d389620",
+    "src_hash": "eb05d0eaa4dca887fb981f5af5eff7b83aadad8304e3498bd26fde57672af47e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023570
+    "updated_at": 1777031718
   },
   "partership/navi-care-or-design-your-menus-like-an-expert/index.md::vi": {
-    "src_hash": "f4cfee3f23d86ecda385838034fc9e4ba0fed6d9e0f9049d3f9abbf722bc2cf0",
+    "src_hash": "9a79f19fecf1fc896fd0249fc5af98885c9cac678d53857ac2ee427e753c1663",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023622
+    "updated_at": 1777031756
   },
   "resources/index.md::vi": {
-    "src_hash": "2058c212c10040ed3d56edc3d48c21d853ba4836227c66b40f31225b45791371",
+    "src_hash": "dd3ff5a6cd81828526bee697f9d712012c1052b01082e18a6d527050c9162687",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023718
+    "updated_at": 1777031829
   },
   "resources/privacy-policy/index.md::vi": {
-    "src_hash": "7772a261ea6c696dd999bd1b914c3f863978e64a313a299f242c8abccb133bfe",
+    "src_hash": "6ddd70d1caa987435dc7586a95f3e233b3a10ebf78f703012f5176e85bccf592",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023774
+    "updated_at": 1777031869
   },
   "resources/terms-and-condition/index.md::vi": {
-    "src_hash": "0aa48d69ea6d79a6784c00c7608a0fc6ab094b0e29acfb0c1fef87a2420922bc",
+    "src_hash": "c1f693d86d4abc795ff2e57259b1d5f9be2dbd6e7162664c515403dc5f8009f5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023950
+    "updated_at": 1777032043
   },
   "troubleshooting/index.md::vi": {
-    "src_hash": "cda20a6cad1bbe265652a776be415f7ac1abc9161e334c262b59cfc86d99ba90",
+    "src_hash": "fe957bc6ce2d4a5547d2adcba17db426806e3549f699ccfa4a0bf395631925d4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024132
+    "updated_at": 1777032241
   },
   "usage/debug-mode-find-css-selectors/index.md::vi": {
-    "src_hash": "6f310d52f5bb2b171d35f5f491b3a6ca0266a36a42ca614db4009f6861144a6a",
+    "src_hash": "c2204cf99484cd946620fa69c7cc5064d86c6b1334feaa6e2250d077b9567c46",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024201
+    "updated_at": 1777032304
   },
   "usage/explore-common-menus/index.md::vi": {
-    "src_hash": "1ccb50d02df6e6c1c18ae32c16a2a34c9e89651cff7dc9baa78051889e4f7617",
+    "src_hash": "ae66f144a1c5915b6ec88c35d43be073fb792553db1593cfd5da2584f06e2132",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024342
+    "updated_at": 1777032453
   },
   "usage/fab-floating-menu-quick-access/how-to-use/index.md::vi": {
-    "src_hash": "c2d506eda3174ef8ef22ba568f67e4f257ed6b8ea2d89bbcad510345cdbddfe4",
+    "src_hash": "723db7fb1f55caa35a1cb0e53cf7264dd78d1a498348f3d42b23355a0ffb305c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024642
+    "updated_at": 1777032744
   },
   "usage/fab-floating-menu-quick-access/index.md::vi": {
-    "src_hash": "1774229f4fd21470e3dc9aa7d107bc2ff48c42e513fb27619d28d0ba27e40345",
+    "src_hash": "84aee5e5ab90135e77f6c43b00ccf03a27c8aa8059ce1c6dbfe9fe2369fccd61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024942
+    "updated_at": 1777032971
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
-    "src_hash": "e21ec3cae634148d88d134eb5a872affb2a7eec98c70d1550c7cadc2fea2633d",
+    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025035
+    "updated_at": 1777033024
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::vi": {
-    "src_hash": "ce7045e8b4e6fbab0f59cb85da7c5648db01c5091987fbdbbe5e43585988703d",
+    "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025290
+    "updated_at": 1777033206
   },
   "usage/general/advanced-image-upload/index.md::vi": {
-    "src_hash": "5c89c05fda4fa80d9d621016247de27aebe99bfb693e9ecaf49814d64426d8a1",
+    "src_hash": "eed594b4e223238a13649b60afef89400aec86c1157091224aa94c7129a56c9f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025399
+    "updated_at": 1777033282
   },
   "usage/general/apply-a-custom-font/index.md::vi": {
-    "src_hash": "715ac2591ba62ffecf70ce9de905f9d5ff460566ad179cb9b2bab3959b6a0fa4",
+    "src_hash": "69c7b632e470aaaae353382cf2916d487cb4a62b5837e59fa16d5fd7db9ec17a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025531
+    "updated_at": 1777033368
   },
   "usage/general/apply-multi-language/index.md::vi": {
-    "src_hash": "29b36165b9f12e9e6a888dc6e83df2baa67e98f18e39cfc2c0d0fda9c29fe8a4",
+    "src_hash": "c65f67714461230dd7576e9063a57fa831d2971368f40f73db6e3101b371b825",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025618
+    "updated_at": 1777033415
   },
   "usage/general/find-css-selector/index.md::vi": {
-    "src_hash": "7aea35d1c6e35b5542be3ab71ce7f00be80d3c54571dfb643b05c95fcaab6d96",
+    "src_hash": "5786cf5502db6ad0c546f48b5b3e6d443a12bd39300a35284cc6622c4f341055",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025720
+    "updated_at": 1777033477
   },
   "usage/general/index.md::vi": {
-    "src_hash": "965d92db1bcf98d14c391c4a73822f9271ddff910d50ba261e24c79cb994499d",
+    "src_hash": "0c991d405ef7156d2a5397f0ce568e89cc3184fa622df17c7ad7335dc888f346",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025820
+    "updated_at": 1777033532
   },
   "usage/general/menu-depth/index.md::vi": {
-    "src_hash": "7067b40de122820b6bed65ee5b950b80a422309c7fc15dc548933034ffd8a387",
+    "src_hash": "ea10c44df679cf4da8ce332ac4cc17046c0de14524c9fa17e70dcaea34263548",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025896
+    "updated_at": 1777033580
   },
   "usage/general/z-index/index.md::vi": {
-    "src_hash": "4c872e114665e0c60bff8d0d3c0489797bf501e5783544cdce6ddf315733d530",
+    "src_hash": "274ae517ec0a794d5e181e30d05f9257f919158a069a3ee3e78a664a11cd9545",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026236
+    "updated_at": 1777033794
   },
   "usage/grid-menu/how-to-use/index.md::vi": {
     "src_hash": "674f06e71d5aef61ad46b420d03dcca333b8a32bfe98bebddc9860470a1a0237",
@@ -290,9 +290,9 @@
     "updated_at": 1776785917
   },
   "usage/grid-menu/index.md::vi": {
-    "src_hash": "c440ded608dc3eb801c269abe6c252e863cc5e6194de19ce154e4f71159445ea",
+    "src_hash": "903e46a24be2b5ba8082aaf16ed4040c443afad46fbcea951c1ad76ac5f7626d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773492537
+    "updated_at": 1777033956
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
     "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
@@ -300,9 +300,9 @@
     "updated_at": 1774256170
   },
   "usage/grid-menu/publishing-on-shopify/index.md::vi": {
-    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
+    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786228
+    "updated_at": 1777034018
   },
   "usage/grid-menu/responsive-grid-menu/index.md::vi": {
     "src_hash": "56233c94e9d91de2aad93916735a15808303c94885b229ddf52f8a808c4a4dc2",
@@ -310,9 +310,9 @@
     "updated_at": 1773493514
   },
   "usage/index.md::vi": {
-    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
+    "src_hash": "df78bc15db0e38daa46819cc2a4f60abaca0bc9a2aa3c66832f0583d3a739669",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776679274
+    "updated_at": 1777034269
   },
   "usage/mega-menu-desktop/faq/index.md::vi": {
     "src_hash": "cf2d6b1867eaae6ccc5f89089509d23d510f96daa96e60409ede199a1db12a16",
@@ -325,9 +325,9 @@
     "updated_at": 1776786442
   },
   "usage/mega-menu-desktop/index.md::vi": {
-    "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
+    "src_hash": "2655041ab7e591ad1a9a29b14aa448cd03a6249a4fc5b8633cd767d7f2eb8e57",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494596
+    "updated_at": 1777034531
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
     "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
@@ -335,9 +335,9 @@
     "updated_at": 1774256558
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::vi": {
-    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
+    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786756
+    "updated_at": 1777034610
   },
   "usage/mega-menu-mobile/how-to-use/index.md::vi": {
     "src_hash": "9b3060c05abc66ce0d098f0e51690c2c4ee544090503ce24a5a11bddcf185cdc",
@@ -345,9 +345,9 @@
     "updated_at": 1773555489
   },
   "usage/mega-menu-mobile/index.md::vi": {
-    "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
+    "src_hash": "d3e63367a273597d4a00f425ac368eb4c3ae0ba42d05203cc5d9bd5e00b1acc9",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773496059
+    "updated_at": 1777034919
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
     "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
@@ -355,9 +355,9 @@
     "updated_at": 1774256951
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::vi": {
-    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
+    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787054
+    "updated_at": 1777034985
   },
   "usage/shopify/how-to-other-applications-work-with-naviplus/index.md::vi": {
     "src_hash": "0b090b9b79f23d05e4d10670938944a5c5d5325e0be804151b9a796707ecc894",
@@ -365,9 +365,9 @@
     "updated_at": 1776787259
   },
   "usage/shopify/index.md::vi": {
-    "src_hash": "988521fc49e725f6e27e03756efc5f58fc53d33712cb9bc55c57a8c8cf11dc0a",
+    "src_hash": "81932d0fca5f90cf73ce3acfbcae4c83d2a6564e5869863b723484af3d1cdf2a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497439
+    "updated_at": 1777035198
   },
   "usage/shopify/optimize-loading-speed-slide-and-mega-menus/index.md::vi": {
     "src_hash": "61c291c30f53bd2ce96a5addd2d5470193aac5757a73fcdae9c1eea0a17e367c",
@@ -385,9 +385,9 @@
     "updated_at": 1776787453
   },
   "usage/slide-menu-hamburger-menu/index.md::vi": {
-    "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
+    "src_hash": "ecc6f20a6772722549e6023d081e969d9df7c7b6ff3c2ebb56c030f6eed68931",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773498185
+    "updated_at": 1777035231
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
     "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
@@ -400,9 +400,9 @@
     "updated_at": 1773498456
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::vi": {
-    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
+    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787716
+    "updated_at": 1777035302
   },
   "usage/some-faqs-about-publishing-navi-menu/index.md::vi": {
     "src_hash": "c1ad5a58e089c8e7df00f87e2d92eb685539ef1a7b7d67bb4dca4f8b9734f2d2",
@@ -415,9 +415,9 @@
     "updated_at": 1773499285
   },
   "usage/tabbar-bottom-navigation/index.md::vi": {
-    "src_hash": "9e23e5670998202191846969d5c339492c93d24300a0cf308f2fbf66d2dd4493",
+    "src_hash": "76c23bf8f3eb12d859e16f474e48b923aeed64baa728266c17c07521426889a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773499577
+    "updated_at": 1777035590
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::vi": {
     "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
@@ -435,914 +435,914 @@
     "updated_at": 1776850145
   },
   "common-first-questions/index.md::fr": {
-    "src_hash": "aecd07a3346d3c0642f524d8c1c0cb4dc730e05eed8d6dbeb887e8851b1c5032",
+    "src_hash": "39e4c105ae6f6e8d2913cbafd6aff4b835e215211a60ec08363046730e41d7a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777019970
+    "updated_at": 1777029023
   },
   "common-first-questions/index.md::de": {
-    "src_hash": "aecd07a3346d3c0642f524d8c1c0cb4dc730e05eed8d6dbeb887e8851b1c5032",
+    "src_hash": "39e4c105ae6f6e8d2913cbafd6aff4b835e215211a60ec08363046730e41d7a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777019998
+    "updated_at": 1777029040
   },
   "common-first-questions/index.md::zh-cn": {
-    "src_hash": "aecd07a3346d3c0642f524d8c1c0cb4dc730e05eed8d6dbeb887e8851b1c5032",
+    "src_hash": "39e4c105ae6f6e8d2913cbafd6aff4b835e215211a60ec08363046730e41d7a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020017
+    "updated_at": 1777029057
   },
   "common-first-questions/index.md::jp": {
-    "src_hash": "aecd07a3346d3c0642f524d8c1c0cb4dc730e05eed8d6dbeb887e8851b1c5032",
+    "src_hash": "39e4c105ae6f6e8d2913cbafd6aff4b835e215211a60ec08363046730e41d7a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020045
+    "updated_at": 1777029076
   },
   "common-first-questions/index.md::it": {
-    "src_hash": "aecd07a3346d3c0642f524d8c1c0cb4dc730e05eed8d6dbeb887e8851b1c5032",
+    "src_hash": "39e4c105ae6f6e8d2913cbafd6aff4b835e215211a60ec08363046730e41d7a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020064
+    "updated_at": 1777029091
   },
   "common-first-questions/index.md::pt-br": {
-    "src_hash": "aecd07a3346d3c0642f524d8c1c0cb4dc730e05eed8d6dbeb887e8851b1c5032",
+    "src_hash": "39e4c105ae6f6e8d2913cbafd6aff4b835e215211a60ec08363046730e41d7a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020089
+    "updated_at": 1777029110
   },
   "common-first-questions/index.md::es": {
-    "src_hash": "aecd07a3346d3c0642f524d8c1c0cb4dc730e05eed8d6dbeb887e8851b1c5032",
+    "src_hash": "39e4c105ae6f6e8d2913cbafd6aff4b835e215211a60ec08363046730e41d7a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020114
+    "updated_at": 1777029131
   },
   "demo/1click-live-demo/index.md::fr": {
-    "src_hash": "353f39dfeb81cd8f82e7b80442c9334940764e34eefd90b7240391aa5e2739fd",
+    "src_hash": "eddba7546f3c9e07039ae01565dffea6aa2d72f044dda2412fc42b5e80a016eb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020134
+    "updated_at": 1777029144
   },
   "demo/1click-live-demo/index.md::de": {
-    "src_hash": "353f39dfeb81cd8f82e7b80442c9334940764e34eefd90b7240391aa5e2739fd",
+    "src_hash": "eddba7546f3c9e07039ae01565dffea6aa2d72f044dda2412fc42b5e80a016eb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020146
+    "updated_at": 1777029150
   },
   "demo/1click-live-demo/index.md::zh-cn": {
-    "src_hash": "353f39dfeb81cd8f82e7b80442c9334940764e34eefd90b7240391aa5e2739fd",
+    "src_hash": "eddba7546f3c9e07039ae01565dffea6aa2d72f044dda2412fc42b5e80a016eb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020157
+    "updated_at": 1777029157
   },
   "demo/1click-live-demo/index.md::jp": {
-    "src_hash": "353f39dfeb81cd8f82e7b80442c9334940764e34eefd90b7240391aa5e2739fd",
+    "src_hash": "eddba7546f3c9e07039ae01565dffea6aa2d72f044dda2412fc42b5e80a016eb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020168
+    "updated_at": 1777029164
   },
   "demo/1click-live-demo/index.md::it": {
-    "src_hash": "353f39dfeb81cd8f82e7b80442c9334940764e34eefd90b7240391aa5e2739fd",
+    "src_hash": "eddba7546f3c9e07039ae01565dffea6aa2d72f044dda2412fc42b5e80a016eb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020177
+    "updated_at": 1777029168
   },
   "demo/1click-live-demo/index.md::pt-br": {
-    "src_hash": "353f39dfeb81cd8f82e7b80442c9334940764e34eefd90b7240391aa5e2739fd",
+    "src_hash": "eddba7546f3c9e07039ae01565dffea6aa2d72f044dda2412fc42b5e80a016eb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020185
+    "updated_at": 1777029174
   },
   "demo/1click-live-demo/index.md::es": {
-    "src_hash": "353f39dfeb81cd8f82e7b80442c9334940764e34eefd90b7240391aa5e2739fd",
+    "src_hash": "eddba7546f3c9e07039ae01565dffea6aa2d72f044dda2412fc42b5e80a016eb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020194
+    "updated_at": 1777029179
   },
   "demo/index.md::fr": {
-    "src_hash": "1ec8133774f9c4496adf36f033550d13215d4f01d9a65b65225e7adb9dd79d5c",
+    "src_hash": "00c512cf58b9f6fcc3cd17a470463d926404778f4fd6934eeadabef025954b4a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020204
+    "updated_at": 1777029184
   },
   "demo/index.md::de": {
-    "src_hash": "1ec8133774f9c4496adf36f033550d13215d4f01d9a65b65225e7adb9dd79d5c",
+    "src_hash": "00c512cf58b9f6fcc3cd17a470463d926404778f4fd6934eeadabef025954b4a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020210
+    "updated_at": 1777029186
   },
   "demo/index.md::zh-cn": {
-    "src_hash": "1ec8133774f9c4496adf36f033550d13215d4f01d9a65b65225e7adb9dd79d5c",
+    "src_hash": "00c512cf58b9f6fcc3cd17a470463d926404778f4fd6934eeadabef025954b4a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020215
+    "updated_at": 1777029188
   },
   "demo/index.md::jp": {
-    "src_hash": "1ec8133774f9c4496adf36f033550d13215d4f01d9a65b65225e7adb9dd79d5c",
+    "src_hash": "00c512cf58b9f6fcc3cd17a470463d926404778f4fd6934eeadabef025954b4a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020220
+    "updated_at": 1777029189
   },
   "demo/index.md::it": {
-    "src_hash": "1ec8133774f9c4496adf36f033550d13215d4f01d9a65b65225e7adb9dd79d5c",
+    "src_hash": "00c512cf58b9f6fcc3cd17a470463d926404778f4fd6934eeadabef025954b4a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020225
+    "updated_at": 1777029191
   },
   "demo/index.md::pt-br": {
-    "src_hash": "1ec8133774f9c4496adf36f033550d13215d4f01d9a65b65225e7adb9dd79d5c",
+    "src_hash": "00c512cf58b9f6fcc3cd17a470463d926404778f4fd6934eeadabef025954b4a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020230
+    "updated_at": 1777029194
   },
   "demo/index.md::es": {
-    "src_hash": "1ec8133774f9c4496adf36f033550d13215d4f01d9a65b65225e7adb9dd79d5c",
+    "src_hash": "00c512cf58b9f6fcc3cd17a470463d926404778f4fd6934eeadabef025954b4a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020234
+    "updated_at": 1777029195
   },
   "development/add-walk-through-to-navi/index.md::fr": {
-    "src_hash": "e78d5c9371b070915fd4151283e7c5a69f0f73ec16b99dcbd067bb237ba1aa91",
+    "src_hash": "779cf9adb3b522a14a19e1209243eab112930521b4130e8fbb27ea9770b230fe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020254
+    "updated_at": 1777029208
   },
   "development/add-walk-through-to-navi/index.md::de": {
-    "src_hash": "e78d5c9371b070915fd4151283e7c5a69f0f73ec16b99dcbd067bb237ba1aa91",
+    "src_hash": "779cf9adb3b522a14a19e1209243eab112930521b4130e8fbb27ea9770b230fe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020266
+    "updated_at": 1777029214
   },
   "development/add-walk-through-to-navi/index.md::zh-cn": {
-    "src_hash": "e78d5c9371b070915fd4151283e7c5a69f0f73ec16b99dcbd067bb237ba1aa91",
+    "src_hash": "779cf9adb3b522a14a19e1209243eab112930521b4130e8fbb27ea9770b230fe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020275
+    "updated_at": 1777029223
   },
   "development/add-walk-through-to-navi/index.md::jp": {
-    "src_hash": "e78d5c9371b070915fd4151283e7c5a69f0f73ec16b99dcbd067bb237ba1aa91",
+    "src_hash": "779cf9adb3b522a14a19e1209243eab112930521b4130e8fbb27ea9770b230fe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020285
+    "updated_at": 1777029230
   },
   "development/add-walk-through-to-navi/index.md::it": {
-    "src_hash": "e78d5c9371b070915fd4151283e7c5a69f0f73ec16b99dcbd067bb237ba1aa91",
+    "src_hash": "779cf9adb3b522a14a19e1209243eab112930521b4130e8fbb27ea9770b230fe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020294
+    "updated_at": 1777029236
   },
   "development/add-walk-through-to-navi/index.md::pt-br": {
-    "src_hash": "e78d5c9371b070915fd4151283e7c5a69f0f73ec16b99dcbd067bb237ba1aa91",
+    "src_hash": "779cf9adb3b522a14a19e1209243eab112930521b4130e8fbb27ea9770b230fe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020303
+    "updated_at": 1777029242
   },
   "development/add-walk-through-to-navi/index.md::es": {
-    "src_hash": "e78d5c9371b070915fd4151283e7c5a69f0f73ec16b99dcbd067bb237ba1aa91",
+    "src_hash": "779cf9adb3b522a14a19e1209243eab112930521b4130e8fbb27ea9770b230fe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020313
+    "updated_at": 1777029247
   },
   "development/how-to-write-a-correct-css-code-in-navi/index.md::fr": {
-    "src_hash": "c7e5288a13b5979320b29a02934717da8388bbe20e66fcd593c1ba017251cca8",
+    "src_hash": "7776f4abab3d911d3d5e67b98dcc99e0b4be19e18184774bb702fec6a9cce651",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020335
+    "updated_at": 1777029262
   },
   "development/how-to-write-a-correct-css-code-in-navi/index.md::de": {
-    "src_hash": "c7e5288a13b5979320b29a02934717da8388bbe20e66fcd593c1ba017251cca8",
+    "src_hash": "7776f4abab3d911d3d5e67b98dcc99e0b4be19e18184774bb702fec6a9cce651",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020345
+    "updated_at": 1777029270
   },
   "development/how-to-write-a-correct-css-code-in-navi/index.md::zh-cn": {
-    "src_hash": "c7e5288a13b5979320b29a02934717da8388bbe20e66fcd593c1ba017251cca8",
+    "src_hash": "7776f4abab3d911d3d5e67b98dcc99e0b4be19e18184774bb702fec6a9cce651",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020355
+    "updated_at": 1777029278
   },
   "development/how-to-write-a-correct-css-code-in-navi/index.md::jp": {
-    "src_hash": "c7e5288a13b5979320b29a02934717da8388bbe20e66fcd593c1ba017251cca8",
+    "src_hash": "7776f4abab3d911d3d5e67b98dcc99e0b4be19e18184774bb702fec6a9cce651",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020367
+    "updated_at": 1777029286
   },
   "development/how-to-write-a-correct-css-code-in-navi/index.md::it": {
-    "src_hash": "c7e5288a13b5979320b29a02934717da8388bbe20e66fcd593c1ba017251cca8",
+    "src_hash": "7776f4abab3d911d3d5e67b98dcc99e0b4be19e18184774bb702fec6a9cce651",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020379
+    "updated_at": 1777029294
   },
   "development/how-to-write-a-correct-css-code-in-navi/index.md::pt-br": {
-    "src_hash": "c7e5288a13b5979320b29a02934717da8388bbe20e66fcd593c1ba017251cca8",
+    "src_hash": "7776f4abab3d911d3d5e67b98dcc99e0b4be19e18184774bb702fec6a9cce651",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020390
+    "updated_at": 1777029300
   },
   "development/how-to-write-a-correct-css-code-in-navi/index.md::es": {
-    "src_hash": "c7e5288a13b5979320b29a02934717da8388bbe20e66fcd593c1ba017251cca8",
+    "src_hash": "7776f4abab3d911d3d5e67b98dcc99e0b4be19e18184774bb702fec6a9cce651",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020403
+    "updated_at": 1777029307
   },
   "development/index.md::fr": {
-    "src_hash": "dd72625b1271176b6440a096cc2e8c163c556766b2373566b9f7b986b239e8ad",
+    "src_hash": "bf1891a89b4157ac035d179288eb52121342848e89db022fea4885c4fcc2c33e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020420
+    "updated_at": 1777029316
   },
   "development/index.md::de": {
-    "src_hash": "dd72625b1271176b6440a096cc2e8c163c556766b2373566b9f7b986b239e8ad",
+    "src_hash": "bf1891a89b4157ac035d179288eb52121342848e89db022fea4885c4fcc2c33e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020428
+    "updated_at": 1777029319
   },
   "development/index.md::zh-cn": {
-    "src_hash": "dd72625b1271176b6440a096cc2e8c163c556766b2373566b9f7b986b239e8ad",
+    "src_hash": "bf1891a89b4157ac035d179288eb52121342848e89db022fea4885c4fcc2c33e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020435
+    "updated_at": 1777029322
   },
   "development/index.md::jp": {
-    "src_hash": "dd72625b1271176b6440a096cc2e8c163c556766b2373566b9f7b986b239e8ad",
+    "src_hash": "bf1891a89b4157ac035d179288eb52121342848e89db022fea4885c4fcc2c33e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020445
+    "updated_at": 1777029326
   },
   "development/index.md::it": {
-    "src_hash": "dd72625b1271176b6440a096cc2e8c163c556766b2373566b9f7b986b239e8ad",
+    "src_hash": "bf1891a89b4157ac035d179288eb52121342848e89db022fea4885c4fcc2c33e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020452
+    "updated_at": 1777029330
   },
   "development/index.md::pt-br": {
-    "src_hash": "dd72625b1271176b6440a096cc2e8c163c556766b2373566b9f7b986b239e8ad",
+    "src_hash": "bf1891a89b4157ac035d179288eb52121342848e89db022fea4885c4fcc2c33e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020459
+    "updated_at": 1777029334
   },
   "development/index.md::es": {
-    "src_hash": "dd72625b1271176b6440a096cc2e8c163c556766b2373566b9f7b986b239e8ad",
+    "src_hash": "bf1891a89b4157ac035d179288eb52121342848e89db022fea4885c4fcc2c33e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020466
+    "updated_at": 1777029337
   },
   "frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/index.md::fr": {
-    "src_hash": "2830bfee4d59c82e8f0198d685b43dc4638ef86b936713dc42b4351bd8d1e035",
+    "src_hash": "e27c2e8d0b0cf3399d009bebd1cda245ca0be32260c653758fcdbfc10c283b4b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020484
+    "updated_at": 1777029348
   },
   "frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/index.md::de": {
-    "src_hash": "2830bfee4d59c82e8f0198d685b43dc4638ef86b936713dc42b4351bd8d1e035",
+    "src_hash": "e27c2e8d0b0cf3399d009bebd1cda245ca0be32260c653758fcdbfc10c283b4b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020492
+    "updated_at": 1777029353
   },
   "frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/index.md::zh-cn": {
-    "src_hash": "2830bfee4d59c82e8f0198d685b43dc4638ef86b936713dc42b4351bd8d1e035",
+    "src_hash": "e27c2e8d0b0cf3399d009bebd1cda245ca0be32260c653758fcdbfc10c283b4b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020499
+    "updated_at": 1777029358
   },
   "frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/index.md::jp": {
-    "src_hash": "2830bfee4d59c82e8f0198d685b43dc4638ef86b936713dc42b4351bd8d1e035",
+    "src_hash": "e27c2e8d0b0cf3399d009bebd1cda245ca0be32260c653758fcdbfc10c283b4b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020510
+    "updated_at": 1777029363
   },
   "frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/index.md::it": {
-    "src_hash": "2830bfee4d59c82e8f0198d685b43dc4638ef86b936713dc42b4351bd8d1e035",
+    "src_hash": "e27c2e8d0b0cf3399d009bebd1cda245ca0be32260c653758fcdbfc10c283b4b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020517
+    "updated_at": 1777029368
   },
   "frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/index.md::pt-br": {
-    "src_hash": "2830bfee4d59c82e8f0198d685b43dc4638ef86b936713dc42b4351bd8d1e035",
+    "src_hash": "e27c2e8d0b0cf3399d009bebd1cda245ca0be32260c653758fcdbfc10c283b4b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020526
+    "updated_at": 1777029373
   },
   "frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/index.md::es": {
-    "src_hash": "2830bfee4d59c82e8f0198d685b43dc4638ef86b936713dc42b4351bd8d1e035",
+    "src_hash": "e27c2e8d0b0cf3399d009bebd1cda245ca0be32260c653758fcdbfc10c283b4b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020536
+    "updated_at": 1777029378
   },
   "frequently-asked-questions/customize-user-interface-ui/index.md::fr": {
-    "src_hash": "3654602ac7e63f19bf369a4950d3b65522db1a5a955865952849c15d0ff1eafd",
+    "src_hash": "1ddf758f02fe1a3acce854fe0830931b853ad8818f9ab70d5cef3585e152425c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020555
+    "updated_at": 1777029387
   },
   "frequently-asked-questions/customize-user-interface-ui/index.md::de": {
-    "src_hash": "3654602ac7e63f19bf369a4950d3b65522db1a5a955865952849c15d0ff1eafd",
+    "src_hash": "1ddf758f02fe1a3acce854fe0830931b853ad8818f9ab70d5cef3585e152425c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020563
+    "updated_at": 1777029392
   },
   "frequently-asked-questions/customize-user-interface-ui/index.md::zh-cn": {
-    "src_hash": "3654602ac7e63f19bf369a4950d3b65522db1a5a955865952849c15d0ff1eafd",
+    "src_hash": "1ddf758f02fe1a3acce854fe0830931b853ad8818f9ab70d5cef3585e152425c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020570
+    "updated_at": 1777029398
   },
   "frequently-asked-questions/customize-user-interface-ui/index.md::jp": {
-    "src_hash": "3654602ac7e63f19bf369a4950d3b65522db1a5a955865952849c15d0ff1eafd",
+    "src_hash": "1ddf758f02fe1a3acce854fe0830931b853ad8818f9ab70d5cef3585e152425c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020577
+    "updated_at": 1777029402
   },
   "frequently-asked-questions/customize-user-interface-ui/index.md::it": {
-    "src_hash": "3654602ac7e63f19bf369a4950d3b65522db1a5a955865952849c15d0ff1eafd",
+    "src_hash": "1ddf758f02fe1a3acce854fe0830931b853ad8818f9ab70d5cef3585e152425c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020585
+    "updated_at": 1777029409
   },
   "frequently-asked-questions/customize-user-interface-ui/index.md::pt-br": {
-    "src_hash": "3654602ac7e63f19bf369a4950d3b65522db1a5a955865952849c15d0ff1eafd",
+    "src_hash": "1ddf758f02fe1a3acce854fe0830931b853ad8818f9ab70d5cef3585e152425c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020590
+    "updated_at": 1777029413
   },
   "frequently-asked-questions/customize-user-interface-ui/index.md::es": {
-    "src_hash": "3654602ac7e63f19bf369a4950d3b65522db1a5a955865952849c15d0ff1eafd",
+    "src_hash": "1ddf758f02fe1a3acce854fe0830931b853ad8818f9ab70d5cef3585e152425c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020598
+    "updated_at": 1777029416
   },
   "frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/index.md::fr": {
-    "src_hash": "f95d9d7e1df33616a7b88d61eaeb121158d2e50c7bc97fddf4319ceab0ed8dc9",
+    "src_hash": "8116f34f809b841e21f8f9786d43ac5355e71b6d9a9cfd58bb37d1e06bfd4662",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020623
+    "updated_at": 1777029433
   },
   "frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/index.md::de": {
-    "src_hash": "f95d9d7e1df33616a7b88d61eaeb121158d2e50c7bc97fddf4319ceab0ed8dc9",
+    "src_hash": "8116f34f809b841e21f8f9786d43ac5355e71b6d9a9cfd58bb37d1e06bfd4662",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020633
+    "updated_at": 1777029440
   },
   "frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/index.md::zh-cn": {
-    "src_hash": "f95d9d7e1df33616a7b88d61eaeb121158d2e50c7bc97fddf4319ceab0ed8dc9",
+    "src_hash": "8116f34f809b841e21f8f9786d43ac5355e71b6d9a9cfd58bb37d1e06bfd4662",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020642
+    "updated_at": 1777029447
   },
   "frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/index.md::jp": {
-    "src_hash": "f95d9d7e1df33616a7b88d61eaeb121158d2e50c7bc97fddf4319ceab0ed8dc9",
+    "src_hash": "8116f34f809b841e21f8f9786d43ac5355e71b6d9a9cfd58bb37d1e06bfd4662",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020654
+    "updated_at": 1777029456
   },
   "frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/index.md::it": {
-    "src_hash": "f95d9d7e1df33616a7b88d61eaeb121158d2e50c7bc97fddf4319ceab0ed8dc9",
+    "src_hash": "8116f34f809b841e21f8f9786d43ac5355e71b6d9a9cfd58bb37d1e06bfd4662",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020665
+    "updated_at": 1777029465
   },
   "frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/index.md::pt-br": {
-    "src_hash": "f95d9d7e1df33616a7b88d61eaeb121158d2e50c7bc97fddf4319ceab0ed8dc9",
+    "src_hash": "8116f34f809b841e21f8f9786d43ac5355e71b6d9a9cfd58bb37d1e06bfd4662",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020673
+    "updated_at": 1777029472
   },
   "frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/index.md::es": {
-    "src_hash": "f95d9d7e1df33616a7b88d61eaeb121158d2e50c7bc97fddf4319ceab0ed8dc9",
+    "src_hash": "8116f34f809b841e21f8f9786d43ac5355e71b6d9a9cfd58bb37d1e06bfd4662",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020694
+    "updated_at": 1777029479
   },
   "frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/index.md::fr": {
-    "src_hash": "c2d6ffc3aedf942b8f96f03c341e2d0b86b41ba383f6ab60e2b3d02deb078901",
+    "src_hash": "6afdcc2d53f47f21f58d4cf2d060cc6efc3e18420ea477e9e832ebbeb163c587",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020737
+    "updated_at": 1777029512
   },
   "frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/index.md::de": {
-    "src_hash": "c2d6ffc3aedf942b8f96f03c341e2d0b86b41ba383f6ab60e2b3d02deb078901",
+    "src_hash": "6afdcc2d53f47f21f58d4cf2d060cc6efc3e18420ea477e9e832ebbeb163c587",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020755
+    "updated_at": 1777029529
   },
   "frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/index.md::zh-cn": {
-    "src_hash": "c2d6ffc3aedf942b8f96f03c341e2d0b86b41ba383f6ab60e2b3d02deb078901",
+    "src_hash": "6afdcc2d53f47f21f58d4cf2d060cc6efc3e18420ea477e9e832ebbeb163c587",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020772
+    "updated_at": 1777029542
   },
   "frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/index.md::jp": {
-    "src_hash": "c2d6ffc3aedf942b8f96f03c341e2d0b86b41ba383f6ab60e2b3d02deb078901",
+    "src_hash": "6afdcc2d53f47f21f58d4cf2d060cc6efc3e18420ea477e9e832ebbeb163c587",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020793
+    "updated_at": 1777029559
   },
   "frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/index.md::it": {
-    "src_hash": "c2d6ffc3aedf942b8f96f03c341e2d0b86b41ba383f6ab60e2b3d02deb078901",
+    "src_hash": "6afdcc2d53f47f21f58d4cf2d060cc6efc3e18420ea477e9e832ebbeb163c587",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020838
+    "updated_at": 1777029575
   },
   "frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/index.md::pt-br": {
-    "src_hash": "c2d6ffc3aedf942b8f96f03c341e2d0b86b41ba383f6ab60e2b3d02deb078901",
+    "src_hash": "6afdcc2d53f47f21f58d4cf2d060cc6efc3e18420ea477e9e832ebbeb163c587",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020854
+    "updated_at": 1777029590
   },
   "frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/index.md::es": {
-    "src_hash": "c2d6ffc3aedf942b8f96f03c341e2d0b86b41ba383f6ab60e2b3d02deb078901",
+    "src_hash": "6afdcc2d53f47f21f58d4cf2d060cc6efc3e18420ea477e9e832ebbeb163c587",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020872
+    "updated_at": 1777029606
   },
   "frequently-asked-questions/how-does-navi-support-seo/index.md::fr": {
-    "src_hash": "23b08206e7c2e33df8cfe1a49180faf874b173879addae529bcc4959e8371332",
+    "src_hash": "d4b77cf159fd391af6b3667ff1c5dfebc5bfd073867e1c4ced60faeaf9f9c871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020897
+    "updated_at": 1777029623
   },
   "frequently-asked-questions/how-does-navi-support-seo/index.md::de": {
-    "src_hash": "23b08206e7c2e33df8cfe1a49180faf874b173879addae529bcc4959e8371332",
+    "src_hash": "d4b77cf159fd391af6b3667ff1c5dfebc5bfd073867e1c4ced60faeaf9f9c871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020911
+    "updated_at": 1777029631
   },
   "frequently-asked-questions/how-does-navi-support-seo/index.md::zh-cn": {
-    "src_hash": "23b08206e7c2e33df8cfe1a49180faf874b173879addae529bcc4959e8371332",
+    "src_hash": "d4b77cf159fd391af6b3667ff1c5dfebc5bfd073867e1c4ced60faeaf9f9c871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020922
+    "updated_at": 1777029638
   },
   "frequently-asked-questions/how-does-navi-support-seo/index.md::jp": {
-    "src_hash": "23b08206e7c2e33df8cfe1a49180faf874b173879addae529bcc4959e8371332",
+    "src_hash": "d4b77cf159fd391af6b3667ff1c5dfebc5bfd073867e1c4ced60faeaf9f9c871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020935
+    "updated_at": 1777029650
   },
   "frequently-asked-questions/how-does-navi-support-seo/index.md::it": {
-    "src_hash": "23b08206e7c2e33df8cfe1a49180faf874b173879addae529bcc4959e8371332",
+    "src_hash": "d4b77cf159fd391af6b3667ff1c5dfebc5bfd073867e1c4ced60faeaf9f9c871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020946
+    "updated_at": 1777029659
   },
   "frequently-asked-questions/how-does-navi-support-seo/index.md::pt-br": {
-    "src_hash": "23b08206e7c2e33df8cfe1a49180faf874b173879addae529bcc4959e8371332",
+    "src_hash": "d4b77cf159fd391af6b3667ff1c5dfebc5bfd073867e1c4ced60faeaf9f9c871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020957
+    "updated_at": 1777029668
   },
   "frequently-asked-questions/how-does-navi-support-seo/index.md::es": {
-    "src_hash": "23b08206e7c2e33df8cfe1a49180faf874b173879addae529bcc4959e8371332",
+    "src_hash": "d4b77cf159fd391af6b3667ff1c5dfebc5bfd073867e1c4ced60faeaf9f9c871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020970
+    "updated_at": 1777029676
   },
   "frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/index.md::fr": {
-    "src_hash": "c865e01d52e72e2dd5a1ae7292bd93ad9065684675a45a82d0d529f5aa50ba32",
+    "src_hash": "432ecb9af408171314e0292d5f84b60b7f5677d7da147e82ccbfa133b7922b20",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777020998
+    "updated_at": 1777029728
   },
   "frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/index.md::de": {
-    "src_hash": "c865e01d52e72e2dd5a1ae7292bd93ad9065684675a45a82d0d529f5aa50ba32",
+    "src_hash": "432ecb9af408171314e0292d5f84b60b7f5677d7da147e82ccbfa133b7922b20",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021011
+    "updated_at": 1777029740
   },
   "frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/index.md::zh-cn": {
-    "src_hash": "c865e01d52e72e2dd5a1ae7292bd93ad9065684675a45a82d0d529f5aa50ba32",
+    "src_hash": "432ecb9af408171314e0292d5f84b60b7f5677d7da147e82ccbfa133b7922b20",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021022
+    "updated_at": 1777029747
   },
   "frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/index.md::jp": {
-    "src_hash": "c865e01d52e72e2dd5a1ae7292bd93ad9065684675a45a82d0d529f5aa50ba32",
+    "src_hash": "432ecb9af408171314e0292d5f84b60b7f5677d7da147e82ccbfa133b7922b20",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021039
+    "updated_at": 1777029757
   },
   "frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/index.md::it": {
-    "src_hash": "c865e01d52e72e2dd5a1ae7292bd93ad9065684675a45a82d0d529f5aa50ba32",
+    "src_hash": "432ecb9af408171314e0292d5f84b60b7f5677d7da147e82ccbfa133b7922b20",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021055
+    "updated_at": 1777029766
   },
   "frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/index.md::pt-br": {
-    "src_hash": "c865e01d52e72e2dd5a1ae7292bd93ad9065684675a45a82d0d529f5aa50ba32",
+    "src_hash": "432ecb9af408171314e0292d5f84b60b7f5677d7da147e82ccbfa133b7922b20",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021067
+    "updated_at": 1777029774
   },
   "frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/index.md::es": {
-    "src_hash": "c865e01d52e72e2dd5a1ae7292bd93ad9065684675a45a82d0d529f5aa50ba32",
+    "src_hash": "432ecb9af408171314e0292d5f84b60b7f5677d7da147e82ccbfa133b7922b20",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021082
+    "updated_at": 1777029783
   },
   "frequently-asked-questions/index.md::fr": {
-    "src_hash": "5d18c50226ef7a2854aad166f6243180e9d61152f2a3b6435e914e9740a479b5",
+    "src_hash": "ededad26fd7e6855a47e29130e95cfd21c49d86c26a5505590b2b7242e815a75",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021118
+    "updated_at": 1777029808
   },
   "frequently-asked-questions/index.md::de": {
-    "src_hash": "5d18c50226ef7a2854aad166f6243180e9d61152f2a3b6435e914e9740a479b5",
+    "src_hash": "ededad26fd7e6855a47e29130e95cfd21c49d86c26a5505590b2b7242e815a75",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021134
+    "updated_at": 1777029820
   },
   "frequently-asked-questions/index.md::zh-cn": {
-    "src_hash": "5d18c50226ef7a2854aad166f6243180e9d61152f2a3b6435e914e9740a479b5",
+    "src_hash": "ededad26fd7e6855a47e29130e95cfd21c49d86c26a5505590b2b7242e815a75",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021149
+    "updated_at": 1777029832
   },
   "frequently-asked-questions/index.md::jp": {
-    "src_hash": "5d18c50226ef7a2854aad166f6243180e9d61152f2a3b6435e914e9740a479b5",
+    "src_hash": "ededad26fd7e6855a47e29130e95cfd21c49d86c26a5505590b2b7242e815a75",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021165
+    "updated_at": 1777029845
   },
   "frequently-asked-questions/index.md::it": {
-    "src_hash": "5d18c50226ef7a2854aad166f6243180e9d61152f2a3b6435e914e9740a479b5",
+    "src_hash": "ededad26fd7e6855a47e29130e95cfd21c49d86c26a5505590b2b7242e815a75",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021181
+    "updated_at": 1777029860
   },
   "frequently-asked-questions/index.md::pt-br": {
-    "src_hash": "5d18c50226ef7a2854aad166f6243180e9d61152f2a3b6435e914e9740a479b5",
+    "src_hash": "ededad26fd7e6855a47e29130e95cfd21c49d86c26a5505590b2b7242e815a75",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021193
+    "updated_at": 1777029873
   },
   "frequently-asked-questions/index.md::es": {
-    "src_hash": "5d18c50226ef7a2854aad166f6243180e9d61152f2a3b6435e914e9740a479b5",
+    "src_hash": "ededad26fd7e6855a47e29130e95cfd21c49d86c26a5505590b2b7242e815a75",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021205
+    "updated_at": 1777029885
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::fr": {
-    "src_hash": "290d155e10cc55436242536d6e3b5e74822c56da07b755a0a010518135ac72ca",
+    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021234
+    "updated_at": 1777029903
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::de": {
-    "src_hash": "290d155e10cc55436242536d6e3b5e74822c56da07b755a0a010518135ac72ca",
+    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021249
+    "updated_at": 1777029912
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::zh-cn": {
-    "src_hash": "290d155e10cc55436242536d6e3b5e74822c56da07b755a0a010518135ac72ca",
+    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021264
+    "updated_at": 1777029921
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::jp": {
-    "src_hash": "290d155e10cc55436242536d6e3b5e74822c56da07b755a0a010518135ac72ca",
+    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021279
+    "updated_at": 1777029931
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::it": {
-    "src_hash": "290d155e10cc55436242536d6e3b5e74822c56da07b755a0a010518135ac72ca",
+    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021295
+    "updated_at": 1777029944
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::pt-br": {
-    "src_hash": "290d155e10cc55436242536d6e3b5e74822c56da07b755a0a010518135ac72ca",
+    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021309
+    "updated_at": 1777029955
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::es": {
-    "src_hash": "290d155e10cc55436242536d6e3b5e74822c56da07b755a0a010518135ac72ca",
+    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021321
+    "updated_at": 1777029965
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::fr": {
-    "src_hash": "5baac8a0a2a7c713147af597e4a7e597eb37842e3d44db429a08ad8d46204cdb",
+    "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021335
+    "updated_at": 1777029972
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::de": {
-    "src_hash": "5baac8a0a2a7c713147af597e4a7e597eb37842e3d44db429a08ad8d46204cdb",
+    "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021342
+    "updated_at": 1777029976
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::zh-cn": {
-    "src_hash": "5baac8a0a2a7c713147af597e4a7e597eb37842e3d44db429a08ad8d46204cdb",
+    "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021349
+    "updated_at": 1777029981
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::jp": {
-    "src_hash": "5baac8a0a2a7c713147af597e4a7e597eb37842e3d44db429a08ad8d46204cdb",
+    "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021356
+    "updated_at": 1777029984
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::it": {
-    "src_hash": "5baac8a0a2a7c713147af597e4a7e597eb37842e3d44db429a08ad8d46204cdb",
+    "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021362
+    "updated_at": 1777029989
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::pt-br": {
-    "src_hash": "5baac8a0a2a7c713147af597e4a7e597eb37842e3d44db429a08ad8d46204cdb",
+    "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021369
+    "updated_at": 1777029992
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::es": {
-    "src_hash": "5baac8a0a2a7c713147af597e4a7e597eb37842e3d44db429a08ad8d46204cdb",
+    "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021374
+    "updated_at": 1777029995
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/index.md::fr": {
-    "src_hash": "ba35980e495c1a53a73c72feb61d71bd9d36135097a2db926298664726499cd1",
+    "src_hash": "228718c5b81b80b772fcbb4a20c9b1cff7c092063451e39aafd1a54afac18c1d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021415
+    "updated_at": 1777030017
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/index.md::de": {
-    "src_hash": "ba35980e495c1a53a73c72feb61d71bd9d36135097a2db926298664726499cd1",
+    "src_hash": "228718c5b81b80b772fcbb4a20c9b1cff7c092063451e39aafd1a54afac18c1d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021430
+    "updated_at": 1777030028
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/index.md::zh-cn": {
-    "src_hash": "ba35980e495c1a53a73c72feb61d71bd9d36135097a2db926298664726499cd1",
+    "src_hash": "228718c5b81b80b772fcbb4a20c9b1cff7c092063451e39aafd1a54afac18c1d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021463
+    "updated_at": 1777030039
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/index.md::jp": {
-    "src_hash": "ba35980e495c1a53a73c72feb61d71bd9d36135097a2db926298664726499cd1",
+    "src_hash": "228718c5b81b80b772fcbb4a20c9b1cff7c092063451e39aafd1a54afac18c1d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021481
+    "updated_at": 1777030052
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/index.md::it": {
-    "src_hash": "ba35980e495c1a53a73c72feb61d71bd9d36135097a2db926298664726499cd1",
+    "src_hash": "228718c5b81b80b772fcbb4a20c9b1cff7c092063451e39aafd1a54afac18c1d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021496
+    "updated_at": 1777030064
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/index.md::pt-br": {
-    "src_hash": "ba35980e495c1a53a73c72feb61d71bd9d36135097a2db926298664726499cd1",
+    "src_hash": "228718c5b81b80b772fcbb4a20c9b1cff7c092063451e39aafd1a54afac18c1d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021511
+    "updated_at": 1777030075
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/index.md::es": {
-    "src_hash": "ba35980e495c1a53a73c72feb61d71bd9d36135097a2db926298664726499cd1",
+    "src_hash": "228718c5b81b80b772fcbb4a20c9b1cff7c092063451e39aafd1a54afac18c1d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021525
+    "updated_at": 1777030083
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/index.md::fr": {
-    "src_hash": "9d6b9c02d2cc149f33258f1533372797f706a7fcc358e2c8ac20a36f1a45aaad",
+    "src_hash": "50fd774cc2e9c90f6da2c6aef6ba98a7678d8ace904e278250337b773e6a0d83",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021550
+    "updated_at": 1777030102
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/index.md::de": {
-    "src_hash": "9d6b9c02d2cc149f33258f1533372797f706a7fcc358e2c8ac20a36f1a45aaad",
+    "src_hash": "50fd774cc2e9c90f6da2c6aef6ba98a7678d8ace904e278250337b773e6a0d83",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021562
+    "updated_at": 1777030112
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/index.md::zh-cn": {
-    "src_hash": "9d6b9c02d2cc149f33258f1533372797f706a7fcc358e2c8ac20a36f1a45aaad",
+    "src_hash": "50fd774cc2e9c90f6da2c6aef6ba98a7678d8ace904e278250337b773e6a0d83",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021573
+    "updated_at": 1777030118
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/index.md::jp": {
-    "src_hash": "9d6b9c02d2cc149f33258f1533372797f706a7fcc358e2c8ac20a36f1a45aaad",
+    "src_hash": "50fd774cc2e9c90f6da2c6aef6ba98a7678d8ace904e278250337b773e6a0d83",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021588
+    "updated_at": 1777030128
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/index.md::it": {
-    "src_hash": "9d6b9c02d2cc149f33258f1533372797f706a7fcc358e2c8ac20a36f1a45aaad",
+    "src_hash": "50fd774cc2e9c90f6da2c6aef6ba98a7678d8ace904e278250337b773e6a0d83",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021599
+    "updated_at": 1777030137
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/index.md::pt-br": {
-    "src_hash": "9d6b9c02d2cc149f33258f1533372797f706a7fcc358e2c8ac20a36f1a45aaad",
+    "src_hash": "50fd774cc2e9c90f6da2c6aef6ba98a7678d8ace904e278250337b773e6a0d83",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021617
+    "updated_at": 1777030145
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/index.md::es": {
-    "src_hash": "9d6b9c02d2cc149f33258f1533372797f706a7fcc358e2c8ac20a36f1a45aaad",
+    "src_hash": "50fd774cc2e9c90f6da2c6aef6ba98a7678d8ace904e278250337b773e6a0d83",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021630
+    "updated_at": 1777030153
   },
   "frequently-asked-questions/why-arent-menu-search-cart-panels-working/index.md::fr": {
-    "src_hash": "e8eb87838297abf9f6721470d00266002c8d9b2cdf30829a97318cc8367dd78e",
+    "src_hash": "beebbf8d2e7f083465ecbb5999e6c2df8b1d836da2127127a83a83dd6b541b85",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021663
+    "updated_at": 1777030174
   },
   "frequently-asked-questions/why-arent-menu-search-cart-panels-working/index.md::de": {
-    "src_hash": "e8eb87838297abf9f6721470d00266002c8d9b2cdf30829a97318cc8367dd78e",
+    "src_hash": "beebbf8d2e7f083465ecbb5999e6c2df8b1d836da2127127a83a83dd6b541b85",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021677
+    "updated_at": 1777030185
   },
   "frequently-asked-questions/why-arent-menu-search-cart-panels-working/index.md::zh-cn": {
-    "src_hash": "e8eb87838297abf9f6721470d00266002c8d9b2cdf30829a97318cc8367dd78e",
+    "src_hash": "beebbf8d2e7f083465ecbb5999e6c2df8b1d836da2127127a83a83dd6b541b85",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021700
+    "updated_at": 1777030199
   },
   "frequently-asked-questions/why-arent-menu-search-cart-panels-working/index.md::jp": {
-    "src_hash": "e8eb87838297abf9f6721470d00266002c8d9b2cdf30829a97318cc8367dd78e",
+    "src_hash": "beebbf8d2e7f083465ecbb5999e6c2df8b1d836da2127127a83a83dd6b541b85",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021719
+    "updated_at": 1777030213
   },
   "frequently-asked-questions/why-arent-menu-search-cart-panels-working/index.md::it": {
-    "src_hash": "e8eb87838297abf9f6721470d00266002c8d9b2cdf30829a97318cc8367dd78e",
+    "src_hash": "beebbf8d2e7f083465ecbb5999e6c2df8b1d836da2127127a83a83dd6b541b85",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021737
+    "updated_at": 1777030224
   },
   "frequently-asked-questions/why-arent-menu-search-cart-panels-working/index.md::pt-br": {
-    "src_hash": "e8eb87838297abf9f6721470d00266002c8d9b2cdf30829a97318cc8367dd78e",
+    "src_hash": "beebbf8d2e7f083465ecbb5999e6c2df8b1d836da2127127a83a83dd6b541b85",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021751
+    "updated_at": 1777030236
   },
   "frequently-asked-questions/why-arent-menu-search-cart-panels-working/index.md::es": {
-    "src_hash": "e8eb87838297abf9f6721470d00266002c8d9b2cdf30829a97318cc8367dd78e",
+    "src_hash": "beebbf8d2e7f083465ecbb5999e6c2df8b1d836da2127127a83a83dd6b541b85",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021767
+    "updated_at": 1777030247
   },
   "frequently-asked-questions/why-navi-not-display/index.md::fr": {
-    "src_hash": "75c74fb9cb1ac014b1f8a711dd8c98ae27ee877d45ef6f0ee49e410a414fb247",
+    "src_hash": "61bb9cc00213dee9d66c2c736226235351d016b6f2353ec6bde6adb3394398be",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021791
+    "updated_at": 1777030263
   },
   "frequently-asked-questions/why-navi-not-display/index.md::de": {
-    "src_hash": "75c74fb9cb1ac014b1f8a711dd8c98ae27ee877d45ef6f0ee49e410a414fb247",
+    "src_hash": "61bb9cc00213dee9d66c2c736226235351d016b6f2353ec6bde6adb3394398be",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021807
+    "updated_at": 1777030270
   },
   "frequently-asked-questions/why-navi-not-display/index.md::zh-cn": {
-    "src_hash": "75c74fb9cb1ac014b1f8a711dd8c98ae27ee877d45ef6f0ee49e410a414fb247",
+    "src_hash": "61bb9cc00213dee9d66c2c736226235351d016b6f2353ec6bde6adb3394398be",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021817
+    "updated_at": 1777030279
   },
   "frequently-asked-questions/why-navi-not-display/index.md::jp": {
-    "src_hash": "75c74fb9cb1ac014b1f8a711dd8c98ae27ee877d45ef6f0ee49e410a414fb247",
+    "src_hash": "61bb9cc00213dee9d66c2c736226235351d016b6f2353ec6bde6adb3394398be",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021829
+    "updated_at": 1777030288
   },
   "frequently-asked-questions/why-navi-not-display/index.md::it": {
-    "src_hash": "75c74fb9cb1ac014b1f8a711dd8c98ae27ee877d45ef6f0ee49e410a414fb247",
+    "src_hash": "61bb9cc00213dee9d66c2c736226235351d016b6f2353ec6bde6adb3394398be",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021840
+    "updated_at": 1777030295
   },
   "frequently-asked-questions/why-navi-not-display/index.md::pt-br": {
-    "src_hash": "75c74fb9cb1ac014b1f8a711dd8c98ae27ee877d45ef6f0ee49e410a414fb247",
+    "src_hash": "61bb9cc00213dee9d66c2c736226235351d016b6f2353ec6bde6adb3394398be",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021852
+    "updated_at": 1777030302
   },
   "frequently-asked-questions/why-navi-not-display/index.md::es": {
-    "src_hash": "75c74fb9cb1ac014b1f8a711dd8c98ae27ee877d45ef6f0ee49e410a414fb247",
+    "src_hash": "61bb9cc00213dee9d66c2c736226235351d016b6f2353ec6bde6adb3394398be",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021864
+    "updated_at": 1777030309
   },
   "getting-started/index.md::fr": {
-    "src_hash": "6d02f38148ab399543522d4fa9a9847f8161ba75b64f431c87216c9291186c95",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021900
+    "updated_at": 1777030333
   },
   "getting-started/index.md::de": {
-    "src_hash": "6d02f38148ab399543522d4fa9a9847f8161ba75b64f431c87216c9291186c95",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021917
+    "updated_at": 1777030345
   },
   "getting-started/index.md::zh-cn": {
-    "src_hash": "6d02f38148ab399543522d4fa9a9847f8161ba75b64f431c87216c9291186c95",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021932
+    "updated_at": 1777030356
   },
   "getting-started/index.md::jp": {
-    "src_hash": "6d02f38148ab399543522d4fa9a9847f8161ba75b64f431c87216c9291186c95",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021951
+    "updated_at": 1777030368
   },
   "getting-started/index.md::it": {
-    "src_hash": "6d02f38148ab399543522d4fa9a9847f8161ba75b64f431c87216c9291186c95",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021968
+    "updated_at": 1777030381
   },
   "getting-started/index.md::pt-br": {
-    "src_hash": "6d02f38148ab399543522d4fa9a9847f8161ba75b64f431c87216c9291186c95",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777021984
+    "updated_at": 1777030391
   },
   "getting-started/index.md::es": {
-    "src_hash": "6d02f38148ab399543522d4fa9a9847f8161ba75b64f431c87216c9291186c95",
+    "src_hash": "8b4cd7fdb60210984e8ed7c4d9d367dff7c2da0f7c1a33e00d43d756f806c2bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022000
+    "updated_at": 1777030402
   },
   "how-to-install-navi/index.md::fr": {
-    "src_hash": "d79ae58b4c85dda72f61b92a13250c932f0cbf58f106db87222c17ca77e46aae",
+    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022026
+    "updated_at": 1777030423
   },
   "how-to-install-navi/index.md::de": {
-    "src_hash": "d79ae58b4c85dda72f61b92a13250c932f0cbf58f106db87222c17ca77e46aae",
+    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022038
+    "updated_at": 1777030431
   },
   "how-to-install-navi/index.md::zh-cn": {
-    "src_hash": "d79ae58b4c85dda72f61b92a13250c932f0cbf58f106db87222c17ca77e46aae",
+    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022051
+    "updated_at": 1777030439
   },
   "how-to-install-navi/index.md::jp": {
-    "src_hash": "d79ae58b4c85dda72f61b92a13250c932f0cbf58f106db87222c17ca77e46aae",
+    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022067
+    "updated_at": 1777030452
   },
   "how-to-install-navi/index.md::it": {
-    "src_hash": "d79ae58b4c85dda72f61b92a13250c932f0cbf58f106db87222c17ca77e46aae",
+    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022081
+    "updated_at": 1777030459
   },
   "how-to-install-navi/index.md::pt-br": {
-    "src_hash": "d79ae58b4c85dda72f61b92a13250c932f0cbf58f106db87222c17ca77e46aae",
+    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022092
+    "updated_at": 1777030467
   },
   "how-to-install-navi/index.md::es": {
-    "src_hash": "d79ae58b4c85dda72f61b92a13250c932f0cbf58f106db87222c17ca77e46aae",
+    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022107
+    "updated_at": 1777030474
   },
   "integrations/chat-tools/index.md::fr": {
-    "src_hash": "7757c52f888d3ca6b527f335c3bbade998985ba3b5582e083c5c1a65189d05c9",
+    "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022119
+    "updated_at": 1777030478
   },
   "integrations/chat-tools/index.md::de": {
-    "src_hash": "7757c52f888d3ca6b527f335c3bbade998985ba3b5582e083c5c1a65189d05c9",
+    "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022125
+    "updated_at": 1777030480
   },
   "integrations/chat-tools/index.md::zh-cn": {
-    "src_hash": "7757c52f888d3ca6b527f335c3bbade998985ba3b5582e083c5c1a65189d05c9",
+    "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022131
+    "updated_at": 1777030482
   },
   "integrations/chat-tools/index.md::jp": {
-    "src_hash": "7757c52f888d3ca6b527f335c3bbade998985ba3b5582e083c5c1a65189d05c9",
+    "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022138
+    "updated_at": 1777030485
   },
   "integrations/chat-tools/index.md::it": {
-    "src_hash": "7757c52f888d3ca6b527f335c3bbade998985ba3b5582e083c5c1a65189d05c9",
+    "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022145
+    "updated_at": 1777030487
   },
   "integrations/chat-tools/index.md::pt-br": {
-    "src_hash": "7757c52f888d3ca6b527f335c3bbade998985ba3b5582e083c5c1a65189d05c9",
+    "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022151
+    "updated_at": 1777030489
   },
   "integrations/chat-tools/index.md::es": {
-    "src_hash": "7757c52f888d3ca6b527f335c3bbade998985ba3b5582e083c5c1a65189d05c9",
+    "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022163
+    "updated_at": 1777030491
   },
   "integrations/chat-tools/shopify-inbox/index.md::fr": {
-    "src_hash": "69239e73fda7ea39a61285705ab2b3e7cd19e4afbd8a789f64478c99412a2b83",
+    "src_hash": "0ac24f827975354c539a94819e9784bf9362dfd099c49392651f1e593e3cd6e5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022173
+    "updated_at": 1777030494
   },
   "integrations/chat-tools/shopify-inbox/index.md::de": {
-    "src_hash": "69239e73fda7ea39a61285705ab2b3e7cd19e4afbd8a789f64478c99412a2b83",
+    "src_hash": "0ac24f827975354c539a94819e9784bf9362dfd099c49392651f1e593e3cd6e5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022176
+    "updated_at": 1777030496
   },
   "integrations/chat-tools/shopify-inbox/index.md::zh-cn": {
-    "src_hash": "69239e73fda7ea39a61285705ab2b3e7cd19e4afbd8a789f64478c99412a2b83",
+    "src_hash": "0ac24f827975354c539a94819e9784bf9362dfd099c49392651f1e593e3cd6e5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022182
+    "updated_at": 1777030498
   },
   "integrations/chat-tools/shopify-inbox/index.md::jp": {
-    "src_hash": "69239e73fda7ea39a61285705ab2b3e7cd19e4afbd8a789f64478c99412a2b83",
+    "src_hash": "0ac24f827975354c539a94819e9784bf9362dfd099c49392651f1e593e3cd6e5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022187
+    "updated_at": 1777030500
   },
   "integrations/chat-tools/shopify-inbox/index.md::it": {
-    "src_hash": "69239e73fda7ea39a61285705ab2b3e7cd19e4afbd8a789f64478c99412a2b83",
+    "src_hash": "0ac24f827975354c539a94819e9784bf9362dfd099c49392651f1e593e3cd6e5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022192
+    "updated_at": 1777030502
   },
   "integrations/chat-tools/shopify-inbox/index.md::pt-br": {
-    "src_hash": "69239e73fda7ea39a61285705ab2b3e7cd19e4afbd8a789f64478c99412a2b83",
+    "src_hash": "0ac24f827975354c539a94819e9784bf9362dfd099c49392651f1e593e3cd6e5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022197
+    "updated_at": 1777030504
   },
   "integrations/chat-tools/shopify-inbox/index.md::es": {
-    "src_hash": "69239e73fda7ea39a61285705ab2b3e7cd19e4afbd8a789f64478c99412a2b83",
+    "src_hash": "0ac24f827975354c539a94819e9784bf9362dfd099c49392651f1e593e3cd6e5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022201
+    "updated_at": 1777030506
   },
   "integrations/chat-tools/tidi-chat/index.md::fr": {
-    "src_hash": "d02c8c9543c196bd121a340a8fe736c9c918bf061d7acaf27c2399c163040f54",
+    "src_hash": "ec42788778028b63504a3d7c382b1e5816ea6cf5c2a9b8cdaf79ce8434d83cb6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022219
+    "updated_at": 1777030515
   },
   "integrations/chat-tools/tidi-chat/index.md::de": {
-    "src_hash": "d02c8c9543c196bd121a340a8fe736c9c918bf061d7acaf27c2399c163040f54",
+    "src_hash": "ec42788778028b63504a3d7c382b1e5816ea6cf5c2a9b8cdaf79ce8434d83cb6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022228
+    "updated_at": 1777030521
   },
   "integrations/chat-tools/tidi-chat/index.md::zh-cn": {
-    "src_hash": "d02c8c9543c196bd121a340a8fe736c9c918bf061d7acaf27c2399c163040f54",
+    "src_hash": "ec42788778028b63504a3d7c382b1e5816ea6cf5c2a9b8cdaf79ce8434d83cb6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022237
+    "updated_at": 1777030525
   },
   "integrations/chat-tools/tidi-chat/index.md::jp": {
-    "src_hash": "d02c8c9543c196bd121a340a8fe736c9c918bf061d7acaf27c2399c163040f54",
+    "src_hash": "ec42788778028b63504a3d7c382b1e5816ea6cf5c2a9b8cdaf79ce8434d83cb6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022251
+    "updated_at": 1777030530
   },
   "integrations/chat-tools/tidi-chat/index.md::it": {
-    "src_hash": "d02c8c9543c196bd121a340a8fe736c9c918bf061d7acaf27c2399c163040f54",
+    "src_hash": "ec42788778028b63504a3d7c382b1e5816ea6cf5c2a9b8cdaf79ce8434d83cb6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022262
+    "updated_at": 1777030535
   },
   "integrations/chat-tools/tidi-chat/index.md::pt-br": {
-    "src_hash": "d02c8c9543c196bd121a340a8fe736c9c918bf061d7acaf27c2399c163040f54",
+    "src_hash": "ec42788778028b63504a3d7c382b1e5816ea6cf5c2a9b8cdaf79ce8434d83cb6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022271
+    "updated_at": 1777030540
   },
   "integrations/chat-tools/tidi-chat/index.md::es": {
-    "src_hash": "d02c8c9543c196bd121a340a8fe736c9c918bf061d7acaf27c2399c163040f54",
+    "src_hash": "ec42788778028b63504a3d7c382b1e5816ea6cf5c2a9b8cdaf79ce8434d83cb6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022279
+    "updated_at": 1777030545
   },
   "integrations/index.md::fr": {
-    "src_hash": "67a18e9c9094cada055e4ac1af9b7c157e46ddd31de9789684e800c64e2a5e61",
+    "src_hash": "9106d759e63a3cc1b7670bb185caf1241eb2b797e5a21218ab1ff0d62335806b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022299
+    "updated_at": 1777030555
   },
   "integrations/index.md::de": {
-    "src_hash": "67a18e9c9094cada055e4ac1af9b7c157e46ddd31de9789684e800c64e2a5e61",
+    "src_hash": "9106d759e63a3cc1b7670bb185caf1241eb2b797e5a21218ab1ff0d62335806b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022308
+    "updated_at": 1777030560
   },
   "integrations/index.md::zh-cn": {
-    "src_hash": "67a18e9c9094cada055e4ac1af9b7c157e46ddd31de9789684e800c64e2a5e61",
+    "src_hash": "9106d759e63a3cc1b7670bb185caf1241eb2b797e5a21218ab1ff0d62335806b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022314
+    "updated_at": 1777030565
   },
   "integrations/index.md::jp": {
-    "src_hash": "67a18e9c9094cada055e4ac1af9b7c157e46ddd31de9789684e800c64e2a5e61",
+    "src_hash": "9106d759e63a3cc1b7670bb185caf1241eb2b797e5a21218ab1ff0d62335806b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022323
+    "updated_at": 1777030571
   },
   "integrations/index.md::it": {
-    "src_hash": "67a18e9c9094cada055e4ac1af9b7c157e46ddd31de9789684e800c64e2a5e61",
+    "src_hash": "9106d759e63a3cc1b7670bb185caf1241eb2b797e5a21218ab1ff0d62335806b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022332
+    "updated_at": 1777030576
   },
   "integrations/index.md::pt-br": {
-    "src_hash": "67a18e9c9094cada055e4ac1af9b7c157e46ddd31de9789684e800c64e2a5e61",
+    "src_hash": "9106d759e63a3cc1b7670bb185caf1241eb2b797e5a21218ab1ff0d62335806b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022341
+    "updated_at": 1777030583
   },
   "integrations/index.md::es": {
-    "src_hash": "67a18e9c9094cada055e4ac1af9b7c157e46ddd31de9789684e800c64e2a5e61",
+    "src_hash": "9106d759e63a3cc1b7670bb185caf1241eb2b797e5a21218ab1ff0d62335806b",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022349
+    "updated_at": 1777030587
   },
   "integrations/integrating-navi-with-your-website-and-external-apps/index.md::fr": {
-    "src_hash": "008b65069b15c2a98169be215014068206d4e23fe0947cce77ed2b7b456e7c3b",
+    "src_hash": "24911235bdaad5a062505417967e98684f3c6abaa55d0bf9a2f35b6c0b5e55cb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022404
+    "updated_at": 1777030633
   },
   "integrations/integrating-navi-with-your-website-and-external-apps/index.md::de": {
-    "src_hash": "008b65069b15c2a98169be215014068206d4e23fe0947cce77ed2b7b456e7c3b",
+    "src_hash": "24911235bdaad5a062505417967e98684f3c6abaa55d0bf9a2f35b6c0b5e55cb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022428
+    "updated_at": 1777030658
   },
   "integrations/integrating-navi-with-your-website-and-external-apps/index.md::zh-cn": {
-    "src_hash": "008b65069b15c2a98169be215014068206d4e23fe0947cce77ed2b7b456e7c3b",
+    "src_hash": "24911235bdaad5a062505417967e98684f3c6abaa55d0bf9a2f35b6c0b5e55cb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022450
+    "updated_at": 1777030679
   },
   "integrations/integrating-navi-with-your-website-and-external-apps/index.md::jp": {
-    "src_hash": "008b65069b15c2a98169be215014068206d4e23fe0947cce77ed2b7b456e7c3b",
+    "src_hash": "24911235bdaad5a062505417967e98684f3c6abaa55d0bf9a2f35b6c0b5e55cb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022479
+    "updated_at": 1777030710
   },
   "integrations/integrating-navi-with-your-website-and-external-apps/index.md::it": {
-    "src_hash": "008b65069b15c2a98169be215014068206d4e23fe0947cce77ed2b7b456e7c3b",
+    "src_hash": "24911235bdaad5a062505417967e98684f3c6abaa55d0bf9a2f35b6c0b5e55cb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022497
+    "updated_at": 1777030730
   },
   "integrations/integrating-navi-with-your-website-and-external-apps/index.md::pt-br": {
-    "src_hash": "008b65069b15c2a98169be215014068206d4e23fe0947cce77ed2b7b456e7c3b",
+    "src_hash": "24911235bdaad5a062505417967e98684f3c6abaa55d0bf9a2f35b6c0b5e55cb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022517
+    "updated_at": 1777030752
   },
   "integrations/integrating-navi-with-your-website-and-external-apps/index.md::es": {
-    "src_hash": "008b65069b15c2a98169be215014068206d4e23fe0947cce77ed2b7b456e7c3b",
+    "src_hash": "24911235bdaad5a062505417967e98684f3c6abaa55d0bf9a2f35b6c0b5e55cb",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022535
+    "updated_at": 1777030777
   },
   "integrations/the-html-and-css-structure-of-all-navi-menus/index.md::fr": {
     "src_hash": "2798ef9fec1bb1e945cb1af108cd5e422088e88ae2601354ea4a7763f5c0f0ad",
@@ -1380,1054 +1380,1054 @@
     "updated_at": 1773487793
   },
   "integrations/themes/index.md::fr": {
-    "src_hash": "fd43d9e6192f35fbeae85663addddcc62e72f0416cfbb95dc2c86ed6511465c8",
+    "src_hash": "74dd647bd3b620843e7a9e0ce712b7e53420c73e521eb79ca5656feed9454087",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022545
+    "updated_at": 1777030781
   },
   "integrations/themes/index.md::de": {
-    "src_hash": "fd43d9e6192f35fbeae85663addddcc62e72f0416cfbb95dc2c86ed6511465c8",
+    "src_hash": "74dd647bd3b620843e7a9e0ce712b7e53420c73e521eb79ca5656feed9454087",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022550
+    "updated_at": 1777030783
   },
   "integrations/themes/index.md::zh-cn": {
-    "src_hash": "fd43d9e6192f35fbeae85663addddcc62e72f0416cfbb95dc2c86ed6511465c8",
+    "src_hash": "74dd647bd3b620843e7a9e0ce712b7e53420c73e521eb79ca5656feed9454087",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022554
+    "updated_at": 1777030786
   },
   "integrations/themes/index.md::jp": {
-    "src_hash": "fd43d9e6192f35fbeae85663addddcc62e72f0416cfbb95dc2c86ed6511465c8",
+    "src_hash": "74dd647bd3b620843e7a9e0ce712b7e53420c73e521eb79ca5656feed9454087",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022562
+    "updated_at": 1777030788
   },
   "integrations/themes/index.md::it": {
-    "src_hash": "fd43d9e6192f35fbeae85663addddcc62e72f0416cfbb95dc2c86ed6511465c8",
+    "src_hash": "74dd647bd3b620843e7a9e0ce712b7e53420c73e521eb79ca5656feed9454087",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022567
+    "updated_at": 1777030790
   },
   "integrations/themes/index.md::pt-br": {
-    "src_hash": "fd43d9e6192f35fbeae85663addddcc62e72f0416cfbb95dc2c86ed6511465c8",
+    "src_hash": "74dd647bd3b620843e7a9e0ce712b7e53420c73e521eb79ca5656feed9454087",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022572
+    "updated_at": 1777030793
   },
   "integrations/themes/index.md::es": {
-    "src_hash": "fd43d9e6192f35fbeae85663addddcc62e72f0416cfbb95dc2c86ed6511465c8",
+    "src_hash": "74dd647bd3b620843e7a9e0ce712b7e53420c73e521eb79ca5656feed9454087",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022576
+    "updated_at": 1777030796
   },
   "integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/index.md::fr": {
-    "src_hash": "f962b4ed7d86b43a4c027fcac64711b920747bc513568647b0e96d1dbc781aec",
+    "src_hash": "0eb9ac73d1e6a3fd1f9da02dc14b3c0bf743011fff3a19b23e26a0dfdfed22f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022592
+    "updated_at": 1777030804
   },
   "integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/index.md::de": {
-    "src_hash": "f962b4ed7d86b43a4c027fcac64711b920747bc513568647b0e96d1dbc781aec",
+    "src_hash": "0eb9ac73d1e6a3fd1f9da02dc14b3c0bf743011fff3a19b23e26a0dfdfed22f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022601
+    "updated_at": 1777030809
   },
   "integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/index.md::zh-cn": {
-    "src_hash": "f962b4ed7d86b43a4c027fcac64711b920747bc513568647b0e96d1dbc781aec",
+    "src_hash": "0eb9ac73d1e6a3fd1f9da02dc14b3c0bf743011fff3a19b23e26a0dfdfed22f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022606
+    "updated_at": 1777030813
   },
   "integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/index.md::jp": {
-    "src_hash": "f962b4ed7d86b43a4c027fcac64711b920747bc513568647b0e96d1dbc781aec",
+    "src_hash": "0eb9ac73d1e6a3fd1f9da02dc14b3c0bf743011fff3a19b23e26a0dfdfed22f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022616
+    "updated_at": 1777030817
   },
   "integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/index.md::it": {
-    "src_hash": "f962b4ed7d86b43a4c027fcac64711b920747bc513568647b0e96d1dbc781aec",
+    "src_hash": "0eb9ac73d1e6a3fd1f9da02dc14b3c0bf743011fff3a19b23e26a0dfdfed22f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022624
+    "updated_at": 1777030822
   },
   "integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/index.md::pt-br": {
-    "src_hash": "f962b4ed7d86b43a4c027fcac64711b920747bc513568647b0e96d1dbc781aec",
+    "src_hash": "0eb9ac73d1e6a3fd1f9da02dc14b3c0bf743011fff3a19b23e26a0dfdfed22f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022635
+    "updated_at": 1777030826
   },
   "integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/index.md::es": {
-    "src_hash": "f962b4ed7d86b43a4c027fcac64711b920747bc513568647b0e96d1dbc781aec",
+    "src_hash": "0eb9ac73d1e6a3fd1f9da02dc14b3c0bf743011fff3a19b23e26a0dfdfed22f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022640
+    "updated_at": 1777030831
   },
   "latest-update/index.md::fr": {
-    "src_hash": "43c7ef89e140d059fcf7026b8912006e6f506f2aa825291a875cae943c2c9a5e",
+    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022655
+    "updated_at": 1777030839
   },
   "latest-update/index.md::de": {
-    "src_hash": "43c7ef89e140d059fcf7026b8912006e6f506f2aa825291a875cae943c2c9a5e",
+    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022662
+    "updated_at": 1777030843
   },
   "latest-update/index.md::zh-cn": {
-    "src_hash": "43c7ef89e140d059fcf7026b8912006e6f506f2aa825291a875cae943c2c9a5e",
+    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022667
+    "updated_at": 1777030847
   },
   "latest-update/index.md::jp": {
-    "src_hash": "43c7ef89e140d059fcf7026b8912006e6f506f2aa825291a875cae943c2c9a5e",
+    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022677
+    "updated_at": 1777030851
   },
   "latest-update/index.md::it": {
-    "src_hash": "43c7ef89e140d059fcf7026b8912006e6f506f2aa825291a875cae943c2c9a5e",
+    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022683
+    "updated_at": 1777030857
   },
   "latest-update/index.md::pt-br": {
-    "src_hash": "43c7ef89e140d059fcf7026b8912006e6f506f2aa825291a875cae943c2c9a5e",
+    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022694
+    "updated_at": 1777030862
   },
   "latest-update/index.md::es": {
-    "src_hash": "43c7ef89e140d059fcf7026b8912006e6f506f2aa825291a875cae943c2c9a5e",
+    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022700
+    "updated_at": 1777030866
   },
   "limitation/index.md::fr": {
-    "src_hash": "da2e0123a15f0514e5e68329dcf4fd0dba49b01b1dfd18b54c2e5c6ed5eddc4a",
+    "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022709
+    "updated_at": 1777030871
   },
   "limitation/index.md::de": {
-    "src_hash": "da2e0123a15f0514e5e68329dcf4fd0dba49b01b1dfd18b54c2e5c6ed5eddc4a",
+    "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022715
+    "updated_at": 1777030874
   },
   "limitation/index.md::zh-cn": {
-    "src_hash": "da2e0123a15f0514e5e68329dcf4fd0dba49b01b1dfd18b54c2e5c6ed5eddc4a",
+    "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022718
+    "updated_at": 1777030876
   },
   "limitation/index.md::jp": {
-    "src_hash": "da2e0123a15f0514e5e68329dcf4fd0dba49b01b1dfd18b54c2e5c6ed5eddc4a",
+    "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022723
+    "updated_at": 1777030879
   },
   "limitation/index.md::it": {
-    "src_hash": "da2e0123a15f0514e5e68329dcf4fd0dba49b01b1dfd18b54c2e5c6ed5eddc4a",
+    "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022727
+    "updated_at": 1777030882
   },
   "limitation/index.md::pt-br": {
-    "src_hash": "da2e0123a15f0514e5e68329dcf4fd0dba49b01b1dfd18b54c2e5c6ed5eddc4a",
+    "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022731
+    "updated_at": 1777030884
   },
   "limitation/index.md::es": {
-    "src_hash": "da2e0123a15f0514e5e68329dcf4fd0dba49b01b1dfd18b54c2e5c6ed5eddc4a",
+    "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022735
+    "updated_at": 1777030887
   },
   "limitation/shopify-bottom-bar-issue-on-google-app-iphone/index.md::fr": {
-    "src_hash": "c793a938105ab12d907a6f02883167320cae94aa0c9d429a411683d9f561c6bd",
+    "src_hash": "cc6a484e98d23c5ceb813188eb2212c75dcdea2392ffa38ec876f680cf2d88dc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022777
+    "updated_at": 1777030928
   },
   "limitation/shopify-bottom-bar-issue-on-google-app-iphone/index.md::de": {
-    "src_hash": "c793a938105ab12d907a6f02883167320cae94aa0c9d429a411683d9f561c6bd",
+    "src_hash": "cc6a484e98d23c5ceb813188eb2212c75dcdea2392ffa38ec876f680cf2d88dc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022794
+    "updated_at": 1777030948
   },
   "limitation/shopify-bottom-bar-issue-on-google-app-iphone/index.md::zh-cn": {
-    "src_hash": "c793a938105ab12d907a6f02883167320cae94aa0c9d429a411683d9f561c6bd",
+    "src_hash": "cc6a484e98d23c5ceb813188eb2212c75dcdea2392ffa38ec876f680cf2d88dc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022812
+    "updated_at": 1777030966
   },
   "limitation/shopify-bottom-bar-issue-on-google-app-iphone/index.md::jp": {
-    "src_hash": "c793a938105ab12d907a6f02883167320cae94aa0c9d429a411683d9f561c6bd",
+    "src_hash": "cc6a484e98d23c5ceb813188eb2212c75dcdea2392ffa38ec876f680cf2d88dc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022828
+    "updated_at": 1777030984
   },
   "limitation/shopify-bottom-bar-issue-on-google-app-iphone/index.md::it": {
-    "src_hash": "c793a938105ab12d907a6f02883167320cae94aa0c9d429a411683d9f561c6bd",
+    "src_hash": "cc6a484e98d23c5ceb813188eb2212c75dcdea2392ffa38ec876f680cf2d88dc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022851
+    "updated_at": 1777031006
   },
   "limitation/shopify-bottom-bar-issue-on-google-app-iphone/index.md::pt-br": {
-    "src_hash": "c793a938105ab12d907a6f02883167320cae94aa0c9d429a411683d9f561c6bd",
+    "src_hash": "cc6a484e98d23c5ceb813188eb2212c75dcdea2392ffa38ec876f680cf2d88dc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022869
+    "updated_at": 1777031027
   },
   "limitation/shopify-bottom-bar-issue-on-google-app-iphone/index.md::es": {
-    "src_hash": "c793a938105ab12d907a6f02883167320cae94aa0c9d429a411683d9f561c6bd",
+    "src_hash": "cc6a484e98d23c5ceb813188eb2212c75dcdea2392ffa38ec876f680cf2d88dc",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022889
+    "updated_at": 1777031047
   },
   "line/index.md::fr": {
-    "src_hash": "a740f338a926a3be8330f727b2824cacfa44e2b20a2bd45882ca235110806e77",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022897
+    "updated_at": 1777031050
   },
   "line/index.md::de": {
-    "src_hash": "a740f338a926a3be8330f727b2824cacfa44e2b20a2bd45882ca235110806e77",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022900
+    "updated_at": 1777031051
   },
   "line/index.md::zh-cn": {
-    "src_hash": "a740f338a926a3be8330f727b2824cacfa44e2b20a2bd45882ca235110806e77",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022903
+    "updated_at": 1777031052
   },
   "line/index.md::jp": {
-    "src_hash": "a740f338a926a3be8330f727b2824cacfa44e2b20a2bd45882ca235110806e77",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022906
+    "updated_at": 1777031053
   },
   "line/index.md::it": {
-    "src_hash": "a740f338a926a3be8330f727b2824cacfa44e2b20a2bd45882ca235110806e77",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022910
+    "updated_at": 1777031054
   },
   "line/index.md::pt-br": {
-    "src_hash": "a740f338a926a3be8330f727b2824cacfa44e2b20a2bd45882ca235110806e77",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022912
+    "updated_at": 1777031056
   },
   "line/index.md::es": {
-    "src_hash": "a740f338a926a3be8330f727b2824cacfa44e2b20a2bd45882ca235110806e77",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022915
+    "updated_at": 1777031057
   },
   "line-1/index.md::fr": {
-    "src_hash": "689035be9d5de2e65669d9fda0b3bd389600a6be288ace7fcad33888b98ba709",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022924
+    "updated_at": 1777031060
   },
   "line-1/index.md::de": {
-    "src_hash": "689035be9d5de2e65669d9fda0b3bd389600a6be288ace7fcad33888b98ba709",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022927
+    "updated_at": 1777031061
   },
   "line-1/index.md::zh-cn": {
-    "src_hash": "689035be9d5de2e65669d9fda0b3bd389600a6be288ace7fcad33888b98ba709",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022930
+    "updated_at": 1777031062
   },
   "line-1/index.md::jp": {
-    "src_hash": "689035be9d5de2e65669d9fda0b3bd389600a6be288ace7fcad33888b98ba709",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022933
+    "updated_at": 1777031063
   },
   "line-1/index.md::it": {
-    "src_hash": "689035be9d5de2e65669d9fda0b3bd389600a6be288ace7fcad33888b98ba709",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022936
+    "updated_at": 1777031064
   },
   "line-1/index.md::pt-br": {
-    "src_hash": "689035be9d5de2e65669d9fda0b3bd389600a6be288ace7fcad33888b98ba709",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022939
+    "updated_at": 1777031065
   },
   "line-1/index.md::es": {
-    "src_hash": "689035be9d5de2e65669d9fda0b3bd389600a6be288ace7fcad33888b98ba709",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022941
+    "updated_at": 1777031067
   },
   "line-2/index.md::fr": {
-    "src_hash": "884e7122557681863acca7493037269710a91df49035ce682cf1c8d62fc614c8",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022949
+    "updated_at": 1777031070
   },
   "line-2/index.md::de": {
-    "src_hash": "884e7122557681863acca7493037269710a91df49035ce682cf1c8d62fc614c8",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022954
+    "updated_at": 1777031071
   },
   "line-2/index.md::zh-cn": {
-    "src_hash": "884e7122557681863acca7493037269710a91df49035ce682cf1c8d62fc614c8",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022957
+    "updated_at": 1777031073
   },
   "line-2/index.md::jp": {
-    "src_hash": "884e7122557681863acca7493037269710a91df49035ce682cf1c8d62fc614c8",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022961
+    "updated_at": 1777031074
   },
   "line-2/index.md::it": {
-    "src_hash": "884e7122557681863acca7493037269710a91df49035ce682cf1c8d62fc614c8",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022964
+    "updated_at": 1777031075
   },
   "line-2/index.md::pt-br": {
-    "src_hash": "884e7122557681863acca7493037269710a91df49035ce682cf1c8d62fc614c8",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022968
+    "updated_at": 1777031077
   },
   "line-2/index.md::es": {
-    "src_hash": "884e7122557681863acca7493037269710a91df49035ce682cf1c8d62fc614c8",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022971
+    "updated_at": 1777031079
   },
   "line-3/index.md::fr": {
-    "src_hash": "6017028f2a599a623a1c2f86bc370069c8d296804425bb610f1a6a519da20f0c",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022978
+    "updated_at": 1777031081
   },
   "line-3/index.md::de": {
-    "src_hash": "6017028f2a599a623a1c2f86bc370069c8d296804425bb610f1a6a519da20f0c",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022982
+    "updated_at": 1777031082
   },
   "line-3/index.md::zh-cn": {
-    "src_hash": "6017028f2a599a623a1c2f86bc370069c8d296804425bb610f1a6a519da20f0c",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022986
+    "updated_at": 1777031084
   },
   "line-3/index.md::jp": {
-    "src_hash": "6017028f2a599a623a1c2f86bc370069c8d296804425bb610f1a6a519da20f0c",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022989
+    "updated_at": 1777031085
   },
   "line-3/index.md::it": {
-    "src_hash": "6017028f2a599a623a1c2f86bc370069c8d296804425bb610f1a6a519da20f0c",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022993
+    "updated_at": 1777031086
   },
   "line-3/index.md::pt-br": {
-    "src_hash": "6017028f2a599a623a1c2f86bc370069c8d296804425bb610f1a6a519da20f0c",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777022996
+    "updated_at": 1777031087
   },
   "line-3/index.md::es": {
-    "src_hash": "6017028f2a599a623a1c2f86bc370069c8d296804425bb610f1a6a519da20f0c",
+    "src_hash": "141efd9ec2aa64732fa4cddd1a9a655fa4489208a313b6f7db5ea736eaa20db5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023000
+    "updated_at": 1777031088
   },
   "manual/website/helpnaviplusio/index.md::fr": {
-    "src_hash": "b8f1ee51446b8e6110e1ff8f8c398f41a555524999003783a5c8eee656ac49e9",
+    "src_hash": "3b6067111f880a72d5d59018f6a6ba21b518e9b0231f5dc9361c2192ce4b47bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023125
+    "updated_at": 1777031240
   },
   "manual/website/helpnaviplusio/index.md::de": {
-    "src_hash": "b8f1ee51446b8e6110e1ff8f8c398f41a555524999003783a5c8eee656ac49e9",
+    "src_hash": "3b6067111f880a72d5d59018f6a6ba21b518e9b0231f5dc9361c2192ce4b47bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023183
+    "updated_at": 1777031309
   },
   "manual/website/helpnaviplusio/index.md::zh-cn": {
-    "src_hash": "b8f1ee51446b8e6110e1ff8f8c398f41a555524999003783a5c8eee656ac49e9",
+    "src_hash": "3b6067111f880a72d5d59018f6a6ba21b518e9b0231f5dc9361c2192ce4b47bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023253
+    "updated_at": 1777031379
   },
   "manual/website/helpnaviplusio/index.md::jp": {
-    "src_hash": "b8f1ee51446b8e6110e1ff8f8c398f41a555524999003783a5c8eee656ac49e9",
+    "src_hash": "3b6067111f880a72d5d59018f6a6ba21b518e9b0231f5dc9361c2192ce4b47bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023310
+    "updated_at": 1777031442
   },
   "manual/website/helpnaviplusio/index.md::it": {
-    "src_hash": "b8f1ee51446b8e6110e1ff8f8c398f41a555524999003783a5c8eee656ac49e9",
+    "src_hash": "3b6067111f880a72d5d59018f6a6ba21b518e9b0231f5dc9361c2192ce4b47bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023372
+    "updated_at": 1777031506
   },
   "manual/website/helpnaviplusio/index.md::pt-br": {
-    "src_hash": "b8f1ee51446b8e6110e1ff8f8c398f41a555524999003783a5c8eee656ac49e9",
+    "src_hash": "3b6067111f880a72d5d59018f6a6ba21b518e9b0231f5dc9361c2192ce4b47bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023428
+    "updated_at": 1777031576
   },
   "manual/website/helpnaviplusio/index.md::es": {
-    "src_hash": "b8f1ee51446b8e6110e1ff8f8c398f41a555524999003783a5c8eee656ac49e9",
+    "src_hash": "3b6067111f880a72d5d59018f6a6ba21b518e9b0231f5dc9361c2192ce4b47bf",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023490
+    "updated_at": 1777031642
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::fr": {
-    "src_hash": "a3d79eebad4b8abc5128a8713dcf8dfe024fb7907028a5f62fb3a0472572383b",
+    "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023507
+    "updated_at": 1777031660
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::de": {
-    "src_hash": "a3d79eebad4b8abc5128a8713dcf8dfe024fb7907028a5f62fb3a0472572383b",
+    "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023515
+    "updated_at": 1777031667
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::zh-cn": {
-    "src_hash": "a3d79eebad4b8abc5128a8713dcf8dfe024fb7907028a5f62fb3a0472572383b",
+    "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023524
+    "updated_at": 1777031675
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::jp": {
-    "src_hash": "a3d79eebad4b8abc5128a8713dcf8dfe024fb7907028a5f62fb3a0472572383b",
+    "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023535
+    "updated_at": 1777031688
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::it": {
-    "src_hash": "a3d79eebad4b8abc5128a8713dcf8dfe024fb7907028a5f62fb3a0472572383b",
+    "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023545
+    "updated_at": 1777031696
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::pt-br": {
-    "src_hash": "a3d79eebad4b8abc5128a8713dcf8dfe024fb7907028a5f62fb3a0472572383b",
+    "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023554
+    "updated_at": 1777031705
   },
   "partership/earn-up-to-225-revshare-with-navi/index.md::es": {
-    "src_hash": "a3d79eebad4b8abc5128a8713dcf8dfe024fb7907028a5f62fb3a0472572383b",
+    "src_hash": "5749decc1b0a26b6bb8079b1cb049a860eb0526c229d3c39ae5ce7a01883436f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023564
+    "updated_at": 1777031714
   },
   "partership/index.md::fr": {
-    "src_hash": "493f7cba735d78a884c054b4ae64da6397fe13a1a5f43f50ed820dd63d389620",
+    "src_hash": "eb05d0eaa4dca887fb981f5af5eff7b83aadad8304e3498bd26fde57672af47e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023576
+    "updated_at": 1777031721
   },
   "partership/index.md::de": {
-    "src_hash": "493f7cba735d78a884c054b4ae64da6397fe13a1a5f43f50ed820dd63d389620",
+    "src_hash": "eb05d0eaa4dca887fb981f5af5eff7b83aadad8304e3498bd26fde57672af47e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023581
+    "updated_at": 1777031726
   },
   "partership/index.md::zh-cn": {
-    "src_hash": "493f7cba735d78a884c054b4ae64da6397fe13a1a5f43f50ed820dd63d389620",
+    "src_hash": "eb05d0eaa4dca887fb981f5af5eff7b83aadad8304e3498bd26fde57672af47e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023587
+    "updated_at": 1777031729
   },
   "partership/index.md::jp": {
-    "src_hash": "493f7cba735d78a884c054b4ae64da6397fe13a1a5f43f50ed820dd63d389620",
+    "src_hash": "eb05d0eaa4dca887fb981f5af5eff7b83aadad8304e3498bd26fde57672af47e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023593
+    "updated_at": 1777031733
   },
   "partership/index.md::it": {
-    "src_hash": "493f7cba735d78a884c054b4ae64da6397fe13a1a5f43f50ed820dd63d389620",
+    "src_hash": "eb05d0eaa4dca887fb981f5af5eff7b83aadad8304e3498bd26fde57672af47e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023596
+    "updated_at": 1777031736
   },
   "partership/index.md::pt-br": {
-    "src_hash": "493f7cba735d78a884c054b4ae64da6397fe13a1a5f43f50ed820dd63d389620",
+    "src_hash": "eb05d0eaa4dca887fb981f5af5eff7b83aadad8304e3498bd26fde57672af47e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023603
+    "updated_at": 1777031740
   },
   "partership/index.md::es": {
-    "src_hash": "493f7cba735d78a884c054b4ae64da6397fe13a1a5f43f50ed820dd63d389620",
+    "src_hash": "eb05d0eaa4dca887fb981f5af5eff7b83aadad8304e3498bd26fde57672af47e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023608
+    "updated_at": 1777031743
   },
   "partership/navi-care-or-design-your-menus-like-an-expert/index.md::fr": {
-    "src_hash": "f4cfee3f23d86ecda385838034fc9e4ba0fed6d9e0f9049d3f9abbf722bc2cf0",
+    "src_hash": "9a79f19fecf1fc896fd0249fc5af98885c9cac678d53857ac2ee427e753c1663",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023633
+    "updated_at": 1777031766
   },
   "partership/navi-care-or-design-your-menus-like-an-expert/index.md::de": {
-    "src_hash": "f4cfee3f23d86ecda385838034fc9e4ba0fed6d9e0f9049d3f9abbf722bc2cf0",
+    "src_hash": "9a79f19fecf1fc896fd0249fc5af98885c9cac678d53857ac2ee427e753c1663",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023644
+    "updated_at": 1777031775
   },
   "partership/navi-care-or-design-your-menus-like-an-expert/index.md::zh-cn": {
-    "src_hash": "f4cfee3f23d86ecda385838034fc9e4ba0fed6d9e0f9049d3f9abbf722bc2cf0",
+    "src_hash": "9a79f19fecf1fc896fd0249fc5af98885c9cac678d53857ac2ee427e753c1663",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023656
+    "updated_at": 1777031783
   },
   "partership/navi-care-or-design-your-menus-like-an-expert/index.md::jp": {
-    "src_hash": "f4cfee3f23d86ecda385838034fc9e4ba0fed6d9e0f9049d3f9abbf722bc2cf0",
+    "src_hash": "9a79f19fecf1fc896fd0249fc5af98885c9cac678d53857ac2ee427e753c1663",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023671
+    "updated_at": 1777031791
   },
   "partership/navi-care-or-design-your-menus-like-an-expert/index.md::it": {
-    "src_hash": "f4cfee3f23d86ecda385838034fc9e4ba0fed6d9e0f9049d3f9abbf722bc2cf0",
+    "src_hash": "9a79f19fecf1fc896fd0249fc5af98885c9cac678d53857ac2ee427e753c1663",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023685
+    "updated_at": 1777031808
   },
   "partership/navi-care-or-design-your-menus-like-an-expert/index.md::pt-br": {
-    "src_hash": "f4cfee3f23d86ecda385838034fc9e4ba0fed6d9e0f9049d3f9abbf722bc2cf0",
+    "src_hash": "9a79f19fecf1fc896fd0249fc5af98885c9cac678d53857ac2ee427e753c1663",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023697
+    "updated_at": 1777031817
   },
   "partership/navi-care-or-design-your-menus-like-an-expert/index.md::es": {
-    "src_hash": "f4cfee3f23d86ecda385838034fc9e4ba0fed6d9e0f9049d3f9abbf722bc2cf0",
+    "src_hash": "9a79f19fecf1fc896fd0249fc5af98885c9cac678d53857ac2ee427e753c1663",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023709
+    "updated_at": 1777031826
   },
   "resources/index.md::fr": {
-    "src_hash": "2058c212c10040ed3d56edc3d48c21d853ba4836227c66b40f31225b45791371",
+    "src_hash": "dd3ff5a6cd81828526bee697f9d712012c1052b01082e18a6d527050c9162687",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023723
+    "updated_at": 1777031831
   },
   "resources/index.md::de": {
-    "src_hash": "2058c212c10040ed3d56edc3d48c21d853ba4836227c66b40f31225b45791371",
+    "src_hash": "dd3ff5a6cd81828526bee697f9d712012c1052b01082e18a6d527050c9162687",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023727
+    "updated_at": 1777031834
   },
   "resources/index.md::zh-cn": {
-    "src_hash": "2058c212c10040ed3d56edc3d48c21d853ba4836227c66b40f31225b45791371",
+    "src_hash": "dd3ff5a6cd81828526bee697f9d712012c1052b01082e18a6d527050c9162687",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023731
+    "updated_at": 1777031836
   },
   "resources/index.md::jp": {
-    "src_hash": "2058c212c10040ed3d56edc3d48c21d853ba4836227c66b40f31225b45791371",
+    "src_hash": "dd3ff5a6cd81828526bee697f9d712012c1052b01082e18a6d527050c9162687",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023736
+    "updated_at": 1777031839
   },
   "resources/index.md::it": {
-    "src_hash": "2058c212c10040ed3d56edc3d48c21d853ba4836227c66b40f31225b45791371",
+    "src_hash": "dd3ff5a6cd81828526bee697f9d712012c1052b01082e18a6d527050c9162687",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023741
+    "updated_at": 1777031841
   },
   "resources/index.md::pt-br": {
-    "src_hash": "2058c212c10040ed3d56edc3d48c21d853ba4836227c66b40f31225b45791371",
+    "src_hash": "dd3ff5a6cd81828526bee697f9d712012c1052b01082e18a6d527050c9162687",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023745
+    "updated_at": 1777031844
   },
   "resources/index.md::es": {
-    "src_hash": "2058c212c10040ed3d56edc3d48c21d853ba4836227c66b40f31225b45791371",
+    "src_hash": "dd3ff5a6cd81828526bee697f9d712012c1052b01082e18a6d527050c9162687",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023750
+    "updated_at": 1777031846
   },
   "resources/privacy-policy/index.md::fr": {
-    "src_hash": "7772a261ea6c696dd999bd1b914c3f863978e64a313a299f242c8abccb133bfe",
+    "src_hash": "6ddd70d1caa987435dc7586a95f3e233b3a10ebf78f703012f5176e85bccf592",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023795
+    "updated_at": 1777031893
   },
   "resources/privacy-policy/index.md::de": {
-    "src_hash": "7772a261ea6c696dd999bd1b914c3f863978e64a313a299f242c8abccb133bfe",
+    "src_hash": "6ddd70d1caa987435dc7586a95f3e233b3a10ebf78f703012f5176e85bccf592",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023818
+    "updated_at": 1777031914
   },
   "resources/privacy-policy/index.md::zh-cn": {
-    "src_hash": "7772a261ea6c696dd999bd1b914c3f863978e64a313a299f242c8abccb133bfe",
+    "src_hash": "6ddd70d1caa987435dc7586a95f3e233b3a10ebf78f703012f5176e85bccf592",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023838
+    "updated_at": 1777031930
   },
   "resources/privacy-policy/index.md::jp": {
-    "src_hash": "7772a261ea6c696dd999bd1b914c3f863978e64a313a299f242c8abccb133bfe",
+    "src_hash": "6ddd70d1caa987435dc7586a95f3e233b3a10ebf78f703012f5176e85bccf592",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023862
+    "updated_at": 1777031956
   },
   "resources/privacy-policy/index.md::it": {
-    "src_hash": "7772a261ea6c696dd999bd1b914c3f863978e64a313a299f242c8abccb133bfe",
+    "src_hash": "6ddd70d1caa987435dc7586a95f3e233b3a10ebf78f703012f5176e85bccf592",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023885
+    "updated_at": 1777031975
   },
   "resources/privacy-policy/index.md::pt-br": {
-    "src_hash": "7772a261ea6c696dd999bd1b914c3f863978e64a313a299f242c8abccb133bfe",
+    "src_hash": "6ddd70d1caa987435dc7586a95f3e233b3a10ebf78f703012f5176e85bccf592",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023903
+    "updated_at": 1777031992
   },
   "resources/privacy-policy/index.md::es": {
-    "src_hash": "7772a261ea6c696dd999bd1b914c3f863978e64a313a299f242c8abccb133bfe",
+    "src_hash": "6ddd70d1caa987435dc7586a95f3e233b3a10ebf78f703012f5176e85bccf592",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023924
+    "updated_at": 1777032013
   },
   "resources/terms-and-condition/index.md::fr": {
-    "src_hash": "0aa48d69ea6d79a6784c00c7608a0fc6ab094b0e29acfb0c1fef87a2420922bc",
+    "src_hash": "c1f693d86d4abc795ff2e57259b1d5f9be2dbd6e7162664c515403dc5f8009f5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777023976
+    "updated_at": 1777032069
   },
   "resources/terms-and-condition/index.md::de": {
-    "src_hash": "0aa48d69ea6d79a6784c00c7608a0fc6ab094b0e29acfb0c1fef87a2420922bc",
+    "src_hash": "c1f693d86d4abc795ff2e57259b1d5f9be2dbd6e7162664c515403dc5f8009f5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024000
+    "updated_at": 1777032099
   },
   "resources/terms-and-condition/index.md::zh-cn": {
-    "src_hash": "0aa48d69ea6d79a6784c00c7608a0fc6ab094b0e29acfb0c1fef87a2420922bc",
+    "src_hash": "c1f693d86d4abc795ff2e57259b1d5f9be2dbd6e7162664c515403dc5f8009f5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024022
+    "updated_at": 1777032124
   },
   "resources/terms-and-condition/index.md::jp": {
-    "src_hash": "0aa48d69ea6d79a6784c00c7608a0fc6ab094b0e29acfb0c1fef87a2420922bc",
+    "src_hash": "c1f693d86d4abc795ff2e57259b1d5f9be2dbd6e7162664c515403dc5f8009f5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024054
+    "updated_at": 1777032158
   },
   "resources/terms-and-condition/index.md::it": {
-    "src_hash": "0aa48d69ea6d79a6784c00c7608a0fc6ab094b0e29acfb0c1fef87a2420922bc",
+    "src_hash": "c1f693d86d4abc795ff2e57259b1d5f9be2dbd6e7162664c515403dc5f8009f5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024078
+    "updated_at": 1777032193
   },
   "resources/terms-and-condition/index.md::pt-br": {
-    "src_hash": "0aa48d69ea6d79a6784c00c7608a0fc6ab094b0e29acfb0c1fef87a2420922bc",
+    "src_hash": "c1f693d86d4abc795ff2e57259b1d5f9be2dbd6e7162664c515403dc5f8009f5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024100
+    "updated_at": 1777032213
   },
   "resources/terms-and-condition/index.md::es": {
-    "src_hash": "0aa48d69ea6d79a6784c00c7608a0fc6ab094b0e29acfb0c1fef87a2420922bc",
+    "src_hash": "c1f693d86d4abc795ff2e57259b1d5f9be2dbd6e7162664c515403dc5f8009f5",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024124
+    "updated_at": 1777032235
   },
   "troubleshooting/index.md::fr": {
-    "src_hash": "cda20a6cad1bbe265652a776be415f7ac1abc9161e334c262b59cfc86d99ba90",
+    "src_hash": "fe957bc6ce2d4a5547d2adcba17db426806e3549f699ccfa4a0bf395631925d4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024140
+    "updated_at": 1777032247
   },
   "troubleshooting/index.md::de": {
-    "src_hash": "cda20a6cad1bbe265652a776be415f7ac1abc9161e334c262b59cfc86d99ba90",
+    "src_hash": "fe957bc6ce2d4a5547d2adcba17db426806e3549f699ccfa4a0bf395631925d4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024149
+    "updated_at": 1777032253
   },
   "troubleshooting/index.md::zh-cn": {
-    "src_hash": "cda20a6cad1bbe265652a776be415f7ac1abc9161e334c262b59cfc86d99ba90",
+    "src_hash": "fe957bc6ce2d4a5547d2adcba17db426806e3549f699ccfa4a0bf395631925d4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024156
+    "updated_at": 1777032258
   },
   "troubleshooting/index.md::jp": {
-    "src_hash": "cda20a6cad1bbe265652a776be415f7ac1abc9161e334c262b59cfc86d99ba90",
+    "src_hash": "fe957bc6ce2d4a5547d2adcba17db426806e3549f699ccfa4a0bf395631925d4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024166
+    "updated_at": 1777032267
   },
   "troubleshooting/index.md::it": {
-    "src_hash": "cda20a6cad1bbe265652a776be415f7ac1abc9161e334c262b59cfc86d99ba90",
+    "src_hash": "fe957bc6ce2d4a5547d2adcba17db426806e3549f699ccfa4a0bf395631925d4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024174
+    "updated_at": 1777032273
   },
   "troubleshooting/index.md::pt-br": {
-    "src_hash": "cda20a6cad1bbe265652a776be415f7ac1abc9161e334c262b59cfc86d99ba90",
+    "src_hash": "fe957bc6ce2d4a5547d2adcba17db426806e3549f699ccfa4a0bf395631925d4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024182
+    "updated_at": 1777032280
   },
   "troubleshooting/index.md::es": {
-    "src_hash": "cda20a6cad1bbe265652a776be415f7ac1abc9161e334c262b59cfc86d99ba90",
+    "src_hash": "fe957bc6ce2d4a5547d2adcba17db426806e3549f699ccfa4a0bf395631925d4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024189
+    "updated_at": 1777032287
   },
   "usage/debug-mode-find-css-selectors/index.md::fr": {
-    "src_hash": "6f310d52f5bb2b171d35f5f491b3a6ca0266a36a42ca614db4009f6861144a6a",
+    "src_hash": "c2204cf99484cd946620fa69c7cc5064d86c6b1334feaa6e2250d077b9567c46",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024217
+    "updated_at": 1777032321
   },
   "usage/debug-mode-find-css-selectors/index.md::de": {
-    "src_hash": "6f310d52f5bb2b171d35f5f491b3a6ca0266a36a42ca614db4009f6861144a6a",
+    "src_hash": "c2204cf99484cd946620fa69c7cc5064d86c6b1334feaa6e2250d077b9567c46",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024231
+    "updated_at": 1777032335
   },
   "usage/debug-mode-find-css-selectors/index.md::zh-cn": {
-    "src_hash": "6f310d52f5bb2b171d35f5f491b3a6ca0266a36a42ca614db4009f6861144a6a",
+    "src_hash": "c2204cf99484cd946620fa69c7cc5064d86c6b1334feaa6e2250d077b9567c46",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024243
+    "updated_at": 1777032351
   },
   "usage/debug-mode-find-css-selectors/index.md::jp": {
-    "src_hash": "6f310d52f5bb2b171d35f5f491b3a6ca0266a36a42ca614db4009f6861144a6a",
+    "src_hash": "c2204cf99484cd946620fa69c7cc5064d86c6b1334feaa6e2250d077b9567c46",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024264
+    "updated_at": 1777032370
   },
   "usage/debug-mode-find-css-selectors/index.md::it": {
-    "src_hash": "6f310d52f5bb2b171d35f5f491b3a6ca0266a36a42ca614db4009f6861144a6a",
+    "src_hash": "c2204cf99484cd946620fa69c7cc5064d86c6b1334feaa6e2250d077b9567c46",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024279
+    "updated_at": 1777032385
   },
   "usage/debug-mode-find-css-selectors/index.md::pt-br": {
-    "src_hash": "6f310d52f5bb2b171d35f5f491b3a6ca0266a36a42ca614db4009f6861144a6a",
+    "src_hash": "c2204cf99484cd946620fa69c7cc5064d86c6b1334feaa6e2250d077b9567c46",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024294
+    "updated_at": 1777032399
   },
   "usage/debug-mode-find-css-selectors/index.md::es": {
-    "src_hash": "6f310d52f5bb2b171d35f5f491b3a6ca0266a36a42ca614db4009f6861144a6a",
+    "src_hash": "c2204cf99484cd946620fa69c7cc5064d86c6b1334feaa6e2250d077b9567c46",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024307
+    "updated_at": 1777032412
   },
   "usage/explore-common-menus/index.md::fr": {
-    "src_hash": "1ccb50d02df6e6c1c18ae32c16a2a34c9e89651cff7dc9baa78051889e4f7617",
+    "src_hash": "ae66f144a1c5915b6ec88c35d43be073fb792553db1593cfd5da2584f06e2132",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024371
+    "updated_at": 1777032483
   },
   "usage/explore-common-menus/index.md::de": {
-    "src_hash": "1ccb50d02df6e6c1c18ae32c16a2a34c9e89651cff7dc9baa78051889e4f7617",
+    "src_hash": "ae66f144a1c5915b6ec88c35d43be073fb792553db1593cfd5da2584f06e2132",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024404
+    "updated_at": 1777032516
   },
   "usage/explore-common-menus/index.md::zh-cn": {
-    "src_hash": "1ccb50d02df6e6c1c18ae32c16a2a34c9e89651cff7dc9baa78051889e4f7617",
+    "src_hash": "ae66f144a1c5915b6ec88c35d43be073fb792553db1593cfd5da2584f06e2132",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024448
+    "updated_at": 1777032556
   },
   "usage/explore-common-menus/index.md::jp": {
-    "src_hash": "1ccb50d02df6e6c1c18ae32c16a2a34c9e89651cff7dc9baa78051889e4f7617",
+    "src_hash": "ae66f144a1c5915b6ec88c35d43be073fb792553db1593cfd5da2584f06e2132",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024486
+    "updated_at": 1777032602
   },
   "usage/explore-common-menus/index.md::it": {
-    "src_hash": "1ccb50d02df6e6c1c18ae32c16a2a34c9e89651cff7dc9baa78051889e4f7617",
+    "src_hash": "ae66f144a1c5915b6ec88c35d43be073fb792553db1593cfd5da2584f06e2132",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024525
+    "updated_at": 1777032639
   },
   "usage/explore-common-menus/index.md::pt-br": {
-    "src_hash": "1ccb50d02df6e6c1c18ae32c16a2a34c9e89651cff7dc9baa78051889e4f7617",
+    "src_hash": "ae66f144a1c5915b6ec88c35d43be073fb792553db1593cfd5da2584f06e2132",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024557
+    "updated_at": 1777032674
   },
   "usage/explore-common-menus/index.md::es": {
-    "src_hash": "1ccb50d02df6e6c1c18ae32c16a2a34c9e89651cff7dc9baa78051889e4f7617",
+    "src_hash": "ae66f144a1c5915b6ec88c35d43be073fb792553db1593cfd5da2584f06e2132",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024609
+    "updated_at": 1777032706
   },
   "usage/fab-floating-menu-quick-access/how-to-use/index.md::fr": {
-    "src_hash": "c2d506eda3174ef8ef22ba568f67e4f257ed6b8ea2d89bbcad510345cdbddfe4",
+    "src_hash": "723db7fb1f55caa35a1cb0e53cf7264dd78d1a498348f3d42b23355a0ffb305c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024683
+    "updated_at": 1777032782
   },
   "usage/fab-floating-menu-quick-access/how-to-use/index.md::de": {
-    "src_hash": "c2d506eda3174ef8ef22ba568f67e4f257ed6b8ea2d89bbcad510345cdbddfe4",
+    "src_hash": "723db7fb1f55caa35a1cb0e53cf7264dd78d1a498348f3d42b23355a0ffb305c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024723
+    "updated_at": 1777032817
   },
   "usage/fab-floating-menu-quick-access/how-to-use/index.md::zh-cn": {
-    "src_hash": "c2d506eda3174ef8ef22ba568f67e4f257ed6b8ea2d89bbcad510345cdbddfe4",
+    "src_hash": "723db7fb1f55caa35a1cb0e53cf7264dd78d1a498348f3d42b23355a0ffb305c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024757
+    "updated_at": 1777032840
   },
   "usage/fab-floating-menu-quick-access/how-to-use/index.md::jp": {
-    "src_hash": "c2d506eda3174ef8ef22ba568f67e4f257ed6b8ea2d89bbcad510345cdbddfe4",
+    "src_hash": "723db7fb1f55caa35a1cb0e53cf7264dd78d1a498348f3d42b23355a0ffb305c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024794
+    "updated_at": 1777032874
   },
   "usage/fab-floating-menu-quick-access/how-to-use/index.md::it": {
-    "src_hash": "c2d506eda3174ef8ef22ba568f67e4f257ed6b8ea2d89bbcad510345cdbddfe4",
+    "src_hash": "723db7fb1f55caa35a1cb0e53cf7264dd78d1a498348f3d42b23355a0ffb305c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024841
+    "updated_at": 1777032902
   },
   "usage/fab-floating-menu-quick-access/how-to-use/index.md::pt-br": {
-    "src_hash": "c2d506eda3174ef8ef22ba568f67e4f257ed6b8ea2d89bbcad510345cdbddfe4",
+    "src_hash": "723db7fb1f55caa35a1cb0e53cf7264dd78d1a498348f3d42b23355a0ffb305c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024894
+    "updated_at": 1777032932
   },
   "usage/fab-floating-menu-quick-access/how-to-use/index.md::es": {
-    "src_hash": "c2d506eda3174ef8ef22ba568f67e4f257ed6b8ea2d89bbcad510345cdbddfe4",
+    "src_hash": "723db7fb1f55caa35a1cb0e53cf7264dd78d1a498348f3d42b23355a0ffb305c",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024933
+    "updated_at": 1777032967
   },
   "usage/fab-floating-menu-quick-access/index.md::fr": {
-    "src_hash": "1774229f4fd21470e3dc9aa7d107bc2ff48c42e513fb27619d28d0ba27e40345",
+    "src_hash": "84aee5e5ab90135e77f6c43b00ccf03a27c8aa8059ce1c6dbfe9fe2369fccd61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024951
+    "updated_at": 1777032976
   },
   "usage/fab-floating-menu-quick-access/index.md::de": {
-    "src_hash": "1774229f4fd21470e3dc9aa7d107bc2ff48c42e513fb27619d28d0ba27e40345",
+    "src_hash": "84aee5e5ab90135e77f6c43b00ccf03a27c8aa8059ce1c6dbfe9fe2369fccd61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024960
+    "updated_at": 1777032980
   },
   "usage/fab-floating-menu-quick-access/index.md::zh-cn": {
-    "src_hash": "1774229f4fd21470e3dc9aa7d107bc2ff48c42e513fb27619d28d0ba27e40345",
+    "src_hash": "84aee5e5ab90135e77f6c43b00ccf03a27c8aa8059ce1c6dbfe9fe2369fccd61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024968
+    "updated_at": 1777032984
   },
   "usage/fab-floating-menu-quick-access/index.md::jp": {
-    "src_hash": "1774229f4fd21470e3dc9aa7d107bc2ff48c42e513fb27619d28d0ba27e40345",
+    "src_hash": "84aee5e5ab90135e77f6c43b00ccf03a27c8aa8059ce1c6dbfe9fe2369fccd61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024976
+    "updated_at": 1777032988
   },
   "usage/fab-floating-menu-quick-access/index.md::it": {
-    "src_hash": "1774229f4fd21470e3dc9aa7d107bc2ff48c42e513fb27619d28d0ba27e40345",
+    "src_hash": "84aee5e5ab90135e77f6c43b00ccf03a27c8aa8059ce1c6dbfe9fe2369fccd61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024984
+    "updated_at": 1777032993
   },
   "usage/fab-floating-menu-quick-access/index.md::pt-br": {
-    "src_hash": "1774229f4fd21470e3dc9aa7d107bc2ff48c42e513fb27619d28d0ba27e40345",
+    "src_hash": "84aee5e5ab90135e77f6c43b00ccf03a27c8aa8059ce1c6dbfe9fe2369fccd61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777024992
+    "updated_at": 1777032997
   },
   "usage/fab-floating-menu-quick-access/index.md::es": {
-    "src_hash": "1774229f4fd21470e3dc9aa7d107bc2ff48c42e513fb27619d28d0ba27e40345",
+    "src_hash": "84aee5e5ab90135e77f6c43b00ccf03a27c8aa8059ce1c6dbfe9fe2369fccd61",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025000
+    "updated_at": 1777033001
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
-    "src_hash": "e21ec3cae634148d88d134eb5a872affb2a7eec98c70d1550c7cadc2fea2633d",
+    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025066
+    "updated_at": 1777033047
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::de": {
-    "src_hash": "e21ec3cae634148d88d134eb5a872affb2a7eec98c70d1550c7cadc2fea2633d",
+    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025102
+    "updated_at": 1777033073
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::zh-cn": {
-    "src_hash": "e21ec3cae634148d88d134eb5a872affb2a7eec98c70d1550c7cadc2fea2633d",
+    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025130
+    "updated_at": 1777033093
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::jp": {
-    "src_hash": "e21ec3cae634148d88d134eb5a872affb2a7eec98c70d1550c7cadc2fea2633d",
+    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025167
+    "updated_at": 1777033118
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::it": {
-    "src_hash": "e21ec3cae634148d88d134eb5a872affb2a7eec98c70d1550c7cadc2fea2633d",
+    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025201
+    "updated_at": 1777033146
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::pt-br": {
-    "src_hash": "e21ec3cae634148d88d134eb5a872affb2a7eec98c70d1550c7cadc2fea2633d",
+    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025233
+    "updated_at": 1777033171
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::es": {
-    "src_hash": "e21ec3cae634148d88d134eb5a872affb2a7eec98c70d1550c7cadc2fea2633d",
+    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025276
+    "updated_at": 1777033195
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::fr": {
-    "src_hash": "ce7045e8b4e6fbab0f59cb85da7c5648db01c5091987fbdbbe5e43585988703d",
+    "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025304
+    "updated_at": 1777033214
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::de": {
-    "src_hash": "ce7045e8b4e6fbab0f59cb85da7c5648db01c5091987fbdbbe5e43585988703d",
+    "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025319
+    "updated_at": 1777033224
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "ce7045e8b4e6fbab0f59cb85da7c5648db01c5091987fbdbbe5e43585988703d",
+    "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025329
+    "updated_at": 1777033232
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::jp": {
-    "src_hash": "ce7045e8b4e6fbab0f59cb85da7c5648db01c5091987fbdbbe5e43585988703d",
+    "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025343
+    "updated_at": 1777033240
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::it": {
-    "src_hash": "ce7045e8b4e6fbab0f59cb85da7c5648db01c5091987fbdbbe5e43585988703d",
+    "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025356
+    "updated_at": 1777033248
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "ce7045e8b4e6fbab0f59cb85da7c5648db01c5091987fbdbbe5e43585988703d",
+    "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025368
+    "updated_at": 1777033257
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::es": {
-    "src_hash": "ce7045e8b4e6fbab0f59cb85da7c5648db01c5091987fbdbbe5e43585988703d",
+    "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025380
+    "updated_at": 1777033267
   },
   "usage/general/advanced-image-upload/index.md::fr": {
-    "src_hash": "5c89c05fda4fa80d9d621016247de27aebe99bfb693e9ecaf49814d64426d8a1",
+    "src_hash": "eed594b4e223238a13649b60afef89400aec86c1157091224aa94c7129a56c9f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025417
+    "updated_at": 1777033294
   },
   "usage/general/advanced-image-upload/index.md::de": {
-    "src_hash": "5c89c05fda4fa80d9d621016247de27aebe99bfb693e9ecaf49814d64426d8a1",
+    "src_hash": "eed594b4e223238a13649b60afef89400aec86c1157091224aa94c7129a56c9f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025433
+    "updated_at": 1777033306
   },
   "usage/general/advanced-image-upload/index.md::zh-cn": {
-    "src_hash": "5c89c05fda4fa80d9d621016247de27aebe99bfb693e9ecaf49814d64426d8a1",
+    "src_hash": "eed594b4e223238a13649b60afef89400aec86c1157091224aa94c7129a56c9f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025449
+    "updated_at": 1777033317
   },
   "usage/general/advanced-image-upload/index.md::jp": {
-    "src_hash": "5c89c05fda4fa80d9d621016247de27aebe99bfb693e9ecaf49814d64426d8a1",
+    "src_hash": "eed594b4e223238a13649b60afef89400aec86c1157091224aa94c7129a56c9f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025467
+    "updated_at": 1777033330
   },
   "usage/general/advanced-image-upload/index.md::it": {
-    "src_hash": "5c89c05fda4fa80d9d621016247de27aebe99bfb693e9ecaf49814d64426d8a1",
+    "src_hash": "eed594b4e223238a13649b60afef89400aec86c1157091224aa94c7129a56c9f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025485
+    "updated_at": 1777033342
   },
   "usage/general/advanced-image-upload/index.md::pt-br": {
-    "src_hash": "5c89c05fda4fa80d9d621016247de27aebe99bfb693e9ecaf49814d64426d8a1",
+    "src_hash": "eed594b4e223238a13649b60afef89400aec86c1157091224aa94c7129a56c9f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025503
+    "updated_at": 1777033353
   },
   "usage/general/advanced-image-upload/index.md::es": {
-    "src_hash": "5c89c05fda4fa80d9d621016247de27aebe99bfb693e9ecaf49814d64426d8a1",
+    "src_hash": "eed594b4e223238a13649b60afef89400aec86c1157091224aa94c7129a56c9f",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025520
+    "updated_at": 1777033363
   },
   "usage/general/apply-a-custom-font/index.md::fr": {
-    "src_hash": "715ac2591ba62ffecf70ce9de905f9d5ff460566ad179cb9b2bab3959b6a0fa4",
+    "src_hash": "69c7b632e470aaaae353382cf2916d487cb4a62b5837e59fa16d5fd7db9ec17a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025541
+    "updated_at": 1777033375
   },
   "usage/general/apply-a-custom-font/index.md::de": {
-    "src_hash": "715ac2591ba62ffecf70ce9de905f9d5ff460566ad179cb9b2bab3959b6a0fa4",
+    "src_hash": "69c7b632e470aaaae353382cf2916d487cb4a62b5837e59fa16d5fd7db9ec17a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025550
+    "updated_at": 1777033380
   },
   "usage/general/apply-a-custom-font/index.md::zh-cn": {
-    "src_hash": "715ac2591ba62ffecf70ce9de905f9d5ff460566ad179cb9b2bab3959b6a0fa4",
+    "src_hash": "69c7b632e470aaaae353382cf2916d487cb4a62b5837e59fa16d5fd7db9ec17a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025562
+    "updated_at": 1777033386
   },
   "usage/general/apply-a-custom-font/index.md::jp": {
-    "src_hash": "715ac2591ba62ffecf70ce9de905f9d5ff460566ad179cb9b2bab3959b6a0fa4",
+    "src_hash": "69c7b632e470aaaae353382cf2916d487cb4a62b5837e59fa16d5fd7db9ec17a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025575
+    "updated_at": 1777033393
   },
   "usage/general/apply-a-custom-font/index.md::it": {
-    "src_hash": "715ac2591ba62ffecf70ce9de905f9d5ff460566ad179cb9b2bab3959b6a0fa4",
+    "src_hash": "69c7b632e470aaaae353382cf2916d487cb4a62b5837e59fa16d5fd7db9ec17a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025585
+    "updated_at": 1777033399
   },
   "usage/general/apply-a-custom-font/index.md::pt-br": {
-    "src_hash": "715ac2591ba62ffecf70ce9de905f9d5ff460566ad179cb9b2bab3959b6a0fa4",
+    "src_hash": "69c7b632e470aaaae353382cf2916d487cb4a62b5837e59fa16d5fd7db9ec17a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025595
+    "updated_at": 1777033403
   },
   "usage/general/apply-a-custom-font/index.md::es": {
-    "src_hash": "715ac2591ba62ffecf70ce9de905f9d5ff460566ad179cb9b2bab3959b6a0fa4",
+    "src_hash": "69c7b632e470aaaae353382cf2916d487cb4a62b5837e59fa16d5fd7db9ec17a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025605
+    "updated_at": 1777033407
   },
   "usage/general/apply-multi-language/index.md::fr": {
-    "src_hash": "29b36165b9f12e9e6a888dc6e83df2baa67e98f18e39cfc2c0d0fda9c29fe8a4",
+    "src_hash": "c65f67714461230dd7576e9063a57fa831d2971368f40f73db6e3101b371b825",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025630
+    "updated_at": 1777033422
   },
   "usage/general/apply-multi-language/index.md::de": {
-    "src_hash": "29b36165b9f12e9e6a888dc6e83df2baa67e98f18e39cfc2c0d0fda9c29fe8a4",
+    "src_hash": "c65f67714461230dd7576e9063a57fa831d2971368f40f73db6e3101b371b825",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025644
+    "updated_at": 1777033430
   },
   "usage/general/apply-multi-language/index.md::zh-cn": {
-    "src_hash": "29b36165b9f12e9e6a888dc6e83df2baa67e98f18e39cfc2c0d0fda9c29fe8a4",
+    "src_hash": "c65f67714461230dd7576e9063a57fa831d2971368f40f73db6e3101b371b825",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025656
+    "updated_at": 1777033440
   },
   "usage/general/apply-multi-language/index.md::jp": {
-    "src_hash": "29b36165b9f12e9e6a888dc6e83df2baa67e98f18e39cfc2c0d0fda9c29fe8a4",
+    "src_hash": "c65f67714461230dd7576e9063a57fa831d2971368f40f73db6e3101b371b825",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025671
+    "updated_at": 1777033448
   },
   "usage/general/apply-multi-language/index.md::it": {
-    "src_hash": "29b36165b9f12e9e6a888dc6e83df2baa67e98f18e39cfc2c0d0fda9c29fe8a4",
+    "src_hash": "c65f67714461230dd7576e9063a57fa831d2971368f40f73db6e3101b371b825",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025684
+    "updated_at": 1777033456
   },
   "usage/general/apply-multi-language/index.md::pt-br": {
-    "src_hash": "29b36165b9f12e9e6a888dc6e83df2baa67e98f18e39cfc2c0d0fda9c29fe8a4",
+    "src_hash": "c65f67714461230dd7576e9063a57fa831d2971368f40f73db6e3101b371b825",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025694
+    "updated_at": 1777033464
   },
   "usage/general/apply-multi-language/index.md::es": {
-    "src_hash": "29b36165b9f12e9e6a888dc6e83df2baa67e98f18e39cfc2c0d0fda9c29fe8a4",
+    "src_hash": "c65f67714461230dd7576e9063a57fa831d2971368f40f73db6e3101b371b825",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025705
+    "updated_at": 1777033470
   },
   "usage/general/find-css-selector/index.md::fr": {
-    "src_hash": "7aea35d1c6e35b5542be3ab71ce7f00be80d3c54571dfb643b05c95fcaab6d96",
+    "src_hash": "5786cf5502db6ad0c546f48b5b3e6d443a12bd39300a35284cc6622c4f341055",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025733
+    "updated_at": 1777033484
   },
   "usage/general/find-css-selector/index.md::de": {
-    "src_hash": "7aea35d1c6e35b5542be3ab71ce7f00be80d3c54571dfb643b05c95fcaab6d96",
+    "src_hash": "5786cf5502db6ad0c546f48b5b3e6d443a12bd39300a35284cc6622c4f341055",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025744
+    "updated_at": 1777033491
   },
   "usage/general/find-css-selector/index.md::zh-cn": {
-    "src_hash": "7aea35d1c6e35b5542be3ab71ce7f00be80d3c54571dfb643b05c95fcaab6d96",
+    "src_hash": "5786cf5502db6ad0c546f48b5b3e6d443a12bd39300a35284cc6622c4f341055",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025756
+    "updated_at": 1777033497
   },
   "usage/general/find-css-selector/index.md::jp": {
-    "src_hash": "7aea35d1c6e35b5542be3ab71ce7f00be80d3c54571dfb643b05c95fcaab6d96",
+    "src_hash": "5786cf5502db6ad0c546f48b5b3e6d443a12bd39300a35284cc6622c4f341055",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025769
+    "updated_at": 1777033504
   },
   "usage/general/find-css-selector/index.md::it": {
-    "src_hash": "7aea35d1c6e35b5542be3ab71ce7f00be80d3c54571dfb643b05c95fcaab6d96",
+    "src_hash": "5786cf5502db6ad0c546f48b5b3e6d443a12bd39300a35284cc6622c4f341055",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025786
+    "updated_at": 1777033514
   },
   "usage/general/find-css-selector/index.md::pt-br": {
-    "src_hash": "7aea35d1c6e35b5542be3ab71ce7f00be80d3c54571dfb643b05c95fcaab6d96",
+    "src_hash": "5786cf5502db6ad0c546f48b5b3e6d443a12bd39300a35284cc6622c4f341055",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025796
+    "updated_at": 1777033520
   },
   "usage/general/find-css-selector/index.md::es": {
-    "src_hash": "7aea35d1c6e35b5542be3ab71ce7f00be80d3c54571dfb643b05c95fcaab6d96",
+    "src_hash": "5786cf5502db6ad0c546f48b5b3e6d443a12bd39300a35284cc6622c4f341055",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025809
+    "updated_at": 1777033527
   },
   "usage/general/index.md::fr": {
-    "src_hash": "965d92db1bcf98d14c391c4a73822f9271ddff910d50ba261e24c79cb994499d",
+    "src_hash": "0c991d405ef7156d2a5397f0ce568e89cc3184fa622df17c7ad7335dc888f346",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025831
+    "updated_at": 1777033538
   },
   "usage/general/index.md::de": {
-    "src_hash": "965d92db1bcf98d14c391c4a73822f9271ddff910d50ba261e24c79cb994499d",
+    "src_hash": "0c991d405ef7156d2a5397f0ce568e89cc3184fa622df17c7ad7335dc888f346",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025843
+    "updated_at": 1777033544
   },
   "usage/general/index.md::zh-cn": {
-    "src_hash": "965d92db1bcf98d14c391c4a73822f9271ddff910d50ba261e24c79cb994499d",
+    "src_hash": "0c991d405ef7156d2a5397f0ce568e89cc3184fa622df17c7ad7335dc888f346",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025851
+    "updated_at": 1777033549
   },
   "usage/general/index.md::jp": {
-    "src_hash": "965d92db1bcf98d14c391c4a73822f9271ddff910d50ba261e24c79cb994499d",
+    "src_hash": "0c991d405ef7156d2a5397f0ce568e89cc3184fa622df17c7ad7335dc888f346",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025862
+    "updated_at": 1777033555
   },
   "usage/general/index.md::it": {
-    "src_hash": "965d92db1bcf98d14c391c4a73822f9271ddff910d50ba261e24c79cb994499d",
+    "src_hash": "0c991d405ef7156d2a5397f0ce568e89cc3184fa622df17c7ad7335dc888f346",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025872
+    "updated_at": 1777033561
   },
   "usage/general/index.md::pt-br": {
-    "src_hash": "965d92db1bcf98d14c391c4a73822f9271ddff910d50ba261e24c79cb994499d",
+    "src_hash": "0c991d405ef7156d2a5397f0ce568e89cc3184fa622df17c7ad7335dc888f346",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025880
+    "updated_at": 1777033569
   },
   "usage/general/index.md::es": {
-    "src_hash": "965d92db1bcf98d14c391c4a73822f9271ddff910d50ba261e24c79cb994499d",
+    "src_hash": "0c991d405ef7156d2a5397f0ce568e89cc3184fa622df17c7ad7335dc888f346",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025888
+    "updated_at": 1777033574
   },
   "usage/general/menu-depth/index.md::fr": {
-    "src_hash": "7067b40de122820b6bed65ee5b950b80a422309c7fc15dc548933034ffd8a387",
+    "src_hash": "ea10c44df679cf4da8ce332ac4cc17046c0de14524c9fa17e70dcaea34263548",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025904
+    "updated_at": 1777033585
   },
   "usage/general/menu-depth/index.md::de": {
-    "src_hash": "7067b40de122820b6bed65ee5b950b80a422309c7fc15dc548933034ffd8a387",
+    "src_hash": "ea10c44df679cf4da8ce332ac4cc17046c0de14524c9fa17e70dcaea34263548",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025914
+    "updated_at": 1777033591
   },
   "usage/general/menu-depth/index.md::zh-cn": {
-    "src_hash": "7067b40de122820b6bed65ee5b950b80a422309c7fc15dc548933034ffd8a387",
+    "src_hash": "ea10c44df679cf4da8ce332ac4cc17046c0de14524c9fa17e70dcaea34263548",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025924
+    "updated_at": 1777033596
   },
   "usage/general/menu-depth/index.md::jp": {
-    "src_hash": "7067b40de122820b6bed65ee5b950b80a422309c7fc15dc548933034ffd8a387",
+    "src_hash": "ea10c44df679cf4da8ce332ac4cc17046c0de14524c9fa17e70dcaea34263548",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025934
+    "updated_at": 1777033602
   },
   "usage/general/menu-depth/index.md::it": {
-    "src_hash": "7067b40de122820b6bed65ee5b950b80a422309c7fc15dc548933034ffd8a387",
+    "src_hash": "ea10c44df679cf4da8ce332ac4cc17046c0de14524c9fa17e70dcaea34263548",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025944
+    "updated_at": 1777033613
   },
   "usage/general/menu-depth/index.md::pt-br": {
-    "src_hash": "7067b40de122820b6bed65ee5b950b80a422309c7fc15dc548933034ffd8a387",
+    "src_hash": "ea10c44df679cf4da8ce332ac4cc17046c0de14524c9fa17e70dcaea34263548",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025953
+    "updated_at": 1777033617
   },
   "usage/general/menu-depth/index.md::es": {
-    "src_hash": "7067b40de122820b6bed65ee5b950b80a422309c7fc15dc548933034ffd8a387",
+    "src_hash": "ea10c44df679cf4da8ce332ac4cc17046c0de14524c9fa17e70dcaea34263548",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025963
+    "updated_at": 1777033622
   },
   "usage/general/z-index/index.md::fr": {
-    "src_hash": "4c872e114665e0c60bff8d0d3c0489797bf501e5783544cdce6ddf315733d530",
+    "src_hash": "274ae517ec0a794d5e181e30d05f9257f919158a069a3ee3e78a664a11cd9545",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026263
+    "updated_at": 1777033818
   },
   "usage/general/z-index/index.md::de": {
-    "src_hash": "4c872e114665e0c60bff8d0d3c0489797bf501e5783544cdce6ddf315733d530",
+    "src_hash": "274ae517ec0a794d5e181e30d05f9257f919158a069a3ee3e78a664a11cd9545",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026294
+    "updated_at": 1777033847
   },
   "usage/general/z-index/index.md::zh-cn": {
-    "src_hash": "4c872e114665e0c60bff8d0d3c0489797bf501e5783544cdce6ddf315733d530",
+    "src_hash": "274ae517ec0a794d5e181e30d05f9257f919158a069a3ee3e78a664a11cd9545",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026315
+    "updated_at": 1777033867
   },
   "usage/general/z-index/index.md::jp": {
-    "src_hash": "4c872e114665e0c60bff8d0d3c0489797bf501e5783544cdce6ddf315733d530",
+    "src_hash": "274ae517ec0a794d5e181e30d05f9257f919158a069a3ee3e78a664a11cd9545",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026336
+    "updated_at": 1777033884
   },
   "usage/general/z-index/index.md::it": {
-    "src_hash": "4c872e114665e0c60bff8d0d3c0489797bf501e5783544cdce6ddf315733d530",
+    "src_hash": "274ae517ec0a794d5e181e30d05f9257f919158a069a3ee3e78a664a11cd9545",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026355
+    "updated_at": 1777033914
   },
   "usage/general/z-index/index.md::pt-br": {
-    "src_hash": "4c872e114665e0c60bff8d0d3c0489797bf501e5783544cdce6ddf315733d530",
+    "src_hash": "274ae517ec0a794d5e181e30d05f9257f919158a069a3ee3e78a664a11cd9545",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026375
+    "updated_at": 1777033934
   },
   "usage/general/z-index/index.md::es": {
-    "src_hash": "4c872e114665e0c60bff8d0d3c0489797bf501e5783544cdce6ddf315733d530",
+    "src_hash": "274ae517ec0a794d5e181e30d05f9257f919158a069a3ee3e78a664a11cd9545",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026405
+    "updated_at": 1777033952
   },
   "usage/grid-menu/how-to-use/index.md::fr": {
     "src_hash": "674f06e71d5aef61ad46b420d03dcca333b8a32bfe98bebddc9860470a1a0237",
@@ -2465,39 +2465,39 @@
     "updated_at": 1776786079
   },
   "usage/grid-menu/index.md::fr": {
-    "src_hash": "c440ded608dc3eb801c269abe6c252e863cc5e6194de19ce154e4f71159445ea",
+    "src_hash": "903e46a24be2b5ba8082aaf16ed4040c443afad46fbcea951c1ad76ac5f7626d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773492540
+    "updated_at": 1777033960
   },
   "usage/grid-menu/index.md::de": {
-    "src_hash": "c440ded608dc3eb801c269abe6c252e863cc5e6194de19ce154e4f71159445ea",
+    "src_hash": "903e46a24be2b5ba8082aaf16ed4040c443afad46fbcea951c1ad76ac5f7626d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773492545
+    "updated_at": 1777033965
   },
   "usage/grid-menu/index.md::zh-cn": {
-    "src_hash": "c440ded608dc3eb801c269abe6c252e863cc5e6194de19ce154e4f71159445ea",
+    "src_hash": "903e46a24be2b5ba8082aaf16ed4040c443afad46fbcea951c1ad76ac5f7626d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773492549
+    "updated_at": 1777033969
   },
   "usage/grid-menu/index.md::jp": {
-    "src_hash": "c440ded608dc3eb801c269abe6c252e863cc5e6194de19ce154e4f71159445ea",
+    "src_hash": "903e46a24be2b5ba8082aaf16ed4040c443afad46fbcea951c1ad76ac5f7626d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773492553
+    "updated_at": 1777033973
   },
   "usage/grid-menu/index.md::it": {
-    "src_hash": "c440ded608dc3eb801c269abe6c252e863cc5e6194de19ce154e4f71159445ea",
+    "src_hash": "903e46a24be2b5ba8082aaf16ed4040c443afad46fbcea951c1ad76ac5f7626d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773492558
+    "updated_at": 1777033977
   },
   "usage/grid-menu/index.md::pt-br": {
-    "src_hash": "c440ded608dc3eb801c269abe6c252e863cc5e6194de19ce154e4f71159445ea",
+    "src_hash": "903e46a24be2b5ba8082aaf16ed4040c443afad46fbcea951c1ad76ac5f7626d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773492562
+    "updated_at": 1777033981
   },
   "usage/grid-menu/index.md::es": {
-    "src_hash": "c440ded608dc3eb801c269abe6c252e863cc5e6194de19ce154e4f71159445ea",
+    "src_hash": "903e46a24be2b5ba8082aaf16ed4040c443afad46fbcea951c1ad76ac5f7626d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773492567
+    "updated_at": 1777033985
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
     "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
@@ -2535,39 +2535,39 @@
     "updated_at": 1774256388
   },
   "usage/grid-menu/publishing-on-shopify/index.md::fr": {
-    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
+    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786252
+    "updated_at": 1777034047
   },
   "usage/grid-menu/publishing-on-shopify/index.md::de": {
-    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
+    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786275
+    "updated_at": 1777034079
   },
   "usage/grid-menu/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
+    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786297
+    "updated_at": 1777034105
   },
   "usage/grid-menu/publishing-on-shopify/index.md::jp": {
-    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
+    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786323
+    "updated_at": 1777034138
   },
   "usage/grid-menu/publishing-on-shopify/index.md::it": {
-    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
+    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786346
+    "updated_at": 1777034177
   },
   "usage/grid-menu/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
+    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786373
+    "updated_at": 1777034207
   },
   "usage/grid-menu/publishing-on-shopify/index.md::es": {
-    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
+    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786397
+    "updated_at": 1777034235
   },
   "usage/grid-menu/responsive-grid-menu/index.md::fr": {
     "src_hash": "56233c94e9d91de2aad93916735a15808303c94885b229ddf52f8a808c4a4dc2",
@@ -2605,39 +2605,39 @@
     "updated_at": 1773493656
   },
   "usage/index.md::fr": {
-    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
+    "src_hash": "df78bc15db0e38daa46819cc2a4f60abaca0bc9a2aa3c66832f0583d3a739669",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776679306
+    "updated_at": 1777034304
   },
   "usage/index.md::de": {
-    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
+    "src_hash": "df78bc15db0e38daa46819cc2a4f60abaca0bc9a2aa3c66832f0583d3a739669",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776679349
+    "updated_at": 1777034335
   },
   "usage/index.md::zh-cn": {
-    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
+    "src_hash": "df78bc15db0e38daa46819cc2a4f60abaca0bc9a2aa3c66832f0583d3a739669",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776679385
+    "updated_at": 1777034369
   },
   "usage/index.md::jp": {
-    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
+    "src_hash": "df78bc15db0e38daa46819cc2a4f60abaca0bc9a2aa3c66832f0583d3a739669",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776679418
+    "updated_at": 1777034408
   },
   "usage/index.md::it": {
-    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
+    "src_hash": "df78bc15db0e38daa46819cc2a4f60abaca0bc9a2aa3c66832f0583d3a739669",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776679452
+    "updated_at": 1777034453
   },
   "usage/index.md::pt-br": {
-    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
+    "src_hash": "df78bc15db0e38daa46819cc2a4f60abaca0bc9a2aa3c66832f0583d3a739669",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776679485
+    "updated_at": 1777034488
   },
   "usage/index.md::es": {
-    "src_hash": "c94fb1c9bed4034d43fb42ed71738ad2bc36090ab426c9c005fff2a19ffbc25e",
+    "src_hash": "df78bc15db0e38daa46819cc2a4f60abaca0bc9a2aa3c66832f0583d3a739669",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776679519
+    "updated_at": 1777034527
   },
   "usage/mega-menu-desktop/faq/index.md::fr": {
     "src_hash": "cf2d6b1867eaae6ccc5f89089509d23d510f96daa96e60409ede199a1db12a16",
@@ -2710,39 +2710,39 @@
     "updated_at": 1776786721
   },
   "usage/mega-menu-desktop/index.md::fr": {
-    "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
+    "src_hash": "2655041ab7e591ad1a9a29b14aa448cd03a6249a4fc5b8633cd767d7f2eb8e57",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494601
+    "updated_at": 1777034536
   },
   "usage/mega-menu-desktop/index.md::de": {
-    "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
+    "src_hash": "2655041ab7e591ad1a9a29b14aa448cd03a6249a4fc5b8633cd767d7f2eb8e57",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494605
+    "updated_at": 1777034541
   },
   "usage/mega-menu-desktop/index.md::zh-cn": {
-    "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
+    "src_hash": "2655041ab7e591ad1a9a29b14aa448cd03a6249a4fc5b8633cd767d7f2eb8e57",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494610
+    "updated_at": 1777034549
   },
   "usage/mega-menu-desktop/index.md::jp": {
-    "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
+    "src_hash": "2655041ab7e591ad1a9a29b14aa448cd03a6249a4fc5b8633cd767d7f2eb8e57",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494616
+    "updated_at": 1777034553
   },
   "usage/mega-menu-desktop/index.md::it": {
-    "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
+    "src_hash": "2655041ab7e591ad1a9a29b14aa448cd03a6249a4fc5b8633cd767d7f2eb8e57",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494620
+    "updated_at": 1777034557
   },
   "usage/mega-menu-desktop/index.md::pt-br": {
-    "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
+    "src_hash": "2655041ab7e591ad1a9a29b14aa448cd03a6249a4fc5b8633cd767d7f2eb8e57",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494625
+    "updated_at": 1777034562
   },
   "usage/mega-menu-desktop/index.md::es": {
-    "src_hash": "f88ef82ac7f3386712892b22b88c43b13a7e90476f1ed2883e072f7d925ca78f",
+    "src_hash": "2655041ab7e591ad1a9a29b14aa448cd03a6249a4fc5b8633cd767d7f2eb8e57",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773494629
+    "updated_at": 1777034567
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
     "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
@@ -2780,39 +2780,39 @@
     "updated_at": 1774256798
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::fr": {
-    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
+    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786793
+    "updated_at": 1777034654
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::de": {
-    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
+    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786829
+    "updated_at": 1777034698
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
+    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786865
+    "updated_at": 1777034737
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::jp": {
-    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
+    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786910
+    "updated_at": 1777034781
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::it": {
-    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
+    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786952
+    "updated_at": 1777034833
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
+    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776786993
+    "updated_at": 1777034872
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::es": {
-    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
+    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787027
+    "updated_at": 1777034915
   },
   "usage/mega-menu-mobile/how-to-use/index.md::fr": {
     "src_hash": "9b3060c05abc66ce0d098f0e51690c2c4ee544090503ce24a5a11bddcf185cdc",
@@ -2850,39 +2850,39 @@
     "updated_at": 1774256923
   },
   "usage/mega-menu-mobile/index.md::fr": {
-    "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
+    "src_hash": "d3e63367a273597d4a00f425ac368eb4c3ae0ba42d05203cc5d9bd5e00b1acc9",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773496065
+    "updated_at": 1777034923
   },
   "usage/mega-menu-mobile/index.md::de": {
-    "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
+    "src_hash": "d3e63367a273597d4a00f425ac368eb4c3ae0ba42d05203cc5d9bd5e00b1acc9",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773496069
+    "updated_at": 1777034927
   },
   "usage/mega-menu-mobile/index.md::zh-cn": {
-    "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
+    "src_hash": "d3e63367a273597d4a00f425ac368eb4c3ae0ba42d05203cc5d9bd5e00b1acc9",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773496074
+    "updated_at": 1777034931
   },
   "usage/mega-menu-mobile/index.md::jp": {
-    "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
+    "src_hash": "d3e63367a273597d4a00f425ac368eb4c3ae0ba42d05203cc5d9bd5e00b1acc9",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773496078
+    "updated_at": 1777034935
   },
   "usage/mega-menu-mobile/index.md::it": {
-    "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
+    "src_hash": "d3e63367a273597d4a00f425ac368eb4c3ae0ba42d05203cc5d9bd5e00b1acc9",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773496082
+    "updated_at": 1777034939
   },
   "usage/mega-menu-mobile/index.md::pt-br": {
-    "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
+    "src_hash": "d3e63367a273597d4a00f425ac368eb4c3ae0ba42d05203cc5d9bd5e00b1acc9",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773496086
+    "updated_at": 1777034944
   },
   "usage/mega-menu-mobile/index.md::es": {
-    "src_hash": "037f7283c51da7782d5e6836b21b8a015d8fa015db896ad92261d67539036527",
+    "src_hash": "d3e63367a273597d4a00f425ac368eb4c3ae0ba42d05203cc5d9bd5e00b1acc9",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773496091
+    "updated_at": 1777034948
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
     "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
@@ -2920,39 +2920,39 @@
     "updated_at": 1774257151
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::fr": {
-    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
+    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787080
+    "updated_at": 1777035018
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::de": {
-    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
+    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787104
+    "updated_at": 1777035047
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
+    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787125
+    "updated_at": 1777035071
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::jp": {
-    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
+    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787156
+    "updated_at": 1777035102
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::it": {
-    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
+    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787183
+    "updated_at": 1777035132
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
+    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787207
+    "updated_at": 1777035161
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::es": {
-    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
+    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787234
+    "updated_at": 1777035194
   },
   "usage/shopify/how-to-other-applications-work-with-naviplus/index.md::fr": {
     "src_hash": "0b090b9b79f23d05e4d10670938944a5c5d5325e0be804151b9a796707ecc894",
@@ -2990,39 +2990,39 @@
     "updated_at": 1776787415
   },
   "usage/shopify/index.md::fr": {
-    "src_hash": "988521fc49e725f6e27e03756efc5f58fc53d33712cb9bc55c57a8c8cf11dc0a",
+    "src_hash": "81932d0fca5f90cf73ce3acfbcae4c83d2a6564e5869863b723484af3d1cdf2a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497443
+    "updated_at": 1777035203
   },
   "usage/shopify/index.md::de": {
-    "src_hash": "988521fc49e725f6e27e03756efc5f58fc53d33712cb9bc55c57a8c8cf11dc0a",
+    "src_hash": "81932d0fca5f90cf73ce3acfbcae4c83d2a6564e5869863b723484af3d1cdf2a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497447
+    "updated_at": 1777035207
   },
   "usage/shopify/index.md::zh-cn": {
-    "src_hash": "988521fc49e725f6e27e03756efc5f58fc53d33712cb9bc55c57a8c8cf11dc0a",
+    "src_hash": "81932d0fca5f90cf73ce3acfbcae4c83d2a6564e5869863b723484af3d1cdf2a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497452
+    "updated_at": 1777035211
   },
   "usage/shopify/index.md::jp": {
-    "src_hash": "988521fc49e725f6e27e03756efc5f58fc53d33712cb9bc55c57a8c8cf11dc0a",
+    "src_hash": "81932d0fca5f90cf73ce3acfbcae4c83d2a6564e5869863b723484af3d1cdf2a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497457
+    "updated_at": 1777035215
   },
   "usage/shopify/index.md::it": {
-    "src_hash": "988521fc49e725f6e27e03756efc5f58fc53d33712cb9bc55c57a8c8cf11dc0a",
+    "src_hash": "81932d0fca5f90cf73ce3acfbcae4c83d2a6564e5869863b723484af3d1cdf2a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497461
+    "updated_at": 1777035218
   },
   "usage/shopify/index.md::pt-br": {
-    "src_hash": "988521fc49e725f6e27e03756efc5f58fc53d33712cb9bc55c57a8c8cf11dc0a",
+    "src_hash": "81932d0fca5f90cf73ce3acfbcae4c83d2a6564e5869863b723484af3d1cdf2a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497466
+    "updated_at": 1777035222
   },
   "usage/shopify/index.md::es": {
-    "src_hash": "988521fc49e725f6e27e03756efc5f58fc53d33712cb9bc55c57a8c8cf11dc0a",
+    "src_hash": "81932d0fca5f90cf73ce3acfbcae4c83d2a6564e5869863b723484af3d1cdf2a",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497471
+    "updated_at": 1777035225
   },
   "usage/shopify/optimize-loading-speed-slide-and-mega-menus/index.md::fr": {
     "src_hash": "61c291c30f53bd2ce96a5addd2d5470193aac5757a73fcdae9c1eea0a17e367c",
@@ -3130,39 +3130,39 @@
     "updated_at": 1776787676
   },
   "usage/slide-menu-hamburger-menu/index.md::fr": {
-    "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
+    "src_hash": "ecc6f20a6772722549e6023d081e969d9df7c7b6ff3c2ebb56c030f6eed68931",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773498191
+    "updated_at": 1777035235
   },
   "usage/slide-menu-hamburger-menu/index.md::de": {
-    "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
+    "src_hash": "ecc6f20a6772722549e6023d081e969d9df7c7b6ff3c2ebb56c030f6eed68931",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773498196
+    "updated_at": 1777035239
   },
   "usage/slide-menu-hamburger-menu/index.md::zh-cn": {
-    "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
+    "src_hash": "ecc6f20a6772722549e6023d081e969d9df7c7b6ff3c2ebb56c030f6eed68931",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773498200
+    "updated_at": 1777035243
   },
   "usage/slide-menu-hamburger-menu/index.md::jp": {
-    "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
+    "src_hash": "ecc6f20a6772722549e6023d081e969d9df7c7b6ff3c2ebb56c030f6eed68931",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773498205
+    "updated_at": 1777035248
   },
   "usage/slide-menu-hamburger-menu/index.md::it": {
-    "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
+    "src_hash": "ecc6f20a6772722549e6023d081e969d9df7c7b6ff3c2ebb56c030f6eed68931",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773498210
+    "updated_at": 1777035252
   },
   "usage/slide-menu-hamburger-menu/index.md::pt-br": {
-    "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
+    "src_hash": "ecc6f20a6772722549e6023d081e969d9df7c7b6ff3c2ebb56c030f6eed68931",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773498216
+    "updated_at": 1777035256
   },
   "usage/slide-menu-hamburger-menu/index.md::es": {
-    "src_hash": "fc8b74b290cc609ae6f01122918b9cba8dfa71c8b88cd79d87d11c8cf1b9165a",
+    "src_hash": "ecc6f20a6772722549e6023d081e969d9df7c7b6ff3c2ebb56c030f6eed68931",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773498221
+    "updated_at": 1777035261
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
     "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
@@ -3235,39 +3235,39 @@
     "updated_at": 1773498522
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::fr": {
-    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
+    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787765
+    "updated_at": 1777035350
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::de": {
-    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
+    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787810
+    "updated_at": 1777035387
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
+    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787847
+    "updated_at": 1777035420
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::jp": {
-    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
+    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787895
+    "updated_at": 1777035463
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::it": {
-    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
+    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787936
+    "updated_at": 1777035506
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
+    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776787974
+    "updated_at": 1777035544
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::es": {
-    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
+    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1776788014
+    "updated_at": 1777035587
   },
   "usage/some-faqs-about-publishing-navi-menu/index.md::fr": {
     "src_hash": "c1ad5a58e089c8e7df00f87e2d92eb685539ef1a7b7d67bb4dca4f8b9734f2d2",
@@ -3340,39 +3340,39 @@
     "updated_at": 1773499572
   },
   "usage/tabbar-bottom-navigation/index.md::fr": {
-    "src_hash": "9e23e5670998202191846969d5c339492c93d24300a0cf308f2fbf66d2dd4493",
+    "src_hash": "76c23bf8f3eb12d859e16f474e48b923aeed64baa728266c17c07521426889a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773499580
+    "updated_at": 1777035595
   },
   "usage/tabbar-bottom-navigation/index.md::de": {
-    "src_hash": "9e23e5670998202191846969d5c339492c93d24300a0cf308f2fbf66d2dd4493",
+    "src_hash": "76c23bf8f3eb12d859e16f474e48b923aeed64baa728266c17c07521426889a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773499584
+    "updated_at": 1777035599
   },
   "usage/tabbar-bottom-navigation/index.md::zh-cn": {
-    "src_hash": "9e23e5670998202191846969d5c339492c93d24300a0cf308f2fbf66d2dd4493",
+    "src_hash": "76c23bf8f3eb12d859e16f474e48b923aeed64baa728266c17c07521426889a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773499588
+    "updated_at": 1777035603
   },
   "usage/tabbar-bottom-navigation/index.md::jp": {
-    "src_hash": "9e23e5670998202191846969d5c339492c93d24300a0cf308f2fbf66d2dd4493",
+    "src_hash": "76c23bf8f3eb12d859e16f474e48b923aeed64baa728266c17c07521426889a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773499592
+    "updated_at": 1777035607
   },
   "usage/tabbar-bottom-navigation/index.md::it": {
-    "src_hash": "9e23e5670998202191846969d5c339492c93d24300a0cf308f2fbf66d2dd4493",
+    "src_hash": "76c23bf8f3eb12d859e16f474e48b923aeed64baa728266c17c07521426889a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773499596
+    "updated_at": 1777035611
   },
   "usage/tabbar-bottom-navigation/index.md::pt-br": {
-    "src_hash": "9e23e5670998202191846969d5c339492c93d24300a0cf308f2fbf66d2dd4493",
+    "src_hash": "76c23bf8f3eb12d859e16f474e48b923aeed64baa728266c17c07521426889a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773499600
+    "updated_at": 1777035616
   },
   "usage/tabbar-bottom-navigation/index.md::es": {
-    "src_hash": "9e23e5670998202191846969d5c339492c93d24300a0cf308f2fbf66d2dd4493",
+    "src_hash": "76c23bf8f3eb12d859e16f474e48b923aeed64baa728266c17c07521426889a3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773499603
+    "updated_at": 1777035621
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::fr": {
     "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
@@ -3520,44 +3520,44 @@
     "updated_at": 1774255173
   },
   "usage/general/tab-slide-group-menu-items-into-tabs/index.md::vi": {
-    "src_hash": "42a4d4f2946bc0c2dd21bc1314af52057a1e02a55cad5feb39f256fb3e3d04e7",
+    "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777025999
+    "updated_at": 1777033640
   },
   "usage/general/tab-slide-group-menu-items-into-tabs/index.md::fr": {
-    "src_hash": "42a4d4f2946bc0c2dd21bc1314af52057a1e02a55cad5feb39f256fb3e3d04e7",
+    "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026027
+    "updated_at": 1777033663
   },
   "usage/general/tab-slide-group-menu-items-into-tabs/index.md::de": {
-    "src_hash": "42a4d4f2946bc0c2dd21bc1314af52057a1e02a55cad5feb39f256fb3e3d04e7",
+    "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026060
+    "updated_at": 1777033668
   },
   "usage/general/tab-slide-group-menu-items-into-tabs/index.md::zh-cn": {
-    "src_hash": "42a4d4f2946bc0c2dd21bc1314af52057a1e02a55cad5feb39f256fb3e3d04e7",
+    "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026092
+    "updated_at": 1777033688
   },
   "usage/general/tab-slide-group-menu-items-into-tabs/index.md::jp": {
-    "src_hash": "42a4d4f2946bc0c2dd21bc1314af52057a1e02a55cad5feb39f256fb3e3d04e7",
+    "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026130
+    "updated_at": 1777033715
   },
   "usage/general/tab-slide-group-menu-items-into-tabs/index.md::it": {
-    "src_hash": "42a4d4f2946bc0c2dd21bc1314af52057a1e02a55cad5feb39f256fb3e3d04e7",
+    "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026155
+    "updated_at": 1777033734
   },
   "usage/general/tab-slide-group-menu-items-into-tabs/index.md::pt-br": {
-    "src_hash": "42a4d4f2946bc0c2dd21bc1314af52057a1e02a55cad5feb39f256fb3e3d04e7",
+    "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026183
+    "updated_at": 1777033755
   },
   "usage/general/tab-slide-group-menu-items-into-tabs/index.md::es": {
-    "src_hash": "42a4d4f2946bc0c2dd21bc1314af52057a1e02a55cad5feb39f256fb3e3d04e7",
+    "src_hash": "bb97be5c66eccaee23f4297900b9339ef43aaf62f873f4f8dfdc4b0f807a6dff",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777026210
+    "updated_at": 1777033773
   },
   "usage/menu-structure-and-css/index.md::vi": {
     "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",

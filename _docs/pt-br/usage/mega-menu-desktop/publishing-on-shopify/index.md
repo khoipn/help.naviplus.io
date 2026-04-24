@@ -11,24 +11,24 @@ title: Publicando no Shopify
 
 #### **I) MÉTODO 1: INSERIR (ANTES OU DEPOIS) ESTE MENU EM UM LOCAL ESPECÍFICO EM SEU SITE, OU SUBSTITUIR UM MENU EXISTENTE, USANDO UM SELETOR CSS. (**&#x52;ECOMMENDED)
 
-#### I.1. Ative o Navi+ em Embeds de App
+#### I.1. Ative o Navi+ em Embeds de Aplicativos
 
 Passo 1: Clique em Loja Online, depois clique em Temas. Dicas: Clique com o botão direito em Loja Online e selecione “Abrir Link em Nova Aba” para economizar tempo.
 
 Passo 2: Selecione o tema onde você deseja publicar o menu.  Clique: **Personalizar**
 
 * Se o seu site é novo e ainda não tem usuários, sinta-se à vontade para publicar o menu sem preocupações—você pode facilmente ativá-lo ou desativá-lo a qualquer momento sem afetar os visitantes.
-* Se o seu site já tem tráfego regular, seja mais cuidadoso. A melhor prática é criar um **Tema duplicado** e testar o Navi+ nessa versão primeiro.
+* Se o seu site já tem tráfego regular, seja mais cauteloso. A melhor prática é criar um **Tema duplicado** e testar o Navi+ nessa versão primeiro.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
-Passo 3: Vá para Embeds de App, encontre “Navi+ em Todas as páginas” e ative-o.
+Passo 3: Vá para Embeds de Aplicativos, encontre “Navi+ em Todas as páginas” e ative-o.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
 Passo 4: Não se esqueça de clicar em “Salvar” para aplicar as alterações.
 
-Após esses 4 passos, o Navi+ foi instalado em seu site e está pronto para exibir. No entanto, o processo ainda não está completo. Volte para a aba do app Navi+ para realmente ativar **Publicar Menu**.
+Após esses 4 passos, o Navi+ foi instalado em seu site e está pronto para exibir. No entanto, o processo ainda não está completo. Volte para a aba do aplicativo Navi+ para realmente ativar **Publicar Menu**.
 
 #### I.2. Selecione as configurações de exibição e publique o menu.
 
@@ -100,6 +100,17 @@ No entanto, (1) isso ajudará você a entender a ideia central, e (2) se você q
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instruções do Agente: Consultando Esta Documentação</h1>
+<p>Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.</p>
+<p>Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta <code>ask</code>:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.</p>
+<p>Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.</p>
 </details>
 
 **I.3. Importante! Otimize a velocidade do Mega Menu e a experiência do usuário (Modo de Substituição)**
@@ -115,12 +126,12 @@ Com este passo, você pode ocultar completamente o menu antigo e mostrar um efei
 <ol>
 <li>O Shopify prioriza o carregamento de seus próprios recursos primeiro.</li>
 <li>Depois, o Shopify carrega o conteúdo do tema.</li>
-<li>Finalmente, o Shopify carrega o conteúdo do app, mas não em nenhuma ordem específica.</li>
+<li>Finalmente, o Shopify carrega o conteúdo do aplicativo, mas não em nenhuma ordem específica.</li>
 </ol>
-<p>Isso significa que se você estiver usando vários apps, o Navi+ pode às vezes ser carregado mais tarde do que o esperado. É por isso que pode parecer mais lento em certos casos.</p>
+<p>Isso significa que se você estiver usando vários aplicativos, o Navi+ pode às vezes ser carregado mais tarde do que o esperado. É por isso que pode parecer mais lento em certos casos.</p>
 <hr />
 <h4>Qual é a minha solução?</h4>
-<p>Atualmente, o Navi+ tem alta prioridade ao carregar em sites Shopify. No entanto, ainda há um certo atraso. Vamos abordar esses problemas um a um aqui:</p>
+<p>Atualmente, o Navi+ tem alta prioridade ao carregar em sites Shopify. No entanto, ainda há um certo atraso. Vamos abordar esses problemas um por um aqui:</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fk4HYuop9Aq2GRnk4OEWT%2F2.1.png?alt=media&#x26;token=ddeb17b5-23d7-4870-b9ac-fb95b6e250b7" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F3CWBvH8fNoj0AHJJ68so%2F2.2.png?alt=media&#x26;token=8282df62-c2c4-4fba-a087-2eb6ea4e50dd" alt=""><figcaption></figcaption></figure>
@@ -131,13 +142,13 @@ Com este passo, você pode ocultar completamente o menu antigo e mostrar um efei
 <ul>
 <li>Adicione o sufixo <strong>(M)</strong> se você quiser que se aplique apenas em dispositivos móveis.</li>
 <li>Adicione o sufixo <strong>(D)</strong> se você quiser que se aplique apenas em desktop.</li>
-<li>Deixe sem sufixo se você quiser que se aplique em ambas as plataformas.</li>
+<li>Não deixe sufixo se você quiser que se aplique em ambas as plataformas.</li>
 </ul>
 </details>
 
 #### **II) MÉTODO 2: ADICIONAR ESTE MENU COMO UMA SEÇÃO/BLOCO NO TEMA DO SHOPIFY**
 
-Este método insere o menu adicionando um Bloco/Seção no seu tema Shopify. É uma abordagem tradicional, então não vou descrevê-la em detalhes. Com este método, você não precisa nem mesmo **“Ativar o Navi+ em Embeds de App”** como exigido no Passo 1 do Método 1.
+Este método insere o menu adicionando um Bloco/Seção no seu tema Shopify. É uma abordagem tradicional, então não vou descrevê-la em detalhes. Com este método, você não precisa nem mesmo **“Ativar o Navi+ em Embeds de Aplicativos”** como exigido no Passo 1 do Método 1.
 
 Copie o ID de Embed deste menu, depois insira no bloco chamado "Navi+ na Seção" nas Seções do Tema. Você pode adicionar um título, configurar a largura total e ajustar a margem para esta seção após adicioná-la.
 
@@ -151,4 +162,15 @@ Copie o ID de Embed deste menu, depois insira no bloco chamado "Navi+ na Seção
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instruções do Agente: Consultando Esta Documentação</h1>
+<p>Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.</p>
+<p>Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta <code>ask</code>:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.</p>
+<p>Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.</p>
 </details>

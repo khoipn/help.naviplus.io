@@ -85,22 +85,44 @@ Cependant, (1) cela vous aidera à comprendre l'idée principale, et (2) si vous
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instructions pour l'agent : Interroger cette documentation</h1>
+<p>Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.</p>
+<p>Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête <code>ask</code> :</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.</p>
+<p>Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.</p>
 </details>
 
 #### **II) MÉTHODE 2 : AJOUTEZ CE MENU EN TANT QUE SECTION/BLOC DANS LE THÈME SHOPIFY**
 
-Cette méthode insère le menu en ajoutant un Bloc/Section dans votre thème Shopify. C'est une approche traditionnelle, donc je ne vais pas la décrire en détail. Avec cette méthode, vous n'avez même pas besoin de **« Activer Navi+ dans les intégrations d'applications »** comme requis à l'étape 1 de la méthode 1.
+Cette méthode insère le menu en ajoutant un Bloc/Section dans votre thème Shopify. C'est une approche traditionnelle, donc je ne vais pas la décrire en détail. Avec cette méthode, vous n'avez même pas besoin d'**« Activer Navi+ dans les intégrations d'applications »** comme requis à l'étape 1 de la méthode 1.
 
 Copiez l'ID d'intégration de ce menu, puis insérez-le dans le bloc nommé "Navi+ sur Section" dans les Sections de Thème. Vous pouvez ajouter un titre, configurer la largeur complète et ajuster la marge pour cette section après l'avoir ajoutée.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
 <details><summary>Guide pour ajouter ce menu en tant que section/bloc dans le thème Shopify</summary>
-<p>Ci-dessous se trouve un guide détaillé sur l'insertion d'un menu Navi+ en tant que section/bloc dans votre thème Shopify. Cette méthode vous permet d'ajouter le menu de manière standard, prise en charge par Shopify, bien qu'elle ne soit pas aussi flexible que les autres méthodes fournies par Navi+.</p>
+<p>Voici un guide détaillé sur l'insertion d'un menu Navi+ en tant que section/bloc dans votre thème Shopify. Cette méthode vous permet d'ajouter le menu de manière standard, prise en charge par Shopify, bien qu'elle ne soit pas aussi flexible que les autres méthodes fournies par Navi+.</p>
 <p>Cette méthode s'applique aux <strong>Mega Menus</strong> et <strong>Grid Menus</strong>. Elle <strong>NE S'APPLIQUE PAS</strong> aux <strong>Tabbar</strong>, <strong>FAB</strong>, ou <strong>Slide Menus</strong>.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instructions pour l'agent : Interroger cette documentation</h1>
+<p>Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.</p>
+<p>Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête <code>ask</code> :</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>La question doit être spécifique, autonome et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.</p>
+<p>Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.</p>
 </details>

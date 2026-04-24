@@ -17,13 +17,13 @@ Navi+ è un **costruttore di navigazione senza codice** che rende facile creare 
 
 Scegli tra cinque potenti tipi di menu per soddisfare le tue esigenze:
 
-| Tipo di Menu        | Ideale per                                         |
-| ------------------- | -------------------------------------------------- |
-| **Tab Bar**         | Navigazione mobile-first, sembra un'app nativa     |
-| **Mega Menu**       | Dropdown ricchi con immagini, colonne e link       |
-| **Slide Menu**      | Menu hamburger fluidi con supporto multi-livello   |
-| **Grid Menu**       | Navigazione visiva delle categorie — ottimo per l'e-commerce  |
-| **Floating Button** | Azioni di accesso rapido sempre a portata di mano   |
+| Tipo di Menu       | Ideale per                                       |
+| ------------------- | ------------------------------------------------ |
+| **Tab Bar**         | Navigazione mobile-first, sembra un'app nativa   |
+| **Mega Menu**       | Dropdown ricchi con immagini, colonne e link     |
+| **Slide Menu**      | Menu hamburger fluidi con supporto multi-livello |
+| **Grid Menu**       | Navigazione visiva delle categorie — ottimo per l'e-commerce |
+| **Floating Button** | Azioni di accesso rapido sempre a portata di mano |
 
 ## Funziona con la tua piattaforma
 
@@ -52,21 +52,3 @@ Fondatore, Navi+
 
 📧 <khoipn@naviplus.io>\
 💬 WhatsApp: [+84 981 911 011](https://wa.me/84981911011 "+84 981 911 011")
-
-
----
-
-# Istruzioni per l'agente: Consultazione di questa documentazione
-
-Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
-
-Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/getting-started.md?ask=<question>
-```
-
-La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
-
-Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

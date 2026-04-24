@@ -12,7 +12,7 @@ title: Politique de confidentialité
 ### 1. Introduction
 
 Nous respectons votre vie privée.\
-Cette Politique de confidentialité explique comment **Navi+** (“nous”, “l'App”, “le Service”) collecte, utilise et protège les informations personnelles lorsque vous utilisez les produits et services de Navi+ sur des plateformes telles que **Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace**, et d'autres sites web auto-hébergés.
+Cette Politique de confidentialité explique comment **Navi+** (“nous”, “l'App”, “le Service”) collecte, utilise et protège les informations personnelles lorsque vous utilisez les produits et services Navi+ sur des plateformes telles que **Shopify, WordPress, WooCommerce, Wix, Webflow, Squarespace**, et d'autres sites web auto-hébergés.
 
 En utilisant Navi+, vous acceptez cette Politique de confidentialité.
 
@@ -52,7 +52,7 @@ Cette Politique s'applique à trois types d'utilisateurs :
 
 Nous utilisons vos données pour :
 
-* Faire fonctionner et livrer les services de Navi+.
+* Faire fonctionner et livrer les services Navi+.
 * Améliorer la performance, le design, et l'expérience utilisateur.
 * Fournir un support client et répondre aux demandes.
 * Envoyer des mises à jour ou notifications liées au service.
@@ -127,21 +127,3 @@ Pour des changements matériels, nous informerons les utilisateurs par e-mail ou
 Si vous avez des questions, des préoccupations ou des demandes concernant cette Politique de confidentialité, veuillez contacter :\
 **Email :** <khoipn@naviplus.io>\
 **Site web :** <https://naviplus.io>
-
-
----
-
-# Instructions de l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<question>
-```
-
-La question doit être spécifique, autonome, et rédigée en langage naturel.
-La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

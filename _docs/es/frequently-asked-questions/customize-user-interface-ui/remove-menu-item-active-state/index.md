@@ -9,7 +9,7 @@ title: ¿Eliminar el estado activo del elemento del menú?
 
 Por defecto, Navi+ verifica la URL de la página actual para mostrar el estado activo en el menú (usando un fondo gris). Esto ayuda a sus clientes a navegar más fácilmente.
 
-Sin embargo, el estado activo no siempre es necesario, especialmente en pantallas de escritorio amplias donde hay otras formas de indicar "dónde estás," como migas de pan. A veces, puede que desee eliminar el estado activo para que el menú se vea más limpio.
+Sin embargo, el estado activo no siempre es necesario, especialmente en pantallas de escritorio amplias donde hay otras formas de indicar "dónde estás," como las migas de pan. A veces, puede que desee eliminar el estado activo para que el menú se vea más limpio.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FAQCfjosVopNC9mXDDbII%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=1167aaa9-c22e-4102-9eb9-6e5ee10dc14a" alt=""><figcaption></figcaption></figure>
 
@@ -36,20 +36,3 @@ Método 2: Si desea eliminar todos los efectos activos en todos los menús de Na
   background: initial;
 }
 ```
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesita información adicional que no está directamente disponible en esta página, puede consultar la documentación dinámicamente haciendo una pregunta.
-
-Realice una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state.md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autónoma y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Utilice este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesite aclaraciones o contexto adicional, o desee recuperar secciones de documentación relacionadas.

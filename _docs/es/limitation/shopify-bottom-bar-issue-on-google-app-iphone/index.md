@@ -11,7 +11,7 @@ Esto se trata del problema de relleno inferior bajo la barra inferior cuando se 
 
 Cuando se accede a un sitio web de Shopify que utiliza **Navi+** (o cualquier aplicación con un menú inferior fijo, botones flotantes, etc.), los usuarios que abren el sitio web **dentro de la aplicación de Google en iPhone** pueden ver a veces un espacio en blanco inusual que aparece en la parte inferior de la pantalla.
 
-Este problema solo ocurre en la aplicación de Google y **no es causado por Navi+**. A continuación se presenta una explicación clara y sencilla.
+Este problema solo ocurre en la aplicación de Google y **no es causado por Navi+**. A continuación se presenta una explicación clara y simple.
 
 ***
 
@@ -63,7 +63,7 @@ Incluso si Navi+ está deshabilitado, otras aplicaciones de Shopify que muestran
 * Muchas aplicaciones de Shopify que incluyen una barra inferior o FAB experimentan el mismo problema exacto.
 * Incluso algunas funciones integradas de Shopify muestran un comportamiento similar dentro de la aplicación de Google.
 * Este es un problema bien conocido en la comunidad de desarrolladores, pero la aplicación de Google no lo ha abordado.
-* El problema desaparece tan pronto como el usuario **toca en cualquier parte de la pantalla** → la aplicación de Google fuerza un nuevo renderizado y recalcula la altura correcta.
+* El problema desaparece tan pronto como el usuario **toca en cualquier parte de la pantalla** → la aplicación de Google fuerza un re-renderizado y recalcula la altura correcta.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FIJeUOw7iYKzsFXSLVQK3%2FEx-1.1.2.png?alt=media&#x26;token=c2c351d9-10fd-47ed-bbef-1e436ab3ac4f" alt=""><figcaption></figcaption></figure>
 
@@ -71,7 +71,7 @@ Incluso si Navi+ está deshabilitado, otras aplicaciones de Shopify que muestran
 
 ### 5. Solución actual de Navi+
 
-Navi+ ha investigado y probado múltiples enfoques, pero dado que el problema se origina en la propia aplicación de Google, no puede resolverse por completo.
+Navi+ ha investigado y probado múltiples enfoques, pero dado que el problema se origina en la propia aplicación de Google, no puede ser completamente resuelto.
 
 Sin embargo, Navi+ ha implementado la **mejor mitigación posible**:
 
@@ -86,7 +86,7 @@ Cuando esto sucede, Navi+ activa un mecanismo de corrección único. Tan pronto 
 
 * toca ligeramente la pantalla
 * desplaza un poco
-* o interactúa de alguna manera pequeña
+* o interactúa de cualquier manera pequeña
 
 #### ✔️ El problema desaparece automáticamente
 
@@ -115,20 +115,3 @@ Este mensaje está diseñado para usuarios no técnicos:
 ✔️ Un error de visualización en la aplicación de Google en iPhone
 ✔️ Navi+ minimiza el problema para que aparezca solo una vez y luego desaparezca
 ✔️ Safari/Chrome no se ven afectados en absoluto
-
----
-
-# Instrucciones para el agente: Consultando esta documentación
-
-Si necesitas información adicional que no esté directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/limitation/shopify-bottom-bar-issue-on-google-app-iphone.md?ask=<question>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

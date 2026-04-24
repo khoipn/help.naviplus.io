@@ -1,57 +1,40 @@
 ---
-description: No todos son expertos en tecnología o diseño UI/UX, lo que dificulta crear una navegación de sitio web optimizada. Navi+ Care proporciona una solución completa para...
+description: Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to...
 lang: es
 layout: default
 permalink: /es/docs/partership/navi-care-or-design-your-menus-like-an-expert/
-title: Navi+ Care | Diseña tus menús como un experto
+title: Navi+ Care | Design your menus like an expert
 ---
-# Navi+ Care | Diseña tus menús como un experto
+# Navi+ Care | Design your menus like an expert
 
-No todos son expertos en tecnología o diseño UI/UX, lo que dificulta crear una navegación de sitio web optimizada. Navi+ Care proporciona una solución completa para diseñar menús que sean estéticos y fáciles de usar.
+Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to design menus that are both aesthetic and user-friendly.
 
-### ¿Cómo trabajar?
+### How to work?
 
-**Paso 1: Regístrate en Navi+ Care: $120.0 USD** por un pago único válido por tres meses. Después de eso, contáctanos por correo electrónico o WhatsApp, y podemos comenzar de inmediato.
+**Step 1: Register Navi+ Care: $120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
 
-**Paso 2: Diseña y prueba de manera iterativa:** Diseñaremos algunas opciones en Figma, clonaremos tu tema, luego implementaremos menús en vivo aquí para asegurarnos de que cumplan con tus necesidades y te hagan feliz.
+**Step 2: Design and test iteratively:** We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
 
-**Paso 3: Publica tus menús:** Publica el menú para tus visitantes. Proporcionaremos un archivo de Word detallado que contiene: ayuda, CSS y un documento importante de código JS.
-
-***
-
-### ¿Por qué este servicio es adecuado para ti?
-
-Elegir el menú adecuado para tu sitio web puede ser un desafío: ¿una barra inferior para móviles, un menú de cuadrícula para la página de inicio, un mega menú para escritorio, un Floating Action Button (FAB) para soporte y un menú deslizante para navegación completa?
-
-* Puede que necesites personalizar los colores, fuentes y estilo de tu menú para que coincidan con el diseño de tu sitio web, pero te sientas poco familiarizado con las herramientas.
-* Puede que necesites comentarios de expertos en UI/UX sobre si el diseño de tu menú es visualmente atractivo y optimizado.
-* Puede que necesites ideas únicas para un menú que distinga tu sitio web.
-* Puede que necesites actualizar tu menú actual a un nuevo nivel, pero carezcas del tiempo o la experiencia.
-* Puede que necesites construir un menú desde cero o desde un archivo de Excel, o requieras asesoramiento y apoyo profesional.
+**Step 3: Golive your menus:** Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
 
 ***
 
-### ¿Cuáles son los requisitos para usar este servicio?
+### Why is this service right for you?
 
-1\. debes suscribirte a un plan de pago de Navi+ (Business o Elite), ya sea mensual o anualmente. Esto asegura el acceso completo para agregar, editar o eliminar menús y subir imágenes. Para sitios web que necesiten más de cuatro menús, puede ser necesario actualizar al plan Elite.
+Choosing the right menu for your website can be challenging - a bottom bar for mobile, a grid menu for the homepage, a mega menu for desktop, a Floating Action Button (FAB) for support, and a slide menu for full navigation?
 
-2\. Puede que necesites otorgarnos acceso básico a tu sitio web de Shopify. Esto nos permite crear y modificar menús de Navi+, agregar código CSS y JS, y optimizar el rendimiento y la experiencia del usuario.
+* You may need to customize your menu's colors, fonts, and style to match your website's design but feel unfamiliar with the tools.
+* You may need feedback from UI/UX experts on whether your menu design is visually appealing and optimized.
+* You may need unique ideas for a menu that sets your website apart.
+* You may need to upgrade your current menu to a new level but lack the time or expertise.
+* You may need to build a menu from scratch or from an Excel file, or require professional advice and support.
+
+***
+
+### What are the requirements to use this service?
+
+1\. you must subscribe to a paid Navi+ plan (Business or Elite), either monthly or annually. This ensures full access to add, edit, or delete menus and upload images. For websites needing more than four menus, an upgrade to the Elite plan may be required.
+
+2\. You may need to grant us basic access to your Shopify website. This allows us to create and modify Navi+ menus, add CSS and JS code, and optimize performance and user experience.
 
 <br>
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/partership/navi+-care-or-design-your-menus-like-an-expert.md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autónoma y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

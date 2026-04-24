@@ -40,7 +40,7 @@ Schritt 2: Aktivieren Sie den Schalter "Menü veröffentlichen durch Einfügen/E
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
-Schritt 3: Wählen Sie den richtigen CSS-Selector und die Ersetzen/Einfugen-Methode
+Schritt 3: Wählen Sie den richtigen CSS-Selector und die Ersetzen/Einfügen-Methode
 
 In diesem Leitfaden konzentrieren wir uns auf 2 Möglichkeiten: dieses Menü unter dem Header einzufügen oder das Standard-Mega-Menü zu ersetzen. Sie können diese Methode auch kreativ nutzen, indem Sie andere CSS-Selectoren finden und anwenden, um das Menü auszulösen.
 
@@ -100,6 +100,17 @@ Allerdings wird (1) dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn S
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Agenten-Anweisungen: Abfragen dieser Dokumentation</h1>
+<p>Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.</p>
+<p>Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem <code>ask</code> Abfrageparameter aus:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.</p>
+<p>Verwenden Sie diesen Mechanismus, wenn die Antwort nicht explizit auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.</p>
 </details>
 
 **I.3. Wichtig! Optimieren Sie die Geschwindigkeit und Benutzererfahrung des Mega Menüs (Ersetzungsmodus)**
@@ -137,7 +148,7 @@ Mit diesem Schritt können Sie das alte Menü vollständig ausblenden und stattd
 
 #### **II) METHODE 2: FÜGEN SIE DIESES MENÜ ALS ABSCHNITT/BLOCK IM SHOPIFY-THEME HINZU**
 
-Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie es in Schritt 1 der Methode 1 erforderlich ist.
+Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie in Schritt 1 der Methode 1 erforderlich.
 
 Kopieren Sie die Einbettungs-ID dieses Menüs und fügen Sie sie in den Block mit dem Namen "Navi+ auf Abschnitt" in den Theme-Abschnitten ein. Sie können einen Titel hinzufügen, die volle Breite einstellen und den Abstand für diesen Abschnitt nach dem Hinzufügen anpassen.
 
@@ -151,4 +162,15 @@ Kopieren Sie die Einbettungs-ID dieses Menüs und fügen Sie sie in den Block mi
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Agenten-Anweisungen: Abfragen dieser Dokumentation</h1>
+<p>Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.</p>
+<p>Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem <code>ask</code> Abfrageparameter aus:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
+Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.</p>
+<p>Verwenden Sie diesen Mechanismus, wenn die Antwort nicht explizit auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.</p>
 </details>

@@ -1,24 +1,24 @@
 ---
-description: Navi+は、すべてのウェブサイトに対してほぼ完全な機能を備えたトライアルパッケージを提供しています。ただし、一定期間後、あなたのウェブサイトへの訪問者数（訪問者数はNavi+がウェブサイトに表示されているときにカウントされます）が...
+description: Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are cou...
 lang: jp
 layout: default
 permalink: /jp/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-title: Navi+プラン (Starter, Business & Elite)
+title: Navi+ plans (Starter, Business & Elite)
 ---
-# Navi+プラン (Starter, Business & Elite)
+# Navi+ plans (Starter, Business & Elite)
 
-#### 質問 1: 私のStarterプランが50,000訪問を超えた場合、どうなりますか？
+#### Question 1: What happens when my Starter plan exceeds 50,000 visits?
 
-Navi+は、すべてのウェブサイトに対してほぼ完全な機能を備えたトライアルパッケージを提供しています。ただし、一定期間後、あなたのウェブサイトへの訪問者数（訪問者数はNavi+がウェブサイトに表示されているときにカウントされます）が50,000を超えると、あなたのアカウントは自動的にアップグレードのフラグが立てられます。私たちは以下のアクションを取ります：
+Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are counted when Navi+ is displayed on the website) exceed 50,000, your account will automatically be flagged for an upgrade. We will take the following actions:
 
-1. 私たちは、あなたのNavi+ Starterプランの状況について通知するために複数のメールを送信します（通知を受け取ることを確認してください。これは重要です）。通知を受け取ったら、BusinessやEliteのような上位プランへのアップグレードを検討してください。
-2. 情報を受け取らない場合や、あなたのウェブサイトが上位プランへのアップグレードを意図しない場合、私たちはあなたのメニューに小さなNavi+広告を表示し始めます。広告のサイズはユーザーのインタラクションに影響を与えませんが、メニューがNavi+によって提供されていることをユーザーが理解できる程度には目立つでしょう。私たちは、時間の経過とともに広告の可視性を徐々に増加させることを検討します。これにより、Navi+はより多くの人々にリーチし、他の顧客からの追加収益を生み出します。
-3. 現在あなたのサイトに表示されているNavi+の機能を無効にしたり削除したりすることはありません。これらの機能があなたのウェブサイトでのユーザーインタラクションにとって重要であることを十分に理解しているため、これは厳格に避けることにします。
+1. We will send multiple emails to notify you about the status of your Navi+ Starter plan (Please ensure you receive our notifications, as this is crucial). Upon receiving the notification, consider upgrading your account to a higher plan like Business or Elite.
+2. If you do not receive the information or if your website does not intend to upgrade to a higher plan, we will start displaying small Navi+ ads on your menus. The size of the ads will not affect user interaction but will be noticeable enough for users to understand that the menu is powered by Navi+. We will consider gradually increasing the visibility of the ads over time, from very subtle to more noticeable. This helps Navi+ reach more people and generates additional revenue from other customers.
+3. We will not disable or remove any features of Navi+ that are currently displayed on your site. We fully understand that these features are crucial for user interaction on your website, so this is something we will strictly avoid.
 
-#### 質問 2: BusinessまたはEliteからStarterにダウングレードした場合、すべての機能が残っているように見えるのはどうなりますか？
+#### Question 2: What happens if you downgrade from Business or Elite back to Starter, yet it seems like all the features remain?
 
-私たちは、機能とユーザーエクスペリエンスがあなたの顧客にとって重要であることを理解しているため、メニューの機能が隠されたり削除されたりすることはありません。ただし、私たちには毎日スキャンを行うシステムがあります。この状況を検出すると、上位プランへのアップグレードを促すためにメール通知を送信します。これらのメール通知は、あまりにも多くのメッセージで圧倒されないように、時間をかけて間隔を空けて送信されます。BusinessまたはEliteプランに戻ることを選択しない場合、Navi+は質問1で説明したように広告を表示し始めます。
+We understand that features and user experience are crucial for your customers, so we ensure that no features on your menu will be hidden or removed. However, we have a system that performs a daily scan. As soon as it detects that your website is in this situation, we will send you an email notification to encourage you to upgrade to a higher plan. These email notifications will be spaced out over time to avoid overwhelming you with too many messages. If you choose not to upgrade back to the Business or Elite plans, Navi+ will start displaying ads as explained in Question 1.
 
-#### 質問 3: Businessプランの制限を超えた場合（例：500,000 Navi+ビュー/月を超える）どうなりますか？
+#### Question 3: What happens if I exceed the limit on the Business plan (e.g., more than 500,000 Navi+ views/month)?
 
-前の質問と同様に、Navi+はメニュー機能を隠したり削除したりすることはありません。ただし、制限を超えた場合、Eliteプランへのアップグレードを検討するためのメール通知が送信された後、メニューに広告が表示されることがあります。
+As with the previous questions, Navi+ will not hide or remove any menu features. However, once the limit is exceeded, and after email notifications are sent to you to consider upgrading to the Elite plan, ads may be displayed on your menu until the start of a new monthly cycle.

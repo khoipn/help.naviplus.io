@@ -9,4 +9,4 @@ title: Shopify Inbox
 
 Syntax: **open:Inbox**
 
-Open chat box of Shopify Inbox and hide the default float button (FAB) to save space.
+Öffnen Sie das Chat-Fenster von Shopify Inbox und blenden Sie die standardmäßige schwebende Schaltfläche (FAB) aus, um Platz zu sparen.

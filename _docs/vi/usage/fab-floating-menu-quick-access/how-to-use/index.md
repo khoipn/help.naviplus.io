@@ -31,7 +31,7 @@ Một **FAB (Nút Hành Động Nổi)** là một menu đơn giản luôn nổi
 </details>
 
 <details><summary><strong>4. Tôi nên tạo chỉ một menu hay nhiều menu?</strong></summary>
-<p>Bạn nên tạo <strong>nhiều menu</strong>. Chỉ menu <strong>đang hoạt động</strong> mới hiển thị trên trang web của bạn, nhưng bạn có thể chuẩn bị nhiều phiên bản — bằng cách chọn các mẫu khác nhau hoặc nhân bản các menu. Các menu có thể được cấu hình để hiển thị/ẩn dựa trên loại trang (trang chủ, sản phẩm, bộ sưu tập...), thiết bị (di động hoặc máy tính để bàn), hoặc từ khóa URL. Vậy hãy tiếp tục và xây dựng các menu phù hợp với từng tình huống!</p>
+<p>Bạn nên tạo <strong>nhiều menu</strong>. Chỉ có menu <strong>đang hoạt động</strong> mới hiển thị trên trang web của bạn, nhưng bạn có thể chuẩn bị nhiều phiên bản — bằng cách chọn các mẫu khác nhau hoặc nhân bản các menu. Các menu có thể được cấu hình để hiển thị/ẩn dựa trên loại trang (trang chủ, sản phẩm, bộ sưu tập...), thiết bị (di động hoặc máy tính để bàn), hoặc từ khóa URL. Vậy hãy tiếp tục và xây dựng các menu phù hợp với từng tình huống!</p>
 </details>
 
 ### Bước 1: Chỉnh sửa cây menu
@@ -82,14 +82,14 @@ Nếu bạn thích những tính năng nâng cao này, hãy xem xét nâng cấp
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fpstdwu2GBy4wymYsInJe%2FHelp.MenuTree.1.1.3b.png?alt=media&#x26;token=8a2ebfc9-2cbc-4efb-a1b4-fec1fd621ec8" alt=""><figcaption></figcaption></figure>
 
 {% comment %}hint style="info" {% endcomment %}
-**Mẹo Quan Trọng:** Khi xác nhận xóa xuất hiện, hãy bật “Đừng hỏi lại lần sau” để xóa nhanh hơn.
+**Mẹo quan trọng:** Khi xác nhận xóa xuất hiện, hãy bật “Đừng hỏi lại lần sau” để xóa nhanh hơn.
 {% comment %}endhint{% endcomment %}
 
 #### 1.4. Thêm các mục menu vào Cây Menu
 
 Để thêm một mục menu, bạn có hai tùy chọn:
 
-**Tùy chọn 1&#x20;**<mark style="background-color:$warning;">**(Không được khuyến nghị nếu bạn mới sử dụng Navi+)**</mark>**:** Nhấp vào “Thêm menu” để chèn một mục menu trống ở cuối cây menu. Phương pháp này yêu cầu hiểu biết tốt về cài đặt mục menu, mà chúng tôi sẽ đề cập bên dưới. Nó có thể cảm thấy choáng ngợp lúc đầu, vì vậy bạn có thể khám phá điều này sau.
+**Tùy chọn 1&#x20;**<mark style="background-color:$warning;">**(Không được khuyến nghị nếu bạn mới sử dụng Navi+)**</mark>**:** Nhấp vào “Thêm menu” để chèn một mục menu trống ở cuối cây menu. Phương pháp này yêu cầu bạn phải hiểu rõ về các cài đặt mục menu, mà chúng tôi sẽ đề cập bên dưới. Nó có thể cảm thấy choáng ngợp lúc đầu, vì vậy bạn có thể khám phá điều này sau.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 
@@ -103,7 +103,7 @@ Nếu bạn thích những tính năng nâng cao này, hãy xem xét nâng cấp
 
 #### 2.1. Bật Navi+ trên Ứng dụng Nhúng
 
-Bước 1: Nhấp vào Cửa hàng Trực tuyến, sau đó nhấp vào Chủ đề. Mẹo: Nhấp chuột phải vào Cửa hàng Trực tuyến và chọn “Mở Liên kết trong Tab Mới” để tiết kiệm thời gian.
+Bước 1: Nhấp vào Cửa hàng trực tuyến, sau đó nhấp vào Chủ đề. Mẹo: Nhấp chuột phải vào Cửa hàng trực tuyến và chọn “Mở liên kết trong tab mới” để tiết kiệm thời gian.
 
 Bước 2: Chọn chủ đề mà bạn muốn xuất bản menu.  Nhấp: **Tùy chỉnh**
 
@@ -129,21 +129,3 @@ Bước 1: Nhấp vào nút **Xuất bản lên trang web**.
 Bước 2: Chọn cài đặt hiển thị sau đó XUẤT BẢN MENU.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Hướng dẫn cho Đại lý: Truy vấn Tài liệu này
-
-Nếu bạn cần thêm thông tin mà không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md?ask=<câu hỏi>
-```
-
-Câu hỏi nên cụ thể, tự chứa, và viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn lấy các phần tài liệu liên quan.

@@ -37,21 +37,3 @@ title: Shopifyでの公開
 ステップ2: 表示設定を選択し、次にメニューを公開します。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# エージェントの指示: このドキュメントの照会
-
-このページに直接利用可能でない追加情報が必要な場合は、質問をしてドキュメントを動的に照会できます。
-
-現在のページのURLに`ask`クエリパラメータを付けてHTTP GETリクエストを実行します:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md?ask=<question>
-```
-
-質問は具体的で自己完結しており、自然言語で書かれている必要があります。
-回答には、質問への直接的な回答と、ドキュメントからの関連する抜粋や情報源が含まれます。
-
-このメカニズムは、回答が現在のページに明示的に存在しない場合、明確化や追加のコンテキストが必要な場合、または関連するドキュメントセクションを取得したい場合に使用してください。

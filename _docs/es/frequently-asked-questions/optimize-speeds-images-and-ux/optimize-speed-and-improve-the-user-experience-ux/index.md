@@ -7,7 +7,7 @@ title: Optimizar la velocidad y mejorar la experiencia del usuario (UX).
 ---
 # Optimizar la velocidad y mejorar la experiencia del usuario (UX).
 
-#### ¿Por qué necesitas hacer esto? ¿No es Navi+ ya rápido?
+#### ¿Por qué necesitas hacer esto? ¿No es ya Navi+ rápido?
 
 Navi+ es muy rápido. Está completamente desplegado en una CDN líder con muy baja latencia (alrededor de 100ms) y puede atender a millones de clientes sin desacelerarse.
 
@@ -48,21 +48,3 @@ Nota:
 * Agrega el sufijo **(M)** si deseas que se aplique solo en móvil.
 * Agrega el sufijo **(D)** si deseas que se aplique solo en escritorio.
 * No dejes sufijo si deseas que se aplique en ambas plataformas.
-
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autosuficiente y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

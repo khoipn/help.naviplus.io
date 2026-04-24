@@ -23,7 +23,7 @@ Questo significa che se stai utilizzando più app, Navi+ potrebbe essere caricat
 
 ### Qual è la mia soluzione?
 
-Attualmente, Navi+ ha alta priorità quando viene caricato sui siti web Shopify. Tuttavia, c'è ancora un certo ritardo. Affronteremo questi problemi uno per uno qui:
+Attualmente, Navi+ ha alta priorità durante il caricamento sui siti web Shopify. Tuttavia, c'è ancora un certo ritardo. Affronteremo questi problemi uno per uno qui:
 
 #### Slide Menu: Aggiungi un effetto di caricamento e blocca il selettore del trigger
 
@@ -48,21 +48,3 @@ Nota:
 * Aggiungi il suffisso **(M)** se vuoi che si applichi solo su mobile.
 * Aggiungi il suffisso **(D)** se vuoi che si applichi solo su desktop.
 * Non lasciare alcun suffisso se vuoi che si applichi su entrambe le piattaforme.
-
-
----
-
-# Istruzioni per l'agente: Consultare questa documentazione
-
-Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
-
-Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md?ask=<question>
-```
-
-La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
-
-Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

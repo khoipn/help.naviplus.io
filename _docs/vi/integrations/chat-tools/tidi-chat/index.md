@@ -9,7 +9,7 @@ title: Tidi chat
 
 Link: <https://www.tidio.com/>
 
-### 1. Mở Tidi chat và sử dụng tùy chọn menu Navi+ để truy cập chức năng này
+### 1. Open the Tidi chat and use the Navi+ menu option to access this function
 
 ```javascript
 // Add a javascript function
@@ -24,7 +24,7 @@ function openTidi() {
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F7aHCZOgPajVlXFqfCGU7%2FScreenshot%202025-07-22%20at%2016.57.03.png?alt=media&#x26;token=f7edc16d-7994-484b-823a-ebbb8bacc67e" alt=""><figcaption></figcaption></figure>
 
-### 2. Di chuyển biểu tượng Tidi chat lên trên để tránh chồng chéo với menu
+### 2. Move the Tidi chat icon upward to prevent it from overlapping with the menu
 
 ```javascript
 // Call the functions:
@@ -39,21 +39,4 @@ if (document.readyState === 'complete') {
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FG9dxqDH39htPfxm6q7hh%2FScreenshot%202025-07-22%20at%2017.00.17.png?alt=media&#x26;token=888fb217-6566-4edd-999c-0e2f25380240" alt=""><figcaption></figcaption></figure>
 
-Đặt một khoảng cách 50px để di chuyển Tidi chat lên hoặc xuống, tùy theo nhu cầu
-
----
-
-# Hướng dẫn cho nhân viên: Hỏi về tài liệu này
-
-Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/integrations/chat-tools/tidi-chat.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa, và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa câu trả lời trực tiếp cho câu hỏi và các đoạn trích dẫn và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trên trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn lấy các phần tài liệu liên quan.
+Set a 50px offset to move the Tidi chat up or down, as needed

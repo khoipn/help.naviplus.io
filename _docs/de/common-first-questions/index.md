@@ -20,7 +20,7 @@ Jede Website. Für Shopify verwenden Sie die dedizierte App. Für alles andere m
 #### Wie installiere ich Navi+?
 
 * **Shopify:** Installieren Sie aus dem [Shopify App Store](https://apps.shopify.com/pronavi-navigation-design "Shopify App Store")
-* **Andere Plattformen:** Melden Sie sich unter [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app") an, erklären Sie Ihre Domain und betten Sie dann den Snippet ein.
+* **Andere Plattformen:** Melden Sie sich unter [dash.naviplus.app](https://dash.naviplus.app/ "dash.naviplus.app") an, erklären Sie Ihre Domain und betten Sie dann das Snippet ein.
 
 #### Kann ich Navi+ ausprobieren, bevor ich es einrichte?
 
@@ -64,7 +64,7 @@ Ja. Fügen Sie CSS hinzu, das auf das Menü oder die gesamte Website beschränkt
 
 Ja. Verwenden Sie den integrierten Simulator und veröffentlichen Sie dann sicher mit URL-basierten Anzeige-Regeln, um zuerst auf einer bestimmten Seite zu testen.
 
-#### Kann das Menü nur auf bestimmten Seiten erscheinen?
+#### Kann das Menü nur auf bestimmten Seiten angezeigt werden?
 
 Ja. Steuern Sie die Sichtbarkeit nach Seiten-URL, Gerätetyp (mobil/Desktop) oder Anmeldestatus.
 
@@ -90,24 +90,6 @@ Ja. Menüs werden als JSON gespeichert – Sie können die Datei exportieren, ma
 
 ***
 
-### Sehen Sie Ihre Frage hier nicht?
+### Ihre Frage hier nicht gefunden?
 
 Kontaktieren Sie uns über [WhatsApp](https://wa.me/84981911011 "WhatsApp") oder per E-Mail an <khoipng@naviplus.io>.
-
-
----
-
-# Agentenanweisungen: Abfragen dieser Dokumentation
-
-Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
-
-Führen Sie eine HTTP GET-Anfrage an der aktuellen Seiten-URL mit dem `ask` Abfrageparameter aus:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md?ask=<question>
-```
-
-Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
-
-Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie Klarstellungen oder zusätzliche Kontexte benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

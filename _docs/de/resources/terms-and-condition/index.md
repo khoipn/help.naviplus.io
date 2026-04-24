@@ -54,7 +54,7 @@ Sie behalten das volle Eigentum an allen **Inhalten, Bildern, Daten und Material
 
 Durch die Nutzung des Dienstes gewähren Sie Navi+ eine **nicht-exklusive, weltweite, gebührenfreie Lizenz**, um Ihre Inhalte **nur zum Zweck des Betriebs und der Verbesserung des Dienstes** zu speichern, zu verarbeiten und anzuzeigen.
 
-Navi+ erhebt keinen Anspruch auf das Eigentum oder die Nutzung Ihrer Inhalte für Marketing, Wiederverkauf oder andere nicht verwandte Zwecke.\ Alle Rechte verbleiben bei Ihnen.
+Navi+ erhebt keinen Anspruch auf Eigentum oder Nutzung Ihrer Inhalte für Marketing, Wiederverkauf oder andere nicht verwandte Zwecke.\ Alle Rechte verbleiben bei Ihnen.
 
 ***
 
@@ -100,24 +100,6 @@ Diese Bedingungen unterliegen den Gesetzen von **Singapur** und sind nach diesen
 
 ### 10. Kontakt und Unterstützung
 
-Wenn Sie auf Probleme stoßen oder Fragen haben, kontaktieren Sie bitte das **Navi+ Support-Team** – unabhängig von Ihrem Plan.\ Wir schätzen jede Nachricht aufrichtig. Ihr Feedback hilft uns nicht nur, Ihr Problem zu lösen, sondern auch, die Bedürfnisse der Benutzer zu verstehen und Navi+ weiter zu verbessern.
+Wenn Sie auf Probleme stoßen oder Fragen haben, kontaktieren Sie bitte das **Navi+ Support-Team** — unabhängig von Ihrem Plan.\ Wir schätzen jede Nachricht aufrichtig. Ihr Feedback hilft uns nicht nur, Ihr Problem zu lösen, sondern auch, die Bedürfnisse der Benutzer zu verstehen und Navi+ weiter zu verbessern.
 
 **E-Mail:** <khoipn@naviplus.io>\ **Website:** <https://naviplus.io>
-
-
----
-
-# Anweisungen für Agenten: Abfragen dieser Dokumentation
-
-Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
-
-Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md?ask=<question>
-```
-
-Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
-
-Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf dieser Seite vorhanden ist, Sie eine Klärung oder zusätzliche Informationen benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

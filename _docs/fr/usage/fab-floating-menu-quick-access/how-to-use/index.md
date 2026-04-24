@@ -23,7 +23,7 @@ Un **FAB (Floating Action Button)** est un menu simple qui flotte toujours en ba
 </details>
 
 <details><summary><strong>2. Créer un menu ici le fait-il apparaître sur mon site web immédiatement ?</strong></summary>
-<p>Pas encore. Vous devrez <strong>publier</strong> le menu correct pour qu'il apparaisse sur votre site web. Ne vous inquiétez pas — c'est facile !</p>
+<p>Pas encore. Vous devrez <strong>publier</strong> le bon menu pour qu'il apparaisse sur votre site web. Ne vous inquiétez pas — c'est facile !</p>
 </details>
 
 <details><summary><strong>3. Que faire si je choisis le mauvais modèle ou fais une erreur ?</strong></summary>
@@ -31,7 +31,7 @@ Un **FAB (Floating Action Button)** est un menu simple qui flotte toujours en ba
 </details>
 
 <details><summary><strong>4. Dois-je créer un seul menu ou plusieurs ?</strong></summary>
-<p>Vous devriez créer <strong>plusieurs menus</strong>. Seul le menu <strong>actif</strong> s'affichera sur votre site, mais vous pouvez préparer de nombreuses versions — en sélectionnant différents modèles ou en clonant des menus. Les menus peuvent être configurés pour s'afficher/masquer en fonction du type de page (accueil, produit, collection...), de l'appareil (mobile ou bureau), ou des mots-clés d'URL. Alors allez-y et construisez des menus qui s'adaptent à chaque situation !</p>
+<p>Vous devriez créer <strong>plusieurs menus</strong>. Seul le menu <strong>actif</strong> s'affichera sur votre site, mais vous pouvez préparer de nombreuses versions — en sélectionnant différents modèles ou en clonant des menus. Les menus peuvent être configurés pour s'afficher/masquer en fonction du type de page (accueil, produit, collection...), de l'appareil (mobile ou bureau) ou des mots-clés d'URL. Alors allez-y et construisez des menus qui s'adaptent à chaque situation !</p>
 </details>
 
 ### Étape 1 : Modifier l'arbre de menu
@@ -65,15 +65,15 @@ Vous pouvez faire glisser et déposer des éléments de menu vers le haut et ver
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FOjwwfWQFThvk6rmLU8D7%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=98bdcda6-25c8-4793-8936-fb7d594d2b43" alt=""><figcaption></figcaption></figure>
 
-Lorsque vous survolez un élément de menu, vous verrez des options supplémentaires : modifier les détails de l'élément, le supprimer de l'arbre de menu, ou le copier et le coller ailleurs.
+Lorsque vous survolez un élément de menu, vous verrez des options supplémentaires : modifier les détails de l'élément, le supprimer de l'arbre de menu ou le copier et le coller ailleurs.
 
 {% comment %}hint style="info" {% endcomment %}
 **Astuce :** Vous pouvez copier un élément de menu d'un menu à un autre en ouvrant l'application Navi+ dans deux onglets de navigateur.
 {% comment %}endhint{% endcomment %}
 
-#### 1.3. IMPORTANT ! Supprimez les éléments de menu d'exemple et gardez uniquement la structure que vous souhaitez.
+#### 1.3. IMPORTANT ! Supprimez les éléments de menu d'exemple et conservez uniquement la structure que vous souhaitez.
 
-C'est une situation courante lors de la création d'un menu avec Navi+. Lorsque vous créez un nouveau menu, nous incluons un exemple complet avec des éléments de menu populaires pour montrer des idées de mise en page et vous permettre de copier/coller au besoin. Cependant, si vous êtes nouveau sur Navi+ et utilisez le plan Starter, vous verrez de nombreux avertissements rouges (i) pour des fonctionnalités qui ne sont pas disponibles, comme le téléchargement d'images ou l'utilisation d'interactions avancées.
+C'est une situation courante lors de la création d'un menu avec Navi+. Lorsque vous créez un nouveau menu, nous incluons un exemple complet avec des éléments de menu populaires pour montrer des idées de mise en page et vous permettre de copier/coller au besoin. Cependant, si vous êtes nouveau dans Navi+ et utilisez le plan Starter, vous verrez de nombreux avertissements rouges (i) pour des fonctionnalités qui ne sont pas disponibles, comme le téléchargement d'images ou l'utilisation d'interactions avancées.
 
 Si vous aimez ces fonctionnalités avancées, envisagez de passer à un plan Business ou Elite. Mais si vous souhaitez continuer avec le plan Starter, veuillez trouver et supprimer les éléments de menu avec des avertissements rouges (i).
 
@@ -89,7 +89,7 @@ Si vous aimez ces fonctionnalités avancées, envisagez de passer à un plan Bus
 
 Pour ajouter un élément de menu, vous avez deux options :
 
-**Option 1&#x20;**<mark style="background-color:$warning;">**(Non recommandé si vous êtes nouveau sur Navi+)**</mark>**:** Cliquez sur « Ajouter un menu » pour insérer un élément de menu vide à la fin de l'arbre de menu. Cette méthode nécessite une bonne compréhension des paramètres des éléments de menu, que nous aborderons ci-dessous. Cela peut sembler écrasant au début, donc vous pouvez explorer cela plus tard.
+**Option 1&#x20;**<mark style="background-color:$warning;">**(Non recommandé si vous êtes nouveau dans Navi+)**</mark>** :** Cliquez sur « Ajouter un menu » pour insérer un élément de menu vide à la fin de l'arbre de menu. Cette méthode nécessite une bonne compréhension des paramètres des éléments de menu, que nous aborderons ci-dessous. Cela peut sembler écrasant au début, donc vous pouvez explorer cela plus tard.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 
@@ -103,7 +103,7 @@ Pour ajouter un élément de menu, vous avez deux options :
 
 #### 2.1. Activer Navi+ sur les intégrations d'applications
 
-Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Astuces : Cliquez avec le bouton droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.
+Étape 1 : Cliquez sur Boutique en ligne, puis cliquez sur Thèmes. Conseils : Cliquez avec le bouton droit sur Boutique en ligne et sélectionnez « Ouvrir le lien dans un nouvel onglet » pour gagner du temps.
 
 Étape 2 : Sélectionnez le thème où vous souhaitez publier le menu.  Cliquez : **Personnaliser**
 
@@ -129,20 +129,3 @@ Après ces 4 étapes, Navi+ a été installé sur votre site web et est prêt à
 Étape 2 : Choisissez les paramètres d'affichage puis PUBLIER LE MENU.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instructions pour l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et écrite en langage naturel. La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

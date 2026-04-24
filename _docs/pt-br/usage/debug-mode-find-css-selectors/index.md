@@ -1,5 +1,5 @@
 ---
-description: O modo de depuração é um conjunto de ferramentas leve incorporado à biblioteca Navi+ que ajuda você a trabalhar de forma mais eficaz com os menus Navi+.
+description: O modo de depuração é um conjunto de ferramentas leve incorporado na biblioteca Navi+ que ajuda você a trabalhar de forma mais eficaz com os menus Navi+.
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/debug-mode-find-css-selectors/
@@ -7,7 +7,7 @@ title: Modo de depuração - Encontrar seletores CSS
 ---
 # Modo de depuração - Encontrar seletores CSS
 
-O modo de depuração é um conjunto de ferramentas leve incorporado à biblioteca Navi+ que ajuda você a trabalhar de forma mais eficaz com os menus Navi+.
+O modo de depuração é um conjunto de ferramentas leve incorporado na biblioteca Navi+ que ajuda você a trabalhar de forma mais eficaz com os menus Navi+.
 
 ### 1. Encontrar seletores CSS
 
@@ -22,7 +22,7 @@ Por favor, preste atenção aos atalhos de teclado abaixo para trabalhar de form
 
 * Pressione **⌘+C** no MacOS ou **Ctrl+C** no Windows para copiar o seletor CSS selecionado.
 
-Você pode então colá-lo nas configurações do **Publish Menu** para:
+Você pode então colá-lo nas configurações do **Menu de Publicação** para:
 
 * Mega Menu / Grid Menu: para inserir o menu antes, depois ou substituir o seletor CSS de destino
 * Slide Menu: para acionar o slide menu quando o seletor CSS de destino for clicado ou tocado
@@ -64,20 +64,3 @@ Então clique com o botão direito em qualquer lugar da página e selecione:
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsNvXhBMniymbZ1tD9c4p%2FFrame%20214.webp?alt=media&#x26;token=257f082d-ff6b-4ce0-8eaa-6160a697a67e" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAZm1dPEZrfeqtpNXA8O%2FFrame%20215.webp?alt=media&#x26;token=2847a4ef-e298-4986-9367-36a6abf914d8" alt=""><figcaption></figcaption></figure>
-
----
-
-# Instruções do Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -3,9 +3,9 @@ description: 'Per visualizzare il menu Navi+ sul tuo sito web, ci sono due opzio
 lang: it
 layout: default
 permalink: /it/docs/frequently-asked-questions/why-navi-not-display/
-title: Perché il menu Navi+ non viene visualizzato sul mio sito web?
+title: Perché il menu Navi+ non è visualizzato sul mio sito web?
 ---
-# Perché il menu Navi+ non viene visualizzato sul mio sito web?
+# Perché il menu Navi+ non è visualizzato sul mio sito web?
 
 Per visualizzare il menu Navi+ sul tuo sito web, ci sono due opzioni chiare:
 
@@ -15,7 +15,7 @@ Per visualizzare il menu Navi+ sul tuo sito web, ci sono due opzioni chiare:
    * Livello 2: Mostra/nascondi su dispositivi mobili o desktop. A causa delle esperienze completamente diverse tra mobile e desktop, molti utenti creano menu separati per mobile e desktop.
    * Livello 3: Per parola chiave: Puoi mostrare/nascondere quando l'URL della pagina web contiene/non contiene una o più parole chiave. Questa opzione è molto utile e flessibile, permettendoti di creare menu specifici per ogni pagina o prodotto.
 2. **Session 
-[Navi+ On Session] viene utilizzato per incorporare direttamente in ogni pagina del tema Shopify**. Con questa opzione, puoi avere un'ulteriore scelta di non fissare il menu (in basso, nell'intestazione o fluttuante) ma permettergli di fluire con il contenuto della pagina. Questo effetto è utile quando vuoi creare menu di tipo griglia o menu di tipo barra che fluiscono mentre scorri lo schermo.
+[Navi+ On Session] è utilizzato per incorporare direttamente in ogni pagina del tema Shopify**. Con questa opzione, puoi avere un'ulteriore scelta di non fissare il menu (in basso, nell'intestazione o fluttuante) ma permettergli di fluire con il contenuto della pagina. Questo effetto è utile quando vuoi creare menu di tipo griglia o menu di tipo barra che fluiscono mentre scorri lo schermo.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FQuWJTBwcXPXlDJsJrA08%2F001.png?alt=media&#x26;token=09c8a23d-233d-440b-a108-8c0da62df58e" alt=""><figcaption><p>Enable [Navi+] All Page</p></figcaption></figure>
 
@@ -28,20 +28,3 @@ Per visualizzare il menu Navi+ sul tuo sito web, ci sono due opzioni chiare:
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Ff8mpogKCx9fpCRbGCKPp%2F005.png?alt=media&#x26;token=7180be60-03a6-4fc3-8edc-62aeae5af4f9" alt=""><figcaption><p>Publish on mobile/desktop</p></figcaption></figure>
 
 <br>
-
----
-
-# Istruzioni per l'agente: Consultazione di questa documentazione
-
-Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
-
-Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-navi-not-display.md?ask=<question>
-```
-
-La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
-
-Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

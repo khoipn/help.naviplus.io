@@ -8,16 +8,16 @@ title: 探索常见菜单
 # 探索常见菜单
 
 {% comment %}hint style="info" {% endcomment %}
-👀 **想看看它们的实际效果吗？** [查看实时演示 → showcase.naviplus.io](http://showcase.naviplus.io/ "查看实时演示 → showcase.naviplus.io")
+👀 **想要看到它们的实际效果吗？** [查看实时演示 → showcase.naviplus.io](http://showcase.naviplus.io/ "查看实时演示 → showcase.naviplus.io")
 {% comment %}endhint{% endcomment %}
 
-大多数商店只使用一种菜单类型——但每种类型都有不同的用途。结合多种菜单类型可以为您的客户提供更好的体验：Tab Bar 便于快速访问，Slide Menu 适合深度目录，Mega Menu 适合桌面发现，FAB 用于支持——每种都完美地完成一项工作。
+大多数商店只使用一种菜单类型——但每种类型都有不同的目的。结合多种菜单类型可以为您的客户提供更好的体验：Tab Bar 用于即时访问，Slide Menu 用于深度目录，Mega Menu 用于桌面发现，FAB 用于支持——每种都完美地完成一项工作。
 
 ***
 
 ## 1. Tab Bar *(也称：底部导航，导航栏，底部导航)*
 
-一个固定的导航栏——可以放置在底部、顶部、左侧或右侧。包含 4–5 个带图标 + 标签的部分。让您的商店感觉像一个本地应用。适用于移动设备和桌面。最适合作为全站主导航——始终可见，始终在拇指可及范围内。**使用者：** Shein, ASOS, Zara, Etsy, H&M, Nike, Uniqlo。
+一个固定的导航栏——可以放置在底部、顶部、左侧或右侧。包含 4-5 个带图标 + 标签的部分。让您的商店感觉像一个本地应用。适用于移动设备和桌面。最佳作为主要的全站导航——始终可见，始终在拇指可及范围内。**被以下品牌使用：** Shein, ASOS, Zara, Etsy, H&M, Nike, Uniqlo。
 
 **平台：** 桌面和移动 *(极受欢迎)*
 
@@ -27,9 +27,9 @@ title: 探索常见菜单
 
 ## 2. Slide Menu *(也称：抽屉菜单，汉堡菜单)*
 
-从左侧或右侧滑入——无限项目，没有大小限制，适合您的整个站点结构。最受欢迎且适合移动的导航模式。可以通过汉堡图标、Tab Bar 项或任何放置在拇指可及范围内的按钮触发。用于您的完整目录、账户链接、政策以及任何不需要始终可见的内容。
+从左侧或右侧滑入——无限项目，没有大小限制，适合您的整个站点结构。最受欢迎且移动友好的导航模式。可以通过汉堡图标、Tab Bar 项目或任何放置在拇指可及范围内的按钮触发。用于您的完整目录、账户链接、政策以及任何不需要始终可见的内容。
 
-**平台：** 移动 *(极受欢迎)* · 桌面 *(不常见)*
+**平台：** 移动 *(极受欢迎)* · 桌面 *(不太常见)*
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLCmdTapRLNGzq0dIAnMB%2FSlide-0-2.webp?alt=media&#x26;token=67d280d0-58b1-4ce1-b4d3-ddaae8a3307c" alt="Slide Menu example"><figcaption><p>Slide Menu — slides in from the side, unlimited depth and items</p></figcaption></figure>
 
@@ -37,9 +37,9 @@ title: 探索常见菜单
 
 ## 3. 桌面 Mega Menu *(也称：下拉菜单，多列菜单)*
 
-一个多列下拉菜单，扩展在标题下方——旨在覆盖您整个桌面导航。充分利用大屏幕，展示图像、横幅和跨多列的丰富布局。完全替代默认的标题菜单。任何拥有大量目录的商店的标准。
+一个多列下拉菜单，扩展在标题下方——旨在覆盖您整个桌面导航。充分利用大屏幕，展示图像、横幅和跨多列的丰富布局。完全替代默认的标题菜单。任何拥有大量桌面目录的商店的标准。
 
-**平台：** 仅限桌面 *(极受欢迎)*
+**平台：** 仅桌面 *(极受欢迎)*
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwXn5EF8H17b2QVSEYSQp%2FSlide-0.webp?alt=media&#x26;token=5ad18e94-82ba-43fa-aede-943741b49221" alt="Desktop Mega Menu example"><figcaption><p>Desktop Mega Menu — multi-column dropdown with images and rich layouts</p></figcaption></figure>
 
@@ -47,9 +47,9 @@ title: 探索常见菜单
 
 ## 4. 移动 Mega Menu *(也称：标题菜单，可滚动顶部菜单)*
 
-一个紧凑的菜单栏，位于标题下方——始终可见，无需点击。水平滚动或分成标签，瞬间展示您的顶级类别。移动网站上最具识别度的导航模式之一。最适合拥有 4–8 个优先类别的商店，客户可以一键到达。
+一个紧凑的菜单栏，位于标题下方——始终可见，无需点击。水平滚动或分成标签，瞬间显示您的顶级类别。移动网站上最具识别度的导航模式之一。最适合拥有 4-8 个优先类别的商店，客户可以一键到达。
 
-**平台：** 仅限移动 *(受欢迎)*
+**平台：** 仅移动 *(受欢迎)*
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Froax2ECBLjO03CIm2ITb%2FSlide-0-1.webp?alt=media&#x26;token=3c6aae5c-e7fb-4399-bf86-ce46bbc2d21d" alt="Mobile Mega Menu example"><figcaption><p>Mobile Mega Menu — always-visible horizontal bar just below the header</p></figcaption></figure>
 
@@ -67,7 +67,7 @@ title: 探索常见菜单
 
 ## 6. 网格菜单 *(也称：图标菜单，类别网格)*
 
-一个瓷砖网格——每个都有图标或图像和标签。直接嵌入到任何页面部分，而不是全站导航。为您的商店提供应用程序般的外观和感觉，理想用于一目了然地展示 6–12 个类别。特别适合在主页、着陆页和 Slide Menus 中使用。
+一个瓷砖网格——每个都有图标或图像和标签。直接嵌入到任何页面部分，而不是全站导航。为您的商店提供应用程序般的外观和感觉，理想用于一目了然地展示 6-12 个类别。特别适合在主页、着陆页和 Slide Menus 中使用。
 
 **平台：** 移动 *(受欢迎)*
 
@@ -82,10 +82,10 @@ title: 探索常见菜单
 | 目标                                 | 推荐                |
 | ------------------------------------ | -------------------- |
 | 移动设备上的主要全站导航            | Tab Bar + Slide Menu |
-| 完整的桌面导航                      | 桌面 Mega Menu      |
-| 在移动设备上展示顶级类别           | 移动 Mega Menu       |
-| 始终在线的支持与联系               | FAB & 支持          |
-| 在主页上进行视觉类别浏览           | 网格菜单            |
+| 完整的桌面导航                      | Desktop Mega Menu    |
+| 在移动设备上显示顶级类别            | Mobile Mega Menu     |
+| 始终在线的支持和联系                | FAB & Support        |
+| 在主页上进行视觉类别浏览            | Grid Menu            |
 
 → [**开始构建您的菜单 →**](https://help.naviplus.io/docs/usage/getting-started/ "**开始构建您的菜单 →**")
 
@@ -94,7 +94,7 @@ title: 探索常见菜单
 ## 常见问题解答
 
 <details><summary>我希望我的菜单在移动设备上运行良好。我应该选择哪种类型？</summary>
-<p>从 <strong>Tab Bar</strong> 或 <strong>Slide Menu</strong> 开始——这两者都是为移动设备设计的。Tab Bar 提供对 4–5 个主要部分的即时访问；Slide Menu 则容纳您整个站点结构，没有项目限制。</p>
+<p>从 <strong>Tab Bar</strong> 或 <strong>Slide Menu</strong> 开始——这两者都是为移动设备设计的。Tab Bar 提供对 4-5 个主要部分的即时访问；Slide Menu 则容纳您整个站点结构，没有项目限制。</p>
 </details>
 
 <details><summary>我的商店有很多类别。我该如何展示它们而不让客户感到不知所措？</summary>
@@ -102,15 +102,15 @@ title: 探索常见菜单
 </details>
 
 <details><summary>我可以同时使用多种菜单类型吗？</summary>
-<p>可以——而且您应该这样做。一个受欢迎的组合是：<strong>Tab Bar</strong>（主导航） + <strong>Slide Menu</strong>（完整站点结构） + <strong>FAB</strong>（WhatsApp / 支持）。每种类型都有不同的用途，没有重叠。</p>
+<p>可以——而且您应该这样做。一个受欢迎的组合是：<strong>Tab Bar</strong>（主要导航） + <strong>Slide Menu</strong>（完整站点结构） + <strong>FAB</strong>（WhatsApp / 支持）。每种类型都有不同的目的，没有重叠。</p>
 </details>
 
 <details><summary>我希望客户能够轻松联系我或获得支持。我应该添加什么？</summary>
-<p>添加一个 <strong>FAB &amp; 支持</strong> 按钮。它固定在屏幕的一个角落，始终可见，并允许您将 WhatsApp、Messenger、热线和聊天小部件组合到一个按钮中。</p>
+<p>添加一个 <strong>FAB &amp; Support</strong> 按钮。它固定在屏幕的一个角落，始终可见，并允许您将 WhatsApp、Messenger、热线和聊天小部件组合到一个按钮中。</p>
 </details>
 
 <details><summary>我应该将网格菜单放在哪里？</summary>
-<p>网格菜单不是全站导航——它嵌入到页面部分中（主页、类别页面）。用它来以应用样式的瓷砖视觉展示 6–12 个特色类别。</p>
+<p>网格菜单不是全站导航——它嵌入到页面部分中（主页、类别页面）。用它来以应用样式的瓷砖视觉展示 6-12 个特色类别。</p>
 </details>
 
 <details><summary>如果我选择了错误的菜单类型怎么办？</summary>
@@ -122,24 +122,5 @@ title: 探索常见菜单
 </details>
 
 <details><summary>我可以将现有菜单导入到 Navi+ 吗？</summary>
-<p>可以。Navi+ 支持 AI 辅助导入——但您需要调整结果。原因如下：如今大多数网站都有一个单一的 Mega Menu，在移动设备上会自动折叠为汉堡菜单。Navi+ 提供专门的菜单类型。您需要在正确的类型之间重新分配内容，以获得最佳的客户体验。</p>
+<p>可以。Navi+ 支持 AI 辅助导入——但您需要调整结果。原因如下：如今大多数网站都有一个单一的 Mega Menu，在移动设备上会自动折叠成汉堡菜单。Navi+ 提供专门的菜单类型。您需要在正确的类型之间重新分配内容，以获得最佳的客户体验。</p>
 </details>
-
-
-
----
-
-# 代理说明：查询此文档
-
-如果您需要此页面中未直接提供的额外信息，可以通过提问动态查询文档。
-
-对当前页面 URL 执行 HTTP GET 请求，使用 `ask` 查询参数：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/explore-common-menus.md?ask=<question>
-```
-
-问题应具体、自包含，并用自然语言书写。
-响应将包含对问题的直接回答以及文档中的相关摘录和来源。
-
-当答案未在当前页面中明确存在时，您需要澄清或获取额外上下文，或者想要检索相关文档部分时，请使用此机制。

@@ -1,5 +1,5 @@
 ---
-description: '**CSS-Selektor** ist ein sehr interessantes Konzept in CSS – er definiert, welcher Teil Ihrer Website **ersetzt** oder **ein Navi+ Menü eingefügt** werden kann (entweder *vor* oder *nach* ihm).'
+description: '**CSS-Selektor** ist ein sehr interessantes Konzept in CSS – es definiert, welcher Teil Ihrer Website **ersetzt** oder **ein Navi+ Menü eingefügt** werden kann (entweder *vor* oder *nach* ihm).'
 lang: de
 layout: default
 permalink: /de/docs/usage/general/find-css-selector/
@@ -7,7 +7,7 @@ title: CSS-Selektor finden
 ---
 # CSS-Selektor finden
 
-**CSS-Selektor** ist ein sehr interessantes Konzept in CSS – er definiert, welcher Teil Ihrer Website **ersetzt** oder **ein Navi+ Menü eingefügt** werden kann (entweder *vor* oder *nach* ihm).
+**CSS-Selektor** ist ein sehr interessantes Konzept in CSS – es definiert, welcher Teil Ihrer Website **ersetzt** oder **ein Navi+ Menü eingefügt** werden kann (entweder *vor* oder *nach* ihm).
 
 Hier sind einige **Beispiele für CSS-Selektoren**, die Sie verwenden können:
 
@@ -15,7 +15,7 @@ Hier sind einige **Beispiele für CSS-Selektoren**, die Sie verwenden können:
 #header           /* Der Header-Bereich */
 .navbar           /* Die Hauptnavigationsleiste */
 .footer           /* Der Fußbereich */
-.main-content     /* Der Hauptinhalt-Container */
+.main-content     /* Der Hauptinhalt Container */
 .product-gallery  /* Der Produktbildbereich */
 div#menu-wrapper  /* Ein spezifisches div mit der ID „menu-wrapper“ */
 section.hero      /* Der Hero-Bereich oben auf der Seite */
@@ -38,20 +38,3 @@ Befolgen Sie die Anweisungen unten, um **den richtigen CSS-Selektor** auf Ihrer 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
----
-
-# Anweisungen für Agenten: Abfragen dieser Dokumentation
-
-Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
-
-Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/find-css-selector.md?ask=<question>
-```
-
-Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
-
-Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

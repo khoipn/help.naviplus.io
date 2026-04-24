@@ -1,5 +1,5 @@
 ---
-description: Hier finden Sie Anleitungen, wie Sie Navi+ mit anderen Apps (wie Chat-Tools, Loyalty usw.) verbinden können. Sie können sie als Menüpunkte hinzufügen, Apps direkt von Nav... öffnen.
+description: Hier finden Sie Anleitungen, wie Sie Navi+ mit anderen Apps (wie Chat-Tools, Loyalty usw.) verbinden können. Sie können sie als Menüpunkte hinzufügen, Apps direkt von Navi+ öffnen und sicherstellen, dass alles reibungslos zusammenarbeitet, ohne sich auf Ihrer Website zu überschneiden.
 lang: de
 layout: default
 permalink: /de/docs/integrations/integrating-navi-with-your-website-and-external-apps/
@@ -22,14 +22,14 @@ Siehe das Beispiel der Tidi-Chat-Integration. Dies ist eine relativ fortgeschrit
 
 Navi+ ermöglicht das Ausführen von JavaScript-Funktionen aus Menüpunkten, wenn sie von Benutzern angeklickt werden (javascript:Function). Siehe das Beispiel der Tidi-Chat-Integration, um zu verstehen, wie Sie zwei JavaScript-Funktionen verwenden, um den Tidio-Chat als Navi+-Menüpunkt zu integrieren:
 
-1. Tidio-Symbol verstecken: Eine globale Funktion, die darauf wartet, dass Tidio gerendert wird, und es dann versteckt
-2. openTidio(): Öffnet das Chat-Panel von Tidio, wenn Benutzer auf den "Chat with us" Menüpunkt klicken
+1. Tidio-Symbol ausblenden: Eine globale Funktion, die wartet, bis Tidio gerendert wird, und es dann ausblendet
+2. openTidio(): Öffnet das Chat-Panel von Tidio, wenn Benutzer auf den "Chat mit uns" Menüpunkt klicken
 
 Navi+ unterstützt Sie auch dabei, die Klassen- und Attributzuweisungen zu definieren (sogar in Form von id="menu-item-1"), um die Interaktion mit anderen Anwendungen oder JavaScript-Code zu ermöglichen. Sie können JavaScript-Funktionen verwenden, um direkt auf Menüpunkte über Klassen oder Attribute zuzugreifen, zum Beispiel: um ein Walkthrough-Tutorial zu erstellen.
 
 ### 3. Anpassen der Navi+-Schnittstelle mit externem CSS
 
-Jedes Navi+-Menü wird durch ein div-Element mit id="SF-123456789" (eingebettete ID) definiert. Sehen Sie sich die HTML/CSS-Struktur eines Navi+-Menüs hier an, um CSS-Code für die Anpassung der Menüoberfläche zu schreiben.\
+Jedes Navi+-Menü wird durch ein div-Element mit id="SF-123456789" (eingebettete ID) definiert. Sehen Sie sich die HTML/CSS-Struktur eines Navi+-Menüs hier an, um CSS-Code zum Anpassen der Menüoberfläche zu schreiben.\
 Zum Beispiel, um die Farbe eines Menüpunktes der Stufe 2 zu ändern, können Sie den folgenden CSS-Code schreiben:
 
 `#SF-123456789 ul li ul.children li .name { color: red; }`
@@ -38,7 +38,7 @@ Navi+ unterstützt Sie auch dabei, die Klassen- und Attributzuweisungen zu defin
 
 ### 4. Kommunikation zwischen Navi+-Menüs
 
-Von einem Navi+-Menüpunkt aus können Sie einen anderen Navi+-Slide-Menü mit der Syntax aufrufen: `open:NaviMenu.`\
+Von einem Navi+-Menüpunkt aus können Sie einen anderen Navi+-Slide-Menüpunkt mit der Syntax aufrufen: `open:NaviMenu.`\
 Mit dieser Syntax können Sie die Menüebenen unendlich erweitern, indem Sie Slide-Menüs andere Slide-Menüs aufrufen lassen.
 
 ### 5. Öffnen eines Slide-Menüs von überall auf Ihrer Website
@@ -50,7 +50,7 @@ Zum Beispiel: Erstellen Sie eine schwebende Schaltfläche mit HTML und CSS und w
 
 Navi+ bietet mehrere Funktionen (ausgelöst, wenn ein Menüpunkt angeklickt wird):
 
-* `open:clickTo` um einen Klick auf einen HTML-CSS-Selektor zu simulieren. Dies ist äußerst hilfreich, um das Navi+-Menü dazu zu bringen, Standard-Hamburger-Menüs, Suchwerkzeuge, Warenkorb-Panels, Sprachdropdowns... oder Chat-Tools von anderen Apps zu aktivieren.
+* `open:clickTo` um einen Klick auf einen HTML-CSS-Selektor zu simulieren. Dies ist äußerst hilfreich, um das Navi+-Menü zu aktivieren, um Standard-Hamburger-Menüs, Suchwerkzeuge, Warenkorb-Panels, Sprachdropdowns... oder Chat-Tools aus anderen Apps zu aktivieren.
 * `open:focusTo` um den Fokus auf einen HTML-CSS-Selektor zu simulieren. Dies ist äußerst nützlich, um Klicks auf Suchwerkzeuge oder E-Mail-Abonnementfelder zu simulieren.
 * `scroll:Top`, `scroll:Bottom`, `scroll:OnPage` um die Webseite zum gewünschten Bereich zu scrollen. Dies ist äußerst nützlich, wenn Sie zu einem Zielbereich auf der Seite scrollen möchten, anstatt zu einer anderen Seite zu navigieren.
 
@@ -81,25 +81,8 @@ Navi+ bietet mehrere Funktionen (ausgelöst, wenn ein Menüpunkt angeklickt wird
 
 * `open:ChangeLanguage` um die Sprache zu ändern, wenn die Website Shopify verwendet
 * Shopify Inbox: Verstecken Sie das Shopify Inbox-Symbol und integrieren Sie es in das Navi+-Menü als Menüpunkt, der das Chat-Panel beim Klicken öffnet. Siehe Details hier
-* Öffnen Sie das Hamburger-Menü oder den Warenkorb, das Suchfeld: Siehe Details hier
+* Öffnen Sie das Hamburger-Menü oder den Warenkorb, das Suchpanel: Siehe Details hier
 
 ### Sehen Sie es nicht in der Liste?
 
 Fühlen Sie sich frei, mir Ihre Integrationsanfrage zu senden. Ich helfe Ihnen gerne, und es unterstützt auch das Wachstum von Navi+.
-
----
-
-# Agentenanweisungen: Abfragen dieser Dokumentation
-
-Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
-
-Führen Sie eine HTTP GET-Anfrage an der aktuellen Seiten-URL mit dem `ask` Abfrageparameter aus:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md?ask=<Frage>
-```
-
-Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
-
-Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

@@ -11,12 +11,12 @@ Chế độ gỡ lỗi là một bộ công cụ nhẹ được tích hợp tron
 
 ### 1. Tìm CSS selectors
 
-Để kích hoạt chế độ gỡ lỗi, hãy sử dụng định dạng URL sau:\
+Để kích hoạt chế độ gỡ lỗi, sử dụng định dạng URL sau:\
 `yourdomain.com#navidebug-on`
 
-Trang web của bạn sẽ chuyển sang Chế độ Gỡ lỗi Navi+. Di chuột qua các khu vực khác nhau của trang web để xem các CSS selectors tương ứng của chúng. Di chuyển con trỏ của bạn để xác định chính xác khu vực mục tiêu mong muốn.
+Website của bạn sẽ chuyển sang Chế độ Gỡ lỗi Navi+. Di chuột qua các khu vực khác nhau của website để xem các CSS selectors tương ứng. Di chuyển con trỏ của bạn để xác định chính xác khu vực mục tiêu mong muốn.
 
-Vui lòng chú ý đến các phím tắt bên dưới để làm việc hiệu quả hơn.
+Vui lòng chú ý đến các phím tắt dưới đây để làm việc hiệu quả hơn.
 
 **Phím tắt 1.** Sao chép một CSS selector
 
@@ -35,7 +35,7 @@ Bạn có thể dán nó vào cài đặt **Publish Menu** cho:
 **Mẹo quan trọng:** Trong hầu hết các trường hợp, bạn sẽ không tìm thấy CSS selector hoàn hảo ngay lập tức. Dựa trên kinh nghiệm, thường thì dễ hơn để:
 
 1. Bắt đầu bằng cách chọn một selector cấp con
-2. Sau đó di chuyển lên 1–2 cấp cha (một điểm nhấn trực quan sẽ xuất hiện trên trang web của bạn)
+2. Sau đó di chuyển lên 1–2 cấp cha (một điểm nhấn trực quan sẽ xuất hiện trên website của bạn)
 3. Sao chép selector bằng ⌘+C (Ctrl+C)
 4. Dán nó vào cấu hình menu và kiểm tra
 
@@ -64,21 +64,3 @@ Sau đó nhấp chuột phải vào bất kỳ đâu trên trang và chọn:
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsNvXhBMniymbZ1tD9c4p%2FFrame%20214.webp?alt=media&#x26;token=257f082d-ff6b-4ce0-8eaa-6160a697a67e" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAZm1dPEZrfeqtpNXA8O%2FFrame%20215.webp?alt=media&#x26;token=2847a4ef-e298-4986-9367-36a6abf914d8" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Hướng dẫn cho đại lý: Truy vấn tài liệu này
-
-Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện một yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trên trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn lấy các phần tài liệu liên quan.

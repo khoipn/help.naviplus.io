@@ -5,7 +5,7 @@ layout: default
 permalink: /vi/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
 title: Navi+ plans (Starter, Business & Elite)
 ---
-# Navi+ plans (Starter, Business & Elite
+# Navi+ plans (Starter, Business & Elite)
 
 #### Question 1: What happens when my Starter plan exceeds 50,000 visits?
 

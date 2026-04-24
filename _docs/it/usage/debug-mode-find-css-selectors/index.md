@@ -1,20 +1,20 @@
 ---
-description: La modalità di debug è un insieme di strumenti leggeri integrati nella libreria Navi+ che ti aiuta a lavorare in modo più efficace con i menu Navi+.
+description: La modalità debug è un insieme di strumenti leggeri integrati nella libreria Navi+ che ti aiuta a lavorare in modo più efficace con i menu Navi+.
 lang: it
 layout: default
 permalink: /it/docs/usage/debug-mode-find-css-selectors/
-title: Modalità di debug - Trova selettori CSS
+title: Modalità debug - Trova selettori CSS
 ---
-# Modalità di debug - Trova selettori CSS
+# Modalità debug - Trova selettori CSS
 
-La modalità di debug è un insieme di strumenti leggeri integrati nella libreria Navi+ che ti aiuta a lavorare in modo più efficace con i menu Navi+.
+La modalità debug è un insieme di strumenti leggeri integrati nella libreria Navi+ che ti aiuta a lavorare in modo più efficace con i menu Navi+.
 
 ### 1. Trova selettori CSS
 
-Per abilitare la modalità di debug, utilizza il seguente formato URL:
+Per abilitare la modalità debug, utilizza il seguente formato URL:
 `yourdomain.com#navidebug-on`
 
-Il tuo sito web passerà alla Modalità di Debug Navi+. Passa il mouse su diverse aree del sito web per visualizzare i loro corrispondenti selettori CSS. Muovi il cursore per localizzare con precisione l'area target desiderata.
+Il tuo sito web passerà alla Modalità Debug di Navi+. Passa il mouse su diverse aree del sito web per visualizzare i loro corrispondenti selettori CSS. Muovi il cursore per localizzare con precisione l'area target desiderata.
 
 Si prega di prestare attenzione alle scorciatoie da tastiera qui sotto per lavorare in modo più efficiente.
 
@@ -49,10 +49,10 @@ A volte, potrebbe essere necessario ripetere questo processo più volte quando s
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FuE3IlMcHedAfwQR98YhM%2FFrame%20212.webp?alt=media&#x26;token=e02c2aa2-0792-4811-8005-46a5b7b0b9fe" alt=""><figcaption></figcaption></figure>
 
-#### 1.2. Trova selettore CSS su Mobile
+#### 1.2. Trova il selettore CSS su Mobile
 
 Per trovare un selettore CSS su mobile, abilita la modalità Mobile (Responsive) nel tuo browser.
-Poi fai clic con il tasto destro del mouse in qualsiasi punto della pagina e seleziona:
+Poi fai clic destro ovunque sulla pagina e seleziona:
 
 * Chrome: Ispeziona
 * Safari: Ispeziona elemento
@@ -64,20 +64,3 @@ Poi fai clic con il tasto destro del mouse in qualsiasi punto della pagina e sel
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsNvXhBMniymbZ1tD9c4p%2FFrame%20214.webp?alt=media&#x26;token=257f082d-ff6b-4ce0-8eaa-6160a697a67e" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAZm1dPEZrfeqtpNXA8O%2FFrame%20215.webp?alt=media&#x26;token=2847a4ef-e298-4986-9367-36a6abf914d8" alt=""><figcaption></figcaption></figure>
-
----
-
-# Istruzioni per l'agente: Interrogare questa documentazione
-
-Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.
-
-Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md?ask=<question>
-```
-
-La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
-
-Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

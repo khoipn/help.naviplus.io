@@ -34,7 +34,7 @@ Après ces 4 étapes, Navi+ a été installé sur votre site web et est prêt à
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Étape 2 : Activez le commutateur "Publier le menu (visible uniquement lorsqu'il est ouvert par l'utilisateur)".
+Étape 2 : Activez le bascule "Publier le menu (visible uniquement lorsqu'il est ouvert par l'utilisateur)".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FhSDziWrg4Jxr9bZ9jB4j%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=3c39339c-fe75-4653-86e7-411318cf506d" alt=""><figcaption></figcaption></figure>
 
@@ -75,14 +75,14 @@ Vous pouvez également appliquer cette méthode de manière créative en trouvan
 <ol>
 <li>Pas dans cette liste, ne vous inquiétez pas</li>
 </ol>
-<pre class="codehilite"><code>- Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée—cela ne prend que quelques minutes pour trouver le sélecteur CSS.
+<pre class="codehilite"><code>- Vous pouvez discuter avec un supporter Navi+ pour obtenir de l'aide instantanée—cela ne prend que quelques minutes pour trouver le sélecteur CSS.
 
 - Ou, vous pouvez suivre le guide d'auto-assistance dans les sujets suivants (Juste après ce sujet).
 </code></pre>
 </details>
 
 <details><summary><strong>Comment trouver le sélecteur CSS sur votre site web ?</strong></summary>
-<p>Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée au lieu de le faire vous-même.\
+<p>Vous pouvez discuter avec un supporter Navi+ pour obtenir de l'aide instantanée au lieu de le faire vous-même.\
 Cependant, (1) cela vous aidera à comprendre l'idée principale, et (2) si vous souhaitez le faire vous-même, suivez les instructions ci-dessous.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
@@ -99,11 +99,22 @@ Cependant, (1) cela vous aidera à comprendre l'idée principale, et (2) si vous
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instructions pour l'agent : Interroger cette documentation</h1>
+<p>Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.</p>
+<p>Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête <code>ask</code> :</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>La question doit être spécifique, autonome, et écrite en langage naturel.
+La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.</p>
+<p>Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.</p>
 </details>
 
 #### 2.3. Important ! Optimisez la vitesse du menu déroulant, ajoutez un effet de chargement, et prévenez les menus dupliqués
 
-Ce n'est pas quelque chose que vous devez corriger tout de suite, mais à long terme, c'est important pour l'expérience du menu déroulant créée par Navi+. Avant que Navi+ ne remplace complètement l'ancien menu déroulant, le menu original du thème est toujours actif. Pendant un bref moment—environ une demi-seconde—si un utilisateur charge le menu et appuie rapidement sur le bouton hamburger (un cas rare, mais toujours possible), l'ancien menu du thème peut apparaître et provoquer un glitch visuel.
+Ce n'est pas quelque chose que vous devez corriger immédiatement, mais à long terme, c'est important pour l'expérience du menu déroulant créée par Navi+. Avant que Navi+ ne remplace complètement l'ancien menu déroulant, le menu original du thème est toujours actif. Pendant un bref moment—environ une demi-seconde—si un utilisateur charge le menu et appuie rapidement sur le bouton hamburger (un cas rare, mais toujours possible), l'ancien menu du thème peut apparaître et provoquer un glitch visuel.
 
 <details><summary>Navi+ fournit une solution simple pour optimiser l'expérience utilisateur et la vitesse comme suit</summary>
 <p><strong>Pourquoi devez-vous faire cela ? Navi+ n'est-il pas déjà rapide ?</strong></p>
@@ -119,7 +130,7 @@ Ce n'est pas quelque chose que vous devez corriger tout de suite, mais à long t
 <h4>Quelle est ma solution ?</h4>
 <p>Actuellement, Navi+ a une haute priorité lors du chargement sur les sites Shopify. Cependant, il y a encore un certain délai. Nous allons aborder ces problèmes un par un ici :</p>
 <p><strong>Menu déroulant : Ajoutez un effet de chargement et verrouillez le sélecteur de déclenchement</strong></p>
-<p>Très simple : il suffit d'entrer le sélecteur CSS que vous utilisez pour le menu déroulant dans la section d'intégration de l'application Navi+ (voir l'image ci-dessous).</p>
+<p>Très simple : il suffit d'entrer le sélecteur CSS que vous utilisez pour le menu déroulant dans la section d'intégration de l'application Navi+ (voir image ci-dessous).</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FEIocXFLDBcobQR68F7QI%2F1.2.png?alt=media&#x26;token=f7fc10da-d538-4e33-aa46-55b40223f417" alt=""><figcaption></figcaption></figure>

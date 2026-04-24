@@ -1,5 +1,5 @@
 ---
-description: 一个 **FAB (浮动操作按钮)** 是一个简单的菜单，始终浮动在屏幕底部，通常用于支持。FAB 通常提供聊天工具...
+description: 一个 **FAB (浮动操作按钮)** 是一个简单的菜单，始终漂浮在屏幕底部，通常用于支持。FAB 通常提供聊天工具...
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/fab-floating-menu-quick-access/how-to-use/
@@ -7,7 +7,7 @@ title: 如何使用？
 ---
 # 如何使用？
 
-一个 **FAB (浮动操作按钮)** 是一个简单的菜单，始终浮动在屏幕底部，通常用于支持。FAB 通常提供聊天工具，如 WhatsApp、消息、电子邮件，以及指向支持资源和社交媒体渠道的链接，以促进您的网站。
+一个 **FAB (浮动操作按钮)** 是一个简单的菜单，始终漂浮在屏幕底部，通常用于支持。FAB 通常提供聊天工具，如 WhatsApp、消息、电子邮件，以及链接到支持资源和社交媒体渠道，以促进您的网站。
 
 **主要好处：**
 
@@ -27,7 +27,7 @@ title: 如何使用？
 </details>
 
 <details><summary><strong>3. 如果我选择了错误的模板或犯了错误怎么办？</strong></summary>
-<p>完全没问题。您可以随时删除它并创建一个新的。如果您正在测试一个菜单并想尝试另一个模板，您可以<strong>保存</strong>当前的菜单作为备份文件，稍后重新打开。您甚至可以<strong>复制和粘贴</strong>菜单之间的部分（通过打开两个浏览器标签）以保留您之前的工作。随意尝试！</p>
+<p>完全没问题。您可以随时删除它并创建一个新的。如果您正在测试一个菜单并想尝试另一个模板，您可以<strong>保存</strong>当前的菜单作为备份文件，稍后再重新打开。您甚至可以<strong>复制和粘贴</strong>菜单之间的部分（通过打开两个浏览器标签）以保留您之前的工作。随意尝试！</p>
 </details>
 
 <details><summary><strong>4. 我应该只创建一个菜单还是多个菜单？</strong></summary>
@@ -48,7 +48,7 @@ title: 如何使用？
 - 与我们聊天（显示为组）  
 - Whats App
 - Telegram
-- Facebook Messager
+- Facebook Messenger
 - ...  
 
 ```
@@ -61,11 +61,11 @@ title: 如何使用？
 
 #### 1.2. 与菜单树的基本交互
 
-您可以上下或左右拖放菜单项以更改它们在菜单树中的位置和父子关系。
+您可以上下或左右拖放菜单项，以更改它们在菜单树中的位置和父子关系。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FOjwwfWQFThvk6rmLU8D7%2FHelp.MenuTree.1.1.2.png?alt=media&#x26;token=98bdcda6-25c8-4793-8936-fb7d594d2b43" alt=""><figcaption></figcaption></figure>
 
-当您将鼠标悬停在任何菜单项上时，您将看到其他选项：编辑项目的详细信息、从菜单树中删除它或将其复制并粘贴到其他地方。
+当您将鼠标悬停在任何菜单项上时，您将看到其他选项：编辑该项的详细信息，从菜单树中删除它，或将其复制并粘贴到其他地方。
 
 {% comment %}hint style="info" {% endcomment %}
 **提示：** 您可以通过在两个浏览器标签中打开 Navi+ 应用程序，将一个菜单项从一个菜单复制到另一个菜单。
@@ -116,7 +116,7 @@ title: 如何使用？
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
-步骤 4：不要忘记点击“保存”以应用更改。
+步骤 4：别忘了点击“保存”以应用更改。
 
 经过这 4 个步骤，Navi+ 已经安装在您的网站上并准备显示。然而，过程尚未完成。返回 Navi+ 应用程序标签以实际开启**发布菜单**。
 
@@ -129,21 +129,3 @@ title: 如何使用？
 步骤 2：选择显示设置，然后发布菜单。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# 代理说明：查询此文档
-
-如果您需要此页面中未直接提供的其他信息，您可以通过提问动态查询文档。
-
-在当前页面 URL 上执行 HTTP GET 请求，带上 `ask` 查询参数：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md?ask=<question>
-```
-
-问题应具体、自包含，并用自然语言书写。
-响应将包含对问题的直接回答以及文档中的相关摘录和来源。
-
-当答案未在当前页面中明确存在时，您需要澄清或获取额外上下文，或者您想检索相关文档部分时，请使用此机制。

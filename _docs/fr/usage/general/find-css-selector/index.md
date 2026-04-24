@@ -1,5 +1,5 @@
 ---
-description: '**Sélécteur CSS** est un concept très intéressant en CSS — il définit quelle partie de votre site web peut être **remplacée** ou **avoir un menu Navi+ inséré** (soit *avant* soit *après* elle).'
+description: '**CSS Selector** est un concept très intéressant en CSS — il définit quelle partie de votre site web peut être **remplacée** ou **avoir un menu Navi+ inséré** (soit *avant* soit *après* elle).'
 lang: fr
 layout: default
 permalink: /fr/docs/usage/general/find-css-selector/
@@ -7,18 +7,18 @@ title: Trouver le sélecteur CSS
 ---
 # Trouver le sélecteur CSS
 
-**Sélécteur CSS** est un concept très intéressant en CSS — il définit quelle partie de votre site web peut être **remplacée** ou **avoir un menu Navi+ inséré** (soit *avant* soit *après* elle).
+**CSS Selector** est un concept très intéressant en CSS — il définit quelle partie de votre site web peut être **remplacée** ou **avoir un menu Navi+ inséré** (soit *avant* soit *après* elle).
 
 Voici quelques **exemples de sélecteurs CSS** que vous pouvez utiliser :
 
 ```css
-#header           /* La zone d'en-tête */
-.navbar           /* La barre de navigation principale */
-.footer           /* La section de pied de page */
-.main-content     /* Le conteneur de contenu principal */
-.product-gallery  /* La section d'image du produit */
-div#menu-wrapper  /* Un div spécifique avec l'ID “menu-wrapper” */
-section.hero      /* La section héro en haut de la page */
+#header           /* The header area */
+.navbar           /* The main navigation bar */
+.footer           /* The footer section */
+.main-content     /* The main content container */
+.product-gallery  /* The product image section */
+div#menu-wrapper  /* A specific div with ID “menu-wrapper” */
+section.hero      /* The hero section at the top of the page */
 ```
 
 Suivez les instructions ci-dessous pour **trouver le sélecteur CSS correct** sur votre site web.
@@ -38,21 +38,3 @@ Suivez les instructions ci-dessous pour **trouver le sélecteur CSS correct** su
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instructions de l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/find-css-selector.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et écrite en langage naturel.
-La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

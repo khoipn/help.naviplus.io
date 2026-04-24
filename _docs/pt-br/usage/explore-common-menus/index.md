@@ -17,7 +17,7 @@ A maioria das lojas usa apenas um tipo de menu — mas cada tipo serve a um prop
 
 ## 1. Tab Bar *(também chamado: Bottom Navigation, Nav Bar, Bottom Nav)*
 
-Uma barra de navegação fixa — colocável na parte inferior, superior, esquerda ou direita. Contém 4–5 seções com ícone + rótulo. Faz sua loja parecer um aplicativo nativo. Funciona tanto em dispositivos móveis quanto em desktop. Melhor como navegação primária em todo o site — sempre visível, sempre ao alcance do polegar. **Usado por:** Shein, ASOS, Zara, Etsy, HM, Nike, Uniqlo.
+Uma barra de navegação fixa — colocável na parte inferior, superior, esquerda ou direita. Contém 4–5 seções com ícone + rótulo. Faz sua loja parecer um aplicativo nativo. Funciona tanto em dispositivos móveis quanto em desktop. Melhor como navegação primária em todo o site — sempre visível, sempre ao alcance do polegar. **Usado por:** Shein, ASOS, Zara, Etsy, H&M, Nike, Uniqlo.
 
 **Plataforma:** Desktop e Móvel *(Extremamente popular)*
 
@@ -98,7 +98,7 @@ Você não precisa escolher apenas um. As lojas de melhor desempenho sobrepõem 
 </details>
 
 <details><summary>Minha loja tem muitas categorias. Como posso mostrá-las todas sem sobrecarregar os clientes?</summary>
-<p>Use um <strong>Desktop Mega Menu</strong> no desktop (multi-colunas, suporta imagens e banners) combinado com um <strong>Slide Menu</strong> no móvel (itens ilimitados, rolável). Cada um lida perfeitamente com sua plataforma.</p>
+<p>Use um <strong>Desktop Mega Menu</strong> no desktop (multi-coluna, suporta imagens e banners) combinado com um <strong>Slide Menu</strong> no móvel (itens ilimitados, rolável). Cada um lida perfeitamente com sua plataforma.</p>
 </details>
 
 <details><summary>Posso usar vários tipos de menu ao mesmo tempo?</summary>
@@ -114,7 +114,7 @@ Você não precisa escolher apenas um. As lojas de melhor desempenho sobrepõem 
 </details>
 
 <details><summary>E se eu escolher o tipo de menu errado?</summary>
-<p>Sem problemas — você pode adicionar, editar ou excluir menus a qualquer momento. Se você quiser salvar seu trabalho, basta exportá-lo como um arquivo JSON para reutilizar mais tarde. Pense nisso como salvar um documento do Word.</p>
+<p>Sem problemas — você pode adicionar, editar ou excluir menus a qualquer momento. Se quiser salvar seu trabalho, basta exportá-lo como um arquivo JSON para reutilizar depois. Pense nisso como salvar um documento do Word.</p>
 </details>
 
 <details><summary>Estou no plano Starter com apenas 1 slot de menu. Como posso experimentar mais?</summary>
@@ -124,22 +124,3 @@ Você não precisa escolher apenas um. As lojas de melhor desempenho sobrepõem 
 <details><summary>Posso importar meu menu existente para o Navi+?</summary>
 <p>Sim. O Navi+ suporta importação assistida por IA — mas você precisará ajustar o resultado. Aqui está o porquê: a maioria dos sites hoje tem um único Mega Menu que automaticamente se colapsa em um Hamburger Menu no móvel. O Navi+ oferece tipos de menu especializados em vez disso. Você precisará redistribuir seu conteúdo entre os tipos certos para obter a melhor experiência para seus clientes.</p>
 </details>
-
-
-
----
-
-# Instruções para o Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/explore-common-menus.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

@@ -9,4 +9,4 @@ title: Shopify Inbox
 
 Syntax: **open:Inbox**
 
-Open chat box of Shopify Inbox and hide the default float button (FAB) to save space.
+Ouvrez la boîte de chat de Shopify Inbox et cachez le bouton flottant par défaut (FAB) pour gagner de l'espace.

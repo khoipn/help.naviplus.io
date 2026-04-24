@@ -1,5 +1,5 @@
 ---
-description: 'Navi+ suporta vários painéis de Menu, Pesquisa e Carrinho em temas populares: A maioria dos temas gratuitos do Shopify (Dawn, Spotlight, Sense, Refresh, Craft) e vários popula...'
+description: 'Navi+ suporta vários painéis de Menu, Pesquisa e Carrinho em temas populares: A maioria dos temas gratuitos do Shopify (Dawn, Spotlight, Sense, Refresh, Craft) e vários populares...'
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
@@ -16,21 +16,3 @@ Esse recurso está disponível apenas para o plano Business e acima (não suport
 <mark style="background-color:yellow;">Nota: Se você estiver usando um plano pago e rebaixar para o plano gratuito, esses recursos exclusivos não funcionarão no seu menu. Enviaremos uma notificação por e-mail antes de desativar o recurso em sua aplicação.</mark>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtkBNy56enqVb3wJ4TWyX%2Fscreenbud-639e2e18-56b1-49d0-8e66-b831983a6577.png?alt=media&#x26;token=9fed32bf-b1ac-4a67-af36-59f4b90bdec1" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instruções para o Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-arent-menu-search-cart-panels-working.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

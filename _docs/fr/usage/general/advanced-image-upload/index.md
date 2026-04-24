@@ -7,7 +7,7 @@ title: Téléchargement avancé d'images
 ---
 # Téléchargement avancé d'images
 
-#### I. Pourquoi les tailles d'image plus petites sont-elles meilleures pour le SEO et l'expérience utilisateur ?
+#### I. Pourquoi des tailles d'image plus petites sont-elles meilleures pour le SEO et l'expérience utilisateur ?
 
 Utiliser des tailles d'image plus petites aide votre site Web à se charger plus rapidement. Les moteurs de recherche comme Google considèrent la vitesse de la page comme un facteur de classement important, donc des images optimisées peuvent améliorer votre SEO.
 
@@ -27,7 +27,7 @@ Dans certains cas particuliers, vous pouvez vouloir que Navi+ ne modifie pas la 
 
 **Étape 1 : Préparez votre image (processus manuel)**\
 Préparez votre image comme souhaité et renommez-la pour l'optimisation SEO. (Navi+ ne renomme les images pour le SEO que si elles sont téléchargées via l'outil Navi+.)\
-Vous devriez également compresser l'image à une taille raisonnable—idéalement quelques centaines de Ko. Vous pouvez utiliser le redimensionneur d'images de Shopify ici : <https://www.shopify.com/tools/image-resizer>.
+Vous devez également compresser l'image à une taille raisonnable—idéalement quelques centaines de Ko. Vous pouvez utiliser le redimensionneur d'images de Shopify ici : <https://www.shopify.com/tools/image-resizer>.
 
 **Étape 2 : Téléchargez sur Shopify**\
 Cliquez avec le bouton droit sur le menu **Content**, sélectionnez **Open link in new Tab**, puis allez dans **Files**. Faites glisser et déposez l'image préparée à l'étape 1. Une fois téléchargée, trouvez votre fichier dans la liste et cliquez sur l'icône de lien pour copier son URL. Cette URL sera utilisée dans Navi+ pour télécharger l'image.
@@ -40,21 +40,3 @@ Cliquez avec le bouton droit sur le menu **Content**, sélectionnez **Open link 
 Collez l'URL obtenue à l'étape 2 dans Navi+ en utilisant l'outil **Upload Image**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPy9nqxsNKCo4RMjo1cTP%2F1.4.png?alt=media&#x26;token=a0a4897c-5e1c-47d8-951c-52028b705e1e" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instructions pour l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et rédigée en langage naturel.
-La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

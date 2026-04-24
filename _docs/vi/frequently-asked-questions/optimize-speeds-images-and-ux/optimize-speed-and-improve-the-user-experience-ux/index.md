@@ -7,7 +7,7 @@ title: Tối ưu hóa tốc độ và cải thiện trải nghiệm người dù
 ---
 # Tối ưu hóa tốc độ và cải thiện trải nghiệm người dùng (UX).
 
-#### Tại sao bạn cần làm điều này? Navi+ không phải đã nhanh rồi sao?
+#### Tại sao bạn cần làm điều này? Không phải Navi+ đã nhanh rồi sao?
 
 Navi+ rất nhanh. Nó được triển khai hoàn toàn trên một CDN hàng đầu với độ trễ rất thấp (khoảng 100ms) và có thể phục vụ hàng triệu khách hàng mà không bị chậm lại.
 
@@ -27,7 +27,7 @@ Hiện tại, Navi+ có độ ưu tiên cao khi tải trên các trang web Shopi
 
 #### Slide Menu: Thêm hiệu ứng tải và khóa bộ chọn kích hoạt
 
-Rất đơn giản: chỉ cần nhập bộ chọn CSS bạn sử dụng cho Slide Menu vào phần nhúng của ứng dụng Navi+ (xem hình bên dưới).
+Rất đơn giản: chỉ cần nhập bộ chọn CSS mà bạn sử dụng cho Slide Menu vào phần nhúng của ứng dụng Navi+ (xem hình bên dưới).
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>
 
@@ -48,21 +48,3 @@ Lưu ý:
 * Thêm hậu tố **(M)** nếu bạn muốn nó chỉ áp dụng trên di động.
 * Thêm hậu tố **(D)** nếu bạn muốn nó chỉ áp dụng trên máy tính để bàn.
 * Không để hậu tố nếu bạn muốn nó áp dụng trên cả hai nền tảng.
-
-
----
-
-# Hướng dẫn cho đại lý: Truy vấn tài liệu này
-
-Nếu bạn cần thông tin bổ sung không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc ngữ cảnh bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.

@@ -14,7 +14,7 @@ Ein **FAB (Floating Action Button)** ist ein einfaches Menü, das immer am unter
 * Einfach, wird normalerweise für Unterstützung verwendet.
 * Kann verwendet werden, um schwebende Schaltflächen von anderen Apps zu gruppieren oder ein Slide Menu auszulösen.
 * Platziert wichtige Links in greifbarer Nähe für schnellen, bequemen Zugriff
-* Zentralisiert die Hauptnavigation, hilft Benutzern und Suchmaschinen, Ihre Website besser zu verstehen – großartig für SEO
+* Zentralisiert die Hauptnavigation, was Benutzern und Suchmaschinen hilft, Ihre Seite besser zu verstehen – großartig für SEO
 
 **FAQ:**
 
@@ -93,7 +93,7 @@ Um ein Menüelement hinzuzufügen, haben Sie zwei Optionen:
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FP8GKAiPpBlFdnzEM0TiI%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=5b87d791-686b-4768-b7dd-d17ff95841c4" alt=""><figcaption></figcaption></figure>
 
-**Option 2 (Empfohlen):** Wir haben bereits viele gut gestaltete Vorlagen für Menüelemente für Sie vorbereitet. Kopieren Sie sie einfach und fügen Sie sie an die richtige Stelle ein. Nachdem Sie Ihren Menübaum fertiggestellt haben, löschen Sie einfach die ungenutzten Vorlagen.
+**Option 2 (Empfohlen):** Wir haben bereits viele gut gestaltete Vorlagen für Menüelemente für Sie vorbereitet. Kopieren Sie sie einfach und fügen Sie sie an der richtigen Stelle ein. Nachdem Sie Ihren Menübaum fertiggestellt haben, löschen Sie einfach die ungenutzten Vorlagen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FjBJUHMA8dTOONOJoOt8S%2FHelp.MenuTree.1.1.5.png?alt=media&#x26;token=e6316df1-e99a-4259-8370-5fc3afaf331a" alt=""><figcaption></figcaption></figure>
 
@@ -126,23 +126,6 @@ Schritt 1: Klicken Sie auf die Schaltfläche **Auf Website veröffentlichen**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Schritt 2: Wählen Sie die Anzeigeeinstellungen und VERÖFFENTLICHEN SIE DAS MENÜ.
+Schritt 2: Wählen Sie die Anzeigeeinstellungen und dann MENÜ VERÖFFENTLICHEN.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8Yfth3JTUjbxjiYMx2v7%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=84da55d4-0e7d-4c6e-a6a0-904915305047" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Agentenanweisungen: Abfragen dieser Dokumentation
-
-Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
-
-Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md?ask=<question>
-```
-
-Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein. Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
-
-Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

@@ -1,5 +1,5 @@
 ---
-description: '- Cách sử dụng?'
+description: '- How to use?'
 lang: vi
 layout: default
 permalink: /vi/docs/usage/mega-menu-mobile/
@@ -7,6 +7,6 @@ title: Mega Menu (mobile)
 ---
 # Mega Menu (mobile)
 
-- [Cách sử dụng?](/manual/website/help.naviplus.io/usage/mega-menu-mobile/how-to-use.md "How to use?")
-- [Xuất bản trên Shopify](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publishing-on-shopify.md "Publishing on Shopify")
-- [Xuất bản trên WordPress / WooCommerce / Wix / Khác](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [How to use?](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/how-to-use.md "How to use?")
+- [Publishing on Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/publishing-on-shopify.md "Publishing on Shopify")
+- [Publish on WordPress / WooCommerce / Wix / Others](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")

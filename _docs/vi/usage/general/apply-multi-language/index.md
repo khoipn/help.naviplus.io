@@ -33,7 +33,7 @@ Khi Tabbar của bạn được hiển thị, Navi+ sẽ tự động kiểm tra
 
 Navi+ hỗ trợ một cú pháp đặc biệt cho phép bạn chuyển đổi ngôn ngữ trực tiếp từ các mục menu của bạn.
 
-* **Bước 1:** (Tùy chọn) Thêm biểu tượng cờ nếu bạn muốn. Bạn có thể tải xuống biểu tượng cờ từ các trang web như [Flaticon](https://www.flaticon.com "Flaticon") (Ví dụ: <https://www.flaticon.com/authors/flags/rectangular?author_id=1&type=standard>).  
+* **Bước 1:** (Tùy chọn) Thêm biểu tượng cờ nếu bạn muốn. Bạn có thể tải xuống biểu tượng cờ từ các trang web như [Flaticon](https://www.flaticon.com "Flaticon") (Ví dụ: <https://www.flaticon.com/authors/flags/rectangular?author_id=1&type=standard>). 
 * **Bước 2:** Sử dụng cú pháp sau để chuyển đổi ngôn ngữ:
 
 ```
@@ -41,20 +41,3 @@ open:ChangeLanguage(fr)
 ```
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FdTn5Nk2ETEUXO7unkIu9%2FHelp.MenuTree.1.1.2-1.png?alt=media&#x26;token=e1f13362-de09-4438-ad5a-a075a9750b7d" alt=""><figcaption></figcaption></figure>
-
----
-
-# Hướng dẫn cho đại lý: Truy vấn tài liệu này
-
-Nếu bạn cần thông tin bổ sung không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/apply-multi-language.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.  
-Phản hồi sẽ chứa câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trên trang hiện tại, bạn cần làm rõ hoặc ngữ cảnh bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.

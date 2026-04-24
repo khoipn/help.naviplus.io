@@ -45,7 +45,7 @@ Passo 3: Selecione o método de exibição
 Este método permite que você abra um slide menu quando o usuário clica ou toca em um item de menu de outro menu do Navi+ (por exemplo: em uma tab bar, um FAB no canto inferior da tela, ou um mega menu). Principais propósitos deste método:
 
 <details><summary>Propósito 1: Melhor visibilidade e experiência do usuário ao mostrar o mapa do site completo no slide menu enquanto mantém fácil acesso.</summary>
-<p>O slide menu é ideal para exibir seu mapa do site completo graças ao seu grande espaço e layout flexível, tornando-o perfeito para mostrar todo o catálogo de produtos, links para páginas principais, blogs, ferramentas de suporte, etc. No entanto, o slide menu é frequentemente menos visível por padrão. Para melhorar a descobribilidade, você pode usar outro menu do Navi+ (como uma tab bar) para apresentar seus links mais importantes e reconhecíveis, e colocar um item de menu destacado que aciona o slide menu. Isso garante melhor visibilidade e engajamento do usuário para o slide menu.</p>
+<p>O slide menu é ideal para exibir o mapa completo do seu site graças ao seu grande espaço e layout flexível, tornando-o perfeito para mostrar todo o catálogo de produtos, links para páginas principais, blogs, ferramentas de suporte, etc. No entanto, o slide menu é frequentemente menos visível por padrão. Para melhorar a descobribilidade, você pode usar outro menu do Navi+ (como uma tab bar) para apresentar seus links mais importantes e reconhecíveis, e colocar um item de menu destacado que aciona o slide menu. Isso garante melhor visibilidade e engajamento do usuário para o slide menu.</p>
 </details>
 
 <details><summary>Propósito 2: <strong>Profundidade de menu ilimitada com uma estrutura de menu grande e flexível (Apenas Navi+)</strong></summary>
@@ -59,7 +59,7 @@ Neste guia, vamos nos concentrar em substituir o menu hamburger padrão do site 
 Você também pode aplicar este método de forma criativa, encontrando e usando outros seletores CSS para acionar o menu.
 
 <details><summary>Como substituir o menu hamburger padrão do seu site pelo Navi+ Slide Menu (<strong>Guia Popular)?</strong></summary>
-<p>Na maioria dos sites Shopify, o menu hamburger padrão é gerado a partir da versão desktop via design responsivo. Como resultado, geralmente é muito simples, tem profundidade rasa e carece de suporte para ícones, imagens ou layouts avançados. Substituí-lo por um Navi+ Slide Menu é uma escolha comum e prática para aproveitar os recursos avançados do Navi+.</p>
+<p>Na maioria dos sites Shopify, o menu hamburger padrão é gerado a partir da versão desktop via design responsivo. Como resultado, geralmente é muito simples, tem profundidade rasa e não suporta ícones, imagens ou layouts avançados. Substituí-lo por um Navi+ Slide Menu é uma escolha comum e prática para aproveitar os recursos avançados do Navi+.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FIB9UqVXh9bL1z4AuHAQj%2FHelp.MenuTree.1.1.4.png?alt=media&#x26;token=1bef8174-8a59-4765-b2ea-e669c1d12fd6" alt=""><figcaption></figcaption></figure>
 
 <p>Para fazer isso, basta identificar o seletor CSS do ícone do menu hamburger do seu site e inseri-lo na caixa de texto. Já encontramos os seletores CSS para alguns dos temas mais populares para você, listados abaixo.</p>
@@ -96,15 +96,26 @@ No entanto, (1) isso ajudará você a entender a ideia central, e (2) se você q
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instruções do Agente: Consultando Esta Documentação</h1>
+<p>Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.</p>
+<p>Realize uma solicitação HTTP GET na URL da página atual com o <code>ask</code> parâmetro de consulta:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
+A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.</p>
+<p>Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.</p>
 </details>
 
 #### 2.3. Importante! Otimize a velocidade do slide menu, adicione um efeito de carregamento e previna menus duplicados
 
 Não é algo que você precisa corrigir imediatamente, mas a longo prazo é importante para a experiência do slide menu criada pelo Navi+. Antes que o Navi+ substitua completamente o antigo slide menu, o menu original do tema ainda está ativo. Por um breve momento—cerca de meio segundo—se um usuário carrega o menu e rapidamente toca no botão hamburger (um caso raro, mas ainda possível), o menu antigo do tema pode aparecer e causar um erro visual.
 
-<details><summary>Navi+ fornece uma solução simples para otimizar a experiência do usuário e a velocidade conforme os seguintes passos</summary>
+<details><summary>O Navi+ fornece uma solução simples para otimizar a experiência do usuário e a velocidade conforme os seguintes passos</summary>
 <p><strong>Por que você precisa fazer isso? O Navi+ já não é rápido?</strong></p>
-<p>Navi+ é muito rápido. Está totalmente implantado em uma CDN líder com latência muito baixa (cerca de 100ms) e pode atender milhões de clientes sem desacelerar.</p>
+<p>O Navi+ é muito rápido. Ele está totalmente implantado em uma CDN líder com latência muito baixa (cerca de 100ms) e pode atender milhões de clientes sem desacelerar.</p>
 <p>No entanto, o Navi+ ainda opera dentro do ecossistema Shopify. O Shopify tem suas próprias regras de carregamento:</p>
 <ol>
 <li>O Shopify prioriza o carregamento de seus próprios recursos primeiro.</li>
@@ -114,7 +125,7 @@ Não é algo que você precisa corrigir imediatamente, mas a longo prazo é impo
 <p>Isso significa que se você estiver usando vários aplicativos, o Navi+ pode às vezes ser carregado mais tarde do que o esperado. É por isso que pode parecer mais lento em certos casos.</p>
 <hr />
 <h4>Qual é a minha solução?</h4>
-<p>Atualmente, o Navi+ tem alta prioridade ao carregar em sites Shopify. No entanto, ainda há um certo atraso. Vamos abordar esses problemas um por um aqui:</p>
+<p>Atualmente, o Navi+ tem alta prioridade ao carregar em sites Shopify. No entanto, ainda há um certo atraso. Vamos abordar esses problemas um a um aqui:</p>
 <p><strong>Slide Menu: Adicione um efeito de carregamento e bloqueie o seletor de acionamento</strong></p>
 <p>Muito simples: basta inserir o seletor CSS que você usa para o Slide Menu na seção de embed do aplicativo Navi+ (veja a imagem abaixo).</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>

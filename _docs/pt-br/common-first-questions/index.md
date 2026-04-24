@@ -24,13 +24,13 @@ Qualquer site. Para Shopify, use o aplicativo dedicado. Para tudo o mais, inscre
 
 #### Posso experimentar o Navi+ antes de configurá-lo?
 
-Sim. Visite [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") para ver todos os tipos de menus em uma loja real — móvel, tablet e desktop.
+Sim. Visite [showcase.naviplus.io](https://showcase.naviplus.io/ "showcase.naviplus.io") para ver todos os tipos de menu em uma loja real — móvel, tablet e desktop.
 
 #### O Navi+ vai desacelerar meu site?
 
 Não. Os ativos são entregues via Cloudflare CDN com um tempo médio de carregamento de 52ms — tipicamente mais rápido do que os próprios scripts do Shopify. Após o primeiro carregamento, os menus são armazenados em cache e carregam instantaneamente.
 
-#### Quantos tipos de menus o Navi+ oferece?
+#### Quantos tipos de menu o Navi+ oferece?
 
 Seis: Tab Bar, Slide Menu, FAB, Grid Menu, Mega Menu (móvel) e Mega Menu (desktop). Você pode usar vários tipos juntos no mesmo site.
 
@@ -42,7 +42,7 @@ Seis: Tab Bar, Slide Menu, FAB, Grid Menu, Mega Menu (móvel) e Mega Menu (deskt
 
 #### Quanto custa o Navi+?
 
-Comece grátis com o plano Starter. Os planos Business e Elite desbloqueiam recursos avançados. Veja a tabela de preços completa em [naviplus.io/pricing](https://naviplus.io/pricing/ "naviplus.io/pricing").
+Comece grátis com o plano Starter. Os planos Business e Elite desbloqueiam recursos avançados. Veja a tabela completa de preços em [naviplus.io/pricing](https://naviplus.io/pricing/ "naviplus.io/pricing").
 
 #### Existe um teste gratuito?
 
@@ -72,7 +72,7 @@ Sim. Controle a visibilidade por URL da página, tipo de dispositivo (móvel/des
 
 ### Compatibilidade e integrações
 
-#### O Navi+ vai entrar em conflito com meu tema ou outros aplicativos?
+#### O Navi+ vai conflitar com meu tema ou outros aplicativos?
 
 Raramente. O Navi+ não modifica seu tema nem requer permissões. Se os menus se sobrepuserem a outros elementos fixos, ajuste o z-index — [veja o guia](https://help.naviplus.io/docs/usage/general/z-index/ "veja o guia").
 
@@ -93,21 +93,3 @@ Sim. Os menus são armazenados como JSON — você pode exportar o arquivo, edit
 ### Não vê sua pergunta aqui?
 
 Entre em contato via [WhatsApp](https://wa.me/84981911011 "WhatsApp") ou e-mail <khoipng@naviplus.io>.
-
-
----
-
-# Instruções para o Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

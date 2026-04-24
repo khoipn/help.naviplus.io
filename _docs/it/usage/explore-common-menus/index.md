@@ -27,7 +27,7 @@ Una barra di navigazione fissa — posizionabile in basso, in alto, a sinistra o
 
 ## 2. Slide Menu *(chiamato anche: Drawer Menu, Hamburger Menu)*
 
-Scivola da sinistra o destra — elementi illimitati, nessun limite di dimensione, si adatta all'intera struttura del tuo sito. Il modello di navigazione più popolare e mobile-friendly. Può essere attivato da un'icona hamburger, un elemento della Tab Bar o qualsiasi pulsante posizionato a portata di pollice. Usalo per il tuo catalogo completo, collegamenti all'account, politiche e qualsiasi cosa che non debba essere sempre visibile.
+Scorre da sinistra o da destra — elementi illimitati, nessun limite di dimensione, si adatta all'intera struttura del tuo sito. Il modello di navigazione più popolare e adatto ai dispositivi mobili. Può essere attivato da un'icona hamburger, un elemento della Tab Bar o qualsiasi pulsante posizionato a portata di pollice. Usalo per il tuo catalogo completo, collegamenti all'account, politiche e qualsiasi cosa che non debba essere sempre visibile.
 
 **Piattaforma:** Mobile *(Estremamente popolare)* · Desktop *(meno comune)*
 
@@ -47,7 +47,7 @@ Un dropdown multi-colonna che si espande sotto l'intestazione — progettato per
 
 ## 4. Mobile Mega Menu *(chiamato anche: Header Menu, Scrollable Top Menu)*
 
-Una barra di menu compatta che si trova appena sotto l'intestazione — sempre visibile, nessun tocco necessario. Scorre orizzontalmente o si divide in schede per mostrare immediatamente le tue categorie principali. Uno dei modelli di navigazione più riconoscibili sui siti web mobili. Migliore per negozi con 4–8 categorie prioritarie che i clienti dovrebbero raggiungere con un solo tocco.
+Una barra di menu compatta posizionata appena sotto l'intestazione — sempre visibile, nessun tocco necessario. Scorre orizzontalmente o si divide in schede per mostrare immediatamente le tue categorie principali. Uno dei modelli di navigazione più riconoscibili sui siti web mobili. Migliore per negozi con 4–8 categorie prioritarie che i clienti dovrebbero raggiungere con un solo tocco.
 
 **Piattaforma:** Solo Mobile *(Popolare)*
 
@@ -79,8 +79,8 @@ Una griglia di riquadri — ognuno con un'icona o un'immagine e un'etichetta. Si
 
 Non devi scegliere solo uno. I negozi con le migliori prestazioni sovrappongono più tipi di menu — ognuno svolge un lavoro specifico:
 
-| Obiettivo                                 | Raccomandato          |
-| ------------------------------------ | -------------------- |
+| Obiettivo                               | Raccomandato          |
+| --------------------------------------- | --------------------- |
 | Navigazione primaria a livello di sito su mobile      | Tab Bar + Slide Menu |
 | Navigazione desktop completa              | Desktop Mega Menu    |
 | Mostrare le categorie principali su mobile     | Mobile Mega Menu     |

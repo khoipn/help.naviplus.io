@@ -23,9 +23,9 @@ Isso significa que, se você estiver usando vários aplicativos, o Navi+ pode à
 
 ### Qual é a minha solução?
 
-Atualmente, o Navi+ tem alta prioridade ao carregar em sites Shopify. No entanto, ainda há um certo atraso. Vamos abordar esses problemas um a um aqui:
+Atualmente, o Navi+ tem alta prioridade ao carregar em sites Shopify. No entanto, ainda há um certo atraso. Vamos abordar esses problemas um por um aqui:
 
-#### Slide Menu: Adicione um efeito de carregamento e bloqueie o seletor de gatilho
+#### Slide Menu: Adicione um efeito de carregamento e bloqueie o seletor do gatilho
 
 Muito simples: basta inserir o seletor CSS que você usa para o Slide Menu na seção de incorporação do aplicativo Navi+ (veja a imagem abaixo).
 
@@ -35,7 +35,7 @@ Muito simples: basta inserir o seletor CSS que você usa para o Slide Menu na se
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgvnasnKF0IHLNHJUnl8n%2F1.3.png?alt=media&#x26;token=47ae5ab0-eb82-4fa7-99ae-264869a09059" alt=""><figcaption></figcaption></figure>
 
-#### Mega Menu (modo de substituição): Adicione um efeito de carregamento e bloqueie o seletor de gatilho
+#### Mega Menu (modo de substituição): Adicione um efeito de carregamento e bloqueie o seletor do gatilho
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fk4HYuop9Aq2GRnk4OEWT%2F2.1.png?alt=media&#x26;token=ddeb17b5-23d7-4870-b9ac-fb95b6e250b7" alt=""><figcaption></figcaption></figure>
 
@@ -48,21 +48,3 @@ Nota:
 * Adicione o sufixo **(M)** se você quiser que se aplique apenas em dispositivos móveis.
 * Adicione o sufixo **(D)** se você quiser que se aplique apenas em desktop.
 * Não deixe sufixo se você quiser que se aplique em ambas as plataformas.
-
-
----
-
-# Instruções do Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

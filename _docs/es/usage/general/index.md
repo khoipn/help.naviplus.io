@@ -1,5 +1,5 @@
 ---
-description: '- Tab Slide — Agrupar elementos del menú en pestañas'
+description: '- Tab Slide — Group Menu Items into Tabs'
 lang: es
 layout: default
 permalink: /es/docs/usage/general/
@@ -7,7 +7,7 @@ title: General
 ---
 # General
 
-- [Tab Slide — Agrupar elementos del menú en pestañas](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md "Tab Slide — Group Menu Items into Tabs")
+- [Tab Slide — Group Menu Items into Tabs](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md "Tab Slide — Group Menu Items into Tabs")
 - [Apply multi-language](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Apply multi-language")
 - [Find CSS Selector](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
 - [Z-index](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")

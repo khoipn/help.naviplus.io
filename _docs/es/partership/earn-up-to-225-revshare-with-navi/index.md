@@ -21,23 +21,6 @@ Con el Programa de RevShare de Navi+, obtendrás:
 
 **👉 ¿Por qué Navi+ es la mejor opción?**
 
-Navi+ es una herramienta poderosa y rica en características, clasificada entre las mejores en el Mercado de Shopify. Sin embargo, puede ser bastante compleja y requiere algo de experiencia técnica. Por eso, Navi+ es la herramienta perfecta para ti: aquellos con habilidades técnicas, una sólida comprensión de UI/UX y dominio web.
+Navi+ es una herramienta poderosa y rica en características, clasificada entre las mejores en el Mercado de Shopify. Sin embargo, puede ser bastante compleja y requiere algo de experiencia técnica. Por eso, Navi+ es la herramienta perfecta para ti: aquellos con habilidades técnicas, una sólida comprensión de UI/UX y maestría web.
 
 Con Navi+, tendrás la flexibilidad de **personalizar profundamente según los exigentes requisitos del cliente**—ofreciendo a menudo características que simplemente no pueden ser igualadas por otras herramientas en el mercado.
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/partership/earn-up-to-22.5-revshare-with-navi+.md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

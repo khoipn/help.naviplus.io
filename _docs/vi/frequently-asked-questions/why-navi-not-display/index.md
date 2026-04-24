@@ -11,7 +11,7 @@ title: Tại sao menu Navi+ không hiển thị trên trang web của tôi?
 
 1. **Nhúng \[Navi+ Trên tất cả các trang] vào giao diện của bạn và điều chỉnh hiển thị trong ứng dụng Navi+**: Đây cũng là cách phổ biến và dễ nhất để thực hiện. Tuy nhiên, các menu Navi+ của bạn chỉ có thể dính trên màn hình (ở dưới cùng, tiêu đề hoặc nổi). Các điều chỉnh rất đa dạng, với ba cấp độ khác nhau để đảm bảo bạn có thể điều hướng theo nhu cầu của mình.
    * Cấp độ 1: Hiện/ẩn menu Navi+ và hiện/ẩn nó trên các nhóm trang cụ thể. Trong Shopify, có một số nhóm trang phổ biến như trang Chủ, danh mục, sản phẩm và trang.
-   * Cấp độ 2: Hiện/ẩn trên thiết bị di động hoặc máy tính để bàn. Do trải nghiệm hoàn toàn khác nhau giữa di động và máy tính để bàn, nhiều người dùng tạo các menu riêng biệt cho di động và máy tính để bàn.
+   * Cấp độ 2: Hiện/ẩn trên thiết bị di động hoặc máy tính để bàn. Do trải nghiệm hoàn toàn khác nhau giữa di động và máy tính để bàn, nhiều người dùng tạo các menu riêng cho di động và máy tính để bàn.
    * Cấp độ 3: Theo từ khóa: Bạn có thể hiện/ẩn khi URL của trang web chứa/không chứa một hoặc một số từ khóa. Tùy chọn này rất hữu ích và linh hoạt, cho phép bạn tạo các menu cụ thể cho từng trang hoặc từng sản phẩm.
 2. **Phiên \[Navi+ Trên Phiên] được sử dụng để nhúng trực tiếp vào từng trang của giao diện Shopify**. Với tùy chọn này, bạn có thể có một lựa chọn bổ sung là không dính menu (ở dưới cùng, tiêu đề hoặc nổi) mà cho phép nó chảy cùng với nội dung của trang. Hiệu ứng này rất hữu ích khi bạn muốn tạo các menu kiểu lưới hoặc kiểu thanh chảy khi bạn cuộn màn hình.
 
@@ -26,20 +26,3 @@ title: Tại sao menu Navi+ không hiển thị trên trang web của tôi?
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Ff8mpogKCx9fpCRbGCKPp%2F005.png?alt=media&#x26;token=7180be60-03a6-4fc3-8edc-62aeae5af4f9" alt=""><figcaption><p>Publish on mobile/desktop</p></figcaption></figure>
 
 <br>
-
----
-
-# Hướng dẫn cho đại lý: Hỏi tài liệu này
-
-Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-navi-not-display.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn lấy các phần tài liệu liên quan.

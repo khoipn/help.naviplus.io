@@ -9,7 +9,7 @@ title: CSSセレクタを見つける
 
 **CSSセレクタ**はCSSにおいて非常に興味深い概念です — それはあなたのウェブサイトのどの部分が**置き換え可能**または**Navi+メニューを挿入できる**かを定義します（*前*または*後*のいずれか）。
 
-ここに使用できる**CSSセレクタの例**があります：
+ここにあなたが使用できる**CSSセレクタの例**があります：
 
 ```css
 #header           /* ヘッダーエリア */
@@ -18,10 +18,10 @@ title: CSSセレクタを見つける
 .main-content     /* メインコンテンツコンテナ */
 .product-gallery  /* 商品画像セクション */
 div#menu-wrapper  /* IDが「menu-wrapper」の特定のdiv */
-section.hero      /* ページの最上部にあるヒーローセクション */
+section.hero      /* ページのトップにあるヒーローセクション */
 ```
 
-以下の指示に従って、あなたのウェブサイトで**正しいCSSセレクタを見つけて**ください。
+以下の指示に従って、あなたのウェブサイトで**正しいCSSセレクタを見つけてください**。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
@@ -38,20 +38,3 @@ section.hero      /* ページの最上部にあるヒーローセクション *
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
----
-
-# エージェントの指示：このドキュメントを照会する
-
-このページに直接利用可能でない追加情報が必要な場合は、質問をしてドキュメントを動的に照会できます。
-
-現在のページのURLに対して`ask`クエリパラメータを使用してHTTP GETリクエストを実行します：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/find-css-selector.md?ask=<question>
-```
-
-質問は具体的で自己完結しており、自然言語で書かれている必要があります。
-回答には質問への直接的な答えと、ドキュメントからの関連する抜粋や情報源が含まれます。
-
-このメカニズムは、現在のページに明示的に存在しない答えが必要な場合、明確化や追加の文脈が必要な場合、または関連するドキュメントセクションを取得したい場合に使用してください。

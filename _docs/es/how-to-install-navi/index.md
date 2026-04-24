@@ -17,7 +17,7 @@ No necesitas saber sobre desarrollo o diseño para usar Navi+. Es un software pr
 Por favor, instala la aplicación oficial desde el siguiente enlace:\
 <https://apps.shopify.com/pronavi-navigation-design>
 
-**Si estás usando otras plataformas** como WordPress, WooCommerce, Wix, Webflow, Squarespace, o un sitio web autoalojado:
+**Si estás usando otras plataformas** como WordPress, WooCommerce, Wix, Webflow, Squarespace, o un sitio web autohospedado:
 
 1. Ve a <https://naviplus.io>
 2. Crea una cuenta gratuita
@@ -42,21 +42,3 @@ Una vez que hayas iniciado sesión, puedes comenzar a crear menús para tu sitio
 Cada tipo de menú tiene su propio proceso de configuración, que está completamente guiado paso a paso dentro del panel de control de Navi+.
 
 También puedes usar múltiples tipos de menús de Navi+ al mismo tiempo en diferentes páginas — por ejemplo, un Tabbar para móvil, un Mega Menu para escritorio, y un Floating Button para tu llamada a la acción o promociones.
-
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/how-to-install-navi+.md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

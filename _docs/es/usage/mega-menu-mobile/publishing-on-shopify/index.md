@@ -9,7 +9,7 @@ title: Publicación en Shopify
 
 ### Paso 2: (Shopify) Publica el menú en tu sitio web.
 
-#### **I) MÉTODO 1: INSERTAR (ANTES O DESPUÉS) ESTE MENÚ EN UNA UBICACIÓN ESPECÍFICA EN TU SITIO WEB, O REEMPLAZAR UN MENÚ EXISTENTE, USANDO UN SELECTOR CSS. (**&#x52;ECOMMENDED)
+#### **I) MÉTODO 1: INSERTAR (ANTES O DESPUÉS) ESTE MENÚ EN UNA UBICACIÓN ESPECÍFICA EN TU SITIO WEB, O REEMPLAZAR UN MENÚ EXISTENTE, USANDO UN SELECTOR CSS. (**&#x52;ECOMMENDADO)
 
 #### I.1. Activa Navi+ en Integraciones de aplicaciones
 
@@ -68,7 +68,7 @@ En esta guía, nos centraremos en 2 formas: insertar este menú debajo del encab
 </details>
 
 <details><summary><strong>¿Cómo encontrar el selector CSS en tu sitio web?</strong></summary>
-<p>Puedes chatear con un soporte de Navi+ para obtener ayuda instantánea en lugar de hacerlo tú mismo.
+<p>Puedes chatear con un soporte de Navi+ para obtener ayuda instantánea en lugar de hacerlo tú mismo.\
 Sin embargo, (1) esto te ayudará a entender la idea principal, y (2) si deseas hacerlo por tu cuenta, sigue las instrucciones a continuación.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
@@ -85,6 +85,17 @@ Sin embargo, (1) esto te ayudará a entender la idea principal, y (2) si deseas 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instrucciones para el agente: Consultando esta documentación</h1>
+<p>Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.</p>
+<p>Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta <code>ask</code>:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;pregunta&gt;
+</code></pre>
+
+<p>La pregunta debe ser específica, autónoma y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.</p>
+<p>Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.</p>
 </details>
 
 #### **II) MÉTODO 2: AÑADIR ESTE MENÚ COMO UNA SECCIÓN/BLOQUE EN EL TEMA DE SHOPIFY**
@@ -103,4 +114,15 @@ Copia el ID de inserción de este menú, luego insértalo en el bloque llamado "
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instrucciones para el agente: Consultando esta documentación</h1>
+<p>Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.</p>
+<p>Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta <code>ask</code>:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;pregunta&gt;
+</code></pre>
+
+<p>La pregunta debe ser específica, autónoma y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.</p>
+<p>Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.</p>
 </details>

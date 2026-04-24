@@ -11,7 +11,7 @@ title: Termos e Condições
 
 ### 1. Introdução
 
-Bem-vindo ao **Navi+** (“nós”, “nos”, “nosso”).\ Estes Termos de Serviço (“Termos”) regem seu acesso e uso do aplicativo, site e serviços relacionados do Navi+ (coletivamente, o “Serviço”).\ Ao usar o Navi+, você concorda com estes Termos. Se você não concorda, por favor, descontinue o uso do Serviço imediatamente.
+Bem-vindo ao **Navi+** (“nós”, “nos”, “nosso”).\ Estes Termos de Serviço (“Termos”) regem seu acesso e uso do aplicativo, site e serviços relacionados do Navi+ (coletivamente, o “Serviço”).\ Ao usar o Navi+, você concorda com estes Termos. Se você não concordar, por favor, descontinue o uso do Serviço imediatamente.
 
 O Navi+ opera de forma independente e funciona em várias plataformas, incluindo **Shopify, WordPress, WooCommerce, Wix, Webflow e Squarespace**.
 
@@ -21,7 +21,7 @@ O Navi+ opera de forma independente e funciona em várias plataformas, incluindo
 
 Todos os pagamentos para assinaturas do Navi+ são processados de forma segura através de plataformas de terceiros confiáveis, como **Shopify Payments** ou **Lemon Squeezy**, dependendo de onde você instala o aplicativo.
 
-Essas plataformas de pagamento garantem que cada transação seja **segura, transparente e protegida** de acordo com padrões internacionais de segurança.
+Essas plataformas de pagamento garantem que cada transação seja **segura, transparente e protegida** de acordo com os padrões internacionais de segurança.
 
 O Navi+ **não armazena diretamente informações de pagamento** e não processa reembolsos por conta própria.\ Ao fazer um pagamento, você concorda em cumprir os respectivos **termos e políticas de reembolso** do provedor de pagamento.
 
@@ -48,7 +48,7 @@ O Navi+ reserva-se o direito de suspender ou encerrar qualquer conta que pareça
 
 ***
 
-### 5. Propriedade de Conteúdo e Licença
+### 5. Propriedade do Conteúdo e Licença
 
 Você mantém a plena propriedade de todo o **conteúdo, imagens, dados e materiais** carregados ou criados enquanto usa o Navi+.
 
@@ -60,7 +60,7 @@ O Navi+ não reivindica a propriedade ou uso do seu conteúdo para marketing, re
 
 ### 6. Limitação de Responsabilidade
 
-O Navi+ é fornecido “**como está**” e “**como disponível**.”\ Não fazemos garantias de que o Serviço será ininterrupto, livre de erros ou compatível com todos os dispositivos ou plataformas.
+O Navi+ é fornecido “**como está**” e “**conforme disponível**.”\ Não fazemos garantias de que o Serviço será ininterrupto, livre de erros ou compatível com todos os dispositivos ou plataformas.
 
 O Navi+ não será responsável por:
 
@@ -77,7 +77,7 @@ Em qualquer caso, a responsabilidade total do Navi+ não deve **exceder o valor 
 Podemos suspender ou encerrar seu acesso ao Navi+ a qualquer momento, sem aviso prévio, se:
 
 1. Você violar estes Termos ou leis aplicáveis.
-2. Recebermos um pedido legal da Shopify, Lemon Squeezy ou qualquer plataforma parceira.
+2. Recebermos um pedido legal do Shopify, Lemon Squeezy ou qualquer plataforma parceira.
 3. O Serviço exigir manutenção, atualização ou descontinuação permanente.
 
 Você também pode encerrar sua conta a qualquer momento desinstalando o aplicativo ou entrando em contato com o suporte.
@@ -94,7 +94,7 @@ Todas as marcas registradas, designs e tecnologias usadas dentro do Navi+ perman
 
 ### 9. Jurisdição e Lei Aplicável
 
-Estes Termos serão regidos e interpretados de acordo com as leis de **Cingapura**, sem considerar princípios de conflito de leis.\ Qualquer disputa que surja sob ou relacionada a estes Termos será resolvida por **arbitragem vinculativa** em Cingapura ou em outro local mutuamente acordado.
+Estes Termos serão regidos e interpretados de acordo com as leis de **Cingapura**, sem considerar princípios de conflito de leis.\ Qualquer disputa decorrente ou relacionada a estes Termos será resolvida por meio de **arbitragem vinculativa** em Cingapura ou em outro local mutuamente acordado.
 
 ***
 
@@ -103,21 +103,3 @@ Estes Termos serão regidos e interpretados de acordo com as leis de **Cingapura
 Se você encontrar algum problema ou tiver perguntas, entre em contato com a **Equipe de Suporte do Navi+** — independentemente do seu plano.\ Valorizamos sinceramente cada mensagem. Seu feedback não apenas nos ajuda a resolver seu problema, mas também nos ajuda a entender as necessidades dos usuários e continuar melhorando o Navi+.
 
 **Email:** <khoipn@naviplus.io>\ **Website:** <https://naviplus.io>
-
-
----
-
-# Instruções para o Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

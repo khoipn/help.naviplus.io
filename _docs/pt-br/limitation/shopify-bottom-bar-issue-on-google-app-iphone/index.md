@@ -21,7 +21,7 @@ O problema ocorre apenas quando:
 
 * O site está rodando em **Shopify**
 * Há uma **Barra Inferior** (Navi+ ou qualquer outro aplicativo), ou um **Botão de Ação Flutuante (FAB)** como widgets de chat, botões de fidelidade, etc.
-* O usuário abre o site **via o Google App no iPhone** (geralmente pesquisando e tocando no site)
+* O usuário abre o site **via Google App no iPhone** (geralmente pesquisando e tocando no site)
 
 O problema **não** ocorre ao abrir o site usando:
 
@@ -35,7 +35,7 @@ Isso confirma que o problema vem do Google App no iOS.
 
 ***
 
-### 2. Por que os sites Shopify usando Navi+ são mais propensos a experimentar esse problema?
+### 2. Por que os sites Shopify que usam Navi+ são mais propensos a experimentar esse problema?
 
 O Google App usa uma maneira especial de renderizar sites (WebView da Apple). Esse mecanismo de renderização tem um problema de longa data ao calcular a altura real da tela em sites que têm:
 
@@ -45,7 +45,7 @@ O Google App usa uma maneira especial de renderizar sites (WebView da Apple). Es
 
 Quando essas condições ocorrem, o Google App pode calcular incorretamente a altura real da viewport e criar um **preenchimento inferior falso**.
 
-➡️ É por isso que o problema aparece com mais frequência em sites Shopify usando Navi+ ou outros aplicativos de barra inferior/FAB.
+➡️ É por isso que o problema aparece com mais frequência em sites Shopify que usam Navi+ ou outros aplicativos de barra inferior/FAB.
 
 ***
 
@@ -54,7 +54,7 @@ Quando essas condições ocorrem, o Google App pode calcular incorretamente a al
 Não.
 Isso é um bug inerente do **Google App no iPhone**, e existe há muitos anos.
 
-Mesmo se o Navi+ estiver desativado, outros aplicativos Shopify que exibem barras inferiores ou FABs ainda experimentam o mesmo problema dentro do Google App.
+Mesmo que o Navi+ esteja desativado, outros aplicativos Shopify que exibem barras inferiores ou FABs ainda experimentam o mesmo problema dentro do Google App.
 
 ***
 
@@ -95,7 +95,7 @@ O Google App irá re-renderizar todo o layout, e a partir desse momento:
 * A Barra Inferior é exibida na posição correta
 * O problema não aparecerá novamente até que o Google App seja fechado e reaberto
 
-#### ✔️ Essa mitigação também reduz erros semelhantes de outros aplicativos posicionados na parte inferior quando usados juntos com o Navi+
+#### ✔️ Essa mitigação também reduz erros semelhantes de outros aplicativos posicionados na parte inferior quando usados em conjunto com o Navi+
 
 ***
 
@@ -115,20 +115,3 @@ Esta mensagem é destinada a usuários não técnicos:
 ✔️ Um bug de exibição no Google App no iPhone
 ✔️ O Navi+ minimiza o problema para que apareça apenas uma vez e depois desapareça
 ✔️ Safari/Chrome estão totalmente isentos
-
----
-
-# Instruções para o Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/limitation/shopify-bottom-bar-issue-on-google-app-iphone.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

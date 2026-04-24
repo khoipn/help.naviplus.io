@@ -1,41 +1,24 @@
 ---
-description: Navi+ bietet ein Testpaket mit nahezu vollständigen Funktionen für alle Websites an. Nach einer bestimmten Zeit, wenn die Besuche auf Ihrer Website (wo Besuche gezählt werden, wenn Navi+ auf der Website angezeigt wird) ...
+description: Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are cou...
 lang: de
 layout: default
 permalink: /de/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-title: Navi+ Pläne (Starter, Business & Elite)
+title: Navi+ plans (Starter, Business & Elite)
 ---
-# Navi+ Pläne (Starter, Business & Elite)
+# Navi+ plans (Starter, Business & Elite)
 
-#### Frage 1: Was passiert, wenn mein Starter-Plan 50.000 Besuche überschreitet?
+#### Question 1: What happens when my Starter plan exceeds 50,000 visits?
 
-Navi+ bietet ein Testpaket mit nahezu vollständigen Funktionen für alle Websites an. Nach einer bestimmten Zeit, wenn die Besuche auf Ihrer Website (wo Besuche gezählt werden, wenn Navi+ auf der Website angezeigt wird) 50.000 überschreiten, wird Ihr Konto automatisch für ein Upgrade markiert. Wir werden die folgenden Maßnahmen ergreifen:
+Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are counted when Navi+ is displayed on the website) exceed 50,000, your account will automatically be flagged for an upgrade. We will take the following actions:
 
-1. Wir werden mehrere E-Mails senden, um Sie über den Status Ihres Navi+ Starter-Plans zu informieren (Bitte stellen Sie sicher, dass Sie unsere Benachrichtigungen erhalten, da dies entscheidend ist). Nach Erhalt der Benachrichtigung sollten Sie in Erwägung ziehen, Ihr Konto auf einen höheren Plan wie Business oder Elite zu upgraden.
-2. Wenn Sie die Informationen nicht erhalten oder wenn Ihre Website nicht beabsichtigt, auf einen höheren Plan upzugraden, werden wir beginnen, kleine Navi+-Anzeigen in Ihren Menüs anzuzeigen. Die Größe der Anzeigen wird die Benutzerinteraktion nicht beeinträchtigen, wird jedoch auffällig genug sein, damit die Benutzer verstehen, dass das Menü von Navi+ unterstützt wird. Wir werden in Betracht ziehen, die Sichtbarkeit der Anzeigen im Laufe der Zeit schrittweise zu erhöhen, von sehr subtil bis auffälliger. Dies hilft Navi+, mehr Menschen zu erreichen und zusätzliche Einnahmen von anderen Kunden zu generieren.
-3. Wir werden keine Funktionen von Navi+ deaktivieren oder entfernen, die derzeit auf Ihrer Website angezeigt werden. Wir verstehen voll und ganz, dass diese Funktionen entscheidend für die Benutzerinteraktion auf Ihrer Website sind, daher werden wir dies strikt vermeiden.
+1. We will send multiple emails to notify you about the status of your Navi+ Starter plan (Please ensure you receive our notifications, as this is crucial). Upon receiving the notification, consider upgrading your account to a higher plan like Business or Elite.
+2. If you do not receive the information or if your website does not intend to upgrade to a higher plan, we will start displaying small Navi+ ads on your menus. The size of the ads will not affect user interaction but will be noticeable enough for users to understand that the menu is powered by Navi+. We will consider gradually increasing the visibility of the ads over time, from very subtle to more noticeable. This helps Navi+ reach more people and generates additional revenue from other customers.
+3. We will not disable or remove any features of Navi+ that are currently displayed on your site. We fully understand that these features are crucial for user interaction on your website, so this is something we will strictly avoid.
 
-#### Frage 2: Was passiert, wenn Sie von Business oder Elite zurück zu Starter downgraden, aber es scheint, als blieben alle Funktionen erhalten?
+#### Question 2: What happens if you downgrade from Business or Elite back to Starter, yet it seems like all the features remain?
 
-Wir verstehen, dass Funktionen und Benutzererfahrung entscheidend für Ihre Kunden sind, daher stellen wir sicher, dass keine Funktionen in Ihrem Menü verborgen oder entfernt werden. Wir haben jedoch ein System, das täglich einen Scan durchführt. Sobald es erkennt, dass sich Ihre Website in dieser Situation befindet, werden wir Ihnen eine E-Mail-Benachrichtigung senden, um Sie zu ermutigen, auf einen höheren Plan upzugraden. Diese E-Mail-Benachrichtigungen werden zeitlich gestaffelt, um zu vermeiden, dass Sie mit zu vielen Nachrichten überfordert werden. Wenn Sie sich entscheiden, nicht auf die Business- oder Elite-Pläne zurückzukehren, wird Navi+ beginnen, Anzeigen anzuzeigen, wie in Frage 1 erklärt.
+We understand that features and user experience are crucial for your customers, so we ensure that no features on your menu will be hidden or removed. However, we have a system that performs a daily scan. As soon as it detects that your website is in this situation, we will send you an email notification to encourage you to upgrade to a higher plan. These email notifications will be spaced out over time to avoid overwhelming you with too many messages. If you choose not to upgrade back to the Business or Elite plans, Navi+ will start displaying ads as explained in Question 1.
 
-#### Frage 3: Was passiert, wenn ich das Limit des Business-Plans überschreite (z. B. mehr als 500.000 Navi+-Ansichten/Monat)?
+#### Question 3: What happens if I exceed the limit on the Business plan (e.g., more than 500,000 Navi+ views/month)?
 
-Wie bei den vorherigen Fragen wird Navi+ keine Menüfunktionen verbergen oder entfernen. Sobald das Limit jedoch überschritten ist und nachdem E-Mail-Benachrichtigungen an Sie gesendet wurden, um ein Upgrade auf den Elite-Plan in Betracht zu ziehen, können Anzeigen in Ihrem Menü angezeigt werden, bis der Beginn eines neuen monatlichen Zyklus.
-
----
-
-# Agentenanweisungen: Abfragen dieser Dokumentation
-
-Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
-
-Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/navi+-plans-starter-business-and-elite.md?ask=<question>
-```
-
-Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
-
-Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie Klarstellungen oder zusätzliche Kontexte benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.
+As with the previous questions, Navi+ will not hide or remove any menu features. However, once the limit is exceeded, and after email notifications are sent to you to consider upgrading to the Elite plan, ads may be displayed on your menu until the start of a new monthly cycle.

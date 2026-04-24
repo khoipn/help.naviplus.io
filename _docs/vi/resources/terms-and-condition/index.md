@@ -11,7 +11,7 @@ title: Điều Khoản & Điều Kiện
 
 ### 1. Giới thiệu
 
-Chào mừng bạn đến với **Navi+** (“chúng tôi”, “của chúng tôi”).\ Những Điều Khoản Dịch Vụ (“Điều Khoản”) điều chỉnh việc bạn truy cập và sử dụng ứng dụng, trang web và các dịch vụ liên quan của Navi+ (gọi chung là “Dịch Vụ”).\ Bằng cách sử dụng Navi+, bạn đồng ý với các Điều Khoản này. Nếu bạn không đồng ý, vui lòng ngừng sử dụng Dịch Vụ ngay lập tức.
+Chào mừng bạn đến với **Navi+** (“chúng tôi”, “của chúng tôi”, “của bạn”).\ Những Điều Khoản Dịch Vụ (“Điều Khoản”) điều chỉnh việc bạn truy cập và sử dụng ứng dụng, trang web và các dịch vụ liên quan của Navi+ (gọi chung là “Dịch Vụ”).\ Bằng cách sử dụng Navi+, bạn đồng ý với các Điều Khoản này. Nếu bạn không đồng ý, vui lòng ngừng sử dụng Dịch Vụ ngay lập tức.
 
 Navi+ hoạt động độc lập và làm việc trên nhiều nền tảng khác nhau, bao gồm **Shopify, WordPress, WooCommerce, Wix, Webflow, và Squarespace**.
 
@@ -29,9 +29,9 @@ Navi+ **không trực tiếp lưu trữ thông tin thanh toán** và không xử
 
 ### 3. Ứng dụng bên thứ ba
 
-Navi+ có thể bao gồm hoặc tích hợp phần mềm, tiện ích mở rộng hoặc dịch vụ của bên thứ ba.\ Tất cả các ứng dụng bên thứ ba được sử dụng trong Navi+ tuân thủ các nguyên tắc **Giấy phép MIT** và được yêu cầu tôn trọng tất cả các **quyền tác giả và luật sở hữu trí tuệ**.
+Navi+ có thể bao gồm hoặc tích hợp phần mềm, tiện ích mở rộng hoặc dịch vụ của bên thứ ba.\ Tất cả các ứng dụng bên thứ ba được sử dụng trong Navi+ tuân thủ các nguyên tắc **Giấy phép MIT** và được yêu cầu tôn trọng tất cả các **luật bản quyền và sở hữu trí tuệ**.
 
-Mặc dù chúng tôi cẩn thận chọn các công cụ và thư viện mà chúng tôi sử dụng, **Navi+ không chịu trách nhiệm** cho bất kỳ vấn đề, thiệt hại hoặc mất mát dữ liệu nào do các ứng dụng bên thứ ba gây ra.\ Bằng cách sử dụng các công cụ này, bạn thừa nhận rằng mọi rủi ro liên quan là trách nhiệm của bạn.
+Mặc dù chúng tôi cẩn thận chọn các công cụ và thư viện mà chúng tôi sử dụng, **Navi+ không chịu trách nhiệm** cho bất kỳ vấn đề, thiệt hại hoặc mất dữ liệu nào do các ứng dụng bên thứ ba gây ra.\ Bằng cách sử dụng các công cụ này, bạn thừa nhận rằng bất kỳ rủi ro nào liên quan đều là trách nhiệm của bạn.
 
 ***
 
@@ -42,7 +42,7 @@ Mặc dù chúng tôi cẩn thận chọn các công cụ và thư viện mà ch
 * Cung cấp thông tin **chính xác, đầy đủ và cập nhật**.
 * Giữ cho **mật khẩu và thông tin đăng nhập của bạn an toàn**.
 * Chịu trách nhiệm hoàn toàn cho tất cả các hoạt động dưới tài khoản của bạn.
-* Thông báo cho Navi+ ngay lập tức về bất kỳ truy cập trái phép hoặc vi phạm bảo mật nào.
+* Thông báo ngay cho Navi+ về bất kỳ truy cập trái phép hoặc vi phạm bảo mật nào.
 
 Navi+ có quyền tạm ngừng hoặc chấm dứt bất kỳ tài khoản nào có vẻ **bị xâm phạm, không hoạt động hoặc vi phạm** các Điều Khoản này hoặc các luật hiện hành.
 
@@ -94,7 +94,7 @@ Tất cả các nhãn hiệu, thiết kế và công nghệ được sử dụng
 
 ### 9. Quyền tài phán và Luật điều chỉnh
 
-Các Điều Khoản này sẽ được điều chỉnh và giải thích theo luật của **Singapore**, mà không xem xét đến các nguyên tắc xung đột pháp luật.\ Bất kỳ tranh chấp nào phát sinh theo hoặc liên quan đến các Điều Khoản này sẽ được giải quyết thông qua **trọng tài ràng buộc** tại Singapore hoặc một địa điểm đã thỏa thuận khác.
+Các Điều Khoản này sẽ được điều chỉnh và giải thích theo luật của **Singapore**, mà không xem xét đến các nguyên tắc xung đột pháp luật.\ Bất kỳ tranh chấp nào phát sinh dưới hoặc liên quan đến các Điều Khoản này sẽ được giải quyết thông qua **trọng tài ràng buộc** tại Singapore hoặc một địa điểm đã thỏa thuận khác.
 
 ***
 
@@ -103,21 +103,3 @@ Các Điều Khoản này sẽ được điều chỉnh và giải thích theo l
 Nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi, vui lòng liên hệ với **Đội ngũ Hỗ trợ Navi+** — bất kể gói của bạn.\ Chúng tôi thực sự trân trọng mọi tin nhắn. Phản hồi của bạn không chỉ giúp chúng tôi giải quyết vấn đề của bạn mà còn giúp chúng tôi hiểu nhu cầu của người dùng và tiếp tục cải thiện Navi+.
 
 **Email:** <khoipn@naviplus.io>\ **Website:** <https://naviplus.io>
-
-
----
-
-# Hướng dẫn cho đại lý: Truy vấn Tài liệu này
-
-Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc thêm ngữ cảnh, hoặc bạn muốn lấy các phần tài liệu liên quan.

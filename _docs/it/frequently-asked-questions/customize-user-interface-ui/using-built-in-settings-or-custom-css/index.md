@@ -3,11 +3,11 @@ description: Navi+ fornisce diverse opzioni di configurazione comuni per i menu,
 lang: it
 layout: default
 permalink: /it/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/
-title: Utilizzare impostazioni integrate o CSS personalizzato?
+title: Utilizzare le impostazioni integrate o CSS personalizzati?
 ---
-# Utilizzare impostazioni integrate o CSS personalizzato?
+# Utilizzare le impostazioni integrate o CSS personalizzati?
 
-Navi+ fornisce diverse opzioni di configurazione comuni per i menu, nella scheda **"Design"**, come sfondo, tipografia (famiglia di font, dimensione..), e icone/immagini (dimensione, intervallo, curvatura...). Utilizzando queste impostazioni, il tuo menu può solitamente essere stilizzato per abbinarsi al design e al branding complessivo del tuo sito web.
+Navi+ fornisce diverse opzioni di configurazione comuni per i menu, nella scheda **"Design"**, come sfondo, tipografia (famiglia di font, dimensione..), e icone/immagini (dimensione, intervallo, curva...). Utilizzando queste impostazioni, il tuo menu può solitamente essere stilizzato per abbinarsi al design e al branding complessivo del tuo sito web.
 
 I menu di Navi+ supportano fino a 3 livelli. Nella scheda **"Design"**, puoi configurare solo lo stile per 2 livelli, e non c'è un'opzione diretta per impostare la dimensione del font o la dimensione dell'icona/immagine per i menu di livello 2 e livello 3. Quindi come puoi farlo?
 
@@ -25,11 +25,11 @@ Tuttavia, se tu o il tuo sviluppatore web avete una comprensione di base del CSS
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FRMPDJmuihVuXKunOmmAZ%2FCSS.1.2.png?alt=media&#x26;token=0ebcac44-dba7-4306-80aa-815323c027b3" alt=""><figcaption></figcaption></figure>
 
-**Nota importante:** La **casella di testo Foglio di stile interno / CSS** aggiunge automaticamente un prefisso (ad es., `#SF-123456789`) prima di ogni regola CSS. Questo assicura che il tuo CSS si applichi solo al menu specifico che stai personalizzando e previene conflitti di stile.
+**Nota importante:** La **casella di testo Stile interno / CSS** aggiunge automaticamente un prefisso (ad es., `#SF-123456789`) prima di ogni regola CSS. Questo assicura che il tuo CSS si applichi solo al menu specifico che stai personalizzando e previene conflitti di stile.
 
 #### Alcuni casi studio tipici di utilizzo del CSS
 
-1) Per configurare l'aspetto dell'intero menu al livello più alto, puoi scrivere uno snippet che non è CSS standard ma molto semplice. Ad esempio, lo snippet qui sotto cambia lo sfondo del menu in rosso. Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
+1) Per configurare l'aspetto dell'intero menu al livello più alto, puoi scrivere uno snippet che non è CSS standard ma molto semplice. Ad esempio, lo snippet qui sotto cambia lo sfondo del menu in rosso. Aggiungi il seguente codice alla casella di testo Stile interno / CSS:
 
 ```
 {
@@ -37,7 +37,7 @@ Tuttavia, se tu o il tuo sviluppatore web avete una comprensione di base del CSS
 }
 ```
 
-2) Configura dimensione, tipografia e colori per ciascun livello di voce di menu. Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
+2) Configura dimensione, tipografia e colori per ciascun livello di voce di menu. Aggiungi il seguente codice alla casella di testo Stile interno / CSS:
 
 ```
 // Personalizza lo stile del testo delle voci di menu di livello 1
@@ -59,7 +59,7 @@ ul.children[menulevel="3"] > li.child > .inner .name{
 }
 ```
 
-3) Cambia lo spessore del font usando `font-weight.` Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
+3) Cambia lo spessore del font usando `font-weight.` Aggiungi il seguente codice alla casella di testo Stile interno / CSS:
 
 ```
 // Imposta lo spessore del font del nome
@@ -73,27 +73,10 @@ ul.children[menulevel="3"] > li.child > .inner .name{
 }
 ```
 
-4) Regola la dimensione della freccia. Aggiungi il seguente codice alla casella di testo Foglio di stile interno / CSS:
+4) Regola la dimensione della freccia. Aggiungi il seguente codice alla casella di testo Stile interno / CSS:
 
 ```
 ul > li.is-parent-top::after {
   font-size: 24px !important;
 }
 ```
-
----
-
-# Istruzioni per l'agente: Interrogare questa documentazione
-
-Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.
-
-Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css.md?ask=<question>
-```
-
-La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
-
-Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

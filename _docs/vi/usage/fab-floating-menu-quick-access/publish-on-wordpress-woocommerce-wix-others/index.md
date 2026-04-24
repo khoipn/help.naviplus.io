@@ -24,14 +24,14 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 <!-- Chèn mã này vào <head> của trang web -->
 ```
 
-### Câu hỏi thường gặp (FAQ)
+### FAQ (Câu Hỏi Thường Gặp)
 
 <details><summary>Token là gì?</summary>
 <p>Mỗi tài khoản Navi+ được gán một token duy nhất. Bạn có thể xem và sao chép token này trực tiếp từ tiêu đề ứng dụng. Token được sử dụng để xuất bản menu của bạn một cách an toàn.</p>
 </details>
 
 <details><summary>https://live.naviplus.app/start.js là gì?</summary>
-<p>Đây là URL cố định của Navi+ chứa logic khởi tạo của ứng dụng. Script này nhẹ (khoảng 4KB), cho phép nó tải nhanh trên hầu hết các thiết bị và điều kiện mạng. Nó được cung cấp qua Cloudflare và BunnyCDN để đảm bảo hiệu suất toàn cầu ổn định và tương thích đáng tin cậy với các trình duyệt hiện đại.</p>
+<p>Đây là URL cố định của Navi+ chứa logic khởi tạo của ứng dụng. Script này nhẹ (khoảng 4KB), cho phép tải nhanh trên hầu hết các thiết bị và điều kiện mạng. Nó được cung cấp qua Cloudflare và BunnyCDN để đảm bảo hiệu suất toàn cầu ổn định và tương thích đáng tin cậy với các trình duyệt hiện đại.</p>
 <p>Sử dụng phương pháp tải không đồng bộ cũng có nghĩa là nó không ảnh hưởng đến quá trình tải trang web.</p>
 </details>
 
@@ -40,7 +40,7 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 </details>
 
 <details><summary>Nơi tốt nhất để chèn đoạn mã này là đâu?</summary>
-<p>Trong phần head (hoặc càng sớm càng tốt). Tại sao? Trang web sẽ tải tài nguyên theo thứ tự để hiển thị giao diện. Đặt Navi+ sớm nhất trong mã HTML sẽ giúp menu của bạn sẵn sàng hiển thị càng sớm càng tốt bằng cách chờ cho đến khi các điều kiện được đáp ứng, sau đó menu sẽ ngay lập tức xuất hiện. Điều này cải thiện trải nghiệm người dùng.</p>
+<p>Trong phần đầu (hoặc càng sớm càng tốt). Tại sao? Trang web sẽ tải tài nguyên theo thứ tự để hiển thị giao diện. Đặt Navi+ sớm nhất trong mã HTML sẽ giúp menu của bạn sẵn sàng hiển thị càng sớm càng tốt bằng cách chờ cho đến khi các điều kiện được đáp ứng, sau đó menu sẽ ngay lập tức xuất hiện. Điều này cải thiện trải nghiệm người dùng.</p>
 </details>
 
 <details><summary>Làm thế nào tôi có thể biết mã này đã được nhúng thành công trên trang web của tôi chưa?</summary>
@@ -53,54 +53,20 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 
 ***
 
-### 2. Chèn Menu Navi+ ở Bất kỳ Điểm Nào trên Trang Web của Bạn
+### 2. Chèn Menu Navi+ ở Bất Kỳ Điểm Nào trên Trang Web của Bạn
 
 Mã dưới đây có thể được sử dụng nhiều lần trên một trang web với thông tin chèn khác nhau (đặc biệt là **Embeded ID**, chẳng hạn như SF-123456789). Khi trang web được hiển thị, menu sẽ được triển khai và hiển thị tại vị trí mà mã được chèn khi các điều kiện được đáp ứng. Loại menu này phù hợp cho: Mega menu, Grid, v.v.
 
 ```html
-<!-- Chèn mã ở nơi menu SF-123456789 xuất hiện. (c) naviplus.io -->
+<!-- Chèn mã tại nơi menu SF-123456789 xuất hiện. (c) naviplus.io -->
 <div class="naviman_app section_naviman_app" id="SF-123456789-container"></div>
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456",
    embed_id: "SF-123456789"
 });</script>
 &lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
-<!-- Chèn mã ở nơi menu SF-123456789 xuất hiện -->
+<!-- Chèn mã tại nơi menu SF-123456789 xuất hiện -->
 ```
 
 {% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Quan trọng</mark>**:** Mã ở trên sử dụng mã nhúng mẫu <mark style="color:orange;">SF-123456789</mark>. Hãy chắc chắn thay thế nó bằng mã nhúng menu thực tế của bạn.
 {% comment %}endhint{% endcomment %}
-
----
-
-# Hướng dẫn cho đại lý: Truy vấn Tài liệu này
-
-Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa, và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc ngữ cảnh bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.
-
----
-
-# Hướng dẫn cho đại lý: Truy vấn Tài liệu này
-
-Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu HTTP GET trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa, và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.
-
-Sử dụng cơ chế này khi câu trả lời không có sẵn rõ ràng trong trang hiện tại, bạn cần làm rõ hoặc ngữ cảnh bổ sung, hoặc bạn muốn lấy các phần tài liệu liên quan.

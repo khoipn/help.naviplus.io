@@ -34,12 +34,12 @@ title: 调试模式 - 查找 CSS 选择器
 
 **重要提示：** 在大多数情况下，您不会立即找到完美的 CSS 选择器。根据经验，通常更容易：
 
-1. 从选择子级选择器开始
+1. 从选择一个子级选择器开始
 2. 然后向上移动 1–2 个父级（您的网站上将出现视觉高亮）
 3. 使用 ⌘+C（Ctrl+C）复制选择器
 4. 将其粘贴到菜单配置中并进行测试
 
-有时，您可能需要多次重复此过程，以便在插入、替换或绑定菜单事件到 CSS 选择器时实现所需的用户体验。
+有时，您可能需要在插入、替换或绑定菜单事件到 CSS 选择器时重复此过程几次，以实现所需的用户体验。
 
 #### 1.1. 在桌面上查找 CSS 选择器
 
@@ -54,31 +54,13 @@ title: 调试模式 - 查找 CSS 选择器
 要在移动设备上查找 CSS 选择器，请在浏览器中启用移动（响应式）模式。\
 然后在页面上的任意位置右键单击并选择：
 
-* Chrome：检查
-* Safari：检查元素
-* Firefox：检查
-* Edge：检查 / 检查元素
+* Chrome: 检查
+* Safari: 检查元素
+* Firefox: 检查
+* Edge: 检查 / 检查元素
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FK7F58NVYCerBTqG9EWjB%2FFrame%20213.webp?alt=media&#x26;token=2f2c059a-1346-446d-a19f-e2998050791a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsNvXhBMniymbZ1tD9c4p%2FFrame%20214.webp?alt=media&#x26;token=257f082d-ff6b-4ce0-8eaa-6160a697a67e" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAZm1dPEZrfeqtpNXA8O%2FFrame%20215.webp?alt=media&#x26;token=2847a4ef-e298-4986-9367-36a6abf914d8" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# 代理说明：查询此文档
-
-如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。
-
-在当前页面 URL 上执行 HTTP GET 请求，带上 `ask` 查询参数：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md?ask=<question>
-```
-
-问题应具体、自包含，并用自然语言书写。
-响应将包含对问题的直接回答以及文档中的相关摘录和来源。
-
-当答案未在当前页面中明确存在时，您需要澄清或额外的上下文，或想要检索相关文档部分时，请使用此机制。

@@ -16,9 +16,9 @@ Questi elementi flottanti sono controllati dai propri **valori di z-index**. Mag
 {% comment %}hint style="info" {% endcomment %}
 Divertiamoci un po' :joy:: Dai un'occhiata più da vicino allo screenshot qui sopra e vedrai—sì, è un pasticcio, e non ci sono assolutamente **regole**. Ci sono tre sviluppatori dietro il sito web che stai guardando.
 
-Lo sviluppatore che ha creato il tema Dawn ha scelto uno z-index di 3 per il Menu Panel e 1000 per il Cart Panel—completamente non correlati, senza una logica chiara.
+Lo sviluppatore che ha costruito il tema Dawn ha scelto uno z-index di 3 per il Menu Panel e 1000 per il Cart Panel—completamente non correlati, senza una logica chiara.
 
-Poi c'è lo sviluppatore dell'app Rivo Loyalty Rewards—uno strumento di fidelizzazione popolare—che ha scelto uno z-index di 99999999999, probabilmente senza nemmeno contare quanti nove ha digitato. Il loro unico obiettivo: assicurarsi che il pulsante flottante “Rewards” rimanga sempre in cima, a prescindere da tutto, anche sopra il tuo Cart Panel.
+Poi c'è lo sviluppatore dell'app Rivo Loyalty Rewards—uno strumento di fidelizzazione popolare—che ha scelto uno z-index di 99999999999, probabilmente senza nemmeno contare quanti nove ha digitato. Il loro unico obiettivo: assicurarsi che il pulsante flottante "Rewards" rimanga sempre in cima, a prescindere da tutto, anche sopra il tuo Cart Panel.
 
 Nel frattempo, lo sviluppatore di Navi+ ha umilmente scelto un numero più piccolo—solo 5—perché non volevamo essere troppo aggressivi o invadenti. Quindi, cosa dovresti fare?
 {% comment %}endhint{% endcomment %}
@@ -68,21 +68,3 @@ Nel frattempo, lo sviluppatore di Navi+ ha umilmente scelto un numero più picco
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F7np7UDMk5KFGnSvMr8HK%2Fz-index%201.2.png?alt=media&#x26;token=ae4aa403-fbd6-41c9-a16d-861e8cd032bc" alt=""><figcaption></figcaption></figure>
 </details>
-
-
----
-
-# Istruzioni per l'agente: Consultazione di questa documentazione
-
-Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi consultare la documentazione dinamicamente ponendo una domanda.
-
-Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/z-index.md?ask=<question>
-```
-
-La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.
-
-Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.

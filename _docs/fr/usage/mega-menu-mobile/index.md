@@ -7,6 +7,6 @@ title: Mega Menu (mobile)
 ---
 # Mega Menu (mobile)
 
-- [Comment utiliser?](/manual/website/help.naviplus.io/usage/mega-menu-mobile/how-to-use.md "How to use?")
-- [Publication sur Shopify](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publishing-on-shopify.md "Publishing on Shopify")
-- [Publier sur WordPress / WooCommerce / Wix / Autres](/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [How to use?](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/how-to-use.md "How to use?")
+- [Publishing on Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/publishing-on-shopify.md "Publishing on Shopify")
+- [Publish on WordPress / WooCommerce / Wix / Others](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")

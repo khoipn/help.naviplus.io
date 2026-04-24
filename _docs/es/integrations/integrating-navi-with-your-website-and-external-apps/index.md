@@ -11,7 +11,7 @@ Aquí encontrarás guías sobre cómo conectar Navi+ con otras aplicaciones (com
 
 ### 1. Integra otras aplicaciones fijas en un solo elemento de menú de Navi+
 
-Navi+ consolida múltiples aplicaciones (Chat Box, Lealtad, Prueba Social, Barras Promocionales, etc.) en elementos de menú, manteniendo tu sitio web limpio y previniendo superposiciones, especialmente valioso en dispositivos móviles con espacio de pantalla limitado.\
+Navi+ consolida múltiples aplicaciones (Chat Box, Lealtad, Prueba Social, Barras Promocionales, etc.) en elementos de menú, manteniendo tu sitio web limpio y previniendo superposiciones—especialmente valioso en dispositivos móviles con espacio de pantalla limitado.\
 Para lograr esto, sigue estos 2 pasos:
 
 • Paso 1: Oculta los íconos de las aplicaciones fijas usando CSS. Ver detalle aquí\
@@ -87,20 +87,3 @@ Navi+ proporciona varias funciones (activadas cuando se hace clic en un elemento
 ### ¿No lo ves en la lista?
 
 No dudes en enviarme tu solicitud de integración. Estoy encantado de ayudar, y también apoya el crecimiento de Navi+.
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

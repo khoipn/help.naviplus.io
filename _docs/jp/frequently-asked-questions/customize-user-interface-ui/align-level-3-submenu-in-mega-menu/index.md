@@ -15,31 +15,14 @@ title: メガメニューのレベル3サブメニューを整列させるには
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F2tyR71IfHrMmPmZN0Ewi%2F1.3.png?alt=media&#x26;token=cdd6854c-2782-40ec-a959-a74d576eb177" alt=""><figcaption></figcaption></figure>
 
-内部スタイルシート / CSSボックスに貼り付けてください：
+内部スタイルシート / CSSボックスに貼り付けます:
 
 ```
 ul.children[menulevel="2"] li.child.is-parent.menu-expand {
-  position: initial;
+  position: initial;
 }
 
 ul.children[menulevel="2"] li.child.is-parent.menu-expand ul.children[menulevel="3"]{
-  top: 0px;
+  top: 0px;
 }
 ```
-
----
-
-# エージェントの指示：このドキュメントを照会する
-
-このページに直接利用できない追加情報が必要な場合は、質問をしてドキュメントを動的に照会できます。
-
-現在のページのURLに`ask`クエリパラメータを付けてHTTP GETリクエストを実行します：
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu.md?ask=<question>
-```
-
-質問は具体的で自己完結しており、自然言語で書かれている必要があります。
-回答には質問への直接的な回答と、ドキュメントからの関連する抜粋や情報源が含まれます。
-
-このメカニズムは、現在のページに明示的に存在しない回答が必要な場合、明確化や追加の文脈が必要な場合、または関連するドキュメントセクションを取得したい場合に使用してください。

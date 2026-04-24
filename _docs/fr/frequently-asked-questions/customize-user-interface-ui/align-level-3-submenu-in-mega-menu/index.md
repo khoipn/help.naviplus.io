@@ -15,7 +15,7 @@ Certains méga menus peuvent être très hauts. Dans ce cas, l'expansion d'un me
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F2tyR71IfHrMmPmZN0Ewi%2F1.3.png?alt=media&#x26;token=cdd6854c-2782-40ec-a959-a74d576eb177" alt=""><figcaption></figcaption></figure>
 
-Collez-le dans la boîte de styles internes / CSS :
+Collez-le dans la boîte de Styles internes / CSS :
 
 ```
 ul.children[menulevel="2"] li.child.is-parent.menu-expand {
@@ -26,20 +26,3 @@ ul.children[menulevel="2"] li.child.is-parent.menu-expand ul.children[menulevel=
   top: 0px;
 }
 ```
-
----
-
-# Instructions pour l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et écrite en langage naturel.
-La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

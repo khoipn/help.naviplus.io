@@ -11,7 +11,7 @@ title: Tab Slide — Agrupar elementos del menú en pestañas
 
 En lugar de mostrar todos los elementos del menú a la vez, **Tab Slide** te permite organizar tu menú en grupos y colocar cada grupo bajo una pestaña separada. Los visitantes simplemente tocan una pestaña para cambiar entre grupos, lo que hace que los menús largos sean limpios, compactos y fáciles de navegar.
 
-**Cómo se ve:**
+**Así es como se ve:**
 
 ```
 ┌──────────────────────────────────┐
@@ -36,7 +36,7 @@ Cuando un visitante toca "Blog", el contenido cambia instantáneamente a los art
 3. Ingresa un **nombre de pestaña** (por ejemplo, "Shop", "Blog", "Deals")
 4. Haz clic en **Agregar**
 
-> El marcador de pestaña aparecerá en el árbol del menú con una insignia azul **\[Tab\]**.
+> El marcador de pestaña aparecerá en el árbol del menú con una insignia azul **\[Tab]**.
 
 #### Paso 2 — Agregar contenido a la pestaña
 
@@ -117,25 +117,8 @@ También funciona en **cualquier nivel de menú** — no solo en el menú princi
 
 **¿Puedo agregar un ícono a una pestaña?** Sí. Edita el marcador de pestaña como cualquier otro elemento y elige un ícono de la biblioteca, o sube una imagen personalizada.
 
-**¿Cuál pestaña se muestra primero?** La primera pestaña siempre está seleccionada por defecto cuando se abre el menú.
+**¿Qué pestaña se muestra primero?** La primera pestaña siempre está seleccionada por defecto cuando se abre el menú.
 
 **¿Hay un límite en cuántas pestañas puedo tener?** No hay un límite estricto, pero recomendamos mantenerlo entre 3 y 6 pestañas para la mejor experiencia en pantallas móviles.
 
 **¿Puedo usar Tab Slide dentro de un submenú?** Sí. Coloca marcadores de pestaña dentro de cualquier submenú y el comportamiento de la pestaña funcionará a ese nivel.
-
----
-
-# Instrucciones para el agente: Consultando esta documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md?ask=<pregunta>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

@@ -96,6 +96,17 @@ Sin embargo, (1) esto te ayudará a entender la idea principal, y (2) si deseas 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>Instrucciones para el agente: Consultando esta documentación</h1>
+<p>Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.</p>
+<p>Realiza una solicitud HTTP GET en la URL de la página actual con el <code>ask</code> parámetro de consulta:</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;pregunta&gt;
+</code></pre>
+
+<p>La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
+La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.</p>
+<p>Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.</p>
 </details>
 
 #### 2.3. ¡Importante! Optimiza la velocidad del menú deslizante, agrega un efecto de carga y previene menús duplicados

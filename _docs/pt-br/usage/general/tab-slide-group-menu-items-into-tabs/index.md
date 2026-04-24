@@ -54,18 +54,18 @@ Todos os itens do menu colocados **diretamente abaixo** de um marcador de Aba pe
 
 #### Passo 3 — Adicionar mais abas (opcional)
 
-Repita os passos 1–2 para cada aba que você deseja. Não há limite no número de abas.
+Repita os passos 1–2 para cada aba que você deseja. Não há limite para o número de abas.
 
 ***
 
 ### Encerrando o Grupo de Abas
 
-Às vezes, você quer que certos itens **sempre sejam visíveis** — fora de qualquer aba — por exemplo, um link "Contact" ou "Search" na parte inferior.
+Às vezes, você quer que certos itens **estejam sempre visíveis** — fora de qualquer aba — por exemplo, um link "Contact" ou "Search" na parte inferior.
 
 Para fazer isso:
 
 1. Adicione um novo item **Tab Slide**
-2. No painel de edição, marque **"Fim do grupo de abas"**
+2. No painel de edição, marque **"Fim do grupo de Abas"**
 3. Todos os itens abaixo deste marcador serão exibidos como itens de menu regulares
 
 ```
@@ -73,7 +73,7 @@ Para fazer isso:
   T-Shirts, Pants...
 [Tab] Blog
   News, Guides...
-[Fim do grupo de abas]   ← marca o fim das abas
+[End of Tab group]   ← marca o fim das abas
   Contact Us         ← sempre visível, não dentro de nenhuma aba
   About              ← sempre visível
 ```
@@ -99,7 +99,7 @@ Cada marcador de Aba pode ser estilizado de forma independente:
 
 ### Quais Tipos de Menu Suportam o Tab Slide?
 
-Tab Slide funciona com **todos os tipos de menu Navi+**:
+O Tab Slide funciona com **todos os tipos de menu Navi+**:
 
 * ✅ Tab Bar
 * ✅ Slide Menu
@@ -107,7 +107,7 @@ Tab Slide funciona com **todos os tipos de menu Navi+**:
 * ✅ FAB Menu
 * ✅ Grid menu
 
-Ele também funciona em **qualquer nível de menu** — não apenas no menu principal, mas dentro de submenus também (nível 2, nível 3).
+Ele também funciona em **qualquer nível de menu** — não apenas no menu principal, mas também dentro de submenus (nível 2, nível 3).
 
 ***
 
@@ -122,20 +122,3 @@ Ele também funciona em **qualquer nível de menu** — não apenas no menu prin
 **Há um limite para quantas abas posso ter?** Não há um limite rígido, mas recomendamos manter entre 3–6 abas para a melhor experiência em telas móveis.
 
 **Posso usar o Tab Slide dentro de um submenu?** Sim. Coloque marcadores de Aba dentro de qualquer submenu e o comportamento da aba funcionará nesse nível.
-
----
-
-# Instruções para o Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

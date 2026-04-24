@@ -1,5 +1,5 @@
 ---
-description: '- 入门'
+description: '- 开始使用'
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/manual/website/helpnaviplusio/
@@ -7,7 +7,7 @@ title: help.naviplus.io
 ---
 # help.naviplus.io
 
-- [入门](https://help.shopifas.com/manual/website/help.naviplus.io/getting-started.md "Getting Started")
+- [开始使用](https://help.shopifas.com/manual/website/help.naviplus.io/getting-started.md "Getting Started")
 - [为什么选择 Navi+?](https://help.shopifas.com/manual/website/help.naviplus.io/why-choose-navi+.md "Why choose Navi+?")
 - [常见的第一个问题](https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md "Common first questions")
 - [如何安装 Navi+](https://help.shopifas.com/manual/website/help.naviplus.io/how-to-install-navi+.md "How to install Navi+")
@@ -70,7 +70,7 @@ title: help.naviplus.io
 - [Shopify: 打开汉堡菜单或购物车，搜索面板](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel.md "Shopify: Open the hamburger menu or cart, search panel")
 - [常见问题](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions.md "Frequently Asked Questions")
 - [自定义用户界面 (UI)](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui.md "Customize User interface (UI)")
-- [使用内置设置还是自定义 CSS?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css.md "Using built-in settings or custom CSS?")
+- [使用内置设置或自定义 CSS?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css.md "Using built-in settings or custom CSS?")
 - [移除菜单项活动状态?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state.md "Remove menu item active state?")
 - [在 Mega Menu 中对齐第 3 级子菜单?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu.md "Align level 3 submenu in mega menu?")
 - [优化速度、图像和用户体验](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux.md "Optimize speeds, images and UX")

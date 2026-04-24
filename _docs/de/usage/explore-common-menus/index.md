@@ -17,7 +17,7 @@ Die meisten Geschäfte verwenden nur einen Menütetyp – aber jeder Typ hat ein
 
 ## 1. Tab Bar *(auch genannt: Bottom Navigation, Nav Bar, Bottom Nav)*
 
-Eine feste Navigationsleiste – platzierbar unten, oben, links oder rechts. Hält 4–5 Abschnitte mit Symbol + Beschriftung. Lässt Ihr Geschäft wie eine native App erscheinen. Funktioniert sowohl auf Mobilgeräten als auch auf Desktop. Am besten als primäre, siteweite Navigation – immer sichtbar, immer in Reichweite des Daumens. **Verwendet von:** Shein, ASOS, Zara, Etsy, HM, Nike, Uniqlo.
+Eine feste Navigationsleiste – platzierbar unten, oben, links oder rechts. Hält 4–5 Abschnitte mit Symbol + Beschriftung. Lässt Ihr Geschäft wie eine native App erscheinen. Funktioniert sowohl auf Mobilgeräten als auch auf Desktop. Am besten als primäre, siteweite Navigation – immer sichtbar, immer in Reichweite des Daumens. **Verwendet von:** Shein, ASOS, Zara, Etsy, H&M, Nike, Uniqlo.
 
 **Plattform:** Desktop und Mobil *(Extrem beliebt)*
 
@@ -37,7 +37,7 @@ Fährt von links oder rechts ein – unbegrenzte Elemente, keine Größenbeschr�
 
 ## 3. Desktop Mega Menu *(auch genannt: Dropdown Menu, Multi-column Menu)*
 
-Ein mehrspaltiges Dropdown, das unter der Kopfzeile aufgeklappt wird – entwickelt, um Ihre gesamte Desktop-Navigation an einem Ort abzudecken. Nutzt den großen Bildschirm optimal mit Bildern, Bannern und reichhaltigen Layouts über mehrere Spalten. Ersetzt das Standardkopfmenü vollständig. Der Standard für jedes Geschäft mit einem umfangreichen Katalog auf Desktop.
+Ein mehrspaltiges Dropdown, das sich unter der Kopfzeile öffnet – entwickelt, um Ihre gesamte Desktop-Navigation an einem Ort abzudecken. Nutzt den großen Bildschirm optimal mit Bildern, Bannern und reichhaltigen Layouts über mehrere Spalten. Ersetzt das Standardkopfzeilenmenü vollständig. Der Standard für jedes Geschäft mit einem umfangreichen Katalog auf Desktop.
 
 **Plattform:** Nur Desktop *(Extrem beliebt)*
 
@@ -47,7 +47,7 @@ Ein mehrspaltiges Dropdown, das unter der Kopfzeile aufgeklappt wird – entwick
 
 ## 4. Mobile Mega Menu *(auch genannt: Header Menu, Scrollable Top Menu)*
 
-Eine kompakte Menüleiste, die direkt unter der Kopfzeile sitzt – immer sichtbar, kein Tippen erforderlich. Scrollt horizontal oder teilt sich in Registerkarten, um Ihre wichtigsten Kategorien sofort anzuzeigen. Eines der erkennbarsten Navigationsmuster auf mobilen Websites. Am besten für Geschäfte mit 4–8 priorisierten Kategorien, die Kunden mit einem Tipp erreichen sollten.
+Eine kompakte Menüleiste, die direkt unter der Kopfzeile sitzt – immer sichtbar, kein Tippen erforderlich. Scrollt horizontal oder teilt sich in Tabs, um Ihre wichtigsten Kategorien sofort anzuzeigen. Eines der erkennbarsten Navigationsmuster auf mobilen Websites. Am besten für Geschäfte mit 4–8 Prioritätskategorien, die Kunden mit einem Tipp erreichen sollten.
 
 **Plattform:** Nur Mobil *(Beliebt)*
 
@@ -57,7 +57,7 @@ Eine kompakte Menüleiste, die direkt unter der Kopfzeile sitzt – immer sichtb
 
 ## 5. FAB & Support *(auch genannt: Floating Button, Speed Dial)*
 
-Ein schwebender Button, der an einer Ecke fixiert ist – immer sichtbar, unabhängig vom Scrollen. Erweitert sich in mehrere Aktionen: WhatsApp, Messenger, Chat-Widgets (Shopify Inbox, Tidio, Crisp), Hotline oder jeden benutzerdefinierten Link. Der erste Ort, an dem Kunden nach Hilfe oder Support-Dokumenten suchen. Kann automatisch ausgeblendet werden, wenn er nicht benötigt wird, um Platz auf dem Bildschirm zu sparen.
+Ein schwebender Button, der an einer Ecke fixiert ist – immer sichtbar, unabhängig vom Scrollen. Erweitert sich in mehrere Aktionen: WhatsApp, Messenger, Chat-Widgets (Shopify Inbox, Tidio, Crisp), Hotline oder jeden benutzerdefinierten Link. Der erste Ort, an dem Kunden suchen, wenn sie Hilfe oder Support-Dokumente benötigen. Kann automatisch ausgeblendet werden, wenn er nicht benötigt wird, um Platz auf dem Bildschirm zu sparen.
 
 **Plattform:** Desktop *(beliebt)* · Mobil *(Extrem beliebt)*
 
@@ -67,7 +67,7 @@ Ein schwebender Button, der an einer Ecke fixiert ist – immer sichtbar, unabh�
 
 ## 6. Grid Menu *(auch genannt: Icon Menu, Category Grid)*
 
-Ein Raster aus Kacheln – jede mit einem Symbol oder Bild und einer Beschriftung. Wird direkt in jeden Seitenabschnitt eingebettet, nicht in die siteweite Navigation. Verleiht Ihrem Geschäft ein app-ähnliches Aussehen und Gefühl, ideal, um 6–12 Kategorien auf einen Blick zu präsentieren. Funktioniert besonders gut auf Startseiten, Landing Pages und innerhalb von Slide Menüs.
+Ein Raster aus Kacheln – jede mit einem Symbol oder Bild und einer Beschriftung. Wird direkt in jeden Seitenabschnitt eingebettet, nicht in die siteweite Navigation. Verleiht Ihrem Geschäft ein app-ähnliches Aussehen und Gefühl, ideal zum Anzeigen von 6–12 Kategorien auf einen Blick. Funktioniert besonders gut auf Startseiten, Landing Pages und innerhalb von Slide Menüs.
 
 **Plattform:** Mobil *(Beliebt)*
 
@@ -124,22 +124,3 @@ Sie müssen sich nicht nur für einen entscheiden. Die leistungsstärksten Gesch
 <details><summary>Kann ich mein bestehendes Menü in Navi+ importieren?</summary>
 <p>Ja. Navi+ unterstützt den KI-unterstützten Import – aber Sie müssen das Ergebnis anpassen. Hier ist der Grund: Die meisten Websites haben heute ein einzelnes Mega Menu, das sich automatisch in ein Hamburger Menu auf Mobilgeräten zusammenfaltet. Navi+ bietet Ihnen stattdessen spezialisierte Menütetypen. Sie müssen Ihre Inhalte über die richtigen Typen verteilen, um das beste Erlebnis für Ihre Kunden zu erzielen.</p>
 </details>
-
-
-
----
-
-# Anweisungen für Agenten: Abfragen dieser Dokumentation
-
-Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.
-
-Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem `ask` Abfrageparameter aus:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/explore-common-menus.md?ask=<question>
-```
-
-Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.
-
-Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf dieser Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.

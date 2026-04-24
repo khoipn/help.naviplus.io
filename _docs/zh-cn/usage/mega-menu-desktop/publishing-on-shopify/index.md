@@ -36,15 +36,15 @@ title: 在 Shopify 上发布
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-步骤 2：打开切换 "通过插入/替换方法发布菜单"。
+步骤 2：开启切换 "通过插入/替换方法发布菜单"。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
 步骤 3：选择正确的 CSS 选择器并替换/插入方法
 
-在本指南中，我们将重点关注 2 种方式：在页眉下方插入此菜单或替换默认的 Mega Menu。您还可以通过查找和应用其他 CSS 选择器来创造性地使用此方法以触发菜单。
+在本指南中，我们将重点关注 2 种方法：在页眉下方插入此菜单或替换默认的 Mega Menu。您还可以通过查找和应用其他 CSS 选择器来创造性地使用此方法以触发菜单。
 
-<details><summary>如何在网站的页眉下插入此菜单<strong>?</strong></summary>
+<details><summary>如何在网站的页眉下方插入此菜单<strong>?</strong></summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8qcOprJA7RFqTtJUD1PB%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=94ea06fa-2cbe-4fc8-be0b-7c5dd0864f47" alt=""><figcaption></figcaption></figure>
 
 <p>要做到这一点，只需识别您网站页眉的 CSS 选择器并将其输入到文本框中。我们已经为您找到了一些最流行主题的 CSS 选择器，列在下面。</p>
@@ -83,7 +83,7 @@ title: 在 Shopify 上发布
 </details>
 
 <details><summary><strong>如何在您的网站上找到 CSS 选择器？</strong></summary>
-<p>您可以与 Navi+ 支持人员聊天以获得即时帮助，而不是自己去做。\然而，（1）这将帮助您理解核心思想，（2）如果您想自己做，请遵循以下说明。</p>
+<p>您可以与 Navi+ 支持人员聊天以获得即时帮助，而不是自己去做。\然而，（1）这将帮助您理解核心思想，（2）如果您想自己动手，请遵循以下说明。</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -99,6 +99,17 @@ title: 在 Shopify 上发布
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>代理指令：查询此文档</h1>
+<p>如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。</p>
+<p>在当前页面 URL 上执行 HTTP GET 请求，带上 <code>ask</code> 查询参数：</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。</p>
+<p>当当前页面中未明确存在答案时，您需要澄清或额外的上下文，或想要检索相关文档部分时，请使用此机制。</p>
 </details>
 
 **I.3. 重要！优化 Mega Menu 的速度和用户体验（替换模式）**
@@ -116,7 +127,7 @@ title: 在 Shopify 上发布
 <li>然后 Shopify 加载主题内容。</li>
 <li>最后，Shopify 加载应用内容，但没有特定顺序。</li>
 </ol>
-<p>这意味着如果您使用多个应用，Navi+ 有时可能会比预期加载得更晚。这就是为什么在某些情况下它会感觉更慢。</p>
+<p>这意味着如果您使用多个应用，Navi+ 有时可能会比预期加载得更晚。这就是为什么在某些情况下它可能感觉更慢。</p>
 <hr />
 <h4>我的解决方案是什么？</h4>
 <p>目前，Navi+ 在 Shopify 网站上的加载优先级很高。然而，仍然存在一定的延迟。我们将在这里逐一解决这些问题：</p>
@@ -134,15 +145,16 @@ title: 在 Shopify 上发布
 </ul>
 </details>
 
+
 #### **II) 方法 2：将此菜单作为 Shopify 主题中的部分/区块添加**
 
 此方法通过在您的 Shopify 主题中添加一个区块/部分来插入菜单。这是一种传统的方法，因此我不会详细描述。使用此方法，您甚至不需要在方法 1 的步骤 1 中所需的**“在应用嵌入中打开 Navi+”**。
 
-复制此菜单的嵌入 ID，然后插入到主题部分中名为 "Navi+ on Section" 的区块中。您可以在添加后为此部分添加标题、设置全宽并调整边距。
+复制此菜单的嵌入 ID，然后插入到主题部分中名为 "Navi+ 在部分中" 的区块中。您可以在添加后为此部分添加标题，设置全宽，并调整边距。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
-<details><summary>在 Shopify 主题中将此菜单作为部分/区块添加的指南</summary>
+<details><summary>将此菜单作为部分/区块添加到 Shopify 主题的指南</summary>
 <p>以下是将 Navi+ 菜单作为部分/区块插入到您的 Shopify 主题中的详细指南。此方法允许您以标准的、 Shopify 支持的方式添加菜单，尽管它不如 Navi+ 提供的其他方法灵活。</p>
 <p>此方法适用于<strong>Mega Menus</strong> 和 <strong>Grid Menus</strong>。它<strong>不适用于</strong><strong>Tabbar</strong>、<strong>FAB</strong> 或 <strong>Slide Menus</strong>。</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
@@ -150,4 +162,15 @@ title: 在 Shopify 上发布
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
+
+<hr />
+<h1>代理指令：查询此文档</h1>
+<p>如果您需要此页面中未直接提供的额外信息，您可以通过提问动态查询文档。</p>
+<p>在当前页面 URL 上执行 HTTP GET 请求，带上 <code>ask</code> 查询参数：</p>
+<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
+</code></pre>
+
+<p>问题应具体、自包含，并用自然语言书写。
+响应将包含对问题的直接回答以及文档中的相关摘录和来源。</p>
+<p>当当前页面中未明确存在答案时，您需要澄清或额外的上下文，或想要检索相关文档部分时，请使用此机制。</p>
 </details>

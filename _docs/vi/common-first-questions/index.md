@@ -36,7 +36,7 @@ Sáu: Tab Bar, Slide Menu, FAB, Grid Menu, Mega Menu (di động), và Mega Menu
 
 #### Tôi có thể tạo bao nhiêu menu?
 
-* **Starter (Miễn phí):** 1 menu cho mỗi miền
+* **Gói Starter (Miễn phí):** 1 menu cho mỗi miền
 * **Business:** 4 menu cho mỗi miền
 * **Elite:** Không giới hạn
 
@@ -74,7 +74,7 @@ Có. Kiểm soát khả năng hiển thị theo URL trang, loại thiết bị (
 
 #### Navi+ có xung đột với chủ đề hoặc các ứng dụng khác của tôi không?
 
-Hiếm khi. Navi+ không thay đổi chủ đề của bạn hoặc yêu cầu bất kỳ quyền nào. Nếu các menu chồng lên các yếu tố dính khác, hãy điều chỉnh z-index — [xem hướng dẫn](https://help.naviplus.io/docs/usage/general/z-index/ "xem hướng dẫn").
+Hiếm khi. Navi+ không sửa đổi chủ đề của bạn hoặc yêu cầu bất kỳ quyền nào. Nếu các menu chồng lên các yếu tố dính khác, hãy điều chỉnh z-index — [xem hướng dẫn](https://help.naviplus.io/docs/usage/general/z-index/ "xem hướng dẫn").
 
 #### Navi+ có thể hợp nhất các widget ứng dụng khác thành một menu không?
 
@@ -93,19 +93,3 @@ Có. Các menu được lưu trữ dưới dạng JSON — bạn có thể xuấ
 ### Không thấy câu hỏi của bạn ở đây?
 
 Liên hệ qua [WhatsApp](https://wa.me/84981911011 "WhatsApp") hoặc email <khoipng@naviplus.io>.
-
-
----
-
-# Hướng dẫn cho đại lý: Truy vấn tài liệu này
-
-Nếu bạn cần thêm thông tin không có sẵn trực tiếp trên trang này, bạn có thể truy vấn tài liệu một cách động bằng cách đặt câu hỏi.
-
-Thực hiện yêu cầu GET HTTP trên URL trang hiện tại với tham số truy vấn `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md?ask=<question>
-```
-
-Câu hỏi nên cụ thể, tự chứa, và được viết bằng ngôn ngữ tự nhiên.
-Phản hồi sẽ chứa một câu trả lời trực tiếp cho câu hỏi và các đoạn trích và nguồn liên quan từ tài liệu.

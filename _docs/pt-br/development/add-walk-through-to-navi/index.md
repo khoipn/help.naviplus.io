@@ -7,7 +7,7 @@ title: Adicionar walkthrough ao Navi+
 ---
 # Adicionar walkthrough ao Navi+
 
-Você precisará usar uma biblioteca como TourGuideJS, uma biblioteca JavaScript que pode ser incorporada ao seu site para adicionar guias passo a passo através de um formato de atributo como <div data-tg-tour="<span>Meu primeiro tour</span>"> ... </div>. É completamente gratuito. Siga as instruções abaixo para adicionar walkthroughs através dos menus do Navi+, seja para o menu inteiro ou para itens de menu individuais.
+Você precisará usar uma biblioteca como TourGuideJS, uma biblioteca JavaScript que pode ser incorporada ao seu site para adicionar guias passo a passo através de um formato de atributo como \<div data-tg-tour="\<span>Meu primeiro tour\</span>"> ... \</div>. É completamente gratuito. Siga as instruções abaixo para adicionar walkthroughs através dos menus do Navi+, seja para o menu inteiro ou para itens de menu individuais.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgmsAKbB1RrFhKxGHHznd%2Fimage.png?alt=media&#x26;token=a24149db-b3ac-456b-810e-3ffb7e0213e4" alt=""><figcaption></figcaption></figure>
 
@@ -30,21 +30,3 @@ Você precisará usar uma biblioteca como TourGuideJS, uma biblioteca JavaScript
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F4T8gzFPxbRyPUMVGOKJc%2Fimage.png?alt=media&#x26;token=cff87c3b-d6e9-4430-8c21-419b7da019f9" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTQ1AYMdEbDyFvme90s9Z%2Fimage.png?alt=media&#x26;token=363f644e-6acd-4112-ae32-9eb9c7a1a81f" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instruções para Agentes: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/development/add-walk-through-to-navi+.md?ask=<pergunta>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

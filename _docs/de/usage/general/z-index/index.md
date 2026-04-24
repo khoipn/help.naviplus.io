@@ -28,7 +28,7 @@ In der Zwischenzeit wählte der Navi+-Entwickler bescheiden eine kleinere Zahl �
 <details><summary><strong>Methode 1: Fragen Sie den Navi+-Support (</strong>Am einfachsten)</summary>
 <p>Dies ist der beste und effektivste Weg. Wir können Ihnen Informationen über die z-index-Werte von wichtigen Schnittstellenelementen wie dem Menüpanel, dem Warenkorb-Panel und allen Drittanbieter-Apps, die Sie verwenden, bereitstellen und dann die beste z-index-Einstellung für Ihren Fall empfehlen.</p>
 <p>Zögern Sie nicht, das Chat-Fenster in der unteren rechten Ecke des Bildschirms zu nutzen, um mit einem Navi+-Supporter zu sprechen. Navi+ wächst, und wir schätzen Ihr Feedback wirklich – Ihre Probleme helfen uns, ein besseres Produkt zu entwickeln.</p>
-<p>Wir sind nicht 24/7 online – nur 14 Stunden am Tag, basierend auf der vietnamesischen Zeitzone. Sobald wir jedoch Ihre Nachricht sehen, werden wir sofort antworten.</p>
+<p>Wir sind nicht 24/7 online – nur 14 Stunden am Tag, basierend auf der vietnamesischen Zeitzone. Sobald wir Ihre Nachricht sehen, werden wir sofort antworten.</p>
 </details>
 
 <details><summary><strong>Methode 2: Verwenden Sie den Inspektor-Modus Ihres Browsers</strong> (detailliert, erfordert jedoch technisches Wissen)</summary>
@@ -56,7 +56,7 @@ In der Zwischenzeit wählte der Navi+-Entwickler bescheiden eine kleinere Zahl �
 <li>Für Navi+ Sticky-Menüs wie Tabbar oder FAB: Wir empfehlen, den z-index niedrig zu halten, etwa 2 oder 3. Diese Menüs nehmen Bildschirmplatz ein, und es wäre kaputt oder nervig, wenn sie funktionale Panels wie den Warenkorb überdecken.</li>
 <li>Für Navi+ Abschnittsmenüs wie Mega-Menüs: Wenn sie oben (im Header) platziert sind, können Sie sicher einen sehr hohen z-index (z.B. 2000000000) festlegen, um sicherzustellen, dass das Dropdown-Submenü nicht hinter anderen Komponenten verborgen ist.</li>
 <li>Für Navi+ Grid-Menüs: z-index hat keine Wirkung, da das Menü flach ist und keine geschichtete Tiefe hat.</li>
-<li>Für Navi+ Slide-Menüs: z-index sollte sehr hoch (z.B. 2000000000) eingestellt werden, um zu vermeiden, dass sie hinter anderen Elementen verborgen sind.</li>
+<li>Für Navi+ Slide-Menüs: z-index sollte sehr hoch eingestellt werden (z.B. 2000000000), um zu vermeiden, dass sie hinter anderen Elementen verborgen werden.</li>
 </ul>
 </details>
 

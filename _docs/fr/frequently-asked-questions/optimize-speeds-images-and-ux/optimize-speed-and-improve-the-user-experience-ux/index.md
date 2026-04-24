@@ -27,7 +27,7 @@ Actuellement, Navi+ a une haute priorité lors du chargement sur les sites Web S
 
 #### Slide Menu : Ajouter un effet de chargement et verrouiller le sélecteur de déclenchement
 
-Très simple : il suffit d'entrer le sélecteur CSS que vous utilisez pour le Slide Menu dans la section d'intégration de l'application Navi+ (voir image ci-dessous).
+Très simple : il suffit d'entrer le sélecteur CSS que vous utilisez pour le Slide Menu dans la section d'intégration de l'application Navi+ (voir l'image ci-dessous).
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>
 
@@ -48,20 +48,3 @@ Note :
 * Ajoutez le suffixe **(M)** si vous souhaitez qu'il s'applique uniquement sur mobile.
 * Ajoutez le suffixe **(D)** si vous souhaitez qu'il s'applique uniquement sur desktop.
 * Ne laissez aucun suffixe si vous souhaitez qu'il s'applique sur les deux plateformes.
-
----
-
-# Instructions pour l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md?ask=<question>
-```
-
-La question doit être spécifique, autonome et rédigée en langage naturel.
-La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

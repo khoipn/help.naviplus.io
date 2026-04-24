@@ -15,7 +15,7 @@ Cargas más rápidas también hacen que el sitio web sea más fluido y agradable
 
 #### II. ¿Cómo procesa Navi+ tus imágenes?
 
-Navi+ primero carga tu imagen en su tamaño original. Luego, comprime la imagen con un algoritmo optimizado y reduce el tamaño de visualización. Este tamaño es cuidadosamente elegido por Navi+ para ser ideal tanto para la experiencia del usuario como para SEO, ya que las imágenes en los menús suelen ser miniaturas o íconos que necesitan ser pequeños y cargarse rápidamente.
+Navi+ primero sube tu imagen en su tamaño original. Luego, comprime la imagen con un algoritmo optimizado y reduce el tamaño de visualización. Este tamaño es cuidadosamente elegido por Navi+ para ser ideal tanto para la experiencia del usuario como para SEO, ya que las imágenes en los menús suelen ser miniaturas o íconos que necesitan ser pequeños y cargar rápidamente.
 
 **Nota:** Para imágenes pequeñas como logotipos o íconos, Navi+ no las comprime para preservar la nitidez.
 
@@ -23,14 +23,14 @@ Después de eso, Navi+ almacena tu imagen en BunnyCDN — una poderosa red de en
 
 #### III. ¿Qué debo hacer si quiero mantener mis imágenes en su calidad original?
 
-En algunos casos especiales, es posible que desees que Navi+ no modifique la calidad de tu imagen; de lo contrario, la compresión podría reducir la calidad que esperas, por ejemplo, algunas imágenes de productos importantes. En este caso, necesitas cargar la imagen directamente en Shopify y proporcionar el enlace a Navi+ para mantener la calidad original.
+En algunos casos especiales, es posible que desees que Navi+ no modifique la calidad de tu imagen; de lo contrario, la compresión podría reducir la calidad que esperas, por ejemplo, algunas imágenes de productos importantes. En este caso, necesitas subir la imagen directamente a Shopify y proporcionar el enlace a Navi+ para mantener la calidad original.
 
 **Paso 1: Prepara tu imagen (proceso manual)**\
-Prepara tu imagen como desees y renómbrala para la optimización SEO. (Navi+ solo renombrará imágenes para SEO si se cargan a través de la herramienta Navi+.)\
+Prepara tu imagen como desees y renómbrala para la optimización SEO. (Navi+ solo renombrará imágenes para SEO si se suben a través de la herramienta Navi+.)\
 También deberías comprimir la imagen a un tamaño razonable; idealmente, unos pocos cientos de KB. Puedes usar el Reductor de Imágenes de Shopify aquí: <https://www.shopify.com/tools/image-resizer>.
 
-**Paso 2: Cargar en Shopify**\
-Haz clic derecho en el menú **Content**, selecciona **Open link in new Tab**, luego ve a **Files**. Arrastra y suelta la imagen preparada en el Paso 1. Una vez cargada, encuentra tu archivo en la lista y haz clic en el ícono de enlace para copiar su URL. Esta URL se utilizará en Navi+ para cargar la imagen.
+**Paso 2: Subir a Shopify**\
+Haz clic derecho en el menú **Content**, selecciona **Open link in new Tab**, luego ve a **Files**. Arrastra y suelta la imagen preparada en el Paso 1. Una vez subida, encuentra tu archivo en la lista y haz clic en el ícono de enlace para copiar su URL. Esta URL se usará en Navi+ para subir la imagen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F35kK3wzf4jQ6lgRuPIK6%2F1.2.png?alt=media&#x26;token=1b45a6ad-32fb-4988-bda2-9de4aaa7db53" alt=""><figcaption></figcaption></figure>
 
@@ -40,21 +40,3 @@ Haz clic derecho en el menú **Content**, selecciona **Open link in new Tab**, l
 Pega la URL obtenida del Paso 2 en Navi+ usando la herramienta **Upload Image**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FPy9nqxsNKCo4RMjo1cTP%2F1.4.png?alt=media&#x26;token=a0a4897c-5e1c-47d8-951c-52028b705e1e" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instrucciones para el Agente: Consultando Esta Documentación
-
-Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.
-
-Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md?ask=<question>
-```
-
-La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.
-
-Usa este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.

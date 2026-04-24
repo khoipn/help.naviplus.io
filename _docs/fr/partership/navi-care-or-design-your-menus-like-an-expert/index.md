@@ -1,57 +1,40 @@
 ---
-description: Tout le monde n'est pas un expert en technologie ou en design UI/UX, ce qui rend difficile la création d'une navigation de site web optimisée. Navi+ Care fournit une solution complète pour...
+description: Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to...
 lang: fr
 layout: default
 permalink: /fr/docs/partership/navi-care-or-design-your-menus-like-an-expert/
-title: Navi+ Care | Concevez vos menus comme un expert
+title: Navi+ Care | Design your menus like an expert
 ---
-# Navi+ Care | Concevez vos menus comme un expert
+# Navi+ Care | Design your menus like an expert
 
-Tout le monde n'est pas un expert en technologie ou en design UI/UX, ce qui rend difficile la création d'une navigation de site web optimisée. Navi+ Care fournit une solution complète pour concevoir des menus à la fois esthétiques et conviviaux.
+Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to design menus that are both aesthetic and user-friendly.
 
-### Comment travailler ?
+### How to work?
 
-**Étape 1 : Inscrivez-vous à Navi+ Care : 120,0 USD** pour un paiement unique valable trois mois. Après cela, contactez-nous par e-mail ou WhatsApp, et nous pouvons commencer immédiatement.
+**Step 1: Register Navi+ Care: $120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
 
-**Étape 2 : Concevez et testez de manière itérative :** Nous concevrons quelques options sur Figma, clonerons votre thème, puis mettrons en œuvre des menus en direct ici pour nous assurer qu'ils répondent à vos besoins et vous rendent heureux.
+**Step 2: Design and test iteratively:** We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
 
-**Étape 3 : Mettez vos menus en ligne :** Publiez le menu pour vos visiteurs. Nous fournirons un fichier Word détaillé contenant : aide, CSS et JS code document important.
-
-***
-
-### Pourquoi ce service est-il fait pour vous ?
-
-Choisir le bon menu pour votre site web peut être un défi - une barre inférieure pour mobile, un menu en grille pour la page d'accueil, un mega menu pour desktop, un Floating Action Button (FAB) pour le support, et un slide menu pour une navigation complète ?
-
-* Vous pourriez avoir besoin de personnaliser les couleurs, les polices et le style de votre menu pour correspondre au design de votre site web mais vous ne vous sentez pas à l'aise avec les outils.
-* Vous pourriez avoir besoin de retours d'experts UI/UX sur la question de savoir si le design de votre menu est visuellement attrayant et optimisé.
-* Vous pourriez avoir besoin d'idées uniques pour un menu qui distingue votre site web.
-* Vous pourriez avoir besoin de mettre à niveau votre menu actuel à un nouveau niveau mais manquer de temps ou d'expertise.
-* Vous pourriez avoir besoin de construire un menu à partir de zéro ou d'un fichier Excel, ou nécessiter des conseils et un soutien professionnels.
+**Step 3: Golive your menus:** Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
 
 ***
 
-### Quelles sont les exigences pour utiliser ce service ?
+### Why is this service right for you?
 
-1. vous devez vous abonner à un plan Navi+ payant (Business ou Elite), soit mensuellement, soit annuellement. Cela garantit un accès complet pour ajouter, modifier ou supprimer des menus et télécharger des images. Pour les sites web nécessitant plus de quatre menus, une mise à niveau vers le plan Elite peut être requise.
+Choosing the right menu for your website can be challenging - a bottom bar for mobile, a grid menu for the homepage, a mega menu for desktop, a Floating Action Button (FAB) for support, and a slide menu for full navigation?
 
-2. Vous pourriez avoir besoin de nous accorder un accès de base à votre site Shopify. Cela nous permet de créer et de modifier des menus Navi+, d'ajouter du code CSS et JS, et d'optimiser les performances et l'expérience utilisateur.
+* You may need to customize your menu's colors, fonts, and style to match your website's design but feel unfamiliar with the tools.
+* You may need feedback from UI/UX experts on whether your menu design is visually appealing and optimized.
+* You may need unique ideas for a menu that sets your website apart.
+* You may need to upgrade your current menu to a new level but lack the time or expertise.
+* You may need to build a menu from scratch or from an Excel file, or require professional advice and support.
+
+***
+
+### What are the requirements to use this service?
+
+1\. you must subscribe to a paid Navi+ plan (Business or Elite), either monthly or annually. This ensures full access to add, edit, or delete menus and upload images. For websites needing more than four menus, an upgrade to the Elite plan may be required.
+
+2\. You may need to grant us basic access to your Shopify website. This allows us to create and modify Navi+ menus, add CSS and JS code, and optimize performance and user experience.
 
 <br>
-
----
-
-# Instructions de l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/partership/navi+-care-or-design-your-menus-like-an-expert.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et rédigée en langage naturel.
-La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

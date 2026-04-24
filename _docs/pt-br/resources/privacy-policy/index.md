@@ -32,7 +32,7 @@ Esta Política se aplica a três tipos de usuários:
 
 #### a. Informações que você fornece
 
-* Nome, endereço de e-mail, país e informações comerciais (opcionais).
+* Nome, endereço de e-mail, país e (opcional) informações comerciais.
 * Dados de configuração e personalização que você cria ao usar o Navi+.
 
 #### b. Informações coletadas automaticamente
@@ -116,7 +116,7 @@ Ao usar o Navi+, você consente com essa transferência e processamento sob estr
 
 ### 10. Atualizações da Política
 
-Podemos atualizar esta Política de Privacidade de tempos em tempos para refletir mudanças na lei ou em nossas operações.\
+Podemos atualizar esta Política de Privacidade de tempos em tempos para refletir mudanças na legislação ou em nossas operações.\
 A data da atualização mais recente sempre aparecerá no topo desta página.\
 Para mudanças materiais, notificaremos os usuários por e-mail ou em nosso site.
 
@@ -124,25 +124,4 @@ Para mudanças materiais, notificaremos os usuários por e-mail ou em nosso site
 
 ### 11. Contato
 
-Se você tiver alguma dúvida, preocupação ou solicitação em relação a esta Política de Privacidade, entre em contato: 
-
-**Email:** <khoipn@naviplus.io>\
-**Website:** <https://naviplus.io>
-
-
----
-
-# Instruções do Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.
-
-Use esse mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.
+Se você tiver alguma dúvida, preocupação ou solicitação em relação a esta Política de Privacidade, entre em contato: \ **Email:** <khoipn@naviplus.io>\ **Website:** <https://naviplus.io>

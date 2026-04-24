@@ -70,37 +70,3 @@ O código abaixo pode ser usado várias vezes em um site com diferentes informa�
 
 {% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Importante</mark>**:** O código acima usa o código de incorporação de exemplo <mark style="color:orange;">SF-123456789</mark>. Certifique-se de substituí-lo pelo seu código de incorporação de menu real.
 {% comment %}endhint{% endcomment %}
-
----
-
-# Instruções do Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.
-
-Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.
-
----
-
-# Instruções do Agente: Consultando Esta Documentação
-
-Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.
-
-Realize uma solicitação HTTP GET na URL da página atual com o parâmetro de consulta `ask`:
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md?ask=<question>
-```
-
-A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos e fontes relevantes da documentação.
-
-Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.

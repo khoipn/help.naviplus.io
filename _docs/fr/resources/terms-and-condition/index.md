@@ -11,7 +11,7 @@ title: Conditions Générales
 
 ### 1. Introduction
 
-Bienvenue chez **Navi+** (“nous”, “notre”, “nos”).\ Ces Conditions de Service (“Conditions”) régissent votre accès et votre utilisation de l'application, du site web et des services associés de Navi+ (collectivement, le “Service”).\ En utilisant Navi+, vous acceptez ces Conditions. Si vous n'êtes pas d'accord, veuillez cesser immédiatement d'utiliser le Service.
+Bienvenue chez **Navi+** (“nous”, “notre”, “nos”).\ Ces Conditions de Service (“Conditions”) régissent votre accès et votre utilisation de l'application, du site web et des services associés de Navi+ (collectivement, le “Service”).\ En utilisant Navi+, vous acceptez ces Conditions. Si vous n'acceptez pas, veuillez cesser immédiatement d'utiliser le Service.
 
 Navi+ fonctionne de manière indépendante et fonctionne sur plusieurs plateformes, y compris **Shopify, WordPress, WooCommerce, Wix, Webflow et Squarespace**.
 
@@ -94,7 +94,7 @@ Toutes les marques, conceptions et technologies utilisées dans Navi+ restent la
 
 ### 9. Juridiction et Droit Applicable
 
-Ces Conditions seront régies et interprétées selon les lois de **Singapour**, sans tenir compte des principes de conflit de lois.\ Tout litige découlant de ou lié à ces Conditions sera résolu par **arbitrage contraignant** à Singapour ou dans un autre lieu convenu d'un commun accord.
+Ces Conditions seront régies et interprétées selon les lois de **Singapour**, sans tenir compte des principes de conflit de lois.\ Tout litige découlant de ou lié à ces Conditions sera résolu par **arbitrage contraignant** à Singapour ou dans un autre lieu convenu mutuellement.
 
 ***
 
@@ -103,20 +103,3 @@ Ces Conditions seront régies et interprétées selon les lois de **Singapour**,
 Si vous rencontrez des problèmes ou avez des questions, veuillez contacter l'**Équipe de Support de Navi+** — quel que soit votre plan.\ Nous apprécions sincèrement chaque message. Vos retours nous aident non seulement à résoudre votre problème, mais aussi à comprendre les besoins des utilisateurs et à continuer d'améliorer Navi+.
 
 **Email :** <khoipn@naviplus.io>\ **Site Web :** <https://naviplus.io>
-
-
----
-
-# Instructions pour l'Agent : Interroger cette Documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et rédigée en langage naturel.\ La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

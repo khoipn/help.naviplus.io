@@ -23,7 +23,7 @@ Au lieu d'afficher tous les éléments du menu en même temps, **Tab Slide** vou
 └──────────────────────────────────┘
 ```
 
-Lorsque un visiteur touche "Blog", le contenu change instantanément pour afficher les articles de blog — aucun rechargement de page nécessaire.
+Lorsque un visiteur touche "Blog", le contenu change instantanément pour les articles de blog — aucun rechargement de page nécessaire.
 
 ***
 
@@ -36,7 +36,7 @@ Lorsque un visiteur touche "Blog", le contenu change instantanément pour affich
 3. Entrez un **nom d'onglet** (par exemple "Shop", "Blog", "Deals")
 4. Cliquez sur **Ajouter**
 
-> Le marqueur d'onglet apparaîtra dans l'arbre du menu avec un badge bleu **\[Tab\]**.
+> Le marqueur d'onglet apparaîtra dans l'arbre du menu avec un badge bleu **\[Tab]**.
 
 #### Étape 2 — Ajouter du contenu à l'onglet
 
@@ -122,20 +122,3 @@ Il fonctionne également à **n'importe quel niveau de menu** — pas seulement 
 **Y a-t-il une limite au nombre d'onglets que je peux avoir ?** Il n'y a pas de limite stricte, mais nous recommandons de le limiter à 3–6 onglets pour la meilleure expérience sur les écrans mobiles.
 
 **Puis-je utiliser Tab Slide à l'intérieur d'un sous-menu ?** Oui. Placez des marqueurs d'onglet à l'intérieur de n'importe quel sous-menu et le comportement des onglets fonctionnera à ce niveau.
-
----
-
-# Instructions pour l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et rédigée en langage naturel.
-La réponse contiendra une réponse directe à la question et des extraits et sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente dans la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.

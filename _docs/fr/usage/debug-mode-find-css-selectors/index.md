@@ -24,10 +24,10 @@ Veuillez prêter attention aux raccourcis clavier ci-dessous pour travailler plu
 
 Vous pouvez ensuite le coller dans les paramètres du **Publish Menu** pour :
 
-* Mega Menu / Grid Menu : insérer le menu avant, après ou remplacer le sélecteur CSS cible
-* Slide Menu : déclencher le slide menu lorsque le sélecteur CSS cible est cliqué ou tapé
+* Mega Menu / Grid Menu : pour insérer le menu avant, après ou remplacer le sélecteur CSS cible
+* Slide Menu : pour déclencher le slide menu lorsque le sélecteur CSS cible est cliqué ou tapé
 
-**Raccourci 2.** Naviguer entre les niveaux de sélecteur
+**Raccourci 2.** Naviguer entre les niveaux de sélecteurs
 
 * Appuyez sur [↑/←], ou Backspace pour passer à un sélecteur de niveau parent
 * Appuyez sur [↓/→] pour passer à un sélecteur de niveau enfant
@@ -39,7 +39,7 @@ Vous pouvez ensuite le coller dans les paramètres du **Publish Menu** pour :
 3. Copier le sélecteur en utilisant ⌘+C (Ctrl+C)
 4. Le coller dans la configuration du menu et tester
 
-Parfois, vous devrez peut-être répéter ce processus plusieurs fois lors de l'insertion, du remplacement ou de la liaison des événements de menu aux sélecteurs CSS afin d'obtenir l'expérience utilisateur souhaitée.
+Parfois, vous devrez peut-être répéter ce processus plusieurs fois lors de l'insertion, du remplacement ou de la liaison d'événements de menu aux sélecteurs CSS afin d'obtenir l'expérience utilisateur souhaitée.
 
 #### 1.1. Trouver le sélecteur CSS sur Desktop
 
@@ -64,21 +64,3 @@ Ensuite, faites un clic droit n'importe où sur la page et sélectionnez :
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FsNvXhBMniymbZ1tD9c4p%2FFrame%20214.webp?alt=media&#x26;token=257f082d-ff6b-4ce0-8eaa-6160a697a67e" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJAZm1dPEZrfeqtpNXA8O%2FFrame%20215.webp?alt=media&#x26;token=2847a4ef-e298-4986-9367-36a6abf914d8" alt=""><figcaption></figcaption></figure>
-
-
----
-
-# Instructions pour l'agent : Interroger cette documentation
-
-Si vous avez besoin d'informations supplémentaires qui ne sont pas directement disponibles sur cette page, vous pouvez interroger la documentation dynamiquement en posant une question.
-
-Effectuez une requête HTTP GET sur l'URL de la page actuelle avec le paramètre de requête `ask` :
-
-```
-GET https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md?ask=<question>
-```
-
-La question doit être spécifique, autonome et rédigée en langage naturel.
-La réponse contiendra une réponse directe à la question ainsi que des extraits et des sources pertinents de la documentation.
-
-Utilisez ce mécanisme lorsque la réponse n'est pas explicitement présente sur la page actuelle, que vous avez besoin de clarification ou de contexte supplémentaire, ou que vous souhaitez récupérer des sections de documentation connexes.
