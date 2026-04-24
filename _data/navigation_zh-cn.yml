@@ -1,3 +1,5 @@
+- title: --
+  type: separator
 - processed_path: getting-started
   title: 入门指南
   url: /docs/getting-started/
@@ -174,9 +176,6 @@
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: 将Navi+与您的网站和外部应用程序集成
     url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/
-  - processed_path: integrations/the-html-and-css-structure-of-all-navi-menus
-    title: 所有Navi+菜单的HTML和CSS结构
-    url: /docs/integrations/the-html-and-css-structure-of-all-navi-menus/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox
       title: Shopify Inbox

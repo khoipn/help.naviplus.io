@@ -1,3 +1,5 @@
+- title: --
+  type: separator
 - processed_path: getting-started
   title: Começando
   url: /docs/getting-started/
@@ -174,9 +176,6 @@
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: Integrando Navi+ com seu site e aplicativos externos
     url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/
-  - processed_path: integrations/the-html-and-css-structure-of-all-navi-menus
-    title: A estrutura HTML e CSS de todos os menus Navi+
-    url: /docs/integrations/the-html-and-css-structure-of-all-navi-menus/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox
       title: Shopify Inbox
