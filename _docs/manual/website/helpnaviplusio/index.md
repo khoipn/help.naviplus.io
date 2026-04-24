@@ -1,0 +1,114 @@
+---
+description: '- Getting Started'
+layout: default
+permalink: /docs/manual/website/helpnaviplusio/
+title: help.naviplus.io
+---
+# help.naviplus.io
+
+- [Getting Started](https://help.shopifas.com/manual/website/help.naviplus.io/getting-started.md "Getting Started")
+- [Why choose Navi+?](https://help.shopifas.com/manual/website/help.naviplus.io/why-choose-navi+.md "Why choose Navi+?")
+- [Common first questions](https://help.shopifas.com/manual/website/help.naviplus.io/common-first-questions.md "Common first questions")
+- [How to install Navi+](https://help.shopifas.com/manual/website/help.naviplus.io/how-to-install-navi+.md "How to install Navi+")
+- [line](https://help.shopifas.com/manual/website/help.naviplus.io/line.md "line")
+- [Troubleshooting](https://help.shopifas.com/manual/website/help.naviplus.io/troubleshooting.md "Troubleshooting")
+- [Latest Update](https://help.shopifas.com/manual/website/help.naviplus.io/latest-update.md "Latest Update")
+- [line](https://help.shopifas.com/manual/website/help.naviplus.io/line-1.md "line")
+- [Demo](https://help.shopifas.com/manual/website/help.naviplus.io/demo.md "Demo"): Demo
+- [1Click live demo](https://help.shopifas.com/manual/website/help.naviplus.io/demo/1click-live-demo.md "1Click live demo")
+- [Usage](https://help.shopifas.com/manual/website/help.naviplus.io/usage.md "Usage")
+- [Explore common menus](https://help.shopifas.com/manual/website/help.naviplus.io/usage/explore-common-menus.md "Explore common menus")
+- [Tabbar (Bottom Navigation)](https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation.md "Tabbar (Bottom Navigation)")
+- [How to use?](https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/how-to-use.md "How to use?")
+- [Publishing on Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publishing-on-shopify.md "Publishing on Shopify")
+- [Publish on WordPress / Woo / Wix / Others](https://help.shopifas.com/manual/website/help.naviplus.io/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others.md "Publish on WordPress / Woo / Wix / Others")
+- [Mega Menu (desktop)](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-desktop.md "Mega Menu (desktop)")
+- [How to use?](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-desktop/how-to-use.md "How to use?")
+- [Publishing on Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-desktop/publishing-on-shopify.md "Publishing on Shopify")
+- [Publish on WordPress / WooCommerce / Wix / Others](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [FAQ](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-desktop/faq.md "FAQ")
+- [Mega Menu (mobile)](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile.md "Mega Menu (mobile)")
+- [How to use?](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/how-to-use.md "How to use?")
+- [Publishing on Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/publishing-on-shopify.md "Publishing on Shopify")
+- [Publish on WordPress / WooCommerce / Wix / Others](https://help.shopifas.com/manual/website/help.naviplus.io/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [Slide menu (Hamburger Menu)](https://help.shopifas.com/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu.md "Slide menu (Hamburger Menu)")
+- [How to use?](https://help.shopifas.com/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/how-to-use.md "How to use?")
+- [Publishing examples](https://help.shopifas.com/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-examples.md "Publishing examples")
+- [Publishing on Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publishing-on-shopify.md "Publishing on Shopify")
+- [Publish on WordPress / WooCommerce / Wix / Others](https://help.shopifas.com/manual/website/help.naviplus.io/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [FAB - Floating Menu / Quick Access](https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access.md "FAB - Floating Menu / Quick Access")
+- [How to use?](https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/how-to-use.md "How to use?")
+- [Publishing on Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publishing-on-shopify.md "Publishing on Shopify")
+- [Publish on WordPress / WooCommerce / Wix / Others](https://help.shopifas.com/manual/website/help.naviplus.io/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [Grid Menu](https://help.shopifas.com/manual/website/help.naviplus.io/usage/grid-menu.md "Grid Menu")
+- [How to use?](https://help.shopifas.com/manual/website/help.naviplus.io/usage/grid-menu/how-to-use.md "How to use?")
+- [Responsive Grid Menu](https://help.shopifas.com/manual/website/help.naviplus.io/usage/grid-menu/responsive-grid-menu.md "Responsive Grid Menu")
+- [Publishing on Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/grid-menu/publishing-on-shopify.md "Publishing on Shopify")
+- [Publish on WordPress / WooCommerce / Wix / Others](https://help.shopifas.com/manual/website/help.naviplus.io/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others.md "Publish on WordPress / WooCommerce / Wix / Others")
+- [General](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general.md "General")
+- [Tab Slide — Group Menu Items into Tabs](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/tab-slide-group-menu-items-into-tabs.md "Tab Slide — Group Menu Items into Tabs")
+- [Apply multi-language](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/apply-multi-language.md "Apply multi-language")
+- [Find CSS Selector](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/find-css-selector.md "Find CSS Selector")
+- [Z-index](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/z-index.md "Z-index")
+- [Apply a custom font](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/apply-a-custom-font.md "Apply a custom font")
+- [Advanced image upload](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/advanced-image-upload.md "Advanced image upload")
+- [Menu depth](https://help.shopifas.com/manual/website/help.naviplus.io/usage/general/menu-depth.md "Menu depth")
+- [Shopify](https://help.shopifas.com/manual/website/help.naviplus.io/usage/shopify.md "Shopify")
+- [Use the multi-language feature.](https://help.shopifas.com/manual/website/help.naviplus.io/usage/shopify/use-the-multi-language-feature..md "Use the multi-language feature.")
+- [Optimize loading speed (Slide & Mega menus)](https://help.shopifas.com/manual/website/help.naviplus.io/usage/shopify/optimize-loading-speed-slide-and-mega-menus.md "Optimize loading speed (Slide & Mega menus)")
+- [Prevent Navi+ menus from overlapping other apps](https://help.shopifas.com/manual/website/help.naviplus.io/usage/shopify/how-to-other-applications-work-with-naviplus.md "Prevent Navi+ menus from overlapping other apps")
+- [Menu structure and CSS](https://help.shopifas.com/manual/website/help.naviplus.io/usage/menu-structure-and-css.md "Menu structure and CSS")
+- [Some FAQs about publishing Navi+ menu](https://help.shopifas.com/manual/website/help.naviplus.io/usage/some-faqs-about-publishing-navi+-menu.md "Some FAQs about publishing Navi+ menu")
+- [Debug mode - Find CSS Selectors](https://help.shopifas.com/manual/website/help.naviplus.io/usage/debug-mode-find-css-selectors.md "Debug mode - Find CSS Selectors")
+- [Integrations](https://help.shopifas.com/manual/website/help.naviplus.io/integrations.md "Integrations")
+- [Integrating Navi+ with your website and external apps](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/integrating-navi+-with-your-website-and-external-apps.md "Integrating Navi+ with your website and external apps")
+- [Chat tools](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/chat-tools.md "Chat tools")
+- [Shopify Inbox](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/chat-tools/shopify-inbox.md "Shopify Inbox")
+- [Tidi chat](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/chat-tools/tidi-chat.md "Tidi chat")
+- [Themes](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/themes.md "Themes")
+- [Shopify: Open the hamburger menu or cart, search panel](https://help.shopifas.com/manual/website/help.naviplus.io/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel.md "Shopify: Open the hamburger menu or cart, search panel")
+- [Frequently Asked Questions](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions.md "Frequently Asked Questions")
+- [Customize User interface (UI)](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui.md "Customize User interface (UI)")
+- [Using built-in settings or custom CSS?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css.md "Using built-in settings or custom CSS?")
+- [Remove menu item active state?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state.md "Remove menu item active state?")
+- [Align level 3 submenu in mega menu?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu.md "Align level 3 submenu in mega menu?")
+- [Optimize speeds, images and UX](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux.md "Optimize speeds, images and UX")
+- [Optimize images](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images.md "Optimize images")
+- [Optimize speed and improve the user experience (UX).](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux-..md "Optimize speed and improve the user experience (UX).")
+- [How to Transfer a Navi+ Menu to Another Navi+ Menu](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-to-transfer-a-navi+-menu-to-another-navi+-menu.md "How to Transfer a Navi+ Menu to Another Navi+ Menu")
+- [How does Navi+ support SEO?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/how-does-navi+-support-seo.md "How does Navi+ support SEO?")
+- [Navi+ plans (Starter, Business & Elite)](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/navi+-plans-starter-business-and-elite.md "Navi+ plans (Starter, Business & Elite)")
+- [Why aren't Menu, Search, Cart panels working?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-arent-menu-search-cart-panels-working.md "Why aren't Menu, Search, Cart panels working?")
+- [Why is Navi+ menu not displayed on my website?](https://help.shopifas.com/manual/website/help.naviplus.io/frequently-asked-questions/why-navi-not-display.md "Why is Navi+ menu not displayed on my website?")
+- [line](https://help.shopifas.com/manual/website/help.naviplus.io/line-2.md "line")
+- [Development](https://help.shopifas.com/manual/website/help.naviplus.io/development.md "Development")
+- [Menu structure and CSS](https://help.shopifas.com/manual/website/help.naviplus.io/development/menu-structure-and-css.md "Menu structure and CSS")
+- [How to write a correct CSS code in Navi+](https://help.shopifas.com/manual/website/help.naviplus.io/development/how-to-write-a-correct-css-code-in-navi+.md "How to write a correct CSS code in Navi+")
+- [Add walk-through to Navi+](https://help.shopifas.com/manual/website/help.naviplus.io/development/add-walk-through-to-navi+.md "Add walk-through to Navi+")
+- [Limitation](https://help.shopifas.com/manual/website/help.naviplus.io/limitation.md "Limitation")
+- [Shopify Bottom Bar issue on Google App (iPhone)](https://help.shopifas.com/manual/website/help.naviplus.io/limitation/shopify-bottom-bar-issue-on-google-app-iphone.md "Shopify Bottom Bar issue on Google App (iPhone)")
+- [line](https://help.shopifas.com/manual/website/help.naviplus.io/line-3.md "line")
+- [Resources](https://help.shopifas.com/manual/website/help.naviplus.io/resources.md "Resources")
+- [Privacy Policy](https://help.shopifas.com/manual/website/help.naviplus.io/resources/privacy-policy.md "Privacy Policy")
+- [Terms & Condition](https://help.shopifas.com/manual/website/help.naviplus.io/resources/terms-and-condition.md "Terms & Condition")
+- [Partership](https://help.shopifas.com/manual/website/help.naviplus.io/partership.md "Partership")
+- [Earn up to 22.5% RevShare with Navi+](https://help.shopifas.com/manual/website/help.naviplus.io/partership/earn-up-to-22.5-revshare-with-navi+.md "Earn up to 22.5% RevShare with Navi+")
+- [Navi+ Care | Design your menus like an expert](https://help.shopifas.com/manual/website/help.naviplus.io/partership/navi+-care-or-design-your-menus-like-an-expert.md "Navi+ Care | Design your menus like an expert")
+
+
+---
+
+# Agent Instructions: Querying This Documentation
+
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://help.shopifas.com/manual/website/help.naviplus.io.md?ask=<question>
+```
+
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
