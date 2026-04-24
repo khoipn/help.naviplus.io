@@ -74,9 +74,9 @@ current_lang_prefix | append: "/home/" %} {% endif %}
   item_is_active_parent = true %} {% endif %}
 
   <li
-    class="nav-item{% if item.title == 'line' %} sidebar-separator-line{% endif %}"
+    class="nav-item{% if item.title == 'line' or item.type == 'separator' %} sidebar-separator-line{% endif %}"
   >
-    {% if item.title == 'line' %}
+    {% if item.title == 'line' or item.type == 'separator' %}
     <!-- Render a separator line -->
     <div class="sidebar-separator-content"></div>
     {% elsif item.children %}
