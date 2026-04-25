@@ -5,11 +5,11 @@ current_page_url | remove_last: '/' %} {% endif %} {% if current_page_url == ""
 %}{% assign current_page_url = "/" %}{% endif %} {% assign current_lang_prefix =
 nil %} {% assign lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: ","
 %} {% for candidate in lang_candidates %} {% assign candidate_prefix_docs = "/" |
-append: candidate | append: "/docs" %} {% assign candidate_prefix_home = "/" |
+append: candidate | append: "/docs" %} {% assign candidate_prefix_docs_nested = "/" | append: candidate | append: "/" | append: candidate | append: "/docs" %} {% assign candidate_prefix_home = "/" |
 append: candidate | append: "/" %} {% assign candidate_prefix_home2 = "/" |
-append: candidate | append: "/home/" %} {% if current_page_url contains
-candidate_prefix_docs or current_page_url == candidate_prefix_home or
-current_page_url == "/" | append: candidate or current_page_url == candidate_prefix_home2 %} {% assign current_lang_prefix =
+append: candidate | append: "/home/" %} {% assign candidate_prefix_home_nested = "/" | append: candidate | append: "/" | append: candidate | append: "/home/" %} {% if current_page_url contains
+candidate_prefix_docs or current_page_url contains candidate_prefix_docs_nested or current_page_url == candidate_prefix_home or
+current_page_url == "/" | append: candidate or current_page_url == candidate_prefix_home2 or current_page_url == candidate_prefix_home_nested %} {% assign current_lang_prefix =
 candidate %} {% endif %} {%
 endfor %} {% assign nav_data = site.data.navigation %} {% if current_lang_prefix
 %} {% assign nav_key = "navigation_" | append: current_lang_prefix %} {% if

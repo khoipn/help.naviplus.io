@@ -7,9 +7,11 @@
 {% assign nav_lang_candidates = "vi,jp,fr,de,zh-cn,it,pt-br,es" | split: "," %}
 {% for candidate in nav_lang_candidates %}
   {% assign candidate_prefix_docs = "/" | append: candidate | append: "/docs" %}
+  {% assign candidate_prefix_docs_nested = "/" | append: candidate | append: "/" | append: candidate | append: "/docs" %}
   {% assign candidate_prefix_home = "/" | append: candidate | append: "/" %}
   {% assign candidate_prefix_home2 = "/" | append: candidate | append: "/home/" %}
-  {% if nav_current_page_url contains candidate_prefix_docs or nav_current_page_url == candidate_prefix_home or nav_current_page_url == candidate_prefix_home2 %}{% assign nav_current_lang_prefix = candidate %}{% endif %}
+  {% assign candidate_prefix_home_nested = "/" | append: candidate | append: "/" | append: candidate | append: "/home/" %}
+  {% if nav_current_page_url contains candidate_prefix_docs or nav_current_page_url contains candidate_prefix_docs_nested or nav_current_page_url == candidate_prefix_home or nav_current_page_url == "/" | append: candidate or nav_current_page_url == candidate_prefix_home2 or nav_current_page_url == candidate_prefix_home_nested %}{% assign nav_current_lang_prefix = candidate %}{% endif %}
 {% endfor %}
 {% assign brand_href = "/home/" %}
 {% if nav_current_lang_prefix %}
