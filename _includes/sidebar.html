@@ -85,21 +85,17 @@ current_lang_prefix | append: "/home/" %} {% endif %}
       data-bs-toggle="collapse"
       href="#collapse-{{ include.id_prefix }}-{{ forloop.index }}"
       role="button"
-      aria-expanded="{% if item_is_active_parent or current_page_url == item_url_normalized %}true{% else %}false{% endif %}"
+      aria-expanded="true"
       aria-controls="collapse-{{ include.id_prefix }}-{{ forloop.index }}"
     >
       <span class="d-flex align-items-start sidebar-link-container">
-        <i
-          class="ri-folder-line sidebar-folder-icon-closed{% if item_is_active_parent or current_page_url == item_url_normalized %} d-none{% endif %}"
-        ></i>
-        <i
-          class="ri-folder-open-line sidebar-folder-icon-open{% unless item_is_active_parent or current_page_url == item_url_normalized %} d-none{% endunless %}"
-        ></i>
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
         <span class="sidebar-title-text flex-grow-1">{{ item.title }}</span>
       </span>
     </a>
     <div
-      class="collapse {% if item_is_active_parent or current_page_url == item_url_normalized %}show{% endif %}"
+      class="collapse show"
       id="collapse-{{ include.id_prefix }}-{{ forloop.index }}"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
@@ -132,12 +128,8 @@ current_lang_prefix | append: "/home/" %} {% endif %}
             aria-controls="collapse-{{ include.id_prefix }}-{{ forloop.parentloop.index }}-{{ forloop.index }}"
           >
             <span class="d-flex align-items-start sidebar-link-container">
-              <i
-                class="ri-folder-line sidebar-folder-icon-closed{% if child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endif %}"
-              ></i>
-              <i
-                class="ri-folder-open-line sidebar-folder-icon-open{% unless child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endunless %}"
-              ></i>
+              <i class="ri-add-box-fill sidebar-folder-icon-closed{% if child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endif %}"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open{% unless child_is_active_parent or current_page_url == child_url_normalized %} d-none{% endunless %}"></i>
               <span class="sidebar-title-text flex-grow-1"
                 >{{ child.title }}</span
               >

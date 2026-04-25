@@ -68,7 +68,7 @@ body {
 .sidebar-separator-content {
   height: 1px;
   background-color: var(--color-border);
-  margin: 0 1rem;
+  margin: 0;
 }
 
 .sidebar .nav-link {
@@ -116,6 +116,13 @@ body {
   background-color: rgba(26, 122, 79, 0.15) !important;
 }
 
+/* Level 1 separators */
+.sidebar ul.nav.flex-column:not(.sidebar-children-list) > li.nav-item:not(.sidebar-separator-line) {
+  border-bottom: 2px solid #ddd;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 /* Sidebar tree lines */
 .sidebar-children-list {
   position: relative;
@@ -129,6 +136,7 @@ body {
 .sidebar-link-container {
   position: relative;
   z-index: 2;
+  align-items: center !important;
 }
 
 .sidebar-title-text {
@@ -145,8 +153,11 @@ body {
 
 .sidebar-folder-icon-closed,
 .sidebar-folder-icon-open {
-  vertical-align: middle;
-  margin-right: 2px;
+  font-size: 1rem;
+  color: var(--color-muted);
+  margin-right: 5px;
+  flex-shrink: 0;
+  line-height: 1.3;
 }
 
 .sidebar-folder-icon {
