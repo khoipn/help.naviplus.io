@@ -21,7 +21,7 @@
 
   --navbar-height: 56px;
   --sidebar-width: 250px;
-  --content-max-width: 860px;
+  --content-max-width: 820px;
 
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif;
@@ -787,6 +787,9 @@ body {
 main {
   padding-top: 1rem;
   font-size: 16px;
+}
+
+main.col-lg-10 {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -807,10 +810,11 @@ main hr {
    Content wrapper — Typography (GitBook style)
    ============================================================ */
 .content-wrapper {
-  max-width: none;
+  max-width: var(--content-max-width);
   width: 100%;
   box-sizing: border-box;
   padding: 0 48px 48px;
+  margin: 0 auto;
 }
 
 @media (max-width: 767.98px) {
@@ -1595,13 +1599,12 @@ html.has-favorites.favorites-ready #favoritesList {
 }
 
 @media (min-width: 1366px) {
-  main {
-    padding-right: 0 !important;
+  main.col-lg-10 {
+    padding-right: 230px !important;
   }
 
   main .content-wrapper {
-    max-width: none;
-    padding-right: 240px;
+    max-width: var(--content-max-width);
   }
 }
 

@@ -95,17 +95,6 @@ However, (1) this will help you understand the core idea, and (2) if you want to
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Agent Instructions: Querying This Documentation</h1>
-<p>If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.</p>
-<p>Perform an HTTP GET request on the current page URL with the <code>ask</code> query parameter:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
-</code></pre>
-
-<p>The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.</p>
-<p>Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.</p>
 </details>
 
 #### 2.3. Important! Optimize the slide menu speed, add a loading effect, and prevent duplicate menus
