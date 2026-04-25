@@ -1,267 +1,267 @@
 - children:
   - processed_path: getting-started/what-is-navi
     title: Navi+ là gì? (Cách hoạt động)
-    url: /vi/docs/getting-started/what-is-navi/
+    url: /docs/getting-started/what-is-navi/
   - processed_path: how-to-install-navi
     title: Cách cài đặt Navi+
-    url: /vi/docs/how-to-install-navi/
+    url: /docs/how-to-install-navi/
   - processed_path: getting-started/your-first-menu
     title: Menu đầu tiên (5 phút)
-    url: /vi/docs/getting-started/your-first-menu/
+    url: /docs/getting-started/your-first-menu/
   - processed_path: frequently-asked-questions/navi-plans-starter-business-and-elite
     title: So sánh gói & giá
-    url: /vi/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
+    url: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
   - processed_path: common-first-questions
     title: Câu hỏi thường gặp đầu tiên
-    url: /vi/docs/common-first-questions/
+    url: /docs/common-first-questions/
   processed_path: getting-started
   title: Bắt đầu
-  url: /vi/docs/getting-started/
+  url: /docs/getting-started/
 - children:
   - processed_path: usage/explore-common-menus
     title: "Tổng quan: Chọn loại menu phù hợp"
-    url: /vi/docs/usage/explore-common-menus/
+    url: /docs/usage/explore-common-menus/
   - children:
     - processed_path: usage/tabbar-bottom-navigation/how-to-use
       title: Cách sử dụng
-      url: /vi/docs/usage/tabbar-bottom-navigation/how-to-use/
+      url: /docs/usage/tabbar-bottom-navigation/how-to-use/
     - processed_path: usage/tabbar-bottom-navigation/publishing-on-shopify
       title: Xuất bản trên Shopify
-      url: /vi/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
+      url: /docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
     - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others
       title: Xuất bản trên WP / Wix / Khác
-      url: /vi/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
+      url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
     processed_path: usage/tabbar-bottom-navigation
     title: Tab Bar
-    url: /vi/docs/usage/tabbar-bottom-navigation/
+    url: /docs/usage/tabbar-bottom-navigation/
   - children:
     - processed_path: usage/mega-menu-desktop/how-to-use
       title: Cách sử dụng
-      url: /vi/docs/usage/mega-menu-desktop/how-to-use/
+      url: /docs/usage/mega-menu-desktop/how-to-use/
     - processed_path: usage/mega-menu-desktop/publishing-on-shopify
       title: Xuất bản trên Shopify
-      url: /vi/docs/usage/mega-menu-desktop/publishing-on-shopify/
+      url: /docs/usage/mega-menu-desktop/publishing-on-shopify/
     - processed_path: usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others
       title: Xuất bản trên WP / Wix / Khác
-      url: /vi/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
+      url: /docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
     - processed_path: usage/mega-menu-desktop/faq
       title: Câu hỏi thường gặp
-      url: /vi/docs/usage/mega-menu-desktop/faq/
+      url: /docs/usage/mega-menu-desktop/faq/
     processed_path: usage/mega-menu-desktop
     title: Mega Menu (Desktop)
-    url: /vi/docs/usage/mega-menu-desktop/
+    url: /docs/usage/mega-menu-desktop/
   - children:
     - processed_path: usage/mega-menu-mobile/how-to-use
       title: Cách sử dụng
-      url: /vi/docs/usage/mega-menu-mobile/how-to-use/
+      url: /docs/usage/mega-menu-mobile/how-to-use/
     - processed_path: usage/mega-menu-mobile/publishing-on-shopify
       title: Xuất bản trên Shopify
-      url: /vi/docs/usage/mega-menu-mobile/publishing-on-shopify/
+      url: /docs/usage/mega-menu-mobile/publishing-on-shopify/
     - processed_path: usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others
       title: Xuất bản trên WP / Wix / Khác
-      url: /vi/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
+      url: /docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/mega-menu-mobile
     title: Mega Menu (Mobile)
-    url: /vi/docs/usage/mega-menu-mobile/
+    url: /docs/usage/mega-menu-mobile/
   - children:
     - processed_path: usage/slide-menu-hamburger-menu/how-to-use
       title: Cách sử dụng
-      url: /vi/docs/usage/slide-menu-hamburger-menu/how-to-use/
+      url: /docs/usage/slide-menu-hamburger-menu/how-to-use/
     - processed_path: usage/slide-menu-hamburger-menu/publishing-examples
       title: Ví dụ xuất bản
-      url: /vi/docs/usage/slide-menu-hamburger-menu/publishing-examples/
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-examples/
     - processed_path: usage/slide-menu-hamburger-menu/publishing-on-shopify
       title: Xuất bản trên Shopify
-      url: /vi/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
     - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others
       title: Xuất bản trên WP / Wix / Khác
-      url: /vi/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
+      url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/slide-menu-hamburger-menu
     title: Slide Menu
-    url: /vi/docs/usage/slide-menu-hamburger-menu/
+    url: /docs/usage/slide-menu-hamburger-menu/
   - children:
     - processed_path: usage/fab-floating-menu-quick-access/how-to-use
       title: Cách sử dụng
-      url: /vi/docs/usage/fab-floating-menu-quick-access/how-to-use/
+      url: /docs/usage/fab-floating-menu-quick-access/how-to-use/
     - processed_path: usage/fab-floating-menu-quick-access/publishing-on-shopify
       title: Xuất bản trên Shopify
-      url: /vi/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
+      url: /docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
     - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others
       title: Xuất bản trên WP / Wix / Khác
-      url: /vi/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
+      url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/fab-floating-menu-quick-access
     title: FAB
-    url: /vi/docs/usage/fab-floating-menu-quick-access/
+    url: /docs/usage/fab-floating-menu-quick-access/
   - children:
     - processed_path: usage/grid-menu/how-to-use
       title: Cách sử dụng
-      url: /vi/docs/usage/grid-menu/how-to-use/
+      url: /docs/usage/grid-menu/how-to-use/
     - processed_path: usage/grid-menu/responsive-grid-menu
       title: Grid Menu phản hồi
-      url: /vi/docs/usage/grid-menu/responsive-grid-menu/
+      url: /docs/usage/grid-menu/responsive-grid-menu/
     - processed_path: usage/grid-menu/publishing-on-shopify
       title: Xuất bản trên Shopify
-      url: /vi/docs/usage/grid-menu/publishing-on-shopify/
+      url: /docs/usage/grid-menu/publishing-on-shopify/
     - processed_path: usage/grid-menu/publish-on-wordpress-woocommerce-wix-others
       title: Xuất bản trên WP / Wix / Khác
-      url: /vi/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
+      url: /docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/grid-menu
     title: Grid Menu
-    url: /vi/docs/usage/grid-menu/
+    url: /docs/usage/grid-menu/
   processed_path: usage
   title: Các loại menu
-  url: /vi/docs/usage/
+  url: /docs/usage/
 - children:
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: Cách viết CSS trong Navi+
-    url: /vi/docs/development/how-to-write-a-correct-css-code-in-navi/
+    url: /docs/development/how-to-write-a-correct-css-code-in-navi/
   - processed_path: usage/general/apply-a-custom-font
     title: Cách dùng font chữ tùy chỉnh
-    url: /vi/docs/usage/general/apply-a-custom-font/
+    url: /docs/usage/general/apply-a-custom-font/
   - processed_path: usage/general/advanced-image-upload
     title: Cách upload ảnh
-    url: /vi/docs/usage/general/advanced-image-upload/
+    url: /docs/usage/general/advanced-image-upload/
   - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
     title: Cách dùng Tab Slide
-    url: /vi/docs/usage/general/tab-slide-group-menu-items-into-tabs/
+    url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
   - processed_path: usage/general/z-index
     title: Cách xử lý xung đột Z-index
-    url: /vi/docs/usage/general/z-index/
+    url: /docs/usage/general/z-index/
   processed_path: usage/general
   title: Tùy chỉnh
-  url: /vi/docs/usage/general/
+  url: /docs/usage/general/
 - children:
   - processed_path: integrations/how-navi-injects
     title: Cách Navi+ nhúng vào trang web
-    url: /vi/docs/integrations/how-navi-injects/
+    url: /docs/integrations/how-navi-injects/
   - processed_path: usage/menu-structure-and-css
     title: Cấu trúc HTML & CSS của menu
-    url: /vi/docs/usage/menu-structure-and-css/
+    url: /docs/usage/menu-structure-and-css/
   - processed_path: usage/debug-mode-find-css-selectors
     title: Tìm CSS Selector / Chế độ gỡ lỗi
-    url: /vi/docs/usage/debug-mode-find-css-selectors/
+    url: /docs/usage/debug-mode-find-css-selectors/
   - children:
     - processed_path: usage/shopify/use-the-multi-language-feature
       title: Đa ngôn ngữ (Shopify Markets)
-      url: /vi/docs/usage/shopify/use-the-multi-language-feature/
+      url: /docs/usage/shopify/use-the-multi-language-feature/
     - processed_path: usage/shopify/optimize-loading-speed-slide-and-mega-menus
       title: Tối ưu tốc độ tải
-      url: /vi/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/
+      url: /docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/
     - processed_path: usage/shopify/how-to-other-applications-work-with-naviplus
       title: Ngăn chồng lên ứng dụng khác
-      url: /vi/docs/usage/shopify/how-to-other-applications-work-with-naviplus/
+      url: /docs/usage/shopify/how-to-other-applications-work-with-naviplus/
     - processed_path: integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel
       title: Mở panel hamburger/giỏ hàng/tìm kiếm
-      url: /vi/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
+      url: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
     processed_path: usage/shopify
     title: Dành cho Shopify
-    url: /vi/docs/usage/shopify/
+    url: /docs/usage/shopify/
   - processed_path: integrations/wordpress-woocommerce
     title: WordPress / WooCommerce
-    url: /vi/docs/integrations/wordpress-woocommerce/
+    url: /docs/integrations/wordpress-woocommerce/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox
       title: Shopify Inbox
-      url: /vi/docs/integrations/chat-tools/shopify-inbox/
+      url: /docs/integrations/chat-tools/shopify-inbox/
     - processed_path: integrations/chat-tools/tidi-chat
       title: Tidio
-      url: /vi/docs/integrations/chat-tools/tidi-chat/
+      url: /docs/integrations/chat-tools/tidi-chat/
     processed_path: integrations/chat-tools
     title: Công cụ chat
-    url: /vi/docs/integrations/chat-tools/
+    url: /docs/integrations/chat-tools/
   processed_path: integrations
   title: Xuất bản & Tích hợp
-  url: /vi/docs/integrations/
+  url: /docs/integrations/
 - children:
   - processed_path: frequently-asked-questions/why-navi-not-display
     title: Menu không hiển thị trên trang
-    url: /vi/docs/frequently-asked-questions/why-navi-not-display/
+    url: /docs/frequently-asked-questions/why-navi-not-display/
   - processed_path: troubleshooting/menu-overlapping
     title: Menu chồng lên các thành phần khác
-    url: /vi/docs/troubleshooting/menu-overlapping/
+    url: /docs/troubleshooting/menu-overlapping/
   - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
     title: Tìm kiếm / Giỏ hàng / Panel không hoạt động
-    url: /vi/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
+    url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
   - processed_path: limitation/shopify-bottom-bar-issue-on-google-app-iphone
     title: Shopify Bottom Bar (Google App, iPhone)
-    url: /vi/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
+    url: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
   - processed_path: troubleshooting/performance-issues
     title: Vấn đề hiệu suất
-    url: /vi/docs/troubleshooting/performance-issues/
+    url: /docs/troubleshooting/performance-issues/
   processed_path: troubleshooting
   title: Khắc phục sự cố
-  url: /vi/docs/troubleshooting/
+  url: /docs/troubleshooting/
 - children:
   - children:
     - processed_path: frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css
       title: Dùng cài đặt tích hợp hay CSS tùy chỉnh?
-      url: /vi/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/
     - processed_path: frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state
       title: Xóa trạng thái active của mục menu?
-      url: /vi/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/
     - processed_path: frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu
       title: Căn chỉnh submenu cấp 3 trong mega menu?
-      url: /vi/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/
+      url: /docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/
     processed_path: frequently-asked-questions/customize-user-interface-ui
     title: Tùy chỉnh giao diện
-    url: /vi/docs/frequently-asked-questions/customize-user-interface-ui/
+    url: /docs/frequently-asked-questions/customize-user-interface-ui/
   - children:
     - processed_path: frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images
       title: Tối ưu hình ảnh
-      url: /vi/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/
+      url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/
     - processed_path: frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux
       title: Tối ưu tốc độ và UX
-      url: /vi/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/
+      url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/
     processed_path: frequently-asked-questions/optimize-speeds-images-and-ux
     title: Tối ưu hình ảnh & tốc độ
-    url: /vi/docs/frequently-asked-questions/optimize-speeds-images-and-ux/
+    url: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/
   - processed_path: frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu
     title: Chuyển menu giữa các menu
-    url: /vi/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
+    url: /docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
   - processed_path: frequently-asked-questions/how-does-navi-support-seo
     title: Hỗ trợ SEO
-    url: /vi/docs/frequently-asked-questions/how-does-navi-support-seo/
+    url: /docs/frequently-asked-questions/how-does-navi-support-seo/
   - processed_path: usage/some-faqs-about-publishing-navi-menu
     title: Câu hỏi về xuất bản
-    url: /vi/docs/usage/some-faqs-about-publishing-navi-menu/
+    url: /docs/usage/some-faqs-about-publishing-navi-menu/
   processed_path: frequently-asked-questions
   title: Câu hỏi thường gặp
-  url: /vi/docs/frequently-asked-questions/
+  url: /docs/frequently-asked-questions/
 - children:
   - processed_path: development/menu-structure-and-css
     title: Cấu trúc HTML & CSS của menu
-    url: /vi/docs/development/menu-structure-and-css/
+    url: /docs/development/menu-structure-and-css/
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: Viết CSS đúng trong Navi+
-    url: /vi/docs/development/how-to-write-a-correct-css-code-in-navi/
+    url: /docs/development/how-to-write-a-correct-css-code-in-navi/
   - processed_path: development/add-walk-through-to-navi
     title: Thêm hướng dẫn từng bước
-    url: /vi/docs/development/add-walk-through-to-navi/
+    url: /docs/development/add-walk-through-to-navi/
   processed_path: development
   title: Tài liệu lập trình viên
-  url: /vi/docs/development/
+  url: /docs/development/
 - processed_path: line
   title: line
-  url: /vi/docs/line/
+  url: /docs/line/
 - processed_path: latest-update
   title: Changelog / Release Notes
-  url: /vi/docs/latest-update/
+  url: /docs/latest-update/
 - processed_path: line-1
   title: line
-  url: /vi/docs/line-1/
+  url: /docs/line-1/
 - children:
   - processed_path: partership/earn-up-to-225-revshare-with-navi
     title: Chương trình Affiliate / RevShare
-    url: /vi/docs/partership/earn-up-to-225-revshare-with-navi/
+    url: /docs/partership/earn-up-to-225-revshare-with-navi/
   - processed_path: partership/navi-care-or-design-your-menus-like-an-expert
     title: Navi+ Care (dịch vụ thiết kế)
-    url: /vi/docs/partership/navi-care-or-design-your-menus-like-an-expert/
+    url: /docs/partership/navi-care-or-design-your-menus-like-an-expert/
   - processed_path: resources/privacy-policy
     title: Chính Sách Bảo Mật
-    url: /vi/docs/resources/privacy-policy/
+    url: /docs/resources/privacy-policy/
   - processed_path: resources/terms-and-condition
     title: Điều Khoản & Điều Kiện
-    url: /vi/docs/resources/terms-and-condition/
+    url: /docs/resources/terms-and-condition/
   processed_path: partership
   title: Đối tác & Tài nguyên
-  url: /vi/docs/partership/
+  url: /docs/partership/
