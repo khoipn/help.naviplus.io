@@ -9,40 +9,56 @@ title: Changelog / Notes de version
 
 ### Avril 2026
 
-Les menus multilingues fonctionnent désormais automatiquement — Navi+ détecte la langue du visiteur et change les libellés du menu instantanément, sans configuration supplémentaire. Tab Slide est une nouvelle option de mise en page qui regroupe les éléments en onglets horizontaux plutôt qu'en liste plate, idéal pour organiser des sections comme « Homme / Femme / Soldes » dans un menu coulissant. Le sélecteur de couleurs a été repensé avec des palettes prédéfinies pour appliquer votre couleur de marque sur l'ensemble du menu en quelques secondes. Tous les paramètres avancés — animations, retour tactile, icônes, classes CSS — sont maintenant regroupés dans un seul panneau. Le support WordPress est amélioré avec moins de conflits avec Elementor, Divi et WPBakery.
+- **Menus multilingues** automatiques — Navi+ détecte la langue du visiteur et change les libellés instantanément, sans configuration supplémentaire.
+- **Tab Slide** — nouvelle option de mise en page qui regroupe les éléments en onglets horizontaux plutôt qu'en liste plate (ex : onglets Homme / Femme / Soldes dans un menu coulissant).
+- **Modèles de couleurs** — sélecteur de couleurs repensé avec des palettes prédéfinies. Appliquer votre couleur de marque en quelques secondes.
+- **Panneau de paramètres unifié** — toutes les options avancées (animations, retour tactile, icônes, classes CSS) regroupées au même endroit.
+- **WordPress** — intégration plus rapide, moins de conflits avec Elementor, Divi et WPBakery.
 
 ---
 
 ### Mars 2026
 
-Les en-têtes de section peuvent désormais à la fois lier vers une page et développer les éléments enfants simultanément — appuyer pour développer, cliquer la flèche pour naviguer. La mise en page Grid Menu est corrigée sur les petits écrans pour un affichage cohérent. Les couleurs des séparateurs et du surlignage tactile sont entièrement personnalisables.
+- **En-têtes de section** peuvent désormais lier vers une page et développer les enfants simultanément — appuyer pour développer, cliquer la flèche pour naviguer.
+- **Grid Menu** — correction des problèmes de mise en page sur les petits écrans, affichage cohérent sur toutes les tailles de téléphone.
+- **Couleurs de séparateurs personnalisées** — les séparateurs et le surlignage tactile peuvent être définis sur n'importe quelle couleur.
 
 ---
 
 ### Février 2026
 
-Les conflits de z-index se résolvent automatiquement — Navi+ recule lorsque le tiroir panier, la superposition de recherche ou la bannière cookie apparaissent. Slide Horizontal fait glisser les panneaux de niveau 2 depuis la droite comme une application iOS native, plus naturel pour les arborescences profondes. Les configurations de menu peuvent être exportées et importées en JSON via un popup, facilitant les sauvegardes et déplacements entre boutiques. Les images dans les menus se chargent en lazy loading pour un chargement initial plus rapide. Des emojis peuvent être ajoutés directement aux libellés des éléments de menu.
+- **Z-index automatique** — Navi+ détecte l'apparition du tiroir panier, de la superposition de recherche ou de la bannière cookie et recule automatiquement.
+- **Slide Horizontal** — nouvelle direction de glissement, les panneaux de niveau 2 glissent depuis la droite comme une app iOS native.
+- **Popup Export / Import** — sauvegardez, déplacez ou dupliquez toute la configuration du menu en JSON en quelques secondes.
+- **Chargement différé des images** — les images dans les menus ne se chargent que lorsqu'elles sont visibles, accélérant le chargement initial.
+- **Support des emojis** — ajoutez des emojis directement aux libellés des éléments de menu.
 
 ---
 
 ### Janvier 2026
 
-Le nouveau type de menu Slide Horizontal est conçu pour les arborescences de navigation profondes sur mobile — chaque niveau glisse depuis la droite, le bouton retour et l'en-tête se mettent à jour automatiquement. Les templates d'éléments permettent de créer une structure de menu une fois et de la réutiliser dans n'importe quel menu en un clic. Import/Export prend maintenant en charge l'IA : collez une liste de liens ou un sitemap et Navi+ génère l'arborescence complète. Le mode Debug superpose les valeurs z-index et les limites de menu sur votre site en direct depuis le tableau de bord. L'infrastructure CDN a été mise à niveau vers le réseau edge Cloudflare R2 avec un second CDN de basculement.
+- **Type de menu Slide Horizontal** — conçu pour les arborescences profondes sur mobile. Chaque niveau glisse depuis la droite ; bouton retour et en-tête se mettent à jour automatiquement.
+- **Templates d'éléments** — sauvegardez une structure de menu une fois, réutilisez-la dans n'importe quel menu en un clic.
+- **IA Import / Export** — collez une liste de liens ou un sitemap et Navi+ génère l'arborescence complète. Ou exportez en JSON, modifiez avec une IA, réimportez.
+- **Mode Debug** — superpose les valeurs z-index, les limites de menu et les sélecteurs CSS sur votre site en direct depuis le tableau de bord.
+- **Mise à niveau CDN** — infrastructure passée au réseau edge Cloudflare R2, second CDN de basculement ajouté.
 
 ---
 
 ### Décembre 2025
 
-Navi+ fonctionne désormais sur toutes les plateformes — WordPress, WooCommerce, Wix, Webflow, Squarespace et tout site acceptant une balise `<script>`. Même tableau de bord, mêmes types de menus, même intégration en une ligne que sur Shopify. Le tableau de bord est maintenant disponible en plusieurs langues.
+- **Toutes les plateformes** — Navi+ fonctionne désormais sur WordPress, WooCommerce, Wix, Webflow, Squarespace et tout site acceptant une balise `<script>`. Même tableau de bord et mêmes types de menus que sur Shopify.
+- **Localisation du tableau de bord** — l'interface Navi+ est maintenant disponible en plusieurs langues.
 
 ---
 
 ### Novembre 2025
 
-Correction du clignotement du menu en haut et en bas des pages sur certains appareils lors de l'utilisation de l'auto-affichage/masquage. Un seuil de sécurité empêche désormais ce comportement pour un affichage plus fluide.
+- **Correction du clignotement** — correction du bug où l'auto-affichage/masquage clignotait aux bords de la page sur certains appareils.
 
 ---
 
 ### Octobre 2025
 
-Tous les assets Navi+ ont migré vers le réseau edge mondial de Cloudflare — le temps de chargement moyen des menus est tombé à ~52ms. Les utilisateurs du plan Elite bénéficient d'un second basculement BunnyCDN pour maintenir les menus en ligne si un CDN tombe. SLA mis à niveau à 99,99%.
+- **CDN Cloudflare** — tous les assets migrés vers le réseau edge mondial de Cloudflare. Temps de chargement moyen des menus réduit à ~52ms.
+- **Failover Elite** — le plan Elite bénéficie d'un second basculement BunnyCDN. SLA mis à niveau à 99,99%.

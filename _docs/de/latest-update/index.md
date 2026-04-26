@@ -9,40 +9,56 @@ title: Changelog / Release Notes
 
 ### April 2026
 
-Mehrsprachige Menüs funktionieren jetzt automatisch — Navi+ erkennt die Sprache des Besuchers und wechselt die Menübeschriftungen sofort, ohne zusätzliche Konfiguration. Tab Slide ist eine neue Layout-Option, die Menüpunkte in horizontale Tabs statt einer flachen Liste gruppiert, ideal für Abschnitte wie „Herren / Damen / Sale" in einem Slide-Menü. Der Farbwähler wurde mit voreingestellten Paletten neu gestaltet, sodass Sie Ihre Markenfarbe in Sekunden auf das gesamte Menü anwenden können. Alle erweiterten Einstellungen — Animationen, Touch-Feedback, Icons, CSS-Klassen — sind jetzt in einem einzigen Panel zusammengefasst. Die WordPress-Unterstützung wurde verbessert mit weniger Konflikten mit Elementor, Divi und WPBakery.
+- **Mehrsprachige Menüs** funktionieren jetzt automatisch — Navi+ erkennt die Sprache des Besuchers und wechselt die Menübeschriftungen sofort, ohne zusätzliche Konfiguration.
+- **Tab Slide** — neue Layout-Option, die Menüpunkte in horizontale Tabs statt einer flachen Liste gruppiert (z. B. Herren / Damen / Sale-Tabs in einem Slide-Menü).
+- **Farbvorlagen** — neu gestalteter Farbwähler mit voreingestellten Paletten. Markenfarbe in Sekunden auf das gesamte Menü anwenden.
+- **Einheitliches Einstellungspanel** — alle erweiterten Optionen (Animationen, Touch-Feedback, Icons, CSS-Klassen) an einem Ort.
+- **WordPress** — schnellere Einbindung, weniger Konflikte mit Elementor, Divi und WPBakery.
 
 ---
 
 ### März 2026
 
-Abschnittsüberschriften können jetzt gleichzeitig auf eine Seite verlinken und Unterelemente ausklappen — Tippen zum Ausklappen, Pfeil-Klick zur Navigation. Grid Menu-Layouts werden auf kleinen Bildschirmen jetzt einheitlich dargestellt. Trennlinien und Touch-Highlight-Farben können frei angepasst werden.
+- **Abschnittsüberschriften** können jetzt gleichzeitig auf eine Seite verlinken und Unterelemente ausklappen — tippen zum Ausklappen, Pfeil-Klick zur Navigation.
+- **Grid Menu** — Layout-Fehler auf kleinen Bildschirmen behoben, einheitliche Darstellung auf allen Telefongrößen.
+- **Benutzerdefinierte Trennlinienfarben** — Trennlinien und Touch-Highlight-Farben können frei eingestellt werden.
 
 ---
 
 ### Februar 2026
 
-Z-index-Konflikte werden jetzt automatisch gelöst — Navi+ erkennt, wenn Warenkorb-Drawer, Suchoverlay oder Cookie-Banner erscheinen, und weicht automatisch zurück. Slide Horizontal lässt Ebene-2-Panels von rechts hereingleiten wie eine native iOS-App, was sich bei tiefen Produktkategorie-Bäumen natürlicher anfühlt. Menükonfigurationen können per Popup als JSON exportiert und importiert werden, was Sicherungen und das Verschieben zwischen Stores erleichtert. Bilder in Menüs laden jetzt verzögert für schnellere Seitenladung. Emojis können direkt zu Menü-Labels hinzugefügt werden.
+- **Automatische Z-index-Lösung** — Navi+ erkennt, wenn Warenkorb-Drawer, Suchoverlay oder Cookie-Banner erscheinen, und weicht automatisch zurück.
+- **Slide Horizontal** — neue Gleitrichtung, Ebene-2-Panels gleiten von rechts herein wie eine native iOS-App.
+- **Export / Import-Popup** — gesamte Menükonfiguration in Sekunden als JSON sichern, verschieben oder duplizieren.
+- **Lazy Loading für Bilder** — Bilder in Menüs werden erst beim Sichtbarwerden geladen, schnellerer erster Seitenaufbau.
+- **Emoji-Unterstützung** — Emojis können direkt zu Menü-Labels hinzugefügt werden.
 
 ---
 
 ### Januar 2026
 
-Der neue Slide Horizontal Menütyp ist für tiefe Navigationsstrukturen auf Mobilgeräten gebaut — jede Ebene gleitet von rechts herein, der Zurück-Button und der Header aktualisieren sich automatisch. Item-Templates ermöglichen das einmalige Erstellen einer Menüstruktur und die Wiederverwendung in jedem Menü mit einem Klick. Import/Export unterstützt jetzt KI: Link-Listen oder Sitemaps einfügen und Navi+ erstellt den kompletten Menübaum automatisch. Der Debug-Modus überlagert z-index-Werte und Menügrenzen direkt auf Ihrer Live-Seite vom Dashboard aus. Die CDN-Infrastruktur wurde auf das Cloudflare R2 Edge-Netzwerk aufgerüstet mit einem zweiten Failover-CDN.
+- **Slide Horizontal Menütyp** — für tiefe Navigationsstrukturen auf Mobilgeräten. Jede Ebene gleitet von rechts; Zurück-Button und Header aktualisieren sich automatisch.
+- **Item-Templates** — Menüstruktur einmal speichern, in jedem Menü mit einem Klick wiederverwenden.
+- **KI Import / Export** — Link-Listen oder Sitemaps einfügen und Navi+ erstellt den Menübaum automatisch. Oder als JSON exportieren, mit KI bearbeiten, importieren.
+- **Debug-Modus** — überlagert z-index-Werte, Menügrenzen und CSS-Selektoren auf Ihrer Live-Seite vom Dashboard aus.
+- **CDN-Upgrade** — Infrastruktur auf Cloudflare R2 Edge-Netzwerk umgestellt, zweiter Failover-CDN hinzugefügt.
 
 ---
 
 ### Dezember 2025
 
-Navi+ läuft jetzt auf jeder Plattform — WordPress, WooCommerce, Wix, Webflow, Squarespace und jeder Website, die ein `<script>`-Tag akzeptiert. Dasselbe Dashboard, dieselben Menütypen, dieselbe einzeilige Einbindung wie auf Shopify. Das Dashboard ist jetzt in mehreren Sprachen verfügbar.
+- **Alle Plattformen** — Navi+ läuft jetzt auf WordPress, WooCommerce, Wix, Webflow, Squarespace und jeder Website mit `<script>`-Tag. Dasselbe Dashboard und dieselben Menütypen wie auf Shopify.
+- **Dashboard-Lokalisierung** — Navi+ Dashboard-Oberfläche jetzt in mehreren Sprachen verfügbar.
 
 ---
 
 ### November 2025
 
-Fehler behoben, bei dem die automatische Ein-/Ausblend-Funktion auf manchen Geräten am Seitenanfang und -ende flackerte. Ein sicherer Randabstand verhindert dies nun, sodass das Menü gleichmäßig ein- und ausblendet.
+- **Flackern-Fix** — Fehler behoben, bei dem die Auto-Ein-/Ausblend-Funktion auf manchen Geräten an den Seitenrändern flackerte.
 
 ---
 
 ### Oktober 2025
 
-Alle Navi+-Assets wurden auf Cloudflares globales Edge-Netzwerk migriert — die durchschnittliche Menü-Ladezeit sank auf ~52ms. Elite-Plan-Nutzer erhalten zusätzlich ein BunnyCDN-Failover, damit Menüs weiter funktionieren, wenn ein CDN ausfällt. SLA auf 99,99% aufgerüstet.
+- **Cloudflare CDN** — alle Assets auf Cloudflares globales Edge-Netzwerk migriert. Durchschnittliche Menü-Ladezeit auf ~52ms gesenkt.
+- **Elite-Failover** — Elite-Plan erhält BunnyCDN als sekundäres Failover. SLA auf 99,99% aufgerüstet.

@@ -9,40 +9,56 @@ title: Changelog / Notas de versión
 
 ### Abril 2026
 
-Los menús multilingües ahora funcionan automáticamente — Navi+ detecta el idioma del visitante y cambia las etiquetas del menú al instante, sin configuración adicional. Tab Slide es una nueva opción de diseño que agrupa los elementos del menú en pestañas horizontales en lugar de una lista plana, ideal para secciones como "Hombre / Mujer / Rebajas" dentro de un menú deslizante. El selector de colores fue rediseñado con paletas predefinidas para aplicar el color de tu marca a todo el menú en segundos. Todos los ajustes avanzados — animaciones, respuesta táctil, iconos, clases CSS — están ahora en un solo panel. El soporte de WordPress mejoró con menos conflictos con Elementor, Divi y WPBakery.
+- **Menús multilingües** automáticos — Navi+ detecta el idioma del visitante y cambia las etiquetas al instante, sin configuración adicional.
+- **Tab Slide** — nueva opción de diseño que agrupa elementos en pestañas horizontales en lugar de lista plana (ej: pestañas Hombre / Mujer / Rebajas en un menú deslizante).
+- **Plantillas de color** — selector de colores rediseñado con paletas predefinidas. Aplica tu color de marca en segundos.
+- **Panel de configuración unificado** — todas las opciones avanzadas (animaciones, respuesta táctil, iconos, clases CSS) en un solo lugar.
+- **WordPress** — integración más rápida, menos conflictos con Elementor, Divi y WPBakery.
 
 ---
 
 ### Marzo 2026
 
-Los encabezados de sección ahora pueden tanto enlazar a una página como expandir elementos secundarios simultáneamente — tocar para expandir, clic en la flecha para navegar. El diseño de Grid Menu se corrigió en pantallas pequeñas para una visualización uniforme. Los colores de separadores y resaltado táctil son completamente personalizables.
+- **Encabezados de sección** pueden ahora enlazar a una página y expandir hijos simultáneamente — tocar para expandir, clic en flecha para navegar.
+- **Grid Menu** — corrección de problemas de diseño en pantallas pequeñas, visualización uniforme en todos los tamaños de teléfono.
+- **Colores de separadores personalizados** — separadores y resaltado táctil pueden configurarse en cualquier color.
 
 ---
 
 ### Febrero 2026
 
-Los conflictos de z-index se resuelven automáticamente — Navi+ se retira cuando aparece el cajón del carrito, la superposición de búsqueda o el banner de cookies. Slide Horizontal hace que los paneles de nivel 2 se deslicen desde la derecha como una app iOS nativa, más natural para árboles de categorías profundos. Las configuraciones de menú pueden exportarse e importarse como JSON mediante un popup, facilitando copias de seguridad y traslados entre tiendas. Las imágenes en los menus se cargan de forma diferida para una carga inicial más rápida. Se pueden añadir emojis directamente a las etiquetas de los elementos de menú.
+- **Z-index automático** — Navi+ detecta la aparición del drawer del carrito, superposición de búsqueda o banner de cookies y se retira automáticamente.
+- **Slide Horizontal** — nueva dirección de deslizamiento, los paneles de nivel 2 se deslizan desde la derecha como una app iOS nativa.
+- **Popup Export / Import** — guarda, mueve o duplica toda la configuración del menú como JSON en segundos.
+- **Carga diferida de imágenes** — las imágenes en los menús se cargan solo cuando son visibles, mejorando la carga inicial.
+- **Soporte de emojis** — añade emojis directamente a las etiquetas de los elementos de menú.
 
 ---
 
 ### Enero 2026
 
-El nuevo tipo de menú Slide Horizontal está diseñado para árboles de navegación profundos en móvil — cada nivel se desliza desde la derecha, con el botón atrás y el encabezado actualizándose automáticamente. Las plantillas de elementos permiten crear una estructura de menú una vez y reutilizarla en cualquier menú con un clic. Import/Export ahora admite IA: pega una lista de enlaces o un sitemap y Navi+ genera el árbol completo. El modo Debug superpone valores z-index y límites de menú en tu sitio en vivo desde el panel de control. La infraestructura CDN se actualizó a la red edge de Cloudflare R2 con un segundo CDN de conmutación por error.
+- **Tipo de menú Slide Horizontal** — diseñado para árboles de navegación profundos en móvil. Cada nivel se desliza desde la derecha; botón atrás y encabezado se actualizan automáticamente.
+- **Plantillas de elementos** — guarda una estructura de menú una vez, reutilízala en cualquier menú con un clic.
+- **IA Import / Export** — pega una lista de enlaces o sitemap y Navi+ genera el árbol completo. O exporta JSON, edita con IA, importa de vuelta.
+- **Modo Debug** — superpone valores z-index, límites de menú y selectores CSS en tu sitio en vivo desde el panel.
+- **Actualización CDN** — infraestructura migrada a la red edge de Cloudflare R2, segundo CDN de conmutación añadido.
 
 ---
 
 ### Diciembre 2025
 
-Navi+ ahora funciona en todas las plataformas — WordPress, WooCommerce, Wix, Webflow, Squarespace y cualquier sitio que acepte una etiqueta `<script>`. El mismo panel de control, los mismos tipos de menú, la misma integración en una línea que en Shopify. El panel de control está ahora disponible en varios idiomas.
+- **Todas las plataformas** — Navi+ ahora funciona en WordPress, WooCommerce, Wix, Webflow, Squarespace y cualquier sitio con etiqueta `<script>`. Mismo panel y mismos tipos de menú que en Shopify.
+- **Localización del panel** — la interfaz de Navi+ está ahora disponible en varios idiomas.
 
 ---
 
 ### Noviembre 2025
 
-Se corrigió el parpadeo del menú en la parte superior e inferior de las páginas en algunos dispositivos con la función de auto-mostrar/ocultar. Un umbral de seguridad evita ahora este comportamiento para una visualización más fluida.
+- **Corrección de parpadeo** — solucionado el bug donde el auto-mostrar/ocultar parpadeaba en los bordes de la página en algunos dispositivos.
 
 ---
 
 ### Octubre 2025
 
-Todos los assets de Navi+ migraron a la red edge global de Cloudflare — el tiempo de carga promedio del menú cayó a ~52ms. Los usuarios del plan Elite obtienen un segundo conmutador BunnyCDN para mantener los menús en línea si un CDN falla. SLA actualizado al 99,99%.
+- **CDN Cloudflare** — todos los assets migrados a la red edge global de Cloudflare. Tiempo de carga promedio del menú reducido a ~52ms.
+- **Failover Elite** — el plan Elite obtiene BunnyCDN como segundo failover. SLA actualizado al 99,99%.

@@ -9,40 +9,56 @@ title: Changelog / Notas de versão
 
 ### Abril de 2026
 
-Os menus multilíngues agora funcionam automaticamente — Navi+ detecta o idioma do visitante e muda as etiquetas do menu instantaneamente, sem configuração extra. Tab Slide é uma nova opção de layout que agrupa itens do menu em abas horizontais em vez de uma lista plana, ótimo para seções como "Masculino / Feminino / Promoção" dentro de um menu deslizante. O seletor de cores foi redesenhado com paletas predefinidas para aplicar sua cor de marca em todo o menu em segundos. Todas as configurações avançadas — animações, feedback tátil, ícones, classes CSS — estão agora em um único painel. O suporte ao WordPress melhorou com menos conflitos com Elementor, Divi e WPBakery.
+- **Menus multilíngues** automáticos — Navi+ detecta o idioma do visitante e muda as etiquetas instantaneamente, sem configuração extra.
+- **Tab Slide** — nova opção de layout que agrupa itens em abas horizontais em vez de lista plana (ex: abas Masculino / Feminino / Promoção em um menu deslizante).
+- **Modelos de cores** — seletor de cores redesenhado com paletas predefinidas. Aplique sua cor de marca em segundos.
+- **Painel de configurações unificado** — todas as opções avançadas (animações, feedback tátil, ícones, classes CSS) em um só lugar.
+- **WordPress** — integração mais rápida, menos conflitos com Elementor, Divi e WPBakery.
 
 ---
 
 ### Março de 2026
 
-Os cabeçalhos de seção agora podem tanto vincular a uma página quanto expandir elementos filhos simultaneamente — toque para expandir, clique na seta para navegar. O layout do Grid Menu foi corrigido em telas pequenas para exibição consistente. As cores de separadores e destaque ao toque são totalmente personalizáveis.
+- **Cabeçalhos de seção** agora podem vincular a uma página e expandir filhos simultaneamente — toque para expandir, clique na seta para navegar.
+- **Grid Menu** — corrigidos problemas de layout em telas pequenas, exibição uniforme em todos os tamanhos de telefone.
+- **Cores de separadores personalizadas** — separadores e destaque ao toque podem ser definidos para qualquer cor.
 
 ---
 
 ### Fevereiro de 2026
 
-Os conflitos de z-index agora são resolvidos automaticamente — Navi+ recua quando o drawer do carrinho, a sobreposição de busca ou o banner de cookies aparecem. Slide Horizontal faz os painéis de segundo nível deslizarem da direita como um app iOS nativo, mais natural para árvores de categorias profundas. As configurações do menu podem ser exportadas e importadas como JSON via popup, facilitando backups e movimentações entre lojas. As imagens nos menus carregam com lazy loading para um carregamento inicial mais rápido. Emojis podem ser adicionados diretamente às etiquetas dos itens de menu.
+- **Z-index automático** — Navi+ detecta a abertura do drawer do carrinho, sobreposição de busca ou banner de cookies e recua automaticamente.
+- **Slide Horizontal** — nova direção de deslizamento, painéis de segundo nível deslizam da direita como um app iOS nativo.
+- **Popup Export / Import** — salve, mova ou duplique toda a configuração do menu como JSON em segundos.
+- **Lazy loading de imagens** — imagens nos menus carregam apenas quando visíveis, melhorando o carregamento inicial.
+- **Suporte a emojis** — adicione emojis diretamente às etiquetas dos itens de menu.
 
 ---
 
 ### Janeiro de 2026
 
-O novo tipo de menu Slide Horizontal é projetado para árvores de navegação profundas no mobile — cada nível desliza da direita, com o botão voltar e o cabeçalho atualizando automaticamente. Os templates de itens permitem criar uma estrutura de menu uma vez e reutilizá-la em qualquer menu com um clique. Import/Export agora suporta IA: cole uma lista de links ou sitemap e o Navi+ gera a árvore completa. O modo Debug sobrepõe valores z-index e limites de menu no seu site ao vivo pelo painel. A infraestrutura CDN foi atualizada para a rede edge Cloudflare R2 com um segundo CDN de failover.
+- **Tipo de menu Slide Horizontal** — projetado para árvores de navegação profundas no mobile. Cada nível desliza da direita; botão voltar e cabeçalho atualizam automaticamente.
+- **Templates de itens** — salve uma estrutura de menu uma vez, reutilize em qualquer menu com um clique.
+- **IA Import / Export** — cole uma lista de links ou sitemap e o Navi+ gera a árvore completa. Ou exporte JSON, edite com IA, importe de volta.
+- **Modo Debug** — sobrepõe valores z-index, limites de menu e seletores CSS no seu site ao vivo pelo painel.
+- **Upgrade de CDN** — infraestrutura migrada para a rede edge Cloudflare R2, segundo CDN de failover adicionado.
 
 ---
 
 ### Dezembro de 2025
 
-O Navi+ agora funciona em todas as plataformas — WordPress, WooCommerce, Wix, Webflow, Squarespace e qualquer site que aceite uma tag `<script>`. Mesmo painel, mesmos tipos de menu, mesma integração em uma linha do Shopify. O painel de controle está agora disponível em vários idiomas.
+- **Todas as plataformas** — Navi+ agora funciona em WordPress, WooCommerce, Wix, Webflow, Squarespace e qualquer site com tag `<script>`. Mesmo painel e mesmos tipos de menu do Shopify.
+- **Localização do painel** — a interface do Navi+ está agora disponível em vários idiomas.
 
 ---
 
 ### Novembro de 2025
 
-Corrigido o problema de piscar do menu no topo e no final das páginas em alguns dispositivos com a função de auto-mostrar/ocultar. Um limite de segurança evita esse comportamento para uma exibição mais suave.
+- **Correção de piscar** — corrigido o bug onde o auto-mostrar/ocultar piscava nas bordas da página em alguns dispositivos.
 
 ---
 
 ### Outubro de 2025
 
-Todos os assets do Navi+ migraram para a rede edge global da Cloudflare — o tempo médio de carregamento do menu caiu para ~52ms. Os usuários do plano Elite obtêm um segundo failover BunnyCDN para manter os menus online se um CDN cair. SLA atualizado para 99,99%.
+- **CDN Cloudflare** — todos os assets migrados para a rede edge global da Cloudflare. Tempo de carregamento médio do menu reduzido para ~52ms.
+- **Failover Elite** — o plano Elite obtém BunnyCDN como segundo failover. SLA atualizado para 99,99%.
