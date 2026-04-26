@@ -170,6 +170,31 @@
   title: 使用法
   url: /docs/usage/
 - children:
+  - processed_path: menu-items/item-overview
+    title: アイテムの概要
+    url: /docs/menu-items/item-overview/
+  - processed_path: menu-items/item-create-manage
+    title: アイテムの作成と管理
+    url: /docs/menu-items/item-create-manage/
+  - processed_path: menu-items/item-link-types
+    title: リンクの種類
+    url: /docs/menu-items/item-link-types/
+  - processed_path: menu-items/item-label-badge
+    title: ラベル・説明・バッジ
+    url: /docs/menu-items/item-label-badge/
+  - processed_path: menu-items/item-icon-image
+    title: アイコンと画像
+    url: /docs/menu-items/item-icon-image/
+  - processed_path: menu-items/item-visibility
+    title: 表示条件
+    url: /docs/menu-items/item-visibility/
+  - processed_path: menu-items/multi-level-structure
+    title: 多階層構造
+    url: /docs/menu-items/multi-level-structure/
+  processed_path: menu-items
+  title: メニューアイテム
+  url: /docs/menu-items/
+- children:
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: Navi+をあなたのウェブサイトや外部アプリと統合する
     url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/

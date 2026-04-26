@@ -109,6 +109,31 @@
   title: Các loại menu
   url: /docs/usage/
 - children:
+  - processed_path: menu-items/item-overview
+    title: Tổng quan về item
+    url: /docs/menu-items/item-overview/
+  - processed_path: menu-items/item-create-manage
+    title: Tạo & quản lý item
+    url: /docs/menu-items/item-create-manage/
+  - processed_path: menu-items/item-link-types
+    title: Các loại đường dẫn
+    url: /docs/menu-items/item-link-types/
+  - processed_path: menu-items/item-label-badge
+    title: Nhãn, mô tả & badge
+    url: /docs/menu-items/item-label-badge/
+  - processed_path: menu-items/item-icon-image
+    title: Icon & hình ảnh
+    url: /docs/menu-items/item-icon-image/
+  - processed_path: menu-items/item-visibility
+    title: Hiển thị & điều kiện
+    url: /docs/menu-items/item-visibility/
+  - processed_path: menu-items/multi-level-structure
+    title: Cấu trúc nhiều lớp
+    url: /docs/menu-items/multi-level-structure/
+  processed_path: menu-items
+  title: Menu Items
+  url: /docs/menu-items/
+- children:
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: Cách viết CSS trong Navi+
     url: /docs/development/how-to-write-a-correct-css-code-in-navi/

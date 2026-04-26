@@ -170,6 +170,31 @@
   title: 使用
   url: /docs/usage/
 - children:
+  - processed_path: menu-items/item-overview
+    title: 菜单项概述
+    url: /docs/menu-items/item-overview/
+  - processed_path: menu-items/item-create-manage
+    title: 创建与管理菜单项
+    url: /docs/menu-items/item-create-manage/
+  - processed_path: menu-items/item-link-types
+    title: 链接类型
+    url: /docs/menu-items/item-link-types/
+  - processed_path: menu-items/item-label-badge
+    title: 标签、描述和徽标
+    url: /docs/menu-items/item-label-badge/
+  - processed_path: menu-items/item-icon-image
+    title: 图标和图片
+    url: /docs/menu-items/item-icon-image/
+  - processed_path: menu-items/item-visibility
+    title: 显示条件
+    url: /docs/menu-items/item-visibility/
+  - processed_path: menu-items/multi-level-structure
+    title: 多级结构
+    url: /docs/menu-items/multi-level-structure/
+  processed_path: menu-items
+  title: 菜单项
+  url: /docs/menu-items/
+- children:
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: 将Navi+与您的网站和外部应用程序集成
     url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/
