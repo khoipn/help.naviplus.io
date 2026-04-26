@@ -237,15 +237,9 @@
   processed_path: development
   title: Tài liệu lập trình viên
   url: /docs/development/
-- processed_path: line
-  title: line
-  url: /docs/line/
 - processed_path: latest-update
   title: Changelog / Release Notes
   url: /docs/latest-update/
-- processed_path: line-1
-  title: line
-  url: /docs/line-1/
 - children:
   - processed_path: partership/earn-up-to-225-revshare-with-navi
     title: Chương trình Affiliate / RevShare

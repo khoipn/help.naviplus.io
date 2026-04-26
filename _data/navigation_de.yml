@@ -21,9 +21,6 @@
 - processed_path: latest-update
   title: Neueste Aktualisierung
   url: /docs/latest-update/
-- processed_path: line-1
-  title: line
-  url: /docs/line-1/
 - children:
   - processed_path: demo/1click-live-demo
     title: 1Click live demo
