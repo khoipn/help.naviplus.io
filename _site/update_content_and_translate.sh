@@ -18,8 +18,10 @@ fi
 # shellcheck disable=SC1091
 source .venv/bin/activate
 
-python -m pip install --upgrade pip >/dev/null
-python -m pip install -q requests pyyaml markdown
+VENV_PYTHON=".venv/bin/python3"
+
+"$VENV_PYTHON" -m pip install --upgrade pip >/dev/null
+"$VENV_PYTHON" -m pip install -q requests pyyaml markdown
 
 if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   if [[ -f ".openai_api_key" ]]; then
@@ -33,9 +35,9 @@ if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   exit 1
 fi
 
-python3 getMD.py
-python3 translate_i18n.py
-python3 build_navigation_i18n.py
+"$VENV_PYTHON" getMD.py
+"$VENV_PYTHON" translate_i18n.py
+"$VENV_PYTHON" build_navigation_i18n.py
 
 echo ""
 echo "📦 Committing and pushing to git..."

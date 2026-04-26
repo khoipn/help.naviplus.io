@@ -223,13 +223,23 @@ const ensureTrailingSlash = (path) => {
 };
 
 const getBasePathWithoutLangPrefix = (pathname) => {
-  const clean = ensureTrailingSlash(pathname || "/");
-  for (const lang of languageRoutes) {
-    if (!lang.prefix) continue;
-    const prefix = `/${lang.prefix}/`;
-    if (clean.startsWith(prefix)) return "/" + clean.slice(prefix.length);
+  let clean = ensureTrailingSlash(pathname || "/");
+  let stripped = true;
+
+  while (stripped) {
+    stripped = false;
+    for (const lang of languageRoutes) {
+      if (!lang.prefix) continue;
+      const prefix = `/${lang.prefix}/`;
+      if (clean.startsWith(prefix)) {
+        clean = "/" + clean.slice(prefix.length);
+        stripped = true;
+        break;
+      }
+    }
   }
-  return clean;
+
+  return ensureTrailingSlash(clean);
 };
 
 const resolveLanguageUrl = (targetPrefix) => {
