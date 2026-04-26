@@ -170,6 +170,31 @@
   title: Utilizzo
   url: /docs/usage/
 - children:
+  - processed_path: menu-items/item-overview
+    title: Panoramica degli elementi
+    url: /docs/menu-items/item-overview/
+  - processed_path: menu-items/item-create-manage
+    title: Creare e gestire elementi
+    url: /docs/menu-items/item-create-manage/
+  - processed_path: menu-items/item-link-types
+    title: Tipi di collegamento
+    url: /docs/menu-items/item-link-types/
+  - processed_path: menu-items/item-label-badge
+    title: Etichette, descrizioni e badge
+    url: /docs/menu-items/item-label-badge/
+  - processed_path: menu-items/item-icon-image
+    title: Icone e immagini
+    url: /docs/menu-items/item-icon-image/
+  - processed_path: menu-items/item-visibility
+    title: Visibilità e condizioni
+    url: /docs/menu-items/item-visibility/
+  - processed_path: menu-items/multi-level-structure
+    title: Struttura multilivello
+    url: /docs/menu-items/multi-level-structure/
+  processed_path: menu-items
+  title: Elementi di menu
+  url: /docs/menu-items/
+- children:
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: Integrando Navi+ con il tuo sito web e app esterne
     url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/

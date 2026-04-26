@@ -109,6 +109,31 @@
   title: Menu Types
   url: /docs/usage/
 - children:
+  - processed_path: menu-items/item-overview
+    title: Item overview
+    url: /docs/menu-items/item-overview/
+  - processed_path: menu-items/item-create-manage
+    title: Create & manage items
+    url: /docs/menu-items/item-create-manage/
+  - processed_path: menu-items/item-link-types
+    title: Link types
+    url: /docs/menu-items/item-link-types/
+  - processed_path: menu-items/item-label-badge
+    title: Labels, descriptions & badges
+    url: /docs/menu-items/item-label-badge/
+  - processed_path: menu-items/item-icon-image
+    title: Icons & images
+    url: /docs/menu-items/item-icon-image/
+  - processed_path: menu-items/item-visibility
+    title: Visibility & conditions
+    url: /docs/menu-items/item-visibility/
+  - processed_path: menu-items/multi-level-structure
+    title: Multi-level structure
+    url: /docs/menu-items/multi-level-structure/
+  processed_path: menu-items
+  title: Menu Items
+  url: /docs/menu-items/
+- children:
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: How to write CSS in Navi+
     url: /docs/development/how-to-write-a-correct-css-code-in-navi/
