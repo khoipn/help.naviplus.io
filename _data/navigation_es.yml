@@ -197,57 +197,57 @@
 - children:
   - processed_path: design/design-overview
     title: Descripción general del diseño — Sistema de herencia
-    url: /docs/design/design-overview/
+    url: /es/docs/design/design-overview/
   - processed_path: design/design-level1
     title: Diseño Nivel 1 — Elementos del menú principal
-    url: /docs/design/design-level1/
+    url: /es/docs/design/design-level1/
   - processed_path: design/design-level2
     title: Diseño Nivel 2-3 — Elementos de submenú
-    url: /docs/design/design-level2/
+    url: /es/docs/design/design-level2/
   - processed_path: design/design-divider
     title: Diseño Divisor — Líneas separadoras
-    url: /docs/design/design-divider/
+    url: /es/docs/design/design-divider/
   processed_path: design
   title: Diseño
-  url: /docs/design/
+  url: /es/docs/design/
 - children:
   - processed_path: setting/setting-behavior
     title: Comportamiento de configuración — Animación e interacción
-    url: /docs/setting/setting-behavior/
+    url: /es/docs/setting/setting-behavior/
   - processed_path: setting/setting-layout
     title: Distribución de configuración — Posición y tamaño
-    url: /docs/setting/setting-layout/
+    url: /es/docs/setting/setting-layout/
   - processed_path: setting/setting-display-rules
     title: Reglas de visualización de configuración — Visibilidad condicional
-    url: /docs/setting/setting-display-rules/
+    url: /es/docs/setting/setting-display-rules/
   - processed_path: setting/setting-slide
     title: Diapositiva de configuración — Opciones del menú de diapositiva
-    url: /docs/setting/setting-slide/
+    url: /es/docs/setting/setting-slide/
   processed_path: setting
   title: Configuración
-  url: /docs/setting/
+  url: /es/docs/setting/
 - children:
   - processed_path: publish/publish-overview
     title: Resumen de Publicación — Tipos de Menú y Métodos
-    url: /docs/publish/publish-overview/
+    url: /es/docs/publish/publish-overview/
   - processed_path: publish/publish-sticky
     title: Publicar Sticky — Tabbar y FAB
-    url: /docs/publish/publish-sticky/
+    url: /es/docs/publish/publish-sticky/
   - processed_path: publish/publish-slide
     title: Publicar Slide — Menú Slide Contextual
-    url: /docs/publish/publish-slide/
+    url: /es/docs/publish/publish-slide/
   - processed_path: publish/publish-section
     title: Publicar Section — Mega Menú y Grid
-    url: /docs/publish/publish-section/
+    url: /es/docs/publish/publish-section/
   - processed_path: publish/publish-filter
     title: Filtro de Publicación — Dispositivo y URL
-    url: /docs/publish/publish-filter/
+    url: /es/docs/publish/publish-filter/
   - processed_path: publish/publish-optimize
     title: Optimizar Publicación — Velocidad y UX
-    url: /docs/publish/publish-optimize/
+    url: /es/docs/publish/publish-optimize/
   processed_path: publish
   title: Publicar
-  url: /docs/publish/
+  url: /es/docs/publish/
 - children:
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: Integrando Navi+ con tu sitio web y aplicaciones externas

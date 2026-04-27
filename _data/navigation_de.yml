@@ -197,57 +197,57 @@
 - children:
   - processed_path: design/design-overview
     title: Design-Übersicht — Vererbungssystem
-    url: /docs/design/design-overview/
+    url: /de/docs/design/design-overview/
   - processed_path: design/design-level1
     title: Design Stufe 1 — Hauptmenüelemente
-    url: /docs/design/design-level1/
+    url: /de/docs/design/design-level1/
   - processed_path: design/design-level2
     title: Design Stufe 2-3 — Untermenüelemente
-    url: /docs/design/design-level2/
+    url: /de/docs/design/design-level2/
   - processed_path: design/design-divider
     title: Design Trennlinie — Trennlinien
-    url: /docs/design/design-divider/
+    url: /de/docs/design/design-divider/
   processed_path: design
   title: Design
-  url: /docs/design/
+  url: /de/docs/design/
 - children:
   - processed_path: setting/setting-behavior
     title: Einstellung Verhalten — Animation und Interaktion
-    url: /docs/setting/setting-behavior/
+    url: /de/docs/setting/setting-behavior/
   - processed_path: setting/setting-layout
     title: Einstellung Layout — Position und Größe
-    url: /docs/setting/setting-layout/
+    url: /de/docs/setting/setting-layout/
   - processed_path: setting/setting-display-rules
     title: Einstellung Anzeigeregeln — Bedingte Sichtbarkeit
-    url: /docs/setting/setting-display-rules/
+    url: /de/docs/setting/setting-display-rules/
   - processed_path: setting/setting-slide
     title: Einstellung Folie — Folienmenü-Optionen
-    url: /docs/setting/setting-slide/
+    url: /de/docs/setting/setting-slide/
   processed_path: setting
   title: Einstellung
-  url: /docs/setting/
+  url: /de/docs/setting/
 - children:
   - processed_path: publish/publish-overview
     title: Publish Übersicht — Menütypen & Bereitstellungsmethoden
-    url: /docs/publish/publish-overview/
+    url: /de/docs/publish/publish-overview/
   - processed_path: publish/publish-sticky
     title: Publish Sticky — Tabbar & FAB
-    url: /docs/publish/publish-sticky/
+    url: /de/docs/publish/publish-sticky/
   - processed_path: publish/publish-slide
     title: Publish Slide — Context Slide Menu
-    url: /docs/publish/publish-slide/
+    url: /de/docs/publish/publish-slide/
   - processed_path: publish/publish-section
     title: Publish Section — Mega Menü & Grid
-    url: /docs/publish/publish-section/
+    url: /de/docs/publish/publish-section/
   - processed_path: publish/publish-filter
     title: Publish Filter — Gerät & URL
-    url: /docs/publish/publish-filter/
+    url: /de/docs/publish/publish-filter/
   - processed_path: publish/publish-optimize
     title: Publish Optimieren — Geschwindigkeit & UX
-    url: /docs/publish/publish-optimize/
+    url: /de/docs/publish/publish-optimize/
   processed_path: publish
   title: Publish
-  url: /docs/publish/
+  url: /de/docs/publish/
 - children:
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: Integration von Navi+ mit Ihrer Website und externen Apps

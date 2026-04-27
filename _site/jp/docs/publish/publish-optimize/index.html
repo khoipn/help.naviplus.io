@@ -1,0 +1,4870 @@
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0f2d1e" />
+
+
+<title>Publish Optimize — スピードと UX | Navi+ Help Center</title>
+
+
+<meta name="description" content="Navi+ メニュー公開後のスピードと UX の最適化 — Insert/Replace または CSS Selector トリガー使用時のオリジナルコンテンツのフラッシュを防止。" />
+
+<!-- Canonical & hreflang alternates -->
+<link rel="canonical" href="http://localhost:4445/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="x-default" href="http://localhost:4445/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="en"      href="http://localhost:4445/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="vi"      href="http://localhost:4445/vi/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="fr"      href="http://localhost:4445/fr/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="de"      href="http://localhost:4445/de/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="zh-Hans" href="http://localhost:4445/zh-cn/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="ja"      href="http://localhost:4445/jp/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="it"      href="http://localhost:4445/it/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="pt-BR"   href="http://localhost:4445/pt-br/jp/docs/publish/publish-optimize/" />
+<link rel="alternate" hreflang="es"      href="http://localhost:4445/es/jp/docs/publish/publish-optimize/" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png"
+  href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png" />
+
+<!-- Open Graph -->
+<meta property="og:site_name"   content="Navi+ Help Center" />
+<meta property="og:locale"      content="en_US" />
+
+<meta property="og:type"        content="article" />
+
+<meta property="og:url"         content="http://localhost:4445/jp/docs/publish/publish-optimize/" />
+<meta property="og:title"       content="Publish Optimize — スピードと UX" />
+<meta property="og:description" content="Navi+ メニュー公開後のスピードと UX の最適化 — Insert/Replace または CSS Selector トリガー使用時のオリジナルコンテンツのフラッシュを防止。" />
+
+<meta property="og:image"        content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
+<meta property="og:image:width"  content="1200" />
+<meta property="og:image:height" content="630" />
+
+
+<!-- Twitter -->
+<meta name="twitter:card"        content="summary_large_image" />
+<meta name="twitter:url"         content="http://localhost:4445/jp/docs/publish/publish-optimize/" />
+<meta name="twitter:title"       content="Publish Optimize — スピードと UX" />
+<meta name="twitter:description" content="Navi+ メニュー公開後のスピードと UX の最適化 — Insert/Replace または CSS Selector トリガー使用時のオリジナルコンテンツのフラッシュを防止。" />
+
+<meta name="twitter:image" content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
+
+
+<meta name="twitter:creator" content="@NaviPlusOfficial" />
+
+
+<!-- JSON-LD: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Navi+ Help Center",
+  "url": "http://localhost:4445",
+  "description": "Navi+ Help Center — Official guides, tutorials and FAQs for Mega Menu, Tab Bar, Slide Menu, Sticky Navbar, FAB and Grid Menu on Shopify, WordPress, Wix and more.",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Navi+",
+    "url": "https://naviplus.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "http://localhost:4445/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+<!-- JSON-LD: TechArticle (doc pages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Publish Optimize — スピードと UX",
+  "description": "Navi+ メニュー公開後のスピードと UX の最適化 — Insert/Replace または CSS Selector トリガー使用時のオリジナルコンテンツのフラッシュを防止。",
+  "url": "http://localhost:4445/jp/docs/publish/publish-optimize/",
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Navi+ Help Center",
+    "url": "http://localhost:4445"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Navi+",
+    "url": "https://naviplus.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp"
+    }
+  }
+}
+</script>
+
+
+<!-- Preconnect to CDNs -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+<link rel="preconnect" href="https://cdn.naviplus.app" crossorigin />
+<link rel="preconnect" href="https://live.naviplus.app" crossorigin />
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous" />
+
+<!-- Remixicon CSS -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="/theme/assets/css/theme-styles.css" />
+
+<script>
+  (() => {
+    try {
+      const raw = localStorage.getItem("favorites") || "[]";
+      const favorites = JSON.parse(raw);
+      const count = Array.isArray(favorites) ? favorites.length : 0;
+      if (count > 0) {
+        const maxItems = 6;
+        const rowHeight = 34;
+        const reserved = Math.min(count, maxItems) * rowHeight;
+        document.documentElement.classList.add("has-favorites");
+        document.documentElement.style.setProperty("--favorites-reserved-height", reserved + "px");
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWVMJYX4Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag("js", new Date());
+  gtag("config", "G-1PWVMJYX4Z");
+</script>
+
+<!-- Insert this code to the <head> of website. (c) naviplus.io -->
+<script>
+  (window._navi_setting ||= []).push({ token: "NAVI733440" });
+</script>
+<script src="https://live.naviplus.app/start.js" async></script>
+<!-- Insert this code to the <head> of website -->
+
+    <link
+      rel="stylesheet"
+      href="/theme/assets/css/theme-styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/theme/assets/css/lightbox-styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/theme/assets/css/print-styles.css"
+      media="print"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+    />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    
+
+
+
+
+
+
+
+
+
+
+<header class="np-help-header">
+  <nav class="np-help-nav">
+
+    <!-- Mobile: sidebar toggle -->
+    <button class="np-help-sidebar-toggle d-md-none" type="button"
+      data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar"
+      aria-controls="offcanvasSidebar" aria-label="Toggle sidebar">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Logo -->
+    <a href="/jp/home/" class="np-help-logo">
+      <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+" height="28" />
+      <span class="np-help-logo-divider"></span>
+      <span class="np-help-logo-text">Help</span>
+    </a>
+
+    <!-- Nav links (generated by JS) -->
+    <ul class="np-help-links" id="main-navbar-nav-links"></ul>
+
+    <!-- Right side -->
+    <div class="np-help-right">
+      <!-- Search -->
+      <form class="np-help-search" role="search" autocomplete="off"
+        data-search-index-url="/search.json">
+        <i class="ri-search-line np-help-search-icon" aria-hidden="true"></i>
+        <input class="np-help-search-input" type="search"
+          placeholder="ドキュメント検索" aria-label="ドキュメント検索"
+          id="siteSearchInput" />
+        <div class="navbar-search-results list-group position-absolute top-100 start-0 w-100 shadow d-none"
+          id="siteSearchResults"></div>
+      </form>
+
+      <!-- CTA injected by JS here -->
+    </div>
+
+    <!-- Mobile hamburger (nav links toggle) -->
+    <button class="np-help-hamburger" id="np-help-hamburger-btn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+  </nav>
+
+  <!-- Mobile nav panel -->
+  <div class="np-help-mobile-nav" id="np-help-mobile-nav">
+    <ul class="np-help-mobile-links" id="main-navbar-nav-links-mobile"></ul>
+  </div>
+</header>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.getElementById("np-help-hamburger-btn");
+  const mobileNav = document.getElementById("np-help-mobile-nav");
+  if (hamburger && mobileNav) {
+    hamburger.addEventListener("click", function () {
+      mobileNav.classList.toggle("open");
+      hamburger.classList.toggle("open");
+    });
+  }
+});
+</script>
+
+    <div class="container-fluid flex-grow-1">
+      <div class="row">
+        <!-- Offcanvas Sidebar for Mobile -->
+        <div
+          class="offcanvas offcanvas-start bg-light sidebar-offcanvas d-md-none"
+          tabindex="-1"
+          id="offcanvasSidebar"
+          aria-labelledby="offcanvasSidebarLabel"
+        >
+          <div class="offcanvas-header shadow-sm border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasSidebarLabel">
+              Navi+ Help Center
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <!-- Sidebar content -->
+            <nav class="bg-light sidebar h-100">
+              <div class="position-sticky pt-3 h-100">
+                           
+
+
+<!-- Favorites Section (at the top) -->
+<h6
+  class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted"
+  style="margin-top: 0.5rem; margin-bottom: 0.25rem"
+>
+  お気に入り
+</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem">
+  <!-- Favorites will be rendered here by JavaScript -->
+</ul>
+<div
+  class="favorites-separator"
+  style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0"
+></div>
+
+<!-- Main Navigation -->
+<ul class="nav flex-column">
+  <!-- Home Link -->
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      href="/jp/home/"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <span class="sidebar-title-text flex-grow-1">ホーム</span>
+      </span>
+    </a>
+  </li>
+
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/getting-started/"
+      ><span class="sidebar-title-text flex-grow-1">始めに</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/why-choose-navi/"
+      ><span class="sidebar-title-text flex-grow-1">Navi+を選ぶ理由は？</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/common-first-questions/"
+      ><span class="sidebar-title-text flex-grow-1">よくある最初の質問</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/how-to-install-navi/"
+      ><span class="sidebar-title-text flex-grow-1">Navi+のインストール方法</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/troubleshooting/"
+      ><span class="sidebar-title-text flex-grow-1">トラブルシューティング</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/latest-update/"
+      ><span class="sidebar-title-text flex-grow-1">最新の更新</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-9"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-9"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">デモ</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-9"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/demo/1click-live-demo/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >1Click live demo</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-10"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-10"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">使用法</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-10"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/usage/explore-common-menus/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >一般的なメニューを探る</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >タブバー (ボトムナビゲーション)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/tabbar-bottom-navigation/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / Woo / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-3"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >メガメニュー (デスクトップ)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-3"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-desktop/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-desktop/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-desktop/faq/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >FAQ</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-4"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >メガメニュー (モバイル)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-4"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-mobile/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-mobile/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-5"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-5"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >スライドメニュー（ハンバーガーメニュー）</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-5"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/slide-menu-hamburger-menu/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/slide-menu-hamburger-menu/publishing-examples/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >公開例</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-6"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-6"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >FAB - Floating Menu / Quick Access</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-6"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/fab-floating-menu-quick-access/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他での公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-7"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-7"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >グリッドメニュー</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-7"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/grid-menu/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/grid-menu/responsive-grid-menu/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >レスポンシブグリッドメニュー</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/grid-menu/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-8"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-8"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >一般</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-8"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/tab-slide-group-menu-items-into-tabs/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >タブスライド — メニュー項目をタブにグループ化</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/apply-multi-language/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >多言語の適用</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/find-css-selector/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >CSSセレクタを見つける</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/z-index/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Z-index</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/apply-a-custom-font/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >カスタムフォントを適用する</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/advanced-image-upload/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >高度な画像アップロード</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/menu-depth/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >メニューの深さ</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-10-9"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-10-9"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Shopify</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-10-9"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/shopify/use-the-multi-language-feature/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >多言語機能を使用する。</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >読み込み速度の最適化 (スライド & メガメニュー)</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/shopify/how-to-other-applications-work-with-naviplus/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Navi+メニューが他のアプリと重ならないようにする</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/usage/menu-structure-and-css/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >メニュー構造とCSS</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/usage/some-faqs-about-publishing-navi-menu/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ メニューの公開に関するいくつかの FAQ</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/usage/debug-mode-find-css-selectors/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デバッグモード - CSSセレクタを見つける</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-11"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-11"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">メニューアイテム</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-11"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-overview/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >アイテムの概要</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-create-manage/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >アイテムの作成と管理</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-link-types/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >リンクの種類</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-label-badge/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >ラベル・説明・バッジ</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-icon-image/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >アイコンと画像</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-visibility/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >表示条件</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/multi-level-structure/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >多階層構造</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-12"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-12"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">デザイン</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-12"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/design/design-overview/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デザイン概要 — 継承システム</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/design/design-level1/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デザインレベル 1 — メインメニュー項目</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/design/design-level2/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デザインレベル 2-3 — サブメニュー項目</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/design/design-divider/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デザイン区切り — 区切り線</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-13"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-13"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">設定</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-13"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/setting/setting-behavior/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >設定動作 — アニメーション＆インタラクション</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/setting/setting-layout/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >設定レイアウト — 位置＆サイズ</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/setting/setting-display-rules/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >設定表示ルール — 条件付き可視性</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/setting/setting-slide/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >設定スライド — スライドメニューオプション</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-14"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-14"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">公開</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-14"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-overview/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開概要 — メニュータイプとデプロイ方法</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-sticky/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開 Sticky — Tabbar と FAB</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-slide/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開 Slide — Context Slide メニュー</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-section/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開 Section — Mega メニューと Grid</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-filter/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開フィルター — デバイスと URL</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-optimize/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開最適化 — 速度と UX</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-15"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-15"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">統合</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-15"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/integrations/integrating-navi-with-your-website-and-external-apps/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+をあなたのウェブサイトや外部アプリと統合する</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-15-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-15-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >チャットツール</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-15-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/integrations/chat-tools/shopify-inbox/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopify Inbox</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/integrations/chat-tools/tidi-chat/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Tidi chat</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-15-3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-15-3"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >テーマ</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-15-3"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopify: Open the hamburger menu or cart, search panel</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-16"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-16"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">よくある質問</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-16"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-16-1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-16-1"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >ユーザーインターフェース (UI) のカスタマイズ</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-16-1"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >組み込み設定またはカスタムCSSを使用しますか？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >メニュー項目のアクティブ状態を削除しますか？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >メガメニューのレベル3サブメニューを整列させるには？</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-mobile-16-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-mobile-16-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >速度、画像、UXを最適化する</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-mobile-16-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >画像の最適化</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >速度を最適化し、ユーザーエクスペリエンス（UX）を向上させる。</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ メニューを別の Navi+ メニューに転送する方法</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/how-does-navi-support-seo/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+はSEOをどのようにサポートしますか？</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ plans (Starter, Business & Elite)</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >なぜメニュー、検索、カートパネルが機能しないのですか？</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/why-navi-not-display/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >なぜ私のウェブサイトにNavi+メニューが表示されないのですか？</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-18"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-18"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">開発</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-18"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/development/menu-structure-and-css/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >メニュー構造とCSS</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/development/how-to-write-a-correct-css-code-in-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+で正しいCSSコードを書く方法</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/development/add-walk-through-to-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+へのウォークスルーの追加</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-19"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-19"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">制限</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-19"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Shopify Bottom Bar issue on Google App (iPhone)</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-21"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-21"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">リソース</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-21"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/resources/privacy-policy/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >プライバシーポリシー</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/resources/terms-and-condition/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >利用規約</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-22"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-22"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">パートナーシップ</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-22"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/partership/earn-up-to-225-revshare-with-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+で最大22.5%のRevShareを獲得</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/partership/navi-care-or-design-your-menus-like-an-expert/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ Care | Design your menus like an expert</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+  
+</ul>
+
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Sidebar for Desktop/Tablet -->
+        <nav
+          class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar shadow-sm border-end"
+        >
+          <div class="position-sticky pt-3 h-100">
+                       
+
+
+<!-- Favorites Section (at the top) -->
+<h6
+  class="sidebar-heading favorites-heading d-flex justify-content-between align-items-center px-3 text-muted"
+  style="margin-top: 0.5rem; margin-bottom: 0.25rem"
+>
+  お気に入り
+</h6>
+<ul class="nav flex-column" id="favoritesList" style="margin-bottom: 0.5rem">
+  <!-- Favorites will be rendered here by JavaScript -->
+</ul>
+<div
+  class="favorites-separator"
+  style="height: 8px; background-color: #e9ecef; margin: 0 0 1rem 0"
+></div>
+
+<!-- Main Navigation -->
+<ul class="nav flex-column">
+  <!-- Home Link -->
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      href="/jp/home/"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <span class="sidebar-title-text flex-grow-1">ホーム</span>
+      </span>
+    </a>
+  </li>
+
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/getting-started/"
+      ><span class="sidebar-title-text flex-grow-1">始めに</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/why-choose-navi/"
+      ><span class="sidebar-title-text flex-grow-1">Navi+を選ぶ理由は？</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/common-first-questions/"
+      ><span class="sidebar-title-text flex-grow-1">よくある最初の質問</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/how-to-install-navi/"
+      ><span class="sidebar-title-text flex-grow-1">Navi+のインストール方法</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/troubleshooting/"
+      ><span class="sidebar-title-text flex-grow-1">トラブルシューティング</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      href="/jp/docs/latest-update/"
+      ><span class="sidebar-title-text flex-grow-1">最新の更新</span></a
+    >
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-9"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-9"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">デモ</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-9"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/demo/1click-live-demo/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >1Click live demo</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-10"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-10"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">使用法</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-10"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/usage/explore-common-menus/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >一般的なメニューを探る</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >タブバー (ボトムナビゲーション)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/tabbar-bottom-navigation/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/tabbar-bottom-navigation/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / Woo / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-3"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >メガメニュー (デスクトップ)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-3"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-desktop/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-desktop/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-desktop/faq/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >FAQ</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-4"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >メガメニュー (モバイル)</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-4"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-mobile/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-mobile/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-5"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-5"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >スライドメニュー（ハンバーガーメニュー）</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-5"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/slide-menu-hamburger-menu/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/slide-menu-hamburger-menu/publishing-examples/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >公開例</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-6"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-6"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >FAB - Floating Menu / Quick Access</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-6"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/fab-floating-menu-quick-access/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他での公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-7"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-7"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >グリッドメニュー</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-7"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/grid-menu/how-to-use/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >使い方は？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/grid-menu/responsive-grid-menu/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >レスポンシブグリッドメニュー</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/grid-menu/publishing-on-shopify/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopifyでの公開</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >WordPress / WooCommerce / Wix / その他で公開</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-8"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-8"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >一般</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-8"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/tab-slide-group-menu-items-into-tabs/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >タブスライド — メニュー項目をタブにグループ化</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/apply-multi-language/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >多言語の適用</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/find-css-selector/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >CSSセレクタを見つける</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/z-index/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Z-index</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/apply-a-custom-font/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >カスタムフォントを適用する</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/advanced-image-upload/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >高度な画像アップロード</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/general/menu-depth/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >メニューの深さ</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-10-9"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-10-9"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >Shopify</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-10-9"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/shopify/use-the-multi-language-feature/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >多言語機能を使用する。</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >読み込み速度の最適化 (スライド & メガメニュー)</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/usage/shopify/how-to-other-applications-work-with-naviplus/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Navi+メニューが他のアプリと重ならないようにする</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/usage/menu-structure-and-css/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >メニュー構造とCSS</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/usage/some-faqs-about-publishing-navi-menu/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ メニューの公開に関するいくつかの FAQ</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/usage/debug-mode-find-css-selectors/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デバッグモード - CSSセレクタを見つける</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-11"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-11"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">メニューアイテム</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-11"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-overview/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >アイテムの概要</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-create-manage/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >アイテムの作成と管理</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-link-types/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >リンクの種類</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-label-badge/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >ラベル・説明・バッジ</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-icon-image/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >アイコンと画像</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/item-visibility/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >表示条件</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/menu-items/multi-level-structure/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >多階層構造</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-12"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-12"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">デザイン</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-12"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/design/design-overview/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デザイン概要 — 継承システム</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/design/design-level1/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デザインレベル 1 — メインメニュー項目</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/design/design-level2/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デザインレベル 2-3 — サブメニュー項目</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/design/design-divider/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >デザイン区切り — 区切り線</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-13"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-13"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">設定</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-13"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/setting/setting-behavior/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >設定動作 — アニメーション＆インタラクション</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/setting/setting-layout/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >設定レイアウト — 位置＆サイズ</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/setting/setting-display-rules/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >設定表示ルール — 条件付き可視性</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/setting/setting-slide/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >設定スライド — スライドメニューオプション</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-14"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-14"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">公開</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-14"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-overview/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開概要 — メニュータイプとデプロイ方法</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-sticky/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開 Sticky — Tabbar と FAB</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-slide/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開 Slide — Context Slide メニュー</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-section/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開 Section — Mega メニューと Grid</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-filter/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開フィルター — デバイスと URL</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/jp/docs/publish/publish-optimize/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >公開最適化 — 速度と UX</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-15"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-15"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">統合</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-15"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/integrations/integrating-navi-with-your-website-and-external-apps/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+をあなたのウェブサイトや外部アプリと統合する</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-15-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-15-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >チャットツール</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-15-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/integrations/chat-tools/shopify-inbox/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopify Inbox</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/integrations/chat-tools/tidi-chat/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Tidi chat</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-15-3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-15-3"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >テーマ</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-15-3"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >Shopify: Open the hamburger menu or cart, search panel</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-16"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-16"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">よくある質問</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-16"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-16-1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-16-1"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >ユーザーインターフェース (UI) のカスタマイズ</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-16-1"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >組み込み設定またはカスタムCSSを使用しますか？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >メニュー項目のアクティブ状態を削除しますか？</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >メガメニューのレベル3サブメニューを整列させるには？</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            data-bs-toggle="collapse"
+            href="#collapse-desktop-16-2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapse-desktop-16-2"
+          >
+            <span class="d-flex align-items-start sidebar-link-container">
+              <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
+              <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
+              <span class="sidebar-title-text flex-grow-1"
+                >速度、画像、UXを最適化する</span
+              >
+            </span>
+          </a>
+          <div
+            class="collapse "
+            id="collapse-desktop-16-2"
+          >
+            <ul class="nav flex-column ps-3 sidebar-children-list">
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-images/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >画像の最適化</span
+                  ></a
+                >
+                
+              </li>
+                   
+
+              <li
+                class="nav-item sidebar-tree-item"
+              >
+                
+                <a
+                  class="nav-link"
+                  href="/jp/docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/"
+                  ><span class="sidebar-title-text flex-grow-1"
+                    >速度を最適化し、ユーザーエクスペリエンス（UX）を向上させる。</span
+                  ></a
+                >
+                
+              </li>
+              
+            </ul>
+          </div>
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ メニューを別の Navi+ メニューに転送する方法</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/how-does-navi-support-seo/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+はSEOをどのようにサポートしますか？</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ plans (Starter, Business & Elite)</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >なぜメニュー、検索、カートパネルが機能しないのですか？</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/frequently-asked-questions/why-navi-not-display/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >なぜ私のウェブサイトにNavi+メニューが表示されないのですか？</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-18"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-18"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">開発</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-18"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/development/menu-structure-and-css/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >メニュー構造とCSS</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/development/how-to-write-a-correct-css-code-in-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+で正しいCSSコードを書く方法</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/development/add-walk-through-to-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+へのウォークスルーの追加</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-19"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-19"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">制限</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-19"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Shopify Bottom Bar issue on Google App (iPhone)</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item sidebar-separator-line"
+  >
+    
+    <!-- Render a separator line -->
+    <div class="sidebar-separator-content"></div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-21"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-21"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">リソース</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-21"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/resources/privacy-policy/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >プライバシーポリシー</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/resources/terms-and-condition/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >利用規約</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-22"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-22"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">パートナーシップ</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-22"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/partership/earn-up-to-225-revshare-with-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+で最大22.5%のRevShareを獲得</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/jp/docs/partership/navi-care-or-design-your-menus-like-an-expert/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Navi+ Care | Design your menus like an expert</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+  
+</ul>
+
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="col-12 col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
+          <div class="content-wrapper">
+            <h1 id="publish-optimize--スピードと-ux">Publish Optimize — スピードと UX</h1>
+
+<p><strong>Insert/Replace</strong>（Section メニュー）または <strong>CSS Selector トリガー</strong>（Slide メニュー）を使用する場合、ウェブサイトは Navi+ を読み込むためにわずかな時間が必要です。その間、元の要素（テーマの古いメニュー）はまだ表示されており、<strong>フラッシュ</strong>またはレイアウトのズレが発生します。</p>
+
+<hr />
+
+<h2 id="最適化が必要な場面は">最適化が必要な場面は？</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>方法</th>
+      <th>最適化が必要？</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sticky / FAB（App Embeds / <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>）</td>
+      <td>不要 — メニューは DOM に追加されるだけで、何も置き換えない</td>
+    </tr>
+    <tr>
+      <td>Slide メニュー — 方法 1（Navi+ アイテムから開く）</td>
+      <td>不要 — トリガーボタンは Navi+ アイテム</td>
+    </tr>
+    <tr>
+      <td><strong>Slide メニュー — 方法 2（CSS Selector トリガー）</strong></td>
+      <td><strong>必要</strong> — Navi+ が読み込まれるまで元のトリガー要素が表示される</td>
+    </tr>
+    <tr>
+      <td><strong>Section — Replace</strong></td>
+      <td><strong>必要</strong> — 元のメニューが先に表示され、その後 Navi+ で置き換えられる</td>
+    </tr>
+    <tr>
+      <td>Section — Insert Before/After</td>
+      <td>不要 — 2 つのメニューが並んで表示される</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="テクニックcss-で元の要素を非表示にする">テクニック：CSS で元の要素を非表示にする</h2>
+
+<h3 id="仕組み">仕組み</h3>
+
+<ol>
+  <li>CSS を使用して元の要素を即座に非表示にする（Navi+ が読み込まれる前に）。</li>
+  <li>オプションでローディングプレースホルダーを表示してレイアウトのズレを防止。</li>
+  <li>Navi+ が準備できたら自動的に要素を削除/置き換え — レイアウトが安定します。</li>
+</ol>
+
+<h3 id="実装">実装</h3>
+
+<p><strong>元の要素を非表示にする CSS を追加</strong>（テーマのカスタム CSS または <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> に貼り付け）：</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* Navi+ 読み込み中に元のメニューを非表示 */</span>
+<span class="nt">nav</span><span class="nc">.header__inline-menu</span> <span class="nt">ul</span><span class="nc">.list-menu</span> <span class="p">{</span>
+  <span class="nl">visibility</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+  <span class="nl">min-height</span><span class="p">:</span> <span class="m">44px</span><span class="p">;</span> <span class="c">/* レイアウトのズレを防ぐためのスペース確保 */</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Navi+ が要素を置き換えたら、この CSS は効果がなくなります — 要素が DOM から削除されます。</p>
+
+<p><strong>ローディングプレースホルダー付き</strong>（上級者向け）：</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">nav</span><span class="nc">.header__inline-menu</span> <span class="nt">ul</span><span class="nc">.list-menu</span> <span class="p">{</span>
+  <span class="nl">visibility</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">nav</span><span class="nc">.header__inline-menu</span> <span class="nt">ul</span><span class="nc">.list-menu</span><span class="nd">::before</span> <span class="p">{</span>
+  <span class="nl">content</span><span class="p">:</span> <span class="s1">""</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+  <span class="nl">inset</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="nx">#f5f5f5</span><span class="p">;</span>
+  <span class="nl">border-radius</span><span class="p">:</span> <span class="m">4px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="特別なケースcss-selector-トリガーを使用した-slide-メニュー">特別なケース：CSS Selector トリガーを使用した Slide メニュー</h2>
+
+<p>Slide メニューが CSS Selector トリガー（方法 2）を使用する場合、元のトリガー要素（例：テーマのハンバーガーボタン）は引き続き表示され、Navi+ が読み込まれてイベントをオーバーライドするまで<strong>機能し続けます</strong>（テーマのスライドパネルを開く）。</p>
+
+<h3 id="解決策-a元の要素を非表示にして代わりに-navi-アイテムをトリガーとして使用">解決策 A：元の要素を非表示にして、代わりに Navi+ アイテムをトリガーとして使用</h3>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* テーマのハンバーガーボタンを非表示 */</span>
+<span class="nf">#Details-menu-drawer-container</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">none</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>次に、方法 2 の代わりに<strong>方法 1</strong>（Navi+ アイテムから開く）を使用 — よりクリーンで、フラッシュの心配がありません。</p>
+
+<h3 id="解決策-b元の要素をフェードアウト">解決策 B：元の要素をフェードアウト</h3>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#Details-menu-drawer-container</span> <span class="p">{</span>
+  <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">pointer-events</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">transition</span><span class="p">:</span> <span class="nf">opacity</span> <span class="m">0.2s</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>JS を追加：Navi+ が準備できたとき（<code class="language-plaintext highlighter-rouge">naviReady</code> イベント）に、非表示スタイルを削除して元の要素の表示を復元します。</p>
+
+<hr />
+
+<h2 id="一般的なスピードに関する注意事項">一般的なスピードに関する注意事項</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">start.js</code> は <code class="language-plaintext highlighter-rouge">async</code> で読み込まれ — ページレンダリングをブロックしません。</li>
+  <li>メニューの JSON 設定は Cloudflare CDN にキャッシュされ — 最寄りのエッジノードから高速読み込み。</li>
+  <li>訪問者へのサーバーサイドレンダリングなし — すべてのメニューレンダリングは静的 JSON からのクライアントサイド。</li>
+</ul>
+
+<p>最大速度のためにスクリプトをプリロード：</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"preload"</span> <span class="na">href=</span><span class="s">"https://live.naviplus.app/start.js"</span> <span class="na">as=</span><span class="s">"script"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+                  
+ 
+          </div>
+
+          <!-- Table of Contents (Right sidebar) -->
+          <aside id="tableOfContents" class="d-none">
+            <div class="toc-title">ON THIS PAGE</div>
+          </aside>
+        </main>
+      </div>
+    </div>
+    <div class="article-actions">
+  <div class="article-actions-inner">
+    <button class="action-btn" onclick="window.print()" title="Print page">
+      <i class="ri-printer-line"></i>
+    </button>
+    <button class="action-btn" id="addFavoriteBtn" title="Add to Favorites">
+      <i class="ri-flag-line"></i>
+    </button>
+    <button class="action-btn" id="exportPdfBtn" title="Export to PDF">
+      <i class="ri-file-pdf-line"></i>
+    </button>
+    <a class="action-btn" id="emailSupportBtn" title="Email support">
+      <i class="ri-mail-line"></i>
+    </a>
+    <button class="action-btn" id="sharePageBtn" title="Share page">
+      <i class="ri-share-line"></i>
+    </button>
+  </div>
+</div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/theme/assets/js/sidebar.js"></script>
+    <script src="/theme/assets/js/navbar-links.js"></script>
+    <!-- New: Include navbar-links.js -->
+    <script src="/theme/assets/js/search.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (typeof navbarLinks === "undefined") return;
+
+        const chevronSVG = `<svg class="np-help-chevron" viewBox="0 0 16 16" fill="none">
+          <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>`;
+
+        function buildDropdownItem(linkData) {
+          if (linkData.divider) {
+            const d = document.createElement("div");
+            d.className = "np-help-dropdown-divider";
+            return d;
+          }
+          const a = document.createElement("a");
+          a.className = "np-help-dropdown-item";
+          a.href = linkData.url || "#";
+          if (linkData.target) { a.target = linkData.target; a.rel = "noopener noreferrer"; }
+          if (linkData.active) a.classList.add("active");
+          if (linkData.icon) {
+            const i = document.createElement("i");
+            i.className = linkData.icon;
+            if (linkData.iconColor) i.style.color = linkData.iconColor;
+            a.appendChild(i);
+          }
+          const span = document.createElement("span");
+          span.textContent = linkData.title;
+          a.appendChild(span);
+          return a;
+        }
+
+        function buildMegaItem(child) {
+          const a = document.createElement("a");
+          a.className = "np-help-mega-item";
+          a.href = child.url || "#";
+          if (child.target) { a.target = child.target; a.rel = "noopener noreferrer"; }
+          const iconDiv = document.createElement("div");
+          iconDiv.className = "np-help-mega-icon";
+          const i = document.createElement("i");
+          i.className = child.icon || "";
+          iconDiv.appendChild(i);
+          const textDiv = document.createElement("div");
+          textDiv.className = "np-help-mega-text";
+          const titleDiv = document.createElement("div");
+          titleDiv.className = "np-help-mega-title";
+          titleDiv.textContent = child.title;
+          const descDiv = document.createElement("div");
+          descDiv.className = "np-help-mega-desc";
+          descDiv.textContent = child.desc || "";
+          textDiv.appendChild(titleDiv);
+          textDiv.appendChild(descDiv);
+          a.appendChild(iconDiv);
+          a.appendChild(textDiv);
+          return a;
+        }
+
+        function buildTopItem(linkData) {
+          const li = document.createElement("li");
+          li.className = "np-help-nav-item";
+
+          if (linkData.mega && linkData.children && linkData.children.length > 0) {
+            const trigger = document.createElement("span");
+            trigger.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            trigger.innerHTML = linkData.title + chevronSVG;
+            li.appendChild(trigger);
+
+            const mega = document.createElement("div");
+            mega.className = "np-help-mega";
+            if (linkData.megaWidth) mega.style.width = linkData.megaWidth + "px";
+            const inner = document.createElement("div");
+            inner.className = "np-help-mega-inner";
+            if (linkData.megaHeader) {
+              const hdr = document.createElement("div");
+              hdr.className = "np-help-mega-header";
+              hdr.textContent = linkData.megaHeader;
+              inner.appendChild(hdr);
+            }
+            const grid = document.createElement("div");
+            grid.className = "np-help-mega-grid";
+            linkData.children.forEach((child) => grid.appendChild(buildMegaItem(child)));
+            inner.appendChild(grid);
+            mega.appendChild(inner);
+            li.appendChild(mega);
+          } else if (linkData.dropdown && linkData.children && linkData.children.length > 0) {
+            const trigger = document.createElement("span");
+            trigger.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            trigger.innerHTML = linkData.title + chevronSVG;
+            li.appendChild(trigger);
+
+            const drop = document.createElement("div");
+            drop.className = "np-help-dropdown";
+            const inner = document.createElement("div");
+            inner.className = "np-help-dropdown-inner";
+            linkData.children.forEach((child) => inner.appendChild(buildDropdownItem(child)));
+            drop.appendChild(inner);
+            li.appendChild(drop);
+          } else {
+            const a = document.createElement("a");
+            a.className = "np-help-nav-link" + (linkData.activePage ? " active" : "");
+            a.href = linkData.url || "#";
+            a.textContent = linkData.title;
+            if (linkData.target) { a.target = linkData.target; a.rel = "noopener noreferrer"; }
+            li.appendChild(a);
+          }
+          return li;
+        }
+
+        // Desktop nav
+        const desktopNav = document.getElementById("main-navbar-nav-links");
+        if (desktopNav) {
+          navbarLinks.forEach((link) => desktopNav.appendChild(buildTopItem(link)));
+        }
+
+        // Mobile nav (duplicate)
+        const mobileNav = document.getElementById("main-navbar-nav-links-mobile");
+        if (mobileNav) {
+          navbarLinks.forEach((link) => mobileNav.appendChild(buildTopItem(link)));
+        }
+
+        // Language switcher → inject into .np-help-right (before search)
+        if (typeof navbarLanguage !== "undefined") {
+          const search = document.querySelector(".np-help-search");
+          const langLi = buildTopItem(navbarLanguage);
+          langLi.className = "np-help-nav-item np-help-lang-item";
+          const right = document.querySelector(".np-help-right");
+          if (right && search) right.insertBefore(langLi, search);
+        }
+
+        // CTA → inject into .np-help-right
+        const right = document.querySelector(".np-help-right");
+        if (right) {
+          // "See demo" ghost button
+          if (typeof navbarCTADemo !== "undefined") {
+            const ghost = document.createElement("a");
+            ghost.className = "np-help-cta-ghost";
+            ghost.href = navbarCTADemo.url;
+            ghost.innerHTML = '<i class="ri-slideshow-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTADemo.text + '</span>';
+            if (navbarCTADemo.target) { ghost.target = navbarCTADemo.target; ghost.rel = "noopener noreferrer"; }
+            right.appendChild(ghost);
+          }
+          // "Get started" / "Dashboard" primary button
+          if (typeof navbarCTA !== "undefined") {
+            const isLoggedIn = sessionStorage.getItem("navi_isGlobalLogging") === "1";
+            const cta = document.createElement("a");
+            cta.className = "np-help-cta";
+            if (isLoggedIn) {
+              cta.href = "https://app.naviplus.io/";
+              cta.innerHTML = '<i class="ri-layout-grid-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">Dashboard</span>';
+            } else {
+              cta.href = navbarCTA.url;
+              cta.innerHTML = '<i class="ri-rocket-2-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTA.text + '</span>';
+            }
+            if (navbarCTA.target) { cta.target = navbarCTA.target; cta.rel = "noopener noreferrer"; }
+            right.appendChild(cta);
+          }
+        }
+      });
+    </script>
+    <script src="/theme/assets/js/lightbox.js"></script>
+    <script src="/theme/assets/js/article-actions.js"></script>
+    <script src="/theme/assets/js/favorites.js"></script>
+    <script src="/theme/assets/js/image-placeholder.js"></script>
+    <script src="/theme/assets/js/table-of-contents.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Decode double-encoded HTML entities from Jekyll (e.g. &amp;lt; → &lt;)
+        document.querySelectorAll("pre code").forEach(function (el) {
+          el.innerHTML = el.innerHTML
+            .replace(/&amp;lt;/g, "&lt;")
+            .replace(/&amp;gt;/g, "&gt;")
+            .replace(/&amp;amp;/g, "&amp;")
+            .replace(/&amp;#x26;/g, "&#x26;");
+        });
+        hljs.highlightAll();
+      });
+    </script>
+    <footer><p>
+  © 2026 by Navi+
+  <a href="https://naviplus.io" target="_blank"> Navi+</a>
+</p>
+</footer>
+  </body>
+</html>
