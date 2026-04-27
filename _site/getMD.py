@@ -19,7 +19,6 @@ NAVBAR_HTML_PATH = "_includes/navbar.html"
 DEFAULT_LAYOUT_HTML_PATH = "_layouts/default.html"
 
 LANGUAGE_PREFIX_DIRS = {"vi", "jp", "fr", "de", "zh-cn", "it", "pt-br", "es"}
-LOCAL_SOURCE_DIR = os.environ.get("SOURCE_MD_DIR", "")
 
 # --- Utility Functions ---
 def clean_directory(path):
@@ -76,31 +75,15 @@ def clear_old_data():
     clean_directory(TEMP_CONTENT_DIR)
     print("Old data cleared.")
 
-def source_path_for_url(url):
-    parsed_url = urlparse(url)
-    if parsed_url.path == "/manual/website/help.naviplus.io.md":
-        return os.path.join(LOCAL_SOURCE_DIR, "help.naviplus.io.md") if LOCAL_SOURCE_DIR else None
-    if SOURCE_BASE_PATH_IN_URL in parsed_url.path:
-        relative_path = parsed_url.path.split(SOURCE_BASE_PATH_IN_URL, 1)[1]
-        return os.path.join(LOCAL_SOURCE_DIR, relative_path) if LOCAL_SOURCE_DIR else None
-    return None
-
-
 def download_markdown_content(url):
-    """Downloads a Markdown file from the provided URL or reads local source when configured."""
-    local_source_path = source_path_for_url(url)
-    if local_source_path and os.path.exists(local_source_path):
-        print(f"Reading Markdown content from: {local_source_path}...")
-        with open(local_source_path, 'r', encoding='utf-8') as f:
-            return f.read()
-
+    """Downloads a Markdown file from the provided URL and returns its content."""
     print(f"Downloading Markdown content from: {url}...")
     # Construct local path from the URL, but ensure it's within TEMP_CONTENT_DIR
     # Use the full path components from the URL after the domain to preserve structure
     parsed_url = urlparse(url)
     relative_path_from_domain = parsed_url.path.lstrip('/')
     local_path = os.path.join(TEMP_CONTENT_DIR, relative_path_from_domain)
-
+    
     if download_file(url, local_path):
         with open(local_path, 'r', encoding='utf-8') as f:
             return f.read()
@@ -330,23 +313,17 @@ def process_md_include_tags(markdown_content):
         print(f"  -> Processing include: {url}")
         
         try:
-            included_content = download_markdown_content(url)
-            if included_content is None:
-                raise requests.exceptions.RequestException(f"Could not load {url}")
-
+            # Download content from URL
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            included_content = response.text
+            
             # Remove front matter if present (lines between ---)
             if included_content.startswith('---'):
                 parts = included_content.split('---', 2)
                 if len(parts) >= 3:
                     included_content = parts[2].lstrip('\n')
             
-            included_content = re.sub(
-                r'\n*---\n+# Agent Instructions:.*',
-                '\n',
-                included_content,
-                flags=re.DOTALL
-            )
-
             # Remove the first H1 heading if present (to avoid duplicate with main page title)
             # Match H1 at the start of content (with optional leading whitespace)
             # Handles both "# Title" and "#Title" formats
