@@ -134,6 +134,60 @@
   title: Menu Items
   url: /docs/menu-items/
 - children:
+  - processed_path: design/design-overview
+    title: Tổng Quan Thiết Kế — Hệ Thống Kế Thừa
+    url: /docs/design/design-overview/
+  - processed_path: design/design-level1
+    title: Thiết Kế Cấp độ 1 — Các Mục Menu Chính
+    url: /docs/design/design-level1/
+  - processed_path: design/design-level2
+    title: Thiết Kế Cấp độ 2-3 — Các Mục Trình Đơn Phụ
+    url: /docs/design/design-level2/
+  - processed_path: design/design-divider
+    title: Dấu Phân Cách Thiết Kế — Đường Phân Tách
+    url: /docs/design/design-divider/
+  processed_path: design
+  title: Thiết Kế
+  url: /docs/design/
+- children:
+  - processed_path: setting/setting-behavior
+    title: Cài Đặt Hành Động — Hoạt Ảnh & Tương Tác
+    url: /docs/setting/setting-behavior/
+  - processed_path: setting/setting-layout
+    title: Cài Đặt Bố Cục — Vị Trí & Kích Thước
+    url: /docs/setting/setting-layout/
+  - processed_path: setting/setting-display-rules
+    title: Quy Tắc Hiển Thị Cài Đặt — Khả Năng Hiển Thị Có Điều Kiện
+    url: /docs/setting/setting-display-rules/
+  - processed_path: setting/setting-slide
+    title: Cài Đặt Slide — Tùy Chọn Menu Slide
+    url: /docs/setting/setting-slide/
+  processed_path: setting
+  title: Cài Đặt
+  url: /docs/setting/
+- children:
+  - processed_path: publish/publish-overview
+    title: Tổng Quan Publish — Loại Menu & Phương Thức Triển Khai
+    url: /vi/docs/publish/publish-overview/
+  - processed_path: publish/publish-sticky
+    title: Publish Sticky — Tabbar & FAB
+    url: /vi/docs/publish/publish-sticky/
+  - processed_path: publish/publish-slide
+    title: Publish Slide — Context Slide Menu
+    url: /vi/docs/publish/publish-slide/
+  - processed_path: publish/publish-section
+    title: Publish Section — Mega Menu & Grid
+    url: /vi/docs/publish/publish-section/
+  - processed_path: publish/publish-filter
+    title: Publish Filter — Thiết Bị & URL
+    url: /vi/docs/publish/publish-filter/
+  - processed_path: publish/publish-optimize
+    title: Publish Optimize — Tốc Độ & UX
+    url: /vi/docs/publish/publish-optimize/
+  processed_path: publish
+  title: Publish
+  url: /vi/docs/publish/
+- children:
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: Cách viết CSS trong Navi+
     url: /docs/development/how-to-write-a-correct-css-code-in-navi/

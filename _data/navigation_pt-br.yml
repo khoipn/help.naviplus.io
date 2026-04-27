@@ -195,6 +195,60 @@
   title: Itens de menu
   url: /docs/menu-items/
 - children:
+  - processed_path: design/design-overview
+    title: Visão Geral do Design — Sistema de Herança
+    url: /docs/design/design-overview/
+  - processed_path: design/design-level1
+    title: Design Nível 1 — Itens do Menu Principal
+    url: /docs/design/design-level1/
+  - processed_path: design/design-level2
+    title: Design Nível 2-3 — Itens de Submenu
+    url: /docs/design/design-level2/
+  - processed_path: design/design-divider
+    title: Design Divisor — Linhas Separadoras
+    url: /docs/design/design-divider/
+  processed_path: design
+  title: Design
+  url: /docs/design/
+- children:
+  - processed_path: setting/setting-behavior
+    title: Setting Behavior — Animação e Interação
+    url: /docs/setting/setting-behavior/
+  - processed_path: setting/setting-layout
+    title: Setting Layout — Posição e Tamanho
+    url: /docs/setting/setting-layout/
+  - processed_path: setting/setting-display-rules
+    title: Setting Display Rules — Visibilidade Condicional
+    url: /docs/setting/setting-display-rules/
+  - processed_path: setting/setting-slide
+    title: Setting Slide — Opções do Menu Slide
+    url: /docs/setting/setting-slide/
+  processed_path: setting
+  title: Setting
+  url: /docs/setting/
+- children:
+  - processed_path: publish/publish-overview
+    title: Visão Geral de Publicação — Tipos de Menu e Métodos
+    url: /docs/publish/publish-overview/
+  - processed_path: publish/publish-sticky
+    title: Publicar Sticky — Tabbar e FAB
+    url: /docs/publish/publish-sticky/
+  - processed_path: publish/publish-slide
+    title: Publicar Slide — Menu Slide Contextual
+    url: /docs/publish/publish-slide/
+  - processed_path: publish/publish-section
+    title: Publicar Section — Mega Menu e Grid
+    url: /docs/publish/publish-section/
+  - processed_path: publish/publish-filter
+    title: Filtro de Publicação — Dispositivo e URL
+    url: /docs/publish/publish-filter/
+  - processed_path: publish/publish-optimize
+    title: Otimizar Publicação — Velocidade e UX
+    url: /docs/publish/publish-optimize/
+  processed_path: publish
+  title: Publicar
+  url: /docs/publish/
+- children:
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: Integrando Navi+ com seu site e aplicativos externos
     url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/

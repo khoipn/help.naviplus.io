@@ -195,6 +195,60 @@
   title: メニューアイテム
   url: /docs/menu-items/
 - children:
+  - processed_path: design/design-overview
+    title: デザイン概要 — 継承システム
+    url: /docs/design/design-overview/
+  - processed_path: design/design-level1
+    title: デザインレベル 1 — メインメニュー項目
+    url: /docs/design/design-level1/
+  - processed_path: design/design-level2
+    title: デザインレベル 2-3 — サブメニュー項目
+    url: /docs/design/design-level2/
+  - processed_path: design/design-divider
+    title: デザイン区切り — 区切り線
+    url: /docs/design/design-divider/
+  processed_path: design
+  title: デザイン
+  url: /docs/design/
+- children:
+  - processed_path: setting/setting-behavior
+    title: 設定動作 — アニメーション＆インタラクション
+    url: /docs/setting/setting-behavior/
+  - processed_path: setting/setting-layout
+    title: 設定レイアウト — 位置＆サイズ
+    url: /docs/setting/setting-layout/
+  - processed_path: setting/setting-display-rules
+    title: 設定表示ルール — 条件付き可視性
+    url: /docs/setting/setting-display-rules/
+  - processed_path: setting/setting-slide
+    title: 設定スライド — スライドメニューオプション
+    url: /docs/setting/setting-slide/
+  processed_path: setting
+  title: 設定
+  url: /docs/setting/
+- children:
+  - processed_path: publish/publish-overview
+    title: 公開概要 — メニュータイプとデプロイ方法
+    url: /jp/docs/publish/publish-overview/
+  - processed_path: publish/publish-sticky
+    title: 公開 Sticky — Tabbar と FAB
+    url: /jp/docs/publish/publish-sticky/
+  - processed_path: publish/publish-slide
+    title: 公開 Slide — Context Slide メニュー
+    url: /jp/docs/publish/publish-slide/
+  - processed_path: publish/publish-section
+    title: 公開 Section — Mega メニューと Grid
+    url: /jp/docs/publish/publish-section/
+  - processed_path: publish/publish-filter
+    title: 公開フィルター — デバイスと URL
+    url: /jp/docs/publish/publish-filter/
+  - processed_path: publish/publish-optimize
+    title: 公開最適化 — 速度と UX
+    url: /jp/docs/publish/publish-optimize/
+  processed_path: publish
+  title: 公開
+  url: /jp/docs/publish/
+- children:
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: Navi+をあなたのウェブサイトや外部アプリと統合する
     url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/

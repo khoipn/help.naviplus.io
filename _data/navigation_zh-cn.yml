@@ -195,6 +195,60 @@
   title: 菜单项
   url: /docs/menu-items/
 - children:
+  - processed_path: design/design-overview
+    title: 设计概述 — 继承系统
+    url: /docs/design/design-overview/
+  - processed_path: design/design-level1
+    title: 设计第1级 — 主菜单项
+    url: /docs/design/design-level1/
+  - processed_path: design/design-level2
+    title: 设计第2-3级 — 子菜单项
+    url: /docs/design/design-level2/
+  - processed_path: design/design-divider
+    title: 设计分隔符 — 分隔线
+    url: /docs/design/design-divider/
+  processed_path: design
+  title: 设计
+  url: /docs/design/
+- children:
+  - processed_path: setting/setting-behavior
+    title: 设置行为 — 动画和交互
+    url: /docs/setting/setting-behavior/
+  - processed_path: setting/setting-layout
+    title: 设置布局 — 位置和大小
+    url: /docs/setting/setting-layout/
+  - processed_path: setting/setting-display-rules
+    title: 设置显示规则 — 条件可见性
+    url: /docs/setting/setting-display-rules/
+  - processed_path: setting/setting-slide
+    title: 设置幻灯片 — 幻灯片菜单选项
+    url: /docs/setting/setting-slide/
+  processed_path: setting
+  title: 设置
+  url: /docs/setting/
+- children:
+  - processed_path: publish/publish-overview
+    title: 发布概述 — 菜单类型和部署方法
+    url: /docs/publish/publish-overview/
+  - processed_path: publish/publish-sticky
+    title: 发布 Sticky — Tabbar 和 FAB
+    url: /docs/publish/publish-sticky/
+  - processed_path: publish/publish-slide
+    title: 发布 Slide — Context Slide 菜单
+    url: /docs/publish/publish-slide/
+  - processed_path: publish/publish-section
+    title: 发布 Section — Mega 菜单和 Grid
+    url: /docs/publish/publish-section/
+  - processed_path: publish/publish-filter
+    title: 发布过滤器 — 设备和 URL
+    url: /docs/publish/publish-filter/
+  - processed_path: publish/publish-optimize
+    title: 发布优化 — 速度和 UX
+    url: /docs/publish/publish-optimize/
+  processed_path: publish
+  title: 发布
+  url: /docs/publish/
+- children:
   - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
     title: 将Navi+与您的网站和外部应用程序集成
     url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/

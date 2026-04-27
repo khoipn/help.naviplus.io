@@ -134,6 +134,60 @@
   title: Menu Items
   url: /docs/menu-items/
 - children:
+  - processed_path: design/design-overview
+    title: Design Overview
+    url: /docs/design/design-overview/
+  - processed_path: design/design-level1
+    title: Design Level 1 — Main Menu Items
+    url: /docs/design/design-level1/
+  - processed_path: design/design-level2
+    title: Design Level 2-3 — Submenu Items
+    url: /docs/design/design-level2/
+  - processed_path: design/design-divider
+    title: Design Divider — Separator Lines
+    url: /docs/design/design-divider/
+  processed_path: design
+  title: Design
+  url: /docs/design/
+- children:
+  - processed_path: setting/setting-behavior
+    title: Setting Behavior — Animation & Interaction
+    url: /docs/setting/setting-behavior/
+  - processed_path: setting/setting-layout
+    title: Setting Layout — Position & Size
+    url: /docs/setting/setting-layout/
+  - processed_path: setting/setting-display-rules
+    title: Setting Display Rules — Conditional Visibility
+    url: /docs/setting/setting-display-rules/
+  - processed_path: setting/setting-slide
+    title: Setting Slide — Slide Menu Options
+    url: /docs/setting/setting-slide/
+  processed_path: setting
+  title: Setting
+  url: /docs/setting/
+- children:
+  - processed_path: publish/publish-overview
+    title: Publish Overview — Menu Types & Deploy Methods
+    url: /docs/publish/publish-overview/
+  - processed_path: publish/publish-sticky
+    title: Publish Sticky — Tabbar & FAB
+    url: /docs/publish/publish-sticky/
+  - processed_path: publish/publish-slide
+    title: Publish Slide — Context Slide Menu
+    url: /docs/publish/publish-slide/
+  - processed_path: publish/publish-section
+    title: Publish Section — Mega Menu & Grid
+    url: /docs/publish/publish-section/
+  - processed_path: publish/publish-filter
+    title: Publish Filter — Device & URL Rules
+    url: /docs/publish/publish-filter/
+  - processed_path: publish/publish-optimize
+    title: Publish Optimize — Speed & UX
+    url: /docs/publish/publish-optimize/
+  processed_path: publish
+  title: Publish
+  url: /docs/publish/
+- children:
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
     title: How to write CSS in Navi+
     url: /docs/development/how-to-write-a-correct-css-code-in-navi/
