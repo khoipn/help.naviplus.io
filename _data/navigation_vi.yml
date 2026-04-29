@@ -135,35 +135,35 @@
   url: /docs/menu-items/
 - children:
   - processed_path: design/design-overview
-    title: Tổng Quan Thiết Kế — Hệ Thống Kế Thừa
+    title: Tổng quan thiết kế — Hệ thống kế thừa
     url: /docs/design/design-overview/
   - processed_path: design/design-level1
-    title: Thiết Kế Cấp độ 1 — Các Mục Menu Chính
+    title: Thiết kế cấp độ 1 — Các mục menu chính
     url: /docs/design/design-level1/
   - processed_path: design/design-level2
-    title: Thiết Kế Cấp độ 2-3 — Các Mục Trình Đơn Phụ
+    title: Thiết kế cấp độ 2-3 — Các mục trình đơn phụ
     url: /docs/design/design-level2/
   - processed_path: design/design-divider
-    title: Dấu Phân Cách Thiết Kế — Đường Phân Tách
+    title: Dấu phân cách thiết kế — Đường phân tách
     url: /docs/design/design-divider/
   processed_path: design
-  title: Thiết Kế
+  title: Thiết kế
   url: /docs/design/
 - children:
   - processed_path: setting/setting-behavior
-    title: Cài Đặt Hành Động — Hoạt Ảnh & Tương Tác
+    title: Cài đặt hành động — Hoạt ảnh & tương tác
     url: /docs/setting/setting-behavior/
   - processed_path: setting/setting-layout
-    title: Cài Đặt Bố Cục — Vị Trí & Kích Thước
+    title: Cài đặt bố cục — Vị trí & kích thước
     url: /docs/setting/setting-layout/
   - processed_path: setting/setting-display-rules
-    title: Quy Tắc Hiển Thị Cài Đặt — Khả Năng Hiển Thị Có Điều Kiện
+    title: Quy tắc hiển thị cài đặt — Khả năng hiển thị có điều kiện
     url: /docs/setting/setting-display-rules/
   - processed_path: setting/setting-slide
-    title: Cài Đặt Slide — Tùy Chọn Menu Slide
+    title: Cài đặt slide — Tùy chọn menu slide
     url: /docs/setting/setting-slide/
   processed_path: setting
-  title: Cài Đặt
+  title: Cài đặt
   url: /docs/setting/
 - children:
   - processed_path: publish/publish-overview

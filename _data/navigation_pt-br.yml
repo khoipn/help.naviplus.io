@@ -228,22 +228,22 @@
   url: /pt-br/docs/setting/
 - children:
   - processed_path: publish/publish-overview
-    title: Visão Geral de Publicação — Tipos de Menu e Métodos
+    title: Visão geral de publicação — Tipos de menu e métodos
     url: /pt-br/docs/publish/publish-overview/
   - processed_path: publish/publish-sticky
-    title: Publicar Sticky — Tabbar e FAB
+    title: Publicar sticky — Tabbar e FAB
     url: /pt-br/docs/publish/publish-sticky/
   - processed_path: publish/publish-slide
-    title: Publicar Slide — Menu Slide Contextual
+    title: Publicar slide — Menu slide contextual
     url: /pt-br/docs/publish/publish-slide/
   - processed_path: publish/publish-section
-    title: Publicar Section — Mega Menu e Grid
+    title: Publicar section — Mega menu e grid
     url: /pt-br/docs/publish/publish-section/
   - processed_path: publish/publish-filter
-    title: Filtro de Publicação — Dispositivo e URL
+    title: Filtro de publicação — Dispositivo e URL
     url: /pt-br/docs/publish/publish-filter/
   - processed_path: publish/publish-optimize
-    title: Otimizar Publicação — Velocidade e UX
+    title: Otimizar publicação — Velocidade e UX
     url: /pt-br/docs/publish/publish-optimize/
   processed_path: publish
   title: Publicar
