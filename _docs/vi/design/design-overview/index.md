@@ -2,7 +2,7 @@
 description: Hiểu hệ thống kế thừa style 3 lớp trong Navi+ — cách style lan xuống từ Level 1 sang Level 2-3 và cách ghi đè per-item.
 layout: default
 permalink: /vi/docs/design/design-overview/
-title: Tổng quan Design — Kế thừa & Ghi đè
+title: Tổng quan design — Kế thừa & ghi đè
 ---
 # Tổng quan Design — Kế thừa & Ghi đè
 

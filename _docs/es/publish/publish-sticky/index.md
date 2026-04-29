@@ -2,7 +2,7 @@
 description: Publica menús Sticky (Tabbar, Mobile Header, FAB) en Navi+ — usando App Embeds para Shopify o inyección de script para sitios Global.
 layout: default
 permalink: /es/docs/publish/publish-sticky/
-title: Publish Sticky — Tabbar & FAB
+title: Publish sticky — Tabbar & FAB
 ---
 # Publish Sticky — Tabbar & FAB
 

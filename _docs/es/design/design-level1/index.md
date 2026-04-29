@@ -2,7 +2,7 @@
 description: Configura la apariencia de todos los elementos del menú principal — color de texto, iconos, espaciado, fondos y opciones de visualización en Diseño Nivel 1.
 layout: default
 permalink: /es/docs/design/design-level1/
-title: Diseño Nivel 1 — Elementos del menú principal
+title: Diseño nivel 1 — Elementos del menú principal
 ---
 # Diseño Nivel 1 — Elementos del menú principal
 

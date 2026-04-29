@@ -199,13 +199,13 @@
     title: Aperçu de la conception — Système d'héritage
     url: /fr/docs/design/design-overview/
   - processed_path: design/design-level1
-    title: Conception Niveau 1 — Éléments de menu principal
+    title: Conception niveau 1 — Éléments de menu principal
     url: /fr/docs/design/design-level1/
   - processed_path: design/design-level2
-    title: Conception Niveau 2-3 — Éléments de sous-menu
+    title: Conception niveau 2-3 — Éléments de sous-menu
     url: /fr/docs/design/design-level2/
   - processed_path: design/design-divider
-    title: Conception Séparateur — Lignes de séparation
+    title: Conception séparateur — Lignes de séparation
     url: /fr/docs/design/design-divider/
   processed_path: design
   title: Conception

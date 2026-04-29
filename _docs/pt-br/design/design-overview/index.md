@@ -2,7 +2,7 @@
 description: Entenda o sistema de herança de estilo de três camadas do Navi+ — como os estilos cascadeiam do Nível 1 para o Nível 2-3 e as substituições por item.
 layout: default
 permalink: /pt-br/docs/design/design-overview/
-title: Visão Geral do Design — Herança e Substituição
+title: Visão geral do design — Herança e substituição
 ---
 # Visão Geral do Design — Herança e Substituição
 

@@ -2,7 +2,7 @@
 description: Tổng quan loại menu Navi+ và phương thức deploy tương ứng — Sticky, Slide và Section menu.
 layout: default
 permalink: /vi/docs/publish/publish-overview/
-title: Tổng quan Publish — Loại menu & Phương thức deploy
+title: Tổng quan publish — Loại menu & phương thức deploy
 ---
 # Tổng quan Publish — Loại menu & Phương thức deploy
 

@@ -135,54 +135,54 @@
   url: /docs/menu-items/
 - children:
   - processed_path: design/design-overview
-    title: Design Overview
+    title: Design overview
     url: /docs/design/design-overview/
   - processed_path: design/design-level1
-    title: Design Level 1 — Main Menu Items
+    title: Design level 1 — Main menu items
     url: /docs/design/design-level1/
   - processed_path: design/design-level2
-    title: Design Level 2-3 — Submenu Items
+    title: Design level 2-3 — Submenu items
     url: /docs/design/design-level2/
   - processed_path: design/design-divider
-    title: Design Divider — Separator Lines
+    title: Design divider — Separator lines
     url: /docs/design/design-divider/
   processed_path: design
   title: Design
   url: /docs/design/
 - children:
   - processed_path: setting/setting-behavior
-    title: Setting Behavior — Animation & Interaction
+    title: Setting behavior — Animation & interaction
     url: /docs/setting/setting-behavior/
   - processed_path: setting/setting-layout
-    title: Setting Layout — Position & Size
+    title: Setting layout — Position & size
     url: /docs/setting/setting-layout/
   - processed_path: setting/setting-display-rules
-    title: Setting Display Rules — Conditional Visibility
+    title: Setting display rules — Conditional visibility
     url: /docs/setting/setting-display-rules/
   - processed_path: setting/setting-slide
-    title: Setting Slide — Slide Menu Options
+    title: Setting slide — Slide menu options
     url: /docs/setting/setting-slide/
   processed_path: setting
   title: Setting
   url: /docs/setting/
 - children:
   - processed_path: publish/publish-overview
-    title: Publish Overview — Menu Types & Deploy Methods
+    title: Publish overview — Menu types & deploy methods
     url: /docs/publish/publish-overview/
   - processed_path: publish/publish-sticky
-    title: Publish Sticky — Tabbar & FAB
+    title: Publish sticky — Tabbar & FAB
     url: /docs/publish/publish-sticky/
   - processed_path: publish/publish-slide
-    title: Publish Slide — Context Slide Menu
+    title: Publish slide — Context slide menu
     url: /docs/publish/publish-slide/
   - processed_path: publish/publish-section
-    title: Publish Section — Mega Menu & Grid
+    title: Publish section — Mega menu & grid
     url: /docs/publish/publish-section/
   - processed_path: publish/publish-filter
-    title: Publish Filter — Device & URL Rules
+    title: Publish filter — Device & URL rules
     url: /docs/publish/publish-filter/
   - processed_path: publish/publish-optimize
-    title: Publish Optimize — Speed & UX
+    title: Publish optimize — Speed & UX
     url: /docs/publish/publish-optimize/
   processed_path: publish
   title: Publish

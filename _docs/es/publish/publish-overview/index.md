@@ -2,7 +2,7 @@
 description: Descripción general de los tipos de menú Navi+ y sus métodos de implementación correspondientes — menús Sticky, Slide y Section.
 layout: default
 permalink: /es/docs/publish/publish-overview/
-title: Publish Overview — Tipos de Menú y Métodos de Implementación
+title: Publish overview — Tipos de menú y métodos de implementación
 ---
 # Publish Overview — Tipos de Menú y Métodos de Implementación
 

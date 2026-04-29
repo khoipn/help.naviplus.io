@@ -2,7 +2,7 @@
 description: Control which pages and devices your Navi+ menu appears on — using device toggles, URL keyword rules, and Shopify page type filters.
 layout: default
 permalink: /docs/setting/setting-display-rules/
-title: Setting Display Rules — Conditional Visibility
+title: Setting display rules — Conditional visibility
 ---
 # Setting Display Rules — Conditional Visibility
 

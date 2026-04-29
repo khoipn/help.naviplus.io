@@ -2,7 +2,7 @@
 description: Filter Navi+ menu visibility by device, scroll behavior, Shopify page types, and URL keywords.
 layout: default
 permalink: /docs/publish/publish-filter/
-title: Publish Filter — Device & URL Rules
+title: Publish filter — Device & URL rules
 ---
 # Publish Filter — Device & URL Rules
 

@@ -2,7 +2,7 @@
 description: Publiez des menus Section (Mega Menu, Grid) dans Navi+ — Insérer/Remplacer avec CSS Selector ou App Block sur Shopify.
 layout: default
 permalink: /fr/docs/publish/publish-section/
-title: Publish Section — Mega Menu & Grid
+title: Publish section — Mega menu & grid
 ---
 # Publish Section — Mega Menu & Grid
 

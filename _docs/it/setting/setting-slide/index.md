@@ -2,7 +2,7 @@
 description: Configura la direzione del menu slide, la larghezza, il pulsante di chiusura e il comportamento del sottomenu desktop in Navi+.
 layout: default
 permalink: /it/docs/setting/setting-slide/
-title: Setting Slide — Opzioni Menu Slide
+title: Setting slide — Opzioni menu slide
 ---
 # Setting Slide — Opzioni Menu Slide
 

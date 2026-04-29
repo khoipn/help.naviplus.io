@@ -2,7 +2,7 @@
 description: Panoramica dei tipi di menu Navi+ e dei loro metodi di distribuzione corrispondenti — menu Sticky, Slide e Section.
 layout: default
 permalink: /it/docs/publish/publish-overview/
-title: Publish Overview — Tipi di Menu & Metodi di Distribuzione
+title: Publish overview — Tipi di menu & metodi di distribuzione
 ---
 # Publish Overview — Tipi di Menu & Metodi di Distribuzione
 

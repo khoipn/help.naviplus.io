@@ -2,7 +2,7 @@
 description: Configure velocidade de animação, estilo, efeitos de expansão, feedback tátil e estilo de seta no Navi+.
 layout: default
 permalink: /pt-br/docs/setting/setting-behavior/
-title: Setting Behavior — Animação e Interação
+title: Setting behavior — Animação e interação
 ---
 # Setting Behavior — Animação e Interação
 

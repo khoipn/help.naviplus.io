@@ -2,7 +2,7 @@
 description: Configure the appearance of all primary menu items in Navi+ — text, icons, spacing, backgrounds, and display options at Design Level 1.
 layout: default
 permalink: /docs/design/design-level1/
-title: Design Level 1 — Main Menu Items
+title: Design level 1 — Main menu items
 ---
 # Design Level 1 — Main Menu Items
 

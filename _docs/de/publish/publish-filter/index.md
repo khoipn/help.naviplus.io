@@ -2,7 +2,7 @@
 description: Navi+ Menüsichtbarkeit nach Gerät, Scroll-Verhalten, Shopify-Seitentypen und URL-Schlüsselwörtern filtern.
 layout: default
 permalink: /de/docs/publish/publish-filter/
-title: Publish Filter — Geräte- & URL-Regeln
+title: Publish filter — Geräte- & URL-Regeln
 ---
 # Publish Filter — Geräte- & URL-Regeln
 

@@ -2,7 +2,7 @@
 description: Controlla quali pagine e dispositivi mostrano il menu Navi+ — interruttori dispositivo, regole di parole chiave URL, filtri per tipo di pagina Shopify.
 layout: default
 permalink: /it/docs/setting/setting-display-rules/
-title: Setting Display Rules — Visibilità Condizionale
+title: Setting display rules — Visibilità condizionale
 ---
 # Setting Display Rules — Visibilità Condizionale
 

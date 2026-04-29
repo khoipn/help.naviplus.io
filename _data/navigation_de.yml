@@ -228,22 +228,22 @@
   url: /de/docs/setting/
 - children:
   - processed_path: publish/publish-overview
-    title: Publish Übersicht — Menütypen & Bereitstellungsmethoden
+    title: Publish übersicht — Menütypen & Bereitstellungsmethoden
     url: /de/docs/publish/publish-overview/
   - processed_path: publish/publish-sticky
-    title: Publish Sticky — Tabbar & FAB
+    title: Publish sticky — Tabbar & FAB
     url: /de/docs/publish/publish-sticky/
   - processed_path: publish/publish-slide
-    title: Publish Slide — Context Slide Menu
+    title: Publish slide — Context slide menu
     url: /de/docs/publish/publish-slide/
   - processed_path: publish/publish-section
-    title: Publish Section — Mega Menü & Grid
+    title: Publish section — Mega menü & grid
     url: /de/docs/publish/publish-section/
   - processed_path: publish/publish-filter
-    title: Publish Filter — Gerät & URL
+    title: Publish filter — Gerät & URL
     url: /de/docs/publish/publish-filter/
   - processed_path: publish/publish-optimize
-    title: Publish Optimieren — Geschwindigkeit & UX
+    title: Publish optimieren — Geschwindigkeit & UX
     url: /de/docs/publish/publish-optimize/
   processed_path: publish
   title: Publish

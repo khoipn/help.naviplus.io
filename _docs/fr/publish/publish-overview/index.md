@@ -2,7 +2,7 @@
 description: Vue d'ensemble des types de menus Navi+ et leurs méthodes de déploiement correspondantes — menus Sticky, Slide et Section.
 layout: default
 permalink: /fr/docs/publish/publish-overview/
-title: Publish Overview — Types de Menus & Méthodes de Déploiement
+title: Publish overview — Types de menus & méthodes de déploiement
 ---
 # Publish Overview — Types de Menus & Méthodes de Déploiement
 

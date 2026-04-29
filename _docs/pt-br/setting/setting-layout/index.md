@@ -2,7 +2,7 @@
 description: Configure posição, padding, margem, z-index e largura de submenu do menu no Navi+.
 layout: default
 permalink: /pt-br/docs/setting/setting-layout/
-title: Setting Layout — Posição e Espaçamento
+title: Setting layout — Posição e espaçamento
 ---
 # Setting Layout — Posição e Espaçamento
 

@@ -2,7 +2,7 @@
 description: Configurez le style de ligne de séparation par défaut dans les menus Navi+ — couleur, épaisseur, type et largeur.
 layout: default
 permalink: /fr/docs/design/design-divider/
-title: Conception Séparateur — Lignes de séparation
+title: Conception séparateur — Lignes de séparation
 ---
 # Conception Séparateur — Lignes de séparation
 

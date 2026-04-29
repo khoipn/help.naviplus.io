@@ -2,7 +2,7 @@
 description: Slide (Context)-Menüs in Navi+ veröffentlichen — Schalter aktivieren, dann einen Trigger zum Öffnen des Menüs konfigurieren.
 layout: default
 permalink: /de/docs/publish/publish-slide/
-title: Publish Slide — Context Slide Menü
+title: Publish slide — Context slide Menü
 ---
 # Publish Slide — Context Slide Menü
 

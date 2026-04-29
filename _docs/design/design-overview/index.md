@@ -2,7 +2,7 @@
 description: Understand the three-level design inheritance system in Navi+ — how styles cascade from Level 1 to Level 2-3 to per-item overrides.
 layout: default
 permalink: /docs/design/design-overview/
-title: Design Overview — Inheritance & Override
+title: Design overview — Inheritance & override
 ---
 # Design Overview — Inheritance & Override
 

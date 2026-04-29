@@ -2,7 +2,7 @@
 description: Configure animation speed, animation style, expand effects, touch feedback, and arrow style in Navi+ menus.
 layout: default
 permalink: /docs/setting/setting-behavior/
-title: Setting Behavior — Animation & Interaction
+title: Setting behavior — Animation & interaction
 ---
 # Setting Behavior — Animation & Interaction
 

@@ -2,7 +2,7 @@
 description: Configura la velocità di animazione, lo stile, gli effetti di espansione, il feedback tattile e lo stile delle frecce in Navi+.
 layout: default
 permalink: /it/docs/setting/setting-behavior/
-title: Setting Behavior — Animazione e Interazione
+title: Setting behavior — Animazione e interazione
 ---
 # Setting Behavior — Animazione e Interazione
 

@@ -2,7 +2,7 @@
 description: Configurez l'apparence de tous les éléments de menu principal — couleur du texte, icônes, espacement, arrière-plans et options d'affichage au Niveau 1 de conception.
 layout: default
 permalink: /fr/docs/design/design-level1/
-title: Conception Niveau 1 — Éléments de menu principal
+title: Conception niveau 1 — Éléments de menu principal
 ---
 # Conception Niveau 1 — Éléments de menu principal
 

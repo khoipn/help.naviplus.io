@@ -2,7 +2,7 @@
 description: Configura la apariencia de submenús con herencia automática del Nivel 1 para todos los campos vacíos.
 layout: default
 permalink: /es/docs/design/design-level2/
-title: Diseño Nivel 2-3 — Elementos de submenú
+title: Diseño nivel 2-3 — Elementos de submenú
 ---
 # Diseño Nivel 2-3 — Elementos de submenú
 

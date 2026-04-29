@@ -2,7 +2,7 @@
 description: Configura el estilo predeterminado de líneas divisoras en menús Navi+ — color, grosor, tipo y ancho.
 layout: default
 permalink: /es/docs/design/design-divider/
-title: Diseño Divisor — Líneas separadoras
+title: Diseño divisor — Líneas separadoras
 ---
 # Diseño Divisor — Líneas separadoras
 

@@ -2,7 +2,7 @@
 description: Configure a aparência do submenu com herança automática do Nível 1 para todos os campos vazios.
 layout: default
 permalink: /pt-br/docs/design/design-level2/
-title: Design Nível 2-3 — Itens de Submenu
+title: Design nível 2-3 — Itens de submenu
 ---
 # Design Nível 2-3 — Itens de Submenu
 

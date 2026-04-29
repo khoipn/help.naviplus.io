@@ -2,7 +2,7 @@
 description: Lọc hiển thị menu Navi+ theo thiết bị, scroll behavior, loại trang Shopify và URL keyword.
 layout: default
 permalink: /vi/docs/publish/publish-filter/
-title: Publish Filter — Thiết bị & URL
+title: Publish filter — Thiết bị & URL
 ---
 # Publish Filter — Thiết bị & URL
 

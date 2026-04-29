@@ -2,7 +2,7 @@
 description: Configura l'aspetto dei sottomenu con ereditarietà automatica dal Livello 1 per tutti i campi vuoti.
 layout: default
 permalink: /it/docs/design/design-level2/
-title: Design Livello 2-3 — Elementi di Sottomenu
+title: Design livello 2-3 — Elementi di sottomenu
 ---
 # Design Livello 2-3 — Elementi di Sottomenu
 

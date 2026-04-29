@@ -2,7 +2,7 @@
 description: Cấu hình style mặc định cho tất cả đường kẻ phân cách trong menu Navi+ — màu, độ dày, kiểu và chiều rộng.
 layout: default
 permalink: /vi/docs/design/design-divider/
-title: Design Divider — Đường kẻ phân cách
+title: Design divider — Đường kẻ phân cách
 ---
 # Design Divider — Đường kẻ phân cách
 

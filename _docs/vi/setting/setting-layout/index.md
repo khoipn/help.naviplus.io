@@ -2,7 +2,7 @@
 description: Cấu hình vị trí menu, padding, margin, z-index và chiều rộng submenu trong Navi+.
 layout: default
 permalink: /vi/docs/setting/setting-layout/
-title: Setting Layout — Vị trí & Khoảng cách
+title: Setting layout — Vị trí & khoảng cách
 ---
 # Setting Layout — Vị trí & Khoảng cách
 

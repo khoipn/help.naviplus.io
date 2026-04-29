@@ -2,7 +2,7 @@
 description: Cấu hình giao diện submenu trong Navi+ — với kế thừa tự động từ Level 1 cho tất cả field để trống.
 layout: default
 permalink: /vi/docs/design/design-level2/
-title: Design Level 2-3 — Submenu
+title: Design level 2-3 — Submenu
 ---
 # Design Level 2-3 — Submenu
 

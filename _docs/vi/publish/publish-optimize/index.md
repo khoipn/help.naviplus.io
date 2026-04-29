@@ -2,7 +2,7 @@
 description: Tối ưu tốc độ và UX sau khi publish menu Navi+ — tránh flash nội dung gốc khi dùng Insert/Replace hoặc CSS Selector trigger.
 layout: default
 permalink: /vi/docs/publish/publish-optimize/
-title: Publish Optimize — Tốc độ & UX
+title: Publish optimize — Tốc độ & UX
 ---
 # Publish Optimize — Tốc độ & UX
 

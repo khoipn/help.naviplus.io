@@ -2,7 +2,7 @@
 description: Configura l'aspetto di tutti gli elementi di menu principale — colore testo, icone, spaziatura, sfondi e opzioni di visualizzazione al Design Livello 1.
 layout: default
 permalink: /it/docs/design/design-level1/
-title: Design Livello 1 — Elementi di Menu Principale
+title: Design livello 1 — Elementi di menu principale
 ---
 # Design Livello 1 — Elementi di Menu Principale
 

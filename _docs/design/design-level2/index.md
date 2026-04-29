@@ -2,7 +2,7 @@
 description: Configure the appearance of submenu items in Navi+ — with automatic inheritance from Level 1 for all empty fields.
 layout: default
 permalink: /docs/design/design-level2/
-title: Design Level 2-3 — Submenu Items
+title: Design level 2-3 — Submenu items
 ---
 # Design Level 2-3 — Submenu Items
 

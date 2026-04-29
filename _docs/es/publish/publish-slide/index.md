@@ -2,7 +2,7 @@
 description: Publica menús Slide (Context) en Navi+ — activa el interruptor y luego configura un disparador para abrir el menú.
 layout: default
 permalink: /es/docs/publish/publish-slide/
-title: Publish Slide — Menú Context Slide
+title: Publish slide — Menú context slide
 ---
 # Publish Slide — Menú Context Slide
 

@@ -2,7 +2,7 @@
 description: Optimize speed and UX after publishing Navi+ menus — prevent flash of original content when using Insert/Replace or CSS Selector triggers.
 layout: default
 permalink: /docs/publish/publish-optimize/
-title: Publish Optimize — Speed & UX
+title: Publish optimize — Speed & UX
 ---
 # Publish Optimize — Speed & UX
 

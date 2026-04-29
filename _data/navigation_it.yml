@@ -196,32 +196,32 @@
   url: /docs/menu-items/
 - children:
   - processed_path: design/design-overview
-    title: Panoramica Design — Sistema di Ereditarietà
+    title: Panoramica design — Sistema di ereditarietà
     url: /it/docs/design/design-overview/
   - processed_path: design/design-level1
-    title: Design Livello 1 — Elementi di Menu Principale
+    title: Design livello 1 — Elementi di menu principale
     url: /it/docs/design/design-level1/
   - processed_path: design/design-level2
-    title: Design Livello 2-3 — Elementi di Sottomenu
+    title: Design livello 2-3 — Elementi di sottomenu
     url: /it/docs/design/design-level2/
   - processed_path: design/design-divider
-    title: Design Divider — Linee di Separazione
+    title: Design divider — Linee di separazione
     url: /it/docs/design/design-divider/
   processed_path: design
   title: Design
   url: /it/docs/design/
 - children:
   - processed_path: setting/setting-behavior
-    title: Setting Behavior — Animazione e Interazione
+    title: Setting behavior — Animazione e interazione
     url: /it/docs/setting/setting-behavior/
   - processed_path: setting/setting-layout
-    title: Setting Layout — Posizione e Dimensione
+    title: Setting layout — Posizione e dimensione
     url: /it/docs/setting/setting-layout/
   - processed_path: setting/setting-display-rules
-    title: Setting Display Rules — Visibilità Condizionale
+    title: Setting display rules — Visibilità condizionale
     url: /it/docs/setting/setting-display-rules/
   - processed_path: setting/setting-slide
-    title: Setting Slide — Opzioni Menu Slide
+    title: Setting slide — Opzioni menu slide
     url: /it/docs/setting/setting-slide/
   processed_path: setting
   title: Setting

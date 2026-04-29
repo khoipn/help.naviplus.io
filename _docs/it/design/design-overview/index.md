@@ -2,7 +2,7 @@
 description: Comprendi il sistema di ereditarietà degli stili a tre livelli di Navi+ — come gli stili si propagano dal Livello 1 al Livello 2-3 e gli override per elemento.
 layout: default
 permalink: /it/docs/design/design-overview/
-title: Panoramica Design — Ereditarietà e Override
+title: Panoramica design — Ereditarietà e override
 ---
 # Panoramica Design — Ereditarietà e Override
 

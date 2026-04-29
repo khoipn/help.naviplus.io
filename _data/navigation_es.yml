@@ -199,13 +199,13 @@
     title: Descripción general del diseño — Sistema de herencia
     url: /es/docs/design/design-overview/
   - processed_path: design/design-level1
-    title: Diseño Nivel 1 — Elementos del menú principal
+    title: Diseño nivel 1 — Elementos del menú principal
     url: /es/docs/design/design-level1/
   - processed_path: design/design-level2
-    title: Diseño Nivel 2-3 — Elementos de submenú
+    title: Diseño nivel 2-3 — Elementos de submenú
     url: /es/docs/design/design-level2/
   - processed_path: design/design-divider
-    title: Diseño Divisor — Líneas separadoras
+    title: Diseño divisor — Líneas separadoras
     url: /es/docs/design/design-divider/
   processed_path: design
   title: Diseño

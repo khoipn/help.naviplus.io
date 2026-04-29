@@ -2,7 +2,7 @@
 description: Übersicht über Navi+ Menütypen und ihre entsprechenden Bereitstellungsmethoden — Sticky, Slide und Section-Menüs.
 layout: default
 permalink: /de/docs/publish/publish-overview/
-title: Publish Overview — Menütypen & Bereitstellungsmethoden
+title: Publish overview — Menütypen & Bereitstellungsmethoden
 ---
 # Publish Overview — Menütypen & Bereitstellungsmethoden
 

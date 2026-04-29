@@ -2,7 +2,7 @@
 description: Publish Slide (Context) menu trong Navi+ — bật toggle rồi cấu hình trigger để mở menu.
 layout: default
 permalink: /vi/docs/publish/publish-slide/
-title: Publish Slide — Context Slide Menu
+title: Publish slide — Context slide menu
 ---
 # Publish Slide — Context Slide Menu
 

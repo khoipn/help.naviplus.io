@@ -2,7 +2,7 @@
 description: Cấu hình giao diện tất cả item chính trong Navi+ — màu chữ, icon, khoảng cách, nền và tùy chọn hiển thị tại Design Level 1.
 layout: default
 permalink: /vi/docs/design/design-level1/
-title: Design Level 1 — Item Chính
+title: Design level 1 — Item chính
 ---
 # Design Level 1 — Item Chính
 

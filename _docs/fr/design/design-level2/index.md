@@ -2,7 +2,7 @@
 description: Configurez l'apparence des sous-menus avec héritage automatique du Niveau 1 pour tous les champs vides.
 layout: default
 permalink: /fr/docs/design/design-level2/
-title: Conception Niveau 2-3 — Éléments de sous-menu
+title: Conception niveau 2-3 — Éléments de sous-menu
 ---
 # Conception Niveau 2-3 — Éléments de sous-menu
 

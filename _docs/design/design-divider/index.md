@@ -2,7 +2,7 @@
 description: Configure the default style for all divider lines in your Navi+ menu — color, thickness, type, and width.
 layout: default
 permalink: /docs/design/design-divider/
-title: Design Divider — Separator Lines
+title: Design divider — Separator lines
 ---
 # Design Divider — Separator Lines
 

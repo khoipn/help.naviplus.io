@@ -167,22 +167,22 @@
   url: /docs/setting/
 - children:
   - processed_path: publish/publish-overview
-    title: Tổng Quan Publish — Loại Menu & Phương Thức Triển Khai
+    title: Tổng quan publish — Loại menu & phương thức triển khai
     url: /vi/docs/publish/publish-overview/
   - processed_path: publish/publish-sticky
-    title: Publish Sticky — Tabbar & FAB
+    title: Publish sticky — Tabbar & FAB
     url: /vi/docs/publish/publish-sticky/
   - processed_path: publish/publish-slide
-    title: Publish Slide — Context Slide Menu
+    title: Publish slide — Context slide menu
     url: /vi/docs/publish/publish-slide/
   - processed_path: publish/publish-section
-    title: Publish Section — Mega Menu & Grid
+    title: Publish section — Mega menu & grid
     url: /vi/docs/publish/publish-section/
   - processed_path: publish/publish-filter
-    title: Publish Filter — Thiết Bị & URL
+    title: Publish filter — Thiết bị & URL
     url: /vi/docs/publish/publish-filter/
   - processed_path: publish/publish-optimize
-    title: Publish Optimize — Tốc Độ & UX
+    title: Publish optimize — Tốc độ & UX
     url: /vi/docs/publish/publish-optimize/
   processed_path: publish
   title: Publish

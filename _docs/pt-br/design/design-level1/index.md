@@ -2,7 +2,7 @@
 description: Configure a aparência de todos os itens do menu principal — cor de texto, ícones, espaçamento, fundos e opções de exibição no Design Nível 1.
 layout: default
 permalink: /pt-br/docs/design/design-level1/
-title: Design Nível 1 — Itens do Menu Principal
+title: Design nível 1 — Itens do menu principal
 ---
 # Design Nível 1 — Itens do Menu Principal
 

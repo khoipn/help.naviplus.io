@@ -2,7 +2,7 @@
 description: Publiez des menus Slide (Context) dans Navi+ — activez le bouton puis configurez un déclencheur pour ouvrir le menu.
 layout: default
 permalink: /fr/docs/publish/publish-slide/
-title: Publish Slide — Menu Context Slide
+title: Publish slide — Menu context slide
 ---
 # Publish Slide — Menu Context Slide
 

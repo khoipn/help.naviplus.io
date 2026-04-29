@@ -2,7 +2,7 @@
 description: Cấu hình tốc độ animation, kiểu animation, hiệu ứng mở rộng, touch feedback và arrow style trong menu Navi+.
 layout: default
 permalink: /vi/docs/setting/setting-behavior/
-title: Setting Behavior — Animation & Tương tác
+title: Setting behavior — Animation & tương tác
 ---
 # Setting Behavior — Animation & Tương tác
 

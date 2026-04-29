@@ -2,7 +2,7 @@
 description: Cấu hình hướng mở, kích thước, nút đóng và hành vi submenu cho Slide menu trong Navi+.
 layout: default
 permalink: /vi/docs/setting/setting-slide/
-title: Setting Slide — Tùy chọn Slide Menu
+title: Setting slide — Tùy chọn slide menu
 ---
 # Setting Slide — Tùy chọn Slide Menu
 

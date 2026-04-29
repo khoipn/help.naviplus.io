@@ -2,7 +2,7 @@
 description: Configura lo stile predefinito delle linee di divisione nei menu Navi+ — colore, spessore, tipo e larghezza.
 layout: default
 permalink: /it/docs/design/design-divider/
-title: Design Divider — Linee di Separazione
+title: Design divider — Linee di separazione
 ---
 # Design Divider — Linee di Separazione
 

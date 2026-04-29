@@ -2,7 +2,7 @@
 description: Publish Slide (Context) menus in Navi+ — enable toggle then configure a trigger to open the menu.
 layout: default
 permalink: /docs/publish/publish-slide/
-title: Publish Slide — Context Slide Menu
+title: Publish slide — Context slide menu
 ---
 # Publish Slide — Context Slide Menu
 

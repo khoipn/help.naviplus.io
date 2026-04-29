@@ -2,7 +2,7 @@
 description: Kiểm soát trang nào và thiết bị nào hiển thị menu Navi+ — dùng toggle thiết bị, từ khóa URL và bộ lọc loại trang Shopify.
 layout: default
 permalink: /vi/docs/setting/setting-display-rules/
-title: Setting Display Rules — Quy tắc hiển thị
+title: Setting display rules — Quy tắc hiển thị
 ---
 # Setting Display Rules — Quy tắc hiển thị
 
