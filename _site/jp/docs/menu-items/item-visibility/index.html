@@ -29,10 +29,10 @@
 <meta name="theme-color" content="#0f2d1e" />
 
 
-<title>Visibility & Conditions | Navi+ Help Center</title>
+<title>表示設定 & 条件 | Navi+ Help Center</title>
 
 
-<meta name="description" content="How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding." />
+<meta name="description" content="Navi+でメニュー項目がいつ、誰に表示されるかを制御する方法 — 公開状態、ログイン条件、ページベースの非表示。" />
 
 <!-- Canonical & hreflang alternates -->
 <link rel="canonical" href="http://localhost:4445/jp/docs/menu-items/item-visibility/" />
@@ -58,8 +58,8 @@
 <meta property="og:type"        content="article" />
 
 <meta property="og:url"         content="http://localhost:4445/jp/docs/menu-items/item-visibility/" />
-<meta property="og:title"       content="Visibility &amp; Conditions" />
-<meta property="og:description" content="How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding." />
+<meta property="og:title"       content="表示設定 &amp; 条件" />
+<meta property="og:description" content="Navi+でメニュー項目がいつ、誰に表示されるかを制御する方法 — 公開状態、ログイン条件、ページベースの非表示。" />
 
 <meta property="og:image"        content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
 <meta property="og:image:width"  content="1200" />
@@ -69,8 +69,8 @@
 <!-- Twitter -->
 <meta name="twitter:card"        content="summary_large_image" />
 <meta name="twitter:url"         content="http://localhost:4445/jp/docs/menu-items/item-visibility/" />
-<meta name="twitter:title"       content="Visibility &amp; Conditions" />
-<meta name="twitter:description" content="How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding." />
+<meta name="twitter:title"       content="表示設定 &amp; 条件" />
+<meta name="twitter:description" content="Navi+でメニュー項目がいつ、誰に表示されるかを制御する方法 — 公開状態、ログイン条件、ページベースの非表示。" />
 
 <meta name="twitter:image" content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
 
@@ -113,8 +113,8 @@
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Visibility & Conditions",
-  "description": "How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding.",
+  "headline": "表示設定 & 条件",
+  "description": "Navi+でメニュー項目がいつ、誰に表示されるかを制御する方法 — 公開状態、ログイン条件、ページベースの非表示。",
   "url": "http://localhost:4445/jp/docs/menu-items/item-visibility/",
   "inLanguage": "en",
   "isPartOf": {
@@ -4525,57 +4525,46 @@ document.addEventListener("DOMContentLoaded", function () {
         <!-- Main Content -->
         <main class="col-12 col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
           <div class="content-wrapper">
-            <h1 id="visibility--conditions">Visibility &amp; Conditions</h1>
+            <h1 id="表示設定--条件">表示設定 &amp; 条件</h1>
 
-<p>The <strong>Publish</strong> section in the Edit Item panel lets you control who sees an item, when, and on which pages.</p>
+<p>編集パネルの <strong>公開</strong> セクションで、誰がアイテムを見るか、いつ、どのページで表示するかを制御できます。</p>
 
 <hr />
 
-<h2 id="is-published">Is Published</h2>
+<h2 id="公開済み">公開済み</h2>
 
-<p><strong>Default: on (item is visible to everyone).</strong></p>
+<p><strong>デフォルト: オン（全員に表示）。</strong></p>
 
-<p>Toggle this off to hide the item from the live menu without deleting it. The item stays in the editor — you can re-enable it at any time.</p>
+<p>オフにするとライブメニューからアイテムを削除せずに非表示にできます。</p>
 
-<p><strong>Use when:</strong></p>
+<p><strong>使用場面:</strong></p>
 <ul>
-  <li>Temporarily hiding a seasonal sale link.</li>
-  <li>Preparing an item before it goes live.</li>
-  <li>Keeping a backup item without deleting it.</li>
+  <li>季節セールのリンクを一時的に非表示にする。</li>
+  <li>ライブ公開前にアイテムを準備する。</li>
+  <li>削除せずにバックアップアイテムを保持する。</li>
 </ul>
 
 <hr />
 
-<h2 id="hide-when-logged-in">Hide when logged in</h2>
+<h2 id="ログイン時に非表示">ログイン時に非表示</h2>
 
-<p>When enabled, the item is <strong>only visible to visitors who are not logged in</strong>.</p>
+<p>オンにすると、アイテムは<strong>未ログインの訪問者のみに表示</strong>されます。</p>
 
-<p><strong>Use for:</strong></p>
-<ul>
-  <li>A “Log in” button — customers who are already logged in don’t need it.</li>
-  <li>A “Create account” link.</li>
-</ul>
+<p><strong>使用例:</strong> 「ログイン」ボタン、「アカウント作成」リンク。</p>
 
 <hr />
 
-<h2 id="only-show-when-logged-in">Only show when logged in</h2>
+<h2 id="ログイン時のみ表示">ログイン時のみ表示</h2>
 
-<p>When enabled, the item is <strong>only visible to logged-in customers</strong>.</p>
+<p>オンにすると、アイテムは<strong>ログイン済みのお客様のみに表示</strong>されます。</p>
 
-<p><strong>Use for:</strong></p>
-<ul>
-  <li>“My account” link.</li>
-  <li>Loyalty points, order history.</li>
-  <li>Features reserved for members.</li>
-</ul>
+<p><strong>使用例:</strong> 「マイアカウント」、ポイント、注文履歴。</p>
 
 <hr />
 
-<h2 id="hide-on-specific-page-types-hidepages">Hide on specific page types (hidepages)</h2>
+<h2 id="特定のページタイプで非表示-hidepages">特定のページタイプで非表示 (hidepages)</h2>
 
-<p>Use the <code class="language-plaintext highlighter-rouge">hidepages</code> attribute in <strong>Advance → Attributes</strong> to hide an item on certain page types.</p>
-
-<p><strong>Syntax:</strong></p>
+<p><strong>詳細 → 属性</strong> で <code class="language-plaintext highlighter-rouge">hidepages</code> 属性を使用します。</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hidepages=index
 hidepages=index|products
@@ -4585,105 +4574,90 @@ hidepages=index|products|collections|pages|blogs|others
 <table>
   <thead>
     <tr>
-      <th>Value</th>
-      <th>Pages hidden on</th>
+      <th>値</th>
+      <th>非表示になるページ</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">index</code></td>
-      <td>Home page</td>
+      <td>ホームページ</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">products</code></td>
-      <td>Product detail pages</td>
+      <td>商品詳細ページ</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">collections</code></td>
-      <td>Collection / category pages</td>
+      <td>コレクション/カテゴリページ</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">pages</code></td>
-      <td>Static pages (About, Contact…)</td>
+      <td>静的ページ</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">blogs</code></td>
-      <td>Blog listing and post pages</td>
+      <td>ブログ</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">others</code></td>
-      <td>Any page not in the above categories</td>
+      <td>その他のページ</td>
     </tr>
   </tbody>
 </table>
 
-<p>Separate multiple values with <code class="language-plaintext highlighter-rouge">|</code>, no spaces.</p>
-
-<p><strong>Example:</strong> Hide a “Buy now” button on the home page and blog pages:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hidepages=index|blogs
-</code></pre></div></div>
+<p><strong>例:</strong> <code class="language-plaintext highlighter-rouge">hidepages=index|blogs</code></p>
 
 <hr />
 
-<h2 id="hide-by-device-mobile--desktop">Hide by device (Mobile / Desktop)</h2>
+<h2 id="デバイスによる非表示">デバイスによる非表示</h2>
 
 <blockquote>
-  <p><strong>Important:</strong> Navi+ does not have a per-item mobile/desktop toggle. Device targeting is controlled at the <strong>menu level</strong>, not the item level.</p>
+  <p>Navi+ のデバイス設定は<strong>メニューレベル</strong>で行います。デバイスごとに別々のメニューを作成するか、CSSを使用してください。</p>
 </blockquote>
 
-<p><strong>The correct approach:</strong></p>
-
-<ul>
-  <li>Go to the <strong>Publish</strong> tab of the menu → toggle <strong>Mobile</strong> and <strong>Desktop</strong> for the entire menu.</li>
-  <li>Create two separate menus — one for mobile, one for desktop — and set the device toggle on each.</li>
-</ul>
-
-<p><strong>Per-item workaround (if truly needed):</strong><br />
-Use <strong>Advance → CSS</strong> with a media query:</p>
-
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* Hide this item on mobile only */</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* モバイルのみ非表示 */</span>
 <span class="k">@media</span> <span class="p">(</span><span class="n">max-width</span><span class="p">:</span> <span class="m">767px</span><span class="p">)</span> <span class="p">{</span> <span class="nl">display</span><span class="p">:</span> <span class="nb">none</span> <span class="cp">!important</span><span class="p">;</span> <span class="p">}</span>
 
-<span class="c">/* Hide this item on desktop only */</span>
+<span class="c">/* デスクトップのみ非表示 */</span>
 <span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="p">:</span> <span class="m">768px</span><span class="p">)</span> <span class="p">{</span> <span class="nl">display</span><span class="p">:</span> <span class="nb">none</span> <span class="cp">!important</span><span class="p">;</span> <span class="p">}</span>
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="summary">Summary</h2>
+<h2 id="まとめ">まとめ</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Condition</th>
-      <th>How to set</th>
+      <th>条件</th>
+      <th>設定方法</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Hide completely</td>
-      <td>Is Published → off</td>
+      <td>完全に非表示</td>
+      <td>公開済み → オフ</td>
     </tr>
     <tr>
-      <td>Hide from logged-in users</td>
-      <td>Hide when logged in → on</td>
+      <td>ログイン済みから非表示</td>
+      <td>ログイン時に非表示 → オン</td>
     </tr>
     <tr>
-      <td>Hide from guests</td>
-      <td>Only show when logged in → on</td>
+      <td>ゲストから非表示</td>
+      <td>ログイン時のみ表示 → オン</td>
     </tr>
     <tr>
-      <td>Hide on home page</td>
-      <td>Attributes: <code class="language-plaintext highlighter-rouge">hidepages=index</code></td>
+      <td>ホームページで非表示</td>
+      <td><code class="language-plaintext highlighter-rouge">hidepages=index</code></td>
     </tr>
     <tr>
-      <td>Hide on mobile</td>
-      <td>CSS: <code class="language-plaintext highlighter-rouge">@media (max-width: 767px) { display: none !important; }</code></td>
+      <td>モバイルで非表示</td>
+      <td>CSS <code class="language-plaintext highlighter-rouge">@media (max-width: 767px)</code></td>
     </tr>
     <tr>
-      <td>Hide on desktop</td>
-      <td>CSS: <code class="language-plaintext highlighter-rouge">@media (min-width: 768px) { display: none !important; }</code></td>
+      <td>デスクトップで非表示</td>
+      <td>CSS <code class="language-plaintext highlighter-rouge">@media (min-width: 768px)</code></td>
     </tr>
   </tbody>
 </table>

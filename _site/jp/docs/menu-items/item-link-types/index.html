@@ -29,10 +29,10 @@
 <meta name="theme-color" content="#0f2d1e" />
 
 
-<title>Link Types | Navi+ Help Center</title>
+<title>リンクタイプ | Navi+ Help Center</title>
 
 
-<meta name="description" content="All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript." />
+<meta name="description" content="Navi+がサポートするすべてのリンクタイプ — 内部ページ、外部URL、アンカー、パネルを開く、電話/メール、チャットアプリ、共有、JavaScript。" />
 
 <!-- Canonical & hreflang alternates -->
 <link rel="canonical" href="http://localhost:4445/jp/docs/menu-items/item-link-types/" />
@@ -58,8 +58,8 @@
 <meta property="og:type"        content="article" />
 
 <meta property="og:url"         content="http://localhost:4445/jp/docs/menu-items/item-link-types/" />
-<meta property="og:title"       content="Link Types" />
-<meta property="og:description" content="All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript." />
+<meta property="og:title"       content="リンクタイプ" />
+<meta property="og:description" content="Navi+がサポートするすべてのリンクタイプ — 内部ページ、外部URL、アンカー、パネルを開く、電話/メール、チャットアプリ、共有、JavaScript。" />
 
 <meta property="og:image"        content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
 <meta property="og:image:width"  content="1200" />
@@ -69,8 +69,8 @@
 <!-- Twitter -->
 <meta name="twitter:card"        content="summary_large_image" />
 <meta name="twitter:url"         content="http://localhost:4445/jp/docs/menu-items/item-link-types/" />
-<meta name="twitter:title"       content="Link Types" />
-<meta name="twitter:description" content="All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript." />
+<meta name="twitter:title"       content="リンクタイプ" />
+<meta name="twitter:description" content="Navi+がサポートするすべてのリンクタイプ — 内部ページ、外部URL、アンカー、パネルを開く、電話/メール、チャットアプリ、共有、JavaScript。" />
 
 <meta name="twitter:image" content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
 
@@ -113,8 +113,8 @@
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Link Types",
-  "description": "All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript.",
+  "headline": "リンクタイプ",
+  "description": "Navi+がサポートするすべてのリンクタイプ — 内部ページ、外部URL、アンカー、パネルを開く、電話/メール、チャットアプリ、共有、JavaScript。",
   "url": "http://localhost:4445/jp/docs/menu-items/item-link-types/",
   "inLanguage": "en",
   "isPartOf": {
@@ -4525,76 +4525,74 @@ document.addEventListener("DOMContentLoaded", function () {
         <!-- Main Content -->
         <main class="col-12 col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
           <div class="content-wrapper">
-            <h1 id="link-types">Link Types</h1>
+            <h1 id="リンクタイプ">リンクタイプ</h1>
 
-<p>The <strong>Link To</strong> field in Basic Info controls what happens when a visitor taps or clicks an item. Navi+ supports many link types beyond a plain URL.</p>
+<p>基本情報の <strong>リンク先</strong> フィールドで、訪問者がアイテムをタップまたはクリックしたときの動作を制御します。Navi+はシンプルなURL以外にも多くのリンクタイプをサポートします。</p>
 
-<p>When you click the Link To field, a help popup opens automatically with full examples. You can also type directly into the field.</p>
+<p>リンク先フィールドをクリックすると、完全な例のヘルプポップアップが自動的に開きます。直接フィールドに入力することもできます。</p>
 
 <hr />
 
-<h2 id="1-internal-store-pages">1. Internal store pages</h2>
+<h2 id="1-内部ストアページ">1. 内部ストアページ</h2>
 
-<p>Use short paths (no domain) to link to pages within your Shopify store.</p>
+<p>Shopifyストア内のページへのリンクには短いパス（ドメインなし）を使用します。</p>
 
 <table>
   <thead>
     <tr>
-      <th>Destination</th>
-      <th>Enter</th>
+      <th>目的</th>
+      <th>入力</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Home page</td>
-      <td><em>(leave empty)</em></td>
+      <td>ホームページ</td>
+      <td><em>(空欄のまま)</em></td>
     </tr>
     <tr>
-      <td>All products</td>
+      <td>全製品</td>
       <td><code class="language-plaintext highlighter-rouge">collections/all</code></td>
     </tr>
     <tr>
-      <td>A collection</td>
+      <td>コレクション</td>
       <td><code class="language-plaintext highlighter-rouge">collections/collection-handle</code></td>
     </tr>
     <tr>
-      <td>A product page</td>
+      <td>製品ページ</td>
       <td><code class="language-plaintext highlighter-rouge">products/product-handle</code></td>
     </tr>
     <tr>
-      <td>A static page (About, FAQ…)</td>
+      <td>静的ページ</td>
       <td><code class="language-plaintext highlighter-rouge">pages/page-handle</code></td>
     </tr>
     <tr>
-      <td>Blog listing</td>
+      <td>ブログ一覧</td>
       <td><code class="language-plaintext highlighter-rouge">blogs/news</code></td>
     </tr>
     <tr>
-      <td>A blog post</td>
+      <td>ブログ記事</td>
       <td><code class="language-plaintext highlighter-rouge">blogs/news/post-handle</code></td>
     </tr>
     <tr>
-      <td>Cart</td>
+      <td>カート</td>
       <td><code class="language-plaintext highlighter-rouge">cart</code></td>
     </tr>
     <tr>
-      <td>Search</td>
+      <td>検索</td>
       <td><code class="language-plaintext highlighter-rouge">search</code></td>
     </tr>
     <tr>
-      <td>Contact</td>
+      <td>お問い合わせ</td>
       <td><code class="language-plaintext highlighter-rouge">pages/contact</code></td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>Auto Clean tip:</strong> Paste a full URL (e.g. <code class="language-plaintext highlighter-rouge">https://mystore.com/collections/sale</code>) → enable the <strong>Auto clean</strong> toggle → the system strips the domain and keeps only <code class="language-plaintext highlighter-rouge">collections/sale</code>.</p>
+<p><strong>Auto Cleanのヒント:</strong> 完全なURLを貼り付け → <strong>Auto clean</strong> トグルを有効化 → システムがドメインを削除してパスのみ保持。</p>
 
 <hr />
 
-<h2 id="2-full-url-external-link">2. Full URL (External link)</h2>
-
-<p>Link to any website using a full URL.</p>
+<h2 id="2-完全url外部リンク">2. 完全URL（外部リンク）</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://brand.com/campaign
 https://instagram.com/yourpage
@@ -4602,9 +4600,9 @@ https://instagram.com/yourpage
 
 <hr />
 
-<h2 id="3-open-in-new-tab">3. Open in new tab</h2>
+<h2 id="3-新しいタブで開く">3. 新しいタブで開く</h2>
 
-<p>Append <code class="language-plaintext highlighter-rouge">@new</code> to any link to open it in a new tab.</p>
+<p>任意のリンクに <code class="language-plaintext highlighter-rouge">@new</code> を追加。</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>collections/all@new
 https://brand.com/campaign@new
@@ -4612,128 +4610,119 @@ https://brand.com/campaign@new
 
 <hr />
 
-<h2 id="4-no-navigation-parent-item">4. No navigation (parent item)</h2>
-
-<p>Use <code class="language-plaintext highlighter-rouge">#</code> when an item is a parent that contains child items — tapping it expands the children without navigating anywhere.</p>
+<h2 id="4-ナビゲーションなし親アイテム">4. ナビゲーションなし（親アイテム）</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="5-scroll-anchor">5. Scroll (Anchor)</h2>
+<h2 id="5-スクロールアンカー">5. スクロール（アンカー）</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Action</th>
-      <th>Syntax</th>
+      <th>アクション</th>
+      <th>構文</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Scroll to top</td>
+      <td>上にスクロール</td>
       <td><code class="language-plaintext highlighter-rouge">scroll:Top</code></td>
     </tr>
     <tr>
-      <td>Scroll to top with 100px offset</td>
+      <td>100pxオフセットで上に</td>
       <td><code class="language-plaintext highlighter-rouge">scroll:Top(100)</code></td>
     </tr>
     <tr>
-      <td>Scroll to bottom</td>
+      <td>下にスクロール</td>
       <td><code class="language-plaintext highlighter-rouge">scroll:Bottom</code></td>
     </tr>
     <tr>
-      <td>Scroll to a section by CSS selector</td>
+      <td>CSSセレクターでセクションへ</td>
       <td><code class="language-plaintext highlighter-rouge">scroll:OnPage(#section-id)</code> <em>(Business / Elite)</em></td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>Example:</strong> A “Back to top” button → Link To is <code class="language-plaintext highlighter-rouge">scroll:Top</code>.</p>
-
 <hr />
 
-<h2 id="6-open-panel--popup-business--elite">6. Open panel / popup <em>(Business / Elite)</em></h2>
-
-<p>Open theme UI components without leaving the page.</p>
+<h2 id="6-パネル--ポップアップを開く-business--elite">6. パネル / ポップアップを開く <em>(Business / Elite)</em></h2>
 
 <table>
   <thead>
     <tr>
-      <th>Action</th>
-      <th>Syntax</th>
+      <th>アクション</th>
+      <th>構文</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Open a Navi+ Slide menu</td>
+      <td>Navi+スライドメニューを開く</td>
       <td><code class="language-plaintext highlighter-rouge">open:NaviMenu(SF-XXXXXXXXXX)</code></td>
     </tr>
     <tr>
-      <td>Click a CSS element</td>
+      <td>CSS要素をクリック</td>
       <td><code class="language-plaintext highlighter-rouge">open:clickTo(#cart-button)</code></td>
     </tr>
     <tr>
-      <td>Focus an input field</td>
+      <td>入力フィールドにフォーカス</td>
       <td><code class="language-plaintext highlighter-rouge">open:focusTo(.search-input)</code></td>
     </tr>
     <tr>
-      <td>Open theme search / cart drawer</td>
-      <td>Use the help popup → <em>Open panels</em></td>
+      <td>テーマの検索/カートドロワー</td>
+      <td>ヘルプポップアップ → <em>パネルを開く</em></td>
     </tr>
     <tr>
-      <td>Open Shopify Inbox chat</td>
-      <td>Use the help popup → <em>Open other applications</em></td>
+      <td>Shopify Inboxチャット</td>
+      <td>ヘルプポップアップ → <em>他のアプリを開く</em></td>
     </tr>
   </tbody>
 </table>
 
-<p><code class="language-plaintext highlighter-rouge">open:clickTo</code> and <code class="language-plaintext highlighter-rouge">open:focusTo</code> accept <code class="language-plaintext highlighter-rouge">Down</code> or <code class="language-plaintext highlighter-rouge">Up</code> to scroll before acting:<br />
-<code class="language-plaintext highlighter-rouge">open:clickTo(.footer-element, Down)</code></p>
-
 <hr />
 
-<h2 id="7-phone-sms-email">7. Phone, SMS, Email</h2>
+<h2 id="7-電話smsメール">7. 電話、SMS、メール</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Action</th>
-      <th>Syntax</th>
+      <th>アクション</th>
+      <th>構文</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Phone call</td>
-      <td><code class="language-plaintext highlighter-rouge">tel:+12125550100</code></td>
+      <td>電話</td>
+      <td><code class="language-plaintext highlighter-rouge">tel:+81312345678</code></td>
     </tr>
     <tr>
       <td>SMS</td>
-      <td><code class="language-plaintext highlighter-rouge">sms:+12125550100?body=Hello</code></td>
+      <td><code class="language-plaintext highlighter-rouge">sms:+81312345678?body=こんにちは</code></td>
     </tr>
     <tr>
-      <td>Email</td>
-      <td><code class="language-plaintext highlighter-rouge">mailto:hello@yourdomain.com</code></td>
+      <td>メール</td>
+      <td><code class="language-plaintext highlighter-rouge">mailto:hello@yourdomain.jp</code></td>
     </tr>
   </tbody>
 </table>
 
 <hr />
 
-<h2 id="8-chat-apps">8. Chat apps</h2>
+<h2 id="8-チャットアプリ">8. チャットアプリ</h2>
 
 <table>
   <thead>
     <tr>
-      <th>App</th>
-      <th>Syntax</th>
+      <th>アプリ</th>
+      <th>構文</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>WhatsApp</td>
-      <td><code class="language-plaintext highlighter-rouge">https://wa.me/12125550100</code> <em>(no + prefix)</em></td>
+      <td><code class="language-plaintext highlighter-rouge">https://wa.me/81312345678</code></td>
     </tr>
     <tr>
       <td>Messenger</td>
@@ -4752,30 +4741,30 @@ https://brand.com/campaign@new
 
 <hr />
 
-<h2 id="9-share">9. Share</h2>
+<h2 id="9-共有">9. 共有</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Action</th>
-      <th>Syntax</th>
+      <th>アクション</th>
+      <th>構文</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Share current page (native share dialog)</td>
+      <td>現在のページを共有</td>
       <td><code class="language-plaintext highlighter-rouge">open:ShareMe</code></td>
     </tr>
     <tr>
-      <td>Copy URL to clipboard</td>
+      <td>URLをコピー</td>
       <td><code class="language-plaintext highlighter-rouge">share:CopyUrl</code></td>
     </tr>
     <tr>
-      <td>Share to Facebook</td>
+      <td>Facebookで共有</td>
       <td><code class="language-plaintext highlighter-rouge">share:Facebook</code></td>
     </tr>
     <tr>
-      <td>Share to Twitter / X</td>
+      <td>Twitter / Xで共有</td>
       <td><code class="language-plaintext highlighter-rouge">share:Tweet</code></td>
     </tr>
   </tbody>
@@ -4783,9 +4772,7 @@ https://brand.com/campaign@new
 
 <hr />
 
-<h2 id="10-call-javascript">10. Call JavaScript</h2>
-
-<p>Call any JavaScript function defined on the page.</p>
+<h2 id="10-javascript呼び出し">10. JavaScript呼び出し</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>javascript:openCustomModal
 javascript:toggleDarkMode
@@ -4793,11 +4780,11 @@ javascript:toggleDarkMode
 
 <hr />
 
-<h2 id="11-switch-language">11. Switch language</h2>
+<h2 id="11-言語切替">11. 言語切替</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>open:ChangeLanguage(fr)    ← switch to French
-open:ChangeLanguage(vi)    ← switch to Vietnamese
-open:ChangeLanguage()      ← reset to default language
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>open:ChangeLanguage(ja)
+open:ChangeLanguage(en)
+open:ChangeLanguage()
 </code></pre></div></div>
                                
 <nav class="prev-next-nav" aria-label="Page navigation">

@@ -4305,27 +4305,39 @@ Step 3: Configure trigger (how to open the menu)
 
 <h2 id="step-3-configure-trigger">Step 3: Configure trigger</h2>
 
-<p>There are 4 ways to open a Slide menu:</p>
+<p>The trigger UI is split into two tabs: <strong>Mobile setup</strong> and <strong>Desktop setup</strong>. Methods can be combined freely. A <strong>For developers</strong> zone sits outside the tabs.</p>
 
 <hr />
 
 <h3 id="method-1-open-from-a-navi-menu-item">Method 1: Open from a Navi+ menu item</h3>
 
-<p>Use the syntax <code class="language-plaintext highlighter-rouge">open:NaviMenu(embed_id)</code> in the <strong>Link</strong> field of any menu item.</p>
+<p>Use the syntax <code class="language-plaintext highlighter-rouge">open:NaviMenu(embed_id)</code> in the <strong>Link</strong> field of any menu item. The embed_id is shown in the modal and can be clicked to copy:</p>
 
-<p>Example: A Tabbar has a “Menu” item → Link = <code class="language-plaintext highlighter-rouge">open:NaviMenu(ABC123)</code> → tapping that item opens the Slide menu.</p>
-
-<p>The <strong>embed_id</strong> is shown in the modal and can be clicked to copy:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>open:NaviMenu(ABC123)
 </code></pre></div></div>
 
-<p>This is the most common approach — combining Tabbar + Slide menu to extend navigation space.</p>
+<p>Requires <strong>Business plan or above</strong> (needs 2+ menus).</p>
+
+<p><strong>Mobile — common use cases:</strong></p>
+<ul>
+  <li>A Tabbar with a first item like “☰ Menu” that opens the Slide menu — <strong>the most common setup</strong></li>
+  <li>A FAB &amp; Support menu with a single item that opens the Slide menu</li>
+  <li>A Mobile Mega menu with a “☰ Menu” item under the header</li>
+</ul>
+
+<p><strong>Desktop — common use cases:</strong></p>
+<ul>
+  <li>A Desktop Mega menu with a “☰ Menu” item — keeps a consistent experience with mobile</li>
+  <li>A Desktop Mega menu with a single “☰” item placed before the logo — mirrors the mobile hamburger on desktop (requires some CSS; <a href="mailto:support@naviplus.io">contact us</a> if you need help)</li>
+  <li>A FAB &amp; Support menu with a single item that opens the Slide menu</li>
+  <li>A Tabbar with a “☰ Menu” item</li>
+</ul>
 
 <hr />
 
-<h3 id="method-2-open-when-clicking-an-element-on-the-page-css-selector">Method 2: Open when clicking an element on the page (CSS Selector)</h3>
+<h3 id="method-2-open-when-clicking-an-element-css-selector">Method 2: Open when clicking an element (CSS Selector)</h3>
 
-<p>Enter one or more CSS Selectors, separated by commas. Navi+ listens for click/tap events on matching elements and opens the Slide menu.</p>
+<p>Enter one or more CSS Selectors, separated by commas (<code class="language-plaintext highlighter-rouge">,</code>).</p>
 
 <p><strong>Device-specific syntax:</strong></p>
 
@@ -4352,34 +4364,34 @@ Step 3: Configure trigger (how to open the menu)
   </tbody>
 </table>
 
-<p><strong>Examples for Shopify Dawn theme:</strong></p>
+<p><strong>Step 1 — find your selector:</strong></p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Purpose</th>
-      <th>CSS Selector</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Replace mobile hamburger menu</td>
-      <td><code class="language-plaintext highlighter-rouge">#Details-menu-drawer-container</code></td>
-    </tr>
-    <tr>
-      <td>Different selectors per device</td>
-      <td><code class="language-plaintext highlighter-rouge">#Details-menu-drawer-container(M), .desktop-menu-btn(D)</code></td>
-    </tr>
-  </tbody>
-</table>
+<p><em>On Shopify (Dawn, Craft, Spotlight…):</em>
+Try <code class="language-plaintext highlighter-rouge">#Details-menu-drawer-container</code> for the mobile hamburger menu. For other themes, use <strong>Navi+ Debug Mode</strong>: visit <code class="language-plaintext highlighter-rouge">yoursite.com/#navidebug-on</code>, hover the element, press <code class="language-plaintext highlighter-rouge">Cmd/Ctrl+C</code> to copy its selector.</p>
 
-<blockquote>
-  <p>After configuring a CSS Selector trigger, consider hiding the original element to avoid flash — see <a href="/docs/publish/publish-optimize/">Publish Optimize</a>.</p>
-</blockquote>
+<p><em>On desktop:</em>
+There’s usually no hamburger icon — you need to create a clickable trigger:</p>
+<ul>
+  <li>Add a “☰ Menu” item to your existing mega menu</li>
+  <li>Or place a ☰ icon before the logo using HTML/CSS (<a href="mailto:support@naviplus.io">contact us</a> if you need help)</li>
+</ul>
+
+<p><strong>Step 2 — optimize UX:</strong>
+Once set up, add a loading indicator to the replaced element to avoid layout flash — see <a href="/docs/publish/publish-optimize/">Publish Optimize</a>.</p>
 
 <hr />
 
-<h3 id="method-3-call-a-javascript-function">Method 3: Call a JavaScript function</h3>
+<h3 id="advanced-desktop-fixed-sidebar">Advanced (Desktop): Fixed Sidebar</h3>
+
+<p>Instead of open/close, the Slide menu can display as an always-visible sidebar on desktop.</p>
+
+<p><strong>How to enable:</strong> Go to <strong>Advanced</strong> → <strong>Slide-in direction</strong> → select the Fixed Sidebar option → enable “Display a fixed menu on desktop”.</p>
+
+<p>No trigger needed — the menu is always visible on desktop.</p>
+
+<hr />
+
+<h3 id="for-developers-javascript-function">For developers: JavaScript function</h3>
 
 <p>Call this function from anywhere in the page code:</p>
 
@@ -4387,16 +4399,6 @@ Step 3: Configure trigger (how to open the menu)
 </code></pre></div></div>
 
 <p>Suitable for integrating the Slide menu into custom UI without a fixed selector.</p>
-
-<hr />
-
-<h3 id="method-4-fixed-sidebar-on-desktop">Method 4: Fixed sidebar on desktop</h3>
-
-<p>Instead of open/close, the Slide menu can be pinned as a permanent left sidebar on desktop.</p>
-
-<p><strong>How to enable:</strong> Go to the <strong>Advance</strong> tab → select <strong>“Fix on left”</strong> direction.</p>
-
-<p>No trigger needed — the menu is always visible on desktop.</p>
 
 <hr />
 

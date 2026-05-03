@@ -50,28 +50,36 @@ Enable the **"Publish this menu"** toggle in the Publish modal.
 
 ## Step 3: Configure trigger
 
-There are 4 ways to open a Slide menu:
+The trigger UI is split into two tabs: **Mobile setup** and **Desktop setup**. Methods can be combined freely. A **For developers** zone sits outside the tabs.
 
 ---
 
 ### Method 1: Open from a Navi+ menu item
 
-Use the syntax `open:NaviMenu(embed_id)` in the **Link** field of any menu item.
+Use the syntax `open:NaviMenu(embed_id)` in the **Link** field of any menu item. The embed_id is shown in the modal and can be clicked to copy:
 
-Example: A Tabbar has a "Menu" item → Link = `open:NaviMenu(ABC123)` → tapping that item opens the Slide menu.
-
-The **embed_id** is shown in the modal and can be clicked to copy:
 ```
 open:NaviMenu(ABC123)
 ```
 
-This is the most common approach — combining Tabbar + Slide menu to extend navigation space.
+Requires **Business plan or above** (needs 2+ menus).
+
+**Mobile — common use cases:**
+- A Tabbar with a first item like "☰ Menu" that opens the Slide menu — **the most common setup**
+- A FAB & Support menu with a single item that opens the Slide menu
+- A Mobile Mega menu with a "☰ Menu" item under the header
+
+**Desktop — common use cases:**
+- A Desktop Mega menu with a "☰ Menu" item — keeps a consistent experience with mobile
+- A Desktop Mega menu with a single "☰" item placed before the logo — mirrors the mobile hamburger on desktop (requires some CSS; [contact us](mailto:support@naviplus.io) if you need help)
+- A FAB & Support menu with a single item that opens the Slide menu
+- A Tabbar with a "☰ Menu" item
 
 ---
 
-### Method 2: Open when clicking an element on the page (CSS Selector)
+### Method 2: Open when clicking an element (CSS Selector)
 
-Enter one or more CSS Selectors, separated by commas. Navi+ listens for click/tap events on matching elements and opens the Slide menu.
+Enter one or more CSS Selectors, separated by commas (`,`).
 
 **Device-specific syntax:**
 
@@ -81,18 +89,32 @@ Enter one or more CSS Selectors, separated by commas. Navi+ listens for click/ta
 | `#element(M)` | Mobile only |
 | `#element(D)` | Desktop only |
 
-**Examples for Shopify Dawn theme:**
+**Step 1 — find your selector:**
 
-| Purpose | CSS Selector |
-|---|---|
-| Replace mobile hamburger menu | `#Details-menu-drawer-container` |
-| Different selectors per device | `#Details-menu-drawer-container(M), .desktop-menu-btn(D)` |
+*On Shopify (Dawn, Craft, Spotlight...):*
+Try `#Details-menu-drawer-container` for the mobile hamburger menu. For other themes, use **Navi+ Debug Mode**: visit `yoursite.com/#navidebug-on`, hover the element, press `Cmd/Ctrl+C` to copy its selector.
 
-> After configuring a CSS Selector trigger, consider hiding the original element to avoid flash — see [Publish Optimize](/docs/publish/publish-optimize/).
+*On desktop:*
+There's usually no hamburger icon — you need to create a clickable trigger:
+- Add a "☰ Menu" item to your existing mega menu
+- Or place a ☰ icon before the logo using HTML/CSS ([contact us](mailto:support@naviplus.io) if you need help)
+
+**Step 2 — optimize UX:**
+Once set up, add a loading indicator to the replaced element to avoid layout flash — see [Publish Optimize](/docs/publish/publish-optimize/).
 
 ---
 
-### Method 3: Call a JavaScript function
+### Advanced (Desktop): Fixed Sidebar
+
+Instead of open/close, the Slide menu can display as an always-visible sidebar on desktop.
+
+**How to enable:** Go to **Advanced** → **Slide-in direction** → select the Fixed Sidebar option → enable "Display a fixed menu on desktop".
+
+No trigger needed — the menu is always visible on desktop.
+
+---
+
+### For developers: JavaScript function
 
 Call this function from anywhere in the page code:
 
@@ -101,16 +123,6 @@ naviman.openNaviMenu('EMBED_ID')
 ```
 
 Suitable for integrating the Slide menu into custom UI without a fixed selector.
-
----
-
-### Method 4: Fixed sidebar on desktop
-
-Instead of open/close, the Slide menu can be pinned as a permanent left sidebar on desktop.
-
-**How to enable:** Go to the **Advance** tab → select **"Fix on left"** direction.
-
-No trigger needed — the menu is always visible on desktop.
 
 ---
 

@@ -29,10 +29,10 @@
 <meta name="theme-color" content="#0f2d1e" />
 
 
-<title>Visibility & Conditions | Navi+ Help Center</title>
+<title>Visibilidad y condiciones | Navi+ Help Center</title>
 
 
-<meta name="description" content="How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding." />
+<meta name="description" content="Cómo controlar cuándo y para quién es visible un elemento de menú en Navi+ — estado de publicación, condiciones de inicio de sesión y ocultación por página." />
 
 <!-- Canonical & hreflang alternates -->
 <link rel="canonical" href="http://localhost:4445/es/docs/menu-items/item-visibility/" />
@@ -58,8 +58,8 @@
 <meta property="og:type"        content="article" />
 
 <meta property="og:url"         content="http://localhost:4445/es/docs/menu-items/item-visibility/" />
-<meta property="og:title"       content="Visibility &amp; Conditions" />
-<meta property="og:description" content="How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding." />
+<meta property="og:title"       content="Visibilidad y condiciones" />
+<meta property="og:description" content="Cómo controlar cuándo y para quién es visible un elemento de menú en Navi+ — estado de publicación, condiciones de inicio de sesión y ocultación por página." />
 
 <meta property="og:image"        content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
 <meta property="og:image:width"  content="1200" />
@@ -69,8 +69,8 @@
 <!-- Twitter -->
 <meta name="twitter:card"        content="summary_large_image" />
 <meta name="twitter:url"         content="http://localhost:4445/es/docs/menu-items/item-visibility/" />
-<meta name="twitter:title"       content="Visibility &amp; Conditions" />
-<meta name="twitter:description" content="How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding." />
+<meta name="twitter:title"       content="Visibilidad y condiciones" />
+<meta name="twitter:description" content="Cómo controlar cuándo y para quién es visible un elemento de menú en Navi+ — estado de publicación, condiciones de inicio de sesión y ocultación por página." />
 
 <meta name="twitter:image" content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
 
@@ -113,8 +113,8 @@
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Visibility & Conditions",
-  "description": "How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding.",
+  "headline": "Visibilidad y condiciones",
+  "description": "Cómo controlar cuándo y para quién es visible un elemento de menú en Navi+ — estado de publicación, condiciones de inicio de sesión y ocultación por página.",
   "url": "http://localhost:4445/es/docs/menu-items/item-visibility/",
   "inLanguage": "en",
   "isPartOf": {
@@ -4525,57 +4525,42 @@ document.addEventListener("DOMContentLoaded", function () {
         <!-- Main Content -->
         <main class="col-12 col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
           <div class="content-wrapper">
-            <h1 id="visibility--conditions">Visibility &amp; Conditions</h1>
+            <h1 id="visibilidad-y-condiciones">Visibilidad y condiciones</h1>
 
-<p>The <strong>Publish</strong> section in the Edit Item panel lets you control who sees an item, when, and on which pages.</p>
+<p>La sección <strong>Publicar</strong> en el panel de edición te permite controlar quién ve un elemento, cuándo y en qué páginas.</p>
 
 <hr />
 
-<h2 id="is-published">Is Published</h2>
+<h2 id="publicado">Publicado</h2>
 
-<p><strong>Default: on (item is visible to everyone).</strong></p>
+<p><strong>Por defecto: activado (elemento visible para todos).</strong></p>
 
-<p>Toggle this off to hide the item from the live menu without deleting it. The item stays in the editor — you can re-enable it at any time.</p>
+<p>Desactívalo para ocultar el elemento del menú en vivo sin eliminarlo.</p>
 
-<p><strong>Use when:</strong></p>
+<p><strong>Usar cuando:</strong></p>
 <ul>
-  <li>Temporarily hiding a seasonal sale link.</li>
-  <li>Preparing an item before it goes live.</li>
-  <li>Keeping a backup item without deleting it.</li>
+  <li>Ocultar temporalmente un enlace de venta estacional.</li>
+  <li>Preparar un elemento antes de que esté en vivo.</li>
+  <li>Guardar un elemento de respaldo sin eliminarlo.</li>
 </ul>
 
 <hr />
 
-<h2 id="hide-when-logged-in">Hide when logged in</h2>
+<h2 id="ocultar-cuando-está-conectado">Ocultar cuando está conectado</h2>
 
-<p>When enabled, the item is <strong>only visible to visitors who are not logged in</strong>.</p>
-
-<p><strong>Use for:</strong></p>
-<ul>
-  <li>A “Log in” button — customers who are already logged in don’t need it.</li>
-  <li>A “Create account” link.</li>
-</ul>
+<p>Visible <strong>solo para visitantes no conectados</strong>. Usar para: botón “Iniciar sesión”, enlace “Crear cuenta”.</p>
 
 <hr />
 
-<h2 id="only-show-when-logged-in">Only show when logged in</h2>
+<h2 id="mostrar-solo-cuando-está-conectado">Mostrar solo cuando está conectado</h2>
 
-<p>When enabled, the item is <strong>only visible to logged-in customers</strong>.</p>
-
-<p><strong>Use for:</strong></p>
-<ul>
-  <li>“My account” link.</li>
-  <li>Loyalty points, order history.</li>
-  <li>Features reserved for members.</li>
-</ul>
+<p>Visible <strong>solo para clientes conectados</strong>. Usar para: “Mi cuenta”, puntos de fidelidad, historial de pedidos.</p>
 
 <hr />
 
-<h2 id="hide-on-specific-page-types-hidepages">Hide on specific page types (hidepages)</h2>
+<h2 id="ocultar-en-tipos-de-páginas-específicos-hidepages">Ocultar en tipos de páginas específicos (hidepages)</h2>
 
-<p>Use the <code class="language-plaintext highlighter-rouge">hidepages</code> attribute in <strong>Advance → Attributes</strong> to hide an item on certain page types.</p>
-
-<p><strong>Syntax:</strong></p>
+<p>Usa <code class="language-plaintext highlighter-rouge">hidepages</code> en <strong>Avanzado → Atributos</strong>.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hidepages=index
 hidepages=index|products
@@ -4585,105 +4570,90 @@ hidepages=index|products|collections|pages|blogs|others
 <table>
   <thead>
     <tr>
-      <th>Value</th>
-      <th>Pages hidden on</th>
+      <th>Valor</th>
+      <th>Se oculta en</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">index</code></td>
-      <td>Home page</td>
+      <td>Página de inicio</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">products</code></td>
-      <td>Product detail pages</td>
+      <td>Páginas de producto</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">collections</code></td>
-      <td>Collection / category pages</td>
+      <td>Páginas de colección</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">pages</code></td>
-      <td>Static pages (About, Contact…)</td>
+      <td>Páginas estáticas</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">blogs</code></td>
-      <td>Blog listing and post pages</td>
+      <td>Blog</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">others</code></td>
-      <td>Any page not in the above categories</td>
+      <td>Otras páginas</td>
     </tr>
   </tbody>
 </table>
 
-<p>Separate multiple values with <code class="language-plaintext highlighter-rouge">|</code>, no spaces.</p>
-
-<p><strong>Example:</strong> Hide a “Buy now” button on the home page and blog pages:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hidepages=index|blogs
-</code></pre></div></div>
+<p><strong>Ejemplo:</strong> <code class="language-plaintext highlighter-rouge">hidepages=index|blogs</code></p>
 
 <hr />
 
-<h2 id="hide-by-device-mobile--desktop">Hide by device (Mobile / Desktop)</h2>
+<h2 id="ocultar-por-dispositivo">Ocultar por dispositivo</h2>
 
 <blockquote>
-  <p><strong>Important:</strong> Navi+ does not have a per-item mobile/desktop toggle. Device targeting is controlled at the <strong>menu level</strong>, not the item level.</p>
+  <p>Navi+ controla dispositivos a nivel de <strong>menú</strong>, no por elemento. Crea dos menús separados o usa CSS.</p>
 </blockquote>
 
-<p><strong>The correct approach:</strong></p>
-
-<ul>
-  <li>Go to the <strong>Publish</strong> tab of the menu → toggle <strong>Mobile</strong> and <strong>Desktop</strong> for the entire menu.</li>
-  <li>Create two separate menus — one for mobile, one for desktop — and set the device toggle on each.</li>
-</ul>
-
-<p><strong>Per-item workaround (if truly needed):</strong><br />
-Use <strong>Advance → CSS</strong> with a media query:</p>
-
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* Hide this item on mobile only */</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* Solo móvil */</span>
 <span class="k">@media</span> <span class="p">(</span><span class="n">max-width</span><span class="p">:</span> <span class="m">767px</span><span class="p">)</span> <span class="p">{</span> <span class="nl">display</span><span class="p">:</span> <span class="nb">none</span> <span class="cp">!important</span><span class="p">;</span> <span class="p">}</span>
 
-<span class="c">/* Hide this item on desktop only */</span>
+<span class="c">/* Solo desktop */</span>
 <span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="p">:</span> <span class="m">768px</span><span class="p">)</span> <span class="p">{</span> <span class="nl">display</span><span class="p">:</span> <span class="nb">none</span> <span class="cp">!important</span><span class="p">;</span> <span class="p">}</span>
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="summary">Summary</h2>
+<h2 id="resumen">Resumen</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Condition</th>
-      <th>How to set</th>
+      <th>Condición</th>
+      <th>Configuración</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Hide completely</td>
-      <td>Is Published → off</td>
+      <td>Ocultar completamente</td>
+      <td>Publicado → desactivado</td>
     </tr>
     <tr>
-      <td>Hide from logged-in users</td>
-      <td>Hide when logged in → on</td>
+      <td>Ocultar a conectados</td>
+      <td>Ocultar cuando conectado → activado</td>
     </tr>
     <tr>
-      <td>Hide from guests</td>
-      <td>Only show when logged in → on</td>
+      <td>Ocultar a visitantes</td>
+      <td>Mostrar solo cuando conectado → activado</td>
     </tr>
     <tr>
-      <td>Hide on home page</td>
-      <td>Attributes: <code class="language-plaintext highlighter-rouge">hidepages=index</code></td>
+      <td>Ocultar en inicio</td>
+      <td><code class="language-plaintext highlighter-rouge">hidepages=index</code></td>
     </tr>
     <tr>
-      <td>Hide on mobile</td>
-      <td>CSS: <code class="language-plaintext highlighter-rouge">@media (max-width: 767px) { display: none !important; }</code></td>
+      <td>Ocultar en móvil</td>
+      <td>CSS <code class="language-plaintext highlighter-rouge">@media (max-width: 767px)</code></td>
     </tr>
     <tr>
-      <td>Hide on desktop</td>
-      <td>CSS: <code class="language-plaintext highlighter-rouge">@media (min-width: 768px) { display: none !important; }</code></td>
+      <td>Ocultar en desktop</td>
+      <td>CSS <code class="language-plaintext highlighter-rouge">@media (min-width: 768px)</code></td>
     </tr>
   </tbody>
 </table>

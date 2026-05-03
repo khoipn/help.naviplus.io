@@ -29,10 +29,10 @@
 <meta name="theme-color" content="#0f2d1e" />
 
 
-<title>Link Types | Navi+ Help Center</title>
+<title>链接类型 | Navi+ Help Center</title>
 
 
-<meta name="description" content="All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript." />
+<meta name="description" content="Navi+ 支持的所有链接类型 — 内部页面、外部URL、锚点、打开面板、电话/邮件、聊天应用、分享和JavaScript。" />
 
 <!-- Canonical & hreflang alternates -->
 <link rel="canonical" href="http://localhost:4445/zh-cn/docs/menu-items/item-link-types/" />
@@ -58,8 +58,8 @@
 <meta property="og:type"        content="article" />
 
 <meta property="og:url"         content="http://localhost:4445/zh-cn/docs/menu-items/item-link-types/" />
-<meta property="og:title"       content="Link Types" />
-<meta property="og:description" content="All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript." />
+<meta property="og:title"       content="链接类型" />
+<meta property="og:description" content="Navi+ 支持的所有链接类型 — 内部页面、外部URL、锚点、打开面板、电话/邮件、聊天应用、分享和JavaScript。" />
 
 <meta property="og:image"        content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
 <meta property="og:image:width"  content="1200" />
@@ -69,8 +69,8 @@
 <!-- Twitter -->
 <meta name="twitter:card"        content="summary_large_image" />
 <meta name="twitter:url"         content="http://localhost:4445/zh-cn/docs/menu-items/item-link-types/" />
-<meta name="twitter:title"       content="Link Types" />
-<meta name="twitter:description" content="All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript." />
+<meta name="twitter:title"       content="链接类型" />
+<meta name="twitter:description" content="Navi+ 支持的所有链接类型 — 内部页面、外部URL、锚点、打开面板、电话/邮件、聊天应用、分享和JavaScript。" />
 
 <meta name="twitter:image" content="http://localhost:4445/assets/images/naviplus-social-share.jpg" />
 
@@ -113,8 +113,8 @@
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Link Types",
-  "description": "All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript.",
+  "headline": "链接类型",
+  "description": "Navi+ 支持的所有链接类型 — 内部页面、外部URL、锚点、打开面板、电话/邮件、聊天应用、分享和JavaScript。",
   "url": "http://localhost:4445/zh-cn/docs/menu-items/item-link-types/",
   "inLanguage": "en",
   "isPartOf": {
@@ -4525,76 +4525,74 @@ document.addEventListener("DOMContentLoaded", function () {
         <!-- Main Content -->
         <main class="col-12 col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
           <div class="content-wrapper">
-            <h1 id="link-types">Link Types</h1>
+            <h1 id="链接类型">链接类型</h1>
 
-<p>The <strong>Link To</strong> field in Basic Info controls what happens when a visitor taps or clicks an item. Navi+ supports many link types beyond a plain URL.</p>
+<p>基本信息中的 <strong>链接到</strong> 字段控制访客点击或点击菜单项时发生的事情。Navi+ 支持多种链接类型，不仅仅是普通的 URL。</p>
 
-<p>When you click the Link To field, a help popup opens automatically with full examples. You can also type directly into the field.</p>
+<p>点击链接到字段时，会自动打开包含完整示例的帮助弹出框。也可以直接在字段中输入。</p>
 
 <hr />
 
-<h2 id="1-internal-store-pages">1. Internal store pages</h2>
+<h2 id="1-内部商店页面">1. 内部商店页面</h2>
 
-<p>Use short paths (no domain) to link to pages within your Shopify store.</p>
+<p>使用短路径（无域名）链接到 Shopify 商店内的页面。</p>
 
 <table>
   <thead>
     <tr>
-      <th>Destination</th>
-      <th>Enter</th>
+      <th>目标</th>
+      <th>输入</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Home page</td>
-      <td><em>(leave empty)</em></td>
+      <td>首页</td>
+      <td><em>(留空)</em></td>
     </tr>
     <tr>
-      <td>All products</td>
+      <td>所有产品</td>
       <td><code class="language-plaintext highlighter-rouge">collections/all</code></td>
     </tr>
     <tr>
-      <td>A collection</td>
+      <td>某个系列</td>
       <td><code class="language-plaintext highlighter-rouge">collections/collection-handle</code></td>
     </tr>
     <tr>
-      <td>A product page</td>
+      <td>产品页面</td>
       <td><code class="language-plaintext highlighter-rouge">products/product-handle</code></td>
     </tr>
     <tr>
-      <td>A static page (About, FAQ…)</td>
+      <td>静态页面</td>
       <td><code class="language-plaintext highlighter-rouge">pages/page-handle</code></td>
     </tr>
     <tr>
-      <td>Blog listing</td>
+      <td>博客列表</td>
       <td><code class="language-plaintext highlighter-rouge">blogs/news</code></td>
     </tr>
     <tr>
-      <td>A blog post</td>
+      <td>博客文章</td>
       <td><code class="language-plaintext highlighter-rouge">blogs/news/post-handle</code></td>
     </tr>
     <tr>
-      <td>Cart</td>
+      <td>购物车</td>
       <td><code class="language-plaintext highlighter-rouge">cart</code></td>
     </tr>
     <tr>
-      <td>Search</td>
+      <td>搜索</td>
       <td><code class="language-plaintext highlighter-rouge">search</code></td>
     </tr>
     <tr>
-      <td>Contact</td>
+      <td>联系</td>
       <td><code class="language-plaintext highlighter-rouge">pages/contact</code></td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>Auto Clean tip:</strong> Paste a full URL (e.g. <code class="language-plaintext highlighter-rouge">https://mystore.com/collections/sale</code>) → enable the <strong>Auto clean</strong> toggle → the system strips the domain and keeps only <code class="language-plaintext highlighter-rouge">collections/sale</code>.</p>
+<p><strong>Auto Clean 提示：</strong> 粘贴完整 URL → 启用 <strong>Auto clean</strong> 开关 → 系统自动去掉域名，只保留路径。</p>
 
 <hr />
 
-<h2 id="2-full-url-external-link">2. Full URL (External link)</h2>
-
-<p>Link to any website using a full URL.</p>
+<h2 id="2-完整-url外部链接">2. 完整 URL（外部链接）</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://brand.com/campaign
 https://instagram.com/yourpage
@@ -4602,9 +4600,9 @@ https://instagram.com/yourpage
 
 <hr />
 
-<h2 id="3-open-in-new-tab">3. Open in new tab</h2>
+<h2 id="3-在新标签页中打开">3. 在新标签页中打开</h2>
 
-<p>Append <code class="language-plaintext highlighter-rouge">@new</code> to any link to open it in a new tab.</p>
+<p>在任意链接末尾添加 <code class="language-plaintext highlighter-rouge">@new</code>。</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>collections/all@new
 https://brand.com/campaign@new
@@ -4612,108 +4610,99 @@ https://brand.com/campaign@new
 
 <hr />
 
-<h2 id="4-no-navigation-parent-item">4. No navigation (parent item)</h2>
-
-<p>Use <code class="language-plaintext highlighter-rouge">#</code> when an item is a parent that contains child items — tapping it expands the children without navigating anywhere.</p>
+<h2 id="4-无导航父级菜单项">4. 无导航（父级菜单项）</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="5-scroll-anchor">5. Scroll (Anchor)</h2>
+<h2 id="5-滚动锚点">5. 滚动（锚点）</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Action</th>
-      <th>Syntax</th>
+      <th>操作</th>
+      <th>语法</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Scroll to top</td>
+      <td>滚到顶部</td>
       <td><code class="language-plaintext highlighter-rouge">scroll:Top</code></td>
     </tr>
     <tr>
-      <td>Scroll to top with 100px offset</td>
+      <td>滚到顶部偏移100px</td>
       <td><code class="language-plaintext highlighter-rouge">scroll:Top(100)</code></td>
     </tr>
     <tr>
-      <td>Scroll to bottom</td>
+      <td>滚到底部</td>
       <td><code class="language-plaintext highlighter-rouge">scroll:Bottom</code></td>
     </tr>
     <tr>
-      <td>Scroll to a section by CSS selector</td>
+      <td>滚到CSS选择器指定的区域</td>
       <td><code class="language-plaintext highlighter-rouge">scroll:OnPage(#section-id)</code> <em>(Business / Elite)</em></td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>Example:</strong> A “Back to top” button → Link To is <code class="language-plaintext highlighter-rouge">scroll:Top</code>.</p>
-
 <hr />
 
-<h2 id="6-open-panel--popup-business--elite">6. Open panel / popup <em>(Business / Elite)</em></h2>
-
-<p>Open theme UI components without leaving the page.</p>
+<h2 id="6-打开面板--弹出框-business--elite">6. 打开面板 / 弹出框 <em>(Business / Elite)</em></h2>
 
 <table>
   <thead>
     <tr>
-      <th>Action</th>
-      <th>Syntax</th>
+      <th>操作</th>
+      <th>语法</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Open a Navi+ Slide menu</td>
+      <td>打开 Navi+ 滑动菜单</td>
       <td><code class="language-plaintext highlighter-rouge">open:NaviMenu(SF-XXXXXXXXXX)</code></td>
     </tr>
     <tr>
-      <td>Click a CSS element</td>
+      <td>点击 CSS 元素</td>
       <td><code class="language-plaintext highlighter-rouge">open:clickTo(#cart-button)</code></td>
     </tr>
     <tr>
-      <td>Focus an input field</td>
+      <td>聚焦输入框</td>
       <td><code class="language-plaintext highlighter-rouge">open:focusTo(.search-input)</code></td>
     </tr>
     <tr>
-      <td>Open theme search / cart drawer</td>
-      <td>Use the help popup → <em>Open panels</em></td>
+      <td>打开主题搜索/购物车抽屉</td>
+      <td>帮助弹出框 → <em>打开面板</em></td>
     </tr>
     <tr>
-      <td>Open Shopify Inbox chat</td>
-      <td>Use the help popup → <em>Open other applications</em></td>
+      <td>打开 Shopify Inbox 聊天</td>
+      <td>帮助弹出框 → <em>打开其他应用</em></td>
     </tr>
   </tbody>
 </table>
 
-<p><code class="language-plaintext highlighter-rouge">open:clickTo</code> and <code class="language-plaintext highlighter-rouge">open:focusTo</code> accept <code class="language-plaintext highlighter-rouge">Down</code> or <code class="language-plaintext highlighter-rouge">Up</code> to scroll before acting:<br />
-<code class="language-plaintext highlighter-rouge">open:clickTo(.footer-element, Down)</code></p>
-
 <hr />
 
-<h2 id="7-phone-sms-email">7. Phone, SMS, Email</h2>
+<h2 id="7-电话短信邮件">7. 电话、短信、邮件</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Action</th>
-      <th>Syntax</th>
+      <th>操作</th>
+      <th>语法</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Phone call</td>
-      <td><code class="language-plaintext highlighter-rouge">tel:+12125550100</code></td>
+      <td>拨打电话</td>
+      <td><code class="language-plaintext highlighter-rouge">tel:+8610123456</code></td>
     </tr>
     <tr>
-      <td>SMS</td>
-      <td><code class="language-plaintext highlighter-rouge">sms:+12125550100?body=Hello</code></td>
+      <td>短信</td>
+      <td><code class="language-plaintext highlighter-rouge">sms:+8610123456?body=您好</code></td>
     </tr>
     <tr>
-      <td>Email</td>
+      <td>邮件</td>
       <td><code class="language-plaintext highlighter-rouge">mailto:hello@yourdomain.com</code></td>
     </tr>
   </tbody>
@@ -4721,19 +4710,19 @@ https://brand.com/campaign@new
 
 <hr />
 
-<h2 id="8-chat-apps">8. Chat apps</h2>
+<h2 id="8-聊天应用">8. 聊天应用</h2>
 
 <table>
   <thead>
     <tr>
-      <th>App</th>
-      <th>Syntax</th>
+      <th>应用</th>
+      <th>语法</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>WhatsApp</td>
-      <td><code class="language-plaintext highlighter-rouge">https://wa.me/12125550100</code> <em>(no + prefix)</em></td>
+      <td><code class="language-plaintext highlighter-rouge">https://wa.me/8610123456</code></td>
     </tr>
     <tr>
       <td>Messenger</td>
@@ -4752,30 +4741,30 @@ https://brand.com/campaign@new
 
 <hr />
 
-<h2 id="9-share">9. Share</h2>
+<h2 id="9-分享">9. 分享</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Action</th>
-      <th>Syntax</th>
+      <th>操作</th>
+      <th>语法</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Share current page (native share dialog)</td>
+      <td>分享当前页面</td>
       <td><code class="language-plaintext highlighter-rouge">open:ShareMe</code></td>
     </tr>
     <tr>
-      <td>Copy URL to clipboard</td>
+      <td>复制 URL</td>
       <td><code class="language-plaintext highlighter-rouge">share:CopyUrl</code></td>
     </tr>
     <tr>
-      <td>Share to Facebook</td>
+      <td>分享到 Facebook</td>
       <td><code class="language-plaintext highlighter-rouge">share:Facebook</code></td>
     </tr>
     <tr>
-      <td>Share to Twitter / X</td>
+      <td>分享到 Twitter / X</td>
       <td><code class="language-plaintext highlighter-rouge">share:Tweet</code></td>
     </tr>
   </tbody>
@@ -4783,9 +4772,7 @@ https://brand.com/campaign@new
 
 <hr />
 
-<h2 id="10-call-javascript">10. Call JavaScript</h2>
-
-<p>Call any JavaScript function defined on the page.</p>
+<h2 id="10-调用-javascript">10. 调用 JavaScript</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>javascript:openCustomModal
 javascript:toggleDarkMode
@@ -4793,11 +4780,11 @@ javascript:toggleDarkMode
 
 <hr />
 
-<h2 id="11-switch-language">11. Switch language</h2>
+<h2 id="11-切换语言">11. 切换语言</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>open:ChangeLanguage(fr)    ← switch to French
-open:ChangeLanguage(vi)    ← switch to Vietnamese
-open:ChangeLanguage()      ← reset to default language
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>open:ChangeLanguage(zh-cn)
+open:ChangeLanguage(en)
+open:ChangeLanguage()
 </code></pre></div></div>
                                
 <nav class="prev-next-nav" aria-label="Page navigation">
