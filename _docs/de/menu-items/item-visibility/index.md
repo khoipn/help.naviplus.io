@@ -1,52 +1,52 @@
 ---
-description: How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding.
+description: So steuern Sie, wann und für wen ein Menüelement in Navi+ sichtbar ist — Veröffentlichungsstatus, Login-Bedingungen und seitenbasiertes Ausblenden.
 layout: default
 permalink: /de/docs/menu-items/item-visibility/
-title: Visibility & Conditions
+title: Sichtbarkeit & Bedingungen
 ---
-# Visibility & Conditions
+# Sichtbarkeit & Bedingungen
 
-The **Publish** section in the Edit Item panel lets you control who sees an item, when, and on which pages.
-
----
-
-## Is Published
-
-**Default: on (item is visible to everyone).**
-
-Toggle this off to hide the item from the live menu without deleting it. The item stays in the editor — you can re-enable it at any time.
-
-**Use when:**
-- Temporarily hiding a seasonal sale link.
-- Preparing an item before it goes live.
-- Keeping a backup item without deleting it.
+Der Abschnitt **Veröffentlichen** im Bearbeitungspanel ermöglicht Ihnen zu steuern, wer ein Element sieht, wann und auf welchen Seiten.
 
 ---
 
-## Hide when logged in
+## Veröffentlicht
 
-When enabled, the item is **only visible to visitors who are not logged in**.
+**Standard: an (Element ist für alle sichtbar).**
 
-**Use for:**
-- A "Log in" button — customers who are already logged in don't need it.
-- A "Create account" link.
+Deaktivieren Sie dies, um das Element im Live-Menü auszublenden, ohne es zu löschen. Das Element bleibt im Editor — Sie können es jederzeit wieder aktivieren.
 
----
-
-## Only show when logged in
-
-When enabled, the item is **only visible to logged-in customers**.
-
-**Use for:**
-- "My account" link.
-- Loyalty points, order history.
-- Features reserved for members.
+**Verwenden wenn:**
+- Ein saisonales Angebot vorübergehend ausgeblendet werden soll.
+- Ein Element vorbereitet wird, bevor es live geht.
+- Ein Backup-Element ohne Löschen aufbewahrt wird.
 
 ---
 
-## Hide on specific page types (hidepages)
+## Ausblenden wenn eingeloggt
 
-Use the `hidepages` attribute in **Advance → Attributes** to hide an item on certain page types.
+Wenn aktiviert, ist das Element **nur für nicht eingeloggte Besucher sichtbar**.
+
+**Verwenden für:**
+- Einen „Einloggen"-Button — Kunden, die bereits eingeloggt sind, brauchen ihn nicht.
+- Einen „Konto erstellen"-Link.
+
+---
+
+## Nur anzeigen wenn eingeloggt
+
+Wenn aktiviert, ist das Element **nur für eingeloggte Kunden sichtbar**.
+
+**Verwenden für:**
+- „Mein Konto"-Link.
+- Treuepunkte, Bestellhistorie.
+- Funktionen für Mitglieder.
+
+---
+
+## Auf bestimmten Seitentypen ausblenden (hidepages)
+
+Verwenden Sie das Attribut `hidepages` unter **Erweitert → Attribute**, um ein Element auf bestimmten Seitentypen auszublenden.
 
 **Syntax:**
 
@@ -56,18 +56,18 @@ hidepages=index|products
 hidepages=index|products|collections|pages|blogs|others
 ```
 
-| Value | Pages hidden on |
+| Wert | Seiten, auf denen ausgeblendet wird |
 |---|---|
-| `index` | Home page |
-| `products` | Product detail pages |
-| `collections` | Collection / category pages |
-| `pages` | Static pages (About, Contact…) |
-| `blogs` | Blog listing and post pages |
-| `others` | Any page not in the above categories |
+| `index` | Startseite |
+| `products` | Produktdetailseiten |
+| `collections` | Kollektions- / Kategorieseiten |
+| `pages` | Statische Seiten (Über uns, Kontakt…) |
+| `blogs` | Blog-Liste und Beitragsseiten |
+| `others` | Jede Seite, die nicht in den obigen Kategorien ist |
 
-Separate multiple values with `|`, no spaces.
+Mehrere Werte mit `|` trennen, keine Leerzeichen.
 
-**Example:** Hide a "Buy now" button on the home page and blog pages:
+**Beispiel:** „Jetzt kaufen"-Button auf der Startseite und Blog-Seiten ausblenden:
 
 ```
 hidepages=index|blogs
@@ -75,35 +75,34 @@ hidepages=index|blogs
 
 ---
 
-## Hide by device (Mobile / Desktop)
+## Nach Gerät ausblenden (Mobil / Desktop)
 
-> **Important:** Navi+ does not have a per-item mobile/desktop toggle. Device targeting is controlled at the **menu level**, not the item level.
+> **Wichtig:** Navi+ hat keinen Ein-/Aus-Schalter pro Element für Mobil/Desktop. Die Gerätesteuerung erfolgt auf **Menü-Ebene**, nicht auf Element-Ebene.
 
-**The correct approach:**
+**Der richtige Ansatz:**
+- Gehen Sie zum Tab **Veröffentlichen** des Menüs → schalten Sie **Mobil** und **Desktop** für das gesamte Menü um.
+- Erstellen Sie zwei separate Menüs — eines für Mobil, eines für Desktop.
 
-- Go to the **Publish** tab of the menu → toggle **Mobile** and **Desktop** for the entire menu.
-- Create two separate menus — one for mobile, one for desktop — and set the device toggle on each.
-
-**Per-item workaround (if truly needed):**  
-Use **Advance → CSS** with a media query:
+**Workaround pro Element (wenn wirklich nötig):**  
+Verwenden Sie **Erweitert → CSS** mit einer Media Query:
 
 ```css
-/* Hide this item on mobile only */
+/* Nur auf Mobil ausblenden */
 @media (max-width: 767px) { display: none !important; }
 
-/* Hide this item on desktop only */
+/* Nur auf Desktop ausblenden */
 @media (min-width: 768px) { display: none !important; }
 ```
 
 ---
 
-## Summary
+## Zusammenfassung
 
-| Condition | How to set |
+| Bedingung | Einstellung |
 |---|---|
-| Hide completely | Is Published → off |
-| Hide from logged-in users | Hide when logged in → on |
-| Hide from guests | Only show when logged in → on |
-| Hide on home page | Attributes: `hidepages=index` |
-| Hide on mobile | CSS: `@media (max-width: 767px) { display: none !important; }` |
-| Hide on desktop | CSS: `@media (min-width: 768px) { display: none !important; }` |
+| Vollständig ausblenden | Veröffentlicht → aus |
+| Vor eingeloggten Nutzern ausblenden | Ausblenden wenn eingeloggt → an |
+| Vor Gästen ausblenden | Nur anzeigen wenn eingeloggt → an |
+| Auf Startseite ausblenden | Attribute: `hidepages=index` |
+| Auf Mobil ausblenden | CSS: `@media (max-width: 767px) { display: none !important; }` |
+| Auf Desktop ausblenden | CSS: `@media (min-width: 768px) { display: none !important; }` |

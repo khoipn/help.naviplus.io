@@ -1,84 +1,86 @@
 ---
-description: Here you'll find guides on how to connect Navi+ with other apps (like Chat tools, Loyalty, etc.). You can add them as menu items, open apps directly from Nav...
+description: Guide su come connettere Navi+ con altre app (come strumenti di chat, Loyalty, ecc.). Puoi aggiungerle come voci di menu, aprire le app direttamente da Navi+ e assicurarti che tutto funzioni senza sovrapposizioni.
 lang: it
 layout: default
 permalink: /it/docs/integrations/integrating-navi-with-your-website-and-external-apps/
-title: Integrating Navi+ with your website and external apps
+title: Integrare Navi+ con il tuo sito e app esterne
 ---
-# Integrating Navi+ with your website and external apps
+# Integrare Navi+ con il tuo sito e app esterne
 
-Here you'll find guides on how to connect Navi+ with other apps (like Chat tools, Loyalty, etc.). You can add them as menu items, open apps directly from Navi+, and make sure everything works together smoothly without overlapping on your site.
+Qui troverai guide su come connettere Navi+ con altre app (come strumenti di chat, Loyalty, ecc.). Puoi aggiungerle come voci di menu, aprire le app direttamente da Navi+ e assicurarti che tutto funzioni insieme senza sovrapposizioni sul tuo sito.
 
-### 1. Integrate other sticky apps into a single Navi+ menu item
+### 1. Integrare altre app sticky in una singola voce del menu Navi+
 
-Navi+ consolidates multiple apps (Chat Box, Loyalty, Social Proof, Promo bars, etc.) into menu items, keeping your website clean and preventing overlaps—especially valuable on mobile devices with limited screen space.\To achieve this, follow these 2 steps:
+Navi+ consolida più app (Chat Box, Loyalty, Social Proof, barre promozionali, ecc.) nelle voci di menu, mantenendo il sito pulito e prevenendo sovrapposizioni — particolarmente utile sui dispositivi mobili con spazio limitato.\
+Per fare questo, segui questi 2 passaggi:
 
-• Step 1: Hide sticky app icons using CSS. See detail here\• Step 2: Use JavaScript for menu items so that clicking them opens the respective app panels.
+• Passo 1: Nascondi le icone delle app sticky usando CSS.\
+• Passo 2: Usa JavaScript per le voci di menu in modo che cliccandole si aprano i rispettivi pannelli delle app.
 
-See the example of Tidi chat integration. This is a relatively advanced setup, so please contact Navi+ support for assistance.
+Guarda l'esempio dell'integrazione di Tidio chat. Questa è una configurazione relativamente avanzata, quindi contatta il supporto Navi+ per assistenza.
 
-### 2. JavaScript triggers – interact with external apps
+### 2. Trigger JavaScript – interagire con app esterne
 
-Navi+ allows running JavaScript functions from menu items when clicked by users (javascript:Function). See the example of Tidi chat integration to understand how to use two JavaScript functions to integrate Tidio chat as a Navi+ menu item:
+Navi+ permette di eseguire funzioni JavaScript dalle voci di menu quando vengono cliccate dagli utenti (javascript:Funzione). Guarda l'esempio dell'integrazione di Tidio chat per capire come usare due funzioni JavaScript per integrare la chat Tidio come voce del menu Navi+:
 
-1. Hide Tidio icon: A global function that waits for Tidio to render, then hides it
-2. openTidio(): Opens Tidio's chat panel when users click the "Chat with us" menu item
+1. Nascondere l'icona Tidio: Una funzione globale che attende il rendering di Tidio, poi la nasconde
+2. openTidio(): Apre il pannello chat di Tidio quando gli utenti cliccano sulla voce di menu "Chatta con noi"
 
-Navi+ also support you define the class and attribute assignments (even in the form of id="menu-item-1") to enable interaction with other applications or JavaScript code. You can use JavaScript functions to directly access menu items via class or attribute, for example: to create a walkthrough tutorial.
+Navi+ supporta anche la definizione di assegnazioni di classi e attributi (anche nella forma id="menu-item-1") per abilitare l'interazione con altre applicazioni o codice JavaScript.
 
-### 3. Customizing Navi+ Interface with External CSS
+### 3. Personalizzare l'interfaccia Navi+ con CSS esterno
 
-Each Navi+ menu is defined by a div element with id="SF-123456789" (embeded id). View the HTML/CSS structure framework of a Navi+ menu here to write CSS code for customizing the menu interface.\For example, to change the color of a level 2 menu item, you can write the following CSS:
+Ogni menu Navi+ è definito da un elemento div con id="SF-123456789" (id incorporato). Visualizza il framework strutturale HTML/CSS di un menu Navi+ per scrivere codice CSS per personalizzare l'interfaccia del menu.\
+Ad esempio, per cambiare il colore di una voce di menu di livello 2:
 
 `#SF-123456789 ul li ul.children li .name { color: red; }`
 
-Navi+ also support you define the class and attribute assignments (even in the form of id="menu-item-1") to enable interaction with other applications or JavaScript code. You can style each menu item using class names or attributes.
+### 4. Comunicazione tra menu Navi+
 
-### 4. Communication Between Navi+ Menus
+Da una voce del menu Navi+, puoi chiamare per aprire un altro Slide menu Navi+ usando la sintassi: `open:NaviMenu.`\
+Con questa sintassi, puoi espandere infinitamente i livelli del menu facendo chiamare tra loro slide menu.
 
-From a Navi+ menu item, you can call to open another Navi+ Slide menu using the syntax: `open:NaviMenu.`\With this syntax, you can infinitely expand menu levels by having slide menus call other slide menus.
+### 5. Aprire uno Slide Menu da qualsiasi punto del sito
 
-### 5. Open a Slide Menu from anywhere on your website
+Con gli slide menu, oltre ad aprirli tramite voci di menu da altri menu Navi+, puoi anche attivare uno slide menu Navi+ chiamando la funzione JavaScript: `naviman.openNaviMenu()`.
 
-With slide menus, in addition to opening them via menu items from other Navi+ menus, you can also trigger a Navi+ slide menu by calling the JavaScript function: `naviman.openNaviMenu()`.\For example: Create a floating button using HTML and CSS, then assign its click action to open a Navi+ Slide menu – you'll instantly have a professional-looking menu.
+### 6. Simulare azioni utente (click, focus, scroll, ecc.)
 
-### 6. Simulate user actions (click, focus, scroll, etc.)
+Navi+ fornisce diverse funzioni (attivate quando si clicca su una voce di menu):
 
-Navi+ provides several functions (triggered when a menu item is clicked):
+* `open:clickTo` per simulare un click su un selettore CSS HTML — utile per attivare menu hamburger, ricerca, pannelli carrello, menu a tendina per la lingua...
+* `open:focusTo` per simulare il focus su un selettore CSS HTML — utile per simulare click su strumenti di ricerca
+* `scroll:Top`, `scroll:Bottom`, `scroll:OnPage` per scorrere la pagina web all'area desiderata
 
-* `open:clickTo` to simulate clicking on an HTML CSS Selector. This is extremely helpful for enabling Navi+ menu to trigger default hamburger menus, search tools, cart panels, language dropdowns... or activate chat tools from other apps.
-* `open:focusTo` to simulate focusing on an HTML CSS Selector. This is extremely useful for simulating clicks on search tools or email subscription fields
-* `scroll:Top`, `scroll:Bottom`, `scroll:OnPage` to scroll the webpage to the desired area. This is extremely useful when you want to scroll to a target section on the page instead of navigating to a different page.
+### 7. Per condivisione e coinvolgimento del sito
 
-### 7. For sharing and improving site engagement
+Navi+ fornisce diverse funzioni (attivate quando si clicca su una voce di menu):
 
-Navi+ provides several functions (triggered when a menu item is clicked):
+* `open:ShareMe` per condividere il link del sito
+* `share:CopyUrl` per copiare l'URL corrente negli appunti
+* `share:Facebook` per condividere l'URL corrente su Facebook
+* `share:Tweet` per condividere l'URL corrente su Twitter (X)
 
-* `open:ShareMe` to share the website link
-* `share:CopyUrl` to copy current URL to clipboard of device
-* `share:Facebook` to share current URL to Facebook
-* `share:Tweet` to share current URL to Twitter (X)
+### 8. Integrazione con altre app del dispositivo (come il telefono)
 
-### 8. Integration with other device apps (such as Phone)
+Navi+ fornisce diverse funzioni (attivate quando si clicca su una voce di menu):
 
-Navi+ provides several functions (triggered when a menu item is clicked):
+* `tel:+[Prefisso][Telefono]` per chiamare un numero
+* `sms:+[Prefisso][Telefono]?body=[Testo]` per inviare un SMS
+* `mailto:[Indirizzo]` per inviare un'email
+* `https://m.me/[TuoNome]` per chattare su Facebook Messenger
+* `https://wa.me/[Telefono]` per chattare su WhatsApp
+* `https://lin.ee/[codice-line]` per chattare su Line
+* `https://zalo.me/+[Prefisso][Telefono]` per chattare su Zalo
 
-* `tel:+[Country code][Phone]` to call to number
-* `sms:+[Country code][Phone]?body=[Text]` to send SMS message to number with a setup content (optional)
-* `mailto:[Address]` to send an email
-* `https://m.me/[YourName]` to chat with your Facebook Messenger
-* `https://wa.me/[Phone]` to chat with your WhatsApp
-* `https://lin.ee/[line-code]` to chat with your Line
-* `https://zalo.me/+[Country code][Phone]` to chat with your Zalo
+### 9. Solo per Shopify
 
-### 9. For Shopify Only
+Navi+ fornisce diverse funzioni (attivate quando si clicca su una voce di menu):
 
-Navi+ provides several functions (triggered when a menu item is clicked):
+* `open:ChangeLanguage` per cambiare la lingua se il sito usa Shopify
+* Shopify Inbox: Nascondi l'icona di Shopify Inbox e integrala nel menu Navi+ come voce che apre il pannello chat al click
+* Aprire il menu hamburger o il pannello carrello/ricerca: Vedi i dettagli qui
 
-* `open:ChangeLanguage` to change language if the website uses Shopify
-* Shopify Inbox: Hide the Shopify Inbox icon and integrate it into Navi+ menu as a menu item that opens the chat panel on click. See detail here
-* Open the hamburger menu or cart, search panel: See detail here
+### Non lo trovi nella lista?
 
-### Don’t see it in the list?
-
-Feel free to send me your integration request. I'm glad to help, and it also supports Navi+'s growth.
+Inviami pure la tua richiesta di integrazione. Sono felice di aiutare, e supporta anche la crescita di Navi+.

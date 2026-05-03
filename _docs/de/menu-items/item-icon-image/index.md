@@ -1,96 +1,96 @@
 ---
-description: How to add built-in icons and custom images to menu items in Navi+, and how to style them.
+description: So fügen Sie integrierte Icons und eigene Bilder zu Menüelementen in Navi+ hinzu und passen sie an.
 layout: default
 permalink: /de/docs/menu-items/item-icon-image/
-title: Icons & Images
+title: Icons & Bilder
 ---
-# Icons & Images
+# Icons & Bilder
 
-Each item can have one visual element — either a **built-in icon** or a **custom image**. You can only use one at a time, not both.
-
----
-
-## Built-in icon
-
-Icons are vector symbols from the integrated **Remixicon** library. They are crisp at any size and require no file upload.
-
-### How to add
-
-1. In the Edit Item panel, click the **Icon** button.
-2. The icon search box opens — type a keyword (e.g. `home`, `cart`, `phone`, `search`).
-3. Click an icon to select it — a preview appears on the item immediately.
-4. Click **×** to remove the current icon.
-
-### When to use icons
-
-- Items in a **Tab Bar** — icons are the standard way to label tabs.
-- When you want a clean, consistent look.
-- When you don't have custom images ready.
+Jedes Element kann ein visuelles Element haben — entweder ein **integriertes Icon** oder ein **eigenes Bild**. Sie können jeweils nur eines verwenden, nicht beide gleichzeitig.
 
 ---
 
-## Custom image
+## Integriertes Icon
 
-Use your own photo, logo, or graphic instead of a library icon.
+Icons sind Vektorsymbole aus der integrierten **Remixicon**-Bibliothek. Sie sind in jeder Größe scharf und erfordern keinen Dateiupload.
 
-> **Starter plan:** Custom images are not supported — use built-in icons instead.
+### Hinzufügen
 
-### Option A — Upload from gallery *(Business / Elite)*
+1. Klicken Sie im Bearbeitungspanel auf die Schaltfläche **Icon**.
+2. Das Icon-Suchfeld öffnet sich — geben Sie ein Stichwort ein (z.B. `home`, `cart`, `phone`, `search`).
+3. Klicken Sie auf ein Icon, um es auszuwählen — eine Vorschau erscheint sofort am Element.
+4. Klicken Sie auf **×**, um das aktuelle Icon zu entfernen.
 
-1. Click the **Image** button in the Edit Item panel.
-2. Click **Gallery** → the upload dialog opens.
-3. Select or upload an image (JPG, PNG, GIF).
-4. Confirm — the image URL is filled in automatically.
+### Wann Icons verwenden
 
-### Option B — Paste an image URL *(Elite)*
-
-1. Click the **Image** button.
-2. Paste the full image URL into the URL field.
-3. Click **Update**.
-
-### Image tips
-
-- Use **square (1:1)** images for Tab Bar icons.
-- Use **landscape** images for Big Image items.
-- **PNG with transparent background** works best for logos and symbols.
-- Keep file size small — heavy images slow down the menu on mobile.
-- Elite automatically converts images to WebP and normalizes dimensions.
+- Elemente in einer **Tab-Leiste** — Icons sind die Standardmethode zum Beschriften von Tabs.
+- Wenn Sie ein sauberes, einheitliches Erscheinungsbild möchten.
+- Wenn Sie noch keine eigenen Bilder haben.
 
 ---
 
-## Display layout
+## Eigenes Bild
 
-After adding an icon or image, choose how the icon/image and text are arranged in **Layout → Display Layout**:
+Verwenden Sie Ihr eigenes Foto, Logo oder Grafik anstelle eines Bibliotheks-Icons.
+
+> **Starter-Plan:** Eigene Bilder werden nicht unterstützt — verwenden Sie stattdessen integrierte Icons.
+
+### Option A — Aus Galerie hochladen *(Business / Elite)*
+
+1. Klicken Sie auf die Schaltfläche **Bild** im Bearbeitungspanel.
+2. Klicken Sie auf **Galerie** → der Upload-Dialog öffnet sich.
+3. Wählen oder laden Sie ein Bild hoch (JPG, PNG, GIF).
+4. Bestätigen — die Bild-URL wird automatisch ausgefüllt.
+
+### Option B — Bild-URL einfügen *(Elite)*
+
+1. Klicken Sie auf die Schaltfläche **Bild**.
+2. Fügen Sie die vollständige Bild-URL in das URL-Feld ein.
+3. Klicken Sie auf **Aktualisieren**.
+
+### Bildtipps
+
+- Verwenden Sie **quadratische (1:1)** Bilder für Tab-Leisten-Icons.
+- Verwenden Sie **Querformat**-Bilder für Großbild-Elemente.
+- **PNG mit transparentem Hintergrund** eignet sich am besten für Logos und Symbole.
+- Halten Sie die Dateigröße klein — große Bilder verlangsamen das Menü auf Mobilgeräten.
+- Elite konvertiert Bilder automatisch in WebP und normalisiert Abmessungen.
+
+---
+
+## Darstellungslayout
+
+Nach dem Hinzufügen eines Icons oder Bildes wählen Sie in **Layout → Darstellungslayout**, wie Icon/Bild und Text angeordnet werden:
 
 | Option | Layout |
 |---|---|
-| **Automatic** | Follows the menu type default |
-| **Top-Down** | Icon/image on top, text below |
-| **Left-Right** | Icon/image on left, text on right |
-| **Down-Top** | Text on top, icon/image below |
-| **Right-Left** | Text on left, icon/image on right |
-| **Icon/Image Only** | Icon/image only — text hidden |
-| **Text Only** | Text only — icon/image hidden |
+| **Automatisch** | Folgt dem Menütyp-Standard |
+| **Oben-Unten** | Icon/Bild oben, Text unten |
+| **Links-Rechts** | Icon/Bild links, Text rechts |
+| **Unten-Oben** | Text oben, Icon/Bild unten |
+| **Rechts-Links** | Text links, Icon/Bild rechts |
+| **Nur Icon/Bild** | Nur Icon/Bild — Text ausgeblendet |
+| **Nur Text** | Nur Text — Icon/Bild ausgeblendet |
 
 ---
 
-## Style the icon or image
+## Icon oder Bild gestalten
 
-Go to **Interface → Icon / Image Style** to fine-tune appearance:
+Gehen Sie zu **Interface → Icon / Bildstil**, um das Erscheinungsbild anzupassen:
 
-| Setting | Effect |
+| Einstellung | Effekt |
 |---|---|
-| **Icon Color** | Change the icon vector color (hex). Does not apply to image files. |
-| **Size (px)** | Display size of the icon or image |
-| **Container** | Background color of the box surrounding the icon |
-| **Padding (px)** | Space between the icon and its container box |
-| **Curve (px)** | Corner radius of the container — set `50` for a circle |
+| **Icon-Farbe** | Vektorfarbe des Icons ändern (Hex). Gilt nicht für Bilddateien. |
+| **Größe (px)** | Anzeigegröße des Icons oder Bildes |
+| **Container** | Hintergrundfarbe des umgebenden Rahmens |
+| **Abstand (px)** | Abstand zwischen Icon und Container-Rahmen |
+| **Kurve (px)** | Eckenradius des Containers — `50` für Kreis |
 
-**Example — white icon in a round blue box:**
+**Beispiel — weißes Icon in rundem blauen Rahmen:**
 
 ```
-Icon Color:  #FFFFFF
+Icon-Farbe:  #FFFFFF
 Container:   #0066CC
-Padding:     10
-Curve:       50
+Abstand:     10
+Kurve:       50
 ```

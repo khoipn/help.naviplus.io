@@ -1,54 +1,47 @@
 ---
-description: How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding.
+description: Comment contrôler quand et pour qui un élément de menu est visible dans Navi+ — état de publication, conditions de connexion et masquage par page.
 layout: default
 permalink: /fr/docs/menu-items/item-visibility/
-title: Visibility & Conditions
+title: Visibilité & conditions
 ---
-# Visibility & Conditions
+# Visibilité & conditions
 
-The **Publish** section in the Edit Item panel lets you control who sees an item, when, and on which pages.
-
----
-
-## Is Published
-
-**Default: on (item is visible to everyone).**
-
-Toggle this off to hide the item from the live menu without deleting it. The item stays in the editor — you can re-enable it at any time.
-
-**Use when:**
-- Temporarily hiding a seasonal sale link.
-- Preparing an item before it goes live.
-- Keeping a backup item without deleting it.
+La section **Publier** dans le panneau de modification vous permet de contrôler qui voit un élément, quand et sur quelles pages.
 
 ---
 
-## Hide when logged in
+## Est publié
 
-When enabled, the item is **only visible to visitors who are not logged in**.
+**Par défaut : activé (élément visible par tous).**
 
-**Use for:**
-- A "Log in" button — customers who are already logged in don't need it.
-- A "Create account" link.
+Désactivez pour masquer l'élément du menu live sans le supprimer.
 
----
-
-## Only show when logged in
-
-When enabled, the item is **only visible to logged-in customers**.
-
-**Use for:**
-- "My account" link.
-- Loyalty points, order history.
-- Features reserved for members.
+**Utiliser quand :**
+- Masquer temporairement un lien de vente saisonnière.
+- Préparer un élément avant sa mise en ligne.
+- Garder un élément de sauvegarde sans le supprimer.
 
 ---
 
-## Hide on specific page types (hidepages)
+## Masquer quand connecté
 
-Use the `hidepages` attribute in **Advance → Attributes** to hide an item on certain page types.
+Quand activé, l'élément est **visible uniquement pour les visiteurs non connectés**.
 
-**Syntax:**
+**Utiliser pour :** bouton "Se connecter", lien "Créer un compte".
+
+---
+
+## Afficher uniquement quand connecté
+
+Quand activé, l'élément est **visible uniquement pour les clients connectés**.
+
+**Utiliser pour :** "Mon compte", points de fidélité, historique des commandes.
+
+---
+
+## Masquer sur des types de pages spécifiques (hidepages)
+
+Utilisez l'attribut `hidepages` dans **Avancé → Attributs**.
 
 ```
 hidepages=index
@@ -56,54 +49,40 @@ hidepages=index|products
 hidepages=index|products|collections|pages|blogs|others
 ```
 
-| Value | Pages hidden on |
+| Valeur | Pages masquées sur |
 |---|---|
-| `index` | Home page |
-| `products` | Product detail pages |
-| `collections` | Collection / category pages |
-| `pages` | Static pages (About, Contact…) |
-| `blogs` | Blog listing and post pages |
-| `others` | Any page not in the above categories |
+| `index` | Page d'accueil |
+| `products` | Pages produit |
+| `collections` | Pages de collection |
+| `pages` | Pages statiques |
+| `blogs` | Blog |
+| `others` | Autres pages |
 
-Separate multiple values with `|`, no spaces.
-
-**Example:** Hide a "Buy now" button on the home page and blog pages:
-
-```
-hidepages=index|blogs
-```
+**Exemple :** `hidepages=index|blogs`
 
 ---
 
-## Hide by device (Mobile / Desktop)
+## Masquer par appareil (Mobile / Desktop)
 
-> **Important:** Navi+ does not have a per-item mobile/desktop toggle. Device targeting is controlled at the **menu level**, not the item level.
-
-**The correct approach:**
-
-- Go to the **Publish** tab of the menu → toggle **Mobile** and **Desktop** for the entire menu.
-- Create two separate menus — one for mobile, one for desktop — and set the device toggle on each.
-
-**Per-item workaround (if truly needed):**  
-Use **Advance → CSS** with a media query:
+> Navi+ contrôle les appareils au **niveau du menu**, pas par élément. Créez deux menus séparés ou utilisez CSS.
 
 ```css
-/* Hide this item on mobile only */
+/* Mobile uniquement */
 @media (max-width: 767px) { display: none !important; }
 
-/* Hide this item on desktop only */
+/* Desktop uniquement */
 @media (min-width: 768px) { display: none !important; }
 ```
 
 ---
 
-## Summary
+## Résumé
 
-| Condition | How to set |
+| Condition | Configuration |
 |---|---|
-| Hide completely | Is Published → off |
-| Hide from logged-in users | Hide when logged in → on |
-| Hide from guests | Only show when logged in → on |
-| Hide on home page | Attributes: `hidepages=index` |
-| Hide on mobile | CSS: `@media (max-width: 767px) { display: none !important; }` |
-| Hide on desktop | CSS: `@media (min-width: 768px) { display: none !important; }` |
+| Masquer complètement | Est publié → désactivé |
+| Masquer aux connectés | Masquer quand connecté → activé |
+| Masquer aux visiteurs | Afficher uniquement quand connecté → activé |
+| Masquer page accueil | `hidepages=index` |
+| Masquer mobile | CSS `@media (max-width: 767px)` |
+| Masquer desktop | CSS `@media (min-width: 768px)` |

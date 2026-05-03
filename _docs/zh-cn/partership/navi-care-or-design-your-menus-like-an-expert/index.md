@@ -1,40 +1,40 @@
 ---
-description: Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to...
+description: 并非每个人都是技术或UI/UX设计的专家，这使得创建优化的网站导航变得困难。Navi+ Care 提供完整的解决方案，帮助您设计美观且用户友好的菜单。
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/partership/navi-care-or-design-your-menus-like-an-expert/
-title: Navi+ Care | Design your menus like an expert
+title: Navi+ Care | 像专家一样设计您的菜单
 ---
-# Navi+ Care | Design your menus like an expert
+# Navi+ Care | 像专家一样设计您的菜单
 
-Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to design menus that are both aesthetic and user-friendly.
+并非每个人都是技术或UI/UX设计的专家，这使得创建优化的网站导航变得困难。Navi+ Care 提供完整的解决方案，帮助您设计既美观又用户友好的菜单。
 
-### How to work?
+### 如何合作？
 
-**Step 1: Register Navi+ Care: $120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
+**第一步：注册 Navi+ Care：$120.00 美元**，一次性付款，有效期三个月。之后，通过电子邮件或 WhatsApp 联系我们，即可立即开始。
 
-**Step 2: Design and test iteratively:** We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
+**第二步：设计并迭代测试：** 我们将在 Figma 上设计几个方案，克隆您的主题，然后在这里实现实时菜单，确保满足您的需求。
 
-**Step 3: Golive your menus:** Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
-
-***
-
-### Why is this service right for you?
-
-Choosing the right menu for your website can be challenging - a bottom bar for mobile, a grid menu for the homepage, a mega menu for desktop, a Floating Action Button (FAB) for support, and a slide menu for full navigation?
-
-* You may need to customize your menu's colors, fonts, and style to match your website's design but feel unfamiliar with the tools.
-* You may need feedback from UI/UX experts on whether your menu design is visually appealing and optimized.
-* You may need unique ideas for a menu that sets your website apart.
-* You may need to upgrade your current menu to a new level but lack the time or expertise.
-* You may need to build a menu from scratch or from an Excel file, or require professional advice and support.
+**第三步：上线菜单：** 为您的访客发布菜单。我们将提供详细的 Word 文件，包含：帮助说明、CSS 和 JS 代码等重要文档。
 
 ***
 
-### What are the requirements to use this service?
+### 为什么这项服务适合您？
 
-1\. you must subscribe to a paid Navi+ plan (Business or Elite), either monthly or annually. This ensures full access to add, edit, or delete menus and upload images. For websites needing more than four menus, an upgrade to the Elite plan may be required.
+为您的网站选择合适的菜单可能是一项挑战 — 移动端的底部导航栏、首页的网格菜单、桌面端的大型菜单、客服支持的悬浮按钮（FAB），以及完整导航的侧滑菜单？
 
-2\. You may need to grant us basic access to your Shopify website. This allows us to create and modify Navi+ menus, add CSS and JS code, and optimize performance and user experience.
+* 您可能需要自定义菜单的颜色、字体和样式以匹配网站设计，但对相关工具不够熟悉。
+* 您可能需要UI/UX专家对菜单设计的视觉效果和优化程度提供反馈。
+* 您可能需要独特的创意，让菜单成为网站的亮点。
+* 您可能需要将现有菜单提升到新水平，但缺乏时间或专业知识。
+* 您可能需要从零开始或从Excel文件构建菜单，或需要专业建议和支持。
+
+***
+
+### 使用此服务有哪些要求？
+
+1\. 您必须订阅 Navi+ 付费套餐（Business 或 Elite），按月或按年付费。这确保了完全的访问权限，可以添加、编辑或删除菜单并上传图片。需要超过四个菜单的网站可能需要升级到 Elite 套餐。
+
+2\. 您可能需要授予我们对 Shopify 网站的基本访问权限。这使我们能够创建和修改 Navi+ 菜单、添加 CSS 和 JS 代码，以及优化性能和用户体验。
 
 <br>

@@ -1,90 +1,90 @@
 ---
-description: How to add, reorder, duplicate, delete, and undo changes to menu items in Navi+.
+description: Come aggiungere, riordinare, duplicare, eliminare e annullare modifiche agli elementi di menu in Navi+.
 layout: default
 permalink: /it/docs/menu-items/item-create-manage/
-title: Create & Manage Items
+title: Creare e gestire elementi
 ---
-# Create & Manage Items
+# Creare e gestire elementi
 
-## Add a new item
+## Aggiungere un nuovo elemento
 
-1. In the menu tree, click **+ Add item** (or the plus button at the bottom of the list).
-2. Choose the item kind you want (Icon/Text, Big Image, Group Title, Blank Space, Tab Marker…).
-3. The new item appears at the end of the list with default content.
-4. Click the item to open the Edit Item panel and fill in the details.
-5. Press **Update** → **Save**.
+1. Nell'albero del menu, clicca su **+ Aggiungi elemento** (o il pulsante più in fondo alla lista).
+2. Scegli il tipo di elemento desiderato (Icona/Testo, Immagine grande, Titolo di gruppo, Spazio vuoto, Marcatore tab…).
+3. Il nuovo elemento appare in fondo alla lista con contenuto predefinito.
+4. Clicca sull'elemento per aprire il pannello di modifica e compila i dettagli.
+5. Premi **Aggiorna** → **Salva**.
 
-> New items are always added at the bottom. Drag them up to the position you want after adding.
+> I nuovi elementi vengono sempre aggiunti in fondo. Trascinali verso l'alto nella posizione desiderata.
 
 ---
 
-## Reorder items
+## Riordinare gli elementi
 
-### By drag and drop
+### Tramite trascinamento
 
-- Hover over the drag handle (≡) on the left of an item.
-- Drag **up / down** to change order within the same level.
-- Drag **right** to indent — the item becomes a child of the item above it.
-- Drag **left** to outdent — the item moves back up one level.
+- Passa il mouse sull'impugnatura di trascinamento (≡) a sinistra di un elemento.
+- Trascina **su / giù** per cambiare l'ordine allo stesso livello.
+- Trascina **a destra** per indentare — l'elemento diventa figlio dell'elemento sopra.
+- Trascina **a sinistra** per de-indentare — l'elemento risale di un livello.
 
-### By keyboard shortcut (while an item is selected)
+### Tramite scorciatoia da tastiera (quando un elemento è selezionato)
 
-| Key | Action |
+| Tasto | Azione |
 |---|---|
-| `↑` | Move up (Mac: `Cmd+↑` / Win: `Alt+↑`) |
-| `↓` | Move down (Mac: `Cmd+↓` / Win: `Alt+↓`) |
-| `→` | Indent — item becomes a child of the item above |
-| `←` | Outdent — item moves back to the parent level |
+| `↑` | Sposta su (Mac: `Cmd+↑` / Win: `Alt+↑`) |
+| `↓` | Sposta giù (Mac: `Cmd+↓` / Win: `Alt+↓`) |
+| `→` | Indenta — l'elemento diventa figlio dell'elemento sopra |
+| `←` | De-indenta — l'elemento torna al livello padre |
 
-> Shortcuts only work when the cursor is hovering over the menu tree and the item is selected (blue outline).
-
----
-
-## Edit an item
-
-1. Click the item → Edit Item panel opens.
-2. Change the fields you need.
-3. Press **Update** to save the changes to that item.
-
-> Press **Cancel** to close the panel without saving.
+> Le scorciatoie funzionano solo quando il cursore è sull'albero del menu e l'elemento è selezionato (contorno blu).
 
 ---
 
-## Duplicate an item
+## Modificare un elemento
 
-1. Hover over the item → the quick action menu appears.
-2. Click **Copy** (or press `C`).
-3. A copy appears immediately below the original, with all content and settings preserved.
-4. Edit the copy as needed.
+1. Clicca sull'elemento → il pannello di modifica si apre.
+2. Cambia i campi necessari.
+3. Premi **Aggiorna** per salvare le modifiche a quell'elemento.
 
----
-
-## Delete an item
-
-1. Hover over the item → the quick action menu appears.
-2. Click **Delete** (or press `Del` / `Backspace` on Mac).
-3. A confirmation dialog appears — click **Confirm** to permanently delete.
-
-> **Note:** Deleting a parent item also deletes all its child items. This cannot be undone after confirmation.
+> Premi **Annulla** per chiudere il pannello senza salvare.
 
 ---
 
-## Undo / Redo
+## Duplicare un elemento
 
-| Shortcut | Action |
+1. Passa il mouse sull'elemento → appare il menu delle azioni rapide.
+2. Clicca su **Copia** (o premi `C`).
+3. Una copia appare immediatamente sotto l'originale, con tutti i contenuti e le impostazioni preservati.
+4. Modifica la copia secondo necessità.
+
+---
+
+## Eliminare un elemento
+
+1. Passa il mouse sull'elemento → appare il menu delle azioni rapide.
+2. Clicca su **Elimina** (o premi `Del` / `Backspace` su Mac).
+3. Appare una finestra di conferma — clicca su **Conferma** per eliminare definitivamente.
+
+> **Nota:** L'eliminazione di un elemento padre elimina anche tutti i suoi elementi figli. Non è possibile annullare dopo la conferma.
+
+---
+
+## Annulla / Ripristina
+
+| Scorciatoia | Azione |
 |---|---|
-| `Ctrl+Z` / `Cmd+Z` | Undo the last action |
-| `Ctrl+Y` / `Cmd+Shift+Z` | Redo |
+| `Ctrl+Z` / `Cmd+Z` | Annulla l'ultima azione |
+| `Ctrl+Y` / `Cmd+Shift+Z` | Ripristina |
 
-Undo history only exists for the current session — reloading the page clears it.
+La cronologia di annullamento esiste solo per la sessione corrente — ricaricare la pagina la cancella.
 
 ---
 
-## Save the menu
+## Salvare il menu
 
-After adding, reordering, or deleting items:
+Dopo aver aggiunto, riordinato o eliminato elementi:
 
-- Click **Save** in the toolbar, or press `Ctrl+S` / `Cmd+S`.
-- Hold `Shift` while pressing Save to save and immediately reload the simulator.
+- Clicca su **Salva** nella barra degli strumenti, o premi `Ctrl+S` / `Cmd+S`.
+- Tieni premuto `Shift` mentre premi Salva per salvare e ricaricare immediatamente il simulatore.
 
-Changes are not visible to your customers until you Save.
+Le modifiche non sono visibili ai tuoi clienti finché non salvi.

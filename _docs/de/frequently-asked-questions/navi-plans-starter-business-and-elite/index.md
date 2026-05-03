@@ -1,24 +1,63 @@
 ---
-description: Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are cou...
+description: Vergleichen Sie Navi+-Pläne — Starter (kostenlos), Business und Elite. Verstehen Sie, was jeder Plan beinhaltet, seine Grenzen und was passiert, wenn Sie diese überschreiten.
 lang: de
 layout: default
 permalink: /de/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-title: Navi+ plans (Starter, Business & Elite)
+title: Pläne & Preisvergleich
 ---
-# Navi+ plans (Starter, Business & Elite)
+# Pläne & Preisvergleich
 
-#### Question 1: What happens when my Starter plan exceeds 50,000 visits?
+Alle Pläne beinhalten jeden Menütyp — Tab Bar, Mega Menu, Slide Menu, Grid Menu und FAB.
 
-Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are counted when Navi+ is displayed on the website) exceed 50,000, your account will automatically be flagged for an upgrade. We will take the following actions:
+---
 
-1. We will send multiple emails to notify you about the status of your Navi+ Starter plan (Please ensure you receive our notifications, as this is crucial). Upon receiving the notification, consider upgrading your account to a higher plan like Business or Elite.
-2. If you do not receive the information or if your website does not intend to upgrade to a higher plan, we will start displaying small Navi+ ads on your menus. The size of the ads will not affect user interaction but will be noticeable enough for users to understand that the menu is powered by Navi+. We will consider gradually increasing the visibility of the ads over time, from very subtle to more noticeable. This helps Navi+ reach more people and generates additional revenue from other customers.
-3. We will not disable or remove any features of Navi+ that are currently displayed on your site. We fully understand that these features are crucial for user interaction on your website, so this is something we will strictly avoid.
+## Starter — Kostenlos
 
-#### Question 2: What happens if you downgrade from Business or Elite back to Starter, yet it seems like all the features remain?
+- Lebenslange Nutzung — $0/Monat, keine Kreditkarte erforderlich
+- 1 Navi+-Menü (beliebiger Typ)
+- Bis zu 50.000 Navi+-Aufrufe
+- Datenanalyse für 30 Tage verfügbar
+- Infrastruktur-SLA 99,00 %
+- E-Mail-Support
+- Bild-Upload nicht verfügbar — stattdessen Icons verwenden
+- Erweiterte Konfiguration begrenzt (Touch-Feedback, Navigationssymbole, Animation, Wiederverwendbare Klassen, Attribute)
+- Anzeigen können erscheinen, wenn die Nutzung das Limit deutlich überschreitet — Sie erhalten vorher eine E-Mail-Benachrichtigung
 
-We understand that features and user experience are crucial for your customers, so we ensure that no features on your menu will be hidden or removed. However, we have a system that performs a daily scan. As soon as it detects that your website is in this situation, we will send you an email notification to encourage you to upgrade to a higher plan. These email notifications will be spaced out over time to avoid overwhelming you with too many messages. If you choose not to upgrade back to the Business or Elite plans, Navi+ will start displaying ads as explained in Question 1.
+## Business — $6,25/Monat
 
-#### Question 3: What happens if I exceed the limit on the Business plan (e.g., more than 500,000 Navi+ views/month)?
+Alles aus Starter, plus:
 
-As with the previous questions, Navi+ will not hide or remove any menu features. However, once the limit is exceeded, and after email notifications are sent to you to consider upgrading to the Elite plan, ads may be displayed on your menu until the start of a new monthly cycle.
+- Bis zu 4 Navi+-Menüs
+- Bis zu 500.000 Navi+-Aufrufe/Monat
+- Vollständige Mehrsprachigkeitsunterstützung
+- Standard-Foto-Upload — JPG, PNG, dynamisches GIF
+- Statistiken und Datenanalyse
+- Website-UI-Komponenten als Popup öffnen: Suche, Warenkorb, Standardmenü
+- Warenkorb-, Menü-/Suchsymbole des Themes ersetzen (mit Warenkorb-Zähler-Badge) und Chat-Blase
+- Erweiterte Konfiguration: Touch-Feedback, Navigationssymbole, Animationsstil & -geschwindigkeit, Wiederverwendbare Klassen, Attribute
+- Gutes CDN — ausgezeichnete Leistung für Nordamerika, Europa und Asien
+- 24/7-Support
+- Anzeigen können erscheinen, wenn die Nutzung das Limit deutlich überschreitet
+
+## Elite — $10/Monat
+
+Alles aus Business, plus:
+
+- Unbegrenzte Navi+-Menüs — mehrere Menüs seitenübergreifend, unter verschiedenen Bedingungen
+- Unbegrenzte Navi+-Aufrufe
+- Erweiterte Bildtools: Konvertierung zu WebP · Bildgrößennormalisierung · Externe Bild-URL
+- SEO-Suchoptimierungsunterstützung
+- Vollständige Datenanalyse
+- Top-CDN weltweit — Failover über Cloudflare + BunnyCDN, SLA 99,99 %
+- Niemals Werbung
+- Direkter Support: Unser Team kann Ihrem Shop beitreten, alte Menüs migrieren, UI konfigurieren
+
+---
+
+## Was passiert, wenn Sie ein Limit überschreiten?
+
+**Navi+ wird Ihre Menüs niemals deaktivieren oder entfernen.** Wir wissen, dass Ihre Navigation entscheidend für Ihre Besucher ist.
+
+1. **E-Mail-Benachrichtigung** — wir informieren Sie, bevor wir Maßnahmen ergreifen.
+2. **Anzeigen können erscheinen** — wenn Sie über dem Limit bleiben, ohne ein Upgrade durchzuführen, können kleine "Powered by Navi+"-Anzeigen in Ihren Menüs erscheinen.
+3. **Keine versteckten Funktionen** — Ihre Menüs funktionieren genau wie konfiguriert.

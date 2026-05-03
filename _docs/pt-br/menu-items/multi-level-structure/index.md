@@ -1,76 +1,76 @@
 ---
-description: How to create parent–child nesting and use Tab Slide to organize Navi+ menu items into multi-level structures.
+description: Como criar aninhamento pai–filho e usar Tab Slide para organizar itens de menu do Navi+ em estruturas de vários níveis.
 layout: default
 permalink: /pt-br/docs/menu-items/multi-level-structure/
-title: Multi-level Structure
+title: Estrutura multinível
 ---
-# Multi-level Structure
+# Estrutura multinível
 
-Navi+ supports two ways to organize menu content in depth: **parent–child nesting** (drag left/right to indent) and **Tab Slide** (split the menu into horizontal switching zones). You can use either approach or combine both.
+O Navi+ suporta duas formas de organizar o conteúdo do menu em profundidade: **aninhamento pai–filho** (arrastar para esquerda/direita para indentar) e **Tab Slide** (dividir o menu em zonas de alternância horizontal). Você pode usar qualquer uma das abordagens ou combinar as duas.
 
 ---
 
-## Option 1 — Parent–child nesting (indent by drag)
+## Opção 1 — Aninhamento pai–filho (indentação por arraste)
 
-Nesting turns a flat list into a leveled hierarchy. A parent item can be expanded to reveal its children.
+O aninhamento transforma uma lista plana em uma hierarquia com níveis. Um item pai pode ser expandido para revelar seus filhos.
 
 ```
-Home                        ← Level 1 (parent)
-  Collections               ← Level 2 (child)
-    New Arrivals            ← Level 3 (grandchild)
+Home                        ← Nível 1 (pai)
+  Collections               ← Nível 2 (filho)
+    New Arrivals            ← Nível 3 (neto)
     Sale
   Lookbook
-Contact                     ← Level 1 (parent, no children)
+Contact                     ← Nível 1 (pai, sem filhos)
 ```
 
-### How to do it
+### Como fazer
 
-**By drag and drop**
+**Por arrastar e soltar**
 
-1. Hover over the item you want to nest.
-2. Drag it **right** — it snaps under the item above it as a child.
-3. Drag it **left** to move it back up to the parent level.
+1. Passe o mouse sobre o item que deseja aninhar.
+2. Arraste-o para a **direita** — ele se encaixa sob o item acima como filho.
+3. Arraste-o para a **esquerda** para devolvê-lo ao nível pai.
 
-**By keyboard shortcut**
+**Por atalho de teclado**
 
-1. Click the item to select it.
-2. Press `→` (right arrow) to indent — the item becomes a child of the item above.
-3. Press `←` (left arrow) to outdent — the item moves back up one level.
+1. Clique no item para selecioná-lo.
+2. Pressione `→` (seta direita) para indentar — o item se torna filho do item acima.
+3. Pressione `←` (seta esquerda) para desindentar — o item sobe um nível.
 
-### Maximum nesting depth by menu type
+### Profundidade máxima de aninhamento por tipo de menu
 
-The depth limit depends on the **menu type**, not the plan.
+O limite de profundidade depende do **tipo de menu**, não do plano.
 
-| Menu type | Max levels |
+| Tipo de menu | Níveis máx. |
 |---|:---:|
-| Mobile Grid | 1 (no nesting) |
+| Mobile Grid | 1 (sem aninhamento) |
 | FAB | 2 |
 | Tab Bar, Mega Menu, Slide Menu, Desktop Mega Menu | 3 |
 
-> If you try to indent past the limit, the editor will block it and show a message.
+> Se você tentar indentar além do limite, o editor bloqueará e exibirá uma mensagem.
 
 ---
 
-## Option 2 — Tab Slide (horizontal zones)
+## Opção 2 — Tab Slide (zonas horizontais)
 
-Tab Slide divides items into horizontal tabs. Instead of expanding downward like children, each tab shows a separate set of items.
+O Tab Slide divide os itens em abas horizontais. Em vez de se expandir para baixo como filhos, cada aba exibe um conjunto separado de itens.
 
 ```
 ┌─────────────────────────────────┐
-│  [Shop]  [Pages]  [More]        │  ← tab headers
+│  [Shop]  [Pages]  [More]        │  ← cabeçalhos de abas
 ├─────────────────────────────────┤
 │  • Collections                  │
-│  • New Arrivals                 │  ← content of active tab
+│  • New Arrivals                 │  ← conteúdo da aba ativa
 │  • Sale                         │
 └─────────────────────────────────┘
 ```
 
-### How to do it
+### Como fazer
 
-1. Add a new item with kind **Tab Marker**.
-2. Set the Tab Marker label — this becomes the tab header text (e.g. "Shop").
-3. Add items below the Tab Marker — they belong to that tab's content area.
-4. Repeat: add the next Tab Marker, then add items for that tab.
+1. Adicione um novo item com o tipo **Tab Marker**.
+2. Defina o rótulo do Tab Marker — este se torna o texto do cabeçalho da aba (ex. "Shop").
+3. Adicione itens abaixo do Tab Marker — eles pertencem à área de conteúdo dessa aba.
+4. Repita: adicione o próximo Tab Marker e depois os itens para essa aba.
 
 ```
 [Tab Marker]  "Shop"
@@ -89,21 +89,21 @@ Tab Slide divides items into horizontal tabs. Instead of expanding downward like
 
 ---
 
-## Which approach to use?
+## Qual abordagem usar?
 
-| Goal | Use |
+| Objetivo | Usar |
 |---|---|
-| Show subcategories under a parent item | **Parent–child nesting (Option 1)** |
-| Group unrelated sections side by side | **Tab Slide (Option 2)** |
-| Menu with many items across multiple categories | **Tab Slide** |
-| Deep drill-down navigation (category → subcategory) | **Parent–child nesting** |
-| Outer tabs with nested items inside each tab | **Both** |
+| Mostrar subcategorias sob um item pai | **Aninhamento pai–filho (Opção 1)** |
+| Agrupar seções não relacionadas lado a lado | **Tab Slide (Opção 2)** |
+| Menu com muitos itens em várias categorias | **Tab Slide** |
+| Navegação em profundidade (categoria → subcategoria) | **Aninhamento pai–filho** |
+| Abas externas com itens aninhados em cada aba | **Ambos** |
 
 ---
 
-## Limits to keep in mind
+## Limites a ter em mente
 
-- **Tab Markers cannot be nested inside another item.** Indenting a Tab Marker is blocked.
-- **Items inside a tab can still have children** — subject to the menu type depth limit.
-- **Mobile Grid does not support nesting** — use Tab Slide if you need grouping.
-- **Reorder tabs** by dragging a Tab Marker up or down — the items below it follow along.
+- **Tab Markers não podem ser aninhados dentro de outro item.** Indentar um Tab Marker é bloqueado.
+- **Itens dentro de uma aba ainda podem ter filhos** — sujeitos ao limite de profundidade do tipo de menu.
+- **Mobile Grid não suporta aninhamento** — use Tab Slide se precisar de agrupamento.
+- **Reordene as abas** arrastando um Tab Marker para cima ou para baixo — os itens abaixo o acompanham.

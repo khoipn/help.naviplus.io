@@ -1,54 +1,47 @@
 ---
-description: How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding.
+description: Navi+でメニュー項目がいつ、誰に表示されるかを制御する方法 — 公開状態、ログイン条件、ページベースの非表示。
 layout: default
 permalink: /jp/docs/menu-items/item-visibility/
-title: Visibility & Conditions
+title: 表示設定 & 条件
 ---
-# Visibility & Conditions
+# 表示設定 & 条件
 
-The **Publish** section in the Edit Item panel lets you control who sees an item, when, and on which pages.
-
----
-
-## Is Published
-
-**Default: on (item is visible to everyone).**
-
-Toggle this off to hide the item from the live menu without deleting it. The item stays in the editor — you can re-enable it at any time.
-
-**Use when:**
-- Temporarily hiding a seasonal sale link.
-- Preparing an item before it goes live.
-- Keeping a backup item without deleting it.
+編集パネルの **公開** セクションで、誰がアイテムを見るか、いつ、どのページで表示するかを制御できます。
 
 ---
 
-## Hide when logged in
+## 公開済み
 
-When enabled, the item is **only visible to visitors who are not logged in**.
+**デフォルト: オン（全員に表示）。**
 
-**Use for:**
-- A "Log in" button — customers who are already logged in don't need it.
-- A "Create account" link.
+オフにするとライブメニューからアイテムを削除せずに非表示にできます。
 
----
-
-## Only show when logged in
-
-When enabled, the item is **only visible to logged-in customers**.
-
-**Use for:**
-- "My account" link.
-- Loyalty points, order history.
-- Features reserved for members.
+**使用場面:**
+- 季節セールのリンクを一時的に非表示にする。
+- ライブ公開前にアイテムを準備する。
+- 削除せずにバックアップアイテムを保持する。
 
 ---
 
-## Hide on specific page types (hidepages)
+## ログイン時に非表示
 
-Use the `hidepages` attribute in **Advance → Attributes** to hide an item on certain page types.
+オンにすると、アイテムは**未ログインの訪問者のみに表示**されます。
 
-**Syntax:**
+**使用例:** 「ログイン」ボタン、「アカウント作成」リンク。
+
+---
+
+## ログイン時のみ表示
+
+オンにすると、アイテムは**ログイン済みのお客様のみに表示**されます。
+
+**使用例:** 「マイアカウント」、ポイント、注文履歴。
+
+---
+
+## 特定のページタイプで非表示 (hidepages)
+
+**詳細 → 属性** で `hidepages` 属性を使用します。
 
 ```
 hidepages=index
@@ -56,54 +49,40 @@ hidepages=index|products
 hidepages=index|products|collections|pages|blogs|others
 ```
 
-| Value | Pages hidden on |
+| 値 | 非表示になるページ |
 |---|---|
-| `index` | Home page |
-| `products` | Product detail pages |
-| `collections` | Collection / category pages |
-| `pages` | Static pages (About, Contact…) |
-| `blogs` | Blog listing and post pages |
-| `others` | Any page not in the above categories |
+| `index` | ホームページ |
+| `products` | 商品詳細ページ |
+| `collections` | コレクション/カテゴリページ |
+| `pages` | 静的ページ |
+| `blogs` | ブログ |
+| `others` | その他のページ |
 
-Separate multiple values with `|`, no spaces.
-
-**Example:** Hide a "Buy now" button on the home page and blog pages:
-
-```
-hidepages=index|blogs
-```
+**例:** `hidepages=index|blogs`
 
 ---
 
-## Hide by device (Mobile / Desktop)
+## デバイスによる非表示
 
-> **Important:** Navi+ does not have a per-item mobile/desktop toggle. Device targeting is controlled at the **menu level**, not the item level.
-
-**The correct approach:**
-
-- Go to the **Publish** tab of the menu → toggle **Mobile** and **Desktop** for the entire menu.
-- Create two separate menus — one for mobile, one for desktop — and set the device toggle on each.
-
-**Per-item workaround (if truly needed):**  
-Use **Advance → CSS** with a media query:
+> Navi+ のデバイス設定は**メニューレベル**で行います。デバイスごとに別々のメニューを作成するか、CSSを使用してください。
 
 ```css
-/* Hide this item on mobile only */
+/* モバイルのみ非表示 */
 @media (max-width: 767px) { display: none !important; }
 
-/* Hide this item on desktop only */
+/* デスクトップのみ非表示 */
 @media (min-width: 768px) { display: none !important; }
 ```
 
 ---
 
-## Summary
+## まとめ
 
-| Condition | How to set |
+| 条件 | 設定方法 |
 |---|---|
-| Hide completely | Is Published → off |
-| Hide from logged-in users | Hide when logged in → on |
-| Hide from guests | Only show when logged in → on |
-| Hide on home page | Attributes: `hidepages=index` |
-| Hide on mobile | CSS: `@media (max-width: 767px) { display: none !important; }` |
-| Hide on desktop | CSS: `@media (min-width: 768px) { display: none !important; }` |
+| 完全に非表示 | 公開済み → オフ |
+| ログイン済みから非表示 | ログイン時に非表示 → オン |
+| ゲストから非表示 | ログイン時のみ表示 → オン |
+| ホームページで非表示 | `hidepages=index` |
+| モバイルで非表示 | CSS `@media (max-width: 767px)` |
+| デスクトップで非表示 | CSS `@media (min-width: 768px)` |

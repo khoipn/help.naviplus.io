@@ -1,96 +1,96 @@
 ---
-description: How to add built-in icons and custom images to menu items in Navi+, and how to style them.
+description: 如何在 Navi+ 中为菜单项添加内置图标和自定义图片，以及如何设置样式。
 layout: default
 permalink: /zh-cn/docs/menu-items/item-icon-image/
-title: Icons & Images
+title: 图标与图片
 ---
-# Icons & Images
+# 图标与图片
 
-Each item can have one visual element — either a **built-in icon** or a **custom image**. You can only use one at a time, not both.
-
----
-
-## Built-in icon
-
-Icons are vector symbols from the integrated **Remixicon** library. They are crisp at any size and require no file upload.
-
-### How to add
-
-1. In the Edit Item panel, click the **Icon** button.
-2. The icon search box opens — type a keyword (e.g. `home`, `cart`, `phone`, `search`).
-3. Click an icon to select it — a preview appears on the item immediately.
-4. Click **×** to remove the current icon.
-
-### When to use icons
-
-- Items in a **Tab Bar** — icons are the standard way to label tabs.
-- When you want a clean, consistent look.
-- When you don't have custom images ready.
+每个菜单项可以有一个视觉元素 — 可以是**内置图标**或**自定义图片**。每次只能使用一种，不能同时使用两种。
 
 ---
 
-## Custom image
+## 内置图标
 
-Use your own photo, logo, or graphic instead of a library icon.
+图标是集成的 **Remixicon** 库中的矢量符号。在任何尺寸下都清晰，无需上传文件。
 
-> **Starter plan:** Custom images are not supported — use built-in icons instead.
+### 如何添加
 
-### Option A — Upload from gallery *(Business / Elite)*
+1. 在编辑面板中，点击 **图标** 按钮。
+2. 图标搜索框打开 — 输入关键词（如 `home`、`cart`、`phone`、`search`）。
+3. 点击图标选择 — 预览立即显示在菜单项上。
+4. 点击 **×** 删除当前图标。
 
-1. Click the **Image** button in the Edit Item panel.
-2. Click **Gallery** → the upload dialog opens.
-3. Select or upload an image (JPG, PNG, GIF).
-4. Confirm — the image URL is filled in automatically.
+### 何时使用图标
 
-### Option B — Paste an image URL *(Elite)*
-
-1. Click the **Image** button.
-2. Paste the full image URL into the URL field.
-3. Click **Update**.
-
-### Image tips
-
-- Use **square (1:1)** images for Tab Bar icons.
-- Use **landscape** images for Big Image items.
-- **PNG with transparent background** works best for logos and symbols.
-- Keep file size small — heavy images slow down the menu on mobile.
-- Elite automatically converts images to WebP and normalizes dimensions.
+- **标签栏**中的菜单项 — 图标是标记标签的标准方式。
+- 当您想要简洁统一的外观时。
+- 当您还没有自定义图片时。
 
 ---
 
-## Display layout
+## 自定义图片
 
-After adding an icon or image, choose how the icon/image and text are arranged in **Layout → Display Layout**:
+使用您自己的照片、Logo 或图形代替库图标。
 
-| Option | Layout |
+> **Starter 套餐：** 不支持自定义图片 — 请使用内置图标。
+
+### 选项 A — 从图库上传 *(Business / Elite)*
+
+1. 点击编辑面板中的 **图片** 按钮。
+2. 点击 **图库** → 上传对话框打开。
+3. 选择或上传图片（JPG、PNG、GIF）。
+4. 确认 — 图片 URL 自动填写。
+
+### 选项 B — 粘贴图片 URL *(Elite)*
+
+1. 点击 **图片** 按钮。
+2. 在 URL 字段中粘贴完整的图片 URL。
+3. 点击 **更新**。
+
+### 图片使用建议
+
+- 标签栏图标使用**正方形（1:1）**图片。
+- 大图菜单项使用**横向**图片。
+- **透明背景的 PNG** 最适合 Logo 和符号。
+- 保持文件大小较小 — 大图片会减慢移动端菜单加载速度。
+- Elite 自动将图片转换为 WebP 并标准化尺寸。
+
+---
+
+## 显示布局
+
+添加图标或图片后，在 **Layout → 显示布局** 中选择图标/图片和文字的排列方式：
+
+| 选项 | 布局 |
 |---|---|
-| **Automatic** | Follows the menu type default |
-| **Top-Down** | Icon/image on top, text below |
-| **Left-Right** | Icon/image on left, text on right |
-| **Down-Top** | Text on top, icon/image below |
-| **Right-Left** | Text on left, icon/image on right |
-| **Icon/Image Only** | Icon/image only — text hidden |
-| **Text Only** | Text only — icon/image hidden |
+| **自动** | 遵循菜单类型默认设置 |
+| **上-下** | 图标/图片在上，文字在下 |
+| **左-右** | 图标/图片在左，文字在右 |
+| **下-上** | 文字在上，图标/图片在下 |
+| **右-左** | 文字在左，图标/图片在右 |
+| **仅图标/图片** | 仅显示图标/图片 — 文字隐藏 |
+| **仅文字** | 仅显示文字 — 图标/图片隐藏 |
 
 ---
 
-## Style the icon or image
+## 设置图标或图片样式
 
-Go to **Interface → Icon / Image Style** to fine-tune appearance:
+前往 **Interface → 图标 / 图片样式** 微调外观：
 
-| Setting | Effect |
+| 设置 | 效果 |
 |---|---|
-| **Icon Color** | Change the icon vector color (hex). Does not apply to image files. |
-| **Size (px)** | Display size of the icon or image |
-| **Container** | Background color of the box surrounding the icon |
-| **Padding (px)** | Space between the icon and its container box |
-| **Curve (px)** | Corner radius of the container — set `50` for a circle |
+| **图标颜色** | 更改图标矢量颜色（hex）。不适用于图片文件。 |
+| **大小 (px)** | 图标或图片的显示大小 |
+| **容器** | 图标周围方框的背景颜色 |
+| **内边距 (px)** | 图标与容器方框之间的间距 |
+| **圆角 (px)** | 容器的圆角半径 — 设置 `50` 为圆形 |
 
-**Example — white icon in a round blue box:**
+**示例 — 圆形蓝色方框中的白色图标：**
 
 ```
-Icon Color:  #FFFFFF
-Container:   #0066CC
-Padding:     10
-Curve:       50
+图标颜色:  #FFFFFF
+容器:      #0066CC
+内边距:    10
+圆角:      50
 ```

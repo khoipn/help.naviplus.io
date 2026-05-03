@@ -1,90 +1,90 @@
 ---
-description: How to add, reorder, duplicate, delete, and undo changes to menu items in Navi+.
+description: Como adicionar, reordenar, duplicar, excluir e desfazer alterações em itens de menu no Navi+.
 layout: default
 permalink: /pt-br/docs/menu-items/item-create-manage/
-title: Create & Manage Items
+title: Criar e gerenciar itens
 ---
-# Create & Manage Items
+# Criar e gerenciar itens
 
-## Add a new item
+## Adicionar um novo item
 
-1. In the menu tree, click **+ Add item** (or the plus button at the bottom of the list).
-2. Choose the item kind you want (Icon/Text, Big Image, Group Title, Blank Space, Tab Marker…).
-3. The new item appears at the end of the list with default content.
-4. Click the item to open the Edit Item panel and fill in the details.
-5. Press **Update** → **Save**.
+1. Na árvore do menu, clique em **+ Adicionar item** (ou o botão de mais no final da lista).
+2. Escolha o tipo de item desejado (Ícone/Texto, Imagem grande, Título de grupo, Espaço em branco, Marcador de aba…).
+3. O novo item aparece no final da lista com conteúdo padrão.
+4. Clique no item para abrir o painel de edição e preencha os detalhes.
+5. Pressione **Atualizar** → **Salvar**.
 
-> New items are always added at the bottom. Drag them up to the position you want after adding.
+> Novos itens são sempre adicionados no final. Arraste-os para cima até a posição desejada.
 
 ---
 
-## Reorder items
+## Reordenar itens
 
-### By drag and drop
+### Por arrastar e soltar
 
-- Hover over the drag handle (≡) on the left of an item.
-- Drag **up / down** to change order within the same level.
-- Drag **right** to indent — the item becomes a child of the item above it.
-- Drag **left** to outdent — the item moves back up one level.
+- Passe o mouse sobre o identificador de arraste (≡) à esquerda de um item.
+- Arraste **para cima / baixo** para alterar a ordem dentro do mesmo nível.
+- Arraste **para a direita** para recuar — o item se torna filho do item acima.
+- Arraste **para a esquerda** para avançar — o item sobe um nível.
 
-### By keyboard shortcut (while an item is selected)
+### Por atalho de teclado (quando um item está selecionado)
 
-| Key | Action |
+| Tecla | Ação |
 |---|---|
-| `↑` | Move up (Mac: `Cmd+↑` / Win: `Alt+↑`) |
-| `↓` | Move down (Mac: `Cmd+↓` / Win: `Alt+↓`) |
-| `→` | Indent — item becomes a child of the item above |
-| `←` | Outdent — item moves back to the parent level |
+| `↑` | Mover para cima (Mac: `Cmd+↑` / Win: `Alt+↑`) |
+| `↓` | Mover para baixo (Mac: `Cmd+↓` / Win: `Alt+↓`) |
+| `→` | Recuar — item se torna filho do item acima |
+| `←` | Avançar — item volta ao nível pai |
 
-> Shortcuts only work when the cursor is hovering over the menu tree and the item is selected (blue outline).
-
----
-
-## Edit an item
-
-1. Click the item → Edit Item panel opens.
-2. Change the fields you need.
-3. Press **Update** to save the changes to that item.
-
-> Press **Cancel** to close the panel without saving.
+> Os atalhos só funcionam quando o cursor está sobre a árvore do menu e o item está selecionado (contorno azul).
 
 ---
 
-## Duplicate an item
+## Editar um item
 
-1. Hover over the item → the quick action menu appears.
-2. Click **Copy** (or press `C`).
-3. A copy appears immediately below the original, with all content and settings preserved.
-4. Edit the copy as needed.
+1. Clique no item → o painel de edição abre.
+2. Altere os campos necessários.
+3. Pressione **Atualizar** para salvar as alterações desse item.
 
----
-
-## Delete an item
-
-1. Hover over the item → the quick action menu appears.
-2. Click **Delete** (or press `Del` / `Backspace` on Mac).
-3. A confirmation dialog appears — click **Confirm** to permanently delete.
-
-> **Note:** Deleting a parent item also deletes all its child items. This cannot be undone after confirmation.
+> Pressione **Cancelar** para fechar o painel sem salvar.
 
 ---
 
-## Undo / Redo
+## Duplicar um item
 
-| Shortcut | Action |
+1. Passe o mouse sobre o item → o menu de ação rápida aparece.
+2. Clique em **Copiar** (ou pressione `C`).
+3. Uma cópia aparece imediatamente abaixo do original, com todo o conteúdo e configurações preservados.
+4. Edite a cópia conforme necessário.
+
+---
+
+## Excluir um item
+
+1. Passe o mouse sobre o item → o menu de ação rápida aparece.
+2. Clique em **Excluir** (ou pressione `Del` / `Backspace` no Mac).
+3. Um diálogo de confirmação aparece — clique em **Confirmar** para excluir permanentemente.
+
+> **Nota:** Excluir um item pai também exclui todos os seus itens filhos. Isso não pode ser desfeito após a confirmação.
+
+---
+
+## Desfazer / Refazer
+
+| Atalho | Ação |
 |---|---|
-| `Ctrl+Z` / `Cmd+Z` | Undo the last action |
-| `Ctrl+Y` / `Cmd+Shift+Z` | Redo |
+| `Ctrl+Z` / `Cmd+Z` | Desfazer a última ação |
+| `Ctrl+Y` / `Cmd+Shift+Z` | Refazer |
 
-Undo history only exists for the current session — reloading the page clears it.
+O histórico de desfazer só existe para a sessão atual — recarregar a página o apaga.
 
 ---
 
-## Save the menu
+## Salvar o menu
 
-After adding, reordering, or deleting items:
+Após adicionar, reordenar ou excluir itens:
 
-- Click **Save** in the toolbar, or press `Ctrl+S` / `Cmd+S`.
-- Hold `Shift` while pressing Save to save and immediately reload the simulator.
+- Clique em **Salvar** na barra de ferramentas, ou pressione `Ctrl+S` / `Cmd+S`.
+- Segure `Shift` enquanto pressiona Salvar para salvar e recarregar o simulador imediatamente.
 
-Changes are not visible to your customers until you Save.
+As alterações não são visíveis para seus clientes até que você salve.

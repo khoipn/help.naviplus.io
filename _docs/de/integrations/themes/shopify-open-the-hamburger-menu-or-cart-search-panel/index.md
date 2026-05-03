@@ -1,15 +1,15 @@
 ---
-description: Currently, Navi+ supports a list of popular themes for opening Hamburger menus, Cart, and Search panels. For themes not on this list, you can request Navi+ t...
+description: Navi+ unterstützt eine Liste beliebter Themes zum Öffnen von Hamburger-Menüs, Warenkorb- und Suchpanels. Für Themes, die nicht auf dieser Liste stehen, können Sie Navi+ bitten, den Support hinzuzufügen.
 lang: de
 layout: default
 permalink: /de/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
-title: 'Shopify: Open the hamburger menu or cart, search panel'
+title: 'Shopify: Hamburger-Menü oder Warenkorb/Suche-Panel öffnen'
 ---
-# Shopify: Open the hamburger menu or cart, search panel
+# Shopify: Hamburger-Menü oder Warenkorb/Suche-Panel öffnen
 
-Currently, Navi+ supports a list of popular themes for opening Hamburger menus, Cart, and Search panels. For themes not on this list, you can request Navi+ to add support (turnaround time: 1 business day).
+Navi+ unterstützt derzeit eine Liste beliebter Themes zum Öffnen von Hamburger-Menüs, Warenkorb- und Suchpanels. Für Themes, die nicht auf dieser Liste stehen, können Sie Navi+ bitten, den Support hinzuzufügen (Bearbeitungszeit: 1 Werktag).
 
-**Supported themes list:** Dawn, Spotlight, Sense, Refresh, Craft, Impulse, Tailor, Symmetry, District, Warehouse, Veena, Hongo, Shark, Honey, Focal, Impact, Broadcast, Expanse, ShowTime, Pipeline, Empire, Enterprise, Local, Avenue, Parallax, Palo Alto, Minion, Borders, Xclusive, Prestige...
+**Liste der unterstützten Themes:** Dawn, Spotlight, Sense, Refresh, Craft, Impulse, Tailor, Symmetry, District, Warehouse, Veena, Hongo, Shark, Honey, Focal, Impact, Broadcast, Expanse, ShowTime, Pipeline, Empire, Enterprise, Local, Avenue, Parallax, Palo Alto, Minion, Borders, Xclusive, Prestige...
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJHyQeoYJnhJrLyWQjlyw%2FCSS.1.2.png?alt=media&#x26;token=ea5da017-ce82-4f05-baf8-1ba696c975e5" alt=""><figcaption></figcaption></figure>
 

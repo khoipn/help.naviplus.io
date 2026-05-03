@@ -1,96 +1,96 @@
 ---
-description: How to add built-in icons and custom images to menu items in Navi+, and how to style them.
+description: Navi+のメニュー項目に内蔵アイコンとカスタム画像を追加し、スタイルを設定する方法。
 layout: default
 permalink: /jp/docs/menu-items/item-icon-image/
-title: Icons & Images
+title: アイコンと画像
 ---
-# Icons & Images
+# アイコンと画像
 
-Each item can have one visual element — either a **built-in icon** or a **custom image**. You can only use one at a time, not both.
-
----
-
-## Built-in icon
-
-Icons are vector symbols from the integrated **Remixicon** library. They are crisp at any size and require no file upload.
-
-### How to add
-
-1. In the Edit Item panel, click the **Icon** button.
-2. The icon search box opens — type a keyword (e.g. `home`, `cart`, `phone`, `search`).
-3. Click an icon to select it — a preview appears on the item immediately.
-4. Click **×** to remove the current icon.
-
-### When to use icons
-
-- Items in a **Tab Bar** — icons are the standard way to label tabs.
-- When you want a clean, consistent look.
-- When you don't have custom images ready.
+各アイテムには1つのビジュアル要素を設定できます — **内蔵アイコン**または**カスタム画像**のいずれか。同時に両方は使用できません。
 
 ---
 
-## Custom image
+## 内蔵アイコン
 
-Use your own photo, logo, or graphic instead of a library icon.
+アイコンは統合された **Remixicon** ライブラリのベクターシンボルです。どのサイズでも鮮明で、ファイルアップロードは不要です。
 
-> **Starter plan:** Custom images are not supported — use built-in icons instead.
+### 追加方法
 
-### Option A — Upload from gallery *(Business / Elite)*
+1. 編集パネルで **アイコン** ボタンをクリックします。
+2. アイコン検索ボックスが開きます — キーワードを入力します（例: `home`, `cart`, `phone`, `search`）。
+3. アイコンをクリックして選択 — プレビューがアイテムにすぐ表示されます。
+4. **×** をクリックして現在のアイコンを削除します。
 
-1. Click the **Image** button in the Edit Item panel.
-2. Click **Gallery** → the upload dialog opens.
-3. Select or upload an image (JPG, PNG, GIF).
-4. Confirm — the image URL is filled in automatically.
+### アイコンを使う場面
 
-### Option B — Paste an image URL *(Elite)*
-
-1. Click the **Image** button.
-2. Paste the full image URL into the URL field.
-3. Click **Update**.
-
-### Image tips
-
-- Use **square (1:1)** images for Tab Bar icons.
-- Use **landscape** images for Big Image items.
-- **PNG with transparent background** works best for logos and symbols.
-- Keep file size small — heavy images slow down the menu on mobile.
-- Elite automatically converts images to WebP and normalizes dimensions.
+- **タブバー**のアイテム — アイコンはタブのラベル付けに標準的な方法です。
+- すっきりした統一感のある外観にしたい場合。
+- カスタム画像がまだ用意できていない場合。
 
 ---
 
-## Display layout
+## カスタム画像
 
-After adding an icon or image, choose how the icon/image and text are arranged in **Layout → Display Layout**:
+ライブラリアイコンの代わりに独自の写真、ロゴ、グラフィックを使用します。
 
-| Option | Layout |
+> **Starterプラン:** カスタム画像はサポートされていません — 代わりに内蔵アイコンを使用してください。
+
+### オプション A — ギャラリーからアップロード *(Business / Elite)*
+
+1. 編集パネルで **画像** ボタンをクリックします。
+2. **ギャラリー** をクリック → アップロードダイアログが開きます。
+3. 画像を選択またはアップロードします（JPG、PNG、GIF）。
+4. 確認 — 画像 URL が自動入力されます。
+
+### オプション B — 画像 URL を貼り付け *(Elite)*
+
+1. **画像** ボタンをクリックします。
+2. URL フィールドに完全な画像 URL を貼り付けます。
+3. **更新** をクリックします。
+
+### 画像のヒント
+
+- タブバーアイコンには**正方形（1:1）**の画像を使用します。
+- 大きな画像アイテムには**横長**の画像を使用します。
+- **透明背景の PNG** はロゴやシンボルに最適です。
+- ファイルサイズを小さく保ちます — 重い画像はモバイルでのメニュー読み込みを遅くします。
+- Elite は自動的に画像を WebP に変換し、寸法を正規化します。
+
+---
+
+## 表示レイアウト
+
+アイコンまたは画像を追加した後、**レイアウト → 表示レイアウト** でアイコン/画像とテキストの配置を選択します:
+
+| オプション | レイアウト |
 |---|---|
-| **Automatic** | Follows the menu type default |
-| **Top-Down** | Icon/image on top, text below |
-| **Left-Right** | Icon/image on left, text on right |
-| **Down-Top** | Text on top, icon/image below |
-| **Right-Left** | Text on left, icon/image on right |
-| **Icon/Image Only** | Icon/image only — text hidden |
-| **Text Only** | Text only — icon/image hidden |
+| **自動** | メニュータイプのデフォルトに従う |
+| **上-下** | アイコン/画像を上、テキストを下 |
+| **左-右** | アイコン/画像を左、テキストを右 |
+| **下-上** | テキストを上、アイコン/画像を下 |
+| **右-左** | テキストを左、アイコン/画像を右 |
+| **アイコン/画像のみ** | アイコン/画像のみ — テキスト非表示 |
+| **テキストのみ** | テキストのみ — アイコン/画像非表示 |
 
 ---
 
-## Style the icon or image
+## アイコンまたは画像のスタイル設定
 
-Go to **Interface → Icon / Image Style** to fine-tune appearance:
+**Interface → アイコン / 画像スタイル** で外観を細かく調整します:
 
-| Setting | Effect |
+| 設定 | 効果 |
 |---|---|
-| **Icon Color** | Change the icon vector color (hex). Does not apply to image files. |
-| **Size (px)** | Display size of the icon or image |
-| **Container** | Background color of the box surrounding the icon |
-| **Padding (px)** | Space between the icon and its container box |
-| **Curve (px)** | Corner radius of the container — set `50` for a circle |
+| **アイコンカラー** | アイコンのベクターカラーを変更（hex）。画像ファイルには適用されません。 |
+| **サイズ (px)** | アイコンまたは画像の表示サイズ |
+| **コンテナ** | アイコンを囲むボックスの背景色 |
+| **パディング (px)** | アイコンとコンテナボックスの間のスペース |
+| **カーブ (px)** | コンテナのコーナー半径 — `50` で円形 |
 
-**Example — white icon in a round blue box:**
+**例 — 丸い青いボックスの白いアイコン:**
 
 ```
-Icon Color:  #FFFFFF
-Container:   #0066CC
-Padding:     10
-Curve:       50
+アイコンカラー:  #FFFFFF
+コンテナ:        #0066CC
+パディング:      10
+カーブ:          50
 ```

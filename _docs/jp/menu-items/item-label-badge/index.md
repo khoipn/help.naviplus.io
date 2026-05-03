@@ -1,70 +1,70 @@
 ---
-description: How to set item text labels, descriptions, dividers, and badges (including cart count badges) in Navi+.
+description: Navi+でアイテムのテキストラベル、説明、区切り線、バッジ（カート数バッジを含む）を設定する方法。
 layout: default
 permalink: /jp/docs/menu-items/item-label-badge/
-title: Labels, Descriptions & Badges
+title: ラベル、説明 & バッジ
 ---
-# Labels, Descriptions & Badges
+# ラベル、説明 & バッジ
 
-## Text (main label)
+## テキスト（メインラベル）
 
-The primary text displayed on the item — what visitors read.
+アイテムに表示される主要テキスト — 訪問者が読む内容です。
 
-**Tips:**
-- Keep it short: 1–3 words is ideal for mobile menus.
-- Leave it empty if you want an icon-only item (combine with Display Layout → Icon/Image Only).
-- Supports multiple languages — click **Multi** next to the label to add translations per language.
+**ヒント:**
+- 短く保ちましょう: モバイルメニューには1〜3語が理想的です。
+- アイコンのみのアイテムが必要な場合は空欄にします（レイアウト → アイコン/画像のみと組み合わせる）。
+- 複数言語をサポート — ラベルの横の **マルチ** をクリックして言語ごとの翻訳を追加します。
 
-**Examples:** `Home`, `Shop`, `Contact`
-
----
-
-## Description (sub-label)
-
-A smaller line of text below the main Text — use it for a short note or secondary label.
-
-**Example:** `Call: +1 212 555 0100 | 8AM–9PM`
-
-**Notes:**
-- Only visible when the Display Layout supports two lines (Top-Down, Left-Right, etc.).
-- Hidden when the layout is Icon/Image Only or Text Only.
-- Supports multiple languages.
+**例:** `ホーム`、`ショップ`、`お問い合わせ`
 
 ---
 
-## Icon-only (hide label, show icon)
+## 説明（サブラベル）
 
-To hide the Text label and show only the icon or image, go to **Layout → Display Layout → Icon/Image Only**.
+メインテキストの下の小さいテキスト行 — 短いメモや補助ラベルに使用します。
 
-The Text field still exists in the data (for SEO and accessibility) but is not rendered visually.
+**例:** `電話: +81 3-1234-5678 | 8時〜21時`
+
+**注意:**
+- 表示レイアウトが2行をサポートする場合のみ表示されます（上-下、左-右など）。
+- レイアウトがアイコン/画像のみまたはテキストのみの場合は非表示。
+- 複数言語をサポート。
 
 ---
 
-## Add Divider
+## アイコンのみ（ラベルを非表示にしてアイコンを表示）
 
-Enable **Add Divider** to add a horizontal line below the item, separating it from the next item.
+テキストラベルを非表示にしてアイコンまたは画像のみを表示するには、**レイアウト → 表示レイアウト → アイコン/画像のみ** に移動します。
 
-When enabled, three additional options appear:
+テキストフィールドはデータ上では存在し続けます（SEOとアクセシビリティのため）が、視覚的には表示されません。
 
-| Option | Description | Plan |
+---
+
+## 区切り線を追加
+
+**区切り線を追加** を有効にして、アイテムの下に水平線を追加し、次のアイテムと区切ります。
+
+有効にすると、3つの追加オプションが表示されます:
+
+| オプション | 説明 | プラン |
 |---|---|---|
-| **Size (px)** | Line thickness (default 1px) | All |
-| **Type** | Line style: Solid, Dashed, Dotted, Double | Business / Elite |
-| **Color** | Line color (hex) | All |
-| **Width** | Span: Full, Inset, Under text | Business / Elite |
+| **サイズ (px)** | 線の太さ（デフォルト1px） | すべて |
+| **タイプ** | 線のスタイル: 実線、破線、点線、二重線 | Business / Elite |
+| **カラー** | 線の色（hex） | すべて |
+| **幅** | スパン: フル、インセット、テキスト下 | Business / Elite |
 
-> Type and Width appear greyed out (locked) on the Starter plan.
+> タイプと幅はStarterプランではグレーアウト（ロック）されます。
 
 ---
 
-## Add Badge
+## バッジを追加
 
-Enable **Add Badge** to show a small badge dot on the item corner — useful for "New" labels, notifications, or cart count.
+**バッジを追加** を有効にして、アイテムのコーナーに小さなバッジドットを表示します — 「新着」ラベル、通知、またはカート数に便利です。
 
-### Cart badge *(Business / Elite)*
+### カートバッジ *(Business / Elite)*
 
-Enable **"Show badge (+n) when items are in the cart"** to automatically display the number of products in the cart.
+**「カートに商品がある場合にバッジ (+n) を表示」** を有効にして、カート内の商品数を自動的に表示します。
 
-Perfect for a Cart item in the Tab Bar:
-- Empty cart → badge hidden.
-- 3 items in cart → badge shows **3**.
+タブバーのカートアイテムに最適:
+- 空のカート → バッジ非表示。
+- カートに3点 → バッジが **3** を表示。

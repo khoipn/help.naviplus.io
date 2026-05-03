@@ -1,90 +1,90 @@
 ---
-description: How to add, reorder, duplicate, delete, and undo changes to menu items in Navi+.
+description: Comment ajouter, réorganiser, dupliquer, supprimer et annuler des modifications aux éléments de menu dans Navi+.
 layout: default
 permalink: /fr/docs/menu-items/item-create-manage/
-title: Create & Manage Items
+title: Créer et gérer des éléments
 ---
-# Create & Manage Items
+# Créer et gérer des éléments
 
-## Add a new item
+## Ajouter un nouvel élément
 
-1. In the menu tree, click **+ Add item** (or the plus button at the bottom of the list).
-2. Choose the item kind you want (Icon/Text, Big Image, Group Title, Blank Space, Tab Marker…).
-3. The new item appears at the end of the list with default content.
-4. Click the item to open the Edit Item panel and fill in the details.
-5. Press **Update** → **Save**.
+1. Dans l'arborescence du menu, cliquez sur **+ Ajouter un élément** (ou le bouton plus en bas de la liste).
+2. Choisissez le type d'élément souhaité (Icône/Texte, Grande image, Titre de groupe, Espace vide, Marqueur d'onglet…).
+3. Le nouvel élément apparaît en bas de la liste avec un contenu par défaut.
+4. Cliquez sur l'élément pour ouvrir le panneau de modification et remplissez les détails.
+5. Appuyez sur **Mettre à jour** → **Enregistrer**.
 
-> New items are always added at the bottom. Drag them up to the position you want after adding.
+> Les nouveaux éléments sont toujours ajoutés en bas. Faites-les glisser vers le haut jusqu'à la position souhaitée.
 
 ---
 
-## Reorder items
+## Réorganiser les éléments
 
-### By drag and drop
+### Par glisser-déposer
 
-- Hover over the drag handle (≡) on the left of an item.
-- Drag **up / down** to change order within the same level.
-- Drag **right** to indent — the item becomes a child of the item above it.
-- Drag **left** to outdent — the item moves back up one level.
+- Survolez la poignée de déplacement (≡) à gauche d'un élément.
+- Faites glisser **vers le haut / bas** pour changer l'ordre au même niveau.
+- Faites glisser **vers la droite** pour mettre en retrait — l'élément devient un enfant de l'élément au-dessus.
+- Faites glisser **vers la gauche** pour réduire le retrait — l'élément remonte d'un niveau.
 
-### By keyboard shortcut (while an item is selected)
+### Par raccourci clavier (quand un élément est sélectionné)
 
-| Key | Action |
+| Touche | Action |
 |---|---|
-| `↑` | Move up (Mac: `Cmd+↑` / Win: `Alt+↑`) |
-| `↓` | Move down (Mac: `Cmd+↓` / Win: `Alt+↓`) |
-| `→` | Indent — item becomes a child of the item above |
-| `←` | Outdent — item moves back to the parent level |
+| `↑` | Monter (Mac: `Cmd+↑` / Win: `Alt+↑`) |
+| `↓` | Descendre (Mac: `Cmd+↓` / Win: `Alt+↓`) |
+| `→` | Mettre en retrait — devient enfant de l'élément au-dessus |
+| `←` | Réduire le retrait — retourne au niveau parent |
 
-> Shortcuts only work when the cursor is hovering over the menu tree and the item is selected (blue outline).
-
----
-
-## Edit an item
-
-1. Click the item → Edit Item panel opens.
-2. Change the fields you need.
-3. Press **Update** to save the changes to that item.
-
-> Press **Cancel** to close the panel without saving.
+> Les raccourcis ne fonctionnent que lorsque le curseur survole l'arborescence et que l'élément est sélectionné (contour bleu).
 
 ---
 
-## Duplicate an item
+## Modifier un élément
 
-1. Hover over the item → the quick action menu appears.
-2. Click **Copy** (or press `C`).
-3. A copy appears immediately below the original, with all content and settings preserved.
-4. Edit the copy as needed.
+1. Cliquez sur l'élément → le panneau de modification s'ouvre.
+2. Modifiez les champs nécessaires.
+3. Appuyez sur **Mettre à jour** pour enregistrer les modifications de cet élément.
 
----
-
-## Delete an item
-
-1. Hover over the item → the quick action menu appears.
-2. Click **Delete** (or press `Del` / `Backspace` on Mac).
-3. A confirmation dialog appears — click **Confirm** to permanently delete.
-
-> **Note:** Deleting a parent item also deletes all its child items. This cannot be undone after confirmation.
+> Appuyez sur **Annuler** pour fermer le panneau sans enregistrer.
 
 ---
 
-## Undo / Redo
+## Dupliquer un élément
 
-| Shortcut | Action |
+1. Survolez l'élément → le menu d'action rapide apparaît.
+2. Cliquez sur **Copier** (ou appuyez sur `C`).
+3. Une copie apparaît immédiatement sous l'original, avec tout le contenu et les paramètres préservés.
+4. Modifiez la copie selon vos besoins.
+
+---
+
+## Supprimer un élément
+
+1. Survolez l'élément → le menu d'action rapide apparaît.
+2. Cliquez sur **Supprimer** (ou appuyez sur `Del` / `Backspace` sur Mac).
+3. Une boîte de dialogue de confirmation apparaît — cliquez sur **Confirmer** pour supprimer définitivement.
+
+> **Remarque :** La suppression d'un élément parent supprime également tous ses éléments enfants. Cela ne peut pas être annulé après confirmation.
+
+---
+
+## Annuler / Rétablir
+
+| Raccourci | Action |
 |---|---|
-| `Ctrl+Z` / `Cmd+Z` | Undo the last action |
-| `Ctrl+Y` / `Cmd+Shift+Z` | Redo |
+| `Ctrl+Z` / `Cmd+Z` | Annuler la dernière action |
+| `Ctrl+Y` / `Cmd+Shift+Z` | Rétablir |
 
-Undo history only exists for the current session — reloading the page clears it.
+L'historique d'annulation n'existe que pour la session en cours — recharger la page l'efface.
 
 ---
 
-## Save the menu
+## Enregistrer le menu
 
-After adding, reordering, or deleting items:
+Après avoir ajouté, réorganisé ou supprimé des éléments :
 
-- Click **Save** in the toolbar, or press `Ctrl+S` / `Cmd+S`.
-- Hold `Shift` while pressing Save to save and immediately reload the simulator.
+- Cliquez sur **Enregistrer** dans la barre d'outils, ou appuyez sur `Ctrl+S` / `Cmd+S`.
+- Maintenez `Shift` en appuyant sur Enregistrer pour sauvegarder et recharger immédiatement le simulateur.
 
-Changes are not visible to your customers until you Save.
+Les modifications ne sont pas visibles par vos clients tant que vous n'avez pas enregistré.

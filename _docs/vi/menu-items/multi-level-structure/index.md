@@ -1,76 +1,76 @@
 ---
-description: How to create parent–child nesting and use Tab Slide to organize Navi+ menu items into multi-level structures.
+description: Cách tạo lồng cha con và dùng Tab Slide để tổ chức các mục menu Navi+ thành cấu trúc nhiều lớp.
 layout: default
 permalink: /vi/docs/menu-items/multi-level-structure/
-title: Multi-level Structure
+title: Cấu trúc nhiều lớp
 ---
-# Multi-level Structure
+# Cấu trúc nhiều lớp
 
-Navi+ supports two ways to organize menu content in depth: **parent–child nesting** (drag left/right to indent) and **Tab Slide** (split the menu into horizontal switching zones). You can use either approach or combine both.
+Navi+ hỗ trợ hai cách tổ chức nội dung menu theo chiều sâu: **lồng cha con** (kéo trái/phải để thụt lề) và **Tab Slide** (chia menu thành các vùng chuyển đổi ngang). Bạn có thể dùng một trong hai hoặc kết hợp cả hai.
 
 ---
 
-## Option 1 — Parent–child nesting (indent by drag)
+## Tùy chọn 1 — Lồng cha con (thụt lề bằng kéo)
 
-Nesting turns a flat list into a leveled hierarchy. A parent item can be expanded to reveal its children.
+Lồng chuyển danh sách phẳng thành cấu trúc phân cấp nhiều tầng. Một mục cha có thể được mở rộng để hiện các mục con.
 
 ```
-Home                        ← Level 1 (parent)
-  Collections               ← Level 2 (child)
-    New Arrivals            ← Level 3 (grandchild)
+Home                        ← Cấp 1 (cha)
+  Collections               ← Cấp 2 (con)
+    New Arrivals            ← Cấp 3 (cháu)
     Sale
   Lookbook
-Contact                     ← Level 1 (parent, no children)
+Contact                     ← Cấp 1 (cha, không có con)
 ```
 
-### How to do it
+### Cách thực hiện
 
-**By drag and drop**
+**Bằng kéo thả**
 
-1. Hover over the item you want to nest.
-2. Drag it **right** — it snaps under the item above it as a child.
-3. Drag it **left** to move it back up to the parent level.
+1. Di chuột lên mục bạn muốn lồng.
+2. Kéo sang **phải** — mục đó gắn vào bên dưới mục phía trên như một mục con.
+3. Kéo sang **trái** để đưa mục trở lại cấp cha.
 
-**By keyboard shortcut**
+**Bằng phím tắt**
 
-1. Click the item to select it.
-2. Press `→` (right arrow) to indent — the item becomes a child of the item above.
-3. Press `←` (left arrow) to outdent — the item moves back up one level.
+1. Click vào mục để chọn.
+2. Nhấn `→` (mũi tên phải) để thụt lề — mục trở thành con của mục phía trên.
+3. Nhấn `←` (mũi tên trái) để bỏ thụt lề — mục được đưa lên một cấp.
 
-### Maximum nesting depth by menu type
+### Độ sâu lồng tối đa theo loại menu
 
-The depth limit depends on the **menu type**, not the plan.
+Giới hạn độ sâu phụ thuộc vào **loại menu**, không phải gói dịch vụ.
 
-| Menu type | Max levels |
+| Loại menu | Số cấp tối đa |
 |---|:---:|
-| Mobile Grid | 1 (no nesting) |
+| Mobile Grid | 1 (không hỗ trợ lồng) |
 | FAB | 2 |
 | Tab Bar, Mega Menu, Slide Menu, Desktop Mega Menu | 3 |
 
-> If you try to indent past the limit, the editor will block it and show a message.
+> Nếu bạn cố thụt lề vượt giới hạn, trình chỉnh sửa sẽ chặn lại và hiển thị thông báo.
 
 ---
 
-## Option 2 — Tab Slide (horizontal zones)
+## Tùy chọn 2 — Tab Slide (vùng ngang)
 
-Tab Slide divides items into horizontal tabs. Instead of expanding downward like children, each tab shows a separate set of items.
+Tab Slide chia các mục thành các tab ngang. Thay vì mở rộng xuống dưới như các mục con, mỗi tab hiện một tập hợp mục riêng biệt.
 
 ```
 ┌─────────────────────────────────┐
-│  [Shop]  [Pages]  [More]        │  ← tab headers
+│  [Shop]  [Pages]  [More]        │  ← tiêu đề tab
 ├─────────────────────────────────┤
 │  • Collections                  │
-│  • New Arrivals                 │  ← content of active tab
+│  • New Arrivals                 │  ← nội dung tab đang active
 │  • Sale                         │
 └─────────────────────────────────┘
 ```
 
-### How to do it
+### Cách thực hiện
 
-1. Add a new item with kind **Tab Marker**.
-2. Set the Tab Marker label — this becomes the tab header text (e.g. "Shop").
-3. Add items below the Tab Marker — they belong to that tab's content area.
-4. Repeat: add the next Tab Marker, then add items for that tab.
+1. Thêm một mục mới với loại **Tab Marker**.
+2. Đặt nhãn cho Tab Marker — đây sẽ là văn bản tiêu đề tab (ví dụ: "Shop").
+3. Thêm các mục bên dưới Tab Marker — chúng thuộc vùng nội dung của tab đó.
+4. Lặp lại: thêm Tab Marker tiếp theo, rồi thêm các mục cho tab đó.
 
 ```
 [Tab Marker]  "Shop"
@@ -89,21 +89,21 @@ Tab Slide divides items into horizontal tabs. Instead of expanding downward like
 
 ---
 
-## Which approach to use?
+## Nên dùng cách nào?
 
-| Goal | Use |
+| Mục tiêu | Dùng |
 |---|---|
-| Show subcategories under a parent item | **Parent–child nesting (Option 1)** |
-| Group unrelated sections side by side | **Tab Slide (Option 2)** |
-| Menu with many items across multiple categories | **Tab Slide** |
-| Deep drill-down navigation (category → subcategory) | **Parent–child nesting** |
-| Outer tabs with nested items inside each tab | **Both** |
+| Hiển thị danh mục con dưới mục cha | **Lồng cha con (Tùy chọn 1)** |
+| Nhóm các phần không liên quan cạnh nhau | **Tab Slide (Tùy chọn 2)** |
+| Menu có nhiều mục trong nhiều danh mục | **Tab Slide** |
+| Điều hướng drill-down sâu (danh mục → danh mục con) | **Lồng cha con** |
+| Tab ngoài có các mục lồng bên trong mỗi tab | **Cả hai** |
 
 ---
 
-## Limits to keep in mind
+## Giới hạn cần lưu ý
 
-- **Tab Markers cannot be nested inside another item.** Indenting a Tab Marker is blocked.
-- **Items inside a tab can still have children** — subject to the menu type depth limit.
-- **Mobile Grid does not support nesting** — use Tab Slide if you need grouping.
-- **Reorder tabs** by dragging a Tab Marker up or down — the items below it follow along.
+- **Tab Marker không thể lồng bên trong một mục khác.** Việc thụt lề Tab Marker sẽ bị chặn.
+- **Các mục bên trong tab vẫn có thể có con** — theo giới hạn độ sâu của loại menu.
+- **Mobile Grid không hỗ trợ lồng** — dùng Tab Slide nếu bạn cần nhóm.
+- **Sắp xếp lại tab** bằng cách kéo Tab Marker lên hoặc xuống — các mục bên dưới sẽ theo.

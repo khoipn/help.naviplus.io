@@ -1,24 +1,62 @@
 ---
-description: Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are cou...
+description: 比较 Navi+ 套餐 — Starter（免费）、Business 和 Elite。了解每个套餐包含的内容、限制以及超出限制时的处理方式。
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-title: Navi+ plans (Starter, Business & Elite)
+title: 套餐与价格对比
 ---
-# Navi+ plans (Starter, Business & Elite)
+# 套餐与价格对比
 
-#### Question 1: What happens when my Starter plan exceeds 50,000 visits?
+所有套餐均包含所有菜单类型 — Tab Bar、Mega Menu、Slide Menu、Grid Menu 和 FAB。
 
-Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are counted when Navi+ is displayed on the website) exceed 50,000, your account will automatically be flagged for an upgrade. We will take the following actions:
+---
 
-1. We will send multiple emails to notify you about the status of your Navi+ Starter plan (Please ensure you receive our notifications, as this is crucial). Upon receiving the notification, consider upgrading your account to a higher plan like Business or Elite.
-2. If you do not receive the information or if your website does not intend to upgrade to a higher plan, we will start displaying small Navi+ ads on your menus. The size of the ads will not affect user interaction but will be noticeable enough for users to understand that the menu is powered by Navi+. We will consider gradually increasing the visibility of the ads over time, from very subtle to more noticeable. This helps Navi+ reach more people and generates additional revenue from other customers.
-3. We will not disable or remove any features of Navi+ that are currently displayed on your site. We fully understand that these features are crucial for user interaction on your website, so this is something we will strictly avoid.
+## Starter — 免费
 
-#### Question 2: What happens if you downgrade from Business or Elite back to Starter, yet it seems like all the features remain?
+- 永久使用 — $0/月，无需信用卡
+- 1个 Navi+ 菜单（任意类型）
+- 最多 50,000 次 Navi+ 展示
+- 30天数据分析
+- 基础设施 SLA 99.00%
+- 邮件支持
+- 不支持图片上传 — 请改用图标
+- 高级配置有限（触摸反馈、导航图标、动画、可复用类、属性）
+- 如果使用量大幅超出限制，可能会显示广告 — 届时您会提前收到邮件通知
 
-We understand that features and user experience are crucial for your customers, so we ensure that no features on your menu will be hidden or removed. However, we have a system that performs a daily scan. As soon as it detects that your website is in this situation, we will send you an email notification to encourage you to upgrade to a higher plan. These email notifications will be spaced out over time to avoid overwhelming you with too many messages. If you choose not to upgrade back to the Business or Elite plans, Navi+ will start displaying ads as explained in Question 1.
+## Business — $6.25/月
 
-#### Question 3: What happens if I exceed the limit on the Business plan (e.g., more than 500,000 Navi+ views/month)?
+包含 Starter 的所有功能，另加：
 
-As with the previous questions, Navi+ will not hide or remove any menu features. However, once the limit is exceeded, and after email notifications are sent to you to consider upgrading to the Elite plan, ads may be displayed on your menu until the start of a new monthly cycle.
+- 最多 4 个 Navi+ 菜单
+- 每月最多 500,000 次 Navi+ 展示
+- 完整多语言支持
+- 标准图片上传 — JPG、PNG、动态 GIF
+- 统计与数据分析
+- 将网站 UI 组件以弹窗形式打开：搜索、购物车、默认菜单
+- 替换主题的购物车、菜单/搜索图标（含购物车数量徽章）和聊天气泡
+- 高级配置：触摸反馈、导航图标、动画样式和速度、可复用类、属性
+- 优质 CDN — 北美、欧洲和亚洲均有出色表现
+- 24/7 支持
+
+## Elite — $10/月
+
+包含 Business 的所有功能，另加：
+
+- 无限 Navi+ 菜单
+- 无限 Navi+ 展示次数
+- 高级图片工具：转换为 WebP · 图片尺寸标准化 · 外部图片 URL
+- SEO 搜索优化支持
+- 完整数据分析
+- 全球顶级 CDN — Cloudflare + BunnyCDN 双重故障转移，SLA 99.99%
+- 永不显示广告
+- 专属支持：团队可直接加入您的商店，迁移旧菜单，代为配置和编辑 UI
+
+---
+
+## 超出限制时会发生什么？
+
+**Navi+ 永远不会停用或删除您的菜单。** 我们知道导航对您的访客至关重要。
+
+1. **邮件通知** — 我们会在采取任何行动前提前通知您。
+2. **可能显示广告** — 如果您超出限制后不升级，菜单中可能出现小型"Powered by Navi+"广告，不影响交互但用户可见。
+3. **无隐藏功能** — 您的菜单将完全按照配置继续运行。

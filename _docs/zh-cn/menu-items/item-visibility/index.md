@@ -1,54 +1,47 @@
 ---
-description: How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding.
+description: 如何在 Navi+ 中控制菜单项的显示时间和显示对象 — 发布状态、登录条件和按页面隐藏。
 layout: default
 permalink: /zh-cn/docs/menu-items/item-visibility/
-title: Visibility & Conditions
+title: 可见性与条件
 ---
-# Visibility & Conditions
+# 可见性与条件
 
-The **Publish** section in the Edit Item panel lets you control who sees an item, when, and on which pages.
-
----
-
-## Is Published
-
-**Default: on (item is visible to everyone).**
-
-Toggle this off to hide the item from the live menu without deleting it. The item stays in the editor — you can re-enable it at any time.
-
-**Use when:**
-- Temporarily hiding a seasonal sale link.
-- Preparing an item before it goes live.
-- Keeping a backup item without deleting it.
+编辑面板中的 **发布** 部分让您控制谁能看到菜单项、何时显示以及在哪些页面显示。
 
 ---
 
-## Hide when logged in
+## 已发布
 
-When enabled, the item is **only visible to visitors who are not logged in**.
+**默认：开启（所有人可见）。**
 
-**Use for:**
-- A "Log in" button — customers who are already logged in don't need it.
-- A "Create account" link.
+关闭可以在不删除的情况下从实时菜单中隐藏该菜单项。
 
----
-
-## Only show when logged in
-
-When enabled, the item is **only visible to logged-in customers**.
-
-**Use for:**
-- "My account" link.
-- Loyalty points, order history.
-- Features reserved for members.
+**使用场景：**
+- 临时隐藏季节性促销链接。
+- 在上线前准备菜单项。
+- 保留备用菜单项而不删除。
 
 ---
 
-## Hide on specific page types (hidepages)
+## 登录时隐藏
 
-Use the `hidepages` attribute in **Advance → Attributes** to hide an item on certain page types.
+开启后，该菜单项**仅对未登录访客可见**。
 
-**Syntax:**
+**用于：**"登录"按钮、"创建账户"链接。
+
+---
+
+## 仅登录时显示
+
+开启后，该菜单项**仅对已登录客户可见**。
+
+**用于：**"我的账户"、积分、订单历史、会员专属功能。
+
+---
+
+## 在特定页面类型隐藏 (hidepages)
+
+在 **高级 → 属性** 中使用 `hidepages` 属性。
 
 ```
 hidepages=index
@@ -56,54 +49,40 @@ hidepages=index|products
 hidepages=index|products|collections|pages|blogs|others
 ```
 
-| Value | Pages hidden on |
+| 值 | 隐藏的页面 |
 |---|---|
-| `index` | Home page |
-| `products` | Product detail pages |
-| `collections` | Collection / category pages |
-| `pages` | Static pages (About, Contact…) |
-| `blogs` | Blog listing and post pages |
-| `others` | Any page not in the above categories |
+| `index` | 首页 |
+| `products` | 商品详情页 |
+| `collections` | 系列/分类页面 |
+| `pages` | 静态页面 |
+| `blogs` | 博客 |
+| `others` | 其他页面 |
 
-Separate multiple values with `|`, no spaces.
-
-**Example:** Hide a "Buy now" button on the home page and blog pages:
-
-```
-hidepages=index|blogs
-```
+**示例：** `hidepages=index|blogs`
 
 ---
 
-## Hide by device (Mobile / Desktop)
+## 按设备隐藏
 
-> **Important:** Navi+ does not have a per-item mobile/desktop toggle. Device targeting is controlled at the **menu level**, not the item level.
-
-**The correct approach:**
-
-- Go to the **Publish** tab of the menu → toggle **Mobile** and **Desktop** for the entire menu.
-- Create two separate menus — one for mobile, one for desktop — and set the device toggle on each.
-
-**Per-item workaround (if truly needed):**  
-Use **Advance → CSS** with a media query:
+> Navi+ 在**菜单层级**控制设备显示，不在菜单项层级。创建两个独立菜单，或使用 CSS。
 
 ```css
-/* Hide this item on mobile only */
+/* 仅在移动端隐藏 */
 @media (max-width: 767px) { display: none !important; }
 
-/* Hide this item on desktop only */
+/* 仅在桌面端隐藏 */
 @media (min-width: 768px) { display: none !important; }
 ```
 
 ---
 
-## Summary
+## 总结
 
-| Condition | How to set |
+| 条件 | 设置方式 |
 |---|---|
-| Hide completely | Is Published → off |
-| Hide from logged-in users | Hide when logged in → on |
-| Hide from guests | Only show when logged in → on |
-| Hide on home page | Attributes: `hidepages=index` |
-| Hide on mobile | CSS: `@media (max-width: 767px) { display: none !important; }` |
-| Hide on desktop | CSS: `@media (min-width: 768px) { display: none !important; }` |
+| 完全隐藏 | 已发布 → 关闭 |
+| 对登录用户隐藏 | 登录时隐藏 → 开启 |
+| 对访客隐藏 | 仅登录时显示 → 开启 |
+| 在首页隐藏 | `hidepages=index` |
+| 在移动端隐藏 | CSS `@media (max-width: 767px)` |
+| 在桌面端隐藏 | CSS `@media (min-width: 768px)` |

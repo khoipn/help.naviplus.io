@@ -1,15 +1,15 @@
 ---
-description: Currently, Navi+ supports a list of popular themes for opening Hamburger menus, Cart, and Search panels. For themes not on this list, you can request Navi+ t...
+description: Navi+ 支持一系列热门主题的汉堡菜单、购物车和搜索面板打开功能。不在列表中的主题可以向 Navi+ 申请添加支持。
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
-title: 'Shopify: Open the hamburger menu or cart, search panel'
+title: 'Shopify: 打开汉堡菜单或购物车、搜索面板'
 ---
-# Shopify: Open the hamburger menu or cart, search panel
+# Shopify: 打开汉堡菜单或购物车、搜索面板
 
-Currently, Navi+ supports a list of popular themes for opening Hamburger menus, Cart, and Search panels. For themes not on this list, you can request Navi+ to add support (turnaround time: 1 business day).
+Navi+ 目前支持一系列热门主题的汉堡菜单、购物车和搜索面板打开功能。对于不在此列表中的主题，您可以申请 Navi+ 添加支持（处理时间：1个工作日）。
 
-**Supported themes list:** Dawn, Spotlight, Sense, Refresh, Craft, Impulse, Tailor, Symmetry, District, Warehouse, Veena, Hongo, Shark, Honey, Focal, Impact, Broadcast, Expanse, ShowTime, Pipeline, Empire, Enterprise, Local, Avenue, Parallax, Palo Alto, Minion, Borders, Xclusive, Prestige...
+**支持的主题列表：** Dawn, Spotlight, Sense, Refresh, Craft, Impulse, Tailor, Symmetry, District, Warehouse, Veena, Hongo, Shark, Honey, Focal, Impact, Broadcast, Expanse, ShowTime, Pipeline, Empire, Enterprise, Local, Avenue, Parallax, Palo Alto, Minion, Borders, Xclusive, Prestige...
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FJHyQeoYJnhJrLyWQjlyw%2FCSS.1.2.png?alt=media&#x26;token=ea5da017-ce82-4f05-baf8-1ba696c975e5" alt=""><figcaption></figcaption></figure>
 

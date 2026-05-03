@@ -1,76 +1,76 @@
 ---
-description: How to create parent–child nesting and use Tab Slide to organize Navi+ menu items into multi-level structures.
+description: Come creare la nidificazione padre–figlio e usare Tab Slide per organizzare gli elementi di menu di Navi+ in strutture a più livelli.
 layout: default
 permalink: /it/docs/menu-items/multi-level-structure/
-title: Multi-level Structure
+title: Struttura multilivello
 ---
-# Multi-level Structure
+# Struttura multilivello
 
-Navi+ supports two ways to organize menu content in depth: **parent–child nesting** (drag left/right to indent) and **Tab Slide** (split the menu into horizontal switching zones). You can use either approach or combine both.
+Navi+ supporta due modi per organizzare il contenuto del menu in profondità: **nidificazione padre–figlio** (trascinare a sinistra/destra per indentare) e **Tab Slide** (dividere il menu in zone di commutazione orizzontale). Puoi usare entrambi gli approcci singolarmente o combinarli.
 
 ---
 
-## Option 1 — Parent–child nesting (indent by drag)
+## Opzione 1 — Nidificazione padre–figlio (indentazione tramite trascinamento)
 
-Nesting turns a flat list into a leveled hierarchy. A parent item can be expanded to reveal its children.
+La nidificazione trasforma un elenco piatto in una gerarchia a livelli. Un elemento padre può essere espanso per rivelare i suoi figli.
 
 ```
-Home                        ← Level 1 (parent)
-  Collections               ← Level 2 (child)
-    New Arrivals            ← Level 3 (grandchild)
+Home                        ← Livello 1 (padre)
+  Collections               ← Livello 2 (figlio)
+    New Arrivals            ← Livello 3 (nipote)
     Sale
   Lookbook
-Contact                     ← Level 1 (parent, no children)
+Contact                     ← Livello 1 (padre, senza figli)
 ```
 
-### How to do it
+### Come fare
 
-**By drag and drop**
+**Tramite trascinamento**
 
-1. Hover over the item you want to nest.
-2. Drag it **right** — it snaps under the item above it as a child.
-3. Drag it **left** to move it back up to the parent level.
+1. Passa il cursore sull'elemento che vuoi nidificare.
+2. Trascinalo verso **destra** — si aggancia sotto l'elemento sopra come figlio.
+3. Trascinalo verso **sinistra** per riportarlo al livello padre.
 
-**By keyboard shortcut**
+**Tramite scorciatoia da tastiera**
 
-1. Click the item to select it.
-2. Press `→` (right arrow) to indent — the item becomes a child of the item above.
-3. Press `←` (left arrow) to outdent — the item moves back up one level.
+1. Fai clic sull'elemento per selezionarlo.
+2. Premi `→` (freccia destra) per indentare — l'elemento diventa figlio dell'elemento sopra.
+3. Premi `←` (freccia sinistra) per togliere l'indentazione — l'elemento sale di un livello.
 
-### Maximum nesting depth by menu type
+### Profondità massima di nidificazione per tipo di menu
 
-The depth limit depends on the **menu type**, not the plan.
+Il limite di profondità dipende dal **tipo di menu**, non dal piano.
 
-| Menu type | Max levels |
+| Tipo di menu | Livelli max. |
 |---|:---:|
-| Mobile Grid | 1 (no nesting) |
+| Mobile Grid | 1 (nessuna nidificazione) |
 | FAB | 2 |
 | Tab Bar, Mega Menu, Slide Menu, Desktop Mega Menu | 3 |
 
-> If you try to indent past the limit, the editor will block it and show a message.
+> Se provi a indentare oltre il limite, l'editor lo bloccherà e mostrerà un messaggio.
 
 ---
 
-## Option 2 — Tab Slide (horizontal zones)
+## Opzione 2 — Tab Slide (zone orizzontali)
 
-Tab Slide divides items into horizontal tabs. Instead of expanding downward like children, each tab shows a separate set of items.
+Tab Slide divide gli elementi in schede orizzontali. Invece di espandersi verso il basso come figli, ogni scheda mostra un insieme separato di elementi.
 
 ```
 ┌─────────────────────────────────┐
-│  [Shop]  [Pages]  [More]        │  ← tab headers
+│  [Shop]  [Pages]  [More]        │  ← intestazioni schede
 ├─────────────────────────────────┤
 │  • Collections                  │
-│  • New Arrivals                 │  ← content of active tab
+│  • New Arrivals                 │  ← contenuto della scheda attiva
 │  • Sale                         │
 └─────────────────────────────────┘
 ```
 
-### How to do it
+### Come fare
 
-1. Add a new item with kind **Tab Marker**.
-2. Set the Tab Marker label — this becomes the tab header text (e.g. "Shop").
-3. Add items below the Tab Marker — they belong to that tab's content area.
-4. Repeat: add the next Tab Marker, then add items for that tab.
+1. Aggiungi un nuovo elemento con il tipo **Tab Marker**.
+2. Imposta l'etichetta del Tab Marker — diventa il testo dell'intestazione della scheda (es. "Shop").
+3. Aggiungi elementi sotto il Tab Marker — appartengono all'area di contenuto di quella scheda.
+4. Ripeti: aggiungi il Tab Marker successivo, poi gli elementi per quella scheda.
 
 ```
 [Tab Marker]  "Shop"
@@ -89,21 +89,21 @@ Tab Slide divides items into horizontal tabs. Instead of expanding downward like
 
 ---
 
-## Which approach to use?
+## Quale approccio usare?
 
-| Goal | Use |
+| Obiettivo | Usare |
 |---|---|
-| Show subcategories under a parent item | **Parent–child nesting (Option 1)** |
-| Group unrelated sections side by side | **Tab Slide (Option 2)** |
-| Menu with many items across multiple categories | **Tab Slide** |
-| Deep drill-down navigation (category → subcategory) | **Parent–child nesting** |
-| Outer tabs with nested items inside each tab | **Both** |
+| Mostrare sottocategorie sotto un elemento padre | **Nidificazione padre–figlio (Opzione 1)** |
+| Raggruppare sezioni non correlate affiancate | **Tab Slide (Opzione 2)** |
+| Menu con molti elementi in più categorie | **Tab Slide** |
+| Navigazione a drill-down profondo (categoria → sottocategoria) | **Nidificazione padre–figlio** |
+| Schede esterne con elementi nidificati in ogni scheda | **Entrambi** |
 
 ---
 
-## Limits to keep in mind
+## Limiti da tenere a mente
 
-- **Tab Markers cannot be nested inside another item.** Indenting a Tab Marker is blocked.
-- **Items inside a tab can still have children** — subject to the menu type depth limit.
-- **Mobile Grid does not support nesting** — use Tab Slide if you need grouping.
-- **Reorder tabs** by dragging a Tab Marker up or down — the items below it follow along.
+- **I Tab Marker non possono essere nidificati all'interno di un altro elemento.** Indentare un Tab Marker è bloccato.
+- **Gli elementi all'interno di una scheda possono ancora avere figli** — soggetti al limite di profondità del tipo di menu.
+- **Mobile Grid non supporta la nidificazione** — usa Tab Slide se hai bisogno di raggruppamenti.
+- **Riordina le schede** trascinando un Tab Marker verso l'alto o il basso — gli elementi sotto lo seguono.

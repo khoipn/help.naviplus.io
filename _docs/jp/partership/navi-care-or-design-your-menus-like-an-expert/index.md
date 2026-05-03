@@ -1,40 +1,40 @@
 ---
-description: Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to...
+description: テクノロジーやUI/UXデザインの専門家でなくても、Navi+ Careが最適化されたウェブサイトナビゲーションを設計する完全なソリューションを提供します。
 lang: jp
 layout: default
 permalink: /jp/docs/partership/navi-care-or-design-your-menus-like-an-expert/
-title: Navi+ Care | Design your menus like an expert
+title: Navi+ Care | エキスパートのようにメニューをデザイン
 ---
-# Navi+ Care | Design your menus like an expert
+# Navi+ Care | エキスパートのようにメニューをデザイン
 
-Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to design menus that are both aesthetic and user-friendly.
+テクノロジーやUI/UXデザインの専門家でない方も多く、最適化されたウェブサイトナビゲーションを作成することは困難です。Navi+ Careは、美しく使いやすいメニューをデザインするための完全なソリューションを提供します。
 
-### How to work?
+### どのように機能しますか？
 
-**Step 1: Register Navi+ Care: $120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
+**ステップ1：Navi+ Careに登録：$120.00 USD** 3ヶ月間有効な一回限りのお支払い。その後、メールまたはWhatsAppでご連絡いただければ、すぐに開始できます。
 
-**Step 2: Design and test iteratively:** We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
+**ステップ2：デザインと反復テスト：** Figmaでいくつかのオプションをデザインし、テーマをクローンしてから、ライブメニューを実装してニーズを満たすことを確認します。
 
-**Step 3: Golive your menus:** Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
-
-***
-
-### Why is this service right for you?
-
-Choosing the right menu for your website can be challenging - a bottom bar for mobile, a grid menu for the homepage, a mega menu for desktop, a Floating Action Button (FAB) for support, and a slide menu for full navigation?
-
-* You may need to customize your menu's colors, fonts, and style to match your website's design but feel unfamiliar with the tools.
-* You may need feedback from UI/UX experts on whether your menu design is visually appealing and optimized.
-* You may need unique ideas for a menu that sets your website apart.
-* You may need to upgrade your current menu to a new level but lack the time or expertise.
-* You may need to build a menu from scratch or from an Excel file, or require professional advice and support.
+**ステップ3：メニューを公開：** 訪問者向けにメニューを公開します。ヘルプ、CSS、JSコードを含む詳細なWordファイルをご提供します。
 
 ***
 
-### What are the requirements to use this service?
+### このサービスがあなたに適している理由は？
 
-1\. you must subscribe to a paid Navi+ plan (Business or Elite), either monthly or annually. This ensures full access to add, edit, or delete menus and upload images. For websites needing more than four menus, an upgrade to the Elite plan may be required.
+ウェブサイトに適したメニューを選ぶことは難しい場合があります — モバイル用のボトムバー、ホームページ用グリッドメニュー、デスクトップ用メガメニュー、サポート用Floating Action Button (FAB)、そしてフルナビゲーション用のスライドメニュー？
 
-2\. You may need to grant us basic access to your Shopify website. This allows us to create and modify Navi+ menus, add CSS and JS code, and optimize performance and user experience.
+* ウェブサイトのデザインに合わせてメニューの色、フォント、スタイルをカスタマイズする必要があるが、ツールに不慣れかもしれません。
+* メニューデザインが視覚的に魅力的で最適化されているかどうか、UI/UXの専門家からのフィードバックが必要かもしれません。
+* ウェブサイトを際立たせる独自のメニューアイデアが必要かもしれません。
+* 現在のメニューを新しいレベルにアップグレードする必要があるが、時間や専門知識が不足しているかもしれません。
+* ゼロからまたはExcelファイルからメニューを構築する必要があるか、専門的なアドバイスとサポートが必要かもしれません。
+
+***
+
+### このサービスを使用するための要件は何ですか？
+
+1\. Navi+の有料プラン（BusinessまたはElite）に月額または年額で登録する必要があります。これにより、メニューの追加、編集、削除や画像のアップロードへのフルアクセスが確保されます。4つ以上のメニューが必要なウェブサイトの場合、Eliteプランへのアップグレードが必要になる場合があります。
+
+2\. Shopifyウェブサイトへの基本的なアクセス権を付与していただく必要がある場合があります。これにより、Navi+メニューの作成・変更、CSS・JSコードの追加、パフォーマンスとユーザー体験の最適化が可能になります。
 
 <br>

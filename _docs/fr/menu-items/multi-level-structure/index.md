@@ -1,76 +1,76 @@
 ---
-description: How to create parent–child nesting and use Tab Slide to organize Navi+ menu items into multi-level structures.
+description: Comment créer une imbrication parent–enfant et utiliser Tab Slide pour organiser les éléments de menu Navi+ en structures multi-niveaux.
 layout: default
 permalink: /fr/docs/menu-items/multi-level-structure/
-title: Multi-level Structure
+title: Structure multi-niveaux
 ---
-# Multi-level Structure
+# Structure multi-niveaux
 
-Navi+ supports two ways to organize menu content in depth: **parent–child nesting** (drag left/right to indent) and **Tab Slide** (split the menu into horizontal switching zones). You can use either approach or combine both.
+Navi+ propose deux façons d'organiser le contenu du menu en profondeur : **l'imbrication parent–enfant** (glisser à gauche/droite pour indenter) et le **Tab Slide** (diviser le menu en zones de commutation horizontales). Vous pouvez utiliser l'une ou l'autre approche, ou les combiner.
 
 ---
 
-## Option 1 — Parent–child nesting (indent by drag)
+## Option 1 — Imbrication parent–enfant (indentation par glisser)
 
-Nesting turns a flat list into a leveled hierarchy. A parent item can be expanded to reveal its children.
+L'imbrication transforme une liste plate en hiérarchie à plusieurs niveaux. Un élément parent peut être développé pour révéler ses enfants.
 
 ```
-Home                        ← Level 1 (parent)
-  Collections               ← Level 2 (child)
-    New Arrivals            ← Level 3 (grandchild)
+Home                        ← Niveau 1 (parent)
+  Collections               ← Niveau 2 (enfant)
+    New Arrivals            ← Niveau 3 (petit-enfant)
     Sale
   Lookbook
-Contact                     ← Level 1 (parent, no children)
+Contact                     ← Niveau 1 (parent, sans enfants)
 ```
 
-### How to do it
+### Comment faire
 
-**By drag and drop**
+**Par glisser-déposer**
 
-1. Hover over the item you want to nest.
-2. Drag it **right** — it snaps under the item above it as a child.
-3. Drag it **left** to move it back up to the parent level.
+1. Survolez l'élément que vous souhaitez imbriquer.
+2. Faites-le glisser vers la **droite** — il se place sous l'élément au-dessus en tant qu'enfant.
+3. Faites-le glisser vers la **gauche** pour le remonter au niveau parent.
 
-**By keyboard shortcut**
+**Par raccourci clavier**
 
-1. Click the item to select it.
-2. Press `→` (right arrow) to indent — the item becomes a child of the item above.
-3. Press `←` (left arrow) to outdent — the item moves back up one level.
+1. Cliquez sur l'élément pour le sélectionner.
+2. Appuyez sur `→` (flèche droite) pour indenter — l'élément devient l'enfant de l'élément au-dessus.
+3. Appuyez sur `←` (flèche gauche) pour désindenter — l'élément remonte d'un niveau.
 
-### Maximum nesting depth by menu type
+### Profondeur maximale d'imbrication par type de menu
 
-The depth limit depends on the **menu type**, not the plan.
+La limite de profondeur dépend du **type de menu**, pas du forfait.
 
-| Menu type | Max levels |
+| Type de menu | Niveaux max. |
 |---|:---:|
-| Mobile Grid | 1 (no nesting) |
+| Mobile Grid | 1 (pas d'imbrication) |
 | FAB | 2 |
 | Tab Bar, Mega Menu, Slide Menu, Desktop Mega Menu | 3 |
 
-> If you try to indent past the limit, the editor will block it and show a message.
+> Si vous essayez d'indenter au-delà de la limite, l'éditeur le bloquera et affichera un message.
 
 ---
 
-## Option 2 — Tab Slide (horizontal zones)
+## Option 2 — Tab Slide (zones horizontales)
 
-Tab Slide divides items into horizontal tabs. Instead of expanding downward like children, each tab shows a separate set of items.
+Tab Slide divise les éléments en onglets horizontaux. Au lieu de s'étendre vers le bas comme des enfants, chaque onglet affiche un ensemble distinct d'éléments.
 
 ```
 ┌─────────────────────────────────┐
-│  [Shop]  [Pages]  [More]        │  ← tab headers
+│  [Shop]  [Pages]  [More]        │  ← en-têtes d'onglets
 ├─────────────────────────────────┤
 │  • Collections                  │
-│  • New Arrivals                 │  ← content of active tab
+│  • New Arrivals                 │  ← contenu de l'onglet actif
 │  • Sale                         │
 └─────────────────────────────────┘
 ```
 
-### How to do it
+### Comment faire
 
-1. Add a new item with kind **Tab Marker**.
-2. Set the Tab Marker label — this becomes the tab header text (e.g. "Shop").
-3. Add items below the Tab Marker — they belong to that tab's content area.
-4. Repeat: add the next Tab Marker, then add items for that tab.
+1. Ajoutez un nouvel élément avec le type **Tab Marker**.
+2. Définissez le libellé du Tab Marker — c'est le texte de l'en-tête d'onglet (ex. "Shop").
+3. Ajoutez des éléments sous le Tab Marker — ils appartiennent à la zone de contenu de cet onglet.
+4. Répétez : ajoutez le Tab Marker suivant, puis ajoutez les éléments pour cet onglet.
 
 ```
 [Tab Marker]  "Shop"
@@ -89,21 +89,21 @@ Tab Slide divides items into horizontal tabs. Instead of expanding downward like
 
 ---
 
-## Which approach to use?
+## Quelle approche utiliser ?
 
-| Goal | Use |
+| Objectif | Utiliser |
 |---|---|
-| Show subcategories under a parent item | **Parent–child nesting (Option 1)** |
-| Group unrelated sections side by side | **Tab Slide (Option 2)** |
-| Menu with many items across multiple categories | **Tab Slide** |
-| Deep drill-down navigation (category → subcategory) | **Parent–child nesting** |
-| Outer tabs with nested items inside each tab | **Both** |
+| Afficher des sous-catégories sous un élément parent | **Imbrication parent–enfant (Option 1)** |
+| Regrouper des sections non liées côte à côte | **Tab Slide (Option 2)** |
+| Menu avec de nombreux éléments dans plusieurs catégories | **Tab Slide** |
+| Navigation en profondeur (catégorie → sous-catégorie) | **Imbrication parent–enfant** |
+| Onglets externes avec éléments imbriqués dans chaque onglet | **Les deux** |
 
 ---
 
-## Limits to keep in mind
+## Limites à garder à l'esprit
 
-- **Tab Markers cannot be nested inside another item.** Indenting a Tab Marker is blocked.
-- **Items inside a tab can still have children** — subject to the menu type depth limit.
-- **Mobile Grid does not support nesting** — use Tab Slide if you need grouping.
-- **Reorder tabs** by dragging a Tab Marker up or down — the items below it follow along.
+- **Les Tab Markers ne peuvent pas être imbriqués dans un autre élément.** L'indentation d'un Tab Marker est bloquée.
+- **Les éléments dans un onglet peuvent toujours avoir des enfants** — selon la limite de profondeur du type de menu.
+- **Mobile Grid ne prend pas en charge l'imbrication** — utilisez Tab Slide si vous avez besoin de regroupements.
+- **Réorganisez les onglets** en faisant glisser un Tab Marker vers le haut ou le bas — les éléments en dessous suivent.

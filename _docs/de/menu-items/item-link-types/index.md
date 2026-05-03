@@ -1,41 +1,41 @@
 ---
-description: All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript.
+description: Alle von Navi+ unterstützten Link-Typen — interne Seiten, externe URLs, Anker, Panels öffnen, Telefon/E-Mail, Chat-Apps, Teilen und JavaScript.
 layout: default
 permalink: /de/docs/menu-items/item-link-types/
-title: Link Types
+title: Link-Typen
 ---
-# Link Types
+# Link-Typen
 
-The **Link To** field in Basic Info controls what happens when a visitor taps or clicks an item. Navi+ supports many link types beyond a plain URL.
+Das Feld **Verknüpfung zu** in den Grundinformationen steuert, was passiert, wenn ein Besucher auf ein Element tippt oder klickt. Navi+ unterstützt viele Link-Typen über eine einfache URL hinaus.
 
-When you click the Link To field, a help popup opens automatically with full examples. You can also type directly into the field.
+Wenn Sie auf das Feld „Verknüpfung zu" klicken, öffnet sich automatisch ein Hilfe-Popup mit vollständigen Beispielen. Sie können auch direkt in das Feld tippen.
 
 ---
 
-## 1. Internal store pages
+## 1. Interne Shop-Seiten
 
-Use short paths (no domain) to link to pages within your Shopify store.
+Verwenden Sie kurze Pfade (ohne Domain) für Seiten in Ihrem Shopify-Shop.
 
-| Destination | Enter |
+| Ziel | Eingabe |
 |---|---|
-| Home page | *(leave empty)* |
-| All products | `collections/all` |
-| A collection | `collections/collection-handle` |
-| A product page | `products/product-handle` |
-| A static page (About, FAQ…) | `pages/page-handle` |
-| Blog listing | `blogs/news` |
-| A blog post | `blogs/news/post-handle` |
-| Cart | `cart` |
-| Search | `search` |
-| Contact | `pages/contact` |
+| Startseite | *(leer lassen)* |
+| Alle Produkte | `collections/all` |
+| Eine Kollektion | `collections/collection-handle` |
+| Eine Produktseite | `products/product-handle` |
+| Eine statische Seite (Über uns, FAQ…) | `pages/page-handle` |
+| Blog-Liste | `blogs/news` |
+| Ein Blog-Beitrag | `blogs/news/post-handle` |
+| Warenkorb | `cart` |
+| Suche | `search` |
+| Kontakt | `pages/contact` |
 
-**Auto Clean tip:** Paste a full URL (e.g. `https://mystore.com/collections/sale`) → enable the **Auto clean** toggle → the system strips the domain and keeps only `collections/sale`.
+**Auto Clean Tipp:** Fügen Sie eine vollständige URL ein (z.B. `https://meinshop.com/collections/sale`) → aktivieren Sie den **Auto Clean**-Schalter → das System entfernt die Domain und behält nur `collections/sale`.
 
 ---
 
-## 2. Full URL (External link)
+## 2. Vollständige URL (Externer Link)
 
-Link to any website using a full URL.
+Link zu einer beliebigen Website mit einer vollständigen URL.
 
 ```
 https://brand.com/campaign
@@ -44,9 +44,9 @@ https://instagram.com/yourpage
 
 ---
 
-## 3. Open in new tab
+## 3. In neuem Tab öffnen
 
-Append `@new` to any link to open it in a new tab.
+Fügen Sie `@new` an einen beliebigen Link an, um ihn in einem neuen Tab zu öffnen.
 
 ```
 collections/all@new
@@ -55,9 +55,9 @@ https://brand.com/campaign@new
 
 ---
 
-## 4. No navigation (parent item)
+## 4. Keine Navigation (Elternelement)
 
-Use `#` when an item is a parent that contains child items — tapping it expands the children without navigating anywhere.
+Verwenden Sie `#`, wenn ein Element ein Elternelement ist, das Kindelemente enthält — das Antippen erweitert die Kinder, ohne zu navigieren.
 
 ```
 #
@@ -65,71 +65,71 @@ Use `#` when an item is a parent that contains child items — tapping it expand
 
 ---
 
-## 5. Scroll (Anchor)
+## 5. Scrollen (Anker)
 
-| Action | Syntax |
+| Aktion | Syntax |
 |---|---|
-| Scroll to top | `scroll:Top` |
-| Scroll to top with 100px offset | `scroll:Top(100)` |
-| Scroll to bottom | `scroll:Bottom` |
-| Scroll to a section by CSS selector | `scroll:OnPage(#section-id)` *(Business / Elite)* |
+| Nach oben scrollen | `scroll:Top` |
+| Nach oben mit 100px Versatz | `scroll:Top(100)` |
+| Nach unten scrollen | `scroll:Bottom` |
+| Zu einem Abschnitt per CSS-Selektor | `scroll:OnPage(#section-id)` *(Business / Elite)* |
 
-**Example:** A "Back to top" button → Link To is `scroll:Top`.
+**Beispiel:** Ein „Nach oben"-Button → Verknüpfung zu ist `scroll:Top`.
 
 ---
 
-## 6. Open panel / popup *(Business / Elite)*
+## 6. Panel / Popup öffnen *(Business / Elite)*
 
-Open theme UI components without leaving the page.
+Theme-UI-Komponenten öffnen, ohne die Seite zu verlassen.
 
-| Action | Syntax |
+| Aktion | Syntax |
 |---|---|
-| Open a Navi+ Slide menu | `open:NaviMenu(SF-XXXXXXXXXX)` |
-| Click a CSS element | `open:clickTo(#cart-button)` |
-| Focus an input field | `open:focusTo(.search-input)` |
-| Open theme search / cart drawer | Use the help popup → *Open panels* |
-| Open Shopify Inbox chat | Use the help popup → *Open other applications* |
+| Ein Navi+ Slide-Menü öffnen | `open:NaviMenu(SF-XXXXXXXXXX)` |
+| Ein CSS-Element klicken | `open:clickTo(#cart-button)` |
+| Ein Eingabefeld fokussieren | `open:focusTo(.search-input)` |
+| Theme-Suche / Warenkorb-Drawer öffnen | Hilfe-Popup → *Panels öffnen* |
+| Shopify Inbox Chat öffnen | Hilfe-Popup → *Andere Anwendungen öffnen* |
 
-`open:clickTo` and `open:focusTo` accept `Down` or `Up` to scroll before acting:  
+`open:clickTo` und `open:focusTo` akzeptieren `Down` oder `Up` zum Scrollen vor der Aktion:  
 `open:clickTo(.footer-element, Down)`
 
 ---
 
-## 7. Phone, SMS, Email
+## 7. Telefon, SMS, E-Mail
 
-| Action | Syntax |
+| Aktion | Syntax |
 |---|---|
-| Phone call | `tel:+12125550100` |
-| SMS | `sms:+12125550100?body=Hello` |
-| Email | `mailto:hello@yourdomain.com` |
+| Telefonanruf | `tel:+4930123456` |
+| SMS | `sms:+4930123456?body=Hallo` |
+| E-Mail | `mailto:hallo@ihredomain.de` |
 
 ---
 
-## 8. Chat apps
+## 8. Chat-Apps
 
 | App | Syntax |
 |---|---|
-| WhatsApp | `https://wa.me/12125550100` *(no + prefix)* |
-| Messenger | `https://m.me/YourPageName` |
+| WhatsApp | `https://wa.me/4930123456` *(kein + Präfix)* |
+| Messenger | `https://m.me/IhreSeitenName` |
 | Zalo | `https://zalo.me/+0123456789` |
-| Line | `https://lin.ee/your-line-code` |
+| Line | `https://lin.ee/ihr-line-code` |
 
 ---
 
-## 9. Share
+## 9. Teilen
 
-| Action | Syntax |
+| Aktion | Syntax |
 |---|---|
-| Share current page (native share dialog) | `open:ShareMe` |
-| Copy URL to clipboard | `share:CopyUrl` |
-| Share to Facebook | `share:Facebook` |
-| Share to Twitter / X | `share:Tweet` |
+| Aktuelle Seite teilen (nativer Teilen-Dialog) | `open:ShareMe` |
+| URL in Zwischenablage kopieren | `share:CopyUrl` |
+| Auf Facebook teilen | `share:Facebook` |
+| Auf Twitter / X teilen | `share:Tweet` |
 
 ---
 
-## 10. Call JavaScript
+## 10. JavaScript aufrufen
 
-Call any JavaScript function defined on the page.
+Eine auf der Seite definierte JavaScript-Funktion aufrufen.
 
 ```
 javascript:openCustomModal
@@ -138,10 +138,10 @@ javascript:toggleDarkMode
 
 ---
 
-## 11. Switch language
+## 11. Sprache wechseln
 
 ```
-open:ChangeLanguage(fr)    ← switch to French
-open:ChangeLanguage(vi)    ← switch to Vietnamese
-open:ChangeLanguage()      ← reset to default language
+open:ChangeLanguage(de)    ← zu Deutsch wechseln
+open:ChangeLanguage(en)    ← zu Englisch wechseln
+open:ChangeLanguage()      ← auf Standardsprache zurücksetzen
 ```

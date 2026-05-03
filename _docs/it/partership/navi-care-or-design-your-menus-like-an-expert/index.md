@@ -1,40 +1,40 @@
 ---
-description: Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to...
+description: Non tutti sono esperti di tecnologia o design UI/UX, il che rende difficile creare una navigazione web ottimizzata. Navi+ Care offre una soluzione completa per progettare menu estetici e intuitivi.
 lang: it
 layout: default
 permalink: /it/docs/partership/navi-care-or-design-your-menus-like-an-expert/
-title: Navi+ Care | Design your menus like an expert
+title: Navi+ Care | Progetta i tuoi menu come un esperto
 ---
-# Navi+ Care | Design your menus like an expert
+# Navi+ Care | Progetta i tuoi menu come un esperto
 
-Not everyone is an expert in technology or UI/UX design, making it hard to create an optimized website navigation. Navi+ Care provides a complete solution to design menus that are both aesthetic and user-friendly.
+Non tutti sono esperti di tecnologia o design UI/UX, il che rende difficile creare una navigazione web ottimizzata. Navi+ Care offre una soluzione completa per progettare menu che siano sia estetici che intuitivi.
 
-### How to work?
+### Come funziona?
 
-**Step 1: Register Navi+ Care: $120.0 USD** for one-time payment valid for three months. After that, contact us through email or WhatsApp, and we can start immediately
+**Passo 1: Registrarsi a Navi+ Care: $120,00 USD** per pagamento unico valido per tre mesi. Dopodiché, contattaci tramite e-mail o WhatsApp, e possiamo iniziare immediatamente.
 
-**Step 2: Design and test iteratively:** We will design some options on Figma, clone your theme, then implement live menus here to ensure they meet your needs and make you happy.
+**Passo 2: Design e test iterativi:** Progetteremo alcune opzioni su Figma, cloneremo il tuo tema, poi implementeremo menu live per assicurarci che soddisfino le tue esigenze.
 
-**Step 3: Golive your menus:** Publish the menu for your visitors. We will provide a detailed Word file contains: help, CSS and JS code important document.
-
-***
-
-### Why is this service right for you?
-
-Choosing the right menu for your website can be challenging - a bottom bar for mobile, a grid menu for the homepage, a mega menu for desktop, a Floating Action Button (FAB) for support, and a slide menu for full navigation?
-
-* You may need to customize your menu's colors, fonts, and style to match your website's design but feel unfamiliar with the tools.
-* You may need feedback from UI/UX experts on whether your menu design is visually appealing and optimized.
-* You may need unique ideas for a menu that sets your website apart.
-* You may need to upgrade your current menu to a new level but lack the time or expertise.
-* You may need to build a menu from scratch or from an Excel file, or require professional advice and support.
+**Passo 3: Mettere online i tuoi menu:** Pubblica il menu per i tuoi visitatori. Forniremo un file Word dettagliato contenente: guida, codice CSS e JS, documentazione importante.
 
 ***
 
-### What are the requirements to use this service?
+### Perché questo servizio è giusto per te?
 
-1\. you must subscribe to a paid Navi+ plan (Business or Elite), either monthly or annually. This ensures full access to add, edit, or delete menus and upload images. For websites needing more than four menus, an upgrade to the Elite plan may be required.
+Scegliere il menu giusto per il tuo sito può essere impegnativo — una barra inferiore per mobile, un menu a griglia per la homepage, un mega menu per desktop, un pulsante di azione flottante (FAB) per il supporto, e un menu a scorrimento per la navigazione completa?
 
-2\. You may need to grant us basic access to your Shopify website. This allows us to create and modify Navi+ menus, add CSS and JS code, and optimize performance and user experience.
+* Potresti aver bisogno di personalizzare i colori, i font e lo stile del menu per corrispondere al design del tuo sito, ma non essere familiare con gli strumenti.
+* Potresti aver bisogno del parere di esperti UI/UX sull'aspetto visivo e l'ottimizzazione del design del menu.
+* Potresti aver bisogno di idee uniche per un menu che distingua il tuo sito.
+* Potresti aver bisogno di portare il tuo menu attuale a un nuovo livello, ma mancare di tempo o competenze.
+* Potresti aver bisogno di costruire un menu da zero o da un file Excel, o richiedere consulenza e supporto professionale.
+
+***
+
+### Quali sono i requisiti per utilizzare questo servizio?
+
+1\. Devi sottoscrivere un piano Navi+ a pagamento (Business o Elite), mensile o annuale. Questo garantisce pieno accesso per aggiungere, modificare o eliminare menu e caricare immagini. Per siti che necessitano di più di quattro menu, potrebbe essere necessario un upgrade al piano Elite.
+
+2\. Potresti dover concederci l'accesso di base al tuo sito Shopify. Questo ci permette di creare e modificare menu Navi+, aggiungere codice CSS e JS, e ottimizzare le prestazioni e l'esperienza utente.
 
 <br>

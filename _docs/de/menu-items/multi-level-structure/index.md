@@ -1,76 +1,76 @@
 ---
-description: How to create parent–child nesting and use Tab Slide to organize Navi+ menu items into multi-level structures.
+description: Wie Sie übergeordnete-untergeordnete Verschachtelung und Tab Slide verwenden, um Navi+ Menüelemente in mehreren Ebenen zu organisieren.
 layout: default
 permalink: /de/docs/menu-items/multi-level-structure/
-title: Multi-level Structure
+title: Mehrstufige Struktur
 ---
-# Multi-level Structure
+# Mehrstufige Struktur
 
-Navi+ supports two ways to organize menu content in depth: **parent–child nesting** (drag left/right to indent) and **Tab Slide** (split the menu into horizontal switching zones). You can use either approach or combine both.
+Navi+ unterstützt zwei Methoden zur Tiefenorganisation von Menüinhalten: **Eltern-Kind-Verschachtelung** (durch Ziehen nach links/rechts einrücken) und **Tab Slide** (Menü in horizontal wechselnde Bereiche aufteilen). Sie können beide Methoden einzeln oder kombiniert verwenden.
 
 ---
 
-## Option 1 — Parent–child nesting (indent by drag)
+## Option 1 — Eltern-Kind-Verschachtelung (durch Ziehen einrücken)
 
-Nesting turns a flat list into a leveled hierarchy. A parent item can be expanded to reveal its children.
+Verschachtelung wandelt eine flache Liste in eine gestufte Hierarchie um. Ein übergeordnetes Element kann erweitert werden, um seine untergeordneten Elemente anzuzeigen.
 
 ```
-Home                        ← Level 1 (parent)
-  Collections               ← Level 2 (child)
-    New Arrivals            ← Level 3 (grandchild)
+Home                        ← Ebene 1 (Elternelement)
+  Collections               ← Ebene 2 (Kind)
+    New Arrivals            ← Ebene 3 (Enkelkind)
     Sale
   Lookbook
-Contact                     ← Level 1 (parent, no children)
+Contact                     ← Ebene 1 (Elternelement, keine Kinder)
 ```
 
-### How to do it
+### So geht's
 
-**By drag and drop**
+**Per Drag & Drop**
 
-1. Hover over the item you want to nest.
-2. Drag it **right** — it snaps under the item above it as a child.
-3. Drag it **left** to move it back up to the parent level.
+1. Fahren Sie mit der Maus über das Element, das Sie verschachteln möchten.
+2. Ziehen Sie es **nach rechts** — es rastet als Kindelement unter dem darüber befindlichen Element ein.
+3. Ziehen Sie es **nach links**, um es wieder auf die Elternebene zu verschieben.
 
-**By keyboard shortcut**
+**Per Tastenkürzel**
 
-1. Click the item to select it.
-2. Press `→` (right arrow) to indent — the item becomes a child of the item above.
-3. Press `←` (left arrow) to outdent — the item moves back up one level.
+1. Klicken Sie auf das Element, um es auszuwählen.
+2. Drücken Sie `→` (Rechtspfeil) zum Einrücken — das Element wird zum Kind des darüber befindlichen Elements.
+3. Drücken Sie `←` (Linkspfeil) zum Ausrücken — das Element wandert eine Ebene nach oben.
 
-### Maximum nesting depth by menu type
+### Maximale Verschachtelungstiefe nach Menütyp
 
-The depth limit depends on the **menu type**, not the plan.
+Die Tiefenbegrenzung hängt vom **Menütyp** ab, nicht vom Tarif.
 
-| Menu type | Max levels |
+| Menütyp | Max. Ebenen |
 |---|:---:|
-| Mobile Grid | 1 (no nesting) |
+| Mobile Grid | 1 (keine Verschachtelung) |
 | FAB | 2 |
 | Tab Bar, Mega Menu, Slide Menu, Desktop Mega Menu | 3 |
 
-> If you try to indent past the limit, the editor will block it and show a message.
+> Wenn Sie versuchen, über das Limit hinaus einzurücken, blockiert der Editor dies und zeigt eine Meldung an.
 
 ---
 
-## Option 2 — Tab Slide (horizontal zones)
+## Option 2 — Tab Slide (horizontale Bereiche)
 
-Tab Slide divides items into horizontal tabs. Instead of expanding downward like children, each tab shows a separate set of items.
+Tab Slide unterteilt Elemente in horizontale Registerkarten. Anstatt sich wie Kindelemente nach unten zu erweitern, zeigt jede Registerkarte eine separate Gruppe von Elementen.
 
 ```
 ┌─────────────────────────────────┐
-│  [Shop]  [Pages]  [More]        │  ← tab headers
+│  [Shop]  [Pages]  [More]        │  ← Tab-Überschriften
 ├─────────────────────────────────┤
 │  • Collections                  │
-│  • New Arrivals                 │  ← content of active tab
+│  • New Arrivals                 │  ← Inhalt der aktiven Registerkarte
 │  • Sale                         │
 └─────────────────────────────────┘
 ```
 
-### How to do it
+### So geht's
 
-1. Add a new item with kind **Tab Marker**.
-2. Set the Tab Marker label — this becomes the tab header text (e.g. "Shop").
-3. Add items below the Tab Marker — they belong to that tab's content area.
-4. Repeat: add the next Tab Marker, then add items for that tab.
+1. Fügen Sie ein neues Element mit der Art **Tab Marker** hinzu.
+2. Legen Sie die Tab Marker-Beschriftung fest — dies wird zum Tab-Überschriftentext (z. B. "Shop").
+3. Fügen Sie Elemente unterhalb des Tab Markers hinzu — sie gehören zum Inhaltsbereich dieser Registerkarte.
+4. Wiederholen: Fügen Sie den nächsten Tab Marker und dann Elemente für diese Registerkarte hinzu.
 
 ```
 [Tab Marker]  "Shop"
@@ -89,21 +89,21 @@ Tab Slide divides items into horizontal tabs. Instead of expanding downward like
 
 ---
 
-## Which approach to use?
+## Welche Methode verwenden?
 
-| Goal | Use |
+| Ziel | Verwenden |
 |---|---|
-| Show subcategories under a parent item | **Parent–child nesting (Option 1)** |
-| Group unrelated sections side by side | **Tab Slide (Option 2)** |
-| Menu with many items across multiple categories | **Tab Slide** |
-| Deep drill-down navigation (category → subcategory) | **Parent–child nesting** |
-| Outer tabs with nested items inside each tab | **Both** |
+| Unterkategorien unter einem Elternelement anzeigen | **Eltern-Kind-Verschachtelung (Option 1)** |
+| Unabhängige Bereiche nebeneinander gruppieren | **Tab Slide (Option 2)** |
+| Menü mit vielen Elementen in mehreren Kategorien | **Tab Slide** |
+| Tiefe Drill-Down-Navigation (Kategorie → Unterkategorie) | **Eltern-Kind-Verschachtelung** |
+| Äußere Tabs mit verschachtelten Elementen in jedem Tab | **Beides** |
 
 ---
 
-## Limits to keep in mind
+## Wichtige Einschränkungen
 
-- **Tab Markers cannot be nested inside another item.** Indenting a Tab Marker is blocked.
-- **Items inside a tab can still have children** — subject to the menu type depth limit.
-- **Mobile Grid does not support nesting** — use Tab Slide if you need grouping.
-- **Reorder tabs** by dragging a Tab Marker up or down — the items below it follow along.
+- **Tab Marker können nicht in einem anderen Element verschachtelt werden.** Das Einrücken eines Tab Markers ist blockiert.
+- **Elemente innerhalb eines Tabs können weiterhin Kindelemente haben** — vorbehaltlich der Tiefenbegrenzung des Menütyps.
+- **Mobile Grid unterstützt keine Verschachtelung** — verwenden Sie Tab Slide für Gruppierungen.
+- **Tabs neu anordnen** durch Ziehen eines Tab Markers nach oben oder unten — die darunter befindlichen Elemente folgen mit.

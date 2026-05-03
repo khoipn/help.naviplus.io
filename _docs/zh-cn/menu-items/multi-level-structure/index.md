@@ -1,76 +1,76 @@
 ---
-description: How to create parent–child nesting and use Tab Slide to organize Navi+ menu items into multi-level structures.
+description: 如何在 Navi+ 中创建父子嵌套并使用 Tab Slide 将菜单项组织为多层级结构。
 layout: default
 permalink: /zh-cn/docs/menu-items/multi-level-structure/
-title: Multi-level Structure
+title: 多层级结构
 ---
-# Multi-level Structure
+# 多层级结构
 
-Navi+ supports two ways to organize menu content in depth: **parent–child nesting** (drag left/right to indent) and **Tab Slide** (split the menu into horizontal switching zones). You can use either approach or combine both.
+Navi+ 支持两种深度组织菜单内容的方式：**父子嵌套**（左右拖拽缩进）和 **Tab Slide**（将菜单分割为水平切换区域）。您可以单独使用任一方式，也可以将两者结合使用。
 
 ---
 
-## Option 1 — Parent–child nesting (indent by drag)
+## 方式一 — 父子嵌套（拖拽缩进）
 
-Nesting turns a flat list into a leveled hierarchy. A parent item can be expanded to reveal its children.
+嵌套将平铺列表转换为分层级的层次结构。父项可以展开以显示其子项。
 
 ```
-Home                        ← Level 1 (parent)
-  Collections               ← Level 2 (child)
-    New Arrivals            ← Level 3 (grandchild)
+Home                        ← 第1级（父项）
+  Collections               ← 第2级（子项）
+    New Arrivals            ← 第3级（孙项）
     Sale
   Lookbook
-Contact                     ← Level 1 (parent, no children)
+Contact                     ← 第1级（父项，无子项）
 ```
 
-### How to do it
+### 操作方法
 
-**By drag and drop**
+**通过拖拽**
 
-1. Hover over the item you want to nest.
-2. Drag it **right** — it snaps under the item above it as a child.
-3. Drag it **left** to move it back up to the parent level.
+1. 将鼠标悬停在要嵌套的菜单项上。
+2. 向**右**拖拽 — 它会作为子项吸附到上方项目下面。
+3. 向**左**拖拽将其移回父级。
 
-**By keyboard shortcut**
+**通过键盘快捷键**
 
-1. Click the item to select it.
-2. Press `→` (right arrow) to indent — the item becomes a child of the item above.
-3. Press `←` (left arrow) to outdent — the item moves back up one level.
+1. 单击菜单项将其选中。
+2. 按 `→`（右箭头键）缩进 — 该项成为上方项目的子项。
+3. 按 `←`（左箭头键）取消缩进 — 该项上移一个层级。
 
-### Maximum nesting depth by menu type
+### 按菜单类型的最大嵌套深度
 
-The depth limit depends on the **menu type**, not the plan.
+深度限制取决于**菜单类型**，与套餐无关。
 
-| Menu type | Max levels |
+| 菜单类型 | 最大层数 |
 |---|:---:|
-| Mobile Grid | 1 (no nesting) |
+| Mobile Grid | 1（不支持嵌套） |
 | FAB | 2 |
-| Tab Bar, Mega Menu, Slide Menu, Desktop Mega Menu | 3 |
+| Tab Bar、Mega Menu、Slide Menu、Desktop Mega Menu | 3 |
 
-> If you try to indent past the limit, the editor will block it and show a message.
+> 如果您尝试超过限制继续缩进，编辑器会阻止并显示提示消息。
 
 ---
 
-## Option 2 — Tab Slide (horizontal zones)
+## 方式二 — Tab Slide（水平区域）
 
-Tab Slide divides items into horizontal tabs. Instead of expanding downward like children, each tab shows a separate set of items.
+Tab Slide 将项目分成水平标签页。每个标签页显示独立的项目集合，而不是像子项一样向下展开。
 
 ```
 ┌─────────────────────────────────┐
-│  [Shop]  [Pages]  [More]        │  ← tab headers
+│  [Shop]  [Pages]  [More]        │  ← 标签页标题
 ├─────────────────────────────────┤
 │  • Collections                  │
-│  • New Arrivals                 │  ← content of active tab
+│  • New Arrivals                 │  ← 当前标签页的内容
 │  • Sale                         │
 └─────────────────────────────────┘
 ```
 
-### How to do it
+### 操作方法
 
-1. Add a new item with kind **Tab Marker**.
-2. Set the Tab Marker label — this becomes the tab header text (e.g. "Shop").
-3. Add items below the Tab Marker — they belong to that tab's content area.
-4. Repeat: add the next Tab Marker, then add items for that tab.
+1. 添加一个类型为 **Tab Marker** 的新项目。
+2. 设置 Tab Marker 的标签 — 这将成为标签页标题文字（例如"Shop"）。
+3. 在 Tab Marker 下方添加项目 — 它们属于该标签页的内容区域。
+4. 重复：添加下一个 Tab Marker，然后为该标签页添加项目。
 
 ```
 [Tab Marker]  "Shop"
@@ -89,21 +89,21 @@ Tab Slide divides items into horizontal tabs. Instead of expanding downward like
 
 ---
 
-## Which approach to use?
+## 如何选择方式？
 
-| Goal | Use |
+| 目标 | 使用方式 |
 |---|---|
-| Show subcategories under a parent item | **Parent–child nesting (Option 1)** |
-| Group unrelated sections side by side | **Tab Slide (Option 2)** |
-| Menu with many items across multiple categories | **Tab Slide** |
-| Deep drill-down navigation (category → subcategory) | **Parent–child nesting** |
-| Outer tabs with nested items inside each tab | **Both** |
+| 在父项下显示子分类 | **父子嵌套（方式一）** |
+| 将不相关的板块并排分组 | **Tab Slide（方式二）** |
+| 包含多个分类大量项目的菜单 | **Tab Slide** |
+| 深层下钻导航（分类 → 子分类） | **父子嵌套** |
+| 每个标签页内包含嵌套项目的外部标签 | **两者结合** |
 
 ---
 
-## Limits to keep in mind
+## 注意事项
 
-- **Tab Markers cannot be nested inside another item.** Indenting a Tab Marker is blocked.
-- **Items inside a tab can still have children** — subject to the menu type depth limit.
-- **Mobile Grid does not support nesting** — use Tab Slide if you need grouping.
-- **Reorder tabs** by dragging a Tab Marker up or down — the items below it follow along.
+- **Tab Marker 不能嵌套在其他项目内。** 对 Tab Marker 进行缩进操作会被阻止。
+- **标签页内的项目仍然可以有子项** — 受菜单类型的深度限制约束。
+- **Mobile Grid 不支持嵌套** — 如果需要分组，请使用 Tab Slide。
+- **通过上下拖拽 Tab Marker 来重新排列标签页** — 其下方的项目会跟随移动。

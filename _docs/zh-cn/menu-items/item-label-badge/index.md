@@ -1,70 +1,70 @@
 ---
-description: How to set item text labels, descriptions, dividers, and badges (including cart count badges) in Navi+.
+description: 如何在 Navi+ 中设置菜单项的文字标签、描述、分隔线和徽章（包括购物车计数徽章）。
 layout: default
 permalink: /zh-cn/docs/menu-items/item-label-badge/
-title: Labels, Descriptions & Badges
+title: 标签、描述与徽章
 ---
-# Labels, Descriptions & Badges
+# 标签、描述与徽章
 
-## Text (main label)
+## 文字（主标签）
 
-The primary text displayed on the item — what visitors read.
+显示在菜单项上的主要文字 — 访客看到的内容。
 
-**Tips:**
-- Keep it short: 1–3 words is ideal for mobile menus.
-- Leave it empty if you want an icon-only item (combine with Display Layout → Icon/Image Only).
-- Supports multiple languages — click **Multi** next to the label to add translations per language.
+**提示：**
+- 保持简短：移动端菜单理想为 1–3 个词。
+- 如果想要纯图标菜单项，留空即可（配合 Layout → 仅图标/图片使用）。
+- 支持多语言 — 点击标签旁边的 **多语言** 按钮为每种语言添加翻译。
 
-**Examples:** `Home`, `Shop`, `Contact`
-
----
-
-## Description (sub-label)
-
-A smaller line of text below the main Text — use it for a short note or secondary label.
-
-**Example:** `Call: +1 212 555 0100 | 8AM–9PM`
-
-**Notes:**
-- Only visible when the Display Layout supports two lines (Top-Down, Left-Right, etc.).
-- Hidden when the layout is Icon/Image Only or Text Only.
-- Supports multiple languages.
+**示例：** `首页`、`商店`、`联系我们`
 
 ---
 
-## Icon-only (hide label, show icon)
+## 描述（副标签）
 
-To hide the Text label and show only the icon or image, go to **Layout → Display Layout → Icon/Image Only**.
+主文字下方的较小文字行 — 用于简短备注或次要标签。
 
-The Text field still exists in the data (for SEO and accessibility) but is not rendered visually.
+**示例：** `电话：+86 10 1234 5678 | 8:00–21:00`
+
+**注意：**
+- 仅在显示布局支持两行时可见（上-下、左-右等）。
+- 当布局为仅图标/图片或仅文字时隐藏。
+- 支持多语言。
 
 ---
 
-## Add Divider
+## 仅图标（隐藏标签，显示图标）
 
-Enable **Add Divider** to add a horizontal line below the item, separating it from the next item.
+要隐藏文字标签只显示图标或图片，请前往 **Layout → 显示布局 → 仅图标/图片**。
 
-When enabled, three additional options appear:
+文字字段仍存在于数据中（用于 SEO 和无障碍访问），但不会在视觉上渲染。
 
-| Option | Description | Plan |
+---
+
+## 添加分隔线
+
+启用 **添加分隔线** 在菜单项下方添加水平线，将其与下一个菜单项分隔。
+
+启用后，会出现三个额外选项：
+
+| 选项 | 描述 | 套餐 |
 |---|---|---|
-| **Size (px)** | Line thickness (default 1px) | All |
-| **Type** | Line style: Solid, Dashed, Dotted, Double | Business / Elite |
-| **Color** | Line color (hex) | All |
-| **Width** | Span: Full, Inset, Under text | Business / Elite |
+| **大小 (px)** | 线条粗细（默认 1px） | 所有 |
+| **类型** | 线条样式：实线、虚线、点线、双线 | Business / Elite |
+| **颜色** | 线条颜色（hex） | 所有 |
+| **宽度** | 范围：完整、缩进、文字下方 | Business / Elite |
 
-> Type and Width appear greyed out (locked) on the Starter plan.
+> Starter 套餐中，类型和宽度显示为灰色（锁定）。
 
 ---
 
-## Add Badge
+## 添加徽章
 
-Enable **Add Badge** to show a small badge dot on the item corner — useful for "New" labels, notifications, or cart count.
+启用 **添加徽章** 在菜单项角落显示一个小徽章点 — 适用于"新品"标签、通知或购物车计数。
 
-### Cart badge *(Business / Elite)*
+### 购物车徽章 *(Business / Elite)*
 
-Enable **"Show badge (+n) when items are in the cart"** to automatically display the number of products in the cart.
+启用 **"购物车有商品时显示徽章 (+n)"** 自动显示购物车中的商品数量。
 
-Perfect for a Cart item in the Tab Bar:
-- Empty cart → badge hidden.
-- 3 items in cart → badge shows **3**.
+非常适合标签栏中的购物车菜单项：
+- 空购物车 → 徽章隐藏。
+- 购物车有 3 件商品 → 徽章显示 **3**。

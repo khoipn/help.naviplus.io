@@ -1,41 +1,39 @@
 ---
-description: All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript.
+description: Todos os tipos de links suportados pelo Navi+ — páginas internas, URLs externas, âncoras, abrir painéis, telefone/email, apps de chat, compartilhar e JavaScript.
 layout: default
 permalink: /pt-br/docs/menu-items/item-link-types/
-title: Link Types
+title: Tipos de link
 ---
-# Link Types
+# Tipos de link
 
-The **Link To** field in Basic Info controls what happens when a visitor taps or clicks an item. Navi+ supports many link types beyond a plain URL.
+O campo **Link para** nas informações básicas controla o que acontece quando um visitante toca ou clica em um item. O Navi+ suporta muitos tipos de links além de uma URL simples.
 
-When you click the Link To field, a help popup opens automatically with full examples. You can also type directly into the field.
+Quando você clica no campo Link para, um popup de ajuda abre automaticamente com exemplos completos. Você também pode digitar diretamente no campo.
 
 ---
 
-## 1. Internal store pages
+## 1. Páginas internas da loja
 
-Use short paths (no domain) to link to pages within your Shopify store.
+Use caminhos curtos (sem domínio) para páginas dentro da sua loja Shopify.
 
-| Destination | Enter |
+| Destino | Inserir |
 |---|---|
-| Home page | *(leave empty)* |
-| All products | `collections/all` |
-| A collection | `collections/collection-handle` |
-| A product page | `products/product-handle` |
-| A static page (About, FAQ…) | `pages/page-handle` |
-| Blog listing | `blogs/news` |
-| A blog post | `blogs/news/post-handle` |
-| Cart | `cart` |
-| Search | `search` |
-| Contact | `pages/contact` |
+| Página inicial | *(deixar vazio)* |
+| Todos os produtos | `collections/all` |
+| Uma coleção | `collections/collection-handle` |
+| Página de produto | `products/product-handle` |
+| Página estática | `pages/page-handle` |
+| Blog | `blogs/news` |
+| Post do blog | `blogs/news/post-handle` |
+| Carrinho | `cart` |
+| Busca | `search` |
+| Contato | `pages/contact` |
 
-**Auto Clean tip:** Paste a full URL (e.g. `https://mystore.com/collections/sale`) → enable the **Auto clean** toggle → the system strips the domain and keeps only `collections/sale`.
+**Dica Auto Clean:** Cole uma URL completa → ative **Auto clean** → o sistema remove o domínio e mantém apenas o caminho.
 
 ---
 
-## 2. Full URL (External link)
-
-Link to any website using a full URL.
+## 2. URL completa (externo)
 
 ```
 https://brand.com/campaign
@@ -44,9 +42,9 @@ https://instagram.com/yourpage
 
 ---
 
-## 3. Open in new tab
+## 3. Abrir em nova aba
 
-Append `@new` to any link to open it in a new tab.
+Adicione `@new` a qualquer link.
 
 ```
 collections/all@new
@@ -55,9 +53,7 @@ https://brand.com/campaign@new
 
 ---
 
-## 4. No navigation (parent item)
-
-Use `#` when an item is a parent that contains child items — tapping it expands the children without navigating anywhere.
+## 4. Sem navegação (item pai)
 
 ```
 #
@@ -65,71 +61,62 @@ Use `#` when an item is a parent that contains child items — tapping it expand
 
 ---
 
-## 5. Scroll (Anchor)
+## 5. Rolagem (âncora)
 
-| Action | Syntax |
+| Ação | Sintaxe |
 |---|---|
-| Scroll to top | `scroll:Top` |
-| Scroll to top with 100px offset | `scroll:Top(100)` |
-| Scroll to bottom | `scroll:Bottom` |
-| Scroll to a section by CSS selector | `scroll:OnPage(#section-id)` *(Business / Elite)* |
-
-**Example:** A "Back to top" button → Link To is `scroll:Top`.
+| Rolar para o topo | `scroll:Top` |
+| Topo com 100px de deslocamento | `scroll:Top(100)` |
+| Rolar para o rodapé | `scroll:Bottom` |
+| Para seção por seletor CSS | `scroll:OnPage(#section-id)` *(Business / Elite)* |
 
 ---
 
-## 6. Open panel / popup *(Business / Elite)*
+## 6. Abrir painel / popup *(Business / Elite)*
 
-Open theme UI components without leaving the page.
-
-| Action | Syntax |
+| Ação | Sintaxe |
 |---|---|
-| Open a Navi+ Slide menu | `open:NaviMenu(SF-XXXXXXXXXX)` |
-| Click a CSS element | `open:clickTo(#cart-button)` |
-| Focus an input field | `open:focusTo(.search-input)` |
-| Open theme search / cart drawer | Use the help popup → *Open panels* |
-| Open Shopify Inbox chat | Use the help popup → *Open other applications* |
-
-`open:clickTo` and `open:focusTo` accept `Down` or `Up` to scroll before acting:  
-`open:clickTo(.footer-element, Down)`
+| Abrir menu Slide Navi+ | `open:NaviMenu(SF-XXXXXXXXXX)` |
+| Clicar elemento CSS | `open:clickTo(#cart-button)` |
+| Focar campo de entrada | `open:focusTo(.search-input)` |
+| Busca / gaveta do carrinho do tema | Popup de ajuda → *Abrir painéis* |
+| Shopify Inbox | Popup de ajuda → *Abrir outros apps* |
 
 ---
 
-## 7. Phone, SMS, Email
+## 7. Telefone, SMS, Email
 
-| Action | Syntax |
+| Ação | Sintaxe |
 |---|---|
-| Phone call | `tel:+12125550100` |
-| SMS | `sms:+12125550100?body=Hello` |
-| Email | `mailto:hello@yourdomain.com` |
+| Ligação | `tel:+5511999999999` |
+| SMS | `sms:+5511999999999?body=Olá` |
+| Email | `mailto:ola@seudominio.com.br` |
 
 ---
 
-## 8. Chat apps
+## 8. Apps de chat
 
-| App | Syntax |
+| App | Sintaxe |
 |---|---|
-| WhatsApp | `https://wa.me/12125550100` *(no + prefix)* |
-| Messenger | `https://m.me/YourPageName` |
+| WhatsApp | `https://wa.me/5511999999999` |
+| Messenger | `https://m.me/SuaPágina` |
 | Zalo | `https://zalo.me/+0123456789` |
-| Line | `https://lin.ee/your-line-code` |
+| Line | `https://lin.ee/seu-código` |
 
 ---
 
-## 9. Share
+## 9. Compartilhar
 
-| Action | Syntax |
+| Ação | Sintaxe |
 |---|---|
-| Share current page (native share dialog) | `open:ShareMe` |
-| Copy URL to clipboard | `share:CopyUrl` |
-| Share to Facebook | `share:Facebook` |
-| Share to Twitter / X | `share:Tweet` |
+| Compartilhar página atual | `open:ShareMe` |
+| Copiar URL | `share:CopyUrl` |
+| Facebook | `share:Facebook` |
+| Twitter / X | `share:Tweet` |
 
 ---
 
-## 10. Call JavaScript
-
-Call any JavaScript function defined on the page.
+## 10. JavaScript
 
 ```
 javascript:openCustomModal
@@ -138,10 +125,10 @@ javascript:toggleDarkMode
 
 ---
 
-## 11. Switch language
+## 11. Trocar idioma
 
 ```
-open:ChangeLanguage(fr)    ← switch to French
-open:ChangeLanguage(vi)    ← switch to Vietnamese
-open:ChangeLanguage()      ← reset to default language
+open:ChangeLanguage(pt-br)
+open:ChangeLanguage(en)
+open:ChangeLanguage()
 ```

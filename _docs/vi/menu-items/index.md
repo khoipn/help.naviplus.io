@@ -3,10 +3,10 @@ description: Menu item là đơn vị cơ bản tạo nên mọi menu Navi+ — 
 lang: vi
 layout: default
 permalink: /vi/docs/menu-items/
-title: Menu Items
+title: Mục menu
 ---
 
-# Menu Items
+# Mục menu
 
 Một **menu item** là một dòng trong danh sách menu của bạn. Item là thành phần cơ bản của mọi menu Navi+ — mỗi item có thể là một link điều hướng, một tiêu đề nhóm, một khoảng trắng, hoặc một tab phân vùng.
 

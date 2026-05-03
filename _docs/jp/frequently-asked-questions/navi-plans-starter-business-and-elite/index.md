@@ -1,24 +1,62 @@
 ---
-description: Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are cou...
+description: Navi+プランの比較 — Starter（無料）、Business、Elite。各プランに含まれる内容、制限、および制限を超えた場合の対応について説明します。
 lang: jp
 layout: default
 permalink: /jp/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-title: Navi+ plans (Starter, Business & Elite)
+title: プランと料金の比較
 ---
-# Navi+ plans (Starter, Business & Elite)
+# プランと料金の比較
 
-#### Question 1: What happens when my Starter plan exceeds 50,000 visits?
+すべてのプランにすべてのメニュータイプが含まれています — Tab Bar、Mega Menu、Slide Menu、Grid Menu、FAB。
 
-Navi+ offers a trial package with nearly full features for all websites. However, after a certain period, if the visits to your website (where visits are counted when Navi+ is displayed on the website) exceed 50,000, your account will automatically be flagged for an upgrade. We will take the following actions:
+---
 
-1. We will send multiple emails to notify you about the status of your Navi+ Starter plan (Please ensure you receive our notifications, as this is crucial). Upon receiving the notification, consider upgrading your account to a higher plan like Business or Elite.
-2. If you do not receive the information or if your website does not intend to upgrade to a higher plan, we will start displaying small Navi+ ads on your menus. The size of the ads will not affect user interaction but will be noticeable enough for users to understand that the menu is powered by Navi+. We will consider gradually increasing the visibility of the ads over time, from very subtle to more noticeable. This helps Navi+ reach more people and generates additional revenue from other customers.
-3. We will not disable or remove any features of Navi+ that are currently displayed on your site. We fully understand that these features are crucial for user interaction on your website, so this is something we will strictly avoid.
+## Starter — 無料
 
-#### Question 2: What happens if you downgrade from Business or Elite back to Starter, yet it seems like all the features remain?
+- 生涯使用可能 — $0/月、クレジットカード不要
+- Navi+メニュー1つ（任意のタイプ）
+- 最大50,000 Navi+表示回数
+- 30日間のデータ分析
+- インフラSLA 99.00%
+- メールサポート
+- 画像アップロード不可 — 代わりにアイコンを使用
+- 高度な設定が制限あり（タッチフィードバック、ナビゲーションアイコン、アニメーション、再利用クラス、属性）
+- 使用量が制限を大幅に超えた場合、広告が表示される場合があります — 事前にメール通知が届きます
 
-We understand that features and user experience are crucial for your customers, so we ensure that no features on your menu will be hidden or removed. However, we have a system that performs a daily scan. As soon as it detects that your website is in this situation, we will send you an email notification to encourage you to upgrade to a higher plan. These email notifications will be spaced out over time to avoid overwhelming you with too many messages. If you choose not to upgrade back to the Business or Elite plans, Navi+ will start displaying ads as explained in Question 1.
+## Business — $6.25/月
 
-#### Question 3: What happens if I exceed the limit on the Business plan (e.g., more than 500,000 Navi+ views/month)?
+Starterのすべて、プラス：
 
-As with the previous questions, Navi+ will not hide or remove any menu features. However, once the limit is exceeded, and after email notifications are sent to you to consider upgrading to the Elite plan, ads may be displayed on your menu until the start of a new monthly cycle.
+- 最大4つのNavi+メニュー
+- 月間最大500,000 Navi+表示回数
+- 多言語フルサポート
+- 標準写真アップロード — JPG、PNG、動的GIF
+- 統計とデータ分析
+- ウェブサイトUIコンポーネントをポップアップとして開く：検索、カート、デフォルトメニュー
+- テーマのカート・メニュー/検索アイコンを置換（カートカウントバッジ付き）とチャットバブル
+- 高度な設定：タッチフィードバック、ナビゲーションアイコン、アニメーションスタイルと速度、再利用クラス、属性
+- 優れたCDN — 北米、ヨーロッパ、アジアで優秀なパフォーマンス
+- 24/7サポート
+
+## Elite — $10/月
+
+Businessのすべて、プラス：
+
+- 無制限のNavi+メニュー
+- 無制限のNavi+表示回数
+- 高度な画像ツール：WebPへの変換 · 画像サイズの正規化 · 外部画像URL
+- SEO検索最適化サポート
+- 完全なデータ分析
+- 世界最高峰のCDN — Cloudflare + BunnyCDNによるフェイルオーバー、SLA 99.99%
+- 広告なし
+- 直接サポート：チームがショップに参加し、古いメニューを移行、UIを設定
+
+---
+
+## 制限を超えた場合の対応
+
+**Navi+はメニューを無効化または削除することはありません。** ナビゲーションがサイト訪問者にとって重要であることを理解しています。
+
+1. **メール通知** — 何かアクションを起こす前にお知らせします。
+2. **広告が表示される場合があります** — アップグレードせずに制限を超えた状態が続く場合、小さな「Powered by Navi+」広告がメニューに表示される場合があります。
+3. **隠し機能なし** — メニューは設定通りに動作し続けます。

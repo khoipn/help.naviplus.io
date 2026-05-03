@@ -1,76 +1,76 @@
 ---
-description: How to create parent–child nesting and use Tab Slide to organize Navi+ menu items into multi-level structures.
+description: Navi+でメニュー項目を複数レベルの構造に整理するための親子ネストとTab Slideの使い方。
 layout: default
 permalink: /jp/docs/menu-items/multi-level-structure/
-title: Multi-level Structure
+title: 複数レベル構造
 ---
-# Multi-level Structure
+# 複数レベル構造
 
-Navi+ supports two ways to organize menu content in depth: **parent–child nesting** (drag left/right to indent) and **Tab Slide** (split the menu into horizontal switching zones). You can use either approach or combine both.
+Navi+はメニューコンテンツを深く整理する2つの方法をサポートしています：**親子ネスト**（左右にドラッグしてインデント）と**Tab Slide**（メニューを水平切り替えゾーンに分割）。どちらかの方法を単独で使用することも、組み合わせることもできます。
 
 ---
 
-## Option 1 — Parent–child nesting (indent by drag)
+## オプション1 — 親子ネスト（ドラッグでインデント）
 
-Nesting turns a flat list into a leveled hierarchy. A parent item can be expanded to reveal its children.
+ネストはフラットなリストを階層化された構造に変換します。親アイテムを展開すると子アイテムが表示されます。
 
 ```
-Home                        ← Level 1 (parent)
-  Collections               ← Level 2 (child)
-    New Arrivals            ← Level 3 (grandchild)
+Home                        ← レベル1（親）
+  Collections               ← レベル2（子）
+    New Arrivals            ← レベル3（孫）
     Sale
   Lookbook
-Contact                     ← Level 1 (parent, no children)
+Contact                     ← レベル1（親、子なし）
 ```
 
-### How to do it
+### 操作方法
 
-**By drag and drop**
+**ドラッグ＆ドロップで**
 
-1. Hover over the item you want to nest.
-2. Drag it **right** — it snaps under the item above it as a child.
-3. Drag it **left** to move it back up to the parent level.
+1. ネストしたいアイテムにカーソルを合わせます。
+2. **右方向**にドラッグ — 上のアイテムの子としてスナップされます。
+3. **左方向**にドラッグ — 親レベルに戻します。
 
-**By keyboard shortcut**
+**キーボードショートカットで**
 
-1. Click the item to select it.
-2. Press `→` (right arrow) to indent — the item becomes a child of the item above.
-3. Press `←` (left arrow) to outdent — the item moves back up one level.
+1. アイテムをクリックして選択します。
+2. `→`（右矢印キー）を押してインデント — 上のアイテムの子になります。
+3. `←`（左矢印キー）を押してアウトデント — 一つ上のレベルに戻ります。
 
-### Maximum nesting depth by menu type
+### メニュータイプ別の最大ネスト深度
 
-The depth limit depends on the **menu type**, not the plan.
+深度の制限は**メニュータイプ**によって異なり、プランによって変わりません。
 
-| Menu type | Max levels |
+| メニュータイプ | 最大レベル数 |
 |---|:---:|
-| Mobile Grid | 1 (no nesting) |
+| Mobile Grid | 1（ネスト不可） |
 | FAB | 2 |
-| Tab Bar, Mega Menu, Slide Menu, Desktop Mega Menu | 3 |
+| Tab Bar、Mega Menu、Slide Menu、Desktop Mega Menu | 3 |
 
-> If you try to indent past the limit, the editor will block it and show a message.
+> 制限を超えてインデントしようとすると、エディターがブロックしてメッセージを表示します。
 
 ---
 
-## Option 2 — Tab Slide (horizontal zones)
+## オプション2 — Tab Slide（水平ゾーン）
 
-Tab Slide divides items into horizontal tabs. Instead of expanding downward like children, each tab shows a separate set of items.
+Tab Slideはアイテムを水平タブに分割します。子アイテムのように下に展開するのではなく、各タブが別々のアイテムセットを表示します。
 
 ```
 ┌─────────────────────────────────┐
-│  [Shop]  [Pages]  [More]        │  ← tab headers
+│  [Shop]  [Pages]  [More]        │  ← タブヘッダー
 ├─────────────────────────────────┤
 │  • Collections                  │
-│  • New Arrivals                 │  ← content of active tab
+│  • New Arrivals                 │  ← アクティブタブのコンテンツ
 │  • Sale                         │
 └─────────────────────────────────┘
 ```
 
-### How to do it
+### 操作方法
 
-1. Add a new item with kind **Tab Marker**.
-2. Set the Tab Marker label — this becomes the tab header text (e.g. "Shop").
-3. Add items below the Tab Marker — they belong to that tab's content area.
-4. Repeat: add the next Tab Marker, then add items for that tab.
+1. **Tab Marker**タイプで新しいアイテムを追加します。
+2. Tab Markerのラベルを設定 — これがタブヘッダーテキストになります（例：「Shop」）。
+3. Tab Markerの下にアイテムを追加 — それらはそのタブのコンテンツエリアに属します。
+4. 繰り返す：次のTab Markerを追加し、そのタブのアイテムを追加します。
 
 ```
 [Tab Marker]  "Shop"
@@ -89,21 +89,21 @@ Tab Slide divides items into horizontal tabs. Instead of expanding downward like
 
 ---
 
-## Which approach to use?
+## どちらの方法を使うか？
 
-| Goal | Use |
+| 目的 | 使用方法 |
 |---|---|
-| Show subcategories under a parent item | **Parent–child nesting (Option 1)** |
-| Group unrelated sections side by side | **Tab Slide (Option 2)** |
-| Menu with many items across multiple categories | **Tab Slide** |
-| Deep drill-down navigation (category → subcategory) | **Parent–child nesting** |
-| Outer tabs with nested items inside each tab | **Both** |
+| 親アイテムの下にサブカテゴリを表示する | **親子ネスト（オプション1）** |
+| 無関係なセクションを並べてグループ化する | **Tab Slide（オプション2）** |
+| 複数カテゴリにまたがる多くのアイテムを持つメニュー | **Tab Slide** |
+| 深いドリルダウンナビゲーション（カテゴリ→サブカテゴリ） | **親子ネスト** |
+| 各タブの中にネストされたアイテムを持つ外部タブ | **両方** |
 
 ---
 
-## Limits to keep in mind
+## 注意すべき制限
 
-- **Tab Markers cannot be nested inside another item.** Indenting a Tab Marker is blocked.
-- **Items inside a tab can still have children** — subject to the menu type depth limit.
-- **Mobile Grid does not support nesting** — use Tab Slide if you need grouping.
-- **Reorder tabs** by dragging a Tab Marker up or down — the items below it follow along.
+- **Tab Markerは他のアイテムの中にネストできません。** Tab Markerのインデントはブロックされます。
+- **タブ内のアイテムは引き続き子アイテムを持てます** — メニュータイプの深度制限が適用されます。
+- **Mobile Gridはネストをサポートしていません** — グループ化が必要な場合はTab Slideを使用してください。
+- **Tab Markerを上下にドラッグしてタブを並べ替える** — 下のアイテムも一緒に移動します。

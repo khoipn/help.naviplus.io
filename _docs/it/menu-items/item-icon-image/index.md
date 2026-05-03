@@ -1,96 +1,96 @@
 ---
-description: How to add built-in icons and custom images to menu items in Navi+, and how to style them.
+description: Come aggiungere icone integrate e immagini personalizzate agli elementi di menu in Navi+, e come stilizzarli.
 layout: default
 permalink: /it/docs/menu-items/item-icon-image/
-title: Icons & Images
+title: Icone e immagini
 ---
-# Icons & Images
+# Icone e immagini
 
-Each item can have one visual element — either a **built-in icon** or a **custom image**. You can only use one at a time, not both.
-
----
-
-## Built-in icon
-
-Icons are vector symbols from the integrated **Remixicon** library. They are crisp at any size and require no file upload.
-
-### How to add
-
-1. In the Edit Item panel, click the **Icon** button.
-2. The icon search box opens — type a keyword (e.g. `home`, `cart`, `phone`, `search`).
-3. Click an icon to select it — a preview appears on the item immediately.
-4. Click **×** to remove the current icon.
-
-### When to use icons
-
-- Items in a **Tab Bar** — icons are the standard way to label tabs.
-- When you want a clean, consistent look.
-- When you don't have custom images ready.
+Ogni elemento può avere un elemento visivo — sia un'**icona integrata** che un'**immagine personalizzata**. Puoi usarne solo una alla volta, non entrambe.
 
 ---
 
-## Custom image
+## Icona integrata
 
-Use your own photo, logo, or graphic instead of a library icon.
+Le icone sono simboli vettoriali dalla libreria **Remixicon** integrata. Sono nitide a qualsiasi dimensione e non richiedono upload di file.
 
-> **Starter plan:** Custom images are not supported — use built-in icons instead.
+### Come aggiungere
 
-### Option A — Upload from gallery *(Business / Elite)*
+1. Nel pannello di modifica, clicca il pulsante **Icona**.
+2. Si apre la casella di ricerca icone — digita una parola chiave (es. `home`, `cart`, `phone`, `search`).
+3. Clicca un'icona per selezionarla — un'anteprima appare sull'elemento immediatamente.
+4. Clicca **×** per rimuovere l'icona corrente.
 
-1. Click the **Image** button in the Edit Item panel.
-2. Click **Gallery** → the upload dialog opens.
-3. Select or upload an image (JPG, PNG, GIF).
-4. Confirm — the image URL is filled in automatically.
+### Quando usare le icone
 
-### Option B — Paste an image URL *(Elite)*
-
-1. Click the **Image** button.
-2. Paste the full image URL into the URL field.
-3. Click **Update**.
-
-### Image tips
-
-- Use **square (1:1)** images for Tab Bar icons.
-- Use **landscape** images for Big Image items.
-- **PNG with transparent background** works best for logos and symbols.
-- Keep file size small — heavy images slow down the menu on mobile.
-- Elite automatically converts images to WebP and normalizes dimensions.
+- Elementi in una **barra delle schede** — le icone sono il modo standard per etichettare le schede.
+- Quando vuoi un aspetto pulito e coerente.
+- Quando non hai immagini personalizzate pronte.
 
 ---
 
-## Display layout
+## Immagine personalizzata
 
-After adding an icon or image, choose how the icon/image and text are arranged in **Layout → Display Layout**:
+Usa la tua foto, logo o grafica al posto di un'icona dalla libreria.
 
-| Option | Layout |
+> **Piano Starter:** Le immagini personalizzate non sono supportate — usa le icone integrate.
+
+### Opzione A — Carica dalla galleria *(Business / Elite)*
+
+1. Clicca il pulsante **Immagine** nel pannello di modifica.
+2. Clicca **Galleria** → si apre la finestra di upload.
+3. Seleziona o carica un'immagine (JPG, PNG, GIF).
+4. Conferma — l'URL dell'immagine viene compilato automaticamente.
+
+### Opzione B — Incolla un URL immagine *(Elite)*
+
+1. Clicca il pulsante **Immagine**.
+2. Incolla l'URL completo dell'immagine nel campo URL.
+3. Clicca **Aggiorna**.
+
+### Consigli sulle immagini
+
+- Usa immagini **quadrate (1:1)** per le icone della barra delle schede.
+- Usa immagini **orizzontali** per gli elementi Immagine grande.
+- **PNG con sfondo trasparente** funziona meglio per loghi e simboli.
+- Mantieni le dimensioni del file piccole — le immagini pesanti rallentano il menu su mobile.
+- Elite converte automaticamente le immagini in WebP e normalizza le dimensioni.
+
+---
+
+## Layout di visualizzazione
+
+Dopo aver aggiunto un'icona o immagine, scegli come icona/immagine e testo sono disposti in **Layout → Layout di visualizzazione**:
+
+| Opzione | Layout |
 |---|---|
-| **Automatic** | Follows the menu type default |
-| **Top-Down** | Icon/image on top, text below |
-| **Left-Right** | Icon/image on left, text on right |
-| **Down-Top** | Text on top, icon/image below |
-| **Right-Left** | Text on left, icon/image on right |
-| **Icon/Image Only** | Icon/image only — text hidden |
-| **Text Only** | Text only — icon/image hidden |
+| **Automatico** | Segue il valore predefinito del tipo di menu |
+| **Su-Giù** | Icona/immagine in alto, testo in basso |
+| **Sinistra-Destra** | Icona/immagine a sinistra, testo a destra |
+| **Giù-Su** | Testo in alto, icona/immagine in basso |
+| **Destra-Sinistra** | Testo a sinistra, icona/immagine a destra |
+| **Solo Icona/Immagine** | Solo icona/immagine — testo nascosto |
+| **Solo Testo** | Solo testo — icona/immagine nascosta |
 
 ---
 
-## Style the icon or image
+## Stilizzare l'icona o immagine
 
-Go to **Interface → Icon / Image Style** to fine-tune appearance:
+Vai su **Interface → Stile icona / immagine** per affinare l'aspetto:
 
-| Setting | Effect |
+| Impostazione | Effetto |
 |---|---|
-| **Icon Color** | Change the icon vector color (hex). Does not apply to image files. |
-| **Size (px)** | Display size of the icon or image |
-| **Container** | Background color of the box surrounding the icon |
-| **Padding (px)** | Space between the icon and its container box |
-| **Curve (px)** | Corner radius of the container — set `50` for a circle |
+| **Colore icona** | Cambia il colore vettoriale dell'icona (hex). Non si applica ai file immagine. |
+| **Dimensione (px)** | Dimensione di visualizzazione dell'icona o immagine |
+| **Contenitore** | Colore di sfondo del riquadro che circonda l'icona |
+| **Padding (px)** | Spazio tra l'icona e il suo riquadro contenitore |
+| **Curva (px)** | Raggio d'angolo del contenitore — `50` per un cerchio |
 
-**Example — white icon in a round blue box:**
+**Esempio — icona bianca in riquadro blu rotondo:**
 
 ```
-Icon Color:  #FFFFFF
-Container:   #0066CC
-Padding:     10
-Curve:       50
+Colore icona:  #FFFFFF
+Contenitore:   #0066CC
+Padding:       10
+Curva:         50
 ```

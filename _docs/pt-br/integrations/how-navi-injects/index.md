@@ -1,0 +1,10 @@
+---
+description: Entenda como o Navi+ injeta menus no seu site — App Block, App Embed e o snippet de incorporação explicados.
+lang: pt-br
+layout: default
+permalink: /pt-br/docs/integrations/how-navi-injects/
+title: Como o Navi+ se integra ao seu site
+---
+# Como o Navi+ se integra ao seu site
+
+*Em breve — esta página está sendo elaborada.*

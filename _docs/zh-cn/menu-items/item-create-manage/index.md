@@ -1,90 +1,90 @@
 ---
-description: How to add, reorder, duplicate, delete, and undo changes to menu items in Navi+.
+description: 如何在 Navi+ 中添加、重新排序、复制、删除菜单项以及撤销更改。
 layout: default
 permalink: /zh-cn/docs/menu-items/item-create-manage/
-title: Create & Manage Items
+title: 创建和管理菜单项
 ---
-# Create & Manage Items
+# 创建和管理菜单项
 
-## Add a new item
+## 添加新菜单项
 
-1. In the menu tree, click **+ Add item** (or the plus button at the bottom of the list).
-2. Choose the item kind you want (Icon/Text, Big Image, Group Title, Blank Space, Tab Marker…).
-3. The new item appears at the end of the list with default content.
-4. Click the item to open the Edit Item panel and fill in the details.
-5. Press **Update** → **Save**.
+1. 在菜单树中，点击 **+ 添加菜单项**（或列表底部的加号按钮）。
+2. 选择您想要的菜单项类型（图标/文字、大图、分组标题、空白、Tab 标记…）。
+3. 新菜单项以默认内容出现在列表末尾。
+4. 点击菜单项打开编辑面板并填写详细信息。
+5. 点击 **更新** → **保存**。
 
-> New items are always added at the bottom. Drag them up to the position you want after adding.
+> 新菜单项始终添加在末尾。添加后将其向上拖动到所需位置。
 
 ---
 
-## Reorder items
+## 重新排序菜单项
 
-### By drag and drop
+### 通过拖放
 
-- Hover over the drag handle (≡) on the left of an item.
-- Drag **up / down** to change order within the same level.
-- Drag **right** to indent — the item becomes a child of the item above it.
-- Drag **left** to outdent — the item moves back up one level.
+- 将鼠标悬停在菜单项左侧的拖动手柄 (≡) 上。
+- **向上 / 向下** 拖动以更改同一层级内的顺序。
+- **向右** 拖动以缩进 — 菜单项成为上方菜单项的子项。
+- **向左** 拖动以取消缩进 — 菜单项返回上一层级。
 
-### By keyboard shortcut (while an item is selected)
+### 通过键盘快捷键（当菜单项被选中时）
 
-| Key | Action |
+| 按键 | 操作 |
 |---|---|
-| `↑` | Move up (Mac: `Cmd+↑` / Win: `Alt+↑`) |
-| `↓` | Move down (Mac: `Cmd+↓` / Win: `Alt+↓`) |
-| `→` | Indent — item becomes a child of the item above |
-| `←` | Outdent — item moves back to the parent level |
+| `↑` | 向上移动 (Mac: `Cmd+↑` / Win: `Alt+↑`) |
+| `↓` | 向下移动 (Mac: `Cmd+↓` / Win: `Alt+↓`) |
+| `→` | 缩进 — 菜单项成为上方菜单项的子项 |
+| `←` | 取消缩进 — 菜单项返回父级层级 |
 
-> Shortcuts only work when the cursor is hovering over the menu tree and the item is selected (blue outline).
-
----
-
-## Edit an item
-
-1. Click the item → Edit Item panel opens.
-2. Change the fields you need.
-3. Press **Update** to save the changes to that item.
-
-> Press **Cancel** to close the panel without saving.
+> 快捷键仅在光标悬停在菜单树上且菜单项被选中（蓝色轮廓）时有效。
 
 ---
 
-## Duplicate an item
+## 编辑菜单项
 
-1. Hover over the item → the quick action menu appears.
-2. Click **Copy** (or press `C`).
-3. A copy appears immediately below the original, with all content and settings preserved.
-4. Edit the copy as needed.
+1. 点击菜单项 → 编辑面板打开。
+2. 更改所需字段。
+3. 点击 **更新** 保存对该菜单项的更改。
 
----
-
-## Delete an item
-
-1. Hover over the item → the quick action menu appears.
-2. Click **Delete** (or press `Del` / `Backspace` on Mac).
-3. A confirmation dialog appears — click **Confirm** to permanently delete.
-
-> **Note:** Deleting a parent item also deletes all its child items. This cannot be undone after confirmation.
+> 点击 **取消** 可在不保存的情况下关闭面板。
 
 ---
 
-## Undo / Redo
+## 复制菜单项
 
-| Shortcut | Action |
+1. 将鼠标悬停在菜单项上 → 快速操作菜单出现。
+2. 点击 **复制**（或按 `C`）。
+3. 副本立即出现在原项下方，保留所有内容和设置。
+4. 根据需要编辑副本。
+
+---
+
+## 删除菜单项
+
+1. 将鼠标悬停在菜单项上 → 快速操作菜单出现。
+2. 点击 **删除**（或按 `Del` / Mac 上按 `Backspace`）。
+3. 出现确认对话框 — 点击 **确认** 永久删除。
+
+> **注意：** 删除父项也会删除其所有子项。确认后无法撤销。
+
+---
+
+## 撤销 / 重做
+
+| 快捷键 | 操作 |
 |---|---|
-| `Ctrl+Z` / `Cmd+Z` | Undo the last action |
-| `Ctrl+Y` / `Cmd+Shift+Z` | Redo |
+| `Ctrl+Z` / `Cmd+Z` | 撤销上一步操作 |
+| `Ctrl+Y` / `Cmd+Shift+Z` | 重做 |
 
-Undo history only exists for the current session — reloading the page clears it.
+撤销历史仅在当前会话中存在 — 刷新页面将清除它。
 
 ---
 
-## Save the menu
+## 保存菜单
 
-After adding, reordering, or deleting items:
+添加、重新排序或删除菜单项后：
 
-- Click **Save** in the toolbar, or press `Ctrl+S` / `Cmd+S`.
-- Hold `Shift` while pressing Save to save and immediately reload the simulator.
+- 点击工具栏中的 **保存**，或按 `Ctrl+S` / `Cmd+S`。
+- 按住 `Shift` 同时按保存，可保存并立即刷新模拟器。
 
-Changes are not visible to your customers until you Save.
+在您保存之前，更改对您的客户不可见。

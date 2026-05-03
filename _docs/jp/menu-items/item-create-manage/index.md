@@ -1,90 +1,90 @@
 ---
-description: How to add, reorder, duplicate, delete, and undo changes to menu items in Navi+.
+description: Navi+でメニュー項目を追加、並び替え、複製、削除、変更を元に戻す方法。
 layout: default
 permalink: /jp/docs/menu-items/item-create-manage/
-title: Create & Manage Items
+title: アイテムの作成と管理
 ---
-# Create & Manage Items
+# アイテムの作成と管理
 
-## Add a new item
+## 新しいアイテムを追加する
 
-1. In the menu tree, click **+ Add item** (or the plus button at the bottom of the list).
-2. Choose the item kind you want (Icon/Text, Big Image, Group Title, Blank Space, Tab Marker…).
-3. The new item appears at the end of the list with default content.
-4. Click the item to open the Edit Item panel and fill in the details.
-5. Press **Update** → **Save**.
+1. メニューツリーで **+ アイテムを追加** をクリックします（またはリスト下部のプラスボタン）。
+2. 希望するアイテムの種類を選択します（アイコン/テキスト、大きな画像、グループタイトル、空白、タブマーカー…）。
+3. 新しいアイテムがデフォルトコンテンツでリストの末尾に表示されます。
+4. アイテムをクリックして編集パネルを開き、詳細を入力します。
+5. **更新** → **保存** を押します。
 
-> New items are always added at the bottom. Drag them up to the position you want after adding.
+> 新しいアイテムは常に末尾に追加されます。追加後、目的の位置に上へドラッグしてください。
 
 ---
 
-## Reorder items
+## アイテムを並び替える
 
-### By drag and drop
+### ドラッグ＆ドロップで
 
-- Hover over the drag handle (≡) on the left of an item.
-- Drag **up / down** to change order within the same level.
-- Drag **right** to indent — the item becomes a child of the item above it.
-- Drag **left** to outdent — the item moves back up one level.
+- アイテム左側のドラッグハンドル (≡) の上にカーソルを置きます。
+- **上 / 下** にドラッグして同じレベル内の順序を変更します。
+- **右** にドラッグしてインデント — アイテムが上のアイテムの子になります。
+- **左** にドラッグしてアウトデント — アイテムが1レベル上に移動します。
 
-### By keyboard shortcut (while an item is selected)
+### キーボードショートカットで（アイテムが選択されている場合）
 
-| Key | Action |
+| キー | 操作 |
 |---|---|
-| `↑` | Move up (Mac: `Cmd+↑` / Win: `Alt+↑`) |
-| `↓` | Move down (Mac: `Cmd+↓` / Win: `Alt+↓`) |
-| `→` | Indent — item becomes a child of the item above |
-| `←` | Outdent — item moves back to the parent level |
+| `↑` | 上に移動 (Mac: `Cmd+↑` / Win: `Alt+↑`) |
+| `↓` | 下に移動 (Mac: `Cmd+↓` / Win: `Alt+↓`) |
+| `→` | インデント — 上のアイテムの子になる |
+| `←` | アウトデント — 親レベルに戻る |
 
-> Shortcuts only work when the cursor is hovering over the menu tree and the item is selected (blue outline).
-
----
-
-## Edit an item
-
-1. Click the item → Edit Item panel opens.
-2. Change the fields you need.
-3. Press **Update** to save the changes to that item.
-
-> Press **Cancel** to close the panel without saving.
+> ショートカットはカーソルがメニューツリー上にあり、アイテムが選択されている（青いアウトライン）場合のみ機能します。
 
 ---
 
-## Duplicate an item
+## アイテムを編集する
 
-1. Hover over the item → the quick action menu appears.
-2. Click **Copy** (or press `C`).
-3. A copy appears immediately below the original, with all content and settings preserved.
-4. Edit the copy as needed.
+1. アイテムをクリック → 編集パネルが開きます。
+2. 必要なフィールドを変更します。
+3. **更新** を押してそのアイテムへの変更を保存します。
 
----
-
-## Delete an item
-
-1. Hover over the item → the quick action menu appears.
-2. Click **Delete** (or press `Del` / `Backspace` on Mac).
-3. A confirmation dialog appears — click **Confirm** to permanently delete.
-
-> **Note:** Deleting a parent item also deletes all its child items. This cannot be undone after confirmation.
+> **キャンセル** を押すと保存せずにパネルを閉じます。
 
 ---
 
-## Undo / Redo
+## アイテムを複製する
 
-| Shortcut | Action |
+1. アイテムの上にカーソルを置く → クイックアクションメニューが表示されます。
+2. **コピー** をクリック（または `C` を押す）。
+3. すべてのコンテンツと設定を保持したコピーが元の直下に表示されます。
+4. 必要に応じてコピーを編集します。
+
+---
+
+## アイテムを削除する
+
+1. アイテムの上にカーソルを置く → クイックアクションメニューが表示されます。
+2. **削除** をクリック（または `Del` / Mac では `Backspace`）。
+3. 確認ダイアログが表示されます — **確認** をクリックして完全に削除します。
+
+> **注意：** 親アイテムを削除するとすべての子アイテムも削除されます。確認後は元に戻せません。
+
+---
+
+## 元に戻す / やり直す
+
+| ショートカット | 操作 |
 |---|---|
-| `Ctrl+Z` / `Cmd+Z` | Undo the last action |
-| `Ctrl+Y` / `Cmd+Shift+Z` | Redo |
+| `Ctrl+Z` / `Cmd+Z` | 最後の操作を元に戻す |
+| `Ctrl+Y` / `Cmd+Shift+Z` | やり直す |
 
-Undo history only exists for the current session — reloading the page clears it.
+元に戻す履歴は現在のセッションのみ有効です — ページをリロードすると消えます。
 
 ---
 
-## Save the menu
+## メニューを保存する
 
-After adding, reordering, or deleting items:
+アイテムの追加、並び替え、削除の後：
 
-- Click **Save** in the toolbar, or press `Ctrl+S` / `Cmd+S`.
-- Hold `Shift` while pressing Save to save and immediately reload the simulator.
+- ツールバーの **保存** をクリック、または `Ctrl+S` / `Cmd+S` を押します。
+- `Shift` を押しながら保存すると、保存してすぐにシミュレーターをリロードします。
 
-Changes are not visible to your customers until you Save.
+保存するまで変更はお客様には表示されません。

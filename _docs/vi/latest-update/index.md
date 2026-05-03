@@ -3,9 +3,9 @@ description: Những tính năng mới, cải tiến và sửa lỗi theo từng
 lang: vi
 layout: default
 permalink: /vi/docs/latest-update/
-title: Changelog / Release Notes
+title: Cập nhật mới nhất
 ---
-# Changelog / Release Notes
+# Cập nhật mới nhất
 
 ### Tháng 4/2026
 

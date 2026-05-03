@@ -1,41 +1,37 @@
 ---
-description: All link types supported by Navi+ — internal pages, external URLs, anchors, open panels, phone/email, chat apps, sharing, and JavaScript.
+description: Todos los tipos de enlaces soportados por Navi+ — páginas internas, URLs externas, anclas, abrir paneles, teléfono/email, apps de chat, compartir y JavaScript.
 layout: default
 permalink: /es/docs/menu-items/item-link-types/
-title: Link Types
+title: Tipos de enlace
 ---
-# Link Types
+# Tipos de enlace
 
-The **Link To** field in Basic Info controls what happens when a visitor taps or clicks an item. Navi+ supports many link types beyond a plain URL.
+El campo **Enlace a** en la información básica controla lo que sucede cuando un visitante toca o hace clic en un elemento. Navi+ soporta muchos tipos de enlaces más allá de una URL simple.
 
-When you click the Link To field, a help popup opens automatically with full examples. You can also type directly into the field.
+Cuando haces clic en el campo Enlace a, se abre automáticamente un popup de ayuda con ejemplos completos. También puedes escribir directamente en el campo.
 
 ---
 
-## 1. Internal store pages
+## 1. Páginas internas de la tienda
 
-Use short paths (no domain) to link to pages within your Shopify store.
-
-| Destination | Enter |
+| Destino | Ingresa |
 |---|---|
-| Home page | *(leave empty)* |
-| All products | `collections/all` |
-| A collection | `collections/collection-handle` |
-| A product page | `products/product-handle` |
-| A static page (About, FAQ…) | `pages/page-handle` |
-| Blog listing | `blogs/news` |
-| A blog post | `blogs/news/post-handle` |
-| Cart | `cart` |
-| Search | `search` |
-| Contact | `pages/contact` |
+| Página de inicio | *(dejar vacío)* |
+| Todos los productos | `collections/all` |
+| Una colección | `collections/collection-handle` |
+| Una página de producto | `products/product-handle` |
+| Página estática | `pages/page-handle` |
+| Blog | `blogs/news` |
+| Entrada del blog | `blogs/news/post-handle` |
+| Carrito | `cart` |
+| Búsqueda | `search` |
+| Contacto | `pages/contact` |
 
-**Auto Clean tip:** Paste a full URL (e.g. `https://mystore.com/collections/sale`) → enable the **Auto clean** toggle → the system strips the domain and keeps only `collections/sale`.
+**Consejo Auto Clean:** Pega una URL completa → activa **Auto clean** → el sistema elimina el dominio.
 
 ---
 
-## 2. Full URL (External link)
-
-Link to any website using a full URL.
+## 2. URL completa (externo)
 
 ```
 https://brand.com/campaign
@@ -44,9 +40,7 @@ https://instagram.com/yourpage
 
 ---
 
-## 3. Open in new tab
-
-Append `@new` to any link to open it in a new tab.
+## 3. Abrir en nueva pestaña
 
 ```
 collections/all@new
@@ -55,9 +49,7 @@ https://brand.com/campaign@new
 
 ---
 
-## 4. No navigation (parent item)
-
-Use `#` when an item is a parent that contains child items — tapping it expands the children without navigating anywhere.
+## 4. Sin navegación (padre)
 
 ```
 #
@@ -65,71 +57,62 @@ Use `#` when an item is a parent that contains child items — tapping it expand
 
 ---
 
-## 5. Scroll (Anchor)
+## 5. Desplazamiento (ancla)
 
-| Action | Syntax |
+| Acción | Sintaxis |
 |---|---|
-| Scroll to top | `scroll:Top` |
-| Scroll to top with 100px offset | `scroll:Top(100)` |
-| Scroll to bottom | `scroll:Bottom` |
-| Scroll to a section by CSS selector | `scroll:OnPage(#section-id)` *(Business / Elite)* |
-
-**Example:** A "Back to top" button → Link To is `scroll:Top`.
+| Subir | `scroll:Top` |
+| Subir con 100px | `scroll:Top(100)` |
+| Bajar | `scroll:Bottom` |
+| A sección CSS | `scroll:OnPage(#section-id)` *(Business / Elite)* |
 
 ---
 
-## 6. Open panel / popup *(Business / Elite)*
+## 6. Abrir panel / popup *(Business / Elite)*
 
-Open theme UI components without leaving the page.
-
-| Action | Syntax |
+| Acción | Sintaxis |
 |---|---|
-| Open a Navi+ Slide menu | `open:NaviMenu(SF-XXXXXXXXXX)` |
-| Click a CSS element | `open:clickTo(#cart-button)` |
-| Focus an input field | `open:focusTo(.search-input)` |
-| Open theme search / cart drawer | Use the help popup → *Open panels* |
-| Open Shopify Inbox chat | Use the help popup → *Open other applications* |
-
-`open:clickTo` and `open:focusTo` accept `Down` or `Up` to scroll before acting:  
-`open:clickTo(.footer-element, Down)`
+| Abrir menú Slide Navi+ | `open:NaviMenu(SF-XXXXXXXXXX)` |
+| Hacer clic en elemento CSS | `open:clickTo(#cart-button)` |
+| Enfocar campo | `open:focusTo(.search-input)` |
+| Búsqueda / carrito del tema | Popup ayuda → *Abrir paneles* |
+| Shopify Inbox | Popup ayuda → *Abrir otras apps* |
 
 ---
 
-## 7. Phone, SMS, Email
+## 7. Teléfono, SMS, Email
 
-| Action | Syntax |
+| Acción | Sintaxis |
 |---|---|
-| Phone call | `tel:+12125550100` |
-| SMS | `sms:+12125550100?body=Hello` |
-| Email | `mailto:hello@yourdomain.com` |
+| Llamada | `tel:+34912345678` |
+| SMS | `sms:+34912345678?body=Hola` |
+| Email | `mailto:hola@tudominio.es` |
 
 ---
 
-## 8. Chat apps
+## 8. Apps de chat
 
-| App | Syntax |
+| App | Sintaxis |
 |---|---|
-| WhatsApp | `https://wa.me/12125550100` *(no + prefix)* |
-| Messenger | `https://m.me/YourPageName` |
+| WhatsApp | `https://wa.me/34912345678` |
+| Messenger | `https://m.me/TuPágina` |
 | Zalo | `https://zalo.me/+0123456789` |
-| Line | `https://lin.ee/your-line-code` |
+| Line | `https://lin.ee/tu-código` |
 
 ---
 
-## 9. Share
+## 9. Compartir
 
-| Action | Syntax |
+| Acción | Sintaxis |
 |---|---|
-| Share current page (native share dialog) | `open:ShareMe` |
-| Copy URL to clipboard | `share:CopyUrl` |
-| Share to Facebook | `share:Facebook` |
-| Share to Twitter / X | `share:Tweet` |
+| Compartir página | `open:ShareMe` |
+| Copiar URL | `share:CopyUrl` |
+| Facebook | `share:Facebook` |
+| Twitter / X | `share:Tweet` |
 
 ---
 
-## 10. Call JavaScript
-
-Call any JavaScript function defined on the page.
+## 10. JavaScript
 
 ```
 javascript:openCustomModal
@@ -138,10 +121,10 @@ javascript:toggleDarkMode
 
 ---
 
-## 11. Switch language
+## 11. Cambiar idioma
 
 ```
-open:ChangeLanguage(fr)    ← switch to French
-open:ChangeLanguage(vi)    ← switch to Vietnamese
-open:ChangeLanguage()      ← reset to default language
+open:ChangeLanguage(es)
+open:ChangeLanguage(en)
+open:ChangeLanguage()
 ```

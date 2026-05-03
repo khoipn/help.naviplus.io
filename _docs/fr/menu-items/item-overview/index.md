@@ -1,71 +1,71 @@
 ---
-description: What a menu item is in Navi+, the available item kinds, and the full field structure in the Edit Item panel.
+description: Ce qu'est un élément de menu dans Navi+, les types d'éléments disponibles et la structure complète des champs dans le panneau de modification.
 layout: default
 permalink: /fr/docs/menu-items/item-overview/
-title: Item Overview
+title: Aperçu des éléments
 ---
-# Item Overview
+# Aperçu des éléments
 
-## What is a menu item?
+## Qu'est-ce qu'un élément de menu ?
 
-Every row in a menu list is an **item**. An item is the smallest unit in Navi+ — it can be a navigation link, a group header, a blank spacer, or a tab divider.
+Chaque ligne dans une liste de menu est un **élément**. Un élément est la plus petite unité dans Navi+ — il peut être un lien de navigation, un en-tête de groupe, un espaceur vide ou un séparateur d'onglet.
 
-Multiple items stacked together make a menu. The menu is then rendered for visitors on your website.
+Plusieurs éléments empilés forment un menu. Le menu est ensuite rendu pour les visiteurs sur votre site web.
 
 ---
 
-## Item kinds
+## Types d'éléments
 
-When you add a new item you choose its **kind**. The kind determines how the item looks and what it does.
+Quand vous ajoutez un nouvel élément, vous choisissez son **type**. Le type détermine comment l'élément apparaît et ce qu'il fait.
 
-| Kind | Description | When to use |
+| Type | Description | Quand utiliser |
 |---|---|---|
-| **Icon / Text** | Standard item with an icon and label | Regular navigation links |
-| **Big Image / Text** | Large tile with a full-bleed image and overlay text | Category banners, featured product images |
-| **Group Title** | Section heading — not a link | Visually group the items below it |
-| **Blank Space** | Transparent gap | Spacing and layout alignment |
-| **Tab Marker** | Marks the start of a new tab | Split the menu into horizontal tabs |
-| **Custom HTML** | Embed arbitrary HTML | Custom widgets, special banners |
+| **Icône / Texte** | Élément standard avec icône et étiquette | Liens de navigation réguliers |
+| **Grande image / Texte** | Grande vignette avec image plein bord et texte superposé | Bannières de catégories, images de produits en vedette |
+| **Titre de groupe** | En-tête de section — pas un lien | Grouper visuellement les éléments en dessous |
+| **Espace vide** | Gap transparent | Espacement et alignement de la mise en page |
+| **Marqueur d'onglet** | Marque le début d'un nouvel onglet | Diviser le menu en onglets horizontaux |
+| **HTML personnalisé** | Intégrer du HTML arbitraire | Widgets personnalisés, bannières spéciales |
 
 ---
 
-## Field structure
+## Structure des champs
 
-Click any item to open the Edit Item panel. It is organized into these sections:
+Cliquez sur un élément pour ouvrir le panneau de modification :
 
 ```
 ┌─────────────────────────────────────────┐
-│  MEDIA                                  │
-│    Icon  |  Image                       │
+│  MÉDIAS                                 │
+│    Icône  |  Image                      │
 ├─────────────────────────────────────────┤
-│  BASIC INFO                             │
-│    Text · Link To · HTML                │
-│    Description · Divider · Badge        │
+│  INFORMATIONS DE BASE                   │
+│    Texte · Lien vers · HTML             │
+│    Description · Séparateur · Badge     │
 ├─────────────────────────────────────────┤
 │  LAYOUT                                 │
-│    Display Layout · Width · Position    │
-│    Height Fix                           │
+│    Layout d'affichage · Largeur · Pos.  │
+│    Hauteur fixe                         │
 ├─────────────────────────────────────────┤
 │  INTERFACE (UI)                         │
-│    Class Names · Text Style             │
-│    Icon/Image Style · Background        │
-│    Spacing · Align                      │
+│    Classes · Style texte                │
+│    Style icône/image · Fond             │
+│    Espacement · Alignement              │
 ├─────────────────────────────────────────┤
-│  ADVANCE                                │
-│    Animation · CSS · Attributes         │
+│  AVANCÉ                                 │
+│    Animation · CSS · Attributs          │
 ├─────────────────────────────────────────┤
-│  PUBLISH                                │
-│    Is Published · Login conditions      │
+│  PUBLIER                                │
+│    Est publié · Conditions login        │
 └─────────────────────────────────────────┘
 ```
 
 ---
 
-## Edit workflow
+## Workflow de modification
 
-1. Click an item in the menu tree → the Edit Item panel opens.
-2. Change the fields you need.
-3. Press **Update** to apply changes to that item.
-4. Press **Save** (`Ctrl+S` / `Cmd+S`) to save the entire menu and refresh the simulator.
+1. Cliquez sur un élément dans l'arborescence → le panneau s'ouvre.
+2. Modifiez les champs nécessaires.
+3. Appuyez sur **Mettre à jour** pour appliquer les changements.
+4. Appuyez sur **Enregistrer** (`Ctrl+S` / `Cmd+S`) pour sauvegarder et rafraîchir le simulateur.
 
-> If you pressed Update but haven't Saved yet, the changes are not written to your live menu. Hold Shift while pressing Save to save and immediately reload the simulator.
+> Maintenez Shift en appuyant sur Enregistrer pour sauvegarder et recharger immédiatement le simulateur.

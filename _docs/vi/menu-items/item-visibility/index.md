@@ -1,54 +1,54 @@
 ---
-description: How to control when and for whom a menu item is visible in Navi+ — published state, login conditions, and page-based hiding.
+description: Cách kiểm soát khi nào và cho ai một mục menu hiển thị trong Navi+ — trạng thái xuất bản, điều kiện đăng nhập và ẩn theo trang.
 layout: default
 permalink: /vi/docs/menu-items/item-visibility/
-title: Visibility & Conditions
+title: Hiển thị và điều kiện
 ---
-# Visibility & Conditions
+# Hiển thị và điều kiện
 
-The **Publish** section in the Edit Item panel lets you control who sees an item, when, and on which pages.
-
----
-
-## Is Published
-
-**Default: on (item is visible to everyone).**
-
-Toggle this off to hide the item from the live menu without deleting it. The item stays in the editor — you can re-enable it at any time.
-
-**Use when:**
-- Temporarily hiding a seasonal sale link.
-- Preparing an item before it goes live.
-- Keeping a backup item without deleting it.
+Phần **Xuất bản** trong bảng chỉnh sửa mục cho phép bạn kiểm soát ai nhìn thấy mục, khi nào và trên những trang nào.
 
 ---
 
-## Hide when logged in
+## Đã xuất bản
 
-When enabled, the item is **only visible to visitors who are not logged in**.
+**Mặc định: bật (mục hiển thị với tất cả mọi người).**
 
-**Use for:**
-- A "Log in" button — customers who are already logged in don't need it.
-- A "Create account" link.
+Tắt để ẩn mục khỏi menu trực tiếp mà không xóa. Mục vẫn còn trong trình chỉnh sửa — bạn có thể bật lại bất cứ lúc nào.
 
----
-
-## Only show when logged in
-
-When enabled, the item is **only visible to logged-in customers**.
-
-**Use for:**
-- "My account" link.
-- Loyalty points, order history.
-- Features reserved for members.
+**Dùng khi:**
+- Tạm thời ẩn link khuyến mãi theo mùa.
+- Chuẩn bị mục trước khi đưa lên live.
+- Giữ mục dự phòng mà không xóa.
 
 ---
 
-## Hide on specific page types (hidepages)
+## Ẩn khi đã đăng nhập
 
-Use the `hidepages` attribute in **Advance → Attributes** to hide an item on certain page types.
+Khi bật, mục **chỉ hiển thị với khách chưa đăng nhập**.
 
-**Syntax:**
+**Dùng cho:**
+- Nút "Đăng nhập" — khách hàng đã đăng nhập không cần thấy.
+- Link "Tạo tài khoản".
+
+---
+
+## Chỉ hiển thị khi đã đăng nhập
+
+Khi bật, mục **chỉ hiển thị với khách hàng đã đăng nhập**.
+
+**Dùng cho:**
+- Link "Tài khoản của tôi".
+- Điểm tích lũy, lịch sử đơn hàng.
+- Tính năng dành riêng cho thành viên.
+
+---
+
+## Ẩn trên loại trang cụ thể (hidepages)
+
+Dùng thuộc tính `hidepages` trong **Nâng cao → Thuộc tính** để ẩn mục trên một số loại trang.
+
+**Cú pháp:**
 
 ```
 hidepages=index
@@ -56,18 +56,18 @@ hidepages=index|products
 hidepages=index|products|collections|pages|blogs|others
 ```
 
-| Value | Pages hidden on |
+| Giá trị | Ẩn trên trang |
 |---|---|
-| `index` | Home page |
-| `products` | Product detail pages |
-| `collections` | Collection / category pages |
-| `pages` | Static pages (About, Contact…) |
-| `blogs` | Blog listing and post pages |
-| `others` | Any page not in the above categories |
+| `index` | Trang chủ |
+| `products` | Trang chi tiết sản phẩm |
+| `collections` | Trang bộ sưu tập / danh mục |
+| `pages` | Trang tĩnh (Giới thiệu, Liên hệ…) |
+| `blogs` | Trang danh sách blog và bài đăng |
+| `others` | Các trang khác không thuộc các loại trên |
 
-Separate multiple values with `|`, no spaces.
+Ngăn cách nhiều giá trị bằng `|`, không có khoảng trắng.
 
-**Example:** Hide a "Buy now" button on the home page and blog pages:
+**Ví dụ:** Ẩn nút "Mua ngay" trên trang chủ và trang blog:
 
 ```
 hidepages=index|blogs
@@ -75,35 +75,35 @@ hidepages=index|blogs
 
 ---
 
-## Hide by device (Mobile / Desktop)
+## Ẩn theo thiết bị (Mobile / Desktop)
 
-> **Important:** Navi+ does not have a per-item mobile/desktop toggle. Device targeting is controlled at the **menu level**, not the item level.
+> **Lưu ý quan trọng:** Navi+ không có nút bật/tắt mobile/desktop cho từng mục. Việc nhắm mục tiêu theo thiết bị được kiểm soát ở **cấp độ menu**, không phải cấp độ mục.
 
-**The correct approach:**
+**Cách đúng:**
 
-- Go to the **Publish** tab of the menu → toggle **Mobile** and **Desktop** for the entire menu.
-- Create two separate menus — one for mobile, one for desktop — and set the device toggle on each.
+- Vào tab **Xuất bản** của menu → bật/tắt **Mobile** và **Desktop** cho toàn bộ menu.
+- Tạo hai menu riêng biệt — một cho mobile, một cho desktop — và đặt nút bật thiết bị trên mỗi menu.
 
-**Per-item workaround (if truly needed):**  
-Use **Advance → CSS** with a media query:
+**Cách xử lý cho từng mục (nếu thực sự cần):**  
+Dùng **Nâng cao → CSS** với media query:
 
 ```css
-/* Hide this item on mobile only */
+/* Ẩn mục này chỉ trên mobile */
 @media (max-width: 767px) { display: none !important; }
 
-/* Hide this item on desktop only */
+/* Ẩn mục này chỉ trên desktop */
 @media (min-width: 768px) { display: none !important; }
 ```
 
 ---
 
-## Summary
+## Tóm tắt
 
-| Condition | How to set |
+| Điều kiện | Cách cài đặt |
 |---|---|
-| Hide completely | Is Published → off |
-| Hide from logged-in users | Hide when logged in → on |
-| Hide from guests | Only show when logged in → on |
-| Hide on home page | Attributes: `hidepages=index` |
-| Hide on mobile | CSS: `@media (max-width: 767px) { display: none !important; }` |
-| Hide on desktop | CSS: `@media (min-width: 768px) { display: none !important; }` |
+| Ẩn hoàn toàn | Đã xuất bản → tắt |
+| Ẩn với người dùng đã đăng nhập | Ẩn khi đã đăng nhập → bật |
+| Ẩn với khách chưa đăng nhập | Chỉ hiển thị khi đã đăng nhập → bật |
+| Ẩn trên trang chủ | Thuộc tính: `hidepages=index` |
+| Ẩn trên mobile | CSS: `@media (max-width: 767px) { display: none !important; }` |
+| Ẩn trên desktop | CSS: `@media (min-width: 768px) { display: none !important; }` |
