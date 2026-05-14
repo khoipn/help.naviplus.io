@@ -1,33 +1,19 @@
-- title: --
-  type: separator
-- processed_path: getting-started
+- children:
+  - processed_path: getting-started/what-is-navi
+    title: 什么是 Navi+？（它是如何工作的）
+    url: /docs/getting-started/what-is-navi/
+  - processed_path: how-to-install-navi
+    title: 安装 Navi+
+    url: /docs/how-to-install-navi/
+  - processed_path: frequently-asked-questions/navi-plans-starter-business-and-elite
+    title: 计划与定价比较
+    url: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
+  - processed_path: common-first-questions
+    title: 常见的第一个问题
+    url: /docs/common-first-questions/
+  processed_path: getting-started
   title: 入门指南
   url: /docs/getting-started/
-- processed_path: why-choose-navi
-  title: 为什么选择 Navi+？
-  url: /docs/why-choose-navi/
-- processed_path: common-first-questions
-  title: 常见的第一个问题
-  url: /docs/common-first-questions/
-- processed_path: how-to-install-navi
-  title: 如何安装 Navi+
-  url: /docs/how-to-install-navi/
-- processed_path: line
-  title: line
-  url: /docs/line/
-- processed_path: troubleshooting
-  title: 故障排除
-  url: /docs/troubleshooting/
-- processed_path: latest-update
-  title: 最新更新
-  url: /docs/latest-update/
-- children:
-  - processed_path: demo/1click-live-demo
-    title: 1Click live demo
-    url: /docs/demo/1click-live-demo/
-  processed_path: demo
-  title: 演示
-  url: /docs/demo/
 - children:
   - processed_path: usage/explore-common-menus
     title: 探索常见菜单
@@ -39,8 +25,11 @@
     - processed_path: usage/tabbar-bottom-navigation/publishing-on-shopify
       title: 在 Shopify 上发布
       url: /docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
+    - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress
+      title: 标签栏 — 在 WordPress 上发布
+      url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
     - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others
-      title: 在 WordPress / Woo / Wix / 其他平台上发布
+      title: 在Wix / Squarespace / 其他平台上发布
       url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
     processed_path: usage/tabbar-bottom-navigation
     title: Tabbar (Bottom Navigation)
@@ -52,14 +41,17 @@
     - processed_path: usage/mega-menu-desktop/publishing-on-shopify
       title: 在 Shopify 上发布
       url: /docs/usage/mega-menu-desktop/publishing-on-shopify/
+    - processed_path: usage/mega-menu-desktop/publish-on-wordpress
+      title: Mega Menu (Desktop) — Publish on WordPress
+      url: /docs/usage/mega-menu-desktop/publish-on-wordpress/
     - processed_path: usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others
-      title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
+      title: 在Wix / Squarespace / 其他平台上发布
       url: /docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
     - processed_path: usage/mega-menu-desktop/faq
       title: 常见问题
       url: /docs/usage/mega-menu-desktop/faq/
     processed_path: usage/mega-menu-desktop
-    title: Mega Menu (desktop)
+    title: Mega Menu（桌面端）
     url: /docs/usage/mega-menu-desktop/
   - children:
     - processed_path: usage/mega-menu-mobile/how-to-use
@@ -68,11 +60,14 @@
     - processed_path: usage/mega-menu-mobile/publishing-on-shopify
       title: 在 Shopify 上发布
       url: /docs/usage/mega-menu-mobile/publishing-on-shopify/
+    - processed_path: usage/mega-menu-mobile/publish-on-wordpress
+      title: Mega Menu (Mobile) — Publish on WordPress
+      url: /docs/usage/mega-menu-mobile/publish-on-wordpress/
     - processed_path: usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others
-      title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
+      title: 在Wix / Squarespace / 其他平台上发布
       url: /docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/mega-menu-mobile
-    title: Mega Menu (mobile)
+    title: Mega Menu（移动端）
     url: /docs/usage/mega-menu-mobile/
   - children:
     - processed_path: usage/slide-menu-hamburger-menu/how-to-use
@@ -84,8 +79,11 @@
     - processed_path: usage/slide-menu-hamburger-menu/publishing-on-shopify
       title: 在 Shopify 上发布
       url: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
+    - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress
+      title: 滑动菜单 — 在 WordPress 上发布
+      url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
     - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others
-      title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
+      title: 在Wix / Squarespace / 其他平台上发布
       url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/slide-menu-hamburger-menu
     title: 滑动菜单（汉堡菜单）
@@ -97,8 +95,11 @@
     - processed_path: usage/fab-floating-menu-quick-access/publishing-on-shopify
       title: 在 Shopify 上发布
       url: /docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
+    - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress
+      title: FAB — 在 WordPress 上发布
+      url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
     - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others
-      title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
+      title: 在Wix / Squarespace / 其他平台上发布
       url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/fab-floating-menu-quick-access
     title: FAB - 浮动菜单 / 快速访问
@@ -113,80 +114,36 @@
     - processed_path: usage/grid-menu/publishing-on-shopify
       title: 在 Shopify 上发布
       url: /docs/usage/grid-menu/publishing-on-shopify/
+    - processed_path: usage/grid-menu/publish-on-wordpress
+      title: 网格菜单 — 在 WordPress 上发布
+      url: /docs/usage/grid-menu/publish-on-wordpress/
     - processed_path: usage/grid-menu/publish-on-wordpress-woocommerce-wix-others
-      title: 在 WordPress / WooCommerce / Wix / 其他平台上发布
+      title: 在Wix / Squarespace / 其他平台上发布
       url: /docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/grid-menu
     title: 网格菜单
     url: /docs/usage/grid-menu/
-  - children:
-    - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
-      title: 标签滑动 — 将菜单项分组到标签中
-      url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
-    - processed_path: usage/general/apply-multi-language
-      title: 应用多语言
-      url: /docs/usage/general/apply-multi-language/
-    - processed_path: usage/general/find-css-selector
-      title: 查找 CSS 选择器
-      url: /docs/usage/general/find-css-selector/
-    - processed_path: usage/general/z-index
-      title: Z-index
-      url: /docs/usage/general/z-index/
-    - processed_path: usage/general/apply-a-custom-font
-      title: 应用自定义字体
-      url: /docs/usage/general/apply-a-custom-font/
-    - processed_path: usage/general/advanced-image-upload
-      title: 高级图像上传
-      url: /docs/usage/general/advanced-image-upload/
-    - processed_path: usage/general/menu-depth
-      title: 菜单深度
-      url: /docs/usage/general/menu-depth/
-    processed_path: usage/general
-    title: 常规
-    url: /docs/usage/general/
-  - children:
-    - processed_path: usage/shopify/use-the-multi-language-feature
-      title: 使用多语言功能。
-      url: /docs/usage/shopify/use-the-multi-language-feature/
-    - processed_path: usage/shopify/optimize-loading-speed-slide-and-mega-menus
-      title: 优化加载速度（滑动和大菜单）
-      url: /docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/
-    - processed_path: usage/shopify/how-to-other-applications-work-with-naviplus
-      title: 防止Navi+菜单与其他应用重叠
-      url: /docs/usage/shopify/how-to-other-applications-work-with-naviplus/
-    processed_path: usage/shopify
-    title: Shopify
-    url: /docs/usage/shopify/
-  - processed_path: usage/menu-structure-and-css
-    title: 菜单结构和CSS
-    url: /docs/usage/menu-structure-and-css/
-  - processed_path: usage/some-faqs-about-publishing-navi-menu
-    title: 一些关于发布Navi+菜单的常见问题
-    url: /docs/usage/some-faqs-about-publishing-navi-menu/
-  - processed_path: usage/debug-mode-find-css-selectors
-    title: 调试模式 - 查找 CSS 选择器
-    url: /docs/usage/debug-mode-find-css-selectors/
   processed_path: usage
   title: 使用
   url: /docs/usage/
 - children:
   - processed_path: menu-items/item-overview
-    title: 菜单项概述
+    title: 项目概述
     url: /docs/menu-items/item-overview/
   - processed_path: menu-items/item-create-manage
-    title: 创建与管理菜单项
+    title: 创建和管理项目
     url: /docs/menu-items/item-create-manage/
   - processed_path: menu-items/item-link-types
     title: 链接类型
     url: /docs/menu-items/item-link-types/
   - processed_path: menu-items/item-label-badge
-    title: 标签、描述和徽标
+    title: 标签、描述和徽章
     url: /docs/menu-items/item-label-badge/
   - processed_path: menu-items/item-icon-image
-    title: 图标和图片
+    title: 图标与图片
     url: /docs/menu-items/item-icon-image/
   - processed_path: menu-items/item-visibility
-    title: 显示条件
+    title: 可见性与条件
     url: /docs/menu-items/item-visibility/
   - processed_path: menu-items/multi-level-structure
     title: 多级结构
@@ -196,62 +153,119 @@
   url: /docs/menu-items/
 - children:
   - processed_path: design/design-overview
-    title: 设计概述 — 继承系统
-    url: /zh-cn/docs/design/design-overview/
+    title: 设计概述 — 继承与覆盖
+    url: /docs/design/design-overview/
   - processed_path: design/design-level1
-    title: 设计第1级 — 主菜单项
-    url: /zh-cn/docs/design/design-level1/
+    title: 设计级别 1 — 主菜单项
+    url: /docs/design/design-level1/
   - processed_path: design/design-level2
-    title: 设计第2-3级 — 子菜单项
-    url: /zh-cn/docs/design/design-level2/
+    title: 设计级别 2-3 — 子菜单项
+    url: /docs/design/design-level2/
   - processed_path: design/design-divider
     title: 设计分隔符 — 分隔线
-    url: /zh-cn/docs/design/design-divider/
+    url: /docs/design/design-divider/
   processed_path: design
   title: 设计
-  url: /zh-cn/docs/design/
+  url: /docs/design/
 - children:
   - processed_path: setting/setting-behavior
-    title: 设置行为 — 动画和交互
-    url: /zh-cn/docs/setting/setting-behavior/
+    title: 设置行为 — 动画与交互
+    url: /docs/setting/setting-behavior/
   - processed_path: setting/setting-layout
-    title: 设置布局 — 位置和大小
-    url: /zh-cn/docs/setting/setting-layout/
+    title: 设置布局 — 位置与间距
+    url: /docs/setting/setting-layout/
   - processed_path: setting/setting-display-rules
     title: 设置显示规则 — 条件可见性
-    url: /zh-cn/docs/setting/setting-display-rules/
+    url: /docs/setting/setting-display-rules/
   - processed_path: setting/setting-slide
-    title: 设置幻灯片 — 幻灯片菜单选项
-    url: /zh-cn/docs/setting/setting-slide/
+    title: 设置滑动 — 滑动菜单选项
+    url: /docs/setting/setting-slide/
   processed_path: setting
   title: 设置
-  url: /zh-cn/docs/setting/
+  url: /docs/setting/
 - children:
   - processed_path: publish/publish-overview
-    title: 发布概述 — 菜单类型和部署方法
-    url: /zh-cn/docs/publish/publish-overview/
+    title: 发布概述 — 菜单类型与部署方法
+    url: /docs/publish/publish-overview/
   - processed_path: publish/publish-sticky
-    title: 发布 Sticky — Tabbar 和 FAB
-    url: /zh-cn/docs/publish/publish-sticky/
+    title: 发布粘性 — Tabbar & FAB
+    url: /docs/publish/publish-sticky/
   - processed_path: publish/publish-slide
-    title: 发布 Slide — Context Slide 菜单
-    url: /zh-cn/docs/publish/publish-slide/
+    title: 发布幻灯片 — 上下文幻灯片菜单
+    url: /docs/publish/publish-slide/
   - processed_path: publish/publish-section
-    title: 发布 Section — Mega 菜单和 Grid
-    url: /zh-cn/docs/publish/publish-section/
+    title: 发布部分 — Mega menu & grid
+    url: /docs/publish/publish-section/
   - processed_path: publish/publish-filter
-    title: 发布过滤器 — 设备和 URL
-    url: /zh-cn/docs/publish/publish-filter/
+    title: 发布过滤器 — 设备和 URL 规则
+    url: /docs/publish/publish-filter/
   - processed_path: publish/publish-optimize
-    title: 发布优化 — 速度和 UX
-    url: /zh-cn/docs/publish/publish-optimize/
+    title: 发布优化 — 速度与用户体验
+    url: /docs/publish/publish-optimize/
   processed_path: publish
   title: 发布
-  url: /zh-cn/docs/publish/
+  url: /docs/publish/
 - children:
-  - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
-    title: 将Navi+与您的网站和外部应用程序集成
-    url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/
+  - processed_path: development/how-to-write-a-correct-css-code-in-navi
+    title: 如何在 Navi+ 中编写正确的 CSS 代码
+    url: /docs/development/how-to-write-a-correct-css-code-in-navi/
+  - processed_path: usage/general/apply-a-custom-font
+    title: 应用自定义字体
+    url: /docs/usage/general/apply-a-custom-font/
+  - processed_path: usage/general/advanced-image-upload
+    title: 高级图像上传
+    url: /docs/usage/general/advanced-image-upload/
+  - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
+    title: 标签滑动 — 将菜单项分组到标签中
+    url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
+  - processed_path: usage/general/z-index
+    title: Z-index
+    url: /docs/usage/general/z-index/
+  processed_path: usage/general
+  title: 常规
+  url: /docs/usage/general/
+- children:
+  - processed_path: integrations/how-navi-injects
+    title: Navi+ 如何注入到您的网站
+    url: /docs/integrations/how-navi-injects/
+  - processed_path: usage/menu-structure-and-css
+    title: 菜单结构和CSS
+    url: /docs/usage/menu-structure-and-css/
+  - processed_path: usage/debug-mode-find-css-selectors
+    title: 调试模式 - 查找 CSS 选择器
+    url: /docs/usage/debug-mode-find-css-selectors/
+  - children:
+    - processed_path: usage/shopify/use-the-multi-language-feature
+      title: 多语言 (Shopify Markets)
+      url: /docs/usage/shopify/use-the-multi-language-feature/
+    - processed_path: usage/shopify/optimize-loading-speed-slide-and-mega-menus
+      title: 优化加载速度（滑动和大菜单）
+      url: /docs/usage/shopify/optimize-loading-speed-slide-and-mega-menus/
+    - processed_path: usage/shopify/how-to-other-applications-work-with-naviplus
+      title: 防止Navi+菜单与其他应用重叠
+      url: /docs/usage/shopify/how-to-other-applications-work-with-naviplus/
+    - processed_path: integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel
+      title: 'Shopify: 打开汉堡菜单或购物车、搜索面板'
+      url: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
+    processed_path: usage/shopify
+    title: Shopify
+    url: /docs/usage/shopify/
+  - children:
+    - processed_path: integrations/wordpress-woocommerce/install-plugin
+      title: 安装 Navi+ 菜单构建器插件
+      url: /docs/integrations/wordpress-woocommerce/install-plugin/
+    - processed_path: integrations/wordpress-woocommerce/get-started
+      title: 创建您的第一个菜单
+      url: /docs/integrations/wordpress-woocommerce/get-started/
+    - processed_path: integrations/wordpress-woocommerce/publish-menus
+      title: 在 WordPress 上发布您的菜单
+      url: /docs/integrations/wordpress-woocommerce/publish-menus/
+    - processed_path: integrations/wordpress-woocommerce/faq
+      title: Navi+ 菜单构建器常见问题
+      url: /docs/integrations/wordpress-woocommerce/faq/
+    processed_path: integrations/wordpress-woocommerce
+    title: WordPress / WooCommerce — Navi+ Menu Builder
+    url: /docs/integrations/wordpress-woocommerce/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox
       title: Shopify Inbox
@@ -262,16 +276,28 @@
     processed_path: integrations/chat-tools
     title: 聊天工具
     url: /docs/integrations/chat-tools/
-  - children:
-    - processed_path: integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel
-      title: 'Shopify: Open the hamburger menu or cart, search panel'
-      url: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
-    processed_path: integrations/themes
-    title: 主题
-    url: /docs/integrations/themes/
   processed_path: integrations
   title: 集成
   url: /docs/integrations/
+- children:
+  - processed_path: frequently-asked-questions/why-navi-not-display
+    title: 为什么我的网站上不显示Navi+菜单？
+    url: /docs/frequently-asked-questions/why-navi-not-display/
+  - processed_path: troubleshooting/menu-overlapping
+    title: 菜单与其他元素重叠
+    url: /docs/troubleshooting/menu-overlapping/
+  - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
+    title: 为什么菜单、搜索、购物车面板无法工作？
+    url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
+  - processed_path: limitation/shopify-bottom-bar-issue-on-google-app-iphone
+    title: Shopify底部栏在iPhone Google应用中的显示问题
+    url: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
+  - processed_path: troubleshooting/performance-issues
+    title: 性能问题
+    url: /docs/troubleshooting/performance-issues/
+  processed_path: troubleshooting
+  title: 故障排除
+  url: /docs/troubleshooting/
 - children:
   - children:
     - processed_path: frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css
@@ -281,7 +307,7 @@
       title: 移除菜单项活动状态？
       url: /docs/frequently-asked-questions/customize-user-interface-ui/remove-menu-item-active-state/
     - processed_path: frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu
-      title: 在 Mega menu 中对齐 3 级子菜单？
+      title: 在 Mega 菜单中对齐 3 级子菜单？
       url: /docs/frequently-asked-questions/customize-user-interface-ui/align-level-3-submenu-in-mega-menu/
     processed_path: frequently-asked-questions/customize-user-interface-ui
     title: 自定义用户界面 (UI)
@@ -300,29 +326,20 @@
     title: 如何将Navi+菜单转移到另一个Navi+菜单
     url: /docs/frequently-asked-questions/how-to-transfer-a-navi-menu-to-another-navi-menu/
   - processed_path: frequently-asked-questions/how-does-navi-support-seo
-    title: Navi+ 如何支持 SEO？
+    title: Navi+如何支持SEO？
     url: /docs/frequently-asked-questions/how-does-navi-support-seo/
-  - processed_path: frequently-asked-questions/navi-plans-starter-business-and-elite
-    title: Navi+ plans (Starter, Business & Elite)
-    url: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-  - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
-    title: 为什么菜单、搜索、购物车面板无法工作？
-    url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
-  - processed_path: frequently-asked-questions/why-navi-not-display
-    title: 为什么我的网站上不显示Navi+菜单？
-    url: /docs/frequently-asked-questions/why-navi-not-display/
+  - processed_path: usage/some-faqs-about-publishing-navi-menu
+    title: 一些关于发布Navi+菜单的常见问题
+    url: /docs/usage/some-faqs-about-publishing-navi-menu/
   processed_path: frequently-asked-questions
   title: 常见问题
   url: /docs/frequently-asked-questions/
-- processed_path: line-2
-  title: line
-  url: /docs/line-2/
 - children:
   - processed_path: development/menu-structure-and-css
     title: 菜单结构和CSS
     url: /docs/development/menu-structure-and-css/
   - processed_path: development/how-to-write-a-correct-css-code-in-navi
-    title: 如何在Navi+中编写正确的CSS代码
+    title: 如何在 Navi+ 中编写正确的 CSS 代码
     url: /docs/development/how-to-write-a-correct-css-code-in-navi/
   - processed_path: development/add-walk-through-to-navi
     title: 添加Navi+的引导
@@ -330,33 +347,22 @@
   processed_path: development
   title: 开发
   url: /docs/development/
+- processed_path: latest-update
+  title: 更新日志 / 发布说明
+  url: /docs/latest-update/
 - children:
-  - processed_path: limitation/shopify-bottom-bar-issue-on-google-app-iphone
-    title: Shopify Bottom Bar issue on Google App (iPhone)
-    url: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
-  processed_path: limitation
-  title: 限制
-  url: /docs/limitation/
-- processed_path: line-3
-  title: line
-  url: /docs/line-3/
-- children:
+  - processed_path: partership/earn-up-to-225-revshare-with-navi
+    title: 通过Navi+赚取高达22.5%的收入分成
+    url: /docs/partership/earn-up-to-225-revshare-with-navi/
+  - processed_path: partership/navi-care-or-design-your-menus-like-an-expert
+    title: Navi+ Care | 像专家一样设计您的菜单
+    url: /docs/partership/navi-care-or-design-your-menus-like-an-expert/
   - processed_path: resources/privacy-policy
     title: 隐私政策
     url: /docs/resources/privacy-policy/
   - processed_path: resources/terms-and-condition
     title: 条款与条件
     url: /docs/resources/terms-and-condition/
-  processed_path: resources
-  title: 资源
-  url: /docs/resources/
-- children:
-  - processed_path: partership/earn-up-to-225-revshare-with-navi
-    title: 通过Navi+赚取高达22.5%的收入分成
-    url: /docs/partership/earn-up-to-225-revshare-with-navi/
-  - processed_path: partership/navi-care-or-design-your-menus-like-an-expert
-    title: Navi+ Care | Design your menus like an expert
-    url: /docs/partership/navi-care-or-design-your-menus-like-an-expert/
   processed_path: partership
   title: Partership
   url: /docs/partership/

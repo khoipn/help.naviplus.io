@@ -18,11 +18,11 @@ Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit 
 Schritt 2: Wählen Sie das Theme aus, in dem Sie das Menü veröffentlichen möchten.  Klicken Sie auf: **Anpassen**
 
 * Wenn Ihre Website neu ist und noch keine Benutzer hat, können Sie das Menü ohne Bedenken veröffentlichen – Sie können es jederzeit einfach ein- oder ausschalten, ohne die Besucher zu beeinträchtigen.
-* Wenn Ihre Website bereits regelmäßigen Verkehr hat, seien Sie vorsichtiger. Die beste Praxis ist, ein **Duplikat-Theme** zu erstellen und Navi+ zuerst in dieser Version zu testen.
+* Wenn Ihre Website bereits regelmäßigen Verkehr hat, seien Sie vorsichtiger. Die beste Praxis ist, ein **dupliziertes Theme** zu erstellen und Navi+ zuerst in dieser Version zu testen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
-Schritt 3: Gehen Sie zu App-Embeds, finden Sie „Navi+ auf allen Seiten“ und aktivieren Sie es.
+Schritt 3: Gehen Sie zu App-Embeds, suchen Sie nach „Navi+ auf allen Seiten“ und aktivieren Sie es.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
@@ -44,7 +44,7 @@ Schritt 3: Wählen Sie den richtigen CSS-Selector und die Ersetzen/Einfügen-Met
 
 In diesem Leitfaden konzentrieren wir uns auf 2 Möglichkeiten: dieses Menü unter dem Header einzufügen oder das Standard-Mega-Menü zu ersetzen. Sie können diese Methode auch kreativ nutzen, indem Sie andere CSS-Selectoren finden und anwenden, um das Menü auszulösen.
 
-<details><summary>Wie füge ich dieses Menü unter dem Header der Website<strong>?</strong></summary>
+<details><summary>Wie füge ich dieses Menü unter dem Header der Website<strong> ein?</strong></summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8qcOprJA7RFqTtJUD1PB%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=94ea06fa-2cbe-4fc8-be0b-7c5dd0864f47" alt=""><figcaption></figcaption></figure>
 
 <p>Um dies zu tun, identifizieren Sie einfach den CSS-Selector des Headers Ihrer Website und geben Sie ihn in das Textfeld ein. Wir haben bereits die CSS-Selectoren für einige der beliebtesten Themes für Sie gefunden, die unten aufgeführt sind.</p>
@@ -84,7 +84,7 @@ In diesem Leitfaden konzentrieren wir uns auf 2 Möglichkeiten: dieses Menü unt
 
 <details><summary><strong>Wie finde ich den CSS-Selector auf meiner Website?</strong></summary>
 <p>Sie können mit einem Navi+-Supporter chatten, um sofortige Hilfe zu erhalten, anstatt es selbst zu tun.\
-Allerdings wird (1) dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
+Allerdings wird (1) dies Ihnen helfen, die Grundidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -100,17 +100,6 @@ Allerdings wird (1) dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn S
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Agenten-Anweisungen: Abfragen dieser Dokumentation</h1>
-<p>Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.</p>
-<p>Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem <code>ask</code> Abfrageparameter aus:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
-</code></pre>
-
-<p>Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.</p>
-<p>Verwenden Sie diesen Mechanismus, wenn die Antwort nicht explizit auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.</p>
 </details>
 
 **I.3. Wichtig! Optimieren Sie die Geschwindigkeit und Benutzererfahrung des Mega Menüs (Ersetzungsmodus)**
@@ -148,29 +137,18 @@ Mit diesem Schritt können Sie das alte Menü vollständig ausblenden und stattd
 
 #### **II) METHODE 2: FÜGEN SIE DIESES MENÜ ALS ABSCHNITT/BLOCK IM SHOPIFY-THEME HINZU**
 
-Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie in Schritt 1 der Methode 1 erforderlich.
+Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie es in Schritt 1 der Methode 1 erforderlich ist.
 
 Kopieren Sie die Einbettungs-ID dieses Menüs und fügen Sie sie in den Block mit dem Namen "Navi+ auf Abschnitt" in den Theme-Abschnitten ein. Sie können einen Titel hinzufügen, die volle Breite einstellen und den Abstand für diesen Abschnitt nach dem Hinzufügen anpassen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
 <details><summary>Leitfaden zum Hinzufügen dieses Menüs als Abschnitt/Block im Shopify-Theme</summary>
-<p>Unten finden Sie einen detaillierten Leitfaden zum Einfügen eines Navi+-Menüs als Abschnitt/Block in Ihr Shopify-Theme. Diese Methode ermöglicht es Ihnen, das Menü auf eine standardisierte, von Shopify unterstützte Weise hinzuzufügen, obwohl sie nicht so flexibel ist wie die anderen von Navi+ bereitgestellten Methoden.</p>
+<p>Unten finden Sie einen detaillierten Leitfaden zum Einfügen eines Navi+-Menüs als Abschnitt/Block in Ihr Shopify-Theme. Diese Methode ermöglicht es Ihnen, das Menü auf eine standardmäßige, von Shopify unterstützte Weise hinzuzufügen, obwohl sie nicht so flexibel ist wie die anderen von Navi+ bereitgestellten Methoden.</p>
 <p>Diese Methode gilt für <strong>Mega Menüs</strong> und <strong>Grid Menüs</strong>. Sie <strong>GILT NICHT</strong> für <strong>Tabbar</strong>, <strong>FAB</strong> oder <strong>Slide Menüs</strong>.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Agenten-Anweisungen: Abfragen dieser Dokumentation</h1>
-<p>Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.</p>
-<p>Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem <code>ask</code> Abfrageparameter aus:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
-</code></pre>
-
-<p>Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.</p>
-<p>Verwenden Sie diesen Mechanismus, wenn die Antwort nicht explizit auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.</p>
 </details>

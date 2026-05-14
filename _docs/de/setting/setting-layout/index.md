@@ -1,63 +1,73 @@
 ---
-description: Konfigurieren Sie Menüposition, Abstände, Z-Index und Untermenübreite in Navi+.
+description: Konfigurieren Sie die Menüposition, den Abstand, den Rand, den z-Index und die Breite des Untermenüs in Navi+.
+lang: de
 layout: default
 permalink: /de/docs/setting/setting-layout/
-title: Einstellung Layout — Position & Abstände
+title: Layout einstellen — Position & Abstand
 ---
-# Einstellung Layout — Position & Abstände
+# Layout einstellen — Position & Abstand
 
-Steuert die **Position** des gesamten Menüs, die **Stapelreihenfolge** und die **Untermenübreite**.
+Diese Einstellungen steuern die **Position** des gesamten Menüs auf der Seite, seine **Stapelanordnung** im Verhältnis zu anderen Elementen und die **Breite** der Untermenüs.
 
 ---
 
-## Menü-Innen- und Außenabstand
+## Menüabstand & Rand
 
-Steuert den äußeren und inneren Abstand des **gesamten Menü-Containers** — anders als der Elementebenen-Innenabstand im Design.
+Steuert den äußeren und inneren Abstand des **gesamten Menücontainers** — anders als der Abstand auf Elementebene im Design.
 
 | Feld | Beschreibung |
 |---|---|
-| **Außenabstand Oben / Rechts / Unten / Links (px)** | Abstand vom Menü zum Bildschirmrand |
-| **Innenabstand Oben / Rechts / Unten / Links (px)** | Abstand innerhalb des Menü-Containers |
+| **Rand Oben / Rechts / Unten / Links (px)** | Abstand zwischen dem Menü und dem Bildschirmrand oder umgebenden Elementen |
+| **Abstand Oben / Rechts / Unten / Links (px)** | Abstand innerhalb des Menücontainers, bevor die Elemente angezeigt werden |
 
-**Wann verwenden:**
-- Tabbar über die iOS-Browser-Navigationsleiste schieben: `Außenabstand Unten = 34`
-- Abstand über dem Mega-Menü: `Außenabstand Oben = 8`
+**Wann zu verwenden:**
+- Drücken Sie eine Tabbar über die Browser-Navigationsleiste auf iOS: `Margin Bottom = 34`
+- Fügen Sie Abstand zwischen einem Mega Menu und dem Header hinzu: `Margin Top = 8`
 
 ---
 
 ## Z-Index
 
-| Feld | Beschreibung | Standard |
-|---|---|---|
-| **Z-Index** | Höher = darüber | Auto |
-
-- Menü wird von Sticky-Header verdeckt → Z-Index erhöhen.
-- Menü verdeckt Chat-Widget → Z-Index verringern.
-
-Typisch: Theme-Header = `1000–9999`; Chat-Widgets = `9999–99999`.
-
----
-
-## Untermenübreite
+Stapelanordnung des Menüs im Verhältnis zu anderen Seitenelementen (Header, Chat-Widget, Popups usw.).
 
 | Feld | Beschreibung | Standard |
 |---|---|---|
-| **Untermenübreite (px)** | Breite des einspaltigem Untermenü-Panels | 360px |
+| **Z-Index** | Ganzzahlwert — höher = oben | Auto |
+
+**Wann anzupassen:**
+- Menü wird von einem Sticky-Header überdeckt → Z-Index über den Headerwert erhöhen.
+- Menü überdeckt ein Chat-Widget → Z-Index unter das Widget verringern.
+
+Häufige Referenzwerte: Themen-Header sind normalerweise `1000–9999`; Chat-Widgets sind normalerweise `9999–99999`.
 
 ---
 
-## Desktop
+## Breite des Untermenüs
+
+Gilt für Dropdown-Untermenüs (Tabbar, einspaltiges Mega Menu).
+
+| Feld | Beschreibung | Standard |
+|---|---|---|
+| **Breite des Untermenüs (px)** | Breite der einspaltigen Untermenü-Panels | 360px |
+
+---
+
+## Desktop — Verhalten & Breite des Untermenüs
+
+Gilt, wenn das Menü auf dem Desktop angezeigt wird.
 
 | Feld | Beschreibung |
 |---|---|
-| **Untermenü bei Hover anzeigen** | Untermenüs beim Maus-Hover öffnen |
-| **Vollständig erweiterter Untermenü-Breite (px)** | Mehrspaltiger Untermenü-Breite |
-| **Untermenü-Richtung** | Richtung, in die Untermenüs öffnen |
+| **Untermenü bei Hover anzeigen** | Untermenüs bei Mouseover ohne Klicken öffnen |
+| **Vollständige Untermenübreite (px)** | Breite der mehrspaltigen Untermenüs (Desktop Mega Menu) |
+| **Richtung des Untermenüs** | Richtung, in die Untermenüs geöffnet werden: rechts / links / oben / unten |
 
 ---
 
 ## Multi-Sites *(Elite)*
 
+Binden Sie das Menü auf mehreren Domains außerhalb des Haupt-Shopify-Stores ein.
+
 | Feld | Beschreibung |
 |---|---|
-| **Multi-Sites** | Kommagetrennte Domain-Liste (z.B. `brand.com,shop.brand.com`) |
+| **Multi-Sites** | Komma-getrennte Liste von Domains (z.B. `brand.com,shop.brand.com`) |

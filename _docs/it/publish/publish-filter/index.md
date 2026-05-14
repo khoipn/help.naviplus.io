@@ -1,31 +1,32 @@
 ---
-description: Filtra la visibilità del menu Navi+ per dispositivo, comportamento di scorrimento, tipi di pagina Shopify e parole chiave URL.
+description: Filtra la visibilità del menu Navi+ in base al dispositivo, al comportamento di scorrimento, ai tipi di pagina Shopify e alle parole chiave URL.
+lang: it
 layout: default
 permalink: /it/docs/publish/publish-filter/
-title: Publish filter — Regole dispositivo & URL
+title: Pubblica filtro — Regole dispositivo e URL
 ---
-# Publish Filter — Regole Dispositivo & URL
+# Pubblica Filtro — Regole Dispositivo e URL
 
-Dopo aver attivato l'interruttore di pubblicazione, puoi limitare quando appare il menu usando due livelli di filtro: **dispositivo** (mobile/desktop + comportamento di scorrimento) e **parole chiave URL** (mostra/nascondi in base al contenuto dell'URL).
+Dopo aver abilitato l'interruttore di pubblicazione, puoi restringere quando appare il menu utilizzando due livelli di filtro: **dispositivo** (mobile/desktop + comportamento di scorrimento) e **parole chiave URL** (mostra/nascondi in base al contenuto dell'URL).
 
 ---
 
-## Filtra per dispositivo
+## Filtra per Dispositivo
 
-### Attiva/disattiva per piattaforma
+### Abilita/disabilita per piattaforma
 
-Due interruttori in cima al modal Publish:
+Due interruttori nella parte superiore della finestra modale di Pubblicazione:
 
 | Impostazione | Predefinito | Note |
 |---|---|---|
-| **Mostra menu su mobile** | Attivato | Mostra menu sui dispositivi mobili |
-| **Mostra menu su desktop** | Disattivato | Mostra menu sui dispositivi desktop |
+| **Mostra menu su mobile** | On | Mostra menu sui dispositivi mobili |
+| **Mostra menu su desktop** | Off | Mostra menu sui dispositivi desktop |
 
-Alcuni tipi di menu disabilitano uno di questi interruttori — ad esempio, Desktop Mega Menu disabilita l'interruttore mobile.
+Alcuni tipi di menu disabilitano uno di questi interruttori — ad esempio, il Mega Menu Desktop disabilita l'interruttore mobile.
 
 ---
 
-### Comportamento di scorrimento (solo menu Sticky)
+### Comportamento di scorrimento (Solo menu Sticky)
 
 Configurato separatamente per mobile e desktop.
 
@@ -33,84 +34,84 @@ Configurato separatamente per mobile e desktop.
 
 | Impostazione | Comportamento |
 |---|---|
-| **Nascondi automaticamente allo scroll verso il basso** | Nascondi il menu quando l'utente scorre verso il **basso** |
-| **Mostra automaticamente dopo lo scroll** | Mostra il menu solo dopo che l'utente ha scorso verso il basso (non mostrato al caricamento della pagina) |
+| **Nascondi automaticamente durante lo scorrimento verso il basso** | Nascondi menu quando l'utente scorre **verso il basso** |
+| **Mostra automaticamente dopo lo scorrimento** | Mostra menu solo dopo che l'utente ha scorrimento verso il basso (non mostrato al caricamento della pagina) |
 
 #### Scorrimento desktop
 
 | Impostazione | Comportamento |
 |---|---|
-| **Nascondi automaticamente allo scroll verso il basso** | Nascondi il menu durante lo scorrimento verso il basso su desktop |
-| **Mostra automaticamente dopo lo scroll** | Mostra solo dopo lo scorrimento verso il basso su desktop |
+| **Nascondi automaticamente durante lo scorrimento verso il basso** | Nascondi menu quando si scorre verso il basso su desktop |
+| **Mostra automaticamente dopo lo scorrimento** | Mostra solo dopo aver scorrimento verso il basso su desktop |
 
-> Nascondi automaticamente e Mostra automaticamente possono essere attivati insieme: il menu si nasconde durante lo scorrimento verso il basso, riappare durante lo scorrimento verso l'alto — un pattern comune per le tabbar inferiori.
+> Nascondi automaticamente e Mostra automaticamente possono essere abilitati insieme: il menu si nasconde durante lo scorrimento verso il basso, riappare durante lo scorrimento verso l'alto — un modello comune per le tabbar inferiori.
 
 ---
 
-### Posizione sullo schermo (solo Sticky / Tabbar)
+### Posizione dello schermo (Solo Sticky / Tabbar)
 
-Scegli una posizione da un selettore di pulsanti radio con illustrazioni visive.
+Scegli una posizione da un selettore a pulsante radio con illustrazioni visive.
 
-**Mobile** — 6 posizioni preimpostate (in basso al centro, in basso a sinistra, in basso a destra, varianti in alto...)
+**Mobile** — 6 posizioni preimpostate (centro in basso, sinistra in basso, destra in basso, varianti superiori...)
 
 **Desktop** — 12 posizioni preimpostate (barra superiore, barra inferiore, barra laterale sinistra/destra, posizioni angolari...)
 
 ---
 
-### Gruppi di pagine (solo Shopify, menu Sticky)
+### Gruppi di pagine (Solo Shopify, menu Sticky)
 
 Seleziona su quali tipi di pagina Shopify appare il menu. Predefinito: tutti.
 
-| Gruppo | Pattern URL |
+| Gruppo | Modello URL |
 |---|---|
 | Home | `/` |
-| Dettaglio prodotto | `/products/*` |
-| Categorie prodotti | `/collections/*` |
+| Dettaglio Prodotto | `/products/*` |
+| Categorie Prodotto | `/collections/*` |
 | Pagine | `/pages/*` |
 | Blog | `/blogs/*` |
-| Altro | Tutte le pagine rimanenti |
+| Altri | Tutte le pagine rimanenti |
 
-> Il mercato Global (WordPress, Wix, ecc.) non ha questa funzione. Usa invece il filtro per parole chiave URL.
+> Il mercato globale (WordPress, Wix, ecc.) non ha questa funzionalità. Usa invece il filtro delle parole chiave URL.
 
 ---
 
-## Filtra per parole chiave URL
+## Filtra per Parole Chiave URL
 
-La scheda **"Mostra il menu per parole chiave"** — si applica a tutti i tipi di menu tranne Context Slide.
+La **"Mostra il menu per parole chiave"** scheda — si applica a tutti i tipi di menu tranne il Context Slide.
 
 ### Due tipi di filtro
 
 | Impostazione | Comportamento |
 |---|---|
-| **Contiene parola chiave** | Il menu **viene mostrato solo** quando l'URL **contiene** almeno una parola chiave |
-| **Non contiene parola chiave** | Il menu **non viene mostrato** quando l'URL **contiene** una qualsiasi delle parole chiave |
+| **Contiene Parola Chiave** | Il menu **mostra solo** quando l'URL **contiene** almeno una parola chiave |
+| **Non Contiene Parola Chiave** | Il menu **non mostra** quando l'URL **contiene** una delle parole chiave |
 
-Più parole chiave separate da virgole `,`.
+Parole chiave multiple separate da virgole `,`.
 
 ### Esempi
 
-**Mostra solo sulle pagine di prodotti snowboard:**
+**Mostra solo sulle pagine prodotto snowboard:**
 ```
 Contiene: snowboard
 ```
-→ Il menu viene mostrato solo su URL come `yourdomain.com/products/the-collection-snowboard-hydrogen`
+→ Il menu mostra solo su URL come `yourdomain.com/products/the-collection-snowboard-hydrogen`
 
-**Nascondi sulle pagine multi-location:**
+**Nascondi sulle pagine multi-locazione:**
 ```
 Non contiene: multi-location
 ```
-→ Il menu **non** viene mostrato su `yourdomain.com/products/the-multi-location-snowboard`
+→ Il menu **non** mostra su `yourdomain.com/products/the-multi-location-snowboard`
 
 **Combinato:**
 ```
 Contiene: collections
 Non contiene: sale, outlet
 ```
-→ Viene mostrato solo sulle pagine di collezioni, ma nascosto sulle collezioni "sale" e "outlet".
+→ Mostra solo sulle pagine di collezione, ma nascosto su "sale" e "outlet" collezioni.
 
 ### Note
 
-- Il filtro usa la **corrispondenza completa della stringa URL**, non regex.
+- Il filtro utilizza **corrispondenza di stringa URL completa**, non regex.
 - Le parole chiave sono **case-insensitive**.
-- Lascia vuoto = nessun filtro (il menu viene mostrato su tutte le pagine).
-- Entrambi i filtri sono collegati con AND — entrambe le condizioni devono essere soddisfatte.
+- Lascia vuoto = nessun filtro (il menu mostra su tutte le pagine).
+- Entrambi i filtri sono combinati con AND — entrambe le condizioni devono essere soddisfatte.

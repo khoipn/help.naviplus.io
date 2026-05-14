@@ -1,39 +1,40 @@
 ---
-description: Configura l'aspetto dei sottomenu con ereditarietà automatica dal Livello 1 per tutti i campi vuoti.
+description: Configura l'aspetto degli elementi del sottomenu in Navi+ — con eredità automatica dal Livello 1 per tutti i campi vuoti.
+lang: it
 layout: default
 permalink: /it/docs/design/design-level2/
-title: Design livello 2-3 — Elementi di sottomenu
+title: Design livello 2-3 — Elementi del sottomenu
 ---
-# Design Livello 2-3 — Elementi di Sottomenu
+# Design Livello 2-3 — Elementi del Sottomenu
 
-Le impostazioni in **Design → Livello 2-3** si applicano ai sottomenu. Qualsiasi campo vuoto **eredita automaticamente** dal Livello 1.
+Le impostazioni in **Design → Livello 2-3** si applicano agli elementi del sottomenu (menu a discesa che appaiono quando un elemento genitore è aperto). Qualsiasi campo lasciato vuoto **eredita automaticamente** il valore corrispondente dal Livello 1.
 
-> **Regola:** Compila i campi qui solo quando vuoi che il sottomenu abbia un aspetto **diverso** dal menu principale.
+> **Regola:** Compila i campi qui solo quando vuoi che il sottomenu appaia **diverso** dal menu principale. Lascia vuoto = stesso del Livello 1.
 
 ---
 
-## Stile del testo
+## Stile del Testo
 
 | Campo | Eredita dal Livello 1 quando vuoto |
 |---|---|
-| **Colore testo** | `textColor` |
-| **Dimensione font (px)** | `textSize` |
-| **Spessore font** | `fontWeight` |
-| **Trasformazione testo** | `textTransform` |
-| **Famiglia font** | `fontFamily` |
-| **Colore descrizione** | `descriptionColor` |
-| **Dimensione descrizione (px)** | `descriptionTextSize` |
+| **Colore del Testo** | `textColor` |
+| **Dimensione del Font (px)** | `textSize` |
+| **Peso del Font** | `fontWeight` |
+| **Trasformazione del Testo** | `textTransform` |
+| **Famiglia del Font** | `fontFamily` |
+| **Colore della Descrizione** | `descriptionColor` |
+| **Dimensione della Descrizione (px)** | `descriptionTextSize` |
 
 ---
 
-## Stile icona / immagine
+## Stile Icona / Immagine
 
 | Campo | Eredita dal Livello 1 quando vuoto |
 |---|---|
-| **Colore icona** | `iconColor` |
-| **Dimensione icona (px)** | `iconSize` |
-| **Spazio testo-icona (px)** | `spaceTextIcon` |
-| **Raggio immagine (px)** | `imageRadius` |
+| **Colore dell'Icona** | `iconColor` |
+| **Dimensione dell'Icona (px)** | `iconSize` |
+| **Spazio Testo-Icona (px)** | `spaceTextIcon` |
+| **Raggio dell'Immagine (px)** | `imageRadius` |
 
 ---
 
@@ -41,20 +42,20 @@ Le impostazioni in **Design → Livello 2-3** si applicano ai sottomenu. Qualsia
 
 | Campo | Descrizione |
 |---|---|
-| **Padding elemento (px)** | Non eredita — usa il valore predefinito del tema |
-| **Margin elemento (px)** | Spaziatura esterna |
-| **Altezza minima (px)** | Altezza minima |
+| **Padding dell'Elemento (px)** | Spaziatura interna per gli elementi del sottomenu. Non eredita — utilizza il valore predefinito del tema se vuoto |
+| **Margine dell'Elemento (px)** | Spaziatura esterna per gli elementi del sottomenu |
+| **Altezza Minima (px)** | Altezza minima per gli elementi del sottomenu |
 
 ---
 
-## Sfondo e cornice
+## Sfondo & Cornice
 
 | Campo | Descrizione |
 |---|---|
-| **Colore sfondo** | Sfondo del sottomenu |
-| **Raggio bordo (px)** | Arrotondamento angoli |
-| **Nascondi sfondo** | Nasconde lo sfondo |
-| **Ombra** | Ombra esterna |
+| **Colore di Sfondo** | Colore di sfondo dell'area del sottomenu |
+| **Raggio del Bordo (px)** | Arrotondamento degli angoli del contenitore del sottomenu |
+| **Nascondi Sfondo** | Nascondi lo sfondo del sottomenu |
+| **Ombra di Caduta** | Ombra di caduta per il contenitore del sottomenu |
 
 ---
 
@@ -62,23 +63,25 @@ Le impostazioni in **Design → Livello 2-3** si applicano ai sottomenu. Qualsia
 
 | Campo | Eredita dal Livello 1 quando vuoto |
 |---|---|
-| **Layout di visualizzazione** | `displayLayout` |
-| **Allineamento** | `align` |
+| **Layout di Visualizzazione** | `displayLayout` |
+| **Allinea** | `align` |
 
 ---
 
-## Divisore
+## Divider
 
 | Campo | Eredita dal Livello 1 quando vuoto |
 |---|---|
-| **Colore divisore** | `dividerColor` |
+| **Colore del Divider** | `dividerColor` (da Design → Divider) |
 
 ---
 
 ## Esempio
 
-**Obiettivo:** Menu principale scuro con testo bianco. Sottomenu bianco con testo scuro.
+**Obiettivo:** Il menu principale ha uno sfondo scuro e testo bianco. Il sottomenu dovrebbe avere uno sfondo bianco e testo scuro.
 
-Compila solo 2 campi al Livello 2-3:
-- Colore sfondo = `#FFFFFF`
-- Colore testo = `#000000`
+Compila solo questi due campi al Livello 2-3:
+- Colore di Sfondo = `#FFFFFF`
+- Colore del Testo = `#000000`
+
+Tutti gli altri campi (dimensione del font, dimensione dell'icona, spaziatura, ecc.) ereditano automaticamente dal Livello 1.

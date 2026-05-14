@@ -1,13 +1,13 @@
 ---
-description: Todo sobre los elementos de menú en Navi+ — tipos, enlaces, etiquetas, iconos, visibilidad y estructura.
+description: Todo sobre los elementos del menú en Navi+ — tipos de elementos, enlaces, etiquetas, íconos, visibilidad y estructura de múltiples niveles.
 lang: es
 layout: default
 permalink: /es/docs/menu-items/
-title: Elementos de menú
+title: Elementos del menú
 ---
-# Elementos de menú
+# Elementos del menú
 
-Un **elemento de menú** es una única fila en su lista de menú. Los elementos son los bloques de construcción de cada menú Navi+ — cada uno puede ser un enlace de navegación, un encabezado de grupo, un espaciador en blanco o un divisor de pestañas.
+Un **elemento del menú** es una sola fila en tu lista de menú. Los elementos son los bloques de construcción de cada menú de Navi+ — cada uno puede ser un enlace de navegación, un encabezado de grupo, un espaciador en blanco o un divisor de pestañas.
 
 ---
 
@@ -15,20 +15,20 @@ Un **elemento de menú** es una única fila en su lista de menú. Los elementos 
 
 | # | Tema | |
 |---|---|---|
-| 1 | Qué es un elemento, tipos de elementos, estructura de campos | [Vista general de elementos](/es/docs/menu-items/item-overview/) |
-| 2 | Agregar, reordenar, duplicar, eliminar | [Crear y gestionar elementos](/es/docs/menu-items/item-create-manage/) |
-| 3 | URL, colecciones, anclas, abrir paneles, chat… | [Tipos de enlace](/es/docs/menu-items/item-link-types/) |
-| 4 | Etiqueta, descripción, badge, divisor | [Etiquetas, descripciones y badges](/es/docs/menu-items/item-label-badge/) |
-| 5 | Iconos integrados e imágenes personalizadas | [Iconos e imágenes](/es/docs/menu-items/item-icon-image/) |
-| 6 | Ocultar/mostrar, condiciones de inicio de sesión, ocultar por página | [Visibilidad y condiciones](/es/docs/menu-items/item-visibility/) |
-| 7 | Anidamiento padre-hijo y Tab Slide | [Estructura multinivel](/es/docs/menu-items/multi-level-structure/) |
+| 1 | Qué es un elemento, tipos de elementos, estructura de campo | [Descripción del elemento](/docs/menu-items/item-overview/) |
+| 2 | Agregar, reordenar, duplicar, eliminar | [Crear y gestionar elementos](/docs/menu-items/item-create-manage/) |
+| 3 | URL, colección, ancla, abrir paneles, chat… | [Tipos de enlace](/docs/menu-items/item-link-types/) |
+| 4 | Etiqueta, descripción, insignia, divisor | [Etiquetas, descripciones e insignias](/docs/menu-items/item-label-badge/) |
+| 5 | Íconos integrados e imágenes personalizadas | [Íconos e imágenes](/docs/menu-items/item-icon-image/) |
+| 6 | Ocultar/mostrar, condiciones de inicio de sesión, ocultar por página | [Visibilidad y condiciones](/docs/menu-items/item-visibility/) |
+| 7 | Anidamiento padre-hijo y Tab Slide | [Estructura de múltiples niveles](/docs/menu-items/multi-level-structure/) |
 
 ---
 
 ## Referencia rápida
 
 **¿Dónde edito un elemento?**  
-Haga clic en cualquier elemento en el árbol del menú → el panel Editar elemento se abre a la derecha. Presione **Update** para aplicar cambios, luego **Save** (`Ctrl+S` / `Cmd+S`) para publicar.
+Haz clic en cualquier elemento en el árbol del menú → se abre el panel Editar elemento a la derecha. Presiona **Actualizar** para aplicar cambios, luego **Guardar** (`Ctrl+S` / `Cmd+S`) para publicar.
 
 **Orden de campos en Editar elemento:**  
-Medios (icono / imagen) → Información básica (texto, enlace, descripción, badge, divisor) → Diseño → Interfaz (colores, espaciado) → Avanzado (animación, CSS) → Publicar (visibilidad)
+Medios (ícono / imagen) → Información básica (texto, enlace, descripción, insignia, divisor) → Diseño → Interfaz (colores, espaciado) → Avanzado (animación, CSS) → Publicar (visibilidad)

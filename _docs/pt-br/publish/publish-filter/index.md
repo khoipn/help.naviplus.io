@@ -1,12 +1,13 @@
 ---
-description: Filtre a visibilidade do menu Navi+ por dispositivo, comportamento de rolagem, tipos de página do Shopify e palavras-chave de URL.
+description: Filtrar a visibilidade do menu Navi+ por dispositivo, comportamento de rolagem, tipos de página Shopify e palavras-chave de URL.
+lang: pt-br
 layout: default
 permalink: /pt-br/docs/publish/publish-filter/
-title: Publish filter — Regras de dispositivo e URL
+title: Publicar filtro — Regras de dispositivo e URL
 ---
-# Publish Filter — Regras de Dispositivo e URL
+# Publicar Filtro — Regras de Dispositivo e URL
 
-Após ativar o toggle de publicação, você pode refinar quando o menu aparece usando duas camadas de filtro: **dispositivo** (mobile/desktop + comportamento de rolagem) e **palavras-chave de URL** (mostrar/ocultar com base no conteúdo da URL).
+Após ativar o toggle de publicação, você pode restringir quando o menu aparece usando duas camadas de filtro: **dispositivo** (móvel/escritorio + comportamento de rolagem) e **palavras-chave de URL** (mostrar/ocultar com base no conteúdo da URL).
 
 ---
 
@@ -14,52 +15,52 @@ Após ativar o toggle de publicação, você pode refinar quando o menu aparece 
 
 ### Ativar/desativar por plataforma
 
-Dois toggles no topo do modal Publish:
+Dois toggles no topo do modal de Publicação:
 
-| Configuração | Padrão | Observações |
+| Configuração | Padrão | Notas |
 |---|---|---|
-| **Mostrar menu no mobile** | Ativado | Mostrar menu em dispositivos mobile |
+| **Mostrar menu no móvel** | Ativado | Mostrar menu em dispositivos móveis |
 | **Mostrar menu no desktop** | Desativado | Mostrar menu em dispositivos desktop |
 
-Alguns tipos de menu desativam um desses toggles — por exemplo, o Desktop Mega Menu desativa o toggle de mobile.
+Alguns tipos de menu desativam um desses toggles — por exemplo, o Mega Menu de Desktop desativa o toggle móvel.
 
 ---
 
-### Comportamento de rolagem (apenas menus Sticky)
+### Comportamento de rolagem (Menus fixos apenas)
 
-Configurado separadamente para mobile e desktop.
+Configurado separadamente para móvel e desktop.
 
-#### Rolagem mobile
+#### Rolagem móvel
 
 | Configuração | Comportamento |
 |---|---|
-| **Auto Hide on scroll down** | Ocultar menu quando o usuário rolar **para baixo** |
-| **Auto Show after scroll** | Mostrar menu somente após o usuário rolar para baixo (não mostrado ao carregar a página) |
+| **Ocultar automaticamente ao rolar para baixo** | Ocultar menu quando o usuário rola **para baixo** |
+| **Mostrar automaticamente após rolar** | Mostrar menu apenas após o usuário ter rolado para baixo (não mostrado ao carregar a página) |
 
 #### Rolagem desktop
 
 | Configuração | Comportamento |
 |---|---|
-| **Auto Hide on scroll down** | Ocultar menu ao rolar para baixo no desktop |
-| **Auto Show after scroll** | Mostrar apenas após rolar para baixo no desktop |
+| **Ocultar automaticamente ao rolar para baixo** | Ocultar menu ao rolar para baixo no desktop |
+| **Mostrar automaticamente após rolar** | Mostrar apenas após rolar para baixo no desktop |
 
-> Auto Hide e Auto Show podem ser ativados juntos: menu oculta ao rolar para baixo, reaparece ao rolar para cima — padrão comum para tabbars inferiores.
+> Ocultar automaticamente e Mostrar automaticamente podem ser ativados juntos: o menu se oculta ao rolar para baixo, reaparece ao rolar para cima — um padrão comum para tabbars inferiores.
 
 ---
 
-### Posição na tela (apenas Sticky / Tabbar)
+### Posição da tela (Fixo / Tabbar apenas)
 
-Escolha uma posição em um seletor de botão de rádio com ilustrações visuais.
+Escolha uma posição a partir de um seletor de botão de rádio com ilustrações visuais.
 
-**Mobile** — 6 posições predefinidas (centro inferior, esquerda inferior, direita inferior, variantes superiores...)
+**Móvel** — 6 posições predefinidas (centro inferior, esquerda inferior, direita inferior, variantes superiores...)
 
 **Desktop** — 12 posições predefinidas (barra superior, barra inferior, barra lateral esquerda/direita, posições de canto...)
 
 ---
 
-### Grupos de página (apenas Shopify, menus Sticky)
+### Grupos de página (Shopify apenas, Menus fixos)
 
-Selecione em quais tipos de página do Shopify o menu aparece. Padrão: todos.
+Selecione em quais tipos de página Shopify o menu aparece. Padrão: todos.
 
 | Grupo | Padrão de URL |
 |---|---|
@@ -70,47 +71,47 @@ Selecione em quais tipos de página do Shopify o menu aparece. Padrão: todos.
 | Blogs | `/blogs/*` |
 | Outros | Todas as páginas restantes |
 
-> O mercado Global (WordPress, Wix, etc.) não tem esse recurso. Use o filtro de palavra-chave de URL em vez disso.
+> O mercado global (WordPress, Wix, etc.) não possui esse recurso. Use o filtro de palavras-chave de URL em vez disso.
 
 ---
 
 ## Filtrar por Palavras-chave de URL
 
-O cartão **"Exibir menu por palavras-chave"** — aplica-se a todos os tipos de menu exceto Context Slide.
+O cartão **"Exibir o menu por palavras-chave"** — aplica-se a todos os tipos de menu, exceto Context Slide.
 
 ### Dois tipos de filtro
 
 | Configuração | Comportamento |
 |---|---|
-| **Contain Keyword** | Menu **só aparece** quando a URL **contém** pelo menos uma palavra-chave |
-| **Don't Contain Keyword** | Menu **não aparece** quando a URL **contém** alguma das palavras-chave |
+| **Contém Palavra-chave** | O menu **apenas aparece** quando a URL **contém** pelo menos uma palavra-chave |
+| **Não Contém Palavra-chave** | O menu **não aparece** quando a URL **contém** qualquer uma das palavras-chave |
 
 Múltiplas palavras-chave separadas por vírgulas `,`.
 
 ### Exemplos
 
-**Mostrar apenas nas páginas de produtos de snowboard:**
+**Mostrar apenas em páginas de produtos de snowboard:**
 ```
-Contain: snowboard
+Contém: snowboard
 ```
-→ Menu só aparece em URLs como `yourdomain.com/products/the-collection-snowboard-hydrogen`
+→ O menu aparece apenas em URLs como `yourdomain.com/products/the-collection-snowboard-hydrogen`
 
-**Ocultar em páginas multi-localização:**
+**Ocultar em páginas de múltiplas localizações:**
 ```
-Don't contain: multi-location
+Não contém: multi-location
 ```
-→ Menu **não aparece** em `yourdomain.com/products/the-multi-location-snowboard`
+→ O menu **não** aparece em `yourdomain.com/products/the-multi-location-snowboard`
 
 **Combinado:**
 ```
-Contain: collections
-Don't contain: sale, outlet
+Contém: collections
+Não contém: sale, outlet
 ```
-→ Aparece apenas em páginas de coleções, mas oculto nas coleções "sale" e "outlet".
+→ Aparece apenas em páginas de coleção, mas oculto em coleções de "sale" e "outlet".
 
-### Observações
+### Notas
 
-- O filtro usa **correspondência completa de string de URL**, não regex.
-- As palavras-chave **não diferenciam maiúsculas de minúsculas**.
-- Deixar vazio = sem filtro (menu aparece em todas as páginas).
+- O filtro usa **correspondência de string de URL completa**, não regex.
+- As palavras-chave são **insensíveis a maiúsculas e minúsculas**.
+- Deixar vazio = sem filtro (o menu aparece em todas as páginas).
 - Ambos os filtros são combinados com AND — ambas as condições devem ser satisfeitas.

@@ -1,68 +1,73 @@
 ---
-description: Configurez la vitesse d'animation, le style, les effets d'expansion, le retour tactile et le style de flèche dans Navi+.
+description: Configurez la vitesse d'animation, le style d'animation, les effets d'expansion, le retour tactile et le style de flèche dans les menus Navi+.
+lang: fr
 layout: default
 permalink: /fr/docs/setting/setting-behavior/
-title: Comportement des paramètres — Animation et interaction
+title: Comportement de réglage — Animation et interaction
 ---
-# Comportement des paramètres — Animation et interaction
+# Comportement de Réglage — Animation et Interaction
 
-Les paramètres dans **Paramètres → Animation** et **Paramètres → Effet d'expansion** contrôlent la vitesse, le style de mouvement et le retour d'interaction.
+Les paramètres dans **Réglage → Animation** et **Réglage → Effet d'Expansion** contrôlent la vitesse, le style de mouvement et le retour d'interaction pour votre menu.
 
 ---
 
-## Vitesse d'animation
+## Vitesse d'Animation
 
-S'applique à tous les mouvements du menu.
+S'applique à tous les mouvements dans le menu (ouverture des sous-menus, transitions d'éléments, etc.).
 
 | Option | Durée |
 |---|---|
-| Aucune | Pas d'animation |
-| Très lente | ~500ms |
-| Lente | ~350ms |
-| **Moyenne** *(par défaut)* | ~200ms |
+| Aucun | Pas d'animation |
+| Très Lent | ~500ms |
+| Lent | ~350ms |
+| **Moyen** *(par défaut)* | ~200ms |
 | Rapide | ~120ms |
-| Très rapide | ~60ms |
+| Très Rapide | ~60ms |
 
 ---
 
-## Style d'animation
+## Style d'Animation
 
-S'applique uniquement au **menu diapositive** et à la **Tabbar** — le Mega Menu utilise toujours le Fade.
+Contrôle comment le menu apparaît. S'applique uniquement au **Slide menu** et à la **Tabbar** — le Mega Menu utilise toujours Fade.
 
 | Option | Effet |
 |---|---|
-| **Diapositive** *(par défaut)* | Glisse depuis le bord de l'écran |
-| **Fade** | S'estompe progressivement |
+| **Glisser** *(par défaut)* | Glisse depuis le bord de l'écran |
+| **Fondu** | S'estompe progressivement |
 
 ---
 
-## Effet d'expansion
+## Effet d'Expansion
 
-Menu diapositive uniquement.
+S'applique uniquement au **Slide menu** — contrôle comment les sous-menus s'ouvrent.
 
 | Option | Effet |
 |---|---|
-| **Expansion de haut en bas** | Le sous-menu s'étend vers le bas en place |
-| **Glissement depuis la droite** | Le sous-menu glisse en tant que nouveau panneau |
+| **Expansion de haut en bas** | Le sous-menu s'agrandit vers le bas sur place |
+| **Glisser depuis la droite** | Le sous-menu glisse depuis la droite comme un nouveau panneau |
 
 ---
 
-## Retour tactile *(Business / Elite)*
+## Retour Tactile *(Business / Elite)*
+
+Couleur de flash d'arrière-plan lorsqu'un utilisateur touche un élément sur mobile.
 
 | Champ | Description |
 |---|---|
-| **Couleur d'arrière-plan tactile** | Couleur du flash (hex) |
-| **Opacité d'arrière-plan tactile** | Opacité du flash (0–100) |
+| **Couleur d'Arrière-plan Tactile** | Couleur de flash (hex) |
+| **Opacité d'Arrière-plan Tactile** | Opacité de flash (0–100) |
 
-Laisser vide = pas d'effet tactile.
+Laissez vide = pas d'effet tactile.
 
 ---
 
-## Style de flèche *(Elite)*
+## Style de Flèche *(Elite)*
+
+Personnalisez la flèche d'expansion affichée sur les éléments parents avec des enfants.
 
 | Champ | Description | Par défaut |
 |---|---|---|
-| **Couleur** | Couleur de la flèche (hex) | Hérite la couleur du texte |
-| **Opacité** | Opacité (0–100) | 30 |
+| **Couleur** | Couleur de la flèche (hex) | Hérite de la Couleur du Texte |
+| **Opacité** | Opacité de la flèche (0–100) | 30 |
 | **Taille (px)** | Taille de la flèche | 20px |
-| **Icône** | Nom Remixicon (ex. `ri-arrow-right-s-line`) | Par défaut du système |
+| **Icône** | Nom de Remixicon (par ex. `ri-arrow-right-s-line`) | Par défaut du système |

@@ -1,10 +1,10 @@
 ---
-description: Risolvi i problemi di sovrapposizione dei menu Navi+ con altri elementi come intestazioni fisse, widget di chat o banner di cookie.
+description: Fix Navi+ menus overlapping other elements like sticky headers, chat widgets, or cookie banners.
 lang: it
 layout: default
 permalink: /it/docs/troubleshooting/menu-overlapping/
-title: Menu che si sovrappone ad altri elementi
+title: Menu overlapping other elements
 ---
-# Menu che si sovrappone ad altri elementi
+# Menu overlapping other elements
 
-*Prossimamente — questa pagina è in fase di scrittura.*
+*Coming soon — this page is being written.*

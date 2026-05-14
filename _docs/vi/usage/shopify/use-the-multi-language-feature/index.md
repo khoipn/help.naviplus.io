@@ -1,5 +1,5 @@
 ---
-description: Cách dùng tính năng đa ngôn ngữ trong Navi+ — cú pháp dịch inline, bộ chuyển ngôn ngữ, và bảng mã ngôn ngữ đầy đủ.
+description: Cách sử dụng hỗ trợ đa ngôn ngữ của Navi+ — cú pháp dịch nội tuyến, công tắc ngôn ngữ và tham chiếu mã ngôn ngữ đầy đủ.
 lang: vi
 layout: default
 permalink: /vi/docs/usage/shopify/use-the-multi-language-feature/
@@ -7,39 +7,39 @@ title: Đa ngôn ngữ (Shopify Markets)
 ---
 # Đa ngôn ngữ (Shopify Markets)
 
-Navi+ hỗ trợ đa ngôn ngữ theo 2 cách: **cú pháp dịch inline** và **bộ chuyển ngôn ngữ** tích hợp ngay trong menu.
+Navi+ hỗ trợ đa ngôn ngữ theo hai cách: **cú pháp dịch nội tuyến** và **công tắc ngôn ngữ** được tích hợp trực tiếp vào menu của bạn.
 
-## 1. Cú pháp dịch inline
+## 1. Cú pháp dịch nội tuyến
 
-Thêm bản dịch trực tiếp vào nhãn mục menu bằng cú pháp sau:
+Thêm các bản dịch trực tiếp vào nhãn của mục menu bằng cách sử dụng cú pháp này:
 
 ```
-Nội-dung-mặc-định <mã-ngôn-ngữ-1: Nội-dung-1><mã-ngôn-ngữ-2: Nội-dung-2>
+Default-content <language-code-1: Content-1><language-code-2: Content-2>
 ```
 
-**Ví dụ** — Tab Bar hiển thị bằng 3 ngôn ngữ: tiếng Anh, tiếng Pháp và tiếng Việt:
+**Ví dụ** — một Tab Bar hiển thị bằng tiếng Anh, tiếng Pháp và tiếng Việt:
 
 ```
 Home <fr: Maison><vi: Trang chủ>
 ```
 
-Khi menu hiển thị, Navi+ kiểm tra ngôn ngữ hiện tại của trang và hiển thị bản dịch phù hợp. Nếu không tìm thấy, tự động fallback về mặc định.
+Khi menu được hiển thị, Navi+ kiểm tra ngôn ngữ của trang hiện tại và hiển thị bản dịch phù hợp. Nếu không tìm thấy bản dịch, nó sẽ quay lại mặc định.
 
-Cú pháp này hoạt động trên cả 3 trường: **nhãn (label)**, **mô tả (description)** và **đường dẫn (link-to)**.
+Cú pháp này hoạt động trong các trường **nhãn**, **mô tả** và **liên kết đến**.
 
-## 2. Bộ chuyển ngôn ngữ
+## 2. Công tắc ngôn ngữ
 
-Bạn có thể xây dựng bộ chuyển ngôn ngữ ngay trong bất kỳ menu Navi+ nào. Dùng action `open:ChangeLanguage()` cho mục menu:
+Bạn có thể xây dựng một công tắc ngôn ngữ bên trong bất kỳ menu nào của Navi+. Sử dụng hành động `open:ChangeLanguage()` trên một mục menu:
 
 ```
 open:ChangeLanguage(fr)
 ```
 
-Khi khách truy cập nhấn vào mục đó, trang sẽ chuyển sang tiếng Pháp. Bạn có thể thêm icon cờ từ [Flaticon](https://www.flaticon.com) để bộ chuyển ngôn ngữ trực quan hơn.
+Khi một khách truy cập chạm vào mục đó, trang web sẽ chuyển sang tiếng Pháp. Bạn có thể thêm biểu tượng cờ từ một trang như [Flaticon](https://www.flaticon.com) để làm cho công tắc trở nên trực quan hơn.
 
-## Bảng mã ngôn ngữ
+## Tham chiếu mã ngôn ngữ
 
-Navi+ hỗ trợ toàn bộ mã ngôn ngữ ISO 639-1 tiêu chuẩn. Nếu hệ thống SEO của bạn dùng định dạng khác (ví dụ `en-EN` thay vì `en`), mã 2 ký tự vẫn hoạt động bình thường.
+Navi+ hỗ trợ tất cả các mã ngôn ngữ ISO 639-1 tiêu chuẩn. Nếu hệ thống SEO của bạn sử dụng định dạng khác (ví dụ: `en-EN` thay vì `en`), mã hai ký tự vẫn hoạt động.
 
 | Mã | Ngôn ngữ |
 |---|---|
@@ -184,6 +184,7 @@ Navi+ hỗ trợ toàn bộ mã ngôn ngữ ISO 639-1 tiêu chuẩn. Nếu hệ 
 | sm | Samoan |
 | sg | Sango |
 | sr | Serbian |
+| gd | Scottish Gaelic |
 | sn | Shona |
 | si | Sinhala, Sinhalese |
 | sk | Slovak |

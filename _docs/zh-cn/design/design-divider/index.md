@@ -1,32 +1,43 @@
 ---
-description: 配置 Navi+ 菜单中默认分隔线样式 — 颜色、粗细、类型和宽度。
+description: 配置您Navi+菜单中所有分隔线的默认样式 — 颜色、厚度、类型和宽度。
+lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/design/design-divider/
 title: 设计分隔符 — 分隔线
 ---
 # 设计分隔符 — 分隔线
 
-设计 → 分隔符的设置定义所有分隔符的默认外观。
+设置在 **设计 → 分隔符** 定义菜单中所有分隔符的默认外观。
 
-菜单级别样式 — 单个项目可通过编辑项 → 基本信息 → Add Divider 进行覆盖。
+这是一个 **菜单级** 样式 — 单个项目可以启用/禁用自己的分隔符，并通过编辑项目 → 基本信息 → 添加分隔符来覆盖样式。
+
+---
 
 ## 字段
 
-| 字段 | 描述 | 默认值 |
+| 字段 | 描述 | 默认 |
 |---|---|---|
-| Divider Color | 线条颜色（hex） | #EEEEEE |
-| Divider Size (px) | 线条粗细 | 1px |
-| Divider Type | Solid / Dashed / Dotted / Double | Solid |
-| Divider Width | Full / Inset / Under text | Full |
+| **分隔符颜色** | 线条颜色（十六进制） | `#EEEEEE` |
+| **分隔符大小（px）** | 线条厚度 | 1px |
+| **分隔符类型** | 线条样式：实线 / 虚线 / 点线 / 双线 | 实线 |
+| **分隔符宽度** | 线条跨度：全宽 / 内嵌 / 文本下方 | 全宽 |
 
-Divider Type 和 Divider Width 需要 Business 或 Elite 计划。
+> **分隔符类型** 和 **分隔符宽度** 需要 Business 或 Elite 计划。
+
+---
 
 ## 工作原理
 
-1. 项目启用 Add Divider 时的默认样式。
-2. 单项样式覆盖此设置。
-3. 如果为空，第 2-3 级继承 Divider Color。
+1. 此处的设置是当项目启用 **添加分隔符** 时应用的 **默认** 设置。
+2. 如果项目有自己的分隔符样式（在编辑项目中），该样式 **覆盖** 此处设置的样式。
+3. 当 `submenuDividerColor` 字段为空时，级别 2-3 从此部分继承 `分隔符颜色`。
 
-## Divider Width
+---
 
-Full = 项目全宽。Inset = 两侧缩进。Under text = 仅在文本下方。
+## 分隔符宽度选项
+
+| 值 | 显示 |
+|---|---|
+| **全宽** | 线条跨越项目的全宽 |
+| **内嵌** | 线条在两侧缩进 |
+| **文本下方** | 线条仅出现在项目的文本部分下方 |

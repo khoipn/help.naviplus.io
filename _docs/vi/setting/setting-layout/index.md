@@ -1,72 +1,73 @@
 ---
-description: Cấu hình vị trí menu, padding, margin, z-index và chiều rộng submenu trong Navi+.
+description: Cấu hình vị trí menu, khoảng đệm, khoảng cách, z-index và chiều rộng submenu trong Navi+.
+lang: vi
 layout: default
 permalink: /vi/docs/setting/setting-layout/
-title: Setting layout — Vị trí & khoảng cách
+title: Cài đặt bố cục — Vị trí & khoảng cách
 ---
-# Setting Layout — Vị trí & Khoảng cách
+# Cài đặt Bố cục — Vị trí & Khoảng cách
 
-Các cài đặt này kiểm soát **vị trí** của toàn bộ menu trên trang, **thứ tự xếp chồng** với các phần tử khác và **chiều rộng** của submenu.
+Những cài đặt này kiểm soát **vị trí** của toàn bộ menu trên trang, **thứ tự xếp chồng** của nó so với các phần tử khác, và **chiều rộng** của các submenu.
 
 ---
 
-## Padding và Margin của menu
+## Khoảng đệm & Khoảng cách Menu
 
-Khoảng cách bên ngoài và bên trong của **toàn bộ khung menu** — khác với padding từng item trong Design.
+Kiểm soát khoảng cách bên ngoài và bên trong của **toàn bộ khung menu** — khác với khoảng đệm cấp mục trong Thiết kế.
 
-| Field | Mô tả |
+| Trường | Mô tả |
 |---|---|
-| **Margin Top / Right / Bottom / Left (px)** | Khoảng cách từ menu ra đến mép màn hình hoặc vùng xung quanh |
-| **Padding Top / Right / Bottom / Left (px)** | Khoảng trống bên trong khung menu, trước khi hiển thị các item |
+| **Khoảng cách Trên / Phải / Dưới / Trái (px)** | Khoảng cách giữa menu và cạnh màn hình hoặc các phần tử xung quanh |
+| **Khoảng đệm Trên / Phải / Dưới / Trái (px)** | Khoảng cách bên trong khung menu, trước khi các mục được hiển thị |
 
-**Khi nào dùng:**
-- Đẩy Tabbar lên khỏi thanh điều hướng của trình duyệt trên iOS: `Margin Bottom = 34`
-- Tạo khoảng trống phía trên Mega Menu để không dính sát header: `Margin Top = 8`
+**Khi nào sử dụng:**
+- Đẩy một Tabbar lên trên thanh điều hướng của trình duyệt trên iOS: `Margin Bottom = 34`
+- Thêm khoảng cách giữa một Mega Menu và tiêu đề: `Margin Top = 8`
 
 ---
 
 ## Z-Index
 
-Thứ tự xếp chồng của menu so với các phần tử khác trên trang (header, chat widget, popup...).
+Thứ tự xếp chồng của menu so với các phần tử khác trên trang (tiêu đề, widget trò chuyện, popup, v.v.).
 
-| Field | Mô tả | Mặc định |
+| Trường | Mô tả | Mặc định |
 |---|---|---|
-| **Z-Index** | Số nguyên, càng cao càng nằm trên | Tự động |
+| **Z-Index** | Giá trị số nguyên — cao hơn = ở trên cùng | Tự động |
 
-**Khi nào cần chỉnh:**
-- Menu bị che bởi header sticky → tăng Z-Index lên cao hơn header.
-- Menu đang che mất chat widget → giảm Z-Index xuống dưới widget đó.
+**Khi nào điều chỉnh:**
+- Menu bị che bởi một tiêu đề dính → tăng Z-Index lên trên giá trị tiêu đề.
+- Menu đang che một widget trò chuyện → giảm Z-Index xuống dưới widget.
 
-Giá trị phổ biến: header theme thường là `1000–9999`, chat widget thường là `9999–99999`.
+Các giá trị tham chiếu chung: tiêu đề chủ đề thường là `1000–9999`; widget trò chuyện thường là `9999–99999`.
 
 ---
 
-## Chiều rộng submenu (Submenu Width)
+## Chiều rộng Submenu
 
-Áp dụng cho submenu dạng dropdown (Tabbar, Mega Menu khi có cột đơn).
+Áp dụng cho các submenu dropdown (Tabbar, Mega Menu một cột).
 
-| Field | Mô tả | Mặc định |
+| Trường | Mô tả | Mặc định |
 |---|---|---|
-| **Submenu Width (px)** | Chiều rộng panel submenu một cột | 360px |
+| **Chiều rộng Submenu (px)** | Chiều rộng của các panel submenu một cột | 360px |
 
 ---
 
-## Desktop — Submenu hover và chiều rộng
+## Máy tính để bàn — Hành vi & Chiều rộng Submenu
 
-Chỉ áp dụng khi menu hiển thị trên desktop.
+Áp dụng khi menu được hiển thị trên máy tính để bàn.
 
-| Field | Mô tả |
+| Trường | Mô tả |
 |---|---|
-| **Show submenu on hover** | Mở submenu khi di chuột qua, không cần click |
-| **Full-expand submenu width (px)** | Chiều rộng submenu dạng multi-column (Desktop Mega Menu) |
-| **Submenu direction** | Hướng mở submenu: phải / trái / lên / xuống |
+| **Hiển thị submenu khi di chuột** | Mở submenu khi di chuột mà không cần nhấp |
+| **Chiều rộng submenu mở rộng hoàn toàn (px)** | Chiều rộng của các submenu nhiều cột (Desktop Mega Menu) |
+| **Hướng submenu** | Hướng mở submenu: phải / trái / lên / xuống |
 
 ---
 
-## Multi-Sites *(Elite)*
+## Nhiều trang *(Elite)*
 
-Cho phép nhúng menu trên nhiều domain khác nhau ngoài Shopify store chính.
+Nhúng menu trên nhiều miền ngoài cửa hàng Shopify chính.
 
-| Field | Mô tả |
+| Trường | Mô tả |
 |---|---|
-| **Multi-Sites** | Danh sách domain cách nhau bởi dấu phẩy (ví dụ `brand.com,shop.brand.com`) |
+| **Nhiều trang** | Danh sách các miền phân cách bằng dấu phẩy (ví dụ: `brand.com,shop.brand.com`) |

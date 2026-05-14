@@ -1,39 +1,40 @@
 ---
-description: Configurez l'apparence des sous-menus avec héritage automatique du Niveau 1 pour tous les champs vides.
+description: Configurez l'apparence des éléments de sous-menu dans Navi+ — avec héritage automatique du Niveau 1 pour tous les champs vides.
+lang: fr
 layout: default
 permalink: /fr/docs/design/design-level2/
-title: Conception niveau 2-3 — Éléments de sous-menu
+title: Niveau de conception 2-3 — Éléments de sous-menu
 ---
-# Conception Niveau 2-3 — Éléments de sous-menu
+# Niveau de Conception 2-3 — Éléments de Sous-menu
 
-Les paramètres dans **Conception → Niveau 2-3** s'appliquent aux sous-menus. Tout champ vide **hérite automatiquement** du Niveau 1.
+Les paramètres à **Design → Niveau 2-3** s'appliquent aux éléments de sous-menu (menus déroulants qui apparaissent lorsqu'un élément parent est ouvert). Tout champ laissé vide **hérite automatiquement** de la valeur correspondante du Niveau 1.
 
-> **Règle :** Ne remplissez les champs ici que lorsque vous voulez que le sous-menu ait un aspect **différent** du menu principal.
+> **Règle :** Ne remplissez les champs ici que si vous souhaitez que le sous-menu ait l'air **différent** du menu principal. Laissez vide = même que le Niveau 1.
 
 ---
 
-## Style du texte
+## Style de Texte
 
-| Champ | Hérite du Niveau 1 quand vide |
+| Champ | Hérite du Niveau 1 lorsqu'il est vide |
 |---|---|
-| **Couleur du texte** | `textColor` |
-| **Taille de police (px)** | `textSize` |
-| **Graisse de police** | `fontWeight` |
-| **Transformation du texte** | `textTransform` |
-| **Famille de police** | `fontFamily` |
-| **Couleur de description** | `descriptionColor` |
-| **Taille de description (px)** | `descriptionTextSize` |
+| **Couleur du Texte** | `textColor` |
+| **Taille de Police (px)** | `textSize` |
+| **Poids de la Police** | `fontWeight` |
+| **Transformation du Texte** | `textTransform` |
+| **Famille de Police** | `fontFamily` |
+| **Couleur de la Description** | `descriptionColor` |
+| **Taille de la Description (px)** | `descriptionTextSize` |
 
 ---
 
-## Style d'icône / image
+## Style d'Icône / Image
 
-| Champ | Hérite du Niveau 1 quand vide |
+| Champ | Hérite du Niveau 1 lorsqu'il est vide |
 |---|---|
-| **Couleur d'icône** | `iconColor` |
-| **Taille d'icône (px)** | `iconSize` |
-| **Espace texte-icône (px)** | `spaceTextIcon` |
-| **Rayon d'image (px)** | `imageRadius` |
+| **Couleur de l'Icône** | `iconColor` |
+| **Taille de l'Icône (px)** | `iconSize` |
+| **Espace Texte-Icône (px)** | `spaceTextIcon` |
+| **Rayon de l'Image (px)** | `imageRadius` |
 
 ---
 
@@ -41,44 +42,46 @@ Les paramètres dans **Conception → Niveau 2-3** s'appliquent aux sous-menus. 
 
 | Champ | Description |
 |---|---|
-| **Remplissage de l'élément (px)** | N'hérite pas — utilise la valeur par défaut du thème |
-| **Marge de l'élément (px)** | Espacement extérieur |
-| **Hauteur minimale (px)** | Hauteur minimale |
+| **Marge Intérieure (px)** | Espacement intérieur pour les éléments de sous-menu. N'hérite pas — utilise la valeur par défaut du thème si vide |
+| **Marge Extérieure (px)** | Espacement extérieur pour les éléments de sous-menu |
+| **Hauteur Min (px)** | Hauteur minimale pour les éléments de sous-menu |
 
 ---
 
-## Arrière-plan et cadre
+## Arrière-plan & Cadre
 
 | Champ | Description |
 |---|---|
-| **Couleur d'arrière-plan** | Arrière-plan du sous-menu |
-| **Rayon de bordure (px)** | Arrondi des coins |
-| **Masquer l'arrière-plan** | Masquer l'arrière-plan |
-| **Ombre portée** | Ombre portée |
+| **Couleur de Fond** | Couleur de fond de la zone de sous-menu |
+| **Rayon de Bordure (px)** | Arrondi des coins du conteneur de sous-menu |
+| **Cacher l'Arrière-plan** | Cacher l'arrière-plan du sous-menu |
+| **Ombre Portée** | Ombre portée pour le conteneur de sous-menu |
 
 ---
 
 ## Affichage
 
-| Champ | Hérite du Niveau 1 quand vide |
+| Champ | Hérite du Niveau 1 lorsqu'il est vide |
 |---|---|
-| **Disposition d'affichage** | `displayLayout` |
-| **Alignement** | `align` |
+| **Disposition d'Affichage** | `displayLayout` |
+| **Aligner** | `align` |
 
 ---
 
 ## Séparateur
 
-| Champ | Hérite du Niveau 1 quand vide |
+| Champ | Hérite du Niveau 1 lorsqu'il est vide |
 |---|---|
-| **Couleur du séparateur** | `dividerColor` |
+| **Couleur du Séparateur** | `dividerColor` (de Design → Séparateur) |
 
 ---
 
 ## Exemple
 
-**Objectif :** Menu principal sombre avec texte blanc. Sous-menu blanc avec texte sombre.
+**Objectif :** Le menu principal a un fond sombre et un texte blanc. Le sous-menu doit avoir un fond blanc et un texte sombre.
 
-Remplissez uniquement 2 champs au Niveau 2-3 :
-- Couleur d'arrière-plan = `#FFFFFF`
-- Couleur du texte = `#000000`
+Remplissez uniquement ces deux champs au Niveau 2-3 :
+- Couleur de Fond = `#FFFFFF`
+- Couleur du Texte = `#000000`
+
+Tous les autres champs (taille de police, taille d'icône, espacement, etc.) héritent automatiquement du Niveau 1.

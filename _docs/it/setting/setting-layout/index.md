@@ -1,63 +1,73 @@
 ---
-description: Configura la posizione del menu, il padding, il margin, lo z-index e la larghezza del sottomenu in Navi+.
+description: Configura la posizione del menu, il padding, il margine, lo z-index e la larghezza del sottomenu in Navi+.
+lang: it
 layout: default
 permalink: /it/docs/setting/setting-layout/
-title: Setting layout — Posizione e spaziatura
+title: Impostazione layout — Posizione e spaziatura
 ---
-# Setting Layout — Posizione e Spaziatura
+# Impostazione Layout — Posizione e Spaziatura
 
-Controlla la **posizione** dell'intero menu, l'**ordine di sovrapposizione** e la **larghezza del sottomenu**.
+Queste impostazioni controllano la **posizione** dell'intero menu sulla pagina, il suo **ordine di sovrapposizione** rispetto ad altri elementi e la **larghezza** dei sottomenu.
 
 ---
 
-## Padding e Margin del menu
+## Padding e Margine del Menu
 
-Controlla la spaziatura esterna e interna del **contenitore dell'intero menu** — diverso dal padding a livello di elemento nel Design.
+Controlla lo spazio esterno e interno dell'**intero contenitore del menu** — diverso dal padding a livello di elemento nel Design.
 
 | Campo | Descrizione |
 |---|---|
-| **Margin superiore / destro / inferiore / sinistro (px)** | Spazio dal menu al bordo dello schermo |
-| **Padding superiore / destro / inferiore / sinistro (px)** | Spazio all'interno del contenitore del menu |
+| **Margine Superiore / Destro / Inferiore / Sinistro (px)** | Spazio tra il menu e il bordo dello schermo o gli elementi circostanti |
+| **Padding Superiore / Destro / Inferiore / Sinistro (px)** | Spazio all'interno del contenitore del menu, prima che gli elementi vengano visualizzati |
 
-**Quando usare:**
-- Spingere la Tabbar sopra la barra di navigazione del browser iOS: `Margin inferiore = 34`
-- Spazio sopra il Mega Menu: `Margin superiore = 8`
+**Quando utilizzare:**
+- Spingere un Tabbar sopra la barra di navigazione del browser su iOS: `Margine Inferiore = 34`
+- Aggiungere spazio tra un Mega Menu e l'intestazione: `Margine Superiore = 8`
 
 ---
 
 ## Z-Index
 
-| Campo | Descrizione | Predefinito |
-|---|---|---|
-| **Z-Index** | Più alto = sopra | Auto |
-
-- Menu coperto da sticky header → aumentare lo Z-Index.
-- Menu che copre il widget di chat → diminuire lo Z-Index.
-
-Tipico: header del tema = `1000–9999`; widget di chat = `9999–99999`.
-
----
-
-## Larghezza sottomenu
+Ordine di sovrapposizione del menu rispetto ad altri elementi della pagina (intestazione, widget chat, popup, ecc.).
 
 | Campo | Descrizione | Predefinito |
 |---|---|---|
-| **Larghezza sottomenu (px)** | Larghezza del pannello sottomenu a colonna singola | 360px |
+| **Z-Index** | Valore intero — più alto = sopra | Auto |
+
+**Quando regolare:**
+- Il menu è coperto da un'intestazione fissa → aumentare lo Z-Index sopra il valore dell'intestazione.
+- Il menu copre un widget chat → diminuire lo Z-Index sotto il widget.
+
+Valori di riferimento comuni: le intestazioni del tema sono solitamente `1000–9999`; i widget chat sono solitamente `9999–99999`.
 
 ---
 
-## Desktop
+## Larghezza del Sottomenu
 
-| Campo | Descrizione |
-|---|---|
-| **Mostra sottomenu al hover** | Apre i sottomenu al passaggio del mouse |
-| **Larghezza sottomenu a espansione completa (px)** | Larghezza del sottomenu multi-colonna |
-| **Direzione sottomenu** | Direzione in cui si aprono i sottomenu |
+Si applica ai sottomenu a discesa (Tabbar, Mega Menu a colonna singola).
+
+| Campo | Descrizione | Predefinito |
+|---|---|---|
+| **Larghezza del Sottomenu (px)** | Larghezza dei pannelli del sottomenu a colonna singola | 360px |
 
 ---
 
-## Multi-Sites *(Elite)*
+## Desktop — Comportamento e Larghezza del Sottomenu
+
+Si applica quando il menu è visualizzato su desktop.
 
 | Campo | Descrizione |
 |---|---|
-| **Multi-Sites** | Elenco di domini separati da virgola (es. `brand.com,shop.brand.com`) |
+| **Mostra sottomenu al passaggio del mouse** | Apri i sottomenu al passaggio del mouse senza cliccare |
+| **Larghezza sottomenu completamente espansa (px)** | Larghezza dei sottomenu a più colonne (Desktop Mega Menu) |
+| **Direzione del sottomenu** | Direzione in cui si aprono i sottomenu: destra / sinistra / sopra / sotto |
+
+---
+
+## Multi-Siti *(Elite)*
+
+Incorpora il menu su più domini al di fuori del negozio principale di Shopify.
+
+| Campo | Descrizione |
+|---|---|
+| **Multi-Siti** | Elenco di domini separati da virgole (ad es. `brand.com,shop.brand.com`) |

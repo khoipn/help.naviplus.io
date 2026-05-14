@@ -57,7 +57,7 @@ In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intest
 <ol>
 <li>Non in questo elenco, non preoccuparti</li>
 </ol>
-<pre class="codehilite"><code>- Puoi chattare con un sostenitore di Navi+ per assistenza immediata: ci vogliono solo pochi minuti per trovare il selettore CSS.
+<pre class="codehilite"><code>- Puoi chattare con un sostenitore di Navi+ per ricevere aiuto immediato: ci vogliono solo pochi minuti per trovare il selettore CSS.
 
 - Oppure, puoi seguire la guida di auto-aiuto nei prossimi argomenti (Subito dopo questo argomento).
 </code></pre>
@@ -68,7 +68,7 @@ In questa guida, ci concentreremo su 2 modi: inserire questo menu sotto l'intest
 </details>
 
 <details><summary><strong>Come trovare il selettore CSS sul tuo sito web?</strong></summary>
-<p>Puoi chattare con un sostenitore di Navi+ per ricevere assistenza immediata invece di farlo da solo.\
+<p>Puoi chattare con un sostenitore di Navi+ per ricevere aiuto immediato invece di farlo da solo.\
 Tuttavia, (1) questo ti aiuterà a comprendere l'idea principale, e (2) se vuoi farlo da solo, segui le istruzioni qui sotto.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
@@ -85,17 +85,6 @@ Tuttavia, (1) questo ti aiuterà a comprendere l'idea principale, e (2) se vuoi 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Istruzioni per l'agente: Interrogare questa documentazione</h1>
-<p>Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.</p>
-<p>Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query <code>ask</code>:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
-</code></pre>
-
-<p>La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.</p>
-<p>Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.</p>
 </details>
 
 #### **II) METODO 2: AGGIUNGI QUESTO MENU COME UNA SEZIONE/BLOCK NEL TEMA SHOPIFY**
@@ -114,15 +103,4 @@ Copia l'ID di incorporamento di questo menu, quindi inseriscilo nel blocco chiam
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Istruzioni per l'agente: Interrogare questa documentazione</h1>
-<p>Se hai bisogno di ulteriori informazioni che non sono direttamente disponibili in questa pagina, puoi interrogare la documentazione dinamicamente ponendo una domanda.</p>
-<p>Esegui una richiesta HTTP GET sull'URL della pagina corrente con il parametro di query <code>ask</code>:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;question&gt;
-</code></pre>
-
-<p>La domanda dovrebbe essere specifica, autonoma e scritta in linguaggio naturale.
-La risposta conterrà una risposta diretta alla domanda e estratti e fonti pertinenti dalla documentazione.</p>
-<p>Utilizza questo meccanismo quando la risposta non è esplicitamente presente nella pagina corrente, hai bisogno di chiarimenti o contesto aggiuntivo, o vuoi recuperare sezioni di documentazione correlate.</p>
 </details>

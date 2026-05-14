@@ -1,63 +1,73 @@
 ---
-description: Configurez la position du menu, le remplissage, la marge, l'index Z et la largeur du sous-menu dans Navi+.
+description: Configurez la position du menu, le rembourrage, la marge, l'index z et la largeur des sous-menus dans Navi+.
+lang: fr
 layout: default
 permalink: /fr/docs/setting/setting-layout/
-title: Disposition des paramètres — Position et espacement
+title: Configuration de la mise en page — Position et espacement
 ---
-# Disposition des paramètres — Position et espacement
+# Configuration de la mise en page — Position et espacement
 
-Contrôle la **position** de l'ensemble du menu, l'**ordre de superposition** et la **largeur du sous-menu**.
+Ces paramètres contrôlent la **position** de l'ensemble du menu sur la page, son **ordre de superposition** par rapport à d'autres éléments, et la **largeur** des sous-menus.
 
 ---
 
-## Remplissage et marge du menu
+## Rembourrage et marge du menu
 
-Contrôle l'espacement extérieur et intérieur du **conteneur du menu entier** — différent du remplissage au niveau de l'élément dans Conception.
+Contrôle l'espacement extérieur et intérieur de **l'ensemble du conteneur de menu** — différent du rembourrage au niveau des éléments dans le Design.
 
 | Champ | Description |
 |---|---|
-| **Marge supérieure / droite / inférieure / gauche (px)** | Espace entre le menu et le bord de l'écran |
-| **Remplissage supérieur / droit / inférieur / gauche (px)** | Espace à l'intérieur du conteneur du menu |
+| **Marge Haut / Droit / Bas / Gauche (px)** | Espace entre le menu et le bord de l'écran ou les éléments environnants |
+| **Rembourrage Haut / Droit / Bas / Gauche (px)** | Espace à l'intérieur du conteneur de menu, avant que les éléments ne soient affichés |
 
 **Quand utiliser :**
-- Pousser la Tabbar au-dessus de la barre de navigation du navigateur iOS : `Marge inférieure = 34`
-- Espace au-dessus du Mega Menu : `Marge supérieure = 8`
+- Pousser un Tabbar au-dessus de la barre de navigation du navigateur sur iOS : `Marge Bas = 34`
+- Ajouter de l'espace entre un Mega Menu et l'en-tête : `Marge Haut = 8`
 
 ---
 
 ## Index Z
 
+Ordre de superposition du menu par rapport à d'autres éléments de la page (en-tête, widget de chat, popups, etc.).
+
 | Champ | Description | Par défaut |
 |---|---|---|
-| **Index Z** | Plus haut = au-dessus | Auto |
+| **Index Z** | Valeur entière — plus élevé = au-dessus | Auto |
 
-- Menu recouvert par un en-tête collant → augmenter l'Index Z.
-- Menu recouvrant le widget de chat → diminuer l'Index Z.
+**Quand ajuster :**
+- Le menu est couvert par un en-tête fixe → augmentez l'Index Z au-dessus de la valeur de l'en-tête.
+- Le menu couvre un widget de chat → diminuez l'Index Z en dessous du widget.
 
-Typique : en-têtes de thème = `1000–9999` ; widgets de chat = `9999–99999`.
+Valeurs de référence courantes : les en-têtes de thème sont généralement `1000–9999` ; les widgets de chat sont généralement `9999–99999`.
 
 ---
 
 ## Largeur du sous-menu
 
+S'applique aux sous-menus déroulants (Tabbar, Mega Menu à une colonne).
+
 | Champ | Description | Par défaut |
 |---|---|---|
-| **Largeur du sous-menu (px)** | Largeur du panneau de sous-menu à une colonne | 360px |
+| **Largeur du sous-menu (px)** | Largeur des panneaux de sous-menu à une colonne | 360px |
 
 ---
 
-## Bureau
+## Bureau — Comportement et largeur du sous-menu
+
+S'applique lorsque le menu est affiché sur un bureau.
 
 | Champ | Description |
 |---|---|
-| **Afficher le sous-menu au survol** | Ouvrir les sous-menus au survol de la souris |
-| **Largeur du sous-menu à expansion complète (px)** | Largeur du sous-menu multi-colonnes |
-| **Direction du sous-menu** | Direction dans laquelle les sous-menus s'ouvrent |
+| **Afficher le sous-menu au survol** | Ouvrir les sous-menus au survol de la souris sans cliquer |
+| **Largeur du sous-menu entièrement étendue (px)** | Largeur des sous-menus à plusieurs colonnes (Desktop Mega Menu) |
+| **Direction du sous-menu** | Direction dans laquelle les sous-menus s'ouvrent : droite / gauche / haut / bas |
 
 ---
 
 ## Multi-Sites *(Elite)*
 
+Intégrez le menu sur plusieurs domaines en dehors de la boutique principale Shopify.
+
 | Champ | Description |
 |---|---|
-| **Multi-Sites** | Liste de domaines séparés par des virgules (ex. `brand.com,shop.brand.com`) |
+| **Multi-Sites** | Liste de domaines séparés par des virgules (par exemple `brand.com,shop.brand.com`) |

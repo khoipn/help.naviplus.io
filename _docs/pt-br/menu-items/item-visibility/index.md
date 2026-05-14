@@ -1,47 +1,55 @@
 ---
-description: Como controlar quando e para quem um item de menu é visível no Navi+ — estado de publicação, condições de login e ocultação por página.
+description: Como controlar quando e para quem um item de menu é visível no Navi+ — estado publicado, condições de login e ocultação baseada em páginas.
+lang: pt-br
 layout: default
 permalink: /pt-br/docs/menu-items/item-visibility/
-title: Visibilidade e condições
+title: Visibilidade & Condições
 ---
-# Visibilidade e condições
+# Visibilidade & Condições
 
-A seção **Publicar** no painel de edição permite controlar quem vê um item, quando e em quais páginas.
+A seção **Publicar** no painel Editar Item permite que você controle quem vê um item, quando e em quais páginas.
 
 ---
 
-## Publicado
+## Está Publicado
 
 **Padrão: ativado (item visível para todos).**
 
-Desative para ocultar o item do menu ao vivo sem excluí-lo.
+Desative isso para ocultar o item do menu ao vivo sem excluí-lo. O item permanece no editor — você pode reativá-lo a qualquer momento.
 
-**Usar quando:**
-- Ocultar temporariamente um link de promoção sazonal.
-- Preparar um item antes de ir ao ar.
-- Manter um item de backup sem excluir.
-
----
-
-## Ocultar quando conectado
-
-Ativado: item **visível apenas para visitantes não conectados**.
-
-**Usar para:** botão "Fazer login", link "Criar conta".
+**Use quando:**
+- Ocultar temporariamente um link de venda sazonal.
+- Preparar um item antes que ele fique ao vivo.
+- Manter um item de backup sem excluí-lo.
 
 ---
 
-## Mostrar apenas quando conectado
+## Ocultar quando logado
 
-Ativado: item **visível apenas para clientes conectados**.
+Quando ativado, o item é **visível apenas para visitantes que não estão logados**.
 
-**Usar para:** "Minha conta", pontos de fidelidade, histórico de pedidos.
+**Use para:**
+- Um "Log in" botão — clientes que já estão logados não precisam dele.
+- Um "Create account" link.
 
 ---
 
-## Ocultar em tipos de páginas específicos (hidepages)
+## Mostrar apenas quando logado
 
-Use `hidepages` em **Avançado → Atributos**.
+Quando ativado, o item é **visível apenas para clientes logados**.
+
+**Use para:**
+- "My account" link.
+- Pontos de fidelidade, histórico de pedidos.
+- Recursos reservados para membros.
+
+---
+
+## Ocultar em tipos de página específicos (hidepages)
+
+Use o atributo `hidepages` em **Avançado → Atributos** para ocultar um item em certos tipos de página.
+
+**Sintaxe:**
 
 ```
 hidepages=index
@@ -49,28 +57,42 @@ hidepages=index|products
 hidepages=index|products|collections|pages|blogs|others
 ```
 
-| Valor | Oculto em |
+| Valor | Páginas ocultas em |
 |---|---|
 | `index` | Página inicial |
-| `products` | Páginas de produto |
-| `collections` | Páginas de coleção |
-| `pages` | Páginas estáticas |
-| `blogs` | Blog |
-| `others` | Outras páginas |
+| `products` | Páginas de detalhes do produto |
+| `collections` | Páginas de coleção / categoria |
+| `pages` | Páginas estáticas (Sobre, Contato…) |
+| `blogs` | Listagem de blog e páginas de postagens |
+| `others` | Qualquer página que não esteja nas categorias acima |
 
-**Exemplo:** `hidepages=index|blogs`
+Separe múltiplos valores com `|`, sem espaços.
+
+**Exemplo:** Oculte um "Buy now" botão na página inicial e nas páginas do blog:
+
+```
+hidepages=index|blogs
+```
 
 ---
 
-## Ocultar por dispositivo
+## Ocultar por dispositivo (Móvel / Desktop)
 
-> Navi+ controla dispositivos no **nível do menu**. Crie dois menus separados ou use CSS.
+> **Importante:** O Navi+ não possui um alternador móvel/desktop por item. O direcionamento de dispositivos é controlado no **nível do menu**, não no nível do item.
+
+**A abordagem correta:**
+
+- Vá para a aba **Publicar** do menu → ative **Móvel** e **Desktop** para todo o menu.
+- Crie dois menus separados — um para móvel, um para desktop — e defina o alternador de dispositivo em cada um.
+
+**Solução alternativa por item (se realmente necessário):**  
+Use **Avançado → CSS** com uma consulta de mídia:
 
 ```css
-/* Apenas mobile */
+/* Oculte este item apenas no móvel */
 @media (max-width: 767px) { display: none !important; }
 
-/* Apenas desktop */
+/* Oculte este item apenas no desktop */
 @media (min-width: 768px) { display: none !important; }
 ```
 
@@ -78,11 +100,11 @@ hidepages=index|products|collections|pages|blogs|others
 
 ## Resumo
 
-| Condição | Como configurar |
+| Condição | Como definir |
 |---|---|
-| Ocultar completamente | Publicado → desativado |
-| Ocultar de logados | Ocultar quando conectado → ativado |
-| Ocultar de visitantes | Mostrar apenas quando conectado → ativado |
-| Ocultar na página inicial | `hidepages=index` |
-| Ocultar no mobile | CSS `@media (max-width: 767px)` |
-| Ocultar no desktop | CSS `@media (min-width: 768px)` |
+| Ocultar completamente | Está Publicado → desativado |
+| Ocultar de usuários logados | Ocultar quando logado → ativado |
+| Ocultar de convidados | Mostrar apenas quando logado → ativado |
+| Ocultar na página inicial | Atributos: `hidepages=index` |
+| Ocultar no móvel | CSS: `@media (max-width: 767px) { display: none !important; }` |
+| Ocultar no desktop | CSS: `@media (min-width: 768px) { display: none !important; }` |

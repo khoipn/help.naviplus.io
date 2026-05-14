@@ -1,34 +1,35 @@
 ---
-description: Verstehen Sie das dreistufige Stil-Vererbungssystem von Navi+ — wie Stile von Stufe 1 zu Stufe 2-3 kaskadieren und Pro-Element-Überschreibungen funktionieren.
+description: Verstehen Sie das dreistufige Designvererbungssystem in Navi+ — wie Stile von Level 1 zu Level 2-3 zu per-Item-Überschreibungen kaskadieren.
+lang: de
 layout: default
 permalink: /de/docs/design/design-overview/
-title: Design-Übersicht — Vererbung & Überschreibung
+title: Designübersicht — Vererbung & Überschreibung
 ---
-# Design-Übersicht — Vererbung & Überschreibung
+# Designübersicht — Vererbung & Überschreibung
 
-Navi+ verwendet ein **dreistufiges Stilsystem**. Wenn Sie dies verstehen, können Sie Ihr Menü effizient gestalten.
+Navi+ verwendet ein **dreistufiges Stilsystem**. Das Verständnis davon ermöglicht es Ihnen, Ihr Menü effizient zu gestalten, ohne Einstellungen zu wiederholen.
 
 ---
 
-## Drei Stufen
+## Drei Ebenen
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│  STUFE 1  (Design → Stufe 1)                        │
-│  Gilt für alle Hauptmenüelemente                    │
+│  LEVEL 1  (Design → Level 1)                        │
+│  Gilt für alle obersten Menüelemente                │
 │  Dies ist der globale Standard für das gesamte Menü │
 └───────────────────┬─────────────────────────────────┘
-                    │  Stufe 2-3 erbt bei Leerzeichen
+                    │  Level 2-3 erbt, wenn leer
 ┌───────────────────▼─────────────────────────────────┐
-│  STUFE 2-3  (Design → Stufe 2-3)                    │
+│  LEVEL 2-3  (Design → Level 2-3)                    │
 │  Gilt für Untermenüs / Dropdowns                    │
-│  Leer = identisch mit Stufe 1                       │
+│  Leer = gleich wie Level 1                            │
 └───────────────────┬─────────────────────────────────┘
-                    │  Pro Element überschreibt alles
+                    │  Per-Item überschreibt alles
 ┌───────────────────▼─────────────────────────────────┐
-│  PRO ELEMENT  (Element bearbeiten → Interface)      │
-│  Pro-Element-Einstellungen für einzelne Elemente    │
-│  Überschreibt Stufe 1 und Stufe 2-3 vollständig     │
+│  PER-ITEM  (Element bearbeiten → Schnittstelle)      │
+│  Per-Item-Einstellungen für einzelne Elemente       │
+│  Überschreibt Level 1 und Level 2-3 vollständig      │
 └─────────────────────────────────────────────────────┘
 ```
 
@@ -36,45 +37,49 @@ Navi+ verwendet ein **dreistufiges Stilsystem**. Wenn Sie dies verstehen, könne
 
 ## Vererbungsregeln
 
-**Stufe 2-3 erbt von Stufe 1** für alle leeren Felder:
+**Level 2-3 erbt von Level 1** für alle leeren Felder:
 
-| Stufe 2-3 Feld | Erbt von Stufe 1 |
+| Level 2-3 Feld | Erbt von Level 1 |
 |---|---|
 | Textfarbe | Textfarbe |
 | Schriftgröße | Schriftgröße |
-| Schriftstärke | Schriftstärke |
+| Schriftgewicht | Schriftgewicht |
 | Symbolfarbe | Symbolfarbe |
 | Symbolgröße | Symbolgröße |
-| Anzeigelayout | Anzeigelayout |
+| Anzeige-Layout | Anzeige-Layout |
 | Ausrichtung | Ausrichtung |
-| Trennlinienfarbe | Trennlinie (global) |
+| Trennfarbe | Trennfarbe (global) |
 
-Wenn Sie nur Stufe 1 konfigurieren, folgen die Untermenüs automatisch. Gehen Sie nur zu Stufe 2-3, wenn Sie möchten, dass Untermenüs **anders** aussehen.
+Wenn Sie nur Level 1 konfigurieren, folgen Untermenüs automatisch. Gehen Sie nur zu Level 2-3, wenn Sie möchten, dass Untermenüs **anders** aussehen als das Hauptmenü.
 
 ---
 
-## Pro-Element-Überschreibung
+## Per-Item-Überschreibung
 
-In **Element bearbeiten → Interface** angewendete Einstellungen überschreiben Stufe 1 und Stufe 2-3 nur für dieses Element.
+Einstellungen, die auf ein bestimmtes Element in **Element bearbeiten → Schnittstelle** (Textfarbe, Symbolgröße, Hintergrund usw.) angewendet werden, überschreiben Level 1 und Level 2-3 nur für dieses Element. Andere Elemente sind nicht betroffen.
 
-Um eine Überschreibung zu entfernen: Feld in Element bearbeiten leeren.
+Um eine Überschreibung zu entfernen: Löschen Sie das Feld in Element bearbeiten — das Element kehrt zu Level 1/2-3 zurück.
 
 ---
 
 ## Beispiel
 
-**Ziel:** Alle 5 Elemente sind weißer Text, außer „Sale", das rot ist.
+**Ziel:** Alle 5 Elemente haben weißen Text, außer "Sale", das rot ist.
 
-1. Design → Stufe 1 → Textfarbe = `#FFFFFF`
-2. Element bearbeiten → „Sale" → Interface → Textfarbe = `#FF0000`
+1. Design → Level 1 → Textfarbe = `#FFFFFF`
+2. Element bearbeiten → "Sale" → Schnittstelle → Textfarbe = `#FF0000`
+
+Ergebnis: 4 Elemente bleiben weiß, "Sale" wird rot. Es ist nicht notwendig, jedes Element einzeln zu bearbeiten.
 
 ---
 
-## Mobil | Desktop Syntax
+## Mobile | Desktop-Syntax
 
-Einige Abstandsfelder unterstützen unterschiedliche Werte:
+Einige Abstandsfelder unterstützen unterschiedliche Werte für Mobilgeräte und Desktop:
 
 ```
-8 16 8 16              →  gleich auf beiden Geräten
-8 8 8 8 | 12 24 12 24  →  links: Mobil, rechts: Desktop
+8 16 8 16             →  gleicher Wert auf beiden Geräten
+8 8 8 8 | 12 24 12 24  →  links: mobil, rechts: desktop
 ```
+
+Der Teil vor `|` gilt für Mobilgeräte; der Teil danach gilt für Desktop (≥768px).

@@ -1,49 +1,50 @@
 ---
-description: Konfigurieren Sie das Erscheinungsbild von Untermenüs mit automatischer Vererbung von Stufe 1 für alle leeren Felder.
+description: Konfigurieren Sie das Erscheinungsbild von Untermenüelementen in Navi+ — mit automatischer Vererbung von Level 1 für alle leeren Felder.
+lang: de
 layout: default
 permalink: /de/docs/design/design-level2/
-title: Design Stufe 2-3 — Untermenüelemente
+title: Design Level 2-3 — Untermenüelemente
 ---
-# Design Stufe 2-3 — Untermenüelemente
+# Design Level 2-3 — Untermenüelemente
 
-Einstellungen unter **Design → Stufe 2-3** gelten für Untermenüs. Jedes leere Feld **erbt automatisch** von Stufe 1.
+Einstellungen unter **Design → Level 2-3** gelten für Untermenüelemente (Dropdowns, die erscheinen, wenn ein übergeordnetes Element geöffnet wird). Jedes leer gelassene Feld **vererbt automatisch** den entsprechenden Wert von Level 1.
 
-> **Regel:** Füllen Sie hier nur Felder aus, wenn das Untermenü **anders** als das Hauptmenü aussehen soll.
+> **Regel:** Füllen Sie hier nur Felder aus, wenn das Untermenü **anders** aussehen soll als das Hauptmenü. Leer lassen = gleich wie Level 1.
 
 ---
 
 ## Textstil
 
-| Feld | Erbt von Stufe 1 bei Leerfeld |
+| Feld | Vererbt von Level 1, wenn leer |
 |---|---|
 | **Textfarbe** | `textColor` |
 | **Schriftgröße (px)** | `textSize` |
-| **Schriftstärke** | `fontWeight` |
+| **Schriftgewicht** | `fontWeight` |
 | **Texttransformation** | `textTransform` |
 | **Schriftfamilie** | `fontFamily` |
-| **Beschreibungsfarbe** | `descriptionColor` |
-| **Beschreibungsgröße (px)** | `descriptionTextSize` |
+| **Beschreibung Farbe** | `descriptionColor` |
+| **Beschreibung Größe (px)** | `descriptionTextSize` |
 
 ---
 
-## Symbol / Bildstil
+## Icon / Bildstil
 
-| Feld | Erbt von Stufe 1 bei Leerfeld |
+| Feld | Vererbt von Level 1, wenn leer |
 |---|---|
-| **Symbolfarbe** | `iconColor` |
-| **Symbolgröße (px)** | `iconSize` |
-| **Abstand Text-Symbol (px)** | `spaceTextIcon` |
+| **Iconfarbe** | `iconColor` |
+| **Icons Größe (px)** | `iconSize` |
+| **Abstand Text-Icon (px)** | `spaceTextIcon` |
 | **Bildradius (px)** | `imageRadius` |
 
 ---
 
-## Abstand
+## Abstände
 
 | Feld | Beschreibung |
 |---|---|
-| **Element-Innenabstand (px)** | Erbt nicht — verwendet Thema-Standard |
-| **Element-Außenabstand (px)** | Außenabstand |
-| **Mindesthöhe (px)** | Mindesthöhe |
+| **Element-Padding (px)** | Innerer Abstand für Untermenüelemente. Vererbt nicht — verwendet das Standarddesign, wenn leer |
+| **Element-Margin (px)** | Äußerer Abstand für Untermenüelemente |
+| **Minimale Höhe (px)** | Minimale Höhe für Untermenüelemente |
 
 ---
 
@@ -51,34 +52,36 @@ Einstellungen unter **Design → Stufe 2-3** gelten für Untermenüs. Jedes leer
 
 | Feld | Beschreibung |
 |---|---|
-| **Hintergrundfarbe** | Untermenü-Hintergrund |
-| **Rahmenradius (px)** | Eckenrundung |
-| **Hintergrund ausblenden** | Hintergrund ausblenden |
-| **Schlagschatten** | Schlagschatten |
+| **Hintergrundfarbe** | Hintergrundfarbe des Untermenübereichs |
+| **Eckenradius (px)** | Abrundung der Ecken des Untermenücontainers |
+| **Hintergrund ausblenden** | Hintergrund des Untermenüs ausblenden |
+| **Schattenwurf** | Schattenwurf für den Untermenücontainer |
 
 ---
 
 ## Anzeige
 
-| Feld | Erbt von Stufe 1 bei Leerfeld |
+| Feld | Vererbt von Level 1, wenn leer |
 |---|---|
 | **Anzeigelayout** | `displayLayout` |
-| **Ausrichtung** | `align` |
+| **Ausrichten** | `align` |
 
 ---
 
 ## Trennlinie
 
-| Feld | Erbt von Stufe 1 bei Leerfeld |
+| Feld | Vererbt von Level 1, wenn leer |
 |---|---|
-| **Trennlinienfarbe** | `dividerColor` |
+| **Trennlinienfarbe** | `dividerColor` (von Design → Trennlinie) |
 
 ---
 
 ## Beispiel
 
-**Ziel:** Dunkles Hauptmenü mit weißem Text. Weißes Untermenü mit dunklem Text.
+**Ziel:** Hauptmenü hat dunklen Hintergrund und weißen Text. Untermenü sollte weißen Hintergrund und dunklen Text haben.
 
-Nur 2 Felder bei Stufe 2-3 ausfüllen:
+Füllen Sie nur diese beiden Felder auf Level 2-3 aus:
 - Hintergrundfarbe = `#FFFFFF`
 - Textfarbe = `#000000`
+
+Alle anderen Felder (Schriftgröße, Icons Größe, Abstände usw.) vererben automatisch von Level 1.

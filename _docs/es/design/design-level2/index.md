@@ -1,39 +1,40 @@
 ---
-description: Configura la apariencia de submenús con herencia automática del Nivel 1 para todos los campos vacíos.
+description: Configura la apariencia de los elementos del submenú en Navi+ — con herencia automática del Nivel 1 para todos los campos vacíos.
+lang: es
 layout: default
 permalink: /es/docs/design/design-level2/
-title: Diseño nivel 2-3 — Elementos de submenú
+title: Nivel de diseño 2-3 — Elementos del submenú
 ---
-# Diseño Nivel 2-3 — Elementos de submenú
+# Diseño Nivel 2-3 — Elementos del Submenú
 
-La configuración en **Diseño → Nivel 2-3** se aplica a los submenús. Cualquier campo vacío **hereda automáticamente** del Nivel 1.
+Los ajustes en **Diseño → Nivel 2-3** se aplican a los elementos del submenú (desplegables que aparecen cuando se abre un elemento padre). Cualquier campo dejado vacío **hereda automáticamente** el valor correspondiente del Nivel 1.
 
-> **Regla:** Solo rellena campos aquí cuando quieras que el submenú se vea **diferente** del menú principal.
+> **Regla:** Solo completa los campos aquí cuando quieras que el submenú se vea **diferente** del menú principal. Dejar vacío = igual que el Nivel 1.
 
 ---
 
-## Estilo de texto
+## Estilo de Texto
 
 | Campo | Hereda del Nivel 1 cuando está vacío |
 |---|---|
-| **Color de texto** | `textColor` |
-| **Tamaño de fuente (px)** | `textSize` |
-| **Peso de fuente** | `fontWeight` |
-| **Transformación de texto** | `textTransform` |
-| **Familia de fuente** | `fontFamily` |
-| **Color de descripción** | `descriptionColor` |
-| **Tamaño de descripción (px)** | `descriptionTextSize` |
+| **Color de Texto** | `textColor` |
+| **Tamaño de Fuente (px)** | `textSize` |
+| **Peso de Fuente** | `fontWeight` |
+| **Transformación de Texto** | `textTransform` |
+| **Familia de Fuente** | `fontFamily` |
+| **Color de Descripción** | `descriptionColor` |
+| **Tamaño de Descripción (px)** | `descriptionTextSize` |
 
 ---
 
-## Estilo de icono / imagen
+## Estilo de Icono / Imagen
 
 | Campo | Hereda del Nivel 1 cuando está vacío |
 |---|---|
-| **Color de icono** | `iconColor` |
-| **Tamaño de icono (px)** | `iconSize` |
-| **Espacio texto-icono (px)** | `spaceTextIcon` |
-| **Radio de imagen (px)** | `imageRadius` |
+| **Color de Icono** | `iconColor` |
+| **Tamaño de Icono (px)** | `iconSize` |
+| **Espacio Texto-Icono (px)** | `spaceTextIcon` |
+| **Radio de Imagen (px)** | `imageRadius` |
 
 ---
 
@@ -41,20 +42,20 @@ La configuración en **Diseño → Nivel 2-3** se aplica a los submenús. Cualqu
 
 | Campo | Descripción |
 |---|---|
-| **Relleno del elemento (px)** | No hereda — usa el valor predeterminado del tema |
-| **Margen del elemento (px)** | Espaciado exterior |
-| **Altura mínima (px)** | Altura mínima |
+| **Relleno de Elemento (px)** | Espaciado interno para elementos del submenú. No hereda — usa el valor predeterminado del tema si está vacío |
+| **Margen de Elemento (px)** | Espaciado externo para elementos del submenú |
+| **Altura Mínima (px)** | Altura mínima para elementos del submenú |
 
 ---
 
-## Fondo y marco
+## Fondo y Marco
 
 | Campo | Descripción |
 |---|---|
-| **Color de fondo** | Fondo del submenú |
-| **Radio de borde (px)** | Redondeo de esquinas |
-| **Ocultar fondo** | Ocultar fondo |
-| **Sombra paralela** | Sombra paralela |
+| **Color de Fondo** | Color de fondo del área del submenú |
+| **Radio de Borde (px)** | Redondeo de las esquinas del contenedor del submenú |
+| **Ocultar Fondo** | Ocultar el fondo del submenú |
+| **Sombra de Caída** | Sombra de caída para el contenedor del submenú |
 
 ---
 
@@ -62,8 +63,8 @@ La configuración en **Diseño → Nivel 2-3** se aplica a los submenús. Cualqu
 
 | Campo | Hereda del Nivel 1 cuando está vacío |
 |---|---|
-| **Diseño de visualización** | `displayLayout` |
-| **Alineación** | `align` |
+| **Diseño de Visualización** | `displayLayout` |
+| **Alinear** | `align` |
 
 ---
 
@@ -71,14 +72,16 @@ La configuración en **Diseño → Nivel 2-3** se aplica a los submenús. Cualqu
 
 | Campo | Hereda del Nivel 1 cuando está vacío |
 |---|---|
-| **Color de divisor** | `dividerColor` |
+| **Color del Divisor** | `dividerColor` (de Diseño → Divisor) |
 
 ---
 
 ## Ejemplo
 
-**Objetivo:** Menú principal oscuro con texto blanco. Submenú blanco con texto oscuro.
+**Objetivo:** El menú principal tiene un fondo oscuro y texto blanco. El submenú debe tener un fondo blanco y texto oscuro.
 
-Solo rellena 2 campos en Nivel 2-3:
-- Color de fondo = `#FFFFFF`
-- Color de texto = `#000000`
+Completa solo estos dos campos en el Nivel 2-3:
+- Color de Fondo = `#FFFFFF`
+- Color de Texto = `#000000`
+
+Todos los demás campos (tamaño de fuente, tamaño de icono, espaciado, etc.) heredan automáticamente del Nivel 1.

@@ -1,12 +1,13 @@
 ---
-description: Controla el comportamiento del menú, la distribución, el posicionamiento, las reglas de visibilidad y la configuración específica de diapositivas en Navi+.
+description: Controla el comportamiento del menú, el diseño, la posición, las reglas de visibilidad y la configuración específica de la diapositiva en Navi+.
+lang: es
 layout: default
 permalink: /es/docs/setting/
 title: Configuración
 ---
 # Configuración
 
-La sección **Configuración** controla cómo tu menú **se comporta** y **se muestra** — velocidad de animación, comportamiento de expansión, posicionamiento, reglas de visibilidad y opciones específicas de diapositiva.
+La **sección de Configuración** controla cómo se **comporta** y **muestra** tu menú. Estas configuraciones determinan la velocidad de animación, el comportamiento de expansión, la posición del menú, las reglas de visibilidad (qué páginas muestran el menú) y las opciones específicas de la diapositiva.
 
 ---
 
@@ -14,16 +15,16 @@ La sección **Configuración** controla cómo tu menú **se comporta** y **se mu
 
 | # | Tema | |
 |---|---|---|
-| 1 | Animación, efectos de expansión y retroalimentación táctil | [Comportamiento de configuración](/es/docs/setting/setting-behavior/) |
-| 2 | Posición, espaciado, índice Z y ancho del submenú | [Distribución de configuración](/es/docs/setting/setting-layout/) |
-| 3 | Mostrar/ocultar por URL, dispositivo y tipo de página de Shopify | [Reglas de visualización de configuración](/es/docs/setting/setting-display-rules/) |
-| 4 | Dirección de diapositiva, ancho y botón de cierre | [Diapositiva de configuración](/es/docs/setting/setting-slide/) |
+| 1 | Animación, efectos de expansión y retroalimentación táctil | [Comportamiento de Configuración](/docs/setting/setting-behavior/) |
+| 2 | Posición, espaciado, z-index y ancho del submenú | [Diseño de Configuración](/docs/setting/setting-layout/) |
+| 3 | Mostrar/ocultar por URL, dispositivo y tipo de página de Shopify | [Reglas de Visualización de Configuración](/docs/setting/setting-display-rules/) |
+| 4 | Dirección de la diapositiva, ancho y botón de cerrar | [Configuración de Diapositiva](/docs/setting/setting-slide/) |
 
 ---
 
-## Referencia rápida
+## Referencia Rápida
 
 - **Comportamiento** — velocidad de animación, estilo de expansión, retroalimentación táctil
-- **Distribución** — relleno/margen, índice Z, ancho del submenú
-- **Reglas de visualización** — mostrar por palabra clave de URL, dispositivo, tipo de página de Shopify
-- **Diapositiva** — dirección, ancho, botón de cierre *(solo menú de diapositiva)*
+- **Diseño** — padding/margen, z-index, ancho del submenú
+- **Reglas de Visualización** — mostrar por palabra clave de URL, dispositivo, tipo de página de Shopify
+- **Diapositiva** — dirección, ancho, botón de cerrar *(Slide menu only)*

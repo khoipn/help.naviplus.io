@@ -1,29 +1,30 @@
 ---
-description: Kiểm soát hành vi, bố cục, vị trí, quy tắc hiển thị và cài đặt slide của menu Navi+.
+description: Kiểm soát hành vi menu, bố cục, vị trí, quy tắc hiển thị và cài đặt cụ thể cho slide trong Navi+.
+lang: vi
 layout: default
 permalink: /vi/docs/setting/
-title: Cài đặt (Setting)
+title: Cài đặt
 ---
-# Cài đặt (Setting)
+# Cài đặt
 
-Phần **Setting** kiểm soát cách menu **hoạt động** và **hiển thị**. Bao gồm tốc độ animation, hiệu ứng mở rộng, vị trí menu, quy tắc hiển thị (trang nào hiện menu) và các tùy chọn riêng cho Slide menu.
+Phần **Cài đặt** kiểm soát cách menu của bạn **hoạt động** và **hiển thị**. Những cài đặt này xác định tốc độ hoạt hình, hành vi mở rộng, vị trí menu, quy tắc hiển thị (các trang nào hiển thị menu), và các tùy chọn cụ thể cho slide.
 
 ---
 
-## Chủ đề
+## Các chủ đề
 
 | # | Chủ đề | |
 |---|---|---|
-| 1 | Animation, hiệu ứng mở rộng và touch feedback | [Setting Behavior](/vi/docs/setting/setting-behavior/) |
-| 2 | Vị trí, khoảng cách, z-index và chiều rộng submenu | [Setting Layout](/vi/docs/setting/setting-layout/) |
-| 3 | Hiển thị theo URL, thiết bị và loại trang Shopify | [Setting Display Rules](/vi/docs/setting/setting-display-rules/) |
-| 4 | Hướng mở, kích thước và nút đóng Slide menu | [Setting Slide](/vi/docs/setting/setting-slide/) |
+| 1 | Hiệu ứng hoạt hình, mở rộng và phản hồi chạm | [Cài đặt Hành vi](/docs/setting/setting-behavior/) |
+| 2 | Vị trí, khoảng cách, z-index, và chiều rộng submenu | [Cài đặt Bố cục](/docs/setting/setting-layout/) |
+| 3 | Hiện/ẩn theo URL, thiết bị, và loại trang Shopify | [Cài đặt Quy tắc Hiển thị](/docs/setting/setting-display-rules/) |
+| 4 | Hướng slide, chiều rộng, và nút đóng | [Cài đặt Slide](/docs/setting/setting-slide/) |
 
 ---
 
-## Tóm tắt nhanh
+## Tham khảo Nhanh
 
-- **Behavior** — tốc độ animation, kiểu mở rộng, touch feedback
-- **Layout** — padding/margin, z-index, chiều rộng submenu
-- **Display Rules** — hiển thị theo từ khóa URL, thiết bị, loại trang Shopify
-- **Slide** — hướng mở, kích thước, nút đóng *(chỉ Slide menu)*
+- **Hành vi** — tốc độ hoạt hình, kiểu mở rộng, phản hồi chạm
+- **Bố cục** — khoảng cách/biên, z-index, chiều rộng submenu
+- **Quy tắc Hiển thị** — hiển thị theo từ khóa URL, thiết bị, loại trang Shopify
+- **Slide** — hướng, chiều rộng, nút đóng *(Chỉ menu Slide)*

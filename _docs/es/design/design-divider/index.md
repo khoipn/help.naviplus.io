@@ -1,14 +1,15 @@
 ---
-description: Configura el estilo predeterminado de líneas divisoras en menús Navi+ — color, grosor, tipo y ancho.
+description: Configura el estilo predeterminado para todas las líneas divisorias en tu menú Navi+ — color, grosor, tipo y ancho.
+lang: es
 layout: default
 permalink: /es/docs/design/design-divider/
-title: Diseño divisor — Líneas separadoras
+title: Diseño del divisor — Líneas separadoras
 ---
-# Diseño Divisor — Líneas separadoras
+# Diseño del Divisor — Líneas Separadoras
 
-La configuración en **Diseño → Divisor** define la apariencia predeterminada de todos los divisores del menú.
+Los ajustes en **Diseño → Divisor** definen la apariencia predeterminada para todos los divisores en el menú.
 
-Este es un estilo de **nivel de menú** — los elementos individuales pueden anularlo mediante Editar elemento → Información básica → Agregar divisor.
+Este es un estilo a **nivel de menú** — los elementos individuales pueden habilitar/deshabilitar su propio divisor y anular el estilo a través de Editar Elemento → Información Básica → Agregar Divisor.
 
 ---
 
@@ -16,27 +17,27 @@ Este es un estilo de **nivel de menú** — los elementos individuales pueden an
 
 | Campo | Descripción | Predeterminado |
 |---|---|---|
-| **Color de divisor** | Color de la línea (hex) | `#EEEEEE` |
-| **Tamaño del divisor (px)** | Grosor de la línea | 1px |
-| **Tipo de divisor** | Sólido / Guionado / Punteado / Doble | Sólido |
-| **Ancho del divisor** | Completo / Insertado / Bajo el texto | Completo |
+| **Color del Divisor** | Color de la línea (hex) | `#EEEEEE` |
+| **Tamaño del Divisor (px)** | Grosor de la línea | 1px |
+| **Tipo de Divisor** | Estilo de línea: Sólido / Discontinuo / Puntado / Doble | Sólido |
+| **Ancho del Divisor** | Extensión de la línea: Completo / Sangrado / Bajo texto | Completo |
 
-> **Tipo de divisor** y **Ancho del divisor** requieren el plan Business o Elite.
-
----
-
-## Cómo funciona
-
-1. La configuración aquí = predeterminado cuando un elemento tiene **Agregar divisor** activado.
-2. El estilo de divisor por elemento anula esto.
-3. El Nivel 2-3 hereda el Color de divisor si está vacío.
+> **Tipo de Divisor** y **Ancho del Divisor** requieren el plan Business o Elite.
 
 ---
 
-## Ancho del divisor
+## Cómo Funciona
+
+1. Los ajustes aquí son los **predeterminados** aplicados cuando un elemento tiene habilitado **Agregar Divisor**.
+2. Si un elemento tiene su propio estilo de divisor (en Editar Elemento), ese estilo **anula** lo que se establece aquí.
+3. El nivel 2-3 hereda `Color del Divisor` de esta sección cuando el campo `submenuDividerColor` está vacío.
+
+---
+
+## Opciones de Ancho del Divisor
 
 | Valor | Visualización |
 |---|---|
-| **Completo** | Ancho completo del elemento |
-| **Insertado** | Sangrado en ambos lados |
-| **Bajo el texto** | Solo bajo la parte de texto |
+| **Completo** | La línea abarca todo el ancho del elemento |
+| **Sangrado** | La línea está indentada en ambos lados |
+| **Bajo texto** | La línea aparece solo debajo de la parte de texto del elemento |

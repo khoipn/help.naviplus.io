@@ -1,39 +1,42 @@
 ---
 description: Navi+がサポートするすべてのリンクタイプ — 内部ページ、外部URL、アンカー、パネルを開く、電話/メール、チャットアプリ、共有、JavaScript。
+lang: jp
 layout: default
 permalink: /jp/docs/menu-items/item-link-types/
 title: リンクタイプ
 ---
 # リンクタイプ
 
-基本情報の **リンク先** フィールドで、訪問者がアイテムをタップまたはクリックしたときの動作を制御します。Navi+はシンプルなURL以外にも多くのリンクタイプをサポートします。
+The **Link To** field in Basic Info controls what happens when a visitor taps or clicks an item. Navi+ supports many link types beyond a plain URL.
 
-リンク先フィールドをクリックすると、完全な例のヘルプポップアップが自動的に開きます。直接フィールドに入力することもできます。
+When you click the Link To field, a help popup opens automatically with full examples. You can also type directly into the field.
 
 ---
 
 ## 1. 内部ストアページ
 
-Shopifyストア内のページへのリンクには短いパス（ドメインなし）を使用します。
+Use short paths (no domain) to link to pages within your Shopify store.
 
-| 目的 | 入力 |
+| Destination | Enter |
 |---|---|
-| ホームページ | *(空欄のまま)* |
-| 全製品 | `collections/all` |
-| コレクション | `collections/collection-handle` |
-| 製品ページ | `products/product-handle` |
-| 静的ページ | `pages/page-handle` |
-| ブログ一覧 | `blogs/news` |
-| ブログ記事 | `blogs/news/post-handle` |
-| カート | `cart` |
-| 検索 | `search` |
-| お問い合わせ | `pages/contact` |
+| Home page | *(leave empty)* |
+| All products | `collections/all` |
+| A collection | `collections/collection-handle` |
+| A product page | `products/product-handle` |
+| A static page (About, FAQ…) | `pages/page-handle` |
+| Blog listing | `blogs/news` |
+| A blog post | `blogs/news/post-handle` |
+| Cart | `cart` |
+| Search | `search` |
+| Contact | `pages/contact` |
 
-**Auto Cleanのヒント:** 完全なURLを貼り付け → **Auto clean** トグルを有効化 → システムがドメインを削除してパスのみ保持。
+**Auto Clean tip:** Paste a full URL (e.g. `https://mystore.com/collections/sale`) → enable the **Auto clean** toggle → the system strips the domain and keeps only `collections/sale`.
 
 ---
 
-## 2. 完全URL（外部リンク）
+## 2. フルURL（外部リンク）
+
+Link to any website using a full URL.
 
 ```
 https://brand.com/campaign
@@ -44,7 +47,7 @@ https://instagram.com/yourpage
 
 ## 3. 新しいタブで開く
 
-任意のリンクに `@new` を追加。
+Append `@new` to any link to open it in a new tab.
 
 ```
 collections/all@new
@@ -55,6 +58,8 @@ https://brand.com/campaign@new
 
 ## 4. ナビゲーションなし（親アイテム）
 
+Use `#` when an item is a parent that contains child items — tapping it expands the children without navigating anywhere.
+
 ```
 #
 ```
@@ -63,42 +68,49 @@ https://brand.com/campaign@new
 
 ## 5. スクロール（アンカー）
 
-| アクション | 構文 |
+| Action | Syntax |
 |---|---|
-| 上にスクロール | `scroll:Top` |
-| 100pxオフセットで上に | `scroll:Top(100)` |
-| 下にスクロール | `scroll:Bottom` |
-| CSSセレクターでセクションへ | `scroll:OnPage(#section-id)` *(Business / Elite)* |
+| Scroll to top | `scroll:Top` |
+| Scroll to top with 100px offset | `scroll:Top(100)` |
+| Scroll to bottom | `scroll:Bottom` |
+| Scroll to a section by CSS selector | `scroll:OnPage(#section-id)` *(Business / Elite)* |
+
+**Example:** A "Back to top" button → Link To is `scroll:Top`.
 
 ---
 
-## 6. パネル / ポップアップを開く *(Business / Elite)*
+## 6. パネル/ポップアップを開く *(Business / Elite)*
 
-| アクション | 構文 |
+Open theme UI components without leaving the page.
+
+| Action | Syntax |
 |---|---|
-| Navi+スライドメニューを開く | `open:NaviMenu(SF-XXXXXXXXXX)` |
-| CSS要素をクリック | `open:clickTo(#cart-button)` |
-| 入力フィールドにフォーカス | `open:focusTo(.search-input)` |
-| テーマの検索/カートドロワー | ヘルプポップアップ → *パネルを開く* |
-| Shopify Inboxチャット | ヘルプポップアップ → *他のアプリを開く* |
+| Open a Navi+ Slide menu | `open:NaviMenu(SF-XXXXXXXXXX)` |
+| Click a CSS element | `open:clickTo(#cart-button)` |
+| Focus an input field | `open:focusTo(.search-input)` |
+| Open theme search / cart drawer | Use the help popup → *Open panels* |
+| Open Shopify Inbox chat | Use the help popup → *Open other applications* |
+
+`open:clickTo` and `open:focusTo` accept `Down` or `Up` to scroll before acting:  
+`open:clickTo(.footer-element, Down)`
 
 ---
 
 ## 7. 電話、SMS、メール
 
-| アクション | 構文 |
+| Action | Syntax |
 |---|---|
-| 電話 | `tel:+81312345678` |
-| SMS | `sms:+81312345678?body=こんにちは` |
-| メール | `mailto:hello@yourdomain.jp` |
+| Phone call | `tel:+12125550100` |
+| SMS | `sms:+12125550100?body=Hello` |
+| Email | `mailto:hello@yourdomain.com` |
 
 ---
 
 ## 8. チャットアプリ
 
-| アプリ | 構文 |
+| App | Syntax |
 |---|---|
-| WhatsApp | `https://wa.me/81312345678` |
+| WhatsApp | `https://wa.me/12125550100` *(no + prefix)* |
 | Messenger | `https://m.me/YourPageName` |
 | Zalo | `https://zalo.me/+0123456789` |
 | Line | `https://lin.ee/your-line-code` |
@@ -107,16 +119,18 @@ https://brand.com/campaign@new
 
 ## 9. 共有
 
-| アクション | 構文 |
+| Action | Syntax |
 |---|---|
-| 現在のページを共有 | `open:ShareMe` |
-| URLをコピー | `share:CopyUrl` |
-| Facebookで共有 | `share:Facebook` |
-| Twitter / Xで共有 | `share:Tweet` |
+| Share current page (native share dialog) | `open:ShareMe` |
+| Copy URL to clipboard | `share:CopyUrl` |
+| Share to Facebook | `share:Facebook` |
+| Share to Twitter / X | `share:Tweet` |
 
 ---
 
-## 10. JavaScript呼び出し
+## 10. JavaScriptを呼び出す
+
+Call any JavaScript function defined on the page.
 
 ```
 javascript:openCustomModal
@@ -125,10 +139,10 @@ javascript:toggleDarkMode
 
 ---
 
-## 11. 言語切替
+## 11. 言語を切り替える
 
 ```
-open:ChangeLanguage(ja)
-open:ChangeLanguage(en)
-open:ChangeLanguage()
+open:ChangeLanguage(fr)    ← switch to French
+open:ChangeLanguage(vi)    ← switch to Vietnamese
+open:ChangeLanguage()      ← reset to default language
 ```

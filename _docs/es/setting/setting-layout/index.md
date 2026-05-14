@@ -1,63 +1,73 @@
 ---
-description: Configura la posición del menú, el relleno, el margen, el índice Z y el ancho del submenú en Navi+.
+description: Configura la posición del menú, el relleno, el margen, el z-index y el ancho del submenú en Navi+.
+lang: es
 layout: default
 permalink: /es/docs/setting/setting-layout/
-title: Distribución de configuración — Posición y espaciado
+title: Configuración de diseño — Posición y espaciado
 ---
-# Distribución de configuración — Posición y espaciado
+# Configuración de Diseño — Posición y Espaciado
 
-Controla la **posición** de todo el menú, el **orden de apilamiento** y el **ancho del submenú**.
+Estos ajustes controlan la **posición** de todo el menú en la página, su **orden de apilamiento** en relación con otros elementos, y el **ancho** de los submenús.
 
 ---
 
-## Relleno y margen del menú
+## Relleno y Margen del Menú
 
-Controla el espaciado exterior e interior del **contenedor del menú completo** — diferente del relleno a nivel de elemento en Diseño.
+Controla el espaciado exterior e interior de **todo el contenedor del menú** — diferente del relleno a nivel de ítem en Diseño.
 
 | Campo | Descripción |
 |---|---|
-| **Margen superior / derecho / inferior / izquierdo (px)** | Espacio desde el menú hasta el borde de la pantalla |
-| **Relleno superior / derecho / inferior / izquierdo (px)** | Espacio dentro del contenedor del menú |
+| **Margen Superior / Derecho / Inferior / Izquierdo (px)** | Espacio entre el menú y el borde de la pantalla o elementos circundantes |
+| **Relleno Superior / Derecho / Inferior / Izquierdo (px)** | Espacio dentro del contenedor del menú, antes de que se muestren los ítems |
 
 **Cuándo usar:**
-- Subir Tabbar sobre la barra de navegación del navegador iOS: `Margen inferior = 34`
-- Espacio encima del Mega Menú: `Margen superior = 8`
+- Empujar un Tabbar por encima de la barra de navegación del navegador en iOS: `Margen Inferior = 34`
+- Agregar espacio entre un Mega Menu y el encabezado: `Margen Superior = 8`
 
 ---
 
-## Índice Z
+## Z-Index
+
+Orden de apilamiento del menú en relación con otros elementos de la página (encabezado, widget de chat, ventanas emergentes, etc.).
 
 | Campo | Descripción | Predeterminado |
 |---|---|---|
-| **Índice Z** | Mayor = encima | Auto |
+| **Z-Index** | Valor entero — mayor = encima | Automático |
 
-- Menú cubierto por encabezado adhesivo → aumentar Índice Z.
-- Menú que cubre el widget de chat → disminuir Índice Z.
+**Cuándo ajustar:**
+- El menú está cubierto por un encabezado fijo → aumentar Z-Index por encima del valor del encabezado.
+- El menú está cubriendo un widget de chat → disminuir Z-Index por debajo del widget.
 
-Típico: encabezados del tema = `1000–9999`; widgets de chat = `9999–99999`.
+Valores de referencia comunes: los encabezados de tema suelen ser `1000–9999`; los widgets de chat suelen ser `9999–99999`.
 
 ---
 
-## Ancho del submenú
+## Ancho del Submenú
+
+Se aplica a los submenús desplegables (Tabbar, Mega Menu de una sola columna).
 
 | Campo | Descripción | Predeterminado |
 |---|---|---|
-| **Ancho del submenú (px)** | Ancho del panel de submenú de una columna | 360px |
+| **Ancho del Submenú (px)** | Ancho de los paneles de submenú de una sola columna | 360px |
 
 ---
 
-## Escritorio
+## Escritorio — Comportamiento y Ancho del Submenú
+
+Se aplica cuando el menú se muestra en escritorio.
 
 | Campo | Descripción |
 |---|---|
-| **Mostrar submenú al pasar** | Abrir submenús al pasar el ratón |
-| **Ancho del submenú de expansión completa (px)** | Ancho del submenú de múltiples columnas |
-| **Dirección del submenú** | Dirección en que se abren los submenús |
+| **Mostrar submenú al pasar el mouse** | Abrir submenús al pasar el mouse sin hacer clic |
+| **Ancho del submenú completamente expandido (px)** | Ancho de submenús de varias columnas (Desktop Mega Menu) |
+| **Dirección del submenú** | Dirección en la que se abren los submenús: derecha / izquierda / arriba / abajo |
 
 ---
 
-## Multi-Sitios *(Elite)*
+## Múltiples Sitios *(Elite)*
+
+Incrusta el menú en múltiples dominios fuera de la tienda principal de Shopify.
 
 | Campo | Descripción |
 |---|---|
-| **Multi-Sitios** | Lista de dominios separados por coma (p. ej. `brand.com,shop.brand.com`) |
+| **Múltiples Sitios** | Lista de dominios separados por comas (por ejemplo, `brand.com,shop.brand.com`) |

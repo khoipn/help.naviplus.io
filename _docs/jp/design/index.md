@@ -1,32 +1,37 @@
 ---
-description: 階層的なデザインシステムを通じて Navi+ メニューの外観を制御する — 色、フォント、間隔、背景、アイコン。
+description: Navi+ メニューの外観を制御します — 色、フォント、間隔、背景、アイコンを階層的なデザインシステムを通じて。
+lang: jp
 layout: default
 permalink: /jp/docs/design/
 title: デザイン
 ---
 # デザイン
 
-**デザイン**セクションはメニューの全体的な外観を制御します：色、フォント、間隔、背景、アイコン。ここでの設定は、3 レベルの継承システムを使用して**メニュー全体**に適用されます。
+The **Design** section controls the entire appearance of your menu: colors, typography, spacing, backgrounds, and icons. Settings here apply to the **entire menu** using a three-level inheritance system.
+
+---
 
 ## トピック
 
 | # | トピック | |
 |---|---|---|
-| 1 | 継承システムとオーバーライドメカニズム（最初にお読みください） | [デザイン概要](/jp/docs/design/design-overview/) |
-| 2 | レベル 1 — メインメニュー項目の外観 | [デザインレベル 1](/jp/docs/design/design-level1/) |
-| 3 | レベル 2-3 — サブメニューの外観 | [デザインレベル 2-3](/jp/docs/design/design-level2/) |
-| 4 | 区切り — 区切り線 | [デザイン区切り](/jp/docs/design/design-divider/) |
+| 1 | Inheritance system and override mechanism (read first) | [Design Overview](/docs/design/design-overview/) |
+| 2 | Level 1 — Appearance of main menu items | [Design Level 1](/docs/design/design-level1/) |
+| 3 | Level 2-3 — Appearance of submenus | [Design Level 2-3](/docs/design/design-level2/) |
+| 4 | Divider — Separator lines | [Design Divider](/docs/design/design-divider/) |
+
+---
 
 ## クイックリファレンス
 
 ```
-グローバルデフォルト（ハードコード）
+Global defaults (hardcoded)
     ↓
-レベル 1  — すべてのトップレベルメニュー項目に適用
-    ↓  （空の場合、レベル 2-3 が継承）
-レベル 2-3 — サブメニュー／ドロップダウンに適用
-    ↓  （すべてをオーバーライド）
-項目ごと — 編集項目内の個別設定
+Level 1  — applies to all top-level menu items
+    ↓  (Level 2-3 inherits if empty)
+Level 2-3 — applies to submenus / dropdowns
+    ↓  (overrides everything)
+Per-item — individual settings in Edit Item
 ```
 
-ルール：空 = 上から継承。値を設定 = オーバーライド。
+**Rule:** Empty = inherit from above. Set a value = override.

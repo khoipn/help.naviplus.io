@@ -1,33 +1,34 @@
 ---
-description: 在 Navi+ 中发布 Section 菜单（Mega Menu、Grid）— 使用 CSS Selector 进行 Insert/Replace 或在 Shopify 上使用 App Block。
+description: 发布部分菜单（Mega Menu，Grid）在 Navi+ — 在 Shopify 中使用 CSS 选择器或应用块插入/替换。
+lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/publish/publish-section/
-title: Publish Section — Mega Menu 和 Grid
+title: 发布部分 — Mega menu & grid
 ---
-# Publish Section — Mega Menu 和 Grid
+# 发布部分 — Mega Menu & Grid
 
-适用于：**Mobile Mega Menu**、**Mobile Grid**、**Desktop Mega Menu**
+适用于：**移动 Mega Menu**，**移动 Grid**，**桌面 Mega Menu**
 
-Section 菜单**不是浮动的** — 它们被插入到页面布局的特定位置。有两种部署方法，可以同时使用：
+部分菜单是**不浮动**的 — 它们在页面布局中的特定位置插入。有两种部署方法，可以一起使用：
 
-| | 方法 1：Insert/Replace | 方法 2：App Block |
+| | 方法 1：插入/替换 | 方法 2：应用块 |
 |---|---|---|
-| 平台 | Shopify + 全局 | 仅限 Shopify |
-| 机制 | CSS Selector → 在元素前/后插入或替换元素 | Theme Editor 中的 App Block"Navi+ on Section" |
-| 灵活性 | 高 — 可嵌入任何位置 | 中 — 受 Shopify 区块 schema 限制 |
-| 配置 | 需要了解 CSS Selector | 只需输入 Embed ID |
+| 平台 | Shopify + Global | 仅限 Shopify |
+| 机制 | CSS 选择器 → 在元素之前/之后插入/替换 | 应用块 "Navi+ on Section" 在主题编辑器中 |
+| 灵活性 | 高 — 可以嵌入任何地方 | 中 — 受限于 Shopify 部分架构 |
+| 设置 | 需要了解 CSS 选择器 | 只需输入嵌入 ID |
 
 ---
 
-## 方法 1：使用 CSS Selector 进行 Insert/Replace
+## 方法 1：使用 CSS 选择器插入/替换
 
-**推荐**方法 — 适用于 Shopify 和全局。
+**推荐**的方法 — 适用于 Shopify 和 Global。
 
 ### 步骤 1：嵌入代码
 
-**Shopify：** **Theme Editor → App Embeds** → 启用 Navi+。仅一次。
+**Shopify：** **主题编辑器 → 应用嵌入** → 启用 Navi+。仅需一次。
 
-**全局：** 粘贴到 `<head>`：
+**Global：** 粘贴到 `<head>`：
 ```html
 <script>(window._navi_setting ||= []).push({
   token: "YOUR_NAVI_TOKEN"
@@ -35,86 +36,86 @@ Section 菜单**不是浮动的** — 它们被插入到页面布局的特定位
 <script src="https://live.naviplus.app/start.js" async></script>
 ```
 
-### 步骤 2：启用"Publish menu by Insert/Replace method"
+### 步骤 2：启用 "通过插入/替换方法发布菜单"
 
-启用开关以展开下方的配置区域。
+启用切换以展开下面的配置部分。
 
-### 步骤 3：输入 CSS Selector
+### 步骤 3：输入 CSS 选择器
 
-输入**一个** CSS Selector。菜单将相对于匹配的元素进行放置。
+输入**一个** CSS 选择器。菜单将相对于匹配的元素放置。
 
 **设备特定语法：**
 
 | 后缀 | 设备 |
 |---|---|
-| `header` | 移动端和桌面端 |
-| `header(M)` | 仅移动端 |
-| `header(D)` | 仅桌面端 |
+| `header` | 移动和桌面 |
+| `header(M)` | 仅限移动 |
+| `header(D)` | 仅限桌面 |
 
-**热门 Shopify 主题的 CSS Selector 技巧：**
+**流行 Shopify 主题的 CSS 选择器提示：**
 
-| 菜单类型 | 目的 | 建议的 CSS Selector |
+| 菜单类型 | 目的 | 建议的 CSS 选择器 |
 |---|---|---|
-| Desktop Mega | 替换桌面端导航 | `nav.header__inline-menu ul.list-menu` |
-| Desktop Mega | 在 header 下方插入 | `header` |
-| Mobile Mega | 在移动端 header 下方插入 | `header` |
+| 桌面 Mega | 替换桌面导航 | `nav.header__inline-menu ul.list-menu` |
+| 桌面 Mega | 在标题下方插入 | `header` |
+| 移动 Mega | 在移动标题下方插入 | `header` |
 
-### 步骤 4：选择放置方式（Insert/Replace）
+### 步骤 4：选择放置位置（插入/替换）
 
 | 值 | 行为 |
 |---|---|
-| **Replace** | 用 Navi+ 菜单完全替换原始元素 |
-| **Insert Before** | 在元素前插入 Navi+ 菜单 |
-| **Insert After** | 在元素后插入 Navi+ 菜单 |
+| **替换** | 完全用 Navi+ 菜单替换原始元素 |
+| **插入之前** | 在元素之前插入 Navi+ 菜单 |
+| **插入之后** | 在元素之后插入 Navi+ 菜单 |
 
-> 选择 **Replace** 后，考虑添加 CSS 在 Navi+ 加载期间隐藏原始元素 — 参阅 [Publish Optimize](/zh-cn/docs/publish/publish-optimize/)。
+> 选择**替换**后，考虑添加 CSS 隐藏原始元素，同时加载 Navi+ — 请参见 [发布优化](/docs/publish/publish-optimize/)。
 
 ---
 
-## 方法 2：App Block（仅限 Shopify）
+## 方法 2：应用块（仅限 Shopify）
 
-### 设置方法
+### 如何设置
 
-1. 复制菜单的 **Embed ID**（显示在弹窗中 — 点击复制）。
-2. 前往 **Shopify Theme Editor** → 找到 **"Navi+ on Section"** App Block。
-3. 将 Embed ID 粘贴到对应字段。
+1. 复制菜单的**嵌入 ID**（在模态中显示 — 点击复制）。
+2. 转到**Shopify 主题编辑器** → 找到**"Navi+ on Section"** 应用块。
+3. 将嵌入 ID 粘贴到相应字段中。
 4. 保存主题。
 
-### "滚动时固定在顶部"
+### "在滚动时固定在顶部"
 
-在滚动时将 Section 菜单固定在页面顶部的开关。
+切换以在滚动时将部分菜单固定在页面顶部。
 
-**使用场景：** 如果主题没有内置的粘性 header，启用此功能可让 Desktop Mega Menu 在用户向下滚动时保持可见。
+**何时使用：** 如果主题没有内置的粘性标题，请启用此功能，以便桌面 Mega 菜单在用户向下滚动时保持可见。
 
 ---
 
-## 可以同时使用两种方法吗？
+## 两种方法可以一起使用吗？
 
-可以。Shopify 用户可以同时启用两种方法：
-- App Block 用于 Theme Editor 预览（更稳定，更易于预览）。
-- Insert/Replace 用于在店面中更精确的放置。
+可以。Shopify 用户可以同时启用两者：
+- 应用块用于主题编辑器预览（更稳定，更易于预览）。
+- 插入/替换用于在商店前端更精确的放置。
 
 通常只需要一种方法。
 
 ---
 
-## 各菜单类型注意事项
+## 按菜单类型的说明
 
 | 菜单 | 设备 | 说明 |
 |---|---|---|
-| Mobile Mega Menu | 桌面端开关已禁用 | 仅限移动端 |
-| Mobile Header | 桌面端开关已禁用 | 仅限移动端 |
-| Desktop Mega Menu | 移动端开关已禁用 | 仅限桌面端 |
-| Mobile Grid | 两者 | 无限制 |
+| 移动 Mega Menu | 禁用桌面切换 | 仅限移动 |
+| 移动标题 | 禁用桌面切换 | 仅限移动 |
+| 桌面 Mega Menu | 禁用移动切换 | 仅限桌面 |
+| 移动 Grid | 两者 | 无限制 |
 
 ---
 
-## 故障排查
+## 故障排除
 
-**配置 Insert/Replace 后菜单不显示？**
-1. 检查 CSS Selector 是否正确 — 使用 DevTools 或 Navi+ Debug Mode。
-2. 检查"Publish menu by Insert/Replace method"开关是否已启用。
-3. 检查 App Embeds / 嵌入代码是否已就位。
+**配置插入/替换后菜单不出现？**
+1. 检查 CSS 选择器是否正确 — 使用开发者工具或 Navi+ 调试模式。
+2. 检查 "通过插入/替换方法发布菜单" 切换是否已启用。
+3. 检查应用嵌入/嵌入代码是否到位。
 
 **菜单出现两次（重复）？**
-→ App Block 和 Insert/Replace 同时处于激活状态。禁用其中一个。
+→ 应用块和插入/替换同时处于活动状态。禁用其中一个。

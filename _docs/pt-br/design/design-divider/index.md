@@ -1,32 +1,43 @@
 ---
-description: Configure o estilo padrão de linha divisória nos menus Navi+ — cor, espessura, tipo e largura.
+description: Configure the default style for all divider lines in your Navi+ menu — color, thickness, type, and width.
+lang: pt-br
 layout: default
 permalink: /pt-br/docs/design/design-divider/
-title: Design divisor — Linhas separadoras
+title: Design divider — Separator lines
 ---
-# Design Divisor — Linhas Separadoras
+# Design Divider — Separator Lines
 
-As configurações em Design → Divisor definem a aparência padrão de todos os divisores.
+Settings at **Design → Divider** define the default appearance for all dividers in the menu.
 
-Estilo em nível de menu — itens individuais podem substituir via Editar Item → Informações Básicas → Add Divider.
+This is a **menu-level** style — individual items can enable/disable their own divider and override the style via Edit Item → Basic Info → Add Divider.
 
-## Campos
+---
 
-| Campo | Descrição | Padrão |
+## Fields
+
+| Field | Description | Default |
 |---|---|---|
-| Divider Color | Cor da linha (hex) | #EEEEEE |
-| Divider Size (px) | Espessura da linha | 1px |
-| Divider Type | Solid / Dashed / Dotted / Double | Solid |
-| Divider Width | Full / Inset / Under text | Full |
+| **Divider Color** | Line color (hex) | `#EEEEEE` |
+| **Divider Size (px)** | Line thickness | 1px |
+| **Divider Type** | Line style: Solid / Dashed / Dotted / Double | Solid |
+| **Divider Width** | Line span: Full / Inset / Under text | Full |
 
-Divider Type e Divider Width requerem plano Business ou Elite.
+> **Divider Type** and **Divider Width** require Business or Elite plan.
 
-## Como Funciona
+---
 
-1. Padrão quando o item tem Add Divider habilitado.
-2. O estilo por item substitui este.
-3. O Nível 2-3 herda Divider Color se vazio.
+## How It Works
 
-## Divider Width
+1. Settings here are the **default** applied when an item has **Add Divider** enabled.
+2. If an item has its own divider style (in Edit Item), that style **overrides** what is set here.
+3. Level 2-3 inherits `Divider Color` from this section when the `submenuDividerColor` field is empty.
 
-Full = largura total do item. Inset = recuado em ambos os lados. Under text = apenas sob o texto.
+---
+
+## Divider Width Options
+
+| Value | Display |
+|---|---|
+| **Full** | Line spans the full width of the item |
+| **Inset** | Line is indented on both sides |
+| **Under text** | Line appears only under the text portion of the item |

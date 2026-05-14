@@ -1,25 +1,30 @@
 ---
 description: Controle o comportamento do menu, layout, posicionamento, regras de visibilidade e configurações específicas de slide no Navi+.
+lang: pt-br
 layout: default
 permalink: /pt-br/docs/setting/
-title: Setting
+title: Configuração
 ---
-# Setting
+# Configuração
 
-Controla como seu menu se comporta e é exibido — animação, comportamento de expansão, posicionamento, regras de visibilidade, opções de slide.
+A seção **Configuração** controla como seu menu **comporta-se** e **exibe-se**. Essas configurações determinam a velocidade da animação, o comportamento de expansão, o posicionamento do menu, as regras de visibilidade (quais páginas mostram o menu) e opções específicas de slide.
+
+---
 
 ## Tópicos
 
 | # | Tópico | |
 |---|---|---|
-| 1 | Animação, efeitos de expansão, feedback tátil | [Setting Behavior](/pt-br/docs/setting/setting-behavior/) |
-| 2 | Posição, espaçamento, z-index, largura de submenu | [Setting Layout](/pt-br/docs/setting/setting-layout/) |
-| 3 | Mostrar/ocultar por URL, dispositivo, tipo de página Shopify | [Setting Display Rules](/pt-br/docs/setting/setting-display-rules/) |
-| 4 | Direção de slide, largura, botão de fechar | [Setting Slide](/pt-br/docs/setting/setting-slide/) |
+| 1 | Animação, efeitos de expansão e feedback tátil | [Configuração do Comportamento](/docs/setting/setting-behavior/) |
+| 2 | Posição, espaçamento, z-index e largura do submenu | [Configuração do Layout](/docs/setting/setting-layout/) |
+| 3 | Mostrar/ocultar por URL, dispositivo e tipo de página Shopify | [Configuração das Regras de Exibição](/docs/setting/setting-display-rules/) |
+| 4 | Direção do slide, largura e botão de fechar | [Configuração do Slide](/docs/setting/setting-slide/) |
+
+---
 
 ## Referência Rápida
 
-- Behavior — velocidade de animação, estilo de expansão, feedback tátil
-- Layout — padding/margem, z-index, largura de submenu
-- Display Rules — palavra-chave URL, dispositivo, tipo de página Shopify
-- Slide — direção, largura, botão de fechar (apenas menu slide)
+- **Comportamento** — velocidade da animação, estilo de expansão, feedback tátil
+- **Layout** — padding/margin, z-index, largura do submenu
+- **Regras de Exibição** — mostrar por palavra-chave de URL, dispositivo, tipo de página Shopify
+- **Slide** — direção, largura, botão de fechar *(Slide menu apenas)*

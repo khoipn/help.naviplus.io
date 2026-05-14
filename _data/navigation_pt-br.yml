@@ -1,33 +1,19 @@
-- title: --
-  type: separator
-- processed_path: getting-started
+- children:
+  - processed_path: getting-started/what-is-navi
+    title: O que é o Navi+? (Como funciona)
+    url: /docs/getting-started/what-is-navi/
+  - processed_path: how-to-install-navi
+    title: Instale o Navi+
+    url: /docs/how-to-install-navi/
+  - processed_path: frequently-asked-questions/navi-plans-starter-business-and-elite
+    title: Comparação de Planos e Preços
+    url: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
+  - processed_path: common-first-questions
+    title: Perguntas comuns iniciais
+    url: /docs/common-first-questions/
+  processed_path: getting-started
   title: Começando
   url: /docs/getting-started/
-- processed_path: why-choose-navi
-  title: Por que escolher o Navi+?
-  url: /docs/why-choose-navi/
-- processed_path: common-first-questions
-  title: Perguntas comuns iniciais
-  url: /docs/common-first-questions/
-- processed_path: how-to-install-navi
-  title: Como instalar o Navi+
-  url: /docs/how-to-install-navi/
-- processed_path: line
-  title: line
-  url: /docs/line/
-- processed_path: troubleshooting
-  title: Solução de Problemas
-  url: /docs/troubleshooting/
-- processed_path: latest-update
-  title: Última Atualização
-  url: /docs/latest-update/
-- children:
-  - processed_path: demo/1click-live-demo
-    title: Demonstração ao vivo 1Click
-    url: /docs/demo/1click-live-demo/
-  processed_path: demo
-  title: Demonstração
-  url: /docs/demo/
 - children:
   - processed_path: usage/explore-common-menus
     title: Explore menus comuns
@@ -39,8 +25,11 @@
     - processed_path: usage/tabbar-bottom-navigation/publishing-on-shopify
       title: Publicando no Shopify
       url: /docs/usage/tabbar-bottom-navigation/publishing-on-shopify/
+    - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress
+      title: Barra de Abas — Publique no WordPress
+      url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
     - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others
-      title: Publicar no WordPress / Woo / Wix / Outros
+      title: Publicar no Wix / Squarespace / Outros
       url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
     processed_path: usage/tabbar-bottom-navigation
     title: Tabbar (Bottom Navigation)
@@ -52,8 +41,11 @@
     - processed_path: usage/mega-menu-desktop/publishing-on-shopify
       title: Publicando no Shopify
       url: /docs/usage/mega-menu-desktop/publishing-on-shopify/
+    - processed_path: usage/mega-menu-desktop/publish-on-wordpress
+      title: Mega Menu (Desktop) — Publish on WordPress
+      url: /docs/usage/mega-menu-desktop/publish-on-wordpress/
     - processed_path: usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others
-      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      title: Publicar no Wix / Squarespace / Outros
       url: /docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
     - processed_path: usage/mega-menu-desktop/faq
       title: FAQ
@@ -68,8 +60,11 @@
     - processed_path: usage/mega-menu-mobile/publishing-on-shopify
       title: Publicando no Shopify
       url: /docs/usage/mega-menu-mobile/publishing-on-shopify/
+    - processed_path: usage/mega-menu-mobile/publish-on-wordpress
+      title: Mega Menu (Mobile) — Publish on WordPress
+      url: /docs/usage/mega-menu-mobile/publish-on-wordpress/
     - processed_path: usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others
-      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      title: Publicar no Wix / Squarespace / Outros
       url: /docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/mega-menu-mobile
     title: Mega Menu (mobile)
@@ -84,11 +79,14 @@
     - processed_path: usage/slide-menu-hamburger-menu/publishing-on-shopify
       title: Publicando no Shopify
       url: /docs/usage/slide-menu-hamburger-menu/publishing-on-shopify/
+    - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress
+      title: Slide Menu — Publish on WordPress
+      url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
     - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others
-      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      title: Publicar no Wix / Squarespace / Outros
       url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/slide-menu-hamburger-menu
-    title: Menu deslizante (Menu Hambúrguer)
+    title: Slide menu (Hamburger Menu)
     url: /docs/usage/slide-menu-hamburger-menu/
   - children:
     - processed_path: usage/fab-floating-menu-quick-access/how-to-use
@@ -97,8 +95,11 @@
     - processed_path: usage/fab-floating-menu-quick-access/publishing-on-shopify
       title: Publicando no Shopify
       url: /docs/usage/fab-floating-menu-quick-access/publishing-on-shopify/
+    - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress
+      title: FAB — Publicar no WordPress
+      url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
     - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others
-      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      title: Publicar no Wix / Squarespace / Outros
       url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/fab-floating-menu-quick-access
     title: FAB - Menu Flutuante / Acesso Rápido
@@ -113,40 +114,129 @@
     - processed_path: usage/grid-menu/publishing-on-shopify
       title: Publicando no Shopify
       url: /docs/usage/grid-menu/publishing-on-shopify/
+    - processed_path: usage/grid-menu/publish-on-wordpress
+      title: Menu em Grade — Publicar no WordPress
+      url: /docs/usage/grid-menu/publish-on-wordpress/
     - processed_path: usage/grid-menu/publish-on-wordpress-woocommerce-wix-others
-      title: Publicar no WordPress / WooCommerce / Wix / Outros
+      title: Publicar no Wix / Squarespace / Outros
       url: /docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/grid-menu
     title: Menu em Grade
     url: /docs/usage/grid-menu/
-  - children:
-    - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
-      title: Tab Slide — Agrupar Itens do Menu em Abas
-      url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
-    - processed_path: usage/general/apply-multi-language
-      title: Aplicar multi-idioma
-      url: /docs/usage/general/apply-multi-language/
-    - processed_path: usage/general/find-css-selector
-      title: Encontrar Seletor CSS
-      url: /docs/usage/general/find-css-selector/
-    - processed_path: usage/general/z-index
-      title: Z-index
-      url: /docs/usage/general/z-index/
-    - processed_path: usage/general/apply-a-custom-font
-      title: Aplicar uma fonte personalizada
-      url: /docs/usage/general/apply-a-custom-font/
-    - processed_path: usage/general/advanced-image-upload
-      title: Upload avançado de imagens
-      url: /docs/usage/general/advanced-image-upload/
-    - processed_path: usage/general/menu-depth
-      title: Menu depth
-      url: /docs/usage/general/menu-depth/
-    processed_path: usage/general
-    title: Geral
-    url: /docs/usage/general/
+  processed_path: usage
+  title: Uso
+  url: /docs/usage/
+- children:
+  - processed_path: menu-items/item-overview
+    title: Item Overview
+    url: /docs/menu-items/item-overview/
+  - processed_path: menu-items/item-create-manage
+    title: Criar e Gerenciar Itens
+    url: /docs/menu-items/item-create-manage/
+  - processed_path: menu-items/item-link-types
+    title: Tipos de Link
+    url: /docs/menu-items/item-link-types/
+  - processed_path: menu-items/item-label-badge
+    title: Etiquetas, Descrições & Distintivos
+    url: /docs/menu-items/item-label-badge/
+  - processed_path: menu-items/item-icon-image
+    title: Ícones & Imagens
+    url: /docs/menu-items/item-icon-image/
+  - processed_path: menu-items/item-visibility
+    title: Visibilidade & Condições
+    url: /docs/menu-items/item-visibility/
+  - processed_path: menu-items/multi-level-structure
+    title: Estrutura de Múltiplos Níveis
+    url: /docs/menu-items/multi-level-structure/
+  processed_path: menu-items
+  title: Itens do Menu
+  url: /docs/menu-items/
+- children:
+  - processed_path: design/design-overview
+    title: Visão geral do design — Herança e substituição
+    url: /docs/design/design-overview/
+  - processed_path: design/design-level1
+    title: Design level 1 — Main menu items
+    url: /docs/design/design-level1/
+  - processed_path: design/design-level2
+    title: Design nível 2-3 — Itens do Submenu
+    url: /docs/design/design-level2/
+  - processed_path: design/design-divider
+    title: Design divider — Separator lines
+    url: /docs/design/design-divider/
+  processed_path: design
+  title: Design
+  url: /docs/design/
+- children:
+  - processed_path: setting/setting-behavior
+    title: Configuração de comportamento — Animação e interação
+    url: /docs/setting/setting-behavior/
+  - processed_path: setting/setting-layout
+    title: Configuração de layout — Posição e espaçamento
+    url: /docs/setting/setting-layout/
+  - processed_path: setting/setting-display-rules
+    title: Definindo regras de exibição — Visibilidade condicional
+    url: /docs/setting/setting-display-rules/
+  - processed_path: setting/setting-slide
+    title: Configuração de Slide — Opções do Menu Slide
+    url: /docs/setting/setting-slide/
+  processed_path: setting
+  title: Configuração
+  url: /docs/setting/
+- children:
+  - processed_path: publish/publish-overview
+    title: Publicar visão geral — Tipos de menu e métodos de implantação
+    url: /docs/publish/publish-overview/
+  - processed_path: publish/publish-sticky
+    title: Publicar sticky — Tabbar & FAB
+    url: /docs/publish/publish-sticky/
+  - processed_path: publish/publish-slide
+    title: Publicar slide — Menu de slide de contexto
+    url: /docs/publish/publish-slide/
+  - processed_path: publish/publish-section
+    title: Publicar seção — Mega menu & grid
+    url: /docs/publish/publish-section/
+  - processed_path: publish/publish-filter
+    title: Publicar filtro — Regras de dispositivo e URL
+    url: /docs/publish/publish-filter/
+  - processed_path: publish/publish-optimize
+    title: Publicar otimizar — Velocidade & UX
+    url: /docs/publish/publish-optimize/
+  processed_path: publish
+  title: Publicar
+  url: /docs/publish/
+- children:
+  - processed_path: development/how-to-write-a-correct-css-code-in-navi
+    title: Como escrever um código CSS correto no Navi+
+    url: /docs/development/how-to-write-a-correct-css-code-in-navi/
+  - processed_path: usage/general/apply-a-custom-font
+    title: Aplicar uma fonte personalizada
+    url: /docs/usage/general/apply-a-custom-font/
+  - processed_path: usage/general/advanced-image-upload
+    title: Upload avançado de imagens
+    url: /docs/usage/general/advanced-image-upload/
+  - processed_path: usage/general/tab-slide-group-menu-items-into-tabs
+    title: Tab Slide — Agrupar Itens do Menu em Abas
+    url: /docs/usage/general/tab-slide-group-menu-items-into-tabs/
+  - processed_path: usage/general/z-index
+    title: Z-index
+    url: /docs/usage/general/z-index/
+  processed_path: usage/general
+  title: Geral
+  url: /docs/usage/general/
+- children:
+  - processed_path: integrations/how-navi-injects
+    title: Como o Navi+ injetará em seu site
+    url: /docs/integrations/how-navi-injects/
+  - processed_path: usage/menu-structure-and-css
+    title: Estrutura do menu e CSS
+    url: /docs/usage/menu-structure-and-css/
+  - processed_path: usage/debug-mode-find-css-selectors
+    title: Modo de depuração - Encontrar seletores CSS
+    url: /docs/usage/debug-mode-find-css-selectors/
   - children:
     - processed_path: usage/shopify/use-the-multi-language-feature
-      title: Use the multi-language feature.
+      title: Multi-language (Shopify Markets)
       url: /docs/usage/shopify/use-the-multi-language-feature/
     - processed_path: usage/shopify/optimize-loading-speed-slide-and-mega-menus
       title: Otimizar a velocidade de carregamento (Slide & Mega menus)
@@ -154,104 +244,28 @@
     - processed_path: usage/shopify/how-to-other-applications-work-with-naviplus
       title: Impedir que os menus do Navi+ se sobreponham a outros aplicativos
       url: /docs/usage/shopify/how-to-other-applications-work-with-naviplus/
+    - processed_path: integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel
+      title: 'Shopify: Open the hamburger menu or cart, search panel'
+      url: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
     processed_path: usage/shopify
     title: Shopify
     url: /docs/usage/shopify/
-  - processed_path: usage/menu-structure-and-css
-    title: Estrutura do menu e CSS
-    url: /docs/usage/menu-structure-and-css/
-  - processed_path: usage/some-faqs-about-publishing-navi-menu
-    title: Algumas perguntas frequentes sobre a publicação do menu Navi+
-    url: /docs/usage/some-faqs-about-publishing-navi-menu/
-  - processed_path: usage/debug-mode-find-css-selectors
-    title: Modo de depuração - Encontrar seletores CSS
-    url: /docs/usage/debug-mode-find-css-selectors/
-  processed_path: usage
-  title: Uso
-  url: /docs/usage/
-- children:
-  - processed_path: menu-items/item-overview
-    title: Visão geral dos itens
-    url: /docs/menu-items/item-overview/
-  - processed_path: menu-items/item-create-manage
-    title: Criar e gerenciar itens
-    url: /docs/menu-items/item-create-manage/
-  - processed_path: menu-items/item-link-types
-    title: Tipos de link
-    url: /docs/menu-items/item-link-types/
-  - processed_path: menu-items/item-label-badge
-    title: Rótulos, descrições e badges
-    url: /docs/menu-items/item-label-badge/
-  - processed_path: menu-items/item-icon-image
-    title: Ícones e imagens
-    url: /docs/menu-items/item-icon-image/
-  - processed_path: menu-items/item-visibility
-    title: Visibilidade e condições
-    url: /docs/menu-items/item-visibility/
-  - processed_path: menu-items/multi-level-structure
-    title: Estrutura multinível
-    url: /docs/menu-items/multi-level-structure/
-  processed_path: menu-items
-  title: Itens de menu
-  url: /docs/menu-items/
-- children:
-  - processed_path: design/design-overview
-    title: Visão geral do design — Sistema de herança
-    url: /pt-br/docs/design/design-overview/
-  - processed_path: design/design-level1
-    title: Design nível 1 — Itens do menu principal
-    url: /pt-br/docs/design/design-level1/
-  - processed_path: design/design-level2
-    title: Design nível 2-3 — Itens de submenu
-    url: /pt-br/docs/design/design-level2/
-  - processed_path: design/design-divider
-    title: Design divisor — Linhas separadoras
-    url: /pt-br/docs/design/design-divider/
-  processed_path: design
-  title: Design
-  url: /pt-br/docs/design/
-- children:
-  - processed_path: setting/setting-behavior
-    title: Setting behavior — Animação e interação
-    url: /pt-br/docs/setting/setting-behavior/
-  - processed_path: setting/setting-layout
-    title: Setting layout — Posição e tamanho
-    url: /pt-br/docs/setting/setting-layout/
-  - processed_path: setting/setting-display-rules
-    title: Setting display rules — Visibilidade condicional
-    url: /pt-br/docs/setting/setting-display-rules/
-  - processed_path: setting/setting-slide
-    title: Setting slide — Opções do menu slide
-    url: /pt-br/docs/setting/setting-slide/
-  processed_path: setting
-  title: Setting
-  url: /pt-br/docs/setting/
-- children:
-  - processed_path: publish/publish-overview
-    title: Visão geral de publicação — Tipos de menu e métodos
-    url: /pt-br/docs/publish/publish-overview/
-  - processed_path: publish/publish-sticky
-    title: Publicar sticky — Tabbar e FAB
-    url: /pt-br/docs/publish/publish-sticky/
-  - processed_path: publish/publish-slide
-    title: Publicar slide — Menu slide contextual
-    url: /pt-br/docs/publish/publish-slide/
-  - processed_path: publish/publish-section
-    title: Publicar section — Mega menu e grid
-    url: /pt-br/docs/publish/publish-section/
-  - processed_path: publish/publish-filter
-    title: Filtro de publicação — Dispositivo e URL
-    url: /pt-br/docs/publish/publish-filter/
-  - processed_path: publish/publish-optimize
-    title: Otimizar publicação — Velocidade e UX
-    url: /pt-br/docs/publish/publish-optimize/
-  processed_path: publish
-  title: Publicar
-  url: /pt-br/docs/publish/
-- children:
-  - processed_path: integrations/integrating-navi-with-your-website-and-external-apps
-    title: Integrando Navi+ com seu site e aplicativos externos
-    url: /docs/integrations/integrating-navi-with-your-website-and-external-apps/
+  - children:
+    - processed_path: integrations/wordpress-woocommerce/install-plugin
+      title: Instale o plugin Navi+ Menu Builder
+      url: /docs/integrations/wordpress-woocommerce/install-plugin/
+    - processed_path: integrations/wordpress-woocommerce/get-started
+      title: Crie seu primeiro menu
+      url: /docs/integrations/wordpress-woocommerce/get-started/
+    - processed_path: integrations/wordpress-woocommerce/publish-menus
+      title: Publique seus menus no WordPress
+      url: /docs/integrations/wordpress-woocommerce/publish-menus/
+    - processed_path: integrations/wordpress-woocommerce/faq
+      title: Navi+ Menu Builder FAQ
+      url: /docs/integrations/wordpress-woocommerce/faq/
+    processed_path: integrations/wordpress-woocommerce
+    title: WordPress / WooCommerce — Navi+ Menu Builder
+    url: /docs/integrations/wordpress-woocommerce/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox
       title: Shopify Inbox
@@ -262,16 +276,28 @@
     processed_path: integrations/chat-tools
     title: Ferramentas de chat
     url: /docs/integrations/chat-tools/
-  - children:
-    - processed_path: integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel
-      title: 'Shopify: Open the hamburger menu or cart, search panel'
-      url: /docs/integrations/themes/shopify-open-the-hamburger-menu-or-cart-search-panel/
-    processed_path: integrations/themes
-    title: Temas
-    url: /docs/integrations/themes/
   processed_path: integrations
   title: Integrações
   url: /docs/integrations/
+- children:
+  - processed_path: frequently-asked-questions/why-navi-not-display
+    title: Por que o menu Navi+ não é exibido no meu site?
+    url: /docs/frequently-asked-questions/why-navi-not-display/
+  - processed_path: troubleshooting/menu-overlapping
+    title: Menu sobrepondo outros elementos
+    url: /docs/troubleshooting/menu-overlapping/
+  - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
+    title: Por que os painéis de Menu, Pesquisa e Carrinho não estão funcionando?
+    url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
+  - processed_path: limitation/shopify-bottom-bar-issue-on-google-app-iphone
+    title: Problema da Barra Inferior do Shopify no Google App (iPhone)
+    url: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
+  - processed_path: troubleshooting/performance-issues
+    title: Problemas de desempenho
+    url: /docs/troubleshooting/performance-issues/
+  processed_path: troubleshooting
+  title: Solução de Problemas
+  url: /docs/troubleshooting/
 - children:
   - children:
     - processed_path: frequently-asked-questions/customize-user-interface-ui/using-built-in-settings-or-custom-css
@@ -302,21 +328,12 @@
   - processed_path: frequently-asked-questions/how-does-navi-support-seo
     title: Como o Navi+ suporta SEO?
     url: /docs/frequently-asked-questions/how-does-navi-support-seo/
-  - processed_path: frequently-asked-questions/navi-plans-starter-business-and-elite
-    title: Planos Navi+ (Starter, Business & Elite)
-    url: /docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-  - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
-    title: Por que os painéis de Menu, Pesquisa e Carrinho não estão funcionando?
-    url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
-  - processed_path: frequently-asked-questions/why-navi-not-display
-    title: Por que o menu Navi+ não é exibido no meu site?
-    url: /docs/frequently-asked-questions/why-navi-not-display/
+  - processed_path: usage/some-faqs-about-publishing-navi-menu
+    title: Algumas perguntas frequentes sobre a publicação do menu Navi+
+    url: /docs/usage/some-faqs-about-publishing-navi-menu/
   processed_path: frequently-asked-questions
   title: Perguntas Frequentes
   url: /docs/frequently-asked-questions/
-- processed_path: line-2
-  title: line
-  url: /docs/line-2/
 - children:
   - processed_path: development/menu-structure-and-css
     title: Estrutura do menu e CSS
@@ -330,26 +347,9 @@
   processed_path: development
   title: Desenvolvimento
   url: /docs/development/
-- children:
-  - processed_path: limitation/shopify-bottom-bar-issue-on-google-app-iphone
-    title: Problema da Barra Inferior do Shopify no Google App (iPhone)
-    url: /docs/limitation/shopify-bottom-bar-issue-on-google-app-iphone/
-  processed_path: limitation
-  title: Limitação
-  url: /docs/limitation/
-- processed_path: line-3
-  title: line
-  url: /docs/line-3/
-- children:
-  - processed_path: resources/privacy-policy
-    title: Política de Privacidade
-    url: /docs/resources/privacy-policy/
-  - processed_path: resources/terms-and-condition
-    title: Termos e Condições
-    url: /docs/resources/terms-and-condition/
-  processed_path: resources
-  title: Recursos
-  url: /docs/resources/
+- processed_path: latest-update
+  title: Changelog / Release Notes
+  url: /docs/latest-update/
 - children:
   - processed_path: partership/earn-up-to-225-revshare-with-navi
     title: Ganhe até 22,5% de RevShare com Navi+
@@ -357,6 +357,12 @@
   - processed_path: partership/navi-care-or-design-your-menus-like-an-expert
     title: Navi+ Care | Design seus menus como um especialista
     url: /docs/partership/navi-care-or-design-your-menus-like-an-expert/
+  - processed_path: resources/privacy-policy
+    title: Política de Privacidade
+    url: /docs/resources/privacy-policy/
+  - processed_path: resources/terms-and-condition
+    title: Termos e Condições
+    url: /docs/resources/terms-and-condition/
   processed_path: partership
   title: Partership
   url: /docs/partership/

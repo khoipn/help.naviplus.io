@@ -1,14 +1,15 @@
 ---
-description: Konfigurieren Sie den Standard-Trennlinienstil in Navi+ Menüs — Farbe, Dicke, Typ und Breite.
+description: Konfigurieren Sie den Standardstil für alle Trennlinien in Ihrem Navi+ Menü — Farbe, Dicke, Typ und Breite.
+lang: de
 layout: default
 permalink: /de/docs/design/design-divider/
-title: Design Trennlinie — Trennlinien
+title: Design-Trenner — Trennlinien
 ---
-# Design Trennlinie — Trennlinien
+# Design-Trenner — Trennlinien
 
-Einstellungen unter **Design → Trennlinie** definieren das Standard-Erscheinungsbild aller Trennlinien im Menü.
+Einstellungen unter **Design → Trenner** definieren das Standardaussehen für alle Trenner im Menü.
 
-Dies ist ein **Menü-weiter** Stil — einzelne Elemente können ihn über Element bearbeiten → Grundinfo → Trennlinie hinzufügen überschreiben.
+Dies ist ein **menüübergreifender** Stil — einzelne Elemente können ihren eigenen Trenner aktivieren/deaktivieren und den Stil über Element bearbeiten → Basisinfo → Trenner hinzufügen überschreiben.
 
 ---
 
@@ -16,27 +17,27 @@ Dies ist ein **Menü-weiter** Stil — einzelne Elemente können ihn über Eleme
 
 | Feld | Beschreibung | Standard |
 |---|---|---|
-| **Trennlinienfarbe** | Linienfarbe (Hex) | `#EEEEEE` |
-| **Trennliniengröße (px)** | Liniendicke | 1px |
-| **Trennlinientyp** | Durchgehend / Gestrichelt / Gepunktet / Doppelt | Durchgehend |
-| **Trennlinienbreite** | Voll / Eingerückt / Unter Text | Voll |
+| **Trennfarbe** | Linienfarbe (hex) | `#EEEEEE` |
+| **Trenngröße (px)** | Linienstärke | 1px |
+| **Trennertyp** | Linienstil: Durchgezogen / Gepunktet / Gestrichelt / Doppel | Durchgezogen |
+| **Trennbreite** | Linienausdehnung: Voll / Eingezogen / Unter Text | Voll |
 
-> **Trennlinientyp** und **Trennlinienbreite** erfordern den Business- oder Elite-Plan.
-
----
-
-## Funktionsweise
-
-1. Einstellungen hier = Standard, wenn ein Element **Trennlinie hinzufügen** aktiviert hat.
-2. Trennlinienstil pro Element überschreibt dies.
-3. Stufe 2-3 erbt die Trennlinienfarbe, wenn leer.
+> **Trennertyp** und **Trennbreite** erfordern den Business- oder Elite-Plan.
 
 ---
 
-## Trennlinienbreite
+## So funktioniert es
+
+1. Die hier festgelegten Einstellungen sind die **Standard**-Einstellungen, die angewendet werden, wenn ein Element **Trennlinie hinzufügen** aktiviert hat.
+2. Wenn ein Element seinen eigenen Trennerstil hat (in Element bearbeiten), **überschreibt** dieser Stil, was hier festgelegt ist.
+3. Ebene 2-3 erbt `Trennfarbe` aus diesem Abschnitt, wenn das Feld `submenuDividerColor` leer ist.
+
+---
+
+## Optionen für die Trennbreite
 
 | Wert | Anzeige |
 |---|---|
-| **Voll** | Volle Elementbreite |
-| **Eingerückt** | Auf beiden Seiten eingerückt |
-| **Unter Text** | Nur unter dem Textbereich |
+| **Voll** | Linie erstreckt sich über die gesamte Breite des Elements |
+| **Eingezogen** | Linie ist auf beiden Seiten eingerückt |
+| **Unter Text** | Linie erscheint nur unter dem Textteil des Elements |

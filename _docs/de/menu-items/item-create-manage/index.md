@@ -1,90 +1,91 @@
 ---
-description: So fügen Sie Menüpunkte in Navi+ hinzu, ordnen sie neu an, duplizieren, löschen und machen Änderungen rückgängig.
+description: So fügen Sie Menüelemente in Navi+ hinzu, ordnen sie neu, duplizieren, löschen und Änderungen rückgängig machen.
+lang: de
 layout: default
 permalink: /de/docs/menu-items/item-create-manage/
-title: Elemente erstellen & verwalten
+title: Erstellen & Verwalten von Elementen
 ---
-# Elemente erstellen & verwalten
+# Erstellen & Verwalten von Elementen
 
-## Ein neues Element hinzufügen
+## Fügen Sie ein neues Element hinzu
 
-1. Klicken Sie im Menübaum auf **+ Element hinzufügen** (oder die Plus-Schaltfläche unten in der Liste).
-2. Wählen Sie die gewünschte Elementart (Icon/Text, Großbild, Gruppentitel, Leerzeichen, Tab-Marker…).
-3. Das neue Element erscheint am Ende der Liste mit Standardinhalt.
-4. Klicken Sie auf das Element, um das Bearbeitungspanel zu öffnen, und füllen Sie die Details aus.
+1. Klicken Sie im Menübaum auf **+ Element hinzufügen** (oder die Plus-Taste am Ende der Liste).
+2. Wählen Sie die Art des Elements, das Sie möchten (Icon/Text, Großes Bild, Gruppentitel, Leerraum, Tab-Marker…).
+3. Das neue Element erscheint am Ende der Liste mit Standardinhalten.
+4. Klicken Sie auf das Element, um das Bearbeitungsfeld zu öffnen und die Details auszufüllen.
 5. Drücken Sie **Aktualisieren** → **Speichern**.
 
-> Neue Elemente werden immer unten hinzugefügt. Ziehen Sie sie nach oben an die gewünschte Position.
+> Neue Elemente werden immer am Ende hinzugefügt. Ziehen Sie sie nach oben an die gewünschte Position, nachdem Sie sie hinzugefügt haben.
 
 ---
 
 ## Elemente neu anordnen
 
-### Per Drag & Drop
+### Durch Ziehen und Ablegen
 
-- Fahren Sie mit der Maus über den Ziehpunkt (≡) links von einem Element.
-- Ziehen Sie **nach oben / unten**, um die Reihenfolge auf derselben Ebene zu ändern.
-- Ziehen Sie **nach rechts**, um einzurücken — das Element wird ein Kindelement des Elements darüber.
-- Ziehen Sie **nach links**, um auszurücken — das Element bewegt sich eine Ebene zurück.
+- Fahren Sie mit der Maus über den Ziehgriff (≡) links von einem Element.
+- Ziehen Sie **nach oben / unten**, um die Reihenfolge innerhalb derselben Ebene zu ändern.
+- Ziehen Sie **nach rechts**, um einzurücken — das Element wird ein Kind des darüber liegenden Elements.
+- Ziehen Sie **nach links**, um auszurücken — das Element bewegt sich um eine Ebene nach oben.
 
-### Per Tastaturkürzel (wenn ein Element ausgewählt ist)
+### Durch Tastenkombination (während ein Element ausgewählt ist)
 
 | Taste | Aktion |
 |---|---|
 | `↑` | Nach oben bewegen (Mac: `Cmd+↑` / Win: `Alt+↑`) |
 | `↓` | Nach unten bewegen (Mac: `Cmd+↓` / Win: `Alt+↓`) |
-| `→` | Einrücken — Element wird Kind des Elements darüber |
-| `←` | Ausrücken — Element kehrt zur Elternebene zurück |
+| `→` | Einrücken — Element wird ein Kind des darüber liegenden Elements |
+| `←` | Ausrücken — Element bewegt sich zurück zur Elternebene |
 
-> Tastaturkürzel funktionieren nur, wenn der Cursor über dem Menübaum schwebt und das Element ausgewählt ist (blauer Rahmen).
+> Tastenkombinationen funktionieren nur, wenn der Cursor über dem Menübaum schwebt und das Element ausgewählt ist (blauer Rand).
 
 ---
 
 ## Ein Element bearbeiten
 
-1. Klicken Sie auf das Element → das Bearbeitungspanel öffnet sich.
+1. Klicken Sie auf das Element → Das Bearbeitungsfeld öffnet sich.
 2. Ändern Sie die benötigten Felder.
 3. Drücken Sie **Aktualisieren**, um die Änderungen an diesem Element zu speichern.
 
-> Drücken Sie **Abbrechen**, um das Panel ohne Speichern zu schließen.
+> Drücken Sie **Abbrechen**, um das Feld zu schließen, ohne zu speichern.
 
 ---
 
 ## Ein Element duplizieren
 
-1. Fahren Sie mit der Maus über das Element → das Schnellaktionsmenü erscheint.
+1. Fahren Sie mit der Maus über das Element → Das Schnellaktionsmenü erscheint.
 2. Klicken Sie auf **Kopieren** (oder drücken Sie `C`).
-3. Eine Kopie erscheint direkt unterhalb des Originals mit allen Inhalten und Einstellungen.
+3. Eine Kopie erscheint sofort unter dem Original, mit allen Inhalten und Einstellungen beibehalten.
 4. Bearbeiten Sie die Kopie nach Bedarf.
 
 ---
 
 ## Ein Element löschen
 
-1. Fahren Sie mit der Maus über das Element → das Schnellaktionsmenü erscheint.
+1. Fahren Sie mit der Maus über das Element → Das Schnellaktionsmenü erscheint.
 2. Klicken Sie auf **Löschen** (oder drücken Sie `Del` / `Backspace` auf Mac).
 3. Ein Bestätigungsdialog erscheint — klicken Sie auf **Bestätigen**, um dauerhaft zu löschen.
 
-> **Hinweis:** Das Löschen eines Elternelements löscht auch alle seine Kindelemente. Dies kann nach der Bestätigung nicht rückgängig gemacht werden.
+> **Hinweis:** Das Löschen eines Elternelements löscht auch alle seine Kinderelemente. Dies kann nach der Bestätigung nicht rückgängig gemacht werden.
 
 ---
 
-## Rückgängig / Wiederholen
+## Rückgängig machen / Wiederherstellen
 
-| Tastenkürzel | Aktion |
+| Tastenkombination | Aktion |
 |---|---|
 | `Ctrl+Z` / `Cmd+Z` | Letzte Aktion rückgängig machen |
-| `Ctrl+Y` / `Cmd+Shift+Z` | Wiederholen |
+| `Ctrl+Y` / `Cmd+Shift+Z` | Wiederherstellen |
 
-Der Verlauf existiert nur für die aktuelle Sitzung — das Neuladen der Seite löscht ihn.
+Die Rückgängig-Historie existiert nur für die aktuelle Sitzung — das Neuladen der Seite löscht sie.
 
 ---
 
 ## Das Menü speichern
 
-Nach dem Hinzufügen, Neuanordnen oder Löschen von Elementen:
+Nachdem Sie Elemente hinzugefügt, neu angeordnet oder gelöscht haben:
 
-- Klicken Sie auf **Speichern** in der Symbolleiste, oder drücken Sie `Ctrl+S` / `Cmd+S`.
-- Halten Sie `Shift` gedrückt, während Sie Speichern drücken, um zu speichern und den Simulator sofort neu zu laden.
+- Klicken Sie auf **Speichern** in der Symbolleiste oder drücken Sie `Ctrl+S` / `Cmd+S`.
+- Halten Sie `Shift` gedrückt, während Sie auf Speichern drücken, um zu speichern und den Simulator sofort neu zu laden.
 
-Änderungen sind für Ihre Kunden erst sichtbar, wenn Sie gespeichert haben.
+Änderungen sind für Ihre Kunden erst sichtbar, wenn Sie speichern.

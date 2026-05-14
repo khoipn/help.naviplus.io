@@ -1,44 +1,87 @@
 ---
-description: 配置子菜单外观，对所有空字段自动从第 1 级继承。
+description: 配置 Navi+ 中子菜单项的外观 — 所有空字段自动继承自级别 1。
+lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/design/design-level2/
-title: 设计第 2-3 级 — 子菜单项
+title: 设计级别 2-3 — 子菜单项
 ---
-# 设计第 2-3 级 — 子菜单项
+# 设计级别 2-3 — 子菜单项
 
-设计 → 第 2-3 级的设置应用于子菜单。空字段 = 从第 1 级继承。
+设置在 **设计 → 级别 2-3** 应用于子菜单项（当父项打开时出现的下拉菜单）。任何留空的字段 **自动继承** 级别 1 的相应值。
 
-规则：仅在希望子菜单与主菜单外观不同时才填写。
+> **规则：** 只有在您希望子菜单看起来与主菜单 **不同** 时，才在此处填写字段。留空 = 与级别 1 相同。
 
-## 文本样式（为空时从第 1 级继承）
+---
 
-Text Color、Font Size、Font Weight、Text Transform、Font Family、Description Color、Description Size
+## 文本样式
 
-## 图标 / 图片样式（为空时从第 1 级继承）
+| 字段 | 留空时从级别 1 继承 |
+|---|---|
+| **文本颜色** | `textColor` |
+| **字体大小 (px)** | `textSize` |
+| **字体粗细** | `fontWeight` |
+| **文本转换** | `textTransform` |
+| **字体系列** | `fontFamily` |
+| **描述颜色** | `descriptionColor` |
+| **描述大小 (px)** | `descriptionTextSize` |
 
-Icon Color、Icon Size、Space Text-Icon、Image Radius
+---
+
+## 图标 / 图片样式
+
+| 字段 | 留空时从级别 1 继承 |
+|---|---|
+| **图标颜色** | `iconColor` |
+| **图标大小 (px)** | `iconSize` |
+| **文本-图标间距 (px)** | `spaceTextIcon` |
+| **图片半径 (px)** | `imageRadius` |
+
+---
 
 ## 间距
 
 | 字段 | 描述 |
 |---|---|
-| Item Padding (px) | 不继承 — 使用主题默认值 |
-| Item Margin (px) | 外部间距 |
-| Min Height (px) | 最小高度 |
+| **项目内边距 (px)** | 子菜单项的内部间距。不会继承 — 如果留空则使用主题默认值 |
+| **项目外边距 (px)** | 子菜单项的外部间距 |
+| **最小高度 (px)** | 子菜单项的最小高度 |
 
-## 背景与边框
+---
 
-Background Color、Border Radius、Hide Background、Drop Shadow
+## 背景 & 框架
 
-## 显示（为空时从第 1 级继承）
+| 字段 | 描述 |
+|---|---|
+| **背景颜色** | 子菜单区域的背景颜色 |
+| **边框半径 (px)** | 子菜单容器的角落圆角 |
+| **隐藏背景** | 隐藏子菜单背景 |
+| **投影** | 子菜单容器的投影 |
 
-Display Layout、Align
+---
 
-## 分隔符（为空时从第 1 级继承）
+## 显示
 
-Divider Color
+| 字段 | 留空时从级别 1 继承 |
+|---|---|
+| **显示布局** | `displayLayout` |
+| **对齐** | `align` |
+
+---
+
+## 分隔符
+
+| 字段 | 留空时从级别 1 继承 |
+|---|---|
+| **分隔符颜色** | `dividerColor` (来自设计 → 分隔符) |
+
+---
 
 ## 示例
 
-目标：深色主菜单，白色文本。白色子菜单，深色文本。
-仅在第 2-3 级填写 2 个字段：Background Color = #FFFFFF，Text Color = #000000
+**目标：** 主菜单有深色背景和白色文本。子菜单应具有白色背景和深色文本。
+
+仅在级别 2-3 填写这两个字段：
+- 背景颜色 = `#FFFFFF`
+- 文本颜色 = `#000000`
+
+所有其他字段（字体大小、图标大小、间距等）自动从级别 1 继承。

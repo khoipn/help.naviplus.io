@@ -1,10 +1,10 @@
 ---
-description: Soluciona los problemas de superposición de menús Navi+ con otros elementos como encabezados fijos, widgets de chat o banners de cookies.
+description: Arreglar los menús de Navi+ que se superponen a otros elementos como encabezados fijos, widgets de chat o banners de cookies.
 lang: es
 layout: default
 permalink: /es/docs/troubleshooting/menu-overlapping/
-title: El menú se superpone a otros elementos
+title: Menú superpuesto a otros elementos
 ---
-# El menú se superpone a otros elementos
+# Menú superpuesto a otros elementos
 
-*Próximamente — esta página está siendo redactada.*
+*Coming soon — this page is being written.*

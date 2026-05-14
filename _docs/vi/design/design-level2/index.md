@@ -1,86 +1,87 @@
 ---
-description: Cấu hình giao diện submenu trong Navi+ — với kế thừa tự động từ Level 1 cho tất cả field để trống.
+description: Cấu hình giao diện của các mục submenu trong Navi+ — với việc kế thừa tự động từ Cấp 1 cho tất cả các trường trống.
+lang: vi
 layout: default
 permalink: /vi/docs/design/design-level2/
-title: Design level 2-3 — Submenu
+title: Thiết kế cấp 2-3 — Các mục submenu
 ---
-# Design Level 2-3 — Submenu
+# Thiết kế Cấp 2-3 — Các Mục Submenu
 
-Cài đặt tại **Design → Level 2-3** áp dụng cho submenu (dropdown khi mở item cha). Mọi field để trống đều **tự động kế thừa** giá trị tương ứng từ Level 1.
+Cài đặt tại **Thiết kế → Cấp 2-3** áp dụng cho các mục submenu (các menu thả xuống xuất hiện khi một mục cha được mở). Bất kỳ trường nào để trống **đều kế thừa tự động** giá trị tương ứng từ Cấp 1.
 
-> **Nguyên tắc:** Chỉ điền vào đây khi muốn submenu trông **khác** so với menu chính. Để trống = giống Level 1.
+> **Quy tắc:** Chỉ điền vào các trường ở đây khi bạn muốn submenu trông **khác** với menu chính. Để trống = giống như Cấp 1.
 
 ---
 
-## Kiểu chữ (Text Style)
+## Kiểu Văn Bản
 
-| Field | Kế thừa từ Level 1 khi trống |
+| Trường | Kế thừa từ Cấp 1 khi trống |
 |---|---|
-| **Text Color** | `textColor` |
-| **Font Size (px)** | `textSize` |
-| **Font Weight** | `fontWeight` |
-| **Text Transform** | `textTransform` |
-| **Font Family** | `fontFamily` |
-| **Description Color** | `descriptionColor` |
-| **Description Size (px)** | `descriptionTextSize` |
+| **Màu Văn Bản** | `textColor` |
+| **Kích Thước Phông Chữ (px)** | `textSize` |
+| **Độ Dày Phông Chữ** | `fontWeight` |
+| **Chuyển Đổi Văn Bản** | `textTransform` |
+| **Họ Phông Chữ** | `fontFamily` |
+| **Màu Mô Tả** | `descriptionColor` |
+| **Kích Thước Mô Tả (px)** | `descriptionTextSize` |
 
 ---
 
-## Kiểu icon / ảnh (Icon / Image Style)
+## Kiểu Biểu Tượng / Hình Ảnh
 
-| Field | Kế thừa từ Level 1 khi trống |
+| Trường | Kế thừa từ Cấp 1 khi trống |
 |---|---|
-| **Icon Color** | `iconColor` |
-| **Icon Size (px)** | `iconSize` |
-| **Space Text-Icon (px)** | `spaceTextIcon` |
-| **Image Radius (px)** | `imageRadius` |
+| **Màu Biểu Tượng** | `iconColor` |
+| **Kích Thước Biểu Tượng (px)** | `iconSize` |
+| **Khoảng Cách Văn Bản-Biểu Tượng (px)** | `spaceTextIcon` |
+| **Bán Kính Hình Ảnh (px)** | `imageRadius` |
 
 ---
 
-## Khoảng cách (Spacing)
+## Khoảng Cách
 
-| Field | Mô tả |
+| Trường | Mô Tả |
 |---|---|
-| **Item Padding (px)** | Khoảng trong của item submenu. Không kế thừa — mặc định theo theme |
-| **Item Margin (px)** | Khoảng ngoài của item submenu |
-| **Min Height (px)** | Chiều cao tối thiểu item submenu |
+| **Đệm Mục (px)** | Khoảng cách bên trong cho các mục submenu. Không kế thừa — sử dụng mặc định của chủ đề nếu trống |
+| **Biên Mục (px)** | Khoảng cách bên ngoài cho các mục submenu |
+| **Chiều Cao Tối Thiểu (px)** | Chiều cao tối thiểu cho các mục submenu |
 
 ---
 
-## Nền và khung (Background)
+## Nền & Khung
 
-| Field | Mô tả |
+| Trường | Mô Tả |
 |---|---|
-| **Background Color** | Màu nền vùng submenu |
-| **Border Radius (px)** | Bo tròn góc vùng submenu |
-| **Hide Background** | Ẩn nền submenu |
-| **Drop Shadow** | Đổ bóng cho vùng submenu |
+| **Màu Nền** | Màu nền của khu vực submenu |
+| **Bán Kính Biên (px)** | Làm tròn các góc của container submenu |
+| **Ẩn Nền** | Ẩn nền của submenu |
+| **Bóng Đổ** | Bóng đổ cho container submenu |
 
 ---
 
-## Hiển thị (Display)
+## Hiển Thị
 
-| Field | Kế thừa từ Level 1 khi trống |
+| Trường | Kế thừa từ Cấp 1 khi trống |
 |---|---|
-| **Display Layout** | `displayLayout` |
-| **Align** | `align` |
+| **Bố Cục Hiển Thị** | `displayLayout` |
+| **Căn Chỉnh** | `align` |
 
 ---
 
-## Divider
+## Phân Cách
 
-| Field | Kế thừa từ Level 1 khi trống |
+| Trường | Kế thừa từ Cấp 1 khi trống |
 |---|---|
-| **Divider Color** | `dividerColor` (trong Design → Divider) |
+| **Màu Phân Cách** | `dividerColor` (từ Thiết kế → Phân Cách) |
 
 ---
 
-## Ví dụ
+## Ví Dụ
 
-**Mục tiêu:** Menu chính nền tối, chữ trắng. Submenu nền trắng, chữ đen.
+**Mục Tiêu:** Menu chính có nền tối và văn bản trắng. Submenu nên có nền trắng và văn bản tối.
 
-Chỉ cần điền 2 field ở Level 2-3:
-- Background Color = `#FFFFFF`
-- Text Color = `#000000`
+Chỉ điền vào hai trường này ở Cấp 2-3:
+- Màu Nền = `#FFFFFF`
+- Màu Văn Bản = `#000000`
 
-Tất cả field khác tự kế thừa Level 1, không cần điền lại.
+Tất cả các trường khác (kích thước phông chữ, kích thước biểu tượng, khoảng cách, v.v.) tự động kế thừa từ Cấp 1.

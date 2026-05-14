@@ -1,71 +1,72 @@
 ---
-description: Cos'è un elemento di menu in Navi+, i tipi di elementi disponibili e la struttura completa dei campi nel pannello di modifica.
+description: Cosa è un elemento di menu in Navi+, i tipi di elementi disponibili e la struttura completa dei campi nel pannello Modifica Elemento.
+lang: it
 layout: default
 permalink: /it/docs/menu-items/item-overview/
-title: Panoramica degli elementi
+title: Panoramica dell'Elemento
 ---
-# Panoramica degli elementi
+# Panoramica dell'Elemento
 
-## Cos'è un elemento di menu?
+## Cosa è un elemento di menu?
 
-Ogni riga in una lista di menu è un **elemento**. Un elemento è la più piccola unità in Navi+ — può essere un link di navigazione, un'intestazione di gruppo, uno spaziatore vuoto o un divisore di scheda.
+Ogni riga in un elenco di menu è un **elemento**. Un elemento è l'unità più piccola in Navi+ — può essere un link di navigazione, un'intestazione di gruppo, uno spazio vuoto o un divisore di schede.
 
-Più elementi impilati formano un menu. Il menu viene poi renderizzato per i visitatori sul tuo sito web.
+Più elementi impilati insieme formano un menu. Il menu viene quindi visualizzato per i visitatori sul tuo sito web.
 
 ---
 
-## Tipi di elementi
+## Tipi di Elementi
 
-Quando aggiungi un nuovo elemento, scegli il suo **tipo**. Il tipo determina come appare l'elemento e cosa fa.
+Quando aggiungi un nuovo elemento scegli il suo **tipo**. Il tipo determina come appare l'elemento e cosa fa.
 
-| Tipo | Descrizione | Quando usare |
+| Tipo | Descrizione | Quando usarlo |
 |---|---|---|
-| **Icona / Testo** | Elemento standard con icona ed etichetta | Link di navigazione regolari |
-| **Immagine grande / Testo** | Riquadro grande con immagine a tutta pagina e testo sovrapposto | Banner di categoria, immagini di prodotti in evidenza |
-| **Titolo di gruppo** | Intestazione di sezione — non è un link | Raggruppare visivamente gli elementi sotto |
-| **Spazio vuoto** | Spazio trasparente | Spaziatura e allineamento del layout |
-| **Marcatore tab** | Segna l'inizio di una nuova scheda | Dividere il menu in schede orizzontali |
-| **HTML personalizzato** | Incorporare HTML arbitrario | Widget personalizzati, banner speciali |
+| **Icona / Testo** | Elemento standard con un'icona e un'etichetta | Link di navigazione regolari |
+| **Immagine Grande / Testo** | Grande riquadro con un'immagine a tutta larghezza e testo sovrapposto | Banner di categoria, immagini di prodotti in evidenza |
+| **Titolo di Gruppo** | Intestazione di sezione — non un link | Raggruppa visivamente gli elementi sottostanti |
+| **Spazio Vuoto** | Gap trasparente | Spaziatura e allineamento del layout |
+| **Indicatore di Scheda** | Segna l'inizio di una nuova scheda | Dividi il menu in schede orizzontali |
+| **HTML Personalizzato** | Incorpora HTML arbitrario | Widget personalizzati, banner speciali |
 
 ---
 
-## Struttura dei campi
+## Struttura dei Campi
 
-Clicca su qualsiasi elemento per aprire il pannello di modifica:
+Clicca su qualsiasi elemento per aprire il pannello Modifica Elemento. È organizzato in queste sezioni:
 
 ```
 ┌─────────────────────────────────────────┐
 │  MEDIA                                  │
-│    Icona  |  Immagine                   │
+│    Icona  |  Immagine                  │
 ├─────────────────────────────────────────┤
 │  INFORMAZIONI DI BASE                   │
-│    Testo · Collegamento a · HTML        │
-│    Descrizione · Separatore · Badge     │
+│    Testo · Link A · HTML                │
+│    Descrizione · Divisore · Badge       │
 ├─────────────────────────────────────────┤
 │  LAYOUT                                 │
-│    Layout visualizzazione · Largh. · Pos│
-│    Altezza fissa                        │
+│    Layout di Visualizzazione · Larghezza · Posizione │
+│    Altezza Fissa                        │
 ├─────────────────────────────────────────┤
-│  INTERFACE (UI)                         │
-│    Classi · Stile testo                 │
-│    Stile icona/immagine · Sfondo        │
+│  INTERFACCIA (UI)                      │
+│    Nomi delle Classi · Stile del Testo  │
+│    Stile Icona/Immagine · Sfondo       │
 │    Spaziatura · Allineamento            │
 ├─────────────────────────────────────────┤
 │  AVANZATO                               │
-│    Animazione · CSS · Attributi         │
+│    Animazione · CSS · Attributi        │
 ├─────────────────────────────────────────┤
-│  PUBBLICA                               │
-│    Pubblicato · Condizioni login        │
+│  PUBBLICA                                │
+│    È Pubblicato · Condizioni di Accesso │
 └─────────────────────────────────────────┘
 ```
 
 ---
 
-## Flusso di modifica
+## Flusso di Modifica
 
-1. Clicca su un elemento nell'albero → il pannello si apre.
-2. Cambia i campi necessari.
+1. Clicca su un elemento nell'albero del menu → si apre il pannello Modifica Elemento.
+2. Cambia i campi di cui hai bisogno.
 3. Premi **Aggiorna** per applicare le modifiche a quell'elemento.
-4. Premi **Salva** (`Ctrl+S` / `Cmd+S`) per salvare il menu intero e aggiornare il simulatore.
+4. Premi **Salva** (`Ctrl+S` / `Cmd+S`) per salvare l'intero menu e aggiornare il simulatore.
 
-> Tieni premuto Shift mentre premi Salva per salvare e ricaricare immediatamente il simulatore.
+> Se hai premuto Aggiorna ma non hai ancora Salvato, le modifiche non sono scritte nel tuo menu live. Tieni premuto Shift mentre premi Salva per salvare e ricaricare immediatamente il simulatore.

@@ -1,31 +1,34 @@
 ---
-description: Navi+のメニューアイテムについて学びましょう。アイテムの種類、フィールド構造、作成・管理、リンク設定など、メニュー構築の基本を解説します。
+description: Navi+ のメニュー項目に関するすべて — アイテムの種類、リンク、ラベル、アイコン、可視性、および多層構造。
 lang: jp
 layout: default
 permalink: /jp/docs/menu-items/
-title: メニューアイテム
+title: メニュー項目
+---
+# メニュー項目
+
+A **menu item** is a single row in your menu list. Items are the building blocks of every Navi+ menu — each one can be a navigation link, a group header, a blank spacer, or a tab divider.
+
 ---
 
-# メニューアイテム
+## Topics
 
-**メニューアイテム**はメニューリスト内の1行です。アイテムはすべてのNavi+メニューの構成要素であり、ナビゲーションリンク、グループヘッダー、空白スペーサー、タブ区切りのいずれかとして使用できます。
-
-## トピック
-
-| # | トピック | |
+| # | Topic | |
 |---|---|---|
-| 1 | アイテムとは何か、アイテムの種類、フィールド構造 | [アイテムの概要](/jp/docs/menu-items/item-overview/) |
-| 2 | 追加、並び替え、複製、削除 | [アイテムの作成と管理](/jp/docs/menu-items/item-create-manage/) |
-| 3 | URL、コレクション、アンカー、パネルを開く、チャット… | [リンクの種類](/jp/docs/menu-items/item-link-types/) |
-| 4 | ラベル、説明、バッジ、区切り線 | [ラベル・説明・バッジ](/jp/docs/menu-items/item-label-badge/) |
-| 5 | 組み込みアイコンとカスタム画像 | [アイコンと画像](/jp/docs/menu-items/item-icon-image/) |
-| 6 | 表示/非表示、ログイン条件、ページによる非表示 | [表示条件](/jp/docs/menu-items/item-visibility/) |
-| 7 | 親子ネストとタブスライド | [多階層構造](/jp/docs/menu-items/multi-level-structure/) |
+| 1 | What an item is, item kinds, field structure | [Item overview](/docs/menu-items/item-overview/) |
+| 2 | Add, reorder, duplicate, delete | [Create & manage items](/docs/menu-items/item-create-manage/) |
+| 3 | URL, collection, anchor, open panels, chat… | [Link types](/docs/menu-items/item-link-types/) |
+| 4 | Label, description, badge, divider | [Labels, descriptions & badges](/docs/menu-items/item-label-badge/) |
+| 5 | Built-in icons and custom images | [Icons & images](/docs/menu-items/item-icon-image/) |
+| 6 | Hide/show, login conditions, hide by page | [Visibility & conditions](/docs/menu-items/item-visibility/) |
+| 7 | Parent–child nesting and Tab Slide | [Multi-level structure](/docs/menu-items/multi-level-structure/) |
 
-## クイックリファレンス
+---
 
-**アイテムはどこで編集できますか？**  
-メニューツリー内の任意のアイテムをクリック → 右側にアイテム編集パネルが開きます。**更新**を押して変更を適用し、**保存**（`Ctrl+S` / `Cmd+S`）で公開します。
+## Quick reference
 
-**アイテム編集のフィールド順序：**  
-メディア（アイコン / 画像）→ 基本情報（テキスト、リンク、説明、バッジ、区切り線）→ レイアウト → インターフェース（色、スペーシング）→ アドバンス（アニメーション、CSS）→ 公開（表示設定）
+**Where do I edit an item?**  
+Click any item in the menu tree → the Edit Item panel opens on the right. Press **Update** to apply changes, then **Save** (`Ctrl+S` / `Cmd+S`) to publish.
+
+**Field order in Edit Item:**  
+Media (icon / image) → Basic Info (text, link, description, badge, divider) → Layout → Interface (colors, spacing) → Advance (animation, CSS) → Publish (visibility)

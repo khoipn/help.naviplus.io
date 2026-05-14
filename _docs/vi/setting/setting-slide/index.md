@@ -1,69 +1,70 @@
 ---
-description: Cấu hình hướng mở, kích thước, nút đóng và hành vi submenu cho Slide menu trong Navi+.
+description: Cấu hình hướng menu slide, chiều rộng, nút đóng và hành vi submenu trên máy tính để bàn trong Navi+.
+lang: vi
 layout: default
 permalink: /vi/docs/setting/setting-slide/
-title: Setting slide — Tùy chọn slide menu
+title: Cài đặt slide — Tùy chọn menu Slide
 ---
-# Setting Slide — Tùy chọn Slide Menu
+# Cài đặt Slide — Tùy chọn Menu Slide
 
-Các cài đặt này chỉ áp dụng cho **Slide menu** (Context Slide / Hamburger Menu).
+Những cài đặt này chỉ áp dụng **cho menu Slide** (Context Slide / Hamburger Menu).
 
 ---
 
-## Hướng mở (Slide Direction)
+## Hướng Slide
 
-**Setting → Slide Direction** — menu trượt vào từ hướng nào và cách cố định trên màn hình.
+**Cài đặt → Hướng Slide** — nơi menu trượt vào từ, và cách nó được ghim.
 
-| Lựa chọn | Mô tả |
+| Tùy chọn | Mô tả |
 |---|---|
-| Từ trái | Menu trượt vào từ cạnh trái màn hình (phổ biến nhất) |
-| Từ phải | Menu trượt vào từ cạnh phải |
-| Từ trên | Menu trượt xuống từ trên |
-| Từ dưới | Menu trượt lên từ dưới |
-| Cố định bên trái (desktop) | Luôn hiện sidebar trái trên desktop, không cần trigger |
-| Cố định bên phải (desktop) | Luôn hiện sidebar phải trên desktop |
+| Từ Trái | Trượt vào từ cạnh trái (phổ biến nhất) |
+| Từ Phải | Trượt vào từ cạnh phải |
+| Từ Trên | Trượt xuống từ trên cùng |
+| Từ Dưới | Trượt lên từ dưới cùng |
+| Cố định Trái (máy tính để bàn) | Thanh bên luôn hiển thị ở bên trái — không cần kích hoạt |
+| Cố định Phải (máy tính để bàn) | Thanh bên luôn hiển thị ở bên phải |
 
-**Fix on Mobile / Fix on Desktop:**
-- **Fix on Mobile** → menu luôn hiện cố định trên mobile, không cần mở.
-- **Fix on Desktop** → menu luôn hiện cố định trên desktop (kiểu sidebar thường trực).
+**Cố định trên Di động / Cố định trên Máy tính để bàn:**
+- **Cố định trên Di động** → Menu luôn hiển thị trên di động mà không cần mở.
+- **Cố định trên Máy tính để bàn** → Menu luôn hiển thị trên máy tính để bàn (thanh bên cố định).
 
 ---
 
-## Chiều rộng (Slide Width)
+## Chiều rộng Slide
 
-| Field | Mô tả | Mặc định |
+| Trường | Mô tả | Mặc định |
 |---|---|---|
-| **Mobile Width** | Chiều rộng trên mobile (px hoặc %) | Tự động |
-| **Desktop Max Width (px)** | Chiều rộng tối đa trên desktop | Tự động |
-| **Desktop Sub Width (px)** | Chiều rộng panel submenu cấp 2 trên desktop | Tự động |
+| **Chiều rộng Di động** | Chiều rộng trên di động (px hoặc %) | Tự động |
+| **Chiều rộng Tối đa trên Máy tính để bàn (px)** | Chiều rộng tối đa trên máy tính để bàn | Tự động |
+| **Chiều rộng Sub trên Máy tính để bàn (px)** | Chiều rộng của bảng submenu Cấp 2 trên máy tính để bàn | Tự động |
 
-**Ví dụ:** Slide trái chiếm 80% màn hình mobile, tối đa 400px trên desktop:
-- Mobile Width = `80%`
-- Desktop Max Width = `400`
+**Ví dụ:** Trượt từ trái, 80% màn hình di động, tối đa 400px trên máy tính để bàn:
+- Chiều rộng Di động = `80%`
+- Chiều rộng Tối đa trên Máy tính để bàn = `400`
 
 ---
 
-## Nút đóng (Close Icon)
+## Biểu tượng Đóng
 
-| Field | Mô tả | Mặc định |
+| Trường | Mô tả | Mặc định |
 |---|---|---|
-| **Hide Close Icon** | Ẩn nút × đóng menu | Hiện |
-| **Close Icon Align** | Vị trí nút đóng: Left / Right | Right |
-| **Close Icon Top (px)** | Khoảng cách từ đỉnh menu xuống nút đóng | 12px |
+| **Ẩn Biểu tượng Đóng** | Ẩn nút đóng × | Hiển thị |
+| **Căn chỉnh Biểu tượng Đóng** | Vị trí của nút đóng: Trái / Phải | Phải |
+| **Cách Biểu tượng Đóng (px)** | Khoảng cách từ trên cùng của menu đến nút đóng | 12px |
 
-> Ẩn nút đóng thì người dùng phải nhấn vào vùng overlay bên ngoài để đóng. Nên giữ nút đóng khi menu chiếm nhiều không gian màn hình.
+> Nếu bạn ẩn nút đóng, người dùng phải chạm vào khu vực phủ bên ngoài menu để đóng nó. Giữ nút đóng hiển thị khi menu che phủ hầu hết màn hình.
 
 ---
 
-## Hướng mở submenu trên desktop
+## Hướng Submenu trên Máy tính để bàn
 
-**Setting → Desktop → Submenu Direction**
+**Cài đặt → Máy tính để bàn → Hướng Submenu**
 
-Khi Slide menu hiển thị dạng sidebar cố định trên desktop, submenu có thể mở theo 4 hướng:
+Khi menu Slide được hiển thị như một thanh bên cố định trên máy tính để bàn, các submenu có thể mở theo 4 hướng:
 
 | Giá trị | Submenu mở về phía |
 |---|---|
 | 1 | Phải (mặc định) |
 | 2 | Trái |
-| 3 | Xuống dưới |
-| 4 | Lên trên |
+| 3 | Xuống |
+| 4 | Lên |

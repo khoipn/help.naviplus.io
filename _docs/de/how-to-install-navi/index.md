@@ -1,44 +1,92 @@
 ---
-description: Sie müssen nichts über Entwicklung oder Design wissen, um Navi+ zu verwenden. Es ist eine vorgefertigte Software, die einfach in Ihre Website eingebettet werden kann. Alle Konfigurationen —...
+description: Install Navi+ on Shopify or any website, and understand the three ways Navi+ deploys menus — floating, positioned, and triggered.
 lang: de
 layout: default
 permalink: /de/docs/how-to-install-navi/
-title: Wie man Navi+ installiert
+title: Install Navi+
 ---
-# Wie man Navi+ installiert
+# Install Navi+
 
-Sie müssen nichts über Entwicklung oder Design wissen, um Navi+ zu verwenden. Es ist eine vorgefertigte Software, die einfach in Ihre Website eingebettet werden kann. Alle Konfigurationen — einschließlich Funktionen und visuellem Design — werden direkt auf Navi+ verwaltet, ohne Konflikte mit Ihrem bestehenden System zu verursachen.
+## Step 1 — Install
 
-***
+**Shopify:** Install from the [Shopify App Store](https://apps.shopify.com/pronavi-navigation-design). The app opens automatically after installation.
 
-### Schritt 1: Installieren Sie die Anwendung
+**Other platforms** (WordPress, WooCommerce, Wix, Webflow, Squarespace, or any website):
+1. Create a free account at [dash.naviplus.app](https://dash.naviplus.app)
+2. Add your website domain
+3. Copy your embed snippet — you'll use this in Step 2
 
-**Wenn Sie Shopify verwenden:**\
-Bitte installieren Sie die offizielle App über den folgenden Link:\
-<https://apps.shopify.com/pronavi-navigation-design>
+---
 
-**Wenn Sie andere Plattformen** wie WordPress, WooCommerce, Wix, Webflow, Squarespace oder eine selbstgehostete Website verwenden:
+## Step 2 — Understand how your menu will be deployed
 
-1. Gehen Sie zu <https://naviplus.io>
-2. Erstellen Sie ein kostenloses Konto
-3. Melden Sie sich an und verbinden Sie Ihre Website, indem Sie die Anweisungen befolgen.
+Navi+ uses **three different deployment methods** depending on the menu type. Understanding this upfront saves time during setup.
 
-***
+### 1. Floating menus — Tab Bar & FAB
 
-### Schritt 2: Erstellen Sie Menüs und betten Sie sie in Ihre Website ein
+Tab Bar and FAB are **sticky menus** that float on top of your page at a fixed position. They never scroll away.
 
-Sobald Sie sich angemeldet haben, können Sie beginnen, Menüs für Ihre Website zu erstellen.\
-**Navi+** bietet mehrere Arten von Menüs, um unterschiedlichen Bedürfnissen gerecht zu werden:
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1.25rem 0">
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">📍</div>
+    <strong>Position</strong><br>Top, bottom, left, or right edge of the screen
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🔼</div>
+    <strong>Auto-hide on scroll</strong><br>Hides when scrolling down, reappears when scrolling back up
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">👇</div>
+    <strong>Show on scroll down</strong><br>Hidden by default, appears only when the user scrolls down — saves screen space
+  </div>
+</div>
 
-* **Tabbar**\
-  Eine feste Navigationsleiste am unteren Bildschirmrand, die es den Benutzern ermöglicht, schnell auf wichtige Abschnitte zuzugreifen. Ideal für mobile Layouts.
-* **Mega Menu**\
-  Ein großes Dropdown-Menü mit mehreren Spalten, perfekt zum Anzeigen von Produktkategorien oder detaillierten Inhalten in einer klaren Struktur.
-* **Slide Menu (Hamburger Menu)**\
-  Ein verstecktes Seitenmenü, das von der Bildschirmkante hereinschiebt. Ideal, um Platz zu sparen und ein sauberes, modernes Design beizubehalten.
-* **Floating Button Menu**\
-  Eine schwebende Aktionsschaltfläche, die eine Liste von Schnelllinks öffnen oder spezielle Kampagnen oder Aktionen hervorheben kann.
+**A common use case:** consolidate other floating elements — WhatsApp, Crisp, Messenger, live chat widgets — into Navi+ menu items. This frees up screen space and removes the clutter of multiple floating icons stacking on top of each other.
 
-Jede Art von Menü hat ihren eigenen Einrichtungsprozess, der vollständig schrittweise im Navi+ Dashboard angeleitet wird.
+### 2. Positioned menus — Mega Menu & Grid Menu
 
-Sie können auch mehrere Arten von Navi+ Menüs gleichzeitig auf verschiedenen Seiten verwenden — zum Beispiel eine Tabbar für mobile Geräte, ein Mega Menu für Desktop und einen Floating Button für Ihren Call-to-Action oder Aktionen.
+Mega Menu and Grid Menu need to be **placed at a specific location** on your page. There are several ways to do this:
+
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1.25rem 0">
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🎯</div>
+    <strong>CSS Selector</strong><br>Point Navi+ to any element on your page. Insert before, after, or replace it entirely — this is how Mega Menu can fully replace your theme's existing navigation.
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🧩</div>
+    <strong>Shopify Section</strong><br>Use an App Block inside the Theme Customizer to drop the menu into any section of your layout — no code needed.
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🖥️</div>
+    <strong>Embed code</strong><br>Paste a short snippet directly into your page's HTML at the exact spot where the menu should appear.
+  </div>
+</div>
+
+> **CSS Selector** is a way to identify any point on a webpage — it's how browsers target specific elements. Navi+ uses it to know exactly where to inject your menu. You don't need to write CSS yourself; Navi+ has a visual picker that finds the selector for you.
+
+### 3. Triggered menus — Slide Menu
+
+Slide Menu **does not appear on its own**. It stays hidden until something triggers it:
+
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1.25rem 0">
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">☰</div>
+    <strong>Existing element</strong><br>A user clicks something already on your page — like your theme's hamburger icon
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">⚡</div>
+    <strong>Custom trigger</strong><br>Any element on your page — designated by its CSS Selector
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🔗</div>
+    <strong>Another Navi+ menu</strong><br>A Tab Bar or FAB item that opens the Slide Menu when clicked
+  </div>
+</div>
+
+This makes Slide Menu flexible — it can replace your existing navigation without visually adding anything new to the page.
+
+---
+
+## Step 3 — Create your first menu
+
+Once installed, head to the dashboard and create your first menu. → [Your first menu (5-minute quickstart)](/docs/getting-started/your-first-menu/)

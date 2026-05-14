@@ -1,116 +1,117 @@
 ---
-description: Lọc hiển thị menu Navi+ theo thiết bị, scroll behavior, loại trang Shopify và URL keyword.
+description: Lọc khả năng hiển thị menu Navi+ theo thiết bị, hành vi cuộn, loại trang Shopify và từ khóa URL.
+lang: vi
 layout: default
 permalink: /vi/docs/publish/publish-filter/
-title: Publish filter — Thiết bị & URL
+title: Bộ lọc xuất bản — Quy tắc thiết bị & URL
 ---
-# Publish Filter — Thiết bị & URL
+# Bộ Lọc Xuất Bản — Quy Tắc Thiết Bị & URL
 
-Sau khi bật toggle publish, có thể thu hẹp điều kiện hiển thị qua hai lớp lọc: **thiết bị** (mobile/desktop + scroll behavior) và **URL keyword** (chỉ hiện trên URL chứa/không chứa từ khoá).
+Sau khi bật công tắc xuất bản, bạn có thể thu hẹp khi menu xuất hiện bằng cách sử dụng hai lớp bộ lọc: **thiết bị** (di động/máy tính để bàn + hành vi cuộn) và **từ khóa URL** (hiện/ẩn dựa trên nội dung URL).
 
 ---
 
-## Lọc theo thiết bị
+## Lọc theo Thiết Bị
 
 ### Bật/tắt theo nền tảng
 
-Hai toggle ở đầu modal Publish:
+Hai công tắc ở đầu hộp thoại Xuất Bản:
 
-| Setting | Mặc định | Ghi chú |
+| Cài đặt | Mặc định | Ghi chú |
 |---|---|---|
-| **Show menu on mobile** | Bật | Hiện menu trên thiết bị mobile |
-| **Show menu on desktop** | Tắt | Hiện menu trên thiết bị desktop |
+| **Hiện menu trên di động** | Bật | Hiện menu trên thiết bị di động |
+| **Hiện menu trên máy tính để bàn** | Tắt | Hiện menu trên thiết bị máy tính để bàn |
 
-Một số loại menu disable một trong hai toggle — ví dụ Desktop Mega Menu disable mobile toggle.
-
----
-
-### Hiệu ứng scroll (chỉ Sticky menu)
-
-Cấu hình riêng cho mobile và desktop.
-
-#### Mobile scroll
-
-| Setting | Hành vi |
-|---|---|
-| **Auto Hide on scroll down** | Ẩn menu khi user scroll **xuống** |
-| **Auto Show after scroll** | Chỉ hiện menu sau khi user đã scroll xuống (không hiện ngay khi load trang) |
-
-#### Desktop scroll
-
-| Setting | Hành vi |
-|---|---|
-| **Auto Hide on scroll down** | Ẩn menu khi scroll xuống trên desktop |
-| **Auto Show after scroll** | Chỉ hiện sau khi scroll xuống trên desktop |
-
-> Auto Hide và Auto Show có thể bật đồng thời: menu ẩn khi scroll xuống, hiện lại khi scroll lên — pattern phổ biến cho bottom tabbar.
+Một số loại menu vô hiệu hóa một trong những công tắc này — ví dụ, Menu Mega trên Máy Tính để Bàn vô hiệu hóa công tắc di động.
 
 ---
 
-### Vị trí hiển thị (chỉ Sticky / Tabbar)
+### Hành vi cuộn (Chỉ menu dính)
 
-Chọn vị trí bằng radio button kèm hình minh hoạ.
+Được cấu hình riêng cho di động và máy tính để bàn.
 
-**Mobile** — 6 vị trí preset (bottom center, bottom left, bottom right, top variants...)
+#### Cuộn di động
 
-**Desktop** — 12 vị trí preset (top bar, bottom bar, left/right sidebar, corner positions...)
+| Cài đặt | Hành vi |
+|---|---|
+| **Tự động ẩn khi cuộn xuống** | Ẩn menu khi người dùng cuộn **xuống** |
+| **Tự động hiện sau khi cuộn** | Chỉ hiện menu sau khi người dùng đã cuộn xuống (không hiển thị khi tải trang) |
+
+#### Cuộn máy tính để bàn
+
+| Cài đặt | Hành vi |
+|---|---|
+| **Tự động ẩn khi cuộn xuống** | Ẩn menu khi cuộn xuống trên máy tính để bàn |
+| **Tự động hiện sau khi cuộn** | Chỉ hiện sau khi cuộn xuống trên máy tính để bàn |
+
+> Tự động ẩn và Tự động hiện có thể được bật cùng nhau: menu ẩn khi cuộn xuống, xuất hiện lại khi cuộn lên — một mẫu phổ biến cho tabbar dưới.
 
 ---
 
-### Lọc theo nhóm trang (Shopify only, Sticky menu)
+### Vị trí màn hình (Chỉ Sticky / Tabbar)
 
-Chọn nhóm trang nào menu sẽ xuất hiện. Mặc định: tất cả.
+Chọn một vị trí từ bộ chọn nút radio với hình minh họa trực quan.
 
-| Nhóm | URL pattern |
-|---|---|
-| Home | `/` |
-| Product Detail | `/products/*` |
-| Product Categories | `/collections/*` |
-| Pages | `/pages/*` |
-| Blogs | `/blogs/*` |
-| Others | Mọi trang còn lại |
+**Di động** — 6 vị trí cài sẵn (giữa dưới, trái dưới, phải dưới, các biến thể trên...)
 
-> Global market (WordPress, Wix...) không có tính năng này. Dùng URL keyword filter thay thế.
+**Máy tính để bàn** — 12 vị trí cài sẵn (thanh trên, thanh dưới, thanh bên trái/phải, vị trí góc...)
 
 ---
 
-## Lọc theo URL keyword
+### Nhóm trang (Chỉ Shopify, menu dính)
 
-Card **"Display the menu by keywords"** — áp dụng cho tất cả loại menu trừ Context Slide.
+Chọn các loại trang Shopify mà menu xuất hiện. Mặc định: tất cả.
 
-### Hai loại filter
-
-| Setting | Hành vi |
+| Nhóm | Mẫu URL |
 |---|---|
-| **Contain Keyword** | Menu **chỉ hiện** khi URL **chứa** ít nhất một keyword |
-| **Don't Contain Keyword** | Menu **không hiện** khi URL **chứa** bất kỳ keyword nào |
+| Trang chủ | `/` |
+| Chi tiết sản phẩm | `/products/*` |
+| Danh mục sản phẩm | `/collections/*` |
+| Trang | `/pages/*` |
+| Blog | `/blogs/*` |
+| Khác | Tất cả các trang còn lại |
 
-Nhiều keyword cách nhau bằng dấu phẩy `,`.
+> Thị trường toàn cầu (WordPress, Wix, v.v.) không có tính năng này. Sử dụng bộ lọc từ khóa URL thay thế.
 
-### Ví dụ thực tế
+---
 
-**Chỉ hiện menu trên trang sản phẩm snowboard:**
+## Lọc theo Từ Khóa URL
+
+Thẻ **"Hiển thị menu theo từ khóa"** — áp dụng cho tất cả các loại menu ngoại trừ Context Slide.
+
+### Hai loại bộ lọc
+
+| Cài đặt | Hành vi |
+|---|---|
+| **Chứa Từ Khóa** | Menu **chỉ hiển thị** khi URL **chứa** ít nhất một từ khóa |
+| **Không Chứa Từ Khóa** | Menu **không hiển thị** khi URL **chứa** bất kỳ từ khóa nào |
+
+Nhiều từ khóa được phân tách bằng dấu phẩy `,`.
+
+### Ví dụ
+
+**Chỉ hiển thị trên trang sản phẩm ván trượt:**
 ```
-Contain: snowboard
+Chứa: snowboard
 ```
-→ Menu chỉ hiện trên URL như `yourdomain.com/products/the-collection-snowboard-hydrogen`
+→ Menu chỉ hiển thị trên các URL như `yourdomain.com/products/the-collection-snowboard-hydrogen`
 
-**Ẩn menu trên trang multi-location:**
+**Ẩn trên các trang đa vị trí:**
 ```
-Don't contain: multi-location
+Không chứa: multi-location
 ```
-→ Menu không hiện trên `yourdomain.com/products/the-multi-location-snowboard`
+→ Menu **không** hiển thị trên `yourdomain.com/products/the-multi-location-snowboard`
 
-**Kết hợp cả hai:**
+**Kết hợp:**
 ```
-Contain: collections
-Don't contain: sale, outlet
+Chứa: collections
+Không chứa: sale, outlet
 ```
-→ Chỉ hiện trên trang collection, nhưng ẩn trên collection "sale" và "outlet".
+→ Chỉ hiển thị trên các trang danh mục, nhưng ẩn trên các danh mục "sale" và "outlet".
 
-### Lưu ý
+### Ghi chú
 
-- Filter dùng **full URL string matching**, không phải regex.
-- Keyword **không phân biệt hoa thường** (case-insensitive).
-- Để trống = không áp dụng filter (menu hiện ở mọi trang).
-- Hai filter AND với nhau — phải thoả mãn cả hai điều kiện.
+- Bộ lọc sử dụng **khớp chuỗi URL đầy đủ**, không phải regex.
+- Từ khóa là **không phân biệt chữ hoa chữ thường**.
+- Để trống = không có bộ lọc (menu hiển thị trên tất cả các trang).
+- Cả hai bộ lọc đều được AND — cả hai điều kiện phải được thỏa mãn.

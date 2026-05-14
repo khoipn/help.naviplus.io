@@ -1,48 +1,49 @@
 ---
-description: Como definir etiquetas de texto, descrições, divisores e badges (incluindo badges de contagem do carrinho) em Navi+.
+description: Como definir rótulos de texto de itens, descrições, divisores e distintivos (incluindo distintivos de contagem de carrinho) no Navi+.
+lang: pt-br
 layout: default
 permalink: /pt-br/docs/menu-items/item-label-badge/
-title: Etiquetas, descrições e badges
+title: Etiquetas, Descrições & Distintivos
 ---
-# Etiquetas, descrições e badges
+# Etiquetas, Descrições & Distintivos
 
-## Texto (etiqueta principal)
+## Texto (rótulo principal)
 
 O texto principal exibido no item — o que os visitantes leem.
 
 **Dicas:**
-- Mantenha curto: 1–3 palavras é ideal para menus mobile.
-- Deixe vazio se quiser um item apenas com ícone (combine com Layout → Apenas Ícone/Imagem).
-- Suporta múltiplos idiomas — clique em **Multi** ao lado da etiqueta para adicionar traduções por idioma.
+- Mantenha curto: 1–3 palavras é ideal para menus móveis.
+- Deixe vazio se quiser um item apenas com ícone (combine com Layout de Exibição → Apenas Ícone/Imagem).
+- Suporta múltiplas línguas — clique em **Multi** ao lado do rótulo para adicionar traduções por idioma.
 
-**Exemplos:** `Início`, `Loja`, `Contato`
+**Exemplos:** `Home`, `Shop`, `Contact`
 
 ---
 
-## Descrição (sub-etiqueta)
+## Descrição (sub-rótulo)
 
-Uma linha de texto menor abaixo do texto principal — use para uma nota curta ou etiqueta secundária.
+Uma linha menor de texto abaixo do Texto principal — use-a para uma nota curta ou rótulo secundário.
 
-**Exemplo:** `Tel: +55 11 9999-9999 | 8h–21h`
+**Exemplo:** `Call: +1 212 555 0100 | 8AM–9PM`
 
 **Notas:**
-- Visível apenas quando o layout de exibição suporta duas linhas (Cima-Baixo, Esquerda-Direita, etc.).
+- Visível apenas quando o Layout de Exibição suporta duas linhas (De Cima para Baixo, Da Esquerda para a Direita, etc.).
 - Oculto quando o layout é Apenas Ícone/Imagem ou Apenas Texto.
-- Suporta múltiplos idiomas.
+- Suporta múltiplas línguas.
 
 ---
 
-## Apenas ícone (ocultar etiqueta, mostrar ícone)
+## Apenas ícone (ocultar rótulo, mostrar ícone)
 
-Para ocultar a etiqueta de texto e mostrar apenas o ícone ou imagem, vá para **Layout → Layout de exibição → Apenas Ícone/Imagem**.
+Para ocultar o rótulo de Texto e mostrar apenas o ícone ou imagem, vá para **Layout → Layout de Exibição → Apenas Ícone/Imagem**.
 
-O campo Texto ainda existe nos dados (para SEO e acessibilidade) mas não é renderizado visualmente.
+O campo de Texto ainda existe nos dados (para SEO e acessibilidade), mas não é renderizado visualmente.
 
 ---
 
-## Adicionar divisor
+## Adicionar Divisor
 
-Ative **Adicionar divisor** para adicionar uma linha horizontal abaixo do item, separando-o do próximo.
+Ative **Adicionar Divisor** para adicionar uma linha horizontal abaixo do item, separando-o do próximo item.
 
 Quando ativado, três opções adicionais aparecem:
 
@@ -51,20 +52,20 @@ Quando ativado, três opções adicionais aparecem:
 | **Tamanho (px)** | Espessura da linha (padrão 1px) | Todos |
 | **Tipo** | Estilo da linha: Sólido, Tracejado, Pontilhado, Duplo | Business / Elite |
 | **Cor** | Cor da linha (hex) | Todos |
-| **Largura** | Extensão: Completa, Recuada, Sob o texto | Business / Elite |
+| **Largura** | Extensão: Total, Recuo, Abaixo do texto | Business / Elite |
 
-> Tipo e Largura aparecem acinzentados (bloqueados) no plano Starter.
+> Tipo e Largura aparecem desativados (bloqueados) no plano Starter.
 
 ---
 
-## Adicionar badge
+## Adicionar Distintivo
 
-Ative **Adicionar badge** para mostrar um pequeno ponto de badge no canto do item — útil para etiquetas "Novo", notificações ou contagem do carrinho.
+Ative **Adicionar Distintivo** para mostrar um pequeno ponto distintivo no canto do item — útil para rótulos "New", notificações ou contagem de carrinho.
 
-### Badge do carrinho *(Business / Elite)*
+### Distintivo de carrinho *(Business / Elite)*
 
-Ative **"Mostrar badge (+n) quando há itens no carrinho"** para exibir automaticamente o número de produtos no carrinho.
+Ative **"Mostrar distintivo (+n) quando itens estiverem no carrinho"** para exibir automaticamente o número de produtos no carrinho.
 
-Perfeito para um item Carrinho na barra de abas:
-- Carrinho vazio → badge oculto.
-- 3 itens no carrinho → badge mostra **3**.
+Perfeito para um item de Carrinho na Tab Bar:
+- Carrinho vazio → distintivo oculto.
+- 3 itens no carrinho → distintivo mostra **3**.

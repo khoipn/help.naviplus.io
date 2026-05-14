@@ -9,7 +9,7 @@ title: Publicación en Shopify
 
 ### Paso 2: (Shopify) Publica el menú en tu sitio web.
 
-#### **I) MÉTODO 1: INSERTAR (ANTES O DESPUÉS) ESTE MENÚ EN UNA UBICACIÓN ESPECÍFICA EN TU SITIO WEB, O REEMPLAZAR UN MENÚ EXISTENTE, USANDO UN SELECTOR CSS. (**&#x52;ECOMMENDED)
+#### **I) MÉTODO 1: INSERTAR (ANTES O DESPUÉS) ESTE MENÚ EN UNA UBICACIÓN ESPECÍFICA EN TU SITIO WEB, O REEMPLAZAR UN MENÚ EXISTENTE, USANDO UN SELECTOR CSS. (**&#x52;ECOMMENDADO)
 
 #### I.1. Activa Navi+ en Integraciones de aplicaciones
 
@@ -100,17 +100,6 @@ Sin embargo, (1) esto te ayudará a entender la idea principal, y (2) si deseas 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Instrucciones para el agente: Consultando esta documentación</h1>
-<p>Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.</p>
-<p>Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta <code>ask</code>:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;pregunta&gt;
-</code></pre>
-
-<p>La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.</p>
-<p>Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.</p>
 </details>
 
 **I.3. ¡Importante! Optimiza la velocidad del Mega Menú y la experiencia del usuario (modo de reemplazo)**
@@ -128,7 +117,7 @@ Con este paso, puedes ocultar completamente el menú antiguo y mostrar un efecto
 <li>Luego Shopify carga el contenido del tema.</li>
 <li>Finalmente, Shopify carga el contenido de la aplicación, pero no en ningún orden específico.</li>
 </ol>
-<p>Esto significa que si estás utilizando múltiples aplicaciones, Navi+ puede cargarse más tarde de lo esperado. Por eso puede sentirse más lento en ciertos casos.</p>
+<p>Esto significa que si estás utilizando múltiples aplicaciones, Navi+ puede a veces cargarse más tarde de lo esperado. Por eso puede sentirse más lento en ciertos casos.</p>
 <hr />
 <h4>¿Cuál es mi solución?</h4>
 <p>Actualmente, Navi+ tiene alta prioridad al cargarse en sitios web de Shopify. Sin embargo, todavía hay un cierto retraso. Abordaremos estos problemas uno por uno aquí:</p>
@@ -150,7 +139,7 @@ Con este paso, puedes ocultar completamente el menú antiguo y mostrar un efecto
 
 Este método inserta el menú añadiendo un Bloque/Sección en tu tema de Shopify. Es un enfoque tradicional, así que no lo describiré en detalle. Con este método, ni siquiera necesitas **“Activar Navi+ en Integraciones de aplicaciones”** como se requiere en el Paso 1 del Método 1.
 
-Copia el ID de inserción de este menú, luego insértalo en el bloque llamado “Navi+ en Sección” en Secciones del tema. Puedes agregar un título, configurar el ancho completo y ajustar el margen para esta sección después de agregarla.
+Copia el ID de inserción de este menú, luego insértalo en el bloque llamado "Navi+ en Sección" en Secciones del Tema. Puedes agregar un título, configurar el ancho completo y ajustar el margen para esta sección después de agregarla.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
@@ -162,15 +151,4 @@ Copia el ID de inserción de este menú, luego insértalo en el bloque llamado �
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F1ss5KONiPDSu0AphvToH%2FHelp.MenuTree.1.1.9.png.png?alt=media&#x26;token=395e460a-f275-4642-9a86-41f996ea87f5" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Instrucciones para el agente: Consultando esta documentación</h1>
-<p>Si necesitas información adicional que no está directamente disponible en esta página, puedes consultar la documentación dinámicamente haciendo una pregunta.</p>
-<p>Realiza una solicitud HTTP GET en la URL de la página actual con el parámetro de consulta <code>ask</code>:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-add-this-menu-as-a-section-block-in-the-shopify-theme.md?ask=&lt;pregunta&gt;
-</code></pre>
-
-<p>La pregunta debe ser específica, autocontenida y escrita en lenguaje natural.
-La respuesta contendrá una respuesta directa a la pregunta y extractos relevantes y fuentes de la documentación.</p>
-<p>Utiliza este mecanismo cuando la respuesta no esté explícitamente presente en la página actual, necesites aclaraciones o contexto adicional, o quieras recuperar secciones de documentación relacionadas.</p>
 </details>

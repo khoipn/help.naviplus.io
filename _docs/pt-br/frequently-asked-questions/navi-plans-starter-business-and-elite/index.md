@@ -1,24 +1,112 @@
 ---
-description: Navi+ oferece um pacote de teste com quase todos os recursos para todos os sites. No entanto, após um certo período, se as visitas ao seu site (onde as visitas são contadas quando o Navi+ é exibido no site) excederem 50.000, sua conta será automaticamente sinalizada para um upgrade.
+description: Compare os planos do Navi+ — Starter (grátis), Business e Elite. Entenda o que cada plano inclui, seus limites e o que acontece quando você os excede.
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/frequently-asked-questions/navi-plans-starter-business-and-elite/
-title: Planos Navi+ (Starter, Business & Elite)
+title: Comparação de Planos e Preços
 ---
-# Planos Navi+ (Starter, Business & Elite)
+# Comparação de Planos e Preços
 
-#### Pergunta 1: O que acontece quando meu plano Starter excede 50.000 visitas?
+Todos os planos incluem todos os tipos de menu — Tab Bar, Mega Menu, Slide Menu, Grid Menu e FAB.
 
-Navi+ oferece um pacote de teste com quase todos os recursos para todos os sites. No entanto, após um certo período, se as visitas ao seu site (onde as visitas são contadas quando o Navi+ é exibido no site) excederem 50.000, sua conta será automaticamente sinalizada para um upgrade. Tomaremos as seguintes ações:
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.75rem 0">
 
-1. Enviaremos vários e-mails para notificá-lo sobre o status do seu plano Navi+ Starter (Por favor, certifique-se de receber nossas notificações, pois isso é crucial). Ao receber a notificação, considere fazer o upgrade de sua conta para um plano mais alto, como Business ou Elite.
-2. Se você não receber as informações ou se seu site não tiver a intenção de fazer o upgrade para um plano mais alto, começaremos a exibir pequenos anúncios do Navi+ em seus menus. O tamanho dos anúncios não afetará a interação do usuário, mas será perceptível o suficiente para que os usuários entendam que o menu é alimentado pelo Navi+. Consideraremos aumentar gradualmente a visibilidade dos anúncios ao longo do tempo, de forma muito sutil para mais perceptível. Isso ajuda o Navi+ a alcançar mais pessoas e gera receita adicional de outros clientes.
-3. Não desativaremos ou removeremos nenhum recurso do Navi+ que esteja atualmente exibido em seu site. Entendemos completamente que esses recursos são cruciais para a interação do usuário em seu site, então isso é algo que evitaremos estritamente.
+<div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
+<div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Starter</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$0</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">grátis para sempre</div>
+<div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
+<div>1 menu</div>
+<div>50.000 visualizações</div>
+<div>Suporte por e-mail</div>
+<div>SLA 99.00%</div>
+</div>
+</div>
 
-#### Pergunta 2: O que acontece se você rebaixar de Business ou Elite de volta para Starter, mas parece que todos os recursos permanecem?
+<div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
+<div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Business</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$6.25</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ mês &nbsp;·&nbsp; $62.5/ano</div>
+<div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
+<div>Até 4 menus</div>
+<div>500.000 visualizações/mês</div>
+<div>Multi-idioma</div>
+<div>Upload de imagem</div>
+<div>Suporte 24/7</div>
+</div>
+</div>
 
-Entendemos que recursos e experiência do usuário são cruciais para seus clientes, então garantimos que nenhum recurso em seu menu será oculto ou removido. No entanto, temos um sistema que realiza uma verificação diária. Assim que detectar que seu site está nessa situação, enviaremos uma notificação por e-mail para incentivá-lo a fazer o upgrade para um plano mais alto. Essas notificações por e-mail serão espaçadas ao longo do tempo para evitar sobrecarregá-lo com muitas mensagens. Se você optar por não fazer o upgrade de volta para os planos Business ou Elite, o Navi+ começará a exibir anúncios, conforme explicado na Pergunta 1.
+<div style="background:#fff;border:2px solid var(--color-primary);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem;position:relative">
+<div style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--color-primary);color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.2rem 0.65rem;border-radius:999px;white-space:nowrap">Mais popular</div>
+<div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Elite</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$10</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ mês &nbsp;·&nbsp; $100/ano</div>
+<div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
+<div>Menus ilimitados</div>
+<div>Visualizações ilimitadas</div>
+<div>Ferramentas avançadas de imagem</div>
+<div>Otimização SEO</div>
+<div>SLA 99.99%</div>
+<div>Suporte prático</div>
+</div>
+</div>
 
-#### Pergunta 3: O que acontece se eu exceder o limite do plano Business (por exemplo, mais de 500.000 visualizações do Navi+/mês)?
+</div>
 
-Assim como nas perguntas anteriores, o Navi+ não ocultará ou removerá nenhum recurso do menu. No entanto, uma vez que o limite seja excedido, e após as notificações por e-mail serem enviadas para você considerar o upgrade para o plano Elite, anúncios podem ser exibidos em seu menu até o início de um novo ciclo mensal.
+---
+
+## Starter — Grátis
+
+- Uso vitalício — $0/mês, sem necessidade de cartão de crédito
+- 1 menu Navi+ (qualquer tipo: Tab Bar, Mega Menu, Slide Menu, Grid, FAB)
+- Até 50.000 visualizações Navi+
+- Análise de dados disponível por 30 dias
+- SLA de infraestrutura 99.00%
+- Suporte por e-mail
+- Upload de imagem não disponível — use ícones em vez disso
+- Configuração avançada limitada (Feedback tátil, Ícones de navegação, Animação, Classes reutilizáveis, Atributos)
+- Anúncios podem aparecer se o uso exceder significativamente o limite — você receberá uma notificação por e-mail antes que isso aconteça
+
+## Business — $6.25/mês
+
+Tudo no Starter, além de:
+
+- Até 4 menus Navi+
+- Até 500.000 visualizações Navi+/mês
+- Suporte completo multi-idioma
+- Upload padrão de fotos — JPG, PNG, GIF dinâmico
+- Estatísticas e análise de dados
+- Componentes de UI do site aberto como popup: Pesquisa, Carrinho, Menu padrão
+- Substituir ícones de Carrinho, Menu/Pesquisa do tema (com badge de contagem de carrinho) e bolha de chat
+- Configuração avançada: Feedback tátil, Ícones de navegação, Estilo e velocidade de animação, Classes reutilizáveis, Atributos
+- Bom CDN — excelente desempenho para América do Norte, Europa e Ásia
+- Suporte 24/7
+- Anúncios podem aparecer se o uso exceder significativamente o limite — você receberá uma notificação por e-mail antes que isso aconteça
+
+## Elite — $10/mês
+
+Tudo no Business, além de:
+
+- Menus ilimitados Navi+ — múltiplos menus em páginas, sob diferentes condições, substituindo toda a navegação padrão
+- Visualizações ilimitadas Navi+
+- Ferramentas avançadas de imagem: Converter para WebP · Normalização de tamanho de imagem · URL de imagem externa
+- Suporte à otimização de busca SEO
+- Análise de dados completa — insights poderosos para otimizar seu menu ao longo do tempo
+- Configuração avançada abrangente — tudo no Business e personalizações mais profundas
+- CDN de primeira linha em todo o mundo — failover entre Cloudflare + BunnyCDN, SLA 99.99%
+- Nunca anúncios
+- Suporte prático: nossa equipe pode se juntar à sua loja diretamente, migrar menus antigos, configurar e editar UI em seu nome
+
+---
+
+## O que acontece quando você excede um limite?
+
+**Navi+ nunca desativará ou removerá seus menus.** Sabemos que sua navegação é crítica para seus visitantes — não vamos quebrar um site ativo.
+
+Aqui está o que realmente acontece:
+
+1. **Notificação por e-mail** — enviamos um aviso antes de tomar qualquer ação.
+2. **Anúncios podem aparecer** — se você permanecer acima do limite sem atualizar, pequenos "Powered by Navi+" anúncios podem aparecer em seus menus. Eles não afetam a interação, mas são visíveis o suficiente para os usuários notarem.
+3. **Sem recursos ocultos** — seus menus continuam funcionando exatamente como configurados.
+
+Isso se aplica a: Starter excedendo 50.000 visualizações · Business excedendo 500.000 visualizações/mês · Rebaixamento enquanto tiver mais menus do que seu plano permite.

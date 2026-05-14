@@ -1,54 +1,68 @@
 ---
-description: Configurez la direction du menu diapositive, la largeur, le bouton de fermeture et le comportement du sous-menu de bureau dans Navi+.
+description: Configurez la direction du menu slide, la largeur, le bouton de fermeture et le comportement du sous-menu de bureau dans Navi+.
+lang: fr
 layout: default
 permalink: /fr/docs/setting/setting-slide/
-title: Diapositive des paramètres — Options du menu diapositive
+title: Réglage du slide — Options du menu Slide
 ---
-# Diapositive des paramètres — Options du menu diapositive
+# Réglage du Slide — Options du Menu Slide
 
-Ces paramètres s'appliquent **uniquement aux menus diapositives** (Context Slide / Menu hamburger).
+Ces paramètres s'appliquent **uniquement aux menus Slide** (Menu Contextuel Slide / Menu Hamburger).
 
 ---
 
-## Direction de la diapositive
+## Direction du Slide
+
+**Réglage → Direction du Slide** — d'où le menu glisse et comment il est fixé.
 
 | Option | Description |
 |---|---|
-| Depuis la gauche | Glisse depuis la gauche (le plus courant) |
-| Depuis la droite | Glisse depuis la droite |
-| Depuis le haut | Glisse vers le bas depuis le haut |
-| Depuis le bas | Glisse vers le haut depuis le bas |
-| Fixe gauche (bureau) | Barre latérale gauche toujours visible |
-| Fixe droite (bureau) | Barre latérale droite toujours visible |
+| De Gauche | Glisse depuis le bord gauche (le plus courant) |
+| De Droite | Glisse depuis le bord droit |
+| D'en Haut | Glisse vers le bas depuis le haut |
+| D'en Bas | Glisse vers le haut depuis le bas |
+| Fixé à Gauche (bureau) | Barre latérale toujours visible à gauche — aucun déclencheur nécessaire |
+| Fixé à Droite (bureau) | Barre latérale toujours visible à droite |
 
-**Fixer sur mobile** → Toujours visible sur mobile sans déclencheur.
-**Fixer sur bureau** → Toujours visible sur bureau (panneau persistant).
+**Fixer sur Mobile / Fixer sur Bureau :**
+- **Fixer sur Mobile** → Le menu reste toujours visible sur mobile sans avoir besoin d'être ouvert.
+- **Fixer sur Bureau** → Le menu reste toujours visible sur bureau (barre latérale persistante).
 
 ---
 
-## Largeur de la diapositive
+## Largeur du Slide
 
 | Champ | Description | Par défaut |
 |---|---|---|
-| **Largeur mobile** | Largeur sur mobile (px ou %) | Auto |
-| **Largeur max bureau (px)** | Largeur maximale sur bureau | Auto |
-| **Largeur sous bureau (px)** | Largeur du panneau niveau 2 sur bureau | Auto |
+| **Largeur Mobile** | Largeur sur mobile (px ou %) | Auto |
+| **Largeur Max sur Bureau (px)** | Largeur maximale sur bureau | Auto |
+| **Largeur du Sous-menu sur Bureau (px)** | Largeur du panneau de sous-menu de niveau 2 sur bureau | Auto |
+
+**Exemple :** Glisser depuis la gauche, 80% de l'écran mobile, max 400px sur bureau :
+- Largeur Mobile = `80%`
+- Largeur Max sur Bureau = `400`
 
 ---
 
-## Icône de fermeture
+## Icône de Fermeture
 
 | Champ | Description | Par défaut |
 |---|---|---|
-| **Masquer l'icône de fermeture** | Masquer le bouton × | Visible |
-| **Alignement de l'icône de fermeture** | Gauche / Droite | Droite |
-| **Icône de fermeture haut (px)** | Distance depuis le haut du menu | 12px |
+| **Cacher l'icône de fermeture** | Cacher le bouton de fermeture × | Visible |
+| **Alignement de l'icône de fermeture** | Position du bouton de fermeture : Gauche / Droite | Droite |
+| **Haut de l'icône de fermeture (px)** | Distance du haut du menu au bouton de fermeture | 12px |
+
+> Si vous cachez le bouton de fermeture, les utilisateurs doivent toucher la zone de superposition en dehors du menu pour le fermer. Gardez le bouton de fermeture visible lorsque le menu couvre la majeure partie de l'écran.
 
 ---
 
-## Direction du sous-menu sur bureau
+## Direction du Sous-menu sur Bureau
 
-| Valeur | S'ouvre vers |
+**Réglage → Bureau → Direction du Sous-menu**
+
+Lorsque le menu Slide est affiché comme une barre latérale fixe sur bureau, les sous-menus peuvent s'ouvrir dans 4 directions :
+
+| Valeur | Sous-menu s'ouvre vers |
 |---|---|
 | 1 | Droite (par défaut) |
 | 2 | Gauche |

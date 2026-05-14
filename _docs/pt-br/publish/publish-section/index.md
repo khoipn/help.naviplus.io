@@ -1,31 +1,32 @@
 ---
-description: Publique menus Section (Mega Menu, Grid) no Navi+ — Insert/Replace com CSS Selector ou App Block no Shopify.
+description: Menus da Seção de Publicação (Mega Menu, Grid) no Navi+ — Inserir/Substituir com Seletor CSS ou Bloco de App no Shopify.
+lang: pt-br
 layout: default
 permalink: /pt-br/docs/publish/publish-section/
-title: Publish section — Mega menu e grid
+title: Publicar seção — Mega menu & grid
 ---
-# Publish Section — Mega Menu e Grid
+# Publicar Seção — Mega Menu & Grid
 
 Aplica-se a: **Mobile Mega Menu**, **Mobile Grid**, **Desktop Mega Menu**
 
-Menus Section **não são flutuantes** — eles são inseridos em uma posição específica no layout da página. Há dois métodos de deploy, que podem ser usados juntos:
+Os menus de seção **não são flutuantes** — eles são inseridos em uma posição específica no layout da página. Existem dois métodos de implantação, que podem ser usados juntos:
 
-| | Método 1: Insert/Replace | Método 2: App Block |
+| | Método 1: Inserir/Substituir | Método 2: Bloco de App |
 |---|---|---|
 | Plataforma | Shopify + Global | Apenas Shopify |
-| Mecanismo | CSS Selector → inserir antes/depois/substituir elemento | App Block "Navi+ on Section" no Theme Editor |
-| Flexibilidade | Alta — incorporar em qualquer lugar | Média — limitado pelo schema de seção do Shopify |
-| Configuração | Requer conhecer o CSS Selector | Apenas inserir o Embed ID |
+| Mecanismo | Seletor CSS → inserir antes/depois/substituir elemento | Bloco de App "Navi+ on Section" no Editor de Tema |
+| Flexibilidade | Alta — embutir em qualquer lugar | Média — limitada pelo esquema de seção do Shopify |
+| Configuração | Requer conhecimento de Seletor CSS | Apenas precisa inserir o ID de Embed |
 
 ---
 
-## Método 1: Insert/Replace com CSS Selector
+## Método 1: Inserir/Substituir com Seletor CSS
 
 O método **Recomendado** — funciona tanto para Shopify quanto para Global.
 
-### Passo 1: Código de incorporação
+### Passo 1: Código de embed
 
-**Shopify:** **Theme Editor → App Embeds** → ative o Navi+. Apenas uma vez.
+**Shopify:** **Editor de Tema → Embeds de App** → habilitar Navi+. Uma vez apenas.
 
 **Global:** Cole no `<head>`:
 ```html
@@ -35,86 +36,86 @@ O método **Recomendado** — funciona tanto para Shopify quanto para Global.
 <script src="https://live.naviplus.app/start.js" async></script>
 ```
 
-### Passo 2: Ativar "Publish menu by Insert/Replace method"
+### Passo 2: Habilitar "Publicar menu pelo método Inserir/Substituir"
 
-Ative o toggle para expandir a seção de configuração abaixo.
+Habilite o toggle para expandir a seção de configuração abaixo.
 
-### Passo 3: Inserir CSS Selector
+### Passo 3: Inserir Seletor CSS
 
-Insira **um** CSS Selector. O menu será posicionado em relação ao elemento correspondente.
+Insira **um** Seletor CSS. O menu será colocado em relação ao elemento correspondente.
 
-**Sintaxe por dispositivo:**
+**Sintaxe específica do dispositivo:**
 
 | Sufixo | Dispositivo |
 |---|---|
-| `header` | Mobile e desktop |
+| `header` | Tanto mobile quanto desktop |
 | `header(M)` | Apenas mobile |
 | `header(D)` | Apenas desktop |
 
-**Dicas de CSS Selector para temas Shopify populares:**
+**Dicas de Seletor CSS para temas populares do Shopify:**
 
-| Tipo de menu | Propósito | CSS Selector sugerido |
+| Tipo de menu | Propósito | Seletor CSS sugerido |
 |---|---|---|
 | Desktop Mega | Substituir navegação desktop | `nav.header__inline-menu ul.list-menu` |
-| Desktop Mega | Inserir abaixo do header | `header` |
-| Mobile Mega | Inserir abaixo do header mobile | `header` |
+| Desktop Mega | Inserir abaixo do cabeçalho | `header` |
+| Mobile Mega | Inserir abaixo do cabeçalho mobile | `header` |
 
-### Passo 4: Escolher posicionamento (Insert/Replace)
+### Passo 4: Escolher colocação (Inserir/Substituir)
 
 | Valor | Comportamento |
 |---|---|
-| **Replace** | Substituir completamente o elemento original pelo menu Navi+ |
-| **Insert Before** | Inserir menu Navi+ antes do elemento |
-| **Insert After** | Inserir menu Navi+ após o elemento |
+| **Substituir** | Substituir completamente o elemento original pelo menu Navi+ |
+| **Inserir Antes** | Inserir o menu Navi+ antes do elemento |
+| **Inserir Depois** | Inserir o menu Navi+ depois do elemento |
 
-> Após escolher **Replace**, considere adicionar CSS para ocultar o elemento original enquanto o Navi+ carrega — veja [Publish Optimize](/pt-br/docs/publish/publish-optimize/).
+> Após escolher **Substituir**, considere adicionar CSS para ocultar o elemento original enquanto o Navi+ carrega — veja [Publicar Otimizar](/docs/publish/publish-optimize/).
 
 ---
 
-## Método 2: App Block (apenas Shopify)
+## Método 2: Bloco de App (apenas Shopify)
 
 ### Como configurar
 
-1. Copie o **Embed ID** do menu (exibido no modal — clique para copiar).
-2. Vá para **Shopify Theme Editor** → encontre o App Block **"Navi+ on Section"**.
-3. Cole o Embed ID no campo correspondente.
+1. Copie o **ID de Embed** do menu (mostrado no modal — clique para copiar).
+2. Vá para **Editor de Tema do Shopify** → encontre o **"Navi+ on Section"** Bloco de App.
+3. Cole o ID de Embed no campo correspondente.
 4. Salve o tema.
 
-### "Fixo no topo durante a rolagem"
+### "Fixo no topo enquanto rola"
 
-Toggle para fixar o menu Section no topo da página durante a rolagem.
+Ative o toggle para fixar o menu da Seção no topo da página enquanto rola.
 
-**Quando usar:** Se o tema não tem um header sticky integrado, ative isso para que o Desktop Mega Menu permaneça visível enquanto os usuários rolam a página para baixo.
-
----
-
-## Pode-se usar ambos os métodos juntos?
-
-Sim. Usuários do Shopify podem ativar ambos:
-- App Block para preview no Theme Editor (mais estável, mais fácil de visualizar).
-- Insert/Replace para posicionamento mais preciso na vitrine.
-
-Normalmente apenas um método é necessário.
+**Quando usar:** Se o tema não tiver um cabeçalho fixo embutido, habilite isso para que o menu Desktop Mega permaneça visível enquanto os usuários rolam para baixo.
 
 ---
 
-## Observações por tipo de menu
+## Ambos os métodos podem ser usados juntos?
 
-| Menu | Dispositivo | Observações |
+Sim. Usuários do Shopify podem habilitar ambos:
+- Bloco de App para visualização do Editor de Tema (mais estável, mais fácil de visualizar).
+- Inserir/Substituir para colocação mais precisa na vitrine.
+
+Normalmente, apenas um método é necessário.
+
+---
+
+## Notas por tipo de menu
+
+| Menu | Dispositivo | Notas |
 |---|---|---|
-| Mobile Mega Menu | Toggle de desktop desativado | Apenas mobile |
-| Mobile Header | Toggle de desktop desativado | Apenas mobile |
-| Desktop Mega Menu | Toggle de mobile desativado | Apenas desktop |
+| Mobile Mega Menu | Toggle desktop desativado | Apenas mobile |
+| Mobile Header | Toggle desktop desativado | Apenas mobile |
+| Desktop Mega Menu | Toggle mobile desativado | Apenas desktop |
 | Mobile Grid | Ambos | Sem restrições |
 
 ---
 
 ## Solução de problemas
 
-**Menu não aparece após configurar Insert/Replace?**
-1. Verifique se o CSS Selector está correto — use DevTools ou Navi+ Debug Mode.
-2. Verifique se o toggle "Publish menu by Insert/Replace method" está ativado.
-3. Verifique se o App Embeds / código de incorporação está no lugar.
+**Menu não aparece após configurar Inserir/Substituir?**
+1. Verifique se o Seletor CSS está correto — use DevTools ou Modo de Depuração do Navi+.
+2. Verifique se o toggle "Publicar menu pelo método Inserir/Substituir" está habilitado.
+3. Verifique se os Embeds de App / código de embed estão no lugar.
 
 **Menu aparece duas vezes (duplicado)?**
-→ Tanto o App Block quanto o Insert/Replace estão ativos simultaneamente. Desative um deles.
+→ Tanto o Bloco de App quanto o Inserir/Substituir estão ativos simultaneamente. Desative um deles.

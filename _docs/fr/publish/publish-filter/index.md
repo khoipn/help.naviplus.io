@@ -1,31 +1,32 @@
 ---
-description: Filtrez la visibilité du menu Navi+ par appareil, comportement de défilement, types de pages Shopify et mots-clés d'URL.
+description: Filtrer la visibilité du menu Navi+ par appareil, comportement de défilement, types de pages Shopify et mots-clés d'URL.
+lang: fr
 layout: default
 permalink: /fr/docs/publish/publish-filter/
-title: Publish filter — Règles appareil & URL
+title: Filtre de publication — Règles de dispositif et d'URL
 ---
-# Publish Filter — Règles Appareil & URL
+# Filtre de publication — Règles de dispositif et d'URL
 
-Après avoir activé le bouton de publication, vous pouvez restreindre l'apparition du menu en utilisant deux couches de filtre : **appareil** (mobile/desktop + comportement de défilement) et **mots-clés d'URL** (afficher/masquer selon le contenu de l'URL).
+Après avoir activé le commutateur de publication, vous pouvez restreindre l'apparition du menu en utilisant deux couches de filtre : **dispositif** (mobile/desktop + comportement de défilement) et **mots-clés d'URL** (afficher/masquer en fonction du contenu de l'URL).
 
 ---
 
-## Filtrer par appareil
+## Filtrer par dispositif
 
 ### Activer/désactiver par plateforme
 
-Deux boutons en haut du modal Publish :
+Deux commutateurs en haut de la modal de publication :
 
-| Paramètre | Par défaut | Notes |
+| Paramètre | Par défaut | Remarques |
 |---|---|---|
 | **Afficher le menu sur mobile** | Activé | Afficher le menu sur les appareils mobiles |
 | **Afficher le menu sur desktop** | Désactivé | Afficher le menu sur les appareils desktop |
 
-Certains types de menus désactivent l'un de ces boutons — par exemple, Desktop Mega Menu désactive le bouton mobile.
+Certains types de menus désactivent l'un de ces commutateurs — par exemple, le Mega Menu Desktop désactive le commutateur mobile.
 
 ---
 
-### Comportement de défilement (menus Sticky uniquement)
+### Comportement de défilement (Menus collants uniquement)
 
 Configuré séparément pour mobile et desktop.
 
@@ -33,84 +34,84 @@ Configuré séparément pour mobile et desktop.
 
 | Paramètre | Comportement |
 |---|---|
-| **Masquer automatiquement au défilement vers le bas** | Masquer le menu quand l'utilisateur fait défiler vers le **bas** |
-| **Afficher automatiquement après défilement** | Afficher le menu seulement après que l'utilisateur a fait défiler vers le bas (non affiché au chargement de la page) |
+| **Masquer automatiquement lors du défilement vers le bas** | Masquer le menu lorsque l'utilisateur défile **vers le bas** |
+| **Afficher automatiquement après le défilement** | Afficher le menu uniquement après que l'utilisateur a défilé vers le bas (non affiché au chargement de la page) |
 
 #### Défilement desktop
 
 | Paramètre | Comportement |
 |---|---|
-| **Masquer automatiquement au défilement vers le bas** | Masquer le menu lors du défilement vers le bas sur desktop |
-| **Afficher automatiquement après défilement** | Afficher seulement après défilement vers le bas sur desktop |
+| **Masquer automatiquement lors du défilement vers le bas** | Masquer le menu lors du défilement vers le bas sur desktop |
+| **Afficher automatiquement après le défilement** | Afficher uniquement après avoir défilé vers le bas sur desktop |
 
-> Masquer automatiquement et Afficher automatiquement peuvent être activés ensemble : le menu se masque lors du défilement vers le bas, réapparaît lors du défilement vers le haut — un schéma courant pour les tabbars en bas.
-
----
-
-### Position à l'écran (Sticky / Tabbar uniquement)
-
-Choisissez une position depuis un sélecteur de boutons radio avec des illustrations visuelles.
-
-**Mobile** — 6 positions prédéfinies (bas centre, bas gauche, bas droite, variantes haut...)
-
-**Desktop** — 12 positions prédéfinies (barre supérieure, barre inférieure, barre latérale gauche/droite, positions de coin...)
+> Masquer automatiquement et afficher automatiquement peuvent être activés ensemble : le menu se cache lors du défilement vers le bas, réapparaît lors du défilement vers le haut — un modèle courant pour les tabbars inférieurs.
 
 ---
 
-### Groupes de pages (Shopify uniquement, menus Sticky)
+### Position de l'écran (Collant / Tabbar uniquement)
 
-Sélectionnez sur quels types de pages Shopify le menu apparaît. Par défaut : tous.
+Choisissez une position à partir d'un sélecteur de boutons radio avec des illustrations visuelles.
+
+**Mobile** — 6 positions prédéfinies (centre bas, gauche bas, droite bas, variantes supérieures...)
+
+**Desktop** — 12 positions prédéfinies (barre supérieure, barre inférieure, barre latérale gauche/droite, positions d'angle...)
+
+---
+
+### Groupes de pages (Shopify uniquement, Menus collants)
+
+Sélectionnez les types de pages Shopify sur lesquelles le menu apparaît. Par défaut : toutes.
 
 | Groupe | Modèle d'URL |
 |---|---|
 | Accueil | `/` |
-| Détail produit | `/products/*` |
+| Détails du produit | `/products/*` |
 | Catégories de produits | `/collections/*` |
 | Pages | `/pages/*` |
 | Blogs | `/blogs/*` |
 | Autres | Toutes les pages restantes |
 
-> Le marché Global (WordPress, Wix, etc.) n'a pas cette fonctionnalité. Utilisez plutôt le filtre par mots-clés d'URL.
+> Le marché mondial (WordPress, Wix, etc.) n'a pas cette fonctionnalité. Utilisez plutôt le filtre de mots-clés d'URL.
 
 ---
 
 ## Filtrer par mots-clés d'URL
 
-La carte **"Afficher le menu par mots-clés"** — s'applique à tous les types de menus sauf Context Slide.
+La carte **"Afficher le menu par mots-clés"** — s'applique à tous les types de menus sauf le Context Slide.
 
 ### Deux types de filtres
 
 | Paramètre | Comportement |
 |---|---|
-| **Contient le mot-clé** | Le menu **s'affiche uniquement** quand l'URL **contient** au moins un mot-clé |
-| **Ne contient pas le mot-clé** | Le menu **ne s'affiche pas** quand l'URL **contient** l'un des mots-clés |
+| **Contenir le mot-clé** | Le menu **n'affiche** que lorsque l'URL **contient** au moins un mot-clé |
+| **Ne pas contenir le mot-clé** | Le menu **n'affiche pas** lorsque l'URL **contient** l'un des mots-clés |
 
 Plusieurs mots-clés séparés par des virgules `,`.
 
 ### Exemples
 
-**Afficher uniquement sur les pages de produits snowboard :**
+**Afficher uniquement sur les pages de produits de snowboard :**
 ```
-Contient : snowboard
+Contenir : snowboard
 ```
-→ Le menu s'affiche uniquement sur les URLs comme `yourdomain.com/products/the-collection-snowboard-hydrogen`
+→ Le menu n'affiche que sur des URL comme `yourdomain.com/products/the-collection-snowboard-hydrogen`
 
-**Masquer sur les pages multi-sites :**
+**Masquer sur les pages multi-locations :**
 ```
-Ne contient pas : multi-location
+Ne pas contenir : multi-location
 ```
-→ Le menu **ne s'affiche pas** sur `yourdomain.com/products/the-multi-location-snowboard`
+→ Le menu ne s'affiche **pas** sur `yourdomain.com/products/the-multi-location-snowboard`
 
 **Combiné :**
 ```
-Contient : collections
-Ne contient pas : sale, outlet
+Contenir : collections
+Ne pas contenir : sale, outlet
 ```
-→ S'affiche uniquement sur les pages de collections, mais masqué sur les collections "sale" et "outlet".
+→ N'affiche que sur les pages de collection, mais caché sur les collections "sale" et "outlet".
 
-### Notes
+### Remarques
 
-- Le filtre utilise la **correspondance complète de chaîne d'URL**, pas de regex.
+- Le filtre utilise **la correspondance de chaîne d'URL complète**, pas de regex.
 - Les mots-clés sont **insensibles à la casse**.
 - Laisser vide = pas de filtre (le menu s'affiche sur toutes les pages).
-- Les deux filtres sont liés par ET — les deux conditions doivent être satisfaites.
+- Les deux filtres sont combinés avec un ET — les deux conditions doivent être satisfaites.

@@ -1,76 +1,77 @@
 ---
-description: Publish Sticky menu (Tabbar, Mobile Header, FAB) trong Navi+ — dùng App Embeds cho Shopify hoặc nhúng script cho Global.
+description: Xuất bản các menu dính (Tabbar, Tiêu đề Di động, FAB) trong Navi+ — sử dụng App Embeds cho Shopify hoặc tiêm mã cho các trang toàn cầu.
+lang: vi
 layout: default
 permalink: /vi/docs/publish/publish-sticky/
-title: Publish sticky — Tabbar & FAB
+title: Xuất bản dính — Tabbar & FAB
 ---
-# Publish Sticky — Tabbar & FAB
+# Xuất bản dính — Tabbar & FAB
 
-Áp dụng cho: **Tabbar**, **Mobile Header**, **FAB / Support bar**
+Áp dụng cho: **Tabbar**, **Tiêu đề Di động**, **FAB / Thanh hỗ trợ**
 
-Sticky menu là loại menu "nổi" — luôn hiển thị trên màn hình, không gắn vào vị trí DOM cố định. Phương thức nhúng đơn giản nhất: kích hoạt toàn site thông qua một đoạn script duy nhất.
+Các menu dính là nổi — chúng luôn xuất hiện trên màn hình và không gắn liền với một vị trí DOM cố định. Phương pháp nhúng là đơn giản nhất: kích hoạt trên toàn trang web thông qua một mã duy nhất.
 
 ---
 
 ## Shopify — 3 bước
 
-### Bước 1: Kích hoạt App Embeds trong Theme Editor
+### Bước 1: Kích hoạt App Embeds trong Trình chỉnh sửa giao diện
 
-Vào **Theme Editor → App Embeds** và bật toggle của Navi+.
+Đi đến **Trình chỉnh sửa giao diện → App Embeds** và kích hoạt công tắc Navi+.
 
-- Không thay đổi layout theme, có thể tắt bất cứ lúc nào mà không ảnh hưởng shop.
-- Chỉ cần làm **một lần** cho toàn bộ shop — các menu tiếp theo bỏ qua bước này.
+- Điều này **không thay đổi bố cục giao diện** và có thể tắt bất cứ lúc nào mà không ảnh hưởng đến cửa hàng.
+- Chỉ cần thực hiện **một lần cho mỗi cửa hàng** — bỏ qua bước này cho các menu tiếp theo.
 
-### Bước 2: Bật toggle "Publish this menu in sticky mode"
+### Bước 2: Kích hoạt "Xuất bản menu này ở chế độ dính"
 
-Toggle trong card **Step 2** của modal Publish. Bật = menu live, tắt = ẩn khỏi website.
+Công tắc trong thẻ **Bước 2** của hộp thoại Xuất bản. Kích hoạt = menu đang hoạt động, tắt = ẩn khỏi trang web.
 
-### Bước 3 (tuỳ chọn): Cấu hình thiết bị và trang hiển thị
+### Bước 3 (tùy chọn): Cấu hình khả năng hiển thị thiết bị và trang
 
-Xem [Publish Filter](/vi/docs/publish/publish-filter/) để biết chi tiết.
+Xem [Bộ lọc Xuất bản](/docs/publish/publish-filter/) để biết chi tiết.
 
 ---
 
-## Global (WordPress, Wix, Webflow...) — 3 bước
+## Toàn cầu (WordPress, Wix, Webflow...) — 3 bước
 
-### Bước 1: Paste embed code vào `<head>`
+### Bước 1: Dán mã nhúng vào `<head>`
 
-Đoạn code hiển thị sẵn trong modal, có nút **Copy**. Paste vào `<head>` của website:
+Mã được hiển thị trong hộp thoại với nút **Sao chép**. Dán nó vào `<head>` của trang web của bạn:
 
 ```html
 <script>(window._navi_setting ||= []).push({
-  token: "NAVI_TOKEN_CUA_BAN"
+  token: "YOUR_NAVI_TOKEN"
 });</script>
 <script src="https://live.naviplus.app/start.js" async></script>
 ```
 
-- `token` là mã định danh shop — mỗi shop có một token riêng.
-- `start.js` tải async, không block render trang.
+- `token` xác định cửa hàng của bạn — mỗi cửa hàng có một mã token duy nhất.
+- `start.js` tải không đồng bộ và không chặn việc hiển thị trang.
 
-### Bước 2: Bật toggle "Publish this menu in sticky mode"
+### Bước 2: Kích hoạt "Xuất bản menu này ở chế độ dính"
 
-Giống Shopify — bật toggle.
+Giống như Shopify — kích hoạt công tắc.
 
-### Bước 3 (tuỳ chọn): Cấu hình thiết bị và trang hiển thị
+### Bước 3 (tùy chọn): Cấu hình khả năng hiển thị thiết bị và trang
 
-Xem [Publish Filter](/vi/docs/publish/publish-filter/) để biết chi tiết.
+Xem [Bộ lọc Xuất bản](/docs/publish/publish-filter/) để biết chi tiết.
 
 ---
 
-## Lưu ý theo loại menu
+## Ghi chú theo loại menu
 
 | Menu | Hạn chế |
 |---|---|
-| Mobile Header | Desktop toggle bị disable — chỉ hiện mobile |
-| FAB / Support bar | Không có phần chọn vị trí (FAB có cơ chế vị trí riêng trong tab Setting) |
-| Tabbar | Đầy đủ tùy chọn mobile + desktop |
+| Tiêu đề Di động | Công tắc máy tính để bàn bị vô hiệu hóa — chỉ di động |
+| FAB / Thanh hỗ trợ | Không có bộ chọn vị trí (FAB có vị trí riêng trong tab Cài đặt) |
+| Tabbar | Tùy chọn di động + máy tính để bàn đầy đủ có sẵn |
 
 ---
 
-## Troubleshooting
+## Khắc phục sự cố
 
-**Menu không hiện sau khi bật toggle?**
-1. Kiểm tra App Embeds đã bật chưa (Shopify) / embed code đã paste đúng chưa (Global).
-2. Kiểm tra setting thiết bị — **Show menu on mobile** hoặc **Show menu on desktop** phải được bật.
-3. Kiểm tra URL filter có đang lọc trang hiện tại không.
-4. Hard refresh browser (Ctrl+Shift+R) để xóa cache.
+**Menu không xuất hiện sau khi kích hoạt công tắc?**
+1. Kiểm tra xem App Embeds đã được kích hoạt (Shopify) hoặc mã nhúng đã được dán chính xác (Toàn cầu).
+2. Kiểm tra cài đặt thiết bị — **Hiển thị menu trên di động** hoặc **Hiển thị menu trên máy tính để bàn** phải được bật.
+3. Kiểm tra bộ lọc URL — nó có thể đang lọc trang hiện tại.
+4. Tải lại trình duyệt (Ctrl+Shift+R) để xóa bộ nhớ cache.

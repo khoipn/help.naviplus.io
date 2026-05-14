@@ -1,92 +1,91 @@
 ---
-description: Hướng dẫn thêm item mới, sắp xếp thứ tự bằng kéo thả hoặc phím tắt, sao chép, xóa và hoàn tác trong Navi+.
+description: Cách thêm, sắp xếp lại, sao chép, xóa và hoàn tác thay đổi đối với các mục menu trong Navi+.
 lang: vi
 layout: default
 permalink: /vi/docs/menu-items/item-create-manage/
-title: Tạo, Sắp xếp và Xóa Item
+title: Tạo & Quản lý Mục
+---
+# Tạo & Quản lý Mục
+
+## Thêm một mục mới
+
+1. Trong cây menu, nhấp vào **+ Thêm mục** (hoặc nút cộng ở dưới cùng của danh sách).
+2. Chọn loại mục bạn muốn (Biểu tượng/Văn bản, Hình ảnh lớn, Tiêu đề nhóm, Khoảng trống, Đánh dấu Tab…).
+3. Mục mới xuất hiện ở cuối danh sách với nội dung mặc định.
+4. Nhấp vào mục để mở bảng Chỉnh sửa Mục và điền thông tin chi tiết.
+5. Nhấn **Cập nhật** → **Lưu**.
+
+> Các mục mới luôn được thêm vào cuối. Kéo chúng lên vị trí bạn muốn sau khi thêm.
+
 ---
 
-# Tạo, Sắp xếp và Xóa Item
+## Sắp xếp lại các mục
 
-## Thêm item mới
+### Bằng cách kéo và thả
 
-1. Trong cây menu, nhấn nút **+ Add item** (hoặc dấu cộng cuối danh sách).
-2. Chọn loại item muốn thêm (Icon/Text, Big Image, Group Title, Blank Space, Tab Marker...).
-3. Item mới xuất hiện ở cuối danh sách với nội dung mặc định.
-4. Click vào item vừa thêm để mở panel Edit Item và điền thông tin.
-5. Nhấn **Update** → **Save**.
+- Di chuột qua tay cầm kéo (≡) bên trái của một mục.
+- Kéo **lên / xuống** để thay đổi thứ tự trong cùng một cấp độ.
+- Kéo **phải** để thụt vào — mục trở thành con của mục ở trên nó.
+- Kéo **trái** để thụt ra — mục di chuyển trở lại một cấp độ.
 
-> Item mới tự thêm vào cuối. Sau khi thêm, bạn có thể kéo lên vị trí mong muốn.
+### Bằng phím tắt (khi một mục được chọn)
 
----
-
-## Sắp xếp item (Thay đổi thứ tự)
-
-### Bằng kéo thả
-
-- Trỏ vào icon kéo (≡) bên trái item.
-- Kéo **lên / xuống** để đổi thứ tự trong cùng cấp.
-- Kéo **sang phải** để thụt vào thành item con của item phía trên.
-- Kéo **sang trái** để đẩy ra thành item cấp trên.
-
-### Bằng phím tắt (khi đang chọn item)
-
-| Phím | Tác dụng |
+| Phím | Hành động |
 |---|---|
 | `↑` | Di chuyển lên (Mac: `Cmd+↑` / Win: `Alt+↑`) |
 | `↓` | Di chuyển xuống (Mac: `Cmd+↓` / Win: `Alt+↓`) |
-| `→` | Thụt vào — item thành con của item phía trên |
-| `←` | Đẩy ra — item quay lại cấp trên |
+| `→` | Thụt vào — mục trở thành con của mục ở trên |
+| `←` | Thụt ra — mục di chuyển trở lại cấp cha |
 
-> Phím tắt chỉ hoạt động khi con trỏ đang hover trên cây menu và item đã được chọn (viền xanh).
-
----
-
-## Chỉnh sửa item
-
-1. Click vào item → panel Edit Item mở.
-2. Chỉnh field cần thiết.
-3. Nhấn **Update** để lưu thay đổi vào item đó.
-
-> Nhấn **Cancel** để đóng panel mà không lưu.
+> Các phím tắt chỉ hoạt động khi con trỏ chuột đang di chuyển qua cây menu và mục được chọn (đường viền màu xanh).
 
 ---
 
-## Sao chép item (Duplicate)
+## Chỉnh sửa một mục
 
-1. Hover vào item → menu nhanh hiện ra.
-2. Nhấn **Copy** (hoặc phím tắt `C`).
-3. Item bản sao xuất hiện ngay bên dưới item gốc, giữ nguyên toàn bộ nội dung và cài đặt.
+1. Nhấp vào mục → Bảng Chỉnh sửa Mục mở ra.
+2. Thay đổi các trường bạn cần.
+3. Nhấn **Cập nhật** để lưu các thay đổi cho mục đó.
+
+> Nhấn **Hủy** để đóng bảng mà không lưu.
+
+---
+
+## Sao chép một mục
+
+1. Di chuột qua mục → menu hành động nhanh xuất hiện.
+2. Nhấp vào **Sao chép** (hoặc nhấn `C`).
+3. Một bản sao xuất hiện ngay bên dưới bản gốc, với tất cả nội dung và cài đặt được giữ nguyên.
 4. Chỉnh sửa bản sao theo nhu cầu.
 
 ---
 
-## Xóa item
+## Xóa một mục
 
-1. Hover vào item → menu nhanh hiện ra.
-2. Nhấn **Delete** (hoặc phím `Del` / `Backspace` trên Mac).
-3. Hộp xác nhận hiện lên — nhấn **Confirm** để xóa hẳn.
+1. Di chuột qua mục → menu hành động nhanh xuất hiện.
+2. Nhấp vào **Xóa** (hoặc nhấn `Del` / `Backspace` trên Mac).
+3. Một hộp thoại xác nhận xuất hiện — nhấp vào **Xác nhận** để xóa vĩnh viễn.
 
-> **Lưu ý:** Xóa item cha sẽ xóa luôn tất cả item con bên trong. Hành động không thể hoàn tác sau khi xác nhận.
+> **Lưu ý:** Xóa một mục cha cũng xóa tất cả các mục con của nó. Điều này không thể hoàn tác sau khi xác nhận.
 
 ---
 
-## Hoàn tác / Làm lại (Undo / Redo)
+## Hoàn tác / Làm lại
 
-| Phím | Tác dụng |
+| Phím tắt | Hành động |
 |---|---|
-| `Ctrl+Z` / `Cmd+Z` | Hoàn tác thao tác vừa làm |
+| `Ctrl+Z` / `Cmd+Z` | Hoàn tác hành động cuối cùng |
 | `Ctrl+Y` / `Cmd+Shift+Z` | Làm lại |
 
-Lịch sử hoàn tác chỉ tồn tại trong phiên làm việc hiện tại — tải lại trang sẽ mất lịch sử.
+Lịch sử hoàn tác chỉ tồn tại cho phiên hiện tại — tải lại trang sẽ xóa nó.
 
 ---
 
 ## Lưu menu
 
-Sau khi thêm, sắp xếp, hoặc xóa item:
+Sau khi thêm, sắp xếp lại hoặc xóa các mục:
 
-- Nhấn **Save** trên thanh toolbar, hoặc `Ctrl+S` / `Cmd+S`.
-- Giữ `Shift` khi nhấn Save để lưu và reload simulator ngay lập tức.
+- Nhấp vào **Lưu** trong thanh công cụ, hoặc nhấn `Ctrl+S` / `Cmd+S`.
+- Giữ `Shift` trong khi nhấn Lưu để lưu và ngay lập tức tải lại mô phỏng.
 
-Chưa Save thì khách hàng chưa thấy thay đổi trên trang thật.
+Các thay đổi sẽ không hiển thị cho khách hàng của bạn cho đến khi bạn Lưu.

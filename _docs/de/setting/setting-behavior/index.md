@@ -1,18 +1,19 @@
 ---
-description: Konfigurieren Sie Animationsgeschwindigkeit, -stil, Erweiterungseffekte, Touch-Feedback und Pfeilstil in Navi+.
+description: Konfigurieren Sie die Animationsgeschwindigkeit, den Animationsstil, die Erweiterungseffekte, das Touch-Feedback und den Pfeilstil in Navi+ Menüs.
+lang: de
 layout: default
 permalink: /de/docs/setting/setting-behavior/
-title: Einstellung Verhalten — Animation & Interaktion
+title: Einstellungen Verhalten — Animation & Interaktion
 ---
-# Einstellung Verhalten — Animation & Interaktion
+# Einstellungen Verhalten — Animation & Interaktion
 
-Einstellungen unter **Einstellung → Animation** und **Einstellung → Erweiterungseffekt** steuern Geschwindigkeit, Bewegungsstil und Interaktionsfeedback.
+Einstellungen unter **Einstellungen → Animation** und **Einstellungen → Erweiterungseffekt** steuern die Geschwindigkeit, den Bewegungsstil und das Interaktionsfeedback für Ihr Menü.
 
 ---
 
 ## Animationsgeschwindigkeit
 
-Gilt für alle Menübewegungen.
+Gilt für alle Bewegungen im Menü (Öffnen von Untermenüs, Übergänge zwischen Elementen usw.).
 
 | Option | Dauer |
 |---|---|
@@ -27,32 +28,34 @@ Gilt für alle Menübewegungen.
 
 ## Animationsstil
 
-Gilt nur für **Slide-Menü** und **Tabbar** — Mega-Menü verwendet immer Fade.
+Steuert, wie das Menü erscheint. Gilt nur für **Slide menu** und **Tabbar** — Mega Menu verwendet immer Fade.
 
 | Option | Effekt |
 |---|---|
-| **Slide** *(Standard)* | Gleitet vom Bildschirmrand herein |
+| **Slide** *(Standard)* | Gleitet von der Bildschirmkante ein |
 | **Fade** | Blendet allmählich ein |
 
 ---
 
 ## Erweiterungseffekt
 
-Nur Slide-Menü.
+Gilt nur für **Slide menu** — steuert, wie Untermenüs geöffnet werden.
 
 | Option | Effekt |
 |---|---|
 | **Von oben nach unten erweitern** | Untermenü erweitert sich nach unten an Ort und Stelle |
-| **Von rechts eingleiten** | Untermenü gleitet als neues Panel ein |
+| **Von rechts einschieben** | Untermenü schiebt sich von rechts als neues Panel ein |
 
 ---
 
 ## Touch-Feedback *(Business / Elite)*
 
+Hintergrundblitzfarbe, wenn ein Benutzer auf ein Element auf dem Mobilgerät tippt.
+
 | Feld | Beschreibung |
 |---|---|
-| **Touch-Hintergrundfarbe** | Flash-Farbe (Hex) |
-| **Touch-Hintergrunddeckkraft** | Flash-Deckkraft (0–100) |
+| **Touch Hintergrundfarbe** | Blitzfarbe (hex) |
+| **Touch Hintergrundopazität** | Blitzopazität (0–100) |
 
 Leer lassen = kein Touch-Effekt.
 
@@ -60,9 +63,11 @@ Leer lassen = kein Touch-Effekt.
 
 ## Pfeilstil *(Elite)*
 
+Passen Sie den Erweiterungspfeil an, der bei übergeordneten Elementen mit Kindern angezeigt wird.
+
 | Feld | Beschreibung | Standard |
 |---|---|---|
-| **Farbe** | Pfeilfarbe (Hex) | Erbt Textfarbe |
-| **Deckkraft** | Deckkraft (0–100) | 30 |
+| **Farbe** | Pfeilfarbe (hex) | Erbt Textfarbe |
+| **Opazität** | Pfeilopazität (0–100) | 30 |
 | **Größe (px)** | Pfeilgröße | 20px |
-| **Symbol** | Remixicon-Name (z.B. `ri-arrow-right-s-line`) | Systemstandard |
+| **Icon** | Remixicon-Name (z.B. `ri-arrow-right-s-line`) | Systemstandard |

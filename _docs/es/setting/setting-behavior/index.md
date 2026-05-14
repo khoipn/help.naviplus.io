@@ -1,68 +1,73 @@
 ---
-description: Configura la velocidad de animación, el estilo, los efectos de expansión, la retroalimentación táctil y el estilo de flecha en Navi+.
+description: Configura la velocidad de animación, el estilo de animación, los efectos de expansión, la retroalimentación táctil y el estilo de flecha en los menús de Navi+.
+lang: es
 layout: default
 permalink: /es/docs/setting/setting-behavior/
-title: Comportamiento de configuración — Animación e interacción
+title: Configuración de comportamiento — Animación e interacción
 ---
-# Comportamiento de configuración — Animación e interacción
+# Configuración de Comportamiento — Animación e Interacción
 
-Los ajustes en **Configuración → Animación** y **Configuración → Efecto de expansión** controlan la velocidad, el estilo de movimiento y el feedback de interacción.
+Las configuraciones en **Configuración → Animación** y **Configuración → Efecto de Expansión** controlan la velocidad, el estilo de movimiento y la retroalimentación de interacción para tu menú.
 
 ---
 
-## Velocidad de animación
+## Velocidad de Animación
 
-Se aplica a todos los movimientos del menú.
+Se aplica a todo el movimiento en el menú (abrir submenús, transiciones de elementos, etc.).
 
 | Opción | Duración |
 |---|---|
 | Ninguna | Sin animación |
-| Muy lenta | ~500ms |
+| Muy Lenta | ~500ms |
 | Lenta | ~350ms |
-| **Media** *(predeterminada)* | ~200ms |
+| **Media** *(predeterminado)* | ~200ms |
 | Rápida | ~120ms |
-| Muy rápida | ~60ms |
+| Muy Rápida | ~60ms |
 
 ---
 
-## Estilo de animación
+## Estilo de Animación
 
-Solo aplica al **menú de diapositiva** y **Tabbar** — el Mega Menú siempre usa Fade.
+Controla cómo aparece el menú. Se aplica solo a **Slide menu** y **Tabbar** — Mega Menu siempre usa Fade.
 
 | Opción | Efecto |
 |---|---|
-| **Diapositiva** *(predeterminada)* | Se desliza desde el borde de la pantalla |
-| **Fade** | Se desvanece gradualmente |
+| **Deslizar** *(predeterminado)* | Se desliza desde el borde de la pantalla |
+| **Desvanecer** | Se desvanece gradualmente |
 
 ---
 
-## Efecto de expansión
+## Efecto de Expansión
 
-Solo menú de diapositiva.
+Se aplica solo a **Slide menu** — controla cómo se abren los submenús.
 
 | Opción | Efecto |
 |---|---|
-| **Expansión de arriba a abajo** | El submenú se expande hacia abajo en su lugar |
-| **Deslizamiento desde la derecha** | El submenú se desliza como nuevo panel |
+| **Expandir de arriba hacia abajo** | El submenú se expande hacia abajo en su lugar |
+| **Deslizar desde la derecha** | El submenú se desliza desde la derecha como un nuevo panel |
 
 ---
 
-## Retroalimentación táctil *(Business / Elite)*
+## Retroalimentación Táctil *(Business / Elite)*
+
+Color de destello de fondo cuando un usuario toca un elemento en móvil.
 
 | Campo | Descripción |
 |---|---|
-| **Color de fondo táctil** | Color del destello (hex) |
-| **Opacidad de fondo táctil** | Opacidad del destello (0–100) |
+| **Color de Fondo Táctil** | Color de destello (hex) |
+| **Opacidad de Fondo Táctil** | Opacidad de destello (0–100) |
 
 Dejar vacío = sin efecto táctil.
 
 ---
 
-## Estilo de flecha *(Elite)*
+## Estilo de Flecha *(Elite)*
+
+Personaliza la flecha de expansión mostrada en los elementos principales con hijos.
 
 | Campo | Descripción | Predeterminado |
 |---|---|---|
-| **Color** | Color de la flecha (hex) | Hereda el Color de texto |
-| **Opacidad** | Opacidad (0–100) | 30 |
+| **Color** | Color de la flecha (hex) | Hereda el Color del Texto |
+| **Opacidad** | Opacidad de la flecha (0–100) | 30 |
 | **Tamaño (px)** | Tamaño de la flecha | 20px |
-| **Icono** | Nombre de Remixicon (p. ej. `ri-arrow-right-s-line`) | Predeterminado del sistema |
+| **Ícono** | Nombre de Remixicon (por ejemplo, `ri-arrow-right-s-line`) | Predeterminado del sistema |

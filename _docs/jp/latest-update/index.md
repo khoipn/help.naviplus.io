@@ -1,64 +1,64 @@
 ---
-description: Navi+の新機能、改善、修正を月別にまとめています。
+description: What's new in Navi+ — features, improvements, and fixes by month.
 lang: jp
 layout: default
 permalink: /jp/docs/latest-update/
-title: 最新の更新
+title: Changelog / Release Notes
 ---
-# 最新の更新
+# Changelog / Release Notes
 
-### 2026年4月
+### April 2026
 
-- **多言語メニュー** 自動対応 — Navi+ が訪問者の言語を検出し、追加設定なしでメニューラベルを即座に切り替えます。
-- **Tab Slide** — メニュー項目をフラットリストではなく横並びタブにグループ化できる新しいレイアウト（例：スライドメニュー内に「メンズ / レディース / セール」タブ）。
-- **カラーテンプレート** — プリセットパレット付きのカラーピッカーにリニューアル。ブランドカラーをメニュー全体に数秒で適用。
-- **統合設定パネル** — アニメーション・タッチフィードバック・アイコン・CSSクラスなどの詳細設定がすべて一か所に。
-- **WordPress** — 埋め込みが高速化、Elementor・Divi・WPBakery との競合が減少。
-
----
-
-### 2026年3月
-
-- **セクションヘッダー** — ページへのリンクと子要素の展開を同時に実行可能。タップで展開、矢印クリックでページ移動。
-- **Grid Menu** — 小さな画面でのレイアウトの崩れを修正。あらゆる画面サイズで一貫した表示に。
-- **区切り線の色** — 区切り線とタッチハイライトの色を自由にカスタマイズ可能に。
+- **Multi-language menus** now work automatically — Navi+ detects the visitor's language and switches menu labels instantly, no extra setup needed.
+- **Tab Slide** — new layout option that groups menu items into horizontal tabs instead of a flat list (e.g. Men / Women / Sale tabs inside a slide menu).
+- **Color templates** — redesigned color picker with preset palettes. Apply your brand color to the entire menu in seconds.
+- **Unified settings panel** — all advanced options (animations, touch feedback, icons, reusable CSS classes) are now in one place.
+- **WordPress** — faster embed, fewer conflicts with Elementor, Divi, and WPBakery.
 
 ---
 
-### 2026年2月
+### March 2026
 
-- **Z-index 自動解決** — カートドロワー・検索オーバーレイ・クッキーバナーが表示されると Navi+ が自動で後ろに回ります。
-- **Slide Horizontal** — 第2階層のパネルが右からスライドイン。iOS アプリのような操作感。
-- **Export / Import ポップアップ** — メニュー設定全体を JSON で数秒でバックアップ・移行・複製。
-- **画像の遅延読み込み** — メニュー内の画像が表示範囲内に入ったときのみ読み込み、初期表示が高速化。
-- **絵文字サポート** — メニュー項目のラベルに絵文字を直接追加可能。
+- **Section headers** can now both link to a page and expand children at the same time — tap to expand, click the arrow to navigate.
+- **Grid Menu** layout edge cases on small screens fixed for consistent rendering across all phone sizes.
+- **Custom separator colors** — separator lines and touch-highlight colors inside menus can now be set to any color.
 
 ---
 
-### 2026年1月
+### February 2026
 
-- **Slide Horizontal メニュータイプ** — モバイルの深いナビゲーションツリー向け。各レベルが右からスライドし、戻るボタンとヘッダーが自動更新。
-- **Item テンプレート** — メニュー構造を一度保存し、どのメニューにもワンクリックで再利用。
-- **AI Import / Export** — リンクリストやサイトマップを貼り付けるとメニューツリーを自動生成。JSON でエクスポートして AI で編集し、インポートも可能。
-- **Debug モード** — ダッシュボードからライブサイトに z-index・メニュー境界・CSS セレクタを直接オーバーレイ表示。
-- **CDN アップグレード** — Cloudflare R2 エッジネットワークに移行、セカンダリ フェイルオーバー CDN を追加。
-
----
-
-### 2025年12月
-
-- **全プラットフォーム対応** — WordPress・WooCommerce・Wix・Webflow・Squarespace と `<script>` タグが使えるあらゆるサイトで動作。Shopify と同じダッシュボード・メニュータイプ。
-- **ダッシュボード多言語化** — Navi+ ダッシュボードの UI が多言語対応。
+- **Z-index auto-fix** — Navi+ now detects when your store's panels (cart drawer, search overlay, cookie banner) appear and steps behind them automatically.
+- **Slide Horizontal** — new slide direction where level-2 panels slide in from the right, like a native iOS app.
+- **Export / Import popup** — back up, move, or duplicate your entire menu configuration as JSON in seconds.
+- **Lazy image loading** — images in menus load only when visible, improving initial page load.
+- **Emoji support** — add emoji directly to any menu item label.
 
 ---
 
-### 2025年11月
+### January 2026
 
-- **ちらつきバグ修正** — 一部デバイスでページ上端・下端での auto-hide/auto-show がちらつく問題を修正。
+- **Slide Horizontal menu type** — built for deep navigation trees on mobile. Each level slides in from the right; back button and header update automatically.
+- **Item templates** — save a menu structure once and reuse it in any menu with one click.
+- **AI Import / Export** — paste a link list or sitemap and Navi+ generates the full menu tree. Or export as JSON, edit in an AI tool, import back.
+- **Debug Mode** — overlays z-index values, menu boundaries, and CSS selector highlights on your live site directly from the dashboard.
+- **CDN upgrade** — infrastructure upgraded to Cloudflare R2 edge network with a second failover CDN added.
 
 ---
 
-### 2025年10月
+### December 2025
 
-- **Cloudflare CDN** — 全アセットを Cloudflare のグローバルエッジネットワークに移行。メニューの平均読み込み時間が約 52ms に短縮。
-- **Elite フェイルオーバー** — Elite プランに BunnyCDN セカンダリフェイルオーバーを追加。SLA 99.99% にアップグレード。
+- **All platforms** — Navi+ now runs on WordPress, WooCommerce, Wix, Webflow, Squarespace, and any site that accepts a `<script>` tag. Same dashboard, same menu types as on Shopify.
+- **Dashboard localization** — the Navi+ dashboard UI is now available in multiple languages.
+
+---
+
+### November 2025
+
+- **Auto-hide flicker fix** — fixed a bug where the auto-hide/auto-show behavior would flicker at the page top and bottom edges on some devices.
+
+---
+
+### October 2025
+
+- **Cloudflare CDN** — all Navi+ assets migrated to Cloudflare's global edge network. Average menu load time dropped to ~52ms.
+- **Elite failover** — Elite plan users get a secondary BunnyCDN fallback, keeping menus online if one CDN goes down. SLA upgraded to 99.99%.

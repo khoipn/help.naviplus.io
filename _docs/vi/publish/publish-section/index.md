@@ -1,120 +1,121 @@
 ---
-description: Publish Section menu (Mega Menu, Grid) trong Navi+ — Insert/Replace với CSS Selector hoặc App Block trên Shopify.
+description: Xuất bản các menu Section (Mega Menu, Grid) trong Navi+ — Chèn/Thay thế bằng CSS Selector hoặc App Block trên Shopify.
+lang: vi
 layout: default
 permalink: /vi/docs/publish/publish-section/
-title: Publish section — Mega menu & grid
+title: Xuất bản phần — Mega menu & grid
 ---
-# Publish Section — Mega Menu & Grid
+# Xuất bản phần — Mega Menu & Grid
 
 Áp dụng cho: **Mobile Mega Menu**, **Mobile Grid**, **Desktop Mega Menu**
 
-Section menu **không nổi** — nó được chèn vào một vị trí cụ thể trong layout trang. Có hai phương thức deploy, có thể dùng song song:
+Các menu phần là **không nổi** — chúng được chèn vào một vị trí cụ thể trong bố cục trang. Có hai phương pháp triển khai, có thể sử dụng cùng nhau:
 
-| | Method 1: Insert/Replace | Method 2: App Block |
+| | Phương pháp 1: Chèn/Thay thế | Phương pháp 2: App Block |
 |---|---|---|
-| Nền tảng | Shopify + Global | Shopify only |
-| Cơ chế | CSS Selector → chèn trước/sau/thay thế element | App Block "Navi+ on Section" trong Theme Editor |
-| Linh hoạt | Rất cao — nhúng vào bất kỳ đâu | Trung bình — giới hạn bởi Shopify section schema |
-| Setup | Cần biết CSS Selector | Chỉ cần nhập Embed ID |
+| Nền tảng | Shopify + Global | Chỉ Shopify |
+| Cơ chế | CSS Selector → chèn trước/sau/thay thế phần tử | App Block "Navi+ on Section" trong Theme Editor |
+| Tính linh hoạt | Cao — nhúng ở bất kỳ đâu | Trung bình — bị giới hạn bởi sơ đồ phần Shopify |
+| Cài đặt | Cần biết CSS Selector | Chỉ cần nhập Embed ID |
 
 ---
 
-## Method 1: Insert/Replace bằng CSS Selector
+## Phương pháp 1: Chèn/Thay thế bằng CSS Selector
 
-Phương thức **Recommended** — áp dụng được cho cả Shopify lẫn Global.
+Phương pháp **Được khuyến nghị** — hoạt động cho cả Shopify và Global.
 
-### Bước 1: Nhúng code vào website
+### Bước 1: Nhúng mã
 
-**Shopify:** **Theme Editor → App Embeds** → bật Navi+. Chỉ làm một lần.
+**Shopify:** **Theme Editor → App Embeds** → kích hoạt Navi+. Chỉ một lần.
 
-**Global:** Paste vào `<head>`:
+**Global:** Dán vào `<head>`:
 ```html
 <script>(window._navi_setting ||= []).push({
-  token: "NAVI_TOKEN_CUA_BAN"
+  token: "YOUR_NAVI_TOKEN"
 });</script>
 <script src="https://live.naviplus.app/start.js" async></script>
 ```
 
-### Bước 2: Bật toggle "Publish menu by Insert/Replace method"
+### Bước 2: Kích hoạt "Xuất bản menu bằng phương pháp Chèn/Thay thế"
 
-Bật toggle để mở phần cấu hình bên dưới.
+Kích hoạt công tắc để mở rộng phần cấu hình bên dưới.
 
 ### Bước 3: Nhập CSS Selector
 
-Nhập **đúng một** CSS Selector. Menu sẽ được đặt tương đối với element đó.
+Nhập **một** CSS Selector. Menu sẽ được đặt tương đối với phần tử khớp.
 
-**Cú pháp tách thiết bị:**
+**Cú pháp theo thiết bị:**
 
-| Suffix | Thiết bị |
+| Hậu tố | Thiết bị |
 |---|---|
-| `header` | Cả mobile lẫn desktop |
-| `header(M)` | Chỉ mobile |
-| `header(D)` | Chỉ desktop |
+| `header` | Cả di động và máy tính để bàn |
+| `header(M)` | Chỉ di động |
+| `header(D)` | Chỉ máy tính để bàn |
 
-**CSS Selector gợi ý cho Shopify themes phổ biến:**
+**Mẹo CSS Selector cho các chủ đề Shopify phổ biến:**
 
 | Loại menu | Mục đích | CSS Selector gợi ý |
 |---|---|---|
-| Desktop Mega | Thay menu desktop | `nav.header__inline-menu ul.list-menu` |
-| Desktop Mega | Chèn dưới header | `header` |
-| Mobile Mega | Chèn dưới header mobile | `header` |
+| Desktop Mega | Thay thế điều hướng máy tính để bàn | `nav.header__inline-menu ul.list-menu` |
+| Desktop Mega | Chèn dưới tiêu đề | `header` |
+| Mobile Mega | Chèn dưới tiêu đề di động | `header` |
 
-### Bước 4: Chọn cách đặt menu
+### Bước 4: Chọn vị trí (Chèn/Thay thế)
 
-| Lựa chọn | Hành vi |
+| Giá trị | Hành vi |
 |---|---|
-| **Replace** | Thay thế hoàn toàn element cũ bằng Navi+ menu |
-| **Insert Before** | Chèn Navi+ menu trước element |
-| **Insert After** | Chèn Navi+ menu sau element |
+| **Thay thế** | Hoàn toàn thay thế phần tử gốc bằng menu Navi+ |
+| **Chèn Trước** | Chèn menu Navi+ trước phần tử |
+| **Chèn Sau** | Chèn menu Navi+ sau phần tử |
 
-> Sau khi chọn **Replace**, nên thêm CSS ẩn element gốc trong lúc Navi+ load — xem [Publish Optimize](/vi/docs/publish/publish-optimize/).
-
----
-
-## Method 2: App Block (Shopify only)
-
-### Cách setup
-
-1. Copy **Embed ID** của menu (hiển thị sẵn trong modal, click để copy).
-2. Vào **Shopify Theme Editor** → tìm App Block **"Navi+ on Section"**.
-3. Paste Embed ID vào field tương ứng.
-4. Lưu theme.
-
-### "Fixed on top while scrolling"
-
-Toggle để ghim Section menu cố định ở đầu trang khi scroll.
-
-**Khi nào dùng:** Nếu theme không có sticky header sẵn, bật tùy chọn này để Desktop Mega menu luôn hiển thị khi user scroll xuống.
+> Sau khi chọn **Thay thế**, hãy xem xét thêm CSS để ẩn phần tử gốc trong khi Navi+ tải — xem [Xuất bản Tối ưu hóa](/docs/publish/publish-optimize/).
 
 ---
 
-## Có thể dùng cả hai method cùng lúc không?
+## Phương pháp 2: App Block (chỉ Shopify)
 
-Có. Shopify users có thể bật cả hai:
-- App Block để preview trong Theme Editor (ổn định hơn).
-- Insert/Replace để nhúng chính xác hơn trên storefront.
+### Cách thiết lập
 
-Thông thường chỉ cần một trong hai.
+1. Sao chép **Embed ID** của menu (hiển thị trong modal — nhấp để sao chép).
+2. Đi tới **Shopify Theme Editor** → tìm **"Navi+ on Section"** App Block.
+3. Dán Embed ID vào trường tương ứng.
+4. Lưu chủ đề.
+
+### "Cố định ở trên cùng trong khi cuộn"
+
+Kích hoạt để ghim menu phần ở trên cùng của trang trong khi cuộn.
+
+**Khi nào sử dụng:** Nếu chủ đề không có tiêu đề dính sẵn, hãy kích hoạt điều này để menu Desktop Mega vẫn hiển thị khi người dùng cuộn xuống.
 
 ---
 
-## Lưu ý theo loại menu
+## Có thể sử dụng cả hai phương pháp cùng nhau không?
+
+Có. Người dùng Shopify có thể kích hoạt cả hai:
+- App Block cho xem trước Theme Editor (ổn định hơn, dễ xem trước hơn).
+- Chèn/Thay thế cho vị trí chính xác hơn trên cửa hàng.
+
+Thường chỉ cần một phương pháp là đủ.
+
+---
+
+## Ghi chú theo loại menu
 
 | Menu | Thiết bị | Ghi chú |
 |---|---|---|
-| Mobile Mega Menu | Desktop toggle disable | Chỉ dành cho mobile |
-| Mobile Header | Desktop toggle disable | Chỉ dành cho mobile |
-| Desktop Mega Menu | Mobile toggle disable | Chỉ dành cho desktop |
+| Mobile Mega Menu | Tắt công tắc máy tính để bàn | Chỉ di động |
+| Mobile Header | Tắt công tắc máy tính để bàn | Chỉ di động |
+| Desktop Mega Menu | Tắt công tắc di động | Chỉ máy tính để bàn |
 | Mobile Grid | Cả hai | Không có hạn chế |
 
 ---
 
-## Troubleshooting
+## Khắc phục sự cố
 
-**Menu không xuất hiện sau khi cấu hình Insert/Replace?**
-1. Kiểm tra CSS Selector có đúng không — dùng DevTools hoặc Navi+ Debug Mode.
-2. Kiểm tra toggle "Publish menu by Insert/Replace method" đã bật chưa.
-3. Kiểm tra App Embeds / embed code đã được nhúng chưa.
+**Menu không xuất hiện sau khi cấu hình Chèn/Thay thế?**
+1. Kiểm tra rằng CSS Selector là chính xác — sử dụng DevTools hoặc Chế độ Gỡ lỗi Navi+.
+2. Kiểm tra rằng công tắc "Xuất bản menu bằng phương pháp Chèn/Thay thế" đã được kích hoạt.
+3. Kiểm tra rằng App Embeds / mã nhúng đã được đặt.
 
-**Menu xuất hiện nhưng bị nhân đôi?**
-→ Cả App Block lẫn Insert/Replace đang hoạt động cùng lúc. Tắt một trong hai.
+**Menu xuất hiện hai lần (bị trùng lặp)?**
+→ Cả App Block và Chèn/Thay thế đều đang hoạt động đồng thời. Vô hiệu hóa một trong số chúng.

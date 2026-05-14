@@ -1,67 +1,71 @@
 ---
-description: Cách cấu hình nhãn chính, mô tả phụ, đường kẻ phân cách và badge huy hiệu cho menu item trong Navi+.
+description: Cách thiết lập nhãn văn bản cho mục, mô tả, đường phân cách và huy hiệu (bao gồm huy hiệu số lượng giỏ hàng) trong Navi+.
 lang: vi
 layout: default
 permalink: /vi/docs/menu-items/item-label-badge/
-title: Nhãn, Mô tả và Badge
+title: Nhãn, Mô tả & Huy hiệu
 ---
+# Nhãn, Mô tả & Huy hiệu
 
-# Nhãn, Mô tả và Badge
+## Văn bản (nhãn chính)
 
-## Text (Nhãn chính)
+Văn bản chính được hiển thị trên mục — những gì khách truy cập đọc.
 
-Dòng chữ chính hiển thị trên item — đây là điều khách hàng đọc được.
+**Mẹo:**
+- Giữ cho nó ngắn gọn: 1–3 từ là lý tưởng cho các menu di động.
+- Để trống nếu bạn muốn một mục chỉ có biểu tượng (kết hợp với Bố cục Hiển thị → Chỉ Biểu tượng/Hình ảnh).
+- Hỗ trợ nhiều ngôn ngữ — nhấp vào **Multi** bên cạnh nhãn để thêm bản dịch theo ngôn ngữ.
 
-**Lưu ý:**
-- Giữ ngắn: 1–3 từ là tốt nhất cho menu mobile.
-- Để trống nếu muốn item chỉ hiện icon (kết hợp Display Layout → Icon/Image Only).
-- Hỗ trợ đa ngôn ngữ — nhấn **Multi** bên cạnh nhãn để thêm bản dịch cho từng ngôn ngữ.
-
-**Ví dụ:** `Trang chủ`, `Shop`, `Liên hệ`
-
----
-
-## Description (Mô tả phụ)
-
-Dòng chữ nhỏ bên dưới Text chính — dùng để thêm thông tin ngắn hoặc sub-label.
-
-**Ví dụ:** `Gọi: 0909 123 456 | 8AM–9PM`
-
-**Lưu ý:**
-- Chỉ hiển thị khi Display Layout hỗ trợ hai dòng (Top-Down, Left-Right, v.v.).
-- Với layout Icon/Image Only hoặc Text Only, Description bị ẩn.
-- Hỗ trợ đa ngôn ngữ.
+**Ví dụ:** `Home`, `Shop`, `Contact`
 
 ---
 
-## Icon-only (Chỉ hiện icon, ẩn chữ)
+## Mô tả (nhãn phụ)
 
-Để ẩn Text và chỉ hiện icon/ảnh, vào phần **Layout** → **Display Layout** → chọn **Icon/Image Only**.
+Một dòng văn bản nhỏ hơn bên dưới Văn bản chính — sử dụng nó cho một ghi chú ngắn hoặc nhãn thứ cấp.
 
-Khi đó nhãn Text vẫn tồn tại trong dữ liệu (dùng cho SEO và accessibility) nhưng không hiển thị trực quan.
+**Ví dụ:** `Call: +1 212 555 0100 | 8AM–9PM`
+
+**Ghi chú:**
+- Chỉ hiển thị khi Bố cục Hiển thị hỗ trợ hai dòng (Từ Trên Xuống, Từ Trái Sang Phải, v.v.).
+- Ẩn khi bố cục là Chỉ Biểu tượng/Hình ảnh hoặc Chỉ Văn bản.
+- Hỗ trợ nhiều ngôn ngữ.
 
 ---
 
-## Add Divider (Đường kẻ phân cách)
+## Chỉ biểu tượng (ẩn nhãn, hiển thị biểu tượng)
 
-Tích **Add Divider** để thêm đường kẻ ngang bên dưới item, phân cách với item tiếp theo.
+Để ẩn nhãn Văn bản và chỉ hiển thị biểu tượng hoặc hình ảnh, hãy đi tới **Bố cục → Bố cục Hiển thị → Chỉ Biểu tượng/Hình ảnh**.
+
+Trường Văn bản vẫn tồn tại trong dữ liệu (cho SEO và khả năng tiếp cận) nhưng không được hiển thị trực quan.
+
+---
+
+## Thêm Đường phân cách
+
+Kích hoạt **Thêm Đường phân cách** để thêm một đường ngang bên dưới mục, tách nó ra khỏi mục tiếp theo.
+
+Khi được kích hoạt, ba tùy chọn bổ sung xuất hiện:
 
 | Tùy chọn | Mô tả | Gói |
 |---|---|---|
-| **Size (px)** | Độ dày đường kẻ (mặc định 1px) | Tất cả |
-| **Type** | Kiểu đường: Solid, Dashed, Dotted, Double | Business / Elite |
-| **Color** | Màu đường kẻ (hex) | Tất cả |
-| **Width** | Độ rộng: Full, Inset, Under text | Business / Elite |
+| **Kích thước (px)** | Độ dày đường (mặc định 1px) | Tất cả |
+| **Loại** | Kiểu đường: Đặc, Gạch, Chấm, Đôi | Business / Elite |
+| **Màu sắc** | Màu đường (hex) | Tất cả |
+| **Chiều rộng** | Phạm vi: Đầy đủ, Lùi vào, Dưới văn bản | Business / Elite |
+
+> Loại và Chiều rộng sẽ bị mờ (khóa) trên gói Starter.
 
 ---
 
-## Add Badge (Huy hiệu nhỏ)
+## Thêm Huy hiệu
 
-Tích **Add Badge** để hiện chấm huy hiệu nhỏ trên góc item.
+Kích hoạt **Thêm Huy hiệu** để hiển thị một chấm huy hiệu nhỏ ở góc mục — hữu ích cho các nhãn "New", thông báo, hoặc số lượng giỏ hàng.
 
-### Badge giỏ hàng *(Business / Elite)*
+### Huy hiệu giỏ hàng *(Business / Elite)*
 
-Tích thêm **"Show badge (+n) when items are in the cart"** để badge tự động hiển thị số lượng sản phẩm đang có trong giỏ.
+Kích hoạt **"Hiển thị huy hiệu (+n) khi có sản phẩm trong giỏ hàng"** để tự động hiển thị số lượng sản phẩm trong giỏ hàng.
 
-- Giỏ trống → badge ẩn.
-- Có 3 sản phẩm → badge hiện số **3**.
+Hoàn hảo cho một mục Giỏ hàng trong Tab Bar:
+- Giỏ hàng trống → huy hiệu ẩn.
+- 3 sản phẩm trong giỏ hàng → huy hiệu hiển thị **3**.

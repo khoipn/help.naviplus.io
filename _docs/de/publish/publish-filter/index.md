@@ -1,65 +1,66 @@
 ---
-description: Navi+ Menüsichtbarkeit nach Gerät, Scroll-Verhalten, Shopify-Seitentypen und URL-Schlüsselwörtern filtern.
+description: Filter Navi+ Menü-Sichtbarkeit nach Gerät, Scrollverhalten, Shopify-Seitentypen und URL-Schlüsselwörtern.
+lang: de
 layout: default
 permalink: /de/docs/publish/publish-filter/
-title: Publish filter — Geräte- & URL-Regeln
+title: Veröffentlichen Filter — Geräte- & URL-Regeln
 ---
-# Publish Filter — Geräte- & URL-Regeln
+# Veröffentlichen Filter — Geräte- & URL-Regeln
 
-Nach dem Aktivieren des Publish-Schalters kannst du mit zwei Filterschichten einschränken, wann das Menü erscheint: **Gerät** (Mobil/Desktop + Scroll-Verhalten) und **URL-Schlüsselwörter** (anzeigen/ausblenden basierend auf URL-Inhalt).
+Nachdem Sie den Veröffentlichungs-Schalter aktiviert haben, können Sie eingrenzen, wann das Menü erscheint, indem Sie zwei Filterebenen verwenden: **Gerät** (mobil/Desktop + Scrollverhalten) und **URL-Schlüsselwörter** (anzeigen/ausblenden basierend auf URL-Inhalt).
 
 ---
 
-## Nach Gerät filtern
+## Filter nach Gerät
 
-### Aktivieren/Deaktivieren nach Plattform
+### Aktivieren/deaktivieren nach Plattform
 
-Zwei Schalter oben im Publish-Modal:
+Zwei Schalter oben im Veröffentlichungs-Modal:
 
 | Einstellung | Standard | Hinweise |
 |---|---|---|
-| **Menü auf Mobilgeräten anzeigen** | An | Menü auf mobilen Geräten anzeigen |
+| **Menü auf Mobilgeräten anzeigen** | Ein | Menü auf mobilen Geräten anzeigen |
 | **Menü auf Desktop anzeigen** | Aus | Menü auf Desktop-Geräten anzeigen |
 
-Einige Menütypen deaktivieren einen dieser Schalter — zum Beispiel deaktiviert Desktop Mega Menu den Mobil-Schalter.
+Einige Menütpyen deaktivieren einen dieser Schalter — zum Beispiel deaktiviert das Desktop Mega Menu den mobilen Schalter.
 
 ---
 
-### Scroll-Verhalten (nur Sticky-Menüs)
+### Scrollverhalten (Sticky-Menüs nur)
 
-Separat für Mobil und Desktop konfigurierbar.
+Separat für mobil und Desktop konfiguriert.
 
-#### Mobiles Scroll-Verhalten
+#### Mobiles Scrollen
 
 | Einstellung | Verhalten |
 |---|---|
-| **Beim Scrollen nach unten ausblenden** | Menü ausblenden wenn Nutzer nach **unten** scrollt |
-| **Nach dem Scrollen anzeigen** | Menü nur anzeigen, nachdem der Nutzer nach unten gescrollt hat (beim Seitenaufruf nicht angezeigt) |
+| **Automatisch ausblenden beim Scrollen nach unten** | Menü ausblenden, wenn der Benutzer **nach unten** scrollt |
+| **Automatisch anzeigen nach Scrollen** | Menü nur anzeigen, nachdem der Benutzer nach unten gescrollt hat (nicht beim Laden der Seite angezeigt) |
 
-#### Desktop-Scroll-Verhalten
+#### Desktop-Scrollen
 
 | Einstellung | Verhalten |
 |---|---|
-| **Beim Scrollen nach unten ausblenden** | Menü beim Scrollen nach unten auf dem Desktop ausblenden |
-| **Nach dem Scrollen anzeigen** | Nur nach dem Scrollen nach unten auf dem Desktop anzeigen |
+| **Automatisch ausblenden beim Scrollen nach unten** | Menü ausblenden, wenn auf dem Desktop nach unten gescrollt wird |
+| **Automatisch anzeigen nach Scrollen** | Nur anzeigen, nachdem auf dem Desktop nach unten gescrollt wurde |
 
-> Auto-Ausblenden und Auto-Anzeigen können gleichzeitig aktiviert werden: Menü blendet sich beim Scrollen nach unten aus, erscheint wieder beim Scrollen nach oben — ein gängiges Muster für untere Tabbars.
-
----
-
-### Bildschirmposition (nur Sticky / Tabbar)
-
-Position aus einem Optionsfeld-Auswähler mit visuellen Illustrationen wählen.
-
-**Mobil** — 6 voreingestellte Positionen (unten mitte, unten links, unten rechts, oben-Varianten...)
-
-**Desktop** — 12 voreingestellte Positionen (obere Leiste, untere Leiste, linke/rechte Seitenleiste, Eckpositionen...)
+> Automatisch ausblenden und automatisch anzeigen können zusammen aktiviert werden: Menü blendet beim Scrollen nach unten aus, erscheint beim Scrollen nach oben wieder — ein gängiges Muster für untere Tabbars.
 
 ---
 
-### Seitengruppen (nur Shopify, Sticky-Menüs)
+### Bildschirmposition (Sticky / Tabbar nur)
 
-Auswählen, auf welchen Shopify-Seitentypen das Menü erscheint. Standard: alle.
+Wählen Sie eine Position aus einem Radio-Button-Auswahlfeld mit visuellen Illustrationen.
+
+**Mobil** — 6 voreingestellte Positionen (unten Mitte, unten links, unten rechts, obere Varianten...)
+
+**Desktop** — 12 voreingestellte Positionen (obere Leiste, untere Leiste, links/rechts Sidebar, Eckenpositionen...)
+
+---
+
+### Seiten Gruppen (Shopify nur, Sticky-Menüs)
+
+Wählen Sie aus, auf welchen Shopify-Seitentypen das Menü erscheint. Standard: alle.
 
 | Gruppe | URL-Muster |
 |---|---|
@@ -70,47 +71,47 @@ Auswählen, auf welchen Shopify-Seitentypen das Menü erscheint. Standard: alle.
 | Blogs | `/blogs/*` |
 | Andere | Alle verbleibenden Seiten |
 
-> Globaler Markt (WordPress, Wix, etc.) hat diese Funktion nicht. Stattdessen URL-Schlüsselwortfilter verwenden.
+> Globaler Markt (WordPress, Wix usw.) hat diese Funktion nicht. Verwenden Sie stattdessen den URL-Schlüsselwortfilter.
 
 ---
 
-## Nach URL-Schlüsselwörtern filtern
+## Filter nach URL-Schlüsselwörtern
 
-Die Karte **"Menü nach Schlüsselwörtern anzeigen"** — gilt für alle Menütypen außer Context Slide.
+Die **"Menü nach Schlüsselwörtern anzeigen"** Karte — gilt für alle Menütpyen außer Kontext-Slide.
 
 ### Zwei Filtertypen
 
 | Einstellung | Verhalten |
 |---|---|
-| **Schlüsselwort enthalten** | Menü **wird nur angezeigt** wenn URL **mindestens ein Schlüsselwort enthält** |
-| **Schlüsselwort nicht enthalten** | Menü **wird nicht angezeigt** wenn URL **eines der Schlüsselwörter enthält** |
+| **Enthält Schlüsselwort** | Menü **zeigt nur** an, wenn die URL **mindestens ein** Schlüsselwort **enthält** |
+| **Enthält kein Schlüsselwort** | Menü **zeigt nicht an**, wenn die URL **irgendeines** der Schlüsselwörter **enthält** |
 
-Mehrere Schlüsselwörter durch Kommas `,` getrennt.
+Mehrere Schlüsselwörter durch Kommas getrennt `,`.
 
 ### Beispiele
 
 **Nur auf Snowboard-Produktseiten anzeigen:**
 ```
-Enthalten: snowboard
+Enthält: snowboard
 ```
-→ Menü wird nur auf URLs wie `yourdomain.com/products/the-collection-snowboard-hydrogen` angezeigt
+→ Menü zeigt nur auf URLs wie `yourdomain.com/products/the-collection-snowboard-hydrogen`
 
-**Auf Mehrstandort-Seiten ausblenden:**
+**Auf Multi-Standort-Seiten ausblenden:**
 ```
-Nicht enthalten: multi-location
+Enthält nicht: multi-location
 ```
-→ Menü wird **nicht** auf `yourdomain.com/products/the-multi-location-snowboard` angezeigt
+→ Menü wird **nicht** angezeigt auf `yourdomain.com/products/the-multi-location-snowboard`
 
 **Kombiniert:**
 ```
-Enthalten: collections
-Nicht enthalten: sale, outlet
+Enthält: collections
+Enthält nicht: sale, outlet
 ```
-→ Wird nur auf Kategorieseiten angezeigt, aber auf "sale"- und "outlet"-Kategorien ausgeblendet.
+→ Zeigt nur auf Kategorieseiten an, wird jedoch auf "sale" und "outlet" Kategoriene ausblenden.
 
 ### Hinweise
 
-- Filter verwendet **vollständige URL-Zeichenkettenübereinstimmung**, kein Regex.
-- Schlüsselwörter sind **nicht zwischen Groß-/Kleinschreibung unterscheidend**.
+- Der Filter verwendet **vollständige URL-Zeichenfolgenübereinstimmung**, nicht Regex.
+- Schlüsselwörter sind **nicht groß-/kleinschreibungsempfindlich**.
 - Leer lassen = kein Filter (Menü wird auf allen Seiten angezeigt).
-- Beide Filter sind per UND verknüpft — beide Bedingungen müssen erfüllt sein.
+- Beide Filter werden mit AND verknüpft — beide Bedingungen müssen erfüllt sein.

@@ -1,25 +1,30 @@
 ---
-description: Navi+ でメニューの動作、レイアウト、位置、可視性ルール、スライド固有の設定を制御する。
+description: Navi+でメニューの動作、レイアウト、位置、表示ルール、およびスライド特有の設定を制御します。
+lang: jp
 layout: default
 permalink: /jp/docs/setting/
 title: 設定
 ---
 # 設定
 
-メニューがどのように動作し、表示されるかを制御します — アニメーション、展開動作、位置、可視性ルール、スライドオプション。
+The **Setting** section controls how your menu **behaves** and **displays**. These settings determine animation speed, expand behavior, menu positioning, visibility rules (which pages show the menu), and slide-specific options.
+
+---
 
 ## トピック
 
 | # | トピック | |
 |---|---|---|
-| 1 | アニメーション、展開効果、タッチフィードバック | [設定動作](/jp/docs/setting/setting-behavior/) |
-| 2 | 位置、間隔、Z インデックス、サブメニュー幅 | [設定レイアウト](/jp/docs/setting/setting-layout/) |
-| 3 | URL、デバイス、Shopify ページタイプで表示／非表示 | [設定表示ルール](/jp/docs/setting/setting-display-rules/) |
-| 4 | スライド方向、幅、閉じるボタン | [設定スライド](/jp/docs/setting/setting-slide/) |
+| 1 | Animation, expand effects, and touch feedback | [Setting Behavior](/docs/setting/setting-behavior/) |
+| 2 | Position, spacing, z-index, and submenu width | [Setting Layout](/docs/setting/setting-layout/) |
+| 3 | Show/hide by URL, device, and Shopify page type | [Setting Display Rules](/docs/setting/setting-display-rules/) |
+| 4 | Slide direction, width, and close button | [Setting Slide](/docs/setting/setting-slide/) |
+
+---
 
 ## クイックリファレンス
 
-- 動作 — アニメーション速度、展開スタイル、タッチフィードバック
-- レイアウト — パディング／マージン、Z インデックス、サブメニュー幅
-- 表示ルール — URL キーワード、デバイス、Shopify ページタイプ
-- スライド — 方向、幅、閉じるボタン（スライドメニューのみ）
+- **Behavior** — animation speed, expand style, touch feedback
+- **Layout** — padding/margin, z-index, submenu width
+- **Display Rules** — show by URL keyword, device, Shopify page type
+- **Slide** — direction, width, close button *(Slide menu only)*

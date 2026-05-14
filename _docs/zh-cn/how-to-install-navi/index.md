@@ -1,44 +1,92 @@
 ---
-description: 您无需了解开发或设计即可使用 Navi+。这是一款可以轻松嵌入到您网站中的预构建软件。所有配置 — 包括功能和视觉设计 — 都直接在 Navi+ 上管理，不会与您现有的系统产生任何冲突。
+description: 在 Shopify 或任何网站上安装 Navi+，并了解 Navi+ 部署菜单的三种方式——浮动、定位和触发。
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/how-to-install-navi/
-title: 如何安装 Navi+
+title: 安装 Navi+
 ---
-# 如何安装 Navi+
+# 安装 Navi+
 
-您无需了解开发或设计即可使用 Navi+。这是一款可以轻松嵌入到您网站中的预构建软件。所有配置 — 包括功能和视觉设计 — 都直接在 Navi+ 上管理，不会与您现有的系统产生任何冲突。
+## 第一步 — 安装
 
-***
+**Shopify:** 从 [Shopify 应用商店](https://apps.shopify.com/pronavi-navigation-design) 安装。安装后应用会自动打开。
 
-### 步骤 1：安装应用程序
+**其他平台**（WordPress、WooCommerce、Wix、Webflow、Squarespace 或任何网站）：
+1. 在 [dash.naviplus.app](https://dash.naviplus.app) 创建一个免费账户
+2. 添加您的网站域名
+3. 复制您的嵌入代码——您将在第二步中使用此代码
 
-**如果您使用的是 Shopify：**\
-请从以下链接安装官方应用：\
-<https://apps.shopify.com/pronavi-navigation-design>
+---
 
-**如果您使用其他平台**，例如 WordPress、WooCommerce、Wix、Webflow、Squarespace 或自托管网站：
+## 第二步 — 了解您的菜单将如何部署
 
-1. 访问 <https://naviplus.io>
-2. 创建一个免费账户
-3. 登录并按照说明连接您的网站。
+Navi+ 使用 **三种不同的部署方法**，具体取决于菜单类型。提前了解这一点可以节省设置时间。
 
-***
+### 1. 浮动菜单 — Tab Bar & FAB
 
-### 步骤 2：创建菜单并将其嵌入到您的网站中
+Tab Bar 和 FAB 是 **粘性菜单**，在页面上以固定位置浮动。它们不会滚动消失。
 
-登录后，您可以开始为您的网站创建菜单。\
-**Navi+** 提供几种类型的菜单以满足不同需求：
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1.25rem 0">
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">📍</div>
+    <strong>位置</strong><br>屏幕的顶部、底部、左侧或右侧
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🔼</div>
+    <strong>滚动时自动隐藏</strong><br>向下滚动时隐藏，向上滚动时重新出现
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">👇</div>
+    <strong>向下滚动时显示</strong><br>默认隐藏，仅在用户向下滚动时出现——节省屏幕空间
+  </div>
+</div>
 
-* **Tabbar**\
-  屏幕底部的固定导航栏，允许用户快速访问关键部分。非常适合移动布局。
-* **Mega Menu**\
-  一个大型下拉菜单，具有多个列，完美展示产品类别或以清晰结构显示详细内容。
-* **Slide Menu (汉堡菜单)**\
-  一个隐藏的侧边菜单，从屏幕边缘滑入。非常适合节省空间并保持干净、现代的设计。
-* **Floating Button Menu**\
-  一个浮动操作按钮，可以打开快速链接列表或突出显示特殊活动或促销。
+**一个常见的用例：** 将其他浮动元素——WhatsApp、Crisp、Messenger、实时聊天小部件——整合到 Navi+ 菜单项中。这可以释放屏幕空间，并消除多个浮动图标重叠的杂乱。
 
-每种类型的菜单都有其自己的设置过程，Navi+ 仪表板内提供逐步指导。
+### 2. 定位菜单 — Mega Menu & Grid Menu
 
-您还可以在不同页面上同时使用多种类型的 Navi+ 菜单 — 例如，移动端使用 Tabbar，桌面端使用 Mega Menu，以及用于号召行动或促销的 Floating Button。
+Mega Menu 和 Grid Menu 需要在页面上的 **特定位置** 放置。有几种方法可以做到这一点：
+
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1.25rem 0">
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🎯</div>
+    <strong>CSS 选择器</strong><br>将 Navi+ 指向页面上的任何元素。在其前面、后面插入，或完全替换——这就是 Mega Menu 如何完全替换您主题的现有导航。
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🧩</div>
+    <strong>Shopify 部分</strong><br>在主题自定义器中使用应用块将菜单放入布局的任何部分——无需代码。
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🖥️</div>
+    <strong>嵌入代码</strong><br>将短代码直接粘贴到页面的 HTML 中，放在菜单应该出现的确切位置。
+  </div>
+</div>
+
+> **CSS 选择器** 是识别网页上任何点的一种方式——它是浏览器定位特定元素的方式。Navi+ 使用它来准确知道在哪里注入您的菜单。您无需自己编写 CSS；Navi+ 有一个可视化选择器，可以为您找到选择器。
+
+### 3. 触发菜单 — Slide Menu
+
+Slide Menu **不会自行出现**。它保持隐藏，直到某个事件触发它：
+
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1.25rem 0">
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">☰</div>
+    <strong>现有元素</strong><br>用户点击页面上已有的某个东西——例如您主题的汉堡图标
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">⚡</div>
+    <strong>自定义触发器</strong><br>页面上的任何元素——由其 CSS 选择器指定
+  </div>
+  <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:0.875rem 1rem">
+    <div style="font-size:1.4rem;margin-bottom:0.4rem">🔗</div>
+    <strong>另一个 Navi+ 菜单</strong><br>点击时打开 Slide Menu 的 Tab Bar 或 FAB 项
+  </div>
+</div>
+
+这使得 Slide Menu 灵活——它可以在不视觉上向页面添加任何新内容的情况下替换您现有的导航。
+
+---
+
+## 第三步 — 创建您的第一个菜单
+
+安装后，前往仪表板并创建您的第一个菜单。→ [您的第一个菜单（5分钟快速入门）](/docs/getting-started/your-first-menu/)

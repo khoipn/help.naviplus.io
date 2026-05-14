@@ -2,13 +2,15 @@
 description: 'If you deploy your website on Shopify, please install the dedicated Shopify app here: <https://apps.shopify.com/pronavi-navigation-design> - It is optimized ...'
 layout: default
 permalink: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
-title: Publish on WordPress / WooCommerce / Wix / Others
+title: Publish on Wix / Squarespace / Others
 ---
-# Publish on WordPress / WooCommerce / Wix / Others
+# Publish on Wix / Squarespace / Others
 
-If you deploy your website on Shopify, please install the dedicated [Shopify](https://www.shopify.com/ "Shopify") app here: <https://apps.shopify.com/pronavi-navigation-design> - It is optimized for this platform, allowing for stable deployment with many useful built-in options.
+> **On WordPress?** Use the dedicated [Naviplus Menu Builder plugin]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/) instead of the manual embed below — no theme edits, the plugin opens the Slide Menu from any CSS selector you choose in the editor.
 
-If you deploy your website on other platforms (such as [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), and custom websites built with PHP, Node.js, or pure HTML..), you have the following implementation methods:
+> **On Shopify?** Install the dedicated [Shopify app](https://apps.shopify.com/pronavi-navigation-design) — it's optimised for the platform with built-in publish options.
+
+This page covers the **manual script embed** method, which is the right path for [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), and custom websites built with PHP, Node.js, or pure HTML. You have the following implementation methods:
 
 ### 1. Embed Navi+ on Your Website
 

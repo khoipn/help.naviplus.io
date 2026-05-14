@@ -1,42 +1,43 @@
 ---
-description: Configurez le style de ligne de séparation par défaut dans les menus Navi+ — couleur, épaisseur, type et largeur.
+description: Configure the default style for all divider lines in your Navi+ menu — color, thickness, type, and width.
+lang: fr
 layout: default
 permalink: /fr/docs/design/design-divider/
-title: Conception séparateur — Lignes de séparation
+title: Design divider — Separator lines
 ---
-# Conception Séparateur — Lignes de séparation
+# Design Divider — Separator Lines
 
-Les paramètres dans **Conception → Séparateur** définissent l'apparence par défaut de tous les séparateurs du menu.
+Settings at **Design → Divider** define the default appearance for all dividers in the menu.
 
-Il s'agit d'un style de **niveau menu** — les éléments individuels peuvent le remplacer via Modifier l'élément → Informations de base → Ajouter séparateur.
+This is a **menu-level** style — individual items can enable/disable their own divider and override the style via Edit Item → Basic Info → Add Divider.
 
 ---
 
-## Champs
+## Fields
 
-| Champ | Description | Par défaut |
+| Field | Description | Default |
 |---|---|---|
-| **Couleur du séparateur** | Couleur de la ligne (hex) | `#EEEEEE` |
-| **Taille du séparateur (px)** | Épaisseur de la ligne | 1px |
-| **Type de séparateur** | Solide / Pointillé / Pointé / Double | Solide |
-| **Largeur du séparateur** | Complète / Inséré / Sous le texte | Complète |
+| **Divider Color** | Line color (hex) | `#EEEEEE` |
+| **Divider Size (px)** | Line thickness | 1px |
+| **Divider Type** | Line style: Solid / Dashed / Dotted / Double | Solid |
+| **Divider Width** | Line span: Full / Inset / Under text | Full |
 
-> **Type de séparateur** et **Largeur du séparateur** nécessitent le plan Business ou Elite.
-
----
-
-## Fonctionnement
-
-1. Les paramètres ici = par défaut lorsqu'un élément a **Ajouter séparateur** activé.
-2. Le style de séparateur par élément remplace ceci.
-3. Le Niveau 2-3 hérite de la Couleur du séparateur si vide.
+> **Divider Type** and **Divider Width** require Business or Elite plan.
 
 ---
 
-## Largeur du séparateur
+## How It Works
 
-| Valeur | Affichage |
+1. Settings here are the **default** applied when an item has **Add Divider** enabled.
+2. If an item has its own divider style (in Edit Item), that style **overrides** what is set here.
+3. Level 2-3 inherits `Divider Color` from this section when the `submenuDividerColor` field is empty.
+
+---
+
+## Divider Width Options
+
+| Value | Display |
 |---|---|
-| **Complète** | Largeur complète de l'élément |
-| **Inséré** | Indenté des deux côtés |
-| **Sous le texte** | Sous la partie texte uniquement |
+| **Full** | Line spans the full width of the item |
+| **Inset** | Line is indented on both sides |
+| **Under text** | Line appears only under the text portion of the item |

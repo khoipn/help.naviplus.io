@@ -1,70 +1,71 @@
 ---
-description: Comment définir les étiquettes de texte, les descriptions, les séparateurs et les badges (y compris les badges de comptage du panier) dans Navi+.
+description: How to set item text labels, descriptions, dividers, and badges (including cart count badges) in Navi+.
+lang: fr
 layout: default
 permalink: /fr/docs/menu-items/item-label-badge/
-title: Étiquettes, descriptions & badges
+title: Labels, Descriptions & Badges
 ---
-# Étiquettes, descriptions & badges
+# Labels, Descriptions & Badges
 
-## Texte (étiquette principale)
+## Text (main label)
 
-Le texte principal affiché sur l'élément — ce que les visiteurs lisent.
+The primary text displayed on the item — what visitors read.
 
-**Conseils :**
-- Restez court : 1–3 mots est idéal pour les menus mobiles.
-- Laissez vide si vous voulez un élément avec seulement une icône (combinez avec Layout → Icône/Image uniquement).
-- Supporte plusieurs langues — cliquez sur **Multi** à côté de l'étiquette pour ajouter des traductions par langue.
+**Tips:**
+- Keep it short: 1–3 words is ideal for mobile menus.
+- Leave it empty if you want an icon-only item (combine with Display Layout → Icon/Image Only).
+- Supports multiple languages — click **Multi** next to the label to add translations per language.
 
-**Exemples :** `Accueil`, `Boutique`, `Contact`
-
----
-
-## Description (sous-étiquette)
-
-Une ligne de texte plus petite sous le texte principal — utilisez-la pour une courte note ou une étiquette secondaire.
-
-**Exemple :** `Tél : +33 1 23 45 67 89 | 8h–21h`
-
-**Notes :**
-- Visible seulement quand le layout d'affichage supporte deux lignes (Haut-Bas, Gauche-Droite, etc.).
-- Masqué quand le layout est Icône/Image uniquement ou Texte uniquement.
-- Supporte plusieurs langues.
+**Examples:** `Home`, `Shop`, `Contact`
 
 ---
 
-## Icône uniquement (masquer l'étiquette, afficher l'icône)
+## Description (sub-label)
 
-Pour masquer l'étiquette et afficher uniquement l'icône ou l'image, allez dans **Layout → Layout d'affichage → Icône/Image uniquement**.
+A smaller line of text below the main Text — use it for a short note or secondary label.
 
-Le champ Texte existe toujours dans les données (pour le SEO et l'accessibilité) mais n'est pas rendu visuellement.
+**Example:** `Call: +1 212 555 0100 | 8AM–9PM`
+
+**Notes:**
+- Only visible when the Display Layout supports two lines (Top-Down, Left-Right, etc.).
+- Hidden when the layout is Icon/Image Only or Text Only.
+- Supports multiple languages.
 
 ---
 
-## Ajouter un séparateur
+## Icon-only (hide label, show icon)
 
-Activez **Ajouter un séparateur** pour ajouter une ligne horizontale sous l'élément, le séparant de l'élément suivant.
+To hide the Text label and show only the icon or image, go to **Layout → Display Layout → Icon/Image Only**.
 
-Quand activé, trois options supplémentaires apparaissent :
+The Text field still exists in the data (for SEO and accessibility) but is not rendered visually.
+
+---
+
+## Add Divider
+
+Enable **Add Divider** to add a horizontal line below the item, separating it from the next item.
+
+When enabled, three additional options appear:
 
 | Option | Description | Plan |
 |---|---|---|
-| **Taille (px)** | Épaisseur de la ligne (1px par défaut) | Tous |
-| **Type** | Style de ligne : Plein, Pointillé, Dotted, Double | Business / Elite |
-| **Couleur** | Couleur de la ligne (hex) | Tous |
-| **Largeur** | Étendue : Pleine, Retrait, Sous le texte | Business / Elite |
+| **Size (px)** | Line thickness (default 1px) | All |
+| **Type** | Line style: Solid, Dashed, Dotted, Double | Business / Elite |
+| **Color** | Line color (hex) | All |
+| **Width** | Span: Full, Inset, Under text | Business / Elite |
 
-> Type et Largeur apparaissent grisés (verrouillés) sur le plan Starter.
+> Type and Width appear greyed out (locked) on the Starter plan.
 
 ---
 
-## Ajouter un badge
+## Add Badge
 
-Activez **Ajouter un badge** pour afficher un petit point de badge sur le coin de l'élément — utile pour les étiquettes "Nouveau", les notifications ou le nombre d'articles dans le panier.
+Enable **Add Badge** to show a small badge dot on the item corner — useful for "New" labels, notifications, or cart count.
 
-### Badge panier *(Business / Elite)*
+### Cart badge *(Business / Elite)*
 
-Activez **"Afficher le badge (+n) quand des articles sont dans le panier"** pour afficher automatiquement le nombre de produits dans le panier.
+Enable **"Show badge (+n) when items are in the cart"** to automatically display the number of products in the cart.
 
-Parfait pour un élément Panier dans la barre d'onglets :
-- Panier vide → badge masqué.
-- 3 articles dans le panier → badge affiche **3**.
+Perfect for a Cart item in the Tab Bar:
+- Empty cart → badge hidden.
+- 3 items in cart → badge shows **3**.

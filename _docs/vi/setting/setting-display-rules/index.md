@@ -1,37 +1,38 @@
 ---
-description: Kiểm soát trang nào và thiết bị nào hiển thị menu Navi+ — dùng toggle thiết bị, từ khóa URL và bộ lọc loại trang Shopify.
+description: Kiểm soát các trang và thiết bị mà menu Navi+ của bạn xuất hiện — sử dụng công tắc thiết bị, quy tắc từ khóa URL và bộ lọc loại trang Shopify.
+lang: vi
 layout: default
 permalink: /vi/docs/setting/setting-display-rules/
-title: Setting display rules — Quy tắc hiển thị
+title: Cài đặt quy tắc hiển thị — Tính năng hiển thị có điều kiện
 ---
-# Setting Display Rules — Quy tắc hiển thị
+# Cài đặt Quy tắc Hiển thị — Tính năng Hiển thị Có điều kiện
 
-Kiểm soát menu xuất hiện trên những trang nào dựa theo thiết bị, URL hoặc loại trang Shopify.
+Kiểm soát nơi và khi nào menu của bạn xuất hiện dựa trên loại thiết bị, URL hoặc loại trang Shopify.
 
 ---
 
-## Hiển thị theo thiết bị
+## Hiển thị theo Thiết bị
 
-Tại tab **Publish** của menu (không phải per-item):
+Tìm thấy trong tab **Xuất bản** của menu (không theo từng mục):
 
-| Toggle | Tác dụng |
+| Công tắc | Hiệu ứng |
 |---|---|
-| **Mobile** | Bật/tắt menu trên màn hình mobile |
-| **Desktop** | Bật/tắt menu trên màn hình desktop |
+| **Di động** | Hiện/ẩn menu trên màn hình di động |
+| **Máy tính để bàn** | Hiện/ẩn menu trên màn hình máy tính để bàn |
 
-Mặc định: chỉ Mobile được bật. Phải bật Desktop thủ công nếu muốn hiện trên máy tính.
+Mặc định: chỉ Di động được kích hoạt. Bạn phải kích hoạt thủ công Máy tính để bàn nếu bạn muốn menu xuất hiện trên các màn hình lớn hơn.
 
-> Muốn ẩn/hiện per-item theo thiết bị → xem [Item Visibility](/vi/docs/menu-items/item-visibility/).
+> Để hiện/ẩn các mục riêng lẻ theo thiết bị → xem [Item Visibility](/docs/menu-items/item-visibility/).
 
 ---
 
-## Hiển thị theo từ khóa URL (Keyword Rules)
+## Hiển thị theo Từ khóa URL
 
-Hai field trong **Setting → Display by Keywords** cho phép kiểm soát menu chỉ xuất hiện trên một số URL nhất định.
+Hai trường trong **Cài đặt → Hiển thị theo Từ khóa** cho phép bạn kiểm soát các URL mà menu xuất hiện.
 
-### Chỉ hiện khi URL chứa từ khóa
+### Chỉ hiển thị khi URL chứa từ khóa
 
-**Field:** `Publish — Contain Keyword`
+**Trường:** `Xuất bản — Chứa Từ khóa`
 
 ```
 collections, products/sale
@@ -39,47 +40,49 @@ collections, products/sale
 
 Menu chỉ xuất hiện trên các trang có URL chứa `collections` **hoặc** `products/sale`.
 
-**Ví dụ:** Menu "Shop Navigation" chuyên cho trang sản phẩm → chỉ hiện trên `collections/` và `products/`.
+**Ví dụ:** Một menu "Shop Navigation" cho các trang sản phẩm → chỉ hiển thị trên `collections/` và `products/`.
 
 ---
 
 ### Ẩn khi URL chứa từ khóa
 
-**Field:** `Publish — Don't Contain Keyword`
+**Trường:** `Xuất bản — Không Chứa Từ khóa`
 
 ```
 checkout, account/login
 ```
 
-Menu bị ẩn trên trang checkout và trang đăng nhập, hiện bình thường ở mọi trang khác.
+Menu bị ẩn trên các trang thanh toán và đăng nhập; hiển thị ở mọi nơi khác.
 
-**Ví dụ:** Ẩn Tabbar trên trang thanh toán để không làm phân tâm khách hàng.
+**Ví dụ:** Ẩn Tabbar trong quá trình thanh toán để tránh làm phân tâm khách hàng.
 
 ---
 
-## Hiển thị theo loại trang Shopify
+## Hiển thị theo Loại Trang Shopify
 
-Tab **Publish** cũng có 6 nhóm trang Shopify (chỉ áp dụng Shopify):
+Tab **Xuất bản** cũng bao gồm 6 nhóm trang Shopify (chỉ dành cho cửa hàng Shopify):
 
-| Nhóm | Trang áp dụng |
+| Nhóm | Trang |
 |---|---|
-| **Home** | Trang chủ |
-| **Product Detail** | Trang chi tiết sản phẩm |
-| **Product Categories** | Trang bộ sưu tập / danh mục |
-| **Pages** | Trang tĩnh (About, Contact...) |
-| **Blogs** | Trang blog và bài viết |
-| **Others** | Trang không thuộc 5 nhóm trên |
+| **Trang Chủ** | Trang chủ |
+| **Chi tiết Sản phẩm** | Các trang chi tiết sản phẩm |
+| **Danh mục Sản phẩm** | Các trang bộ sưu tập / danh mục |
+| **Trang** | Các trang tĩnh (Giới thiệu, Liên hệ, v.v.) |
+| **Blog** | Các trang danh sách blog và bài viết |
+| **Khác** | Các trang không thuộc 5 nhóm trên |
 
-Bỏ tick một nhóm → menu không hiện trên loại trang đó.
+Bỏ chọn một nhóm → menu sẽ không xuất hiện trên loại trang đó.
 
 ---
 
-## Thứ tự áp dụng các điều kiện
+## Cách Quy tắc Chồng chéo
+
+Tất cả các điều kiện được đánh giá cùng nhau theo thứ tự này:
 
 ```
-1. Thiết bị có được bật không?              →  Nếu không: ẩn
-2. Loại trang có được tick không?           →  Nếu không: ẩn
-3. URL có chứa keyword "don't show"?        →  Nếu có: ẩn
-4. URL có chứa keyword "only show"?         →  Nếu không: ẩn
+1. Thiết bị có được kích hoạt không?              →  Nếu không: ẩn
+2. Loại trang có được kiểm tra không?           →  Nếu không: ẩn
+3. URL có khớp với "Không hiển thị" không?    →  Nếu có: ẩn
+4. URL có khớp với "Chỉ hiển thị" không?     →  Nếu không: ẩn
 5. Hiện menu
 ```

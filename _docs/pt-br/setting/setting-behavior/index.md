@@ -1,27 +1,73 @@
 ---
-description: Configure velocidade de animação, estilo, efeitos de expansão, feedback tátil e estilo de seta no Navi+.
+description: Configure a velocidade da animação, estilo da animação, efeitos de expansão, feedback tátil e estilo da seta nos menus Navi+.
+lang: pt-br
 layout: default
 permalink: /pt-br/docs/setting/setting-behavior/
-title: Setting behavior — Animação e interação
+title: Configuração de comportamento — Animação e interação
 ---
-# Setting Behavior — Animação e Interação
+# Configuração de Comportamento — Animação e Interação
 
-## Velocidade de Animação
+As configurações em **Configuração → Animação** e **Configuração → Efeito de Expansão** controlam a velocidade, estilo de movimento e feedback de interação para o seu menu.
 
-None / Very Slow (~500ms) / Slow (~350ms) / Medium ~200ms (padrão) / Fast (~120ms) / Very Fast (~60ms)
+---
 
-## Estilo de Animação (apenas menu slide e Tabbar; Mega Menu sempre usa Fade)
+## Velocidade da Animação
 
-Slide (padrão) = desliza da borda. Fade = aparece gradualmente.
+Aplica-se a todo movimento no menu (abrindo submenus, transições de itens, etc.).
 
-## Efeito de Expansão (apenas menu slide)
+| Opção | Duração |
+|---|---|
+| Nenhuma | Sem animação |
+| Muito Lenta | ~500ms |
+| Lenta | ~350ms |
+| **Média** *(padrão)* | ~200ms |
+| Rápida | ~120ms |
+| Muito Rápida | ~60ms |
 
-Top-down expand = expande para baixo. Slide-in from right = novo painel desliza da direita.
+---
 
-## Feedback Tátil (Business / Elite)
+## Estilo da Animação
 
-Touch Background Color (hex) + Touch Background Opacity (0–100). Vazio = sem efeito.
+Controla como o menu aparece. Aplica-se apenas ao **Slide menu** e **Tabbar** — Mega Menu sempre usa Fade.
 
-## Estilo de Seta (Elite)
+| Opção | Efeito |
+|---|---|
+| **Deslizar** *(padrão)* | Desliza a partir da borda da tela |
+| **Desvanecer** | Desvanece gradualmente |
 
-Color (hex, padrão = Text Color), Opacity (padrão 30), Size px (padrão 20px), Icon = nome Remixicon ex: ri-arrow-right-s-line
+---
+
+## Efeito de Expansão
+
+Aplica-se apenas ao **Slide menu** — controla como os submenus se abrem.
+
+| Opção | Efeito |
+|---|---|
+| **Expansão de cima para baixo** | Submenu se expande para baixo no lugar |
+| **Deslizar da direita** | Submenu desliza da direita como um novo painel |
+
+---
+
+## Feedback Tátil *(Business / Elite)*
+
+Cor de flash de fundo quando um usuário toca em um item no mobile.
+
+| Campo | Descrição |
+|---|---|
+| **Cor de Fundo do Toque** | Cor de flash (hex) |
+| **Opacidade do Fundo do Toque** | Opacidade do flash (0–100) |
+
+Deixe vazio = sem efeito de toque.
+
+---
+
+## Estilo da Seta *(Elite)*
+
+Personalize a seta de expansão mostrada em itens pai com filhos.
+
+| Campo | Descrição | Padrão |
+|---|---|---|
+| **Cor** | Cor da seta (hex) | Herda a Cor do Texto |
+| **Opacidade** | Opacidade da seta (0–100) | 30 |
+| **Tamanho (px)** | Tamanho da seta | 20px |
+| **Ícone** | Nome do Remixicon (por exemplo, `ri-arrow-right-s-line`) | Padrão do sistema |

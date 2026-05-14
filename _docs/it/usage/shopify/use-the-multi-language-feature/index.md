@@ -1,95 +1,229 @@
 ---
-description: 'Sintassi:'
+description: How to use Navi+ multi-language support — inline translation syntax, language switcher, and full language code reference.
 lang: it
 layout: default
 permalink: /it/docs/usage/shopify/use-the-multi-language-feature/
-title: Usa la funzione multilingue.
+title: Multi-language (Shopify Markets)
 ---
-# Usa la funzione multilingue.
+# Multi-language (Shopify Markets)
 
-Sintassi:
+Navi+ supports multi-language in two ways: **inline translation syntax** and a **language switcher** built directly into your menu.
+
+## 1. Inline translation syntax
+
+Add translations directly in a menu item's label using this syntax:
 
 ```
 Default-content <language-code-1: Content-1><language-code-2: Content-2>
 ```
 
-Esempio:
+**Example** — a Tab Bar shown in English, French, and Vietnamese:
 
 ```
-Home <fr: Maison><zh: 家>
+Home <fr: Maison><vi: Trang chủ>
 ```
 
-Ecco l'elenco COMPLETO predefinito di tutti i codici lingua supportati da Navi+.
+When the menu renders, Navi+ checks the current page language and shows the matching translation. If no match is found, it falls back to the default.
 
-A volte, puoi utilizzare sistemi SEO per convertire questi codici lingua di due caratteri in un formato diverso, ad esempio, cambiando EN in en-EN o english. In quel caso, puoi comunque utilizzare il codice lingua normalmente e facilmente.
+This syntax works in the **label**, **description**, and **link-to** fields.
 
-| Codice lingua | Nome lingua                                       |
-| ------------- | --------------------------------------------------- |
-| ab            | Abcaso                                           |
-| aa            | Afar                                                |
-| af            | Afrikans                                           |
-| ak            | Akan                                                |
-| sq            | Albanese                                            |
-| am            | Amarico                                             |
-| ar            | Arabo                                              |
-| an            | Aragonese                                           |
-| hy            | Armeno                                            |
-| as            | Assamese                                            |
-| av            | Avarico                                              |
-| ae            | Avestano                                             |
-| ay            | Aymara                                              |
-| az            | Azero                                         |
-| bm            | Bambara                                             |
-| ba            | Bashkir                                             |
-| eu            | Basco                                              |
-| be            | Bielorusso                                          |
-| bn            | Bengali                                             |
-| bh            | Lingue bihari                                    |
-| bi            | Bislama                                             |
-| bs            | Bosniaco                                             |
-| br            | Bretone                                              |
-| bg            | Bulgaro                                           |
-| my            | Birmano                                             |
-| ca            | Catalano, Valenciano                                  |
-| km            | Khmer centrale                                       |
-| ch            | Chamorro                                            |
-| ce            | Ceceno                                             |
-| ny            | Chichewa, Chewa, Nyanja                             |
-| zh            | Cinese                                             |
-| cu            | Slavo ecclesiastico, Bulgaro antico, Slavo ecclesiastico antico |
-| cv            | Chuvash                                             |
-| kw            | Cornico                                             |
-| co            | Corso                                            |
-| cr            | Cree                                                |
-| hr            | Croato                                            |
-| cs            | Ceco                                               |
-| da            | Danese                                              |
-| dv            | Divehi, Dhivehi, Maldiviano                          |
-| nl            | Olandese, Fiammingo                                      |
-| dz            | Dzongkha                                            |
-| en            | English                                             |
-| eo            | Esperanto                                           |
-| et            | Estone                                            |
-| ee            | Ewe                                                 |
-| fo            | Feroese                                             |
-| fj            | Fijiano                                              |
-| fi            | Finlandese                                             |
-| fr            | Francese                                              |
-| ff            | Fulah                                               |
-| gd            | Gaelico, Gaelico scozzese                             |
-| gl            | Galiziano                                            |
-| lg            | Ganda                                               |
-| ka            | Georgiano                                            |
-| de            | Tedesco                                              |
-| ki            | Gikuyu, Kikuyu                                      |
-| el            | Greco (moderno)                                      |
-| kl            | Groenlandese, Kalaallisut                            |
-| gn            | Guarani                                             |
-| gu            | Gujarati                                            |
-| ht            | Haitiano, Creolo haitiano                             |
-| ha            | Hausa                                               |
-| he            | Ebraico                                              |
-| hz            | Herero                                              |
-| hi            | Hindi                                               |
+## 2. Language switcher
 
-<br>
+You can build a language switcher inside any Navi+ menu. Use the `open:ChangeLanguage()` action on a menu item:
+
+```
+open:ChangeLanguage(fr)
+```
+
+When a visitor taps that item, the site switches to French. You can add flag icons from a site like [Flaticon](https://www.flaticon.com) to make the switcher more visual.
+
+## Language code reference
+
+Navi+ supports all standard ISO 639-1 language codes. If your SEO system uses a different format (e.g. `en-EN` instead of `en`), the two-character code still works.
+
+| Code | Language |
+|---|---|
+| ab | Abkhazian |
+| aa | Afar |
+| af | Afrikaans |
+| ak | Akan |
+| sq | Albanian |
+| am | Amharic |
+| ar | Arabic |
+| an | Aragonese |
+| hy | Armenian |
+| as | Assamese |
+| av | Avaric |
+| ae | Avestan |
+| ay | Aymara |
+| az | Azerbaijani |
+| bm | Bambara |
+| ba | Bashkir |
+| eu | Basque |
+| be | Belarusian |
+| bn | Bengali |
+| bh | Bihari languages |
+| bi | Bislama |
+| bs | Bosnian |
+| br | Breton |
+| bg | Bulgarian |
+| my | Burmese |
+| ca | Catalan, Valencian |
+| km | Central Khmer |
+| ch | Chamorro |
+| ce | Chechen |
+| ny | Chichewa, Chewa, Nyanja |
+| zh | Chinese |
+| cu | Church Slavonic, Old Bulgarian |
+| cv | Chuvash |
+| kw | Cornish |
+| co | Corsican |
+| cr | Cree |
+| hr | Croatian |
+| cs | Czech |
+| da | Danish |
+| dv | Divehi, Dhivehi, Maldivian |
+| nl | Dutch, Flemish |
+| dz | Dzongkha |
+| en | English |
+| eo | Esperanto |
+| et | Estonian |
+| ee | Ewe |
+| fo | Faroese |
+| fj | Fijian |
+| fi | Finnish |
+| fr | French |
+| ff | Fulah |
+| gd | Gaelic, Scottish Gaelic |
+| gl | Galician |
+| lg | Ganda |
+| ka | Georgian |
+| de | German |
+| ki | Gikuyu, Kikuyu |
+| el | Greek (Modern) |
+| kl | Greenlandic, Kalaallisut |
+| gn | Guarani |
+| gu | Gujarati |
+| ht | Haitian Creole |
+| ha | Hausa |
+| he | Hebrew |
+| hz | Herero |
+| hi | Hindi |
+| ho | Hiri Motu |
+| hu | Hungarian |
+| ia | Interlingua |
+| id | Indonesian |
+| ie | Interlingue |
+| ga | Irish |
+| ig | Igbo |
+| ik | Inupiaq |
+| io | Ido |
+| is | Icelandic |
+| it | Italian |
+| iu | Inuktitut |
+| ja | Japanese |
+| jv | Javanese |
+| kn | Kannada |
+| kr | Kanuri |
+| ks | Kashmiri |
+| kk | Kazakh |
+| rw | Kinyarwanda |
+| kv | Komi |
+| kg | Kongo |
+| ko | Korean |
+| ku | Kurdish |
+| kj | Kuanyama, Kwanyama |
+| la | Latin |
+| lb | Luxembourgish |
+| li | Limburgan |
+| ln | Lingala |
+| lo | Lao |
+| lt | Lithuanian |
+| lu | Luba-Katanga |
+| lv | Latvian |
+| gv | Manx |
+| mk | Macedonian |
+| mg | Malagasy |
+| ms | Malay |
+| ml | Malayalam |
+| mt | Maltese |
+| mi | Maori |
+| mr | Marathi |
+| mh | Marshallese |
+| mn | Mongolian |
+| na | Nauru |
+| nv | Navajo, Navaho |
+| nd | North Ndebele |
+| ne | Nepali |
+| ng | Ndonga |
+| nb | Norwegian Bokmål |
+| nn | Norwegian Nynorsk |
+| no | Norwegian |
+| ii | Sichuan Yi |
+| nr | South Ndebele |
+| oc | Occitan |
+| oj | Ojibwa |
+| om | Oromo |
+| or | Oriya |
+| os | Ossetian, Ossetic |
+| pa | Punjabi |
+| pi | Pali |
+| fa | Persian |
+| pl | Polish |
+| ps | Pashto, Pushto |
+| pt | Portuguese |
+| qu | Quechua |
+| rm | Romansh |
+| rn | Rundi |
+| ro | Romanian |
+| ru | Russian |
+| sa | Sanskrit |
+| sc | Sardinian |
+| sd | Sindhi |
+| se | Northern Sami |
+| sm | Samoan |
+| sg | Sango |
+| sr | Serbian |
+| gd | Scottish Gaelic |
+| sn | Shona |
+| si | Sinhala, Sinhalese |
+| sk | Slovak |
+| sl | Slovenian |
+| so | Somali |
+| st | Southern Sotho |
+| es | Spanish, Castilian |
+| su | Sundanese |
+| sw | Swahili |
+| ss | Swati |
+| sv | Swedish |
+| ta | Tamil |
+| te | Telugu |
+| tg | Tajik |
+| th | Thai |
+| ti | Tigrinya |
+| bo | Tibetan |
+| tk | Turkmen |
+| tl | Tagalog |
+| tn | Tswana |
+| to | Tonga |
+| tr | Turkish |
+| ts | Tsonga |
+| tt | Tatar |
+| tw | Twi |
+| ty | Tahitian |
+| ug | Uighur, Uyghur |
+| uk | Ukrainian |
+| ur | Urdu |
+| uz | Uzbek |
+| ve | Venda |
+| vi | Vietnamese |
+| vo | Volapük |
+| wa | Walloon |
+| cy | Welsh |
+| wo | Wolof |
+| fy | Western Frisian |
+| xh | Xhosa |
+| yi | Yiddish |
+| yo | Yoruba |
+| za | Zhuang, Chuang |
+| zu | Zulu |

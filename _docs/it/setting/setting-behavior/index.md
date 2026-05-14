@@ -1,68 +1,73 @@
 ---
-description: Configura la velocità di animazione, lo stile, gli effetti di espansione, il feedback tattile e lo stile delle frecce in Navi+.
+description: Configura la velocità dell'animazione, lo stile dell'animazione, gli effetti di espansione, il feedback tattile e lo stile della freccia nei menu Navi+.
+lang: it
 layout: default
 permalink: /it/docs/setting/setting-behavior/
-title: Setting behavior — Animazione e interazione
+title: Impostazione comportamento — Animazione e interazione
 ---
-# Setting Behavior — Animazione e Interazione
+# Impostazione Comportamento — Animazione e Interazione
 
-Le impostazioni in **Impostazioni → Animazione** e **Impostazioni → Effetto di espansione** controllano la velocità, lo stile di movimento e il feedback di interazione.
+Le impostazioni in **Impostazione → Animazione** e **Impostazione → Effetto di Espansione** controllano la velocità, lo stile di movimento e il feedback di interazione per il tuo menu.
 
 ---
 
-## Velocità di animazione
+## Velocità dell'Animazione
 
-Si applica a tutti i movimenti del menu.
+Si applica a tutti i movimenti nel menu (apertura dei sottomenu, transizioni degli elementi, ecc.).
 
 | Opzione | Durata |
 |---|---|
 | Nessuna | Nessuna animazione |
-| Molto lenta | ~500ms |
+| Molto Lenta | ~500ms |
 | Lenta | ~350ms |
 | **Media** *(predefinita)* | ~200ms |
 | Veloce | ~120ms |
-| Molto veloce | ~60ms |
+| Molto Veloce | ~60ms |
 
 ---
 
-## Stile di animazione
+## Stile dell'Animazione
 
-Si applica solo al **menu slide** e alla **Tabbar** — il Mega Menu utilizza sempre il Fade.
+Controlla come appare il menu. Si applica solo a **Slide menu** e **Tabbar** — Mega Menu utilizza sempre Fade.
 
 | Opzione | Effetto |
 |---|---|
-| **Slide** *(predefinita)* | Scorre dal bordo dello schermo |
-| **Fade** | Appare gradualmente |
+| **Slide** *(predefinito)* | Scivola dal bordo dello schermo |
+| **Fade** | Scompare gradualmente |
 
 ---
 
-## Effetto di espansione
+## Effetto di Espansione
 
-Solo menu slide.
+Si applica solo a **Slide menu** — controlla come si aprono i sottomenu.
 
 | Opzione | Effetto |
 |---|---|
-| **Espansione dall'alto in basso** | Il sottomenu si espande verso il basso nella posizione attuale |
-| **Scorrimento da destra** | Il sottomenu scorre come nuovo pannello |
+| **Espansione dall'alto verso il basso** | Il sottomenu si espande verso il basso in posizione |
+| **Scivola da destra** | Il sottomenu scivola da destra come un nuovo pannello |
 
 ---
 
-## Feedback tattile *(Business / Elite)*
+## Feedback Tattile *(Business / Elite)*
+
+Colore di flash di sfondo quando un utente tocca un elemento su mobile.
 
 | Campo | Descrizione |
 |---|---|
-| **Colore sfondo tattile** | Colore del flash (hex) |
-| **Opacità sfondo tattile** | Opacità del flash (0–100) |
+| **Colore di Sfondo Tattile** | Colore di flash (esadecimale) |
+| **Opacità di Sfondo Tattile** | Opacità di flash (0–100) |
 
 Lascia vuoto = nessun effetto tattile.
 
 ---
 
-## Stile freccia *(Elite)*
+## Stile della Freccia *(Elite)*
+
+Personalizza la freccia di espansione mostrata sugli elementi genitori con figli.
 
 | Campo | Descrizione | Predefinito |
 |---|---|---|
-| **Colore** | Colore della freccia (hex) | Eredita il Colore testo |
-| **Opacità** | Opacità (0–100) | 30 |
+| **Colore** | Colore della freccia (esadecimale) | Eredita il Colore del Testo |
+| **Opacità** | Opacità della freccia (0–100) | 30 |
 | **Dimensione (px)** | Dimensione della freccia | 20px |
-| **Icona** | Nome Remixicon (es. `ri-arrow-right-s-line`) | Predefinito di sistema |
+| **Icona** | Nome di Remixicon (ad es. `ri-arrow-right-s-line`) | Predefinito di sistema |

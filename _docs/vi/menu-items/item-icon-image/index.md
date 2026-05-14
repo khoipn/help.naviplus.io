@@ -1,82 +1,97 @@
 ---
-description: Cách thêm icon từ thư viện Remixicon hoặc hình ảnh tùy chỉnh cho menu item, và các tùy chọn bố cục hiển thị trong Navi+.
+description: Cách thêm biểu tượng tích hợp và hình ảnh tùy chỉnh vào các mục menu trong Navi+, và cách định dạng chúng.
 lang: vi
 layout: default
 permalink: /vi/docs/menu-items/item-icon-image/
-title: Icon và Hình ảnh
+title: Biểu tượng & Hình ảnh
+---
+# Biểu tượng & Hình ảnh
+
+Mỗi mục có thể có một yếu tố hình ảnh — hoặc là một **biểu tượng tích hợp** hoặc một **hình ảnh tùy chỉnh**. Bạn chỉ có thể sử dụng một trong hai, không cả hai.
+
 ---
 
-# Icon và Hình ảnh
+## Biểu tượng tích hợp
 
-Mỗi item có thể có một hình ảnh đại diện — chọn **icon từ thư viện** hoặc **ảnh tùy chỉnh**. Chỉ dùng một trong hai, không dùng đồng thời.
-
----
-
-## Icon từ thư viện (Built-in icon)
-
-Icon là biểu tượng dạng vector từ thư viện **Remixicon** tích hợp sẵn. Sắc nét ở mọi kích thước, không cần upload file.
+Biểu tượng là các ký hiệu vector từ thư viện **Remixicon** tích hợp. Chúng sắc nét ở bất kỳ kích thước nào và không yêu cầu tải tệp lên.
 
 ### Cách thêm
 
-1. Trong panel Edit Item, nhấn nút **Icon**.
-2. Hộp tìm kiếm icon mở ra — gõ từ khóa tiếng Anh (ví dụ: `home`, `cart`, `phone`, `search`).
-3. Click icon để chọn — xem trước ngay trên item.
-4. Nhấn **×** để xóa icon đang chọn.
+1. Trong bảng chỉnh sửa mục, nhấp vào nút **Biểu tượng**.
+2. Hộp tìm kiếm biểu tượng mở ra — gõ một từ khóa (ví dụ: `home`, `cart`, `phone`, `search`).
+3. Nhấp vào một biểu tượng để chọn — một bản xem trước xuất hiện ngay lập tức trên mục.
+4. Nhấp **×** để xóa biểu tượng hiện tại.
 
-### Khi nào dùng icon
+### Khi nào sử dụng biểu tượng
 
-- Item trong **Tabbar** — icon là cách tiêu chuẩn để gắn nhãn tab.
-- Khi cần giao diện đồng nhất, gọn gàng.
-- Khi chưa có ảnh tùy chỉnh.
-
----
-
-## Hình ảnh tùy chỉnh (Custom image)
-
-> **Starter:** Không hỗ trợ hình ảnh tùy chỉnh — dùng icon thư viện thay thế.
-
-### Cách A — Tải lên từ gallery *(Business / Elite)*
-
-1. Nhấn nút **Image** trong panel Edit Item.
-2. Nhấn **Gallery** → hộp upload mở ra.
-3. Chọn hoặc tải ảnh lên (JPG, PNG, GIF).
-4. Xác nhận — URL ảnh tự điền.
-
-### Cách B — Dán URL ảnh bên ngoài *(Elite)*
-
-1. Nhấn nút **Image**.
-2. Dán URL đầy đủ của ảnh vào ô URL.
-3. Nhấn **Update**.
-
-### Lưu ý về ảnh
-
-- Dùng ảnh **vuông (1:1)** cho icon trong Tabbar.
-- Dùng ảnh **ngang** cho item kiểu Big Image.
-- Ảnh **PNG nền trong suốt** phù hợp nhất cho logo và biểu tượng.
-- Giữ file nhỏ — ảnh nặng làm menu tải chậm trên mobile.
+- Các mục trong **Tab Bar** — biểu tượng là cách tiêu chuẩn để gán nhãn các tab.
+- Khi bạn muốn một cái nhìn sạch sẽ, nhất quán.
+- Khi bạn không có hình ảnh tùy chỉnh sẵn sàng.
 
 ---
 
-## Bố cục hiển thị (Display Layout)
+## Hình ảnh tùy chỉnh
 
-| Lựa chọn | Bố cục |
+Sử dụng ảnh, logo hoặc đồ họa của riêng bạn thay vì biểu tượng từ thư viện.
+
+> **Gói Starter:** Hình ảnh tùy chỉnh không được hỗ trợ — hãy sử dụng biểu tượng tích hợp thay vào đó.
+
+### Tùy chọn A — Tải lên từ thư viện *(Business / Elite)*
+
+1. Nhấp vào nút **Hình ảnh** trong bảng chỉnh sửa mục.
+2. Nhấp **Thư viện** → hộp thoại tải lên mở ra.
+3. Chọn hoặc tải lên một hình ảnh (JPG, PNG, GIF).
+4. Xác nhận — URL hình ảnh sẽ được điền tự động.
+
+### Tùy chọn B — Dán URL hình ảnh *(Elite)*
+
+1. Nhấp vào nút **Hình ảnh**.
+2. Dán URL hình ảnh đầy đủ vào trường URL.
+3. Nhấp **Cập nhật**.
+
+### Mẹo về hình ảnh
+
+- Sử dụng hình ảnh **vuông (1:1)** cho biểu tượng Tab Bar.
+- Sử dụng hình ảnh **ngang** cho các mục Hình ảnh Lớn.
+- **PNG với nền trong suốt** hoạt động tốt nhất cho logo và biểu tượng.
+- Giữ kích thước tệp nhỏ — hình ảnh nặng làm chậm menu trên di động.
+- Elite tự động chuyển đổi hình ảnh sang WebP và chuẩn hóa kích thước.
+
+---
+
+## Bố cục hiển thị
+
+Sau khi thêm biểu tượng hoặc hình ảnh, chọn cách bố trí biểu tượng/hình ảnh và văn bản trong **Bố cục → Bố cục hiển thị**:
+
+| Tùy chọn | Bố cục |
 |---|---|
-| **Automatic** | Theo mặc định của loại menu |
-| **Top-Down** | Icon/ảnh trên, text dưới |
-| **Left-Right** | Icon/ảnh trái, text phải |
-| **Down-Top** | Text trên, icon/ảnh dưới |
-| **Right-Left** | Text trái, icon/ảnh phải |
-| **Icon/Image Only** | Chỉ icon/ảnh — ẩn text |
-| **Text Only** | Chỉ text — ẩn icon/ảnh |
+| **Tự động** | Theo mặc định loại menu |
+| **Trên-Dưới** | Biểu tượng/hình ảnh ở trên, văn bản ở dưới |
+| **Trái-Phải** | Biểu tượng/hình ảnh ở bên trái, văn bản ở bên phải |
+| **Dưới-Trên** | Văn bản ở trên, biểu tượng/hình ảnh ở dưới |
+| **Phải-Trái** | Văn bản ở bên trái, biểu tượng/hình ảnh ở bên phải |
+| **Chỉ Biểu tượng/Hình ảnh** | Chỉ biểu tượng/hình ảnh — văn bản bị ẩn |
+| **Chỉ Văn bản** | Chỉ văn bản — biểu tượng/hình ảnh bị ẩn |
 
 ---
 
-## Tùy chỉnh ngoại hình icon/ảnh
+## Định dạng biểu tượng hoặc hình ảnh
 
-| Cài đặt | Tác dụng |
+Đi đến **Giao diện → Kiểu Biểu tượng / Hình ảnh** để tinh chỉnh diện mạo:
+
+| Cài đặt | Hiệu ứng |
 |---|---|
-| **Icon Color** | Đổi màu icon vector (hex). Không áp dụng cho file ảnh |
-| **Size (px)** | Kích thước hiển thị của icon/ảnh |
-| **Container** | Màu nền ô bao quanh icon |
-| **Padding (px)** | Khoảng trống giữa icon và ô nền |
-| **Curve (px)** | Bo tròn góc ô nền — `50` để tạo hình tròn |
+| **Màu Biểu tượng** | Thay đổi màu vector của biểu tượng (hex). Không áp dụng cho tệp hình ảnh. |
+| **Kích thước (px)** | Kích thước hiển thị của biểu tượng hoặc hình ảnh |
+| **Container** | Màu nền của hộp bao quanh biểu tượng |
+| **Khoảng cách (px)** | Khoảng cách giữa biểu tượng và hộp chứa của nó |
+| **Góc (px)** | Bán kính góc của hộp chứa — đặt `50` cho một hình tròn |
+
+**Ví dụ — biểu tượng trắng trong một hộp xanh tròn:**
+
+```
+Màu Biểu tượng:  #FFFFFF
+Container:   #0066CC
+Khoảng cách:     10
+Góc:       50
+```

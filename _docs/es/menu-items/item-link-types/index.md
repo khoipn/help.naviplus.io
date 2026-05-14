@@ -1,12 +1,13 @@
 ---
-description: Todos los tipos de enlaces soportados por Navi+ — páginas internas, URLs externas, anclas, abrir paneles, teléfono/email, apps de chat, compartir y JavaScript.
+description: Todos los tipos de enlaces soportados por Navi+ — páginas internas, URLs externas, anclas, paneles abiertos, teléfono/correo electrónico, aplicaciones de chat, compartir y JavaScript.
+lang: es
 layout: default
 permalink: /es/docs/menu-items/item-link-types/
-title: Tipos de enlace
+title: Tipos de enlaces
 ---
-# Tipos de enlace
+# Tipos de enlaces
 
-El campo **Enlace a** en la información básica controla lo que sucede cuando un visitante toca o hace clic en un elemento. Navi+ soporta muchos tipos de enlaces más allá de una URL simple.
+El **Enlace a** campo en Información básica controla lo que sucede cuando un visitante toca o hace clic en un elemento. Navi+ soporta muchos tipos de enlaces más allá de una URL simple.
 
 Cuando haces clic en el campo Enlace a, se abre automáticamente un popup de ayuda con ejemplos completos. También puedes escribir directamente en el campo.
 
@@ -14,24 +15,28 @@ Cuando haces clic en el campo Enlace a, se abre automáticamente un popup de ayu
 
 ## 1. Páginas internas de la tienda
 
-| Destino | Ingresa |
+Usa rutas cortas (sin dominio) para enlazar a páginas dentro de tu tienda Shopify.
+
+| Destino | Ingresar |
 |---|---|
 | Página de inicio | *(dejar vacío)* |
 | Todos los productos | `collections/all` |
 | Una colección | `collections/collection-handle` |
 | Una página de producto | `products/product-handle` |
-| Página estática | `pages/page-handle` |
-| Blog | `blogs/news` |
-| Entrada del blog | `blogs/news/post-handle` |
+| Una página estática (Acerca de, FAQ…) | `pages/page-handle` |
+| Listado de blog | `blogs/news` |
+| Una entrada de blog | `blogs/news/post-handle` |
 | Carrito | `cart` |
 | Búsqueda | `search` |
 | Contacto | `pages/contact` |
 
-**Consejo Auto Clean:** Pega una URL completa → activa **Auto clean** → el sistema elimina el dominio.
+**Consejo de Auto Limpieza:** Pega una URL completa (p. ej. `https://mystore.com/collections/sale`) → activa el interruptor de **Auto limpieza** → el sistema elimina el dominio y mantiene solo `collections/sale`.
 
 ---
 
-## 2. URL completa (externo)
+## 2. URL completa (Enlace externo)
+
+Enlaza a cualquier sitio web usando una URL completa.
 
 ```
 https://brand.com/campaign
@@ -42,6 +47,8 @@ https://instagram.com/yourpage
 
 ## 3. Abrir en nueva pestaña
 
+Agrega `@new` a cualquier enlace para abrirlo en una nueva pestaña.
+
 ```
 collections/all@new
 https://brand.com/campaign@new
@@ -49,7 +56,9 @@ https://brand.com/campaign@new
 
 ---
 
-## 4. Sin navegación (padre)
+## 4. Sin navegación (elemento padre)
+
+Usa `#` cuando un elemento es un padre que contiene elementos hijos — tocarlo expande los hijos sin navegar a ningún lado.
 
 ```
 #
@@ -57,47 +66,54 @@ https://brand.com/campaign@new
 
 ---
 
-## 5. Desplazamiento (ancla)
+## 5. Desplazarse (Ancla)
 
 | Acción | Sintaxis |
 |---|---|
-| Subir | `scroll:Top` |
-| Subir con 100px | `scroll:Top(100)` |
-| Bajar | `scroll:Bottom` |
-| A sección CSS | `scroll:OnPage(#section-id)` *(Business / Elite)* |
+| Desplazarse hacia arriba | `scroll:Top` |
+| Desplazarse hacia arriba con un desplazamiento de 100px | `scroll:Top(100)` |
+| Desplazarse hacia abajo | `scroll:Bottom` |
+| Desplazarse a una sección por selector CSS | `scroll:OnPage(#section-id)` *(Business / Elite)* |
+
+**Ejemplo:** Un "Volver arriba" botón → Enlace a es `scroll:Top`.
 
 ---
 
 ## 6. Abrir panel / popup *(Business / Elite)*
 
-| Acción | Sintaxis |
-|---|---|
-| Abrir menú Slide Navi+ | `open:NaviMenu(SF-XXXXXXXXXX)` |
-| Hacer clic en elemento CSS | `open:clickTo(#cart-button)` |
-| Enfocar campo | `open:focusTo(.search-input)` |
-| Búsqueda / carrito del tema | Popup ayuda → *Abrir paneles* |
-| Shopify Inbox | Popup ayuda → *Abrir otras apps* |
-
----
-
-## 7. Teléfono, SMS, Email
+Abre componentes de UI del tema sin salir de la página.
 
 | Acción | Sintaxis |
 |---|---|
-| Llamada | `tel:+34912345678` |
-| SMS | `sms:+34912345678?body=Hola` |
-| Email | `mailto:hola@tudominio.es` |
+| Abrir un menú deslizante de Navi+ | `open:NaviMenu(SF-XXXXXXXXXX)` |
+| Hacer clic en un elemento CSS | `open:clickTo(#cart-button)` |
+| Enfocar un campo de entrada | `open:focusTo(.search-input)` |
+| Abrir búsqueda del tema / cajón del carrito | Usa el popup de ayuda → *Abrir paneles* |
+| Abrir chat de Shopify Inbox | Usa el popup de ayuda → *Abrir otras aplicaciones* |
+
+`open:clickTo` y `open:focusTo` aceptan `Down` o `Up` para desplazarse antes de actuar:  
+`open:clickTo(.footer-element, Down)`
 
 ---
 
-## 8. Apps de chat
+## 7. Teléfono, SMS, Correo electrónico
+
+| Acción | Sintaxis |
+|---|---|
+| Llamada telefónica | `tel:+12125550100` |
+| SMS | `sms:+12125550100?body=Hello` |
+| Correo electrónico | `mailto:hello@yourdomain.com` |
+
+---
+
+## 8. Aplicaciones de chat
 
 | App | Sintaxis |
 |---|---|
-| WhatsApp | `https://wa.me/34912345678` |
-| Messenger | `https://m.me/TuPágina` |
+| WhatsApp | `https://wa.me/12125550100` *(sin prefijo +)* |
+| Messenger | `https://m.me/YourPageName` |
 | Zalo | `https://zalo.me/+0123456789` |
-| Line | `https://lin.ee/tu-código` |
+| Line | `https://lin.ee/your-line-code` |
 
 ---
 
@@ -105,14 +121,16 @@ https://brand.com/campaign@new
 
 | Acción | Sintaxis |
 |---|---|
-| Compartir página | `open:ShareMe` |
-| Copiar URL | `share:CopyUrl` |
-| Facebook | `share:Facebook` |
-| Twitter / X | `share:Tweet` |
+| Compartir página actual (diálogo de compartir nativo) | `open:ShareMe` |
+| Copiar URL al portapapeles | `share:CopyUrl` |
+| Compartir en Facebook | `share:Facebook` |
+| Compartir en Twitter / X | `share:Tweet` |
 
 ---
 
-## 10. JavaScript
+## 10. Llamar a JavaScript
+
+Llama a cualquier función de JavaScript definida en la página.
 
 ```
 javascript:openCustomModal
@@ -124,7 +142,7 @@ javascript:toggleDarkMode
 ## 11. Cambiar idioma
 
 ```
-open:ChangeLanguage(es)
-open:ChangeLanguage(en)
-open:ChangeLanguage()
+open:ChangeLanguage(fr)    ← cambiar a francés
+open:ChangeLanguage(vi)    ← cambiar a vietnamita
+open:ChangeLanguage()      ← restablecer al idioma predeterminado
 ```

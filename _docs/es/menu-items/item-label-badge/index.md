@@ -1,70 +1,71 @@
 ---
-description: Cómo configurar etiquetas de texto, descripciones, divisores y badges (incluyendo badges de conteo de carrito) en Navi+.
+description: Cómo establecer etiquetas de texto de elementos, descripciones, divisores e insignias (incluidas las insignias de conteo del carrito) en Navi+.
+lang: es
 layout: default
 permalink: /es/docs/menu-items/item-label-badge/
-title: Etiquetas, descripciones y badges
+title: Etiquetas, Descripciones y Insignias
 ---
-# Etiquetas, descripciones y badges
+# Etiquetas, Descripciones y Insignias
 
 ## Texto (etiqueta principal)
 
-El texto principal que se muestra en el elemento — lo que leen los visitantes.
+El texto principal mostrado en el elemento — lo que los visitantes leen.
 
 **Consejos:**
 - Mantenlo corto: 1–3 palabras es ideal para menús móviles.
-- Déjalo vacío si quieres un elemento solo con icono (combina con Layout → Solo Icono/Imagen).
+- Déjalo vacío si deseas un elemento solo con ícono (combina con Diseño de Visualización → Solo Ícono/Imagen).
 - Soporta múltiples idiomas — haz clic en **Multi** junto a la etiqueta para agregar traducciones por idioma.
 
-**Ejemplos:** `Inicio`, `Tienda`, `Contacto`
+**Ejemplos:** `Home`, `Shop`, `Contact`
 
 ---
 
 ## Descripción (sub-etiqueta)
 
-Una línea de texto más pequeña debajo del texto principal — úsala para una nota corta o etiqueta secundaria.
+Una línea de texto más pequeña debajo del Texto principal — úsala para una nota corta o etiqueta secundaria.
 
-**Ejemplo:** `Tel: +34 91 234 5678 | 8AM–9PM`
+**Ejemplo:** `Call: +1 212 555 0100 | 8AM–9PM`
 
 **Notas:**
-- Solo visible cuando el layout de visualización soporta dos líneas (Arriba-Abajo, Izquierda-Derecha, etc.).
-- Oculto cuando el layout es Solo Icono/Imagen o Solo Texto.
+- Solo visible cuando el Diseño de Visualización soporta dos líneas (De Arriba a Abajo, De Izquierda a Derecha, etc.).
+- Oculto cuando el diseño es Solo Ícono/Imagen o Solo Texto.
 - Soporta múltiples idiomas.
 
 ---
 
-## Solo icono (ocultar etiqueta, mostrar icono)
+## Solo ícono (ocultar etiqueta, mostrar ícono)
 
-Para ocultar la etiqueta de texto y mostrar solo el icono o imagen, ve a **Layout → Layout de visualización → Solo Icono/Imagen**.
+Para ocultar la etiqueta de Texto y mostrar solo el ícono o imagen, ve a **Diseño → Diseño de Visualización → Solo Ícono/Imagen**.
 
-El campo Texto aún existe en los datos (para SEO y accesibilidad) pero no se renderiza visualmente.
+El campo de Texto aún existe en los datos (para SEO y accesibilidad) pero no se renderiza visualmente.
 
 ---
 
-## Agregar divisor
+## Agregar Divisor
 
-Activa **Agregar divisor** para agregar una línea horizontal debajo del elemento, separándolo del siguiente.
+Habilita **Agregar Divisor** para añadir una línea horizontal debajo del elemento, separándolo del siguiente elemento.
 
-Cuando está activado, aparecen tres opciones adicionales:
+Cuando se habilita, aparecen tres opciones adicionales:
 
 | Opción | Descripción | Plan |
 |---|---|---|
-| **Tamaño (px)** | Grosor de la línea (1px por defecto) | Todos |
-| **Tipo** | Estilo de línea: Sólido, Discontinuo, Punteado, Doble | Business / Elite |
+| **Tamaño (px)** | Grosor de la línea (predeterminado 1px) | Todos |
+| **Tipo** | Estilo de línea: Sólido, Discontinuo, Puntado, Doble | Business / Elite |
 | **Color** | Color de la línea (hex) | Todos |
-| **Anchura** | Extensión: Completo, Sangría, Bajo el texto | Business / Elite |
+| **Ancho** | Span: Completo, Inset, Bajo texto | Business / Elite |
 
-> Tipo y Anchura aparecen en gris (bloqueados) en el plan Starter.
+> Tipo y Ancho aparecen deshabilitados (bloqueados) en el plan Starter.
 
 ---
 
-## Agregar badge
+## Agregar Insignia
 
-Activa **Agregar badge** para mostrar un pequeño punto de badge en la esquina del elemento — útil para etiquetas "Nuevo", notificaciones o conteo del carrito.
+Habilita **Agregar Insignia** para mostrar un pequeño punto de insignia en la esquina del elemento — útil para etiquetas "New", notificaciones o conteo del carrito.
 
-### Badge de carrito *(Business / Elite)*
+### Insignia del carrito *(Business / Elite)*
 
-Activa **"Mostrar badge (+n) cuando hay artículos en el carrito"** para mostrar automáticamente el número de productos en el carrito.
+Habilita **"Mostrar insignia (+n) cuando los artículos están en el carrito"** para mostrar automáticamente el número de productos en el carrito.
 
-Perfecto para un elemento Carrito en la barra de pestañas:
-- Carrito vacío → badge oculto.
-- 3 artículos en carrito → badge muestra **3**.
+Perfecto para un elemento de Carrito en la Tab Bar:
+- Carrito vacío → insignia oculta.
+- 3 artículos en el carrito → insignia muestra **3**.

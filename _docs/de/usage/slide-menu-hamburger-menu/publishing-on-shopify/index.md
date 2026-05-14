@@ -9,7 +9,7 @@ title: Veröffentlichung auf Shopify
 
 ### Schritt 2: (Shopify) Veröffentlichen Sie das Menü auf Ihrer Website.
 
-#### 2.1. Aktivieren Sie Navi+ in App-Embeds
+#### 2.1. Aktivieren Sie Navi+ in App-Integrationen
 
 Schritt 1: Klicken Sie auf Online-Shop, dann auf Themes. Tipps: Klicken Sie mit der rechten Maustaste auf Online-Shop und wählen Sie „Link in neuem Tab öffnen“, um Zeit zu sparen.
 
@@ -20,13 +20,13 @@ Schritt 2: Wählen Sie das Theme aus, in dem Sie das Menü veröffentlichen möc
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
-Schritt 3: Gehen Sie zu App-Embeds, suchen Sie nach „Navi+ auf allen Seiten“ und aktivieren Sie es.
+Schritt 3: Gehen Sie zu App-Integrationen, suchen Sie nach „Navi+ auf allen Seiten“ und aktivieren Sie es.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
 Schritt 4: Vergessen Sie nicht, auf „Speichern“ zu klicken, um die Änderungen anzuwenden.
 
-Nach diesen 4 Schritten wurde Navi+ auf Ihrer Website installiert und ist bereit zur Anzeige. Der Prozess ist jedoch noch nicht abgeschlossen. Gehen Sie zurück zum Navi+-App-Tab, um **Menü veröffentlichen** tatsächlich zu aktivieren.
+Nach diesen 4 Schritten wurde Navi+ auf Ihrer Website installiert und ist bereit zur Anzeige. Der Prozess ist jedoch noch nicht abgeschlossen. Gehen Sie zurück zum Navi+-App-Tab, um tatsächlich **Menü veröffentlichen** zu aktivieren.
 
 #### 2.2. Wählen Sie die Anzeigeeinstellungen und veröffentlichen Sie das Menü.
 
@@ -34,7 +34,7 @@ Schritt 1: Klicken Sie auf die Schaltfläche **Auf Website veröffentlichen**.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-Schritt 2: Aktivieren Sie den Schalter "Menü veröffentlichen (nur sichtbar, wenn vom Benutzer geöffnet)".
+Schritt 2: Aktivieren Sie den Schalter "Menü veröffentlichen (sichtbar nur, wenn vom Benutzer geöffnet)".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FhSDziWrg4Jxr9bZ9jB4j%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=3c39339c-fe75-4653-86e7-411318cf506d" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +42,7 @@ Schritt 3: Wählen Sie die Anzeigemethode
 
 **Methode 1: Öffnen Sie dieses Menü von einem anderen Navi+-Menüelement mit der Syntax open:NaviMenu**
 
-Diese Methode ermöglicht es Ihnen, ein Slide-Menü zu öffnen, wenn der Benutzer auf ein Menüelement aus einem anderen Navi+-Menü klickt oder tippt (zum Beispiel: auf einer Tabbar, einem FAB in der unteren Ecke des Bildschirms oder einem Mega-Menü). Hauptziele dieser Methode:
+Diese Methode ermöglicht es Ihnen, ein Slide-Menü zu öffnen, wenn der Benutzer auf ein Menüelement aus einem anderen Navi+-Menü klickt oder tippt (zum Beispiel: auf einer Tabbar, einem FAB in der unteren Ecke des Bildschirms oder einem Mega-Menü). Hauptzwecke dieser Methode:
 
 <details><summary>Zweck 1: Verbesserte Sichtbarkeit und Benutzererfahrung, indem die vollständige Sitemap im Slide-Menü angezeigt wird, während der Zugriff einfach bleibt.</summary>
 <p>Das Slide-Menü ist ideal, um Ihre vollständige Sitemap anzuzeigen, dank seines großen Raums und flexiblen Layouts, was es perfekt macht, um den gesamten Produktkatalog, Links zu wichtigen Seiten, Blogs, Support-Tools usw. anzuzeigen. Das Slide-Menü ist jedoch standardmäßig oft weniger sichtbar. Um die Auffindbarkeit zu verbessern, können Sie ein anderes Navi+-Menü (wie eine Tabbar) verwenden, um Ihre wichtigsten und erkennbaren Links zu präsentieren, und ein hervorgehobenes Menüelement platzieren, das das Slide-Menü auslöst. Dies sorgt für bessere Sichtbarkeit und Benutzerengagement für das Slide-Menü.</p>
@@ -80,7 +80,7 @@ Sie können diese Methode auch kreativ anwenden, indem Sie andere CSS-Selektoren
 
 <details><summary><strong>Wie finde ich den CSS-Selektor auf meiner Website?</strong></summary>
 <p>Sie können mit einem Navi+-Supporter chatten, um sofortige Hilfe zu erhalten, anstatt es selbst zu tun.\
-Allerdings wird (1) dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
+Allerdings wird (1) dies Ihnen helfen, die Grundidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
@@ -96,17 +96,6 @@ Allerdings wird (1) dies Ihnen helfen, die Kernidee zu verstehen, und (2) wenn S
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Agenten-Anweisungen: Abfragen dieser Dokumentation</h1>
-<p>Wenn Sie zusätzliche Informationen benötigen, die auf dieser Seite nicht direkt verfügbar sind, können Sie die Dokumentation dynamisch abfragen, indem Sie eine Frage stellen.</p>
-<p>Führen Sie eine HTTP GET-Anfrage an die aktuelle Seiten-URL mit dem <code>ask</code> Abfrageparameter aus:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
-</code></pre>
-
-<p>Die Frage sollte spezifisch, eigenständig und in natürlicher Sprache verfasst sein.
-Die Antwort enthält eine direkte Antwort auf die Frage sowie relevante Auszüge und Quellen aus der Dokumentation.</p>
-<p>Verwenden Sie diesen Mechanismus, wenn die Antwort nicht ausdrücklich auf der aktuellen Seite vorhanden ist, Sie eine Klärung oder zusätzlichen Kontext benötigen oder Sie verwandte Dokumentationsabschnitte abrufen möchten.</p>
 </details>
 
 #### 2.3. Wichtig! Optimieren Sie die Geschwindigkeit des Slide-Menüs, fügen Sie einen Ladeeffekt hinzu und verhindern Sie doppelte Menüs
@@ -119,15 +108,15 @@ Es ist nichts, was Sie sofort beheben müssen, aber auf lange Sicht ist es wicht
 <p>Allerdings läuft Navi+ weiterhin innerhalb des Shopify-Ökosystems. Shopify hat seine eigenen Lade-Regeln:</p>
 <ol>
 <li>Shopify priorisiert das Laden seiner eigenen Ressourcen zuerst.</li>
-<li>Dann lädt Shopify den Inhalt des Themes.</li>
+<li>Dann lädt Shopify den Theme-Inhalt.</li>
 <li>Schließlich lädt Shopify den App-Inhalt, jedoch nicht in einer bestimmten Reihenfolge.</li>
 </ol>
 <p>Das bedeutet, wenn Sie mehrere Apps verwenden, kann es sein, dass Navi+ manchmal später als erwartet geladen wird. Deshalb kann es sich in bestimmten Fällen langsamer anfühlen.</p>
 <hr />
 <h4>Was ist meine Lösung?</h4>
-<p>Derzeit hat Navi+ eine hohe Priorität beim Laden auf Shopify-Websites. Es gibt jedoch immer noch eine gewisse Verzögerung. Wir werden diese Probleme hier nacheinander angehen:</p>
+<p>Derzeit hat Navi+ beim Laden auf Shopify-Websites hohe Priorität. Es gibt jedoch immer noch eine gewisse Verzögerung. Wir werden diese Probleme hier nacheinander angehen:</p>
 <p><strong>Slide-Menü: Fügen Sie einen Ladeeffekt hinzu und sperren Sie den Auslöser-Selektor</strong></p>
-<p>Sehr einfach: Geben Sie einfach den CSS-Selektor ein, den Sie für das Slide-Menü verwenden, in den Einbettungsbereich der Navi+-App (siehe Bild unten).</p>
+<p>Sehr einfach: Geben Sie einfach den CSS-Selektor ein, den Sie für das Slide-Menü verwenden, in den Einbettungsbereich der Navi+-App ein (siehe Bild unten).</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FEIocXFLDBcobQR68F7QI%2F1.2.png?alt=media&#x26;token=f7fc10da-d538-4e33-aa46-55b40223f417" alt=""><figcaption></figcaption></figure>
@@ -138,6 +127,6 @@ Es ist nichts, was Sie sofort beheben müssen, aber auf lange Sicht ist es wicht
 <ul>
 <li>Fügen Sie das Suffix <strong>(M)</strong> hinzu, wenn Sie möchten, dass es nur auf Mobilgeräten angewendet wird.</li>
 <li>Fügen Sie das Suffix <strong>(D)</strong> hinzu, wenn Sie möchten, dass es nur auf Desktop angewendet wird.</li>
-<li>Fügen Sie kein Suffix hinzu, wenn Sie möchten, dass es auf beiden Plattformen angewendet wird.</li>
+<li>Kein Suffix lassen, wenn Sie möchten, dass es auf beiden Plattformen angewendet wird.</li>
 </ul>
 </details>

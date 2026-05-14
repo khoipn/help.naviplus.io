@@ -1,33 +1,34 @@
 ---
-description: Publiez des menus Sticky (Tabbar, Mobile Header, FAB) dans Navi+ — en utilisant App Embeds pour Shopify ou l'injection de script pour les sites Global.
+description: Publier des menus collants (Tabbar, En-tête mobile, FAB) dans Navi+ — en utilisant des App Embeds pour Shopify ou l'injection de script pour les sites globaux.
+lang: fr
 layout: default
 permalink: /fr/docs/publish/publish-sticky/
-title: Publish sticky — Tabbar & FAB
+title: Publier collant — Tabbar & FAB
 ---
-# Publish Sticky — Tabbar & FAB
+# Publier collant — Tabbar & FAB
 
-S'applique à : **Tabbar**, **Mobile Header**, **FAB / Support bar**
+S'applique à : **Tabbar**, **En-tête mobile**, **FAB / Barre de support**
 
-Les menus Sticky sont flottants — ils apparaissent toujours à l'écran et ne sont pas attachés à une position DOM fixe. La méthode d'intégration est la plus simple : activation sur tout le site via un seul script.
+Les menus collants sont flottants — ils apparaissent toujours à l'écran et ne sont pas attachés à une position DOM fixe. La méthode d'intégration est la plus simple : activez-la sur tout le site via un seul script.
 
 ---
 
 ## Shopify — 3 étapes
 
-### Étape 1 : Activer App Embeds dans Theme Editor
+### Étape 1 : Activer les App Embeds dans l'éditeur de thème
 
-Allez dans **Theme Editor → App Embeds** et activez le bouton Navi+.
+Allez à **Éditeur de thème → App Embeds** et activez le commutateur Navi+.
 
-- Cela **ne modifie pas la mise en page du thème** et peut être désactivé à tout moment sans affecter la boutique.
-- Ne doit être fait qu'**une seule fois par boutique** — ignorez cette étape pour les menus suivants.
+- Cela **ne change pas la mise en page du thème** et peut être désactivé à tout moment sans affecter la boutique.
+- Doit être fait **une seule fois par boutique** — sautez cette étape pour les menus suivants.
 
-### Étape 2 : Activer "Publier ce menu en mode sticky"
+### Étape 2 : Activer "Publier ce menu en mode collant"
 
-Le bouton dans la carte **Étape 2** du modal Publish. Activé = menu en ligne, désactivé = masqué du site web.
+Le commutateur dans la carte **Étape 2** de la modalité de publication. Activer = le menu est en direct, désactiver = caché du site web.
 
-### Étape 3 (optionnel) : Configurer la visibilité par appareil et par page
+### Étape 3 (optionnel) : Configurer la visibilité des appareils et des pages
 
-Voir [Publish Filter](/fr/docs/publish/publish-filter/) pour plus de détails.
+Voir [Filtre de publication](/docs/publish/publish-filter/) pour plus de détails.
 
 ---
 
@@ -35,7 +36,7 @@ Voir [Publish Filter](/fr/docs/publish/publish-filter/) pour plus de détails.
 
 ### Étape 1 : Coller le code d'intégration dans `<head>`
 
-Le code est affiché dans le modal avec un bouton **Copier**. Collez-le dans le `<head>` de votre site web :
+Le code est affiché dans la modalité avec un bouton **Copier**. Collez-le dans le `<head>` de votre site web :
 
 ```html
 <script>(window._navi_setting ||= []).push({
@@ -47,30 +48,30 @@ Le code est affiché dans le modal avec un bouton **Copier**. Collez-le dans le 
 - `token` identifie votre boutique — chaque boutique a un token unique.
 - `start.js` se charge de manière asynchrone et ne bloque pas le rendu de la page.
 
-### Étape 2 : Activer "Publier ce menu en mode sticky"
+### Étape 2 : Activer "Publier ce menu en mode collant"
 
-Identique à Shopify — activez le bouton.
+Identique à Shopify — activez le commutateur.
 
-### Étape 3 (optionnel) : Configurer la visibilité par appareil et par page
+### Étape 3 (optionnel) : Configurer la visibilité des appareils et des pages
 
-Voir [Publish Filter](/fr/docs/publish/publish-filter/) pour plus de détails.
+Voir [Filtre de publication](/docs/publish/publish-filter/) pour plus de détails.
 
 ---
 
-## Notes par type de menu
+## Remarques par type de menu
 
 | Menu | Restriction |
 |---|---|
-| Mobile Header | Bouton desktop désactivé — mobile uniquement |
-| FAB / Support bar | Pas de sélecteur de position (FAB a son propre positionnement dans l'onglet Setting) |
-| Tabbar | Options complètes mobile + desktop disponibles |
+| En-tête mobile | Commutateur de bureau désactivé — mobile uniquement |
+| FAB / Barre de support | Pas de sélecteur de position (FAB a son propre positionnement dans l'onglet Paramètres) |
+| Tabbar | Options complètes pour mobile + bureau disponibles |
 
 ---
 
 ## Dépannage
 
-**Le menu n'apparaît pas après l'activation du bouton ?**
-1. Vérifiez que App Embeds est activé (Shopify) ou que le code d'intégration est collé correctement (Global).
-2. Vérifiez les paramètres d'appareil — **Afficher le menu sur mobile** ou **Afficher le menu sur desktop** doit être activé.
-3. Vérifiez le filtre URL — il peut filtrer la page actuelle.
-4. Rechargez le navigateur en forçant le rafraîchissement (Ctrl+Maj+R) pour vider le cache.
+**Le menu n'apparaît pas après avoir activé le commutateur ?**
+1. Vérifiez que les App Embeds sont activés (Shopify) ou que le code d'intégration est collé correctement (Global).
+2. Vérifiez les paramètres de l'appareil — **Afficher le menu sur mobile** ou **Afficher le menu sur bureau** doit être activé.
+3. Vérifiez le filtre d'URL — il peut filtrer la page actuelle.
+4. Actualisez le navigateur (Ctrl+Shift+R) pour vider le cache.

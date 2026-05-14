@@ -1,33 +1,34 @@
 ---
-description: Pubblica menu Section (Mega Menu, Grid) in Navi+ — Inserisci/Sostituisci con CSS Selector o App Block su Shopify.
+description: Menu della Sezione Pubblica (Mega Menu, Grid) in Navi+ — Inserisci/Sostituisci con Selettore CSS o Blocco App su Shopify.
+lang: it
 layout: default
 permalink: /it/docs/publish/publish-section/
-title: Publish section — Mega menu & grid
+title: Pubblica sezione — Mega menu & grid
 ---
-# Publish Section — Mega Menu & Grid
+# Pubblica Sezione — Mega Menu & Grid
 
 Si applica a: **Mobile Mega Menu**, **Mobile Grid**, **Desktop Mega Menu**
 
-I menu Section **non sono fluttuanti** — vengono inseriti in una posizione specifica nel layout della pagina. Esistono due metodi di distribuzione che possono essere usati insieme:
+I menu delle sezioni **non sono fluttuanti** — vengono inseriti in una posizione specifica nel layout della pagina. Ci sono due metodi di distribuzione, che possono essere utilizzati insieme:
 
-| | Metodo 1: Inserisci/Sostituisci | Metodo 2: App Block |
+| | Metodo 1: Inserisci/Sostituisci | Metodo 2: Blocco App |
 |---|---|---|
-| Piattaforma | Shopify + Global | Solo Shopify |
-| Meccanismo | CSS Selector → inserisci prima/dopo/sostituisci elemento | App Block "Navi+ on Section" nel Theme Editor |
-| Flessibilità | Alta — incorpora ovunque | Media — limitato dallo schema di sezione Shopify |
-| Configurazione | Richiede di conoscere il CSS Selector | Basta inserire l'Embed ID |
+| Piattaforma | Shopify + Globale | Solo Shopify |
+| Meccanismo | Selettore CSS → inserisci prima/dopo/sostituisci elemento | Blocco App "Navi+ on Section" nell'Editor del Tema |
+| Flessibilità | Alta — incorporare ovunque | Media — limitata dallo schema della sezione Shopify |
+| Configurazione | Richiede conoscenza del Selettore CSS | È necessario solo inserire l'ID di Incorporamento |
 
 ---
 
-## Metodo 1: Inserisci/Sostituisci con CSS Selector
+## Metodo 1: Inserisci/Sostituisci con Selettore CSS
 
-Il metodo **Consigliato** — funziona sia per Shopify che per Global.
+Il metodo **Consigliato** — funziona sia per Shopify che per Globale.
 
-### Passaggio 1: Codice di incorporamento
+### Passo 1: Codice di incorporamento
 
-**Shopify:** **Theme Editor → App Embeds** → attiva Navi+. Solo una volta.
+**Shopify:** **Editor del Tema → App Embeds** → abilita Navi+. Solo una volta.
 
-**Global:** Incolla nel `<head>`:
+**Globale:** Incolla in `<head>`:
 ```html
 <script>(window._navi_setting ||= []).push({
   token: "YOUR_NAVI_TOKEN"
@@ -35,66 +36,66 @@ Il metodo **Consigliato** — funziona sia per Shopify che per Global.
 <script src="https://live.naviplus.app/start.js" async></script>
 ```
 
-### Passaggio 2: Attivare "Pubblica menu con metodo Inserisci/Sostituisci"
+### Passo 2: Abilita "Pubblica menu con metodo Inserisci/Sostituisci"
 
-Attiva l'interruttore per espandere la sezione di configurazione sottostante.
+Abilita l'interruttore per espandere la sezione di configurazione qui sotto.
 
-### Passaggio 3: Inserire il CSS Selector
+### Passo 3: Inserisci Selettore CSS
 
-Inserisci **un** CSS Selector. Il menu verrà posizionato in relazione all'elemento corrispondente.
+Inserisci **un** Selettore CSS. Il menu sarà posizionato rispetto all'elemento corrispondente.
 
 **Sintassi specifica per dispositivo:**
 
 | Suffisso | Dispositivo |
 |---|---|
-| `header` | Mobile e desktop |
+| `header` | Sia mobile che desktop |
 | `header(M)` | Solo mobile |
 | `header(D)` | Solo desktop |
 
-**Suggerimenti CSS Selector per i temi Shopify popolari:**
+**Suggerimenti per il Selettore CSS per temi Shopify popolari:**
 
-| Tipo di menu | Scopo | CSS Selector suggerito |
+| Tipo di menu | Scopo | Selettore CSS suggerito |
 |---|---|---|
-| Desktop Mega | Sostituire la navigazione desktop | `nav.header__inline-menu ul.list-menu` |
-| Desktop Mega | Inserire sotto l'header | `header` |
-| Mobile Mega | Inserire sotto l'header mobile | `header` |
+| Mega Desktop | Sostituisci la navigazione desktop | `nav.header__inline-menu ul.list-menu` |
+| Mega Desktop | Inserisci sotto l'intestazione | `header` |
+| Mega Mobile | Inserisci sotto l'intestazione mobile | `header` |
 
-### Passaggio 4: Scegliere il posizionamento (Inserisci/Sostituisci)
+### Passo 4: Scegli posizionamento (Inserisci/Sostituisci)
 
 | Valore | Comportamento |
 |---|---|
-| **Sostituisci** | Sostituisce completamente l'elemento originale con il menu Navi+ |
-| **Inserisci prima** | Inserisce il menu Navi+ prima dell'elemento |
-| **Inserisci dopo** | Inserisce il menu Navi+ dopo l'elemento |
+| **Sostituisci** | Sostituisci completamente l'elemento originale con il menu Navi+ |
+| **Inserisci Prima** | Inserisci il menu Navi+ prima dell'elemento |
+| **Inserisci Dopo** | Inserisci il menu Navi+ dopo l'elemento |
 
-> Dopo aver scelto **Sostituisci**, considera di aggiungere CSS per nascondere l'elemento originale mentre Navi+ si carica — vedi [Publish Optimize](/it/docs/publish/publish-optimize/).
+> Dopo aver scelto **Sostituisci**, considera di aggiungere CSS per nascondere l'elemento originale mentre Navi+ si carica — vedi [Pubblica Ottimizza](/docs/publish/publish-optimize/).
 
 ---
 
-## Metodo 2: App Block (solo Shopify)
+## Metodo 2: Blocco App (solo Shopify)
 
 ### Come configurare
 
-1. Copia l'**Embed ID** del menu (mostrato nel modal — clicca per copiare).
-2. Vai al **Shopify Theme Editor** → trova l'App Block **"Navi+ on Section"**.
-3. Incolla l'Embed ID nel campo corrispondente.
+1. Copia l'**ID di Incorporamento** del menu (mostrato nel modulo — clicca per copiare).
+2. Vai a **Editor del Tema Shopify** → trova il **"Navi+ on Section"** Blocco App.
+3. Incolla l'ID di Incorporamento nel campo corrispondente.
 4. Salva il tema.
 
-### "Fisso in cima durante lo scorrimento"
+### "Fisso in alto durante lo scorrimento"
 
-Interruttore per fissare il menu Section in cima alla pagina durante lo scorrimento.
+Attiva l'interruttore per fissare il menu della Sezione in cima alla pagina mentre scorri.
 
-**Quando usare:** Se il tema non ha un header sticky integrato, attivalo in modo che il Desktop Mega Menu rimanga visibile mentre gli utenti scorrono verso il basso.
+**Quando usarlo:** Se il tema non ha un'intestazione appiccicosa integrata, abilita questo in modo che il menu Mega Desktop rimanga visibile mentre gli utenti scorrono verso il basso.
 
 ---
 
-## Possono essere usati entrambi i metodi insieme?
+## Possono essere utilizzati entrambi i metodi insieme?
 
-Sì. Gli utenti Shopify possono attivare entrambi:
-- App Block per l'anteprima nel Theme Editor (più stabile, più facile da visualizzare in anteprima).
-- Inserisci/Sostituisci per un posizionamento più preciso nello storefront.
+Sì. Gli utenti Shopify possono abilitare entrambi:
+- Blocco App per l'anteprima dell'Editor del Tema (più stabile, più facile da visualizzare).
+- Inserisci/Sostituisci per un posizionamento più preciso sulla vetrina.
 
-Di solito è necessario un solo metodo.
+Tipicamente è necessario solo un metodo.
 
 ---
 
@@ -103,7 +104,7 @@ Di solito è necessario un solo metodo.
 | Menu | Dispositivo | Note |
 |---|---|---|
 | Mobile Mega Menu | Interruttore desktop disabilitato | Solo mobile |
-| Mobile Header | Interruttore desktop disabilitato | Solo mobile |
+| Intestazione Mobile | Interruttore desktop disabilitato | Solo mobile |
 | Desktop Mega Menu | Interruttore mobile disabilitato | Solo desktop |
 | Mobile Grid | Entrambi | Nessuna restrizione |
 
@@ -112,9 +113,9 @@ Di solito è necessario un solo metodo.
 ## Risoluzione dei problemi
 
 **Il menu non appare dopo aver configurato Inserisci/Sostituisci?**
-1. Verifica che il CSS Selector sia corretto — usa DevTools o la Modalità Debug Navi+.
-2. Verifica che l'interruttore "Pubblica menu con metodo Inserisci/Sostituisci" sia attivato.
-3. Verifica che App Embeds / il codice di incorporamento sia al suo posto.
+1. Controlla che il Selettore CSS sia corretto — usa DevTools o la Modalità Debug di Navi+.
+2. Controlla che l'interruttore "Pubblica menu con metodo Inserisci/Sostituisci" sia abilitato.
+3. Controlla che gli Embeds App / codice di incorporamento siano a posto.
 
 **Il menu appare due volte (duplicato)?**
-→ Sia App Block che Inserisci/Sostituisci sono attivi contemporaneamente. Disattiva uno di essi.
+→ Sia il Blocco App che Inserisci/Sostituisci sono attivi contemporaneamente. Disabilita uno di essi.

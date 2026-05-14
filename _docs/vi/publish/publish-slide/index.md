@@ -1,128 +1,141 @@
 ---
-description: Publish Slide (Context) menu trong Navi+ — bật toggle rồi cấu hình trigger để mở menu.
+description: Xuất bản Slide (Ngữ cảnh) trong Navi+ — bật công tắc rồi cấu hình một trình kích hoạt để mở menu.
+lang: vi
 layout: default
 permalink: /vi/docs/publish/publish-slide/
-title: Publish slide — Context slide menu
+title: Xuất bản slide — Menu slide ngữ cảnh
 ---
-# Publish Slide — Context Slide Menu
+# Xuất bản Slide — Menu Slide Ngữ Cảnh
 
-Áp dụng cho: **Context Slide menu**
+Áp dụng cho: **Menu Slide ngữ cảnh**
 
-Slide menu **khác với Sticky**: sau khi publish, menu **không tự xuất hiện** trên trang. Nó chỉ mở khi có sự kiện kích hoạt (trigger). Đây là điểm khác biệt quan trọng so với Sticky menu.
+Menu slide **khác với Sticky**: sau khi xuất bản, menu không **xuất hiện tự động** trên trang. Nó chỉ mở khi được kích hoạt bởi một hành động. Đây là sự khác biệt chính so với menu Sticky.
 
 ---
 
-## Luồng publish
+## Quy trình xuất bản
 
 ```
-Bước 1: Nhúng code vào website
+Bước 1: Nhúng mã vào trang web
         ↓
-Bước 2: Bật toggle "Publish this menu"
+Bước 2: Bật công tắc "Xuất bản menu này"
         ↓
-Bước 3: Cấu hình trigger (cách mở menu)
+Bước 3: Cấu hình trình kích hoạt (cách mở menu)
 ```
 
-Sau Bước 2, menu đã được tải lên website nhưng **ở trạng thái ẩn**. Bước 3 quyết định cái gì sẽ mở nó ra.
+Sau Bước 2, menu được tải trên trang web nhưng **trong trạng thái ẩn**. Bước 3 quyết định điều gì mở nó.
 
 ---
 
-## Bước 1: Nhúng code
+## Bước 1: Nhúng mã
 
-**Shopify:** Vào **Theme Editor → App Embeds** → bật Navi+. Chỉ làm một lần.
+**Shopify:** Đi đến **Trình chỉnh sửa giao diện → Nhúng ứng dụng** → bật Navi+. Làm điều này chỉ một lần.
 
-**Global:** Paste vào `<head>`:
+**Toàn cầu:** Dán vào `<head>`:
 ```html
 <script>(window._navi_setting ||= []).push({
-  token: "NAVI_TOKEN_CUA_BAN"
+  token: "YOUR_NAVI_TOKEN"
 });</script>
 <script src="https://live.naviplus.app/start.js" async></script>
 ```
 
 ---
 
-## Bước 2: Bật toggle
+## Bước 2: Bật công tắc
 
-Bật toggle **"Publish this menu"** trong modal Publish.
+Bật công tắc **"Xuất bản menu này"** trong hộp thoại Xuất bản.
 
-> Sau bước này, menu **chưa xuất hiện** trên website. Đây là hành vi đúng — Slide menu cần trigger để mở.
-
----
-
-## Bước 3: Cấu hình trigger
-
-Có 4 cách kích hoạt Slide menu:
+> Sau bước này, menu **sẽ không xuất hiện** trên trang web ngay. Điều này là bình thường — Menu slide cần một trình kích hoạt để mở.
 
 ---
 
-### Method 1: Mở từ item của menu Navi+ khác
+## Bước 3: Cấu hình trình kích hoạt
 
-Dùng cú pháp `open:NaviMenu(embed_id)` trong phần **Link** của bất kỳ menu item nào.
+Giao diện trình kích hoạt được chia thành hai tab: **Cài đặt di động** và **Cài đặt máy tính để bàn**. Các phương pháp có thể được kết hợp tự do. Một khu vực **Dành cho nhà phát triển** nằm ngoài các tab.
 
-Ví dụ: Tabbar có item "Menu" → Link = `open:NaviMenu(ABC123)` → tap vào item đó sẽ mở Slide menu.
+---
 
-**embed_id** hiển thị sẵn trong modal, click để copy:
+### Phương pháp 1: Mở từ một mục menu Navi+
+
+Sử dụng cú pháp `open:NaviMenu(embed_id)` trong trường **Liên kết** của bất kỳ mục menu nào. embed_id được hiển thị trong hộp thoại và có thể được nhấp để sao chép:
+
 ```
 open:NaviMenu(ABC123)
 ```
 
-Đây là cách phổ biến nhất — kết hợp Tabbar + Slide menu để mở rộng không gian điều hướng.
+Cần **gói Business hoặc cao hơn** (cần 2+ menu).
+
+**Di động — các trường hợp sử dụng phổ biến:**
+- Một Tabbar với mục đầu tiên như "☰ Menu" mở menu Slide — **cài đặt phổ biến nhất**
+- Một menu FAB & Hỗ trợ với một mục duy nhất mở menu Slide
+- Một menu Mega di động với một mục "☰ Menu" dưới tiêu đề
+
+**Máy tính để bàn — các trường hợp sử dụng phổ biến:**
+- Một menu Mega máy tính để bàn với một mục "☰ Menu" — giữ trải nghiệm nhất quán với di động
+- Một menu Mega máy tính để bàn với một mục duy nhất "☰" đặt trước logo — phản chiếu hamburger di động trên máy tính để bàn (cần một số CSS; [liên hệ với chúng tôi](mailto:support@naviplus.io) nếu bạn cần trợ giúp)
+- Một menu FAB & Hỗ trợ với một mục duy nhất mở menu Slide
+- Một Tabbar với một mục "☰ Menu"
 
 ---
 
-### Method 2: Mở khi click/tap một element trên trang (CSS Selector)
+### Phương pháp 2: Mở khi nhấp vào một phần tử (CSS Selector)
 
-Nhập một hoặc nhiều CSS Selector, cách nhau bằng dấu phẩy. Navi+ lắng nghe sự kiện click/tap trên các element khớp và mở Slide menu.
+Nhập một hoặc nhiều CSS Selectors, cách nhau bằng dấu phẩy (`,`).
 
-**Cú pháp tách thiết bị:**
+**Cú pháp theo thiết bị:**
 
-| Suffix | Thiết bị |
+| Hậu tố | Thiết bị |
 |---|---|
-| `#element` | Cả mobile lẫn desktop |
-| `#element(M)` | Chỉ mobile |
-| `#element(D)` | Chỉ desktop |
+| `#element` | Cả di động và máy tính để bàn |
+| `#element(M)` | Chỉ di động |
+| `#element(D)` | Chỉ máy tính để bàn |
 
-**Ví dụ cho Shopify Dawn theme:**
+**Bước 1 — tìm selector của bạn:**
 
-| Mục đích | CSS Selector |
-|---|---|
-| Thay hamburger menu mobile | `#Details-menu-drawer-container` |
-| Tách mobile/desktop | `#Details-menu-drawer-container(M), .desktop-menu-btn(D)` |
+*Trên Shopify (Dawn, Craft, Spotlight...):*
+Thử `#Details-menu-drawer-container` cho menu hamburger di động. Đối với các giao diện khác, sử dụng **Chế độ gỡ lỗi Navi+**: truy cập `yoursite.com/#navidebug-on`, di chuột qua phần tử, nhấn `Cmd/Ctrl+C` để sao chép selector của nó.
 
-> Sau khi cấu hình CSS Selector trigger, nên ẩn element gốc để tránh flash — xem [Publish Optimize](/vi/docs/publish/publish-optimize/).
+*Trên máy tính để bàn:*
+Thường không có biểu tượng hamburger — bạn cần tạo một trình kích hoạt có thể nhấp:
+- Thêm một mục "☰ Menu" vào menu mega hiện có của bạn
+- Hoặc đặt một biểu tượng ☰ trước logo bằng HTML/CSS ([liên hệ với chúng tôi](mailto:support@naviplus.io) nếu bạn cần trợ giúp)
+
+**Bước 2 — tối ưu hóa UX:**
+Khi đã thiết lập, thêm một chỉ báo tải vào phần tử đã thay thế để tránh nhấp nháy bố cục — xem [Tối ưu hóa Xuất bản](/docs/publish/publish-optimize/).
 
 ---
 
-### Method 3: Gọi JavaScript function (dành cho developer)
+### Nâng cao (Máy tính để bàn): Thanh bên cố định
 
-Gọi hàm này từ bất kỳ đâu trong code trang:
+Thay vì mở/đóng, menu Slide có thể hiển thị như một thanh bên luôn hiển thị trên máy tính để bàn.
+
+**Cách bật:** Đi đến **Nâng cao** → **Hướng slide vào** → chọn tùy chọn Thanh bên cố định → bật "Hiển thị menu cố định trên máy tính để bàn".
+
+Không cần trình kích hoạt — menu luôn hiển thị trên máy tính để bàn.
+
+---
+
+### Dành cho nhà phát triển: Hàm JavaScript
+
+Gọi hàm này từ bất kỳ đâu trong mã trang:
 
 ```javascript
 naviman.openNaviMenu('EMBED_ID')
 ```
 
-Phù hợp khi muốn tích hợp Slide menu vào UI tùy chỉnh, không dùng selector cố định.
+Phù hợp để tích hợp menu Slide vào UI tùy chỉnh mà không cần selector cố định.
 
 ---
 
-### Method 4: Sidebar cố định trên desktop
+## Khắc phục sự cố
 
-Thay vì mở/đóng, Slide menu có thể được ghim như sidebar cố định bên trái màn hình desktop.
-
-**Cách bật:** Vào tab **Advance** → chọn hướng **"Fix on left"**.
-
-Không cần trigger — menu luôn hiện ở đó trên desktop.
-
----
-
-## Troubleshooting
-
-**Bật toggle nhưng menu không hiện gì?**
-→ Đúng. Slide menu cần trigger (Bước 3). Kiểm tra đã cấu hình ít nhất một method chưa.
+**Công tắc đã bật nhưng menu không xuất hiện?**
+→ Hành vi đúng. Menu slide cần một trình kích hoạt (Bước 3). Kiểm tra xem ít nhất một phương pháp đã được cấu hình.
 
 **CSS Selector không hoạt động?**
-1. Dùng **Navi+ Debug Mode** để tìm đúng selector của element.
-2. Kiểm tra element có thực sự tồn tại trên trang không.
-3. Thử thêm suffix `(M)` hoặc `(D)` để tách theo thiết bị.
+1. Sử dụng **Chế độ gỡ lỗi Navi+** để tìm selector chính xác cho phần tử.
+2. Kiểm tra xem phần tử thực sự tồn tại trên trang (một số giao diện ẩn/xóa phần tử ở một số điểm ngắt).
+3. Thử thêm hậu tố `(M)` hoặc `(D)` để phân tách theo thiết bị.
 
-**Muốn nhiều Slide menu trên cùng trang?**
-→ Tạo nhiều menu riêng biệt, mỗi menu có `embed_id` khác nhau, dùng các trigger khác nhau.
+**Muốn nhiều menu Slide trên cùng một trang?**
+→ Tạo các menu riêng biệt, mỗi menu với một `embed_id` khác nhau, sử dụng các trình kích hoạt khác nhau.

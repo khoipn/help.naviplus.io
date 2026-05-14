@@ -1,10 +1,10 @@
 ---
-description: Comprende cómo Navi+ inyecta menús en tu sitio — App Block, App Embed y el fragmento de código explicados.
+description: 'Entienda cómo Navi+ inyecta menús en su sitio web: App Block, App Embed y el fragmento de inserción explicado.'
 lang: es
 layout: default
 permalink: /es/docs/integrations/how-navi-injects/
-title: Cómo Navi+ se integra en tu sitio
+title: Cómo Navi+ se inyecta en su sitio
 ---
-# Cómo Navi+ se integra en tu sitio
+# Cómo Navi+ se inyecta en su sitio
 
-*Próximamente — esta página está siendo redactada.*
+*Próximamente — esta página está siendo escrita.*

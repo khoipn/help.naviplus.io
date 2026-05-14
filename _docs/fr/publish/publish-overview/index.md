@@ -1,17 +1,18 @@
 ---
-description: Vue d'ensemble des types de menus Navi+ et leurs méthodes de déploiement correspondantes — menus Sticky, Slide et Section.
+description: Aperçu des types de menu Navi+ et de leurs méthodes de déploiement correspondantes — Sticky, Slide et Section.
+lang: fr
 layout: default
 permalink: /fr/docs/publish/publish-overview/
-title: Publish overview — Types de menus & méthodes de déploiement
+title: Aperçu de la publication — Types de menu & méthodes de déploiement
 ---
-# Publish Overview — Types de Menus & Méthodes de Déploiement
+# Aperçu de la publication — Types de menu & méthodes de déploiement
 
-Les menus Navi+ sont divisés en 3 groupes de déploiement, déterminés automatiquement par le type de menu (`menu_kind`) :
+Navi+ menus sont divisés en 3 groupes de déploiement, déterminés automatiquement par le type de menu (`menu_kind`) :
 
-| Groupe | Types de menus | Méthode |
+| Groupe | Types de menu | Méthode |
 |---|---|---|
-| **Sticky** | Tabbar, Mobile Header, FAB | App Embeds (Shopify) ou code `<head>` (Global) → bouton d'activation |
-| **Slide** | Context Slide | App Embeds / `<head>` → bouton d'activation → configurer déclencheur |
+| **Sticky** | Tabbar, Mobile Header, FAB | App Embeds (Shopify) ou `<head>` code (Global) → activer le toggle |
+| **Slide** | Context Slide | App Embeds / `<head>` → activer le toggle → configurer le déclencheur |
 | **Section** | Mobile Mega Menu, Mobile Grid, Desktop Mega Menu | Insérer/Remplacer (CSS Selector) et/ou App Block (Shopify) |
 
 ---
@@ -20,28 +21,5 @@ Les menus Navi+ sont divisés en 3 groupes de déploiement, déterminés automat
 
 | Étape | Shopify | Global (WordPress, Wix...) |
 |---|---|---|
-| Code d'intégration | Activer dans **App Embeds** (Theme Editor) — pas besoin de coller du code | Coller `<script>` dans le `<head>` du site |
-| Token | Non requis — Shopify OAuth s'en charge | Requis — `token: "NAVI123456"` dans le script |
-| App Block | Disponible (Shopify uniquement) — Méthode 2 pour les menus Section | Non disponible |
-
----
-
-## Flux général
-
-```
-1. Concevoir le menu (Design + Setting)
-        ↓
-2. Ouvrir le modal Publish
-        ↓
-3. Intégrer le code dans le site web (une seule fois)
-   - Shopify : App Embeds dans Theme Editor
-   - Global : coller <script> dans <head>
-        ↓
-4. Activer le bouton "Publier ce menu"
-        ↓
-5. (Optionnel) Configurer appareil, affichage de page, filtre URL
-        ↓
-6. Enregistrer → menu en ligne
-```
-
-> L'étape 3 (intégration du code) ne doit être effectuée qu'**une seule fois par site web**. Les menus suivants n'ont besoin que des étapes 4 et suivantes.
+| Code d'intégration | Activer dans **App Embeds** (Éditeur de thème) — aucun code à coller nécessaire | Coller `<script>` dans le site web `<head>` |
+| Jeton | Pas nécessaire — Shopify OAuth s'en occupe | Requis — `token:

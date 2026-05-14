@@ -52,7 +52,8 @@ Este método permite que você abra um slide menu quando o usuário clica ou toc
 <p>Em vez de mostrar um popup com espaço limitado quando um item de menu é clicado, você pode abrir outro slide menu com três níveis e várias maneiras de apresentar informações. Isso pode ser repetido para outros itens de menu—ou até mesmo para o mesmo slide menu—permitindo que você crie uma profundidade virtualmente ilimitada para seus menus do Navi+.</p>
 </details>
 
-**Método 2: Quando um elemento de UI (definido por um seletor CSS como #id_of_element ou .class_name) é clicado ou tocado, este menu será exibido.**
+**Método 2: Quando um elemento de UI (definido por um seletor CSS como #id
+t_of_element ou .class_name) é clicado ou tocado, este menu será exibido.**
 
 Este é, sem dúvida, o melhor e mais comumente usado método com o Slide Menu.\
 Neste guia, vamos nos concentrar em substituir o menu hamburger padrão do site em dispositivos móveis.\
@@ -96,17 +97,6 @@ No entanto, (1) isso ajudará você a entender a ideia central, e (2) se você q
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-
-<hr />
-<h1>Instruções do Agente: Consultando Esta Documentação</h1>
-<p>Se você precisar de informações adicionais que não estão diretamente disponíveis nesta página, pode consultar a documentação dinamicamente fazendo uma pergunta.</p>
-<p>Realize uma solicitação HTTP GET na URL da página atual com o <code>ask</code> parâmetro de consulta:</p>
-<pre class="codehilite"><code>GET https://help.shopifas.com/manual/internal/what-is/common/how-to-find-css-selector.md?ask=&lt;question&gt;
-</code></pre>
-
-<p>A pergunta deve ser específica, autossuficiente e escrita em linguagem natural.
-A resposta conterá uma resposta direta à pergunta e trechos relevantes e fontes da documentação.</p>
-<p>Use este mecanismo quando a resposta não estiver explicitamente presente na página atual, você precisar de esclarecimentos ou contexto adicional, ou quiser recuperar seções de documentação relacionadas.</p>
 </details>
 
 #### 2.3. Importante! Otimize a velocidade do slide menu, adicione um efeito de carregamento e previna menus duplicados
@@ -125,7 +115,7 @@ Não é algo que você precisa corrigir imediatamente, mas a longo prazo é impo
 <p>Isso significa que se você estiver usando vários aplicativos, o Navi+ pode às vezes ser carregado mais tarde do que o esperado. É por isso que pode parecer mais lento em certos casos.</p>
 <hr />
 <h4>Qual é a minha solução?</h4>
-<p>Atualmente, o Navi+ tem alta prioridade ao carregar em sites Shopify. No entanto, ainda há um certo atraso. Vamos abordar esses problemas um a um aqui:</p>
+<p>Atualmente, o Navi+ tem alta prioridade ao carregar em sites Shopify. No entanto, ainda há um certo atraso. Vamos abordar esses problemas um por um aqui:</p>
 <p><strong>Slide Menu: Adicione um efeito de carregamento e bloqueie o seletor de acionamento</strong></p>
 <p>Muito simples: basta inserir o seletor CSS que você usa para o Slide Menu na seção de embed do aplicativo Navi+ (veja a imagem abaixo).</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>

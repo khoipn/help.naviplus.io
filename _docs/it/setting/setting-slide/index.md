@@ -1,28 +1,32 @@
 ---
 description: Configura la direzione del menu slide, la larghezza, il pulsante di chiusura e il comportamento del sottomenu desktop in Navi+.
+lang: it
 layout: default
 permalink: /it/docs/setting/setting-slide/
-title: Setting slide — Opzioni menu slide
+title: Impostazione slide — Opzioni del menu Slide
 ---
-# Setting Slide — Opzioni Menu Slide
+# Impostazione Slide — Opzioni del Menu Slide
 
-Queste impostazioni si applicano **solo ai menu slide** (Context Slide / Menu hamburger).
+Queste impostazioni si applicano **solo ai menu Slide** (Menu Contestuale / Menu Hamburger).
 
 ---
 
-## Direzione di Slide
+## Direzione Slide
+
+**Impostazione → Direzione Slide** — da dove scorre il menu e come è fissato.
 
 | Opzione | Descrizione |
 |---|---|
-| Da sinistra | Scorre da sinistra (più comune) |
-| Da destra | Scorre da destra |
-| Dall'alto | Scorre verso il basso dall'alto |
-| Dal basso | Scorre verso l'alto dal basso |
-| Fisso sinistro (desktop) | Barra laterale sinistra sempre visibile |
-| Fisso destro (desktop) | Barra laterale destra sempre visibile |
+| Da Sinistra | Scorre dal bordo sinistro (il più comune) |
+| Da Destra | Scorre dal bordo destro |
+| Dall'Alto | Scorre verso il basso dall'alto |
+| Dal Basso | Scorre verso l'alto dal basso |
+| Fisso Sinistra (desktop) | Sidebar sempre visibile a sinistra — nessun attivatore necessario |
+| Fisso Destra (desktop) | Sidebar sempre visibile a destra |
 
-**Fisso su mobile** → Sempre visibile su mobile senza trigger.
-**Fisso su desktop** → Sempre visibile su desktop (pannello persistente).
+**Fissa su Mobile / Fissa su Desktop:**
+- **Fissa su Mobile** → Il menu rimane permanentemente visibile su mobile senza bisogno di essere aperto.
+- **Fissa su Desktop** → Il menu rimane permanentemente visibile su desktop (sidebar persistente).
 
 ---
 
@@ -30,27 +34,37 @@ Queste impostazioni si applicano **solo ai menu slide** (Context Slide / Menu ha
 
 | Campo | Descrizione | Predefinito |
 |---|---|---|
-| **Larghezza mobile** | Larghezza su mobile (px o %) | Auto |
-| **Larghezza max desktop (px)** | Larghezza massima su desktop | Auto |
-| **Larghezza sub desktop (px)** | Larghezza del pannello di livello 2 su desktop | Auto |
+| **Larghezza Mobile** | Larghezza su mobile (px o %) | Auto |
+| **Larghezza Massima Desktop (px)** | Larghezza massima su desktop | Auto |
+| **Larghezza Sub Desktop (px)** | Larghezza del pannello sottomenu di Livello 2 su desktop | Auto |
+
+**Esempio:** Scorrere da sinistra, 80% dello schermo mobile, max 400px su desktop:
+- Larghezza Mobile = `80%`
+- Larghezza Massima Desktop = `400`
 
 ---
 
-## Icona di chiusura
+## Icona di Chiusura
 
 | Campo | Descrizione | Predefinito |
 |---|---|---|
-| **Nascondi icona di chiusura** | Nascondi il pulsante × | Visibile |
-| **Allineamento icona di chiusura** | Sinistra / Destra | Destra |
-| **Icona di chiusura in alto (px)** | Distanza dalla parte superiore del menu | 12px |
+| **Nascondi Icona di Chiusura** | Nascondi il pulsante di chiusura × | Visibile |
+| **Allineamento Icona di Chiusura** | Posizione del pulsante di chiusura: Sinistra / Destra | Destra |
+| **Distanza Icona di Chiusura (px)** | Distanza dalla parte superiore del menu al pulsante di chiusura | 12px |
+
+> Se nascondi il pulsante di chiusura, gli utenti devono toccare l'area di sovrapposizione al di fuori del menu per chiuderlo. Mantieni il pulsante di chiusura visibile quando il menu copre la maggior parte dello schermo.
 
 ---
 
-## Direzione sottomenu su desktop
+## Direzione Sottomenu Desktop
 
-| Valore | Si apre verso |
+**Impostazione → Desktop → Direzione Sottomenu**
+
+Quando il menu Slide è visualizzato come una sidebar fissa su desktop, i sottomenu possono aprirsi in 4 direzioni:
+
+| Valore | Sottomenu si apre verso |
 |---|---|
 | 1 | Destra (predefinito) |
 | 2 | Sinistra |
-| 3 | Basso |
-| 4 | Alto |
+| 3 | Giù |
+| 4 | Su |

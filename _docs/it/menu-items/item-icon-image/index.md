@@ -1,29 +1,30 @@
 ---
-description: Come aggiungere icone integrate e immagini personalizzate agli elementi di menu in Navi+, e come stilizzarli.
+description: Come aggiungere icone integrate e immagini personalizzate agli elementi del menu in Navi+, e come stilizzarli.
+lang: it
 layout: default
 permalink: /it/docs/menu-items/item-icon-image/
-title: Icone e immagini
+title: Icone e Immagini
 ---
-# Icone e immagini
+# Icone e Immagini
 
-Ogni elemento può avere un elemento visivo — sia un'**icona integrata** che un'**immagine personalizzata**. Puoi usarne solo una alla volta, non entrambe.
+Ogni elemento può avere un elemento visivo — o un **icona integrata** o un **immagine personalizzata**. Puoi usare solo uno alla volta, non entrambi.
 
 ---
 
 ## Icona integrata
 
-Le icone sono simboli vettoriali dalla libreria **Remixicon** integrata. Sono nitide a qualsiasi dimensione e non richiedono upload di file.
+Le icone sono simboli vettoriali dalla libreria integrata **Remixicon**. Sono nitide a qualsiasi dimensione e non richiedono caricamento di file.
 
 ### Come aggiungere
 
-1. Nel pannello di modifica, clicca il pulsante **Icona**.
-2. Si apre la casella di ricerca icone — digita una parola chiave (es. `home`, `cart`, `phone`, `search`).
-3. Clicca un'icona per selezionarla — un'anteprima appare sull'elemento immediatamente.
-4. Clicca **×** per rimuovere l'icona corrente.
+1. Nel pannello Modifica Elemento, clicca il pulsante **Icona**.
+2. Si apre la casella di ricerca delle icone — digita una parola chiave (ad es. `home`, `cart`, `phone`, `search`).
+3. Clicca su un'icona per selezionarla — un'anteprima appare immediatamente sull'elemento.
+4. Clicca **×** per rimuovere l'icona attuale.
 
 ### Quando usare le icone
 
-- Elementi in una **barra delle schede** — le icone sono il modo standard per etichettare le schede.
+- Elementi in una **Tab Bar** — le icone sono il modo standard per etichettare le schede.
 - Quando vuoi un aspetto pulito e coerente.
 - Quando non hai immagini personalizzate pronte.
 
@@ -31,14 +32,14 @@ Le icone sono simboli vettoriali dalla libreria **Remixicon** integrata. Sono ni
 
 ## Immagine personalizzata
 
-Usa la tua foto, logo o grafica al posto di un'icona dalla libreria.
+Usa la tua foto, logo o grafica invece di un'icona della libreria.
 
-> **Piano Starter:** Le immagini personalizzate non sono supportate — usa le icone integrate.
+> **Piano Starter:** Le immagini personalizzate non sono supportate — usa invece le icone integrate.
 
 ### Opzione A — Carica dalla galleria *(Business / Elite)*
 
-1. Clicca il pulsante **Immagine** nel pannello di modifica.
-2. Clicca **Galleria** → si apre la finestra di upload.
+1. Clicca il pulsante **Immagine** nel pannello Modifica Elemento.
+2. Clicca **Galleria** → si apre la finestra di caricamento.
 3. Seleziona o carica un'immagine (JPG, PNG, GIF).
 4. Conferma — l'URL dell'immagine viene compilato automaticamente.
 
@@ -48,49 +49,49 @@ Usa la tua foto, logo o grafica al posto di un'icona dalla libreria.
 2. Incolla l'URL completo dell'immagine nel campo URL.
 3. Clicca **Aggiorna**.
 
-### Consigli sulle immagini
+### Suggerimenti per le immagini
 
-- Usa immagini **quadrate (1:1)** per le icone della barra delle schede.
-- Usa immagini **orizzontali** per gli elementi Immagine grande.
+- Usa immagini **quadrate (1:1)** per le icone della Tab Bar.
+- Usa immagini **in orizzontale** per gli elementi Big Image.
 - **PNG con sfondo trasparente** funziona meglio per loghi e simboli.
-- Mantieni le dimensioni del file piccole — le immagini pesanti rallentano il menu su mobile.
+- Mantieni la dimensione del file piccola — immagini pesanti rallentano il menu su mobile.
 - Elite converte automaticamente le immagini in WebP e normalizza le dimensioni.
 
 ---
 
 ## Layout di visualizzazione
 
-Dopo aver aggiunto un'icona o immagine, scegli come icona/immagine e testo sono disposti in **Layout → Layout di visualizzazione**:
+Dopo aver aggiunto un'icona o un'immagine, scegli come sono disposti l'icona/l'immagine e il testo in **Layout → Layout di Visualizzazione**:
 
 | Opzione | Layout |
 |---|---|
-| **Automatico** | Segue il valore predefinito del tipo di menu |
-| **Su-Giù** | Icona/immagine in alto, testo in basso |
-| **Sinistra-Destra** | Icona/immagine a sinistra, testo a destra |
-| **Giù-Su** | Testo in alto, icona/immagine in basso |
-| **Destra-Sinistra** | Testo a sinistra, icona/immagine a destra |
-| **Solo Icona/Immagine** | Solo icona/immagine — testo nascosto |
-| **Solo Testo** | Solo testo — icona/immagine nascosta |
+| **Automatico** | Segue il tipo di menu predefinito |
+| **Dall'alto in basso** | Icona/imagine in alto, testo sotto |
+| **Da sinistra a destra** | Icona/imagine a sinistra, testo a destra |
+| **Dall'alto in basso** | Testo in alto, icona/imagine sotto |
+| **Da destra a sinistra** | Testo a sinistra, icona/imagine a destra |
+| **Solo Icona/Immagine** | Solo icona/imagine — testo nascosto |
+| **Solo Testo** | Solo testo — icona/imagine nascosta |
 
 ---
 
-## Stilizzare l'icona o immagine
+## Stile l'icona o l'immagine
 
-Vai su **Interface → Stile icona / immagine** per affinare l'aspetto:
+Vai a **Interfaccia → Stile Icona / Immagine** per affinare l'aspetto:
 
 | Impostazione | Effetto |
 |---|---|
-| **Colore icona** | Cambia il colore vettoriale dell'icona (hex). Non si applica ai file immagine. |
-| **Dimensione (px)** | Dimensione di visualizzazione dell'icona o immagine |
-| **Contenitore** | Colore di sfondo del riquadro che circonda l'icona |
-| **Padding (px)** | Spazio tra l'icona e il suo riquadro contenitore |
-| **Curva (px)** | Raggio d'angolo del contenitore — `50` per un cerchio |
+| **Colore Icona** | Cambia il colore vettoriale dell'icona (esadecimale). Non si applica ai file immagine. |
+| **Dimensione (px)** | Dimensione di visualizzazione dell'icona o dell'immagine |
+| **Contenitore** | Colore di sfondo della casella che circonda l'icona |
+| **Padding (px)** | Spazio tra l'icona e la sua casella contenitore |
+| **Curva (px)** | Raggio degli angoli del contenitore — imposta `50` per un cerchio |
 
-**Esempio — icona bianca in riquadro blu rotondo:**
+**Esempio — icona bianca in una casella blu rotonda:**
 
 ```
-Colore icona:  #FFFFFF
+Colore Icona:  #FFFFFF
 Contenitore:   #0066CC
-Padding:       10
-Curva:         50
+Padding:     10
+Curva:       50
 ```

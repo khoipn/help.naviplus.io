@@ -1,50 +1,51 @@
 ---
-description: Tối ưu tốc độ và UX sau khi publish menu Navi+ — tránh flash nội dung gốc khi dùng Insert/Replace hoặc CSS Selector trigger.
+description: Tối ưu hóa tốc độ và UX sau khi xuất bản các menu Navi+ — ngăn chặn hiện tượng nhấp nháy nội dung gốc khi sử dụng các kích hoạt Chèn/Thay thế hoặc CSS Selector.
+lang: vi
 layout: default
 permalink: /vi/docs/publish/publish-optimize/
-title: Publish optimize — Tốc độ & UX
+title: Tối ưu hóa xuất bản — Tốc độ & UX
 ---
-# Publish Optimize — Tốc độ & UX
+# Tối ưu hóa xuất bản — Tốc độ & UX
 
-Khi dùng **Insert/Replace** (Section menu) hoặc **CSS Selector trigger** (Slide menu), website cần một khoảng thời gian nhỏ để tải Navi+. Trong lúc đó, element gốc (menu cũ của theme) vẫn hiện — gây ra hiện tượng **flash** (nhấp nháy) hoặc layout shift không mong muốn.
+Khi sử dụng **Chèn/Thay thế** (menu Phần) hoặc **kích hoạt CSS Selector** (menu Slide), trang web cần một khoảnh khắc ngắn để tải Navi+. Trong thời gian đó, phần tử gốc (menu cũ của giao diện) vẫn hiển thị — gây ra một **hiện tượng nhấp nháy** hoặc thay đổi bố cục.
 
 ---
 
-## Khi nào cần tối ưu?
+## Khi nào cần tối ưu hóa?
 
-| Phương thức | Cần tối ưu? |
+| Phương pháp | Cần tối ưu hóa? |
 |---|---|
-| Sticky / FAB (App Embeds / `<head>`) | Không — menu thêm vào DOM, không replace |
-| Slide menu — Method 1 (mở từ Navi+ item) | Không — trigger button là Navi+ item |
-| **Slide menu — Method 2 (CSS Selector trigger)** | **Có** — element trigger gốc vẫn hiện cho đến khi Navi+ load |
-| **Section — Replace** | **Có** — menu gốc hiện trước, sau đó bị replace bởi Navi+ |
-| Section — Insert Before/After | Không bắt buộc — hai menu xuất hiện song song |
+| Sticky / FAB (Nhúng ứng dụng / `<head>`) | Không — menu được thêm vào DOM, không có gì bị thay thế |
+| Menu Slide — Phương pháp 1 (mở từ mục Navi+) | Không — nút kích hoạt là một mục Navi+ |
+| **Menu Slide — Phương pháp 2 (kích hoạt CSS Selector)** | **Có** — phần tử kích hoạt gốc vẫn hiển thị cho đến khi Navi+ tải xong |
+| **Phần — Thay thế** | **Có** — menu gốc hiển thị trước, sau đó được thay thế bởi Navi+ |
+| Phần — Chèn Trước/Sau | Không cần thiết — hai menu xuất hiện cạnh nhau |
 
 ---
 
-## Kỹ thuật: Ẩn element gốc bằng CSS
+## Kỹ thuật: Ẩn phần tử gốc qua CSS
 
-### Nguyên lý
+### Cách hoạt động
 
-1. Dùng CSS ẩn element gốc ngay từ đầu (trước khi Navi+ load).
-2. Optionally: hiện loading placeholder để tránh layout shift.
-3. Navi+ tự động remove hoặc replace element đó khi sẵn sàng — layout ổn định.
+1. Sử dụng CSS để ẩn phần tử gốc ngay lập tức (trước khi Navi+ tải).
+2. Tùy chọn hiển thị một placeholder tải để ngăn chặn thay đổi bố cục.
+3. Navi+ tự động xóa hoặc thay thế phần tử khi sẵn sàng — bố cục ổn định.
 
-### Cách thực hiện
+### Triển khai
 
-**Thêm CSS ẩn element gốc** (paste vào Custom CSS của theme hoặc `<head>`):
+**Thêm CSS để ẩn phần tử gốc** (dán vào CSS Tùy chỉnh của giao diện hoặc `<head>`):
 
 ```css
-/* Ẩn menu gốc trong khi chờ Navi+ load */
+/* Ẩn menu gốc trong khi Navi+ tải */
 nav.header__inline-menu ul.list-menu {
   visibility: hidden;
-  min-height: 44px; /* giữ chỗ để tránh layout shift */
+  min-height: 44px; /* dự trữ không gian để ngăn chặn thay đổi bố cục */
 }
 ```
 
-Sau khi Navi+ replace element, CSS này không còn tác dụng vì element đã bị xóa khỏi DOM.
+Khi Navi+ thay thế phần tử, CSS này không còn tác dụng — phần tử bị xóa khỏi DOM.
 
-**Dùng loading placeholder** (nâng cao):
+**Với placeholder tải** (nâng cao):
 ```css
 nav.header__inline-menu ul.list-menu {
   visibility: hidden;
@@ -61,22 +62,22 @@ nav.header__inline-menu ul.list-menu::before {
 
 ---
 
-## Trường hợp đặc biệt: Slide menu với CSS Selector trigger
+## Trường hợp đặc biệt: Menu Slide với kích hoạt CSS Selector
 
-Khi Slide menu dùng CSS Selector (Method 2), element trigger gốc (ví dụ hamburger button của theme) vẫn hiện và **vẫn hoạt động** (mở slide panel của theme) cho đến khi Navi+ load xong.
+Khi một menu Slide sử dụng kích hoạt CSS Selector (Phương pháp 2), phần tử kích hoạt gốc (ví dụ: nút hamburger của giao diện) vẫn hiển thị và **vẫn hoạt động** (mở bảng điều khiển slide của giao diện) cho đến khi Navi+ tải và ghi đè sự kiện.
 
-### Giải pháp A: Ẩn hoàn toàn, dùng Navi+ item làm trigger
+### Giải pháp A: Ẩn phần tử gốc, sử dụng mục Navi+ làm kích hoạt thay thế
 
 ```css
-/* Ẩn hamburger button gốc của theme */
+/* Ẩn nút hamburger của giao diện */
 #Details-menu-drawer-container {
   display: none !important;
 }
 ```
 
-Rồi dùng **Method 1** (mở từ Navi+ item) thay vì Method 2 — sạch hơn, không cần lo flash.
+Sau đó sử dụng **Phương pháp 1** (mở từ mục Navi+) thay vì Phương pháp 2 — sạch hơn, không có hiện tượng nhấp nháy để lo lắng.
 
-### Giải pháp B: Fade out tạm thời
+### Giải pháp B: Làm mờ phần tử gốc
 
 ```css
 #Details-menu-drawer-container {
@@ -86,17 +87,17 @@ Rồi dùng **Method 1** (mở từ Navi+ item) thay vì Method 2 — sạch hơ
 }
 ```
 
-Thêm JS: khi Navi+ load xong (event `naviReady`), xóa style ẩn để element gốc visible trở lại.
+Thêm JS: khi Navi+ sẵn sàng (`naviReady` sự kiện), xóa kiểu ẩn để khôi phục khả năng hiển thị của phần tử gốc.
 
 ---
 
-## Tối ưu tốc độ load chung
+## Ghi chú chung về tốc độ
 
-- Script `start.js` tải với `async` — không block render trang.
-- JSON config của menu được cache trên Cloudflare CDN — load nhanh từ edge node gần nhất.
-- Toàn bộ menu render client-side từ JSON tĩnh — không có server-side rendering cho visitor.
+- `start.js` tải với `async` — không chặn việc hiển thị trang.
+- Cấu hình JSON menu được lưu vào bộ nhớ đệm trên Cloudflare CDN — tải nhanh từ nút biên gần nhất.
+- Không có việc hiển thị phía máy chủ cho khách truy cập — tất cả việc hiển thị menu là phía khách từ JSON tĩnh.
 
-Để preload script tối đa tốc độ:
+Để tải trước tập lệnh cho tốc độ tối đa:
 ```html
 <link rel="preload" href="https://live.naviplus.app/start.js" as="script">
 ```

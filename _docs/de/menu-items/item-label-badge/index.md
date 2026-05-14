@@ -1,70 +1,71 @@
 ---
-description: So setzen Sie Textetiketten, Beschreibungen, Trennlinien und Abzeichen (einschließlich Warenkorb-Abzeichen) für Elemente in Navi+.
+description: How to set item text labels, descriptions, dividers, and badges (including cart count badges) in Navi+.
+lang: de
 layout: default
 permalink: /de/docs/menu-items/item-label-badge/
-title: Beschriftungen, Beschreibungen & Abzeichen
+title: Labels, Descriptions & Badges
 ---
-# Beschriftungen, Beschreibungen & Abzeichen
+# Labels, Descriptions & Badges
 
-## Text (Hauptbeschriftung)
+## Text (main label)
 
-Der primäre Text, der am Element angezeigt wird — was Besucher lesen.
+The primary text displayed on the item — what visitors read.
 
-**Tipps:**
-- Halten Sie es kurz: 1–3 Wörter sind ideal für mobile Menüs.
-- Lassen Sie es leer, wenn Sie ein nur-Icon-Element möchten (kombinieren Sie mit Layout → Nur Icon/Bild).
-- Unterstützt mehrere Sprachen — klicken Sie neben der Beschriftung auf **Multi**, um Übersetzungen pro Sprache hinzuzufügen.
+**Tips:**
+- Keep it short: 1–3 words is ideal for mobile menus.
+- Leave it empty if you want an icon-only item (combine with Display Layout → Icon/Image Only).
+- Supports multiple languages — click **Multi** next to the label to add translations per language.
 
-**Beispiele:** `Startseite`, `Shop`, `Kontakt`
-
----
-
-## Beschreibung (Unterbeschriftung)
-
-Eine kleinere Textzeile unter dem Haupttext — verwenden Sie sie für eine kurze Notiz oder sekundäre Beschriftung.
-
-**Beispiel:** `Anruf: +49 30 1234567 | 8–21 Uhr`
-
-**Hinweise:**
-- Nur sichtbar, wenn das Anzeigelayout zwei Zeilen unterstützt (Oben-Unten, Links-Rechts usw.).
-- Ausgeblendet, wenn das Layout Nur Icon/Bild oder Nur Text ist.
-- Unterstützt mehrere Sprachen.
+**Examples:** `Home`, `Shop`, `Contact`
 
 ---
 
-## Nur-Icon (Beschriftung ausblenden, Icon anzeigen)
+## Description (sub-label)
 
-Um die Textbeschriftung auszublenden und nur das Icon oder Bild anzuzeigen, gehen Sie zu **Layout → Anzeigelayout → Nur Icon/Bild**.
+A smaller line of text below the main Text — use it for a short note or secondary label.
 
-Das Textfeld existiert weiterhin in den Daten (für SEO und Barrierefreiheit), wird aber nicht visuell dargestellt.
+**Example:** `Call: +1 212 555 0100 | 8AM–9PM`
+
+**Notes:**
+- Only visible when the Display Layout supports two lines (Top-Down, Left-Right, etc.).
+- Hidden when the layout is Icon/Image Only or Text Only.
+- Supports multiple languages.
 
 ---
 
-## Trennlinie hinzufügen
+## Icon-only (hide label, show icon)
 
-Aktivieren Sie **Trennlinie hinzufügen**, um eine horizontale Linie unter dem Element hinzuzufügen, die es vom nächsten Element trennt.
+To hide the Text label and show only the icon or image, go to **Layout → Display Layout → Icon/Image Only**.
 
-Wenn aktiviert, erscheinen drei zusätzliche Optionen:
+The Text field still exists in the data (for SEO and accessibility) but is not rendered visually.
 
-| Option | Beschreibung | Plan |
+---
+
+## Add Divider
+
+Enable **Add Divider** to add a horizontal line below the item, separating it from the next item.
+
+When enabled, three additional options appear:
+
+| Option | Description | Plan |
 |---|---|---|
-| **Größe (px)** | Liniendicke (Standard 1px) | Alle |
-| **Typ** | Linienstil: Durchgehend, Gestrichelt, Gepunktet, Doppelt | Business / Elite |
-| **Farbe** | Linienfarbe (Hex) | Alle |
-| **Breite** | Spanne: Voll, Eingerückt, Unter Text | Business / Elite |
+| **Size (px)** | Line thickness (default 1px) | All |
+| **Type** | Line style: Solid, Dashed, Dotted, Double | Business / Elite |
+| **Color** | Line color (hex) | All |
+| **Width** | Span: Full, Inset, Under text | Business / Elite |
 
-> Typ und Breite erscheinen ausgegraut (gesperrt) beim Starter-Plan.
+> Type and Width appear greyed out (locked) on the Starter plan.
 
 ---
 
-## Abzeichen hinzufügen
+## Add Badge
 
-Aktivieren Sie **Abzeichen hinzufügen**, um einen kleinen Abzeichen-Punkt an der Ecke des Elements anzuzeigen — nützlich für "Neu"-Etiketten, Benachrichtigungen oder Warenkorb-Anzahl.
+Enable **Add Badge** to show a small badge dot on the item corner — useful for "New" labels, notifications, or cart count.
 
-### Warenkorb-Abzeichen *(Business / Elite)*
+### Cart badge *(Business / Elite)*
 
-Aktivieren Sie **"Abzeichen (+n) anzeigen, wenn Artikel im Warenkorb sind"**, um automatisch die Anzahl der Produkte im Warenkorb anzuzeigen.
+Enable **"Show badge (+n) when items are in the cart"** to automatically display the number of products in the cart.
 
-Perfekt für ein Warenkorb-Element in der Tab-Leiste:
-- Leerer Warenkorb → Abzeichen ausgeblendet.
-- 3 Artikel im Warenkorb → Abzeichen zeigt **3**.
+Perfect for a Cart item in the Tab Bar:
+- Empty cart → badge hidden.
+- 3 items in cart → badge shows **3**.

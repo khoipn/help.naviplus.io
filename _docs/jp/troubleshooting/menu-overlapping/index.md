@@ -1,10 +1,10 @@
 ---
-description: スティッキーヘッダー、チャットウィジェット、クッキーバナーなど他の要素と重なるNavi+メニューの問題を修正します。
+description: Navi+ メニューが固定ヘッダー、チャットウィジェット、またはクッキーバナーなどの他の要素と重なっている問題を修正します。
 lang: jp
 layout: default
 permalink: /jp/docs/troubleshooting/menu-overlapping/
-title: メニューが他の要素と重なる
+title: メニューが他の要素と重なっている
 ---
-# メニューが他の要素と重なる
+# メニューが他の要素と重なっている
 
-*近日公開予定 — このページは作成中です。*
+*Coming soon — this page is being written.*

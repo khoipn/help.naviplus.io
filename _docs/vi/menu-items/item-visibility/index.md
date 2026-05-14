@@ -1,52 +1,53 @@
 ---
-description: Cách kiểm soát khi nào và cho ai một mục menu hiển thị trong Navi+ — trạng thái xuất bản, điều kiện đăng nhập và ẩn theo trang.
+description: Cách kiểm soát khi nào và cho ai một mục menu có thể nhìn thấy trong Navi+ — trạng thái đã xuất bản, điều kiện đăng nhập và ẩn dựa trên trang.
+lang: vi
 layout: default
 permalink: /vi/docs/menu-items/item-visibility/
-title: Hiển thị và điều kiện
+title: Hiển thị & Điều kiện
 ---
-# Hiển thị và điều kiện
+# Hiển thị & Điều kiện
 
-Phần **Xuất bản** trong bảng chỉnh sửa mục cho phép bạn kiểm soát ai nhìn thấy mục, khi nào và trên những trang nào.
+Phần **Xuất bản** trong bảng Chỉnh sửa Mục cho phép bạn kiểm soát ai thấy một mục, khi nào và trên những trang nào.
 
 ---
 
 ## Đã xuất bản
 
-**Mặc định: bật (mục hiển thị với tất cả mọi người).**
+**Mặc định: bật (mục có thể nhìn thấy cho mọi người).**
 
-Tắt để ẩn mục khỏi menu trực tiếp mà không xóa. Mục vẫn còn trong trình chỉnh sửa — bạn có thể bật lại bất cứ lúc nào.
+Tắt điều này để ẩn mục khỏi menu trực tiếp mà không xóa nó. Mục vẫn ở trong trình chỉnh sửa — bạn có thể kích hoạt lại bất cứ lúc nào.
 
-**Dùng khi:**
-- Tạm thời ẩn link khuyến mãi theo mùa.
-- Chuẩn bị mục trước khi đưa lên live.
-- Giữ mục dự phòng mà không xóa.
-
----
-
-## Ẩn khi đã đăng nhập
-
-Khi bật, mục **chỉ hiển thị với khách chưa đăng nhập**.
-
-**Dùng cho:**
-- Nút "Đăng nhập" — khách hàng đã đăng nhập không cần thấy.
-- Link "Tạo tài khoản".
+**Sử dụng khi:**
+- Tạm thời ẩn liên kết bán hàng theo mùa.
+- Chuẩn bị một mục trước khi nó được công khai.
+- Giữ một mục sao lưu mà không xóa nó.
 
 ---
 
-## Chỉ hiển thị khi đã đăng nhập
+## Ẩn khi đăng nhập
 
-Khi bật, mục **chỉ hiển thị với khách hàng đã đăng nhập**.
+Khi được kích hoạt, mục chỉ **có thể nhìn thấy cho những khách truy cập không đăng nhập**.
 
-**Dùng cho:**
-- Link "Tài khoản của tôi".
-- Điểm tích lũy, lịch sử đơn hàng.
-- Tính năng dành riêng cho thành viên.
+**Sử dụng cho:**
+- Một nút "Đăng nhập" — khách hàng đã đăng nhập không cần nó.
+- Một liên kết "Tạo tài khoản".
 
 ---
 
-## Ẩn trên loại trang cụ thể (hidepages)
+## Chỉ hiển thị khi đăng nhập
 
-Dùng thuộc tính `hidepages` trong **Nâng cao → Thuộc tính** để ẩn mục trên một số loại trang.
+Khi được kích hoạt, mục chỉ **có thể nhìn thấy cho khách hàng đã đăng nhập**.
+
+**Sử dụng cho:**
+- Liên kết "Tài khoản của tôi".
+- Điểm thưởng, lịch sử đơn hàng.
+- Các tính năng dành riêng cho thành viên.
+
+---
+
+## Ẩn trên các loại trang cụ thể (hidepages)
+
+Sử dụng thuộc tính `hidepages` trong **Nâng cao → Thuộc tính** để ẩn một mục trên một số loại trang nhất định.
 
 **Cú pháp:**
 
@@ -56,18 +57,18 @@ hidepages=index|products
 hidepages=index|products|collections|pages|blogs|others
 ```
 
-| Giá trị | Ẩn trên trang |
+| Giá trị | Các trang bị ẩn |
 |---|---|
 | `index` | Trang chủ |
 | `products` | Trang chi tiết sản phẩm |
 | `collections` | Trang bộ sưu tập / danh mục |
 | `pages` | Trang tĩnh (Giới thiệu, Liên hệ…) |
-| `blogs` | Trang danh sách blog và bài đăng |
-| `others` | Các trang khác không thuộc các loại trên |
+| `blogs` | Trang danh sách blog và bài viết |
+| `others` | Bất kỳ trang nào không thuộc các danh mục trên |
 
-Ngăn cách nhiều giá trị bằng `|`, không có khoảng trắng.
+Tách các giá trị nhiều bằng `|`, không có khoảng trắng.
 
-**Ví dụ:** Ẩn nút "Mua ngay" trên trang chủ và trang blog:
+**Ví dụ:** Ẩn một nút "Mua ngay" trên trang chủ và các trang blog:
 
 ```
 hidepages=index|blogs
@@ -75,23 +76,23 @@ hidepages=index|blogs
 
 ---
 
-## Ẩn theo thiết bị (Mobile / Desktop)
+## Ẩn theo thiết bị (Di động / Máy tính để bàn)
 
-> **Lưu ý quan trọng:** Navi+ không có nút bật/tắt mobile/desktop cho từng mục. Việc nhắm mục tiêu theo thiết bị được kiểm soát ở **cấp độ menu**, không phải cấp độ mục.
+> **Quan trọng:** Navi+ không có công tắc di động/máy tính để bàn cho từng mục. Việc nhắm mục tiêu thiết bị được kiểm soát ở **cấp menu**, không phải cấp mục.
 
-**Cách đúng:**
+**Cách tiếp cận đúng:**
 
-- Vào tab **Xuất bản** của menu → bật/tắt **Mobile** và **Desktop** cho toàn bộ menu.
-- Tạo hai menu riêng biệt — một cho mobile, một cho desktop — và đặt nút bật thiết bị trên mỗi menu.
+- Đi đến tab **Xuất bản** của menu → bật **Di động** và **Máy tính để bàn** cho toàn bộ menu.
+- Tạo hai menu riêng biệt — một cho di động, một cho máy tính để bàn — và đặt công tắc thiết bị trên mỗi menu.
 
-**Cách xử lý cho từng mục (nếu thực sự cần):**  
-Dùng **Nâng cao → CSS** với media query:
+**Giải pháp tạm thời cho từng mục (nếu thực sự cần thiết):**  
+Sử dụng **Nâng cao → CSS** với một truy vấn phương tiện:
 
 ```css
-/* Ẩn mục này chỉ trên mobile */
+/* Ẩn mục này chỉ trên di động */
 @media (max-width: 767px) { display: none !important; }
 
-/* Ẩn mục này chỉ trên desktop */
+/* Ẩn mục này chỉ trên máy tính để bàn */
 @media (min-width: 768px) { display: none !important; }
 ```
 
@@ -99,11 +100,11 @@ Dùng **Nâng cao → CSS** với media query:
 
 ## Tóm tắt
 
-| Điều kiện | Cách cài đặt |
+| Điều kiện | Cách thiết lập |
 |---|---|
 | Ẩn hoàn toàn | Đã xuất bản → tắt |
-| Ẩn với người dùng đã đăng nhập | Ẩn khi đã đăng nhập → bật |
-| Ẩn với khách chưa đăng nhập | Chỉ hiển thị khi đã đăng nhập → bật |
+| Ẩn khỏi người dùng đã đăng nhập | Ẩn khi đăng nhập → bật |
+| Ẩn khỏi khách | Chỉ hiển thị khi đăng nhập → bật |
 | Ẩn trên trang chủ | Thuộc tính: `hidepages=index` |
-| Ẩn trên mobile | CSS: `@media (max-width: 767px) { display: none !important; }` |
-| Ẩn trên desktop | CSS: `@media (min-width: 768px) { display: none !important; }` |
+| Ẩn trên di động | CSS: `@media (max-width: 767px) { display: none !important; }` |
+| Ẩn trên máy tính để bàn | CSS: `@media (min-width: 768px) { display: none !important; }` |

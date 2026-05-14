@@ -1,50 +1,51 @@
 ---
-description: Como adicionar, reordenar, duplicar, excluir e desfazer alterações em itens de menu no Navi+.
+description: Como adicionar, reorganizar, duplicar, excluir e desfazer alterações em itens de menu no Navi+.
+lang: pt-br
 layout: default
 permalink: /pt-br/docs/menu-items/item-create-manage/
-title: Criar e gerenciar itens
+title: Criar e Gerenciar Itens
 ---
-# Criar e gerenciar itens
+# Criar e Gerenciar Itens
 
 ## Adicionar um novo item
 
-1. Na árvore do menu, clique em **+ Adicionar item** (ou o botão de mais no final da lista).
-2. Escolha o tipo de item desejado (Ícone/Texto, Imagem grande, Título de grupo, Espaço em branco, Marcador de aba…).
+1. Na árvore de menu, clique em **+ Adicionar item** (ou no botão de mais na parte inferior da lista).
+2. Escolha o tipo de item que você deseja (Ícone/Text, Imagem Grande, Título do Grupo, Espaço em Branco, Marcador de Aba…).
 3. O novo item aparece no final da lista com conteúdo padrão.
-4. Clique no item para abrir o painel de edição e preencha os detalhes.
+4. Clique no item para abrir o painel Editar Item e preencher os detalhes.
 5. Pressione **Atualizar** → **Salvar**.
 
-> Novos itens são sempre adicionados no final. Arraste-os para cima até a posição desejada.
+> Novos itens são sempre adicionados na parte inferior. Arraste-os para cima até a posição desejada após adicionar.
 
 ---
 
-## Reordenar itens
+## Reorganizar itens
 
 ### Por arrastar e soltar
 
-- Passe o mouse sobre o identificador de arraste (≡) à esquerda de um item.
-- Arraste **para cima / baixo** para alterar a ordem dentro do mesmo nível.
-- Arraste **para a direita** para recuar — o item se torna filho do item acima.
-- Arraste **para a esquerda** para avançar — o item sobe um nível.
+- Passe o mouse sobre a alça de arrastar (≡) à esquerda de um item.
+- Arraste **para cima / para baixo** para mudar a ordem dentro do mesmo nível.
+- Arraste **para a direita** para indentar — o item se torna um filho do item acima.
+- Arraste **para a esquerda** para desindentar — o item volta um nível.
 
-### Por atalho de teclado (quando um item está selecionado)
+### Por atalho de teclado (enquanto um item está selecionado)
 
 | Tecla | Ação |
 |---|---|
 | `↑` | Mover para cima (Mac: `Cmd+↑` / Win: `Alt+↑`) |
 | `↓` | Mover para baixo (Mac: `Cmd+↓` / Win: `Alt+↓`) |
-| `→` | Recuar — item se torna filho do item acima |
-| `←` | Avançar — item volta ao nível pai |
+| `→` | Indentar — o item se torna um filho do item acima |
+| `←` | Desindentar — o item volta para o nível pai |
 
-> Os atalhos só funcionam quando o cursor está sobre a árvore do menu e o item está selecionado (contorno azul).
+> Os atalhos só funcionam quando o cursor está sobre a árvore de menu e o item está selecionado (contorno azul).
 
 ---
 
 ## Editar um item
 
-1. Clique no item → o painel de edição abre.
-2. Altere os campos necessários.
-3. Pressione **Atualizar** para salvar as alterações desse item.
+1. Clique no item → o painel Editar Item é aberto.
+2. Altere os campos que você precisa.
+3. Pressione **Atualizar** para salvar as alterações naquele item.
 
 > Pressione **Cancelar** para fechar o painel sem salvar.
 
@@ -76,15 +77,15 @@ title: Criar e gerenciar itens
 | `Ctrl+Z` / `Cmd+Z` | Desfazer a última ação |
 | `Ctrl+Y` / `Cmd+Shift+Z` | Refazer |
 
-O histórico de desfazer só existe para a sessão atual — recarregar a página o apaga.
+O histórico de desfazer existe apenas para a sessão atual — recarregar a página o limpa.
 
 ---
 
 ## Salvar o menu
 
-Após adicionar, reordenar ou excluir itens:
+Após adicionar, reorganizar ou excluir itens:
 
 - Clique em **Salvar** na barra de ferramentas, ou pressione `Ctrl+S` / `Cmd+S`.
-- Segure `Shift` enquanto pressiona Salvar para salvar e recarregar o simulador imediatamente.
+- Mantenha `Shift` pressionado enquanto pressiona Salvar para salvar e recarregar imediatamente o simulador.
 
-As alterações não são visíveis para seus clientes até que você salve.
+As alterações não são visíveis para seus clientes até que você Salve.

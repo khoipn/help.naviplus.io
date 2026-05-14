@@ -1,5 +1,5 @@
 ---
-description: Beheben Sie Navi+-Menüs, die andere Elemente wie Sticky-Header, Chat-Widgets oder Cookie-Banner überlagern.
+description: Beheben Sie, dass Navi+ Menüs andere Elemente wie feste Kopfzeilen, Chat-Widgets oder Cookie-Banner überlappen.
 lang: de
 layout: default
 permalink: /de/docs/troubleshooting/menu-overlapping/
@@ -7,4 +7,4 @@ title: Menü überlappt andere Elemente
 ---
 # Menü überlappt andere Elemente
 
-*Demnächst verfügbar — diese Seite wird gerade geschrieben.*
+*Kommt bald — diese Seite wird gerade geschrieben.*

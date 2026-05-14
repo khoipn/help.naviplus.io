@@ -1,12 +1,13 @@
 ---
-description: Publiez votre menu Navi+ sur votre site web — activer/désactiver, choisir la méthode d'intégration, configurer la visibilité par appareil et filtrer par URL.
+description: Publiez votre menu Navi+ sur votre site web — activez/désactivez, choisissez la méthode d'intégration, configurez la visibilité des appareils et filtrez par URL.
+lang: fr
 layout: default
 permalink: /fr/docs/publish/
 title: Publier
 ---
 # Publier
 
-La section **Publier** contrôle l'affichage de votre menu sur votre site web en production : activation/désactivation du menu, choix de la méthode d'intégration, configuration de la visibilité par appareil et filtrage par URL. C'est la dernière étape après la conception — sans enregistrer les paramètres de publication, le menu n'apparaîtra pas.
+La **section Publier** contrôle comment votre menu apparaît sur votre site web en direct : activer/désactiver le menu, choisir la méthode d'intégration, configurer la visibilité des appareils et filtrer par URL. C'est la dernière étape après la conception — sans enregistrer les paramètres de publication, le menu n'apparaîtra pas.
 
 ---
 
@@ -14,24 +15,24 @@ La section **Publier** contrôle l'affichage de votre menu sur votre site web en
 
 | # | Sujet | |
 |---|---|---|
-| 1 | Vue d'ensemble des types de menus et méthodes de déploiement | [Publish Overview](/fr/docs/publish/publish-overview/) |
-| 2 | Sticky / FAB — App Embeds (Shopify) ou `<head>` (Global) | [Publish Sticky](/fr/docs/publish/publish-sticky/) |
-| 3 | Menu Slide — activation par déclencheur | [Publish Slide](/fr/docs/publish/publish-slide/) |
-| 4 | Section / Mega / Grid — Insérer/Remplacer et App Block | [Publish Section](/fr/docs/publish/publish-section/) |
-| 5 | Filtrer par appareil et mot-clé d'URL | [Publish Filter](/fr/docs/publish/publish-filter/) |
-| 6 | Optimiser la vitesse et l'UX après publication | [Publish Optimize](/fr/docs/publish/publish-optimize/) |
+| 1 | Types de menu et aperçu des méthodes de déploiement | [Aperçu de la publication](/docs/publish/publish-overview/) |
+| 2 | Sticky / FAB — Intégrations d'applications (Shopify) ou `<head>` (Global) | [Publication Sticky](/docs/publish/publish-sticky/) |
+| 3 | Menu déroulant — activation basée sur le déclencheur | [Publication Slide](/docs/publish/publish-slide/) |
+| 4 | Section / Mega / Grid — Insérer/Remplacer et Bloc d'application | [Publication Section](/docs/publish/publish-section/) |
+| 5 | Filtrer par appareil et mot-clé URL | [Publication Filter](/docs/publish/publish-filter/) |
+| 6 | Optimiser la vitesse et l'UX après publication | [Publication Optimize](/docs/publish/publish-optimize/) |
 
 ---
 
 ## Référence rapide
 
 ```
-Type de menu         Méthode principale
+Type de menu           Méthode principale
 ────────────────────────────────────────────────────
-Sticky / TABBAR      App Embeds (Shopify) / <head> (Global) + bouton d'activation
-Sticky / FAB         App Embeds (Shopify) / <head> (Global) + bouton d'activation
-Slide (CONTEXT)      App Embeds / <head> + bouton d'activation + configurer déclencheur
-Section (Mega/Grid)  Insérer/Remplacer (CSS Selector) ou App Block (Shopify)
+Sticky / TABBAR     Intégrations d'applications (Shopify) / <head> (Global) + activer le basculement
+Sticky / FAB        Intégrations d'applications (Shopify) / <head> (Global) + activer le basculement
+Slide (CONTEXT)     Intégrations d'applications / <head> + activer le basculement + configurer le déclencheur
+Section (Mega/Grid) Insérer/Remplacer (Sélecteur CSS) ou Bloc d'application (Shopify)
 ```
 
-**Règle :** Bouton activé = menu en ligne. Bouton désactivé = complètement masqué du site web, pas besoin de supprimer le code d'intégration.
+**Règle :** Activer le basculement = le menu est en direct. Désactiver le basculement = complètement caché du site web, pas besoin de retirer le code d'intégration.

@@ -65,9 +65,9 @@
     "updated_at": 1777029796
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::vi": {
-    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
+    "src_hash": "d1d7c5bfc9369705d0adb3ef767c7bc1c443597bf723a54bd6d2e8b5ac097bb0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777029892
+    "updated_at": 1778740806
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::vi": {
     "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
@@ -100,9 +100,9 @@
     "updated_at": 1777030323
   },
   "how-to-install-navi/index.md::vi": {
-    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
+    "src_hash": "12e16a450cbd33c87af448c15381c8cc1bd6eab3288fa1047919bca184f3a7ee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030414
+    "updated_at": 1778741197
   },
   "integrations/chat-tools/index.md::vi": {
     "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
@@ -145,9 +145,9 @@
     "updated_at": 1777030799
   },
   "latest-update/index.md::vi": {
-    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
+    "src_hash": "f33e59c23d15ef1bfaa49641a1e1fdedbe5d52c0b223a74188eafd308d5ceb04",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030834
+    "updated_at": 1778742330
   },
   "limitation/index.md::vi": {
     "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
@@ -240,9 +240,9 @@
     "updated_at": 1777032971
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "d199109235a4c3d9e4d77530b7b199193b8a49aa820f7917ac62622bef5d0871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777033024
+    "updated_at": 1778745461
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::vi": {
     "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
@@ -295,14 +295,14 @@
     "updated_at": 1777033956
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "ce791867d9b41c092ecbaec3f1644cfd8967631bd98ca0c3f5753b36814110f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256170
+    "updated_at": 1778745857
   },
   "usage/grid-menu/publishing-on-shopify/index.md::vi": {
-    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
+    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034018
+    "updated_at": 1778746119
   },
   "usage/grid-menu/responsive-grid-menu/index.md::vi": {
     "src_hash": "56233c94e9d91de2aad93916735a15808303c94885b229ddf52f8a808c4a4dc2",
@@ -330,14 +330,14 @@
     "updated_at": 1777034531
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "0ce821e83b7d05016a414bf00bbc75fb8510c4a3a0f45096c4d6dee4b19185d3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256558
+    "updated_at": 1778746511
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::vi": {
-    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
+    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034610
+    "updated_at": 1778746719
   },
   "usage/mega-menu-mobile/how-to-use/index.md::vi": {
     "src_hash": "9b3060c05abc66ce0d098f0e51690c2c4ee544090503ce24a5a11bddcf185cdc",
@@ -350,14 +350,14 @@
     "updated_at": 1777034919
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "e9eb0afb87a6bfdf155a301f84c0c0f4e5097bc941592cc5f330b81002c1bcbe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256951
+    "updated_at": 1778747117
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::vi": {
-    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
+    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034985
+    "updated_at": 1778747296
   },
   "usage/shopify/how-to-other-applications-work-with-naviplus/index.md::vi": {
     "src_hash": "0b090b9b79f23d05e4d10670938944a5c5d5325e0be804151b9a796707ecc894",
@@ -375,9 +375,9 @@
     "updated_at": 1773497488
   },
   "usage/shopify/use-the-multi-language-feature/index.md::vi": {
-    "src_hash": "11b216b79dbb2259b2b2d32a4e74fed910abe2d335d27150fc2ab4b9e46fbbf1",
+    "src_hash": "da0c86946a0047ed66d67c4b7a525c8b281d9d260ffa167f452dd56d15c346b1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497670
+    "updated_at": 1778747492
   },
   "usage/slide-menu-hamburger-menu/how-to-use/index.md::vi": {
     "src_hash": "e535948a780665b8b87840f77bdb1d79931b8393f34a793d11934b735b8f9465",
@@ -390,9 +390,9 @@
     "updated_at": 1777035231
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::vi": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "7b267d8d7345765ae65fc67decccd9c71dedfe611789a3346a059fdc394c6cd6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257263
+    "updated_at": 1778747833
   },
   "usage/slide-menu-hamburger-menu/publishing-examples/index.md::vi": {
     "src_hash": "1bb958b0fa79549f533fa3128a943d794dee26eac196a3f4d01e02db4610d922",
@@ -400,9 +400,9 @@
     "updated_at": 1773498456
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::vi": {
-    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
+    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035302
+    "updated_at": 1778748024
   },
   "usage/some-faqs-about-publishing-navi-menu/index.md::vi": {
     "src_hash": "c1ad5a58e089c8e7df00f87e2d92eb685539ef1a7b7d67bb4dca4f8b9734f2d2",
@@ -420,9 +420,9 @@
     "updated_at": 1777035590
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::vi": {
-    "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
+    "src_hash": "35d167ab8bddcb0135d643d2fe8858e3ba251006856db310f48f29cd90a31948",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257520
+    "updated_at": 1778748389
   },
   "usage/tabbar-bottom-navigation/publishing-on-shopify/index.md::vi": {
     "src_hash": "35cd48bc5635384d8c4001c69f822a0454062309eebf80be57b477becf08b7e9",
@@ -890,39 +890,39 @@
     "updated_at": 1777029885
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::fr": {
-    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
+    "src_hash": "d1d7c5bfc9369705d0adb3ef767c7bc1c443597bf723a54bd6d2e8b5ac097bb0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777029903
+    "updated_at": 1778740833
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::de": {
-    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
+    "src_hash": "d1d7c5bfc9369705d0adb3ef767c7bc1c443597bf723a54bd6d2e8b5ac097bb0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777029912
+    "updated_at": 1778740860
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::zh-cn": {
-    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
+    "src_hash": "d1d7c5bfc9369705d0adb3ef767c7bc1c443597bf723a54bd6d2e8b5ac097bb0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777029921
+    "updated_at": 1778740881
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::jp": {
-    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
+    "src_hash": "d1d7c5bfc9369705d0adb3ef767c7bc1c443597bf723a54bd6d2e8b5ac097bb0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777029931
+    "updated_at": 1778740921
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::it": {
-    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
+    "src_hash": "d1d7c5bfc9369705d0adb3ef767c7bc1c443597bf723a54bd6d2e8b5ac097bb0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777029944
+    "updated_at": 1778740950
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::pt-br": {
-    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
+    "src_hash": "d1d7c5bfc9369705d0adb3ef767c7bc1c443597bf723a54bd6d2e8b5ac097bb0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777029955
+    "updated_at": 1778740979
   },
   "frequently-asked-questions/navi-plans-starter-business-and-elite/index.md::es": {
-    "src_hash": "6495d795660783cb7e03ca14d8e657d66062efa6a467a3e20c591afd6dbab8c2",
+    "src_hash": "d1d7c5bfc9369705d0adb3ef767c7bc1c443597bf723a54bd6d2e8b5ac097bb0",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777029965
+    "updated_at": 1778741025
   },
   "frequently-asked-questions/optimize-speeds-images-and-ux/index.md::fr": {
     "src_hash": "b85bc40c81bb5ee92c7aed560303eba7fa9d5f709819d8ff42e162a03f16bbee",
@@ -1135,39 +1135,39 @@
     "updated_at": 1777030402
   },
   "how-to-install-navi/index.md::fr": {
-    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
+    "src_hash": "12e16a450cbd33c87af448c15381c8cc1bd6eab3288fa1047919bca184f3a7ee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030423
+    "updated_at": 1778741221
   },
   "how-to-install-navi/index.md::de": {
-    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
+    "src_hash": "12e16a450cbd33c87af448c15381c8cc1bd6eab3288fa1047919bca184f3a7ee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030431
+    "updated_at": 1778741247
   },
   "how-to-install-navi/index.md::zh-cn": {
-    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
+    "src_hash": "12e16a450cbd33c87af448c15381c8cc1bd6eab3288fa1047919bca184f3a7ee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030439
+    "updated_at": 1778741272
   },
   "how-to-install-navi/index.md::jp": {
-    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
+    "src_hash": "12e16a450cbd33c87af448c15381c8cc1bd6eab3288fa1047919bca184f3a7ee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030452
+    "updated_at": 1778741318
   },
   "how-to-install-navi/index.md::it": {
-    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
+    "src_hash": "12e16a450cbd33c87af448c15381c8cc1bd6eab3288fa1047919bca184f3a7ee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030459
+    "updated_at": 1778741343
   },
   "how-to-install-navi/index.md::pt-br": {
-    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
+    "src_hash": "12e16a450cbd33c87af448c15381c8cc1bd6eab3288fa1047919bca184f3a7ee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030467
+    "updated_at": 1778741371
   },
   "how-to-install-navi/index.md::es": {
-    "src_hash": "e369da2da95af3991b5b5be9ed464e71eac93e421d080fc859162513ee46e101",
+    "src_hash": "12e16a450cbd33c87af448c15381c8cc1bd6eab3288fa1047919bca184f3a7ee",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030474
+    "updated_at": 1778741409
   },
   "integrations/chat-tools/index.md::fr": {
     "src_hash": "58fb71107fadbb25a2275b21f3e616393b1255cc43542bab62c188a0100f8b40",
@@ -1450,39 +1450,39 @@
     "updated_at": 1777030831
   },
   "latest-update/index.md::fr": {
-    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
+    "src_hash": "f33e59c23d15ef1bfaa49641a1e1fdedbe5d52c0b223a74188eafd308d5ceb04",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030839
+    "updated_at": 1778742341
   },
   "latest-update/index.md::de": {
-    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
+    "src_hash": "f33e59c23d15ef1bfaa49641a1e1fdedbe5d52c0b223a74188eafd308d5ceb04",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030843
+    "updated_at": 1778742355
   },
   "latest-update/index.md::zh-cn": {
-    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
+    "src_hash": "f33e59c23d15ef1bfaa49641a1e1fdedbe5d52c0b223a74188eafd308d5ceb04",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030847
+    "updated_at": 1778742371
   },
   "latest-update/index.md::jp": {
-    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
+    "src_hash": "f33e59c23d15ef1bfaa49641a1e1fdedbe5d52c0b223a74188eafd308d5ceb04",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030851
+    "updated_at": 1778742386
   },
   "latest-update/index.md::it": {
-    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
+    "src_hash": "f33e59c23d15ef1bfaa49641a1e1fdedbe5d52c0b223a74188eafd308d5ceb04",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030857
+    "updated_at": 1778742397
   },
   "latest-update/index.md::pt-br": {
-    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
+    "src_hash": "f33e59c23d15ef1bfaa49641a1e1fdedbe5d52c0b223a74188eafd308d5ceb04",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030862
+    "updated_at": 1778742413
   },
   "latest-update/index.md::es": {
-    "src_hash": "6c9ad4c50a8fb2a93f32e5004d4841a5b0c1ce1d51ad3bff8d0cf82c2c61be86",
+    "src_hash": "f33e59c23d15ef1bfaa49641a1e1fdedbe5d52c0b223a74188eafd308d5ceb04",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777030866
+    "updated_at": 1778742431
   },
   "limitation/index.md::fr": {
     "src_hash": "d00c78bbccfedf9b6a05fa55a0c88480272f1e68e13c18ea1d593bd198eac3c4",
@@ -2115,39 +2115,39 @@
     "updated_at": 1777033001
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "d199109235a4c3d9e4d77530b7b199193b8a49aa820f7917ac62622bef5d0871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777033047
+    "updated_at": 1778745477
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::de": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "d199109235a4c3d9e4d77530b7b199193b8a49aa820f7917ac62622bef5d0871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777033073
+    "updated_at": 1778745505
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::zh-cn": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "d199109235a4c3d9e4d77530b7b199193b8a49aa820f7917ac62622bef5d0871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777033093
+    "updated_at": 1778745525
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::jp": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "d199109235a4c3d9e4d77530b7b199193b8a49aa820f7917ac62622bef5d0871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777033118
+    "updated_at": 1778745558
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::it": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "d199109235a4c3d9e4d77530b7b199193b8a49aa820f7917ac62622bef5d0871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777033146
+    "updated_at": 1778745583
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::pt-br": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "d199109235a4c3d9e4d77530b7b199193b8a49aa820f7917ac62622bef5d0871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777033171
+    "updated_at": 1778745608
   },
   "usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/index.md::es": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "d199109235a4c3d9e4d77530b7b199193b8a49aa820f7917ac62622bef5d0871",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777033195
+    "updated_at": 1778745651
   },
   "usage/fab-floating-menu-quick-access/publishing-on-shopify/index.md::fr": {
     "src_hash": "3a834e3127f7e9853b8019b0ff257d24a1f57f813935864d31877e1fca24f31d",
@@ -2500,74 +2500,74 @@
     "updated_at": 1777033985
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "ce791867d9b41c092ecbaec3f1644cfd8967631bd98ca0c3f5753b36814110f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256201
+    "updated_at": 1778745877
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::de": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "ce791867d9b41c092ecbaec3f1644cfd8967631bd98ca0c3f5753b36814110f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256228
+    "updated_at": 1778745915
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::zh-cn": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "ce791867d9b41c092ecbaec3f1644cfd8967631bd98ca0c3f5753b36814110f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256263
+    "updated_at": 1778745941
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::jp": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "ce791867d9b41c092ecbaec3f1644cfd8967631bd98ca0c3f5753b36814110f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256296
+    "updated_at": 1778745977
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::it": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "ce791867d9b41c092ecbaec3f1644cfd8967631bd98ca0c3f5753b36814110f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256325
+    "updated_at": 1778746005
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::pt-br": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "ce791867d9b41c092ecbaec3f1644cfd8967631bd98ca0c3f5753b36814110f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256350
+    "updated_at": 1778746057
   },
   "usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/index.md::es": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "ce791867d9b41c092ecbaec3f1644cfd8967631bd98ca0c3f5753b36814110f4",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256388
+    "updated_at": 1778746089
   },
   "usage/grid-menu/publishing-on-shopify/index.md::fr": {
-    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
+    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034047
+    "updated_at": 1778746139
   },
   "usage/grid-menu/publishing-on-shopify/index.md::de": {
-    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
+    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034079
+    "updated_at": 1778746166
   },
   "usage/grid-menu/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
+    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034105
+    "updated_at": 1778746194
   },
   "usage/grid-menu/publishing-on-shopify/index.md::jp": {
-    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
+    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034138
+    "updated_at": 1778746277
   },
   "usage/grid-menu/publishing-on-shopify/index.md::it": {
-    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
+    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034177
+    "updated_at": 1778746302
   },
   "usage/grid-menu/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
+    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034207
+    "updated_at": 1778746326
   },
   "usage/grid-menu/publishing-on-shopify/index.md::es": {
-    "src_hash": "d482178acbf35a293a9d8bc04f7d2a04d2030be58330f441ccf4f6d2340ef57e",
+    "src_hash": "37014f555df7e13f033ca2c62528242330c07d5e354142502457ece435b24034",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034235
+    "updated_at": 1778746361
   },
   "usage/grid-menu/responsive-grid-menu/index.md::fr": {
     "src_hash": "56233c94e9d91de2aad93916735a15808303c94885b229ddf52f8a808c4a4dc2",
@@ -2745,74 +2745,74 @@
     "updated_at": 1777034567
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "0ce821e83b7d05016a414bf00bbc75fb8510c4a3a0f45096c4d6dee4b19185d3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256592
+    "updated_at": 1778746530
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::de": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "0ce821e83b7d05016a414bf00bbc75fb8510c4a3a0f45096c4d6dee4b19185d3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256624
+    "updated_at": 1778746558
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::zh-cn": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "0ce821e83b7d05016a414bf00bbc75fb8510c4a3a0f45096c4d6dee4b19185d3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256662
+    "updated_at": 1778746584
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::jp": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "0ce821e83b7d05016a414bf00bbc75fb8510c4a3a0f45096c4d6dee4b19185d3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256702
+    "updated_at": 1778746615
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::it": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "0ce821e83b7d05016a414bf00bbc75fb8510c4a3a0f45096c4d6dee4b19185d3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256735
+    "updated_at": 1778746636
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::pt-br": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "0ce821e83b7d05016a414bf00bbc75fb8510c4a3a0f45096c4d6dee4b19185d3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256765
+    "updated_at": 1778746657
   },
   "usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/index.md::es": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "0ce821e83b7d05016a414bf00bbc75fb8510c4a3a0f45096c4d6dee4b19185d3",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256798
+    "updated_at": 1778746684
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::fr": {
-    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
+    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034654
+    "updated_at": 1778746747
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::de": {
-    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
+    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034698
+    "updated_at": 1778746782
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
+    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034737
+    "updated_at": 1778746813
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::jp": {
-    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
+    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034781
+    "updated_at": 1778746862
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::it": {
-    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
+    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034833
+    "updated_at": 1778746894
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
+    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034872
+    "updated_at": 1778746924
   },
   "usage/mega-menu-desktop/publishing-on-shopify/index.md::es": {
-    "src_hash": "3c0dc6de75c6ba2ca701787e57856cceb0ffb9b828759f2869426bf1a394bfa0",
+    "src_hash": "e04059b61a19d5dce4d77cdf95b06590dbcac873e8b647b1acddc05392f683bd",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777034915
+    "updated_at": 1778746973
   },
   "usage/mega-menu-mobile/how-to-use/index.md::fr": {
     "src_hash": "9b3060c05abc66ce0d098f0e51690c2c4ee544090503ce24a5a11bddcf185cdc",
@@ -2885,74 +2885,74 @@
     "updated_at": 1777034948
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "e9eb0afb87a6bfdf155a301f84c0c0f4e5097bc941592cc5f330b81002c1bcbe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774256977
+    "updated_at": 1778747135
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::de": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "e9eb0afb87a6bfdf155a301f84c0c0f4e5097bc941592cc5f330b81002c1bcbe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257009
+    "updated_at": 1778747159
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::zh-cn": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "e9eb0afb87a6bfdf155a301f84c0c0f4e5097bc941592cc5f330b81002c1bcbe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257040
+    "updated_at": 1778747180
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::jp": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "e9eb0afb87a6bfdf155a301f84c0c0f4e5097bc941592cc5f330b81002c1bcbe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257069
+    "updated_at": 1778747210
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::it": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "e9eb0afb87a6bfdf155a301f84c0c0f4e5097bc941592cc5f330b81002c1bcbe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257102
+    "updated_at": 1778747231
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::pt-br": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "e9eb0afb87a6bfdf155a301f84c0c0f4e5097bc941592cc5f330b81002c1bcbe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257130
+    "updated_at": 1778747251
   },
   "usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/index.md::es": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "e9eb0afb87a6bfdf155a301f84c0c0f4e5097bc941592cc5f330b81002c1bcbe",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257151
+    "updated_at": 1778747276
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::fr": {
-    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
+    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035018
+    "updated_at": 1778747312
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::de": {
-    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
+    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035047
+    "updated_at": 1778747338
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
+    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035071
+    "updated_at": 1778747358
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::jp": {
-    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
+    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035102
+    "updated_at": 1778747390
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::it": {
-    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
+    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035132
+    "updated_at": 1778747414
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
+    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035161
+    "updated_at": 1778747436
   },
   "usage/mega-menu-mobile/publishing-on-shopify/index.md::es": {
-    "src_hash": "60b97ae70fdc6873113e36e79a1222dbfb46618cc3c6c99105845ff573342e26",
+    "src_hash": "15c29c4bfee324e3eb7726298f3d873ad6e1265a9edb03f73cf42a13e9a17fe7",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035194
+    "updated_at": 1778747466
   },
   "usage/shopify/how-to-other-applications-work-with-naviplus/index.md::fr": {
     "src_hash": "0b090b9b79f23d05e4d10670938944a5c5d5325e0be804151b9a796707ecc894",
@@ -3060,39 +3060,39 @@
     "updated_at": 1773497657
   },
   "usage/shopify/use-the-multi-language-feature/index.md::fr": {
-    "src_hash": "11b216b79dbb2259b2b2d32a4e74fed910abe2d335d27150fc2ab4b9e46fbbf1",
+    "src_hash": "da0c86946a0047ed66d67c4b7a525c8b281d9d260ffa167f452dd56d15c346b1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497685
+    "updated_at": 1778747511
   },
   "usage/shopify/use-the-multi-language-feature/index.md::de": {
-    "src_hash": "11b216b79dbb2259b2b2d32a4e74fed910abe2d335d27150fc2ab4b9e46fbbf1",
+    "src_hash": "da0c86946a0047ed66d67c4b7a525c8b281d9d260ffa167f452dd56d15c346b1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497701
+    "updated_at": 1778747541
   },
   "usage/shopify/use-the-multi-language-feature/index.md::zh-cn": {
-    "src_hash": "11b216b79dbb2259b2b2d32a4e74fed910abe2d335d27150fc2ab4b9e46fbbf1",
+    "src_hash": "da0c86946a0047ed66d67c4b7a525c8b281d9d260ffa167f452dd56d15c346b1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497722
+    "updated_at": 1778747589
   },
   "usage/shopify/use-the-multi-language-feature/index.md::jp": {
-    "src_hash": "11b216b79dbb2259b2b2d32a4e74fed910abe2d335d27150fc2ab4b9e46fbbf1",
+    "src_hash": "da0c86946a0047ed66d67c4b7a525c8b281d9d260ffa167f452dd56d15c346b1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497739
+    "updated_at": 1778747634
   },
   "usage/shopify/use-the-multi-language-feature/index.md::it": {
-    "src_hash": "11b216b79dbb2259b2b2d32a4e74fed910abe2d335d27150fc2ab4b9e46fbbf1",
+    "src_hash": "da0c86946a0047ed66d67c4b7a525c8b281d9d260ffa167f452dd56d15c346b1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497755
+    "updated_at": 1778747659
   },
   "usage/shopify/use-the-multi-language-feature/index.md::pt-br": {
-    "src_hash": "11b216b79dbb2259b2b2d32a4e74fed910abe2d335d27150fc2ab4b9e46fbbf1",
+    "src_hash": "da0c86946a0047ed66d67c4b7a525c8b281d9d260ffa167f452dd56d15c346b1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497778
+    "updated_at": 1778747689
   },
   "usage/shopify/use-the-multi-language-feature/index.md::es": {
-    "src_hash": "11b216b79dbb2259b2b2d32a4e74fed910abe2d335d27150fc2ab4b9e46fbbf1",
+    "src_hash": "da0c86946a0047ed66d67c4b7a525c8b281d9d260ffa167f452dd56d15c346b1",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1773497794
+    "updated_at": 1778747720
   },
   "usage/slide-menu-hamburger-menu/how-to-use/index.md::fr": {
     "src_hash": "e535948a780665b8b87840f77bdb1d79931b8393f34a793d11934b735b8f9465",
@@ -3165,39 +3165,39 @@
     "updated_at": 1777035261
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::fr": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "7b267d8d7345765ae65fc67decccd9c71dedfe611789a3346a059fdc394c6cd6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257288
+    "updated_at": 1778747853
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::de": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "7b267d8d7345765ae65fc67decccd9c71dedfe611789a3346a059fdc394c6cd6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257313
+    "updated_at": 1778747875
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::zh-cn": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "7b267d8d7345765ae65fc67decccd9c71dedfe611789a3346a059fdc394c6cd6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257341
+    "updated_at": 1778747895
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::jp": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "7b267d8d7345765ae65fc67decccd9c71dedfe611789a3346a059fdc394c6cd6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257371
+    "updated_at": 1778747927
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::it": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "7b267d8d7345765ae65fc67decccd9c71dedfe611789a3346a059fdc394c6cd6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257394
+    "updated_at": 1778747947
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::pt-br": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "7b267d8d7345765ae65fc67decccd9c71dedfe611789a3346a059fdc394c6cd6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257416
+    "updated_at": 1778747966
   },
   "usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/index.md::es": {
-    "src_hash": "6b59133372c854f539b9495bfa0255214e0180b72ee1173ddd9ed6f3bfd9b265",
+    "src_hash": "7b267d8d7345765ae65fc67decccd9c71dedfe611789a3346a059fdc394c6cd6",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257439
+    "updated_at": 1778747994
   },
   "usage/slide-menu-hamburger-menu/publishing-examples/index.md::fr": {
     "src_hash": "1bb958b0fa79549f533fa3128a943d794dee26eac196a3f4d01e02db4610d922",
@@ -3235,39 +3235,39 @@
     "updated_at": 1773498522
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::fr": {
-    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
+    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035350
+    "updated_at": 1778748049
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::de": {
-    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
+    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035387
+    "updated_at": 1778748081
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::zh-cn": {
-    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
+    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035420
+    "updated_at": 1778748108
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::jp": {
-    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
+    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035463
+    "updated_at": 1778748154
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::it": {
-    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
+    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035506
+    "updated_at": 1778748185
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::pt-br": {
-    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
+    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035544
+    "updated_at": 1778748212
   },
   "usage/slide-menu-hamburger-menu/publishing-on-shopify/index.md::es": {
-    "src_hash": "9b9dc42b6af731decc9c8874b181fe3f6380c3b2b7a9064a3e32bd0980d539d1",
+    "src_hash": "d78b1203b6189f0ad5c0e760d4de2e30a834aaa256375b8a2fbe0e4fb4d1053d",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1777035587
+    "updated_at": 1778748248
   },
   "usage/some-faqs-about-publishing-navi-menu/index.md::fr": {
     "src_hash": "c1ad5a58e089c8e7df00f87e2d92eb685539ef1a7b7d67bb4dca4f8b9734f2d2",
@@ -3375,39 +3375,39 @@
     "updated_at": 1777035621
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::fr": {
-    "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
+    "src_hash": "35d167ab8bddcb0135d643d2fe8858e3ba251006856db310f48f29cd90a31948",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257544
+    "updated_at": 1778748407
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::de": {
-    "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
+    "src_hash": "35d167ab8bddcb0135d643d2fe8858e3ba251006856db310f48f29cd90a31948",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257570
+    "updated_at": 1778748427
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::zh-cn": {
-    "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
+    "src_hash": "35d167ab8bddcb0135d643d2fe8858e3ba251006856db310f48f29cd90a31948",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257593
+    "updated_at": 1778748450
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::jp": {
-    "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
+    "src_hash": "35d167ab8bddcb0135d643d2fe8858e3ba251006856db310f48f29cd90a31948",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257625
+    "updated_at": 1778748483
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::it": {
-    "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
+    "src_hash": "35d167ab8bddcb0135d643d2fe8858e3ba251006856db310f48f29cd90a31948",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257653
+    "updated_at": 1778748500
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::pt-br": {
-    "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
+    "src_hash": "35d167ab8bddcb0135d643d2fe8858e3ba251006856db310f48f29cd90a31948",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257682
+    "updated_at": 1778748518
   },
   "usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/index.md::es": {
-    "src_hash": "7ef07381582833728e3293a52149327c84d1d2a1cb26ad01f9467f33e9864f4b",
+    "src_hash": "35d167ab8bddcb0135d643d2fe8858e3ba251006856db310f48f29cd90a31948",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
-    "updated_at": 1774257709
+    "updated_at": 1778748547
   },
   "usage/tabbar-bottom-navigation/publishing-on-shopify/index.md::fr": {
     "src_hash": "35cd48bc5635384d8c4001c69f822a0454062309eebf80be57b477becf08b7e9",
@@ -3598,5 +3598,1645 @@
     "src_hash": "896c84098d1da393d273a0ebde0cbcd5e05a7582631ba5fbc3c15492f21ebe58",
     "engine": "openai:gpt-4o-mini:46571b01dd32",
     "updated_at": 1776679968
+  },
+  "design/design-divider/index.md::vi": {
+    "src_hash": "ad74672aa7f2666f75db403ee73f4e836d39a742b5c114cb1d4e17a57bffe972",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740221
+  },
+  "design/design-divider/index.md::fr": {
+    "src_hash": "ad74672aa7f2666f75db403ee73f4e836d39a742b5c114cb1d4e17a57bffe972",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740227
+  },
+  "design/design-divider/index.md::de": {
+    "src_hash": "ad74672aa7f2666f75db403ee73f4e836d39a742b5c114cb1d4e17a57bffe972",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740236
+  },
+  "design/design-divider/index.md::zh-cn": {
+    "src_hash": "ad74672aa7f2666f75db403ee73f4e836d39a742b5c114cb1d4e17a57bffe972",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740245
+  },
+  "design/design-divider/index.md::jp": {
+    "src_hash": "ad74672aa7f2666f75db403ee73f4e836d39a742b5c114cb1d4e17a57bffe972",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740260
+  },
+  "design/design-divider/index.md::it": {
+    "src_hash": "ad74672aa7f2666f75db403ee73f4e836d39a742b5c114cb1d4e17a57bffe972",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740267
+  },
+  "design/design-divider/index.md::pt-br": {
+    "src_hash": "ad74672aa7f2666f75db403ee73f4e836d39a742b5c114cb1d4e17a57bffe972",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740273
+  },
+  "design/design-divider/index.md::es": {
+    "src_hash": "ad74672aa7f2666f75db403ee73f4e836d39a742b5c114cb1d4e17a57bffe972",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740283
+  },
+  "design/design-level1/index.md::vi": {
+    "src_hash": "0ad2d1d064c9a5e9ba0512f47be67af51de0ecee361475663ec3e984257475b3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740304
+  },
+  "design/design-level1/index.md::fr": {
+    "src_hash": "0ad2d1d064c9a5e9ba0512f47be67af51de0ecee361475663ec3e984257475b3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740326
+  },
+  "design/design-level1/index.md::de": {
+    "src_hash": "0ad2d1d064c9a5e9ba0512f47be67af51de0ecee361475663ec3e984257475b3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740343
+  },
+  "design/design-level1/index.md::zh-cn": {
+    "src_hash": "0ad2d1d064c9a5e9ba0512f47be67af51de0ecee361475663ec3e984257475b3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740360
+  },
+  "design/design-level1/index.md::jp": {
+    "src_hash": "0ad2d1d064c9a5e9ba0512f47be67af51de0ecee361475663ec3e984257475b3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740386
+  },
+  "design/design-level1/index.md::it": {
+    "src_hash": "0ad2d1d064c9a5e9ba0512f47be67af51de0ecee361475663ec3e984257475b3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740400
+  },
+  "design/design-level1/index.md::pt-br": {
+    "src_hash": "0ad2d1d064c9a5e9ba0512f47be67af51de0ecee361475663ec3e984257475b3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740414
+  },
+  "design/design-level1/index.md::es": {
+    "src_hash": "0ad2d1d064c9a5e9ba0512f47be67af51de0ecee361475663ec3e984257475b3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740440
+  },
+  "design/design-level2/index.md::vi": {
+    "src_hash": "06472bf3dd803206b317de1f891a542f67ed4e70afbd4230ac45b1996a5adaf4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740456
+  },
+  "design/design-level2/index.md::fr": {
+    "src_hash": "06472bf3dd803206b317de1f891a542f67ed4e70afbd4230ac45b1996a5adaf4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740468
+  },
+  "design/design-level2/index.md::de": {
+    "src_hash": "06472bf3dd803206b317de1f891a542f67ed4e70afbd4230ac45b1996a5adaf4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740491
+  },
+  "design/design-level2/index.md::zh-cn": {
+    "src_hash": "06472bf3dd803206b317de1f891a542f67ed4e70afbd4230ac45b1996a5adaf4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740506
+  },
+  "design/design-level2/index.md::jp": {
+    "src_hash": "06472bf3dd803206b317de1f891a542f67ed4e70afbd4230ac45b1996a5adaf4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740530
+  },
+  "design/design-level2/index.md::it": {
+    "src_hash": "06472bf3dd803206b317de1f891a542f67ed4e70afbd4230ac45b1996a5adaf4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740544
+  },
+  "design/design-level2/index.md::pt-br": {
+    "src_hash": "06472bf3dd803206b317de1f891a542f67ed4e70afbd4230ac45b1996a5adaf4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740563
+  },
+  "design/design-level2/index.md::es": {
+    "src_hash": "06472bf3dd803206b317de1f891a542f67ed4e70afbd4230ac45b1996a5adaf4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740589
+  },
+  "design/design-overview/index.md::vi": {
+    "src_hash": "6fb7fc0acbc2ef655e022a1a0d30a655bc91ddab6e43df828b13d6cc43b49f3d",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740606
+  },
+  "design/design-overview/index.md::fr": {
+    "src_hash": "6fb7fc0acbc2ef655e022a1a0d30a655bc91ddab6e43df828b13d6cc43b49f3d",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740619
+  },
+  "design/design-overview/index.md::de": {
+    "src_hash": "6fb7fc0acbc2ef655e022a1a0d30a655bc91ddab6e43df828b13d6cc43b49f3d",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740634
+  },
+  "design/design-overview/index.md::zh-cn": {
+    "src_hash": "6fb7fc0acbc2ef655e022a1a0d30a655bc91ddab6e43df828b13d6cc43b49f3d",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740648
+  },
+  "design/design-overview/index.md::jp": {
+    "src_hash": "6fb7fc0acbc2ef655e022a1a0d30a655bc91ddab6e43df828b13d6cc43b49f3d",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740671
+  },
+  "design/design-overview/index.md::it": {
+    "src_hash": "6fb7fc0acbc2ef655e022a1a0d30a655bc91ddab6e43df828b13d6cc43b49f3d",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740685
+  },
+  "design/design-overview/index.md::pt-br": {
+    "src_hash": "6fb7fc0acbc2ef655e022a1a0d30a655bc91ddab6e43df828b13d6cc43b49f3d",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740701
+  },
+  "design/design-overview/index.md::es": {
+    "src_hash": "6fb7fc0acbc2ef655e022a1a0d30a655bc91ddab6e43df828b13d6cc43b49f3d",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740723
+  },
+  "design/index.md::vi": {
+    "src_hash": "cc649bacc331b8fbbd74e3e7e76eda49db0333643025724fe8371d09c358c904",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740729
+  },
+  "design/index.md::fr": {
+    "src_hash": "cc649bacc331b8fbbd74e3e7e76eda49db0333643025724fe8371d09c358c904",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740734
+  },
+  "design/index.md::de": {
+    "src_hash": "cc649bacc331b8fbbd74e3e7e76eda49db0333643025724fe8371d09c358c904",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740741
+  },
+  "design/index.md::zh-cn": {
+    "src_hash": "cc649bacc331b8fbbd74e3e7e76eda49db0333643025724fe8371d09c358c904",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740747
+  },
+  "design/index.md::jp": {
+    "src_hash": "cc649bacc331b8fbbd74e3e7e76eda49db0333643025724fe8371d09c358c904",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740757
+  },
+  "design/index.md::it": {
+    "src_hash": "cc649bacc331b8fbbd74e3e7e76eda49db0333643025724fe8371d09c358c904",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740762
+  },
+  "design/index.md::pt-br": {
+    "src_hash": "cc649bacc331b8fbbd74e3e7e76eda49db0333643025724fe8371d09c358c904",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740768
+  },
+  "design/index.md::es": {
+    "src_hash": "cc649bacc331b8fbbd74e3e7e76eda49db0333643025724fe8371d09c358c904",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778740778
+  },
+  "getting-started/what-is-navi/index.md::vi": {
+    "src_hash": "683d17601789f7e8a9c5ec958e80e5c7a95c69670160663e8e6dfc252973093a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741037
+  },
+  "getting-started/what-is-navi/index.md::fr": {
+    "src_hash": "683d17601789f7e8a9c5ec958e80e5c7a95c69670160663e8e6dfc252973093a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741047
+  },
+  "getting-started/what-is-navi/index.md::de": {
+    "src_hash": "683d17601789f7e8a9c5ec958e80e5c7a95c69670160663e8e6dfc252973093a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741060
+  },
+  "getting-started/what-is-navi/index.md::zh-cn": {
+    "src_hash": "683d17601789f7e8a9c5ec958e80e5c7a95c69670160663e8e6dfc252973093a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741074
+  },
+  "getting-started/what-is-navi/index.md::jp": {
+    "src_hash": "683d17601789f7e8a9c5ec958e80e5c7a95c69670160663e8e6dfc252973093a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741095
+  },
+  "getting-started/what-is-navi/index.md::it": {
+    "src_hash": "683d17601789f7e8a9c5ec958e80e5c7a95c69670160663e8e6dfc252973093a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741109
+  },
+  "getting-started/what-is-navi/index.md::pt-br": {
+    "src_hash": "683d17601789f7e8a9c5ec958e80e5c7a95c69670160663e8e6dfc252973093a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741121
+  },
+  "getting-started/what-is-navi/index.md::es": {
+    "src_hash": "683d17601789f7e8a9c5ec958e80e5c7a95c69670160663e8e6dfc252973093a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741151
+  },
+  "getting-started/your-first-menu/index.md::vi": {
+    "src_hash": "883ece125acfc864f2f52b7a38adbbd660fe798ae08b9e3d06b2832f01185ba0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741152
+  },
+  "getting-started/your-first-menu/index.md::fr": {
+    "src_hash": "883ece125acfc864f2f52b7a38adbbd660fe798ae08b9e3d06b2832f01185ba0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741155
+  },
+  "getting-started/your-first-menu/index.md::de": {
+    "src_hash": "883ece125acfc864f2f52b7a38adbbd660fe798ae08b9e3d06b2832f01185ba0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741157
+  },
+  "getting-started/your-first-menu/index.md::zh-cn": {
+    "src_hash": "883ece125acfc864f2f52b7a38adbbd660fe798ae08b9e3d06b2832f01185ba0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741158
+  },
+  "getting-started/your-first-menu/index.md::jp": {
+    "src_hash": "883ece125acfc864f2f52b7a38adbbd660fe798ae08b9e3d06b2832f01185ba0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741162
+  },
+  "getting-started/your-first-menu/index.md::it": {
+    "src_hash": "883ece125acfc864f2f52b7a38adbbd660fe798ae08b9e3d06b2832f01185ba0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741163
+  },
+  "getting-started/your-first-menu/index.md::pt-br": {
+    "src_hash": "883ece125acfc864f2f52b7a38adbbd660fe798ae08b9e3d06b2832f01185ba0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741167
+  },
+  "getting-started/your-first-menu/index.md::es": {
+    "src_hash": "883ece125acfc864f2f52b7a38adbbd660fe798ae08b9e3d06b2832f01185ba0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741169
+  },
+  "integrations/how-navi-injects/index.md::vi": {
+    "src_hash": "adfb248700ebe26f0876f60de362e3fbb5dfd0b246f9852b051ea28ab5fea3cb",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741411
+  },
+  "integrations/how-navi-injects/index.md::fr": {
+    "src_hash": "adfb248700ebe26f0876f60de362e3fbb5dfd0b246f9852b051ea28ab5fea3cb",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741413
+  },
+  "integrations/how-navi-injects/index.md::de": {
+    "src_hash": "adfb248700ebe26f0876f60de362e3fbb5dfd0b246f9852b051ea28ab5fea3cb",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741415
+  },
+  "integrations/how-navi-injects/index.md::zh-cn": {
+    "src_hash": "adfb248700ebe26f0876f60de362e3fbb5dfd0b246f9852b051ea28ab5fea3cb",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741416
+  },
+  "integrations/how-navi-injects/index.md::jp": {
+    "src_hash": "adfb248700ebe26f0876f60de362e3fbb5dfd0b246f9852b051ea28ab5fea3cb",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741419
+  },
+  "integrations/how-navi-injects/index.md::it": {
+    "src_hash": "adfb248700ebe26f0876f60de362e3fbb5dfd0b246f9852b051ea28ab5fea3cb",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741421
+  },
+  "integrations/how-navi-injects/index.md::pt-br": {
+    "src_hash": "adfb248700ebe26f0876f60de362e3fbb5dfd0b246f9852b051ea28ab5fea3cb",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741423
+  },
+  "integrations/how-navi-injects/index.md::es": {
+    "src_hash": "adfb248700ebe26f0876f60de362e3fbb5dfd0b246f9852b051ea28ab5fea3cb",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741426
+  },
+  "integrations/wordpress-woocommerce/faq/index.md::vi": {
+    "src_hash": "0f3a8d413fd5f31c9f008596a73cf21e42a34d1442f4d74d984adb57e3cff09a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741452
+  },
+  "integrations/wordpress-woocommerce/faq/index.md::fr": {
+    "src_hash": "0f3a8d413fd5f31c9f008596a73cf21e42a34d1442f4d74d984adb57e3cff09a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741470
+  },
+  "integrations/wordpress-woocommerce/faq/index.md::de": {
+    "src_hash": "0f3a8d413fd5f31c9f008596a73cf21e42a34d1442f4d74d984adb57e3cff09a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741497
+  },
+  "integrations/wordpress-woocommerce/faq/index.md::zh-cn": {
+    "src_hash": "0f3a8d413fd5f31c9f008596a73cf21e42a34d1442f4d74d984adb57e3cff09a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741521
+  },
+  "integrations/wordpress-woocommerce/faq/index.md::jp": {
+    "src_hash": "0f3a8d413fd5f31c9f008596a73cf21e42a34d1442f4d74d984adb57e3cff09a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741563
+  },
+  "integrations/wordpress-woocommerce/faq/index.md::it": {
+    "src_hash": "0f3a8d413fd5f31c9f008596a73cf21e42a34d1442f4d74d984adb57e3cff09a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741584
+  },
+  "integrations/wordpress-woocommerce/faq/index.md::pt-br": {
+    "src_hash": "0f3a8d413fd5f31c9f008596a73cf21e42a34d1442f4d74d984adb57e3cff09a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741605
+  },
+  "integrations/wordpress-woocommerce/faq/index.md::es": {
+    "src_hash": "0f3a8d413fd5f31c9f008596a73cf21e42a34d1442f4d74d984adb57e3cff09a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741638
+  },
+  "integrations/wordpress-woocommerce/get-started/index.md::vi": {
+    "src_hash": "ee94b09e708f80d34e1576636bbdaf56bac1b548a43752a7d001e3b6794124a3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741649
+  },
+  "integrations/wordpress-woocommerce/get-started/index.md::fr": {
+    "src_hash": "ee94b09e708f80d34e1576636bbdaf56bac1b548a43752a7d001e3b6794124a3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741659
+  },
+  "integrations/wordpress-woocommerce/get-started/index.md::de": {
+    "src_hash": "ee94b09e708f80d34e1576636bbdaf56bac1b548a43752a7d001e3b6794124a3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741671
+  },
+  "integrations/wordpress-woocommerce/get-started/index.md::zh-cn": {
+    "src_hash": "ee94b09e708f80d34e1576636bbdaf56bac1b548a43752a7d001e3b6794124a3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741686
+  },
+  "integrations/wordpress-woocommerce/get-started/index.md::jp": {
+    "src_hash": "ee94b09e708f80d34e1576636bbdaf56bac1b548a43752a7d001e3b6794124a3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741704
+  },
+  "integrations/wordpress-woocommerce/get-started/index.md::it": {
+    "src_hash": "ee94b09e708f80d34e1576636bbdaf56bac1b548a43752a7d001e3b6794124a3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741714
+  },
+  "integrations/wordpress-woocommerce/get-started/index.md::pt-br": {
+    "src_hash": "ee94b09e708f80d34e1576636bbdaf56bac1b548a43752a7d001e3b6794124a3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741726
+  },
+  "integrations/wordpress-woocommerce/get-started/index.md::es": {
+    "src_hash": "ee94b09e708f80d34e1576636bbdaf56bac1b548a43752a7d001e3b6794124a3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741746
+  },
+  "integrations/wordpress-woocommerce/index.md::vi": {
+    "src_hash": "e133572395db90d07881b046cab41c79067e56e23118524e667e9a66880973d4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741777
+  },
+  "integrations/wordpress-woocommerce/index.md::fr": {
+    "src_hash": "e133572395db90d07881b046cab41c79067e56e23118524e667e9a66880973d4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741805
+  },
+  "integrations/wordpress-woocommerce/index.md::de": {
+    "src_hash": "e133572395db90d07881b046cab41c79067e56e23118524e667e9a66880973d4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741839
+  },
+  "integrations/wordpress-woocommerce/index.md::zh-cn": {
+    "src_hash": "e133572395db90d07881b046cab41c79067e56e23118524e667e9a66880973d4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741869
+  },
+  "integrations/wordpress-woocommerce/index.md::jp": {
+    "src_hash": "e133572395db90d07881b046cab41c79067e56e23118524e667e9a66880973d4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741908
+  },
+  "integrations/wordpress-woocommerce/index.md::it": {
+    "src_hash": "e133572395db90d07881b046cab41c79067e56e23118524e667e9a66880973d4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741939
+  },
+  "integrations/wordpress-woocommerce/index.md::pt-br": {
+    "src_hash": "e133572395db90d07881b046cab41c79067e56e23118524e667e9a66880973d4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778741976
+  },
+  "integrations/wordpress-woocommerce/index.md::es": {
+    "src_hash": "e133572395db90d07881b046cab41c79067e56e23118524e667e9a66880973d4",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742019
+  },
+  "integrations/wordpress-woocommerce/install-plugin/index.md::vi": {
+    "src_hash": "3928f2e5e22e91cb73f9ac910685ec92c0e73c908828daa3b8a52bc1c44642db",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742031
+  },
+  "integrations/wordpress-woocommerce/install-plugin/index.md::fr": {
+    "src_hash": "3928f2e5e22e91cb73f9ac910685ec92c0e73c908828daa3b8a52bc1c44642db",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742048
+  },
+  "integrations/wordpress-woocommerce/install-plugin/index.md::de": {
+    "src_hash": "3928f2e5e22e91cb73f9ac910685ec92c0e73c908828daa3b8a52bc1c44642db",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742067
+  },
+  "integrations/wordpress-woocommerce/install-plugin/index.md::zh-cn": {
+    "src_hash": "3928f2e5e22e91cb73f9ac910685ec92c0e73c908828daa3b8a52bc1c44642db",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742080
+  },
+  "integrations/wordpress-woocommerce/install-plugin/index.md::jp": {
+    "src_hash": "3928f2e5e22e91cb73f9ac910685ec92c0e73c908828daa3b8a52bc1c44642db",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742100
+  },
+  "integrations/wordpress-woocommerce/install-plugin/index.md::it": {
+    "src_hash": "3928f2e5e22e91cb73f9ac910685ec92c0e73c908828daa3b8a52bc1c44642db",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742112
+  },
+  "integrations/wordpress-woocommerce/install-plugin/index.md::pt-br": {
+    "src_hash": "3928f2e5e22e91cb73f9ac910685ec92c0e73c908828daa3b8a52bc1c44642db",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742124
+  },
+  "integrations/wordpress-woocommerce/install-plugin/index.md::es": {
+    "src_hash": "3928f2e5e22e91cb73f9ac910685ec92c0e73c908828daa3b8a52bc1c44642db",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742140
+  },
+  "integrations/wordpress-woocommerce/publish-menus/index.md::vi": {
+    "src_hash": "0f6e090a3c7712af7fa255e6a194ee0d17ea033180fb66bcc6bfc12d0373a753",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742159
+  },
+  "integrations/wordpress-woocommerce/publish-menus/index.md::fr": {
+    "src_hash": "0f6e090a3c7712af7fa255e6a194ee0d17ea033180fb66bcc6bfc12d0373a753",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742177
+  },
+  "integrations/wordpress-woocommerce/publish-menus/index.md::de": {
+    "src_hash": "0f6e090a3c7712af7fa255e6a194ee0d17ea033180fb66bcc6bfc12d0373a753",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742200
+  },
+  "integrations/wordpress-woocommerce/publish-menus/index.md::zh-cn": {
+    "src_hash": "0f6e090a3c7712af7fa255e6a194ee0d17ea033180fb66bcc6bfc12d0373a753",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742221
+  },
+  "integrations/wordpress-woocommerce/publish-menus/index.md::jp": {
+    "src_hash": "0f6e090a3c7712af7fa255e6a194ee0d17ea033180fb66bcc6bfc12d0373a753",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742251
+  },
+  "integrations/wordpress-woocommerce/publish-menus/index.md::it": {
+    "src_hash": "0f6e090a3c7712af7fa255e6a194ee0d17ea033180fb66bcc6bfc12d0373a753",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742270
+  },
+  "integrations/wordpress-woocommerce/publish-menus/index.md::pt-br": {
+    "src_hash": "0f6e090a3c7712af7fa255e6a194ee0d17ea033180fb66bcc6bfc12d0373a753",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742290
+  },
+  "integrations/wordpress-woocommerce/publish-menus/index.md::es": {
+    "src_hash": "0f6e090a3c7712af7fa255e6a194ee0d17ea033180fb66bcc6bfc12d0373a753",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742319
+  },
+  "menu-items/index.md::vi": {
+    "src_hash": "dd657b52ecc3e914f54d13483fdb38ec41a2dd118ec4903ec6f243297a816fcd",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742438
+  },
+  "menu-items/index.md::fr": {
+    "src_hash": "dd657b52ecc3e914f54d13483fdb38ec41a2dd118ec4903ec6f243297a816fcd",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742446
+  },
+  "menu-items/index.md::de": {
+    "src_hash": "dd657b52ecc3e914f54d13483fdb38ec41a2dd118ec4903ec6f243297a816fcd",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742455
+  },
+  "menu-items/index.md::zh-cn": {
+    "src_hash": "dd657b52ecc3e914f54d13483fdb38ec41a2dd118ec4903ec6f243297a816fcd",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742463
+  },
+  "menu-items/index.md::jp": {
+    "src_hash": "dd657b52ecc3e914f54d13483fdb38ec41a2dd118ec4903ec6f243297a816fcd",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742474
+  },
+  "menu-items/index.md::it": {
+    "src_hash": "dd657b52ecc3e914f54d13483fdb38ec41a2dd118ec4903ec6f243297a816fcd",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742482
+  },
+  "menu-items/index.md::pt-br": {
+    "src_hash": "dd657b52ecc3e914f54d13483fdb38ec41a2dd118ec4903ec6f243297a816fcd",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742490
+  },
+  "menu-items/index.md::es": {
+    "src_hash": "dd657b52ecc3e914f54d13483fdb38ec41a2dd118ec4903ec6f243297a816fcd",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742505
+  },
+  "menu-items/item-create-manage/index.md::vi": {
+    "src_hash": "a1faef879c83e86a56da1fe1910247198cce5a79d2f321d4ba5dc1424733d682",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742519
+  },
+  "menu-items/item-create-manage/index.md::fr": {
+    "src_hash": "a1faef879c83e86a56da1fe1910247198cce5a79d2f321d4ba5dc1424733d682",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742534
+  },
+  "menu-items/item-create-manage/index.md::de": {
+    "src_hash": "a1faef879c83e86a56da1fe1910247198cce5a79d2f321d4ba5dc1424733d682",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742552
+  },
+  "menu-items/item-create-manage/index.md::zh-cn": {
+    "src_hash": "a1faef879c83e86a56da1fe1910247198cce5a79d2f321d4ba5dc1424733d682",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742570
+  },
+  "menu-items/item-create-manage/index.md::jp": {
+    "src_hash": "a1faef879c83e86a56da1fe1910247198cce5a79d2f321d4ba5dc1424733d682",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742593
+  },
+  "menu-items/item-create-manage/index.md::it": {
+    "src_hash": "a1faef879c83e86a56da1fe1910247198cce5a79d2f321d4ba5dc1424733d682",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742611
+  },
+  "menu-items/item-create-manage/index.md::pt-br": {
+    "src_hash": "a1faef879c83e86a56da1fe1910247198cce5a79d2f321d4ba5dc1424733d682",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742625
+  },
+  "menu-items/item-create-manage/index.md::es": {
+    "src_hash": "a1faef879c83e86a56da1fe1910247198cce5a79d2f321d4ba5dc1424733d682",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742647
+  },
+  "menu-items/item-icon-image/index.md::vi": {
+    "src_hash": "c8ee1f738b88adc29b5c0791c9fd057caf2a75327fcf97daa8f9d9b7a9a8d7f3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742665
+  },
+  "menu-items/item-icon-image/index.md::fr": {
+    "src_hash": "c8ee1f738b88adc29b5c0791c9fd057caf2a75327fcf97daa8f9d9b7a9a8d7f3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742681
+  },
+  "menu-items/item-icon-image/index.md::de": {
+    "src_hash": "c8ee1f738b88adc29b5c0791c9fd057caf2a75327fcf97daa8f9d9b7a9a8d7f3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742698
+  },
+  "menu-items/item-icon-image/index.md::zh-cn": {
+    "src_hash": "c8ee1f738b88adc29b5c0791c9fd057caf2a75327fcf97daa8f9d9b7a9a8d7f3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742712
+  },
+  "menu-items/item-icon-image/index.md::jp": {
+    "src_hash": "c8ee1f738b88adc29b5c0791c9fd057caf2a75327fcf97daa8f9d9b7a9a8d7f3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742739
+  },
+  "menu-items/item-icon-image/index.md::it": {
+    "src_hash": "c8ee1f738b88adc29b5c0791c9fd057caf2a75327fcf97daa8f9d9b7a9a8d7f3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742760
+  },
+  "menu-items/item-icon-image/index.md::pt-br": {
+    "src_hash": "c8ee1f738b88adc29b5c0791c9fd057caf2a75327fcf97daa8f9d9b7a9a8d7f3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742782
+  },
+  "menu-items/item-icon-image/index.md::es": {
+    "src_hash": "c8ee1f738b88adc29b5c0791c9fd057caf2a75327fcf97daa8f9d9b7a9a8d7f3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742807
+  },
+  "menu-items/item-label-badge/index.md::vi": {
+    "src_hash": "f87f2bb0f9fd4588f34550e53ae8967dd317bd12ebf64b9d0dc6cfb4ccff4bb0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742820
+  },
+  "menu-items/item-label-badge/index.md::fr": {
+    "src_hash": "f87f2bb0f9fd4588f34550e53ae8967dd317bd12ebf64b9d0dc6cfb4ccff4bb0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742828
+  },
+  "menu-items/item-label-badge/index.md::de": {
+    "src_hash": "f87f2bb0f9fd4588f34550e53ae8967dd317bd12ebf64b9d0dc6cfb4ccff4bb0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742839
+  },
+  "menu-items/item-label-badge/index.md::zh-cn": {
+    "src_hash": "f87f2bb0f9fd4588f34550e53ae8967dd317bd12ebf64b9d0dc6cfb4ccff4bb0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742850
+  },
+  "menu-items/item-label-badge/index.md::jp": {
+    "src_hash": "f87f2bb0f9fd4588f34550e53ae8967dd317bd12ebf64b9d0dc6cfb4ccff4bb0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742869
+  },
+  "menu-items/item-label-badge/index.md::it": {
+    "src_hash": "f87f2bb0f9fd4588f34550e53ae8967dd317bd12ebf64b9d0dc6cfb4ccff4bb0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742884
+  },
+  "menu-items/item-label-badge/index.md::pt-br": {
+    "src_hash": "f87f2bb0f9fd4588f34550e53ae8967dd317bd12ebf64b9d0dc6cfb4ccff4bb0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742897
+  },
+  "menu-items/item-label-badge/index.md::es": {
+    "src_hash": "f87f2bb0f9fd4588f34550e53ae8967dd317bd12ebf64b9d0dc6cfb4ccff4bb0",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742913
+  },
+  "menu-items/item-link-types/index.md::vi": {
+    "src_hash": "81e038f1507633a4db2b75df5f6b57f160db2d35268abbb5b3e4f2d67a728c4f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742937
+  },
+  "menu-items/item-link-types/index.md::fr": {
+    "src_hash": "81e038f1507633a4db2b75df5f6b57f160db2d35268abbb5b3e4f2d67a728c4f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742959
+  },
+  "menu-items/item-link-types/index.md::de": {
+    "src_hash": "81e038f1507633a4db2b75df5f6b57f160db2d35268abbb5b3e4f2d67a728c4f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778742996
+  },
+  "menu-items/item-link-types/index.md::zh-cn": {
+    "src_hash": "81e038f1507633a4db2b75df5f6b57f160db2d35268abbb5b3e4f2d67a728c4f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743017
+  },
+  "menu-items/item-link-types/index.md::jp": {
+    "src_hash": "81e038f1507633a4db2b75df5f6b57f160db2d35268abbb5b3e4f2d67a728c4f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743049
+  },
+  "menu-items/item-link-types/index.md::it": {
+    "src_hash": "81e038f1507633a4db2b75df5f6b57f160db2d35268abbb5b3e4f2d67a728c4f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743071
+  },
+  "menu-items/item-link-types/index.md::pt-br": {
+    "src_hash": "81e038f1507633a4db2b75df5f6b57f160db2d35268abbb5b3e4f2d67a728c4f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743118
+  },
+  "menu-items/item-link-types/index.md::es": {
+    "src_hash": "81e038f1507633a4db2b75df5f6b57f160db2d35268abbb5b3e4f2d67a728c4f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743151
+  },
+  "menu-items/item-overview/index.md::vi": {
+    "src_hash": "3268987599d84cb1eb3cb794021e10c5a466d0e96975a7cf332b81eeaf8c58f5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743163
+  },
+  "menu-items/item-overview/index.md::fr": {
+    "src_hash": "3268987599d84cb1eb3cb794021e10c5a466d0e96975a7cf332b81eeaf8c58f5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743175
+  },
+  "menu-items/item-overview/index.md::de": {
+    "src_hash": "3268987599d84cb1eb3cb794021e10c5a466d0e96975a7cf332b81eeaf8c58f5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743189
+  },
+  "menu-items/item-overview/index.md::zh-cn": {
+    "src_hash": "3268987599d84cb1eb3cb794021e10c5a466d0e96975a7cf332b81eeaf8c58f5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743202
+  },
+  "menu-items/item-overview/index.md::jp": {
+    "src_hash": "3268987599d84cb1eb3cb794021e10c5a466d0e96975a7cf332b81eeaf8c58f5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743234
+  },
+  "menu-items/item-overview/index.md::it": {
+    "src_hash": "3268987599d84cb1eb3cb794021e10c5a466d0e96975a7cf332b81eeaf8c58f5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743246
+  },
+  "menu-items/item-overview/index.md::pt-br": {
+    "src_hash": "3268987599d84cb1eb3cb794021e10c5a466d0e96975a7cf332b81eeaf8c58f5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743257
+  },
+  "menu-items/item-overview/index.md::es": {
+    "src_hash": "3268987599d84cb1eb3cb794021e10c5a466d0e96975a7cf332b81eeaf8c58f5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743278
+  },
+  "menu-items/item-visibility/index.md::vi": {
+    "src_hash": "928ad7809ad0da8c2853dfa1f4438d5647950e9006f6af6df32715d72b97be87",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743291
+  },
+  "menu-items/item-visibility/index.md::fr": {
+    "src_hash": "928ad7809ad0da8c2853dfa1f4438d5647950e9006f6af6df32715d72b97be87",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743305
+  },
+  "menu-items/item-visibility/index.md::de": {
+    "src_hash": "928ad7809ad0da8c2853dfa1f4438d5647950e9006f6af6df32715d72b97be87",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743327
+  },
+  "menu-items/item-visibility/index.md::zh-cn": {
+    "src_hash": "928ad7809ad0da8c2853dfa1f4438d5647950e9006f6af6df32715d72b97be87",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743346
+  },
+  "menu-items/item-visibility/index.md::jp": {
+    "src_hash": "928ad7809ad0da8c2853dfa1f4438d5647950e9006f6af6df32715d72b97be87",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743370
+  },
+  "menu-items/item-visibility/index.md::it": {
+    "src_hash": "928ad7809ad0da8c2853dfa1f4438d5647950e9006f6af6df32715d72b97be87",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743385
+  },
+  "menu-items/item-visibility/index.md::pt-br": {
+    "src_hash": "928ad7809ad0da8c2853dfa1f4438d5647950e9006f6af6df32715d72b97be87",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743399
+  },
+  "menu-items/item-visibility/index.md::es": {
+    "src_hash": "928ad7809ad0da8c2853dfa1f4438d5647950e9006f6af6df32715d72b97be87",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743422
+  },
+  "menu-items/multi-level-structure/index.md::vi": {
+    "src_hash": "2117b595ee2783a5ba19d02ac9c268a5482339cdf3eb87c604577bf05863c1e5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743442
+  },
+  "menu-items/multi-level-structure/index.md::fr": {
+    "src_hash": "2117b595ee2783a5ba19d02ac9c268a5482339cdf3eb87c604577bf05863c1e5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743457
+  },
+  "menu-items/multi-level-structure/index.md::de": {
+    "src_hash": "2117b595ee2783a5ba19d02ac9c268a5482339cdf3eb87c604577bf05863c1e5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743476
+  },
+  "menu-items/multi-level-structure/index.md::zh-cn": {
+    "src_hash": "2117b595ee2783a5ba19d02ac9c268a5482339cdf3eb87c604577bf05863c1e5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743492
+  },
+  "menu-items/multi-level-structure/index.md::jp": {
+    "src_hash": "2117b595ee2783a5ba19d02ac9c268a5482339cdf3eb87c604577bf05863c1e5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743526
+  },
+  "menu-items/multi-level-structure/index.md::it": {
+    "src_hash": "2117b595ee2783a5ba19d02ac9c268a5482339cdf3eb87c604577bf05863c1e5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743549
+  },
+  "menu-items/multi-level-structure/index.md::pt-br": {
+    "src_hash": "2117b595ee2783a5ba19d02ac9c268a5482339cdf3eb87c604577bf05863c1e5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743567
+  },
+  "menu-items/multi-level-structure/index.md::es": {
+    "src_hash": "2117b595ee2783a5ba19d02ac9c268a5482339cdf3eb87c604577bf05863c1e5",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743609
+  },
+  "publish/index.md::vi": {
+    "src_hash": "06294cdbdb09916f5c0baed495b08396bd0045048ff61a07a1f673d9fe4a6950",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743620
+  },
+  "publish/index.md::fr": {
+    "src_hash": "06294cdbdb09916f5c0baed495b08396bd0045048ff61a07a1f673d9fe4a6950",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743629
+  },
+  "publish/index.md::de": {
+    "src_hash": "06294cdbdb09916f5c0baed495b08396bd0045048ff61a07a1f673d9fe4a6950",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743638
+  },
+  "publish/index.md::zh-cn": {
+    "src_hash": "06294cdbdb09916f5c0baed495b08396bd0045048ff61a07a1f673d9fe4a6950",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743647
+  },
+  "publish/index.md::jp": {
+    "src_hash": "06294cdbdb09916f5c0baed495b08396bd0045048ff61a07a1f673d9fe4a6950",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743662
+  },
+  "publish/index.md::it": {
+    "src_hash": "06294cdbdb09916f5c0baed495b08396bd0045048ff61a07a1f673d9fe4a6950",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743670
+  },
+  "publish/index.md::pt-br": {
+    "src_hash": "06294cdbdb09916f5c0baed495b08396bd0045048ff61a07a1f673d9fe4a6950",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743679
+  },
+  "publish/index.md::es": {
+    "src_hash": "06294cdbdb09916f5c0baed495b08396bd0045048ff61a07a1f673d9fe4a6950",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743693
+  },
+  "publish/publish-filter/index.md::vi": {
+    "src_hash": "eef964eac8cb8b4b0448ab09c47abe54ae271de3caa8633a006b50b175858ba3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743714
+  },
+  "publish/publish-filter/index.md::fr": {
+    "src_hash": "eef964eac8cb8b4b0448ab09c47abe54ae271de3caa8633a006b50b175858ba3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743732
+  },
+  "publish/publish-filter/index.md::de": {
+    "src_hash": "eef964eac8cb8b4b0448ab09c47abe54ae271de3caa8633a006b50b175858ba3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743752
+  },
+  "publish/publish-filter/index.md::zh-cn": {
+    "src_hash": "eef964eac8cb8b4b0448ab09c47abe54ae271de3caa8633a006b50b175858ba3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743777
+  },
+  "publish/publish-filter/index.md::jp": {
+    "src_hash": "eef964eac8cb8b4b0448ab09c47abe54ae271de3caa8633a006b50b175858ba3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743812
+  },
+  "publish/publish-filter/index.md::it": {
+    "src_hash": "eef964eac8cb8b4b0448ab09c47abe54ae271de3caa8633a006b50b175858ba3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743835
+  },
+  "publish/publish-filter/index.md::pt-br": {
+    "src_hash": "eef964eac8cb8b4b0448ab09c47abe54ae271de3caa8633a006b50b175858ba3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743856
+  },
+  "publish/publish-filter/index.md::es": {
+    "src_hash": "eef964eac8cb8b4b0448ab09c47abe54ae271de3caa8633a006b50b175858ba3",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743887
+  },
+  "publish/publish-optimize/index.md::vi": {
+    "src_hash": "81258738f69b549740ca831da1f31753a76869a2ed2b45186d87d132470bda32",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743906
+  },
+  "publish/publish-optimize/index.md::fr": {
+    "src_hash": "81258738f69b549740ca831da1f31753a76869a2ed2b45186d87d132470bda32",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743924
+  },
+  "publish/publish-optimize/index.md::de": {
+    "src_hash": "81258738f69b549740ca831da1f31753a76869a2ed2b45186d87d132470bda32",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743942
+  },
+  "publish/publish-optimize/index.md::zh-cn": {
+    "src_hash": "81258738f69b549740ca831da1f31753a76869a2ed2b45186d87d132470bda32",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743959
+  },
+  "publish/publish-optimize/index.md::jp": {
+    "src_hash": "81258738f69b549740ca831da1f31753a76869a2ed2b45186d87d132470bda32",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778743984
+  },
+  "publish/publish-optimize/index.md::it": {
+    "src_hash": "81258738f69b549740ca831da1f31753a76869a2ed2b45186d87d132470bda32",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744001
+  },
+  "publish/publish-optimize/index.md::pt-br": {
+    "src_hash": "81258738f69b549740ca831da1f31753a76869a2ed2b45186d87d132470bda32",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744021
+  },
+  "publish/publish-optimize/index.md::es": {
+    "src_hash": "81258738f69b549740ca831da1f31753a76869a2ed2b45186d87d132470bda32",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744047
+  },
+  "publish/publish-overview/index.md::vi": {
+    "src_hash": "108c7d6631a4816343f57ae0d39845b4c9b30db5890234b7d832cc11f57ffaaa",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744056
+  },
+  "publish/publish-overview/index.md::fr": {
+    "src_hash": "108c7d6631a4816343f57ae0d39845b4c9b30db5890234b7d832cc11f57ffaaa",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744060
+  },
+  "publish/publish-overview/index.md::de": {
+    "src_hash": "108c7d6631a4816343f57ae0d39845b4c9b30db5890234b7d832cc11f57ffaaa",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744069
+  },
+  "publish/publish-overview/index.md::zh-cn": {
+    "src_hash": "108c7d6631a4816343f57ae0d39845b4c9b30db5890234b7d832cc11f57ffaaa",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744075
+  },
+  "publish/publish-overview/index.md::jp": {
+    "src_hash": "108c7d6631a4816343f57ae0d39845b4c9b30db5890234b7d832cc11f57ffaaa",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744085
+  },
+  "publish/publish-overview/index.md::it": {
+    "src_hash": "108c7d6631a4816343f57ae0d39845b4c9b30db5890234b7d832cc11f57ffaaa",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744091
+  },
+  "publish/publish-overview/index.md::pt-br": {
+    "src_hash": "108c7d6631a4816343f57ae0d39845b4c9b30db5890234b7d832cc11f57ffaaa",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744099
+  },
+  "publish/publish-overview/index.md::es": {
+    "src_hash": "108c7d6631a4816343f57ae0d39845b4c9b30db5890234b7d832cc11f57ffaaa",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744122
+  },
+  "publish/publish-section/index.md::vi": {
+    "src_hash": "bc010738c603486ac6cc8a7355ec313b70a73df55231b852b09826137877b62f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744144
+  },
+  "publish/publish-section/index.md::fr": {
+    "src_hash": "bc010738c603486ac6cc8a7355ec313b70a73df55231b852b09826137877b62f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744157
+  },
+  "publish/publish-section/index.md::de": {
+    "src_hash": "bc010738c603486ac6cc8a7355ec313b70a73df55231b852b09826137877b62f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744182
+  },
+  "publish/publish-section/index.md::zh-cn": {
+    "src_hash": "bc010738c603486ac6cc8a7355ec313b70a73df55231b852b09826137877b62f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744203
+  },
+  "publish/publish-section/index.md::jp": {
+    "src_hash": "bc010738c603486ac6cc8a7355ec313b70a73df55231b852b09826137877b62f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744242
+  },
+  "publish/publish-section/index.md::it": {
+    "src_hash": "bc010738c603486ac6cc8a7355ec313b70a73df55231b852b09826137877b62f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744264
+  },
+  "publish/publish-section/index.md::pt-br": {
+    "src_hash": "bc010738c603486ac6cc8a7355ec313b70a73df55231b852b09826137877b62f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744285
+  },
+  "publish/publish-section/index.md::es": {
+    "src_hash": "bc010738c603486ac6cc8a7355ec313b70a73df55231b852b09826137877b62f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744325
+  },
+  "publish/publish-slide/index.md::vi": {
+    "src_hash": "93b0dc1d121939492471360bc81ce5dbc7959061313849905e8ba01ca72d7a8f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744355
+  },
+  "publish/publish-slide/index.md::fr": {
+    "src_hash": "93b0dc1d121939492471360bc81ce5dbc7959061313849905e8ba01ca72d7a8f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744383
+  },
+  "publish/publish-slide/index.md::de": {
+    "src_hash": "93b0dc1d121939492471360bc81ce5dbc7959061313849905e8ba01ca72d7a8f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744464
+  },
+  "publish/publish-slide/index.md::zh-cn": {
+    "src_hash": "93b0dc1d121939492471360bc81ce5dbc7959061313849905e8ba01ca72d7a8f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744492
+  },
+  "publish/publish-slide/index.md::jp": {
+    "src_hash": "93b0dc1d121939492471360bc81ce5dbc7959061313849905e8ba01ca72d7a8f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744540
+  },
+  "publish/publish-slide/index.md::it": {
+    "src_hash": "93b0dc1d121939492471360bc81ce5dbc7959061313849905e8ba01ca72d7a8f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744568
+  },
+  "publish/publish-slide/index.md::pt-br": {
+    "src_hash": "93b0dc1d121939492471360bc81ce5dbc7959061313849905e8ba01ca72d7a8f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744601
+  },
+  "publish/publish-slide/index.md::es": {
+    "src_hash": "93b0dc1d121939492471360bc81ce5dbc7959061313849905e8ba01ca72d7a8f",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744635
+  },
+  "publish/publish-sticky/index.md::vi": {
+    "src_hash": "1afda9ad7895adabe75966d6c23bac79641dd5892cbeee33107816e1194c3e62",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744647
+  },
+  "publish/publish-sticky/index.md::fr": {
+    "src_hash": "1afda9ad7895adabe75966d6c23bac79641dd5892cbeee33107816e1194c3e62",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744661
+  },
+  "publish/publish-sticky/index.md::de": {
+    "src_hash": "1afda9ad7895adabe75966d6c23bac79641dd5892cbeee33107816e1194c3e62",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744680
+  },
+  "publish/publish-sticky/index.md::zh-cn": {
+    "src_hash": "1afda9ad7895adabe75966d6c23bac79641dd5892cbeee33107816e1194c3e62",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744696
+  },
+  "publish/publish-sticky/index.md::jp": {
+    "src_hash": "1afda9ad7895adabe75966d6c23bac79641dd5892cbeee33107816e1194c3e62",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744717
+  },
+  "publish/publish-sticky/index.md::it": {
+    "src_hash": "1afda9ad7895adabe75966d6c23bac79641dd5892cbeee33107816e1194c3e62",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744729
+  },
+  "publish/publish-sticky/index.md::pt-br": {
+    "src_hash": "1afda9ad7895adabe75966d6c23bac79641dd5892cbeee33107816e1194c3e62",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744743
+  },
+  "publish/publish-sticky/index.md::es": {
+    "src_hash": "1afda9ad7895adabe75966d6c23bac79641dd5892cbeee33107816e1194c3e62",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744771
+  },
+  "setting/index.md::vi": {
+    "src_hash": "82bd583ff7578a56f93baf54610c0eeb49f9900e623a9ec2324984c7c1382a3a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744778
+  },
+  "setting/index.md::fr": {
+    "src_hash": "82bd583ff7578a56f93baf54610c0eeb49f9900e623a9ec2324984c7c1382a3a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744785
+  },
+  "setting/index.md::de": {
+    "src_hash": "82bd583ff7578a56f93baf54610c0eeb49f9900e623a9ec2324984c7c1382a3a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744796
+  },
+  "setting/index.md::zh-cn": {
+    "src_hash": "82bd583ff7578a56f93baf54610c0eeb49f9900e623a9ec2324984c7c1382a3a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744803
+  },
+  "setting/index.md::jp": {
+    "src_hash": "82bd583ff7578a56f93baf54610c0eeb49f9900e623a9ec2324984c7c1382a3a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744810
+  },
+  "setting/index.md::it": {
+    "src_hash": "82bd583ff7578a56f93baf54610c0eeb49f9900e623a9ec2324984c7c1382a3a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744818
+  },
+  "setting/index.md::pt-br": {
+    "src_hash": "82bd583ff7578a56f93baf54610c0eeb49f9900e623a9ec2324984c7c1382a3a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744824
+  },
+  "setting/index.md::es": {
+    "src_hash": "82bd583ff7578a56f93baf54610c0eeb49f9900e623a9ec2324984c7c1382a3a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744835
+  },
+  "setting/setting-behavior/index.md::vi": {
+    "src_hash": "72221dc62c75c654d4e616fd7a46de6e7f0d07f3d383154c4e77aac2b4593e7a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744846
+  },
+  "setting/setting-behavior/index.md::fr": {
+    "src_hash": "72221dc62c75c654d4e616fd7a46de6e7f0d07f3d383154c4e77aac2b4593e7a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744854
+  },
+  "setting/setting-behavior/index.md::de": {
+    "src_hash": "72221dc62c75c654d4e616fd7a46de6e7f0d07f3d383154c4e77aac2b4593e7a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744865
+  },
+  "setting/setting-behavior/index.md::zh-cn": {
+    "src_hash": "72221dc62c75c654d4e616fd7a46de6e7f0d07f3d383154c4e77aac2b4593e7a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744875
+  },
+  "setting/setting-behavior/index.md::jp": {
+    "src_hash": "72221dc62c75c654d4e616fd7a46de6e7f0d07f3d383154c4e77aac2b4593e7a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744890
+  },
+  "setting/setting-behavior/index.md::it": {
+    "src_hash": "72221dc62c75c654d4e616fd7a46de6e7f0d07f3d383154c4e77aac2b4593e7a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744900
+  },
+  "setting/setting-behavior/index.md::pt-br": {
+    "src_hash": "72221dc62c75c654d4e616fd7a46de6e7f0d07f3d383154c4e77aac2b4593e7a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744913
+  },
+  "setting/setting-behavior/index.md::es": {
+    "src_hash": "72221dc62c75c654d4e616fd7a46de6e7f0d07f3d383154c4e77aac2b4593e7a",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744930
+  },
+  "setting/setting-display-rules/index.md::vi": {
+    "src_hash": "558b258ca524c84de0a95b4a4ad15dde553e6d8f79fe6c4ec36df3da34f625e1",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744941
+  },
+  "setting/setting-display-rules/index.md::fr": {
+    "src_hash": "558b258ca524c84de0a95b4a4ad15dde553e6d8f79fe6c4ec36df3da34f625e1",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744955
+  },
+  "setting/setting-display-rules/index.md::de": {
+    "src_hash": "558b258ca524c84de0a95b4a4ad15dde553e6d8f79fe6c4ec36df3da34f625e1",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744968
+  },
+  "setting/setting-display-rules/index.md::zh-cn": {
+    "src_hash": "558b258ca524c84de0a95b4a4ad15dde553e6d8f79fe6c4ec36df3da34f625e1",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744980
+  },
+  "setting/setting-display-rules/index.md::jp": {
+    "src_hash": "558b258ca524c84de0a95b4a4ad15dde553e6d8f79fe6c4ec36df3da34f625e1",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778744997
+  },
+  "setting/setting-display-rules/index.md::it": {
+    "src_hash": "558b258ca524c84de0a95b4a4ad15dde553e6d8f79fe6c4ec36df3da34f625e1",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745011
+  },
+  "setting/setting-display-rules/index.md::pt-br": {
+    "src_hash": "558b258ca524c84de0a95b4a4ad15dde553e6d8f79fe6c4ec36df3da34f625e1",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745024
+  },
+  "setting/setting-display-rules/index.md::es": {
+    "src_hash": "558b258ca524c84de0a95b4a4ad15dde553e6d8f79fe6c4ec36df3da34f625e1",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745043
+  },
+  "setting/setting-layout/index.md::vi": {
+    "src_hash": "3818a4d215982c0a40b73286fa078b83ceab3f922e44c1066722292802a43090",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745054
+  },
+  "setting/setting-layout/index.md::fr": {
+    "src_hash": "3818a4d215982c0a40b73286fa078b83ceab3f922e44c1066722292802a43090",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745066
+  },
+  "setting/setting-layout/index.md::de": {
+    "src_hash": "3818a4d215982c0a40b73286fa078b83ceab3f922e44c1066722292802a43090",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745081
+  },
+  "setting/setting-layout/index.md::zh-cn": {
+    "src_hash": "3818a4d215982c0a40b73286fa078b83ceab3f922e44c1066722292802a43090",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745096
+  },
+  "setting/setting-layout/index.md::jp": {
+    "src_hash": "3818a4d215982c0a40b73286fa078b83ceab3f922e44c1066722292802a43090",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745120
+  },
+  "setting/setting-layout/index.md::it": {
+    "src_hash": "3818a4d215982c0a40b73286fa078b83ceab3f922e44c1066722292802a43090",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745133
+  },
+  "setting/setting-layout/index.md::pt-br": {
+    "src_hash": "3818a4d215982c0a40b73286fa078b83ceab3f922e44c1066722292802a43090",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745149
+  },
+  "setting/setting-layout/index.md::es": {
+    "src_hash": "3818a4d215982c0a40b73286fa078b83ceab3f922e44c1066722292802a43090",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745167
+  },
+  "setting/setting-slide/index.md::vi": {
+    "src_hash": "1481b1bb5a38d4348eabbeac82506d75d13537cc658b9144fe08001efad41344",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745180
+  },
+  "setting/setting-slide/index.md::fr": {
+    "src_hash": "1481b1bb5a38d4348eabbeac82506d75d13537cc658b9144fe08001efad41344",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745188
+  },
+  "setting/setting-slide/index.md::de": {
+    "src_hash": "1481b1bb5a38d4348eabbeac82506d75d13537cc658b9144fe08001efad41344",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745201
+  },
+  "setting/setting-slide/index.md::zh-cn": {
+    "src_hash": "1481b1bb5a38d4348eabbeac82506d75d13537cc658b9144fe08001efad41344",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745213
+  },
+  "setting/setting-slide/index.md::jp": {
+    "src_hash": "1481b1bb5a38d4348eabbeac82506d75d13537cc658b9144fe08001efad41344",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745228
+  },
+  "setting/setting-slide/index.md::it": {
+    "src_hash": "1481b1bb5a38d4348eabbeac82506d75d13537cc658b9144fe08001efad41344",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745241
+  },
+  "setting/setting-slide/index.md::pt-br": {
+    "src_hash": "1481b1bb5a38d4348eabbeac82506d75d13537cc658b9144fe08001efad41344",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745256
+  },
+  "setting/setting-slide/index.md::es": {
+    "src_hash": "1481b1bb5a38d4348eabbeac82506d75d13537cc658b9144fe08001efad41344",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745275
+  },
+  "troubleshooting/menu-overlapping/index.md::vi": {
+    "src_hash": "c776ce7bbebb32eecd26df2d5de72923242dbb62be914809347c6de411739706",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745277
+  },
+  "troubleshooting/menu-overlapping/index.md::fr": {
+    "src_hash": "c776ce7bbebb32eecd26df2d5de72923242dbb62be914809347c6de411739706",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745279
+  },
+  "troubleshooting/menu-overlapping/index.md::de": {
+    "src_hash": "c776ce7bbebb32eecd26df2d5de72923242dbb62be914809347c6de411739706",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745281
+  },
+  "troubleshooting/menu-overlapping/index.md::zh-cn": {
+    "src_hash": "c776ce7bbebb32eecd26df2d5de72923242dbb62be914809347c6de411739706",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745283
+  },
+  "troubleshooting/menu-overlapping/index.md::jp": {
+    "src_hash": "c776ce7bbebb32eecd26df2d5de72923242dbb62be914809347c6de411739706",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745285
+  },
+  "troubleshooting/menu-overlapping/index.md::it": {
+    "src_hash": "c776ce7bbebb32eecd26df2d5de72923242dbb62be914809347c6de411739706",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745287
+  },
+  "troubleshooting/menu-overlapping/index.md::pt-br": {
+    "src_hash": "c776ce7bbebb32eecd26df2d5de72923242dbb62be914809347c6de411739706",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745289
+  },
+  "troubleshooting/menu-overlapping/index.md::es": {
+    "src_hash": "c776ce7bbebb32eecd26df2d5de72923242dbb62be914809347c6de411739706",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745293
+  },
+  "troubleshooting/performance-issues/index.md::vi": {
+    "src_hash": "d4a8e7215cbf9e1fac9ac4f60e76100ae5d2f3f8c1ee1f72e999555986ef8fbf",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745295
+  },
+  "troubleshooting/performance-issues/index.md::fr": {
+    "src_hash": "d4a8e7215cbf9e1fac9ac4f60e76100ae5d2f3f8c1ee1f72e999555986ef8fbf",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745296
+  },
+  "troubleshooting/performance-issues/index.md::de": {
+    "src_hash": "d4a8e7215cbf9e1fac9ac4f60e76100ae5d2f3f8c1ee1f72e999555986ef8fbf",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745298
+  },
+  "troubleshooting/performance-issues/index.md::zh-cn": {
+    "src_hash": "d4a8e7215cbf9e1fac9ac4f60e76100ae5d2f3f8c1ee1f72e999555986ef8fbf",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745300
+  },
+  "troubleshooting/performance-issues/index.md::jp": {
+    "src_hash": "d4a8e7215cbf9e1fac9ac4f60e76100ae5d2f3f8c1ee1f72e999555986ef8fbf",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745303
+  },
+  "troubleshooting/performance-issues/index.md::it": {
+    "src_hash": "d4a8e7215cbf9e1fac9ac4f60e76100ae5d2f3f8c1ee1f72e999555986ef8fbf",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745306
+  },
+  "troubleshooting/performance-issues/index.md::pt-br": {
+    "src_hash": "d4a8e7215cbf9e1fac9ac4f60e76100ae5d2f3f8c1ee1f72e999555986ef8fbf",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745308
+  },
+  "troubleshooting/performance-issues/index.md::es": {
+    "src_hash": "d4a8e7215cbf9e1fac9ac4f60e76100ae5d2f3f8c1ee1f72e999555986ef8fbf",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745311
+  },
+  "usage/fab-floating-menu-quick-access/publish-on-wordpress/index.md::vi": {
+    "src_hash": "487db6fb0a398d7d8edc97ac98a46944d9f55cafb13a161a7e78b711b352c7a2",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745323
+  },
+  "usage/fab-floating-menu-quick-access/publish-on-wordpress/index.md::fr": {
+    "src_hash": "487db6fb0a398d7d8edc97ac98a46944d9f55cafb13a161a7e78b711b352c7a2",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745333
+  },
+  "usage/fab-floating-menu-quick-access/publish-on-wordpress/index.md::de": {
+    "src_hash": "487db6fb0a398d7d8edc97ac98a46944d9f55cafb13a161a7e78b711b352c7a2",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745349
+  },
+  "usage/fab-floating-menu-quick-access/publish-on-wordpress/index.md::zh-cn": {
+    "src_hash": "487db6fb0a398d7d8edc97ac98a46944d9f55cafb13a161a7e78b711b352c7a2",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745360
+  },
+  "usage/fab-floating-menu-quick-access/publish-on-wordpress/index.md::jp": {
+    "src_hash": "487db6fb0a398d7d8edc97ac98a46944d9f55cafb13a161a7e78b711b352c7a2",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745379
+  },
+  "usage/fab-floating-menu-quick-access/publish-on-wordpress/index.md::it": {
+    "src_hash": "487db6fb0a398d7d8edc97ac98a46944d9f55cafb13a161a7e78b711b352c7a2",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745393
+  },
+  "usage/fab-floating-menu-quick-access/publish-on-wordpress/index.md::pt-br": {
+    "src_hash": "487db6fb0a398d7d8edc97ac98a46944d9f55cafb13a161a7e78b711b352c7a2",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745407
+  },
+  "usage/fab-floating-menu-quick-access/publish-on-wordpress/index.md::es": {
+    "src_hash": "487db6fb0a398d7d8edc97ac98a46944d9f55cafb13a161a7e78b711b352c7a2",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745437
+  },
+  "usage/grid-menu/publish-on-wordpress/index.md::vi": {
+    "src_hash": "8e4ec77ecb6036af0d7c0b44d317f32996870db09cc48943414d465c38d2538e",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745672
+  },
+  "usage/grid-menu/publish-on-wordpress/index.md::fr": {
+    "src_hash": "8e4ec77ecb6036af0d7c0b44d317f32996870db09cc48943414d465c38d2538e",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745686
+  },
+  "usage/grid-menu/publish-on-wordpress/index.md::de": {
+    "src_hash": "8e4ec77ecb6036af0d7c0b44d317f32996870db09cc48943414d465c38d2538e",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745703
+  },
+  "usage/grid-menu/publish-on-wordpress/index.md::zh-cn": {
+    "src_hash": "8e4ec77ecb6036af0d7c0b44d317f32996870db09cc48943414d465c38d2538e",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745723
+  },
+  "usage/grid-menu/publish-on-wordpress/index.md::jp": {
+    "src_hash": "8e4ec77ecb6036af0d7c0b44d317f32996870db09cc48943414d465c38d2538e",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745749
+  },
+  "usage/grid-menu/publish-on-wordpress/index.md::it": {
+    "src_hash": "8e4ec77ecb6036af0d7c0b44d317f32996870db09cc48943414d465c38d2538e",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745769
+  },
+  "usage/grid-menu/publish-on-wordpress/index.md::pt-br": {
+    "src_hash": "8e4ec77ecb6036af0d7c0b44d317f32996870db09cc48943414d465c38d2538e",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745805
+  },
+  "usage/grid-menu/publish-on-wordpress/index.md::es": {
+    "src_hash": "8e4ec77ecb6036af0d7c0b44d317f32996870db09cc48943414d465c38d2538e",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778745833
+  },
+  "usage/mega-menu-desktop/publish-on-wordpress/index.md::vi": {
+    "src_hash": "8429fef002694ccceb5e3881f8ce3ef91e4105491a21a50409ce9a1cc914f8dc",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746375
+  },
+  "usage/mega-menu-desktop/publish-on-wordpress/index.md::fr": {
+    "src_hash": "8429fef002694ccceb5e3881f8ce3ef91e4105491a21a50409ce9a1cc914f8dc",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746389
+  },
+  "usage/mega-menu-desktop/publish-on-wordpress/index.md::de": {
+    "src_hash": "8429fef002694ccceb5e3881f8ce3ef91e4105491a21a50409ce9a1cc914f8dc",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746404
+  },
+  "usage/mega-menu-desktop/publish-on-wordpress/index.md::zh-cn": {
+    "src_hash": "8429fef002694ccceb5e3881f8ce3ef91e4105491a21a50409ce9a1cc914f8dc",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746420
+  },
+  "usage/mega-menu-desktop/publish-on-wordpress/index.md::jp": {
+    "src_hash": "8429fef002694ccceb5e3881f8ce3ef91e4105491a21a50409ce9a1cc914f8dc",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746438
+  },
+  "usage/mega-menu-desktop/publish-on-wordpress/index.md::it": {
+    "src_hash": "8429fef002694ccceb5e3881f8ce3ef91e4105491a21a50409ce9a1cc914f8dc",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746453
+  },
+  "usage/mega-menu-desktop/publish-on-wordpress/index.md::pt-br": {
+    "src_hash": "8429fef002694ccceb5e3881f8ce3ef91e4105491a21a50409ce9a1cc914f8dc",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746469
+  },
+  "usage/mega-menu-desktop/publish-on-wordpress/index.md::es": {
+    "src_hash": "8429fef002694ccceb5e3881f8ce3ef91e4105491a21a50409ce9a1cc914f8dc",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746490
+  },
+  "usage/mega-menu-mobile/publish-on-wordpress/index.md::vi": {
+    "src_hash": "9bca61f1ca362a44fa8e0f5df2a7d1ad18bb1a4d6fb70f5538ba292aaff117ef",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778746989
+  },
+  "usage/mega-menu-mobile/publish-on-wordpress/index.md::fr": {
+    "src_hash": "9bca61f1ca362a44fa8e0f5df2a7d1ad18bb1a4d6fb70f5538ba292aaff117ef",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747001
+  },
+  "usage/mega-menu-mobile/publish-on-wordpress/index.md::de": {
+    "src_hash": "9bca61f1ca362a44fa8e0f5df2a7d1ad18bb1a4d6fb70f5538ba292aaff117ef",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747017
+  },
+  "usage/mega-menu-mobile/publish-on-wordpress/index.md::zh-cn": {
+    "src_hash": "9bca61f1ca362a44fa8e0f5df2a7d1ad18bb1a4d6fb70f5538ba292aaff117ef",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747029
+  },
+  "usage/mega-menu-mobile/publish-on-wordpress/index.md::jp": {
+    "src_hash": "9bca61f1ca362a44fa8e0f5df2a7d1ad18bb1a4d6fb70f5538ba292aaff117ef",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747051
+  },
+  "usage/mega-menu-mobile/publish-on-wordpress/index.md::it": {
+    "src_hash": "9bca61f1ca362a44fa8e0f5df2a7d1ad18bb1a4d6fb70f5538ba292aaff117ef",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747067
+  },
+  "usage/mega-menu-mobile/publish-on-wordpress/index.md::pt-br": {
+    "src_hash": "9bca61f1ca362a44fa8e0f5df2a7d1ad18bb1a4d6fb70f5538ba292aaff117ef",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747080
+  },
+  "usage/mega-menu-mobile/publish-on-wordpress/index.md::es": {
+    "src_hash": "9bca61f1ca362a44fa8e0f5df2a7d1ad18bb1a4d6fb70f5538ba292aaff117ef",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747097
+  },
+  "usage/slide-menu-hamburger-menu/publish-on-wordpress/index.md::vi": {
+    "src_hash": "c1526264b65c7d8594a532004ea3dc02099268c5ccd183f13a70dbf4557c8ec6",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747730
+  },
+  "usage/slide-menu-hamburger-menu/publish-on-wordpress/index.md::fr": {
+    "src_hash": "c1526264b65c7d8594a532004ea3dc02099268c5ccd183f13a70dbf4557c8ec6",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747739
+  },
+  "usage/slide-menu-hamburger-menu/publish-on-wordpress/index.md::de": {
+    "src_hash": "c1526264b65c7d8594a532004ea3dc02099268c5ccd183f13a70dbf4557c8ec6",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747750
+  },
+  "usage/slide-menu-hamburger-menu/publish-on-wordpress/index.md::zh-cn": {
+    "src_hash": "c1526264b65c7d8594a532004ea3dc02099268c5ccd183f13a70dbf4557c8ec6",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747763
+  },
+  "usage/slide-menu-hamburger-menu/publish-on-wordpress/index.md::jp": {
+    "src_hash": "c1526264b65c7d8594a532004ea3dc02099268c5ccd183f13a70dbf4557c8ec6",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747776
+  },
+  "usage/slide-menu-hamburger-menu/publish-on-wordpress/index.md::it": {
+    "src_hash": "c1526264b65c7d8594a532004ea3dc02099268c5ccd183f13a70dbf4557c8ec6",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747786
+  },
+  "usage/slide-menu-hamburger-menu/publish-on-wordpress/index.md::pt-br": {
+    "src_hash": "c1526264b65c7d8594a532004ea3dc02099268c5ccd183f13a70dbf4557c8ec6",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747797
+  },
+  "usage/slide-menu-hamburger-menu/publish-on-wordpress/index.md::es": {
+    "src_hash": "c1526264b65c7d8594a532004ea3dc02099268c5ccd183f13a70dbf4557c8ec6",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778747813
+  },
+  "usage/tabbar-bottom-navigation/publish-on-wordpress/index.md::vi": {
+    "src_hash": "d4024430aa887bbcb33fc80482f953b9dfe445cc6461df5dd6eee1db6fdf2588",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778748262
+  },
+  "usage/tabbar-bottom-navigation/publish-on-wordpress/index.md::fr": {
+    "src_hash": "d4024430aa887bbcb33fc80482f953b9dfe445cc6461df5dd6eee1db6fdf2588",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778748273
+  },
+  "usage/tabbar-bottom-navigation/publish-on-wordpress/index.md::de": {
+    "src_hash": "d4024430aa887bbcb33fc80482f953b9dfe445cc6461df5dd6eee1db6fdf2588",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778748286
+  },
+  "usage/tabbar-bottom-navigation/publish-on-wordpress/index.md::zh-cn": {
+    "src_hash": "d4024430aa887bbcb33fc80482f953b9dfe445cc6461df5dd6eee1db6fdf2588",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778748298
+  },
+  "usage/tabbar-bottom-navigation/publish-on-wordpress/index.md::jp": {
+    "src_hash": "d4024430aa887bbcb33fc80482f953b9dfe445cc6461df5dd6eee1db6fdf2588",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778748320
+  },
+  "usage/tabbar-bottom-navigation/publish-on-wordpress/index.md::it": {
+    "src_hash": "d4024430aa887bbcb33fc80482f953b9dfe445cc6461df5dd6eee1db6fdf2588",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778748337
+  },
+  "usage/tabbar-bottom-navigation/publish-on-wordpress/index.md::pt-br": {
+    "src_hash": "d4024430aa887bbcb33fc80482f953b9dfe445cc6461df5dd6eee1db6fdf2588",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778748351
+  },
+  "usage/tabbar-bottom-navigation/publish-on-wordpress/index.md::es": {
+    "src_hash": "d4024430aa887bbcb33fc80482f953b9dfe445cc6461df5dd6eee1db6fdf2588",
+    "engine": "openai:gpt-4o-mini:46571b01dd32",
+    "updated_at": 1778748370
   }
 }

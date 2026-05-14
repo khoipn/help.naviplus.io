@@ -1,12 +1,13 @@
 ---
-description: Konfigurieren Sie das Erscheinungsbild aller primären Menüelemente — Textfarbe, Symbole, Abstände, Hintergründe und Anzeigeoptionen auf Design Stufe 1.
+description: Konfigurieren Sie das Erscheinungsbild aller primären Menüelemente in Navi+ — Text, Symbole, Abstände, Hintergründe und Anzeigeoptionen auf Design Level 1.
+lang: de
 layout: default
 permalink: /de/docs/design/design-level1/
-title: Design Stufe 1 — Hauptmenüelemente
+title: Design Level 1 — Hauptmenüelemente
 ---
-# Design Stufe 1 — Hauptmenüelemente
+# Design Level 1 — Hauptmenüelemente
 
-Einstellungen unter **Design → Stufe 1** gelten für alle Hauptmenüelemente. Dies ist die Basisschicht — Stufe 2-3 erbt, Pro Element überschreibt.
+Einstellungen unter **Design → Level 1** gelten für alle obersten Elemente in Ihrem Menü. Dies ist die Basisschicht — Level 2-3 erbt diese Werte, und die Einstellungen pro Element überschreiben sie.
 
 ---
 
@@ -14,13 +15,13 @@ Einstellungen unter **Design → Stufe 1** gelten für alle Hauptmenüelemente. 
 
 | Feld | Beschreibung | Standard |
 |---|---|---|
-| **Textfarbe** | Farbe der Beschriftung | Thema erbt |
-| **Schriftgröße (px)** | Textgröße | Thema erbt |
-| **Schriftstärke** | 100–900 oder Erben | Erben |
-| **Texttransformation** | Keine / Großschreiben / Großbuchstaben / Kleinbuchstaben | Keine |
-| **Schriftfamilie** | Google Font oder „Standard (Thema)" | Standard |
-| **Beschreibungsfarbe** | Farbe der sekundären Beschreibungszeile | 60 % Deckkraft der Textfarbe |
-| **Beschreibungsgröße (px)** | Schriftgröße der Beschreibung | 70 % der Schriftgröße |
+| **Textfarbe** | Farbe des Beschriftungstextes | Thema erben |
+| **Schriftgröße (px)** | Textgröße | Thema erben |
+| **Schriftstärke** | Dicke: 100–900 oder Erben | Erben |
+| **Texttransformation** | Keine / Großschreibung / Großbuchstaben / Kleinbuchstaben | Keine |
+| **Schriftfamilie** | Google Font oder "Standard (Thema)" | Standard |
+| **Farbe der Beschreibung** | Farbe der sekundären Beschreibungszeile | 60% Opazität der Textfarbe |
+| **Größe der Beschreibung (px)** | Schriftgröße der Beschreibungszeile | 70% der Schriftgröße |
 
 ---
 
@@ -28,19 +29,19 @@ Einstellungen unter **Design → Stufe 1** gelten für alle Hauptmenüelemente. 
 
 | Feld | Beschreibung | Standard |
 |---|---|---|
-| **Symbolfarbe** | Vektorsymbolfarbe | Erbt Textfarbe |
-| **Symbolgröße (px)** | Symbolabmessungen | 22px |
+| **Symbolfarbe** | Farbe der Vektorsymbole | Erbt Textfarbe |
+| **Symbolgröße (px)** | Abmessungen des Symbols | 22px |
 | **Abstand Text-Symbol (px)** | Abstand zwischen Symbol und Text | Auto |
-| **Bildradius (px)** | Eckenrundung für Miniaturbilder | 0 |
+| **Bildradius (px)** | Eckenabrundung für Miniaturbilder | 0 |
 
 ---
 
-## Abstand
+## Abstände
 
 | Feld | Beschreibung | Format |
 |---|---|---|
-| **Element-Innenabstand (px)** | Innenabstand | `oben rechts unten links` oder `Mobil \| Desktop` |
-| **Element-Außenabstand (px)** | Außenabstand | `oben rechts unten links` oder `Mobil \| Desktop` |
+| **Element-Padding (px)** | Innerer Abstand jedes Elements | `oben rechts unten links` oder `mobil | desktop` |
+| **Element-Margin (px)** | Äußerer Abstand jedes Elements | `oben rechts unten links` oder `mobil | desktop` |
 
 ---
 
@@ -48,14 +49,14 @@ Einstellungen unter **Design → Stufe 1** gelten für alle Hauptmenüelemente. 
 
 | Feld | Beschreibung | Standard |
 |---|---|---|
-| **Hintergrundfarbe** | Elementhintergrund | Transparent |
-| **Hintergrundbild** | URL des Hintergrundbilds oder Galerie | Keine |
-| **Deckkraft** | Hintergrunddeckkraft (0–100) | 100 |
-| **Hintergrund ausblenden** | Hintergrund ausblenden | Aus |
-| **Höhe (px)** | Zeilenhöhe | 50px |
-| **Rahmenradius (px)** | Eckenrundung | 0 |
-| **Schlagschatten** | Schlagschatten | Aus |
-| **Mindesthöhe (px)** | Mindesthöhe | Keine Begrenzung |
+| **Hintergrundfarbe** | Hintergrundfarbe des Elementbereichs | Transparent |
+| **Hintergrundbild** | Hintergrundbild (URL oder Galerie) | Keine |
+| **Opazität** | Hintergrundopazität (0–100) | 100 |
+| **Hintergrund ausblenden** | Hintergrund ausblenden, um den Gerätehintergrund sichtbar zu machen | Aus |
+| **Höhe (px)** | Zeilenhöhe jedes Elements | 50px |
+| **Eckenradius (px)** | Eckenabrundung | 0 |
+| **Schatten** | Schlagschatten unter den Elementen | Aus |
+| **Minimale Höhe (px)** | Minimale Elementhöhe | Keine Begrenzung |
 
 ---
 
@@ -63,21 +64,23 @@ Einstellungen unter **Design → Stufe 1** gelten für alle Hauptmenüelemente. 
 
 | Feld | Beschreibung |
 |---|---|
-| **Anzeigelayout** | Symbol + Text-Anordnung: Auto / Oben-Unten / Links-Rechts / Unten-Oben / Rechts-Links / Nur Symbol / Nur Text / Leer |
-| **Ausrichtung** | Inhaltsausrichtung: Auto / Links / Mitte / Rechts |
-| **Text ausblenden** | Alle Textbeschriftungen ausblenden |
-| **Erweiterungspfeil anzeigen** | Erweiterungspfeil bei übergeordneten Elementen anzeigen |
+| **Anzeigelayout** | Anordnung von Symbol + Text: Auto / Oben-Unten / Links-Rechts / Unten-Oben / Rechts-Links / Nur Symbol / Nur Text / Leer |
+| **Ausrichten** | Inhalt-Ausrichtung: Auto / Links / Mitte / Rechts |
+| **Text ausblenden** | Alle Textbeschriftungen ausblenden — nur Symbol |
+| **Erweiterungspfeil anzeigen** | Erweiterungspfeil bei übergeordneten Elementen mit Kindern anzeigen |
 
 ---
 
-## Badge
+## Abzeichen
 
 | Feld | Beschreibung |
 |---|---|
-| **Badge-Farbe** | Badge/Punkt-Hintergrundfarbe |
+| **Abzeichenfarbe** | Hintergrundfarbe für das Benachrichtigungsabzeichen/Punkt auf Elementen |
 
 ---
 
 ## Farbvorlagen
 
-Voreingestellte Paletten: **Hell, Dunkel, Ozean, Sand, Rose, Wald**. Durch Auswahl werden die Farbwerte automatisch ausgefüllt.
+Navi+ enthält vordefinierte Farbpaletten: **Hell, Dunkel, Ozean, Sand, Rose, Wald**.
+
+Die Auswahl einer Vorlage füllt automatisch gängige Farbwerte aus. Sie können die einzelnen Felder nach der Anwendung anpassen.

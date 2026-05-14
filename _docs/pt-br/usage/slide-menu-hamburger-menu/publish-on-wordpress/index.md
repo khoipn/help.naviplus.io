@@ -1,0 +1,51 @@
+---
+description: Publique um Navi+ Slide Menu (hamburger) no WordPress com o plugin Navi+ Menu Builder. O plugin carrega o menu em todo o site e o gatilho é configurado dentro do editor Navi+ — sem edições de tema, sem shortcode para a configuração típica.
+lang: pt-br
+layout: default
+permalink: /pt-br/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
+title: Slide Menu — Publish on WordPress
+---
+# Slide Menu — Publish on WordPress
+
+A **Slide Menu** (também conhecido como menu hamburger) desliza de um lado e é a navegação principal para árvores de menu profundas em dispositivos móveis. No WordPress, o plugin Navi+ Menu Builder o carrega em todo o site e o editor Navi+ cuida do gatilho de abertura — sem edições de tema, sem shortcode para a configuração típica.
+
+> Outras plataformas (Wix, Squarespace, Webflow, sites personalizados): veja [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/).
+
+---
+
+## Steps
+
+1. **Install the plugin** — see [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+2. **Build your Slide Menu** in **Appearance → Naviplus Menu Builder**. See [Slide Menu — How to use]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/how-to-use/).
+3. **Configure the open trigger inside the editor** — Navi+ handles trigger wiring on the front end, so you don't need to add a button to your theme or write any JS. The editor's publish panel lets you target an existing element on your site (for example your theme's hamburger button).
+4. **Publish the menu** (status: Published, not Draft).
+
+That's it. The plugin's site-wide embed loads the Navi+ runtime, the runtime fetches your published Slide Menu, and the menu opens when the configured trigger is tapped.
+
+---
+
+## Embedding a Slide Menu at a fixed spot (rare)
+
+If you want the menu inline in a page (not triggered by a button), use the same shortcode as section menus:
+
+```text
+[naviwp embed_id="SF-123456789"]
+```
+
+This drops the menu's content into the page where the shortcode lives.
+
+---
+
+## Mobile tips
+
+- The Slide Menu is the right fit for **deep or large** menu trees — multi-level submenus, mega panels.
+- Keep the open animation under 300 ms; longer feels sluggish.
+- If your theme's existing hamburger has its own click handler that conflicts with the Slide Menu, see [How Navi+ injects]({{ site.baseurl }}/docs/integrations/how-navi-injects/) and the troubleshooting note in [Search / Cart / Menu panel not working]({{ site.baseurl }}/docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/).
+
+---
+
+## Related
+
+- [WordPress / WooCommerce — overview]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/)
+- [Publishing examples]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publishing-examples/)
+- [Slide Menu — How to use]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/how-to-use/)

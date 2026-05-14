@@ -1,43 +1,42 @@
 ---
-description: Tất cả các loại đường dẫn trong Navi+ — URL nội bộ, external link, anchor scroll, mở panel, chat, chia sẻ và gọi JavaScript.
+description: Tất cả các loại liên kết được hỗ trợ bởi Navi+ — trang nội bộ, URL bên ngoài, neo, mở bảng, điện thoại/email, ứng dụng trò chuyện, chia sẻ và JavaScript.
 lang: vi
 layout: default
 permalink: /vi/docs/menu-items/item-link-types/
-title: Các loại đường dẫn
+title: Các loại liên kết
+---
+# Các loại liên kết
+
+The **Link To** field in Basic Info controls what happens when a visitor taps or clicks an item. Navi+ supports many link types beyond a plain URL.
+
+When you click the Link To field, a help popup opens automatically with full examples. You can also type directly into the field.
+
 ---
 
-# Các loại đường dẫn (Link Types)
+## 1. Trang cửa hàng nội bộ
 
-Ô **Link To** trong phần Basic Info quyết định điều gì xảy ra khi người dùng nhấn vào item. Navi+ hỗ trợ nhiều loại đường dẫn vượt ra ngoài URL thông thường.
+Use short paths (no domain) to link to pages within your Shopify store.
 
-Khi click vào ô Link To, popup trợ giúp tự mở ra với đầy đủ ví dụ. Bạn cũng có thể gõ trực tiếp vào ô.
-
----
-
-## 1. Trang nội bộ của store
-
-Dùng đường dẫn ngắn (không cần domain) để dẫn đến các trang trong Shopify store.
-
-| Muốn dẫn đến | Nhập vào |
+| Destination | Enter |
 |---|---|
-| Trang chủ | *(để trống)* |
-| Tất cả sản phẩm | `collections/all` |
-| Một bộ sưu tập | `collections/tên-bộ-sưu-tập` |
-| Trang chi tiết sản phẩm | `products/tên-sản-phẩm` |
-| Trang tĩnh (About, FAQ...) | `pages/tên-trang` |
-| Danh sách blog | `blogs/news` |
-| Một bài viết blog | `blogs/news/tên-bài-viết` |
-| Giỏ hàng | `cart` |
-| Tìm kiếm | `search` |
-| Liên hệ | `pages/contact` |
+| Home page | *(leave empty)* |
+| All products | `collections/all` |
+| A collection | `collections/collection-handle` |
+| A product page | `products/product-handle` |
+| A static page (About, FAQ…) | `pages/page-handle` |
+| Blog listing | `blogs/news` |
+| A blog post | `blogs/news/post-handle` |
+| Cart | `cart` |
+| Search | `search` |
+| Contact | `pages/contact` |
 
-**Mẹo Auto Clean:** Dán URL đầy đủ (ví dụ `https://mystore.com/collections/sale`) → bật toggle **Auto clean** → hệ thống tự cắt domain, chỉ giữ `collections/sale`.
+**Auto Clean tip:** Paste a full URL (e.g. `https://mystore.com/collections/sale`) → enable the **Auto clean** toggle → the system strips the domain and keeps only `collections/sale`.
 
 ---
 
-## 2. URL đầy đủ (External link)
+## 2. URL đầy đủ (Liên kết bên ngoài)
 
-Dẫn đến bất kỳ trang web nào bằng URL đầy đủ.
+Link to any website using a full URL.
 
 ```
 https://brand.com/campaign
@@ -46,9 +45,9 @@ https://instagram.com/yourpage
 
 ---
 
-## 3. Mở tab mới
+## 3. Mở trong tab mới
 
-Thêm `@new` vào cuối bất kỳ đường dẫn nào để mở trong tab mới.
+Append `@new` to any link to open it in a new tab.
 
 ```
 collections/all@new
@@ -57,9 +56,9 @@ https://brand.com/campaign@new
 
 ---
 
-## 4. Không điều hướng (Parent item)
+## 4. Không điều hướng (mục cha)
 
-Dùng `#` khi item là cha chứa item con — nhấn vào sẽ mở rộng danh sách con, không chuyển trang.
+Use `#` when an item is a parent that contains child items — tapping it expands the children without navigating anywhere.
 
 ```
 #
@@ -67,57 +66,62 @@ Dùng `#` khi item là cha chứa item con — nhấn vào sẽ mở rộng danh
 
 ---
 
-## 5. Cuộn trang (Anchor / Scroll)
+## 5. Cuộn (Neo)
 
-| Muốn làm gì | Cú pháp |
+| Action | Syntax |
 |---|---|
-| Cuộn lên đầu trang | `scroll:Top` |
-| Cuộn lên đầu, giữ khoảng cách 100px | `scroll:Top(100)` |
-| Cuộn xuống cuối trang | `scroll:Bottom` |
-| Cuộn đến một section theo CSS selector | `scroll:OnPage(#id-section)` *(Business / Elite)* |
+| Cuộn lên trên | `scroll:Top` |
+| Cuộn lên trên với 100px offset | `scroll:Top(100)` |
+| Cuộn xuống dưới | `scroll:Bottom` |
+| Cuộn đến một phần bằng CSS selector | `scroll:OnPage(#section-id)` *(Business / Elite)* |
 
-**Ví dụ thực tế:** Nút "Back to top" trong menu → Link To là `scroll:Top`.
+**Example:** A "Back to top" button → Link To is `scroll:Top`.
 
 ---
 
-## 6. Mở panel / popup *(Business / Elite)*
+## 6. Mở bảng / popup *(Business / Elite)*
 
-| Muốn làm gì | Cú pháp |
+Open theme UI components without leaving the page.
+
+| Action | Syntax |
 |---|---|
-| Mở một Navi+ Slide menu | `open:NaviMenu(SF-XXXXXXXXXX)` |
-| Click vào một phần tử CSS | `open:clickTo(#cart-button)` |
-| Focus vào một ô nhập liệu | `open:focusTo(.search-input)` |
-| Mở thanh tìm kiếm / giỏ hàng của theme | dùng popup trợ giúp → *Open panels* |
-| Mở Shopify Inbox chat | dùng popup trợ giúp → *Open other applications* |
+| Open a Navi+ Slide menu | `open:NaviMenu(SF-XXXXXXXXXX)` |
+| Click a CSS element | `open:clickTo(#cart-button)` |
+| Focus an input field | `open:focusTo(.search-input)` |
+| Open theme search / cart drawer | Use the help popup → *Open panels* |
+| Open Shopify Inbox chat | Use the help popup → *Open other applications* |
+
+`open:clickTo` and `open:focusTo` accept `Down` or `Up` to scroll before acting:  
+`open:clickTo(.footer-element, Down)`
 
 ---
 
-## 7. Gọi điện, SMS, Email
+## 7. Điện thoại, SMS, Email
 
-| Muốn làm gì | Cú pháp |
+| Action | Syntax |
 |---|---|
-| Gọi điện thoại | `tel:+84123456789` |
-| Gửi SMS | `sms:+84123456789?body=Xin chào` |
-| Gửi email | `mailto:lienhe@yourdomain.com` |
+| Gọi điện thoại | `tel:+12125550100` |
+| SMS | `sms:+12125550100?body=Hello` |
+| Email | `mailto:hello@yourdomain.com` |
 
 ---
 
-## 8. Chat
+## 8. Ứng dụng trò chuyện
 
-| Ứng dụng | Cú pháp |
+| App | Syntax |
 |---|---|
-| WhatsApp | `https://wa.me/84123456789` *(không có dấu +)* |
-| Messenger | `https://m.me/TênTrangFacebook` |
+| WhatsApp | `https://wa.me/12125550100` *(no + prefix)* |
+| Messenger | `https://m.me/YourPageName` |
 | Zalo | `https://zalo.me/+0123456789` |
-| Line | `https://lin.ee/mã-line` |
+| Line | `https://lin.ee/your-line-code` |
 
 ---
 
 ## 9. Chia sẻ
 
-| Muốn làm gì | Cú pháp |
+| Action | Syntax |
 |---|---|
-| Chia sẻ trang hiện tại (native share dialog) | `open:ShareMe` |
+| Chia sẻ trang hiện tại (hộp thoại chia sẻ gốc) | `open:ShareMe` |
 | Sao chép URL vào clipboard | `share:CopyUrl` |
 | Chia sẻ lên Facebook | `share:Facebook` |
 | Chia sẻ lên Twitter / X | `share:Tweet` |
@@ -126,6 +130,8 @@ Dùng `#` khi item là cha chứa item con — nhấn vào sẽ mở rộng danh
 
 ## 10. Gọi JavaScript
 
+Call any JavaScript function defined on the page.
+
 ```
 javascript:openCustomModal
 javascript:toggleDarkMode
@@ -133,10 +139,10 @@ javascript:toggleDarkMode
 
 ---
 
-## 11. Đổi ngôn ngữ
+## 11. Chuyển đổi ngôn ngữ
 
 ```
-open:ChangeLanguage(vi)    ← chuyển sang tiếng Việt
-open:ChangeLanguage(fr)    ← chuyển sang tiếng Pháp
-open:ChangeLanguage()      ← về ngôn ngữ mặc định
+open:ChangeLanguage(fr)    ← switch to French
+open:ChangeLanguage(vi)    ← switch to Vietnamese
+open:ChangeLanguage()      ← reset to default language
 ```

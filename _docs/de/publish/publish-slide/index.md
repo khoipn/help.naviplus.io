@@ -1,36 +1,37 @@
 ---
-description: Slide (Context)-Menüs in Navi+ veröffentlichen — Schalter aktivieren, dann einen Trigger zum Öffnen des Menüs konfigurieren.
+description: Veröffentlichen Sie Folien (Kontext) Menüs in Navi+ — aktivieren Sie den Schalter und konfigurieren Sie dann einen Auslöser, um das Menü zu öffnen.
+lang: de
 layout: default
 permalink: /de/docs/publish/publish-slide/
-title: Publish slide — Context slide Menü
+title: Veröffentlichen Sie die Folie — Kontext-Folienmenü
 ---
-# Publish Slide — Context Slide Menü
+# Veröffentlichen Sie die Folie — Kontext-Folienmenü
 
-Gilt für: **Context Slide Menü**
+Gilt für: **Kontext-Folienmenü**
 
-Slide-Menüs sind **anders als Sticky**: Nach der Veröffentlichung erscheint das Menü **nicht automatisch** auf der Seite. Es öffnet sich nur, wenn es durch eine Aktion ausgelöst wird. Dies ist der wesentliche Unterschied zu Sticky-Menüs.
+Folienmenüs sind **anders als Sticky**: Nach der Veröffentlichung erscheint das Menü **nicht automatisch** auf der Seite. Es öffnet sich nur, wenn es durch eine Aktion ausgelöst wird. Dies ist der entscheidende Unterschied zu Sticky-Menüs.
 
 ---
 
 ## Veröffentlichungsablauf
 
 ```
-Schritt 1: Einbettungscode in Website einfügen
+Schritt 1: Code in die Website einfügen
         ↓
 Schritt 2: Schalter "Dieses Menü veröffentlichen" aktivieren
         ↓
-Schritt 3: Trigger konfigurieren (wie das Menü geöffnet wird)
+Schritt 3: Auslöser konfigurieren (wie man das Menü öffnet)
 ```
 
-Nach Schritt 2 ist das Menü auf der Website geladen, aber **in einem versteckten Zustand**. Schritt 3 bestimmt, was es öffnet.
+Nach Schritt 2 ist das Menü auf der Website geladen, aber **in einem versteckten Zustand**. Schritt 3 entscheidet, was es öffnet.
 
 ---
 
-## Schritt 1: Einbettungscode
+## Schritt 1: Code einfügen
 
-**Shopify:** Gehe zu **Theme Editor → App Embeds** → Navi+ aktivieren. Nur einmal erforderlich.
+**Shopify:** Gehen Sie zu **Theme Editor → App Embeds** → aktivieren Sie Navi+. Dies einmalig tun.
 
-**Global:** In `<head>` einfügen:
+**Global:** Fügen Sie in `<head>` ein:
 ```html
 <script>(window._navi_setting ||= []).push({
   token: "YOUR_NAVI_TOKEN"
@@ -42,87 +43,99 @@ Nach Schritt 2 ist das Menü auf der Website geladen, aber **in einem versteckte
 
 ## Schritt 2: Schalter aktivieren
 
-Den Schalter **"Dieses Menü veröffentlichen"** im Publish-Modal aktivieren.
+Aktivieren Sie den **"Dieses Menü veröffentlichen"** Schalter im Veröffentlichungsmodal.
 
-> Nach diesem Schritt **erscheint das Menü noch nicht** auf der Website. Das ist erwartetes Verhalten — Slide-Menüs benötigen einen Trigger zum Öffnen.
+> Nach diesem Schritt wird das Menü **noch nicht auf der Website angezeigt**. Dies ist zu erwarten — Folienmenüs benötigen einen Auslöser, um sich zu öffnen.
 
 ---
 
-## Schritt 3: Trigger konfigurieren
+## Schritt 3: Auslöser konfigurieren
 
-Es gibt 4 Möglichkeiten, ein Slide-Menü zu öffnen:
+Die Auslöser-Benutzeroberfläche ist in zwei Registerkarten unterteilt: **Mobile Einrichtung** und **Desktop Einrichtung**. Methoden können frei kombiniert werden. Eine **Für Entwickler**-Zone befindet sich außerhalb der Registerkarten.
 
 ---
 
 ### Methode 1: Aus einem Navi+ Menüelement öffnen
 
-Verwende die Syntax `open:NaviMenu(embed_id)` im **Link**-Feld eines beliebigen Menüelements.
+Verwenden Sie die Syntax `open:NaviMenu(embed_id)` im **Link**-Feld eines beliebigen Menüelements. Die embed_id wird im Modal angezeigt und kann angeklickt werden, um sie zu kopieren:
 
-Beispiel: Eine Tabbar hat ein "Menü"-Element → Link = `open:NaviMenu(ABC123)` → Tippen auf dieses Element öffnet das Slide-Menü.
-
-Die **embed_id** wird im Modal angezeigt und kann durch Klicken kopiert werden:
 ```
 open:NaviMenu(ABC123)
 ```
 
-Dies ist der häufigste Ansatz — Tabbar + Slide-Menü kombinieren, um den Navigationsbereich zu erweitern.
+Erfordert **Business-Plan oder höher** (benötigt 2+ Menüs).
+
+**Mobile — häufige Anwendungsfälle:**
+- Eine Tabbar mit einem ersten Element wie "☰ Menü", das das Folienmenü öffnet — **die häufigste Einrichtung**
+- Ein FAB & Support-Menü mit einem einzelnen Element, das das Folienmenü öffnet
+- Ein mobiles Mega-Menü mit einem "☰ Menü" Element unter der Kopfzeile
+
+**Desktop — häufige Anwendungsfälle:**
+- Ein Desktop-Mega-Menü mit einem "☰ Menü" Element — sorgt für ein konsistentes Erlebnis mit mobil
+- Ein Desktop-Mega-Menü mit einem einzelnen "☰" Element, das vor dem Logo platziert ist — spiegelt das mobile Hamburger-Menü auf dem Desktop wider (benötigt etwas CSS; [kontaktieren Sie uns](mailto:support@naviplus.io), wenn Sie Hilfe benötigen)
+- Ein FAB & Support-Menü mit einem einzelnen Element, das das Folienmenü öffnet
+- Eine Tabbar mit einem "☰ Menü" Element
 
 ---
 
-### Methode 2: Beim Klicken auf ein Element auf der Seite öffnen (CSS Selector)
+### Methode 2: Öffnen beim Klicken auf ein Element (CSS-Selektor)
 
-Einen oder mehrere CSS-Selektoren eingeben, durch Kommas getrennt. Navi+ horcht auf Klick-/Tipp-Ereignisse auf übereinstimmenden Elementen und öffnet das Slide-Menü.
+Geben Sie einen oder mehrere CSS-Selektoren ein, getrennt durch Kommas (`,`).
 
 **Gerätespezifische Syntax:**
 
 | Suffix | Gerät |
 |---|---|
-| `#element` | Mobil und Desktop |
-| `#element(M)` | Nur Mobil |
+| `#element` | Sowohl mobil als auch Desktop |
+| `#element(M)` | Nur mobil |
 | `#element(D)` | Nur Desktop |
 
-**Beispiele für das Shopify Dawn-Theme:**
+**Schritt 1 — Finden Sie Ihren Selektor:**
 
-| Zweck | CSS Selector |
-|---|---|
-| Mobiles Hamburger-Menü ersetzen | `#Details-menu-drawer-container` |
-| Verschiedene Selektoren pro Gerät | `#Details-menu-drawer-container(M), .desktop-menu-btn(D)` |
+*Auf Shopify (Dawn, Craft, Spotlight...):*
+Versuchen Sie `#Details-menu-drawer-container` für das mobile Hamburger-Menü. Für andere Themen verwenden Sie **Navi+ Debug-Modus**: besuchen Sie `yoursite.com/#navidebug-on`, fahren Sie mit der Maus über das Element, drücken Sie `Cmd/Ctrl+C`, um seinen Selektor zu kopieren.
 
-> Nach dem Konfigurieren eines CSS-Selector-Triggers sollte das ursprüngliche Element ausgeblendet werden, um Flash zu vermeiden — siehe [Publish Optimize](/de/docs/publish/publish-optimize/).
+*Auf dem Desktop:*
+Es gibt normalerweise kein Hamburger-Symbol — Sie müssen einen klickbaren Auslöser erstellen:
+- Fügen Sie ein "☰ Menü" Element zu Ihrem bestehenden Mega-Menü hinzu
+- Oder platzieren Sie ein ☰-Symbol vor dem Logo mit HTML/CSS ([kontaktieren Sie uns](mailto:support@naviplus.io), wenn Sie Hilfe benötigen)
+
+**Schritt 2 — UX optimieren:**
+Sobald eingerichtet, fügen Sie einen Ladeindikator zum ersetzten Element hinzu, um Layout-Blitze zu vermeiden — siehe [Veröffentlichen optimieren](/docs/publish/publish-optimize/).
 
 ---
 
-### Methode 3: Eine JavaScript-Funktion aufrufen
+### Erweitert (Desktop): Feststehende Seitenleiste
 
-Diese Funktion von beliebiger Stelle im Seitencode aufrufen:
+Anstelle von Öffnen/Schließen kann das Folienmenü als immer sichtbare Seitenleiste auf dem Desktop angezeigt werden.
+
+**So aktivieren Sie es:** Gehen Sie zu **Erweitert** → **Slide-in-Richtung** → wählen Sie die Option Feststehende Seitenleiste → aktivieren Sie "Ein festes Menü auf dem Desktop anzeigen".
+
+Kein Auslöser erforderlich — das Menü ist immer auf dem Desktop sichtbar.
+
+---
+
+### Für Entwickler: JavaScript-Funktion
+
+Rufen Sie diese Funktion von überall im Seiten-Code auf:
 
 ```javascript
 naviman.openNaviMenu('EMBED_ID')
 ```
 
-Geeignet für die Integration des Slide-Menüs in eine benutzerdefinierte Benutzeroberfläche ohne festen Selektor.
+Geeignet für die Integration des Folienmenüs in benutzerdefinierte UI ohne festen Selektor.
 
 ---
 
-### Methode 4: Feste Seitenleiste auf Desktop
-
-Anstatt öffnen/schließen kann das Slide-Menü als permanente linke Seitenleiste auf dem Desktop angeheftet werden.
-
-**Aktivierung:** Gehe zum Tab **Advance** → Richtung **"Links fixieren"** auswählen.
-
-Kein Trigger nötig — das Menü ist auf dem Desktop immer sichtbar.
-
----
-
-## Fehlerbehebung
+## Fehlersuche
 
 **Schalter aktiviert, aber Menü erscheint nicht?**
-→ Korrektes Verhalten. Slide-Menüs benötigen einen Trigger (Schritt 3). Prüfen ob mindestens eine Methode konfiguriert ist.
+→ Korrektes Verhalten. Folienmenüs benötigen einen Auslöser (Schritt 3). Überprüfen Sie, ob mindestens eine Methode konfiguriert ist.
 
-**CSS Selector funktioniert nicht?**
-1. **Navi+ Debug-Modus** verwenden, um den genauen Selektor für das Element zu finden.
-2. Prüfen ob das Element tatsächlich auf der Seite vorhanden ist (manche Themes blenden Elemente bei bestimmten Breakpoints aus).
-3. Suffix `(M)` oder `(D)` hinzufügen, um nach Gerät zu trennen.
+**CSS-Selektor funktioniert nicht?**
+1. Verwenden Sie **Navi+ Debug-Modus**, um den genauen Selektor für das Element zu finden.
+2. Überprüfen Sie, ob das Element tatsächlich auf der Seite vorhanden ist (einige Themen blenden Elemente bei bestimmten Breakpoints aus oder entfernen sie).
+3. Versuchen Sie, `(M)` oder `(D)` Suffix hinzuzufügen, um nach Gerät zu trennen.
 
-**Mehrere Slide-Menüs auf derselben Seite gewünscht?**
-→ Separate Menüs erstellen, jedes mit einer anderen `embed_id`, mit verschiedenen Triggern.
+**Möchten Sie mehrere Folienmenüs auf derselben Seite?**
+→ Erstellen Sie separate Menüs, jedes mit einer anderen `embed_id`, unter Verwendung unterschiedlicher Auslöser.

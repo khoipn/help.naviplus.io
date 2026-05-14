@@ -3,13 +3,15 @@ description: 'Wenn Sie Ihre Website auf Shopify bereitstellen, installieren Sie 
 lang: de
 layout: default
 permalink: /de/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
-title: Veröffentlichen auf WordPress / WooCommerce / Wix / Andere
+title: Veröffentlichen auf Wix / Squarespace / Andere
 ---
-# Veröffentlichen auf WordPress / WooCommerce / Wix / Andere
+# Veröffentlichen auf Wix / Squarespace / Andere
 
-Wenn Sie Ihre Website auf Shopify bereitstellen, installieren Sie bitte die dedizierte [Shopify](https://www.shopify.com/ "Shopify")-App hier: <https://apps.shopify.com/pronavi-navigation-design> - Sie ist für diese Plattform optimiert und ermöglicht eine stabile Bereitstellung mit vielen nützlichen integrierten Optionen.
+> **Auf WordPress?** Verwenden Sie das dedizierte [Naviplus Menu Builder plugin]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/) anstelle des manuellen Einbettens unten — keine Theme-Bearbeitungen, das Plugin öffnet das Slide Menu von jedem CSS-Selektor, den Sie im Editor wählen.
 
-Wenn Sie Ihre Website auf anderen Plattformen (wie [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") und benutzerdefinierten Websites, die mit PHP, Node.js oder reinem HTML erstellt wurden..) bereitstellen, haben Sie die folgenden Implementierungsmethoden:
+> **Auf Shopify?** Installieren Sie die dedizierte [Shopify app](https://apps.shopify.com/pronavi-navigation-design) — sie ist für die Plattform mit integrierten Veröffentlichungsoptionen optimiert.
+
+Diese Seite behandelt die **manuelle Skripteinbettung**-Methode, die der richtige Weg für [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") und benutzerdefinierte Websites, die mit PHP, Node.js oder reinem HTML erstellt wurden, ist. Sie haben die folgenden Implementierungsmethoden:
 
 ### 1. Navi+ auf Ihrer Website einbetten
 
@@ -32,15 +34,15 @@ Diese Implementierungsmethode eignet sich für alle Menütpyen, die Navi+ derzei
 
 <details><summary>Was ist https://live.naviplus.app/start.js?</summary>
 <p>Dies ist die feste URL von Navi+, die die Initialisierungslogik der Anwendung enthält. Das Skript ist leichtgewichtig (ca. 4KB), sodass es schnell auf den meisten Geräten und Netzwerkbedingungen geladen werden kann. Es wird über Cloudflare und BunnyCDN bereitgestellt, um eine stabile globale Leistung und zuverlässige Kompatibilität mit modernen Browsern zu gewährleisten.</p>
-<p>Die Verwendung der asynchronen Lade-Methode bedeutet auch, dass sie den Ladeprozess der Website nicht beeinträchtigt.</p>
+<p>Die Verwendung der asynchronen Lade-Methode bedeutet auch, dass sie den Ladeprozess der Website nicht beeinflusst.</p>
 </details>
 
 <details><summary>Verlangsamt dieser Einbettungscode meine Website?</summary>
-<p>Der folgende Code ist extrem leichtgewichtig und kann in Ihre Website eingefügt werden, ohne die Geschwindigkeit (nur etwa 100-200ms für den ersten Ladevorgang und 0ms für nachfolgende Ladevorgänge), die Benutzererfahrung oder die SEO-Werte zu beeinträchtigen.</p>
+<p>Der folgende Code ist extrem leichtgewichtig und kann in Ihre Website eingefügt werden, ohne die Geschwindigkeit zu beeinträchtigen (er benötigt nur etwa 100-200ms für den ersten Ladevorgang und 0ms für nachfolgende Ladevorgänge), die Benutzererfahrung oder die SEO-Werte.</p>
 </details>
 
 <details><summary>Was ist der beste Ort, um diesen Code-Schnipsel einzufügen?</summary>
-<p>Im Kopfbereich (oder so früh wie möglich). Warum? Die Website lädt Ressourcen sequenziell, um die Benutzeroberfläche darzustellen. Wenn Sie Navi+ so früh wie möglich im HTML-Code platzieren, wird Ihr Menü bereit sein, so schnell wie möglich angezeigt zu werden, indem es wartet, bis die Bedingungen erfüllt sind, dann wird das Menü sofort erscheinen. Dies verbessert die Benutzererfahrung.</p>
+<p>Im Kopfbereich (oder so früh wie möglich). Warum? Die Website lädt sequenziell Ressourcen, um die Benutzeroberfläche darzustellen. Wenn Sie Navi+ so früh wie möglich im HTML-Code platzieren, wird Ihr Menü bereit sein, so schnell wie möglich angezeigt zu werden, indem es wartet, bis die Bedingungen erfüllt sind, dann wird das Menü sofort erscheinen. Dies verbessert die Benutzererfahrung.</p>
 </details>
 
 <details><summary>Wie kann ich feststellen, ob dieser Code erfolgreich in meine Website eingebettet wurde?</summary>
@@ -53,9 +55,9 @@ Diese Implementierungsmethode eignet sich für alle Menütpyen, die Navi+ derzei
 
 ***
 
-### 2. Fügen Sie ein Navi+-Menü an beliebiger Stelle auf Ihrer Website ein
+### 2. Fügen Sie ein Navi+ Menü an beliebiger Stelle auf Ihrer Website ein
 
-Der folgende Code kann mehrfach auf einer Website mit unterschiedlichen Einfügeinformationen (insbesondere der **Embeded ID**, wie SF-123456789) verwendet werden. Wenn die Website gerendert wird, wird das Menü an der Stelle bereitgestellt und angezeigt, an der der Code eingefügt wurde, wenn die Bedingungen erfüllt sind. Dieser Menütpyen eignet sich für: Mega menu, Grid usw.
+Der folgende Code kann mehrfach auf einer Website mit unterschiedlichen Einfügeinformationen (insbesondere der **Embeded ID**, wie SF-123456789) verwendet werden. Wenn die Website gerendert wird, wird das Menü an der Stelle bereitgestellt und angezeigt, an der der Code eingefügt wurde, wenn die Bedingungen erfüllt sind. Dieser Menütyp eignet sich für: Mega menu, Grid usw.
 
 ```html
 <!-- Fügen Sie den Code dort ein, wo das Menü SF-123456789 erscheint. (c) naviplus.io -->

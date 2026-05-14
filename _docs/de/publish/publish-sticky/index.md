@@ -1,41 +1,42 @@
 ---
-description: Sticky-Menüs (Tabbar, Mobile Header, FAB) in Navi+ veröffentlichen — App Embeds für Shopify oder Script-Injektion für Global-Websites.
+description: Veröffentlichen Sie Sticky-Menüs (Tabbar, Mobile Header, FAB) in Navi+ — unter Verwendung von App-Embeds für Shopify oder Skripteinfügungen für globale Seiten.
+lang: de
 layout: default
 permalink: /de/docs/publish/publish-sticky/
-title: Publish sticky — Tabbar & FAB
+title: Veröffentlichen Sie Sticky — Tabbar & FAB
 ---
-# Publish Sticky — Tabbar & FAB
+# Veröffentlichen Sie Sticky — Tabbar & FAB
 
-Gilt für: **Tabbar**, **Mobile Header**, **FAB / Support bar**
+Gilt für: **Tabbar**, **Mobile Header**, **FAB / Supportleiste**
 
-Sticky-Menüs sind schwebend — sie erscheinen immer auf dem Bildschirm und sind nicht an eine feste DOM-Position gebunden. Die Einbettungsmethode ist die einfachste: seitenweite Aktivierung über ein einzelnes Skript.
+Sticky-Menüs sind schwebend — sie erscheinen immer auf dem Bildschirm und sind nicht an eine feste DOM-Position gebunden. Die Einbettungsmethode ist die einfachste: aktivieren Sie sie seitenweit über ein einzelnes Skript.
 
 ---
 
 ## Shopify — 3 Schritte
 
-### Schritt 1: App Embeds im Theme Editor aktivieren
+### Schritt 1: Aktivieren Sie App-Embeds im Theme-Editor
 
-Gehe zu **Theme Editor → App Embeds** und aktiviere den Navi+ Schalter.
+Gehen Sie zu **Theme Editor → App Embeds** und aktivieren Sie den Navi+ Schalter.
 
-- Dies **ändert nicht das Theme-Layout** und kann jederzeit deaktiviert werden, ohne den Shop zu beeinflussen.
-- Muss nur **einmal pro Shop** durchgeführt werden — bei nachfolgenden Menüs diesen Schritt überspringen.
+- Dies ändert **nicht das Layout des Themas** und kann jederzeit deaktiviert werden, ohne den Shop zu beeinträchtigen.
+- Muss nur **einmal pro Shop** durchgeführt werden — überspringen Sie diesen Schritt für nachfolgende Menüs.
 
-### Schritt 2: "Dieses Menü im Sticky-Modus veröffentlichen" aktivieren
+### Schritt 2: Aktivieren Sie "Veröffentlichen Sie dieses Menü im Sticky-Modus"
 
-Der Schalter in der **Schritt 2**-Karte des Publish-Modals. Aktiviert = Menü ist live, deaktiviert = von der Website ausgeblendet.
+Der Schalter im **Schritt 2**-Karten des Veröffentlichungsmodals. Aktivieren = Menü ist live, deaktivieren = von der Website verborgen.
 
-### Schritt 3 (optional): Gerät- und Seitensichtbarkeit konfigurieren
+### Schritt 3 (optional): Konfigurieren Sie die Sichtbarkeit von Geräten und Seiten
 
-Siehe [Publish Filter](/de/docs/publish/publish-filter/) für Details.
+Siehe [Publish Filter](/docs/publish/publish-filter/) für Details.
 
 ---
 
 ## Global (WordPress, Wix, Webflow...) — 3 Schritte
 
-### Schritt 1: Einbettungscode in `<head>` einfügen
+### Schritt 1: Fügen Sie den Einbettungscode in `<head>` ein
 
-Der Code wird im Modal mit einer **Kopieren**-Schaltfläche angezeigt. Füge ihn in den `<head>` deiner Website ein:
+Der Code wird im Modal mit einer **Kopieren**-Schaltfläche angezeigt. Fügen Sie ihn in das `<head>` Ihrer Website ein:
 
 ```html
 <script>(window._navi_setting ||= []).push({
@@ -44,33 +45,33 @@ Der Code wird im Modal mit einer **Kopieren**-Schaltfläche angezeigt. Füge ihn
 <script src="https://live.naviplus.app/start.js" async></script>
 ```
 
-- `token` identifiziert deinen Shop — jeder Shop hat einen eindeutigen Token.
-- `start.js` lädt asynchron und blockiert nicht das Seitenrendering.
+- `token` identifiziert Ihren Shop — jeder Shop hat einen einzigartigen Token.
+- `start.js` wird asynchron geladen und blockiert nicht das Rendern der Seite.
 
-### Schritt 2: "Dieses Menü im Sticky-Modus veröffentlichen" aktivieren
+### Schritt 2: Aktivieren Sie "Veröffentlichen Sie dieses Menü im Sticky-Modus"
 
-Gleich wie Shopify — Schalter aktivieren.
+Gleich wie Shopify — aktivieren Sie den Schalter.
 
-### Schritt 3 (optional): Gerät- und Seitensichtbarkeit konfigurieren
+### Schritt 3 (optional): Konfigurieren Sie die Sichtbarkeit von Geräten und Seiten
 
-Siehe [Publish Filter](/de/docs/publish/publish-filter/) für Details.
+Siehe [Publish Filter](/docs/publish/publish-filter/) für Details.
 
 ---
 
-## Hinweise nach Menütyp
+## Hinweise nach Menütet
 
 | Menü | Einschränkung |
 |---|---|
 | Mobile Header | Desktop-Schalter deaktiviert — nur mobil |
-| FAB / Support bar | Kein Positionsauswähler (FAB hat eigene Positionierung im Setting-Tab) |
-| Tabbar | Vollständige Optionen für Mobil + Desktop verfügbar |
+| FAB / Supportleiste | Kein Positionsauswähler (FAB hat seine eigene Positionierung im Einstellungs-Tab) |
+| Tabbar | Vollständige mobile + Desktop-Optionen verfügbar |
 
 ---
 
-## Fehlerbehebung
+## Fehlersuche
 
-**Menü erscheint nicht nach dem Aktivieren des Schalters?**
-1. Prüfen ob App Embeds aktiviert ist (Shopify) oder ob der Einbettungscode korrekt eingefügt wurde (Global).
-2. Geräteeinstellungen prüfen — **Menü auf Mobilgeräten anzeigen** oder **Menü auf Desktop anzeigen** muss aktiviert sein.
-3. URL-Filter prüfen — er könnte die aktuelle Seite herausfiltern.
-4. Browser-Cache leeren (Strg+Umschalt+R).
+**Menü erscheint nicht nach Aktivierung des Schalters?**
+1. Überprüfen Sie, ob App-Embeds aktiviert ist (Shopify) oder der Einbettungscode korrekt eingefügt wurde (Global).
+2. Überprüfen Sie die Geräteeinstellungen — **Menü auf Mobilgeräten anzeigen** oder **Menü auf Desktop anzeigen** muss aktiviert sein.
+3. Überprüfen Sie den URL-Filter — er könnte die aktuelle Seite herausfiltern.
+4. Führen Sie eine harte Aktualisierung des Browsers durch (Strg+Umschalt+R), um den Cache zu leeren.

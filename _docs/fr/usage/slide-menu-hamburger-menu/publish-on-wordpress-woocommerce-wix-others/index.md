@@ -3,13 +3,15 @@ description: 'Si vous déployez votre site Web sur Shopify, veuillez installer l
 lang: fr
 layout: default
 permalink: /fr/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
-title: Publier sur WordPress / WooCommerce / Wix / Autres
+title: Publier sur Wix / Squarespace / Autres
 ---
-# Publier sur WordPress / WooCommerce / Wix / Autres
+# Publier sur Wix / Squarespace / Autres
 
-Si vous déployez votre site Web sur Shopify, veuillez installer l'application dédiée [Shopify](https://www.shopify.com/ "Shopify") ici : <https://apps.shopify.com/pronavi-navigation-design> - Elle est optimisée pour cette plateforme, permettant un déploiement stable avec de nombreuses options intégrées utiles.
+> **Sur WordPress ?** Utilisez le [plugin Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/) dédié au lieu de l'intégration manuelle ci-dessous — pas d'éditions de thème, le plugin ouvre le Slide Menu à partir de n'importe quel sélecteur CSS que vous choisissez dans l'éditeur.
 
-Si vous déployez votre site Web sur d'autres plateformes (telles que [WordPress](https://wordpress.org/ "WordPress"), [WooCommerce](https://woocommerce.com/ "WooCommerce"), [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), et des sites Web personnalisés construits avec PHP, Node.js, ou du HTML pur..), vous avez les méthodes d'implémentation suivantes :
+> **Sur Shopify ?** Installez l'[application Shopify](https://apps.shopify.com/pronavi-navigation-design) dédiée — elle est optimisée pour la plateforme avec des options de publication intégrées.
+
+Cette page couvre la méthode **d'intégration de script manuelle**, qui est le bon chemin pour [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), et les sites Web personnalisés construits avec PHP, Node.js, ou HTML pur. Vous avez les méthodes d'implémentation suivantes :
 
 ### 1. Intégrer Navi+ sur Votre Site Web
 
@@ -31,12 +33,12 @@ Cette méthode d'implémentation convient à tous les types de menus que Navi+ p
 </details>
 
 <details><summary>Qu'est-ce que https://live.naviplus.app/start.js ?</summary>
-<p>C'est l'URL fixe de Navi+ qui contient la logique d'initialisation de l'application. Le script est léger (environ 4 Ko), ce qui lui permet de se charger rapidement sur la plupart des appareils et des conditions réseau. Il est livré via Cloudflare et BunnyCDN pour fournir des performances globales stables et une compatibilité fiable avec les navigateurs modernes.</p>
+<p>C'est l'URL fixe de Navi+ qui contient la logique d'initialisation de l'application. Le script est léger (environ 4 Ko), ce qui lui permet de se charger rapidement sur la plupart des appareils et conditions réseau. Il est livré via Cloudflare et BunnyCDN pour fournir des performances globales stables et une compatibilité fiable avec les navigateurs modernes.</p>
 <p>Utiliser la méthode de chargement asynchrone signifie également qu'elle n'affecte pas le processus de chargement du site Web.</p>
 </details>
 
 <details><summary>Ce code d'intégration ralentit-il mon site Web ?</summary>
-<p>Le code ci-dessous est extrêmement léger et peut être inséré dans votre site Web sans affecter la vitesse (ne prenant que 100 à 200 ms pour le premier chargement et 0 ms pour les chargements suivants), l'expérience client ou les scores SEO</p>
+<p>Le code ci-dessous est extrêmement léger et peut être inséré dans votre site Web sans affecter la vitesse (ne prenant que 100 à 200 ms pour le premier chargement et 0 ms pour les chargements suivants), l'expérience client, ou les scores SEO</p>
 </details>
 
 <details><summary>Quel est le meilleur endroit pour insérer ce code ?</summary>
@@ -48,14 +50,14 @@ Cette méthode d'implémentation convient à tous les types de menus que Navi+ p
 <p><strong>Méthode 1 (pour tout le monde) :</strong></p>
 <p>Ouvrez votre site Web avec le suffixe #navidebug-on, par exemple : <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Si le site Web passe en mode Debug, l'intégration fonctionne correctement. Le mode Debug vous aide à identifier facilement les sélecteurs CSS. Utilisez #navidebug-off pour l'éteindre.</p>
 <p><strong>Méthode 2 (pour les développeurs) :</strong></p>
-<p>Ouvrez les outils d'inspection de votre navigateur, allez dans l'onglet Console, et recherchez un message vert : "Utilisation de Navi+..". Ce message indique que le code a été intégré avec succès.</p>
+<p>Ouvrez les outils d'inspection de votre navigateur, allez dans l'onglet Console, et cherchez un message vert : "Utilisation de Navi+..". Ce message indique que le code a été intégré avec succès.</p>
 </details>
 
 ***
 
-### 2. Insérer un Menu Navi+ à Tout Moment sur Votre Site Web
+### 2. Insérer un Menu Navi+ à n'importe quel endroit sur votre site Web
 
-Le code ci-dessous peut être utilisé plusieurs fois sur un site Web avec différentes informations d'insertion (en particulier l'**ID Embarqué**, tel que SF-123456789). Lorsque le site Web est rendu, le menu sera déployé et affiché à l'endroit où le code est inséré lorsque les conditions sont remplies. Ce type de menu convient à : Mega menu, Grid, etc.
+Le code ci-dessous peut être utilisé plusieurs fois sur un site Web avec différentes informations d'insertion (en particulier l'**ID intégré**, tel que SF-123456789). Lorsque le site Web est rendu, le menu sera déployé et affiché à l'endroit où le code est inséré lorsque les conditions sont remplies. Ce type de menu convient à : Mega menu, Grid, etc.
 
 ```html
 <!-- Insérez le code où le menu SF-123456789 apparaît. (c) naviplus.io -->

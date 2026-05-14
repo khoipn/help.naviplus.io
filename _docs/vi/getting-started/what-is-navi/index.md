@@ -1,5 +1,5 @@
 ---
-description: Tìm hiểu Navi+ là gì, cách hoạt động, và tại sao nó khác với việc chỉnh sửa menu mặc định của theme.
+description: Tìm hiểu Navi+ là gì, cách nó hoạt động và tại sao nó khác với việc chỉnh sửa menu tích hợp sẵn của chủ đề của bạn.
 lang: vi
 layout: default
 permalink: /vi/docs/getting-started/what-is-navi/
@@ -7,53 +7,53 @@ title: Navi+ là gì? (Cách hoạt động)
 ---
 # Navi+ là gì? (Cách hoạt động)
 
-Navi+ là một **công cụ tạo menu không cần code** — giúp bạn xây dựng menu đẹp, chuyển đổi cao cho bất kỳ website nào mà không cần chỉnh sửa theme hay viết một dòng code nào.
+Navi+ là một **trình tạo điều hướng không mã** — nó cho phép bạn tạo ra những menu đẹp mắt, có tỷ lệ chuyển đổi cao cho bất kỳ trang web nào mà không cần chạm vào chủ đề của bạn hoặc viết một dòng mã nào.
 
-Nếu khách hàng đang gặp khó khăn khi tìm kiếm trên site của bạn, menu có thể là nguyên nhân. Navi+ giúp bạn giải quyết điều đó trong vài phút.
+Nếu khách truy cập vào trang web của bạn đang gặp khó khăn trong việc tìm kiếm những gì họ đang tìm, menu của bạn có thể đang khiến họ thất vọng. Navi+ giúp bạn khắc phục điều đó trong vài phút.
 
 ## Năm loại menu
 
-Chọn loại menu phù hợp với nhu cầu của bạn:
+Chọn loại menu phù hợp cho trường hợp sử dụng của bạn:
 
-| Loại menu | Phù hợp nhất cho |
+| Loại Menu | Tốt nhất cho |
 | --- | --- |
-| **Tab Bar** | Navigation trên mobile, cảm giác như app native |
-| **Mega Menu** | Dropdown phong phú với ảnh, cột và link — có 2 phiên bản riêng cho Desktop và Mobile |
-| **Slide Menu** | Menu hamburger với hỗ trợ nhiều cấp |
-| **Grid Menu** | Duyệt danh mục trực quan — tuyệt vời cho e-commerce |
+| **Tab Bar** | Điều hướng ưu tiên di động, cảm giác như một ứng dụng gốc |
+| **Mega Menu** | Dropdown phong phú với hình ảnh, cột & liên kết — có phiên bản Desktop và Mobile riêng biệt |
+| **Slide Menu** | Menu hamburger với hỗ trợ đa cấp |
+| **Grid Menu** | Duyệt danh mục trực quan — tuyệt vời cho thương mại điện tử |
 | **FAB** | Nút nổi truy cập nhanh, luôn trong tầm tay |
 
-Bạn có thể dùng nhiều loại menu cùng nhau trên cùng một site.
+Bạn có thể sử dụng nhiều loại menu cùng nhau trên cùng một trang web.
 
-## Cách hoạt động
+## Cách nó hoạt động
 
-Navi+ là một **widget** — nó không thay thế hay chỉnh sửa theme hiện tại của bạn. Thay vào đó, nó chèn một đoạn script nhẹ vào trang, và menu sẽ hiển thị đè lên layout hiện tại.
+Navi+ là một **widget** — nó không thay thế hoặc sửa đổi chủ đề hiện tại của bạn. Thay vào đó, nó chèn một script nhẹ vào trang của bạn để hiển thị menu trên bố cục hiện tại của bạn.
 
-Bạn tạo và quản lý mọi thứ từ **dashboard của Navi+**. Thay đổi có hiệu lực ngay lập tức — không cần sửa code, chỉnh template, hay republish theme.
+Bạn xây dựng và quản lý mọi thứ từ **bảng điều khiển Navi+**. Các thay đổi sẽ được cập nhật ngay lập tức — không cần chỉnh sửa mã, sửa đổi mẫu hoặc xuất bản lại chủ đề của bạn.
 
-Đây là flow:
+Dưới đây là quy trình:
 
-1. Bạn tạo menu trong dashboard
-2. Navi+ tạo một đoạn script nhỏ
-3. Script đó được nhúng vào site (qua App Block trên Shopify, hoặc code snippet ở nơi khác)
-4. Menu hiển thị đè lên layout hiện tại mỗi khi trang được tải
+1. Bạn tạo một menu trong bảng điều khiển
+2. Navi+ tạo ra một script nhỏ
+3. Script đó được nhúng vào trang web của bạn (thông qua App Block trên Shopify, hoặc một đoạn mã ở nơi khác)
+4. Menu hiển thị trên bố cục hiện tại của bạn mỗi khi tải trang
 
-## Hoạt động trên nền tảng của bạn
+## Hoạt động với nền tảng của bạn
 
-Navi+ tích hợp với các công cụ bạn đang dùng:
+Navi+ phù hợp với các công cụ bạn đã sử dụng:
 
-**Shopify** · **WordPress** · **WooCommerce** · **Wix** · **Webflow** · **Squarespace** · và bất kỳ website nào chấp nhận thẻ `<script>`.
+**Shopify** · **WordPress** · **WooCommerce** · **Wix** · **Webflow** · **Squarespace** · và bất kỳ trang web nào chấp nhận thẻ `<script>`.
 
-## Navi+ KHÔNG phải là
+## Những gì Navi+ KHÔNG phải là
 
-- **Không phải theme** — hoạt động song song với theme hiện tại, không thay thế nó
-- **Không phải code cài thủ công** — chỉ cần 1 App Block (Shopify) hoặc 1 embed snippet
-- **Không phải plugin có thể làm hỏng site** — nếu Navi+ bị tắt, menu theme gốc của bạn tự động trở lại
+- **Không phải là một chủ đề** — nó hoạt động song song với chủ đề hiện tại của bạn, không thay thế nó
+- **Không phải là mã bạn cài đặt thủ công** — một App Block (Shopify) hoặc một đoạn nhúng là tất cả những gì cần thiết
+- **Không phải là một plugin có thể làm hỏng trang web của bạn** — nếu Navi+ bị vô hiệu hóa, menu chủ đề gốc của bạn sẽ tự động trở lại
 
 ## Được xây dựng cho tốc độ
 
-Assets của Navi+ được phân phối qua Cloudflare CDN với thời gian tải trung bình ~52ms — thường nhanh hơn cả các script mặc định của nền tảng. Sau lần tải đầu tiên, menu được cache và tải gần như tức thì.
+Tài sản của Navi+ được cung cấp qua Cloudflare CDN với thời gian tải trung bình ~52ms — thường nhanh hơn các script của nền tảng của bạn. Sau lần tải đầu tiên, các menu được lưu vào bộ nhớ cache và tải ngay lập tức.
 
 ---
 
-Sẵn sàng tạo menu đầu tiên? → [Menu đầu tiên của bạn (5 phút)](/vi/docs/getting-started/your-first-menu/)
+Sẵn sàng để xây dựng menu đầu tiên của bạn? → [Menu đầu tiên của bạn (hướng dẫn nhanh 5 phút)](/docs/getting-started/your-first-menu/)

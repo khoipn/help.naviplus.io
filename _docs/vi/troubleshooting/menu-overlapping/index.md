@@ -1,10 +1,10 @@
 ---
-description: Khắc phục lỗi menu Navi+ bị chồng lên các thành phần khác như sticky header, widget chat, hoặc banner cookie.
+description: Fix Navi+ menus overlapping other elements like sticky headers, chat widgets, or cookie banners.
 lang: vi
 layout: default
 permalink: /vi/docs/troubleshooting/menu-overlapping/
-title: Menu chồng lên các thành phần khác
+title: Menu overlapping other elements
 ---
-# Menu chồng lên các thành phần khác
+# Menu overlapping other elements
 
-*Sắp ra mắt — trang này đang được biên soạn.*
+*Coming soon — this page is being written.*

@@ -1,16 +1,17 @@
 ---
-description: Was ein Menüelement in Navi+ ist, die verfügbaren Elementarten und die vollständige Feldstruktur im Bearbeitungspanel.
+description: Was ein Menüelement in Navi+ ist, die verfügbaren Elementarten und die vollständige Feldstruktur im Bearbeiten-Element-Panel.
+lang: de
 layout: default
 permalink: /de/docs/menu-items/item-overview/
-title: Element-Übersicht
+title: Artikelübersicht
 ---
-# Element-Übersicht
+# Artikelübersicht
 
 ## Was ist ein Menüelement?
 
-Jede Zeile in einer Menüliste ist ein **Element**. Ein Element ist die kleinste Einheit in Navi+ — es kann ein Navigationslink, eine Gruppenüberschrift, ein leerer Abstandhalter oder ein Tab-Trennzeichen sein.
+Jede Zeile in einer Menüliste ist ein **Element**. Ein Element ist die kleinste Einheit in Navi+ — es kann ein Navigationslink, eine Gruppenüberschrift, ein leerer Abstandshalter oder ein Tab-Trenner sein.
 
-Mehrere übereinander gestapelte Elemente bilden ein Menü. Das Menü wird dann für Besucher auf Ihrer Website gerendert.
+Mehrere übereinander gestapelte Elemente bilden ein Menü. Das Menü wird dann für Besucher auf Ihrer Website angezeigt.
 
 ---
 
@@ -18,54 +19,54 @@ Mehrere übereinander gestapelte Elemente bilden ein Menü. Das Menü wird dann 
 
 Wenn Sie ein neues Element hinzufügen, wählen Sie seine **Art**. Die Art bestimmt, wie das Element aussieht und was es tut.
 
-| Art | Beschreibung | Wann verwenden |
+| Art | Beschreibung | Wann zu verwenden |
 |---|---|---|
-| **Icon / Text** | Standardelement mit Icon und Beschriftung | Normale Navigationslinks |
-| **Großbild / Text** | Große Kachel mit Vollbild-Bild und überlagertem Text | Kategorie-Banner, Produkt-Highlight-Bilder |
-| **Gruppentitel** | Abschnittsüberschrift — kein Link | Elemente darunter visuell gruppieren |
-| **Leerzeichen** | Transparente Lücke | Abstands- und Layout-Ausrichtung |
-| **Tab-Marker** | Markiert den Beginn eines neuen Tabs | Menü in horizontale Tabs aufteilen |
-| **Benutzerdefiniertes HTML** | Beliebiges HTML einbetten | Eigene Widgets, spezielle Banner |
+| **Icon / Text** | Standardelement mit einem Icon und Label | Regelmäßige Navigationslinks |
+| **Big Image / Text** | Großes Kachel mit einem vollflächigen Bild und überlagertem Text | Kategoriebanner, hervorgehobene Produktbilder |
+| **Gruppentitel** | Abschnittsüberschrift — kein Link | Visuelle Gruppierung der darunter liegenden Elemente |
+| **Leerer Raum** | Transparente Lücke | Abstände und Layout-Ausrichtung |
+| **Tab-Markierung** | Markiert den Beginn eines neuen Tabs | Teilt das Menü in horizontale Tabs |
+| **Benutzerdefiniertes HTML** | Beliebiges HTML einbetten | Benutzerdefinierte Widgets, spezielle Banner |
 
 ---
 
 ## Feldstruktur
 
-Klicken Sie auf ein Element, um das Bearbeitungspanel zu öffnen. Es ist in diese Abschnitte unterteilt:
+Klicken Sie auf ein Element, um das Bearbeiten-Element-Panel zu öffnen. Es ist in diese Abschnitte organisiert:
 
 ```
 ┌─────────────────────────────────────────┐
 │  MEDIEN                                 │
-│    Icon  |  Bild                        │
+│    Icon  |  Bild                       │
 ├─────────────────────────────────────────┤
 │  GRUNDINFORMATIONEN                     │
-│    Text · Verknüpfung zu · HTML         │
-│    Beschreibung · Trennlinie · Abzeichen│
+│    Text · Link zu · HTML                │
+│    Beschreibung · Trennzeichen · Badge  │
 ├─────────────────────────────────────────┤
 │  LAYOUT                                 │
-│    Anzeigelayout · Breite · Position    │
-│    Höhe fixieren                        │
+│    Anzeige-Layout · Breite · Position   │
+│    Höhe fix                             │
 ├─────────────────────────────────────────┤
-│  INTERFACE (UI)                         │
-│    Klassen · Textstil                   │
+│  BENUTZEROBERFLÄCHE (UI)               │
+│    Klassennamen · Textstil              │
 │    Icon/Bild-Stil · Hintergrund         │
-│    Abstand · Ausrichtung                │
+│    Abstände · Ausrichten                │
 ├─────────────────────────────────────────┤
 │  ERWEITERT                              │
 │    Animation · CSS · Attribute          │
 ├─────────────────────────────────────────┤
 │  VERÖFFENTLICHEN                        │
-│    Veröffentlicht · Login-Bedingungen   │
+│    Ist veröffentlicht · Anmeldebedingungen│
 └─────────────────────────────────────────┘
 ```
 
 ---
 
-## Bearbeitungs-Workflow
+## Bearbeitungsworkflow
 
-1. Klicken Sie auf ein Element im Menübaum → das Bearbeitungspanel öffnet sich.
+1. Klicken Sie auf ein Element im Menübaum → das Bearbeiten-Element-Panel öffnet sich.
 2. Ändern Sie die benötigten Felder.
-3. Drücken Sie **Aktualisieren**, um Änderungen an diesem Element anzuwenden.
+3. Drücken Sie **Aktualisieren**, um die Änderungen an diesem Element anzuwenden.
 4. Drücken Sie **Speichern** (`Ctrl+S` / `Cmd+S`), um das gesamte Menü zu speichern und den Simulator zu aktualisieren.
 
-> Wenn Sie Aktualisieren gedrückt, aber noch nicht gespeichert haben, werden die Änderungen nicht in Ihr Live-Menü geschrieben. Halten Sie Shift gedrückt, während Sie Speichern drücken, um zu speichern und den Simulator sofort neu zu laden.
+> Wenn Sie Aktualisieren gedrückt haben, aber noch nicht gespeichert haben, werden die Änderungen nicht in Ihr Live-Menü geschrieben. Halten Sie die Umschalttaste gedrückt, während Sie auf Speichern drücken, um zu speichern und den Simulator sofort neu zu laden.

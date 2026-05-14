@@ -1,12 +1,13 @@
 ---
-description: Kontrollieren Sie das Menüverhalten, Layout, Positionierung, Sichtbarkeitsregeln und Slide-spezifische Einstellungen in Navi+.
+description: Steuern Sie das Verhalten des Menüs, das Layout, die Positionierung, die Sichtbarkeitsregeln und die spezifischen Einstellungen für Slides in Navi+.
+lang: de
 layout: default
 permalink: /de/docs/setting/
-title: Einstellung
+title: Einstellungen
 ---
-# Einstellung
+# Einstellungen
 
-Der Bereich **Einstellung** steuert, wie sich Ihr Menü **verhält** und **anzeigt** — Animationsgeschwindigkeit, Erweiterungsverhalten, Positionierung, Sichtbarkeitsregeln und Slide-spezifische Optionen.
+Der **Einstellungs**-Bereich steuert, wie Ihr Menü **funktioniert** und **angezeigt** wird. Diese Einstellungen bestimmen die Animationsgeschwindigkeit, das Verhalten beim Erweitern, die Positionierung des Menüs, die Sichtbarkeitsregeln (auf welchen Seiten das Menü angezeigt wird) und die spezifischen Optionen für Slides.
 
 ---
 
@@ -14,16 +15,16 @@ Der Bereich **Einstellung** steuert, wie sich Ihr Menü **verhält** und **anzei
 
 | # | Thema | |
 |---|---|---|
-| 1 | Animation, Erweiterungseffekte und Touch-Feedback | [Einstellung Verhalten](/de/docs/setting/setting-behavior/) |
-| 2 | Position, Abstände, Z-Index und Untermenübreite | [Einstellung Layout](/de/docs/setting/setting-layout/) |
-| 3 | Anzeigen/Ausblenden nach URL, Gerät und Shopify-Seitentyp | [Einstellung Anzeigeregeln](/de/docs/setting/setting-display-rules/) |
-| 4 | Slide-Richtung, Breite und Schließen-Schaltfläche | [Einstellung Slide](/de/docs/setting/setting-slide/) |
+| 1 | Animation, Erweiterungseffekte und Touch-Feedback | [Einstellungsverhalten](/docs/setting/setting-behavior/) |
+| 2 | Position, Abstand, z-Index und Breite des Untermenüs | [Einstellungslayout](/docs/setting/setting-layout/) |
+| 3 | Anzeigen/Verstecken nach URL, Gerät und Shopify-Seitentyp | [Einstellungsanzeigeregeln](/docs/setting/setting-display-rules/) |
+| 4 | Richtigungsrichtung, Breite und Schaltfläche zum Schließen | [Einstellungs-Slide](/docs/setting/setting-slide/) |
 
 ---
 
-## Kurzreferenz
+## Schnellreferenz
 
 - **Verhalten** — Animationsgeschwindigkeit, Erweiterungsstil, Touch-Feedback
-- **Layout** — Innen-/Außenabstand, Z-Index, Untermenübreite
+- **Layout** — Padding/Margin, z-Index, Breite des Untermenüs
 - **Anzeigeregeln** — Anzeigen nach URL-Schlüsselwort, Gerät, Shopify-Seitentyp
-- **Slide** — Richtung, Breite, Schließen-Schaltfläche *(nur Slide-Menü)*
+- **Slide** — Richtung, Breite, Schaltfläche zum Schließen *(Nur Slide-Menü)*

@@ -1,37 +1,38 @@
 ---
-description: Configurez l'apparence de tous les éléments de menu principal — couleur du texte, icônes, espacement, arrière-plans et options d'affichage au Niveau 1 de conception.
+description: Configurez l'apparence de tous les éléments de menu principaux dans Navi+ — texte, icônes, espacement, arrière-plans et options d'affichage au Niveau de conception 1.
+lang: fr
 layout: default
 permalink: /fr/docs/design/design-level1/
-title: Conception niveau 1 — Éléments de menu principal
+title: Niveau de conception 1 — Éléments du menu principal
 ---
-# Conception Niveau 1 — Éléments de menu principal
+# Niveau de conception 1 — Éléments du menu principal
 
-Les paramètres dans **Conception → Niveau 1** s'appliquent à tous les éléments du niveau supérieur. C'est la couche de base — le Niveau 2-3 hérite, par élément remplace.
+Les paramètres à **Conception → Niveau 1** s'appliquent à tous les éléments de premier niveau de votre menu. C'est la couche de base — le Niveau 2-3 hérite de ces valeurs, et les paramètres par élément les remplacent.
 
 ---
 
-## Style du texte
+## Style de texte
 
 | Champ | Description | Par défaut |
 |---|---|---|
-| **Couleur du texte** | Couleur de l'étiquette | Héritage du thème |
+| **Couleur du texte** | Couleur du texte de l'étiquette | Héritage du thème |
 | **Taille de police (px)** | Taille du texte | Héritage du thème |
-| **Graisse de police** | 100–900 ou Hériter | Hériter |
-| **Transformation du texte** | Aucune / Capitaliser / Majuscules / Minuscules | Aucune |
-| **Famille de police** | Google Font ou « Par défaut (Thème) » | Par défaut |
-| **Couleur de description** | Couleur de la ligne de description secondaire | 60 % d'opacité de la couleur du texte |
-| **Taille de description (px)** | Taille de police de la description | 70 % de la taille de police |
+| **Épaisseur de police** | Épaisseur : 100–900 ou Hériter | Hériter |
+| **Transformation du texte** | Aucun / Mettre en majuscule / Majuscules / Minuscules | Aucun |
+| **Famille de police** | Google Font ou "Défaut (Thème)" | Défaut |
+| **Couleur de la description** | Couleur de la ligne de description secondaire | 60 % d'opacité de la couleur du texte |
+| **Taille de la description (px)** | Taille de police de la ligne de description | 70 % de la taille de police |
 
 ---
 
-## Style d'icône / image
+## Style d'icône / d'image
 
 | Champ | Description | Par défaut |
 |---|---|---|
-| **Couleur d'icône** | Couleur d'icône vectorielle | Hérite la couleur du texte |
-| **Taille d'icône (px)** | Dimensions de l'icône | 22px |
-| **Espace texte-icône (px)** | Espacement entre icône et texte | Auto |
-| **Rayon d'image (px)** | Arrondi des coins pour les miniatures | 0 |
+| **Couleur de l'icône** | Couleur des icônes vectorielles | Hérite de la couleur du texte |
+| **Taille de l'icône (px)** | Dimensions de l'icône | 22px |
+| **Espace texte-icône (px)** | Espace entre l'icône et le texte | Auto |
+| **Rayon de l'image (px)** | Arrondi des coins pour les images miniatures | 0 |
 
 ---
 
@@ -39,23 +40,23 @@ Les paramètres dans **Conception → Niveau 1** s'appliquent à tous les élém
 
 | Champ | Description | Format |
 |---|---|---|
-| **Remplissage de l'élément (px)** | Espacement intérieur | `haut droite bas gauche` ou `mobile \| bureau` |
-| **Marge de l'élément (px)** | Espacement extérieur | `haut droite bas gauche` ou `mobile \| bureau` |
+| **Remplissage de l'élément (px)** | Espacement intérieur de chaque élément | `haut droite bas gauche` ou `mobile  bureau` |
+| **Marge de l'élément (px)** | Espacement extérieur de chaque élément | `haut droite bas gauche` ou `mobile  bureau` |
 
 ---
 
-## Arrière-plan et cadre
+## Arrière-plan & Cadre
 
 | Champ | Description | Par défaut |
 |---|---|---|
-| **Couleur d'arrière-plan** | Arrière-plan de l'élément | Transparent |
-| **Image d'arrière-plan** | URL d'image d'arrière-plan ou galerie | Aucune |
+| **Couleur d'arrière-plan** | Couleur d'arrière-plan de la zone de l'élément | Transparent |
+| **Image d'arrière-plan** | Image d'arrière-plan (URL ou galerie) | Aucun |
 | **Opacité** | Opacité de l'arrière-plan (0–100) | 100 |
-| **Masquer l'arrière-plan** | Masquer l'arrière-plan | Désactivé |
-| **Hauteur (px)** | Hauteur de la ligne | 50px |
+| **Masquer l'arrière-plan** | Masquer l'arrière-plan pour révéler l'arrière-plan de l'appareil | Désactivé |
+| **Hauteur (px)** | Hauteur de ligne de chaque élément | 50px |
 | **Rayon de bordure (px)** | Arrondi des coins | 0 |
-| **Ombre portée** | Ombre portée | Désactivée |
-| **Hauteur minimale (px)** | Hauteur minimale | Sans limite |
+| **Ombre portée** | Ombre portée sous les éléments | Désactivé |
+| **Hauteur minimale (px)** | Hauteur minimale de l'élément | Pas de limite |
 
 ---
 
@@ -64,9 +65,9 @@ Les paramètres dans **Conception → Niveau 1** s'appliquent à tous les élém
 | Champ | Description |
 |---|---|
 | **Disposition d'affichage** | Arrangement icône + texte : Auto / Haut-Bas / Gauche-Droite / Bas-Haut / Droite-Gauche / Icône uniquement / Texte uniquement / Vide |
-| **Alignement** | Alignement du contenu : Auto / Gauche / Centre / Droite |
-| **Masquer le texte** | Masquer toutes les étiquettes de texte |
-| **Afficher la flèche d'expansion** | Afficher la flèche d'expansion sur les éléments parents |
+| **Aligner** | Alignement du contenu : Auto / Gauche / Centre / Droite |
+| **Masquer le texte** | Masquer toutes les étiquettes de texte — icône uniquement |
+| **Afficher la flèche d'expansion** | Afficher la flèche d'expansion sur les éléments parents avec enfants |
 
 ---
 
@@ -74,10 +75,12 @@ Les paramètres dans **Conception → Niveau 1** s'appliquent à tous les élém
 
 | Champ | Description |
 |---|---|
-| **Couleur du badge** | Couleur d'arrière-plan du badge/point |
+| **Couleur du badge** | Couleur d'arrière-plan pour le badge/dot de notification sur les éléments |
 
 ---
 
-## Modèles de couleurs
+## Modèles de couleur
 
-Palettes prédéfinies : **Clair, Sombre, Océan, Sable, Rose, Forêt**. La sélection d'une palette remplit automatiquement les valeurs de couleur.
+Navi+ inclut des palettes de couleurs prédéfinies : **Clair, Sombre, Océan, Sable, Rose, Forêt**.
+
+Sélectionner un modèle remplit automatiquement les valeurs de couleur courantes. Vous pouvez ajuster les champs individuels après application.

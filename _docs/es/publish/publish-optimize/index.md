@@ -1,12 +1,13 @@
 ---
-description: Optimiza la velocidad y UX después de publicar menús Navi+ — previene el flash del contenido original al usar Insertar/Reemplazar o disparadores de CSS Selector.
+description: Optimizar la velocidad y la UX después de publicar menús de Navi+ — prevenir el parpadeo del contenido original al usar Insertar/Reemplazar o activadores de Selector CSS.
+lang: es
 layout: default
 permalink: /es/docs/publish/publish-optimize/
-title: Publish optimize — Velocidad & UX
+title: Publicar optimizar — Velocidad y UX
 ---
-# Publish Optimize — Velocidad & UX
+# Publicar Optimizar — Velocidad y UX
 
-Al usar **Insertar/Reemplazar** (menú Section) o **disparador de CSS Selector** (menú Slide), el sitio web necesita un breve momento para cargar Navi+. Durante ese tiempo, el elemento original (el menú antiguo del tema) sigue siendo visible — causando un **flash** o desplazamiento del diseño.
+Cuando se utiliza **Insertar/Reemplazar** (menú de sección) o **activador de Selector CSS** (menú deslizante), el sitio web necesita un breve momento para cargar Navi+. Durante ese tiempo, el elemento original (el antiguo menú del tema) sigue siendo visible — causando un **parpadeo** o cambio de diseño.
 
 ---
 
@@ -14,37 +15,37 @@ Al usar **Insertar/Reemplazar** (menú Section) o **disparador de CSS Selector**
 
 | Método | ¿Necesita optimización? |
 |---|---|
-| Sticky / FAB (App Embeds / `<head>`) | No — el menú se agrega al DOM, nada se reemplaza |
-| Menú Slide — Método 1 (abrir desde elemento Navi+) | No — el botón disparador es un elemento Navi+ |
-| **Menú Slide — Método 2 (disparador CSS Selector)** | **Sí** — el elemento disparador original sigue visible hasta que Navi+ carga |
-| **Section — Reemplazar** | **Sí** — el menú original se muestra primero, luego es reemplazado por Navi+ |
-| Section — Insertar antes/después | No requerido — dos menús aparecen uno junto al otro |
+| Sticky / FAB (Incrustaciones de App / `<head>`) | No — el menú se agrega al DOM, nada se reemplaza |
+| Menú deslizante — Método 1 (abrir desde el elemento de Navi+) | No — el botón de activación es un elemento de Navi+ |
+| **Menú deslizante — Método 2 (activador de Selector CSS)** | **Sí** — el elemento de activación original permanece visible hasta que se carga Navi+ |
+| **Sección — Reemplazar** | **Sí** — el menú original se muestra primero, luego es reemplazado por Navi+ |
+| Sección — Insertar Antes/Después | No requerido — dos menús aparecen uno al lado del otro |
 
 ---
 
-## Técnica: Ocultar el elemento original mediante CSS
+## Técnica: Ocultar el elemento original a través de CSS
 
 ### Cómo funciona
 
-1. Usar CSS para ocultar el elemento original inmediatamente (antes de que Navi+ cargue).
-2. Opcionalmente mostrar un marcador de posición de carga para evitar el desplazamiento del diseño.
+1. Usa CSS para ocultar el elemento original inmediatamente (antes de que se cargue Navi+).
+2. Opcionalmente muestra un marcador de carga para prevenir el cambio de diseño.
 3. Navi+ elimina o reemplaza automáticamente el elemento cuando está listo — el diseño se estabiliza.
 
 ### Implementación
 
-**Agregar CSS para ocultar el elemento original** (pegar en CSS personalizado del tema o `<head>`):
+**Agregar CSS para ocultar el elemento original** (pegar en el CSS personalizado del tema o `<head>`):
 
 ```css
-/* Ocultar menú original mientras Navi+ carga */
+/* Ocultar menú original mientras se carga Navi+ */
 nav.header__inline-menu ul.list-menu {
   visibility: hidden;
-  min-height: 44px; /* reservar espacio para evitar desplazamiento del diseño */
+  min-height: 44px; /* reservar espacio para prevenir cambio de diseño */
 }
 ```
 
 Una vez que Navi+ reemplaza el elemento, este CSS no tiene efecto — el elemento se elimina del DOM.
 
-**Con marcador de posición de carga** (avanzado):
+**Con marcador de carga** (avanzado):
 ```css
 nav.header__inline-menu ul.list-menu {
   visibility: hidden;
@@ -61,20 +62,20 @@ nav.header__inline-menu ul.list-menu::before {
 
 ---
 
-## Caso especial: Menú Slide con disparador de CSS Selector
+## Caso especial: Menú deslizante con activador de Selector CSS
 
-Cuando un menú Slide usa un disparador de CSS Selector (Método 2), el elemento disparador original (por ejemplo, el botón hamburguesa del tema) sigue siendo visible y **sigue funcionando** (abre el panel deslizante del tema) hasta que Navi+ carga y anula el evento.
+Cuando un menú deslizante utiliza un activador de Selector CSS (Método 2), el elemento de activación original (por ejemplo, el botón de hamburguesa del tema) sigue siendo visible y **sigue funcionando** (abre el panel deslizante del tema) hasta que se carga Navi+ y anula el evento.
 
-### Solución A: Ocultar el elemento original, usar elemento Navi+ como disparador en su lugar
+### Solución A: Ocultar el elemento original, usar el elemento de Navi+ como activador en su lugar
 
 ```css
-/* Ocultar botón hamburguesa del tema */
+/* Ocultar botón de hamburguesa del tema */
 #Details-menu-drawer-container {
   display: none !important;
 }
 ```
 
-Luego usa el **Método 1** (abrir desde elemento Navi+) en lugar del Método 2 — más limpio, sin flash del que preocuparse.
+Luego usa **Método 1** (abrir desde el elemento de Navi+) en lugar del Método 2 — más limpio, sin parpadeo de qué preocuparse.
 
 ### Solución B: Desvanecer el elemento original
 
@@ -86,15 +87,15 @@ Luego usa el **Método 1** (abrir desde elemento Navi+) en lugar del Método 2 �
 }
 ```
 
-Agrega JS: cuando Navi+ esté listo (evento `naviReady`), elimina el estilo de ocultamiento para restaurar la visibilidad del elemento original.
+Agregar JS: cuando Navi+ esté listo (`naviReady` evento), eliminar el estilo de ocultación para restaurar la visibilidad del elemento original.
 
 ---
 
-## Notas generales de velocidad
+## Notas generales sobre velocidad
 
-- `start.js` carga con `async` — no bloquea el renderizado de la página.
-- La configuración JSON del menú está en caché en Cloudflare CDN — carga rápida desde el nodo edge más cercano.
-- Sin renderizado del lado del servidor para los visitantes — todo el renderizado del menú es del lado del cliente desde JSON estático.
+- `start.js` se carga con `async` — no bloquea el renderizado de la página.
+- La configuración JSON del menú se almacena en caché en Cloudflare CDN — carga rápida desde el nodo de borde más cercano.
+- No hay renderizado del lado del servidor para los visitantes — todo el renderizado del menú es del lado del cliente a partir de JSON estático.
 
 Para precargar el script para máxima velocidad:
 ```html

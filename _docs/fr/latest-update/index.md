@@ -1,64 +1,64 @@
 ---
-description: Les nouveautés de Navi+ — fonctionnalités, améliorations et correctifs par mois.
+description: What's new in Navi+ — features, improvements, and fixes by month.
 lang: fr
 layout: default
 permalink: /fr/docs/latest-update/
-title: Changelog / Notes de version
+title: Changelog / Release Notes
 ---
-# Changelog / Notes de version
+# Changelog / Release Notes
 
-### Avril 2026
+### April 2026
 
-- **Menus multilingues** automatiques — Navi+ détecte la langue du visiteur et change les libellés instantanément, sans configuration supplémentaire.
-- **Tab Slide** — nouvelle option de mise en page qui regroupe les éléments en onglets horizontaux plutôt qu'en liste plate (ex : onglets Homme / Femme / Soldes dans un menu coulissant).
-- **Modèles de couleurs** — sélecteur de couleurs repensé avec des palettes prédéfinies. Appliquer votre couleur de marque en quelques secondes.
-- **Panneau de paramètres unifié** — toutes les options avancées (animations, retour tactile, icônes, classes CSS) regroupées au même endroit.
-- **WordPress** — intégration plus rapide, moins de conflits avec Elementor, Divi et WPBakery.
-
----
-
-### Mars 2026
-
-- **En-têtes de section** peuvent désormais lier vers une page et développer les enfants simultanément — appuyer pour développer, cliquer la flèche pour naviguer.
-- **Grid Menu** — correction des problèmes de mise en page sur les petits écrans, affichage cohérent sur toutes les tailles de téléphone.
-- **Couleurs de séparateurs personnalisées** — les séparateurs et le surlignage tactile peuvent être définis sur n'importe quelle couleur.
+- **Multi-language menus** now work automatically — Navi+ detects the visitor's language and switches menu labels instantly, no extra setup needed.
+- **Tab Slide** — new layout option that groups menu items into horizontal tabs instead of a flat list (e.g. Men / Women / Sale tabs inside a slide menu).
+- **Color templates** — redesigned color picker with preset palettes. Apply your brand color to the entire menu in seconds.
+- **Unified settings panel** — all advanced options (animations, touch feedback, icons, reusable CSS classes) are now in one place.
+- **WordPress** — faster embed, fewer conflicts with Elementor, Divi, and WPBakery.
 
 ---
 
-### Février 2026
+### March 2026
 
-- **Z-index automatique** — Navi+ détecte l'apparition du tiroir panier, de la superposition de recherche ou de la bannière cookie et recule automatiquement.
-- **Slide Horizontal** — nouvelle direction de glissement, les panneaux de niveau 2 glissent depuis la droite comme une app iOS native.
-- **Popup Export / Import** — sauvegardez, déplacez ou dupliquez toute la configuration du menu en JSON en quelques secondes.
-- **Chargement différé des images** — les images dans les menus ne se chargent que lorsqu'elles sont visibles, accélérant le chargement initial.
-- **Support des emojis** — ajoutez des emojis directement aux libellés des éléments de menu.
+- **Section headers** can now both link to a page and expand children at the same time — tap to expand, click the arrow to navigate.
+- **Grid Menu** layout edge cases on small screens fixed for consistent rendering across all phone sizes.
+- **Custom separator colors** — separator lines and touch-highlight colors inside menus can now be set to any color.
 
 ---
 
-### Janvier 2026
+### February 2026
 
-- **Type de menu Slide Horizontal** — conçu pour les arborescences profondes sur mobile. Chaque niveau glisse depuis la droite ; bouton retour et en-tête se mettent à jour automatiquement.
-- **Templates d'éléments** — sauvegardez une structure de menu une fois, réutilisez-la dans n'importe quel menu en un clic.
-- **IA Import / Export** — collez une liste de liens ou un sitemap et Navi+ génère l'arborescence complète. Ou exportez en JSON, modifiez avec une IA, réimportez.
-- **Mode Debug** — superpose les valeurs z-index, les limites de menu et les sélecteurs CSS sur votre site en direct depuis le tableau de bord.
-- **Mise à niveau CDN** — infrastructure passée au réseau edge Cloudflare R2, second CDN de basculement ajouté.
-
----
-
-### Décembre 2025
-
-- **Toutes les plateformes** — Navi+ fonctionne désormais sur WordPress, WooCommerce, Wix, Webflow, Squarespace et tout site acceptant une balise `<script>`. Même tableau de bord et mêmes types de menus que sur Shopify.
-- **Localisation du tableau de bord** — l'interface Navi+ est maintenant disponible en plusieurs langues.
+- **Z-index auto-fix** — Navi+ now detects when your store's panels (cart drawer, search overlay, cookie banner) appear and steps behind them automatically.
+- **Slide Horizontal** — new slide direction where level-2 panels slide in from the right, like a native iOS app.
+- **Export / Import popup** — back up, move, or duplicate your entire menu configuration as JSON in seconds.
+- **Lazy image loading** — images in menus load only when visible, improving initial page load.
+- **Emoji support** — add emoji directly to any menu item label.
 
 ---
 
-### Novembre 2025
+### January 2026
 
-- **Correction du clignotement** — correction du bug où l'auto-affichage/masquage clignotait aux bords de la page sur certains appareils.
+- **Slide Horizontal menu type** — built for deep navigation trees on mobile. Each level slides in from the right; back button and header update automatically.
+- **Item templates** — save a menu structure once and reuse it in any menu with one click.
+- **AI Import / Export** — paste a link list or sitemap and Navi+ generates the full menu tree. Or export as JSON, edit in an AI tool, import back.
+- **Debug Mode** — overlays z-index values, menu boundaries, and CSS selector highlights on your live site directly from the dashboard.
+- **CDN upgrade** — infrastructure upgraded to Cloudflare R2 edge network with a second failover CDN added.
 
 ---
 
-### Octobre 2025
+### December 2025
 
-- **CDN Cloudflare** — tous les assets migrés vers le réseau edge mondial de Cloudflare. Temps de chargement moyen des menus réduit à ~52ms.
-- **Failover Elite** — le plan Elite bénéficie d'un second basculement BunnyCDN. SLA mis à niveau à 99,99%.
+- **All platforms** — Navi+ now runs on WordPress, WooCommerce, Wix, Webflow, Squarespace, and any site that accepts a `<script>` tag. Same dashboard, same menu types as on Shopify.
+- **Dashboard localization** — the Navi+ dashboard UI is now available in multiple languages.
+
+---
+
+### November 2025
+
+- **Auto-hide flicker fix** — fixed a bug where the auto-hide/auto-show behavior would flicker at the page top and bottom edges on some devices.
+
+---
+
+### October 2025
+
+- **Cloudflare CDN** — all Navi+ assets migrated to Cloudflare's global edge network. Average menu load time dropped to ~52ms.
+- **Elite failover** — Elite plan users get a secondary BunnyCDN fallback, keeping menus online if one CDN goes down. SLA upgraded to 99.99%.

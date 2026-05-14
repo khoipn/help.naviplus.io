@@ -1,24 +1,25 @@
 ---
-description: Optimisez la vitesse et l'UX après la publication des menus Navi+ — prévenez le flash du contenu original lors de l'utilisation d'Insérer/Remplacer ou de déclencheurs CSS Selector.
+description: Optimisez la vitesse et l'UX après la publication des menus Navi+ — évitez le flash du contenu original lors de l'utilisation des déclencheurs Insérer/Remplacer ou Sélecteur CSS.
+lang: fr
 layout: default
 permalink: /fr/docs/publish/publish-optimize/
-title: Publish optimize — Vitesse & UX
+title: Publier optimiser — Vitesse & UX
 ---
-# Publish Optimize — Vitesse & UX
+# Publier Optimiser — Vitesse & UX
 
-Lors de l'utilisation d'**Insérer/Remplacer** (menu Section) ou d'un **déclencheur CSS Selector** (menu Slide), le site web a besoin d'un bref moment pour charger Navi+. Pendant ce temps, l'élément original (l'ancien menu du thème) est encore visible — causant un **flash** ou un décalage de mise en page.
+Lorsque vous utilisez **Insérer/Remplacer** (menu Section) ou **déclencheur Sélecteur CSS** (menu Slide), le site Web a besoin d'un bref moment pour charger Navi+. Pendant ce temps, l'élément original (l'ancien menu du thème) est toujours visible — provoquant un **flash** ou un décalage de mise en page.
 
 ---
 
 ## Quand l'optimisation est-elle nécessaire ?
 
-| Méthode | Optimisation nécessaire ? |
+| Méthode | Besoin d'optimisation ? |
 |---|---|
 | Sticky / FAB (App Embeds / `<head>`) | Non — le menu est ajouté au DOM, rien n'est remplacé |
-| Menu Slide — Méthode 1 (ouvrir depuis un élément Navi+) | Non — le bouton déclencheur est un élément Navi+ |
-| **Menu Slide — Méthode 2 (déclencheur CSS Selector)** | **Oui** — l'élément déclencheur original reste visible jusqu'au chargement de Navi+ |
+| Menu Slide — Méthode 1 (ouvrir depuis un élément Navi+) | Non — le bouton de déclenchement est un élément Navi+ |
+| **Menu Slide — Méthode 2 (déclencheur Sélecteur CSS)** | **Oui** — l'élément de déclenchement original reste visible jusqu'à ce que Navi+ se charge |
 | **Section — Remplacer** | **Oui** — le menu original s'affiche d'abord, puis est remplacé par Navi+ |
-| Section — Insérer avant/après | Non requis — deux menus apparaissent côte à côte |
+| Section — Insérer Avant/Après | Non requis — deux menus apparaissent côte à côte |
 
 ---
 
@@ -26,13 +27,13 @@ Lors de l'utilisation d'**Insérer/Remplacer** (menu Section) ou d'un **déclenc
 
 ### Comment ça fonctionne
 
-1. Utiliser CSS pour masquer l'élément original immédiatement (avant le chargement de Navi+).
-2. Optionnellement afficher un placeholder de chargement pour éviter le décalage de mise en page.
-3. Navi+ supprime ou remplace automatiquement l'élément quand il est prêt — la mise en page se stabilise.
+1. Utilisez CSS pour masquer l'élément original immédiatement (avant que Navi+ ne se charge).
+2. Optionnellement, montrez un espace réservé de chargement pour éviter le décalage de mise en page.
+3. Navi+ supprime ou remplace automatiquement l'élément lorsque prêt — la mise en page se stabilise.
 
-### Implémentation
+### Mise en œuvre
 
-**Ajouter du CSS pour masquer l'élément original** (coller dans le CSS personnalisé du thème ou `<head>`) :
+**Ajoutez CSS pour masquer l'élément original** (collez dans le CSS personnalisé du thème ou `<head>`) :
 
 ```css
 /* Masquer le menu original pendant le chargement de Navi+ */
@@ -42,9 +43,9 @@ nav.header__inline-menu ul.list-menu {
 }
 ```
 
-Une fois que Navi+ remplace l'élément, ce CSS n'a plus d'effet — l'élément est supprimé du DOM.
+Une fois que Navi+ remplace l'élément, ce CSS n'a aucun effet — l'élément est supprimé du DOM.
 
-**Avec placeholder de chargement** (avancé) :
+**Avec espace réservé de chargement** (avancé) :
 ```css
 nav.header__inline-menu ul.list-menu {
   visibility: hidden;
@@ -61,11 +62,11 @@ nav.header__inline-menu ul.list-menu::before {
 
 ---
 
-## Cas particulier : Menu Slide avec déclencheur CSS Selector
+## Cas particulier : Menu Slide avec déclencheur Sélecteur CSS
 
-Quand un menu Slide utilise un déclencheur CSS Selector (Méthode 2), l'élément déclencheur original (par exemple le bouton hamburger du thème) reste visible et **fonctionne encore** (ouvre le panneau slide du thème) jusqu'à ce que Navi+ se charge et prenne le contrôle de l'événement.
+Lorsqu'un menu Slide utilise un déclencheur Sélecteur CSS (Méthode 2), l'élément de déclenchement original (par exemple, le bouton hamburger du thème) est toujours visible et **fonctionne toujours** (ouvre le panneau latéral du thème) jusqu'à ce que Navi+ se charge et remplace l'événement.
 
-### Solution A : Masquer l'élément original, utiliser un élément Navi+ comme déclencheur
+### Solution A : Masquer l'élément original, utiliser un élément Navi+ comme déclencheur à la place
 
 ```css
 /* Masquer le bouton hamburger du thème */
@@ -74,9 +75,9 @@ Quand un menu Slide utilise un déclencheur CSS Selector (Méthode 2), l'éléme
 }
 ```
 
-Puis utilisez la **Méthode 1** (ouvrir depuis un élément Navi+) au lieu de la Méthode 2 — plus propre, pas de flash à gérer.
+Ensuite, utilisez **Méthode 1** (ouvrir depuis un élément Navi+) au lieu de la Méthode 2 — plus propre, pas de flash à craindre.
 
-### Solution B : Estomper l'élément original
+### Solution B : Faire disparaître l'élément original
 
 ```css
 #Details-menu-drawer-container {
@@ -86,15 +87,15 @@ Puis utilisez la **Méthode 1** (ouvrir depuis un élément Navi+) au lieu de la
 }
 ```
 
-Ajoutez du JS : quand Navi+ est prêt (événement `naviReady`), supprimez le style de masquage pour restaurer la visibilité de l'élément original.
+Ajoutez JS : lorsque Navi+ est prêt (`naviReady` événement), supprimez le style de masquage pour restaurer la visibilité de l'élément original.
 
 ---
 
 ## Notes générales sur la vitesse
 
 - `start.js` se charge avec `async` — ne bloque pas le rendu de la page.
-- La configuration JSON du menu est mise en cache sur Cloudflare CDN — chargement rapide depuis le nœud edge le plus proche.
-- Pas de rendu côté serveur pour les visiteurs — tout le rendu du menu est côté client depuis du JSON statique.
+- La configuration JSON du menu est mise en cache sur Cloudflare CDN — chargement rapide depuis le nœud de bord le plus proche.
+- Pas de rendu côté serveur pour les visiteurs — tout le rendu du menu se fait côté client à partir de JSON statique.
 
 Pour précharger le script pour une vitesse maximale :
 ```html

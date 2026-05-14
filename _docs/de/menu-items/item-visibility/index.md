@@ -1,52 +1,53 @@
 ---
-description: So steuern Sie, wann und für wen ein Menüelement in Navi+ sichtbar ist — Veröffentlichungsstatus, Login-Bedingungen und seitenbasiertes Ausblenden.
+description: Wie Sie steuern, wann und für wen ein Menüelement in Navi+ sichtbar ist – veröffentlichter Zustand, Anmeldebedingungen und seitenbasiertes Ausblenden.
+lang: de
 layout: default
 permalink: /de/docs/menu-items/item-visibility/
 title: Sichtbarkeit & Bedingungen
 ---
 # Sichtbarkeit & Bedingungen
 
-Der Abschnitt **Veröffentlichen** im Bearbeitungspanel ermöglicht Ihnen zu steuern, wer ein Element sieht, wann und auf welchen Seiten.
+Die **Veröffentlichen**-Sektion im Bearbeiten-Element-Panel ermöglicht es Ihnen, zu steuern, wer ein Element sieht, wann und auf welchen Seiten.
 
 ---
 
-## Veröffentlicht
+## Ist veröffentlicht
 
-**Standard: an (Element ist für alle sichtbar).**
+**Standard: ein (Element ist für alle sichtbar).**
 
-Deaktivieren Sie dies, um das Element im Live-Menü auszublenden, ohne es zu löschen. Das Element bleibt im Editor — Sie können es jederzeit wieder aktivieren.
+Schalten Sie dies aus, um das Element im Live-Menü auszublenden, ohne es zu löschen. Das Element bleibt im Editor – Sie können es jederzeit wieder aktivieren.
 
-**Verwenden wenn:**
-- Ein saisonales Angebot vorübergehend ausgeblendet werden soll.
-- Ein Element vorbereitet wird, bevor es live geht.
-- Ein Backup-Element ohne Löschen aufbewahrt wird.
+**Verwenden, wenn:**
+- Temporäres Ausblenden eines saisonalen Verkaufslinks.
+- Vorbereitung eines Elements, bevor es live geht.
+- Behalten eines Backup-Elements, ohne es zu löschen.
 
 ---
 
-## Ausblenden wenn eingeloggt
+## Ausblenden, wenn angemeldet
 
-Wenn aktiviert, ist das Element **nur für nicht eingeloggte Besucher sichtbar**.
+Wenn aktiviert, ist das Element **nur für Besucher sichtbar, die nicht angemeldet sind**.
 
 **Verwenden für:**
-- Einen „Einloggen"-Button — Kunden, die bereits eingeloggt sind, brauchen ihn nicht.
-- Einen „Konto erstellen"-Link.
+- Einen "Anmelden"-Button – Kunden, die bereits angemeldet sind, benötigen ihn nicht.
+- Einen "Konto erstellen"-Link.
 
 ---
 
-## Nur anzeigen wenn eingeloggt
+## Nur anzeigen, wenn angemeldet
 
-Wenn aktiviert, ist das Element **nur für eingeloggte Kunden sichtbar**.
+Wenn aktiviert, ist das Element **nur für angemeldete Kunden sichtbar**.
 
 **Verwenden für:**
-- „Mein Konto"-Link.
+- "Mein Konto"-Link.
 - Treuepunkte, Bestellhistorie.
-- Funktionen für Mitglieder.
+- Funktionen, die für Mitglieder reserviert sind.
 
 ---
 
 ## Auf bestimmten Seitentypen ausblenden (hidepages)
 
-Verwenden Sie das Attribut `hidepages` unter **Erweitert → Attribute**, um ein Element auf bestimmten Seitentypen auszublenden.
+Verwenden Sie das `hidepages`-Attribut in **Erweitert → Attribute**, um ein Element auf bestimmten Seitentypen auszublenden.
 
 **Syntax:**
 
@@ -56,18 +57,18 @@ hidepages=index|products
 hidepages=index|products|collections|pages|blogs|others
 ```
 
-| Wert | Seiten, auf denen ausgeblendet wird |
+| Wert | Auf welchen Seiten ausgeblendet |
 |---|---|
 | `index` | Startseite |
 | `products` | Produktdetailseiten |
-| `collections` | Kollektions- / Kategorieseiten |
-| `pages` | Statische Seiten (Über uns, Kontakt…) |
-| `blogs` | Blog-Liste und Beitragsseiten |
-| `others` | Jede Seite, die nicht in den obigen Kategorien ist |
+| `collections` | Sammlungs-/Kategorieseiten |
+| `pages` | Statische Seiten (Über, Kontakt…) |
+| `blogs` | Blog-Listen- und Beitragsseiten |
+| `others` | Jede Seite, die nicht in den oben genannten Kategorien ist |
 
-Mehrere Werte mit `|` trennen, keine Leerzeichen.
+Trennen Sie mehrere Werte mit `|`, keine Leerzeichen.
 
-**Beispiel:** „Jetzt kaufen"-Button auf der Startseite und Blog-Seiten ausblenden:
+**Beispiel:** Blenden Sie einen "Jetzt kaufen"-Button auf der Startseite und Blogseiten aus:
 
 ```
 hidepages=index|blogs
@@ -77,20 +78,21 @@ hidepages=index|blogs
 
 ## Nach Gerät ausblenden (Mobil / Desktop)
 
-> **Wichtig:** Navi+ hat keinen Ein-/Aus-Schalter pro Element für Mobil/Desktop. Die Gerätesteuerung erfolgt auf **Menü-Ebene**, nicht auf Element-Ebene.
+> **Wichtig:** Navi+ hat keinen pro-Element-Mobil-/Desktop-Umschalter. Die Geräteausrichtung wird auf **Menüebene** gesteuert, nicht auf Elementebene.
 
 **Der richtige Ansatz:**
-- Gehen Sie zum Tab **Veröffentlichen** des Menüs → schalten Sie **Mobil** und **Desktop** für das gesamte Menü um.
-- Erstellen Sie zwei separate Menüs — eines für Mobil, eines für Desktop.
 
-**Workaround pro Element (wenn wirklich nötig):**  
-Verwenden Sie **Erweitert → CSS** mit einer Media Query:
+- Gehen Sie zum **Veröffentlichen**-Tab des Menüs → schalten Sie **Mobil** und **Desktop** für das gesamte Menü um.
+- Erstellen Sie zwei separate Menüs – eines für Mobilgeräte, eines für Desktop – und setzen Sie den Geräteumschalter für jedes.
+
+**Pro-Element-Workaround (falls wirklich benötigt):**  
+Verwenden Sie **Erweitert → CSS** mit einer Medienabfrage:
 
 ```css
-/* Nur auf Mobil ausblenden */
+/* Blenden Sie dieses Element nur auf Mobilgeräten aus */
 @media (max-width: 767px) { display: none !important; }
 
-/* Nur auf Desktop ausblenden */
+/* Blenden Sie dieses Element nur auf Desktop aus */
 @media (min-width: 768px) { display: none !important; }
 ```
 
@@ -98,11 +100,11 @@ Verwenden Sie **Erweitert → CSS** mit einer Media Query:
 
 ## Zusammenfassung
 
-| Bedingung | Einstellung |
+| Bedingung | Wie man es einstellt |
 |---|---|
-| Vollständig ausblenden | Veröffentlicht → aus |
-| Vor eingeloggten Nutzern ausblenden | Ausblenden wenn eingeloggt → an |
-| Vor Gästen ausblenden | Nur anzeigen wenn eingeloggt → an |
-| Auf Startseite ausblenden | Attribute: `hidepages=index` |
-| Auf Mobil ausblenden | CSS: `@media (max-width: 767px) { display: none !important; }` |
+| Vollständig ausblenden | Ist veröffentlicht → aus |
+| Ausblenden von angemeldeten Benutzern | Ausblenden, wenn angemeldet → ein |
+| Ausblenden von Gästen | Nur anzeigen, wenn angemeldet → ein |
+| Auf der Startseite ausblenden | Attribute: `hidepages=index` |
+| Auf Mobilgeräten ausblenden | CSS: `@media (max-width: 767px) { display: none !important; }` |
 | Auf Desktop ausblenden | CSS: `@media (min-width: 768px) { display: none !important; }` |

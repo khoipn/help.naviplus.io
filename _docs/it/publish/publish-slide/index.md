@@ -1,36 +1,37 @@
 ---
-description: Pubblica menu Slide (Context) in Navi+ — attiva l'interruttore e poi configura un trigger per aprire il menu.
+description: Pubblica i menu Slide (Contestuale) in Navi+ — abilita l'interruttore e poi configura un attivatore per aprire il menu.
+lang: it
 layout: default
 permalink: /it/docs/publish/publish-slide/
-title: Publish slide — Menu context slide
+title: Pubblica slide — Menu contestuale
 ---
-# Publish Slide — Menu Context Slide
+# Pubblica Slide — Menu Contestuale
 
-Si applica a: **Menu Context Slide**
+Si applica a: **Menu Slide contestuale**
 
-I menu Slide sono **diversi dagli Sticky**: dopo la pubblicazione, il menu **non appare automaticamente** sulla pagina. Si apre solo quando viene attivato da un'azione. Questa è la distinzione chiave rispetto ai menu Sticky.
+I menu slide sono **diversi dai Sticky**: dopo la pubblicazione, il menu **non appare automaticamente** sulla pagina. Si apre solo quando attivato da un'azione. Questa è la distinzione chiave dai menu Sticky.
 
 ---
 
 ## Flusso di pubblicazione
 
 ```
-Passaggio 1: Incorporare il codice nel sito web
+Step 1: Incorpora il codice nel sito web
         ↓
-Passaggio 2: Attivare l'interruttore "Pubblica questo menu"
+Step 2: Abilita l'interruttore "Pubblica questo menu"
         ↓
-Passaggio 3: Configurare il trigger (come aprire il menu)
+Step 3: Configura l'attivatore (come aprire il menu)
 ```
 
-Dopo il Passaggio 2, il menu viene caricato sul sito web ma **in stato nascosto**. Il Passaggio 3 decide cosa lo apre.
+Dopo il Passo 2, il menu è caricato sul sito web ma **in uno stato nascosto**. Il Passo 3 decide cosa lo apre.
 
 ---
 
-## Passaggio 1: Codice di incorporamento
+## Passo 1: Incorpora il codice
 
-**Shopify:** Vai su **Theme Editor → App Embeds** → attiva Navi+. Solo una volta.
+**Shopify:** Vai su **Editor del tema → App Embeds** → abilita Navi+. Fai questo solo una volta.
 
-**Global:** Incolla nel `<head>`:
+**Globale:** Incolla in `<head>`:
 ```html
 <script>(window._navi_setting ||= []).push({
   token: "YOUR_NAVI_TOKEN"
@@ -40,89 +41,101 @@ Dopo il Passaggio 2, il menu viene caricato sul sito web ma **in stato nascosto*
 
 ---
 
-## Passaggio 2: Attivare l'interruttore
+## Passo 2: Abilita l'interruttore
 
-Attiva l'interruttore **"Pubblica questo menu"** nel modal Publish.
+Abilita l'**"Pubblica questo menu"** interruttore nel modulo di pubblicazione.
 
-> Dopo questo passaggio, il menu **non apparirà ancora** sul sito web. Questo è il comportamento previsto — i menu Slide richiedono un trigger per aprirsi.
-
----
-
-## Passaggio 3: Configurare il trigger
-
-Ci sono 4 modi per aprire un menu Slide:
+> Dopo questo passaggio, il menu **non apparirà** ancora sul sito web. Questo è previsto: i menu slide richiedono un attivatore per aprirsi.
 
 ---
 
-### Metodo 1: Aprire da un elemento di menu Navi+
+## Passo 3: Configura l'attivatore
 
-Usa la sintassi `open:NaviMenu(embed_id)` nel campo **Link** di qualsiasi elemento di menu.
+L'interfaccia dell'attivatore è divisa in due schede: **Impostazione mobile** e **Impostazione desktop**. I metodi possono essere combinati liberamente. Una zona **Per sviluppatori** si trova al di fuori delle schede.
 
-Esempio: Una Tabbar ha un elemento "Menu" → Link = `open:NaviMenu(ABC123)` → toccando quell'elemento si apre il menu Slide.
+---
 
-L'**embed_id** è mostrato nel modal e può essere copiato cliccandoci:
+### Metodo 1: Apri da un elemento del menu Navi+
+
+Usa la sintassi `open:NaviMenu(embed_id)` nel campo **Link** di qualsiasi elemento del menu. L'embed_id è mostrato nel modulo e può essere cliccato per copiare:
+
 ```
 open:NaviMenu(ABC123)
 ```
 
-Questo è l'approccio più comune — combinare Tabbar + menu Slide per estendere lo spazio di navigazione.
+Richiede **piano Business o superiore** (richiede 2+ menu).
+
+**Mobile — casi d'uso comuni:**
+- Un Tabbar con un primo elemento come "☰ Menu" che apre il menu Slide — **la configurazione più comune**
+- Un menu FAB & Supporto con un singolo elemento che apre il menu Slide
+- Un Mega menu Mobile con un elemento "☰ Menu" sotto l'intestazione
+
+**Desktop — casi d'uso comuni:**
+- Un Mega menu Desktop con un elemento "☰ Menu" — mantiene un'esperienza coerente con il mobile
+- Un Mega menu Desktop con un singolo elemento "☰" posizionato prima del logo — rispecchia l'hamburger mobile sul desktop (richiede un po' di CSS; [contattaci](mailto:support@naviplus.io) se hai bisogno di aiuto)
+- Un menu FAB & Supporto con un singolo elemento che apre il menu Slide
+- Un Tabbar con un elemento "☰ Menu"
 
 ---
 
-### Metodo 2: Aprire cliccando su un elemento della pagina (CSS Selector)
+### Metodo 2: Apri quando si clicca su un elemento (Selettore CSS)
 
-Inserisci uno o più selettori CSS, separati da virgole. Navi+ ascolta gli eventi di clic/tap sugli elementi corrispondenti e apre il menu Slide.
+Inserisci uno o più Selettori CSS, separati da virgole (`,`).
 
 **Sintassi specifica per dispositivo:**
 
 | Suffisso | Dispositivo |
 |---|---|
-| `#element` | Mobile e desktop |
+| `#element` | Sia mobile che desktop |
 | `#element(M)` | Solo mobile |
 | `#element(D)` | Solo desktop |
 
-**Esempi per il tema Shopify Dawn:**
+**Passo 1 — trova il tuo selettore:**
 
-| Scopo | CSS Selector |
-|---|---|
-| Sostituire il menu hamburger mobile | `#Details-menu-drawer-container` |
-| Selettori diversi per dispositivo | `#Details-menu-drawer-container(M), .desktop-menu-btn(D)` |
+*Su Shopify (Dawn, Craft, Spotlight...):*
+Prova `#Details-menu-drawer-container` per il menu hamburger mobile. Per altri temi, usa **Navi+ Debug Mode**: visita `yoursite.com/#navidebug-on`, passa sopra l'elemento, premi `Cmd/Ctrl+C` per copiare il suo selettore.
 
-> Dopo aver configurato un trigger CSS Selector, considera di nascondere l'elemento originale per evitare il flash — vedi [Publish Optimize](/it/docs/publish/publish-optimize/).
+*Su desktop:*
+Di solito non c'è un'icona hamburger — devi creare un attivatore cliccabile:
+- Aggiungi un elemento "☰ Menu" al tuo mega menu esistente
+- Oppure posiziona un'icona ☰ prima del logo usando HTML/CSS ([contattaci](mailto:support@naviplus.io) se hai bisogno di aiuto)
+
+**Passo 2 — ottimizza l'UX:**
+Una volta impostato, aggiungi un indicatore di caricamento all'elemento sostituito per evitare il lampeggiamento del layout — vedi [Ottimizza Pubblicazione](/docs/publish/publish-optimize/).
 
 ---
 
-### Metodo 3: Chiamare una funzione JavaScript
+### Avanzato (Desktop): Sidebar Fissa
 
-Chiama questa funzione da qualsiasi punto nel codice della pagina:
+Invece di aprire/chiudere, il menu Slide può essere visualizzato come una sidebar sempre visibile su desktop.
+
+**Come abilitare:** Vai su **Avanzato** → **Direzione di slide-in** → seleziona l'opzione Sidebar Fissa → abilita "Visualizza un menu fisso su desktop".
+
+Nessun attivatore necessario — il menu è sempre visibile su desktop.
+
+---
+
+### Per sviluppatori: Funzione JavaScript
+
+Chiama questa funzione da qualsiasi parte nel codice della pagina:
 
 ```javascript
 naviman.openNaviMenu('EMBED_ID')
 ```
 
-Adatto per integrare il menu Slide in un'interfaccia utente personalizzata senza un selettore fisso.
-
----
-
-### Metodo 4: Barra laterale fissa su desktop
-
-Invece di aprire/chiudere, il menu Slide può essere fissato come barra laterale sinistra permanente su desktop.
-
-**Come attivare:** Vai alla scheda **Advance** → seleziona la direzione **"Fissa a sinistra"**.
-
-Nessun trigger necessario — il menu è sempre visibile su desktop.
+Adatta per integrare il menu Slide in un'interfaccia personalizzata senza un selettore fisso.
 
 ---
 
 ## Risoluzione dei problemi
 
-**Interruttore attivato ma il menu non appare?**
-→ Comportamento corretto. I menu Slide necessitano di un trigger (Passaggio 3). Verifica che almeno un metodo sia configurato.
+**Interruttore abilitato ma il menu non appare?**
+→ Comportamento corretto. I menu slide necessitano di un attivatore (Passo 3). Controlla che almeno un metodo sia configurato.
 
-**CSS Selector non funziona?**
-1. Usa la **Modalità Debug Navi+** per trovare il selettore esatto dell'elemento.
-2. Verifica che l'elemento esista effettivamente sulla pagina (alcuni temi nascondono/rimuovono elementi a certi breakpoint).
-3. Prova ad aggiungere il suffisso `(M)` o `(D)` per separare per dispositivo.
+**Selettore CSS non funzionante?**
+1. Usa **Navi+ Debug Mode** per trovare il selettore esatto per l'elemento.
+2. Controlla che l'elemento esista effettivamente sulla pagina (alcuni temi nascondono/rimuovono elementi a determinati breakpoint).
+3. Prova ad aggiungere `(M)` o `(D)` suffisso per separare per dispositivo.
 
 **Vuoi più menu Slide sulla stessa pagina?**
-→ Crea menu separati, ognuno con un `embed_id` diverso, usando trigger diversi.
+→ Crea menu separati, ciascuno con un diverso `embed_id`, utilizzando attivatori diversi.

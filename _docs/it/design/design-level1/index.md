@@ -1,83 +1,86 @@
 ---
-description: Configura l'aspetto di tutti gli elementi di menu principale — colore testo, icone, spaziatura, sfondi e opzioni di visualizzazione al Design Livello 1.
+description: Configure the appearance of all primary menu items in Navi+ — text, icons, spacing, backgrounds, and display options at Design Level 1.
+lang: it
 layout: default
 permalink: /it/docs/design/design-level1/
-title: Design livello 1 — Elementi di menu principale
+title: Design level 1 — Main menu items
 ---
-# Design Livello 1 — Elementi di Menu Principale
+# Design Level 1 — Main Menu Items
 
-Le impostazioni in **Design → Livello 1** si applicano a tutti gli elementi del livello superiore. Questo è il livello base — il Livello 2-3 eredita, per elemento sovrascrive.
+Settings at **Design → Level 1** apply to all top-level items in your menu. This is the base layer — Level 2-3 inherits these values, and per-item settings override them.
 
 ---
 
-## Stile del testo
+## Text Style
 
-| Campo | Descrizione | Predefinito |
+| Field | Description | Default |
 |---|---|---|
-| **Colore testo** | Colore dell'etichetta | Eredita dal tema |
-| **Dimensione font (px)** | Dimensione del testo | Eredita dal tema |
-| **Spessore font** | 100–900 o Eredita | Eredita |
-| **Trasformazione testo** | Nessuna / Capitalizza / Maiuscolo / Minuscolo | Nessuna |
-| **Famiglia font** | Google Font o "Predefinito (Tema)" | Predefinito |
-| **Colore descrizione** | Colore della riga di descrizione secondaria | 60% di opacità del Colore testo |
-| **Dimensione descrizione (px)** | Dimensione font della descrizione | 70% della Dimensione font |
+| **Text Color** | Label text color | Theme inherit |
+| **Font Size (px)** | Text size | Theme inherit |
+| **Font Weight** | Thickness: 100–900 or Inherit | Inherit |
+| **Text Transform** | None / Capitalize / Uppercase / Lowercase | None |
+| **Font Family** | Google Font or "Default (Theme)" | Default |
+| **Description Color** | Color of the secondary description line | 60% opacity of Text Color |
+| **Description Size (px)** | Font size of the description line | 70% of Font Size |
 
 ---
 
-## Stile icona / immagine
+## Icon / Image Style
 
-| Campo | Descrizione | Predefinito |
+| Field | Description | Default |
 |---|---|---|
-| **Colore icona** | Colore dell'icona vettoriale | Eredita il Colore testo |
-| **Dimensione icona (px)** | Dimensioni dell'icona | 22px |
-| **Spazio testo-icona (px)** | Distanza tra icona e testo | Auto |
-| **Raggio immagine (px)** | Arrotondamento angoli per immagini in miniatura | 0 |
+| **Icon Color** | Color of vector icons | Inherits Text Color |
+| **Icon Size (px)** | Icon dimensions | 22px |
+| **Space Text-Icon (px)** | Gap between icon and text | Auto |
+| **Image Radius (px)** | Corner rounding for thumbnail images | 0 |
 
 ---
 
-## Spaziatura
+## Spacing
 
-| Campo | Descrizione | Formato |
+| Field | Description | Format |
 |---|---|---|
-| **Padding elemento (px)** | Spaziatura interna | `sopra destra sotto sinistra` o `mobile \| desktop` |
-| **Margin elemento (px)** | Spaziatura esterna | `sopra destra sotto sinistra` o `mobile \| desktop` |
+| **Item Padding (px)** | Inner spacing of each item | `top right bottom left` or `mobile \| desktop` |
+| **Item Margin (px)** | Outer spacing of each item | `top right bottom left` or `mobile \| desktop` |
 
 ---
 
-## Sfondo e cornice
+## Background & Frame
 
-| Campo | Descrizione | Predefinito |
+| Field | Description | Default |
 |---|---|---|
-| **Colore sfondo** | Sfondo dell'elemento | Trasparente |
-| **Immagine sfondo** | URL immagine di sfondo o galleria | Nessuna |
-| **Opacità** | Opacità sfondo (0–100) | 100 |
-| **Nascondi sfondo** | Nasconde lo sfondo | Disattivato |
-| **Altezza (px)** | Altezza della riga | 50px |
-| **Raggio bordo (px)** | Arrotondamento angoli | 0 |
-| **Ombra** | Ombra esterna | Disattivata |
-| **Altezza minima (px)** | Altezza minima | Nessun limite |
+| **Background Color** | Background color of the item area | Transparent |
+| **Background Image** | Background image (URL or gallery) | None |
+| **Opacity** | Background opacity (0–100) | 100 |
+| **Hide Background** | Hide background to reveal the device background | Off |
+| **Height (px)** | Row height of each item | 50px |
+| **Border Radius (px)** | Corner rounding | 0 |
+| **Drop Shadow** | Drop shadow below items | Off |
+| **Min Height (px)** | Minimum item height | No limit |
 
 ---
 
-## Visualizzazione
+## Display
 
-| Campo | Descrizione |
+| Field | Description |
 |---|---|
-| **Layout di visualizzazione** | Disposizione icona + testo: Auto / Dall'alto in basso / Da sinistra a destra / Dal basso in alto / Da destra a sinistra / Solo icona / Solo testo / Vuoto |
-| **Allineamento** | Allineamento del contenuto: Auto / Sinistra / Centro / Destra |
-| **Nascondi testo** | Nasconde tutte le etichette di testo |
-| **Mostra freccia di espansione** | Mostra la freccia di espansione sugli elementi padre |
+| **Display Layout** | Icon + text arrangement: Auto / Top-Down / Left-Right / Down-Top / Right-Left / Icon Only / Text Only / Empty |
+| **Align** | Content alignment: Auto / Left / Center / Right |
+| **Hide Text** | Hide all text labels — icon only |
+| **Show Expand Arrow** | Show expand arrow on parent items with children |
 
 ---
 
 ## Badge
 
-| Campo | Descrizione |
+| Field | Description |
 |---|---|
-| **Colore badge** | Colore sfondo del badge/punto |
+| **Badge Color** | Background color for the notification badge/dot on items |
 
 ---
 
-## Modelli di colore
+## Color Templates
 
-Palette preimpostate: **Chiaro, Scuro, Oceano, Sabbia, Rosa, Foresta**. Selezionandone una si compilano automaticamente i valori dei colori.
+Navi+ includes preset color palettes: **Light, Dark, Ocean, Sand, Rose, Forest**.
+
+Selecting a template auto-fills common color values. You can adjust individual fields after applying.

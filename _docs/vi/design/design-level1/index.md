@@ -1,85 +1,86 @@
 ---
-description: Cấu hình giao diện tất cả item chính trong Navi+ — màu chữ, icon, khoảng cách, nền và tùy chọn hiển thị tại Design Level 1.
+description: Cấu hình giao diện của tất cả các mục menu chính trong Navi+ — văn bản, biểu tượng, khoảng cách, nền và tùy chọn hiển thị ở Cấp độ Thiết kế 1.
+lang: vi
 layout: default
 permalink: /vi/docs/design/design-level1/
-title: Design level 1 — Item chính
+title: Thiết kế cấp 1 — Các mục menu chính
 ---
-# Design Level 1 — Item Chính
+# Thiết kế Cấp 1 — Các Mục Menu Chính
 
-Cài đặt tại **Design → Level 1** áp dụng cho tất cả item cấp cao nhất của menu. Đây là lớp nền — Level 2-3 kế thừa, per-item ghi đè.
+Cài đặt tại **Thiết kế → Cấp 1** áp dụng cho tất cả các mục cấp cao nhất trong menu của bạn. Đây là lớp cơ bản — Cấp 2-3 kế thừa các giá trị này, và cài đặt theo từng mục sẽ ghi đè chúng.
 
 ---
 
-## Kiểu chữ (Text Style)
+## Kiểu Văn Bản
 
-| Field | Mô tả | Mặc định |
+| Trường | Mô tả | Mặc định |
 |---|---|---|
-| **Text Color** | Màu chữ nhãn item | Kế thừa theme |
-| **Font Size (px)** | Cỡ chữ | Kế thừa theme |
-| **Font Weight** | Độ đậm: 100–900 hoặc Inherit | Inherit |
-| **Text Transform** | None / Capitalize / Uppercase / Lowercase | None |
-| **Font Family** | Font Google hoặc "Default (Theme)" | Default |
-| **Description Color** | Màu dòng mô tả phụ | 60% opacity của Text Color |
-| **Description Size (px)** | Cỡ chữ mô tả phụ | 70% của Font Size |
+| **Màu Văn Bản** | Màu văn bản nhãn | Kế thừa từ chủ đề |
+| **Kích Thước Phông Chữ (px)** | Kích thước văn bản | Kế thừa từ chủ đề |
+| **Độ Dày Phông Chữ** | Độ dày: 100–900 hoặc Kế thừa | Kế thừa |
+| **Chuyển Đổi Văn Bản** | Không / Viết Hoa / Chữ In Hoa / Chữ Thường | Không |
+| **Phông Chữ** | Google Font hoặc "Mặc định (Chủ đề)" | Mặc định |
+| **Màu Mô Tả** | Màu của dòng mô tả phụ | 60% độ mờ của Màu Văn Bản |
+| **Kích Thước Mô Tả (px)** | Kích thước phông chữ của dòng mô tả | 70% Kích Thước Phông Chữ |
 
 ---
 
-## Kiểu icon / ảnh (Icon / Image Style)
+## Kiểu Biểu Tượng / Hình Ảnh
 
-| Field | Mô tả | Mặc định |
+| Trường | Mô tả | Mặc định |
 |---|---|---|
-| **Icon Color** | Màu icon vector | Kế thừa Text Color |
-| **Icon Size (px)** | Kích thước icon | 22px |
-| **Space Text-Icon (px)** | Khoảng cách giữa icon và chữ | Tự động |
-| **Image Radius (px)** | Bo tròn góc ảnh thumbnail | 0 |
+| **Màu Biểu Tượng** | Màu của các biểu tượng vector | Kế thừa Màu Văn Bản |
+| **Kích Thước Biểu Tượng (px)** | Kích thước biểu tượng | 22px |
+| **Khoảng Cách Văn Bản-Biểu Tượng (px)** | Khoảng cách giữa biểu tượng và văn bản | Tự động |
+| **Bán Kính Hình Ảnh (px)** | Làm tròn góc cho hình ảnh thu nhỏ | 0 |
 
 ---
 
-## Khoảng cách (Spacing)
+## Khoảng Cách
 
-| Field | Mô tả | Định dạng |
+| Trường | Mô tả | Định dạng |
 |---|---|---|
-| **Item Padding (px)** | Khoảng trong của item | `trên phải dưới trái` hoặc `mobile \| desktop` |
-| **Item Margin (px)** | Khoảng ngoài của item | `trên phải dưới trái` hoặc `mobile \| desktop` |
+| **Đệm Mục (px)** | Khoảng cách bên trong của mỗi mục | `trên phải dưới trái` hoặc `di động  máy tính để bàn` |
+| **Lề Mục (px)** | Khoảng cách bên ngoài của mỗi mục | `trên phải dưới trái` hoặc `di động  máy tính để bàn` |
 
 ---
 
-## Nền và khung (Background)
+## Nền & Khung
 
-| Field | Mô tả | Mặc định |
+| Trường | Mô tả | Mặc định |
 |---|---|---|
-| **Background Color** | Màu nền vùng item | Trong suốt |
-| **Background Image** | Ảnh nền (URL hoặc gallery) | Không có |
-| **Opacity** | Độ mờ nền (0–100) | 100 |
-| **Hide Background** | Ẩn nền, để lộ nền thiết bị | Tắt |
-| **Height (px)** | Chiều cao hàng item | 50px |
-| **Border Radius (px)** | Bo tròn góc item | 0 |
-| **Drop Shadow** | Đổ bóng dưới item | Tắt |
-| **Min Height (px)** | Chiều cao tối thiểu | Không giới hạn |
+| **Màu Nền** | Màu nền của khu vực mục | Trong suốt |
+| **Hình Ảnh Nền** | Hình ảnh nền (URL hoặc thư viện) | Không |
+| **Độ Mờ** | Độ mờ nền (0–100) | 100 |
+| **Ẩn Nền** | Ẩn nền để hiện nền thiết bị | Tắt |
+| **Chiều Cao (px)** | Chiều cao hàng của mỗi mục | 50px |
+| **Bán Kính Biên (px)** | Làm tròn góc | 0 |
+| **Đổ Bóng** | Đổ bóng dưới các mục | Tắt |
+| **Chiều Cao Tối Thiểu (px)** | Chiều cao tối thiểu của mục | Không giới hạn |
 
 ---
 
-## Hiển thị (Display)
+## Hiển Thị
 
-| Field | Mô tả |
+| Trường | Mô tả |
 |---|---|
-| **Display Layout** | Cách sắp xếp icon và chữ: Auto / Top-Down / Left-Right / Down-Top / Right-Left / Icon Only / Text Only / Empty |
-| **Align** | Căn lề: Auto / Left / Center / Right |
-| **Hide Text** | Ẩn chữ toàn menu — chỉ hiện icon |
-| **Show Expand Arrow** | Hiện mũi tên mở rộng cho item cha có item con |
+| **Bố Cục Hiển Thị** | Sắp xếp biểu tượng + văn bản: Tự động / Từ Trên Xuống / Từ Trái Sang Phải / Từ Dưới Lên / Từ Phải Sang Trái / Chỉ Biểu Tượng / Chỉ Văn Bản / Trống |
+| **Căn Chỉnh** | Căn chỉnh nội dung: Tự động / Trái / Giữa / Phải |
+| **Ẩn Văn Bản** | Ẩn tất cả nhãn văn bản — chỉ biểu tượng |
+| **Hiện Mũi Tên Mở Rộng** | Hiện mũi tên mở rộng trên các mục cha có con |
 
 ---
 
-## Badge
+## Huy Hiệu
 
-| Field | Mô tả |
+| Trường | Mô tả |
 |---|---|
-| **Badge Color** | Màu nền badge/chấm thông báo trên item |
+| **Màu Huy Hiệu** | Màu nền cho huy hiệu/thông báo trên các mục |
 
 ---
 
-## Color Templates (Bộ màu nhanh)
+## Mẫu Màu
 
-Navi+ có sẵn bộ màu: **Light, Dark, Ocean, Sand, Rose, Forest**.
+Navi+ bao gồm các bảng màu đã được cài sẵn: **Sáng, Tối, Đại Dương, Cát, Hồng, Rừng**.
 
-Chọn một bộ màu sẽ tự điền các giá trị màu. Có thể chỉnh tiếp sau khi áp dụng.
+Chọn một mẫu tự động điền các giá trị màu thông dụng. Bạn có thể điều chỉnh các trường riêng lẻ sau khi áp dụng.
