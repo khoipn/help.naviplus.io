@@ -1,3 +1,4 @@
+{% comment %} ─── Language detection from URL ─── {% endcomment %}
 {% assign nav_current_page_url = page.url | remove: 'index.html' | replace: '//', '/' %}
 {% if nav_current_page_url != '/' and nav_current_page_url contains '/' and nav_current_page_url | slice: -1 == '/' %}
   {% assign nav_current_page_url = nav_current_page_url | remove_last: '/' %}
@@ -13,23 +14,126 @@
   {% assign candidate_prefix_home_nested = "/" | append: candidate | append: "/" | append: candidate | append: "/home/" %}
   {% if nav_current_page_url contains candidate_prefix_docs or nav_current_page_url contains candidate_prefix_docs_nested or nav_current_page_url == candidate_prefix_home or nav_current_page_url == "/" | append: candidate or nav_current_page_url == candidate_prefix_home2 or nav_current_page_url == candidate_prefix_home_nested %}{% assign nav_current_lang_prefix = candidate %}{% endif %}
 {% endfor %}
+
+{% comment %} ─── i18n ─── {% endcomment %}
+{% assign _lang = nav_current_lang_prefix | default: "en" %}
+{% assign _t = site.data.i18n[_lang] %}{% unless _t %}{% assign _t = site.data.i18n.en %}{% endunless %}
+
+{% comment %} ─── URL prefixes ─── {% endcomment %}
+{% if _lang == "zh-cn" %}{% assign _np_code = "zh-CN" %}
+{% elsif _lang == "pt-br" %}{% assign _np_code = "pt" %}
+{% else %}{% assign _np_code = _lang %}{% endif %}
+{% assign _np = "https://naviplus.io" %}{% if _np_code != "en" %}{% assign _np = _np | append: "/" | append: _np_code %}{% endif %}
+{% assign _hb = "" %}{% if _lang != "en" %}{% assign _hb = "/" | append: _lang %}{% endif %}
+{% assign _tb = "https://tools.naviplus.io" %}{% if _lang != "en" %}{% assign _tb = _tb | append: "/" | append: _lang %}{% endif %}
+{% assign _sc = "https://showcase.naviplus.io" %}{% if _lang != "en" %}{% assign _sc = _sc | append: "/" | append: _lang %}{% endif %}
+
+{% comment %} ─── Brand link ─── {% endcomment %}
 {% assign brand_href = "/home/" %}
-{% if nav_current_lang_prefix %}
-  {% assign brand_href = "/" | append: nav_current_lang_prefix | append: "/home/" %}
+{% if _lang != "en" %}{% assign brand_href = "/" | append: _lang | append: "/home/" %}{% endif %}
+
+{% comment %} ─── Language switcher base URL ─── {% endcomment %}
+{% assign _base_url = page.url %}
+{% if _lang != "en" %}
+  {% assign _lang_pfx = "/" | append: _lang %}
+  {% assign _base_url = page.url | remove_first: _lang_pfx %}
+  {% if _base_url == "" %}{% assign _base_url = "/" %}{% endif %}
 {% endif %}
+{% assign _help_langs = "en,vi,fr,de,zh-cn,jp,it,pt-br,es" | split: "," %}
+
+{% comment %} ─── Search placeholder ─── {% endcomment %}
 {% assign label_search = "Search docs" %}
-{% if nav_current_lang_prefix == "vi" %}{% assign label_search = "Tìm kiếm tài liệu" %}
-{% elsif nav_current_lang_prefix == "jp" %}{% assign label_search = "ドキュメント検索" %}
-{% elsif nav_current_lang_prefix == "fr" %}{% assign label_search = "Rechercher dans la documentation" %}
-{% elsif nav_current_lang_prefix == "de" %}{% assign label_search = "Dokumentation durchsuchen" %}
-{% elsif nav_current_lang_prefix == "zh-cn" %}{% assign label_search = "搜索文档" %}
-{% elsif nav_current_lang_prefix == "it" %}{% assign label_search = "Cerca nella documentazione" %}
-{% elsif nav_current_lang_prefix == "pt-br" %}{% assign label_search = "Pesquisar na documentação" %}
-{% elsif nav_current_lang_prefix == "es" %}{% assign label_search = "Buscar en la documentación" %}
+{% if _lang == "vi" %}{% assign label_search = "Tìm kiếm tài liệu" %}
+{% elsif _lang == "jp" %}{% assign label_search = "ドキュメント検索" %}
+{% elsif _lang == "fr" %}{% assign label_search = "Rechercher dans la documentation" %}
+{% elsif _lang == "de" %}{% assign label_search = "Dokumentation durchsuchen" %}
+{% elsif _lang == "zh-cn" %}{% assign label_search = "搜索文档" %}
+{% elsif _lang == "it" %}{% assign label_search = "Cerca nella documentazione" %}
+{% elsif _lang == "pt-br" %}{% assign label_search = "Pesquisar na documentação" %}
+{% elsif _lang == "es" %}{% assign label_search = "Buscar en la documentación" %}
 {% endif %}
 
+<style>
+  /* ── Button reset for nav-link triggers ── */
+  button.np-help-nav-link { background: none; border: none; font-family: inherit; }
+
+  /* ── Mega layout utilities ── */
+  .nh-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+  .nh-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
+  .nh-col-sep { padding-left: 14px; border-left: 1px solid #eceef2; margin-left: 8px; }
+  .nh-brand { padding: 4px 8px 12px; border-bottom: 1px solid #eceef2; margin-bottom: 8px; }
+  .nh-brand-name { font-size: 12.5px; font-weight: 700; color: #0f1117; margin-bottom: 3px; }
+  .nh-brand-desc { font-size: 11.5px; color: #6b7280; line-height: 1.4; }
+  .nh-idea { display: flex; align-items: flex-start; gap: 10px; padding: 5px 8px; border-radius: 7px; text-decoration: none; transition: background .12s; }
+  .nh-idea:hover { background: #f7f8fa; text-decoration: none; }
+  .nh-idea-img { width: 56px; height: 35px; border-radius: 4px !important; object-fit: cover; flex-shrink: 0; background: #eceef2; border: none !important; margin: 0 !important; }
+  .nh-idea-title { font-size: 11.5px; font-weight: 400; color: #6b7280; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .nh-cta-group { display: flex; flex-direction: column; gap: 4px; padding: 8px 4px 2px; border-top: 1px solid #eceef2; margin-top: 6px; }
+  .nh-cta-btn { display: flex; align-items: center; gap: 7px; padding: 6px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; text-decoration: none; transition: background .12s; white-space: nowrap; }
+  .nh-cta-shopify { background: #eaf2ec; color: #1c5f3b; }
+  .nh-cta-shopify:hover { background: #d4e8da; color: #1c5f3b; text-decoration: none; }
+  .nh-cta-wp { background: #e8f0f7; color: #1a4f7a; }
+  .nh-cta-wp:hover { background: #d1e4f0; color: #1a4f7a; text-decoration: none; }
+  .nh-cta-web { background: #f5f6fa; color: #3d4352; }
+  .nh-cta-web:hover { background: #eceef2; color: #3d4352; text-decoration: none; }
+  .nh-guide-link { display: block; padding: 4px 8px; border-radius: 5px; font-size: 12px; color: #6b7280; text-decoration: none; transition: background .12s, color .12s; white-space: nowrap; }
+  .nh-guide-link:hover { background: #f7f8fa; color: #0f1117; text-decoration: none; }
+  .nh-guide-footer { display: block; padding: 4px 8px; margin-top: 5px; border-top: 1px solid #eceef2; padding-top: 8px; font-size: 11.5px; color: #9ba3b5; text-decoration: none; transition: color .12s; }
+  .nh-guide-footer:hover { color: #1a7a4f; text-decoration: none; }
+  .nh-tools-intro { padding: 6px 8px 12px; border-bottom: 1px solid #eceef2; margin-bottom: 8px; }
+  .nh-tools-intro-head { font-size: 12.5px; font-weight: 700; color: #0f1117; margin-bottom: 4px; }
+  .nh-tools-intro-desc { font-size: 11.5px; color: #6b7280; line-height: 1.45; }
+
+  /* ── Language switcher (desktop) ── */
+  .nh-lang { position: relative; }
+  .nh-lang-btn { display: inline-flex; align-items: center; gap: 5px; padding: 5px 10px; border-radius: 6px; font-size: 13px; font-weight: 500; color: rgba(255,255,255,.8); background: none; border: none; cursor: pointer; transition: background .15s, color .15s; white-space: nowrap; font-family: inherit; }
+  .nh-lang-btn:hover { background: rgba(255,255,255,.08); color: #fff; }
+  .nh-lang-flag { font-size: 15px; line-height: 1; }
+  .nh-lang-chevron { width: 12px; height: 12px; opacity: .5; transition: transform .2s; flex-shrink: 0; }
+  .nh-lang:hover .nh-lang-chevron, .nh-lang:focus-within .nh-lang-chevron { transform: rotate(180deg); opacity: 1; }
+  .nh-lang-dropdown { position: absolute; top: 100%; right: 0; padding-top: 6px; opacity: 0; visibility: hidden; transition: opacity .18s, visibility .18s; pointer-events: none; z-index: 2100; }
+  .nh-lang-dropdown-inner { position: relative; background: white; border: 1px solid #e4e6ec; border-radius: 12px; box-shadow: 0 12px 40px rgba(15,17,23,.12), 0 4px 12px rgba(15,17,23,.06); padding: 6px; min-width: 180px; transform: translateY(-6px); transition: transform .18s; }
+  .nh-lang-dropdown-inner::before { content: ""; position: absolute; top: -5px; right: 16px; width: 10px; height: 10px; background: white; border-left: 1px solid #e4e6ec; border-top: 1px solid #e4e6ec; transform: rotate(45deg); border-radius: 2px 0 0 0; }
+  .nh-lang:hover .nh-lang-dropdown, .nh-lang:focus-within .nh-lang-dropdown { opacity: 1; visibility: visible; pointer-events: auto; }
+  .nh-lang:hover .nh-lang-dropdown-inner, .nh-lang:focus-within .nh-lang-dropdown-inner { transform: translateY(0); }
+  .nh-lang-item { display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 7px; text-decoration: none; color: #3d4352; font-size: 13px; font-weight: 500; transition: background .12s, color .12s; white-space: nowrap; }
+  .nh-lang-item:hover { background: #f0f1f5; color: #0f1117; text-decoration: none; }
+  .nh-lang-item.active { color: #1a7a4f; font-weight: 600; }
+
+  /* ── Mobile accordion ── */
+  .nh-mob-link-item { border-bottom: 1px solid rgba(255,255,255,.05); }
+  .nh-mob-acc-btn { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 12px 20px; font-size: 14.5px; font-weight: 500; color: rgba(255,255,255,.85); background: none; border: none; font-family: inherit; cursor: pointer; text-align: left; transition: background .12s; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-acc-btn:hover, .nh-mob-acc-btn:active { background: rgba(255,255,255,.05); }
+  .nh-mob-acc-btn-plain { display: block; width: 100%; padding: 12px 20px; font-size: 14.5px; font-weight: 500; color: rgba(255,255,255,.85); background: none; border: none; font-family: inherit; cursor: pointer; text-align: left; transition: background .12s; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-acc-btn-plain:hover { background: rgba(255,255,255,.05); color: rgba(255,255,255,.85); text-decoration: none; }
+  .nh-mob-acc-chevron { width: 14px; height: 14px; opacity: .5; flex-shrink: 0; transition: transform .25s, opacity .2s; }
+  .nh-mob-acc-btn[aria-expanded="true"] .nh-mob-acc-chevron { transform: rotate(180deg); opacity: .85; }
+  .nh-mob-sub { list-style: none; margin: 0; padding: 0; max-height: 0; overflow: hidden; transition: max-height .32s cubic-bezier(.4,0,.2,1); }
+  .nh-mob-sub.is-open { max-height: 1400px; }
+  .nh-mob-label { padding: 6px 20px 2px; font-size: 10.5px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,.38); }
+  .nh-mob-plain { display: block; padding: 9px 20px; font-size: 13.5px; color: rgba(255,255,255,.72); text-decoration: none; transition: background .12s; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-plain:hover, .nh-mob-plain:active { background: rgba(255,255,255,.06); color: rgba(255,255,255,.95); text-decoration: none; }
+  .nh-mob-divider { height: 1px; background: rgba(255,255,255,.07); margin: 3px 16px; }
+  /* Mobile lang strip */
+  .nh-mob-lang { padding: 10px 16px 16px; display: flex; flex-wrap: wrap; gap: 6px; border-top: 1px solid rgba(255,255,255,.07); }
+  .nh-mob-lang-item { display: inline-flex; align-items: center; gap: 5px; padding: 5px 10px; border-radius: 16px; text-decoration: none; color: rgba(255,255,255,.7); font-size: 12.5px; font-weight: 500; border: 1px solid rgba(255,255,255,.15); transition: background .12s, color .12s, border-color .12s; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-lang-item:hover { background: rgba(255,255,255,.08); color: #fff; text-decoration: none; }
+  .nh-mob-lang-item.active { background: #1a7a4f; color: white; border-color: #1a7a4f; }
+  /* Mobile CTA */
+  .nh-mob-cta { padding: 10px 16px 16px; display: flex; gap: 8px; border-top: 1px solid rgba(255,255,255,.07); }
+  .nh-mob-cta-btn { flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 12px; border-radius: 8px; font-size: 13.5px; font-weight: 600; text-decoration: none; transition: background .15s; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-cta-primary { background: #1a7a4f; color: white; }
+  .nh-mob-cta-primary:hover { background: #0f5c3a; color: white; text-decoration: none; }
+  .nh-mob-cta-secondary { border: 1.5px solid rgba(255,255,255,.3); color: rgba(255,255,255,.85); }
+  .nh-mob-cta-secondary:hover { background: rgba(255,255,255,.08); color: white; text-decoration: none; }
+
+  @media (max-width: 767.98px) {
+    .nh-lang { display: none; }
+  }
+</style>
+
 <header class="np-help-header">
-  <nav class="np-help-nav">
+  <nav class="np-help-nav" aria-label="{{ _t.nav.aria_label | default: 'Main navigation' }}">
 
     <!-- Mobile: sidebar toggle -->
     <button class="np-help-sidebar-toggle d-md-none" type="button"
@@ -40,16 +144,320 @@
 
     <!-- Logo -->
     <a href="{{ brand_href | relative_url }}" class="np-help-logo">
-      <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+" height="28" />
+      <img src="https://cdn.naviplus.app/static/logo/webp/logo-navi-dark.webp" alt="Navi+" height="28" />
       <span class="np-help-logo-divider"></span>
       <span class="np-help-logo-text">{{ site.site_name | default: "Help" }}</span>
     </a>
 
-    <!-- Nav links (generated by JS) -->
-    <ul class="np-help-links" id="main-navbar-nav-links"></ul>
+    <!-- Desktop nav links -->
+    <ul class="np-help-links" role="list">
 
-    <!-- Right side -->
+      <!-- [1] Services -->
+      <li class="np-help-nav-item">
+        <button class="np-help-nav-link" aria-haspopup="true">
+          {{ _t.nav.services | default: "Services" }}
+          <svg class="np-help-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-help-mega" style="width:780px;" role="region" aria-label="{{ _t.nav.services | default: 'Services' }}">
+          <div class="np-help-mega-inner">
+            <div class="nh-2col">
+
+              <!-- Col 1: Navi+ Menu Builder -->
+              <div>
+                <div class="nh-brand">
+                  <div class="nh-brand-name">Navi+ Menu Builder</div>
+                  <div class="nh-brand-desc">{{ _t.nav_services.brand_desc | default: "The navigation builder for ecommerce — no code, no conflicts." }}</div>
+                </div>
+                <a href="{{ _np }}/why-navi/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-question-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">{{ _t.nav_guide.what_is | default: "Why Navi+?" }}</div>
+                    <div class="np-help-mega-desc">{{ _t.nav_guide.what_is_desc | default: "Why default menus fall short — and how Navi+ fixes that." }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/how-to-install-navi/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-download-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">{{ _t.nav_guide.how_to | default: "How to install Navi+" }}</div>
+                    <div class="np-help-mega-desc">{{ _t.nav_guide.how_to_desc | default: "Install in minutes on Shopify, WordPress, or any website." }}</div>
+                  </div>
+                </a>
+                <a href="{{ _np }}/features/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-star-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">{{ _t.nav_services.why_navi | default: "Why Navi+ is a great choice?" }}</div>
+                    <div class="np-help-mega-desc">Tab Bar · Mega Menu · Slide Menu · FAB · Grid Menu</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/common-first-questions/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-chat-check-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">{{ _t.nav_guide.questions | default: "Common first questions" }}</div>
+                    <div class="np-help-mega-desc">{{ _t.nav_guide.questions_desc | default: "The most common questions from new users, answered." }}</div>
+                  </div>
+                </a>
+                <div class="nh-cta-group">
+                  <a href="https://apps.shopify.com/pronavi-navigation-design" class="nh-cta-btn nh-cta-shopify" target="_blank" rel="noopener">
+                    <i class="ri-store-2-line" aria-hidden="true"></i>
+                    {{ _t.home.hero_cta_shopify | default: "Install on Shopify" }}
+                  </a>
+                  <a href="https://wordpress.org/plugins/naviplus-menu-builder/" class="nh-cta-btn nh-cta-wp" target="_blank" rel="noopener">
+                    <i class="ri-wordpress-fill" aria-hidden="true"></i>
+                    {{ _t.home.hero_cta_wordpress | default: "Install on WordPress" }}
+                  </a>
+                  <a href="https://dash.naviplus.app" class="nh-cta-btn nh-cta-web" target="_blank" rel="noopener">
+                    <i class="ri-global-line" aria-hidden="true"></i>
+                    {{ _t.home.hero_cta_web | default: "Install for websites" }}
+                  </a>
+                </div>
+              </div>
+
+              <!-- Col 2: Ideas -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">{{ _t.nav_services.ideas_col | default: "Ideas" }}</div>
+                <a href="{{ _np }}/ideas/flat-menu-too-basic" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/flat-menu-too-basic.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">{{ _t.nav_services.idea1 | default: "Default menu is too basic — customers can't find what they want" }}</span>
+                </a>
+                <a href="{{ _np }}/ideas/improve-mobile-menu-ux" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/improve-mobile-menu-ux.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">{{ _t.nav_services.idea2 | default: "70% of visitors are on mobile — but your menu is driving them away" }}</span>
+                </a>
+                <a href="{{ _np }}/ideas/fix-navigation-lower-bounce-rate" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/fix-navigation-lower-bounce-rate.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">{{ _t.nav_services.idea3 | default: "Spending on ads but visitors bounce — poor navigation kills your funnel" }}</span>
+                </a>
+                <a href="{{ _np }}/ideas/customize-menu-without-coding" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/customize-menu-without-coding.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">{{ _t.nav_services.idea4 | default: "Making the menu look better means hiring a developer" }}</span>
+                </a>
+                <a href="{{ _np }}/ideas/menu-independent-from-theme" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/menu-independent-from-theme.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">{{ _t.nav_services.idea5 | default: "Every theme switch wipes your menu config — start from scratch" }}</span>
+                </a>
+                <a href="{{ _np }}/ideas/app-like-bottom-navigation" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/app-like-bottom-navigation.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">{{ _t.nav_services.idea6 | default: "No bottom navigation — mobile customers feel like using an old website" }}</span>
+                </a>
+                <div style="padding:8px 8px 2px;">
+                  <a href="{{ _np }}/ideas" style="font-size:12.5px;font-weight:600;color:#1a7a4f;text-decoration:none;">{{ _t.nav_services.ideas_see_all | default: "See all ideas →" }}</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- [2] User Guide -->
+      <li class="np-help-nav-item">
+        <button class="np-help-nav-link" aria-haspopup="true">
+          {{ _t.nav.user_guide | default: "User Guide" }}
+          <svg class="np-help-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-help-mega" style="width:840px;" role="region" aria-label="{{ _t.nav.user_guide | default: 'User Guide' }}">
+          <div class="np-help-mega-inner">
+            <div class="nh-3col">
+
+              <!-- Col 1: Menu types -->
+              <div>
+                <div class="np-help-mega-header">{{ _t.nav_guide.menu_types | default: "Menu types & items" }}</div>
+                <a href="{{ _hb }}/docs/usage/tabbar-bottom-navigation/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-layout-bottom-2-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Tab Bar</div>
+                    <div class="np-help-mega-desc">{{ _t.nav_features.tab_bar_desc | default: "Fixed bottom nav for mobile, like a native app" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/mega-menu/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-layout-masonry-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Mega Menu</div>
+                    <div class="np-help-mega-desc">{{ _t.nav_features.mega_menu_desc | default: "Rich dropdown with columns, images & links" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/slide-menu/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-side-bar-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Slide Menu</div>
+                    <div class="np-help-mega-desc">{{ _t.nav_features.slide_menu_desc | default: "Smooth slide-in panel, multi-level navigation" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/fab/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-flashlight-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">FAB / Floating</div>
+                    <div class="np-help-mega-desc">{{ _t.nav_features.fab_menu_desc | default: "Quick-access floating button for key actions" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/grid-menu/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-grid-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Grid Menu</div>
+                    <div class="np-help-mega-desc">{{ _t.nav_features.grid_menu_desc | default: "Visual image grid for product categories" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/explore-common-menus/" class="nh-guide-footer">{{ _t.nav_guide.choose_right | default: "Choose the right menu" }} →</a>
+              </div>
+
+              <!-- Col 2: Design + Publish -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">{{ _t.nav_guide.design | default: "Design" }}</div>
+                <a href="{{ _hb }}/docs/design/design-overview/" class="nh-guide-link">{{ _t.nav_guide.design_overview | default: "Design overview" }}</a>
+                <a href="{{ _hb }}/docs/design/design-level1/" class="nh-guide-link">{{ _t.nav_guide.design_level1 | default: "How to style main menu items" }}</a>
+                <a href="{{ _hb }}/docs/design/design-level2/" class="nh-guide-link">{{ _t.nav_guide.design_level2 | default: "How to style submenu items" }}</a>
+                <a href="{{ _hb }}/docs/design/design-divider/" class="nh-guide-link">{{ _t.nav_guide.design_divider | default: "How to add dividers" }}</a>
+                <div class="np-help-mega-header" style="margin-top:12px;">{{ _t.nav_guide.publish | default: "Publish" }}</div>
+                <a href="{{ _hb }}/docs/publish/publish-overview/" class="nh-guide-link">{{ _t.nav_guide.publish_overview | default: "Publish overview" }}</a>
+                <a href="{{ _hb }}/docs/publish/publish-filter/" class="nh-guide-link">{{ _t.nav_guide.publish_filter | default: "Filter by device or URL" }}</a>
+                <a href="{{ _hb }}/docs/publish/publish-section/" class="nh-guide-link">{{ _t.nav_guide.publish_section | default: "Configure mega menu sections" }}</a>
+                <a href="{{ _hb }}/docs/publish/publish-slide/" class="nh-guide-link">{{ _t.nav_guide.publish_slide | default: "Set up slide menu" }}</a>
+                <a href="{{ _hb }}/docs/publish/publish-sticky/" class="nh-guide-link">{{ _t.nav_guide.publish_sticky | default: "Set up sticky & FAB" }}</a>
+              </div>
+
+              <!-- Col 3: Developer + Partnership -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">{{ _t.nav_guide.developers | default: "Developer docs" }}</div>
+                <a href="{{ _hb }}/docs/development/" class="nh-guide-link">{{ _t.nav_guide.dev_custom_css | default: "Custom CSS & development" }}</a>
+                <a href="{{ _hb }}/docs/development/how-to-write-a-correct-css-code-in-navi/" class="nh-guide-link">{{ _t.nav_guide.dev_write_css | default: "How to write correct CSS in Navi+" }}</a>
+                <a href="{{ _hb }}/docs/integrations/" class="nh-guide-link">{{ _t.nav_guide.dev_integrations | default: "Integrations overview" }}</a>
+                <a href="{{ _hb }}/docs/integrations/wordpress-woocommerce/" class="nh-guide-link">{{ _t.nav_guide.dev_woocommerce | default: "WordPress & WooCommerce" }}</a>
+                <a href="{{ _hb }}/docs/integrations/themes/" class="nh-guide-link">{{ _t.nav_guide.dev_themes | default: "Theme integrations" }}</a>
+                <div class="np-help-mega-header" style="margin-top:12px;">{{ _t.nav_guide.partnership | default: "Partnership & resources" }}</div>
+                <a href="{{ _hb }}/docs/partership/navi-care-or-design-your-menus-like-an-expert/" class="nh-guide-link">{{ _t.nav_guide.care | default: "Navi+ Care — Design service" }}</a>
+                <a href="{{ _hb }}/docs/partership/earn-up-to-225-revshare-with-navi/" class="nh-guide-link">{{ _t.nav_guide.revshare | default: "Earn rev share" }}</a>
+                <a href="{{ _hb }}/docs/latest-update/" class="nh-guide-link">{{ _t.nav_guide.changelog | default: "Changelog" }}</a>
+                <a href="{{ _hb }}/home/" class="nh-guide-footer" style="color:#1a7a4f;">{{ _t.nav_guide.all_help | default: "All help →" }}</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- [3] Pricing -->
+      <li class="np-help-nav-item">
+        <a href="{{ _np }}/pricing" class="np-help-nav-link">{{ _t.nav.pricing | default: "Pricing" }}</a>
+      </li>
+
+      <!-- [4] Support Tools -->
+      <li class="np-help-nav-item">
+        <button class="np-help-nav-link" aria-haspopup="true">
+          {{ _t.nav.support_tools | default: "Support Tools" }}
+          <svg class="np-help-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-help-mega" style="width:860px;" role="region" aria-label="{{ _t.nav.support_tools | default: 'Support Tools' }}">
+          <div class="np-help-mega-inner">
+            <div class="nh-3col">
+
+              <!-- Col 1: Intro -->
+              <div>
+                <div class="nh-tools-intro">
+                  <div class="nh-tools-intro-head">{{ _t.nav_toolbox.section_title | default: "Free support tools" }}</div>
+                  <div class="nh-tools-intro-desc">{{ _t.nav_toolbox.section_desc | default: "Tools to help you build a better, faster website. 100% free — no data stored." }}</div>
+                </div>
+              </div>
+
+              <!-- Col 2: Design & Images -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">{{ _t.nav_toolbox.label_design | default: "Design & Images" }}</div>
+                <a href="{{ _tb }}/toolset/images/convert-to-webp.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-image-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.batch_converter | default: "Batch Image Converter" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.batch_converter_desc | default: "Convert PNG, JPG to WebP in bulk" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/image-resizer.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-scissors-cut-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.image_resizer | default: "Image Resizer" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.image_resizer_desc | default: "Resize to any dimension instantly" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/design/color-palette.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-palette-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.color_palette | default: "Color Palette Generator" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.color_palette_desc | default: "Generate brand color palettes" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/remove-background.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-scissors-2-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.bg_remover | default: "AI Background Remover" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.bg_remover_desc | default: "AI-powered background removal" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/photo-collage.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-collage-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.photo_collage | default: "Photo Collage Maker" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.photo_collage_desc | default: "Combine multiple photos into one" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/color-picker.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-contrast-drop-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.color_picker | default: "Color Picker" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.color_picker_desc | default: "Pick exact colors from any image" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/watermark.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-quill-pen-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.watermark | default: "Watermark" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.watermark_desc | default: "Add text or logo watermark to images" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/upload-image.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-upload-cloud-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.temp_upload | default: "Temp Image Upload" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.temp_upload_desc | default: "Share images with a temporary link" }}</div></div>
+                </a>
+              </div>
+
+              <!-- Col 3: Security -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">{{ _t.nav_toolbox.label_security | default: "Security" }}</div>
+                <a href="{{ _tb }}/toolset/security/encrypt.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-lock-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.encryption | default: "AES-GCM Encryption" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.encryption_desc | default: "Encrypt & decrypt text with AES-GCM" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/security/generate-password.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-key-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.password_gen | default: "Password Generator" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.password_gen_desc | default: "Generate strong, secure passwords" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/security/jwt-decoder.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-shield-check-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.jwt_decoder | default: "JWT Decoder" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.jwt_decoder_desc | default: "Decode and inspect JWT tokens" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/toolset/security/hash-generator.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-fingerprint-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">{{ _t.nav_toolbox.hash_gen | default: "Hash Generator" }}</div><div class="np-help-mega-desc">{{ _t.nav_toolbox.hash_gen_desc | default: "Generate MD5, SHA-1, SHA-256 hashes" }}</div></div>
+                </a>
+                <a href="{{ _tb }}/" class="nh-guide-footer" style="color:#1a7a4f;">{{ _t.nav_toolbox.all_tools | default: "All tools →" }}</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+    <!-- Right side: lang switcher + search + CTA -->
     <div class="np-help-right">
+
+      <!-- Language switcher -->
+      <div class="nh-lang">
+        <button class="nh-lang-btn" aria-label="{{ _t.lang_switcher | default: 'Language' }}" aria-haspopup="listbox">
+          <span class="nh-lang-flag" aria-hidden="true">{{ _t.lang_flag | default: "🌐" }}</span>
+          <svg class="nh-lang-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nh-lang-dropdown" role="listbox">
+          <div class="nh-lang-dropdown-inner">
+            {% for _l in _help_langs %}
+              {% assign _li = site.data.i18n[_l] %}
+              {% if _l == "en" %}
+              <a href="{{ _base_url }}" class="nh-lang-item{% if _l == _lang %} active{% endif %}" hreflang="{{ _l }}" role="option" {% if _l == _lang %}aria-selected="true"{% else %}aria-selected="false"{% endif %}>
+              {% else %}{% assign _lurl = "/" | append: _l | append: _base_url %}
+              <a href="{{ _lurl }}" class="nh-lang-item{% if _l == _lang %} active{% endif %}" hreflang="{{ _l }}" role="option" {% if _l == _lang %}aria-selected="true"{% else %}aria-selected="false"{% endif %}>
+              {% endif %}
+                <span class="nh-lang-flag" aria-hidden="true">{{ _li.lang_flag }}</span>
+                {{ _li.lang_name }}
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
       <!-- Search -->
       <form class="np-help-search" role="search" autocomplete="off"
         data-search-index-url="{{ '/search.json' | relative_url }}">
@@ -61,11 +469,21 @@
           id="siteSearchResults"></div>
       </form>
 
-      <!-- CTA injected by JS here -->
+      <!-- CTA: See Demo -->
+      <a href="{{ _sc }}/" class="np-help-cta-ghost">
+        <i class="ri-play-circle-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text"> {{ _t.cta.see_demo | default: "See demo" }}</span>
+      </a>
+      <!-- CTA: Get Started -->
+      <a href="{{ _np }}/#get-started-for-free" class="np-help-cta">
+        <i class="ri-rocket-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text"> {{ _t.cta.get_started | default: "Get started" }}</span>
+      </a>
     </div>
 
-    <!-- Mobile hamburger (nav links toggle) -->
-    <button class="np-help-hamburger" id="np-help-hamburger-btn" aria-label="Menu">
+    <!-- Mobile hamburger -->
+    <button class="np-help-hamburger" id="np-help-hamburger-btn"
+      aria-label="{{ _t.nav.open_menu | default: 'Menu' }}"
+      aria-expanded="false"
+      aria-controls="np-help-mobile-nav">
       <span></span><span></span><span></span>
     </button>
 
@@ -73,19 +491,196 @@
 
   <!-- Mobile nav panel -->
   <div class="np-help-mobile-nav" id="np-help-mobile-nav">
-    <ul class="np-help-mobile-links" id="main-navbar-nav-links-mobile"></ul>
+    <ul style="list-style:none;margin:0;padding:4px 0 0;" role="list">
+
+      <!-- Services accordion -->
+      <li class="nh-mob-link-item">
+        <button class="nh-mob-acc-btn" aria-expanded="false" aria-controls="nh-mob-services" id="nh-mob-services-btn">
+          {{ _t.nav.services | default: "Services" }}
+          <svg class="nh-mob-acc-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="nh-mob-sub" id="nh-mob-services" role="list">
+          <li><a href="{{ _np }}/why-navi/" class="nh-mob-plain">{{ _t.nav_guide.what_is | default: "Why Navi+?" }}</a></li>
+          <li><a href="{{ _hb }}/docs/how-to-install-navi/" class="nh-mob-plain">{{ _t.nav_guide.how_to | default: "How to install Navi+" }}</a></li>
+          <li><a href="{{ _np }}/features/" class="nh-mob-plain">{{ _t.nav_services.why_navi | default: "Features & menu types" }}</a></li>
+          <li><a href="{{ _hb }}/docs/common-first-questions/" class="nh-mob-plain">{{ _t.nav_guide.questions | default: "Common first questions" }}</a></li>
+          <li style="padding:6px 16px 8px;border-top:1px solid rgba(255,255,255,.06);margin-top:2px;">
+            <a href="https://apps.shopify.com/pronavi-navigation-design" class="nh-cta-btn nh-cta-shopify" style="margin-bottom:4px;" target="_blank" rel="noopener">
+              <i class="ri-store-2-line" aria-hidden="true"></i> {{ _t.home.hero_cta_shopify | default: "Install on Shopify" }}
+            </a>
+            <a href="https://wordpress.org/plugins/naviplus-menu-builder/" class="nh-cta-btn nh-cta-wp" style="margin-bottom:4px;" target="_blank" rel="noopener">
+              <i class="ri-wordpress-fill" aria-hidden="true"></i> {{ _t.home.hero_cta_wordpress | default: "Install on WordPress" }}
+            </a>
+            <a href="https://dash.naviplus.app" class="nh-cta-btn nh-cta-web" target="_blank" rel="noopener">
+              <i class="ri-global-line" aria-hidden="true"></i> {{ _t.home.hero_cta_web | default: "Install for websites" }}
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- User Guide accordion -->
+      <li class="nh-mob-link-item">
+        <button class="nh-mob-acc-btn" aria-expanded="false" aria-controls="nh-mob-guide" id="nh-mob-guide-btn">
+          {{ _t.nav.user_guide | default: "User Guide" }}
+          <svg class="nh-mob-acc-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="nh-mob-sub" id="nh-mob-guide" role="list">
+          <li class="nh-mob-label">{{ _t.nav_guide.menu_types | default: "Menu types" }}</li>
+          <li><a href="{{ _hb }}/docs/usage/tabbar-bottom-navigation/how-to-use/" class="nh-mob-plain">Tab Bar</a></li>
+          <li><a href="{{ _hb }}/docs/usage/mega-menu/how-to-use/" class="nh-mob-plain">Mega Menu</a></li>
+          <li><a href="{{ _hb }}/docs/usage/slide-menu/how-to-use/" class="nh-mob-plain">Slide Menu</a></li>
+          <li><a href="{{ _hb }}/docs/usage/fab/how-to-use/" class="nh-mob-plain">FAB / Floating</a></li>
+          <li><a href="{{ _hb }}/docs/usage/grid-menu/how-to-use/" class="nh-mob-plain">Grid Menu</a></li>
+          <li><div class="nh-mob-divider"></div></li>
+          <li class="nh-mob-label">{{ _t.nav_guide.design | default: "Design" }}</li>
+          <li><a href="{{ _hb }}/docs/design/design-overview/" class="nh-mob-plain">{{ _t.nav_guide.design_overview | default: "Design overview" }}</a></li>
+          <li><a href="{{ _hb }}/docs/design/design-level1/" class="nh-mob-plain">{{ _t.nav_guide.design_level1 | default: "Style main menu items" }}</a></li>
+          <li><a href="{{ _hb }}/docs/design/design-level2/" class="nh-mob-plain">{{ _t.nav_guide.design_level2 | default: "Style submenu items" }}</a></li>
+          <li><a href="{{ _hb }}/docs/publish/publish-overview/" class="nh-mob-plain">{{ _t.nav_guide.publish_overview | default: "Publish overview" }}</a></li>
+          <li><a href="{{ _hb }}/docs/publish/publish-filter/" class="nh-mob-plain">{{ _t.nav_guide.publish_filter | default: "Filter by device or URL" }}</a></li>
+          <li><a href="{{ _hb }}/docs/publish/publish-sticky/" class="nh-mob-plain">{{ _t.nav_guide.publish_sticky | default: "Sticky & FAB setup" }}</a></li>
+          <li><div class="nh-mob-divider"></div></li>
+          <li class="nh-mob-label">{{ _t.nav_guide.developers | default: "Developer docs" }}</li>
+          <li><a href="{{ _hb }}/docs/development/" class="nh-mob-plain">{{ _t.nav_guide.dev_custom_css | default: "Custom CSS & development" }}</a></li>
+          <li><a href="{{ _hb }}/docs/integrations/" class="nh-mob-plain">{{ _t.nav_guide.dev_integrations | default: "Integrations overview" }}</a></li>
+          <li><a href="{{ _hb }}/docs/integrations/wordpress-woocommerce/" class="nh-mob-plain">{{ _t.nav_guide.dev_woocommerce | default: "WordPress & WooCommerce" }}</a></li>
+          <li><a href="{{ _hb }}/docs/partership/navi-care-or-design-your-menus-like-an-expert/" class="nh-mob-plain">{{ _t.nav_guide.care | default: "Navi+ Care" }}</a></li>
+          <li><a href="{{ _hb }}/docs/latest-update/" class="nh-mob-plain">{{ _t.nav_guide.changelog | default: "Changelog" }}</a></li>
+          <li style="border-top:1px solid rgba(255,255,255,.06);margin-top:2px;">
+            <a href="{{ _hb }}/home/" class="nh-mob-plain" style="color:#4ade80;font-weight:600;">{{ _t.nav_guide.all_help | default: "All help →" }}</a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Pricing (plain link) -->
+      <li class="nh-mob-link-item">
+        <a href="{{ _np }}/pricing" class="nh-mob-acc-btn-plain">{{ _t.nav.pricing | default: "Pricing" }}</a>
+      </li>
+
+      <!-- Support Tools accordion -->
+      <li class="nh-mob-link-item">
+        <button class="nh-mob-acc-btn" aria-expanded="false" aria-controls="nh-mob-tools" id="nh-mob-tools-btn">
+          {{ _t.nav.support_tools | default: "Support Tools" }}
+          <svg class="nh-mob-acc-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="nh-mob-sub" id="nh-mob-tools" role="list">
+          <li class="nh-mob-label">{{ _t.nav_toolbox.label_design | default: "Design & Images" }}</li>
+          <li><a href="{{ _tb }}/toolset/images/convert-to-webp.html" class="nh-mob-plain">{{ _t.nav_toolbox.batch_converter | default: "Batch Image Converter" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/images/image-resizer.html" class="nh-mob-plain">{{ _t.nav_toolbox.image_resizer | default: "Image Resizer" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/design/color-palette.html" class="nh-mob-plain">{{ _t.nav_toolbox.color_palette | default: "Color Palette Generator" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/images/remove-background.html" class="nh-mob-plain">{{ _t.nav_toolbox.bg_remover | default: "AI Background Remover" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/images/photo-collage.html" class="nh-mob-plain">{{ _t.nav_toolbox.photo_collage | default: "Photo Collage Maker" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/images/color-picker.html" class="nh-mob-plain">{{ _t.nav_toolbox.color_picker | default: "Color Picker" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/images/watermark.html" class="nh-mob-plain">{{ _t.nav_toolbox.watermark | default: "Watermark" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/images/upload-image.html" class="nh-mob-plain">{{ _t.nav_toolbox.temp_upload | default: "Temp Image Upload" }}</a></li>
+          <li><div class="nh-mob-divider"></div></li>
+          <li class="nh-mob-label">{{ _t.nav_toolbox.label_security | default: "Security" }}</li>
+          <li><a href="{{ _tb }}/toolset/security/encrypt.html" class="nh-mob-plain">{{ _t.nav_toolbox.encryption | default: "AES-GCM Encryption" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/security/generate-password.html" class="nh-mob-plain">{{ _t.nav_toolbox.password_gen | default: "Password Generator" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/security/jwt-decoder.html" class="nh-mob-plain">{{ _t.nav_toolbox.jwt_decoder | default: "JWT Decoder" }}</a></li>
+          <li><a href="{{ _tb }}/toolset/security/hash-generator.html" class="nh-mob-plain">{{ _t.nav_toolbox.hash_gen | default: "Hash Generator" }}</a></li>
+          <li style="border-top:1px solid rgba(255,255,255,.06);margin-top:2px;">
+            <a href="{{ _tb }}/" class="nh-mob-plain" style="color:#4ade80;font-weight:600;">{{ _t.nav_toolbox.all_tools | default: "All tools →" }}</a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <!-- Mobile lang strip -->
+    <div class="nh-mob-lang" role="group" aria-label="{{ _t.lang_switcher | default: 'Language' }}">
+      {% for _l in _help_langs %}
+        {% assign _li = site.data.i18n[_l] %}
+        {% if _l == "en" %}
+        <a href="{{ _base_url }}" class="nh-mob-lang-item{% if _l == _lang %} active{% endif %}" hreflang="{{ _l }}">
+        {% else %}{% assign _lurl = "/" | append: _l | append: _base_url %}
+        <a href="{{ _lurl }}" class="nh-mob-lang-item{% if _l == _lang %} active{% endif %}" hreflang="{{ _l }}">
+        {% endif %}
+          <span aria-hidden="true">{{ _li.lang_flag }}</span>
+          {{ _li.lang_name }}
+        </a>
+      {% endfor %}
+    </div>
+
+    <!-- Mobile CTA -->
+    <div class="nh-mob-cta">
+      <a href="{{ _sc }}/" class="nh-mob-cta-btn nh-mob-cta-secondary">
+        <i class="ri-play-circle-line" aria-hidden="true"></i> {{ _t.cta.see_demo | default: "See demo" }}
+      </a>
+      <a href="{{ _np }}/#get-started-for-free" class="nh-mob-cta-btn nh-mob-cta-primary">
+        <i class="ri-rocket-line" aria-hidden="true"></i> {{ _t.cta.get_started | default: "Get started" }}
+      </a>
+    </div>
   </div>
 </header>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const hamburger = document.getElementById("np-help-hamburger-btn");
-  const mobileNav = document.getElementById("np-help-mobile-nav");
-  if (hamburger && mobileNav) {
-    hamburger.addEventListener("click", function () {
-      mobileNav.classList.toggle("open");
-      hamburger.classList.toggle("open");
+(function () {
+  var hamburger = document.getElementById("np-help-hamburger-btn");
+  var mobileNav = document.getElementById("np-help-mobile-nav");
+
+  function openMobile() {
+    if (!mobileNav || !hamburger) return;
+    mobileNav.classList.add("open");
+    hamburger.classList.add("open");
+    hamburger.setAttribute("aria-expanded", "true");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeMobile() {
+    if (!mobileNav || !hamburger) return;
+    mobileNav.classList.remove("open");
+    hamburger.classList.remove("open");
+    hamburger.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+    document.querySelectorAll(".nh-mob-sub.is-open").forEach(function (sub) {
+      sub.classList.remove("is-open");
+      var btn = sub.previousElementSibling;
+      if (btn && btn.setAttribute) btn.setAttribute("aria-expanded", "false");
     });
   }
-});
+
+  if (hamburger) {
+    hamburger.addEventListener("click", function () {
+      mobileNav && mobileNav.classList.contains("open") ? closeMobile() : openMobile();
+    });
+  }
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeMobile();
+  });
+
+  /* Accordion */
+  document.querySelectorAll(".nh-mob-acc-btn[aria-controls]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var target = document.getElementById(btn.getAttribute("aria-controls"));
+      if (!target) return;
+      var expanded = btn.getAttribute("aria-expanded") === "true";
+      document.querySelectorAll(".nh-mob-acc-btn[aria-controls]").forEach(function (b) {
+        if (b !== btn) {
+          b.setAttribute("aria-expanded", "false");
+          var t = document.getElementById(b.getAttribute("aria-controls"));
+          if (t) t.classList.remove("is-open");
+        }
+      });
+      btn.setAttribute("aria-expanded", String(!expanded));
+      target.classList.toggle("is-open", !expanded);
+    });
+  });
+
+  /* Close on link tap in mobile nav */
+  if (mobileNav) {
+    mobileNav.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        setTimeout(closeMobile, 80);
+      });
+    });
+  }
+})();
 </script>

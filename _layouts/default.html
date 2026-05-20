@@ -210,43 +210,6 @@
           navbarLinks.forEach((link) => mobileNav.appendChild(buildTopItem(link)));
         }
 
-        // Language switcher → inject into .np-help-right (before search)
-        if (typeof navbarLanguage !== "undefined") {
-          const search = document.querySelector(".np-help-search");
-          const langLi = buildTopItem(navbarLanguage);
-          langLi.className = "np-help-nav-item np-help-lang-item";
-          const right = document.querySelector(".np-help-right");
-          if (right && search) right.insertBefore(langLi, search);
-        }
-
-        // CTA → inject into .np-help-right
-        const right = document.querySelector(".np-help-right");
-        if (right) {
-          // "See demo" ghost button
-          if (typeof navbarCTADemo !== "undefined") {
-            const ghost = document.createElement("a");
-            ghost.className = "np-help-cta-ghost";
-            ghost.href = navbarCTADemo.url;
-            ghost.innerHTML = '<i class="ri-slideshow-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTADemo.text + '</span>';
-            if (navbarCTADemo.target) { ghost.target = navbarCTADemo.target; ghost.rel = "noopener noreferrer"; }
-            right.appendChild(ghost);
-          }
-          // "Get started" / "Dashboard" primary button
-          if (typeof navbarCTA !== "undefined") {
-            const isLoggedIn = sessionStorage.getItem("navi_isGlobalLogging") === "1";
-            const cta = document.createElement("a");
-            cta.className = "np-help-cta";
-            if (isLoggedIn) {
-              cta.href = "https://app.naviplus.io/";
-              cta.innerHTML = '<i class="ri-layout-grid-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">Dashboard</span>';
-            } else {
-              cta.href = navbarCTA.url;
-              cta.innerHTML = '<i class="ri-rocket-2-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTA.text + '</span>';
-            }
-            if (navbarCTA.target) { cta.target = navbarCTA.target; cta.rel = "noopener noreferrer"; }
-            right.appendChild(cta);
-          }
-        }
       });
     </script>
     <script src="{{ '/theme/assets/js/lightbox.js' | relative_url }}"></script>
