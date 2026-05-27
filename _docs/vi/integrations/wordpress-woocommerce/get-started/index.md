@@ -1,5 +1,5 @@
 ---
-description: Sau khi kích hoạt plugin Navi+ Menu Builder, mở Giao diện → Naviplus Menu Builder, tạo menu đầu tiên của bạn trong trình chỉnh sửa trực quan, và để plugin tự động kết nối trang WordPress của bạn với Navi+.
+description: Sau khi kích hoạt plugin Navi+ AI Menu Builder, mở Giao diện → Naviplus Menu Builder, tạo menu đầu tiên của bạn trong trình chỉnh sửa trực quan, và để plugin tự động kết nối trang WordPress của bạn với Navi+.
 lang: vi
 layout: default
 permalink: /vi/docs/integrations/wordpress-woocommerce/get-started/

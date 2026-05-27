@@ -1,13 +1,13 @@
 ---
-description: Cài đặt plugin Navi+ Menu Builder trên trang WordPress hoặc WooCommerce của bạn — từ thư mục WordPress.org, tải lên ZIP, FTP, hoặc WP-CLI.
+description: Cài đặt plugin Navi+ AI Menu Builder trên trang WordPress hoặc WooCommerce của bạn — từ thư mục WordPress.org, tải lên ZIP, FTP, hoặc WP-CLI.
 lang: vi
 layout: default
 permalink: /vi/docs/integrations/wordpress-woocommerce/install-plugin/
-title: Cài đặt plugin Navi+ Menu Builder
+title: Cài đặt plugin Navi+ AI Menu Builder
 ---
-# Cài đặt plugin Navi+ Menu Builder
+# Cài đặt plugin Navi+ AI Menu Builder
 
-> Tên đầy đủ của plugin trên WordPress.org là **Naviplus Menu Builder**. Trong phần còn lại của tài liệu này, nó được gọi là **Navi+ Menu Builder** (hoặc chỉ **Navi+**).
+> Tên đầy đủ của plugin trên WordPress.org là **Naviplus Menu Builder**. Trong phần còn lại của tài liệu này, nó được gọi là **Navi+ AI Menu Builder** (hoặc chỉ **Navi+**).
 
 Plugin được xuất bản trên thư mục plugin chính thức của WordPress.org, vì vậy nó được cài đặt giống như bất kỳ plugin WordPress nào khác — không có ZIP từ bên thứ ba, không có khóa bản quyền.
 

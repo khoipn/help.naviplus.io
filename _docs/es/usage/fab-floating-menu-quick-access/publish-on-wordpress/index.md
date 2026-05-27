@@ -1,5 +1,5 @@
 ---
-description: 'Publica un Navi+ FAB (Floating Action Button) en WordPress con el plugin Navi+ Menu Builder. El FAB es un menú fijo: una vez publicado en el editor, aparece automáticamente en todo el sitio.'
+description: 'Publica un Navi+ FAB (Floating Action Button) en WordPress con el plugin Navi+ AI Menu Builder. El FAB es un menú fijo: una vez publicado en el editor, aparece automáticamente en todo el sitio.'
 lang: es
 layout: default
 permalink: /es/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: FAB — Publicar en WordPress
 ---
 # FAB — Publicar en WordPress
 
-A **FAB (Floating Action Button)** es un **menú fijo** — flota sobre la página (típicamente en una esquina) y se mantiene en su lugar mientras los visitantes desplazan. En WordPress, el plugin Navi+ Menu Builder lo renderiza automáticamente en todo el sitio; no necesitas pegar ningún código o shortcode.
+A **FAB (Floating Action Button)** es un **menú fijo** — flota sobre la página (típicamente en una esquina) y se mantiene en su lugar mientras los visitantes desplazan. En WordPress, el plugin Navi+ AI Menu Builder lo renderiza automáticamente en todo el sitio; no necesitas pegar ningún código o shortcode.
 
 > Otras plataformas (Wix, Squarespace, Webflow, sitios personalizados): ver [Publicar en Wix / Squarespace / Otros]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **FAB (Floating Action Button)** es un **menú fijo** — flota sobre la pági
 
 ## Pasos
 
-1. **Instala el plugin** — ver [Instalar el plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Instala el plugin** — ver [Instalar el plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Construye tu FAB** en **Apariencia → Naviplus Menu Builder**. Ver [FAB — Cómo usar]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/how-to-use/) para orientación de diseño (acción única vs. menú expandible).
 3. **Publica el menú** en el editor (estado: Publicado, no Borrador).
 

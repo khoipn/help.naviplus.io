@@ -1,5 +1,5 @@
 ---
-description: 'Pubblica un Navi+ FAB (Floating Action Button) su WordPress con il plugin Navi+ Menu Builder. Il FAB è un menu appiccicoso: una volta pubblicato nell''editor, appare automaticamente su tutto il sito.'
+description: 'Pubblica un Navi+ FAB (Floating Action Button) su WordPress con il plugin Navi+ AI Menu Builder. Il FAB è un menu appiccicoso: una volta pubblicato nell''editor, appare automaticamente su tutto il sito.'
 lang: it
 layout: default
 permalink: /it/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: FAB — Pubblica su WordPress
 ---
 # FAB — Pubblica su WordPress
 
-A **FAB (Floating Action Button)** è un **menu appiccicoso** — fluttua sopra la pagina (tipicamente in un angolo) e rimane fermo mentre i visitatori scorrono. Su WordPress, il plugin Navi+ Menu Builder lo rende automaticamente visibile su tutto il sito; non è necessario incollare alcun codice o shortcode.
+A **FAB (Floating Action Button)** è un **menu appiccicoso** — fluttua sopra la pagina (tipicamente in un angolo) e rimane fermo mentre i visitatori scorrono. Su WordPress, il plugin Navi+ AI Menu Builder lo rende automaticamente visibile su tutto il sito; non è necessario incollare alcun codice o shortcode.
 
 > Altre piattaforme (Wix, Squarespace, Webflow, siti personalizzati): vedere [Pubblica su Wix / Squarespace / Altri]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **FAB (Floating Action Button)** è un **menu appiccicoso** — fluttua sopra 
 
 ## Passi
 
-1. **Installa il plugin** — vedere [Installa il plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installa il plugin** — vedere [Installa il plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Crea il tuo FAB** in **Aspetto → Naviplus Menu Builder**. Vedi [FAB — Come usare]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/how-to-use/) per indicazioni sul design (azione singola vs. menu espandibile).
 3. **Pubblica il menu** nell'editor (stato: Pubblicato, non Bozza).
 

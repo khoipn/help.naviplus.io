@@ -1,5 +1,5 @@
 ---
-description: Xuất bản thực đơn Navi+ trên WordPress bằng cách sử dụng plugin Navi+ Menu Builder — các thực đơn dính sẽ tự động hiển thị trên toàn bộ trang web, trong khi các thực đơn theo phần được đặt thông qua shortcode [naviwp] hoặc khối Gutenberg.
+description: Xuất bản thực đơn Navi+ trên WordPress bằng cách sử dụng plugin Navi+ AI Menu Builder — các thực đơn dính sẽ tự động hiển thị trên toàn bộ trang web, trong khi các thực đơn theo phần được đặt thông qua shortcode [naviwp] hoặc khối Gutenberg.
 lang: vi
 layout: default
 permalink: /vi/docs/integrations/wordpress-woocommerce/publish-menus/

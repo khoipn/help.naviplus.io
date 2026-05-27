@@ -7,13 +7,13 @@ title: Pubblica su Wix / Squarespace / Altri
 ---
 # Pubblica su Wix / Squarespace / Altri
 
-> **Sei su WordPress?** Usa il plugin dedicato [Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress/) invece dell'embed manuale qui sotto — nessuna modifica al tema, posiziona il Grid tramite shortcode o blocco Gutenberg.
+> **Su WordPress?** Usa il plugin dedicato [Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress/) invece dell'embed manuale qui sotto — nessuna modifica al tema, posiziona il Grid tramite shortcode o blocco Gutenberg.
 
-> **Sei su Shopify?** Installa l'app dedicata [Shopify app](https://apps.shopify.com/pronavi-navigation-design) — è ottimizzata per la piattaforma con opzioni di pubblicazione integrate.
+> **Su Shopify?** Installa l'app dedicata [Shopify app](https://apps.shopify.com/pronavi-navigation-design) — è ottimizzata per la piattaforma con opzioni di pubblicazione integrate.
 
-Questa pagina tratta il metodo **embed manuale dello script**, che è il percorso giusto per [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), e siti web personalizzati costruiti con PHP, Node.js, o puro HTML. Hai i seguenti metodi di implementazione:
+Questa pagina copre il metodo **embed manuale dello script**, che è il percorso giusto per [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), e siti web personalizzati costruiti con PHP, Node.js, o puro HTML. Hai i seguenti metodi di implementazione:
 
-### 1. Inserisci Navi+ nel Tuo Sito Web
+### 1. Incorpora Navi+ nel Tuo Sito Web
 
 Questo metodo di implementazione è adatto per tutti i tipi di menu che Navi+ attualmente supporta, inclusi: Tabbar, Mega menu, Slide menu, FAB, e Grid menu. Questo codice deve essere utilizzato solo una volta per tutti i menu.
 
@@ -33,11 +33,11 @@ Questo metodo di implementazione è adatto per tutti i tipi di menu che Navi+ at
 </details>
 
 <details><summary>Che cos'è https://live.naviplus.app/start.js?</summary>
-<p>Questo è l'URL fisso di Navi+ che contiene la logica di inizializzazione dell'applicazione. Lo script è leggero (circa 4KB), permettendo un caricamento rapido su la maggior parte dei dispositivi e delle condizioni di rete. Viene fornito tramite Cloudflare e BunnyCDN per garantire prestazioni globali stabili e compatibilità affidabile con i browser moderni.</p>
+<p>Questo è l'URL fisso di Navi+ che contiene la logica di inizializzazione dell'applicazione. Lo script è leggero (circa 4KB), permettendo un caricamento rapido su la maggior parte dei dispositivi e condizioni di rete. Viene fornito tramite Cloudflare e BunnyCDN per garantire prestazioni globali stabili e compatibilità affidabile con i browser moderni.</p>
 <p>Utilizzare il metodo di caricamento asincrono significa anche che non influisce sul processo di caricamento del sito web.</p>
 </details>
 
-<details><summary>Questo codice embed rallenta il mio sito web?</summary>
+<details><summary>Questo codice di incorporamento rallenta il mio sito web?</summary>
 <p>Il codice qui sotto è estremamente leggero e può essere inserito nel tuo sito web senza influire sulla velocità (richiedendo solo circa 100-200ms per il primo caricamento e 0ms per i caricamenti successivi), sull'esperienza del cliente o sui punteggi SEO</p>
 </details>
 
@@ -48,16 +48,88 @@ Questo metodo di implementazione è adatto per tutti i tipi di menu che Navi+ at
 <details><summary>Come posso sapere se questo codice è stato incorporato con successo nel mio sito web?</summary>
 <p>Ci sono due modi:</p>
 <p><strong>Metodo 1 (per tutti):</strong></p>
-<p>Apri il tuo sito web con il suffisso #navidebug-on, ad esempio: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Se il sito web passa alla modalità Debug, l'embed funziona correttamente. La modalità Debug ti aiuta a identificare facilmente i selettori CSS. Usa #navidebug-off per disattivarlo.</p>
+<p>Apri il tuo sito web con il suffisso #navidebug-on, ad esempio: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Se il sito web passa alla modalità Debug, l'incorporamento funziona correttamente. La modalità Debug ti aiuta a identificare facilmente i selettori CSS. Usa #navidebug-off per disattivarlo.</p>
 <p><strong>Metodo 2 (per sviluppatori):</strong></p>
-<p>Apri gli strumenti di ispezione del tuo browser, vai alla scheda Console e cerca un messaggio verde: “Using Navi+..”. Questo messaggio indica che il codice è stato incorporato con successo.</p>
+<p>Apri gli strumenti di ispezione del tuo browser, vai alla scheda Console e cerca un messaggio verde: “Utilizzando Navi+..”. Questo messaggio indica che il codice è stato incorporato con successo.</p>
 </details>
 
 ***
 
-### 2. Inserisci un Menu Navi+ in Qualsiasi Punto del Tuo Sito Web
+### 2. Pubblica il menu utilizzando il Selettore CSS (raccomandato)
 
-Il codice qui sotto può essere utilizzato più volte su un sito web con diverse informazioni di inserimento (soprattutto l'**ID Embed**, come SF-123456789). Quando il sito web viene reso, il menu verrà distribuito e visualizzato nella posizione in cui il codice è inserito quando le condizioni sono soddisfatte. Questo tipo di menu è adatto per: Mega menu, Grid, ecc.
+Dopo aver incorporato lo script sopra, vai all'app Navi+ per configurare dove e come appare il tuo menu sulla pagina.
+
+#### I.1. Comprendere il Selettore CSS
+
+Un Selettore CSS è un modo per mirare a un elemento HTML specifico sulla tua pagina web. Navi+ lo utilizza per sapere esattamente **dove** posizionare il tuo menu — se inserirlo prima o dopo un elemento, o sostituire completamente uno esistente.
+
+Non è necessario essere uno sviluppatore per usarlo. Navi+ fornisce un semplice campo di input dove inserisci il selettore, e gestisce il resto.
+
+Per trovare il corretto Selettore CSS per il tuo sito web, puoi utilizzare:
+- [Modalità Debug](/docs/usage/debug-mode-find-css-selectors/) — lo strumento integrato di Navi+: passa il mouse su qualsiasi elemento sulla tua pagina e copia istantaneamente il suo selettore
+- [Browser DevTools](/docs/usage/general/find-css-selector/) — un metodo manuale utilizzando l'ispezione integrata del tuo browser
+
+#### I.2. Tre opzioni di pubblicazione
+
+Passo 1: Clicca sul pulsante **Pubblica sul sito web** nell'app Navi+.
+
+Passo 2: Attiva l'interruttore "Pubblica menu tramite metodo Inserisci/Sostituisci".
+
+Passo 3: Inserisci il tuo Selettore CSS e scegli una delle tre opzioni di pubblicazione qui sotto.
+
+<details><summary>Opzione 1: Inserisci Prima</summary>
+<p>Inserisce il menu Navi+ immediatamente <strong>prima</strong> dell'elemento selezionato.</p>
+<p><strong>Esempio:</strong> Selettore CSS <code>main</code> → il Grid Menu appare sopra l'area principale del contenuto della pagina, visualizzato come una sezione completa.</p>
+<p>Questa è la configurazione più comune per un Grid Menu su piattaforme non-Shopify.</p>
+<p>Selettori CSS comuni per questa opzione:</p>
+<ul>
+<li><code>main</code> — funziona sulla maggior parte delle piattaforme (Webflow, Magento, siti personalizzati)</li>
+<li><code>#main</code> — alcune piattaforme e temi personalizzati</li>
+<li><code>.main-content</code> — varie piattaforme</li>
+</ul>
+<p>Non è in questa lista? Puoi chattare con un sostenitore di Navi+ per assistenza immediata, o utilizzare <a href= "/docs/usage/debug-mode-find-css-selectors/">Modalità Debug</a> o <a href= "/docs/usage/general/find-css-selector/">Browser DevTools</a> per trovarlo tu stesso.</p>
+</details>
+
+<details><summary>Opzione 2: Inserisci Dopo</summary>
+<p>Inserisce il menu Navi+ immediatamente <strong>dopo</strong> l'elemento selezionato.</p>
+<p><strong>Esempio:</strong> Selettore CSS <code>header</code> → il Grid Menu appare appena sotto l'intestazione.</p>
+<p>Selettori CSS comuni per questa opzione:</p>
+<ul>
+<li><code>header</code> — funziona sulla maggior parte delle piattaforme</li>
+<li><code>.header-wrapper</code> — alcune piattaforme</li>
+<li><code>.site-header</code> — varie piattaforme</li>
+</ul>
+<p>Non è in questa lista? Puoi chattare con un sostenitore di Navi+ per assistenza immediata, o utilizzare <a href= "/docs/usage/debug-mode-find-css-selectors/">Modalità Debug</a> o <a href= "/docs/usage/general/find-css-selector/">Browser DevTools</a> per trovarlo tu stesso.</p>
+</details>
+
+<details><summary>Opzione 3: Sostituisci</summary>
+<p>Sostituisce completamente l'elemento selezionato con il menu Navi+. L'elemento originale è nascosto e Navi+ prende il suo posto.</p>
+<p>La maggior parte delle piattaforme non ha un Grid Menu integrato, quindi la modalità Sostituisci è raramente applicabile per questo tipo di menu. Inserire Prima <code>main</code> è l'approccio raccomandato.</p>
+<p>Se la tua piattaforma ha un elemento di navigazione in stile griglia che desideri sostituire, utilizza <a href= "/docs/usage/debug-mode-find-css-selectors/">Modalità Debug</a> o <a href= "/docs/usage/general/find-css-selector/">Browser DevTools</a> per trovare il suo Selettore CSS.</p>
+</details>
+
+#### I.3. Targeting specifico per dispositivo
+
+Puoi controllare se il Selettore CSS si applica su mobile, desktop, o entrambi aggiungendo un suffisso al tuo selettore:
+
+| Suffisso | Si applica a |
+|----------|--------------|
+| `(M)` | Solo mobile |
+| `(D)` | Solo desktop |
+| *(nessuno)* | Sia mobile che desktop |
+
+**Esempi:**
+- `main(D)` — inserisce solo su desktop
+- `main(M)` — inserisce solo su mobile
+- `main` — inserisce su entrambe le piattaforme
+
+Questo è utile quando desideri che il Grid Menu appaia solo su determinati dispositivi, o quando hai bisogno di un posizionamento diverso su mobile rispetto a desktop.
+
+***
+
+### 3. Inserisci un Menu Navi+ in Qualsiasi Punto del Tuo Sito Web
+
+Il codice qui sotto può essere utilizzato più volte su un sito web con diverse informazioni di inserimento (soprattutto l'**ID Incorporato**, come SF-123456789). Quando il sito web viene renderizzato, il menu verrà distribuito e visualizzato nella posizione in cui il codice è inserito quando le condizioni sono soddisfatte. Questo tipo di menu è adatto per: Mega menu, Grid, ecc.
 
 ```html
 <!-- Inserisci il codice dove appare il menu SF-123456789. (c) naviplus.io -->
@@ -70,5 +142,5 @@ Il codice qui sotto può essere utilizzato più volte su un sito web con diverse
 <!-- Inserisci il codice dove appare il menu SF-123456789 -->
 ```
 
-{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Importante</mark>**:** Il codice sopra utilizza il codice embed di esempio <mark style="color:orange;">SF-123456789</mark>. Assicurati di sostituirlo con il tuo codice embed menu reale.
+{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Importante</mark>**:** Il codice sopra utilizza il codice di incorporamento di esempio <mark style="color:orange;">SF-123456789</mark>. Assicurati di sostituirlo con il tuo codice di incorporamento del menu reale.
 {% comment %}endhint{% endcomment %}

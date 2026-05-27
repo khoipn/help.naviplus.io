@@ -1,13 +1,13 @@
 ---
-description: Installa il plugin Navi+ Menu Builder sul tuo sito WordPress o WooCommerce — dal directory di WordPress.org, un upload ZIP, FTP o WP-CLI.
+description: Installa il plugin Navi+ AI Menu Builder sul tuo sito WordPress o WooCommerce — dal directory di WordPress.org, un upload ZIP, FTP o WP-CLI.
 lang: it
 layout: default
 permalink: /it/docs/integrations/wordpress-woocommerce/install-plugin/
-title: Installa il plugin Navi+ Menu Builder
+title: Installa il plugin Navi+ AI Menu Builder
 ---
-# Installa il plugin Navi+ Menu Builder
+# Installa il plugin Navi+ AI Menu Builder
 
-> Il nome completo del plugin su WordPress.org è **Naviplus Menu Builder**. Nel resto di questi documenti è riferito come **Navi+ Menu Builder** (o semplicemente **Navi+**).
+> Il nome completo del plugin su WordPress.org è **Naviplus Menu Builder**. Nel resto di questi documenti è riferito come **Navi+ AI Menu Builder** (o semplicemente **Navi+**).
 
 Il plugin è pubblicato nel directory ufficiale di WordPress.org, quindi si installa allo stesso modo di qualsiasi altro plugin WordPress — nessun ZIP da terze parti, nessun codice di licenza.
 

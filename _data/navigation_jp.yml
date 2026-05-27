@@ -1,7 +1,10 @@
 - children:
   - processed_path: getting-started/what-is-navi
-    title: Navi+とは？ (使い方)
+    title: Navi+とは？
     url: /docs/getting-started/what-is-navi/
+  - processed_path: getting-started/why-navi
+    title: なぜNavi+なのか？
+    url: /docs/getting-started/why-navi/
   - processed_path: how-to-install-navi
     title: Navi+のインストール
     url: /docs/how-to-install-navi/
@@ -264,7 +267,7 @@
       title: Navi+ メニュービルダー FAQ
       url: /docs/integrations/wordpress-woocommerce/faq/
     processed_path: integrations/wordpress-woocommerce
-    title: WordPress / WooCommerce — Navi+ Menu Builder
+    title: WordPress / WooCommerce — Navi+ AI Menu Builder
     url: /docs/integrations/wordpress-woocommerce/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox

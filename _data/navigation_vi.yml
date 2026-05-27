@@ -1,7 +1,10 @@
 - children:
   - processed_path: getting-started/what-is-navi
-    title: Navi+ là gì? (Cách hoạt động)
+    title: Navi+ là gì?
     url: /docs/getting-started/what-is-navi/
+  - processed_path: getting-started/why-navi
+    title: Tại sao chọn Navi+?
+    url: /docs/getting-started/why-navi/
   - processed_path: how-to-install-navi
     title: Cài đặt Navi+
     url: /docs/how-to-install-navi/
@@ -252,7 +255,7 @@
     url: /docs/usage/shopify/
   - children:
     - processed_path: integrations/wordpress-woocommerce/install-plugin
-      title: Cài đặt plugin Navi+ Menu Builder
+      title: Cài đặt plugin Navi+ AI Menu Builder
       url: /docs/integrations/wordpress-woocommerce/install-plugin/
     - processed_path: integrations/wordpress-woocommerce/get-started
       title: Tạo menu đầu tiên của bạn
@@ -261,10 +264,10 @@
       title: Xuất bản thực đơn của bạn trên WordPress
       url: /docs/integrations/wordpress-woocommerce/publish-menus/
     - processed_path: integrations/wordpress-woocommerce/faq
-      title: Navi+ Menu Builder FAQ
+      title: Navi+ AI Menu Builder FAQ
       url: /docs/integrations/wordpress-woocommerce/faq/
     processed_path: integrations/wordpress-woocommerce
-    title: WordPress / WooCommerce — Navi+ Menu Builder
+    title: WordPress / WooCommerce — Navi+ AI Menu Builder
     url: /docs/integrations/wordpress-woocommerce/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox

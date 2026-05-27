@@ -1,13 +1,13 @@
 ---
-description: Navi+ Menu Builder es el plugin oficial de WordPress para Navi+. Instálalo, crea menús dentro de WordPress y publícalos en todo el sitio o a través del shortcode [naviwp] — sin ediciones de código, sin inyectores de encabezado.
+description: Navi+ AI Menu Builder es el plugin oficial de WordPress para Navi+. Instálalo, crea menús dentro de WordPress y publícalos en todo el sitio o a través del shortcode [naviwp] — sin ediciones de código, sin inyectores de encabezado.
 lang: es
 layout: default
 permalink: /es/docs/integrations/wordpress-woocommerce/
-title: WordPress / WooCommerce — Navi+ Menu Builder
+title: WordPress / WooCommerce — Navi+ AI Menu Builder
 ---
-# WordPress / WooCommerce — Navi+ Menu Builder
+# WordPress / WooCommerce — Navi+ AI Menu Builder
 
-Si tu sitio funciona con **WordPress** o **WooCommerce**, la forma recomendada de publicar menús de Navi+ es el plugin oficial **Navi+ Menu Builder** en WordPress.org. El nombre completo de la lista en WordPress.org es **Naviplus Menu Builder**.
+Si tu sitio funciona con **WordPress** o **WooCommerce**, la forma recomendada de publicar menús de Navi+ es el plugin oficial **Navi+ AI Menu Builder** en WordPress.org. El nombre completo de la lista en WordPress.org es **Naviplus Menu Builder**.
 
 > Página del plugin: <https://wordpress.org/plugins/naviplus-menu-builder/>
 > Foro de soporte: <https://wordpress.org/support/plugin/naviplus-menu-builder/>
@@ -26,7 +26,7 @@ Esta página es el punto de entrada: instala el plugin, habilita menús en todo 
 
 ## 2. Instalar el plugin
 
-Tres métodos de instalación se detallan en la página de instalación dedicada: **[Instalar el plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/)** — búsqueda de administrador (recomendada), carga de ZIP, o FTP / administrador de archivos.
+Tres métodos de instalación se detallan en la página de instalación dedicada: **[Instalar el plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/)** — búsqueda de administrador (recomendada), carga de ZIP, o FTP / administrador de archivos.
 
 Después de la activación, el plugin aparece bajo **Apariencia → Naviplus Menu Builder** en la barra lateral de administración.
 
@@ -36,7 +36,7 @@ Después de la activación, el plugin aparece bajo **Apariencia → Naviplus Men
 
 1. Ve a **Apariencia → Naviplus Menu Builder**.
 2. Crea tu primer menú siguiendo el flujo en pantalla. El plugin **se conecta automáticamente** a tu sitio con Navi+ en el primer guardado — no necesitas crear una cuenta de Navi+ de antemano.
-3. Diseña el layout en el **editor visual de Navi+ Menu Builder**, que se abre desde el panel de control de WordPress.
+3. Diseña el layout en el **editor visual de Navi+ AI Menu Builder**, que se abre desde el panel de control de WordPress.
 
 La estructura y los estilos del menú residen en el **servicio de Navi+**; WordPress solo almacena un **identificador de sitio** que permite a Navi+ reconocer tu instalación — esto **no** es tu contraseña de WordPress y no es un token que necesites gestionar.
 
@@ -117,7 +117,7 @@ Tus menús en el servicio de Navi+ se preservan a través de todos estos. Reinst
 
 ## 8. Servicios externos y privacidad
 
-El plugin se conecta al servicio de Navi+ Menu Builder para crear y **renderizar** tus menús. Los datos intercambiados pueden incluir (sin limitación): tu **dominio del sitio**, tu **configuración de menú**, y datos mínimos de uso necesarios para la renderización.
+El plugin se conecta al servicio de Navi+ AI Menu Builder para crear y **renderizar** tus menús. Los datos intercambiados pueden incluir (sin limitación): tu **dominio del sitio**, tu **configuración de menú**, y datos mínimos de uso necesarios para la renderización.
 
 - Política de privacidad: <https://naviplus.io/privacy>
 - Cargador de script: `https://live.naviplus.app/start.js`
@@ -134,7 +134,7 @@ Si operas bajo un marco de privacidad que requiere divulgar servicios de tercero
 | Foro de soporte en WordPress.org | <https://wordpress.org/support/plugin/naviplus-menu-builder/> |
 | Inicio de Naviplus | <https://naviplus.io> |
 | Política de privacidad | <https://naviplus.io/privacy> |
-| FAQ del plugin (este sitio) | [Navi+ Menu Builder FAQ]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/faq/) |
+| FAQ del plugin (este sitio) | [Navi+ AI Menu Builder FAQ]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/faq/) |
 
 ---
 

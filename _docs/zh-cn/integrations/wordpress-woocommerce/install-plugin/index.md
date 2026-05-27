@@ -7,7 +7,7 @@ title: 安装 Navi+ 菜单构建器插件
 ---
 # 安装 Navi+ 菜单构建器插件
 
-> 插件在 WordPress.org 上的全名是 **Naviplus Menu Builder**。在其余文档中称为 **Navi+ Menu Builder**（或仅 **Navi+**）。
+> 插件在 WordPress.org 上的全名是 **Naviplus Menu Builder**。在其余文档中称为 **Navi+ AI Menu Builder**（或仅 **Navi+**）。
 
 该插件发布在官方 WordPress.org 插件目录中，因此安装方式与其他 WordPress 插件相同 — 不需要来自第三方的 ZIP，也不需要许可证密钥。
 

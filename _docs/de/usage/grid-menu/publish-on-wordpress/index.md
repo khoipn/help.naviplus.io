@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ Grid Menu on WordPress with the Navi+ Menu Builder plugin. Insert it where it should appear using the [naviwp embed_id="..."] shortcode or Gutenberg block.
+description: Publish a Navi+ Grid Menu on WordPress with the Navi+ AI Menu Builder plugin. Insert it where it should appear using the [naviwp embed_id="..."] shortcode or Gutenberg block.
 lang: de
 layout: default
 permalink: /de/docs/usage/grid-menu/publish-on-wordpress/
@@ -7,67 +7,124 @@ title: Grid Menu — Publish on WordPress
 ---
 # Grid Menu — Publish on WordPress
 
-A **Grid Menu** is a **section** menu — it renders at the spot in the page where you embed it. It's a great fit for category shortcuts, hub pages, and "what would you like to do?" panels. On WordPress, the Navi+ Menu Builder plugin places it via shortcode or Gutenberg block; you never edit theme files.
+Ein **Grid Menu** ist ein **Abschnitts**-Menü — es wird an der Stelle auf der Seite angezeigt, an der Sie es einfügen. Es eignet sich hervorragend für Kategorienverknüpfungen, Hub-Seiten und "was möchten Sie tun?" Panels. Auf WordPress platziert das Navi+ AI Menu Builder-Plugin es über Shortcode oder Gutenberg-Block; Sie bearbeiten niemals die Theme-Dateien.
 
-> Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
-
----
-
-## Steps
-
-1. **Install the plugin** — see [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
-2. **Build your Grid Menu** in **Appearance → Naviplus Menu Builder**. See [Grid Menu — How to use]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) and [Responsive Grid Menu]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
-3. **Copy the Embed ID** (e.g. `SF-123456789`).
-4. **Embed it** using one of the methods below.
+> Andere Plattformen (Wix, Squarespace, Webflow, benutzerdefinierte Seiten): siehe [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
 
 ---
 
-## Insert the menu
+## Schritte
 
-### Option 1 — Shortcode (recommended)
+1. **Installieren Sie das Plugin** — siehe [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+2. **Erstellen Sie Ihr Grid Menu** in **Aussehen → Naviplus Menu Builder**. Siehe [Grid Menu — How to use]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) und [Responsive Grid Menu]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
+3. **Kopieren Sie die Embed-ID** (z. B. `SF-123456789`).
+4. **Fügen Sie es ein** mit einer der Methoden unten.
+
+---
+
+## Menü einfügen
+
+### Option 1 — Shortcode (empfohlen)
 
 ```text
 [naviwp embed_id="SF-123456789"]
 ```
 
-Drop this into any post, page, or shortcode-aware widget.
+Fügen Sie dies in jeden Beitrag, jede Seite oder ein shortcode-fähiges Widget ein.
 
-Typical spots:
+Typische Stellen:
 
-- A homepage hero section with category tiles.
-- A landing page above the fold.
-- The empty state of a category archive.
+- Ein Hero-Bereich auf der Startseite mit Kategorietiles.
+- Eine Landingpage über der Falz.
+- Der leere Zustand eines Kategoriearchivs.
 
-### Option 2 — Gutenberg block
+### Option 2 — Gutenberg-Block
 
-In the block editor, **+ → Naviplus Menu Builder**, then paste the Embed ID into the block sidebar. A plain **Shortcode** block with `[naviwp embed_id="SF-..."]` is equivalent.
+Im Block-Editor, **+ → Naviplus Menu Builder**, dann die Embed-ID in die Block-Seitenleiste einfügen. Ein einfacher **Shortcode**-Block mit `[naviwp embed_id="SF-..."]` ist gleichwertig.
 
-### Option 3 — Page builders (Elementor, Divi, Bricks, Oxygen)
+### Option 3 — Page Builder (Elementor, Divi, Bricks, Oxygen)
 
-Use a **Shortcode** widget with `[naviwp embed_id="SF-..."]`. If a builder has no Shortcode widget, an **HTML** widget with the embed div works:
+Verwenden Sie ein **Shortcode**-Widget mit `[naviwp embed_id="SF-..."]`. Wenn ein Builder kein Shortcode-Widget hat, funktioniert ein **HTML**-Widget mit dem Embed-Div:
 
 ```html
 <div class="naviman_app section_naviman_app" id="SF-123456789-container"></div>
 ```
 
+### Option 4 — CSS-Selektor (automatische Platzierung aus der Navi+ App)
+
+Anstatt einen Shortcode manuell zu platzieren, können Sie Navi+ automatisch einfügen oder ein Element mithilfe eines CSS-Selektors ersetzen — vollständig aus der Navi+ App konfiguriert.
+
+#### Verständnis des CSS-Selektors
+
+Ein CSS-Selektor zielt auf ein bestimmtes HTML-Element auf Ihrer Seite ab. Navi+ verwendet ihn, um genau zu wissen, **wo** Ihr Menü platziert werden soll — vor einfügen, nach einfügen oder ein vorhandenes Element ersetzen.
+
+Um den richtigen CSS-Selektor zu finden, verwenden Sie:
+- [Debug Mode](/docs/usage/debug-mode-find-css-selectors/) — über ein beliebiges Element fahren und sofort seinen Selektor kopieren
+- [Browser DevTools](/docs/usage/general/find-css-selector/) — manuelle Methode über den Browser-Inspektor
+
+#### Drei Veröffentlichungsoptionen
+
+In der Navi+ App: klicken Sie auf **Publish to website** → aktivieren Sie **"Publish menu by Insert/Replace method"** → geben Sie Ihren CSS-Selektor ein und wählen Sie eine Option:
+
+<details><summary>Option A: Vorher einfügen</summary>
+<p>Fügt das Grid Menu sofort <strong>vor</strong> dem ausgewählten Element ein, angezeigt als voller Abschnitt.</p>
+<p><strong>Beispiel:</strong> <code>main</code> → das Grid Menu erscheint über dem Hauptinhalt.</p>
+<p>Dies ist die häufigste Einrichtung für ein Grid Menu auf WordPress.</p>
+<p>Häufige Selektoren für WordPress-Themes:</p>
+<ul>
+<li><code>main</code> — die meisten Themes</li>
+<li><code>#main</code> — Twenty Twenty, Astra, OceanWP</li>
+<li><code>.site-main</code> — viele Themes</li>
+<li><code>#content</code> — Divi, einige Standard-Themes</li>
+</ul>
+</details>
+
+<details><summary>Option B: Nachher einfügen</summary>
+<p>Fügt das Grid Menu sofort <strong>nach</strong> dem ausgewählten Element ein.</p>
+<p><strong>Beispiel:</strong> <code>header</code> → das Grid Menu erscheint direkt unter dem Header.</p>
+<p>Häufige Selektoren für WordPress-Themes:</p>
+<ul>
+<li><code>header</code> — die meisten Themes</li>
+<li><code>.site-header</code> — OceanWP, Astra</li>
+<li><code>#masthead</code> — Twenty Twenty-One und Standard-WordPress-Themes</li>
+</ul>
+</details>
+
+<details><summary>Option C: Ersetzen</summary>
+<p>Die meisten WordPress-Seiten haben kein eingebautes Grid Menu-Element zum Ersetzen. Vorher einfügen <code>main</code> ist der empfohlene Ansatz.</p>
+<p>Wenn Ihr Theme jedoch ein gitterartiges Element hat, das Sie ersetzen möchten, verwenden Sie <a href="/docs/usage/debug-mode-find-css-selectors/">Debug Mode</a> oder <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a>, um seinen Selektor zu finden.</p>
+</details>
+
+#### Gerätespezifisches Targeting
+
+Fügen Sie ein Suffix hinzu, um den Selektor nur auf einem bestimmten Gerät anzuwenden:
+
+| Suffix | Gilt für |
+|--------|------------|
+| `(M)` | Nur mobil |
+| `(D)` | Nur Desktop |
+| *(keins)* | Beide |
+
+Beispiel: `main(D)` — fügt das Grid Menu nur auf dem Desktop ein.
+
 ---
 
-## Mobile tips
+## Mobile Tipps
 
-- Use **[Responsive Grid Menu]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/)** to switch column count per breakpoint — e.g. 4 columns on desktop, 2 on mobile.
-- Keep tile content short — an icon, a one- or two-word label, optionally a tiny description. Long labels wrap unpredictably.
-- Aim for tap targets at least 44 × 44 px including padding.
-
----
-
-## Updating the menu later
-
-Edits in the editor apply on the next front-end page load — no WordPress cache flush required.
+- Verwenden Sie **[Responsive Grid Menu]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/)**, um die Spaltenanzahl pro Breakpoint zu wechseln — z. B. 4 Spalten auf dem Desktop, 2 auf dem Mobilgerät.
+- Halten Sie den Inhalt der Kacheln kurz — ein Symbol, ein ein- oder zweisilbiges Label, optional eine kleine Beschreibung. Lange Labels umbrechen unvorhersehbar.
+- Streben Sie nach Tippzielen von mindestens 44 × 44 px einschließlich Padding.
 
 ---
 
-## Related
+## Aktualisierung des Menüs später
 
-- [WordPress / WooCommerce — overview]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/)
+Änderungen im Editor werden beim nächsten Frontend-Seitenaufruf angewendet — kein WordPress-Cache-Flush erforderlich.
+
+---
+
+## Verwandt
+
+- [WordPress / WooCommerce — Übersicht]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/)
 - [Publish your menus on WordPress]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/publish-menus/)
 - [Responsive Grid Menu]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/)

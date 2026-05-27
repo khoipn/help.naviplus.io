@@ -1,11 +1,11 @@
 ---
-description: 'Shopifyにウェブサイトを展開する場合は、こちらに専用のShopifyアプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - プラットフォームに最適化されています...'
+description: 'Shopifyにウェブサイトを展開する場合は、こちらで専用のShopifyアプリをインストールしてください: <https://apps.shopify.com/pronavi-navigation-design> - プラットフォームに最適化されています...'
 lang: jp
 layout: default
 permalink: /jp/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
-title: Wix / Squarespace / その他で公開
+title: Wix / Squarespace / その他での公開
 ---
-# Wix / Squarespace / その他で公開
+# Wix / Squarespace / その他での公開
 
 > **WordPressをご利用ですか？** 手動埋め込みの代わりに専用の[Naviplus Menu Builderプラグイン]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress/)を使用してください — テーマの編集は不要で、ショートコードまたはGutenbergブロックを介してグリッドを配置できます。
 
@@ -15,7 +15,7 @@ title: Wix / Squarespace / その他で公開
 
 ### 1. ウェブサイトにNavi+を埋め込む
 
-この実装方法は、Navi+が現在サポートしているすべてのメニュータイプに適しています。これには、Tabbar、Mega menu、Slide menu、FAB、Grid menuが含まれます。このコードは、すべてのメニューに対して一度だけ使用する必要があります。
+この実装方法は、Navi+が現在サポートしているすべてのメニュータイプに適しています。これには、Tabbar、Mega menu、Slide menu、FAB、およびGrid menuが含まれます。このコードは、すべてのメニューに対して一度だけ使用する必要があります。
 
 ```html
 <!-- Insert this code to the <head> of website. (c) naviplus.io -->
@@ -37,7 +37,7 @@ title: Wix / Squarespace / その他で公開
 <p>非同期読み込みメソッドを使用することで、ウェブサイトの読み込みプロセスに影響を与えません。</p>
 </details>
 
-<details><summary>この埋め込みコードは私のウェブサイトを遅くしますか？</summary>
+<details><summary>この埋め込みコードはウェブサイトを遅くしますか？</summary>
 <p>以下のコードは非常に軽量で、速度（最初の読み込みに約100-200ms、以降の読み込みは0ms）や顧客体験、SEOスコアに影響を与えることなく、ウェブサイトに挿入できます。</p>
 </details>
 
@@ -45,19 +45,91 @@ title: Wix / Squarespace / その他で公開
 <p>ヘッダーセクション（またはできるだけ早い段階）です。なぜなら、ウェブサイトはインターフェースをレンダリングするためにリソースを順次読み込むからです。HTMLコード内でNavi+を最初に配置することで、条件が満たされるとすぐにメニューが表示されるようになります。これにより、ユーザー体験が向上します。</p>
 </details>
 
-<details><summary>このコードがウェブサイトに正常に埋め込まれたかどうかをどうやって確認できますか？</summary>
-<p>2つの方法があります：</p>
+<details><summary>このコードがウェブサイトに正常に埋め込まれたかどうかを確認するにはどうすればよいですか？</summary>
+<p>方法は2つあります：</p>
 <p><strong>方法1（誰でも）：</strong></p>
-<p>ウェブサイトを#navidebug-onのサフィックスで開きます。例えば：<a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>。ウェブサイトがデバッグモードに切り替わる場合、埋め込みは正常に機能しています。デバッグモードは、CSSセレクタを簡単に特定するのに役立ちます。#navidebug-offを使用してオフにします。</p>
+<p>ウェブサイトを#navidebug-onのサフィックスで開きます。例えば：<a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>。ウェブサイトがデバッグモードに切り替わる場合、埋め込みは正しく機能しています。デバッグモードは、CSSセレクタを簡単に特定するのに役立ちます。#navidebug-offを使用してオフにします。</p>
 <p><strong>方法2（開発者向け）：</strong></p>
 <p>ブラウザの検査ツールを開き、コンソールタブに移動し、緑色のメッセージ「Using Navi+..」を探します。このメッセージは、コードが正常に埋め込まれたことを示しています。</p>
 </details>
 
 ***
 
-### 2. ウェブサイトの任意のポイントにNavi+メニューを挿入する
+### 2. CSSセレクタを使用してメニューを公開する（推奨）
 
-以下のコードは、異なる挿入情報（特に**埋め込みID**、例えばSF-123456789）を使用して、ウェブサイトで複数回使用できます。ウェブサイトがレンダリングされると、条件が満たされると、コードが挿入された位置にメニューが展開され、表示されます。このメニュータイプは、Mega menu、Gridなどに適しています。
+上記のスクリプトを埋め込んだ後、Navi+アプリに移動して、メニューがページに表示される場所と方法を設定します。
+
+#### I.1. CSSセレクタの理解
+
+CSSセレクタは、ウェブページ上の特定のHTML要素をターゲットにする方法です。Navi+は、メニューを正確に**どこに**配置するかを知るためにこれを使用します — 要素の前または後に挿入するか、既存の要素を完全に置き換えるかです。
+
+これを使用するために開発者である必要はありません。Navi+は、セレクタを入力するためのシンプルな入力フィールドを提供し、残りは自動的に処理します。
+
+ウェブサイトに適切なCSSセレクタを見つけるには、次の方法を使用できます：
+- [デバッグモード](/docs/usage/debug-mode-find-css-selectors/) — Navi+の組み込みツール：ページ上の任意の要素にカーソルを合わせ、そのセレクタを瞬時にコピーします
+- [ブラウザDevTools](/docs/usage/general/find-css-selector/) — ブラウザの組み込みインスペクタを使用した手動方法
+
+#### I.2. 3つの公開オプション
+
+ステップ1：Navi+アプリで**ウェブサイトに公開**ボタンをクリックします。
+
+ステップ2：トグル"Publish menu by Insert/Replace method"をオンにします。
+
+ステップ3：CSSセレクタを入力し、以下の3つの公開オプションのいずれかを選択します。
+
+<details><summary>オプション1：前に挿入</summary>
+<p>Navi+メニューを選択した要素の<strong>前</strong>に即座に挿入します。</p>
+<p><strong>例：</strong> CSSセレクタ <code>main</code> → グリッドメニューがページのメインコンテンツエリアの上に表示され、完全なセクションとして表示されます。</p>
+<p>これは、非Shopifyプラットフォームでのグリッドメニューの最も一般的な設定です。</p>
+<p>このオプションの一般的なCSSセレクタ：</p>
+<ul>
+<li><code>main</code> — ほとんどのプラットフォームで機能します（Webflow、Magento、カスタムサイト）</li>
+<li><code>#main</code> — 一部のプラットフォームおよびカスタムテーマ</li>
+<li><code>.main-content</code> — 様々なプラットフォーム</li>
+</ul>
+<p>このリストにないですか？Navi+サポーターとチャットして即座に助けを得るか、<a href="/docs/usage/debug-mode-find-css-selectors/">デバッグモード</a>または<a href="/docs/usage/general/find-css-selector/">ブラウザDevTools</a>を使用して自分で見つけることができます。</p>
+</details>
+
+<details><summary>オプション2：後に挿入</summary>
+<p>Navi+メニューを選択した要素の<strong>後</strong>に即座に挿入します。</p>
+<p><strong>例：</strong> CSSセレクタ <code>header</code> → グリッドメニューがヘッダーのすぐ下に表示されます。</p>
+<p>このオプションの一般的なCSSセレクタ：</p>
+<ul>
+<li><code>header</code> — ほとんどのプラットフォームで機能します</li>
+<li><code>.header-wrapper</code> — 一部のプラットフォーム</li>
+<li><code>.site-header</code> — 様々なプラットフォーム</li>
+</ul>
+<p>このリストにないですか？Navi+サポーターとチャットして即座に助けを得るか、<a href="/docs/usage/debug-mode-find-css-selectors/">デバッグモード</a>または<a href="/docs/usage/general/find-css-selector/">ブラウザDevTools</a>を使用して自分で見つけることができます。</p>
+</details>
+
+<details><summary>オプション3：置き換え</summary>
+<p>選択した要素を完全にNavi+メニューで置き換えます。元の要素は非表示になり、Navi+がその場所を取ります。</p>
+<p>ほとんどのプラットフォームには組み込みのグリッドメニューがないため、置き換えモードはこのメニュータイプにはほとんど適用されません。前に挿入<code>main</code>が推奨されるアプローチです。</p>
+<p>プラットフォームに置き換えたいグリッドスタイルのナビゲーション要素がある場合は、<a href="/docs/usage/debug-mode-find-css-selectors/">デバッグモード</a>または<a href="/docs/usage/general/find-css-selector/">ブラウザDevTools</a>を使用してそのCSSセレクタを見つけてください。</p>
+</details>
+
+#### I.3. デバイス特有のターゲティング
+
+CSSセレクタがモバイル、デスクトップ、または両方に適用されるかどうかを制御するには、セレクタにサフィックスを追加します：
+
+| サフィックス | 適用対象 |
+|--------|------------|
+| `(M)` | モバイルのみ |
+| `(D)` | デスクトップのみ |
+| *(なし)* | モバイルとデスクトップの両方 |
+
+**例：**
+- `main(D)` — デスクトップのみで挿入
+- `main(M)` — モバイルのみで挿入
+- `main` — 両方のプラットフォームで挿入
+
+これは、グリッドメニューを特定のデバイスにのみ表示したい場合や、モバイルとデスクトップで異なる配置が必要な場合に便利です。
+
+***
+
+### 3. ウェブサイトの任意のポイントにNavi+メニューを挿入する
+
+以下のコードは、異なる挿入情報（特に**埋め込みID**、例えばSF-123456789）を使用してウェブサイトで複数回使用できます。ウェブサイトがレンダリングされると、条件が満たされると、コードが挿入された位置にメニューが展開されて表示されます。このメニュータイプは、Mega menu、Gridなどに適しています。
 
 ```html
 <!-- Insert the code where the menu SF-123456789 appears. (c) naviplus.io -->
@@ -70,5 +142,5 @@ title: Wix / Squarespace / その他で公開
 <!-- Insert the code where the menu SF-123456789 appears -->
 ```
 
-{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">重要</mark>**:** 上記のコードはサンプル埋め込みコード<mark style="color:orange;">SF-123456789</mark>を使用しています。実際のメニュー埋め込みコードに置き換えてください。
+{% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">重要</mark>**:** 上記のコードはサンプル埋め込みコード<mark style="color:orange;">SF-123456789</mark>を使用しています。実際のメニュー埋め込みコードに置き換えることを確認してください。
 {% comment %}endhint{% endcomment %}

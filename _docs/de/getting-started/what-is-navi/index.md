@@ -3,9 +3,9 @@ description: Erfahren Sie, was Navi+ ist, wie es funktioniert und warum es sich 
 lang: de
 layout: default
 permalink: /de/docs/getting-started/what-is-navi/
-title: Was ist Navi+? (Wie es funktioniert)
+title: Was ist Navi+?
 ---
-# Was ist Navi+? (Wie es funktioniert)
+# Was ist Navi+?
 
 Navi+ ist ein **no-code navigation builder** — es ermöglicht Ihnen, schöne, hochkonvertierende Menüs für jede Website zu erstellen, ohne Ihr Thema zu berühren oder eine einzige Zeile Code zu schreiben.
 

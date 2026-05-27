@@ -1,5 +1,5 @@
 ---
-description: Veröffentlichen Sie Navi+ Menüs auf WordPress mit dem Navi+ Menu Builder Plugin – Sticky Menüs werden automatisch siteweit gerendert, während Abschnittsmenüs über den [naviwp] Shortcode oder Gutenberg Block platziert werden.
+description: Veröffentlichen Sie Navi+ Menüs auf WordPress mit dem Navi+ AI Menu Builder Plugin – Sticky Menüs werden automatisch siteweit gerendert, während Abschnittsmenüs über den [naviwp] Shortcode oder Gutenberg Block platziert werden.
 lang: de
 layout: default
 permalink: /de/docs/integrations/wordpress-woocommerce/publish-menus/

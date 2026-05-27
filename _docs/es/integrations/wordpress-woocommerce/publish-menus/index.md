@@ -1,5 +1,5 @@
 ---
-description: 'Publica menús Navi+ en WordPress utilizando el plugin Navi+ Menu Builder: los menús fijos se renderizan automáticamente en todo el sitio, mientras que los menús de sección se colocan a través del shortcode [naviwp] o bloque de Gutenberg.'
+description: 'Publica menús Navi+ en WordPress utilizando el plugin Navi+ AI Menu Builder: los menús fijos se renderizan automáticamente en todo el sitio, mientras que los menús de sección se colocan a través del shortcode [naviwp] o bloque de Gutenberg.'
 lang: es
 layout: default
 permalink: /es/docs/integrations/wordpress-woocommerce/publish-menus/

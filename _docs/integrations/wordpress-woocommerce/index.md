@@ -1,12 +1,12 @@
 ---
-description: Navi+ Menu Builder is the official WordPress plugin for Navi+. Install it, build menus inside WordPress, and publish them site-wide or via the [naviwp] shortcode — no code edits, no header injectors.
+description: Navi+ AI Menu Builder is the official WordPress plugin for Navi+. Install it, build menus inside WordPress, and publish them site-wide or via the [naviwp] shortcode — no code edits, no header injectors.
 layout: default
 permalink: /docs/integrations/wordpress-woocommerce/
-title: WordPress / WooCommerce — Navi+ Menu Builder
+title: WordPress / WooCommerce — Navi+ AI Menu Builder
 ---
-# WordPress / WooCommerce — Navi+ Menu Builder
+# WordPress / WooCommerce — Navi+ AI Menu Builder
 
-If your site runs on **WordPress** or **WooCommerce**, the recommended way to publish Navi+ menus is the official **Navi+ Menu Builder** plugin on WordPress.org. The full WordPress.org listing name is **Naviplus Menu Builder**.
+If your site runs on **WordPress** or **WooCommerce**, the recommended way to publish Navi+ menus is the official **Navi+ AI Menu Builder** plugin on WordPress.org. The full WordPress.org listing name is **Naviplus Menu Builder**.
 
 > Plugin page: <https://wordpress.org/plugins/naviplus-menu-builder/>
 > Support forum: <https://wordpress.org/support/plugin/naviplus-menu-builder/>
@@ -25,7 +25,7 @@ This page is the entry point: install the plugin, enable site-wide menus or embe
 
 ## 2. Install the plugin
 
-Three install methods are detailed on the dedicated install page: **[Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/)** — admin search (recommended), ZIP upload, or FTP / file manager.
+Three install methods are detailed on the dedicated install page: **[Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/)** — admin search (recommended), ZIP upload, or FTP / file manager.
 
 After activation the plugin shows up under **Appearance → Naviplus Menu Builder** in the admin sidebar.
 
@@ -35,7 +35,7 @@ After activation the plugin shows up under **Appearance → Naviplus Menu Builde
 
 1. Go to **Appearance → Naviplus Menu Builder**.
 2. Create your first menu following the on-screen flow. The plugin **auto-connects** your site to Navi+ on first save — you do **not** need to create a Navi+ account beforehand.
-3. Design the layout in the **Navi+ Menu Builder visual editor**, opened from the WordPress dashboard.
+3. Design the layout in the **Navi+ AI Menu Builder visual editor**, opened from the WordPress dashboard.
 
 The menu structure and styles live on the **Navi+ service**; WordPress stores only a **site identifier** that lets Navi+ recognise your installation — this is **not** your WordPress password and not a token you need to manage.
 
@@ -116,7 +116,7 @@ Your menus on the Navi+ service are preserved across all of these. Reinstalling 
 
 ## 8. External services & privacy
 
-The plugin connects to the Navi+ Menu Builder service to create and **render** your menus. Data exchanged may include (without limitation): your **site domain**, your **menu configuration**, and minimal usage data needed for rendering.
+The plugin connects to the Navi+ AI Menu Builder service to create and **render** your menus. Data exchanged may include (without limitation): your **site domain**, your **menu configuration**, and minimal usage data needed for rendering.
 
 - Privacy policy: <https://naviplus.io/privacy>
 - Script loader: `https://live.naviplus.app/start.js`
@@ -133,7 +133,7 @@ If you operate under a privacy framework that requires disclosing third-party se
 | WordPress.org support forum | <https://wordpress.org/support/plugin/naviplus-menu-builder/> |
 | Naviplus home | <https://naviplus.io> |
 | Privacy policy | <https://naviplus.io/privacy> |
-| Plugin FAQ (this site) | [Navi+ Menu Builder FAQ]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/faq/) |
+| Plugin FAQ (this site) | [Navi+ AI Menu Builder FAQ]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/faq/) |
 
 ---
 

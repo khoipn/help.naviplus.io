@@ -1,5 +1,5 @@
 ---
-description: Publique uma Barra de Abas Navi+ no WordPress com o plugin Navi+ Menu Builder — sem edições de código. A Barra de Abas é um menu fixo, portanto, é renderizada em todo o site automaticamente uma vez publicada no editor.
+description: Publique uma Barra de Abas Navi+ no WordPress com o plugin Navi+ AI Menu Builder — sem edições de código. A Barra de Abas é um menu fixo, portanto, é renderizada em todo o site automaticamente uma vez publicada no editor.
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Barra de Abas — Publique no WordPress
 ---
 # Barra de Abas — Publique no WordPress
 
-A **Barra de Abas** é um menu **fixo** — ela se ancla à área de visualização (normalmente perto da parte inferior em dispositivos móveis) e permanece no lugar enquanto os visitantes rolam. No WordPress, o plugin Navi+ Menu Builder renderiza a Barra de Abas em todo o site automaticamente; você não precisa colar nenhum código ou shortcode.
+A **Barra de Abas** é um menu **fixo** — ela se ancla à área de visualização (normalmente perto da parte inferior em dispositivos móveis) e permanece no lugar enquanto os visitantes rolam. No WordPress, o plugin Navi+ AI Menu Builder renderiza a Barra de Abas em todo o site automaticamente; você não precisa colar nenhum código ou shortcode.
 
 > Outras plataformas (Wix, Squarespace, Webflow, sites personalizados): veja [Publicar no Wix / Squarespace / Outros]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/).
 
@@ -15,7 +15,7 @@ A **Barra de Abas** é um menu **fixo** — ela se ancla à área de visualizaç
 
 ## Passos
 
-1. **Instale o plugin** — veja [Instalar o plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Instale o plugin** — veja [Instalar o plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Abra o editor** — no admin do WordPress, vá para **Aparência → Naviplus Menu Builder**.
 3. **Construa sua Barra de Abas** — escolha o layout da **Barra de Abas**, adicione de 3 a 5 destinos principais. Veja [Barra de Abas — Como usar]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/how-to-use/) para dicas de design.
 4. **Publique o menu** no editor (status: Publicado, não Rascunho).

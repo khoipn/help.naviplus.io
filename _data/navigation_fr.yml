@@ -1,7 +1,10 @@
 - children:
   - processed_path: getting-started/what-is-navi
-    title: Qu'est-ce que Navi+ ? (Comment ça fonctionne)
+    title: Qu'est-ce que Navi+ ?
     url: /docs/getting-started/what-is-navi/
+  - processed_path: getting-started/why-navi
+    title: Pourquoi Navi+ ?
+    url: /docs/getting-started/why-navi/
   - processed_path: how-to-install-navi
     title: Installer Navi+
     url: /docs/how-to-install-navi/
@@ -252,7 +255,7 @@
     url: /docs/usage/shopify/
   - children:
     - processed_path: integrations/wordpress-woocommerce/install-plugin
-      title: Installer le plugin Navi+ Menu Builder
+      title: Installer le plugin Navi+ AI Menu Builder
       url: /docs/integrations/wordpress-woocommerce/install-plugin/
     - processed_path: integrations/wordpress-woocommerce/get-started
       title: Créez votre premier menu
@@ -261,10 +264,10 @@
       title: Publiez vos menus sur WordPress
       url: /docs/integrations/wordpress-woocommerce/publish-menus/
     - processed_path: integrations/wordpress-woocommerce/faq
-      title: Navi+ Menu Builder FAQ
+      title: Navi+ AI Menu Builder FAQ
       url: /docs/integrations/wordpress-woocommerce/faq/
     processed_path: integrations/wordpress-woocommerce
-    title: WordPress / WooCommerce — Navi+ Menu Builder
+    title: WordPress / WooCommerce — Navi+ AI Menu Builder
     url: /docs/integrations/wordpress-woocommerce/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox

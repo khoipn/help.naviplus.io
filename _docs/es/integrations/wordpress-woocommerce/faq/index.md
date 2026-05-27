@@ -1,11 +1,11 @@
 ---
-description: 'Preguntas frecuentes sobre el plugin de WordPress Navi+ Menu Builder: precios, rendimiento, WooCommerce, multisite, creadores de páginas, caché, privacidad y desinstalación.'
+description: 'Preguntas frecuentes sobre el plugin de WordPress Navi+ AI Menu Builder: precios, rendimiento, WooCommerce, multisite, creadores de páginas, caché, privacidad y desinstalación.'
 lang: es
 layout: default
 permalink: /es/docs/integrations/wordpress-woocommerce/faq/
-title: Navi+ Menu Builder FAQ
+title: Navi+ AI Menu Builder FAQ
 ---
-# Navi+ Menu Builder FAQ
+# Navi+ AI Menu Builder FAQ
 
 <details>
 <summary>¿Es el plugin gratuito?</summary>
@@ -63,7 +63,7 @@ title: Navi+ Menu Builder FAQ
 
 <h2 id="privacy">Privacidad &amp; servicios externos</h2>
 
-<p>El plugin se conecta al servicio de Navi+ Menu Builder para crear y renderizar menús. Los datos intercambiados pueden incluir (pero no se limitan a): tu <strong>dominio del sitio</strong>, tu <strong>configuración de menú</strong>, y datos mínimos de uso necesarios para renderizar menús.</p>
+<p>El plugin se conecta al servicio de Navi+ AI Menu Builder para crear y renderizar menús. Los datos intercambiados pueden incluir (pero no se limitan a): tu <strong>dominio del sitio</strong>, tu <strong>configuración de menú</strong>, y datos mínimos de uso necesarios para renderizar menús.</p>
 
 <ul>
 <li>Política de privacidad: <a href="https://naviplus.io/privacy">https://naviplus.io/privacy</a></li>

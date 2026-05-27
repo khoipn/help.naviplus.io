@@ -11,7 +11,7 @@ title: Xuất bản trên Wix / Squarespace / Khác
 
 > **Trên Shopify?** Cài đặt [ứng dụng Shopify](https://apps.shopify.com/pronavi-navigation-design) chuyên dụng — nó được tối ưu hóa cho nền tảng với các tùy chọn xuất bản tích hợp.
 
-Trang này đề cập đến phương pháp **nhúng mã thủ công**, đây là con đường đúng cho [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), và các trang web tùy chỉnh được xây dựng bằng PHP, Node.js, hoặc HTML thuần. Bạn có các phương pháp triển khai sau:
+Trang này đề cập đến phương pháp **nhúng mã thủ công**, là con đường đúng cho [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), và các trang web tùy chỉnh được xây dựng bằng PHP, Node.js, hoặc HTML thuần. Bạn có các phương pháp triển khai sau:
 
 ### 1. Nhúng Navi+ vào Trang Web của Bạn
 
@@ -45,7 +45,7 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 <p>Trong phần đầu (hoặc càng sớm càng tốt). Tại sao? Trang web sẽ tải tài nguyên theo thứ tự để hiển thị giao diện. Đặt Navi+ sớm nhất trong mã HTML sẽ giúp menu của bạn sẵn sàng hiển thị càng sớm càng tốt bằng cách chờ cho đến khi các điều kiện được đáp ứng, sau đó menu sẽ ngay lập tức xuất hiện. Điều này cải thiện trải nghiệm người dùng.</p>
 </details>
 
-<details><summary>Làm thế nào tôi có thể biết mã này đã được nhúng thành công trên trang web của mình chưa?</summary>
+<details><summary>Làm thế nào tôi có thể biết mã này đã được nhúng thành công trên trang web của tôi chưa?</summary>
 <p>Có hai cách:</p>
 <p><strong>Phương pháp 1 (dành cho mọi người):</strong></p>
 <p>Mở trang web của bạn với hậu tố #navidebug-on, ví dụ: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Nếu trang web chuyển sang chế độ Debug, mã nhúng đang hoạt động đúng. Chế độ Debug giúp bạn dễ dàng xác định các bộ chọn CSS. Sử dụng #navidebug-off để tắt nó.</p>
@@ -55,19 +55,102 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 
 ***
 
-### 2. Chèn Menu Navi+ ở Bất kỳ Điểm Nào trên Trang Web của Bạn
+### 2. Xuất bản menu bằng CSS Selector (được khuyến nghị)
+
+Sau khi nhúng mã trên, hãy vào ứng dụng Navi+ để cấu hình nơi và cách menu của bạn xuất hiện trên trang.
+
+#### I.1. Hiểu về CSS Selector
+
+CSS Selector là cách để nhắm đến một phần tử HTML cụ thể trên trang web của bạn. Navi+ sử dụng nó để biết chính xác **nơi** đặt menu của bạn — cho dù chèn nó trước hay sau một phần tử, hoặc thay thế hoàn toàn một phần tử hiện có.
+
+Bạn không cần phải là nhà phát triển để sử dụng điều này. Navi+ cung cấp một trường nhập đơn giản nơi bạn nhập bộ chọn, và nó sẽ xử lý phần còn lại.
+
+Để tìm CSS Selector chính xác cho trang web của bạn, bạn có thể sử dụng:
+- [Chế độ Debug](/docs/usage/debug-mode-find-css-selectors/) — công cụ tích hợp của Navi+: di chuột qua bất kỳ phần tử nào trên trang của bạn và ngay lập tức sao chép bộ chọn của nó
+- [Browser DevTools](/docs/usage/general/find-css-selector/) — một phương pháp thủ công sử dụng công cụ kiểm tra tích hợp của trình duyệt của bạn
+
+#### I.2. Ba tùy chọn xuất bản
+
+Bước 1: Nhấp vào nút **Xuất bản lên trang web** trong ứng dụng Navi+.
+
+Bước 2: Bật công tắc "Xuất bản menu bằng phương pháp Chèn/Thay thế".
+
+Bước 3: Nhập CSS Selector của bạn và chọn một trong ba tùy chọn xuất bản dưới đây.
+
+<details><summary>Tùy chọn 1: Chèn Trước</summary>
+<p>Chèn menu Navi+ ngay lập tức <strong>trước</strong> phần tử đã chọn.</p>
+<p><strong>Ví dụ:</strong> CSS Selector <code>main</code> → menu xuất hiện trên khu vực nội dung chính của trang.</p>
+<p>Các bộ chọn CSS phổ biến cho tùy chọn này:</p>
+<ul>
+<li><code>main</code> — hoạt động trên hầu hết các nền tảng (Webflow, Magento, các trang tùy chỉnh)</li>
+<li><code>#main</code> — một số nền tảng và giao diện tùy chỉnh</li>
+<li><code>.main-content</code> — nhiều nền tảng khác nhau</li>
+</ul>
+<p>Không có trong danh sách này? Bạn có thể trò chuyện với một người hỗ trợ Navi+ để được giúp đỡ ngay lập tức, hoặc sử dụng <a href="/docs/usage/debug-mode-find-css-selectors/">Chế độ Debug</a> hoặc <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a> để tìm nó cho mình.</p>
+</details>
+
+<details><summary>Tùy chọn 2: Chèn Sau</summary>
+<p>Chèn menu Navi+ ngay lập tức <strong>sau</strong> phần tử đã chọn.</p>
+<p><strong>Ví dụ:</strong> CSS Selector <code>header</code> → menu xuất hiện ngay dưới tiêu đề.</p>
+<p>Đây là thiết lập phổ biến nhất cho một Mega Menu trên máy tính để bàn.</p>
+<p>Các bộ chọn CSS phổ biến cho tùy chọn này:</p>
+<ul>
+<li><code>header</code> — hoạt động trên hầu hết các nền tảng</li>
+<li><code>.header-wrapper</code> — một số nền tảng</li>
+<li><code>.site-header</code> — nhiều nền tảng khác nhau</li>
+</ul>
+<p>Không có trong danh sách này? Bạn có thể trò chuyện với một người hỗ trợ Navi+ để được giúp đỡ ngay lập tức, hoặc sử dụng <a href="/docs/usage/debug-mode-find-css-selectors/">Chế độ Debug</a> hoặc <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a> để tìm nó cho mình.</p>
+</details>
+
+<details><summary>Tùy chọn 3: Thay thế</summary>
+<p>Thay thế hoàn toàn phần tử đã chọn bằng menu Navi+. Phần tử gốc sẽ bị ẩn và Navi+ sẽ chiếm chỗ của nó.</p>
+<p><strong>Ví dụ:</strong> CSS Selector <code>.main-nav</code> → điều hướng mặc định của trang sẽ bị ẩn và được thay thế bằng Mega Menu Navi+ của bạn.</p>
+<p>Các bộ chọn CSS phổ biến cho tùy chọn này:</p>
+<ul>
+<li><code>nav</code> — phần tử điều hướng chung</li>
+<li><code>.main-nav</code> — nhiều nền tảng khác nhau</li>
+<li><code>.site-navigation</code> — nhiều nền tảng khác nhau</li>
+</ul>
+<p><strong>Lưu ý:</strong> Khi sử dụng chế độ Thay thế, có thể xuất hiện một chớp mắt ngắn của menu gốc trong khi Navi+ tải. Xem I.4 bên dưới để ngăn điều này.</p>
+<p>Không có trong danh sách này? Bạn có thể trò chuyện với một người hỗ trợ Navi+ để được giúp đỡ ngay lập tức, hoặc sử dụng <a href="/docs/usage/debug-mode-find-css-selectors/">Chế độ Debug</a> hoặc <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a> để tìm nó cho mình.</p>
+</details>
+
+#### I.3. Nhắm mục tiêu theo thiết bị
+
+Bạn có thể kiểm soát xem CSS Selector có áp dụng trên di động, máy tính để bàn, hoặc cả hai bằng cách thêm hậu tố vào bộ chọn của bạn:
+
+| Hậu tố | Áp dụng cho |
+|--------|------------|
+| `(M)` | Chỉ di động |
+| `(D)` | Chỉ máy tính để bàn |
+| *(không có)* | Cả di động và máy tính để bàn |
+
+**Ví dụ:**
+- `header(D)` — chỉ chèn hoặc thay thế trên máy tính để bàn
+- `header(M)` — chỉ chèn hoặc thay thế trên di động
+- `header` — chèn hoặc thay thế trên cả hai nền tảng
+
+**I.4. Quan trọng! Tối ưu hóa tốc độ Mega Menu và trải nghiệm người dùng (chế độ Thay thế)**
+
+Khi bạn thay thế một menu bằng menu khác, Navi+ sẽ chờ cho đến khi menu cũ được hiển thị và sau đó ngay lập tức thay thế nó bằng menu mới. Mặc dù điều này xảy ra gần như ngay lập tức, vẫn có một khoảnh khắc ngắn mà menu cũ xuất hiện, điều này có thể gây nhầm lẫn cho người dùng.
+
+Với bước này, bạn có thể hoàn toàn ẩn menu cũ và hiển thị hiệu ứng tải thay thế. Điều này làm cho trang web cảm thấy nhanh hơn và cải thiện trải nghiệm người dùng. Navi+ cung cấp một tùy chọn tích hợp đơn giản cho điều này trong cài đặt xuất bản — bật nó lên và cấu hình CSS Selector của phần tử cần ẩn, với hậu tố tùy chọn `(M)` hoặc `(D)` để kiểm soát theo thiết bị.
+
+***
+
+### 3. Chèn Menu Navi+ ở Bất kỳ Điểm Nào trên Trang Web của Bạn
 
 Mã dưới đây có thể được sử dụng nhiều lần trên một trang web với thông tin chèn khác nhau (đặc biệt là **Embeded ID**, chẳng hạn như SF-123456789). Khi trang web được hiển thị, menu sẽ được triển khai và hiển thị tại vị trí mà mã được chèn khi các điều kiện được đáp ứng. Loại menu này phù hợp cho: Mega menu, Grid, v.v.
 
 ```html
-<!-- Chèn mã tại nơi menu SF-123456789 xuất hiện. (c) naviplus.io -->
+<!-- Chèn mã nơi menu SF-123456789 xuất hiện. (c) naviplus.io -->
 <div class="naviman_app section_naviman_app" id="SF-123456789-container"></div>
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456",
    embed_id: "SF-123456789"
 });</script>
 &lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
-<!-- Chèn mã tại nơi menu SF-123456789 xuất hiện -->
+<!-- Chèn mã nơi menu SF-123456789 xuất hiện -->
 ```
 
 {% comment %}hint style="info" {% endcomment %} <mark style="color:orange;">Quan trọng</mark>**:** Mã ở trên sử dụng mã nhúng mẫu <mark style="color:orange;">SF-123456789</mark>. Hãy chắc chắn thay thế nó bằng mã nhúng menu thực tế của bạn.

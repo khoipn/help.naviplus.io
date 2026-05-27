@@ -1,5 +1,5 @@
 ---
-description: Pubblica un Navi+ Mega Menu (Mobile) su WordPress con il plugin Navi+ Menu Builder. Inseriscilo dove dovrebbe apparire tramite il shortcode [naviwp embed_id="..."] o blocco Gutenberg.
+description: Pubblica un Navi+ Mega Menu (Mobile) su WordPress con il plugin Navi+ AI Menu Builder. Inseriscilo dove dovrebbe apparire tramite il shortcode [naviwp embed_id="..."] o blocco Gutenberg.
 lang: it
 layout: default
 permalink: /it/docs/usage/mega-menu-mobile/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Mega Menu (Mobile) — Pubblica su WordPress
 ---
 # Mega Menu (Mobile) — Pubblica su WordPress
 
-A **Mega Menu (Mobile)** è un **menu** di sezione — viene visualizzato nel punto della pagina in cui lo incorpori. Su WordPress, il plugin Navi+ Menu Builder lo posiziona tramite shortcode o blocco Gutenberg; non modifichi mai i file del tema.
+A **Mega Menu (Mobile)** è un **menu** di sezione — viene visualizzato nel punto della pagina in cui lo incorpori. Su WordPress, il plugin Navi+ AI Menu Builder lo posiziona tramite shortcode o blocco Gutenberg; non modifichi mai i file del tema.
 
 > Altre piattaforme (Wix, Squarespace, Webflow, siti personalizzati): vedi [Pubblica su Wix / Squarespace / Altri]({{ site.baseurl }}/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Mega Menu (Mobile)** è un **menu** di sezione — viene visualizzato nel pu
 
 ## Passi
 
-1. **Installa il plugin** — vedi [Installa il plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installa il plugin** — vedi [Installa il plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Crea il tuo Mega Menu (Mobile)** in **Aspetto → Naviplus Menu Builder**. Vedi [Mega Menu (Mobile) — Come usare]({{ site.baseurl }}/docs/usage/mega-menu-mobile/how-to-use/).
 3. **Copia l'ID di incorporamento** (ad es. `SF-123456789`).
 4. **Incorpora** utilizzando uno dei metodi qui sotto.

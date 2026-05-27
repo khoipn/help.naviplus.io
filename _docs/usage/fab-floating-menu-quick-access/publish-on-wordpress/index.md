@@ -1,12 +1,12 @@
 ---
-description: Publish a Navi+ FAB (Floating Action Button) on WordPress with the Navi+ Menu Builder plugin. The FAB is a sticky menu — once published in the editor it appears site-wide automatically.
+description: Publish a Navi+ FAB (Floating Action Button) on WordPress with the Navi+ AI Menu Builder plugin. The FAB is a sticky menu — once published in the editor it appears site-wide automatically.
 layout: default
 permalink: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
 title: FAB — Publish on WordPress
 ---
 # FAB — Publish on WordPress
 
-A **FAB (Floating Action Button)** is a **sticky** menu — it floats above the page (typically a corner) and stays put as visitors scroll. On WordPress, the Navi+ Menu Builder plugin renders it site-wide automatically; you do not paste any code or shortcode.
+A **FAB (Floating Action Button)** is a **sticky** menu — it floats above the page (typically a corner) and stays put as visitors scroll. On WordPress, the Navi+ AI Menu Builder plugin renders it site-wide automatically; you do not paste any code or shortcode.
 
 > Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -14,7 +14,7 @@ A **FAB (Floating Action Button)** is a **sticky** menu — it floats above the 
 
 ## Steps
 
-1. **Install the plugin** — see [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Install the plugin** — see [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Build your FAB** in **Appearance → Naviplus Menu Builder**. See [FAB — How to use]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/how-to-use/) for design guidance (single action vs. expandable menu).
 3. **Publish the menu** in the editor (status: Published, not Draft).
 

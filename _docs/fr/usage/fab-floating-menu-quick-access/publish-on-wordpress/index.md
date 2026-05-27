@@ -1,5 +1,5 @@
 ---
-description: Publiez un Navi+ FAB (Floating Action Button) sur WordPress avec le plugin Navi+ Menu Builder. Le FAB est un menu fixe — une fois publié dans l'éditeur, il apparaît automatiquement sur tout le site.
+description: Publiez un Navi+ FAB (Floating Action Button) sur WordPress avec le plugin Navi+ AI Menu Builder. Le FAB est un menu fixe — une fois publié dans l'éditeur, il apparaît automatiquement sur tout le site.
 lang: fr
 layout: default
 permalink: /fr/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: FAB — Publier sur WordPress
 ---
 # FAB — Publier sur WordPress
 
-A **FAB (Floating Action Button)** est un **menu fixe** — il flotte au-dessus de la page (typiquement dans un coin) et reste en place pendant que les visiteurs défilent. Sur WordPress, le plugin Navi+ Menu Builder le rend automatiquement disponible sur tout le site ; vous n'avez pas besoin de coller de code ou de shortcode.
+A **FAB (Floating Action Button)** est un **menu fixe** — il flotte au-dessus de la page (typiquement dans un coin) et reste en place pendant que les visiteurs défilent. Sur WordPress, le plugin Navi+ AI Menu Builder le rend automatiquement disponible sur tout le site ; vous n'avez pas besoin de coller de code ou de shortcode.
 
 > Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **FAB (Floating Action Button)** est un **menu fixe** — il flotte au-dessus 
 
 ## Étapes
 
-1. **Installez le plugin** — see [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installez le plugin** — see [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Construisez votre FAB** dans **Apparence → Naviplus Menu Builder**. See [FAB — How to use]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/how-to-use/) for design guidance (single action vs. expandable menu).
 3. **Publiez le menu** dans l'éditeur (statut : Publié, pas Brouillon).
 

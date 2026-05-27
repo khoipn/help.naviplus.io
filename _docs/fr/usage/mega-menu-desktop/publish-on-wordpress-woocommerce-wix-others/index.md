@@ -11,7 +11,7 @@ title: Publier sur Wix / Squarespace / Autres
 
 > **Sur Shopify ?** Installez l'[application Shopify](https://apps.shopify.com/pronavi-navigation-design) dédiée — elle est optimisée pour la plateforme avec des options de publication intégrées.
 
-Cette page couvre la méthode **d'intégration de script manuelle**, qui est le bon chemin pour [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), et les sites Web personnalisés construits avec PHP, Node.js, ou HTML pur. Vous avez les méthodes d'implémentation suivantes :
+Cette page couvre la méthode **d'intégration de script manuelle**, qui est le bon chemin pour [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), et des sites Web personnalisés construits avec PHP, Node.js, ou du HTML pur. Vous avez les méthodes d'implémentation suivantes :
 
 ### 1. Intégrer Navi+ sur Votre Site Web
 
@@ -33,7 +33,7 @@ Cette méthode d'implémentation convient à tous les types de menus que Navi+ p
 </details>
 
 <details><summary>Qu'est-ce que https://live.naviplus.app/start.js ?</summary>
-<p>C'est l'URL fixe de Navi+ qui contient la logique d'initialisation de l'application. Le script est léger (environ 4 Ko), ce qui lui permet de se charger rapidement sur la plupart des appareils et conditions réseau. Il est livré via Cloudflare et BunnyCDN pour fournir des performances globales stables et une compatibilité fiable avec les navigateurs modernes.</p>
+<p>C'est l'URL fixe de Navi+ qui contient la logique d'initialisation de l'application. Le script est léger (environ 4 Ko), ce qui lui permet de se charger rapidement sur la plupart des appareils et des conditions réseau. Il est livré via Cloudflare et BunnyCDN pour fournir des performances globales stables et une compatibilité fiable avec les navigateurs modernes.</p>
 <p>Utiliser la méthode de chargement asynchrone signifie également qu'elle n'affecte pas le processus de chargement du site Web.</p>
 </details>
 
@@ -55,9 +55,92 @@ Cette méthode d'implémentation convient à tous les types de menus que Navi+ p
 
 ***
 
-### 2. Insérer un Menu Navi+ à Tout Moment sur Votre Site Web
+### 2. Publier le menu en utilisant le Sélecteur CSS (recommandé)
 
-Le code ci-dessous peut être utilisé plusieurs fois sur un site Web avec différentes informations d'insertion (en particulier l'**ID Embarqué**, tel que SF-123456789). Lorsque le site Web est rendu, le menu sera déployé et affiché à l'endroit où le code est inséré lorsque les conditions sont remplies. Ce type de menu convient à : Mega menu, Grid, etc.
+Après avoir intégré le script ci-dessus, allez dans l'application Navi+ pour configurer où et comment votre menu apparaît sur la page.
+
+#### I.1. Comprendre le Sélecteur CSS
+
+Un Sélecteur CSS est un moyen de cibler un élément HTML spécifique sur votre page Web. Navi+ l'utilise pour savoir exactement **où** placer votre menu — que ce soit pour l'insérer avant ou après un élément, ou pour remplacer complètement un existant.
+
+Vous n'avez pas besoin d'être développeur pour l'utiliser. Navi+ fournit un champ de saisie simple où vous entrez le sélecteur, et il s'occupe du reste.
+
+Pour trouver le Sélecteur CSS correct pour votre site Web, vous pouvez utiliser :
+- [Mode Debug](/docs/usage/debug-mode-find-css-selectors/) — l'outil intégré de Navi+ : survolez n'importe quel élément de votre page et copiez instantanément son sélecteur
+- [Browser DevTools](/docs/usage/general/find-css-selector/) — une méthode manuelle utilisant l'inspecteur intégré de votre navigateur
+
+#### I.2. Trois options de publication
+
+Étape 1 : Cliquez sur le bouton **Publier sur le site Web** dans l'application Navi+.
+
+Étape 2 : Activez le toggle "Publier le menu par méthode d'Insertion/Remplacement".
+
+Étape 3 : Entrez votre Sélecteur CSS et choisissez l'une des trois options de publication ci-dessous.
+
+<details><summary>Option 1 : Insérer Avant</summary>
+<p>Insère le menu Navi+ immédiatement <strong>avant</strong> l'élément sélectionné.</p>
+<p><strong>Exemple :</strong> Sélecteur CSS <code>main</code> → le menu apparaît au-dessus de la zone de contenu principal de la page.</p>
+<p>Sélecteurs CSS courants pour cette option :</p>
+<ul>
+<li><code>main</code> — fonctionne sur la plupart des plateformes (Webflow, Magento, sites personnalisés)</li>
+<li><code>#main</code> — certaines plateformes et thèmes personnalisés</li>
+<li><code>.main-content</code> — diverses plateformes</li>
+</ul>
+<p>Pas dans cette liste ? Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée, ou utiliser <a href= "/docs/usage/debug-mode-find-css-selectors/">Mode Debug</a> ou <a href= "/docs/usage/general/find-css-selector/">Browser DevTools</a> pour le trouver vous-même.</p>
+</details>
+
+<details><summary>Option 2 : Insérer Après</summary>
+<p>Insère le menu Navi+ immédiatement <strong>après</strong> l'élément sélectionné.</p>
+<p><strong>Exemple :</strong> Sélecteur CSS <code>header</code> → le menu apparaît juste en dessous de l'en-tête.</p>
+<p>C'est la configuration la plus courante pour un Mega Menu de bureau.</p>
+<p>Sélecteurs CSS courants pour cette option :</p>
+<ul>
+<li><code>header</code> — fonctionne sur la plupart des plateformes</li>
+<li><code>.header-wrapper</code> — certaines plateformes</li>
+<li><code>.site-header</code> — diverses plateformes</li>
+</ul>
+<p>Pas dans cette liste ? Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée, ou utiliser <a href= "/docs/usage/debug-mode-find-css-selectors/">Mode Debug</a> ou <a href= "/docs/usage/general/find-css-selector/">Browser DevTools</a> pour le trouver vous-même.</p>
+</details>
+
+<details><summary>Option 3 : Remplacer</summary>
+<p>Remplace complètement l'élément sélectionné par le menu Navi+. L'élément original est masqué et Navi+ prend sa place.</p>
+<p><strong>Exemple :</strong> Sélecteur CSS <code>.main-nav</code> → la navigation par défaut du site est masquée et remplacée par votre Mega Menu Navi+.</p>
+<p>Sélecteurs CSS courants pour cette option :</p>
+<ul>
+<li><code>nav</code> — élément de navigation générique</li>
+<li><code>.main-nav</code> — diverses plateformes</li>
+<li><code>.site-navigation</code> — diverses plateformes</li>
+</ul>
+<p><strong>Remarque :</strong> Lors de l'utilisation du mode Remplacer, un bref flash du menu original peut apparaître pendant que Navi+ se charge. Voir I.4 ci-dessous pour éviter cela.</p>
+<p>Pas dans cette liste ? Vous pouvez discuter avec un supporter de Navi+ pour obtenir de l'aide instantanée, ou utiliser <a href= "/docs/usage/debug-mode-find-css-selectors/">Mode Debug</a> ou <a href= "/docs/usage/general/find-css-selector/">Browser DevTools</a> pour le trouver vous-même.</p>
+</details>
+
+#### I.3. Ciblage spécifique aux appareils
+
+Vous pouvez contrôler si le Sélecteur CSS s'applique sur mobile, bureau, ou les deux en ajoutant un suffixe à votre sélecteur :
+
+| Suffixe | S'applique à |
+|--------|------------|
+| `(M)` | Mobile uniquement |
+| `(D)` | Bureau uniquement |
+| *(aucun)* | Mobile et bureau |
+
+**Exemples :**
+- `header(D)` — insère ou remplace uniquement sur bureau
+- `header(M)` — insère ou remplace uniquement sur mobile
+- `header` — insère ou remplace sur les deux plateformes
+
+**I.4. Important ! Optimiser la vitesse du Mega Menu et l'expérience utilisateur (mode Remplacer)**
+
+Lorsque vous remplacez un menu par un autre, Navi+ attend que l'ancien menu soit affiché puis l'échange instantanément avec le nouveau. Bien que cela se produise presque immédiatement, il y a encore un bref moment où l'ancien menu apparaît, ce qui peut confondre les utilisateurs.
+
+Avec cette étape, vous pouvez complètement masquer l'ancien menu et montrer un effet de chargement à la place. Cela donne l'impression que le site Web est plus rapide et améliore l'expérience utilisateur. Navi+ fournit une option simple intégrée pour cela dans les paramètres de publication — activez-la et configurez le Sélecteur CSS de l'élément à masquer, avec un suffixe optionnel `(M)` ou `(D)` pour un contrôle spécifique à l'appareil.
+
+***
+
+### 3. Insérer un Menu Navi+ à Tout Moment sur Votre Site Web
+
+Le code ci-dessous peut être utilisé plusieurs fois sur un site Web avec différentes informations d'insertion (en particulier l'**ID Intégré**, tel que SF-123456789). Lorsque le site Web est rendu, le menu sera déployé et affiché à l'endroit où le code est inséré lorsque les conditions sont remplies. Ce type de menu convient à : Mega menu, Grid, etc.
 
 ```html
 <!-- Insérez le code où le menu SF-123456789 apparaît. (c) naviplus.io -->

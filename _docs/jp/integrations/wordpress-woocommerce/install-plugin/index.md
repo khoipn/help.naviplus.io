@@ -7,7 +7,7 @@ title: Navi+ メニュービルダープラグインのインストール
 ---
 # Navi+ メニュービルダープラグインのインストール
 
-> プラグインの正式名称は WordPress.org で **Naviplus Menu Builder** です。このドキュメントの残りの部分では **Navi+ Menu Builder** (または単に **Navi+**) と呼ばれています。
+> プラグインの正式名称は WordPress.org で **Naviplus Menu Builder** です。このドキュメントの残りの部分では **Navi+ AI Menu Builder** (または単に **Navi+**) と呼ばれています。
 
 プラグインは公式の WordPress.org プラグインディレクトリに公開されているため、他の WordPress プラグインと同じ方法でインストールされます — 第三者からの ZIP は不要で、ライセンスキーも必要ありません。
 

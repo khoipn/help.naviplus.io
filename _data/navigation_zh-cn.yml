@@ -1,7 +1,10 @@
 - children:
   - processed_path: getting-started/what-is-navi
-    title: 什么是 Navi+？（它是如何工作的）
+    title: 什么是 Navi+？
     url: /docs/getting-started/what-is-navi/
+  - processed_path: getting-started/why-navi
+    title: 为什么选择 Navi+？
+    url: /docs/getting-started/why-navi/
   - processed_path: how-to-install-navi
     title: 安装 Navi+
     url: /docs/how-to-install-navi/
@@ -264,7 +267,7 @@
       title: Navi+ 菜单构建器常见问题
       url: /docs/integrations/wordpress-woocommerce/faq/
     processed_path: integrations/wordpress-woocommerce
-    title: WordPress / WooCommerce — Navi+ Menu Builder
+    title: WordPress / WooCommerce — Navi+ AI Menu Builder
     url: /docs/integrations/wordpress-woocommerce/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox

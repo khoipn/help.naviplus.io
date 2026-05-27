@@ -30,121 +30,132 @@ title: Shopifyでの公開
 
 これらの4つのステップの後、Navi+はあなたのウェブサイトにインストールされ、表示の準備が整いました。しかし、プロセスはまだ完了していません。Navi+アプリタブに戻って、実際に**メニューを公開**をオンにしてください。
 
-#### I.2. 表示設定を選択し、メニューを公開します。
+#### I.2. CSSセレクタの理解
+
+CSSセレクタは、ウェブページ上の特定のHTML要素をターゲットにする方法です。Navi+は、メニューを正確に**どこに**配置するかを知るためにこれを使用します—要素の前または後に挿入するか、既存のものを完全に置き換えるかです。
+
+あなたのウェブサイトに適したCSSセレクタを見つけるには、次の方法を使用できます:
+- [デバッグモード](/docs/usage/debug-mode-find-css-selectors/) — Navi+の組み込みツール: 任意の要素にカーソルを合わせて、そのセレクタを瞬時にコピー
+- [ブラウザDevTools](/docs/usage/general/find-css-selector/) — ブラウザのインスペクタを使用した手動方法
+
+<details><summary><strong>ブラウザDevToolsを使用してCSSセレクタを見つける方法</strong></summary>
+<p>Navi+のサポーターとチャットして、自己解決する代わりに即座に助けを得ることができます。しかし、自分でやりたい場合は、以下のスクリーンショットに従ってください。</p>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F955EzmFE24Jusqk5AGdx%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=17e5795c-3b2a-416a-877b-63d99d931e74" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTna1I28ss21P5aVQW0lB%2FHelp.MenuTree.1.4.4.png?alt=media&#x26;token=feed527e-2504-4609-941c-2b61885cbaab" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwwbgyipKDVFeCcnTgk7z%2FHelp.MenuTree.1.4.6.png?alt=media&#x26;token=6d806208-cff1-4a5b-b40e-031df20120d0" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtSRUcDl65hpc3xQ1ON8k%2FHelp.MenuTree.1.4.7.png?alt=media&#x26;token=a63979b3-b38f-44bc-92f0-f39b15c79804" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+</details>
+
+#### I.3. 三つの公開オプション
 
 ステップ1: **ウェブサイトに公開**ボタンをクリックします。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FarvGXK52tZ1jWEUE6hEu%2FHelp.MenuTree.1.2.1.png?alt=media&#x26;token=1be77446-44da-40e9-9bf7-f040d4238cfc" alt=""><figcaption></figcaption></figure>
 
-ステップ2: トグルをオンにします "挿入/置換方法でメニューを公開"。
+ステップ2: トグルをオンにします "Insert/Replace methodでメニューを公開"。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
-ステップ3: 正しいCSSセレクタを選択し、置換/挿入方法を選択します
+ステップ3: CSSセレクタを入力し、以下の三つの公開オプションのいずれかを選択します。
 
-このガイドでは、2つの方法に焦点を当てます: ヘッダーの下にこのメニューを挿入するか、デフォルトのメガメニューを置き換えることです。この方法を創造的に使用して、メニューをトリガーする他のCSSセレクタを見つけて適用することもできます。
+<details><summary>オプション1: 前に挿入</summary>
+<p>Navi+メニューを選択した要素の<strong>前</strong>に即座に挿入します。</p>
+<p><strong>例:</strong> CSSセレクタ <code>main</code> → メニューはページのメインコンテンツエリアの上に表示されます。</p>
+<p>Shopifyテーマ（Dawn、Sense、Savor、Horizon）用の一般的なCSSセレクタ:</p>
+<ul>
+<li><code>main</code> — ほとんどのShopifyテーマ</li>
+<li><code>#MainContent</code> — Shopify Dawnテーマ</li>
+</ul>
+<p>このリストにないですか？Navi+のサポーターとチャットするか、<a href="/docs/usage/debug-mode-find-css-selectors/">デバッグモード</a>または<a href="/docs/usage/general/find-css-selector/">ブラウザDevTools</a>を使用してください。</p>
+</details>
 
-<details><summary>ウェブサイトのヘッダーの下にこのメニューを挿入する方法<strong>?</strong></summary>
+<details><summary>オプション2: 後に挿入（デスクトップのMega Menuに最も一般的）</summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8qcOprJA7RFqTtJUD1PB%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=94ea06fa-2cbe-4fc8-be0b-7c5dd0864f47" alt=""><figcaption></figcaption></figure>
-
-<p>これを行うには、単にウェブサイトのヘッダーのCSSセレクタを特定し、それをテキストボックスに入力します。私たちはすでに、あなたのためにいくつかの最も人気のあるテーマのCSSセレクタを見つけました。以下にリストされています。</p>
-<ol>
-<li>ShopifyのDawn、Sense、Savor、Horizonなどの人気のある無料テーマのCSSセレクタ。</li>
-</ol>
-<pre class="codehilite"><code>header
-</code></pre>
-
-<ol>
-<li>このリストにない場合は、心配しないでください</li>
-</ol>
-<pre class="codehilite"><code>- CSSセレクタを見つけるためにNavi+サポーターとチャットすることができます—これには数分しかかかりません。
-
-- または、次のトピックで自己支援ガイドに従うことができます（このトピックのすぐ後）。
-</code></pre>
+<p>Navi+メニューを選択した要素の<strong>後</strong>に即座に挿入します。</p>
+<p><strong>例:</strong> CSSセレクタ <code>header</code> → メニューはヘッダーのすぐ下に表示されます。</p>
+<p>Shopifyテーマ（Dawn、Sense、Savor、Horizon）用の一般的なCSSセレクタ:</p>
+<ul>
+<li><code>header</code> — ほとんどのShopifyテーマ</li>
+<li><code>.header-wrapper</code> — 一部のテーマ</li>
+<li><code>.announcement-bar</code> — メニューをアナウンスバーのすぐ下に配置します</li>
+</ul>
+<p>このリストにないですか？Navi+のサポーターとチャットするか、<a href="/docs/usage/debug-mode-find-css-selectors/">デバッグモード</a>または<a href="/docs/usage/general/find-css-selector/">ブラウザDevTools</a>を使用してください。</p>
 </details>
 
-<details><summary>デフォルトのメガメニューを置き換える方法は？</summary>
+<details><summary>オプション3: 置き換え</summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FWnWkPsXB1g3zZl0ejugp%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=ffaa1872-48b5-4092-a499-990a21a3abc3" alt=""><figcaption></figcaption></figure>
-
-<p>これを行うには、単にウェブサイトのヘッダーのCSSセレクタを特定し、それをテキストボックスに入力します。私たちはすでに、あなたのためにいくつかの最も人気のあるテーマのCSSセレクタを見つけました。以下にリストされています。</p>
-<ol>
-<li>ShopifyのDawn、Sense、Savor、Horizonなどの人気のある無料テーマのCSSセレクタ。</li>
-</ol>
-<pre class="codehilite"><code>.header-menu
-</code></pre>
-
-<ol>
-<li>このリストにない場合は、心配しないでください</li>
-</ol>
-<pre class="codehilite"><code>- CSSセレクタを見つけるためにNavi+サポーターとチャットすることができます—これには数分しかかかりません。
-
-- または、次のトピックで自己支援ガイドに従うことができます（このトピックのすぐ後）。
-</code></pre>
+<p>選択した要素をNavi+メニューで完全に置き換えます。元の要素は隠され、Navi+がその場所を取ります。</p>
+<p><strong>例:</strong> CSSセレクタ <code>.header-menu</code> → テーマのデフォルトナビゲーションがあなたのNavi+ Mega Menuに置き換えられます。</p>
+<p>Shopifyテーマ（Dawn、Sense、Savor、Horizon）用の一般的なCSSセレクタ:</p>
+<ul>
+<li><code>.header-menu</code> — Shopify Dawnテーマ</li>
+<li><code>.header__menu</code> — 一部のテーマ</li>
+</ul>
+<p><strong>注意:</strong> Navi+が読み込まれる間、元のメニューが一瞬表示されることがあります。これを防ぐためにI.5を参照してください。</p>
+<p>このリストにないですか？Navi+のサポーターとチャットするか、<a href="/docs/usage/debug-mode-find-css-selectors/">デバッグモード</a>または<a href="/docs/usage/general/find-css-selector/">ブラウザDevTools</a>を使用してください。</p>
 </details>
 
-<details><summary><strong>ウェブサイトでCSSセレクタを見つける方法は？</strong></summary>
-<p>Navi+サポーターとチャットして即座に助けを得ることができますが、自分でやりたい場合は、以下の手順に従ってください。</p>
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
+#### I.4. デバイス特有のターゲティング
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
+CSSセレクタがモバイル、デスクトップ、または両方に適用されるかを制御するには、サフィックスを追加します:
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F955EzmFE24Jusqk5AGdx%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=17e5795c-3b2a-416a-877b-63d99d931e74" alt=""><figcaption></figcaption></figure>
+| サフィックス | 適用対象 |
+|--------|------------|
+| `(M)` | モバイルのみ |
+| `(D)` | デスクトップのみ |
+| *(なし)* | モバイルとデスクトップの両方 |
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTna1I28ss21P5aVQW0lB%2FHelp.MenuTree.1.4.4.png?alt=media&#x26;token=feed527e-2504-4609-941c-2b61885cbaab" alt=""><figcaption></figcaption></figure>
+**例:** `header(D)` — デスクトップのみ · `header(M)` — モバイルのみ · `header` — 両方のプラットフォーム。
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwwbgyipKDVFeCcnTgk7z%2FHelp.MenuTree.1.4.6.png?alt=media&#x26;token=6d806208-cff1-4a5b-b40e-031df20120d0" alt=""><figcaption></figcaption></figure>
+**I.5. 重要! Mega Menuの速度とユーザー体験を最適化する（置き換えモード）**
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtSRUcDl65hpc3xQ1ON8k%2FHelp.MenuTree.1.4.7.png?alt=media&#x26;token=a63979b3-b38f-44bc-92f0-f39b15c79804" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-</details>
-
-**I.3. 重要! メガメニューの速度とユーザー体験を最適化する（置換モード）**
-
-1つのメニューを別のメニューに置き換えると、Navi+は古いメニューが表示されるまで待機し、その後すぐに新しいメニューに切り替えます。これがほぼ即座に発生しますが、古いメニューが表示される短い瞬間があり、ユーザーを混乱させる可能性があります。
+一つのメニューを別のメニューに置き換えると、Navi+は古いメニューが表示されるまで待機し、その後すぐに新しいメニューと交換します。これはほぼ即座に行われますが、古いメニューが表示される一瞬の間があり、ユーザーを混乱させる可能性があります。
 
 このステップでは、古いメニューを完全に隠し、代わりにローディング効果を表示できます。これにより、ウェブサイトがより速く感じられ、ユーザー体験が向上します。
 
-<details><summary>Navi+はユーザー体験と速度を最適化するための簡単な解決策を提供します</summary>
-<p><strong>なぜこれを行う必要がありますか？Navi+はすでに速くないですか？</strong></p>
+<details><summary>Navi+はユーザー体験と速度を最適化するための簡単な解決策を以下のステップで提供します</summary>
+<p><strong>なぜこれをする必要がありますか？Navi+はすでに速くないですか？</strong></p>
 <p>Navi+は非常に速いです。非常に低いレイテンシ（約100ms）で主要なCDNに完全に展開されており、数百万の顧客に対しても遅くなりません。</p>
-<p>しかし、Navi+はShopifyエコシステム内で動作しています。Shopifyには独自の読み込みルールがあります：</p>
+<p>しかし、Navi+はShopifyエコシステム内で動作しています。Shopifyには独自の読み込みルールがあります:</p>
 <ol>
-<li>Shopifyは自社のリソースを最初に読み込むことを優先します。</li>
+<li>Shopifyは自社のリソースの読み込みを最優先します。</li>
 <li>次にShopifyはテーマコンテンツを読み込みます。</li>
 <li>最後にShopifyはアプリコンテンツを読み込みますが、特定の順序ではありません。</li>
 </ol>
 <p>これは、複数のアプリを使用している場合、Navi+が予想よりも遅れて読み込まれることがあることを意味します。だからこそ、特定のケースでは遅く感じることがあります。</p>
 <hr />
 <h4>私の解決策は何ですか？</h4>
-<p>現在、Navi+はShopifyウェブサイトでの読み込み時に高い優先度を持っています。しかし、まだ一定の遅延があります。ここでこれらの問題を1つずつ解決します：</p>
+<p>現在、Navi+はShopifyウェブサイトでの読み込み時に高い優先度を持っています。しかし、まだ一定の遅延があります。ここでこれらの問題を一つずつ解決していきます:</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fk4HYuop9Aq2GRnk4OEWT%2F2.1.png?alt=media&#x26;token=ddeb17b5-23d7-4870-b9ac-fb95b6e250b7" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F3CWBvH8fNoj0AHJJ68so%2F2.2.png?alt=media&#x26;token=8282df62-c2c4-4fba-a087-2eb6ea4e50dd" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fqu827HEiR3F515aSXcH1%2F2.3.png?alt=media&#x26;token=0873fe1c-31a6-45a9-8700-f09dc39f9c52" alt=""><figcaption></figcaption></figure>
 
-<p>注意：</p>
+<p>注意:</p>
 <ul>
-<li>モバイルのみに適用したい場合は、接尾辞<strong>(M)</strong>を追加してください。</li>
-<li>デスクトップのみに適用したい場合は、接尾辞<strong>(D)</strong>を追加してください。</li>
-<li>両方のプラットフォームに適用したい場合は、接尾辞を追加しないでください。</li>
+<li>モバイルのみに適用したい場合は、サフィックス<strong>(M)</strong>を追加してください。</li>
+<li>デスクトップのみに適用したい場合は、サフィックス<strong>(D)</strong>を追加してください。</li>
+<li>両方のプラットフォームに適用したい場合は、サフィックスを残さないでください。</li>
 </ul>
 </details>
 
+
 #### **II) 方法2: このメニューをShopifyテーマのセクション/ブロックとして追加する**
 
-この方法は、Shopifyテーマにブロック/セクションを追加することによってメニューを挿入します。これは従来のアプローチなので、詳細には説明しません。この方法では、ステップ1で必要なように**「App EmbedsでNavi+をオンにする」**必要すらありません。
+この方法では、Shopifyテーマにブロック/セクションを追加することでメニューを挿入します。これは従来のアプローチなので、詳細には説明しません。この方法では、方法1のステップ1で必要なように**「App EmbedsでNavi+をオンにする」**必要すらありません。
 
-このメニューの埋め込みIDをコピーし、テーマセクションの"セクションにNavi+"という名前のブロックに挿入します。追加後にタイトルを追加し、全幅を設定し、このセクションのマージンを調整できます。
+このメニューの埋め込みIDをコピーし、テーマセクションの"Navi+ on Section"という名前のブロックに挿入します。追加後にタイトルを追加し、全幅を設定し、このセクションのマージンを調整できます。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 
 <details><summary>Shopifyテーマにこのメニューをセクション/ブロックとして追加するためのガイド</summary>
-<p>以下は、Navi+メニューをShopifyテーマのセクション/ブロックとして挿入するための詳細なガイドです。この方法では、標準のShopifyサポート方式でメニューを追加できますが、Navi+が提供する他の方法ほど柔軟ではありません。</p>
-<p>この方法は<strong>メガメニュー</strong>と<strong>グリッドメニュー</strong>に適用されます。<strong>タブバー</strong>、<strong>FAB</strong>、または<strong>スライドメニュー</strong>には<strong>適用されません</strong>。</p>
+<p>以下は、ShopifyテーマにNavi+メニューをセクション/ブロックとして挿入するための詳細なガイドです。この方法では、標準のShopifyサポート方式でメニューを追加できますが、Navi+が提供する他の方法ほど柔軟ではありません。</p>
+<p>この方法は<strong>Mega Menus</strong>および<strong>Grid Menus</strong>に適用されます。<strong>Tabbar</strong>、<strong>FAB</strong>、または<strong>Slide Menus</strong>には<strong>適用されません</strong>。</p>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FcdnKqInMqe14B9NBOTqr%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=dcac5183-9433-4a11-bf2e-6508101ab089" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FF5RAjnmtKv4kXRhIMxaV%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=8eb3748c-16c6-4508-aebe-781d00c2a8d0" alt=""><figcaption></figcaption></figure>

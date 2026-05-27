@@ -1,5 +1,5 @@
 ---
-description: Publish Navi+ menus on WordPress using the Navi+ Menu Builder plugin — sticky menus render site-wide automatically, while section menus are placed via the [naviwp] shortcode or Gutenberg block.
+description: Publish Navi+ menus on WordPress using the Navi+ AI Menu Builder plugin — sticky menus render site-wide automatically, while section menus are placed via the [naviwp] shortcode or Gutenberg block.
 layout: default
 permalink: /docs/integrations/wordpress-woocommerce/publish-menus/
 title: Publish your menus on WordPress

@@ -1,5 +1,5 @@
 ---
-description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.'
+description: 'Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select "Open Link in New Tab" to save time.'
 layout: default
 permalink: /docs/usage/grid-menu/publishing-on-shopify/
 title: Publishing on Shopify
@@ -12,24 +12,44 @@ title: Publishing on Shopify
 
 #### I.1. Turn on Navi+ on App Embeds
 
-Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select “Open Link in New Tab” to save time.
+Step 1: Click Online Store, then click Themes. Tips: Right-click on Online Store and select "Open Link in New Tab" to save time.
 
-Step 2: Select the theme where you want to publish the menu.  Click: **Customize**
+Step 2: Select the theme where you want to publish the menu.  Click: **Customize**
 
 * If your website is new and has no users yet, feel free to publish the menu without worry—you can easily turn it on or off at any time without affecting visitors.
 * If your website already has regular traffic, be more careful. The best practice is to create a **duplicate Theme** and test Navi+ on that version first.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
-Step 3: Go to App embeds, find “Navi+ on All pages”, and turn it on.
+Step 3: Go to App embeds, find "Navi+ on All pages", and turn it on.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
-Step 4: Don’t forget to click “Save” to apply the changes.
+Step 4: Don't forget to click "Save" to apply the changes.
 
 After these 4 steps, Navi+ has been installed on your website and is ready to display. However, the process is not yet complete. Go back to the Navi+ app tab to actually turn on **Publish Menu**.
 
-#### I.2. Select display settings and publish the menu.
+#### I.2. Understanding CSS Selector
+
+A CSS Selector is a way to target a specific HTML element on your webpage. Navi+ uses it to know exactly **where** to place your menu — whether to insert it before or after an element, or to replace an existing one entirely.
+
+To find the correct CSS Selector for your website, you can use:
+- [Debug Mode](/docs/usage/debug-mode-find-css-selectors/) — Navi+'s built-in tool: hover over any element and instantly copy its selector
+- [Browser DevTools](/docs/usage/general/find-css-selector/) — Manual method using your browser's inspector
+
+<details><summary><strong>How to find the CSS selector using Browser DevTools</strong></summary>
+<p>You can chat with a Navi+ supporter to get instant help instead of doing it yourself. However, if you want to do it on your own, follow the screenshots below.</p>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F955EzmFE24Jusqk5AGdx%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=17e5795c-3b2a-416a-877b-63d99d931e74" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTna1I28ss21P5aVQW0lB%2FHelp.MenuTree.1.4.4.png?alt=media&#x26;token=feed527e-2504-4609-941c-2b61885cbaab" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwwbgyipKDVFeCcnTgk7z%2FHelp.MenuTree.1.4.6.png?alt=media&#x26;token=6d806208-cff1-4a5b-b40e-031df20120d0" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtSRUcDl65hpc3xQ1ON8k%2FHelp.MenuTree.1.4.7.png?alt=media&#x26;token=a63979b3-b38f-44bc-92f0-f39b15c79804" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+</details>
+
+#### I.3. Three publishing options
 
 Step 1: Click the **Publish to website** button.
 
@@ -39,56 +59,53 @@ Step 2: Turn on toggle "Publish menu by Insert/Replace method".
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
-Step 3: Select the correct CSS Selector and replace/insert method
+Step 3: Enter your CSS Selector and choose one of the three publishing options below.
 
-In this guide, we’ll focus on 1 ways: inserting this menu before the main. You can also use this method creatively by finding and applying other CSS selectors to trigger the menu.
-
-<details><summary>How to insert this menu before the main of website<strong>?</strong></summary>
+<details><summary>Option 1: Insert Before (most common for Grid Menu)</summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FFdsoRiQZP0I26RofqljL%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=51fec431-31e7-4bce-8c22-50a84664ee65" alt=""><figcaption></figcaption></figure>
-
-<p>To do this, simply identify the CSS selector of your website’s header enter it into the textbox. We’ve already found the CSS selectors for some of the most popular themes for you, listed below.</p>
-<ol>
-<li>CSS selectors for some popular, free themes.. from Shopify as Dawn, Sense, Savor, Horizon..</li>
-</ol>
-<pre class="codehilite"><code>main
-</code></pre>
-
-<ol>
-<li>Not in this list, don't worry</li>
-</ol>
-<pre class="codehilite"><code>- You can chat with a Navi+ supporter for instant help—this only takes a few minutes to find the CSS selector.
-
-- Or, you can follow the self-help guide in next topics (Right after this topic).
-</code></pre>
+<p>Inserts the Navi+ menu immediately <strong>before</strong> the selected element.</p>
+<p><strong>Example:</strong> CSS Selector <code>main</code> → the Grid Menu appears above the page's main content area.</p>
+<p>Common CSS selectors for Shopify themes (Dawn, Sense, Savor, Horizon):</p>
+<ul>
+<li><code>main</code> — most Shopify themes</li>
+<li><code>#MainContent</code> — Shopify Dawn theme</li>
+</ul>
+<p>Not in this list? Chat with a Navi+ supporter, or use <a href="/docs/usage/debug-mode-find-css-selectors/">Debug Mode</a> or <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a>.</p>
 </details>
 
-<details><summary>How to replace the default Grid Menu?</summary>
-<p>On mobile, there’s no Grid Menu to replace, so this method is usually not feasible</p>
+<details><summary>Option 2: Insert After</summary>
+<p>Inserts the Navi+ menu immediately <strong>after</strong> the selected element.</p>
+<p><strong>Example:</strong> CSS Selector <code>header</code> → the Grid Menu appears just below the header.</p>
+<p>Common CSS selectors for Shopify themes (Dawn, Sense, Savor, Horizon):</p>
+<ul>
+<li><code>header</code> — most Shopify themes</li>
+<li><code>.header-wrapper</code> — some themes</li>
+</ul>
+<p>Not in this list? Chat with a Navi+ supporter, or use <a href="/docs/usage/debug-mode-find-css-selectors/">Debug Mode</a> or <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a>.</p>
 </details>
 
-<details><summary><strong>How to find the CSS selector on your website?</strong></summary>
-<p>You can chat with a Navi+ supporter to get instant help instead of doing it yourself.\
-However, (1) this will help you understand the core idea, and (2) if you want to do it on your own, follow the instructions below.</p>
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F955EzmFE24Jusqk5AGdx%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=17e5795c-3b2a-416a-877b-63d99d931e74" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTna1I28ss21P5aVQW0lB%2FHelp.MenuTree.1.4.4.png?alt=media&#x26;token=feed527e-2504-4609-941c-2b61885cbaab" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwwbgyipKDVFeCcnTgk7z%2FHelp.MenuTree.1.4.6.png?alt=media&#x26;token=6d806208-cff1-4a5b-b40e-031df20120d0" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtSRUcDl65hpc3xQ1ON8k%2FHelp.MenuTree.1.4.7.png?alt=media&#x26;token=a63979b3-b38f-44bc-92f0-f39b15c79804" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+<details><summary>Option 3: Replace</summary>
+<p>On most Shopify stores, there's no built-in Grid Menu element to replace. Insert Before <code>main</code> is the recommended approach.</p>
+<p>If your theme does have a grid-style element you want to replace, use <a href="/docs/usage/debug-mode-find-css-selectors/">Debug Mode</a> or <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a> to find its selector.</p>
 </details>
+
+#### I.4. Device-specific targeting
+
+You can control whether the CSS Selector applies on mobile, desktop, or both by adding a suffix:
+
+| Suffix | Applies to |
+|--------|------------|
+| `(M)` | Mobile only |
+| `(D)` | Desktop only |
+| *(none)* | Both mobile and desktop |
+
+**Examples:** `main(D)` — desktop only · `main(M)` — mobile only · `main` — both platforms.
+
+​
 
 #### **II) METHOD 2: ADD THIS MENU AS A SECTION/BLOCK IN THE SHOPIFY THEME**
 
-This method inserts the menu by adding a Block/Section in your Shopify theme. It’s a traditional approach, so I won’t describe it in detail. With this method, you don’t even need to **“Turn on Navi+ in App Embeds”** as required in Step 1 of Method 1.
+This method inserts the menu by adding a Block/Section in your Shopify theme. It's a traditional approach, so I won't describe it in detail. With this method, you don't even need to **"Turn on Navi+ in App Embeds"** as required in Step 1 of Method 1.
 
 Copy Embed ID of this menu, then insert to block named "Navi+ on Section" on Theme Sections. You can add a title, set up full width, and adjust the margin for this section after adding it.
 

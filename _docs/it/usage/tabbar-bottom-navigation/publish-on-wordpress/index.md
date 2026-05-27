@@ -1,5 +1,5 @@
 ---
-description: Pubblica una Navi+ Tab Bar su WordPress con il plugin Navi+ Menu Builder — senza modifiche al codice. La Tab Bar è un menu fisso, quindi viene visualizzato automaticamente su tutto il sito una volta pubblicato nell'editor.
+description: Pubblica una Navi+ Tab Bar su WordPress con il plugin Navi+ AI Menu Builder — senza modifiche al codice. La Tab Bar è un menu fisso, quindi viene visualizzato automaticamente su tutto il sito una volta pubblicato nell'editor.
 lang: it
 layout: default
 permalink: /it/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Tab Bar — Pubblica su WordPress
 ---
 # Tab Bar — Pubblica su WordPress
 
-La **Tab Bar** è un **menu fisso** — si ancorano alla finestra di visualizzazione (tipicamente vicino al fondo su mobile) e rimane in posizione mentre i visitatori scorrono. Su WordPress, il plugin Navi+ Menu Builder rende la Tab Bar visibile su tutto il sito automaticamente; non è necessario incollare alcun codice o shortcode.
+La **Tab Bar** è un **menu fisso** — si ancorano alla finestra di visualizzazione (tipicamente vicino al fondo su mobile) e rimane in posizione mentre i visitatori scorrono. Su WordPress, il plugin Navi+ AI Menu Builder rende la Tab Bar visibile su tutto il sito automaticamente; non è necessario incollare alcun codice o shortcode.
 
 > Altre piattaforme (Wix, Squarespace, Webflow, siti personalizzati): vedere [Pubblica su Wix / Squarespace / Altri]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/).
 
@@ -15,7 +15,7 @@ La **Tab Bar** è un **menu fisso** — si ancorano alla finestra di visualizzaz
 
 ## Passi
 
-1. **Installa il plugin** — vedere [Installa il plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installa il plugin** — vedere [Installa il plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Apri l'editor** — nell'amministrazione di WordPress, vai su **Aspetto → Naviplus Menu Builder**.
 3. **Crea la tua Tab Bar** — scegli il layout della **Tab Bar**, aggiungi 3–5 destinazioni principali. Vedi [Tab Bar — Come usare]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/how-to-use/) per suggerimenti di design.
 4. **Pubblica il menu** nell'editor (stato: Pubblicato, non Bozza).

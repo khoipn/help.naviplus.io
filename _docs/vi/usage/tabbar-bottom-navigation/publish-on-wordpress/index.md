@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ Tab Bar on WordPress with the Navi+ Menu Builder plugin — no code edits. The Tab Bar is a sticky menu, so it renders site-wide automatically once published in the editor.
+description: Publish a Navi+ Tab Bar on WordPress with the Navi+ AI Menu Builder plugin — no code edits. The Tab Bar is a sticky menu, so it renders site-wide automatically once published in the editor.
 lang: vi
 layout: default
 permalink: /vi/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Tab Bar — Publish on WordPress
 ---
 # Tab Bar — Publish on WordPress
 
-The **Tab Bar** is a **sticky** menu — nó gắn vào viewport (thường gần đáy trên di động) và giữ nguyên vị trí khi người dùng cuộn. Trên WordPress, plugin Navi+ Menu Builder tự động hiển thị Tab Bar trên toàn bộ trang; bạn không cần dán bất kỳ mã hoặc shortcode nào.
+The **Tab Bar** is a **sticky** menu — nó gắn vào viewport (thường gần đáy trên di động) và giữ nguyên vị trí khi người dùng cuộn. Trên WordPress, plugin Navi+ AI Menu Builder tự động hiển thị Tab Bar trên toàn bộ trang; bạn không cần dán bất kỳ mã hoặc shortcode nào.
 
 > Các nền tảng khác (Wix, Squarespace, Webflow, các trang tùy chỉnh): xem [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/).
 
@@ -15,7 +15,7 @@ The **Tab Bar** is a **sticky** menu — nó gắn vào viewport (thường gầ
 
 ## Steps
 
-1. **Cài đặt plugin** — xem [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Cài đặt plugin** — xem [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Mở trình chỉnh sửa** — trong quản trị WordPress, đi đến **Appearance → Naviplus Menu Builder**.
 3. **Xây dựng Tab Bar của bạn** — chọn bố cục **Tab Bar**, thêm 3–5 điểm đến chính. Xem [Tab Bar — How to use]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/how-to-use/) để biết mẹo thiết kế.
 4. **Xuất bản menu** trong trình chỉnh sửa (trạng thái: Đã xuất bản, không phải Bản nháp).

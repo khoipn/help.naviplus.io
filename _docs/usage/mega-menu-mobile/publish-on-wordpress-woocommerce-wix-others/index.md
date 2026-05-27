@@ -54,7 +54,79 @@ This implementation method is suitable for all menu types that Navi+ currently s
 
 ***
 
-### 2. Insert a Navi+ Menu at Any Point on Your Website
+### 2. Publish the menu using CSS Selector (recommended)
+
+After embedding the script above, go to the Navi+ app to configure where and how your menu appears on the page.
+
+#### I.1. Understanding CSS Selector
+
+A CSS Selector is a way to target a specific HTML element on your webpage. Navi+ uses it to know exactly **where** to place your menu — whether to insert it before or after an element, or to replace an existing one entirely.
+
+You don't need to be a developer to use this. Navi+ provides a simple input field where you enter the selector, and it handles the rest.
+
+To find the correct CSS Selector for your website, you can use:
+- [Debug Mode](/docs/usage/debug-mode-find-css-selectors/) — Navi+'s built-in tool: hover over any element on your page and instantly copy its selector
+- [Browser DevTools](/docs/usage/general/find-css-selector/) — A manual method using your browser's built-in inspector
+
+#### I.2. Three publishing options
+
+Step 1: Click the **Publish to website** button in the Navi+ app.
+
+Step 2: Turn on toggle "Publish menu by Insert/Replace method".
+
+Step 3: Enter your CSS Selector and choose one of the three publishing options below.
+
+<details><summary>Option 1: Insert Before</summary>
+<p>Inserts the Navi+ menu immediately <strong>before</strong> the selected element.</p>
+<p><strong>Example:</strong> CSS Selector <code>main</code> → the menu appears above the page's main content area.</p>
+<p>Common CSS selectors for this option:</p>
+<ul>
+<li><code>main</code> — works on most platforms (Webflow, Magento, custom sites)</li>
+<li><code>#main</code> — some platforms and custom themes</li>
+<li><code>.main-content</code> — various platforms</li>
+</ul>
+<p>Not in this list? You can chat with a Navi+ supporter for instant help, or use <a href="/docs/usage/debug-mode-find-css-selectors/">Debug Mode</a> or <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a> to find it yourself.</p>
+</details>
+
+<details><summary>Option 2: Insert After</summary>
+<p>Inserts the Navi+ menu immediately <strong>after</strong> the selected element.</p>
+<p><strong>Example:</strong> CSS Selector <code>header</code> → the menu appears just below the header.</p>
+<p>This is the most common setup for a mobile Mega Menu.</p>
+<p>Common CSS selectors for this option:</p>
+<ul>
+<li><code>header</code> — works on most platforms</li>
+<li><code>.header-wrapper</code> — some platforms</li>
+<li><code>.mobile-header</code> — platforms with a dedicated mobile header element</li>
+</ul>
+<p>Not in this list? You can chat with a Navi+ supporter for instant help, or use <a href="/docs/usage/debug-mode-find-css-selectors/">Debug Mode</a> or <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a> to find it yourself.</p>
+</details>
+
+<details><summary>Option 3: Replace</summary>
+<p>Replaces the selected element entirely with the Navi+ menu. The original element is hidden and Navi+ takes its place.</p>
+<p>On mobile, most platforms bundle the mobile menu inside the header or a hamburger toggle, so there may not be a standalone element to replace. Insert Before or Insert After is recommended instead.</p>
+<p>If your platform does have a dedicated mobile menu element you want to replace, use <a href="/docs/usage/debug-mode-find-css-selectors/">Debug Mode</a> or <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a> to find its CSS Selector.</p>
+</details>
+
+#### I.3. Device-specific targeting
+
+You can control whether the CSS Selector applies on mobile, desktop, or both by adding a suffix to your selector:
+
+| Suffix | Applies to |
+|--------|------------|
+| `(M)` | Mobile only |
+| `(D)` | Desktop only |
+| *(none)* | Both mobile and desktop |
+
+**Examples:**
+- `header(M)` — inserts or replaces only on mobile
+- `header(D)` — inserts or replaces only on desktop
+- `header` — inserts or replaces on both platforms
+
+For mobile menus, using the `(M)` suffix ensures the menu only appears on mobile devices and does not interfere with the desktop layout.
+
+***
+
+### 3. Insert a Navi+ Menu at Any Point on Your Website
 
 The code below can be used multiple times on a website with different insertion information (especially the **Embeded ID**, such as SF-123456789). When the website is rendered, the menu will be deployed and displayed at the position where the code is inserted when conditions are met. This menu type is suitable for: Mega menu, Grid, etc.
 

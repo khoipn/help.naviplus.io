@@ -1,5 +1,5 @@
 ---
-description: Nachdem Sie das Navi+ Menu Builder-Plugin aktiviert haben, öffnen Sie Design → Naviplus Menu Builder, erstellen Sie Ihr erstes Menü im visuellen Editor und lassen Sie das Plugin Ihre WordPress-Website automatisch mit Navi+ verbinden.
+description: Nachdem Sie das Navi+ AI Menu Builder-Plugin aktiviert haben, öffnen Sie Design → Naviplus Menu Builder, erstellen Sie Ihr erstes Menü im visuellen Editor und lassen Sie das Plugin Ihre WordPress-Website automatisch mit Navi+ verbinden.
 lang: de
 layout: default
 permalink: /de/docs/integrations/wordpress-woocommerce/get-started/

@@ -1,5 +1,5 @@
 ---
-description: Veröffentlichen Sie einen Navi+ FAB (Floating Action Button) auf WordPress mit dem Navi+ Menu Builder Plugin. Der FAB ist ein Sticky-Menü — einmal im Editor veröffentlicht, erscheint er automatisch auf der gesamten Website.
+description: Veröffentlichen Sie einen Navi+ FAB (Floating Action Button) auf WordPress mit dem Navi+ AI Menu Builder Plugin. Der FAB ist ein Sticky-Menü — einmal im Editor veröffentlicht, erscheint er automatisch auf der gesamten Website.
 lang: de
 layout: default
 permalink: /de/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: FAB — Veröffentlichen auf WordPress
 ---
 # FAB — Veröffentlichen auf WordPress
 
-Ein **FAB (Floating Action Button)** ist ein **Sticky**-Menü — es schwebt über der Seite (typischerweise in einer Ecke) und bleibt an Ort und Stelle, während die Besucher scrollen. Auf WordPress rendert das Navi+ Menu Builder Plugin es automatisch auf der gesamten Website; Sie fügen keinen Code oder Shortcode ein.
+Ein **FAB (Floating Action Button)** ist ein **Sticky**-Menü — es schwebt über der Seite (typischerweise in einer Ecke) und bleibt an Ort und Stelle, während die Besucher scrollen. Auf WordPress rendert das Navi+ AI Menu Builder Plugin es automatisch auf der gesamten Website; Sie fügen keinen Code oder Shortcode ein.
 
 > Andere Plattformen (Wix, Squarespace, Webflow, benutzerdefinierte Seiten): siehe [Veröffentlichen auf Wix / Squarespace / Andere]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ Ein **FAB (Floating Action Button)** ist ein **Sticky**-Menü — es schwebt üb
 
 ## Schritte
 
-1. **Installieren Sie das Plugin** — siehe [Installieren Sie das Navi+ Menu Builder Plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installieren Sie das Plugin** — siehe [Installieren Sie das Navi+ AI Menu Builder Plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Erstellen Sie Ihren FAB** in **Aussehen → Naviplus Menu Builder**. Siehe [FAB — So verwenden Sie es]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/how-to-use/) für Designrichtlinien (einzelne Aktion vs. erweiterbares Menü).
 3. **Veröffentlichen Sie das Menü** im Editor (Status: Veröffentlicht, nicht Entwurf).
 

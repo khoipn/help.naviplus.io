@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ Mega Menu (Mobile) on WordPress with the Navi+ Menu Builder plugin. Insert it where it should appear via the [naviwp embed_id="..."] shortcode or Gutenberg block.
+description: Publish a Navi+ Mega Menu (Mobile) on WordPress with the Navi+ AI Menu Builder plugin. Insert it where it should appear via the [naviwp embed_id="..."] shortcode or Gutenberg block.
 lang: vi
 layout: default
 permalink: /vi/docs/usage/mega-menu-mobile/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Mega Menu (Mobile) — Publish on WordPress
 ---
 # Mega Menu (Mobile) — Publish on WordPress
 
-A **Mega Menu (Mobile)** is a **section** menu — nó hiển thị tại vị trí trên trang mà bạn nhúng nó. Trên WordPress, plugin Navi+ Menu Builder đặt nó thông qua shortcode hoặc khối Gutenberg; bạn không bao giờ chỉnh sửa tệp theme.
+A **Mega Menu (Mobile)** is a **section** menu — nó hiển thị tại vị trí trên trang mà bạn nhúng nó. Trên WordPress, plugin Navi+ AI Menu Builder đặt nó thông qua shortcode hoặc khối Gutenberg; bạn không bao giờ chỉnh sửa tệp theme.
 
 > Các nền tảng khác (Wix, Squarespace, Webflow, các trang tùy chỉnh): xem [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Mega Menu (Mobile)** is a **section** menu — nó hiển thị tại vị t
 
 ## Steps
 
-1. **Cài đặt plugin** — xem [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Cài đặt plugin** — xem [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Xây dựng Mega Menu (Mobile)** của bạn trong **Appearance → Naviplus Menu Builder**. Xem [Mega Menu (Mobile) — How to use]({{ site.baseurl }}/docs/usage/mega-menu-mobile/how-to-use/).
 3. **Sao chép Embed ID** (ví dụ: `SF-123456789`).
 4. **Nhúng nó** bằng một trong các phương pháp dưới đây.

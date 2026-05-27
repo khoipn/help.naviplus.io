@@ -1,5 +1,5 @@
 ---
-description: Publique um Navi+ FAB (Floating Action Button) no WordPress com o plugin Navi+ Menu Builder. O FAB é um menu fixo — uma vez publicado no editor, ele aparece em todo o site automaticamente.
+description: Publique um Navi+ FAB (Floating Action Button) no WordPress com o plugin Navi+ AI Menu Builder. O FAB é um menu fixo — uma vez publicado no editor, ele aparece em todo o site automaticamente.
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: FAB — Publicar no WordPress
 ---
 # FAB — Publicar no WordPress
 
-A **FAB (Floating Action Button)** é um **menu fixo** — ele flutua acima da página (tipicamente em um canto) e permanece no lugar enquanto os visitantes rolam. No WordPress, o plugin Navi+ Menu Builder o renderiza em todo o site automaticamente; você não precisa colar nenhum código ou shortcode.
+A **FAB (Floating Action Button)** é um **menu fixo** — ele flutua acima da página (tipicamente em um canto) e permanece no lugar enquanto os visitantes rolam. No WordPress, o plugin Navi+ AI Menu Builder o renderiza em todo o site automaticamente; você não precisa colar nenhum código ou shortcode.
 
 > Outras plataformas (Wix, Squarespace, Webflow, sites personalizados): veja [Publicar no Wix / Squarespace / Outros]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **FAB (Floating Action Button)** é um **menu fixo** — ele flutua acima da p
 
 ## Passos
 
-1. **Instale o plugin** — veja [Instalar o plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Instale o plugin** — veja [Instalar o plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Construa seu FAB** em **Aparência → Naviplus Menu Builder**. Veja [FAB — Como usar]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/how-to-use/) para orientações de design (ação única vs. menu expansível).
 3. **Publique o menu** no editor (status: Publicado, não Rascunho).
 

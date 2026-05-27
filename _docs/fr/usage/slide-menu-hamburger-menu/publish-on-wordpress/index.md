@@ -1,5 +1,5 @@
 ---
-description: Publiez un Menu Glissant Navi+ (hamburger) sur WordPress avec le plugin Navi+ Menu Builder. Le plugin charge le menu sur tout le site et le déclencheur est configuré dans l'éditeur Navi+ — pas d'éditions de thème, pas de shortcode pour la configuration typique.
+description: Publiez un Menu Glissant Navi+ (hamburger) sur WordPress avec le plugin Navi+ AI Menu Builder. Le plugin charge le menu sur tout le site et le déclencheur est configuré dans l'éditeur Navi+ — pas d'éditions de thème, pas de shortcode pour la configuration typique.
 lang: fr
 layout: default
 permalink: /fr/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Menu Glissant — Publier sur WordPress
 ---
 # Menu Glissant — Publier sur WordPress
 
-A **Menu Glissant** (a.k.a. hamburger menu) glisse depuis le côté et est le cheval de bataille de la navigation pour les arbres de menu profonds sur mobile. Sur WordPress, le plugin Navi+ Menu Builder le charge sur tout le site et l'éditeur Navi+ s'occupe du déclencheur d'ouverture — pas d'éditions de thème, pas de shortcode pour la configuration typique.
+A **Menu Glissant** (a.k.a. hamburger menu) glisse depuis le côté et est le cheval de bataille de la navigation pour les arbres de menu profonds sur mobile. Sur WordPress, le plugin Navi+ AI Menu Builder le charge sur tout le site et l'éditeur Navi+ s'occupe du déclencheur d'ouverture — pas d'éditions de thème, pas de shortcode pour la configuration typique.
 
 > Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Menu Glissant** (a.k.a. hamburger menu) glisse depuis le côté et est le ch
 
 ## Étapes
 
-1. **Installez le plugin** — see [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installez le plugin** — see [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Construisez votre Menu Glissant** dans **Apparence → Naviplus Menu Builder**. See [Slide Menu — How to use]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/how-to-use/).
 3. **Configurez le déclencheur d'ouverture dans l'éditeur** — Navi+ gère le câblage du déclencheur sur le front end, donc vous n'avez pas besoin d'ajouter un bouton à votre thème ou d'écrire du JS. Le panneau de publication de l'éditeur vous permet de cibler un élément existant sur votre site (par exemple le bouton hamburger de votre thème).
 4. **Publiez le menu** (statut : Publié, pas Brouillon).

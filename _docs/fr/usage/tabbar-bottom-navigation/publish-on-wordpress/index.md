@@ -1,5 +1,5 @@
 ---
-description: Publiez une barre d'onglets Navi+ sur WordPress avec le plugin Navi+ Menu Builder — sans modifications de code. La barre d'onglets est un menu fixe, elle s'affiche automatiquement sur tout le site une fois publiée dans l'éditeur.
+description: Publiez une barre d'onglets Navi+ sur WordPress avec le plugin Navi+ AI Menu Builder — sans modifications de code. La barre d'onglets est un menu fixe, elle s'affiche automatiquement sur tout le site une fois publiée dans l'éditeur.
 lang: fr
 layout: default
 permalink: /fr/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Barre d'onglets — Publier sur WordPress
 ---
 # Barre d'onglets — Publier sur WordPress
 
-La **Barre d'onglets** est un menu **fixe** — il s'ancre à la fenêtre d'affichage (généralement près du bas sur mobile) et reste en place pendant que les visiteurs font défiler. Sur WordPress, le plugin Navi+ Menu Builder rend la barre d'onglets automatiquement sur tout le site ; vous n'avez pas besoin de coller de code ou de shortcode.
+La **Barre d'onglets** est un menu **fixe** — il s'ancre à la fenêtre d'affichage (généralement près du bas sur mobile) et reste en place pendant que les visiteurs font défiler. Sur WordPress, le plugin Navi+ AI Menu Builder rend la barre d'onglets automatiquement sur tout le site ; vous n'avez pas besoin de coller de code ou de shortcode.
 
 > Autres plateformes (Wix, Squarespace, Webflow, sites personnalisés) : voir [Publier sur Wix / Squarespace / Autres]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/).
 
@@ -15,7 +15,7 @@ La **Barre d'onglets** est un menu **fixe** — il s'ancre à la fenêtre d'affi
 
 ## Étapes
 
-1. **Installez le plugin** — voir [Installer le plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installez le plugin** — voir [Installer le plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Ouvrez l'éditeur** — dans l'administration WordPress, allez à **Apparence → Naviplus Menu Builder**.
 3. **Construisez votre barre d'onglets** — choisissez la mise en page **Barre d'onglets**, ajoutez 3 à 5 destinations principales. Voir [Barre d'onglets — Comment utiliser]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/how-to-use/) pour des conseils de conception.
 4. **Publiez le menu** dans l'éditeur (statut : Publié, pas Brouillon).

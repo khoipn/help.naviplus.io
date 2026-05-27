@@ -30,7 +30,27 @@ Schritt 4: Vergessen Sie nicht, auf „Speichern“ zu klicken, um die Änderung
 
 Nach diesen 4 Schritten wurde Navi+ auf Ihrer Website installiert und ist bereit zur Anzeige. Der Prozess ist jedoch noch nicht abgeschlossen. Gehen Sie zurück zum Navi+-App-Tab, um tatsächlich **Menü veröffentlichen** zu aktivieren.
 
-#### I.2. Wählen Sie die Anzeigeeinstellungen und veröffentlichen Sie das Menü.
+#### I.2. Verständnis des CSS-Selectors
+
+Ein CSS-Selector ist eine Möglichkeit, ein bestimmtes HTML-Element auf Ihrer Webseite anzusprechen. Navi+ verwendet ihn, um genau zu wissen, **wo** Ihr Menü platziert werden soll – ob es vor oder nach einem Element eingefügt oder ein bestehendes vollständig ersetzt werden soll.
+
+Um den richtigen CSS-Selector für Ihre Website zu finden, können Sie verwenden:
+- [Debug-Modus](/docs/usage/debug-mode-find-css-selectors/) — Navi+’s integriertes Tool: Fahren Sie mit der Maus über ein beliebiges Element und kopieren Sie sofort seinen Selector
+- [Browser DevTools](/docs/usage/general/find-css-selector/) — Manuelle Methode mit dem Inspektor Ihres Browsers
+
+<details><summary><strong>So finden Sie den CSS-Selector mit Browser DevTools</strong></summary>
+<p>Sie können mit einem Navi+-Supporter chatten, um sofortige Hilfe zu erhalten, anstatt es selbst zu tun. Wenn Sie es jedoch selbst tun möchten, folgen Sie den Screenshots unten.</p>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F955EzmFE24Jusqk5AGdx%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=17e5795c-3b2a-416a-877b-63d99d931e74" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTna1I28ss21P5aVQW0lB%2FHelp.MenuTree.1.4.4.png?alt=media&#x26;token=feed527e-2504-4609-941c-2b61885cbaab" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwwbgyipKDVFeCcnTgk7z%2FHelp.MenuTree.1.4.6.png?alt=media&#x26;token=6d806208-cff1-4a5b-b40e-031df20120d0" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtSRUcDl65hpc3xQ1ON8k%2FHelp.MenuTree.1.4.7.png?alt=media&#x26;token=a63979b3-b38f-44bc-92f0-f39b15c79804" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
+</details>
+
+#### I.3. Drei Veröffentlichungsoptionen
 
 Schritt 1: Klicken Sie auf die Schaltfläche **Auf Website veröffentlichen**.
 
@@ -40,69 +60,58 @@ Schritt 2: Aktivieren Sie den Schalter "Menü veröffentlichen durch Einfügen/E
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FMKj8nfrhd9jdA3bXSFio%2FHelp.MenuTree.1.2.2.png?alt=media&#x26;token=dd78fff1-36fb-4ce9-93e5-24d3076c170d" alt=""><figcaption></figcaption></figure>
 
-Schritt 3: Wählen Sie den richtigen CSS-Selector und die Ersetzen/Einfügen-Methode
+Schritt 3: Geben Sie Ihren CSS-Selector ein und wählen Sie eine der drei Veröffentlichungsoptionen unten aus.
 
-In diesem Leitfaden konzentrieren wir uns auf 2 Möglichkeiten: dieses Menü unter dem Header einzufügen oder das Standard-Mega-Menü zu ersetzen. Sie können diese Methode auch kreativ nutzen, indem Sie andere CSS-Selectoren finden und anwenden, um das Menü auszulösen.
+<details><summary>Option 1: Vorher einfügen</summary>
+<p>Fügt das Navi+-Menü sofort <strong>vor</strong> dem ausgewählten Element ein.</p>
+<p><strong>Beispiel:</strong> CSS-Selector <code>main</code> → das Menü erscheint über dem Hauptinhalt der Seite.</p>
+<p>Häufige CSS-Selectoren für Shopify-Themes (Dawn, Sense, Savor, Horizon):</p>
+<ul>
+<li><code>main</code> — die meisten Shopify-Themes</li>
+<li><code>#MainContent</code> — Shopify Dawn-Theme</li>
+</ul>
+<p>Nicht in dieser Liste? Chatten Sie mit einem Navi+-Supporter oder verwenden Sie <a href="/docs/usage/debug-mode-find-css-selectors/">Debug-Modus</a> oder <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a>.</p>
+</details>
 
-<details><summary>Wie füge ich dieses Menü unter dem Header der Website<strong> ein?</strong></summary>
+<details><summary>Option 2: Nachher einfügen (am häufigsten für Desktop Mega Menu)</summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F8qcOprJA7RFqTtJUD1PB%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=94ea06fa-2cbe-4fc8-be0b-7c5dd0864f47" alt=""><figcaption></figcaption></figure>
-
-<p>Um dies zu tun, identifizieren Sie einfach den CSS-Selector des Headers Ihrer Website und geben Sie ihn in das Textfeld ein. Wir haben bereits die CSS-Selectoren für einige der beliebtesten Themes für Sie gefunden, die unten aufgeführt sind.</p>
-<ol>
-<li>CSS-Selectoren für einige beliebte, kostenlose Themes.. von Shopify wie Dawn, Sense, Savor, Horizon..</li>
-</ol>
-<pre class="codehilite"><code>header
-</code></pre>
-
-<ol>
-<li>Nicht in dieser Liste, keine Sorge</li>
-</ol>
-<pre class="codehilite"><code>- Sie können mit einem Navi+-Supporter chatten, um sofortige Hilfe zu erhalten – dies dauert nur wenige Minuten, um den CSS-Selector zu finden.
-
-- Oder Sie können dem Selbsthilfe-Leitfaden in den nächsten Themen folgen (Direkt nach diesem Thema).
-</code></pre>
+<p>Fügt das Navi+-Menü sofort <strong>nach</strong> dem ausgewählten Element ein.</p>
+<p><strong>Beispiel:</strong> CSS-Selector <code>header</code> → das Menü erscheint direkt unter dem Header.</p>
+<p>Häufige CSS-Selectoren für Shopify-Themes (Dawn, Sense, Savor, Horizon):</p>
+<ul>
+<li><code>header</code> — die meisten Shopify-Themes</li>
+<li><code>.header-wrapper</code> — einige Themes</li>
+<li><code>.announcement-bar</code> — platziert das Menü direkt unter einer Ankündigungsleiste</li>
+</ul>
+<p>Nicht in dieser Liste? Chatten Sie mit einem Navi+-Supporter oder verwenden Sie <a href="/docs/usage/debug-mode-find-css-selectors/">Debug-Modus</a> oder <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a>.</p>
 </details>
 
-<details><summary>Wie ersetze ich das Standard-Mega-Menü?</summary>
+<details><summary>Option 3: Ersetzen</summary>
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FWnWkPsXB1g3zZl0ejugp%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=ffaa1872-48b5-4092-a499-990a21a3abc3" alt=""><figcaption></figcaption></figure>
-
-<p>Um dies zu tun, identifizieren Sie einfach den CSS-Selector des Headers Ihrer Website und geben Sie ihn in das Textfeld ein. Wir haben bereits die CSS-Selectoren für einige der beliebtesten Themes für Sie gefunden, die unten aufgeführt sind.</p>
-<ol>
-<li>CSS-Selectoren für einige beliebte, kostenlose Themes.. von Shopify wie Dawn, Sense, Savor, Horizon..</li>
-</ol>
-<pre class="codehilite"><code>.header-menu
-</code></pre>
-
-<ol>
-<li>Nicht in dieser Liste, keine Sorge</li>
-</ol>
-<pre class="codehilite"><code>- Sie können mit einem Navi+-Supporter chatten, um sofortige Hilfe zu erhalten – dies dauert nur wenige Minuten, um den CSS-Selector zu finden.
-
-- Oder Sie können dem Selbsthilfe-Leitfaden in den nächsten Themen folgen (Direkt nach diesem Thema).
-</code></pre>
+<p>Ersetzt das ausgewählte Element vollständig durch das Navi+-Menü. Das ursprüngliche Element wird ausgeblendet und Navi+ nimmt seinen Platz ein.</p>
+<p><strong>Beispiel:</strong> CSS-Selector <code>.header-menu</code> → die Standardnavigation des Themes wird durch Ihr Navi+ Mega Menu ersetzt.</p>
+<p>Häufige CSS-Selectoren für Shopify-Themes (Dawn, Sense, Savor, Horizon):</p>
+<ul>
+<li><code>.header-menu</code> — Shopify Dawn-Theme</li>
+<li><code>.header__menu</code> — einige Themes</li>
+</ul>
+<p><strong>Hinweis:</strong> Ein kurzes Aufblitzen des ursprünglichen Menüs kann erscheinen, während Navi+ lädt. Siehe I.5 unten, um dies zu verhindern.</p>
+<p>Nicht in dieser Liste? Chatten Sie mit einem Navi+-Supporter oder verwenden Sie <a href="/docs/usage/debug-mode-find-css-selectors/">Debug-Modus</a> oder <a href="/docs/usage/general/find-css-selector/">Browser DevTools</a>.</p>
 </details>
 
-<details><summary><strong>Wie finde ich den CSS-Selector auf meiner Website?</strong></summary>
-<p>Sie können mit einem Navi+-Supporter chatten, um sofortige Hilfe zu erhalten, anstatt es selbst zu tun.\
-Allerdings wird (1) dies Ihnen helfen, die Grundidee zu verstehen, und (2) wenn Sie es selbst tun möchten, folgen Sie den Anweisungen unten.</p>
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLnnFLMtydcePyiqPSiBL%2FHelp.MenuTree.1.4.1.png?alt=media&#x26;token=36d3640e-7225-4733-b129-6f2abff1815a" alt=""><figcaption></figcaption></figure>
+#### I.4. Gerätespezifisches Targeting
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTwlnQPebgKvJC1CNLkOG%2FHelp.MenuTree.1.4.2.png?alt=media&#x26;token=fdba7b83-2372-469e-a00f-fc54e7f03931" alt=""><figcaption></figcaption></figure>
+Sie können steuern, ob der CSS-Selector auf Mobilgeräten, Desktops oder beiden angewendet wird, indem Sie ein Suffix hinzufügen:
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F955EzmFE24Jusqk5AGdx%2FHelp.MenuTree.1.4.3.png?alt=media&#x26;token=17e5795c-3b2a-416a-877b-63d99d931e74" alt=""><figcaption></figcaption></figure>
+| Suffix | Gilt für |
+|--------|------------|
+| `(M)` | Nur mobil |
+| `(D)` | Nur Desktop |
+| *(keins)* | Sowohl mobil als auch Desktop |
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FTna1I28ss21P5aVQW0lB%2FHelp.MenuTree.1.4.4.png?alt=media&#x26;token=feed527e-2504-4609-941c-2b61885cbaab" alt=""><figcaption></figcaption></figure>
+**Beispiele:** `header(D)` — nur Desktop · `header(M)` — nur mobil · `header` — beide Plattformen.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FwwbgyipKDVFeCcnTgk7z%2FHelp.MenuTree.1.4.6.png?alt=media&#x26;token=6d806208-cff1-4a5b-b40e-031df20120d0" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FtSRUcDl65hpc3xQ1ON8k%2FHelp.MenuTree.1.4.7.png?alt=media&#x26;token=a63979b3-b38f-44bc-92f0-f39b15c79804" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgyuiAWUvBOm50wfSJ6Jh%2FHelp.MenuTree.1.4.8.png?alt=media&#x26;token=0cc58c3a-7060-4cb7-a78e-669d6fa20ddc" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FLRuBf54qvUapZFUBiB6Z%2FHelp.MenuTree.1.4.9.png?alt=media&#x26;token=c885d99d-6566-4eb2-a780-6c75be5853b4" alt=""><figcaption></figcaption></figure>
-</details>
-
-**I.3. Wichtig! Optimieren Sie die Geschwindigkeit und Benutzererfahrung des Mega Menüs (Ersetzungsmodus)**
+**I.5. Wichtig! Optimieren Sie die Geschwindigkeit und Benutzererfahrung des Mega Menüs (Ersetzen-Modus)**
 
 Wenn Sie ein Menü durch ein anderes ersetzen, wartet Navi+, bis das alte Menü angezeigt wird, und tauscht es dann sofort gegen das neue aus. Obwohl dies fast sofort geschieht, gibt es immer noch einen kurzen Moment, in dem das alte Menü erscheint, was die Benutzer verwirren kann.
 
@@ -115,7 +124,7 @@ Mit diesem Schritt können Sie das alte Menü vollständig ausblenden und stattd
 <ol>
 <li>Shopify priorisiert das Laden seiner eigenen Ressourcen zuerst.</li>
 <li>Dann lädt Shopify den Theme-Inhalt.</li>
-<li>Schließlich lädt Shopify den App-Inhalt, jedoch nicht in einer bestimmten Reihenfolge.</li>
+<li>Schließlich lädt Shopify App-Inhalte, jedoch nicht in einer bestimmten Reihenfolge.</li>
 </ol>
 <p>Das bedeutet, wenn Sie mehrere Apps verwenden, kann es sein, dass Navi+ manchmal später als erwartet geladen wird. Deshalb kann es in bestimmten Fällen langsamer erscheinen.</p>
 <hr />
@@ -129,17 +138,17 @@ Mit diesem Schritt können Sie das alte Menü vollständig ausblenden und stattd
 
 <p>Hinweis:</p>
 <ul>
-<li>Fügen Sie das Suffix <strong>(M)</strong> hinzu, wenn Sie möchten, dass es nur auf Mobilgeräten angewendet wird.</li>
-<li>Fügen Sie das Suffix <strong>(D)</strong> hinzu, wenn Sie möchten, dass es nur auf Desktop angewendet wird.</li>
-<li>Belassen Sie kein Suffix, wenn Sie möchten, dass es auf beiden Plattformen angewendet wird.</li>
+<li>Fügen Sie das Suffix <strong>(M)</strong> hinzu, wenn Sie möchten, dass es nur auf Mobilgeräten gilt.</li>
+<li>Fügen Sie das Suffix <strong>(D)</strong> hinzu, wenn Sie möchten, dass es nur auf Desktops gilt.</li>
+<li>Belassen Sie kein Suffix, wenn Sie möchten, dass es auf beiden Plattformen gilt.</li>
 </ul>
 </details>
 
 #### **II) METHODE 2: FÜGEN SIE DIESES MENÜ ALS ABSCHNITT/BLOCK IM SHOPIFY-THEME HINZU**
 
-Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie es in Schritt 1 der Methode 1 erforderlich ist.
+Diese Methode fügt das Menü hinzu, indem ein Block/Abschnitt in Ihrem Shopify-Theme hinzugefügt wird. Es ist ein traditioneller Ansatz, daher werde ich es nicht im Detail beschreiben. Mit dieser Methode müssen Sie nicht einmal **„Navi+ in App-Embeds aktivieren“**, wie in Schritt 1 der Methode 1 erforderlich.
 
-Kopieren Sie die Einbettungs-ID dieses Menüs und fügen Sie sie in den Block mit dem Namen "Navi+ auf Abschnitt" in den Theme-Abschnitten ein. Sie können einen Titel hinzufügen, die volle Breite einstellen und den Abstand für diesen Abschnitt nach dem Hinzufügen anpassen.
+Kopieren Sie die Einbettungs-ID dieses Menüs und fügen Sie sie in den Block mit dem Namen "Navi+ auf Abschnitt" in den Theme-Abschnitten ein. Sie können einen Titel hinzufügen, die volle Breite einstellen und den Rand für diesen Abschnitt nach dem Hinzufügen anpassen.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 

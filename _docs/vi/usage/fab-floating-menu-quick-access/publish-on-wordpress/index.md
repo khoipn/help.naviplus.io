@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ FAB (Floating Action Button) on WordPress with the Navi+ Menu Builder plugin. The FAB is a sticky menu — once published in the editor it appears site-wide automatically.
+description: Publish a Navi+ FAB (Floating Action Button) on WordPress with the Navi+ AI Menu Builder plugin. The FAB is a sticky menu — once published in the editor it appears site-wide automatically.
 lang: vi
 layout: default
 permalink: /vi/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: FAB — Publish on WordPress
 ---
 # FAB — Publish on WordPress
 
-A **FAB (Floating Action Button)** is a **sticky** menu — nó nổi trên trang (thường ở một góc) và giữ nguyên khi người dùng cuộn. Trên WordPress, plugin Navi+ Menu Builder tự động hiển thị nó trên toàn bộ trang; bạn không cần dán bất kỳ mã hoặc shortcode nào.
+A **FAB (Floating Action Button)** is a **sticky** menu — nó nổi trên trang (thường ở một góc) và giữ nguyên khi người dùng cuộn. Trên WordPress, plugin Navi+ AI Menu Builder tự động hiển thị nó trên toàn bộ trang; bạn không cần dán bất kỳ mã hoặc shortcode nào.
 
 > Các nền tảng khác (Wix, Squarespace, Webflow, các trang tùy chỉnh): xem [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **FAB (Floating Action Button)** is a **sticky** menu — nó nổi trên tran
 
 ## Steps
 
-1. **Install the plugin** — xem [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Install the plugin** — xem [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Build your FAB** trong **Appearance → Naviplus Menu Builder**. Xem [FAB — How to use]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/how-to-use/) để biết hướng dẫn thiết kế (hành động đơn vs. menu có thể mở rộng).
 3. **Publish the menu** trong trình chỉnh sửa (trạng thái: Đã xuất bản, không phải Bản nháp).
 

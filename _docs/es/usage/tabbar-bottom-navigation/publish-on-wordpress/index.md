@@ -1,5 +1,5 @@
 ---
-description: Publica una barra de pestañas de Navi+ en WordPress con el plugin Navi+ Menu Builder — sin ediciones de código. La barra de pestañas es un menú fijo, por lo que se muestra en todo el sitio automáticamente una vez publicada en el editor.
+description: Publica una barra de pestañas de Navi+ en WordPress con el plugin Navi+ AI Menu Builder — sin ediciones de código. La barra de pestañas es un menú fijo, por lo que se muestra en todo el sitio automáticamente una vez publicada en el editor.
 lang: es
 layout: default
 permalink: /es/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Barra de pestañas — Publicar en WordPress
 ---
 # Barra de pestañas — Publicar en WordPress
 
-La **Barra de pestañas** es un menú **fijo** — se ancla a la ventana de visualización (típicamente cerca de la parte inferior en móviles) y se mantiene en su lugar a medida que los visitantes se desplazan. En WordPress, el plugin Navi+ Menu Builder renderiza la barra de pestañas en todo el sitio automáticamente; no necesitas pegar ningún código o shortcode.
+La **Barra de pestañas** es un menú **fijo** — se ancla a la ventana de visualización (típicamente cerca de la parte inferior en móviles) y se mantiene en su lugar a medida que los visitantes se desplazan. En WordPress, el plugin Navi+ AI Menu Builder renderiza la barra de pestañas en todo el sitio automáticamente; no necesitas pegar ningún código o shortcode.
 
 > Otras plataformas (Wix, Squarespace, Webflow, sitios personalizados): ver [Publicar en Wix / Squarespace / Otros]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/).
 
@@ -15,7 +15,7 @@ La **Barra de pestañas** es un menú **fijo** — se ancla a la ventana de visu
 
 ## Pasos
 
-1. **Instala el plugin** — ver [Instalar el plugin Navi+ Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Instala el plugin** — ver [Instalar el plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Abre el editor** — en el admin de WordPress, ve a **Apariencia → Naviplus Menu Builder**.
 3. **Construye tu Barra de pestañas** — elige el diseño de **Barra de pestañas**, añade de 3 a 5 destinos principales. Ver [Barra de pestañas — Cómo usar]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/how-to-use/) para consejos de diseño.
 4. **Publica el menú** en el editor (estado: Publicado, no Borrador).

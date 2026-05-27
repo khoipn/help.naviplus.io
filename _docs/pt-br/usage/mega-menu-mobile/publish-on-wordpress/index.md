@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ Mega Menu (Mobile) on WordPress with the Navi+ Menu Builder plugin. Insert it where it should appear via the [naviwp embed_id="..."] shortcode or Gutenberg block.
+description: Publish a Navi+ Mega Menu (Mobile) on WordPress with the Navi+ AI Menu Builder plugin. Insert it where it should appear via the [naviwp embed_id="..."] shortcode or Gutenberg block.
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/mega-menu-mobile/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Mega Menu (Mobile) — Publish on WordPress
 ---
 # Mega Menu (Mobile) — Publish on WordPress
 
-A **Mega Menu (Mobile)** is a **section** menu — it renders at the spot in the page where you embed it. On WordPress, the Navi+ Menu Builder plugin places it via shortcode or Gutenberg block; you never edit theme files.
+A **Mega Menu (Mobile)** is a **section** menu — it renders at the spot in the page where you embed it. On WordPress, the Navi+ AI Menu Builder plugin places it via shortcode or Gutenberg block; you never edit theme files.
 
 > Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Mega Menu (Mobile)** is a **section** menu — it renders at the spot in the
 
 ## Steps
 
-1. **Install the plugin** — see [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Install the plugin** — see [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Build your Mega Menu (Mobile)** in **Appearance → Naviplus Menu Builder**. See [Mega Menu (Mobile) — How to use]({{ site.baseurl }}/docs/usage/mega-menu-mobile/how-to-use/).
 3. **Copy the Embed ID** (e.g. `SF-123456789`).
 4. **Embed it** using one of the methods below.

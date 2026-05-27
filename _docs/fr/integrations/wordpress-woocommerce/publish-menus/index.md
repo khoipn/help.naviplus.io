@@ -1,5 +1,5 @@
 ---
-description: Publiez des menus Navi+ sur WordPress en utilisant le plugin Navi+ Menu Builder — les menus collants s'affichent automatiquement sur tout le site, tandis que les menus de section sont placés via le shortcode [naviwp] ou le bloc Gutenberg.
+description: Publiez des menus Navi+ sur WordPress en utilisant le plugin Navi+ AI Menu Builder — les menus collants s'affichent automatiquement sur tout le site, tandis que les menus de section sont placés via le shortcode [naviwp] ou le bloc Gutenberg.
 lang: fr
 layout: default
 permalink: /fr/docs/integrations/wordpress-woocommerce/publish-menus/

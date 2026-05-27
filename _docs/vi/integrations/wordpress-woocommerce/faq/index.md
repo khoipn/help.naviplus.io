@@ -1,11 +1,11 @@
 ---
-description: Các câu hỏi thường gặp về plugin Navi+ Menu Builder WordPress — giá cả, hiệu suất, WooCommerce, multisite, trình xây dựng trang, bộ nhớ đệm, quyền riêng tư và gỡ cài đặt.
+description: Các câu hỏi thường gặp về plugin Navi+ AI Menu Builder WordPress — giá cả, hiệu suất, WooCommerce, multisite, trình xây dựng trang, bộ nhớ đệm, quyền riêng tư và gỡ cài đặt.
 lang: vi
 layout: default
 permalink: /vi/docs/integrations/wordpress-woocommerce/faq/
-title: Navi+ Menu Builder FAQ
+title: Navi+ AI Menu Builder FAQ
 ---
-# Navi+ Menu Builder FAQ
+# Navi+ AI Menu Builder FAQ
 
 <details>
 <summary>Plugin có miễn phí không?</summary>
@@ -63,7 +63,7 @@ title: Navi+ Menu Builder FAQ
 
 <h2 id="privacy">Quyền riêng tư &amp; dịch vụ bên ngoài</h2>
 
-<p>Plugin kết nối với dịch vụ Navi+ Menu Builder để tạo và hiển thị menu. Dữ liệu trao đổi có thể bao gồm (nhưng không giới hạn): tên miền <strong>trang của bạn</strong>, <strong>cấu hình menu của bạn</strong>, và dữ liệu sử dụng tối thiểu cần thiết để hiển thị menu.</p>
+<p>Plugin kết nối với dịch vụ Navi+ AI Menu Builder để tạo và hiển thị menu. Dữ liệu trao đổi có thể bao gồm (nhưng không giới hạn): tên miền <strong>trang của bạn</strong>, <strong>cấu hình menu của bạn</strong>, và dữ liệu sử dụng tối thiểu cần thiết để hiển thị menu.</p>
 
 <ul>
 <li>Chính sách quyền riêng tư: <a href="https://naviplus.io/privacy">https://naviplus.io/privacy</a></li>

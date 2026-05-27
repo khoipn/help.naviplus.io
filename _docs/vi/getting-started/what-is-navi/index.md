@@ -3,9 +3,9 @@ description: Tìm hiểu Navi+ là gì, cách nó hoạt động và tại sao n
 lang: vi
 layout: default
 permalink: /vi/docs/getting-started/what-is-navi/
-title: Navi+ là gì? (Cách hoạt động)
+title: Navi+ là gì?
 ---
-# Navi+ là gì? (Cách hoạt động)
+# Navi+ là gì?
 
 Navi+ là một **trình tạo điều hướng không mã** — nó cho phép bạn tạo ra những menu đẹp mắt, có tỷ lệ chuyển đổi cao cho bất kỳ trang web nào mà không cần chạm vào chủ đề của bạn hoặc viết một dòng mã nào.
 

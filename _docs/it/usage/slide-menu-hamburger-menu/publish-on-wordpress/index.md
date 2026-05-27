@@ -1,5 +1,5 @@
 ---
-description: Pubblica un Navi+ Slide Menu (hamburger) su WordPress con il plugin Navi+ Menu Builder. Il plugin carica il menu su tutto il sito e il trigger è configurato all'interno dell'editor Navi+ — nessuna modifica al tema, nessun shortcode per la configurazione tipica.
+description: Pubblica un Navi+ Slide Menu (hamburger) su WordPress con il plugin Navi+ AI Menu Builder. Il plugin carica il menu su tutto il sito e il trigger è configurato all'interno dell'editor Navi+ — nessuna modifica al tema, nessun shortcode per la configurazione tipica.
 lang: it
 layout: default
 permalink: /it/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Slide Menu — Publish on WordPress
 ---
 # Slide Menu — Publish on WordPress
 
-A **Slide Menu** (a.k.a. hamburger menu) slides in from the side and is the workhorse navigation for deep menu trees on mobile. On WordPress, the Navi+ Menu Builder plugin loads it site-wide and the Navi+ editor takes care of the open trigger — no theme edits, no shortcode for the typical setup.
+A **Slide Menu** (a.k.a. hamburger menu) slides in from the side and is the workhorse navigation for deep menu trees on mobile. On WordPress, the Navi+ AI Menu Builder plugin loads it site-wide and the Navi+ editor takes care of the open trigger — no theme edits, no shortcode for the typical setup.
 
 > Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Slide Menu** (a.k.a. hamburger menu) slides in from the side and is the work
 
 ## Steps
 
-1. **Install the plugin** — see [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Install the plugin** — see [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Build your Slide Menu** in **Appearance → Naviplus Menu Builder**. See [Slide Menu — How to use]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/how-to-use/).
 3. **Configure the open trigger inside the editor** — Navi+ handles trigger wiring on the front end, so you don't need to add a button to your theme or write any JS. The editor's publish panel lets you target an existing element on your site (for example your theme's hamburger button).
 4. **Publish the menu** (status: Published, not Draft).

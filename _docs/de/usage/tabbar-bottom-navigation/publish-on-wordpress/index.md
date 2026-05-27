@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ Tab Bar on WordPress with the Navi+ Menu Builder plugin — no code edits. The Tab Bar is a sticky menu, so it renders site-wide automatically once published in the editor.
+description: Publish a Navi+ Tab Bar on WordPress with the Navi+ AI Menu Builder plugin — no code edits. The Tab Bar is a sticky menu, so it renders site-wide automatically once published in the editor.
 lang: de
 layout: default
 permalink: /de/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Tab Bar — Publish on WordPress
 ---
 # Tab Bar — Publish on WordPress
 
-The **Tab Bar** is a **sticky** menu — it anchors to the viewport (typically near the bottom on mobile) and stays in place as visitors scroll. On WordPress, the Navi+ Menu Builder plugin renders the Tab Bar site-wide automatically; you do not paste any code or shortcode.
+The **Tab Bar** is a **sticky** menu — it anchors to the viewport (typically near the bottom on mobile) and stays in place as visitors scroll. On WordPress, the Navi+ AI Menu Builder plugin renders the Tab Bar site-wide automatically; you do not paste any code or shortcode.
 
 > Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/).
 
@@ -15,7 +15,7 @@ The **Tab Bar** is a **sticky** menu — it anchors to the viewport (typically n
 
 ## Steps
 
-1. **Install the plugin** — see [Install the Navi+ Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Install the plugin** — see [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Open the editor** — in the WordPress admin, go to **Appearance → Naviplus Menu Builder**.
 3. **Build your Tab Bar** — pick the **Tab Bar** layout, add 3–5 main destinations. See [Tab Bar — How to use]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/how-to-use/) for design tips.
 4. **Publish the menu** in the editor (status: Published, not Draft).

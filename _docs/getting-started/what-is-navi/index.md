@@ -2,9 +2,9 @@
 description: Learn what Navi+ is, how it works, and why it's different from editing your theme's built-in menu.
 layout: default
 permalink: /docs/getting-started/what-is-navi/
-title: What is Navi+? (How it works)
+title: What is Navi+?
 ---
-# What is Navi+? (How it works)
+# What is Navi+?
 
 Navi+ is a **no-code navigation builder** — it lets you create beautiful, high-converting menus for any website without touching your theme or writing a single line of code.
 
