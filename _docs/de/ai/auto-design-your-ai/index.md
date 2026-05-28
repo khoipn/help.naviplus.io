@@ -19,42 +19,37 @@ Gestalte dein Menü mit einem KI-Tool, das du bereits kennst — ChatGPT, Claude
 
 ---
 
-## Schritt 1 — Trainiere deine KI
+<div class="install-step" markdown="1">
+### 1 — Trainiere deine KI
 
-Du benötigst ein webbasiertes KI-Tool. Empfohlene Modelle mit großem Kontext:
-
-| Tool | Empfohlenes Modell |
-|---|---|
-| Claude | Opus 4.7 |
-| ChatGPT | GPT-5 |
-| Gemini | Pro 1.5 |
+Du benötigst ein webbasiertes KI-Tool. Empfohlene Modelle mit großem Kontext: **Claude Opus 4.7**, **ChatGPT GPT-5** oder **Gemini Pro 1.5**.
 
 Klicke auf **Trainingsdokumente öffnen**, kopiere alles und füge es in deinen KI-Chat ein. So lernt die KI, wie Navi+ Menüs aufgebaut sind.
+</div>
 
----
-
-## Schritt 2 — Sende dein aktuelles Menü (JSON) an die KI
+<div class="install-step" markdown="1">
+### 2 — Sende dein aktuelles Menü (JSON) an die KI
 
 Sobald die KI die Struktur aus Schritt 1 verstanden hat, sende ihr dein aktuelles Menü:
 
 - **Aktuelles Menü in die Zwischenablage kopieren** und in den Chat einfügen, oder
 - **Die JSON-Datei herunterladen** und an den Chat anhängen.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Gib Design-Anweisungen
 
-## Schritt 3 — Gib Design-Anweisungen
+Tippe deine Anfrage in natürlicher Sprache. Du hast volle Kontrolle über das Design. Die KI liefert ein neues Menü als JSON zurück. Zum Beispiel:
 
-Tippe deine Anfrage in natürlicher Sprache, zum Beispiel:
+- Füge 2 Elemente hinzu: Blog und Karriere.
+- Ändere die Primärfarbe zu Blau `#1a73e8`.
+- Kürze auf 4 Hauptelemente, verschiebe den Rest unter ein Element „Mehr".
+- Füge jedem Element ein passendes Icon hinzu und setze das Element „Aktionen" fett.
+- Übersetze alle Elementnamen ins Englische.
+</div>
 
-- Füge dem Menü 2 weitere Elemente hinzu
-- Ändere die Primärfarbe zu Blau
-- Gruppiere die Produktelemente unter einem benannten Abschnitt
-
-Du hast volle Kontrolle über das Design. Die KI liefert ein neues Menü als JSON zurück.
-
----
-
-## Schritt 4 — Füge das Ergebnis ein und wende es an
+<div class="install-step" markdown="1">
+### 4 — Füge das Ergebnis ein und wende es an
 
 Kopiere das von der KI zurückgegebene JSON und wende es auf eine von zwei Arten auf Navi+ an:
 
@@ -62,18 +57,9 @@ Kopiere das von der KI zurückgegebene JSON und wende es auf eine von zwei Arten
 - **Option 2:** Klicke auf **JSON-Datei hochladen** und wähle deine `.json`-Datei.
 
 Wiederhole die Schritte 3–4, bis das Menü richtig aussieht, und klicke dann auf **Speichern**.
+</div>
 
 > Tipp: Die KI ändert nur die Struktur und den Inhalt im JSON. Felder, die du konfiguriert, aber nicht erwähnt hast, bleiben erhalten — überprüfe das Menü dennoch nach dem Anwenden.
-
----
-
-## Beispielanweisungen (Schritt 3)
-
-- Füge 2 Elemente hinzu: Blog und Karriere.
-- Ändere die Primärfarbe zu Blau `#1a73e8`.
-- Kürze auf 4 Hauptelemente, verschiebe den Rest unter ein Element „Mehr".
-- Füge jedem Element ein passendes Icon hinzu und setze das Element „Aktionen" fett.
-- Übersetze alle Elementnamen ins Englische.
 
 ---
 

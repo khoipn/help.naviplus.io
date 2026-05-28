@@ -13,43 +13,41 @@ Apri: il pulsante **AI** → scheda **Traduzione automatica menu**.
 
 ---
 
-## Passo 1 — Esegui il backup del tuo menu
+<div class="install-step" markdown="1">
+### 1 — Esegui il backup del tuo menu
 
-> **⋮ Altro → Backup / Ripristino** — crea una copia del tuo menu prima di tradurre.
+**⋮ Altro → Backup / Ripristino** — crea una copia del tuo menu prima di tradurre.
+</div>
 
----
-
-## Passo 2 — Seleziona le lingue di destinazione
+<div class="install-step" markdown="1">
+### 2 — Seleziona le lingue di destinazione
 
 Digita nella casella di ricerca per scegliere una o più lingue in cui tradurre. L'IA traduce **nome**, **link** e **descrizione** di ogni elemento.
 
 > Salta la lingua attuale del menu — il testo predefinito è già in quella lingua.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Conferma le opzioni
 
-## Passo 3 — Conferma le opzioni
+**Ambito della traduzione**
 
-### Ambito della traduzione
+- **Aggiungi solo le lingue mancanti** — Per ogni elemento, aggiungi traduzioni solo per le lingue non ancora presenti. Le traduzioni esistenti vengono mantenute.
+- **Ritraduci tutto da zero** — Sovrascrivi tutte le traduzioni esistenti e traduci di nuovo completamente.
 
-| Opzione | Significato |
-|---|---|
-| **Aggiungi solo le lingue mancanti** | Per ogni elemento, aggiungi traduzioni solo per le lingue non ancora presenti. Le traduzioni esistenti vengono mantenute. |
-| **Ritraduci tutto da zero** | Sovrascrivi tutte le traduzioni esistenti e traduci di nuovo completamente. |
+**Gestione dei link**
 
-### Gestione dei link
+- **Cambia automaticamente il link in /[lang]/nome-prodotto** — Quando il tuo negozio usa un prefisso di percorso, ad es. `/vi/collections` — ottimo per la SEO multilingue.
+- **Usa il meccanismo automatico di Navi+** — Lascia che Navi+ gestisca i link in base alla lingua visualizzata.
+</div>
 
-| Opzione | Quando usarla |
-|---|---|
-| **Cambia automaticamente il link in /[lang]/nome-prodotto** | Quando il tuo negozio usa un prefisso di percorso, ad es. `/vi/collections` — ottimo per la SEO multilingue. |
-| **Usa il meccanismo automatico di Navi+** | Lascia che Navi+ gestisca i link in base alla lingua visualizzata. |
-
----
-
-## Passo 4 — Traduci e salva
+<div class="install-step" markdown="1">
+### 4 — Traduci e salva
 
 Clicca il pulsante di traduzione. L'avanzamento viene mostrato nel registro attività; l'IA traduce in parallelo, quindi di solito è veloce. Al termine, controlla il menu e clicca **Salva**.
 
 > Le traduzioni sono memorizzate all'interno di ogni elemento del menu. Il menu mostra automaticamente la lingua giusta in base alla lingua del sito web che il visitatore sta visualizzando.
+</div>
 
 ---
 

@@ -19,42 +19,37 @@ Mở: nút **AI** → thẻ **Tự động thiết kế bằng app AI của bạ
 
 ---
 
-## Bước 1 — Huấn luyện AI
+<div class="install-step" markdown="1">
+### 1 — Huấn luyện AI
 
-Bạn cần một công cụ AI chạy trên web. Khuyến nghị các model ngữ cảnh lớn:
-
-| Công cụ | Model gợi ý |
-|---|---|
-| Claude | Opus 4.7 |
-| ChatGPT | GPT-5 |
-| Gemini | Pro 1.5 |
+Bạn cần một công cụ AI chạy trên web. Khuyến nghị các model ngữ cảnh lớn: **Claude Opus 4.7**, **ChatGPT GPT-5**, hoặc **Gemini Pro 1.5**.
 
 Bấm **Mở tài liệu huấn luyện**, copy toàn bộ và dán vào khung chat AI. Việc này giúp AI hiểu cấu trúc menu của Navi+.
+</div>
 
----
-
-## Bước 2 — Gửi menu hiện tại (JSON) cho AI
+<div class="install-step" markdown="1">
+### 2 — Gửi menu hiện tại (JSON) cho AI
 
 Sau khi AI đã hiểu cấu trúc ở Bước 1, gửi menu hiện tại của bạn cho AI:
 
 - **Copy menu hiện tại vào clipboard** rồi dán vào chat, hoặc
 - **Tải file JSON** rồi đính kèm vào chat.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Đưa yêu cầu thiết kế
 
-## Bước 3 — Đưa yêu cầu thiết kế
+Nhập yêu cầu bằng ngôn ngữ tự nhiên. Bạn toàn quyền kiểm soát thiết kế; AI sẽ trả về một menu mới dưới dạng JSON. Ví dụ:
 
-Nhập yêu cầu bằng ngôn ngữ tự nhiên, ví dụ:
+- Thêm 2 mục: Blog và Tuyển dụng.
+- Đổi màu chủ đạo sang xanh dương `#1a73e8`.
+- Rút gọn còn 4 mục chính, gộp phần còn lại vào mục More.
+- Thêm icon phù hợp cho mỗi mục và in đậm mục Khuyến mãi.
+- Dịch toàn bộ tên mục sang tiếng Anh.
+</div>
 
-- "Thêm 2 mục nữa vào menu"
-- "Đổi màu chủ đạo sang xanh dương"
-- "Gộp các mục sản phẩm thành một nhóm có tiêu đề"
-
-Bạn toàn quyền kiểm soát thiết kế. AI sẽ trả về một menu mới dưới dạng JSON.
-
----
-
-## Bước 4 — Dán kết quả và áp dụng
+<div class="install-step" markdown="1">
+### 4 — Dán kết quả và áp dụng
 
 Copy đoạn JSON mà AI trả về, sau đó áp dụng vào Navi+ theo một trong hai cách:
 
@@ -62,18 +57,9 @@ Copy đoạn JSON mà AI trả về, sau đó áp dụng vào Navi+ theo một t
 - **Cách 2:** Bấm **Tải lên file JSON** và chọn file `.json`.
 
 Lặp lại Bước 3–4 đến khi menu ưng ý, sau đó bấm **Save** để lưu.
+</div>
 
 > Mẹo: AI chỉ thay đổi cấu trúc và nội dung trong JSON. Các trường bạn đã cấu hình mà không nhắc tới sẽ được giữ nguyên — nhưng vẫn nên kiểm tra lại menu sau khi áp dụng.
-
----
-
-## Ví dụ yêu cầu (Bước 3)
-
-- Thêm 2 mục: Blog và Tuyển dụng.
-- Đổi màu chủ đạo sang xanh dương `#1a73e8`.
-- Rút gọn còn 4 mục chính, gộp phần còn lại vào mục More.
-- Thêm icon phù hợp cho mỗi mục và in đậm mục Khuyến mãi.
-- Dịch toàn bộ tên mục sang tiếng Anh.
 
 ---
 

@@ -13,43 +13,41 @@ Ouvrir : le bouton **AI** → carte **Traduire le menu automatiquement**.
 
 ---
 
-## Étape 1 — Sauvegardez votre menu
+<div class="install-step" markdown="1">
+### 1 — Sauvegardez votre menu
 
-> **⋮ Plus → Backup / Restore** — créez une copie de votre menu avant de traduire.
+**⋮ Plus → Backup / Restore** — créez une copie de votre menu avant de traduire.
+</div>
 
----
-
-## Étape 2 — Sélectionnez les langues cibles
+<div class="install-step" markdown="1">
+### 2 — Sélectionnez les langues cibles
 
 Tapez dans la zone de recherche pour choisir une ou plusieurs langues vers lesquelles traduire. L'IA traduit le **nom**, le **lien** et la **description** de chaque élément.
 
 > Ignorez la langue actuelle du menu — le texte par défaut est déjà dans cette langue.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Confirmez les options
 
-## Étape 3 — Confirmez les options
+**Portée de la traduction**
 
-### Portée de la traduction
+- **Ajouter uniquement les langues manquantes** — Pour chaque élément, ajoute des traductions uniquement pour les langues pas encore présentes. Les traductions existantes sont conservées.
+- **Tout retraduire depuis zéro** — Remplace toutes les traductions existantes et traduit de nouveau entièrement.
 
-| Option | Signification |
-|---|---|
-| **Ajouter uniquement les langues manquantes** | Pour chaque élément, ajoute des traductions uniquement pour les langues pas encore présentes. Les traductions existantes sont conservées. |
-| **Tout retraduire depuis zéro** | Remplace toutes les traductions existantes et traduit de nouveau entièrement. |
+**Gestion des liens**
 
-### Gestion des liens
+- **Modifier automatiquement le lien en /[lang]/nom-produit** — Quand votre boutique utilise un préfixe de chemin, p. ex. `/vi/collections` — idéal pour le SEO multilingue.
+- **Utiliser le mécanisme automatique de Navi+** — Laissez Navi+ gérer les liens selon la langue affichée.
+</div>
 
-| Option | Quand l'utiliser |
-|---|---|
-| **Modifier automatiquement le lien en /[lang]/nom-produit** | Quand votre boutique utilise un préfixe de chemin, p. ex. `/vi/collections` — idéal pour le SEO multilingue. |
-| **Utiliser le mécanisme automatique de Navi+** | Laissez Navi+ gérer les liens selon la langue affichée. |
-
----
-
-## Étape 4 — Traduisez et enregistrez
+<div class="install-step" markdown="1">
+### 4 — Traduisez et enregistrez
 
 Cliquez sur le bouton de traduction. La progression s'affiche dans le journal d'activité ; l'IA traduit en parallèle, c'est donc généralement rapide. Une fois terminé, vérifiez le menu et cliquez sur **Save**.
 
 > Les traductions sont stockées dans chaque élément de menu. Le menu affiche automatiquement la bonne langue selon la langue du site web que le visiteur consulte.
+</div>
 
 ---
 

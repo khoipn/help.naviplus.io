@@ -18,42 +18,37 @@ Open: the **AI** button → **Auto design using your AI app** card.
 
 ---
 
-## Step 1 — Train your AI
+<div class="install-step" markdown="1">
+### 1 — Train your AI
 
-You need a web-based AI tool. Recommended large-context models:
-
-| Tool | Suggested model |
-|---|---|
-| Claude | Opus 4.7 |
-| ChatGPT | GPT-5 |
-| Gemini | Pro 1.5 |
+You need a web-based AI tool. Recommended large-context models: **Claude Opus 4.7**, **ChatGPT GPT-5**, or **Gemini Pro 1.5**.
 
 Click **Open training docs**, copy everything, and paste it into your AI chat. This teaches the AI how Navi+ menus are structured.
+</div>
 
----
-
-## Step 2 — Send your current menu (JSON) to the AI
+<div class="install-step" markdown="1">
+### 2 — Send your current menu (JSON) to the AI
 
 Once the AI understands the structure from Step 1, send it your current menu:
 
 - **Copy current menu to clipboard** and paste it into the chat, or
 - **Download the JSON file** and attach it to the chat.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Give design instructions
 
-## Step 3 — Give design instructions
+Type your request in natural language. You have full control over the design; the AI returns a new menu as JSON. For example:
 
-Type your request in natural language, for example:
+- Add 2 items: Blog and Careers.
+- Change the primary color to blue `#1a73e8`.
+- Trim to 4 main items, move the rest under a More item.
+- Add a fitting icon to each item and bold the Promotions item.
+- Translate all item names to English.
+</div>
 
-- Add 2 more items to the menu
-- Change the primary color to blue
-- Group the product items under one titled section
-
-You have full control over the design. The AI returns a new menu as JSON.
-
----
-
-## Step 4 — Paste the result and apply
+<div class="install-step" markdown="1">
+### 4 — Paste the result and apply
 
 Copy the JSON the AI returns, then apply it to Navi+ in one of two ways:
 
@@ -61,18 +56,9 @@ Copy the JSON the AI returns, then apply it to Navi+ in one of two ways:
 - **Option 2:** Click **Upload JSON file** and choose your `.json` file.
 
 Repeat Steps 3–4 until the menu looks right, then click **Save**.
+</div>
 
 > Tip: The AI only changes the structure and content in the JSON. Fields you configured but didn't mention are kept — but still review the menu after applying.
-
----
-
-## Example instructions (Step 3)
-
-- Add 2 items: Blog and Careers.
-- Change the primary color to blue `#1a73e8`.
-- Trim to 4 main items, move the rest under a More item.
-- Add a fitting icon to each item and bold the Promotions item.
-- Translate all item names to English.
 
 ---
 

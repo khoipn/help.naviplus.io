@@ -19,42 +19,37 @@ Abrir: el botón **AI** → tarjeta **Diseño automático con tu app de IA**.
 
 ---
 
-## Paso 1 — Entrena tu IA
+<div class="install-step" markdown="1">
+### 1 — Entrena tu IA
 
-Necesitas una herramienta de IA basada en web. Modelos recomendados de gran contexto:
-
-| Herramienta | Modelo sugerido |
-|---|---|
-| Claude | Opus 4.7 |
-| ChatGPT | GPT-5 |
-| Gemini | Pro 1.5 |
+Necesitas una herramienta de IA basada en web. Modelos recomendados de gran contexto: **Claude Opus 4.7**, **ChatGPT GPT-5** o **Gemini Pro 1.5**.
 
 Haz clic en **Abrir documentos de entrenamiento**, copia todo y pégalo en tu chat de IA. Esto le enseña a la IA cómo están estructurados los menús de Navi+.
+</div>
 
----
-
-## Paso 2 — Envía tu menú actual (JSON) a la IA
+<div class="install-step" markdown="1">
+### 2 — Envía tu menú actual (JSON) a la IA
 
 Una vez que la IA entienda la estructura del Paso 1, envíale tu menú actual:
 
 - **Copia el menú actual al portapapeles** y pégalo en el chat, o
 - **Descarga el archivo JSON** y adjúntalo al chat.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Da instrucciones de diseño
 
-## Paso 3 — Da instrucciones de diseño
+Escribe tu solicitud en lenguaje natural. Tienes control total sobre el diseño. La IA devuelve un nuevo menú como JSON. Por ejemplo:
 
-Escribe tu solicitud en lenguaje natural, por ejemplo:
+- Agrega 2 elementos: Blog y Empleo.
+- Cambia el color primario a azul `#1a73e8`.
+- Reduce a 4 elementos principales, mueve el resto bajo un elemento Más.
+- Agrega un ícono adecuado a cada elemento y pon en negrita el elemento Promociones.
+- Traduce todos los nombres de los elementos al inglés.
+</div>
 
-- Agrega 2 elementos más al menú
-- Cambia el color primario a azul
-- Agrupa los elementos de producto bajo una sección con título
-
-Tienes control total sobre el diseño. La IA devuelve un nuevo menú como JSON.
-
----
-
-## Paso 4 — Pega el resultado y aplícalo
+<div class="install-step" markdown="1">
+### 4 — Pega el resultado y aplícalo
 
 Copia el JSON que devuelve la IA, luego aplícalo a Navi+ de una de dos maneras:
 
@@ -62,18 +57,9 @@ Copia el JSON que devuelve la IA, luego aplícalo a Navi+ de una de dos maneras:
 - **Opción 2:** Haz clic en **Subir archivo JSON** y elige tu archivo `.json`.
 
 Repite los pasos 3–4 hasta que el menú se vea bien, luego haz clic en **Guardar**.
+</div>
 
 > Consejo: La IA solo cambia la estructura y el contenido del JSON. Los campos que configuraste pero no mencionaste se conservan — pero aun así revisa el menú después de aplicar.
-
----
-
-## Instrucciones de ejemplo (Paso 3)
-
-- Agrega 2 elementos: Blog y Empleo.
-- Cambia el color primario a azul `#1a73e8`.
-- Reduce a 4 elementos principales, mueve el resto bajo un elemento Más.
-- Agrega un ícono adecuado a cada elemento y pon en negrita el elemento Promociones.
-- Traduce todos los nombres de los elementos al inglés.
 
 ---
 

@@ -13,43 +13,41 @@ Mở: nút **AI** → thẻ **Tự động dịch menu**.
 
 ---
 
-## Bước 1 — Sao lưu menu
+<div class="install-step" markdown="1">
+### 1 — Sao lưu menu
 
-> **⋮ More → Backup / Restore** — tạo một bản sao menu trước khi dịch.
+**⋮ More → Backup / Restore** — tạo một bản sao menu trước khi dịch.
+</div>
 
----
-
-## Bước 2 — Chọn ngôn ngữ đích
+<div class="install-step" markdown="1">
+### 2 — Chọn ngôn ngữ đích
 
 Gõ vào ô tìm kiếm để chọn một hoặc nhiều ngôn ngữ muốn dịch sang. AI sẽ dịch **tên**, **liên kết** và **mô tả** của các mục.
 
 > Bỏ qua ngôn ngữ gốc của menu — nội dung mặc định đã ở ngôn ngữ đó rồi.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Xác nhận tuỳ chọn
 
-## Bước 3 — Xác nhận tuỳ chọn
+**Phạm vi dịch**
 
-### Phạm vi dịch
+- **Chỉ thêm ngôn ngữ còn thiếu** — Với mỗi mục, chỉ thêm bản dịch cho ngôn ngữ chưa có. Giữ nguyên các bản dịch đã có.
+- **Dịch lại toàn bộ từ đầu** — Ghi đè tất cả bản dịch hiện có, dịch lại hoàn toàn.
 
-| Lựa chọn | Ý nghĩa |
-|---|---|
-| **Chỉ thêm ngôn ngữ còn thiếu** | Với mỗi mục, chỉ thêm bản dịch cho ngôn ngữ chưa có. Giữ nguyên các bản dịch đã có. |
-| **Dịch lại toàn bộ từ đầu** | Ghi đè tất cả bản dịch hiện có, dịch lại hoàn toàn. |
+**Xử lý liên kết**
 
-### Xử lý liên kết
+- **Tự đổi link thành /[ngôn-ngữ]/tên-sản-phẩm** — Khi cửa hàng dùng tiền tố đường dẫn theo ngôn ngữ, ví dụ `/vi/collections` — tốt cho SEO đa ngôn ngữ.
+- **Dùng cơ chế tự động của Navi+** — Để Navi+ tự xử lý liên kết theo ngôn ngữ hiển thị.
+</div>
 
-| Lựa chọn | Khi nào dùng |
-|---|---|
-| **Tự đổi link thành /[ngôn-ngữ]/tên-sản-phẩm** | Khi cửa hàng dùng tiền tố đường dẫn theo ngôn ngữ, ví dụ `/vi/collections` — tốt cho SEO đa ngôn ngữ. |
-| **Dùng cơ chế tự động của Navi+** | Để Navi+ tự xử lý liên kết theo ngôn ngữ hiển thị. |
-
----
-
-## Bước 4 — Dịch và lưu
+<div class="install-step" markdown="1">
+### 4 — Dịch và lưu
 
 Bấm nút dịch. Tiến trình hiển thị trong nhật ký hoạt động; AI dịch song song nên thường rất nhanh. Khi xong, xem lại menu và bấm **Save**.
 
 > Các bản dịch được lưu kèm trong từng mục menu. Menu sẽ tự hiển thị đúng ngôn ngữ theo ngôn ngữ trang web mà khách đang xem.
+</div>
 
 ---
 

@@ -13,43 +13,41 @@ Abra: o botão **AI** → cartão **Traduzir menu automaticamente**.
 
 ---
 
-## Etapa 1 — Faça backup do seu menu
+<div class="install-step" markdown="1">
+### 1 — Faça backup do seu menu
 
-> **⋮ Mais → Backup / Restaurar** — crie uma cópia do seu menu antes de traduzir.
+**⋮ Mais → Backup / Restaurar** — crie uma cópia do seu menu antes de traduzir.
+</div>
 
----
-
-## Etapa 2 — Selecione os idiomas de destino
+<div class="install-step" markdown="1">
+### 2 — Selecione os idiomas de destino
 
 Digite na caixa de busca para escolher um ou mais idiomas para os quais traduzir. A IA traduz o **nome**, o **link** e a **descrição** de cada item.
 
 > Ignore o idioma atual do menu — o texto padrão já está nesse idioma.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Confirme as opções
 
-## Etapa 3 — Confirme as opções
+**Escopo da tradução**
 
-### Escopo da tradução
+- **Adicionar apenas idiomas ausentes** — Para cada item, adiciona traduções apenas para os idiomas ainda não presentes. As traduções existentes são mantidas.
+- **Retraduzir tudo do zero** — Substitui todas as traduções existentes e traduz novamente por completo.
 
-| Opção | Significado |
-|---|---|
-| **Adicionar apenas idiomas ausentes** | Para cada item, adiciona traduções apenas para os idiomas ainda não presentes. As traduções existentes são mantidas. |
-| **Retraduzir tudo do zero** | Substitui todas as traduções existentes e traduz novamente por completo. |
+**Tratamento de links**
 
-### Tratamento de links
+- **Mudar o link automaticamente para /[idioma]/nome-do-produto** — Quando sua loja usa um prefixo de caminho, por exemplo `/vi/collections` — bom para SEO multilíngue.
+- **Usar o mecanismo automático do Navi+** — Deixe o Navi+ cuidar dos links com base no idioma exibido.
+</div>
 
-| Opção | Quando usar |
-|---|---|
-| **Mudar o link automaticamente para /[idioma]/nome-do-produto** | Quando sua loja usa um prefixo de caminho, por exemplo `/vi/collections` — bom para SEO multilíngue. |
-| **Usar o mecanismo automático do Navi+** | Deixe o Navi+ cuidar dos links com base no idioma exibido. |
-
----
-
-## Etapa 4 — Traduza e salve
+<div class="install-step" markdown="1">
+### 4 — Traduza e salve
 
 Clique no botão de tradução. O progresso aparece no registro de atividades; a IA traduz em paralelo, então geralmente é rápido. Ao terminar, revise o menu e clique em **Salvar**.
 
 > As traduções são armazenadas dentro de cada item do menu. O menu exibe automaticamente o idioma certo com base no idioma do site que o visitante está visualizando.
+</div>
 
 ---
 

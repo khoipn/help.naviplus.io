@@ -19,30 +19,25 @@ Abra: o botão **AI** → cartão **Design automático com seu app de IA**.
 
 ---
 
-## Etapa 1 — Treine sua IA
+<div class="install-step" markdown="1">
+### 1 — Treine sua IA
 
-Você precisa de uma ferramenta de IA baseada na web. Modelos de grande contexto recomendados:
-
-| Ferramenta | Modelo sugerido |
-|---|---|
-| Claude | Opus 4.7 |
-| ChatGPT | GPT-5 |
-| Gemini | Pro 1.5 |
+Você precisa de uma ferramenta de IA baseada na web. Modelos de grande contexto recomendados: **Claude Opus 4.7**, **ChatGPT GPT-5** ou **Gemini Pro 1.5**.
 
 Clique em **Abrir documentos de treinamento**, copie tudo e cole no seu chat de IA. Isso ensina à IA como os menus do Navi+ são estruturados.
+</div>
 
----
-
-## Etapa 2 — Envie seu menu atual (JSON) para a IA
+<div class="install-step" markdown="1">
+### 2 — Envie seu menu atual (JSON) para a IA
 
 Depois que a IA entender a estrutura da Etapa 1, envie seu menu atual:
 
 - **Copie o menu atual para a área de transferência** e cole no chat, ou
 - **Baixe o arquivo JSON** e anexe-o ao chat.
+</div>
 
----
-
-## Etapa 3 — Dê instruções de design
+<div class="install-step" markdown="1">
+### 3 — Dê instruções de design
 
 Digite sua solicitação em linguagem natural, por exemplo:
 
@@ -52,9 +47,15 @@ Digite sua solicitação em linguagem natural, por exemplo:
 
 Você tem controle total sobre o design. A IA retorna um novo menu em JSON.
 
----
+- Adicione 2 itens: Blog e Carreiras.
+- Mude a cor primária para azul `#1a73e8`.
+- Reduza para 4 itens principais, mova o restante para um item Mais.
+- Adicione um ícone apropriado a cada item e deixe o item Promoções em negrito.
+- Traduza todos os nomes dos itens para o inglês.
+</div>
 
-## Etapa 4 — Cole o resultado e aplique
+<div class="install-step" markdown="1">
+### 4 — Cole o resultado e aplique
 
 Copie o JSON que a IA retorna e aplique-o ao Navi+ de uma das duas maneiras:
 
@@ -62,18 +63,9 @@ Copie o JSON que a IA retorna e aplique-o ao Navi+ de uma das duas maneiras:
 - **Opção 2:** Clique em **Enviar arquivo JSON** e escolha seu arquivo `.json`.
 
 Repita as Etapas 3–4 até o menu ficar do jeito certo, depois clique em **Salvar**.
+</div>
 
 > Dica: A IA altera apenas a estrutura e o conteúdo no JSON. Campos que você configurou mas não mencionou são mantidos — mas ainda assim revise o menu após aplicar.
-
----
-
-## Instruções de exemplo (Etapa 3)
-
-- Adicione 2 itens: Blog e Carreiras.
-- Mude a cor primária para azul `#1a73e8`.
-- Reduza para 4 itens principais, mova o restante para um item Mais.
-- Adicione um ícone apropriado a cada item e deixe o item Promoções em negrito.
-- Traduza todos os nomes dos itens para o inglês.
 
 ---
 

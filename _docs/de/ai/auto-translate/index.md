@@ -13,43 +13,41 @@ title: Menü automatisch übersetzen
 
 ---
 
-## Schritt 1 — Sichere dein Menü
+<div class="install-step" markdown="1">
+### 1 — Sichere dein Menü
 
-> **⋮ Mehr → Backup / Restore** — erstelle eine Kopie deines Menüs, bevor du übersetzt.
+**⋮ Mehr → Backup / Restore** — erstelle eine Kopie deines Menüs, bevor du übersetzt.
+</div>
 
----
-
-## Schritt 2 — Wähle die Zielsprachen
+<div class="install-step" markdown="1">
+### 2 — Wähle die Zielsprachen
 
 Tippe in das Suchfeld, um eine oder mehrere Sprachen auszuwählen, in die übersetzt werden soll. Die KI übersetzt **Name**, **Link** und **Beschreibung** jedes Elements.
 
 > Überspringe die aktuelle Sprache des Menüs — der Standardtext ist bereits in dieser Sprache.
+</div>
 
----
+<div class="install-step" markdown="1">
+### 3 — Optionen bestätigen
 
-## Schritt 3 — Optionen bestätigen
+**Übersetzungsumfang**
 
-### Übersetzungsumfang
+- **Nur fehlende Sprachen hinzufügen** — Für jedes Element werden nur Übersetzungen für noch nicht vorhandene Sprachen hinzugefügt. Bestehende Übersetzungen bleiben erhalten.
+- **Alles von Grund auf neu übersetzen** — Überschreibt alle bestehenden Übersetzungen und übersetzt vollständig neu.
 
-| Option | Bedeutung |
-|---|---|
-| **Nur fehlende Sprachen hinzufügen** | Für jedes Element werden nur Übersetzungen für noch nicht vorhandene Sprachen hinzugefügt. Bestehende Übersetzungen bleiben erhalten. |
-| **Alles von Grund auf neu übersetzen** | Überschreibt alle bestehenden Übersetzungen und übersetzt vollständig neu. |
+**Umgang mit Links**
 
-### Umgang mit Links
+- **Link automatisch zu /[lang]/produktname ändern** — Wenn dein Shop ein Pfad-Präfix verwendet, z. B. `/vi/collections` — gut für mehrsprachiges SEO.
+- **Automatischen Mechanismus von Navi+ verwenden** — Lass Navi+ die Links basierend auf der angezeigten Sprache verwalten.
+</div>
 
-| Option | Wann verwenden |
-|---|---|
-| **Link automatisch zu /[lang]/produktname ändern** | Wenn dein Shop ein Pfad-Präfix verwendet, z. B. `/vi/collections` — gut für mehrsprachiges SEO. |
-| **Automatischen Mechanismus von Navi+ verwenden** | Lass Navi+ die Links basierend auf der angezeigten Sprache verwalten. |
-
----
-
-## Schritt 4 — Übersetzen und speichern
+<div class="install-step" markdown="1">
+### 4 — Übersetzen und speichern
 
 Klicke auf die Übersetzen-Schaltfläche. Der Fortschritt wird im Aktivitätsprotokoll angezeigt; die KI übersetzt parallel, daher ist es in der Regel schnell. Wenn fertig, überprüfe das Menü und klicke auf **Speichern**.
 
 > Übersetzungen werden in jedem Menüelement gespeichert. Das Menü zeigt automatisch die richtige Sprache basierend auf der Website-Sprache an, die der Besucher gerade sieht.
+</div>
 
 ---
 
