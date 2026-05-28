@@ -18,6 +18,25 @@
   title: Bắt đầu
   url: /docs/getting-started/
 - children:
+  - processed_path: ai
+    title: Tổng quan
+    url: /docs/ai/
+  - processed_path: ai/auto-design-your-ai
+    title: Tự động thiết kế bằng app AI của bạn
+    url: /docs/ai/auto-design-your-ai/
+  - processed_path: ai/auto-design-navi-ai
+    title: Tự động thiết kế bằng Navi+ AI
+    url: /docs/ai/auto-design-navi-ai/
+  - processed_path: ai/create-menu-structure
+    title: Tạo cấu trúc menu
+    url: /docs/ai/create-menu-structure/
+  - processed_path: ai/auto-translate
+    title: Tự động dịch menu
+    url: /docs/ai/auto-translate/
+  processed_path: ai
+  title: Navi+ AI (Mới)
+  url: /docs/ai/
+- children:
   - processed_path: usage/explore-common-menus
     title: Khám Phá Các Menu Thông Dụng
     url: /docs/usage/explore-common-menus/

@@ -18,6 +18,25 @@
   title: 始めに
   url: /docs/getting-started/
 - children:
+  - processed_path: ai
+    title: 概要
+    url: /docs/ai/
+  - processed_path: ai/auto-design-your-ai
+    title: あなたのAIアプリで自動デザイン
+    url: /docs/ai/auto-design-your-ai/
+  - processed_path: ai/auto-design-navi-ai
+    title: Navi+ AIによる自動デザイン
+    url: /docs/ai/auto-design-navi-ai/
+  - processed_path: ai/create-menu-structure
+    title: メニュー構造を作成
+    url: /docs/ai/create-menu-structure/
+  - processed_path: ai/auto-translate
+    title: メニューを自動翻訳
+    url: /docs/ai/auto-translate/
+  processed_path: ai
+  title: Navi+ AI（新機能）
+  url: /docs/ai/
+- children:
   - processed_path: usage/explore-common-menus
     title: 一般的なメニューを探る
     url: /docs/usage/explore-common-menus/

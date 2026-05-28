@@ -18,6 +18,25 @@
   title: 入门指南
   url: /docs/getting-started/
 - children:
+  - processed_path: ai
+    title: 概览
+    url: /docs/ai/
+  - processed_path: ai/auto-design-your-ai
+    title: 用您的AI应用自动设计
+    url: /docs/ai/auto-design-your-ai/
+  - processed_path: ai/auto-design-navi-ai
+    title: Navi+ AI自动设计
+    url: /docs/ai/auto-design-navi-ai/
+  - processed_path: ai/create-menu-structure
+    title: 创建菜单结构
+    url: /docs/ai/create-menu-structure/
+  - processed_path: ai/auto-translate
+    title: 自动翻译菜单
+    url: /docs/ai/auto-translate/
+  processed_path: ai
+  title: Navi+ AI（新）
+  url: /docs/ai/
+- children:
   - processed_path: usage/explore-common-menus
     title: 探索常见菜单
     url: /docs/usage/explore-common-menus/

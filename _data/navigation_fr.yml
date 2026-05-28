@@ -18,6 +18,25 @@
   title: Commencer
   url: /docs/getting-started/
 - children:
+  - processed_path: ai
+    title: Aperçu
+    url: /docs/ai/
+  - processed_path: ai/auto-design-your-ai
+    title: Design automatique avec ton app IA
+    url: /docs/ai/auto-design-your-ai/
+  - processed_path: ai/auto-design-navi-ai
+    title: Design automatique par Navi+ AI
+    url: /docs/ai/auto-design-navi-ai/
+  - processed_path: ai/create-menu-structure
+    title: Créer la structure du menu
+    url: /docs/ai/create-menu-structure/
+  - processed_path: ai/auto-translate
+    title: Traduire le menu automatiquement
+    url: /docs/ai/auto-translate/
+  processed_path: ai
+  title: Navi+ AI (Nouveau)
+  url: /docs/ai/
+- children:
   - processed_path: usage/explore-common-menus
     title: Explorer les types de menus
     url: /docs/usage/explore-common-menus/

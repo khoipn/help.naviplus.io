@@ -18,6 +18,25 @@
   title: Loslegen
   url: /docs/getting-started/
 - children:
+  - processed_path: ai
+    title: Überblick
+    url: /docs/ai/
+  - processed_path: ai/auto-design-your-ai
+    title: Automatisches Design mit deiner KI-App
+    url: /docs/ai/auto-design-your-ai/
+  - processed_path: ai/auto-design-navi-ai
+    title: Automatisches Design mit Navi+ AI
+    url: /docs/ai/auto-design-navi-ai/
+  - processed_path: ai/create-menu-structure
+    title: Menüstruktur erstellen
+    url: /docs/ai/create-menu-structure/
+  - processed_path: ai/auto-translate
+    title: Menü automatisch übersetzen
+    url: /docs/ai/auto-translate/
+  processed_path: ai
+  title: Navi+ AI (Neu)
+  url: /docs/ai/
+- children:
   - processed_path: usage/explore-common-menus
     title: Gemeinsame Menüs erkunden
     url: /docs/usage/explore-common-menus/
