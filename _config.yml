@@ -1,9 +1,9 @@
 # Site settings
-title: Navi+ Help Center
+title: "Navi+ Help — Build menus that convert visitors into buyers"
 site_name: "Help" # Display name next to logo in navbar
 lang: en
 email: support@naviplus.io
-description: "Navi+ Help Center — Official guides, tutorials and FAQs for Mega Menu, Tab Bar, Slide Menu, Sticky Navbar, FAB and Grid Menu on Shopify, WordPress, Wix and more."
+description: "Step-by-step guides to build AI-powered menus that convert visitors into buyers — Mega Menu, Tab Bar, Slide Menu for Shopify, WordPress, Wix and more."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://help.naviplus.io"
 social_image: "/assets/images/naviplus-social-share.jpg"
