@@ -11,6 +11,8 @@ title: 在Wix / Squarespace / 其他平台上发布
 
 > **在Shopify上？** 安装专用的 [Shopify app](https://apps.shopify.com/pronavi-navigation-design) — 它针对该平台进行了优化，具有内置的发布选项。
 
+> **在Wix上？** 如果您从 Wix App Market 安装了 Navi+ 应用，Navi+ 会自动嵌入到您的网站中 — 您可以**跳过下面的步骤**。如果您未安装 Wix 应用，仍可以通过下面的手动嵌入在 Wix 上使用 Navi+。
+
 本页面涵盖**手动脚本嵌入**方法，这是适合 [Wix](https://wix.com/ "Wix")、[Squarespace](https://www.squarespace.com/ "Squarespace")、[Webflow](https://webflow.com/ "Webflow")、[Magento](https://magento-opensource.com/ "Magento") 和使用PHP、Node.js或纯HTML构建的自定义网站的正确路径。您有以下实施方法：
 
 ### 1. 在您的网站上嵌入Navi+

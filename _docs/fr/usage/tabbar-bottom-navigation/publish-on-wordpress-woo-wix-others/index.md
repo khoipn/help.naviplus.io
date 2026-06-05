@@ -11,6 +11,8 @@ title: Publier sur Wix / Squarespace / Autres
 
 > **Sur Shopify ?** Installez l'[application Shopify](https://apps.shopify.com/pronavi-navigation-design) dédiée — elle est optimisée pour la plateforme avec des options de publication intégrées.
 
+> **Sur Wix ?** Si vous avez installé l'application Navi+ depuis le Wix App Market, Navi+ est intégré automatiquement à votre site — vous pouvez **ignorer les étapes ci-dessous**. Si vous n'avez pas installé l'application Wix, vous pouvez tout de même utiliser Navi+ sur Wix via l'intégration manuelle ci-dessous.
+
 Cette page couvre la méthode **d'intégration de script manuelle**, qui est le bon chemin pour [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), et les sites Web personnalisés construits avec PHP, Node.js, ou HTML pur. Vous avez les méthodes d'implémentation suivantes :
 
 ### 1. Intégrer Navi+ sur Votre Site Web

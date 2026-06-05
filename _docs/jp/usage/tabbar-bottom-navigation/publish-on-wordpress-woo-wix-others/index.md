@@ -11,6 +11,8 @@ title: Wix / Squarespace / その他で公開
 
 > **Shopifyをご利用ですか？** 専用の[Shopifyアプリ](https://apps.shopify.com/pronavi-navigation-design)をインストールしてください — プラットフォームに最適化されており、組み込みの公開オプションがあります。
 
+> **Wixをご利用ですか？** Wix アプリマーケットから Navi+ アプリをインストールした場合、Navi+ はサイトに自動的に埋め込まれます — **以下の手順はスキップできます**。Wix アプリをインストールしていない場合でも、以下の手動埋め込みで Navi+ を Wix で利用できます。
+
 このページでは、**手動スクリプト埋め込み**メソッドについて説明します。これは、[Wix](https://wix.com/ "Wix")、[Squarespace](https://www.squarespace.com/ "Squarespace")、[Webflow](https://webflow.com/ "Webflow")、[Magento](https://magento-opensource.com/ "Magento")、およびPHP、Node.js、または純粋なHTMLで構築されたカスタムウェブサイトに適しています。以下の実装方法があります:
 
 ### 1. ウェブサイトにNavi+を埋め込む

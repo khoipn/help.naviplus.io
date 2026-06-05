@@ -23,13 +23,15 @@
 
 
 
+
+
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="index, follow" />
 <meta name="theme-color" content="#0f2d1e" />
 
 
-<title>Thèmes | Navi+ Help Center</title>
+<title>Thèmes | Navi+ Help — Guides pour créer des menus qui convertissent</title>
 
 
 <meta name="description" content="- Shopify: Ouvrez le menu hamburger ou le panier, panneau de recherche" />
@@ -52,7 +54,7 @@
   href="https://cdn.naviplus.app/naviplus/images/favicon_naviplus.png" />
 
 <!-- Open Graph -->
-<meta property="og:site_name"   content="Navi+ Help Center" />
+<meta property="og:site_name"   content="Navi+ Help — Build menus that convert visitors into buyers" />
 <meta property="og:locale"      content="fr_FR" />
 
 <meta property="og:type"        content="article" />
@@ -83,9 +85,9 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Navi+ Help Center",
+  "name": "Navi+ Help — Build menus that convert visitors into buyers",
   "url": "http://100.105.92.91:4445",
-  "description": "Navi+ Help Center — Official guides, tutorials and FAQs for Mega Menu, Tab Bar, Slide Menu, Sticky Navbar, FAB and Grid Menu on Shopify, WordPress, Wix and more.",
+  "description": "Step-by-step guides to build AI-powered menus that convert visitors into buyers — Mega Menu, Tab Bar, Slide Menu for Shopify, WordPress, Wix and more.",
   "inLanguage": "fr",
   "publisher": {
     "@type": "Organization",
@@ -119,7 +121,7 @@
   "inLanguage": "fr",
   "isPartOf": {
     "@type": "WebSite",
-    "name": "Navi+ Help Center",
+    "name": "Navi+ Help — Build menus that convert visitors into buyers",
     "url": "http://100.105.92.91:4445"
   },
   "publisher": {
@@ -215,8 +217,108 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  /* ── Button reset for nav-link triggers ── */
+  button.np-help-nav-link { background: none; border: none; font-family: inherit; }
+
+  /* ── Mega layout utilities ── */
+  .nh-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+  .nh-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
+  .nh-col-sep { padding-left: 14px; border-left: 1px solid #eceef2; margin-left: 8px; }
+  .nh-brand { padding: 4px 8px 12px; border-bottom: 1px solid #eceef2; margin-bottom: 8px; }
+  .nh-brand-name { font-size: 12.5px; font-weight: 700; color: #0f1117; margin-bottom: 3px; }
+  .nh-brand-desc { font-size: 11.5px; color: #6b7280; line-height: 1.4; }
+  .nh-idea { display: flex; align-items: flex-start; gap: 10px; padding: 5px 8px; border-radius: 7px; text-decoration: none; transition: background .12s; }
+  .nh-idea:hover { background: #f7f8fa; text-decoration: none; }
+  .nh-idea-img { width: 56px; height: 35px; border-radius: 4px !important; object-fit: cover; flex-shrink: 0; background: #eceef2; border: none !important; margin: 0 !important; }
+  .nh-idea-title { font-size: 11.5px; font-weight: 400; color: #6b7280; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .nh-cta-group { display: flex; flex-direction: column; gap: 4px; padding: 8px 4px 2px; border-top: 1px solid #eceef2; margin-top: 6px; }
+  .nh-cta-btn { display: flex; align-items: center; gap: 7px; padding: 6px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; text-decoration: none; transition: background .12s; white-space: nowrap; }
+  .nh-cta-shopify { background: #eaf2ec; color: #1c5f3b; }
+  .nh-cta-shopify:hover { background: #d4e8da; color: #1c5f3b; text-decoration: none; }
+  .nh-cta-wp { background: #e8f0f7; color: #1a4f7a; }
+  .nh-cta-wp:hover { background: #d1e4f0; color: #1a4f7a; text-decoration: none; }
+  .nh-cta-web { background: #f5f6fa; color: #3d4352; }
+  .nh-cta-web:hover { background: #eceef2; color: #3d4352; text-decoration: none; }
+  .nh-guide-link { display: block; padding: 4px 8px; border-radius: 5px; font-size: 12px; color: #6b7280; text-decoration: none; transition: background .12s, color .12s; white-space: nowrap; }
+  .nh-guide-link:hover { background: #f7f8fa; color: #0f1117; text-decoration: none; }
+  .nh-guide-footer { display: block; padding: 4px 8px; margin-top: 5px; border-top: 1px solid #eceef2; padding-top: 8px; font-size: 11.5px; color: #9ba3b5; text-decoration: none; transition: color .12s; }
+  .nh-guide-footer:hover { color: #1a7a4f; text-decoration: none; }
+  .nh-tools-intro { padding: 6px 8px 12px; border-bottom: 1px solid #eceef2; margin-bottom: 8px; }
+  .nh-tools-intro-head { font-size: 12.5px; font-weight: 700; color: #0f1117; margin-bottom: 4px; }
+  .nh-tools-intro-desc { font-size: 11.5px; color: #6b7280; line-height: 1.45; }
+
+  /* ── Language switcher (desktop) ── */
+  .nh-lang { position: relative; }
+  .nh-lang-btn { display: inline-flex; align-items: center; gap: 5px; padding: 5px 10px; border-radius: 6px; font-size: 13px; font-weight: 500; color: rgba(255,255,255,.8); background: none; border: none; cursor: pointer; transition: background .15s, color .15s; white-space: nowrap; font-family: inherit; }
+  .nh-lang-btn:hover { background: rgba(255,255,255,.08); color: #fff; }
+  .nh-lang-flag { font-size: 15px; line-height: 1; }
+  .nh-lang-chevron { width: 12px; height: 12px; opacity: .5; transition: transform .2s; flex-shrink: 0; }
+  .nh-lang:hover .nh-lang-chevron, .nh-lang:focus-within .nh-lang-chevron { transform: rotate(180deg); opacity: 1; }
+  .nh-lang-dropdown { position: absolute; top: 100%; right: 0; padding-top: 6px; opacity: 0; visibility: hidden; transition: opacity .18s, visibility .18s; pointer-events: none; z-index: 2100; }
+  .nh-lang-dropdown-inner { position: relative; background: white; border: 1px solid #e4e6ec; border-radius: 12px; box-shadow: 0 12px 40px rgba(15,17,23,.12), 0 4px 12px rgba(15,17,23,.06); padding: 6px; min-width: 180px; transform: translateY(-6px); transition: transform .18s; }
+  .nh-lang-dropdown-inner::before { content: ""; position: absolute; top: -5px; right: 16px; width: 10px; height: 10px; background: white; border-left: 1px solid #e4e6ec; border-top: 1px solid #e4e6ec; transform: rotate(45deg); border-radius: 2px 0 0 0; }
+  .nh-lang:hover .nh-lang-dropdown, .nh-lang:focus-within .nh-lang-dropdown { opacity: 1; visibility: visible; pointer-events: auto; }
+  .nh-lang:hover .nh-lang-dropdown-inner, .nh-lang:focus-within .nh-lang-dropdown-inner { transform: translateY(0); }
+  .nh-lang-item { display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 7px; text-decoration: none; color: #3d4352; font-size: 13px; font-weight: 500; transition: background .12s, color .12s; white-space: nowrap; }
+  .nh-lang-item:hover { background: #f0f1f5; color: #0f1117; text-decoration: none; }
+  .nh-lang-item.active { color: #1a7a4f; font-weight: 600; }
+
+  /* ── Mobile accordion ── */
+  .nh-mob-link-item { border-bottom: 1px solid rgba(255,255,255,.05); }
+  .nh-mob-acc-btn { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 12px 20px; font-size: 14.5px; font-weight: 500; color: rgba(255,255,255,.85); background: none; border: none; font-family: inherit; cursor: pointer; text-align: left; transition: background .12s; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-acc-btn:hover, .nh-mob-acc-btn:active { background: rgba(255,255,255,.05); }
+  .nh-mob-acc-btn-plain { display: block; width: 100%; padding: 12px 20px; font-size: 14.5px; font-weight: 500; color: rgba(255,255,255,.85); background: none; border: none; font-family: inherit; cursor: pointer; text-align: left; transition: background .12s; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-acc-btn-plain:hover { background: rgba(255,255,255,.05); color: rgba(255,255,255,.85); text-decoration: none; }
+  .nh-mob-acc-chevron { width: 14px; height: 14px; opacity: .5; flex-shrink: 0; transition: transform .25s, opacity .2s; }
+  .nh-mob-acc-btn[aria-expanded="true"] .nh-mob-acc-chevron { transform: rotate(180deg); opacity: .85; }
+  .nh-mob-sub { list-style: none; margin: 0; padding: 0; max-height: 0; overflow: hidden; transition: max-height .32s cubic-bezier(.4,0,.2,1); }
+  .nh-mob-sub.is-open { max-height: 1400px; }
+  .nh-mob-label { padding: 6px 20px 2px; font-size: 10.5px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,.38); }
+  .nh-mob-plain { display: block; padding: 9px 20px; font-size: 13.5px; color: rgba(255,255,255,.72); text-decoration: none; transition: background .12s; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-plain:hover, .nh-mob-plain:active { background: rgba(255,255,255,.06); color: rgba(255,255,255,.95); text-decoration: none; }
+  .nh-mob-divider { height: 1px; background: rgba(255,255,255,.07); margin: 3px 16px; }
+  /* Mobile lang strip */
+  .nh-mob-lang { padding: 10px 16px 16px; display: flex; flex-wrap: wrap; gap: 6px; border-top: 1px solid rgba(255,255,255,.07); }
+  .nh-mob-lang-item { display: inline-flex; align-items: center; gap: 5px; padding: 5px 10px; border-radius: 16px; text-decoration: none; color: rgba(255,255,255,.7); font-size: 12.5px; font-weight: 500; border: 1px solid rgba(255,255,255,.15); transition: background .12s, color .12s, border-color .12s; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-lang-item:hover { background: rgba(255,255,255,.08); color: #fff; text-decoration: none; }
+  .nh-mob-lang-item.active { background: #1a7a4f; color: white; border-color: #1a7a4f; }
+  /* Mobile CTA */
+  .nh-mob-cta { padding: 10px 16px 16px; display: flex; gap: 8px; border-top: 1px solid rgba(255,255,255,.07); }
+  .nh-mob-cta-btn { flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 12px; border-radius: 8px; font-size: 13.5px; font-weight: 600; text-decoration: none; transition: background .15s; -webkit-tap-highlight-color: transparent; }
+  .nh-mob-cta-primary { background: #1a7a4f; color: white; }
+  .nh-mob-cta-primary:hover { background: #0f5c3a; color: white; text-decoration: none; }
+  .nh-mob-cta-secondary { border: 1.5px solid rgba(255,255,255,.3); color: rgba(255,255,255,.85); }
+  .nh-mob-cta-secondary:hover { background: rgba(255,255,255,.08); color: white; text-decoration: none; }
+
+  @media (max-width: 767.98px) {
+    .nh-lang { display: none; }
+  }
+</style>
+
 <header class="np-help-header">
-  <nav class="np-help-nav">
+  <nav class="np-help-nav" aria-label="Navigation principale">
 
     <!-- Mobile: sidebar toggle -->
     <button class="np-help-sidebar-toggle d-md-none" type="button"
@@ -227,16 +329,382 @@
 
     <!-- Logo -->
     <a href="/fr/home/" class="np-help-logo">
-      <img src="https://cdn.naviplus.app/naviplus/images/logo/webp/logo-navi-light.webp" alt="Navi+" height="28" />
+      <img src="https://cdn.naviplus.app/static/logo/webp/logo-navi-dark.webp" alt="Navi+" height="28" />
       <span class="np-help-logo-divider"></span>
       <span class="np-help-logo-text">Help</span>
     </a>
 
-    <!-- Nav links (generated by JS) -->
-    <ul class="np-help-links" id="main-navbar-nav-links"></ul>
+    <!-- Desktop nav links -->
+    <ul class="np-help-links" role="list">
 
-    <!-- Right side -->
+      <!-- [1] Services -->
+      <li class="np-help-nav-item">
+        <button class="np-help-nav-link" aria-haspopup="true">
+          Services
+          <svg class="np-help-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-help-mega" style="width:780px;" role="region" aria-label="Services">
+          <div class="np-help-mega-inner">
+            <div class="nh-2col">
+
+              <!-- Col 1: Navi+ AI Menu Builder -->
+              <div>
+                <div class="nh-brand">
+                  <div class="nh-brand-name">Navi+ AI Menu Builder</div>
+                  <div class="nh-brand-desc">Le constructeur de navigation pour l'e-commerce — sans code, sans conflits.</div>
+                </div>
+                <a href="https://naviplus.io/fr/why-navi/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-question-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Pourquoi Navi+ ?</div>
+                    <div class="np-help-mega-desc">Pourquoi les menus par défaut ne suffisent pas — et comment Navi+ y remédie.</div>
+                  </div>
+                </a>
+                <a href="/fr/docs/how-to-install-navi/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-download-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Comment installer Navi+</div>
+                    <div class="np-help-mega-desc">Installation en quelques minutes sur Shopify, WordPress ou n'importe quel site.</div>
+                  </div>
+                </a>
+                <a href="https://naviplus.io/fr/features/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-star-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Choisir le bon menu pour votre plateforme</div>
+                    <div class="np-help-mega-desc">Tab Bar · Mega Menu · Slide Menu · FAB · Grid Menu</div>
+                  </div>
+                </a>
+                <a href="/fr/docs/common-first-questions/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-chat-check-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Questions courantes pour débuter</div>
+                    <div class="np-help-mega-desc">Les questions les plus fréquentes des nouveaux utilisateurs, avec réponses.</div>
+                  </div>
+                </a>
+                <div class="nh-cta-group">
+                  <a href="https://apps.shopify.com/pronavi-navigation-design" class="nh-cta-btn nh-cta-shopify" target="_blank" rel="noopener">
+                    <i class="ri-store-2-line" aria-hidden="true"></i>
+                    Installer sur Shopify
+                  </a>
+                  <a href="https://wordpress.org/plugins/naviplus-menu-builder/" class="nh-cta-btn nh-cta-wp" target="_blank" rel="noopener">
+                    <i class="ri-wordpress-fill" aria-hidden="true"></i>
+                    Installer sur WordPress
+                  </a>
+                  <a href="https://dash.naviplus.app" class="nh-cta-btn nh-cta-web" target="_blank" rel="noopener">
+                    <i class="ri-global-line" aria-hidden="true"></i>
+                    Installer sur des sites web
+                  </a>
+                </div>
+              </div>
+
+              <!-- Col 2: Ideas -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">Idées</div>
+                <a href="https://naviplus.io/fr/ideas/flat-menu-too-basic" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/flat-menu-too-basic.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">Le menu par défaut est trop basique — les clients ne trouvent pas ce qu'ils veulent</span>
+                </a>
+                <a href="https://naviplus.io/fr/ideas/improve-mobile-menu-ux" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/improve-mobile-menu-ux.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">70% des visiteurs sont sur mobile — mais votre menu les fait fuir</span>
+                </a>
+                <a href="https://naviplus.io/fr/ideas/fix-navigation-lower-bounce-rate" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/fix-navigation-lower-bounce-rate.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">Vous dépensez en publicité mais les visiteurs partent — une mauvaise navigation tue votre entonnoir</span>
+                </a>
+                <a href="https://naviplus.io/fr/ideas/customize-menu-without-coding" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/customize-menu-without-coding.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">Améliorer l'apparence du menu signifie embaucher un développeur</span>
+                </a>
+                <a href="https://naviplus.io/fr/ideas/menu-independent-from-theme" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/menu-independent-from-theme.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">Chaque changement de thème efface la config de votre menu — repartir de zéro</span>
+                </a>
+                <a href="https://naviplus.io/fr/ideas/app-like-bottom-navigation" class="nh-idea">
+                  <img src="https://naviplus.io/images/ideas/app-like-bottom-navigation.jpg" alt="" class="nh-idea-img" width="56" height="35" loading="lazy">
+                  <span class="nh-idea-title">Pas de navigation en bas — les clients mobiles ont l'impression d'utiliser un vieux site</span>
+                </a>
+                <div style="padding:8px 8px 2px;">
+                  <a href="https://naviplus.io/fr/ideas" style="font-size:12.5px;font-weight:600;color:#1a7a4f;text-decoration:none;">Voir toutes les idées →</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- [2] User Guide -->
+      <li class="np-help-nav-item">
+        <button class="np-help-nav-link" aria-haspopup="true">
+          Guide d'utilisation
+          <svg class="np-help-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-help-mega" style="width:840px;" role="region" aria-label="Guide d'utilisation">
+          <div class="np-help-mega-inner">
+            <div class="nh-3col">
+
+              <!-- Col 1: Menu types -->
+              <div>
+                <div class="np-help-mega-header">Types de menu & éléments</div>
+                <a href="/fr/docs/usage/tabbar-bottom-navigation/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-layout-bottom-2-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Tab Bar</div>
+                    <div class="np-help-mega-desc">Navigation inférieure fixe pour mobile, comme une application native</div>
+                  </div>
+                </a>
+                <a href="/fr/docs/usage/mega-menu-desktop/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-layout-masonry-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Mega Menu</div>
+                    <div class="np-help-mega-desc">Menu déroulant riche avec colonnes, images et liens</div>
+                  </div>
+                </a>
+                <a href="/fr/docs/usage/slide-menu-hamburger-menu/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-side-bar-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Slide Menu</div>
+                    <div class="np-help-mega-desc">Panneau coulissant fluide, navigation multi-niveaux</div>
+                  </div>
+                </a>
+                <a href="/fr/docs/usage/fab-floating-menu-quick-access/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-flashlight-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">FAB / Floating</div>
+                    <div class="np-help-mega-desc">Bouton flottant d'accès rapide pour les actions clés</div>
+                  </div>
+                </a>
+                <a href="/fr/docs/usage/grid-menu/how-to-use/" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-grid-line"></i></div>
+                  <div class="np-help-mega-text">
+                    <div class="np-help-mega-title">Grid Menu</div>
+                    <div class="np-help-mega-desc">Grille d'images visuelles pour les catégories de produits</div>
+                  </div>
+                </a>
+                <a href="/fr/docs/usage/explore-common-menus/" class="nh-guide-footer">Choisir le bon menu →</a>
+              </div>
+
+              <!-- Col 2: Design + Publish -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">Design</div>
+                <a href="/fr/docs/design/design-overview/" class="nh-guide-link">Aperçu du design</a>
+                <a href="/fr/docs/design/design-level1/" class="nh-guide-link">Comment styliser les éléments du menu principal</a>
+                <a href="/fr/docs/design/design-level2/" class="nh-guide-link">Comment styliser les éléments du sous-menu</a>
+                <a href="/fr/docs/design/design-divider/" class="nh-guide-link">Comment ajouter des séparateurs</a>
+                <div class="np-help-mega-header" style="margin-top:12px;">Publication</div>
+                <a href="/fr/docs/publish/publish-overview/" class="nh-guide-link">Aperçu de la publication</a>
+                <a href="/fr/docs/publish/publish-filter/" class="nh-guide-link">Comment filtrer par appareil ou URL</a>
+                <a href="/fr/docs/publish/publish-section/" class="nh-guide-link">Comment configurer les sections du méga menu</a>
+                <a href="/fr/docs/publish/publish-slide/" class="nh-guide-link">Comment configurer le menu coulissant</a>
+                <a href="/fr/docs/publish/publish-sticky/" class="nh-guide-link">Comment configurer sticky & FAB</a>
+              </div>
+
+              <!-- Col 3: Developer + Partnership -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">Documentation développeur</div>
+                <a href="/fr/docs/development/" class="nh-guide-link">CSS personnalisé & développement</a>
+                <a href="/fr/docs/development/how-to-write-a-correct-css-code-in-navi/" class="nh-guide-link">Comment écrire du CSS correct dans Navi+</a>
+                <a href="/fr/docs/integrations/" class="nh-guide-link">Aperçu des intégrations</a>
+                <a href="/fr/docs/integrations/wordpress-woocommerce/" class="nh-guide-link">WordPress & WooCommerce</a>
+                <a href="/fr/docs/integrations/themes/" class="nh-guide-link">Intégrations de thèmes</a>
+                <div class="np-help-mega-header" style="margin-top:12px;">Partenariat & ressources</div>
+                <a href="/fr/docs/partership/navi-care-or-design-your-menus-like-an-expert/" class="nh-guide-link">Navi+ Care — Service design</a>
+                <a href="/fr/docs/partership/earn-up-to-225-revshare-with-navi/" class="nh-guide-link">Gagner une commission</a>
+                <a href="/fr/docs/latest-update/" class="nh-guide-link">Journal des modifications</a>
+                <a href="/fr/home/" class="nh-guide-footer" style="color:#1a7a4f;">Toute l'aide →</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- [3] Pricing -->
+      <li class="np-help-nav-item">
+        <a href="https://naviplus.io/fr/pricing" class="np-help-nav-link">Tarification</a>
+      </li>
+
+      <!-- [4] Support Tools -->
+      <li class="np-help-nav-item">
+        <button class="np-help-nav-link" aria-haspopup="true">
+          Outils de support
+          <svg class="np-help-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-help-mega" style="width:860px;" role="region" aria-label="Outils de support">
+          <div class="np-help-mega-inner">
+            <div class="nh-3col">
+
+              <!-- Col 1: Intro -->
+              <div>
+                <div class="nh-tools-intro">
+                  <div class="nh-tools-intro-head">Outils de support gratuits</div>
+                  <div class="nh-tools-intro-desc">Des outils pour vous aider à construire un site web meilleur et plus rapide. 100% gratuit — aucune donnée stockée.</div>
+                </div>
+              </div>
+
+              <!-- Col 2: Design & Images -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">Design & Images</div>
+                <a href="https://tools.naviplus.io/fr/toolset/images/convert-to-webp.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-image-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Convertisseur d'images en lot</div><div class="np-help-mega-desc">Convertir PNG, JPG en WebP en lot</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/images/image-resizer.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-scissors-cut-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Redimensionner les images</div><div class="np-help-mega-desc">Redimensionner à n'importe quelle taille instantanément</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/design/color-palette.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-palette-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Générateur de palette de couleurs</div><div class="np-help-mega-desc">Générer des palettes de couleurs de marque</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/images/remove-background.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-scissors-2-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Suppression de fond par IA</div><div class="np-help-mega-desc">Suppression de fond par IA</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/images/photo-collage.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-collage-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Créateur de collage photo</div><div class="np-help-mega-desc">Combinez plusieurs photos en une seule</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/images/color-picker.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-contrast-drop-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Sélecteur de couleur</div><div class="np-help-mega-desc">Choisissez des couleurs exactes depuis une image</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/images/watermark.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-quill-pen-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Filigrane</div><div class="np-help-mega-desc">Ajoutez un texte ou logo en filigrane</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/images/upload-image.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-upload-cloud-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Téléchargement temporaire d'image</div><div class="np-help-mega-desc">Partagez des images avec un lien temporaire</div></div>
+                </a>
+              </div>
+
+              <!-- Col 3: Security -->
+              <div class="nh-col-sep">
+                <div class="np-help-mega-header">Sécurité</div>
+                <a href="https://tools.naviplus.io/fr/toolset/security/encrypt.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-lock-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Chiffrement AES-GCM</div><div class="np-help-mega-desc">Chiffrez et déchiffrez du texte avec AES-GCM</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/security/generate-password.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-key-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Générateur de mot de passe</div><div class="np-help-mega-desc">Générez des mots de passe forts et sécurisés</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/security/jwt-decoder.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-shield-check-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Décodeur & inspecteur JWT</div><div class="np-help-mega-desc">Décodez et inspectez les tokens JWT</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/toolset/security/hash-generator.html" class="np-help-mega-item">
+                  <div class="np-help-mega-icon"><i class="ri-fingerprint-line"></i></div>
+                  <div class="np-help-mega-text"><div class="np-help-mega-title">Générateur & vérificateur de hash</div><div class="np-help-mega-desc">Générez des hash MD5, SHA-1, SHA-256</div></div>
+                </a>
+                <a href="https://tools.naviplus.io/fr/" class="nh-guide-footer" style="color:#1a7a4f;">Tous les outils →</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+    <!-- Right side: lang switcher + search + CTA -->
     <div class="np-help-right">
+
+      <!-- Language switcher -->
+      <div class="nh-lang">
+        <button class="nh-lang-btn" aria-label="Langue" aria-haspopup="listbox">
+          <span class="nh-lang-flag" aria-hidden="true">🇫🇷</span>
+          <svg class="nh-lang-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nh-lang-dropdown" role="listbox">
+          <div class="nh-lang-dropdown-inner">
+            
+              
+              
+              <a href="/docs/integrations/themes/" class="nh-lang-item" hreflang="en" role="option" aria-selected="false">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇺🇸</span>
+                English
+              </a>
+            
+              
+              
+              <a href="/vi/docs/integrations/themes/" class="nh-lang-item" hreflang="vi" role="option" aria-selected="false">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇻🇳</span>
+                Tiếng Việt
+              </a>
+            
+              
+              
+              <a href="/fr/docs/integrations/themes/" class="nh-lang-item active" hreflang="fr" role="option" aria-selected="true">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇫🇷</span>
+                Français
+              </a>
+            
+              
+              
+              <a href="/de/docs/integrations/themes/" class="nh-lang-item" hreflang="de" role="option" aria-selected="false">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇩🇪</span>
+                Deutsch
+              </a>
+            
+              
+              
+              <a href="/zh-cn/docs/integrations/themes/" class="nh-lang-item" hreflang="zh-cn" role="option" aria-selected="false">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇨🇳</span>
+                中文
+              </a>
+            
+              
+              
+              <a href="/jp/docs/integrations/themes/" class="nh-lang-item" hreflang="jp" role="option" aria-selected="false">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇯🇵</span>
+                日本語
+              </a>
+            
+              
+              
+              <a href="/it/docs/integrations/themes/" class="nh-lang-item" hreflang="it" role="option" aria-selected="false">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇮🇹</span>
+                Italiano
+              </a>
+            
+              
+              
+              <a href="/pt-br/docs/integrations/themes/" class="nh-lang-item" hreflang="pt-br" role="option" aria-selected="false">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇧🇷</span>
+                Português
+              </a>
+            
+              
+              
+              <a href="/es/docs/integrations/themes/" class="nh-lang-item" hreflang="es" role="option" aria-selected="false">
+              
+                <span class="nh-lang-flag" aria-hidden="true">🇪🇸</span>
+                Español
+              </a>
+            
+          </div>
+        </div>
+      </div>
+
       <!-- Search -->
       <form class="np-help-search" role="search" autocomplete="off"
         data-search-index-url="/search.json">
@@ -248,11 +716,21 @@
           id="siteSearchResults"></div>
       </form>
 
-      <!-- CTA injected by JS here -->
+      <!-- CTA: See Demo -->
+      <a href="https://showcase.naviplus.io/fr/" class="np-help-cta-ghost">
+        <i class="ri-play-circle-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text"> Voir la démo</span>
+      </a>
+      <!-- CTA: Get Started -->
+      <a href="https://naviplus.io/fr/#get-started-for-free" class="np-help-cta">
+        <i class="ri-rocket-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text"> Commencer</span>
+      </a>
     </div>
 
-    <!-- Mobile hamburger (nav links toggle) -->
-    <button class="np-help-hamburger" id="np-help-hamburger-btn" aria-label="Menu">
+    <!-- Mobile hamburger -->
+    <button class="np-help-hamburger" id="np-help-hamburger-btn"
+      aria-label="Ouvrir le menu"
+      aria-expanded="false"
+      aria-controls="np-help-mobile-nav">
       <span></span><span></span><span></span>
     </button>
 
@@ -260,21 +738,260 @@
 
   <!-- Mobile nav panel -->
   <div class="np-help-mobile-nav" id="np-help-mobile-nav">
-    <ul class="np-help-mobile-links" id="main-navbar-nav-links-mobile"></ul>
+    <ul style="list-style:none;margin:0;padding:4px 0 0;" role="list">
+
+      <!-- Services accordion -->
+      <li class="nh-mob-link-item">
+        <button class="nh-mob-acc-btn" aria-expanded="false" aria-controls="nh-mob-services" id="nh-mob-services-btn">
+          Services
+          <svg class="nh-mob-acc-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="nh-mob-sub" id="nh-mob-services" role="list">
+          <li><a href="https://naviplus.io/fr/why-navi/" class="nh-mob-plain">Pourquoi Navi+ ?</a></li>
+          <li><a href="/fr/docs/how-to-install-navi/" class="nh-mob-plain">Comment installer Navi+</a></li>
+          <li><a href="https://naviplus.io/fr/features/" class="nh-mob-plain">Choisir le bon menu pour votre plateforme</a></li>
+          <li><a href="/fr/docs/common-first-questions/" class="nh-mob-plain">Questions courantes pour débuter</a></li>
+          <li style="padding:6px 16px 8px;border-top:1px solid rgba(255,255,255,.06);margin-top:2px;">
+            <a href="https://apps.shopify.com/pronavi-navigation-design" class="nh-cta-btn nh-cta-shopify" style="margin-bottom:4px;" target="_blank" rel="noopener">
+              <i class="ri-store-2-line" aria-hidden="true"></i> Installer sur Shopify
+            </a>
+            <a href="https://wordpress.org/plugins/naviplus-menu-builder/" class="nh-cta-btn nh-cta-wp" style="margin-bottom:4px;" target="_blank" rel="noopener">
+              <i class="ri-wordpress-fill" aria-hidden="true"></i> Installer sur WordPress
+            </a>
+            <a href="https://dash.naviplus.app" class="nh-cta-btn nh-cta-web" target="_blank" rel="noopener">
+              <i class="ri-global-line" aria-hidden="true"></i> Installer sur des sites web
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- User Guide accordion -->
+      <li class="nh-mob-link-item">
+        <button class="nh-mob-acc-btn" aria-expanded="false" aria-controls="nh-mob-guide" id="nh-mob-guide-btn">
+          Guide d'utilisation
+          <svg class="nh-mob-acc-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="nh-mob-sub" id="nh-mob-guide" role="list">
+          <li class="nh-mob-label">Types de menu & éléments</li>
+          <li><a href="/fr/docs/usage/tabbar-bottom-navigation/how-to-use/" class="nh-mob-plain">Tab Bar</a></li>
+          <li><a href="/fr/docs/usage/mega-menu-desktop/how-to-use/" class="nh-mob-plain">Mega Menu</a></li>
+          <li><a href="/fr/docs/usage/slide-menu-hamburger-menu/how-to-use/" class="nh-mob-plain">Slide Menu</a></li>
+          <li><a href="/fr/docs/usage/fab-floating-menu-quick-access/how-to-use/" class="nh-mob-plain">FAB / Floating</a></li>
+          <li><a href="/fr/docs/usage/grid-menu/how-to-use/" class="nh-mob-plain">Grid Menu</a></li>
+          <li><div class="nh-mob-divider"></div></li>
+          <li class="nh-mob-label">Design</li>
+          <li><a href="/fr/docs/design/design-overview/" class="nh-mob-plain">Aperçu du design</a></li>
+          <li><a href="/fr/docs/design/design-level1/" class="nh-mob-plain">Comment styliser les éléments du menu principal</a></li>
+          <li><a href="/fr/docs/design/design-level2/" class="nh-mob-plain">Comment styliser les éléments du sous-menu</a></li>
+          <li><a href="/fr/docs/publish/publish-overview/" class="nh-mob-plain">Aperçu de la publication</a></li>
+          <li><a href="/fr/docs/publish/publish-filter/" class="nh-mob-plain">Comment filtrer par appareil ou URL</a></li>
+          <li><a href="/fr/docs/publish/publish-sticky/" class="nh-mob-plain">Comment configurer sticky & FAB</a></li>
+          <li><div class="nh-mob-divider"></div></li>
+          <li class="nh-mob-label">Documentation développeur</li>
+          <li><a href="/fr/docs/development/" class="nh-mob-plain">CSS personnalisé & développement</a></li>
+          <li><a href="/fr/docs/integrations/" class="nh-mob-plain">Aperçu des intégrations</a></li>
+          <li><a href="/fr/docs/integrations/wordpress-woocommerce/" class="nh-mob-plain">WordPress & WooCommerce</a></li>
+          <li><a href="/fr/docs/partership/navi-care-or-design-your-menus-like-an-expert/" class="nh-mob-plain">Navi+ Care — Service design</a></li>
+          <li><a href="/fr/docs/latest-update/" class="nh-mob-plain">Journal des modifications</a></li>
+          <li style="border-top:1px solid rgba(255,255,255,.06);margin-top:2px;">
+            <a href="/fr/home/" class="nh-mob-plain" style="color:#4ade80;font-weight:600;">Toute l'aide →</a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Pricing (plain link) -->
+      <li class="nh-mob-link-item">
+        <a href="https://naviplus.io/fr/pricing" class="nh-mob-acc-btn-plain">Tarification</a>
+      </li>
+
+      <!-- Support Tools accordion -->
+      <li class="nh-mob-link-item">
+        <button class="nh-mob-acc-btn" aria-expanded="false" aria-controls="nh-mob-tools" id="nh-mob-tools-btn">
+          Outils de support
+          <svg class="nh-mob-acc-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="nh-mob-sub" id="nh-mob-tools" role="list">
+          <li class="nh-mob-label">Design & Images</li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/images/convert-to-webp.html" class="nh-mob-plain">Convertisseur d'images en lot</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/images/image-resizer.html" class="nh-mob-plain">Redimensionner les images</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/design/color-palette.html" class="nh-mob-plain">Générateur de palette de couleurs</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/images/remove-background.html" class="nh-mob-plain">Suppression de fond par IA</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/images/photo-collage.html" class="nh-mob-plain">Créateur de collage photo</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/images/color-picker.html" class="nh-mob-plain">Sélecteur de couleur</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/images/watermark.html" class="nh-mob-plain">Filigrane</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/images/upload-image.html" class="nh-mob-plain">Téléchargement temporaire d'image</a></li>
+          <li><div class="nh-mob-divider"></div></li>
+          <li class="nh-mob-label">Sécurité</li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/security/encrypt.html" class="nh-mob-plain">Chiffrement AES-GCM</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/security/generate-password.html" class="nh-mob-plain">Générateur de mot de passe</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/security/jwt-decoder.html" class="nh-mob-plain">Décodeur & inspecteur JWT</a></li>
+          <li><a href="https://tools.naviplus.io/fr/toolset/security/hash-generator.html" class="nh-mob-plain">Générateur & vérificateur de hash</a></li>
+          <li style="border-top:1px solid rgba(255,255,255,.06);margin-top:2px;">
+            <a href="https://tools.naviplus.io/fr/" class="nh-mob-plain" style="color:#4ade80;font-weight:600;">Tous les outils →</a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <!-- Mobile lang strip -->
+    <div class="nh-mob-lang" role="group" aria-label="Langue">
+      
+        
+        
+        <a href="/docs/integrations/themes/" class="nh-mob-lang-item" hreflang="en">
+        
+          <span aria-hidden="true">🇺🇸</span>
+          English
+        </a>
+      
+        
+        
+        <a href="/vi/docs/integrations/themes/" class="nh-mob-lang-item" hreflang="vi">
+        
+          <span aria-hidden="true">🇻🇳</span>
+          Tiếng Việt
+        </a>
+      
+        
+        
+        <a href="/fr/docs/integrations/themes/" class="nh-mob-lang-item active" hreflang="fr">
+        
+          <span aria-hidden="true">🇫🇷</span>
+          Français
+        </a>
+      
+        
+        
+        <a href="/de/docs/integrations/themes/" class="nh-mob-lang-item" hreflang="de">
+        
+          <span aria-hidden="true">🇩🇪</span>
+          Deutsch
+        </a>
+      
+        
+        
+        <a href="/zh-cn/docs/integrations/themes/" class="nh-mob-lang-item" hreflang="zh-cn">
+        
+          <span aria-hidden="true">🇨🇳</span>
+          中文
+        </a>
+      
+        
+        
+        <a href="/jp/docs/integrations/themes/" class="nh-mob-lang-item" hreflang="jp">
+        
+          <span aria-hidden="true">🇯🇵</span>
+          日本語
+        </a>
+      
+        
+        
+        <a href="/it/docs/integrations/themes/" class="nh-mob-lang-item" hreflang="it">
+        
+          <span aria-hidden="true">🇮🇹</span>
+          Italiano
+        </a>
+      
+        
+        
+        <a href="/pt-br/docs/integrations/themes/" class="nh-mob-lang-item" hreflang="pt-br">
+        
+          <span aria-hidden="true">🇧🇷</span>
+          Português
+        </a>
+      
+        
+        
+        <a href="/es/docs/integrations/themes/" class="nh-mob-lang-item" hreflang="es">
+        
+          <span aria-hidden="true">🇪🇸</span>
+          Español
+        </a>
+      
+    </div>
+
+    <!-- Mobile CTA -->
+    <div class="nh-mob-cta">
+      <a href="https://showcase.naviplus.io/fr/" class="nh-mob-cta-btn nh-mob-cta-secondary">
+        <i class="ri-play-circle-line" aria-hidden="true"></i> Voir la démo
+      </a>
+      <a href="https://naviplus.io/fr/#get-started-for-free" class="nh-mob-cta-btn nh-mob-cta-primary">
+        <i class="ri-rocket-line" aria-hidden="true"></i> Commencer
+      </a>
+    </div>
   </div>
 </header>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const hamburger = document.getElementById("np-help-hamburger-btn");
-  const mobileNav = document.getElementById("np-help-mobile-nav");
-  if (hamburger && mobileNav) {
-    hamburger.addEventListener("click", function () {
-      mobileNav.classList.toggle("open");
-      hamburger.classList.toggle("open");
+(function () {
+  var hamburger = document.getElementById("np-help-hamburger-btn");
+  var mobileNav = document.getElementById("np-help-mobile-nav");
+
+  function openMobile() {
+    if (!mobileNav || !hamburger) return;
+    mobileNav.classList.add("open");
+    hamburger.classList.add("open");
+    hamburger.setAttribute("aria-expanded", "true");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeMobile() {
+    if (!mobileNav || !hamburger) return;
+    mobileNav.classList.remove("open");
+    hamburger.classList.remove("open");
+    hamburger.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+    document.querySelectorAll(".nh-mob-sub.is-open").forEach(function (sub) {
+      sub.classList.remove("is-open");
+      var btn = sub.previousElementSibling;
+      if (btn && btn.setAttribute) btn.setAttribute("aria-expanded", "false");
     });
   }
-});
+
+  if (hamburger) {
+    hamburger.addEventListener("click", function () {
+      mobileNav && mobileNav.classList.contains("open") ? closeMobile() : openMobile();
+    });
+  }
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeMobile();
+  });
+
+  /* Accordion */
+  document.querySelectorAll(".nh-mob-acc-btn[aria-controls]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var target = document.getElementById(btn.getAttribute("aria-controls"));
+      if (!target) return;
+      var expanded = btn.getAttribute("aria-expanded") === "true";
+      document.querySelectorAll(".nh-mob-acc-btn[aria-controls]").forEach(function (b) {
+        if (b !== btn) {
+          b.setAttribute("aria-expanded", "false");
+          var t = document.getElementById(b.getAttribute("aria-controls"));
+          if (t) t.classList.remove("is-open");
+        }
+      });
+      btn.setAttribute("aria-expanded", String(!expanded));
+      target.classList.toggle("is-open", !expanded);
+    });
+  });
+
+  /* Close on link tap in mobile nav */
+  if (mobileNav) {
+    mobileNav.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        setTimeout(closeMobile, 80);
+      });
+    });
+  }
+})();
 </script>
 
     <div class="container-fluid flex-grow-1">
@@ -288,7 +1005,7 @@ document.addEventListener("DOMContentLoaded", function () {
         >
           <div class="offcanvas-header shadow-sm border-bottom">
             <h5 class="offcanvas-title" id="offcanvasSidebarLabel">
-              Navi+ Help Center
+              Navi+ Help — Build menus that convert visitors into buyers
             </h5>
             <button
               type="button"
@@ -369,7 +1086,22 @@ document.addEventListener("DOMContentLoaded", function () {
             class="nav-link"
             href="/fr/docs/getting-started/what-is-navi/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Qu'est-ce que Navi+ ? (Comment ça fonctionne)</span
+              >Qu'est-ce que Navi+ ?</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/getting-started/why-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Pourquoi Navi+ ?</span
             ></a
           >
           
@@ -442,12 +1174,118 @@ document.addEventListener("DOMContentLoaded", function () {
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
         <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
-        <span class="sidebar-title-text flex-grow-1">Utilisation</span>
+        <span class="sidebar-title-text flex-grow-1">Navi+ AI (Nouveau)</span>
       </span>
     </a>
     <div
       class="collapse show"
       id="collapse-mobile-2"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Aperçu</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/auto-design-your-ai/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Design automatique avec ton app IA</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/auto-design-navi-ai/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Design automatique par Navi+ AI</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/create-menu-structure/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Créer la structure du menu</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/auto-translate/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Traduire le menu automatiquement</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-mobile-3"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-mobile-3"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">Utilisation</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-mobile-3"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -474,10 +1312,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-2-2"
+            href="#collapse-mobile-3-2"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-2-2"
+            aria-controls="collapse-mobile-3-2"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -489,7 +1327,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-2-2"
+            id="collapse-mobile-3-2"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -566,10 +1404,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-2-3"
+            href="#collapse-mobile-3-3"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-2-3"
+            aria-controls="collapse-mobile-3-3"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -581,7 +1419,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-2-3"
+            id="collapse-mobile-3-3"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -673,10 +1511,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-2-4"
+            href="#collapse-mobile-3-4"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-2-4"
+            aria-controls="collapse-mobile-3-4"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -688,7 +1526,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-2-4"
+            id="collapse-mobile-3-4"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -765,10 +1603,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-2-5"
+            href="#collapse-mobile-3-5"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-2-5"
+            aria-controls="collapse-mobile-3-5"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -780,7 +1618,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-2-5"
+            id="collapse-mobile-3-5"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -872,10 +1710,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-2-6"
+            href="#collapse-mobile-3-6"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-2-6"
+            aria-controls="collapse-mobile-3-6"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -887,7 +1725,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-2-6"
+            id="collapse-mobile-3-6"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -964,10 +1802,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-2-7"
+            href="#collapse-mobile-3-7"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-2-7"
+            aria-controls="collapse-mobile-3-7"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -979,7 +1817,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-2-7"
+            id="collapse-mobile-3-7"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -1077,10 +1915,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-3"
+      href="#collapse-mobile-4"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-3"
+      aria-controls="collapse-mobile-4"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -1090,7 +1928,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-3"
+      id="collapse-mobile-4"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -1213,10 +2051,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-4"
+      href="#collapse-mobile-5"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-4"
+      aria-controls="collapse-mobile-5"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -1226,7 +2064,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-4"
+      id="collapse-mobile-5"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -1304,10 +2142,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-5"
+      href="#collapse-mobile-6"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-5"
+      aria-controls="collapse-mobile-6"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -1317,7 +2155,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-5"
+      id="collapse-mobile-6"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -1395,10 +2233,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-6"
+      href="#collapse-mobile-7"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-6"
+      aria-controls="collapse-mobile-7"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -1408,7 +2246,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-6"
+      id="collapse-mobile-7"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -1516,10 +2354,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-7"
+      href="#collapse-mobile-8"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-7"
+      aria-controls="collapse-mobile-8"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -1529,7 +2367,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-7"
+      id="collapse-mobile-8"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -1622,10 +2460,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-8"
+      href="#collapse-mobile-9"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-8"
+      aria-controls="collapse-mobile-9"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -1635,7 +2473,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-8"
+      id="collapse-mobile-9"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -1692,10 +2530,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-8-4"
+            href="#collapse-mobile-9-4"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-8-4"
+            aria-controls="collapse-mobile-9-4"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -1707,7 +2545,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-8-4"
+            id="collapse-mobile-9-4"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -1784,22 +2622,22 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-8-5"
+            href="#collapse-mobile-9-5"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-8-5"
+            aria-controls="collapse-mobile-9-5"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
               <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
               <span class="sidebar-title-text flex-grow-1"
-                >WordPress / WooCommerce — Navi+ Menu Builder</span
+                >WordPress / WooCommerce — Navi+ AI Menu Builder</span
               >
             </span>
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-8-5"
+            id="collapse-mobile-9-5"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -1812,7 +2650,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   class="nav-link"
                   href="/fr/docs/integrations/wordpress-woocommerce/install-plugin/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Installer le plugin Navi+ Menu Builder</span
+                    >Installer le plugin Navi+ AI Menu Builder</span
                   ></a
                 >
                 
@@ -1857,7 +2695,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   class="nav-link"
                   href="/fr/docs/integrations/wordpress-woocommerce/faq/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Navi+ Menu Builder FAQ</span
+                    >Navi+ AI Menu Builder FAQ</span
                   ></a
                 >
                 
@@ -1876,10 +2714,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-8-6"
+            href="#collapse-mobile-9-6"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-8-6"
+            aria-controls="collapse-mobile-9-6"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -1891,7 +2729,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-8-6"
+            id="collapse-mobile-9-6"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -1944,10 +2782,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-9"
+      href="#collapse-mobile-10"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-9"
+      aria-controls="collapse-mobile-10"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -1957,7 +2795,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-9"
+      id="collapse-mobile-10"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -2050,10 +2888,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-10"
+      href="#collapse-mobile-11"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-10"
+      aria-controls="collapse-mobile-11"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -2063,7 +2901,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-10"
+      id="collapse-mobile-11"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -2075,10 +2913,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-10-1"
+            href="#collapse-mobile-11-1"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-10-1"
+            aria-controls="collapse-mobile-11-1"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -2090,7 +2928,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-10-1"
+            id="collapse-mobile-11-1"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -2152,10 +2990,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-mobile-10-2"
+            href="#collapse-mobile-11-2"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-mobile-10-2"
+            aria-controls="collapse-mobile-11-2"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -2167,7 +3005,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-mobile-10-2"
+            id="collapse-mobile-11-2"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -2265,10 +3103,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-11"
+      href="#collapse-mobile-12"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-11"
+      aria-controls="collapse-mobile-12"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -2278,7 +3116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-11"
+      id="collapse-mobile-12"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -2355,10 +3193,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-mobile-13"
+      href="#collapse-mobile-14"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-mobile-13"
+      aria-controls="collapse-mobile-14"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -2368,7 +3206,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-mobile-13"
+      id="collapse-mobile-14"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -2517,7 +3355,22 @@ document.addEventListener("DOMContentLoaded", function () {
             class="nav-link"
             href="/fr/docs/getting-started/what-is-navi/"
             ><span class="sidebar-title-text flex-grow-1"
-              >Qu'est-ce que Navi+ ? (Comment ça fonctionne)</span
+              >Qu'est-ce que Navi+ ?</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/getting-started/why-navi/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Pourquoi Navi+ ?</span
             ></a
           >
           
@@ -2590,12 +3443,118 @@ document.addEventListener("DOMContentLoaded", function () {
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
         <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
-        <span class="sidebar-title-text flex-grow-1">Utilisation</span>
+        <span class="sidebar-title-text flex-grow-1">Navi+ AI (Nouveau)</span>
       </span>
     </a>
     <div
       class="collapse show"
       id="collapse-desktop-2"
+    >
+      <ul class="nav flex-column ps-3 sidebar-children-list">
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Aperçu</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/auto-design-your-ai/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Design automatique avec ton app IA</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/auto-design-navi-ai/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Design automatique par Navi+ AI</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/create-menu-structure/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Créer la structure du menu</span
+            ></a
+          >
+          
+        </li>
+               
+
+        <li
+          class="nav-item sidebar-tree-item"
+        >
+          
+          <a
+            class="nav-link"
+            href="/fr/docs/ai/auto-translate/"
+            ><span class="sidebar-title-text flex-grow-1"
+              >Traduire le menu automatiquement</span
+            ></a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+       
+   
+
+  <li
+    class="nav-item"
+  >
+    
+    <a
+      class="nav-link"
+      data-bs-toggle="collapse"
+      href="#collapse-desktop-3"
+      role="button"
+      aria-expanded="true"
+      aria-controls="collapse-desktop-3"
+    >
+      <span class="d-flex align-items-start sidebar-link-container">
+        <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
+        <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open"></i>
+        <span class="sidebar-title-text flex-grow-1">Utilisation</span>
+      </span>
+    </a>
+    <div
+      class="collapse show"
+      id="collapse-desktop-3"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -2622,10 +3581,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-2-2"
+            href="#collapse-desktop-3-2"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-2-2"
+            aria-controls="collapse-desktop-3-2"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -2637,7 +3596,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-2-2"
+            id="collapse-desktop-3-2"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -2714,10 +3673,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-2-3"
+            href="#collapse-desktop-3-3"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-2-3"
+            aria-controls="collapse-desktop-3-3"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -2729,7 +3688,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-2-3"
+            id="collapse-desktop-3-3"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -2821,10 +3780,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-2-4"
+            href="#collapse-desktop-3-4"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-2-4"
+            aria-controls="collapse-desktop-3-4"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -2836,7 +3795,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-2-4"
+            id="collapse-desktop-3-4"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -2913,10 +3872,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-2-5"
+            href="#collapse-desktop-3-5"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-2-5"
+            aria-controls="collapse-desktop-3-5"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -2928,7 +3887,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-2-5"
+            id="collapse-desktop-3-5"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -3020,10 +3979,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-2-6"
+            href="#collapse-desktop-3-6"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-2-6"
+            aria-controls="collapse-desktop-3-6"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -3035,7 +3994,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-2-6"
+            id="collapse-desktop-3-6"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -3112,10 +4071,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-2-7"
+            href="#collapse-desktop-3-7"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-2-7"
+            aria-controls="collapse-desktop-3-7"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -3127,7 +4086,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-2-7"
+            id="collapse-desktop-3-7"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -3225,10 +4184,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-3"
+      href="#collapse-desktop-4"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-3"
+      aria-controls="collapse-desktop-4"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -3238,7 +4197,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-3"
+      id="collapse-desktop-4"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -3361,10 +4320,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-4"
+      href="#collapse-desktop-5"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-4"
+      aria-controls="collapse-desktop-5"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -3374,7 +4333,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-4"
+      id="collapse-desktop-5"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -3452,10 +4411,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-5"
+      href="#collapse-desktop-6"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-5"
+      aria-controls="collapse-desktop-6"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -3465,7 +4424,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-5"
+      id="collapse-desktop-6"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -3543,10 +4502,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-6"
+      href="#collapse-desktop-7"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-6"
+      aria-controls="collapse-desktop-7"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -3556,7 +4515,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-6"
+      id="collapse-desktop-7"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -3664,10 +4623,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-7"
+      href="#collapse-desktop-8"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-7"
+      aria-controls="collapse-desktop-8"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -3677,7 +4636,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-7"
+      id="collapse-desktop-8"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -3770,10 +4729,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-8"
+      href="#collapse-desktop-9"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-8"
+      aria-controls="collapse-desktop-9"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -3783,7 +4742,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-8"
+      id="collapse-desktop-9"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -3840,10 +4799,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-8-4"
+            href="#collapse-desktop-9-4"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-8-4"
+            aria-controls="collapse-desktop-9-4"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -3855,7 +4814,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-8-4"
+            id="collapse-desktop-9-4"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -3932,22 +4891,22 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-8-5"
+            href="#collapse-desktop-9-5"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-8-5"
+            aria-controls="collapse-desktop-9-5"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
               <i class="ri-checkbox-indeterminate-fill sidebar-folder-icon-open d-none"></i>
               <span class="sidebar-title-text flex-grow-1"
-                >WordPress / WooCommerce — Navi+ Menu Builder</span
+                >WordPress / WooCommerce — Navi+ AI Menu Builder</span
               >
             </span>
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-8-5"
+            id="collapse-desktop-9-5"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -3960,7 +4919,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   class="nav-link"
                   href="/fr/docs/integrations/wordpress-woocommerce/install-plugin/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Installer le plugin Navi+ Menu Builder</span
+                    >Installer le plugin Navi+ AI Menu Builder</span
                   ></a
                 >
                 
@@ -4005,7 +4964,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   class="nav-link"
                   href="/fr/docs/integrations/wordpress-woocommerce/faq/"
                   ><span class="sidebar-title-text flex-grow-1"
-                    >Navi+ Menu Builder FAQ</span
+                    >Navi+ AI Menu Builder FAQ</span
                   ></a
                 >
                 
@@ -4024,10 +4983,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-8-6"
+            href="#collapse-desktop-9-6"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-8-6"
+            aria-controls="collapse-desktop-9-6"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -4039,7 +4998,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-8-6"
+            id="collapse-desktop-9-6"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -4092,10 +5051,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-9"
+      href="#collapse-desktop-10"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-9"
+      aria-controls="collapse-desktop-10"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -4105,7 +5064,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-9"
+      id="collapse-desktop-10"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -4198,10 +5157,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-10"
+      href="#collapse-desktop-11"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-10"
+      aria-controls="collapse-desktop-11"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -4211,7 +5170,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-10"
+      id="collapse-desktop-11"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -4223,10 +5182,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-10-1"
+            href="#collapse-desktop-11-1"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-10-1"
+            aria-controls="collapse-desktop-11-1"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -4238,7 +5197,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-10-1"
+            id="collapse-desktop-11-1"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -4300,10 +5259,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <a
             class="nav-link"
             data-bs-toggle="collapse"
-            href="#collapse-desktop-10-2"
+            href="#collapse-desktop-11-2"
             role="button"
             aria-expanded="false"
-            aria-controls="collapse-desktop-10-2"
+            aria-controls="collapse-desktop-11-2"
           >
             <span class="d-flex align-items-start sidebar-link-container">
               <i class="ri-add-box-fill sidebar-folder-icon-closed"></i>
@@ -4315,7 +5274,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
           <div
             class="collapse "
-            id="collapse-desktop-10-2"
+            id="collapse-desktop-11-2"
           >
             <ul class="nav flex-column ps-3 sidebar-children-list">
                    
@@ -4413,10 +5372,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-11"
+      href="#collapse-desktop-12"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-11"
+      aria-controls="collapse-desktop-12"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -4426,7 +5385,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-11"
+      id="collapse-desktop-12"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -4503,10 +5462,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a
       class="nav-link"
       data-bs-toggle="collapse"
-      href="#collapse-desktop-13"
+      href="#collapse-desktop-14"
       role="button"
       aria-expanded="true"
-      aria-controls="collapse-desktop-13"
+      aria-controls="collapse-desktop-14"
     >
       <span class="d-flex align-items-start sidebar-link-container">
         <i class="ri-add-box-fill sidebar-folder-icon-closed d-none"></i>
@@ -4516,7 +5475,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
     <div
       class="collapse show"
-      id="collapse-desktop-13"
+      id="collapse-desktop-14"
     >
       <ul class="nav flex-column ps-3 sidebar-children-list">
                
@@ -4758,43 +5717,6 @@ document.addEventListener("DOMContentLoaded", function () {
           navbarLinks.forEach((link) => mobileNav.appendChild(buildTopItem(link)));
         }
 
-        // Language switcher → inject into .np-help-right (before search)
-        if (typeof navbarLanguage !== "undefined") {
-          const search = document.querySelector(".np-help-search");
-          const langLi = buildTopItem(navbarLanguage);
-          langLi.className = "np-help-nav-item np-help-lang-item";
-          const right = document.querySelector(".np-help-right");
-          if (right && search) right.insertBefore(langLi, search);
-        }
-
-        // CTA → inject into .np-help-right
-        const right = document.querySelector(".np-help-right");
-        if (right) {
-          // "See demo" ghost button
-          if (typeof navbarCTADemo !== "undefined") {
-            const ghost = document.createElement("a");
-            ghost.className = "np-help-cta-ghost";
-            ghost.href = navbarCTADemo.url;
-            ghost.innerHTML = '<i class="ri-slideshow-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTADemo.text + '</span>';
-            if (navbarCTADemo.target) { ghost.target = navbarCTADemo.target; ghost.rel = "noopener noreferrer"; }
-            right.appendChild(ghost);
-          }
-          // "Get started" / "Dashboard" primary button
-          if (typeof navbarCTA !== "undefined") {
-            const isLoggedIn = sessionStorage.getItem("navi_isGlobalLogging") === "1";
-            const cta = document.createElement("a");
-            cta.className = "np-help-cta";
-            if (isLoggedIn) {
-              cta.href = "https://app.naviplus.io/";
-              cta.innerHTML = '<i class="ri-layout-grid-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">Dashboard</span>';
-            } else {
-              cta.href = navbarCTA.url;
-              cta.innerHTML = '<i class="ri-rocket-2-line np-help-btn-icon" aria-hidden="true"></i><span class="np-help-btn-text">' + navbarCTA.text + '</span>';
-            }
-            if (navbarCTA.target) { cta.target = navbarCTA.target; cta.rel = "noopener noreferrer"; }
-            right.appendChild(cta);
-          }
-        }
       });
     </script>
     <script src="/theme/assets/js/lightbox.js"></script>

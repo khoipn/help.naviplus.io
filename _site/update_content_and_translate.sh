@@ -21,7 +21,7 @@ source .venv/bin/activate
 VENV_PYTHON=".venv/bin/python3"
 
 "$VENV_PYTHON" -m pip install --upgrade pip >/dev/null
-"$VENV_PYTHON" -m pip install -q requests pyyaml markdown
+"$VENV_PYTHON" -m pip install -q requests pyyaml
 
 if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   if [[ -f ".openai_api_key" ]]; then
@@ -35,7 +35,6 @@ if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   exit 1
 fi
 
-"$VENV_PYTHON" getMD.py
 "$VENV_PYTHON" translate_i18n.py
 "$VENV_PYTHON" build_navigation_i18n.py
 

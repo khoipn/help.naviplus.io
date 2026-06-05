@@ -11,6 +11,8 @@ title: Xuất bản trên Wix / Squarespace / Khác
 
 > **Trên Shopify?** Cài đặt [ứng dụng Shopify](https://apps.shopify.com/pronavi-navigation-design) chuyên dụng — nó được tối ưu hóa cho nền tảng với các tùy chọn xuất bản tích hợp.
 
+> **Trên Wix?** Nếu bạn đã cài ứng dụng Navi+ từ Wix App Market, Navi+ được nhúng tự động vào trang của bạn — bạn có thể **bỏ qua các bước bên dưới**. Nếu bạn chưa cài ứng dụng Wix, bạn vẫn có thể dùng Navi+ trên Wix bằng cách nhúng thủ công bên dưới.
+
 Trang này đề cập đến phương pháp **nhúng mã thủ công**, đây là con đường đúng cho [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), và các trang web tùy chỉnh được xây dựng bằng PHP, Node.js, hoặc HTML thuần. Bạn có các phương pháp triển khai sau:
 
 ### 1. Nhúng Navi+ vào Trang Web của Bạn

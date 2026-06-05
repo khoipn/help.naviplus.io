@@ -1,5 +1,12 @@
 # CLAUDE.md — Navi+ Help Center
 
+## Project Context (Auto-load)
+
+At the start of every conversation in this project, read the full project context file:
+**`/Users/khoipham/Dev/all_naviplus_io.md`**
+
+This file contains NaviPlus product overview, architecture, and key decisions. Load it before answering any questions or performing any tasks.
+
 ## Title Conventions
 
 Use **sentence case** (NOT title case) for all doc titles — frontmatter `title:` and navigation YMLs.
