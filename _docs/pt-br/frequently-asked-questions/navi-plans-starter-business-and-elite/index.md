@@ -63,6 +63,7 @@ Todos os planos incluem todos os tipos de menu — Tab Bar, Mega Menu, Slide Men
 <div>Resposta em 24h</div>
 <div>Consultor pessoal</div>
 </div>
+<div style="margin-top:0.85rem"><a href="https://naviplus.io/pt/pricing/plan-care/" style="font-size:0.8rem;color:#377e62;font-weight:600;text-decoration:none">Saiba mais →</a></div>
 </div>
 
 </div>

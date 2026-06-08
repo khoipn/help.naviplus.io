@@ -62,6 +62,7 @@ All plans include every menu type — Tab Bar, Mega Menu, Slide Menu, Grid Menu,
 <div>24h response time</div>
 <div>Personal consultant</div>
 </div>
+<div style="margin-top:0.85rem"><a href="https://naviplus.io/pricing/plan-care/" style="font-size:0.8rem;color:#377e62;font-weight:600;text-decoration:none">Learn more →</a></div>
 </div>
 
 </div>
@@ -122,6 +123,8 @@ A done-for-you service. Everything in Elite, plus our team builds and maintains 
 - Personal menu consultant, on-demand
 
 Care is billed immediately (no free trial) — you're paying for hands-on work from our team. Also available yearly at $390/year (save 17%).
+
+[Learn more about Care →](https://naviplus.io/pricing/plan-care/)
 
 ---
 

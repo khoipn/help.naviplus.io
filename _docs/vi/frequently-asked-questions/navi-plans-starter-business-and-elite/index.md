@@ -63,6 +63,7 @@ Tất cả các gói đều bao gồm mọi loại menu — Tab Bar, Mega Menu, 
 <div>Phản hồi trong 24h</div>
 <div>Chuyên gia riêng</div>
 </div>
+<div style="margin-top:0.85rem"><a href="https://naviplus.io/vi/pricing/plan-care/" style="font-size:0.8rem;color:#377e62;font-weight:600;text-decoration:none">Tìm hiểu thêm →</a></div>
 </div>
 
 </div>

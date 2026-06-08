@@ -63,6 +63,7 @@ title: 计划与定价比较
 <div>24小时响应</div>
 <div>专属顾问</div>
 </div>
+<div style="margin-top:0.85rem"><a href="https://naviplus.io/zh-cn/pricing/plan-care/" style="font-size:0.8rem;color:#377e62;font-weight:600;text-decoration:none">了解更多 →</a></div>
 </div>
 
 </div>

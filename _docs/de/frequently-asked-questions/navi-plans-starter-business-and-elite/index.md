@@ -63,6 +63,7 @@ Alle Pläne beinhalten jeden Menütetyp — Tab Bar, Mega Menu, Slide Menu, Grid
 <div>24h Reaktionszeit</div>
 <div>Persönlicher Berater</div>
 </div>
+<div style="margin-top:0.85rem"><a href="https://naviplus.io/de/pricing/plan-care/" style="font-size:0.8rem;color:#377e62;font-weight:600;text-decoration:none">Mehr erfahren →</a></div>
 </div>
 
 </div>

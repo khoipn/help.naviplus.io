@@ -63,6 +63,7 @@ title: プランと価格の比較
 <div>24時間以内に返信</div>
 <div>専属コンサルタント</div>
 </div>
+<div style="margin-top:0.85rem"><a href="https://naviplus.io/jp/pricing/plan-care/" style="font-size:0.8rem;color:#377e62;font-weight:600;text-decoration:none">詳しく見る →</a></div>
 </div>
 
 </div>
