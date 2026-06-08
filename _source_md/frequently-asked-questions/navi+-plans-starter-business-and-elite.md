@@ -1,4 +1,4 @@
-# Navi+ plans (Starter, Business & Elite)
+# Navi+ plans (Starter, Business, Elite & Care)
 
 #### Question 1: What happens when my Starter plan exceeds 50,000 visits?
 
@@ -15,3 +15,7 @@ We understand that features and user experience are crucial for your customers, 
 #### Question 3: What happens if I exceed the limit on the Business plan (e.g., more than 500,000 Navi+ views/month)?
 
 As with the previous questions, Navi+ will not hide or remove any menu features. However, once the limit is exceeded, and after email notifications are sent to you to consider upgrading to the Elite plan, ads may be displayed on your menu until the start of a new monthly cycle.
+
+#### Question 4: What is the Care plan?
+
+Care ($39/month, or $390/year) is a done-for-you service plan. It includes everything in Elite, plus our team works directly on your menus for you: we build your entire menu, migrate your existing menu with no data loss, and handle structure, labels, and mobile optimization. You get up to 5 menu edit requests per month, a guaranteed 24-hour response time, and a personal menu consultant on demand. Because it is hands-on work from our team, the Care plan is billed immediately and does not include a free trial.

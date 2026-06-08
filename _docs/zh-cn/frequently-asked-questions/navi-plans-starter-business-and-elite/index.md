@@ -9,7 +9,7 @@ title: 计划与定价比较
 
 所有计划包括每种菜单类型 — Tab Bar、Mega Menu、Slide Menu、Grid Menu 和 FAB。
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.75rem 0">
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:1.75rem 0">
 
 <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Starter</div>
@@ -48,6 +48,20 @@ title: 计划与定价比较
 <div>SEO 优化</div>
 <div>SLA 99.99%</div>
 <div>亲自支持</div>
+</div>
+</div>
+
+<div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
+<div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Care</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$39</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ 月 &nbsp;·&nbsp; $390/年</div>
+<div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
+<div>Elite 全部内容</div>
+<div>我们构建菜单</div>
+<div>菜单迁移</div>
+<div>每月5次修改</div>
+<div>24小时响应</div>
+<div>专属顾问</div>
 </div>
 </div>
 

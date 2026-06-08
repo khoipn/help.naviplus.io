@@ -9,7 +9,7 @@ title: Plans & Pricing comparison
 
 All plans include every menu type — Tab Bar, Mega Menu, Slide Menu, Grid Menu, and FAB.
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.75rem 0">
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:1.75rem 0">
 
 <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Starter</div>
@@ -48,6 +48,20 @@ All plans include every menu type — Tab Bar, Mega Menu, Slide Menu, Grid Menu,
 <div>SEO optimization</div>
 <div>SLA 99.99%</div>
 <div>Hands-on support</div>
+</div>
+</div>
+
+<div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
+<div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Care</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$39</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ mois &nbsp;·&nbsp; $390/an</div>
+<div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
+<div>Tout Elite</div>
+<div>Nous créons votre menu</div>
+<div>Migration de menu</div>
+<div>5 modifs / mois</div>
+<div>Réponse sous 24 h</div>
+<div>Consultant personnel</div>
 </div>
 </div>
 

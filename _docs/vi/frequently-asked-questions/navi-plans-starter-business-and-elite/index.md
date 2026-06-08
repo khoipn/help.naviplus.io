@@ -9,7 +9,7 @@ title: So sánh Gói & Giá
 
 Tất cả các gói đều bao gồm mọi loại menu — Tab Bar, Mega Menu, Slide Menu, Grid Menu và FAB.
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.75rem 0">
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:1.75rem 0">
 
 <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Starter</div>
@@ -48,6 +48,20 @@ Tất cả các gói đều bao gồm mọi loại menu — Tab Bar, Mega Menu, 
 <div>Tối ưu hóa SEO</div>
 <div>SLA 99.99%</div>
 <div>Hỗ trợ tận tay</div>
+</div>
+</div>
+
+<div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
+<div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Care</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$39</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ tháng &nbsp;·&nbsp; $390/năm</div>
+<div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
+<div>Mọi thứ của Elite</div>
+<div>Chúng tôi dựng menu</div>
+<div>Di chuyển menu</div>
+<div>5 lần sửa / tháng</div>
+<div>Phản hồi trong 24h</div>
+<div>Chuyên gia riêng</div>
 </div>
 </div>
 
