@@ -1,19 +1,51 @@
-# Earn up to 22.5% RevShare with Navi+
+# Earn up to 45% RevShare with Navi+
 
-**Are you building Shopify websites for clients? Become a Navi+ Partner and earn up to 22.5% commission!**
+> <i class="ri-time-line"></i> **Limited-Time Offer:** Commission doubled to **45%** — valid through **December 31, 2026**. Standard rates resume from 2027.
 
-If you’re a freelancer, agency, or Shopify expert, don’t miss the chance to generate recurring income from every project you deliver.
+**Are you building Shopify websites for clients? Become a Navi+ Partner and earn up to 45% commission!**
 
-With the Navi+ RevShare Program, you’ll get:
+If you’re a freelancer, agency, or Shopify expert, this is your chance to generate serious recurring income from every project you deliver.
 
-* Up to 22.5% commission based on your clients’ monthly or yearly revenue (Revenue generated will continue until the customer no longer uses the service): 18% from your 2nd to 7th referred client, and then **22.5%** from your 8th client onward
-* Quarterly payouts via PayPal or bank transfer.
-* Early access to new features, tips & tricks, and support resources from the Navi+ team.
+---
 
-**👉 How to join?** Send me an email at <khoipng@gmail.com> or chat with me to verify and activate your Navi+ Partner status. The email will include: Program terms & conditions, Client verification process, How commission and revenue tracking works.
+## What you’ll earn
 
-**👉 Why Navi+ is the best option?**
+| Referred Clients | Commission Rate |
+|---|---|
+| Client #1 – #3 | 18% |
+| Client #8 onward | **45%** *(limited-time — until Dec 31, 2026)* |
 
-Navi+ is a powerful and feature-rich tool, ranked among the top on the Shopify Marketplace. However, it can be quite complex and requires some technical experience. That’s why Navi+ is the perfect tool for you—those with technical skills, a solid understanding of UI/UX, and web mastery.
+Commissions are based on **monthly or yearly revenue** and continue **as long as the customer stays with Navi+**.
 
-With Navi+, you’ll have the flexibility to **customize deeply based on demanding client requirements**—often offering features that simply can’t be matched by other tools on the marketplace.
+---
+
+## What you get as a Partner
+
+* <i class="ri-money-dollar-circle-line"></i> **Recurring income** — earn every billing cycle, not just once
+* <i class="ri-calendar-line"></i> **Quarterly payouts** via PayPal or bank transfer
+* <i class="ri-rocket-line"></i> **Early access** to new features before public release
+* <i class="ri-tools-line"></i> Tips, tricks, and direct support resources from the Navi+ team
+
+---
+
+## How to join
+
+**<i class="ri-mail-send-line"></i> Email [khoipn@naviplus.io](mailto:khoipn@naviplus.io)** or use the chat to get verified and activate your Partner status.
+
+You’ll receive:
+
+* Program terms & conditions
+* Client verification process
+* How commission and revenue tracking works
+
+---
+
+## Why Navi+ is the right tool for experts
+
+Navi+ is a powerful, feature-rich menu builder ranked among the top on the Shopify Marketplace. It’s intentionally complex — built for professionals who know what they’re doing.
+
+If you have technical skills, a solid understanding of UI/UX, and web mastery, Navi+ lets you:
+
+* **Customize deeply** to match demanding client requirements
+* Deliver results that other tools on the marketplace simply can’t match
+* Build a recurring revenue stream from work you’re already doing
