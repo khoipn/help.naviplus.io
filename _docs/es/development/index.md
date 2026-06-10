@@ -1,5 +1,5 @@
 ---
-description: '- Estructura del menú y CSS'
+description: Personalización CSS, estructura HTML de los menús e integraciones JavaScript para menús Navi+.
 lang: es
 layout: default
 permalink: /es/docs/development/
@@ -7,6 +7,23 @@ title: Desarrollo
 ---
 # Desarrollo
 
-- [Estructura del menú y CSS](https://help.shopifas.com/manual/website/help.naviplus.io/development/menu-structure-and-css.md "Menu structure and CSS")
-- [Cómo escribir un código CSS correcto en Navi+](https://help.shopifas.com/manual/website/help.naviplus.io/development/how-to-write-a-correct-css-code-in-navi+.md "How to write a correct CSS code in Navi+")
-- [Agregar recorrido a Navi+](https://help.shopifas.com/manual/website/help.naviplus.io/development/add-walk-through-to-navi+.md "Add walk-through to Navi+")
+La sección **Desarrollo** cubre la personalización CSS, la estructura HTML de los menús y la adición de comportamientos JavaScript personalizados a los menús Navi+.
+
+---
+
+## Temas
+
+| # | Tema | |
+|---|---|---|
+| 1 | Estructura HTML del menú y selectores CSS | [Estructura del menú y CSS](/docs/development/menu-structure-and-css/) |
+| 2 | Cómo escribir código CSS correcto en Navi+ | [Cómo escribir CSS correcto](/docs/development/how-to-write-a-correct-css-code-in-navi/) |
+| 3 | Añadir guías paso a paso a los menús | [Agregar recorrido a Navi+](/docs/development/add-walk-through-to-navi/) |
+
+---
+
+## Referencia Rápida
+
+- Usa **CSS personalizado para este menú** para estilos específicos de cada menú
+- Usa **Reusable Classes (CSS)** para estilos compartidos entre menús
+- El CSS apunta a tres niveles: barra principal → submenú → submenú anidado
+- Las bibliotecas JavaScript (ej. TourGuideJS) se pueden incrustar mediante atributos de elementos de menú
