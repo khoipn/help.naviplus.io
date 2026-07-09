@@ -1,19 +1,19 @@
 ---
-description: 'Si despliega su sitio web en Shopify, por favor instale la aplicación dedicada de Shopify aquí: <https://apps.shopify.com/pronavi-navigation-design> - Está optimizada ...'
+description: 'Si despliega su sitio web en Shopify, instale la aplicación dedicada de Shopify aquí: <https://apps.shopify.com/pronavi-navigation-design> - Está optimizada ...'
 lang: es
 layout: default
 permalink: /es/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
-title: Publicar en Wix / Squarespace / Otros
+title: Publicar en WordPress / WooCommerce / Wix / Otros
 ---
-# Publicar en Wix / Squarespace / Otros
+# Publicar en WordPress / WooCommerce / Wix / Otros
 
 > **¿En WordPress?** Use el plugin dedicado [Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/) en lugar de la inserción manual a continuación — sin ediciones de tema, sin shortcode para la Tab Bar.
 
 > **¿En Shopify?** Instale la [aplicación de Shopify](https://apps.shopify.com/pronavi-navigation-design) dedicada — está optimizada para la plataforma con opciones de publicación integradas.
 
-> **¿En Wix?** Si instaló la aplicación de Navi+ desde el Wix App Market, Navi+ se integra automáticamente en su sitio — puede **omitir los pasos a continuación**. Si no instaló la aplicación de Wix, aún puede usar Navi+ en Wix mediante la inserción manual a continuación.
+> **¿En Wix?** Si instaló la aplicación Navi+ desde el Wix App Market, Navi+ se integra automáticamente en su sitio — puede **omitir los pasos a continuación**. Si no instaló la aplicación de Wix, aún puede usar Navi+ en Wix siguiendo la inserción manual a continuación.
 
-Esta página cubre el **método de inserción de script manual**, que es el camino correcto para [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), y sitios web personalizados construidos con PHP, Node.js, o HTML puro. Tiene los siguientes métodos de implementación:
+Esta página cubre el **método de inserción de script manual**, que es el camino correcto para [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), y sitios web personalizados construidos con PHP, Node.js, o HTML puro. Tiene los siguientes métodos de implementación:
 
 ### 1. Insertar Navi+ en Su Sitio Web
 
@@ -24,7 +24,7 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 <script>(window._navi_setting ||= []).push({
    token: "NAVI123456"
 });</script>
-&lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
+<script src="https://live.naviplus.app/start.js" async></script>
 <!-- Inserte este código en el <head> del sitio web -->
 ```
 
@@ -52,7 +52,7 @@ Este método de implementación es adecuado para todos los tipos de menú que Na
 <p><strong>Método 1 (para todos):</strong></p>
 <p>Abra su sitio web con el sufijo #navidebug-on, por ejemplo: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Si el sitio web cambia a modo Debug, la inserción está funcionando correctamente. El modo Debug le ayuda a identificar fácilmente los selectores CSS. Use #navidebug-off para desactivarlo.</p>
 <p><strong>Método 2 (para desarrolladores):</strong></p>
-<p>Abra las herramientas de inspección de su navegador, vaya a la pestaña de Consola, y busque un mensaje verde: “Usando Navi+..”. Este mensaje indica que el código se ha insertado correctamente.</p>
+<p>Abra las herramientas de inspección de su navegador, vaya a la pestaña de Consola, y busque un mensaje verde: "Usando Navi+..". Este mensaje indica que el código se ha insertado correctamente.</p>
 </details>
 
 ***
@@ -68,7 +68,7 @@ El código a continuación se puede usar múltiples veces en un sitio web con di
    token: "NAVI123456",
    embed_id: "SF-123456789"
 });</script>
-&lt;script src="https://live.naviplus.app/start.js" async&gt;&lt;/script&gt;
+<script src="https://live.naviplus.app/start.js" async></script>
 <!-- Inserte el código donde aparece el menú SF-123456789 -->
 ```
 

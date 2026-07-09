@@ -7,15 +7,17 @@ title: Publicar no Wix / Squarespace / Outros
 ---
 # Publicar no Wix / Squarespace / Outros
 
-> **No WordPress?** Use o [plugin Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/) em vez da incorporação manual abaixo — sem edições de tema, o plugin abre o Slide Menu a partir de qualquer seletor CSS que você escolher no editor.
+> **No WordPress?** Use o plugin dedicado [Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/) em vez da incorporação manual abaixo — sem edições de tema, o plugin abre o Slide Menu a partir de qualquer seletor CSS que você escolher no editor.
 
-> **No Shopify?** Instale o [aplicativo dedicado do Shopify](https://apps.shopify.com/pronavi-navigation-design) — ele é otimizado para a plataforma com opções de publicação integradas.
+> **No Shopify?** Instale o [aplicativo Shopify](https://apps.shopify.com/pronavi-navigation-design) dedicado — ele é otimizado para a plataforma com opções de publicação integradas.
 
-Esta página cobre o **método de incorporação de script manual**, que é o caminho certo para [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), e sites personalizados construídos com PHP, Node.js, ou HTML puro. Você tem os seguintes métodos de implementação:
+> **No Wix?** Se você instalou o aplicativo Navi+ do Wix App Market, o Navi+ é incorporado automaticamente ao seu site — você pode **pular as etapas abaixo**. Se não instalou o aplicativo Wix, você ainda pode usar o Navi+ no Wix seguindo a incorporação manual abaixo.
+
+Esta página cobre o método de **incorporação de script manual**, que é o caminho correto para [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") e sites personalizados construídos com PHP, Node.js ou HTML puro. Você tem os seguintes métodos de implementação:
 
 ### 1. Incorpore o Navi+ no Seu Site
 
-Este método de implementação é adequado para todos os tipos de menu que o Navi+ atualmente suporta, incluindo: Tabbar, Mega menu, Slide menu, FAB, e Grid menu. Este código só precisa ser usado uma vez para todos os menus.
+Este método de implementação é adequado para todos os tipos de menu que o Navi+ atualmente suporta, incluindo: Tabbar, Mega menu, Slide menu, FAB e Grid menu. Este código só precisa ser usado uma vez para todos os menus.
 
 ```html
 <!-- Insira este código no <head> do site. (c) naviplus.io -->
@@ -38,11 +40,11 @@ Este método de implementação é adequado para todos os tipos de menu que o Na
 </details>
 
 <details><summary>Este código de incorporação desacelera meu site?</summary>
-<p>O código abaixo é extremamente leve e pode ser inserido no seu site sem afetar a velocidade (levando apenas cerca de 100-200ms para o primeiro carregamento e 0ms para carregamentos subsequentes), a experiência do cliente, ou as pontuações de SEO</p>
+<p>O código abaixo é extremamente leve e pode ser inserido no seu site sem afetar a velocidade (levando apenas cerca de 100-200ms para o primeiro carregamento e 0ms para carregamentos subsequentes), a experiência do cliente ou as pontuações de SEO</p>
 </details>
 
 <details><summary>Qual é o melhor lugar para inserir este trecho de código?</summary>
-<p>Na seção head (ou o mais cedo possível). Por quê? O site carregará recursos sequencialmente para renderizar a interface. Colocar o Navi+ o mais cedo possível no código HTML ajudará seu menu a estar pronto para exibir assim que possível, aguardando até que as condições sejam atendidas, então o menu aparecerá imediatamente. Isso melhora a experiência do usuário.</p>
+<p>Na seção head (ou o mais cedo possível). Por quê? O site carregará recursos sequencialmente para renderizar a interface. Colocar o Navi+ o mais cedo possível no código HTML ajudará seu menu a estar pronto para exibir assim que as condições forem atendidas, então o menu aparecerá imediatamente. Isso melhora a experiência do usuário.</p>
 </details>
 
 <details><summary>Como posso saber se este código foi incorporado com sucesso no meu site?</summary>
@@ -50,14 +52,14 @@ Este método de implementação é adequado para todos os tipos de menu que o Na
 <p><strong>Método 1 (para todos):</strong></p>
 <p>Abra seu site com o sufixo #navidebug-on, por exemplo: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Se o site mudar para o modo Debug, a incorporação está funcionando corretamente. O modo Debug ajuda você a identificar facilmente os seletores CSS. Use #navidebug-off para desligá-lo.</p>
 <p><strong>Método 2 (para desenvolvedores):</strong></p>
-<p>Abra as ferramentas de inspeção do seu navegador, vá para a aba Console, e procure uma mensagem verde: “Usando Navi+..”. Esta mensagem indica que o código foi incorporado com sucesso.</p>
+<p>Abra as ferramentas de inspeção do seu navegador, vá para a aba Console e procure uma mensagem verde: "Usando Navi+..". Esta mensagem indica que o código foi incorporado com sucesso.</p>
 </details>
 
 ***
 
 ### 2. Insira um Menu Navi+ em Qualquer Ponto do Seu Site
 
-O código abaixo pode ser usado várias vezes em um site com diferentes informações de inserção (especialmente o **ID Embedido**, como SF-123456789). Quando o site é renderizado, o menu será implantado e exibido na posição onde o código é inserido quando as condições forem atendidas. Este tipo de menu é adequado para: Mega menu, Grid, etc.
+O código abaixo pode ser usado várias vezes em um site com diferentes informações de inserção (especialmente o **ID Embutido**, como SF-123456789). Quando o site é renderizado, o menu será implantado e exibido na posição onde o código é inserido quando as condições forem atendidas. Este tipo de menu é adequado para: Mega menu, Grid, etc.
 
 ```html
 <!-- Insira o código onde o menu SF-123456789 aparece. (c) naviplus.io -->

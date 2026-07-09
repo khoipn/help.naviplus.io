@@ -31,9 +31,11 @@ See [Publish Filter](/docs/publish/publish-filter/) for details.
 
 ---
 
-## Global (WordPress, Wix, Webflow...) — 3 steps
+## Global (WordPress, Squarespace, Webflow...) — 3 steps
 
 ### Step 1: Paste embed code into `<head>`
+
+> **Wix app users skip this** — if you installed Navi+ from the Wix App Market, embedding is automatic and no code paste is needed. Jump to Step 2.
 
 The code is shown in the modal with a **Copy** button. Paste it into your website's `<head>`:
 

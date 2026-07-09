@@ -11,7 +11,9 @@ title: Instalar Navi+
 
 **Shopify:** Instala desde la [Shopify App Store](https://apps.shopify.com/pronavi-navigation-design). La aplicación se abre automáticamente después de la instalación.
 
-**Otras plataformas** (WordPress, WooCommerce, Wix, Webflow, Squarespace, o cualquier sitio web):
+**Wix:** Instala Navi+ desde el [Wix App Market](https://www.wix.com/app-market). Se abre dentro de tu panel de Wix e se incrusta en tu sitio en vivo automáticamente — sin código que copiar, sin fragmento de inserción. La autenticación y facturación se manejan a través de Wix.
+
+**Otras plataformas** (WordPress, WooCommerce, Webflow, Squarespace, o cualquier sitio web):
 1. Crea una cuenta gratuita en [dash.naviplus.app](https://dash.naviplus.app)
 2. Agrega el dominio de tu sitio web
 3. Copia tu fragmento de inserción — lo usarás en el Paso 2

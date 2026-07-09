@@ -1,5 +1,5 @@
 ---
-description: Shopifyまたは任意のウェブサイトにNavi+をインストールし、Navi+がメニューを展開する3つの方法—フローティング、ポジション、トリガー—を理解します。
+description: ShopifyまたはWix、その他のウェブサイトにNavi+をインストールし、Navi+がメニューを展開する3つの方法—フローティング、ポジション、トリガー—を理解します
 lang: jp
 layout: default
 permalink: /jp/docs/how-to-install-navi/
@@ -11,10 +11,12 @@ title: Navi+のインストール
 
 **Shopify:** [Shopify App Store](https://apps.shopify.com/pronavi-navigation-design)からインストールします。アプリはインストール後に自動的に開きます。
 
-**他のプラットフォーム**（WordPress、WooCommerce、Wix、Webflow、Squarespace、または任意のウェブサイト）：
-1. [dash.naviplus.app](https://dash.naviplus.app)で無料アカウントを作成します。
-2. ウェブサイトのドメインを追加します。
-3. 埋め込みスニペットをコピーします — これをステップ2で使用します。
+**Wix:** [Wix App Market](https://www.wix.com/app-market)からNavi+をインストール。Wix ダッシュボード内で開き、ライブサイトに自動的に埋め込まれます — コードをコピーする必要も、埋め込みスニペットも不要。認証と請求はWixを通じて処理されます。
+
+**その他のプラットフォーム** (WordPress、WooCommerce、Webflow、Squarespace、または任意のウェブサイト):
+1. [dash.naviplus.app](https://dash.naviplus.app)で無料アカウントを作成します
+2. ウェブサイトのドメインを追加します
+3. 埋め込みスニペットをコピーします — これをステップ2で使用します
 
 ---
 

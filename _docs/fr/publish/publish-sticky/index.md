@@ -32,9 +32,11 @@ Voir [Filtre de publication](/docs/publish/publish-filter/) pour plus de détail
 
 ---
 
-## Global (WordPress, Wix, Webflow...) — 3 étapes
+## Global (WordPress, Squarespace, Webflow...) — 3 étapes
 
 ### Étape 1 : Coller le code d'intégration dans `<head>`
+
+> **Les utilisateurs de l'application Wix ignorent cette étape** — si vous avez installé Navi+ depuis le Wix App Market, l'intégration est automatique et aucun collage de code n'est nécessaire. Allez à l'étape 2.
 
 Le code est affiché dans la modalité avec un bouton **Copier**. Collez-le dans le `<head>` de votre site web :
 

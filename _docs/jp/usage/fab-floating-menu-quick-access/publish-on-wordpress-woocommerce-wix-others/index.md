@@ -5,13 +5,15 @@ layout: default
 permalink: /jp/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
 title: Wix / Squarespace / その他に公開
 ---
-# Wix / Squarespace / その他に公開
+# Wix / Squarespace / その他で公開
 
-> **WordPressをご利用ですか？** 手動埋め込みの代わりに専用の[Naviplus Menu Builderプラグイン]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/)を使用してください — テーマの編集は不要で、FABはエディタで公開されるとサイト全体に自動的にレンダリングされます。
+> **WordPress をご利用ですか？** 下記の手動埋め込みの代わりに、専用の [Naviplus Menu Builder プラグイン]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/) をご使用ください — テーマの編集が不要で、FAB はエディタで公開されるとサイト全体に自動的にレンダリングされます。
 
-> **Shopifyをご利用ですか？** 専用の[Shopifyアプリ](https://apps.shopify.com/pronavi-navigation-design)をインストールしてください — プラットフォームに最適化されており、組み込みの公開オプションがあります。
+> **Shopify をご利用ですか？** 専用の [Shopify アプリ](https://apps.shopify.com/pronavi-navigation-design) をインストールしてください — プラットフォームに最適化されており、組み込みの公開オプションが利用できます。
 
-このページでは、**手動スクリプト埋め込み**メソッドについて説明します。これは、[Wix](https://wix.com/ "Wix")、[Squarespace](https://www.squarespace.com/ "Squarespace")、[Webflow](https://webflow.com/ "Webflow")、[Magento](https://magento-opensource.com/ "Magento")、およびPHP、Node.js、または純粋なHTMLで構築されたカスタムウェブサイトに適した方法です。以下の実装方法があります:
+> **Wix をご利用ですか？** Wix アプリマーケットから Navi+ アプリをインストールした場合、Navi+ はサイトに自動的に埋め込まれます — **下記の手順をスキップできます**。Wix アプリをインストールしていない場合でも、下記の手動埋め込み方法で Navi+ を Wix で利用できます。
+
+このページでは、**手動スクリプト埋め込み** 方法について説明しています。この方法は、[Squarespace](https://www.squarespace.com/ "Squarespace")、[Webflow](https://webflow.com/ "Webflow")、[Magento](https://magento-opensource.com/ "Magento")、および PHP、Node.js、または純粋な HTML で構築されたカスタムウェブサイトに適しています。以下の実装方法があります:
 
 ### 1. ウェブサイトにNavi+を埋め込む
 

@@ -13,7 +13,7 @@ title: 在Wix / Squarespace / 其他平台上发布
 
 > **在Wix上？** 如果您从 Wix App Market 安装了 Navi+ 应用，Navi+ 会自动嵌入到您的网站中 — 您可以**跳过下面的步骤**。如果您未安装 Wix 应用，仍可以通过下面的手动嵌入在 Wix 上使用 Navi+。
 
-本页面涵盖**手动脚本嵌入**方法，这是适合 [Wix](https://wix.com/ "Wix")、[Squarespace](https://www.squarespace.com/ "Squarespace")、[Webflow](https://webflow.com/ "Webflow")、[Magento](https://magento-opensource.com/ "Magento") 和使用PHP、Node.js或纯HTML构建的自定义网站的正确路径。您有以下实施方法：
+本页面涵盖**手动脚本嵌入**方法，这是适合 [Squarespace](https://www.squarespace.com/ "Squarespace")、[Webflow](https://webflow.com/ "Webflow")、[Magento](https://magento-opensource.com/ "Magento") 和使用PHP、Node.js或纯HTML构建的自定义网站的正确路径。您有以下实施方法：
 
 ### 1. 在您的网站上嵌入Navi+
 
@@ -52,14 +52,14 @@ title: 在Wix / Squarespace / 其他平台上发布
 <p><strong>方法1（适用于所有人）：</strong></p>
 <p>打开您的网站，后缀为#navidebug-on，例如：<a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>。如果网站切换到调试模式，则嵌入正常工作。调试模式帮助您轻松识别CSS选择器。使用#navidebug-off可以关闭它。</p>
 <p><strong>方法2（适用于开发人员）：</strong></p>
-<p>打开浏览器的检查工具，转到控制台选项卡，查找绿色消息：“Using Navi+..”。此消息表示代码已成功嵌入。</p>
+<p>打开浏览器的检查工具，转到控制台选项卡，查找绿色消息："Using Navi+.."。此消息表示代码已成功嵌入。</p>
 </details>
 
 ***
 
 ### 2. 在您的网站的任何位置插入Navi+菜单
 
-下面的代码可以在网站上多次使用，具有不同的插入信息（特别是**Embeded ID**，例如SF-123456789）。当网站被渲染时，菜单将在代码插入的位置显示，当条件满足时。此菜单类型适用于：Mega menu、Grid等。
+下面的代码可以在网站上多次使用，具有不同的插入信息（特别是**嵌入ID**，例如SF-123456789）。当网站被渲染时，菜单将在条件满足时在插入代码的位置部署和显示。此菜单类型适用于：Mega menu、Grid等。
 
 ```html
 <!-- 在菜单SF-123456789出现的地方插入代码。 (c) naviplus.io -->

@@ -13,7 +13,7 @@ title: Pubblica su Wix / Squarespace / Altri
 
 > **Su Wix?** Se hai installato l'app Navi+ dal Wix App Market, Navi+ viene integrato automaticamente nel tuo sito — puoi **saltare i passaggi qui sotto**. Se non hai installato l'app Wix, puoi comunque usare Navi+ su Wix tramite l'embed manuale qui sotto.
 
-Questa pagina copre il **metodo di embed manuale** che è il percorso giusto per [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), e siti web personalizzati costruiti con PHP, Node.js, o puro HTML. Hai i seguenti metodi di implementazione:
+Questa pagina copre il **metodo di embed manuale** che è il percorso giusto per [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), e siti web personalizzati costruiti con PHP, Node.js, o puro HTML. Hai i seguenti metodi di implementazione:
 
 ### 1. Inserisci Navi+ nel Tuo Sito Web
 

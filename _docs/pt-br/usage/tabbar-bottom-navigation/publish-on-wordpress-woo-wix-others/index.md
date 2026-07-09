@@ -7,17 +7,17 @@ title: Publicar no Wix / Squarespace / Outros
 ---
 # Publicar no Wix / Squarespace / Outros
 
-> **No WordPress?** Use o [plugin Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/) em vez da incorporação manual abaixo — sem edições de tema, sem shortcode para a Tab Bar.
+> **No WordPress?** Use o [plugin Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/) dedicado em vez da incorporação manual abaixo — sem edições de tema, sem shortcode para a Tab Bar.
 
 > **No Shopify?** Instale o [aplicativo Shopify](https://apps.shopify.com/pronavi-navigation-design) dedicado — ele é otimizado para a plataforma com opções de publicação integradas.
 
-> **No Wix?** Se você instalou o aplicativo Navi+ pelo Wix App Market, o Navi+ é incorporado automaticamente ao seu site — você pode **pular as etapas abaixo**. Se não instalou o aplicativo da Wix, ainda pode usar o Navi+ no Wix pela incorporação manual abaixo.
+> **No Wix?** Se você instalou o aplicativo Navi+ do Wix App Market, o Navi+ é incorporado automaticamente ao seu site — você pode **pular as etapas abaixo**. Se não instalou o aplicativo Wix, você ainda pode usar o Navi+ no Wix seguindo a incorporação manual abaixo.
 
-Esta página cobre o **método de incorporação de script manual**, que é o caminho certo para [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), e sites personalizados construídos com PHP, Node.js, ou HTML puro. Você tem os seguintes métodos de implementação:
+Esta página cobre o método de **incorporação de script manual**, que é o caminho correto para [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") e sites personalizados construídos com PHP, Node.js ou HTML puro. Você tem os seguintes métodos de implementação:
 
 ### 1. Incorpore o Navi+ no Seu Site
 
-Este método de implementação é adequado para todos os tipos de menu que o Navi+ atualmente suporta, incluindo: Tabbar, Mega menu, Slide menu, FAB, e Grid menu. Este código só precisa ser usado uma vez para todos os menus.
+Este método de implementação é adequado para todos os tipos de menu que o Navi+ atualmente suporta, incluindo: Tabbar, Mega menu, Slide menu, FAB e Grid menu. Este código só precisa ser usado uma vez para todos os menus.
 
 ```html
 <!-- Insira este código no <head> do site. (c) naviplus.io -->
@@ -52,7 +52,7 @@ Este método de implementação é adequado para todos os tipos de menu que o Na
 <p><strong>Método 1 (para todos):</strong></p>
 <p>Abra seu site com o sufixo #navidebug-on, por exemplo: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Se o site mudar para o modo Debug, a incorporação está funcionando corretamente. O modo Debug ajuda você a identificar facilmente os seletores CSS. Use #navidebug-off para desligá-lo.</p>
 <p><strong>Método 2 (para desenvolvedores):</strong></p>
-<p>Abra as ferramentas de inspeção do seu navegador, vá para a aba Console e procure uma mensagem verde: “Usando Navi+..”. Esta mensagem indica que o código foi incorporado com sucesso.</p>
+<p>Abra as ferramentas de inspeção do seu navegador, vá para a aba Console e procure uma mensagem verde: "Usando Navi+..". Esta mensagem indica que o código foi incorporado com sucesso.</p>
 </details>
 
 ***

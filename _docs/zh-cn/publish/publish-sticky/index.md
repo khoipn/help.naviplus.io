@@ -32,9 +32,11 @@ title: 发布粘性 — Tabbar & FAB
 
 ---
 
-## 全球 (WordPress, Wix, Webflow...) — 3 步骤
+## 全球 (WordPress, Squarespace, Webflow...) — 3 步骤
 
 ### 步骤 1: 将嵌入代码粘贴到 `<head>`
+
+> **Wix 应用用户跳过此步骤** — 如果您从 Wix App Market 安装了 Navi+，嵌入是自动的，无需粘贴代码。请跳至步骤 2。
 
 代码在模态中显示，并带有 **复制** 按钮。将其粘贴到您网站的 `<head>` 中：
 

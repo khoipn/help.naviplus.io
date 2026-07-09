@@ -2,7 +2,9 @@
 
 If you deploy your website on Shopify, please install the dedicated [Shopify](https://www.shopify.com/) app here: <https://apps.shopify.com/pronavi-navigation-design> - It is optimized for this platform, allowing for stable deployment with many useful built-in options.
 
-If you deploy your website on other platforms (such as [WordPress](https://wordpress.org/), [WooCommerce](https://woocommerce.com/), [Wix](https://wix.com/), [Squarespace](https://www.squarespace.com/), [Webflow](https://webflow.com/), [Magento](https://magento-opensource.com/), and custom websites built with PHP, Node.js, or pure HTML..), you have the following implementation methods:
+If you deploy your website on [Wix](https://wix.com/), install the Navi+ app from the Wix App Market — Wix users who installed the Navi+ app get automatic embedding, no code needed. It opens in your Wix dashboard and embeds `start.js` automatically, so you can skip the manual code below.
+
+If you deploy your website on other platforms (such as [WordPress](https://wordpress.org/), [WooCommerce](https://woocommerce.com/), [Squarespace](https://www.squarespace.com/), [Webflow](https://webflow.com/), [Magento](https://magento-opensource.com/), and custom websites built with PHP, Node.js, or pure HTML..), you have the following implementation methods:
 
 ### 1. Embed Navi+ on Your Website
 

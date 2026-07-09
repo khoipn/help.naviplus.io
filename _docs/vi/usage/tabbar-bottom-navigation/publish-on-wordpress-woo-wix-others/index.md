@@ -13,7 +13,7 @@ title: Xuất bản trên Wix / Squarespace / Khác
 
 > **Trên Wix?** Nếu bạn đã cài ứng dụng Navi+ từ Wix App Market, Navi+ được nhúng tự động vào trang của bạn — bạn có thể **bỏ qua các bước bên dưới**. Nếu bạn chưa cài ứng dụng Wix, bạn vẫn có thể dùng Navi+ trên Wix bằng cách nhúng thủ công bên dưới.
 
-Trang này đề cập đến phương pháp **nhúng mã thủ công**, đây là con đường đúng cho [Wix](https://wix.com/ "Wix"), [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), và các trang web tùy chỉnh được xây dựng bằng PHP, Node.js, hoặc HTML thuần. Bạn có các phương pháp triển khai sau:
+Trang này đề cập đến phương pháp **nhúng mã thủ công**, đây là con đường đúng cho [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), và các trang web tùy chỉnh được xây dựng bằng PHP, Node.js, hoặc HTML thuần. Bạn có các phương pháp triển khai sau:
 
 ### 1. Nhúng Navi+ vào Trang Web của Bạn
 
@@ -52,7 +52,7 @@ Phương pháp triển khai này phù hợp cho tất cả các loại menu mà 
 <p><strong>Phương pháp 1 (dành cho mọi người):</strong></p>
 <p>Mở trang web của bạn với hậu tố #navidebug-on, ví dụ: <a href="https://domain.com#navidebug-on">https://domain.com#navidebug-on</a>. Nếu trang web chuyển sang chế độ Debug, mã nhúng đang hoạt động đúng. Chế độ Debug giúp bạn dễ dàng xác định các bộ chọn CSS. Sử dụng #navidebug-off để tắt nó.</p>
 <p><strong>Phương pháp 2 (dành cho các nhà phát triển):</strong></p>
-<p>Mở công cụ kiểm tra của trình duyệt, đi đến tab Console, và tìm một thông điệp màu xanh lá cây: “Đang sử dụng Navi+..”. Thông điệp này cho biết rằng mã đã được nhúng thành công.</p>
+<p>Mở công cụ kiểm tra của trình duyệt, đi đến tab Console, và tìm một thông điệp màu xanh lá cây: "Đang sử dụng Navi+..". Thông điệp này cho biết rằng mã đã được nhúng thành công.</p>
 </details>
 
 ***

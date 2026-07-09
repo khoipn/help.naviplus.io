@@ -9,7 +9,7 @@ title: Publicar fijo — Tabbar & FAB
 
 Aplica a: **Tabbar**, **Encabezado Móvil**, **FAB / Barra de Soporte**
 
-Los menús fijos son flotantes — siempre aparecen en la pantalla y no están adjuntos a una posición fija en el DOM. El método de incrustación es el más simple: activa en todo el sitio a través de un solo script.
+Los menús fijos son flotantes — siempre aparecen en la pantalla y no están adjuntos a una posición fija del DOM. El método de incrustación es el más simple: activa en todo el sitio a través de un único script.
 
 ---
 
@@ -17,24 +17,26 @@ Los menús fijos son flotantes — siempre aparecen en la pantalla y no están a
 
 ### Paso 1: Habilitar App Embeds en el Editor de Temas
 
-Ve a **Editor de Temas → App Embeds** y activa el interruptor de Navi+.
+Ve a **Editor de Temas → App Embeds** y habilita el toggle de Navi+.
 
 - Esto **no cambia el diseño del tema** y se puede desactivar en cualquier momento sin afectar la tienda.
 - Solo necesita hacerse **una vez por tienda** — omite este paso para menús posteriores.
 
 ### Paso 2: Habilitar "Publicar este menú en modo fijo"
 
-El interruptor en la tarjeta de **Paso 2** del modal de Publicar. Habilitar = menú está activo, deshabilitar = oculto del sitio web.
+El toggle en la tarjeta de **Paso 2** del modal de Publicar. Habilitar = menú está activo, deshabilitar = oculto del sitio web.
 
-### Paso 3 (opcional): Configurar visibilidad de dispositivo y página
+### Paso 3 (opcional): Configurar la visibilidad del dispositivo y la página
 
 Consulta [Filtro de Publicación](/docs/publish/publish-filter/) para más detalles.
 
 ---
 
-## Global (WordPress, Wix, Webflow...) — 3 pasos
+## Global (WordPress, Squarespace, Webflow...) — 3 pasos
 
 ### Paso 1: Pegar el código de incrustación en `<head>`
+
+> **Los usuarios de la aplicación Wix omitan esto** — si instalaste Navi+ desde el Wix App Market, la incrustación es automática y no se necesita pegar código. Salta al Paso 2.
 
 El código se muestra en el modal con un botón de **Copiar**. Pégalo en el `<head>` de tu sitio web:
 
@@ -50,9 +52,9 @@ El código se muestra en el modal con un botón de **Copiar**. Pégalo en el `<h
 
 ### Paso 2: Habilitar "Publicar este menú en modo fijo"
 
-Igual que en Shopify — habilita el interruptor.
+Igual que en Shopify — habilita el toggle.
 
-### Paso 3 (opcional): Configurar visibilidad de dispositivo y página
+### Paso 3 (opcional): Configurar la visibilidad del dispositivo y la página
 
 Consulta [Filtro de Publicación](/docs/publish/publish-filter/) para más detalles.
 
@@ -62,16 +64,16 @@ Consulta [Filtro de Publicación](/docs/publish/publish-filter/) para más detal
 
 | Menú | Restricción |
 |---|---|
-| Encabezado Móvil | Interruptor de escritorio deshabilitado — solo móvil |
-| FAB / Barra de Soporte | Sin selector de posición (FAB tiene su propia posición en la pestaña de Configuración) |
-| Tabbar | Opciones completas para móvil + escritorio disponibles |
+| Encabezado Móvil | Toggle de escritorio deshabilitado — solo móvil |
+| FAB / Barra de Soporte | Sin selector de posición (FAB tiene su propio posicionamiento en la pestaña Configuración) |
+| Tabbar | Opciones completas disponibles para móvil + escritorio |
 
 ---
 
 ## Solución de problemas
 
-**¿El menú no aparece después de habilitar el interruptor?**
+**¿El menú no aparece después de habilitar el toggle?**
 1. Verifica que App Embeds esté habilitado (Shopify) o que el código de incrustación esté pegado correctamente (Global).
-2. Verifica la configuración del dispositivo — **Mostrar menú en móvil** o **Mostrar menú en escritorio** deben estar activados.
+2. Verifica la configuración del dispositivo — **Mostrar menú en móvil** o **Mostrar menú en escritorio** deben estar habilitados.
 3. Verifica el filtro de URL — puede estar filtrando la página actual.
-4. Actualiza el navegador (Ctrl+Shift+R) para borrar la caché.
+4. Recarga el navegador con fuerza (Ctrl+Shift+R) para borrar la caché.

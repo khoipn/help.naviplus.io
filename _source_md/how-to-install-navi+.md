@@ -10,7 +10,10 @@ You don’t need to know about development or design to use Navi+. It’s a pre-
 Please install the official app from the link below:\
 <https://apps.shopify.com/pronavi-navigation-design>
 
-**If you’re using other platforms** such as WordPress, WooCommerce, Wix, Webflow, Squarespace, or a self-hosted website:
+**If you’re using Wix:**\
+Install Navi+ from the [Wix App Market](https://www.wix.com/app-market) — it opens in your Wix dashboard and embeds automatically, no code. Authentication and billing are handled through Wix.
+
+**If you’re using other platforms** such as WordPress, WooCommerce, Webflow, Squarespace, or a self-hosted website:
 
 1. Go to <https://naviplus.io>
 2. Create a free account

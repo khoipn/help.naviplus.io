@@ -11,7 +11,9 @@ title: 安装 Navi+
 
 **Shopify:** 从 [Shopify 应用商店](https://apps.shopify.com/pronavi-navigation-design) 安装。安装后应用会自动打开。
 
-**其他平台**（WordPress、WooCommerce、Wix、Webflow、Squarespace 或任何网站）：
+**Wix:** 从 [Wix App Market](https://www.wix.com/app-market) 安装 Navi+。它在您的 Wix 仪表板内打开，并自动嵌入到您的实时网站中——无需复制代码，无需嵌入代码片段。身份验证和计费均通过 Wix 处理。
+
+**其他平台**（WordPress、WooCommerce、Webflow、Squarespace 或任何网站）：
 1. 在 [dash.naviplus.app](https://dash.naviplus.app) 创建一个免费账户
 2. 添加您的网站域名
 3. 复制您的嵌入代码——您将在第二步中使用此代码

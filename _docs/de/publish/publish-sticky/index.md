@@ -32,7 +32,19 @@ Siehe [Publish Filter](/docs/publish/publish-filter/) für Details.
 
 ---
 
-## Global (WordPress, Wix, Webflow...) — 3 Schritte
+## Wix App Market — 2 Schritte
+
+### Schritt 1: Installieren Sie die Navi+ App aus dem Wix App Market
+
+Installieren Sie einfach die Navi+ App — sie wird automatisch eingebettet und alle Sticky-Menüs (Tabbar, FAB) sind sofort live. Keine Code-Einbettung erforderlich.
+
+### Schritt 2 (optional): Konfigurieren Sie die Sichtbarkeit von Geräten und Seiten
+
+Siehe [Publish Filter](/docs/publish/publish-filter/) für Details.
+
+---
+
+## Global (WordPress, Webflow, Squarespace...) — 3 Schritte
 
 ### Schritt 1: Fügen Sie den Einbettungscode in `<head>` ein
 

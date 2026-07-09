@@ -18,11 +18,13 @@ Navi+ menus are divided into 3 deploy groups, determined automatically by the me
 
 ## Two markets: Shopify vs. Global
 
-| Step | Shopify | Global (WordPress, Wix...) |
+| Step | Shopify | Global (WordPress, Squarespace, Webflow...) |
 |---|---|---|
 | Embed code | Enable in **App Embeds** (Theme Editor) — no code paste needed | Paste `<script>` into website `<head>` |
 | Token | Not needed — Shopify OAuth handles it | Required — `token: "NAVI123456"` in script |
 | App Block | Available (Shopify only) — Method 2 for Section menus | Not available |
+
+> **Wix:** If you installed the Navi+ app from the Wix App Market, embedding is automatic — Navi+ injects `start.js` for you through the Wix Embedded Script, so you **don't paste any code**. Authentication and billing are handled through Wix. Only self-managed platforms (WordPress, Squarespace, Webflow, Magento, custom sites) need the manual `<script>` paste above.
 
 ---
 

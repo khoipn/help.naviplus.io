@@ -1,7 +1,7 @@
 ---
-description: Installez Navi+ sur Shopify ou tout autre site web, et comprenez les trois façons dont Navi+ déploie des menus — flottants, positionnés et déclenchés.
-lang: fr
+description: Installez Navi+ sur Shopify ou n'importe quel site web, et comprenez les trois façons dont Navi+ déploie les menus — flottants, positionnés et déclenchés.
 layout: default
+lang: fr
 permalink: /fr/docs/how-to-install-navi/
 title: Installer Navi+
 ---
@@ -11,9 +11,11 @@ title: Installer Navi+
 
 **Shopify :** Installez depuis le [Shopify App Store](https://apps.shopify.com/pronavi-navigation-design). L'application s'ouvre automatiquement après l'installation.
 
-**Autres plateformes** (WordPress, WooCommerce, Wix, Webflow, Squarespace, ou tout site web) :
+**Wix :** Installez Navi+ depuis le [Wix App Market](https://www.wix.com/app-market). Elle s'ouvre dans votre tableau de bord Wix et s'intègre sur votre site en direct automatiquement — aucun code à copier, aucun extrait d'intégration. L'authentification et la facturation sont gérées via Wix.
+
+**Autres plateformes** (WordPress, WooCommerce, Webflow, Squarespace, ou tout site web) :
 1. Créez un compte gratuit sur [dash.naviplus.app](https://dash.naviplus.app)
-2. Ajoutez le domaine de votre site web
+2. Ajoutez votre domaine
 3. Copiez votre extrait d'intégration — vous l'utiliserez à l'étape 2
 
 ---
