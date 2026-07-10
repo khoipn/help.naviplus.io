@@ -3,9 +3,9 @@ description: Publish a Navi+ Slide Menu (hamburger) on WordPress with the Navi+ 
 lang: vi
 layout: default
 permalink: /vi/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
-title: Publish on WordPress
+title: Xuất bản trên WordPress
 ---
-# Publish on WordPress
+# Xuất bản trên WordPress
 
 A **Slide Menu** (a.k.a. hamburger menu) slides in from the side and is the workhorse navigation for deep menu trees on mobile. On WordPress, the Navi+ AI Menu Builder plugin loads it site-wide and the Navi+ editor takes care of the open trigger — no theme edits, no shortcode for the typical setup.
 

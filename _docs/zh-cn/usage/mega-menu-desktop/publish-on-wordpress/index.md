@@ -3,9 +3,9 @@ description: 使用 Navi+ AI Menu Builder 插件在 WordPress 上发布 Navi+ Me
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/mega-menu-desktop/publish-on-wordpress/
-title: Publish on WordPress
+title: 在 WordPress 上发布
 ---
-# Publish on WordPress
+# 在 WordPress 上发布
 
 A **Mega Menu (Desktop)** is a **section** menu — it doesn't anchor to the viewport, it renders at the exact spot in the page where you embed it (typically the site header). On WordPress, the Navi+ AI Menu Builder plugin embeds it via shortcode or Gutenberg block — you never edit theme files.
 

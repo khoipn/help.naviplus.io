@@ -3,9 +3,9 @@ description: Publish a Navi+ Grid Menu on WordPress with the Navi+ AI Menu Build
 lang: de
 layout: default
 permalink: /de/docs/usage/grid-menu/publish-on-wordpress/
-title: Publish on WordPress
+title: Auf WordPress veröffentlichen
 ---
-# Publish on WordPress
+# Auf WordPress veröffentlichen
 
 Ein **Grid Menu** ist ein **Abschnitts**-Menü — es wird an der Stelle auf der Seite angezeigt, an der Sie es einfügen. Es eignet sich hervorragend für Kategorienverknüpfungen, Hub-Seiten und "was möchten Sie tun?" Panels. Auf WordPress platziert das Navi+ AI Menu Builder-Plugin es über Shortcode oder Gutenberg-Block; Sie bearbeiten niemals die Theme-Dateien.
 

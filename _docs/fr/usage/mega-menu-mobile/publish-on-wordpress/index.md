@@ -3,9 +3,9 @@ description: Publish a Navi+ Mega Menu (Mobile) on WordPress with the Navi+ AI M
 lang: fr
 layout: default
 permalink: /fr/docs/usage/mega-menu-mobile/publish-on-wordpress/
-title: Publish on WordPress
+title: Publier sur WordPress
 ---
-# Publish on WordPress
+# Publier sur WordPress
 
 A **Mega Menu (Mobile)** is a **section** menu — it renders at the spot in the page where you embed it. On WordPress, the Navi+ AI Menu Builder plugin places it via shortcode or Gutenberg block; you never edit theme files.
 
