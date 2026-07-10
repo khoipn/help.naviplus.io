@@ -3,15 +3,15 @@ description: 如果您在Shopify上部署您的网站，请在此处安装专用
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
-title: 在Wix / Squarespace / 其他平台上发布
+title: 在Squarespace / 其他平台上发布
 ---
-# 在Wix / Squarespace / 其他平台上发布
+# 在Squarespace / 其他平台上发布
 
 > **在WordPress上？** 使用专用的 [Naviplus Menu Builder插件]({{ site.baseurl }}/docs/usage/mega-menu-desktop/publish-on-wordpress/) 而不是下面的手动嵌入 — 无需编辑主题，通过短代码或Gutenberg块放置Mega Menu。
 
 > **在Shopify上？** 安装专用的 [Shopify应用程序](https://apps.shopify.com/pronavi-navigation-design) — 它针对该平台进行了优化，具有内置的发布选项。
 
-> **在Wix上？** 如果您从 Wix App Market 安装了 Navi+ 应用，Navi+ 会自动嵌入到您的网站中 — 您可以**跳过下面的步骤**。如果您未安装 Wix 应用，仍可以通过下面的手动嵌入在 Wix 上使用 Navi+。
+> **在Wix上？** 查看专用的 [在Wix上发布](/zh-cn/docs/usage/mega-menu-desktop/publishing-on-wix/) 指南——从 Wix 应用市场安装 Navi+ 应用，它会自动嵌入，无需代码。下面的手动嵌入仅适用于 Squarespace、Webflow 和自定义网站。
 
 本页面涵盖**手动脚本嵌入**方法，这是适合 [Squarespace](https://www.squarespace.com/ "Squarespace")、[Webflow](https://webflow.com/ "Webflow")、[Magento](https://magento-opensource.com/ "Magento") 和使用PHP、Node.js或纯HTML构建的自定义网站的正确路径。您有以下实施方法：
 

@@ -3,7 +3,7 @@
     title: Qu'est-ce que Navi+ ?
     url: /docs/getting-started/what-is-navi/
   - processed_path: getting-started/why-navi
-    title: Pourquoi Navi+ ?
+    title: Pourquoi Navi+ ? — Éditeur de menus sans code
     url: /docs/getting-started/why-navi/
   - processed_path: how-to-install-navi
     title: Installer Navi+
@@ -34,7 +34,7 @@
     title: Traduire le menu automatiquement
     url: /docs/ai/auto-translate/
   processed_path: ai
-  title: Navi+ AI (Nouveau)
+  title: Aperçu
   url: /docs/ai/
 - children:
   - processed_path: usage/explore-common-menus
@@ -50,8 +50,11 @@
     - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress
       title: Barre d'onglets — Publier sur WordPress
       url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
+    - processed_path: usage/tabbar-bottom-navigation/publishing-on-wix
+      title: Tab Bar — Publier sur Wix
+      url: /docs/usage/tabbar-bottom-navigation/publishing-on-wix/
     - processed_path: usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others
-      title: Publier sur Wix / Squarespace / Autres
+      title: Publier sur Squarespace / Autres
       url: /docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
     processed_path: usage/tabbar-bottom-navigation
     title: Tabbar (Bottom Navigation)
@@ -66,8 +69,11 @@
     - processed_path: usage/mega-menu-desktop/publish-on-wordpress
       title: Mega Menu (Desktop) — Publier sur WordPress
       url: /docs/usage/mega-menu-desktop/publish-on-wordpress/
+    - processed_path: usage/mega-menu-desktop/publishing-on-wix
+      title: Mega Menu (Bureau) — Publier sur Wix
+      url: /docs/usage/mega-menu-desktop/publishing-on-wix/
     - processed_path: usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others
-      title: Publier sur Wix / Squarespace / Autres
+      title: Publier sur Squarespace / Autres
       url: /docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/
     - processed_path: usage/mega-menu-desktop/faq
       title: FAQ
@@ -85,8 +91,11 @@
     - processed_path: usage/mega-menu-mobile/publish-on-wordpress
       title: Mega Menu (Mobile) — Publish on WordPress
       url: /docs/usage/mega-menu-mobile/publish-on-wordpress/
+    - processed_path: usage/mega-menu-mobile/publishing-on-wix
+      title: Mega Menu (Mobile) — Publier sur Wix
+      url: /docs/usage/mega-menu-mobile/publishing-on-wix/
     - processed_path: usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others
-      title: Publier sur Wix / Squarespace / Autres
+      title: Publier sur Squarespace / Autres
       url: /docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/mega-menu-mobile
     title: Mega Menu (mobile)
@@ -104,8 +113,11 @@
     - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress
       title: Menu Glissant — Publier sur WordPress
       url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
+    - processed_path: usage/slide-menu-hamburger-menu/publishing-on-wix
+      title: Slide Menu — Publier sur Wix
+      url: /docs/usage/slide-menu-hamburger-menu/publishing-on-wix/
     - processed_path: usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others
-      title: Publier sur Wix / Squarespace / Autres
+      title: Publier sur Squarespace / Autres
       url: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/slide-menu-hamburger-menu
     title: Menu latéral (Menu Hamburger)
@@ -120,8 +132,11 @@
     - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress
       title: FAB — Publier sur WordPress
       url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
+    - processed_path: usage/fab-floating-menu-quick-access/publishing-on-wix
+      title: FAB — Publier sur Wix
+      url: /docs/usage/fab-floating-menu-quick-access/publishing-on-wix/
     - processed_path: usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others
-      title: Publier sur Wix / Squarespace / Autres
+      title: Publier sur Squarespace / Autres
       url: /docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/fab-floating-menu-quick-access
     title: FAB - Menu Flottant / Accès Rapide
@@ -139,8 +154,11 @@
     - processed_path: usage/grid-menu/publish-on-wordpress
       title: Menu Grille — Publier sur WordPress
       url: /docs/usage/grid-menu/publish-on-wordpress/
+    - processed_path: usage/grid-menu/publishing-on-wix
+      title: Grid Menu — Publier sur Wix
+      url: /docs/usage/grid-menu/publishing-on-wix/
     - processed_path: usage/grid-menu/publish-on-wordpress-woocommerce-wix-others
-      title: Publier sur Wix / Squarespace / Autres
+      title: Publier sur Squarespace / Autres
       url: /docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/
     processed_path: usage/grid-menu
     title: Menu Grille
@@ -374,7 +392,7 @@
   url: /docs/latest-update/
 - children:
   - processed_path: partership/earn-up-to-225-revshare-with-navi
-    title: Gagnez jusqu'à 22,5 % de RevShare avec Navi+
+    title: Gagnez jusqu'à 45% de RevShare avec Navi+
     url: /docs/partership/earn-up-to-225-revshare-with-navi/
   - processed_path: partership/navi-care-or-design-your-menus-like-an-expert
     title: Navi+ Care | Concevoir vos menus comme un expert

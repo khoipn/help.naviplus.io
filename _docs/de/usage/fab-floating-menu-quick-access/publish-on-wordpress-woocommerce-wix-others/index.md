@@ -3,15 +3,15 @@ description: 'Wenn Sie Ihre Website auf Shopify bereitstellen, installieren Sie 
 lang: de
 layout: default
 permalink: /de/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
-title: Veröffentlichen auf Wix / Squarespace / Andere
+title: Veröffentlichen auf Squarespace / Andere
 ---
-# Veröffentlichen auf Wix / Squarespace / Andere
+# Veröffentlichen auf Squarespace / Andere
 
 > **Auf WordPress?** Verwenden Sie das dedizierte [Naviplus Menu Builder plugin]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/) anstelle des manuellen Einbettens unten — keine Theme-Bearbeitungen, das FAB wird automatisch seitenweit gerendert, sobald es im Editor veröffentlicht wird.
 
 > **Auf Shopify?** Installieren Sie die dedizierte [Shopify app](https://apps.shopify.com/pronavi-navigation-design) — sie ist für die Plattform mit integrierten Veröffentlichungsoptionen optimiert.
 
-> **Auf Wix?** Wenn Sie die Navi+ App aus dem Wix App Market installiert haben, wird Navi+ automatisch in Ihre Website eingebettet — Sie können **die folgenden Schritte überspringen**. Wenn Sie die Wix App nicht installiert haben, können Sie Navi+ weiterhin auf Wix verwenden, indem Sie die manuelle Einbettung unten befolgen.
+> **Auf Wix?** Siehe den dedizierten [Auf Wix veröffentlichen](/de/docs/usage/fab-floating-menu-quick-access/publishing-on-wix/)-Leitfaden — installiere die Navi+ App aus dem Wix App Market und sie bettet sich automatisch ein, kein Code. Die manuelle Einbettung unten ist nur für Squarespace, Webflow und benutzerdefinierte Websites.
 
 Diese Seite behandelt die **manuelle Skripteinbettung**-Methode, die der richtige Weg für [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") und benutzerdefinierte Websites, die mit PHP, Node.js oder reinem HTML erstellt wurden, ist. Sie haben die folgenden Implementierungsmethoden:
 

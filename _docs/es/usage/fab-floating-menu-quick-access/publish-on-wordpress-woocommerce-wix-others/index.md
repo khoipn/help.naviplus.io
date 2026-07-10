@@ -3,13 +3,15 @@ description: 'Si despliega su sitio web en Shopify, por favor instale la aplicac
 lang: es
 layout: default
 permalink: /es/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress-woocommerce-wix-others/
-title: Publicar en WordPress / WooCommerce / Wix / Otros
+title: Publicar en Squarespace / Otros
 ---
-# Publicar en WordPress / WooCommerce / Wix / Otros
+# Publicar en Squarespace / Otros
 
 > **¿En WordPress?** Use el plugin dedicado [Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/) en lugar de la inserción manual a continuación — sin ediciones de tema, el FAB se renderiza en todo el sitio automáticamente una vez publicado en el editor.
 
 > **¿En Shopify?** Instale la aplicación dedicada [Shopify app](https://apps.shopify.com/pronavi-navigation-design) — está optimizada para la plataforma con opciones de publicación integradas.
+
+> **¿En Wix?** Consulte la guía dedicada [Publicar en Wix](/es/docs/usage/fab-floating-menu-quick-access/publishing-on-wix/) — instale la aplicación Navi+ desde el Mercado de aplicaciones de Wix y se integra automáticamente, sin código. La integración manual a continuación es solo para Squarespace, Webflow y sitios personalizados.
 
 Esta página cubre el **método de inserción de script manual**, que es el camino correcto para [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), y sitios web personalizados construidos con PHP, Node.js, o HTML puro. Tiene los siguientes métodos de implementación:
 

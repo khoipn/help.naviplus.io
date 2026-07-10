@@ -1,5 +1,5 @@
 ---
-description: 'Vous construisez des sites Shopify pour vos clients ? Devenez Partenaire Navi+ et gagnez jusqu'à 45% de commission — offre à durée limitée jusqu'au 31 décembre 2026 !'
+description: "Vous construisez des sites Shopify pour vos clients ? Devenez Partenaire Navi+ et gagnez jusqu'à 45% de commission — offre à durée limitée jusqu'au 31 décembre 2026 !"
 lang: fr
 layout: default
 permalink: /fr/docs/partership/earn-up-to-225-revshare-with-navi/

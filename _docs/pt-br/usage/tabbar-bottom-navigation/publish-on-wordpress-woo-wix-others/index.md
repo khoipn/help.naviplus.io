@@ -3,15 +3,15 @@ description: 'Se você implantar seu site no Shopify, instale o aplicativo dedic
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
-title: Publicar no Wix / Squarespace / Outros
+title: Publicar em Squarespace / Outros
 ---
-# Publicar no Wix / Squarespace / Outros
+# Publicar em Squarespace / Outros
 
 > **No WordPress?** Use o [plugin Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/) dedicado em vez da incorporação manual abaixo — sem edições de tema, sem shortcode para a Tab Bar.
 
 > **No Shopify?** Instale o [aplicativo Shopify](https://apps.shopify.com/pronavi-navigation-design) dedicado — ele é otimizado para a plataforma com opções de publicação integradas.
 
-> **No Wix?** Se você instalou o aplicativo Navi+ do Wix App Market, o Navi+ é incorporado automaticamente ao seu site — você pode **pular as etapas abaixo**. Se não instalou o aplicativo Wix, você ainda pode usar o Navi+ no Wix seguindo a incorporação manual abaixo.
+> **No Wix?** Veja o guia dedicado [Publicar no Wix](/pt-br/docs/usage/tabbar-bottom-navigation/publishing-on-wix/) — instale o aplicativo Navi+ do Wix App Market e ele se incorpora automaticamente, sem código. A incorporação manual abaixo é apenas para Squarespace, Webflow e sites personalizados.
 
 Esta página cobre o método de **incorporação de script manual**, que é o caminho correto para [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") e sites personalizados construídos com PHP, Node.js ou HTML puro. Você tem os seguintes métodos de implementação:
 

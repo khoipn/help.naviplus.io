@@ -2,15 +2,15 @@
 description: 'Wenn Sie Ihre Website auf Shopify bereitgestellt haben, installieren Sie bitte die dedizierte Shopify-App hier: <https://apps.shopify.com/pronavi-navigation-design> - Sie ist optimiert ...'
 layout: default
 permalink: /de/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
-title: Veröffentlichen auf Wix / Squarespace / Sonstiges
+title: Veröffentlichen auf Squarespace / Sonstiges
 ---
-# Veröffentlichen auf Wix / Squarespace / Sonstiges
+# Veröffentlichen auf Squarespace / Sonstiges
 
 > **Auf WordPress?** Verwenden Sie stattdessen das dedizierte [Naviplus Menu Builder Plugin]({{ site.baseurl }}/de/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/) — keine Theme-Änderungen, kein Shortcode für die Tab Bar erforderlich.
 
 > **Auf Shopify?** Installieren Sie die dedizierte [Shopify-App](https://apps.shopify.com/pronavi-navigation-design) — sie ist für die Plattform optimiert und verfügt über integrierte Veröffentlichungsoptionen.
 
-> **Auf Wix?** Wenn Sie die Navi+ App aus dem Wix App Market installiert haben, wird Navi+ automatisch in Ihre Website eingebettet — Sie können **die folgenden Schritte überspringen**. Wenn Sie die Wix App nicht installiert haben, können Sie Navi+ auf Wix dennoch verwenden, indem Sie die manuelle Einbettung unten befolgen.
+> **Auf Wix?** Siehe den dedizierten [Auf Wix veröffentlichen](/de/docs/usage/tabbar-bottom-navigation/publishing-on-wix/)-Leitfaden — installiere die Navi+ App aus dem Wix App Market und sie bettet sich automatisch ein, kein Code. Die manuelle Einbettung unten ist nur für Squarespace, Webflow und benutzerdefinierte Websites.
 
 Diese Seite behandelt die **manuelle Script-Einbettung**, die der richtige Weg für [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento") und benutzerdefinierte Websites, die mit PHP, Node.js oder reinem HTML erstellt wurden, ist. Sie haben die folgenden Implementierungsmethoden:
 

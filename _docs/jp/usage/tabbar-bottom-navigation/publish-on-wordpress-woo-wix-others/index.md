@@ -3,15 +3,15 @@ description: 'Shopify にウェブサイトをデプロイしている場合は�
 lang: jp
 layout: default
 permalink: /jp/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
-title: Wix / Squarespace / その他で公開
+title: Squarespace / その他で公開
 ---
-# Wix / Squarespace / その他で公開
+# Squarespace / その他で公開
 
 > **WordPress をご利用ですか？** 下記の手動埋め込みの代わりに、専用の [Naviplus Menu Builder プラグイン]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/) をご使用ください — テーマの編集が不要で、タブバー用のショートコードも必要ありません。
 
 > **Shopify をご利用ですか？** 専用の [Shopify アプリ](https://apps.shopify.com/pronavi-navigation-design) をインストールしてください — プラットフォームに最適化されており、組み込みの公開オプションが利用できます。
 
-> **Wix をご利用ですか？** Wix アプリマーケットから Navi+ アプリをインストールした場合、Navi+ はサイトに自動的に埋め込まれます — **下記の手順をスキップできます**。Wix アプリをインストールしていない場合でも、下記の手動埋め込み方法で Navi+ を Wix で利用できます。
+> **Wix をご利用ですか？** 専用の [Wix で公開]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publishing-on-wix/) ガイドをご覧ください — Wix App Market から Navi+ アプリをインストールすると、自動的に埋め込まれます、コード不要。以下の手動埋め込みは Squarespace、Webflow、およびカスタムサイトのみです。
 
 このページでは、**手動スクリプト埋め込み** 方法について説明しています。この方法は、[Squarespace](https://www.squarespace.com/ "Squarespace")、[Webflow](https://webflow.com/ "Webflow")、[Magento](https://magento-opensource.com/ "Magento")、および PHP、Node.js、または純粋な HTML で構築されたカスタムウェブサイトに適しています。以下の実装方法があります:
 

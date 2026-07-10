@@ -3,15 +3,15 @@ description: 'Nếu bạn triển khai trang web của mình trên Shopify, vui 
 lang: vi
 layout: default
 permalink: /vi/docs/usage/tabbar-bottom-navigation/publish-on-wordpress-woo-wix-others/
-title: Xuất bản trên Wix / Squarespace / Khác
+title: Xuất bản trên Squarespace / Khác
 ---
-# Xuất bản trên Wix / Squarespace / Khác
+# Xuất bản trên Squarespace / Khác
 
 > **Trên WordPress?** Sử dụng [plugin Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/) thay vì nhúng thủ công bên dưới — không cần chỉnh sửa giao diện, không cần mã ngắn cho Tab Bar.
 
 > **Trên Shopify?** Cài đặt [ứng dụng Shopify](https://apps.shopify.com/pronavi-navigation-design) chuyên dụng — nó được tối ưu hóa cho nền tảng với các tùy chọn xuất bản tích hợp.
 
-> **Trên Wix?** Nếu bạn đã cài ứng dụng Navi+ từ Wix App Market, Navi+ được nhúng tự động vào trang của bạn — bạn có thể **bỏ qua các bước bên dưới**. Nếu bạn chưa cài ứng dụng Wix, bạn vẫn có thể dùng Navi+ trên Wix bằng cách nhúng thủ công bên dưới.
+> **Trên Wix?** Xem hướng dẫn chuyên dụng [Publish on Wix]({{ site.baseurl }}/vi/docs/usage/tabbar-bottom-navigation/publishing-on-wix/) — cài đặt ứng dụng Navi+ từ Wix App Market và nó sẽ nhúng tự động, không cần code. Nhúng thủ công dưới đây chỉ dành cho Squarespace, Webflow, và các trang web tùy chỉnh.
 
 Trang này đề cập đến phương pháp **nhúng mã thủ công**, đây là con đường đúng cho [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), và các trang web tùy chỉnh được xây dựng bằng PHP, Node.js, hoặc HTML thuần. Bạn có các phương pháp triển khai sau:
 

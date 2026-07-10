@@ -3,15 +3,15 @@ description: 'Si despliega su sitio web en Shopify, instale la aplicación dedic
 lang: es
 layout: default
 permalink: /es/docs/usage/mega-menu-mobile/publish-on-wordpress-woocommerce-wix-others/
-title: Publicar en WordPress / WooCommerce / Wix / Otros
+title: Publicar en Squarespace / Otros
 ---
-# Publicar en WordPress / WooCommerce / Wix / Otros
+# Publicar en Squarespace / Otros
 
 > **¿En WordPress?** Use el plugin dedicado [Naviplus Menu Builder]({{ site.baseurl }}/docs/usage/mega-menu-mobile/publish-on-wordpress/) en lugar de la inserción manual a continuación — sin ediciones de tema, coloque el Mega Menu a través de shortcode o bloque de Gutenberg.
 
 > **¿En Shopify?** Instale la [aplicación de Shopify](https://apps.shopify.com/pronavi-navigation-design) dedicada — está optimizada para la plataforma con opciones de publicación integradas.
 
-> **¿En Wix?** Si instaló la aplicación Navi+ desde el Wix App Market, Navi+ se integra automáticamente en su sitio — puede **omitir los pasos a continuación**. Si no instaló la aplicación de Wix, aún puede usar Navi+ en Wix siguiendo la inserción manual a continuación.
+> **¿En Wix?** Consulte la guía dedicada [Publicar en Wix](/es/docs/usage/mega-menu-mobile/publishing-on-wix/) — instale la aplicación Navi+ desde el Mercado de aplicaciones de Wix y se integra automáticamente, sin código. La integración manual a continuación es solo para Squarespace, Webflow y sitios personalizados.
 
 Esta página cubre el **método de inserción de script manual**, que es el camino correcto para [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), y sitios web personalizados construidos con PHP, Node.js, o HTML puro. Tiene los siguientes métodos de implementación:
 

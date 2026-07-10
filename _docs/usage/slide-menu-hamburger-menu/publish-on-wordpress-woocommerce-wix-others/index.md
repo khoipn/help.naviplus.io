@@ -2,15 +2,15 @@
 description: 'If you deploy your website on Shopify, please install the dedicated Shopify app here: <https://apps.shopify.com/pronavi-navigation-design> - It is optimized ...'
 layout: default
 permalink: /docs/usage/slide-menu-hamburger-menu/publish-on-wordpress-woocommerce-wix-others/
-title: Publish on Wix / Squarespace / Others
+title: Publish on Squarespace / Others
 ---
-# Publish on Wix / Squarespace / Others
+# Publish on Squarespace / Others
 
 > **On WordPress?** Use the dedicated [Naviplus Menu Builder plugin]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/) instead of the manual embed below — no theme edits, the plugin opens the Slide Menu from any CSS selector you choose in the editor.
 
 > **On Shopify?** Install the dedicated [Shopify app](https://apps.shopify.com/pronavi-navigation-design) — it's optimised for the platform with built-in publish options.
 
-> **On Wix?** If you installed the Navi+ app from the Wix App Market, Navi+ is embedded into your site automatically — you can **skip the steps below**. If you did not install the Wix app, you can still use Navi+ on Wix by following the manual embed below.
+> **On Wix?** See the dedicated **[Publish on Wix]({{ site.baseurl }}/docs/usage/slide-menu-hamburger-menu/publishing-on-wix/)** guide — install the Navi+ app from the Wix App Market and it embeds automatically, no code. The manual embed below is only for Squarespace, Webflow, and custom sites.
 
 This page covers the **manual script embed** method, which is the right path for [Squarespace](https://www.squarespace.com/ "Squarespace"), [Webflow](https://webflow.com/ "Webflow"), [Magento](https://magento-opensource.com/ "Magento"), and custom websites built with PHP, Node.js, or pure HTML. You have the following implementation methods:
 
