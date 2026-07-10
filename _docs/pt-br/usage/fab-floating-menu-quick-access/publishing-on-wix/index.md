@@ -3,9 +3,11 @@ description: Publique um FAB Navi+ (botão de ação flutuante) no Wix. Navi+ é
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/fab-floating-menu-quick-access/publishing-on-wix/
-title: FAB — Publicar no Wix
+title: Publicar no Wix
 ---
-# FAB — Publicar no Wix
+# Publicar no Wix
+
+> 💡 Novo no Navi+ no Wix? Veja a [visão geral do Navi+ no Wix](https://naviplus.io/pt/blogs/compare/topic/naviplus-on-wix/) no naviplus.io.
 
 Navi+ funciona no Wix como um **aplicativo nativo do Wix App Market**. O **FAB** (botão de ação flutuante) é um menu **fixo** — um atalho flutuante que permanece fixado ao canto da janela de visualização enquanto os visitantes rolam. No Wix, uma vez que você instala Navi+ e publica o FAB, ele é renderizado **automaticamente em todo o site** — não há código para colar e nenhuma etapa de Código Personalizado.
 

@@ -3,9 +3,11 @@ description: Veröffentliche ein Navi+ Grid Menu auf Wix. Navi+ ist eine native 
 lang: de
 layout: default
 permalink: /de/docs/usage/grid-menu/publishing-on-wix/
-title: Grid Menu — Auf Wix veröffentlichen
+title: Auf Wix veröffentlichen
 ---
-# Grid Menu — Auf Wix veröffentlichen
+# Auf Wix veröffentlichen
+
+> 💡 Neu bei Navi+ auf Wix? Siehe die [Navi+ auf Wix – Übersicht](https://naviplus.io/de/blogs/compare/topic/naviplus-on-wix/) auf naviplus.io.
 
 Navi+ läuft auf Wix als **native Wix App Market-App**. Ein **Grid Menu** ist ein Bereichsmenü — ein Block von Kacheln, die du in eine Seite platzierst oder an deine Navigation anhängst. Auf Wix musst du keine CSS-Selektoren schreiben: Navi+ **füllt die Placement-Selektoren automatisch für dich aus**.
 

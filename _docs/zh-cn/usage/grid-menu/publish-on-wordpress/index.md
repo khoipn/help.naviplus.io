@@ -3,9 +3,9 @@ description: 使用 Navi+ 菜单构建器插件在 WordPress 上发布 Navi+ 网
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/grid-menu/publish-on-wordpress/
-title: 网格菜单 — 在 WordPress 上发布
+title: 在 WordPress 上发布
 ---
-# 网格菜单 — 在 WordPress 上发布
+# 在 WordPress 上发布
 
 一个 **网格菜单** 是一个 **部分** 菜单 — 它在您嵌入的页面位置呈现。它非常适合类别快捷方式、中心页面和 "你想做什么？" 面板。在 WordPress 上，Navi+ 菜单构建器插件通过短代码或 Gutenberg 块放置它；您无需编辑主题文件。
 

@@ -3,9 +3,11 @@ description: Veröffentliche ein Navi+ FAB (schwebendes Aktionsfeld) auf Wix. Na
 lang: de
 layout: default
 permalink: /de/docs/usage/fab-floating-menu-quick-access/publishing-on-wix/
-title: FAB — Auf Wix veröffentlichen
+title: Auf Wix veröffentlichen
 ---
-# FAB — Auf Wix veröffentlichen
+# Auf Wix veröffentlichen
+
+> 💡 Neu bei Navi+ auf Wix? Siehe die [Navi+ auf Wix – Übersicht](https://naviplus.io/de/blogs/compare/topic/naviplus-on-wix/) auf naviplus.io.
 
 Navi+ läuft auf Wix als **native Wix App Market-App**. Das **FAB** (schwebendes Aktionsfeld) ist ein **schwebendes** Menü — eine schwebende Verknüpfung, die in der Ecke des Viewports bleibt, während Besucher scrollen. Auf Wix wird das FAB nach der Installation von Navi+ und der Veröffentlichung **automatisch site-weit dargestellt** — es gibt keinen Code zum Einfügen und keinen Custom Code-Schritt.
 

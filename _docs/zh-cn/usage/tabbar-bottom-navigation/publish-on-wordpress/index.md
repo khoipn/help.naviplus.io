@@ -3,9 +3,9 @@ description: 使用 Navi+ 菜单构建器插件在 WordPress 上发布 Navi+ 标
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
-title: 标签栏 — 在 WordPress 上发布
+title: 在 WordPress 上发布
 ---
-# 标签栏 — 在 WordPress 上发布
+# 在 WordPress 上发布
 
 **标签栏** 是一个 **粘性** 菜单 — 它固定在视口（通常在移动设备上靠近底部），并在访客滚动时保持在原位。在 WordPress 上，Navi+ 菜单构建器插件会自动在整个站点上呈现标签栏；您无需粘贴任何代码或短代码。
 

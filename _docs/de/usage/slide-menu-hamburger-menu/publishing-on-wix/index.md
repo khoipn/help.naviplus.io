@@ -3,9 +3,11 @@ description: Veröffentliche ein Navi+ Slide Menu (Hamburger-Menü) auf Wix. Nav
 lang: de
 layout: default
 permalink: /de/docs/usage/slide-menu-hamburger-menu/publishing-on-wix/
-title: Slide Menu — Auf Wix veröffentlichen
+title: Auf Wix veröffentlichen
 ---
-# Slide Menu — Auf Wix veröffentlichen
+# Auf Wix veröffentlichen
+
+> 💡 Neu bei Navi+ auf Wix? Siehe die [Navi+ auf Wix – Übersicht](https://naviplus.io/de/blogs/compare/topic/naviplus-on-wix/) auf naviplus.io.
 
 Navi+ läuft auf Wix als **native Wix App Market-App**. Ein **Slide Menu** (auch Hamburger-Menü genannt) gleitet von der Seite herein und ist das Arbeitstier der Navigation für tiefe Menübäume auf Mobile. Auf Wix musst du keine CSS-Selektoren schreiben: Navi+ **füllt den Hamburger-Trigger automatisch für dich aus**.
 

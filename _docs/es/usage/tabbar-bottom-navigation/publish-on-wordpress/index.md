@@ -3,9 +3,9 @@ description: Publica una barra de pestañas de Navi+ en WordPress con el plugin 
 lang: es
 layout: default
 permalink: /es/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
-title: Barra de pestañas — Publicar en WordPress
+title: Publicar en WordPress
 ---
-# Barra de pestañas — Publicar en WordPress
+# Publicar en WordPress
 
 La **Barra de pestañas** es un menú **fijo** — se ancla a la ventana de visualización (típicamente cerca de la parte inferior en móviles) y se mantiene en su lugar a medida que los visitantes se desplazan. En WordPress, el plugin Navi+ AI Menu Builder renderiza la barra de pestañas en todo el sitio automáticamente; no necesitas pegar ningún código o shortcode.
 

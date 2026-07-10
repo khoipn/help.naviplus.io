@@ -3,9 +3,11 @@ description: Navi+ デスクトップメガメニューを Wix で公開しま�
 lang: jp
 layout: default
 permalink: /jp/docs/usage/mega-menu-desktop/publishing-on-wix/
-title: メガメニュー（デスクトップ） — Wix で公開
+title: Wix で公開
 ---
-# メガメニュー（デスクトップ） — Wix で公開
+# Wix で公開
+
+> 💡 Wix での Navi+ が初めてですか？ naviplus.io の [Wix での Navi+ の概要](https://naviplus.io/jp/blogs/compare/topic/naviplus-on-wix/) をご覧ください。
 
 Navi+ は Wix App Market の**ネイティブアプリ**として Wix で動作します。**デスクトップメガメニュー**は、サイトのメインナビゲーションバーに接続されるか、置き換えます。Wix では CSS セレクターを記述する必要はありません: Navi+ は**プレイスメントセレクターを自動入力**します。
 

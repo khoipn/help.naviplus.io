@@ -3,9 +3,9 @@ description: Publiez une barre d'onglets Navi+ sur WordPress avec le plugin Navi
 lang: fr
 layout: default
 permalink: /fr/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
-title: Barre d'onglets — Publier sur WordPress
+title: Publier sur WordPress
 ---
-# Barre d'onglets — Publier sur WordPress
+# Publier sur WordPress
 
 La **Barre d'onglets** est un menu **fixe** — il s'ancre à la fenêtre d'affichage (généralement près du bas sur mobile) et reste en place pendant que les visiteurs font défiler. Sur WordPress, le plugin Navi+ AI Menu Builder rend la barre d'onglets automatiquement sur tout le site ; vous n'avez pas besoin de coller de code ou de shortcode.
 

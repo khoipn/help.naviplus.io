@@ -3,9 +3,9 @@ description: Navi+メニュービルダープラグインを使用して、WordP
 lang: jp
 layout: default
 permalink: /jp/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
-title: スライドメニュー — WordPressに公開
+title: WordPressに公開
 ---
-# スライドメニュー — WordPressに公開
+# WordPressに公開
 
 A **Slide Menu** (a.k.a. hamburger menu) slides in from the side and is the workhorse navigation for deep menu trees on mobile. On WordPress, the Navi+ AI Menu Builder plugin loads it site-wide and the Navi+ editor takes care of the open trigger — no theme edits, no shortcode for the typical setup.
 

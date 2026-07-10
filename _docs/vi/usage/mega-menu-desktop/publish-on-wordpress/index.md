@@ -3,9 +3,9 @@ description: Publish a Navi+ Mega Menu (Desktop) on WordPress with the Navi+ AI 
 lang: vi
 layout: default
 permalink: /vi/docs/usage/mega-menu-desktop/publish-on-wordpress/
-title: Mega Menu (Desktop) — Publish on WordPress
+title: Publish on WordPress
 ---
-# Mega Menu (Desktop) — Publish on WordPress
+# Publish on WordPress
 
 A **Mega Menu (Desktop)** is a **section** menu — nó không gắn vào viewport, nó hiển thị tại vị trí chính xác trên trang mà bạn nhúng nó (thường là tiêu đề trang web). Trên WordPress, plugin Navi+ AI Menu Builder nhúng nó qua shortcode hoặc khối Gutenberg — bạn không bao giờ chỉnh sửa tệp theme.
 

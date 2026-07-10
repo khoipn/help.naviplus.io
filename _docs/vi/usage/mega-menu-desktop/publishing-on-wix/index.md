@@ -3,9 +3,11 @@ description: Xuất bản Mega Menu desktop của Navi+ trên Wix. Navi+ là ứ
 lang: vi
 layout: default
 permalink: /vi/docs/usage/mega-menu-desktop/publishing-on-wix/
-title: Mega Menu (Desktop) — Xuất bản trên Wix
+title: Xuất bản trên Wix
 ---
-# Mega Menu (Desktop) — Xuất bản trên Wix
+# Xuất bản trên Wix
+
+> 💡 Mới dùng Navi+ trên Wix? Xem [giới thiệu Navi+ trên Wix](https://naviplus.io/vi/blogs/compare/topic/naviplus-on-wix/) trên naviplus.io.
 
 Navi+ chạy trên Wix như một **ứng dụng native của Wix App Market**. Một **Mega Menu desktop** được gắn vào — hoặc thay thế — thanh điều hướng chính của trang web của bạn. Trên Wix, bạn không viết bất kỳ bộ chọn CSS nào: Navi+ **tự động điền các bộ chọn vị trí cho bạn**.
 

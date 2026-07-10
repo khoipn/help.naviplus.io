@@ -3,9 +3,11 @@ description: Navi+ Tab Bar を Wix で公開します。Navi+ は Wix App Market
 lang: jp
 layout: default
 permalink: /jp/docs/usage/tabbar-bottom-navigation/publishing-on-wix/
-title: Tab Bar — Wix で公開
+title: Wix で公開
 ---
-# Tab Bar — Wix で公開
+# Wix で公開
+
+> 💡 Wix での Navi+ が初めてですか？ naviplus.io の [Wix での Navi+ の概要](https://naviplus.io/jp/blogs/compare/topic/naviplus-on-wix/) をご覧ください。
 
 Navi+ は Wix App Market の**ネイティブアプリ**として Wix で動作します。**Tab Bar** は**固定**メニュー — ビューポートに固定され（モバイルでは通常下部）、訪問者がスクロールしても常に表示されます。Wix では、Navi+ をインストールして Tab Bar を公開すると、**サイト全体に自動的に表示されます** — コードを貼り付ける必要はなく、カスタムコードステップもありません。
 

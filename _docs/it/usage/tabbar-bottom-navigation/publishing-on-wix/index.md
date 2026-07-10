@@ -3,9 +3,11 @@ description: Pubblica un Tab Bar Navi+ su Wix. Navi+ è un'app nativa di Wix App
 lang: it
 layout: default
 permalink: /it/docs/usage/tabbar-bottom-navigation/publishing-on-wix/
-title: Tab Bar — Pubblica su Wix
+title: Pubblica su Wix
 ---
-# Tab Bar — Pubblica su Wix
+# Pubblica su Wix
+
+> 💡 Nuovo su Navi+ per Wix? Vedi la [panoramica di Navi+ su Wix](https://naviplus.io/it/blogs/compare/topic/naviplus-on-wix/) su naviplus.io.
 
 Navi+ funziona su Wix come un'**app nativa di Wix App Market**. La **Tab Bar** è un menu **fisso** — si ancora al viewport (tipicamente vicino al fondo su mobile) e rimane fermo mentre i visitatori scorrono. Su Wix, una volta installato Navi+ e pubblicata la Tab Bar, viene resa **automaticamente su tutto il sito** — non è necessario incollare codice e non è richiesto un passo Custom Code.
 

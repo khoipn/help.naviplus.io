@@ -3,9 +3,9 @@ description: Navi+ メニュービルダープラグインを使用して、Word
 lang: jp
 layout: default
 permalink: /jp/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
-title: FAB — WordPressで公開
+title: WordPressで公開
 ---
-# FAB — WordPressで公開
+# WordPressで公開
 
 A **FAB (Floating Action Button)** is a **sticky** menu — it floats above the page (typically a corner) and stays put as visitors scroll. On WordPress, the Navi+ AI Menu Builder plugin renders it site-wide automatically; you do not paste any code or shortcode.
 

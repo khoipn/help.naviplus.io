@@ -3,9 +3,11 @@ description: Pubblica un FAB (pulsante di azione mobile) Navi+ su Wix. Navi+ è 
 lang: it
 layout: default
 permalink: /it/docs/usage/fab-floating-menu-quick-access/publishing-on-wix/
-title: FAB — Pubblica su Wix
+title: Pubblica su Wix
 ---
-# FAB — Pubblica su Wix
+# Pubblica su Wix
+
+> 💡 Nuovo su Navi+ per Wix? Vedi la [panoramica di Navi+ su Wix](https://naviplus.io/it/blogs/compare/topic/naviplus-on-wix/) su naviplus.io.
 
 Navi+ funziona su Wix come un'**app nativa di Wix App Market**. Il **FAB** (pulsante di azione mobile) è un menu **fisso** — un collegamento mobile galleggiante che rimane ancorato all'angolo del viewport mentre i visitatori scorrono. Su Wix, una volta installato Navi+ e pubblicato il FAB, viene reso **automaticamente su tutto il sito** — non è necessario incollare codice e non è richiesto un passo Custom Code.
 

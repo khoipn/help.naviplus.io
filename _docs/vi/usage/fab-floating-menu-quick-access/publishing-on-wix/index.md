@@ -3,9 +3,11 @@ description: Xuất bản FAB (floating action button) của Navi+ trên Wix. Na
 lang: vi
 layout: default
 permalink: /vi/docs/usage/fab-floating-menu-quick-access/publishing-on-wix/
-title: FAB — Xuất bản trên Wix
+title: Xuất bản trên Wix
 ---
-# FAB — Xuất bản trên Wix
+# Xuất bản trên Wix
+
+> 💡 Mới dùng Navi+ trên Wix? Xem [giới thiệu Navi+ trên Wix](https://naviplus.io/vi/blogs/compare/topic/naviplus-on-wix/) trên naviplus.io.
 
 Navi+ chạy trên Wix như một **ứng dụng native của Wix App Market**. **FAB** (floating action button) là một menu **sticky** — một phím tắt nổi luôn được ghim ở góc của viewport khi người dùng cuộn. Trên Wix, sau khi bạn cài đặt Navi+ và xuất bản FAB, nó sẽ render **trên toàn bộ trang web tự động** — không có code để dán và không cần bước Custom Code.
 

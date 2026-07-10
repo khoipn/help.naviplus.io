@@ -3,9 +3,11 @@ description: Navi+ FAB（フローティングアクションボタン）を Wix
 lang: jp
 layout: default
 permalink: /jp/docs/usage/fab-floating-menu-quick-access/publishing-on-wix/
-title: FAB — Wix で公開
+title: Wix で公開
 ---
-# FAB — Wix で公開
+# Wix で公開
+
+> 💡 Wix での Navi+ が初めてですか？ naviplus.io の [Wix での Navi+ の概要](https://naviplus.io/jp/blogs/compare/topic/naviplus-on-wix/) をご覧ください。
 
 Navi+ は Wix App Market の**ネイティブアプリ**として Wix で動作します。**FAB**（フローティングアクションボタン）は**固定**メニュー — ビューポートの角に固定されたフローティングショートカットで、訪問者がスクロールしても常にピン留めされたままです。Wix では、Navi+ をインストールして FAB を公開すると、**サイト全体に自動的に表示されます** — コードを貼り付ける必要はなく、カスタムコードステップもありません。
 

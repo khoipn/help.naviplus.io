@@ -3,9 +3,9 @@ description: Publish a Navi+ FAB (Floating Action Button) on WordPress with the 
 lang: vi
 layout: default
 permalink: /vi/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
-title: FAB — Publish on WordPress
+title: Publish on WordPress
 ---
-# FAB — Publish on WordPress
+# Publish on WordPress
 
 A **FAB (Floating Action Button)** is a **sticky** menu — nó nổi trên trang (thường ở một góc) và giữ nguyên khi người dùng cuộn. Trên WordPress, plugin Navi+ AI Menu Builder tự động hiển thị nó trên toàn bộ trang; bạn không cần dán bất kỳ mã hoặc shortcode nào.
 

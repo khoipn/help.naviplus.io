@@ -3,9 +3,11 @@ description: 在 Wix 上发布 Navi+ 桌面大型菜单。Navi+ 是一个原生 
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/mega-menu-desktop/publishing-on-wix/
-title: 大型菜单（桌面）——在 Wix 上发布
+title: 在 Wix 上发布
 ---
-# 大型菜单（桌面）——在 Wix 上发布
+# 在 Wix 上发布
+
+> 💡 初次在 Wix 上使用 Navi+？请参阅 naviplus.io 上的 [Navi+ 在 Wix 上概览](https://naviplus.io/zh-CN/blogs/compare/topic/naviplus-on-wix/)。
 
 Navi+ 在 Wix 上作为**原生 Wix 应用市场应用**运行。**桌面大型菜单**附加到——或替换——你的网站主导航栏。在 Wix 上，你无需编写任何 CSS 选择器：Navi+ **为你自动填充放置选择器**。
 

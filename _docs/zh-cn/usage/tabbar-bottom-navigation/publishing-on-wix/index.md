@@ -3,9 +3,11 @@ description: 在 Wix 上发布 Navi+ 标签栏。Navi+ 是一个原生 Wix 应�
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/tabbar-bottom-navigation/publishing-on-wix/
-title: 标签栏——在 Wix 上发布
+title: 在 Wix 上发布
 ---
-# 标签栏——在 Wix 上发布
+# 在 Wix 上发布
+
+> 💡 初次在 Wix 上使用 Navi+？请参阅 naviplus.io 上的 [Navi+ 在 Wix 上概览](https://naviplus.io/zh-CN/blogs/compare/topic/naviplus-on-wix/)。
 
 Navi+ 在 Wix 上作为**原生 Wix 应用市场应用**运行。**标签栏**是一个**粘性**菜单——它锚定到视口（在移动设备上通常靠近底部），在访客滚动时保持固定。在 Wix 上，一旦你安装 Navi+ 并发布标签栏，它就会**在整个网站范围内自动渲染**——无需粘贴代码，无需自定义代码步骤。
 

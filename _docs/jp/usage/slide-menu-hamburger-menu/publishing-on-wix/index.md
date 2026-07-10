@@ -3,9 +3,11 @@ description: Navi+ スライドメニュー（ハンバーガーメニュー）�
 lang: jp
 layout: default
 permalink: /jp/docs/usage/slide-menu-hamburger-menu/publishing-on-wix/
-title: スライドメニュー — Wix で公開
+title: Wix で公開
 ---
-# スライドメニュー — Wix で公開
+# Wix で公開
+
+> 💡 Wix での Navi+ が初めてですか？ naviplus.io の [Wix での Navi+ の概要](https://naviplus.io/jp/blogs/compare/topic/naviplus-on-wix/) をご覧ください。
 
 Navi+ は Wix App Market の**ネイティブアプリ**として Wix で動作します。**スライドメニュー**（ハンバーガーメニューとも呼ばれる）は側面からスライドインし、モバイルで深いメニューツリーの主力ナビゲーションです。Wix では CSS セレクターを記述する必要はありません: Navi+ は**ハンバーガートリガーを自動入力**します。
 

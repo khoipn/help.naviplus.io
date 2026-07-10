@@ -3,9 +3,9 @@ description: Xuất bản một Menu Lưới Navi+ trên WordPress với plugin 
 lang: vi
 layout: default
 permalink: /vi/docs/usage/grid-menu/publish-on-wordpress/
-title: Menu Lưới — Xuất bản trên WordPress
+title: Xuất bản trên WordPress
 ---
-# Menu Lưới — Xuất bản trên WordPress
+# Xuất bản trên WordPress
 
 Một **Menu Lưới** là một menu **phần** — nó hiển thị tại vị trí trên trang mà bạn chèn nó. Nó rất phù hợp cho các phím tắt danh mục, trang trung tâm, và các bảng "bạn muốn làm gì?". Trên WordPress, plugin Navi+ AI Menu Builder chèn nó qua shortcode hoặc khối Gutenberg; bạn không bao giờ chỉnh sửa tệp theme.
 

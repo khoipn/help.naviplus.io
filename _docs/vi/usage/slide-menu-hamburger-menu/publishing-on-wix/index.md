@@ -3,9 +3,11 @@ description: Xuất bản Slide Menu (hamburger) của Navi+ trên Wix. Navi+ l�
 lang: vi
 layout: default
 permalink: /vi/docs/usage/slide-menu-hamburger-menu/publishing-on-wix/
-title: Slide Menu — Xuất bản trên Wix
+title: Xuất bản trên Wix
 ---
-# Slide Menu — Xuất bản trên Wix
+# Xuất bản trên Wix
+
+> 💡 Mới dùng Navi+ trên Wix? Xem [giới thiệu Navi+ trên Wix](https://naviplus.io/vi/blogs/compare/topic/naviplus-on-wix/) trên naviplus.io.
 
 Navi+ chạy trên Wix như một **ứng dụng native của Wix App Market**. Một **Slide Menu** (hay còn gọi là menu hamburger) trượt vào từ một bên và là điều hướng chính cho cây menu sâu trên mobile. Trên Wix, bạn không viết bất kỳ bộ chọn CSS nào: Navi+ **tự động điền nút hamburger trigger cho bạn**.
 

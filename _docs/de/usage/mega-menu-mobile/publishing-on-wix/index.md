@@ -3,9 +3,11 @@ description: Veröffentliche ein Navi+ Mobile Mega Menu auf Wix. Navi+ ist eine 
 lang: de
 layout: default
 permalink: /de/docs/usage/mega-menu-mobile/publishing-on-wix/
-title: Mega Menu (Mobile) — Auf Wix veröffentlichen
+title: Auf Wix veröffentlichen
 ---
-# Mega Menu (Mobile) — Auf Wix veröffentlichen
+# Auf Wix veröffentlichen
+
+> 💡 Neu bei Navi+ auf Wix? Siehe die [Navi+ auf Wix – Übersicht](https://naviplus.io/de/blogs/compare/topic/naviplus-on-wix/) auf naviplus.io.
 
 Navi+ läuft auf Wix als **native Wix App Market-App**. Ein **Mobile Mega Menu** wird von deinem Website-Mobile-Menü (Hamburger) geöffnet. Auf Wix musst du keine CSS-Selektoren schreiben: Navi+ **füllt den Hamburger-Trigger automatisch für dich aus**.
 

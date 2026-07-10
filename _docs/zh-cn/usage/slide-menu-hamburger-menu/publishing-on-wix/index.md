@@ -3,9 +3,11 @@ description: 在 Wix 上发布 Navi+ 滑动菜单（汉堡菜单）。Navi+ 是�
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/slide-menu-hamburger-menu/publishing-on-wix/
-title: 滑动菜单——在 Wix 上发布
+title: 在 Wix 上发布
 ---
-# 滑动菜单——在 Wix 上发布
+# 在 Wix 上发布
+
+> 💡 初次在 Wix 上使用 Navi+？请参阅 naviplus.io 上的 [Navi+ 在 Wix 上概览](https://naviplus.io/zh-CN/blogs/compare/topic/naviplus-on-wix/)。
 
 Navi+ 在 Wix 上作为**原生 Wix 应用市场应用**运行。**滑动菜单**（又称汉堡菜单）从侧面滑入，是移动设备上深菜单树的主要导航。在 Wix 上，你无需编写任何 CSS 选择器：Navi+ **为你自动填充汉堡菜单触发器**。
 

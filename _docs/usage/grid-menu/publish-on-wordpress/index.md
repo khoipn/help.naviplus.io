@@ -2,9 +2,9 @@
 description: Publish a Navi+ Grid Menu on WordPress with the Navi+ AI Menu Builder plugin. Insert it where it should appear using the [naviwp embed_id="..."] shortcode or Gutenberg block.
 layout: default
 permalink: /docs/usage/grid-menu/publish-on-wordpress/
-title: Grid Menu — Publish on WordPress
+title: Publish on WordPress
 ---
-# Grid Menu — Publish on WordPress
+# Publish on WordPress
 
 A **Grid Menu** is a **section** menu — it renders at the spot in the page where you embed it. It's a great fit for category shortcuts, hub pages, and "what would you like to do?" panels. On WordPress, the Navi+ AI Menu Builder plugin places it via shortcode or Gutenberg block; you never edit theme files.
 

@@ -3,9 +3,9 @@ description: Pubblica un Menu a Griglia Navi+ su WordPress con il plugin Navi+ A
 lang: it
 layout: default
 permalink: /it/docs/usage/grid-menu/publish-on-wordpress/
-title: Menu a Griglia — Pubblica su WordPress
+title: Pubblica su WordPress
 ---
-# Menu a Griglia — Pubblica su WordPress
+# Pubblica su WordPress
 
 Un **Menu a Griglia** è un menu di **sezione** — viene visualizzato nel punto della pagina in cui lo incorpori. È un'ottima soluzione per collegamenti rapidi alle categorie, pagine hub e pannelli "cosa ti piacerebbe fare?". Su WordPress, il plugin Navi+ AI Menu Builder lo posiziona tramite shortcode o blocco Gutenberg; non è necessario modificare i file del tema.
 

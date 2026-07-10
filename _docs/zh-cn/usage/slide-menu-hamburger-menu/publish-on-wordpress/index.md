@@ -3,9 +3,9 @@ description: 使用 Navi+ 菜单构建器插件在 WordPress 上发布 Navi+ 滑
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
-title: 滑动菜单 — 在 WordPress 上发布
+title: 在 WordPress 上发布
 ---
-# 滑动菜单 — 在 WordPress 上发布
+# 在 WordPress 上发布
 
 一个 **滑动菜单**（又称汉堡菜单）从侧面滑入，是移动设备上深层菜单树的主要导航。在 WordPress 上，Navi+ 菜单构建器插件在整个网站加载它，Navi+ 编辑器负责打开触发器 — 无需主题编辑，无需典型设置的短代码。
 

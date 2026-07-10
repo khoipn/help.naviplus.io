@@ -3,9 +3,9 @@ description: Publish a Navi+ Tab Bar on WordPress with the Navi+ AI Menu Builder
 lang: vi
 layout: default
 permalink: /vi/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
-title: Tab Bar — Publish on WordPress
+title: Publish on WordPress
 ---
-# Tab Bar — Publish on WordPress
+# Publish on WordPress
 
 The **Tab Bar** is a **sticky** menu — nó gắn vào viewport (thường gần đáy trên di động) và giữ nguyên vị trí khi người dùng cuộn. Trên WordPress, plugin Navi+ AI Menu Builder tự động hiển thị Tab Bar trên toàn bộ trang; bạn không cần dán bất kỳ mã hoặc shortcode nào.
 

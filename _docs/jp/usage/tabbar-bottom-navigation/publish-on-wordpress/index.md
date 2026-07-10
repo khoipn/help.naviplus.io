@@ -3,9 +3,9 @@ description: Navi+メニュービルダープラグインを使用して、WordP
 lang: jp
 layout: default
 permalink: /jp/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
-title: タブバー — WordPressに公開
+title: WordPressに公開
 ---
-# タブバー — WordPressに公開
+# WordPressに公開
 
 **タブバー**は**スティッキー**メニューです — ビューポートに固定され（通常はモバイルの下部付近）、訪問者がスクロールしてもその位置に留まります。WordPressでは、Navi+メニュービルダープラグインがタブバーをサイト全体に自動的に表示します。コードやショートコードを貼り付ける必要はありません。
 

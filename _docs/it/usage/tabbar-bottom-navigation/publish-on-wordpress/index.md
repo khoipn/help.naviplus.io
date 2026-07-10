@@ -3,9 +3,9 @@ description: Pubblica una Navi+ Tab Bar su WordPress con il plugin Navi+ AI Menu
 lang: it
 layout: default
 permalink: /it/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
-title: Tab Bar — Pubblica su WordPress
+title: Pubblica su WordPress
 ---
-# Tab Bar — Pubblica su WordPress
+# Pubblica su WordPress
 
 La **Tab Bar** è un **menu fisso** — si ancorano alla finestra di visualizzazione (tipicamente vicino al fondo su mobile) e rimane in posizione mentre i visitatori scorrono. Su WordPress, il plugin Navi+ AI Menu Builder rende la Tab Bar visibile su tutto il sito automaticamente; non è necessario incollare alcun codice o shortcode.
 

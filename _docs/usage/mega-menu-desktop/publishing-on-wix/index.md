@@ -2,9 +2,11 @@
 description: Publish a Navi+ desktop Mega Menu on Wix. Navi+ is a native Wix App Market app that auto-fills the Wix placement selectors, so it can replace or attach to your site's main navigation without any code.
 layout: default
 permalink: /docs/usage/mega-menu-desktop/publishing-on-wix/
-title: Mega Menu (Desktop) — Publish on Wix
+title: Publish on Wix
 ---
-# Mega Menu (Desktop) — Publish on Wix
+# Publish on Wix
+
+> 💡 New to Navi+ on Wix? See the [Navi+ on Wix overview](https://naviplus.io/blogs/compare/topic/naviplus-on-wix/) on naviplus.io.
 
 Navi+ runs on Wix as a **native Wix App Market app**. A **desktop Mega Menu** attaches to — or replaces — your site's main navigation bar. On Wix you don't write any CSS selectors: Navi+ **auto-fills the placement selectors for you**.
 

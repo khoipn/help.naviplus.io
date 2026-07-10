@@ -3,9 +3,9 @@ description: Publique uma Barra de Abas Navi+ no WordPress com o plugin Navi+ AI
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/tabbar-bottom-navigation/publish-on-wordpress/
-title: Barra de Abas — Publique no WordPress
+title: Publique no WordPress
 ---
-# Barra de Abas — Publique no WordPress
+# Publique no WordPress
 
 A **Barra de Abas** é um menu **fixo** — ela se ancla à área de visualização (normalmente perto da parte inferior em dispositivos móveis) e permanece no lugar enquanto os visitantes rolam. No WordPress, o plugin Navi+ AI Menu Builder renderiza a Barra de Abas em todo o site automaticamente; você não precisa colar nenhum código ou shortcode.
 

@@ -3,9 +3,9 @@ description: Publica un menú de cuadrícula de Navi+ en WordPress con el comple
 lang: es
 layout: default
 permalink: /es/docs/usage/grid-menu/publish-on-wordpress/
-title: Menú de cuadrícula — Publicar en WordPress
+title: Publicar en WordPress
 ---
-# Menú de cuadrícula — Publicar en WordPress
+# Publicar en WordPress
 
 Un **menú de cuadrícula** es un menú de **sección** — se renderiza en el lugar de la página donde lo insertas. Es ideal para accesos directos de categorías, páginas de hub y paneles de "¿qué te gustaría hacer?". En WordPress, el complemento Navi+ AI Menu Builder lo coloca a través de shortcode o bloque de Gutenberg; nunca editas archivos de tema.
 

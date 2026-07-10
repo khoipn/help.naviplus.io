@@ -2,9 +2,11 @@
 description: Publish a Navi+ mobile Mega Menu on Wix. Navi+ is a native Wix App Market app that auto-fills the Wix hamburger trigger, so the menu opens from your existing mobile menu button — no code.
 layout: default
 permalink: /docs/usage/mega-menu-mobile/publishing-on-wix/
-title: Mega Menu (Mobile) — Publish on Wix
+title: Publish on Wix
 ---
-# Mega Menu (Mobile) — Publish on Wix
+# Publish on Wix
+
+> 💡 New to Navi+ on Wix? See the [Navi+ on Wix overview](https://naviplus.io/blogs/compare/topic/naviplus-on-wix/) on naviplus.io.
 
 Navi+ runs on Wix as a **native Wix App Market app**. A **mobile Mega Menu** opens from your site's mobile menu (hamburger) button. On Wix you don't write any CSS selectors: Navi+ **auto-fills the hamburger trigger for you**.
 

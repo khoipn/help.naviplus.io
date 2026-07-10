@@ -3,9 +3,9 @@ description: Publique um Menu em Grade Navi+ no WordPress com o plugin Navi+ AI 
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/grid-menu/publish-on-wordpress/
-title: Menu em Grade — Publicar no WordPress
+title: Publicar no WordPress
 ---
-# Menu em Grade — Publicar no WordPress
+# Publicar no WordPress
 
 A **Menu em Grade** é um menu de **seção** — ele é renderizado no local da página onde você o incorpora. É uma ótima opção para atalhos de categoria, páginas centrais e painéis "o que você gostaria de fazer?". No WordPress, o plugin Navi+ AI Menu Builder o coloca via shortcode ou bloco Gutenberg; você nunca edita arquivos de tema.
 

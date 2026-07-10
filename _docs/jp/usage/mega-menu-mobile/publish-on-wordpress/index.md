@@ -3,9 +3,9 @@ description: Navi+ メガメニュー (モバイル) を Navi+ メニュービ�
 lang: jp
 layout: default
 permalink: /jp/docs/usage/mega-menu-mobile/publish-on-wordpress/
-title: メガメニュー (モバイル) — WordPressに公開
+title: WordPressに公開
 ---
-# メガメニュー (モバイル) — WordPressに公開
+# WordPressに公開
 
 A **メガメニュー (モバイル)** は **セクション** メニュー — 埋め込んだページの場所に表示されます。 WordPress では、Navi+ メニュービルダープラグインがショートコードまたは Gutenberg ブロックを介して配置します。テーマファイルを編集する必要はありません。
 

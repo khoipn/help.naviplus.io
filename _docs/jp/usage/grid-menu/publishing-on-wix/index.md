@@ -3,9 +3,11 @@ description: Navi+ グリッドメニューを Wix で公開します。Navi+ �
 lang: jp
 layout: default
 permalink: /jp/docs/usage/grid-menu/publishing-on-wix/
-title: グリッドメニュー — Wix で公開
+title: Wix で公開
 ---
-# グリッドメニュー — Wix で公開
+# Wix で公開
+
+> 💡 Wix での Navi+ が初めてですか？ naviplus.io の [Wix での Navi+ の概要](https://naviplus.io/jp/blogs/compare/topic/naviplus-on-wix/) をご覧ください。
 
 Navi+ は Wix App Market の**ネイティブアプリ**として Wix で動作します。**グリッドメニュー**はセクションメニュー — タップ可能なタイルのブロックで、ページ内に配置することも、ナビゲーションに接続することもできます。Wix では CSS セレクターを記述する必要はありません: Navi+ は**プレイスメントセレクターを自動入力**します。
 

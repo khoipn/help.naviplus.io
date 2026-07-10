@@ -3,9 +3,11 @@ description: Publica un Menú de cuadrícula Navi+ en Wix. Navi+ es una aplicaci
 lang: es
 layout: default
 permalink: /es/docs/usage/grid-menu/publishing-on-wix/
-title: Menú de cuadrícula — Publicar en Wix
+title: Publicar en Wix
 ---
-# Menú de cuadrícula — Publicar en Wix
+# Publicar en Wix
+
+> 💡 ¿Nuevo en Navi+ en Wix? Consulta la [introducción a Navi+ en Wix](https://naviplus.io/es/blogs/compare/topic/naviplus-on-wix/) en naviplus.io.
 
 Navi+ se ejecuta en Wix como una **aplicación nativa del Mercado de aplicaciones de Wix**. Un **Menú de cuadrícula** es un menú de sección — un bloque de mosaicos pulsables que colocas dentro de una página o conectas a tu navegación. En Wix no escribes ningún selector CSS: Navi+ **completa automáticamente los selectores de colocación para ti**.
 

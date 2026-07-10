@@ -3,9 +3,9 @@ description: Publish a Navi+ Mega Menu (Mobile) on WordPress with the Navi+ AI M
 lang: vi
 layout: default
 permalink: /vi/docs/usage/mega-menu-mobile/publish-on-wordpress/
-title: Mega Menu (Mobile) — Publish on WordPress
+title: Publish on WordPress
 ---
-# Mega Menu (Mobile) — Publish on WordPress
+# Publish on WordPress
 
 A **Mega Menu (Mobile)** is a **section** menu — nó hiển thị tại vị trí trên trang mà bạn nhúng nó. Trên WordPress, plugin Navi+ AI Menu Builder đặt nó thông qua shortcode hoặc khối Gutenberg; bạn không bao giờ chỉnh sửa tệp theme.
 

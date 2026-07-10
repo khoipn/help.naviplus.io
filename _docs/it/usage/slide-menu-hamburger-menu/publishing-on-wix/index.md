@@ -3,9 +3,11 @@ description: Pubblica un Slide Menu (hamburger) Navi+ su Wix. Navi+ è un'app na
 lang: it
 layout: default
 permalink: /it/docs/usage/slide-menu-hamburger-menu/publishing-on-wix/
-title: Slide Menu — Pubblica su Wix
+title: Pubblica su Wix
 ---
-# Slide Menu — Pubblica su Wix
+# Pubblica su Wix
+
+> 💡 Nuovo su Navi+ per Wix? Vedi la [panoramica di Navi+ su Wix](https://naviplus.io/it/blogs/compare/topic/naviplus-on-wix/) su naviplus.io.
 
 Navi+ funziona su Wix come un'**app nativa di Wix App Market**. Un **Slide Menu** (anche noto come menu hamburger) scorre dal lato ed è la navigazione più usata per alberi di menu profondi su mobile. Su Wix non devi scrivere alcun selettore CSS: Navi+ **auto-completa il trigger hamburger per te**.
 

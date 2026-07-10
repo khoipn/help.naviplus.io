@@ -3,9 +3,9 @@ description: Navi+メニュービルダープラグインを使用して、WordP
 lang: jp
 layout: default
 permalink: /jp/docs/usage/grid-menu/publish-on-wordpress/
-title: グリッドメニュー — WordPressに公開
+title: WordPressに公開
 ---
-# グリッドメニュー — WordPressに公開
+# WordPressに公開
 
 **グリッドメニュー**は**セクション**メニューです — 埋め込んだページの場所にレンダリングされます。カテゴリショートカット、ハブページ、そして"何をしたいですか？"パネルに最適です。WordPressでは、Navi+メニュービルダープラグインがショートコードまたはGutenbergブロックを介して配置され、テーマファイルを編集する必要はありません。
 

@@ -3,9 +3,9 @@ description: Veröffentlichen Sie einen Navi+ FAB (Floating Action Button) auf W
 lang: de
 layout: default
 permalink: /de/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
-title: FAB — Veröffentlichen auf WordPress
+title: Veröffentlichen auf WordPress
 ---
-# FAB — Veröffentlichen auf WordPress
+# Veröffentlichen auf WordPress
 
 Ein **FAB (Floating Action Button)** ist ein **Sticky**-Menü — es schwebt über der Seite (typischerweise in einer Ecke) und bleibt an Ort und Stelle, während die Besucher scrollen. Auf WordPress rendert das Navi+ AI Menu Builder Plugin es automatisch auf der gesamten Website; Sie fügen keinen Code oder Shortcode ein.
 

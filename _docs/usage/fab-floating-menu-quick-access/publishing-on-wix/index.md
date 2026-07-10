@@ -2,9 +2,11 @@
 description: Publish a Navi+ FAB (floating action button) on Wix. Navi+ is a native Wix App Market app — install it, publish the FAB, and it appears site-wide automatically. No code, no embed snippet.
 layout: default
 permalink: /docs/usage/fab-floating-menu-quick-access/publishing-on-wix/
-title: FAB — Publish on Wix
+title: Publish on Wix
 ---
-# FAB — Publish on Wix
+# Publish on Wix
+
+> 💡 New to Navi+ on Wix? See the [Navi+ on Wix overview](https://naviplus.io/blogs/compare/topic/naviplus-on-wix/) on naviplus.io.
 
 Navi+ runs on Wix as a **native Wix App Market app**. The **FAB** (floating action button) is a **sticky** menu — a floating shortcut that stays pinned to the corner of the viewport as visitors scroll. On Wix, once you install Navi+ and publish the FAB, it renders **site-wide automatically** — there is no code to paste and no Custom Code step.
 

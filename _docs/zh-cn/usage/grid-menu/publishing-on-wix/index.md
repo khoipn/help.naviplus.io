@@ -3,9 +3,11 @@ description: 在 Wix 上发布 Navi+ 网格菜单。Navi+ 是一个原生 Wix �
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/grid-menu/publishing-on-wix/
-title: 网格菜单——在 Wix 上发布
+title: 在 Wix 上发布
 ---
-# 网格菜单——在 Wix 上发布
+# 在 Wix 上发布
+
+> 💡 初次在 Wix 上使用 Navi+？请参阅 naviplus.io 上的 [Navi+ 在 Wix 上概览](https://naviplus.io/zh-CN/blogs/compare/topic/naviplus-on-wix/)。
 
 Navi+ 在 Wix 上作为**原生 Wix 应用市场应用**运行。**网格菜单**是一个分割菜单——一个可点击瓷砖块，你可以将其放在页面内或附加到你的导航栏。在 Wix 上，你无需编写任何 CSS 选择器：Navi+ **为你自动填充放置选择器**。
 

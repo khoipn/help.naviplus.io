@@ -3,9 +3,11 @@ description: 在 Wix 上发布 Navi+ FAB（浮动操作按钮）。Navi+ 是一�
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/fab-floating-menu-quick-access/publishing-on-wix/
-title: FAB——在 Wix 上发布
+title: 在 Wix 上发布
 ---
-# FAB——在 Wix 上发布
+# 在 Wix 上发布
+
+> 💡 初次在 Wix 上使用 Navi+？请参阅 naviplus.io 上的 [Navi+ 在 Wix 上概览](https://naviplus.io/zh-CN/blogs/compare/topic/naviplus-on-wix/)。
 
 Navi+ 在 Wix 上作为**原生 Wix 应用市场应用**运行。**FAB**（浮动操作按钮）是一个**粘性**菜单——一个浮动快捷方式，在访客滚动时固定在视口的角落。在 Wix 上，一旦你安装 Navi+ 并发布 FAB，它就会**在整个网站范围内自动渲染**——无需粘贴代码，无需自定义代码步骤。
 

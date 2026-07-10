@@ -3,9 +3,9 @@ description: Navi+ メガメニュー (デスクトップ) を Navi+ メニュ�
 lang: jp
 layout: default
 permalink: /jp/docs/usage/mega-menu-desktop/publish-on-wordpress/
-title: メガメニュー (デスクトップ) — WordPressに公開
+title: WordPressに公開
 ---
-# メガメニュー (デスクトップ) — WordPressに公開
+# WordPressに公開
 
 A **Mega Menu (Desktop)** is a **section** menu — it doesn't anchor to the viewport, it renders at the exact spot in the page where you embed it (typically the site header). On WordPress, the Navi+ AI Menu Builder plugin embeds it via shortcode or Gutenberg block — you never edit theme files.
 

@@ -3,9 +3,9 @@ description: 使用 Navi+ 菜单构建器插件在 WordPress 上发布 Navi+ FAB
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/fab-floating-menu-quick-access/publish-on-wordpress/
-title: FAB — 在 WordPress 上发布
+title: 在 WordPress 上发布
 ---
-# FAB — 在 WordPress 上发布
+# 在 WordPress 上发布
 
 A **FAB (Floating Action Button)** is a **sticky** menu — it floats above the page (typically a corner) and stays put as visitors scroll. On WordPress, the Navi+ AI Menu Builder plugin renders it site-wide automatically; you do not paste any code or shortcode.
 

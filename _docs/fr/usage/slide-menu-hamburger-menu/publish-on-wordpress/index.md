@@ -3,9 +3,9 @@ description: Publiez un Menu Glissant Navi+ (hamburger) sur WordPress avec le pl
 lang: fr
 layout: default
 permalink: /fr/docs/usage/slide-menu-hamburger-menu/publish-on-wordpress/
-title: Menu Glissant — Publier sur WordPress
+title: Publier sur WordPress
 ---
-# Menu Glissant — Publier sur WordPress
+# Publier sur WordPress
 
 A **Menu Glissant** (a.k.a. hamburger menu) glisse depuis le côté et est le cheval de bataille de la navigation pour les arbres de menu profonds sur mobile. Sur WordPress, le plugin Navi+ AI Menu Builder le charge sur tout le site et l'éditeur Navi+ s'occupe du déclencheur d'ouverture — pas d'éditions de thème, pas de shortcode pour la configuration typique.
 

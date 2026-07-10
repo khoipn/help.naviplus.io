@@ -3,9 +3,11 @@ description: Publica un Menú deslizable (hamburguesa) Navi+ en Wix. Navi+ es un
 lang: es
 layout: default
 permalink: /es/docs/usage/slide-menu-hamburger-menu/publishing-on-wix/
-title: Menú deslizable — Publicar en Wix
+title: Publicar en Wix
 ---
-# Menú deslizable — Publicar en Wix
+# Publicar en Wix
+
+> 💡 ¿Nuevo en Navi+ en Wix? Consulta la [introducción a Navi+ en Wix](https://naviplus.io/es/blogs/compare/topic/naviplus-on-wix/) en naviplus.io.
 
 Navi+ se ejecuta en Wix como una **aplicación nativa del Mercado de aplicaciones de Wix**. Un **Menú deslizable** (también llamado menú de hamburguesa) se desliza desde el lado y es el menú de navegación principal para árboles de menú profundos en dispositivos móviles. En Wix no escribes ningún selector CSS: Navi+ **completa automáticamente el gatillo de hamburguesa para ti**.
 

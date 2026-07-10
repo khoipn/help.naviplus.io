@@ -3,9 +3,11 @@ description: Xuất bản Grid Menu của Navi+ trên Wix. Navi+ là ứng dụn
 lang: vi
 layout: default
 permalink: /vi/docs/usage/grid-menu/publishing-on-wix/
-title: Grid Menu — Xuất bản trên Wix
+title: Xuất bản trên Wix
 ---
-# Grid Menu — Xuất bản trên Wix
+# Xuất bản trên Wix
+
+> 💡 Mới dùng Navi+ trên Wix? Xem [giới thiệu Navi+ trên Wix](https://naviplus.io/vi/blogs/compare/topic/naviplus-on-wix/) trên naviplus.io.
 
 Navi+ chạy trên Wix như một **ứng dụng native của Wix App Market**. Một **Grid Menu** là menu phần — một khối các ô có thể tap mà bạn đặt bên trong một trang hoặc đính kèm vào thanh điều hướng của bạn. Trên Wix, bạn không viết bất kỳ bộ chọn CSS nào: Navi+ **tự động điền các bộ chọn vị trí cho bạn**.
 

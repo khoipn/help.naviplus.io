@@ -3,9 +3,11 @@ description: Navi+ モバイルメガメニューを Wix で公開します。Na
 lang: jp
 layout: default
 permalink: /jp/docs/usage/mega-menu-mobile/publishing-on-wix/
-title: メガメニュー（モバイル） — Wix で公開
+title: Wix で公開
 ---
-# メガメニュー（モバイル） — Wix で公開
+# Wix で公開
+
+> 💡 Wix での Navi+ が初めてですか？ naviplus.io の [Wix での Navi+ の概要](https://naviplus.io/jp/blogs/compare/topic/naviplus-on-wix/) をご覧ください。
 
 Navi+ は Wix App Market の**ネイティブアプリ**として Wix で動作します。**モバイルメガメニュー**は、サイトのモバイルメニュー（ハンバーガー）ボタンから開きます。Wix では CSS セレクターを記述する必要はありません: Navi+ は**ハンバーガートリガーを自動入力**します。
 

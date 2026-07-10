@@ -3,9 +3,9 @@ description: Publiez un Menu Grille Navi+ sur WordPress avec le plugin Navi+ AI 
 lang: fr
 layout: default
 permalink: /fr/docs/usage/grid-menu/publish-on-wordpress/
-title: Menu Grille — Publier sur WordPress
+title: Publier sur WordPress
 ---
-# Menu Grille — Publier sur WordPress
+# Publier sur WordPress
 
 Un **Menu Grille** est un menu de **section** — il s'affiche à l'endroit de la page où vous l'intégrez. C'est un excellent choix pour les raccourcis de catégorie, les pages centrales et les panneaux "que souhaitez-vous faire ?". Sur WordPress, le plugin Navi+ AI Menu Builder l'intègre via un shortcode ou un bloc Gutenberg ; vous n'éditez jamais les fichiers de thème.
 

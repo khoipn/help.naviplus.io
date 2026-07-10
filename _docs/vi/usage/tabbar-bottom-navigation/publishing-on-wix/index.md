@@ -3,9 +3,11 @@ description: Xuất bản Tab Bar trên Wix. Navi+ là ứng dụng native của
 lang: vi
 layout: default
 permalink: /vi/docs/usage/tabbar-bottom-navigation/publishing-on-wix/
-title: Tab Bar — Xuất bản trên Wix
+title: Xuất bản trên Wix
 ---
-# Tab Bar — Xuất bản trên Wix
+# Xuất bản trên Wix
+
+> 💡 Mới dùng Navi+ trên Wix? Xem [giới thiệu Navi+ trên Wix](https://naviplus.io/vi/blogs/compare/topic/naviplus-on-wix/) trên naviplus.io.
 
 Navi+ chạy trên Wix như một **ứng dụng native của Wix App Market**. **Tab Bar** là một menu **sticky** — nó được gắn vào viewport (thường ở dưới cùng trên mobile) và nằm yên khi người dùng cuộn. Trên Wix, sau khi bạn cài đặt Navi+ và xuất bản Tab Bar, nó sẽ render **trên toàn bộ trang web tự động** — không có code để dán và không cần bước Custom Code.
 

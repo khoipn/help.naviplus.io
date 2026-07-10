@@ -3,9 +3,9 @@ description: Pubblica un Navi+ Mega Menu (Mobile) su WordPress con il plugin Nav
 lang: it
 layout: default
 permalink: /it/docs/usage/mega-menu-mobile/publish-on-wordpress/
-title: Mega Menu (Mobile) — Pubblica su WordPress
+title: Pubblica su WordPress
 ---
-# Mega Menu (Mobile) — Pubblica su WordPress
+# Pubblica su WordPress
 
 A **Mega Menu (Mobile)** è un **menu** di sezione — viene visualizzato nel punto della pagina in cui lo incorpori. Su WordPress, il plugin Navi+ AI Menu Builder lo posiziona tramite shortcode o blocco Gutenberg; non modifichi mai i file del tema.
 

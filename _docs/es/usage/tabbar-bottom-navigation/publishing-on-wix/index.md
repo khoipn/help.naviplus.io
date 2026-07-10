@@ -3,9 +3,11 @@ description: Publica una Barra de pestañas Navi+ en Wix. Navi+ es una aplicaci�
 lang: es
 layout: default
 permalink: /es/docs/usage/tabbar-bottom-navigation/publishing-on-wix/
-title: Barra de pestañas — Publicar en Wix
+title: Publicar en Wix
 ---
-# Barra de pestañas — Publicar en Wix
+# Publicar en Wix
+
+> 💡 ¿Nuevo en Navi+ en Wix? Consulta la [introducción a Navi+ en Wix](https://naviplus.io/es/blogs/compare/topic/naviplus-on-wix/) en naviplus.io.
 
 Navi+ se ejecuta en Wix como una **aplicación nativa del Mercado de aplicaciones de Wix**. La **Barra de pestañas** es un menú **fijo** — se ancla al área visible (normalmente cerca de la parte inferior en dispositivos móviles) y permanece en su lugar mientras los visitantes se desplazan. En Wix, una vez que instales Navi+ y publiques la Barra de pestañas, se renderiza **automáticamente en todo el sitio** — no hay código que pegar ni pasos de código personalizado.
 
