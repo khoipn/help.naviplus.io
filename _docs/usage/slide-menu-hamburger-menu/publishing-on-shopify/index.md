@@ -128,4 +128,17 @@ It’s not something you need to fix right away, but in the long run it’s impo
 <li>Add the suffix <strong>(D)</strong> if you want it to apply only on desktop.</li>
 <li>Leave no suffix if you want it to apply on both platforms.</li>
 </ul>
+<p><strong>Update: Instant loading skeleton preview</strong></p>
+<p>As soon as the user taps the trigger while Navi+ is still loading, a lightweight skeleton drawer appears immediately — a placeholder panel with animated shimmer bars — instead of leaving the tap with no visible feedback. It fades out automatically and hands off to the real Slide Menu the moment Navi+ finishes loading. Tapping the close button or the dimmed background cancels the pending tap, so the menu won't suddenly pop open on its own afterward.</p>
+<p>You can customize the skeleton's appearance by adding extra options inside the same parentheses used for <strong>(M)</strong>/<strong>(D)</strong> above, separated by <code>|</code>:</p>
+<pre class="codehilite"><code>.your-hamburger-selector (Device:M,D | Color:#1a1a1a | Direction:left | Width:85%)
+</code></pre>
+<ul>
+<li><strong>Device</strong> — <code>M</code>, <code>D</code>, or both (same meaning as the legacy suffix above). Default: both.</li>
+<li><strong>Color</strong> — a hex color for the skeleton's background, e.g. <code>#1a1a1a</code>. The close icon and shimmer bars automatically adjust for readability on both dark and light colors. Default: <code>#ffffff</code>.</li>
+<li><strong>Direction</strong> — <code>left</code> or <code>right</code>, which side the skeleton slides in from. Default: <code>left</code>.</li>
+<li><strong>Width</strong> — a percentage (e.g. <code>85%</code>) or a fixed pixel value (e.g. <code>320px</code>). Default: <code>85%</code>.</li>
+</ul>
+<p>All options are optional and can be combined in any order. Spacing and capitalization don't matter — <code>color:#1A1A1A</code> and <code>Color: #1a1a1a</code> both work the same. If a value is invalid or misspelled, that option is simply skipped (falling back to its default) without affecting the other options in the same selector.</p>
+<p>The plain <code>(M)</code> / <code>(D)</code> syntax described above still works exactly as before — this is purely an optional upgrade, not a replacement.</p>
 </details>
