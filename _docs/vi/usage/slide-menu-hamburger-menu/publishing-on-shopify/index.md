@@ -137,9 +137,9 @@ Tuy nhiên, (1) điều này sẽ giúp bạn hiểu ý tưởng cốt lõi, và
 <ul>
 <li><strong>Device</strong> — <code>M</code>, <code>D</code>, hoặc cả hai (nghĩa giống hệt hậu tố cũ ở trên). Mặc định: cả hai.</li>
 <li><strong>Color</strong> — một màu hex cho nền của skeleton, ví dụ <code>#1a1a1a</code>. Nút đóng và các thanh shimmer tự động điều chỉnh để dễ đọc trên cả màu sáng và tối. Mặc định: <code>#ffffff</code>.</li>
-<li><strong>Direction</strong> — <code>left</code> hoặc <code>right</code>, phía nào skeleton trượt vào từ. Mặc định: <code>left</code>.</li>
+<li><strong>Direction</strong> — <code>left</code> hoặc <code>right</code>, skeleton trượt vào từ phía nào. Mặc định: <code>left</code>.</li>
 <li><strong>Width</strong> — một phần trăm (ví dụ <code>85%</code>) hoặc một giá trị pixel cố định (ví dụ <code>320px</code>). Mặc định: <code>85%</code>.</li>
 </ul>
-<p>Tất cả tùy chọn là tùy chọn và có thể kết hợp theo bất kỳ thứ tự nào. Khoảng cách và chữ hoa/thường không quan trọng — <code>color:#1A1A1A</code> và <code>Color: #1a1a1a</code> hoạt động giống nhau. Nếu một giá trị không hợp lệ hoặc bị đánh vần sai, tùy chọn đó đơn giản bị bỏ qua (quay lại mặc định) mà không ảnh hưởng đến các tùy chọn khác trong cùng một selector.</p>
+<p>Mọi tùy chọn đều không bắt buộc và có thể kết hợp theo bất kỳ thứ tự nào. Khoảng cách và chữ hoa/thường không quan trọng — <code>color:#1A1A1A</code> và <code>Color: #1a1a1a</code> hoạt động giống nhau. Nếu một giá trị sai định dạng hoặc gõ nhầm, tùy chọn đó đơn giản bị bỏ qua (quay lại mặc định) mà không ảnh hưởng đến các tùy chọn khác trong cùng một selector.</p>
 <p>Cú pháp <code>(M)</code> / <code>(D)</code> đơn giản được mô tả ở trên vẫn hoạt động chính xác như trước — đây là một nâng cấp tùy chọn thuần túy, không phải thay thế.</p>
 </details>
