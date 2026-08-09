@@ -129,4 +129,17 @@ Tuy nhiên, (1) điều này sẽ giúp bạn hiểu ý tưởng cốt lõi, và
 <li>Thêm hậu tố <strong>(D)</strong> nếu bạn muốn nó chỉ áp dụng trên máy tính để bàn.</li>
 <li>Không để hậu tố nếu bạn muốn nó áp dụng trên cả hai nền tảng.</li>
 </ul>
+<p><strong>Cập nhật: Bản xem trước skeleton loading tức thì</strong></p>
+<p>Ngay khi người dùng nhấn trigger trong khi Navi+ vẫn đang tải, một drawer skeleton nhẹ xuất hiện ngay lập tức — một panel giữ chỗ với các thanh shimmer động — thay vì để tap mà không có phản hồi hiển thị. Nó biến mất tự động và chuyển giao cho Slide Menu thật vào lúc Navi+ tải xong. Nhấn nút đóng hoặc nền mờ sẽ hủy tap đang chờ, để menu không bật mở đột ngột sau đó.</p>
+<p>Bạn có thể tùy chỉnh giao diện của skeleton bằng cách thêm các tùy chọn phụ bên trong cùng dấu ngoặc đơn được dùng cho <strong>(M)</strong>/<strong>(D)</strong> ở trên, cách nhau bằng <code>|</code>:</p>
+<pre class="codehilite"><code>.your-hamburger-selector (Device:M,D | Color:#1a1a1a | Direction:left | Width:85%)
+</code></pre>
+<ul>
+<li><strong>Device</strong> — <code>M</code>, <code>D</code>, hoặc cả hai (nghĩa giống hệt hậu tố cũ ở trên). Mặc định: cả hai.</li>
+<li><strong>Color</strong> — một màu hex cho nền của skeleton, ví dụ <code>#1a1a1a</code>. Nút đóng và các thanh shimmer tự động điều chỉnh để dễ đọc trên cả màu sáng và tối. Mặc định: <code>#ffffff</code>.</li>
+<li><strong>Direction</strong> — <code>left</code> hoặc <code>right</code>, phía nào skeleton trượt vào từ. Mặc định: <code>left</code>.</li>
+<li><strong>Width</strong> — một phần trăm (ví dụ <code>85%</code>) hoặc một giá trị pixel cố định (ví dụ <code>320px</code>). Mặc định: <code>85%</code>.</li>
+</ul>
+<p>Tất cả tùy chọn là tùy chọn và có thể kết hợp theo bất kỳ thứ tự nào. Khoảng cách và chữ hoa/thường không quan trọng — <code>color:#1A1A1A</code> và <code>Color: #1a1a1a</code> hoạt động giống nhau. Nếu một giá trị không hợp lệ hoặc bị đánh vần sai, tùy chọn đó đơn giản bị bỏ qua (quay lại mặc định) mà không ảnh hưởng đến các tùy chọn khác trong cùng một selector.</p>
+<p>Cú pháp <code>(M)</code> / <code>(D)</code> đơn giản được mô tả ở trên vẫn hoạt động chính xác như trước — đây là một nâng cấp tùy chọn thuần túy, không phải thay thế.</p>
 </details>

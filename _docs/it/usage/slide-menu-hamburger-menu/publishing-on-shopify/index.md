@@ -132,4 +132,17 @@ Non è qualcosa che devi risolvere immediatamente, ma a lungo termine è importa
 <li>Aggiungi il suffisso <strong>(D)</strong> se vuoi che si applichi solo su desktop.</li>
 <li>Non lasciare suffisso se vuoi che si applichi su entrambe le piattaforme.</li>
 </ul>
+<p><strong>Aggiornamento: Anteprima istantanea del caricamento dello scheletro</strong></p>
+<p>Non appena l'utente tocca il trigger mentre Navi+ si sta ancora caricando, un cassetto scheletro leggero appare immediatamente — un pannello segnaposto con barre di scintillio animate — invece di lasciare il tocco senza feedback visibile. Svanisce automaticamente e passa al vero Slide Menu nel momento in cui Navi+ termina il caricamento. Toccare il pulsante di chiusura o lo sfondo offuscato annulla il tocco in sospeso, in modo che il menu non si apra improvvisamente dopo.</p>
+<p>Puoi personalizzare l'aspetto dello scheletro aggiungendo opzioni aggiuntive all'interno delle stesse parentesi utilizzate per <strong>(M)</strong>/<strong>(D)</strong> sopra, separate da <code>|</code>:</p>
+<pre class="codehilite"><code>.your-hamburger-selector (Device:M,D | Color:#1a1a1a | Direction:left | Width:85%)
+</code></pre>
+<ul>
+<li><strong>Device</strong> — <code>M</code>, <code>D</code>, o entrambi (stesso significato del suffisso legacy sopra). Predefinito: entrambi.</li>
+<li><strong>Color</strong> — un colore esadecimale per lo sfondo dello scheletro, ad es. <code>#1a1a1a</code>. L'icona di chiusura e le barre di scintillio si regolano automaticamente per la leggibilità su colori chiari e scuri. Predefinito: <code>#ffffff</code>.</li>
+<li><strong>Direction</strong> — <code>left</code> o <code>right</code>, da quale lato entra lo scheletro. Predefinito: <code>left</code>.</li>
+<li><strong>Width</strong> — una percentuale (ad es. <code>85%</code>) o un valore in pixel fisso (ad es. <code>320px</code>). Predefinito: <code>85%</code>.</li>
+</ul>
+<p>Tutte le opzioni sono facoltative e possono essere combinate in qualsiasi ordine. La spaziatura e la capitalizzazione non importano — <code>color:#1A1A1A</code> e <code>Color: #1a1a1a</code> funzionano allo stesso modo. Se un valore è non valido o scritto male, quella opzione viene semplicemente saltata (tornando al valore predefinito) senza influenzare le altre opzioni nello stesso selettore.</p>
+<p>La semplice sintassi <code>(M)</code> / <code>(D)</code> descritta sopra continua a funzionare esattamente come prima — questo è semplicemente un aggiornamento opzionale, non una sostituzione.</p>
 </details>

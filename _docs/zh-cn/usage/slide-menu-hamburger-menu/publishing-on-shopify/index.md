@@ -126,4 +126,17 @@ title: 在 Shopify 上发布
 <li>如果您希望它仅在桌面上应用，请添加后缀<strong>(D)</strong>。</li>
 <li>如果您希望它在两个平台上都适用，请不添加后缀。</li>
 </ul>
+<p><strong>更新：即时加载骨架预览</strong></p>
+<p>用户在 Navi+ 仍在加载时点击触发器，立即出现轻量级骨架抽屉——一个带有动画闪烁条的占位符面板——而不是让点击没有可见反馈。当 Navi+ 完成加载时，它会自动淡出并交给真实的幻灯片菜单。点击关闭按钮或变暗的背景会取消待处理的点击，因此菜单不会在之后突然弹出。</p>
+<p>您可以通过在上述 <strong>(M)</strong>/<strong>(D)</strong> 所用的相同括号内添加额外选项来自定义骨架的外观，用 <code>|</code> 分隔：</p>
+<pre class="codehilite"><code>.your-hamburger-selector (Device:M,D | Color:#1a1a1a | Direction:left | Width:85%)
+</code></pre>
+<ul>
+<li><strong>Device</strong> — <code>M</code>、<code>D</code> 或两者（与上面的旧版后缀含义相同）。默认：两者。</li>
+<li><strong>Color</strong> — 骨架背景的十六进制颜色，例如 <code>#1a1a1a</code>。关闭图标和闪烁条会自动调整，以便在深色和浅色上都易于阅读。默认：<code>#ffffff</code>。</li>
+<li><strong>Direction</strong> — <code>left</code> 或 <code>right</code>，骨架从哪一侧滑入。默认：<code>left</code>。</li>
+<li><strong>Width</strong> — 百分比（例如 <code>85%</code>）或固定像素值（例如 <code>320px</code>）。默认：<code>85%</code>。</li>
+</ul>
+<p>所有选项都是可选的，可以按任何顺序组合。间距和大小写无关——<code>color:#1A1A1A</code> 和 <code>Color: #1a1a1a</code> 的工作方式相同。如果值无效或拼写错误，该选项将被简单地跳过（回到默认值）而不影响同一选择器中的其他选项。</p>
+<p>上述简单的 <code>(M)</code> / <code>(D)</code> 语法继续完全按照以前的方式工作——这纯粹是一个可选升级，而不是替代品。</p>
 </details>

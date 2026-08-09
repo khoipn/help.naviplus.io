@@ -132,4 +132,17 @@ Ce n'est pas quelque chose que vous devez corriger tout de suite, mais à long t
 <li>Ajoutez le suffixe <strong>(D)</strong> si vous souhaitez qu'il s'applique uniquement sur bureau.</li>
 <li>Ne laissez aucun suffixe si vous souhaitez qu'il s'applique sur les deux plateformes.</li>
 </ul>
+<p><strong>Mise à jour : Aperçu instantané du squelette de chargement</strong></p>
+<p>Dès que l'utilisateur appuie sur le déclencheur alors que Navi+ charge encore, un tiroir squelette léger apparaît immédiatement — un panneau d'espace réservé avec des barres de scintillement animées — au lieu de laisser le tap sans retour visuel. Il s'efface automatiquement et cède la place au vrai Slide Menu dès que Navi+ termine de charger. Appuyer sur le bouton de fermeture ou sur le fond assombri annule l'appui en attente, pour que le menu ne s'ouvre pas soudainement par la suite.</p>
+<p>Vous pouvez personnaliser l'apparence du squelette en ajoutant des options supplémentaires dans les mêmes parenthèses utilisées pour <strong>(M)</strong>/<strong>(D)</strong> ci-dessus, séparées par <code>|</code> :</p>
+<pre class="codehilite"><code>.your-hamburger-selector (Device:M,D | Color:#1a1a1a | Direction:left | Width:85%)
+</code></pre>
+<ul>
+<li><strong>Device</strong> — <code>M</code>, <code>D</code>, ou les deux (même signification que le suffixe hérité ci-dessus). Par défaut : les deux.</li>
+<li><strong>Color</strong> — une couleur hexadécimale pour l'arrière-plan du squelette, par ex. <code>#1a1a1a</code>. L'icône de fermeture et les barres de scintillement s'ajustent automatiquement pour la lisibilité sur les couleurs claires et foncées. Par défaut : <code>#ffffff</code>.</li>
+<li><strong>Direction</strong> — <code>left</code> ou <code>right</code>, le côté d'où entre le squelette. Par défaut : <code>left</code>.</li>
+<li><strong>Width</strong> — un pourcentage (par ex. <code>85%</code>) ou une valeur en pixels fixe (par ex. <code>320px</code>). Par défaut : <code>85%</code>.</li>
+</ul>
+<p>Toutes les options sont facultatives et peuvent être combinées dans n'importe quel ordre. L'espacement et la capitalisation n'ont pas d'importance — <code>color:#1A1A1A</code> et <code>Color: #1a1a1a</code> fonctionnent de la même façon. Si une valeur est invalide ou mal orthographiée, cette option est simplement ignorée (revenant à sa valeur par défaut) sans affecter les autres options du même sélecteur.</p>
+<p>La syntaxe simple <code>(M)</code> / <code>(D)</code> décrite ci-dessus continue à fonctionner exactement comme avant — ceci est simplement une mise à niveau optionnelle, pas un remplacement.</p>
 </details>

@@ -129,4 +129,17 @@ Es ist nichts, was Sie sofort beheben müssen, aber auf lange Sicht ist es wicht
 <li>Fügen Sie das Suffix <strong>(D)</strong> hinzu, wenn Sie möchten, dass es nur auf Desktop angewendet wird.</li>
 <li>Kein Suffix lassen, wenn Sie möchten, dass es auf beiden Plattformen angewendet wird.</li>
 </ul>
+<p><strong>Update: Sofortige Skeleton-Ladevorschau</strong></p>
+<p>Sobald der Benutzer auf den Trigger tippt, während Navi+ noch lädt, erscheint sofort eine leichte Skeleton-Schublade — ein Platzhalter-Panel mit animierten Shimmer-Balken — anstatt den Tap ohne sichtbares Feedback zu hinterlassen. Sie verschwindet automatisch und übergibt das echte Slide Menu, sobald Navi+ das Laden beendet. Das Tippen auf die Schließschaltfläche oder den abgedunkelten Hintergrund bricht den ausstehenden Tap ab, sodass sich das Menü danach nicht plötzlich von selbst öffnet.</p>
+<p>Sie können das Erscheinungsbild des Skeleton anpassen, indem Sie zusätzliche Optionen in die gleichen Klammern einfügen, die oben für <strong>(M)</strong>/<strong>(D)</strong> verwendet werden, getrennt durch <code>|</code>:</p>
+<pre class="codehilite"><code>.your-hamburger-selector (Device:M,D | Color:#1a1a1a | Direction:left | Width:85%)
+</code></pre>
+<ul>
+<li><strong>Device</strong> — <code>M</code>, <code>D</code>, oder beides (gleiche Bedeutung wie das ältere Suffix oben). Standard: beide.</li>
+<li><strong>Color</strong> — eine Hex-Farbe für den Skeleton-Hintergrund, z.B. <code>#1a1a1a</code>. Das Schließsymbol und die Shimmer-Balken passen sich automatisch für Lesbarkeit auf hellen und dunklen Farben an. Standard: <code>#ffffff</code>.</li>
+<li><strong>Direction</strong> — <code>left</code> oder <code>right</code>, von welcher Seite der Skeleton eingleitet. Standard: <code>left</code>.</li>
+<li><strong>Width</strong> — ein Prozentsatz (z.B. <code>85%</code>) oder ein fester Pixelwert (z.B. <code>320px</code>). Standard: <code>85%</code>.</li>
+</ul>
+<p>Alle Optionen sind optional und können in beliebiger Reihenfolge kombiniert werden. Abstände und Groß-/Kleinschreibung spielen keine Rolle — <code>color:#1A1A1A</code> und <code>Color: #1a1a1a</code> funktionieren gleich. Wenn ein Wert ungültig oder falsch geschrieben ist, wird diese Option einfach übersprungen (Rückfall auf Standard), ohne die anderen Optionen in demselben Selector zu beeinflussen.</p>
+<p>Die einfache <code>(M)</code> / <code>(D)</code> Syntax, die oben beschrieben wird, funktioniert genau wie zuvor — dies ist rein ein optionales Upgrade, kein Ersatz.</p>
 </details>

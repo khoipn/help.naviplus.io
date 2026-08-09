@@ -129,4 +129,17 @@ No es algo que necesites arreglar de inmediato, pero a largo plazo es importante
 <li>Agrega el sufijo <strong>(D)</strong> si deseas que se aplique solo en escritorio.</li>
 <li>No dejes sufijo si deseas que se aplique en ambas plataformas.</li>
 </ul>
+<p><strong>Actualización: Vista previa instantánea del esqueleto de carga</strong></p>
+<p>Tan pronto como el usuario toca el disparador mientras Navi+ aún se está cargando, aparece un cajón de esqueleto ligero de inmediato — un panel de marcador de posición con barras de brillo animadas — en lugar de dejar el toque sin retroalimentación visible. Se desvanece automáticamente y cede el control al Slide Menu real en el momento en que Navi+ termina de cargar. Al tocar el botón de cierre o el fondo oscurecido se cancela el toque pendiente, por lo que el menú no se abrirá repentinamente después.</p>
+<p>Puede personalizar la apariencia del esqueleto agregando opciones adicionales dentro de los mismos paréntesis utilizados para <strong>(M)</strong>/<strong>(D)</strong> arriba, separadas por <code>|</code>:</p>
+<pre class="codehilite"><code>.your-hamburger-selector (Device:M,D | Color:#1a1a1a | Direction:left | Width:85%)
+</code></pre>
+<ul>
+<li><strong>Device</strong> — <code>M</code>, <code>D</code>, o ambos (mismo significado que el sufijo heredado anterior). Predeterminado: ambos.</li>
+<li><strong>Color</strong> — un color hexadecimal para el fondo del esqueleto, por ejemplo <code>#1a1a1a</code>. El icono de cierre y las barras de brillo se ajustan automáticamente para facilitar la lectura tanto en colores claros como oscuros. Predeterminado: <code>#ffffff</code>.</li>
+<li><strong>Direction</strong> — <code>left</code> o <code>right</code>, de qué lado se desliza el esqueleto. Predeterminado: <code>left</code>.</li>
+<li><strong>Width</strong> — un porcentaje (por ejemplo <code>85%</code>) o un valor de píxel fijo (por ejemplo <code>320px</code>). Predeterminado: <code>85%</code>.</li>
+</ul>
+<p>Todas las opciones son opcionales y pueden combinarse en cualquier orden. El espaciado y la capitalización no importan — <code>color:#1A1A1A</code> y <code>Color: #1a1a1a</code> funcionan igual. Si un valor es inválido o está mal escrito, esa opción simplemente se omite (volviendo a su valor predeterminado) sin afectar las otras opciones en el mismo selector.</p>
+<p>La sintaxis simple <code>(M)</code> / <code>(D)</code> descrita anteriormente sigue funcionando exactamente como antes — esto es puramente una actualización opcional, no un reemplazo.</p>
 </details>

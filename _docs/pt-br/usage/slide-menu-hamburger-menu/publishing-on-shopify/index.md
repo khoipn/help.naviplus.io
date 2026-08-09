@@ -130,4 +130,17 @@ Não é algo que você precisa corrigir imediatamente, mas a longo prazo é impo
 <li>Adicione o sufixo <strong>(D)</strong> se você quiser que se aplique apenas em desktop.</li>
 <li>Não deixe sufixo se você quiser que se aplique em ambas as plataformas.</li>
 </ul>
+<p><strong>Atualização: Visualização instantânea do esqueleto de carregamento</strong></p>
+<p>Assim que o usuário toca o acionador enquanto Navi+ ainda está carregando, um gaveta esqueleto leve aparece imediatamente — um painel de espaço reservado com barras de brilho animadas — em vez de deixar o toque sem feedback visível. Ela desaparece automaticamente e passa o controle para o Slide Menu real no momento em que Navi+ termina de carregar. Tocar no botão fechar ou no fundo escurecido cancela o toque pendente, para que o menu não se abra repentinamente depois.</p>
+<p>Você pode personalizar a aparência do esqueleto adicionando opções extras dentro dos mesmos parênteses usados para <strong>(M)</strong>/<strong>(D)</strong> acima, separadas por <code>|</code>:</p>
+<pre class="codehilite"><code>.your-hamburger-selector (Device:M,D | Color:#1a1a1a | Direction:left | Width:85%)
+</code></pre>
+<ul>
+<li><strong>Device</strong> — <code>M</code>, <code>D</code>, ou ambos (mesmo significado que o sufixo legado acima). Padrão: ambos.</li>
+<li><strong>Color</strong> — uma cor hexadecimal para o fundo do esqueleto, por exemplo <code>#1a1a1a</code>. O ícone de fechar e as barras de brilho se ajustam automaticamente para legibilidade em cores claras e escuras. Padrão: <code>#ffffff</code>.</li>
+<li><strong>Direction</strong> — <code>left</code> ou <code>right</code>, de qual lado o esqueleto entra. Padrão: <code>left</code>.</li>
+<li><strong>Width</strong> — uma porcentagem (por exemplo <code>85%</code>) ou um valor de pixel fixo (por exemplo <code>320px</code>). Padrão: <code>85%</code>.</li>
+</ul>
+<p>Todas as opções são opcionais e podem ser combinadas em qualquer ordem. Espaçamento e capitalização não importam — <code>color:#1A1A1A</code> e <code>Color: #1a1a1a</code> funcionam da mesma forma. Se um valor for inválido ou mal escrito, essa opção é simplesmente ignorada (voltando ao padrão) sem afetar as outras opções no mesmo seletor.</p>
+<p>A sintaxe simples <code>(M)</code> / <code>(D)</code> descrita acima continua funcionando exatamente como antes — isto é puramente uma atualização opcional, não uma substituição.</p>
 </details>
