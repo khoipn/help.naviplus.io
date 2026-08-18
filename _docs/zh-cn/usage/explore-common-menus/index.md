@@ -118,7 +118,7 @@ title: 探索常见菜单
 </details>
 
 <details><summary>我在 Starter 计划中，只有 1 个菜单插槽。我该如何尝试更多？</summary>
-<p>升级到 <strong>Business 或 Elite</strong>——您将获得 <strong>7 天免费试用</strong>，在承诺之前探索所有内容。</p>
+<p>升级到 <strong>Business 或 Elite</strong>——您将获得 <strong>14 天免费试用</strong>，在承诺之前探索所有内容。</p>
 </details>
 
 <details><summary>我可以将现有菜单导入到 Navi+ 吗？</summary>

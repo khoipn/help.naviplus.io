@@ -45,7 +45,7 @@ Start free with the Starter plan. Business and Elite plans unlock advanced featu
 
 #### Is there a free trial?
 
-Yes — 7 days free, no charges. Cancel anytime.
+Yes — 14 days free, no charges. Cancel anytime.
 
 ***
 

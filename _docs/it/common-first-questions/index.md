@@ -46,7 +46,7 @@ Inizia gratuitamente con il piano Starter. I piani Business ed Elite sbloccano f
 
 #### C'è una prova gratuita?
 
-Sì — 7 giorni gratuiti, senza addebiti. Annulla in qualsiasi momento.
+Sì — 14 giorni gratuiti, senza addebiti. Annulla in qualsiasi momento.
 
 ***
 

@@ -86,7 +86,7 @@ Se vendi su più mercati, il tuo menu deve seguirti. L'integrazione con Shopify 
 
 Infine, e forse la cosa più importante: tu — il proprietario del sito — devi poter modificare il tuo menu quando ne hai bisogno. La prossima stagione di saldi, il lancio di una nuova collezione, una nuova strategia di marketing, un test A/B con un layout diverso — tutto questo deve essere fattibile tramite drag-and-drop, senza assumere uno sviluppatore, senza aspettare un deploy.
 
-## La nostra soluzione: Navi+ AI Menu Builder
+## La nostra soluzione: Navi+
 
 Navi+ è un **menu builder no-code** — ti aiuta a creare menu bellissimi e ad alta conversione per qualsiasi sito web senza toccare il tuo tema né scrivere una sola riga di codice.
 

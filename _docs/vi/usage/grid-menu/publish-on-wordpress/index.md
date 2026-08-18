@@ -1,5 +1,5 @@
 ---
-description: Xuất bản một Menu Lưới Navi+ trên WordPress với plugin Navi+ AI Menu Builder. Chèn nó vào vị trí mà nó nên xuất hiện bằng cách sử dụng shortcode [naviwp embed_id="..."] hoặc khối Gutenberg.
+description: Xuất bản một Menu Lưới Navi+ trên WordPress với plugin Navi+. Chèn nó vào vị trí mà nó nên xuất hiện bằng cách sử dụng shortcode [naviwp embed_id="..."] hoặc khối Gutenberg.
 lang: vi
 layout: default
 permalink: /vi/docs/usage/grid-menu/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Xuất bản trên WordPress
 ---
 # Xuất bản trên WordPress
 
-Một **Menu Lưới** là một menu **phần** — nó hiển thị tại vị trí trên trang mà bạn chèn nó. Nó rất phù hợp cho các phím tắt danh mục, trang trung tâm, và các bảng "bạn muốn làm gì?". Trên WordPress, plugin Navi+ AI Menu Builder chèn nó qua shortcode hoặc khối Gutenberg; bạn không bao giờ chỉnh sửa tệp theme.
+Một **Menu Lưới** là một menu **phần** — nó hiển thị tại vị trí trên trang mà bạn chèn nó. Nó rất phù hợp cho các phím tắt danh mục, trang trung tâm, và các bảng "bạn muốn làm gì?". Trên WordPress, plugin Navi+ chèn nó qua shortcode hoặc khối Gutenberg; bạn không bao giờ chỉnh sửa tệp theme.
 
 > Các nền tảng khác (Wix, Squarespace, Webflow, các trang tùy chỉnh): xem [Xuất bản trên Wix / Squarespace / Khác]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ Một **Menu Lưới** là một menu **phần** — nó hiển thị tại vị
 
 ## Các bước
 
-1. **Cài đặt plugin** — xem [Cài đặt plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Cài đặt plugin** — xem [Cài đặt plugin Navi+]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Xây dựng Menu Lưới** của bạn trong **Giao diện → Naviplus Menu Builder**. Xem [Menu Lưới — Cách sử dụng]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) và [Menu Lưới Responsive]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
 3. **Sao chép ID Nhúng** (ví dụ: `SF-123456789`).
 4. **Chèn nó** bằng một trong các phương pháp dưới đây.

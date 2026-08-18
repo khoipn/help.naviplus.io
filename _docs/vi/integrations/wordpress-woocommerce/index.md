@@ -1,13 +1,13 @@
 ---
-description: Navi+ AI Menu Builder là plugin WordPress chính thức cho Navi+. Cài đặt nó, xây dựng menu trong WordPress, và xuất bản chúng trên toàn bộ trang web hoặc qua shortcode [naviwp] — không cần chỉnh sửa mã, không cần chèn tiêu đề.
+description: Navi+ là plugin WordPress chính thức cho Navi+. Cài đặt nó, xây dựng menu trong WordPress, và xuất bản chúng trên toàn bộ trang web hoặc qua shortcode [naviwp] — không cần chỉnh sửa mã, không cần chèn tiêu đề.
 lang: vi
 layout: default
 permalink: /vi/docs/integrations/wordpress-woocommerce/
-title: WordPress / WooCommerce — Navi+ AI Menu Builder
+title: WordPress / WooCommerce — Navi+
 ---
-# WordPress / WooCommerce — Navi+ AI Menu Builder
+# WordPress / WooCommerce — Navi+
 
-Nếu trang web của bạn chạy trên **WordPress** hoặc **WooCommerce**, cách được khuyến nghị để xuất bản menu Navi+ là plugin chính thức **Navi+ AI Menu Builder** trên WordPress.org. Tên đầy đủ trong danh sách WordPress.org là **Naviplus Menu Builder**.
+Nếu trang web của bạn chạy trên **WordPress** hoặc **WooCommerce**, cách được khuyến nghị để xuất bản menu Navi+ là plugin chính thức **Navi+** trên WordPress.org. Tên đầy đủ trong danh sách WordPress.org là **Naviplus Menu Builder**.
 
 > Trang plugin: <https://wordpress.org/plugins/naviplus-menu-builder/>
 > Diễn đàn hỗ trợ: <https://wordpress.org/support/plugin/naviplus-menu-builder/>
@@ -26,7 +26,7 @@ Trang này là điểm khởi đầu: cài đặt plugin, kích hoạt menu trê
 
 ## 2. Cài đặt plugin
 
-Ba phương pháp cài đặt được chi tiết trên trang cài đặt riêng: **[Cài đặt plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/)** — tìm kiếm quản trị (được khuyến nghị), tải lên ZIP, hoặc FTP / trình quản lý tệp.
+Ba phương pháp cài đặt được chi tiết trên trang cài đặt riêng: **[Cài đặt plugin Navi+]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/)** — tìm kiếm quản trị (được khuyến nghị), tải lên ZIP, hoặc FTP / trình quản lý tệp.
 
 Sau khi kích hoạt, plugin sẽ xuất hiện dưới **Giao diện → Naviplus Menu Builder** trong thanh bên quản trị.
 
@@ -36,7 +36,7 @@ Sau khi kích hoạt, plugin sẽ xuất hiện dưới **Giao diện → Navipl
 
 1. Đi đến **Giao diện → Naviplus Menu Builder**.
 2. Tạo menu đầu tiên của bạn theo quy trình trên màn hình. Plugin **tự động kết nối** trang web của bạn với Navi+ khi lưu lần đầu — bạn **không** cần tạo tài khoản Navi+ trước đó.
-3. Thiết kế bố cục trong **Navi+ AI Menu Builder visual editor**, mở từ bảng điều khiển WordPress.
+3. Thiết kế bố cục trong **Navi+ visual editor**, mở từ bảng điều khiển WordPress.
 
 Cấu trúc và kiểu dáng menu sống trên **dịch vụ Navi+**; WordPress chỉ lưu một **định danh trang web** cho phép Navi+ nhận diện cài đặt của bạn — đây **không** phải là mật khẩu WordPress của bạn và không phải là mã mà bạn cần quản lý.
 
@@ -117,7 +117,7 @@ Các menu của bạn trên dịch vụ Navi+ được bảo tồn qua tất c�
 
 ## 8. Dịch vụ bên ngoài & quyền riêng tư
 
-Plugin kết nối với dịch vụ Navi+ AI Menu Builder để tạo và **hiển thị** menu của bạn. Dữ liệu trao đổi có thể bao gồm (không giới hạn): **tên miền trang web** của bạn, **cấu hình menu** của bạn, và dữ liệu sử dụng tối thiểu cần thiết cho việc hiển thị.
+Plugin kết nối với dịch vụ Navi+ để tạo và **hiển thị** menu của bạn. Dữ liệu trao đổi có thể bao gồm (không giới hạn): **tên miền trang web** của bạn, **cấu hình menu** của bạn, và dữ liệu sử dụng tối thiểu cần thiết cho việc hiển thị.
 
 - Chính sách quyền riêng tư: <https://naviplus.io/privacy>
 - Trình tải script: `https://live.naviplus.app/start.js`
@@ -134,7 +134,7 @@ Nếu bạn hoạt động dưới một khung quyền riêng tư yêu cầu ti�
 | Diễn đàn hỗ trợ WordPress.org | <https://wordpress.org/support/plugin/naviplus-menu-builder/> |
 | Trang chủ Naviplus | <https://naviplus.io> |
 | Chính sách quyền riêng tư | <https://naviplus.io/privacy> |
-| Câu hỏi thường gặp về plugin (trang này) | [Navi+ AI Menu Builder FAQ]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/faq/) |
+| Câu hỏi thường gặp về plugin (trang này) | [Navi+ FAQ]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/faq/) |
 
 ---
 

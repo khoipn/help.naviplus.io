@@ -1,5 +1,5 @@
 ---
-description: Publiez un Navi+ Mega Menu (Desktop) sur WordPress avec le plugin Navi+ AI Menu Builder. Placez-le dans n'importe quel article, page, widget ou constructeur de page en utilisant le [naviwp embed_id="..."] shortcode ou le bloc Gutenberg.
+description: Publiez un Navi+ Mega Menu (Desktop) sur WordPress avec le plugin Navi+. Placez-le dans n'importe quel article, page, widget ou constructeur de page en utilisant le [naviwp embed_id="..."] shortcode ou le bloc Gutenberg.
 lang: fr
 layout: default
 permalink: /fr/docs/usage/mega-menu-desktop/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Publier sur WordPress
 ---
 # Publier sur WordPress
 
-A **Mega Menu (Desktop)** est un **menu de section** — il ne s'ancre pas à la fenêtre d'affichage, il se rend au point exact de la page où vous l'intégrez (typiquement l'en-tête du site). Sur WordPress, le plugin Navi+ AI Menu Builder l'intègre via un shortcode ou un bloc Gutenberg — vous n'éditez jamais les fichiers de thème.
+A **Mega Menu (Desktop)** est un **menu de section** — il ne s'ancre pas à la fenêtre d'affichage, il se rend au point exact de la page où vous l'intégrez (typiquement l'en-tête du site). Sur WordPress, le plugin Navi+ l'intègre via un shortcode ou un bloc Gutenberg — vous n'éditez jamais les fichiers de thème.
 
 > Autres plateformes (Wix, Squarespace, Webflow, sites personnalisés) : voir [Publier sur Wix / Squarespace / Autres]({{ site.baseurl }}/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Mega Menu (Desktop)** est un **menu de section** — il ne s'ancre pas à la
 
 ## Étapes
 
-1. **Installez le plugin** — voir [Installer le plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installez le plugin** — voir [Installer le plugin Navi+]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Construisez votre Mega Menu** dans **Apparence → Naviplus Menu Builder**. Voir [Mega Menu (Desktop) — Comment utiliser]({{ site.baseurl }}/docs/usage/mega-menu-desktop/how-to-use/) pour des conseils de conception.
 3. **Copiez l'ID d'intégration** du menu (affiché sur le panneau de publication — ressemble à `SF-123456789`).
 4. **Insérez le menu** où vous le souhaitez sur la page (section suivante).

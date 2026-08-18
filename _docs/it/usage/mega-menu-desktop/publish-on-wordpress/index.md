@@ -1,5 +1,5 @@
 ---
-description: Pubblica un Navi+ Mega Menu (Desktop) su WordPress con il plugin Navi+ AI Menu Builder. Posizionalo in qualsiasi post, pagina, widget o page builder utilizzando il shortcode [naviwp embed_id="..."] o il blocco Gutenberg.
+description: Pubblica un Navi+ Mega Menu (Desktop) su WordPress con il plugin Navi+. Posizionalo in qualsiasi post, pagina, widget o page builder utilizzando il shortcode [naviwp embed_id="..."] o il blocco Gutenberg.
 lang: it
 layout: default
 permalink: /it/docs/usage/mega-menu-desktop/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Pubblica su WordPress
 ---
 # Pubblica su WordPress
 
-A **Mega Menu (Desktop)** è un **menu di sezione** — non si ancorano alla viewport, si rendono esattamente nel punto della pagina in cui lo incorpori (tipicamente l'intestazione del sito). Su WordPress, il plugin Navi+ AI Menu Builder lo incorpora tramite shortcode o blocco Gutenberg — non modifichi mai i file del tema.
+A **Mega Menu (Desktop)** è un **menu di sezione** — non si ancorano alla viewport, si rendono esattamente nel punto della pagina in cui lo incorpori (tipicamente l'intestazione del sito). Su WordPress, il plugin Navi+ lo incorpora tramite shortcode o blocco Gutenberg — non modifichi mai i file del tema.
 
 > Altre piattaforme (Wix, Squarespace, Webflow, siti personalizzati): vedi [Pubblica su Wix / Squarespace / Altri]({{ site.baseurl }}/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Mega Menu (Desktop)** è un **menu di sezione** — non si ancorano alla vie
 
 ## Passi
 
-1. **Installa il plugin** — vedi [Installa il plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installa il plugin** — vedi [Installa il plugin Navi+]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Crea il tuo Mega Menu** in **Aspetto → Naviplus Menu Builder**. Vedi [Mega Menu (Desktop) — Come usare]({{ site.baseurl }}/docs/usage/mega-menu-desktop/how-to-use/) per indicazioni sul design.
 3. **Copia l'ID di incorporamento** del menu (mostrato nel pannello di pubblicazione — appare come `SF-123456789`).
 4. **Inserisci il menu** dove vuoi nella pagina (sezione successiva).

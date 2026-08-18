@@ -21,6 +21,22 @@ In **Advanced → Custom CSS for this menu**, Navi+ **adds a prefix** (including
 ul.children[menulevel="2"] { border-radius: 8px; }
 ```
 
+**`&` = the menu itself** (the `#SF-…` container). It's optional — but it's the clean way to style the whole menu, and the only way to do it inside `@media`:
+
+```css
+&              { background: #111; }        /* the menu container */
+&:hover        { box-shadow: 0 4px 12px rgba(0,0,0,.15); }
+& .inner-level1 { padding: 12px 16px; }     /* '& ' with a space = inside the menu, same as .inner-level1 */
+
+/* Responsive — only on small screens */
+@media (max-width: 768px) {
+  & { padding: 6px; }
+  .name { font-size: 13px; }
+}
+```
+
+You **don't have to** use `&` — CSS without it keeps working exactly as before (`.inner-level1 { … }` is unchanged). `&` is just a shortcut for "this menu".
+
 Use **`#SF-…` manually** only when you are **not** using this box (for example CSS in the theme file).
 
 **Global Stylesheet / CSS** is a **separate** field: it applies to the **whole site** and is not scoped to one menu — use with care.
@@ -28,6 +44,50 @@ Use **`#SF-…` manually** only when you are **not** using this box (for example
 **Reusable Classes (CSS):** define `.yourClass { … }` in the Reusable table and assign the class to items — rules stay in the same internal CSS bundle; you do **not** need to add `#SF-…` in the box. The class appears on the **`li`**.
 
 Do **not** wrap content in a `<style>` tag in the box — plain CSS only.
+
+***
+
+### Per-item CSS (style just one item)
+
+Every menu item has its **own** CSS box: **edit the item → Advanced → Internal Stylesheet / CSS**. This is separate from **Custom CSS for this menu** (which is menu-wide). Per-item CSS **travels with the item** — if you copy or duplicate the item, its styling comes along.
+
+> **Full guide:** for one item's HTML structure and every CSS syntax, see [Menu item structure and CSS](/docs/usage/menu-item-structure-and-css/).
+
+Write plain CSS. **`&` means *this item*** (the item's own row / `li`) — like `&` in Sass:
+
+```css
+& { background: #fff5f5; border-radius: 10px; }
+&:hover { background: #ffe4e6; }
+```
+
+Target the **inner parts** of the item with normal class selectors (same names as the rest of the menu: `.inner`, `.name`, `.description`, `.icon`, `.image`, `.arrow`):
+
+```css
+.name { color: #b91c1c; }
+.icon i { font-size: 22px; }
+& .description { opacity: 0.8; }
+```
+
+A **space after `&`** means "a part inside the item", so `& .name` and `.name` are the same. `&` written **without a space** (`&:hover`, `&.active`) styles the item's own row.
+
+**Responsive (`@media`)** works — great for mobile-only tweaks. Inside `@media` you must use a selector (this is standard CSS), so use `&` for the item itself:
+
+```css
+@media (max-width: 768px) {
+  & { padding: 8px; }
+  .name { font-size: 13px; }
+}
+```
+
+Notes:
+
+* **No `#SF-…` needed**, and **no `<style>` tag** — Navi+ scopes everything to this one item automatically, so it never affects other items. The CSS also travels with the item if you duplicate it.
+* You can still write a **bare declaration** without a selector (`color: red;`) — it applies to this item's row. This older style keeps working, but `&` is clearer and it's the only way to style the row inside `@media`.
+* If a property is set both here and by the item's visual settings (Media box / Inner box shadow, etc.), the **visual setting wins**. Remove/override that setting if you want the CSS to take over.
+* To **show/hide** an item by device, use **Display on mobile / Display on desktop** in the editor — not CSS. On **Wix**, viewport-based `@media` may not match the real screen; prefer the Display settings there.
+* Use the **expand icon** (top-right of the box) to open a larger code editor; press **Esc** or **Done** to close.
+
+Use **Per-item CSS** for a one-off tweak to a single item; use **Custom CSS for this menu** (with `.inner-level1`, `[data-name="…"]`, etc.) when you want to style many items or whole levels at once.
 
 ***
 

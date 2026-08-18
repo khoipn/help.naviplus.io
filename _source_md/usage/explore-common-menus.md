@@ -138,7 +138,7 @@ No problem — you can add, edit, or delete menus at any time. If you want to sa
 
 <summary>I'm on the Starter plan with only 1 menu slot. How can I try more?</summary>
 
-Upgrade to **Business or Elite** — you get a **7-day free trial** to explore everything before committing.
+Upgrade to **Business or Elite** — you get a **14-day free trial** to explore everything before committing.
 
 </details>
 

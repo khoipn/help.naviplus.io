@@ -1,12 +1,12 @@
 ---
-description: Publish a Navi+ Grid Menu on WordPress with the Navi+ AI Menu Builder plugin. Insert it where it should appear using the [naviwp embed_id="..."] shortcode or Gutenberg block.
+description: Publish a Navi+ Grid Menu on WordPress with the Navi+ plugin. Insert it where it should appear using the [naviwp embed_id="..."] shortcode or Gutenberg block.
 layout: default
 permalink: /docs/usage/grid-menu/publish-on-wordpress/
 title: Publish on WordPress
 ---
 # Publish on WordPress
 
-A **Grid Menu** is a **section** menu — it renders at the spot in the page where you embed it. It's a great fit for category shortcuts, hub pages, and "what would you like to do?" panels. On WordPress, the Navi+ AI Menu Builder plugin places it via shortcode or Gutenberg block; you never edit theme files.
+A **Grid Menu** is a **section** menu — it renders at the spot in the page where you embed it. It's a great fit for category shortcuts, hub pages, and "what would you like to do?" panels. On WordPress, the Navi+ plugin places it via shortcode or Gutenberg block; you never edit theme files.
 
 > Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -14,7 +14,7 @@ A **Grid Menu** is a **section** menu — it renders at the spot in the page whe
 
 ## Steps
 
-1. **Install the plugin** — see [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Install the plugin** — see [Install the Navi+ plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Build your Grid Menu** in **Appearance → Naviplus Menu Builder**. See [Grid Menu — How to use]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) and [Responsive Grid Menu]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
 3. **Copy the Embed ID** (e.g. `SF-123456789`).
 4. **Embed it** using one of the methods below.

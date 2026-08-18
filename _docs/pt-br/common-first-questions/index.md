@@ -46,7 +46,7 @@ Comece grátis com o plano Starter. Os planos Business e Elite desbloqueiam recu
 
 #### Existe um teste gratuito?
 
-Sim — 7 dias grátis, sem cobranças. Cancele a qualquer momento.
+Sim — 14 dias grátis, sem cobranças. Cancele a qualquer momento.
 
 ***
 

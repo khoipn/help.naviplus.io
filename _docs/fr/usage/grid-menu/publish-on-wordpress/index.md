@@ -1,5 +1,5 @@
 ---
-description: Publiez un Menu Grille Navi+ sur WordPress avec le plugin Navi+ AI Menu Builder. Insérez-le là où il doit apparaître en utilisant le shortcode [naviwp embed_id="..."] ou le bloc Gutenberg.
+description: Publiez un Menu Grille Navi+ sur WordPress avec le plugin Navi+. Insérez-le là où il doit apparaître en utilisant le shortcode [naviwp embed_id="..."] ou le bloc Gutenberg.
 lang: fr
 layout: default
 permalink: /fr/docs/usage/grid-menu/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Publier sur WordPress
 ---
 # Publier sur WordPress
 
-Un **Menu Grille** est un menu de **section** — il s'affiche à l'endroit de la page où vous l'intégrez. C'est un excellent choix pour les raccourcis de catégorie, les pages centrales et les panneaux "que souhaitez-vous faire ?". Sur WordPress, le plugin Navi+ AI Menu Builder l'intègre via un shortcode ou un bloc Gutenberg ; vous n'éditez jamais les fichiers de thème.
+Un **Menu Grille** est un menu de **section** — il s'affiche à l'endroit de la page où vous l'intégrez. C'est un excellent choix pour les raccourcis de catégorie, les pages centrales et les panneaux "que souhaitez-vous faire ?". Sur WordPress, le plugin Navi+ l'intègre via un shortcode ou un bloc Gutenberg ; vous n'éditez jamais les fichiers de thème.
 
 > Autres plateformes (Wix, Squarespace, Webflow, sites personnalisés) : voir [Publier sur Wix / Squarespace / Autres]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ Un **Menu Grille** est un menu de **section** — il s'affiche à l'endroit de l
 
 ## Étapes
 
-1. **Installez le plugin** — voir [Installer le plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installez le plugin** — voir [Installer le plugin Navi+]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Construisez votre Menu Grille** dans **Apparence → Naviplus Menu Builder**. Voir [Menu Grille — Comment utiliser]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) et [Menu Grille Réactif]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
 3. **Copiez l'ID d'intégration** (par exemple `SF-123456789`).
 4. **Intégrez-le** en utilisant l'une des méthodes ci-dessous.

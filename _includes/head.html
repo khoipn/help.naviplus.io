@@ -147,6 +147,63 @@
 </script>
 {% endif %}
 
+<!-- TASK00665. Begin -->
+{% comment %}
+  JSON-LD: BreadcrumbList cho moi trang /docs/.
+  navigation.yml long TOI 3 CAP (nhom > nhom con > bai), nen phai duyet ca hai lop
+  children moi ra duoc nhanh day du; chi duyet 1 lop se rot ve breadcrumb 3 muc.
+  File navigation cua MOI ngon ngu dung url KHONG co tien to ngon ngu, nen doi chieu
+  bang _base_path roi tu gan lai tien to khi in ra item.
+{% endcomment %}
+{% if _is_doc %}
+  {% assign _nav_data = site.data.navigation %}
+  {% if _page_lang != "en" %}
+    {% assign _nav_key = "navigation_" | append: _page_lang %}
+    {% if site.data[_nav_key] %}{% assign _nav_data = site.data[_nav_key] %}{% endif %}
+  {% endif %}
+  {% assign _lp = "" %}
+  {% if _page_lang != "en" %}{% assign _lp = "/" | append: _page_lang %}{% endif %}
+  {% assign _bc_short = _site_title_i18n | split: " — " | first %}
+  {% assign _c1_title = "" %}{% assign _c1_url = "" %}
+  {% assign _c2_title = "" %}{% assign _c2_url = "" %}
+  {% assign _bc_found = false %}
+  {% for _g1 in _nav_data %}
+    {% for _ch in _g1.children %}
+      {% unless _bc_found %}
+        {% if _ch.url == _base_path %}
+          {% assign _c1_title = _g1.title %}{% assign _c1_url = _g1.url %}
+          {% assign _bc_found = true %}
+        {% endif %}
+      {% endunless %}
+      {% for _ch2 in _ch.children %}
+        {% unless _bc_found %}
+          {% if _ch2.url == _base_path %}
+            {% assign _c1_title = _g1.title %}{% assign _c1_url = _g1.url %}
+            {% assign _c2_title = _ch.title %}{% assign _c2_url = _ch.url %}
+            {% assign _bc_found = true %}
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Navi+", "item": "https://naviplus.io" },
+    { "@type": "ListItem", "position": 2, "name": {{ _bc_short | jsonify }}, "item": {{ site.url | append: _lp | jsonify }} }{% assign _pos = 2 %}{% if _c1_url != "" and _c1_url != _base_path %}{% assign _pos = _pos | plus: 1 %},
+    { "@type": "ListItem", "position": {{ _pos }}, "name": {{ _c1_title | jsonify }}, "item": {{ site.url | append: _lp | append: _c1_url | jsonify }} }{% endif %}{% if _c2_url != "" and _c2_url != _base_path %}{% assign _pos = _pos | plus: 1 %},
+    { "@type": "ListItem", "position": {{ _pos }}, "name": {{ _c2_title | jsonify }}, "item": {{ site.url | append: _lp | append: _c2_url | jsonify }} }{% endif %}{% assign _pos = _pos | plus: 1 %},
+    { "@type": "ListItem", "position": {{ _pos }}, "name": {{ _title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+  ]
+}
+</script>
+{% endif %}
+<!-- TASK00665. End -->
+
+
+
 <!-- Preconnect to CDNs -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />

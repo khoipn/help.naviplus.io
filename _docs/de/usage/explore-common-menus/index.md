@@ -118,7 +118,7 @@ Sie müssen sich nicht nur für einen entscheiden. Die leistungsstärksten Gesch
 </details>
 
 <details><summary>Ich bin im Starter-Plan mit nur 1 Menüslot. Wie kann ich mehr ausprobieren?</summary>
-<p>Upgrade auf <strong>Business oder Elite</strong> – Sie erhalten eine <strong>7-tägige kostenlose Testversion</strong>, um alles zu erkunden, bevor Sie sich festlegen.</p>
+<p>Upgrade auf <strong>Business oder Elite</strong> – Sie erhalten eine <strong>14-tägige kostenlose Testversion</strong>, um alles zu erkunden, bevor Sie sich festlegen.</p>
 </details>
 
 <details><summary>Kann ich mein bestehendes Menü in Navi+ importieren?</summary>

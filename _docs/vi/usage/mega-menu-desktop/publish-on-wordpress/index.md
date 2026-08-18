@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ Mega Menu (Desktop) on WordPress with the Navi+ AI Menu Builder plugin. Place it in any post, page, widget, or page builder using the [naviwp embed_id="..."] shortcode or the Gutenberg block.
+description: Publish a Navi+ Mega Menu (Desktop) on WordPress with the Navi+ plugin. Place it in any post, page, widget, or page builder using the [naviwp embed_id="..."] shortcode or the Gutenberg block.
 lang: vi
 layout: default
 permalink: /vi/docs/usage/mega-menu-desktop/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Xuất bản trên WordPress
 ---
 # Xuất bản trên WordPress
 
-A **Mega Menu (Desktop)** is a **section** menu — nó không gắn vào viewport, nó hiển thị tại vị trí chính xác trên trang mà bạn nhúng nó (thường là tiêu đề trang web). Trên WordPress, plugin Navi+ AI Menu Builder nhúng nó qua shortcode hoặc khối Gutenberg — bạn không bao giờ chỉnh sửa tệp theme.
+A **Mega Menu (Desktop)** is a **section** menu — nó không gắn vào viewport, nó hiển thị tại vị trí chính xác trên trang mà bạn nhúng nó (thường là tiêu đề trang web). Trên WordPress, plugin Navi+ nhúng nó qua shortcode hoặc khối Gutenberg — bạn không bao giờ chỉnh sửa tệp theme.
 
 > Các nền tảng khác (Wix, Squarespace, Webflow, các trang tùy chỉnh): xem [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Mega Menu (Desktop)** is a **section** menu — nó không gắn vào viewpo
 
 ## Steps
 
-1. **Cài đặt plugin** — xem [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Cài đặt plugin** — xem [Install the Navi+ plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Xây dựng Mega Menu** của bạn trong **Appearance → Naviplus Menu Builder**. Xem [Mega Menu (Desktop) — How to use]({{ site.baseurl }}/docs/usage/mega-menu-desktop/how-to-use/) để biết hướng dẫn thiết kế.
 3. **Sao chép Embed ID** của menu (hiển thị trên bảng xuất bản — trông giống như `SF-123456789`).
 4. **Chèn menu** vào vị trí bạn muốn trên trang (phần tiếp theo).

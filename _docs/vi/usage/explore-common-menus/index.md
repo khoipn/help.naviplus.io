@@ -118,7 +118,7 @@ Bạn không cần phải chọn chỉ một. Các cửa hàng hoạt động t�
 </details>
 
 <details><summary>Tôi đang ở gói Starter với chỉ 1 slot menu. Làm thế nào tôi có thể thử nhiều hơn?</summary>
-<p>Nâng cấp lên <strong>Business hoặc Elite</strong> — bạn sẽ nhận được một <strong>thời gian dùng thử miễn phí 7 ngày</strong> để khám phá mọi thứ trước khi cam kết.</p>
+<p>Nâng cấp lên <strong>Business hoặc Elite</strong> — bạn sẽ nhận được một <strong>thời gian dùng thử miễn phí 14 ngày</strong> để khám phá mọi thứ trước khi cam kết.</p>
 </details>
 
 <details><summary>Tôi có thể nhập menu hiện có của mình vào Navi+ không?</summary>

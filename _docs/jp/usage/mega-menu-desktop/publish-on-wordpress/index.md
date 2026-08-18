@@ -7,7 +7,7 @@ title: WordPressに公開
 ---
 # WordPressに公開
 
-A **Mega Menu (Desktop)** is a **section** menu — it doesn't anchor to the viewport, it renders at the exact spot in the page where you embed it (typically the site header). On WordPress, the Navi+ AI Menu Builder plugin embeds it via shortcode or Gutenberg block — you never edit theme files.
+A **Mega Menu (Desktop)** is a **section** menu — it doesn't anchor to the viewport, it renders at the exact spot in the page where you embed it (typically the site header). On WordPress, the Navi+ plugin embeds it via shortcode or Gutenberg block — you never edit theme files.
 
 > Other platforms (Wix, Squarespace, Webflow, custom sites): see [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Mega Menu (Desktop)** is a **section** menu — it doesn't anchor to the vie
 
 ## Steps
 
-1. **Install the plugin** — see [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Install the plugin** — see [Install the Navi+ plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Build your Mega Menu** in **Appearance → Naviplus Menu Builder**. See [Mega Menu (Desktop) — How to use]({{ site.baseurl }}/docs/usage/mega-menu-desktop/how-to-use/) for design guidance.
 3. **Copy the Embed ID** of the menu (shown on the publish panel — looks like `SF-123456789`).
 4. **Insert the menu** where you want it on the page (next section).

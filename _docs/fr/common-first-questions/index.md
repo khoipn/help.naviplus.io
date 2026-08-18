@@ -46,7 +46,7 @@ Commencez gratuitement avec le plan Starter. Les plans Business et Elite débloq
 
 #### Y a-t-il un essai gratuit ?
 
-Oui — 7 jours gratuits, sans frais. Annulez à tout moment.
+Oui — 14 jours gratuits, sans frais. Annulez à tout moment.
 
 ***
 

@@ -1,5 +1,5 @@
 ---
-description: Navi+ AI Menu Builderプラグインを使用してWordPressでNavi+メニューを公開します — スティッキーメニューはサイト全体に自動的に表示され、セクションメニューは[naviwp]ショートコードまたはGutenbergブロックを介して配置されます。
+description: Navi+プラグインを使用してWordPressでNavi+メニューを公開します — スティッキーメニューはサイト全体に自動的に表示され、セクションメニューは[naviwp]ショートコードまたはGutenbergブロックを介して配置されます。
 lang: jp
 layout: default
 permalink: /jp/docs/integrations/wordpress-woocommerce/publish-menus/

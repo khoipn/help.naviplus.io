@@ -86,7 +86,7 @@ Si vous vendez sur plusieurs marchés, votre menu doit suivre. Intégration avec
 
 Enfin, et c'est peut-être le plus important : vous — le propriétaire du site — devez pouvoir modifier votre menu quand vous en avez besoin. Saison des soldes à venir, lancement d'une nouvelle collection, nouvelle stratégie marketing, test A/B d'une mise en page différente — tout cela doit être faisable par glisser-déposer, sans faire appel à un développeur, sans attendre un déploiement.
 
-## Notre solution : Navi+ AI Menu Builder
+## Notre solution : Navi+
 
 Navi+ est un **constructeur de menu sans code** — il vous aide à créer des menus beaux et performants pour n'importe quel site, sans toucher à votre thème ni écrire une seule ligne de code.
 

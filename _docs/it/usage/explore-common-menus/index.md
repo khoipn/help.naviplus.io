@@ -118,7 +118,7 @@ Non devi scegliere solo uno. I negozi con le migliori prestazioni sovrappongono 
 </details>
 
 <details><summary>Sono nel piano Starter con solo 1 slot per il menu. Come posso provare di più?</summary>
-<p>Passa a <strong>Business o Elite</strong> — ottieni una <strong>prova gratuita di 7 giorni</strong> per esplorare tutto prima di impegnarti.</p>
+<p>Passa a <strong>Business o Elite</strong> — ottieni una <strong>prova gratuita di 14 giorni</strong> per esplorare tutto prima di impegnarti.</p>
 </details>
 
 <details><summary>Posso importare il mio menu esistente in Navi+?</summary>

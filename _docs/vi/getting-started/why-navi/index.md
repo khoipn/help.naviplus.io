@@ -80,7 +80,7 @@ Một menu chuyên nghiệp không chỉ "trông đẹp hơn". Nó phải đáp 
 <p style="margin:0;font-size:14px;color:var(--color-text-secondary);line-height:1.65">Bạn — chủ website — phải tự thay đổi được menu khi cần. Mùa sale, ra mắt bộ sưu tập mới, A/B test layout khác — tất cả phải làm được bằng kéo thả, không cần thuê dev, không cần chờ deploy.</p>
 </div>
 
-## Giải pháp của chúng tôi: Navi+ AI Menu Builder
+## Giải pháp của chúng tôi: Navi+
 
 Navi+ là **menu builder không cần code** — giúp bạn tạo menu đẹp, chuyển đổi cao cho bất kỳ website nào mà không cần đụng vào theme hay viết một dòng code.
 

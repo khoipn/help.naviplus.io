@@ -46,7 +46,7 @@ Starten Sie kostenlos mit dem Starter-Plan. Business- und Elite-Pläne schalten 
 
 #### Gibt es eine kostenlose Testversion?
 
-Ja – 7 Tage kostenlos, keine Gebühren. Jederzeit kündbar.
+Ja – 14 Tage kostenlos, keine Gebühren. Jederzeit kündbar.
 
 ***
 

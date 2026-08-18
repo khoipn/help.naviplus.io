@@ -1,5 +1,5 @@
 ---
-description: Publique um Menu em Grade Navi+ no WordPress com o plugin Navi+ AI Menu Builder. Insira-o onde deve aparecer usando o shortcode [naviwp embed_id="..."] ou bloco Gutenberg.
+description: Publique um Menu em Grade Navi+ no WordPress com o plugin Navi+. Insira-o onde deve aparecer usando o shortcode [naviwp embed_id="..."] ou bloco Gutenberg.
 lang: pt-br
 layout: default
 permalink: /pt-br/docs/usage/grid-menu/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Publicar no WordPress
 ---
 # Publicar no WordPress
 
-A **Menu em Grade** é um menu de **seção** — ele é renderizado no local da página onde você o incorpora. É uma ótima opção para atalhos de categoria, páginas centrais e painéis "o que você gostaria de fazer?". No WordPress, o plugin Navi+ AI Menu Builder o coloca via shortcode ou bloco Gutenberg; você nunca edita arquivos de tema.
+A **Menu em Grade** é um menu de **seção** — ele é renderizado no local da página onde você o incorpora. É uma ótima opção para atalhos de categoria, páginas centrais e painéis "o que você gostaria de fazer?". No WordPress, o plugin Navi+ o coloca via shortcode ou bloco Gutenberg; você nunca edita arquivos de tema.
 
 > Outras plataformas (Wix, Squarespace, Webflow, sites personalizados): veja [Publicar no Wix / Squarespace / Outros]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Menu em Grade** é um menu de **seção** — ele é renderizado no local da
 
 ## Passos
 
-1. **Instale o plugin** — veja [Instalar o plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Instale o plugin** — veja [Instalar o plugin Navi+]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Construa seu Menu em Grade** em **Aparência → Naviplus Menu Builder**. Veja [Menu em Grade — Como usar]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) e [Menu em Grade Responsivo]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
 3. **Copie o ID de Incorporação** (por exemplo, `SF-123456789`).
 4. **Incorpore-o** usando um dos métodos abaixo.

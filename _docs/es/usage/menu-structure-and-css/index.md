@@ -1,5 +1,5 @@
 ---
-description: 'Guía corta para estilizar el menú con **CSS personalizado para este menú**, **Clases reutilizables (CSS)** y el HTML predeterminado. El menú tiene **tres niveles**: barra principal...'
+description: 'Breve guía para estilizar el menú con **CSS personalizado para este menú**, **Clases reutilizables (CSS)** y el HTML predeterminado. El menú tiene **tres niveles**: barra principal...'
 lang: es
 layout: default
 permalink: /es/docs/usage/menu-structure-and-css/
@@ -7,36 +7,96 @@ title: Estructura del menú y CSS
 ---
 # Estructura del menú y CSS
 
-Guía corta para estilizar el menú con **CSS personalizado para este menú**, **Clases reutilizables (CSS)** y el HTML predeterminado. El menú tiene **tres niveles**: barra principal, submenú, submenú anidado.
+Breve guía para estilizar el menú con **CSS personalizado para este menú**, **Clases reutilizables (CSS)** y el HTML predeterminado. El menú tiene **tres niveles**: barra principal, submenú, submenú anidado.
 
-> **Nota:** Esta demostración cubre un **menú Slide / Standard**. La estructura es la misma para la mayoría de los tipos de menú; TABBAR y Mega Menu pueden tener diferencias menores — usa DevTools en la página en vivo para confirmar.
+> **Nota:** Esta demostración cubre un menú **Slide/Estándar**. La estructura es la misma para la mayoría de los tipos de menú; TABBAR y Mega Menu pueden tener pequeñas diferencias — usa DevTools en la página en vivo para confirmar.
 
 ***
 
 ### CSS personalizado — qué escribir
 
-En **Avanzado → CSS personalizado para este menú**, Navi+ **agrega un prefijo** (incluyendo `#SF-…` y el alcance del menú). Escribe **selectores normales solamente** — no **escribas** `#SF-12345678` tú mismo.
+En **Avanzado → CSS personalizado para este menú**, Navi+ **añade un prefijo** (incluyendo `#SF-…` y ámbito de menú). Escribe **solo selectores normales** — **no** escribas `#SF-12345678` tú mismo.
 
 ```css
 .inner-level1 { padding: 12px 16px; }
 ul.children[menulevel="2"] { border-radius: 8px; }
 ```
 
-Usa **`#SF-…` manualmente** solo cuando **no** estés usando esta caja (por ejemplo, CSS en el archivo del tema).
+**`&` = el menú en sí** (el contenedor `#SF-…`). Es opcional — pero es la forma clara de estilizar todo el menú, y la única forma de hacerlo dentro de `@media`:
 
-**Hoja de estilos global / CSS** es un campo **separado**: se aplica a **todo el sitio** y no está limitado a un menú — usa con cuidado.
+```css
+&              { background: #111; }        /* el contenedor del menú */
+&:hover        { box-shadow: 0 4px 12px rgba(0,0,0,.15); }
+& .inner-level1 { padding: 12px 16px; }     /* '& ' con espacio = dentro del menú, igual a .inner-level1 */
 
-**Clases reutilizables (CSS):** define `.yourClass { … }` en la tabla reutilizable y asigna la clase a los elementos — las reglas permanecen en el mismo paquete CSS interno; no necesitas agregar `#SF-…` en la caja. La clase aparece en el **`li`**.
+/* Responsivo — solo en pantallas pequeñas */
+@media (max-width: 768px) {
+  & { padding: 6px; }
+  .name { font-size: 13px; }
+}
+```
 
-No **envuelvas** el contenido en una `<style>` etiqueta en la caja — solo CSS plano.
+**No tienes que** usar `&` — CSS sin él continúa funcionando exactamente como antes (`.inner-level1 { … }` no cambia). `&` es solo un atajo para "este menú".
+
+Usa **`#SF-…` manualmente** solo cuando **no** estés usando esta caja (por ejemplo CSS en el archivo del tema).
+
+**Hoja de estilo global/CSS** es un campo **separado**: se aplica a todo el **sitio** y no se limita a un menú — usa con cuidado.
+
+**Clases reutilizables (CSS):** define `.tuClase { … }` en la tabla Reutilizable y asigna la clase a elementos — las reglas permanecen en el mismo paquete CSS interno; no necesitas añadir `#SF-…` en la caja. La clase aparece en el **`li`**.
+
+No envuelvas el contenido en una etiqueta `<style>` en la caja — solo CSS simple.
+
+***
+
+### CSS por elemento (estiliza solo un elemento)
+
+Cada elemento de menú tiene su **propio** cuadro CSS: **editar el elemento → Avanzado → Hoja de estilo interna/CSS**. Esto es separado de **CSS personalizado para este menú** (que es a nivel de menú). El CSS por elemento **viaja con el elemento** — si copias o duplicas el elemento, su estilo viene con él.
+
+> **Guía completa:** para la estructura HTML de un elemento y cada sintaxis CSS, ve [Estructura del elemento de menú y CSS](/docs/usage/menu-item-structure-and-css/).
+
+Escribe CSS simple. **`&` significa *este elemento*** (la fila propia del elemento/`li`) — como `&` en Sass:
+
+```css
+& { background: #fff5f5; border-radius: 10px; }
+&:hover { background: #ffe4e6; }
+```
+
+Apunta a las **partes internas** del elemento con selectores de clase normales (los mismos nombres que el resto del menú: `.inner`, `.name`, `.description`, `.icon`, `.image`, `.arrow`):
+
+```css
+.name { color: #b91c1c; }
+.icon i { font-size: 22px; }
+& .description { opacity: 0.8; }
+```
+
+Un **espacio después de `&`** significa "una parte dentro del elemento", así que `& .name` y `.name` son lo mismo. `&` escrito **sin espacio** (`&:hover`, `&.active`) estiliza la fila propia del elemento.
+
+**Responsivo (`@media`)** funciona — excelente para ajustes específicos para móvil. Dentro de `@media` debes usar un selector (es CSS estándar), así que usa `&` para el elemento en sí:
+
+```css
+@media (max-width: 768px) {
+  & { padding: 8px; }
+  .name { font-size: 13px; }
+}
+```
+
+Notas:
+
+* **Sin `#SF-…` necesario** y **sin etiqueta `<style>`** — Navi+ automáticamente limita todo a este elemento, por lo que nunca afecta a otros elementos. El CSS también viaja con el elemento si lo duplicas.
+* Aún puedes escribir una **declaración simple** sin selector (`color: red;`) — se aplica a la fila de este elemento. Este estilo antiguo sigue funcionando, pero `&` es más claro y es la única forma de estilizar la fila dentro de `@media`.
+* Si una propiedad se establece tanto aquí como en los ajustes visuales del elemento (Media box/Inner box shadow, etc.), el **ajuste visual gana**. Elimina/anula ese ajuste si quieres que el CSS tome precedencia.
+* Para **mostrar/ocultar** un elemento por dispositivo, usa **Mostrar en móvil/Mostrar en escritorio** en el editor — no CSS. En **Wix**, `@media` basado en viewport podría no coincidir con la pantalla real; prefiere los ajustes Display allí.
+* Usa el **icono expandir** (esquina superior derecha de la caja) para abrir un editor de código más grande; presiona **Esc** o **Hecho** para cerrar.
+
+Usa **CSS por elemento** para un ajuste único en un elemento único; usa **CSS personalizado para este menú** (con `.inner-level1`, `[data-name="…"]`, etc.) cuando quieras estilizar muchos elementos o niveles enteros a la vez.
 
 ***
 
 ### Demostración detallada: una rama de tres niveles (icono, imagen, nombre, descripción)
 
-Etiquetas de ejemplo: **Shop** (nivel 1: **icono** + nombre + descripción) → **Clothing** (nivel 2: **imagen** + nombre) → **T-Shirts** (nivel 3: **icono** + nombre + descripción). Esto muestra **ambos tipos de medios** y **descripción**.
+Etiquetas de ejemplo: **Shop** (nivel 1: **icono** + nombre + descripción) → **Clothing** (nivel 2: **imagen** + nombre) → **T-Shirts** (nivel 3: **icono** + nombre + descripción). Esto muestra **ambos tipos de media** y **descripción**.
 
-Todo el menú se encuentra en un bloque:
+El menú completo cabe en un bloque:
 
 ```html
 <div id="SF-…" class="…">
@@ -44,29 +104,29 @@ Todo el menú se encuentra en un bloque:
 </div>
 ```
 
-`SF-…` es el **id de inserción** del menú — visible en el panel de control de Navi+ (la insignia azul junto al título del menú) y en DevTools en la página en vivo.
+`SF-…` es el **ID de inserción** del menú — visible en el panel Navi+ (la insignia azul junto al título del menú) y en DevTools en la página en vivo.
 
-#### Orden dentro de cada `div.inner` (tiempo de ejecución)
+#### Orden dentro de cada `div.inner` (runtime)
 
-1. **`span.arrow`** — flecha (submenú / móvil, depende del tipo de menú).
-2. *(Opcional)* **`span.cart_count`** — solo cuando el elemento usa la insignia del carrito con conteo.
-3. **Medios — uno de:**
+1. **`span.arrow`** — flecha (submenú/móvil, depende del tipo de menú).
+2. *(Opcional)* **`span.cart_count`** — solo cuando el elemento usa insignia del carrito con conteo.
+3. **Media — uno de:**
    * **Icono (Remix Icon / `ri-…`):** `span.icon` → `i.ri-…`
    * **Imagen:** `div.image-border` → `span.image-box` → `span.image` → `img`\
-     \&#xNAN;*Nota:* si el elemento **tiene una imagen**, la aplicación **muestra la imagen** y no renderiza el icono para esa fila.
-4. **`div.info`** → **`div.flexcol`** → **`span.name`** (etiqueta) → **`div.description`** *(solo si llenas la descripción en el editor)*.
-5. *(Opcional / SEO)* el icono o la imagen pueden estar envueltos en **`a[href]`** — puedes ver `<a>…</a>` alrededor de `span.icon` o el bloque de imagen en DevTools.
+     \&#xNAN;*Nota:* si el elemento **tiene una imagen**, la app **muestra la imagen** y no renderiza el icono para esa fila.
+4. **`div.info`** → **`div.flexcol`** → **`span.name`** (etiqueta) → **`div.description`** *(solo si completas descripción en el editor)*.
+5. *(Opcional/SEO)* el icono o imagen podría estar envuelto en **`a[href]`** — podrías ver `<a>…</a>` alrededor de `span.icon` o del bloque de imagen en DevTools.
 
-#### Clases `li` explicadas
+#### Explicación de las clases `li`
 
 | Clase                             | Significado                                                        |
 | --------------------------------- | -------------------------------------------------------------- |
 | `level-1` / `level-2` / `level-3` | Profundidad de este elemento                                             |
 | `is-parent-top`                   | Elemento de nivel 1 que tiene hijos                                 |
 | `is-parent`                       | Elemento de nivel 2+ que tiene hijos                                |
-| `data-name="…"`                   | Etiqueta del elemento (atributo, útil para selectores CSS `[data-name]`) |
+| `data-name="…"`                   | Etiqueta de elemento (atributo, útil para selectores CSS `[data-name]`) |
 
-#### Demostración HTML completa (clases ilustrativas / URLs)
+#### Demostración HTML completa (clases/URLs ilustrativos)
 
 ```html
 <div id="SF-8167331678" class="naviItem …">
@@ -86,7 +146,7 @@ Todo el menú se encuentra en un bloque:
         <div class="info">
           <div class="flexcol">
             <span class="name">Shop</span>
-            <div class="description">Explora todas las categorías</div>
+            <div class="description">Examina todas las categorías</div>
           </div>
         </div>
       </div>
@@ -150,7 +210,7 @@ Todo el menú se encuentra en un bloque:
 </div>
 ```
 
-#### Fragmentos de medios (para referencia)
+#### Fragmentos de media (para referencia)
 
 **Solo icono (sin imagen):**
 
@@ -170,7 +230,7 @@ Todo el menú se encuentra en un bloque:
 </div>
 ```
 
-#### Ejemplos de selectores para CSS personalizado (en la caja de Navi+ — no escribas `#SF-…`)
+#### Ejemplos de selector para CSS personalizado (en la caja de Navi+ — no escribas `#SF-…`)
 
 ```css
 /* Flecha */
@@ -190,7 +250,7 @@ Todo el menú se encuentra en un bloque:
 [data-name="Shop"] .name { color: red; }
 ```
 
-**Recuerda:** los submenús de nivel 2 / 3 se encuentran **dentro** del **`li`** padre, **después** del `div.inner` del padre — no como hijos directos de `ul.navigation`.
+**Recuerda:** los submenús de nivel 2/3 se encuentran **dentro** del **`li`** padre, **después** del `div.inner` del padre — no como hijos directos de `ul.navigation`.
 
 **Misma rama, diagrama de texto:**
 

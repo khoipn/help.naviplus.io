@@ -118,7 +118,7 @@ Você não precisa escolher apenas um. As lojas de melhor desempenho sobrepõem 
 </details>
 
 <details><summary>Estou no plano Starter com apenas 1 slot de menu. Como posso experimentar mais?</summary>
-<p>Faça upgrade para <strong>Business ou Elite</strong> — você recebe um <strong>teste gratuito de 7 dias</strong> para explorar tudo antes de se comprometer.</p>
+<p>Faça upgrade para <strong>Business ou Elite</strong> — você recebe um <strong>teste gratuito de 14 dias</strong> para explorar tudo antes de se comprometer.</p>
 </details>
 
 <details><summary>Posso importar meu menu existente para o Navi+?</summary>

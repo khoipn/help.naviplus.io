@@ -1,5 +1,5 @@
 ---
-description: Publica un menú de cuadrícula de Navi+ en WordPress con el complemento Navi+ AI Menu Builder. Insértalo donde debería aparecer usando el [naviwp embed_id="..."] shortcode o bloque de Gutenberg.
+description: Publica un menú de cuadrícula de Navi+ en WordPress con el complemento Navi+. Insértalo donde debería aparecer usando el [naviwp embed_id="..."] shortcode o bloque de Gutenberg.
 lang: es
 layout: default
 permalink: /es/docs/usage/grid-menu/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Publicar en WordPress
 ---
 # Publicar en WordPress
 
-Un **menú de cuadrícula** es un menú de **sección** — se renderiza en el lugar de la página donde lo insertas. Es ideal para accesos directos de categorías, páginas de hub y paneles de "¿qué te gustaría hacer?". En WordPress, el complemento Navi+ AI Menu Builder lo coloca a través de shortcode o bloque de Gutenberg; nunca editas archivos de tema.
+Un **menú de cuadrícula** es un menú de **sección** — se renderiza en el lugar de la página donde lo insertas. Es ideal para accesos directos de categorías, páginas de hub y paneles de "¿qué te gustaría hacer?". En WordPress, el complemento Navi+ lo coloca a través de shortcode o bloque de Gutenberg; nunca editas archivos de tema.
 
 > Otras plataformas (Wix, Squarespace, Webflow, sitios personalizados): ver [Publicar en Wix / Squarespace / Otros]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ Un **menú de cuadrícula** es un menú de **sección** — se renderiza en el l
 
 ## Pasos
 
-1. **Instala el complemento** — ver [Instalar el complemento Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Instala el complemento** — ver [Instalar el complemento Navi+]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Construye tu menú de cuadrícula** en **Apariencia → Naviplus Menu Builder**. Ver [Menú de cuadrícula — Cómo usar]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) y [Menú de cuadrícula receptivo]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
 3. **Copia el ID de inserción** (por ejemplo, `SF-123456789`).
 4. **Insértalo** usando uno de los métodos a continuación.

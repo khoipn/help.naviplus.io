@@ -1,5 +1,5 @@
 ---
-description: Pubblica un Menu a Griglia Navi+ su WordPress con il plugin Navi+ AI Menu Builder. Inseriscilo dove dovrebbe apparire utilizzando il shortcode [naviwp embed_id="..."] o il blocco Gutenberg.
+description: Pubblica un Menu a Griglia Navi+ su WordPress con il plugin Navi+. Inseriscilo dove dovrebbe apparire utilizzando il shortcode [naviwp embed_id="..."] o il blocco Gutenberg.
 lang: it
 layout: default
 permalink: /it/docs/usage/grid-menu/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Pubblica su WordPress
 ---
 # Pubblica su WordPress
 
-Un **Menu a Griglia** è un menu di **sezione** — viene visualizzato nel punto della pagina in cui lo incorpori. È un'ottima soluzione per collegamenti rapidi alle categorie, pagine hub e pannelli "cosa ti piacerebbe fare?". Su WordPress, il plugin Navi+ AI Menu Builder lo posiziona tramite shortcode o blocco Gutenberg; non è necessario modificare i file del tema.
+Un **Menu a Griglia** è un menu di **sezione** — viene visualizzato nel punto della pagina in cui lo incorpori. È un'ottima soluzione per collegamenti rapidi alle categorie, pagine hub e pannelli "cosa ti piacerebbe fare?". Su WordPress, il plugin Navi+ lo posiziona tramite shortcode o blocco Gutenberg; non è necessario modificare i file del tema.
 
 > Altre piattaforme (Wix, Squarespace, Webflow, siti personalizzati): vedi [Pubblica su Wix / Squarespace / Altri]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ Un **Menu a Griglia** è un menu di **sezione** — viene visualizzato nel punto
 
 ## Passi
 
-1. **Installa il plugin** — vedi [Installa il plugin Navi+ AI Menu Builder]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installa il plugin** — vedi [Installa il plugin Navi+]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Crea il tuo Menu a Griglia** in **Aspetto → Naviplus Menu Builder**. Vedi [Menu a Griglia — Come usare]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) e [Menu a Griglia Responsivo]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
 3. **Copia l'ID di Incorporamento** (ad es. `SF-123456789`).
 4. **Incorpora** utilizzando uno dei metodi qui sotto.

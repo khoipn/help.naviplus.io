@@ -117,7 +117,7 @@ You don't have to pick just one. The best-performing stores layer multiple menu 
 </details>
 
 <details><summary>I'm on the Starter plan with only 1 menu slot. How can I try more?</summary>
-<p>Upgrade to <strong>Business or Elite</strong> — you get a <strong>7-day free trial</strong> to explore everything before committing.</p>
+<p>Upgrade to <strong>Business or Elite</strong> — you get a <strong>14-day free trial</strong> to explore everything before committing.</p>
 </details>
 
 <details><summary>Can I import my existing menu into Navi+?</summary>

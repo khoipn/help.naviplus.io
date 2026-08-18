@@ -98,5 +98,5 @@ Vous n'avez pas à choisir un seul type. Les boutiques les plus performantes uti
 </details>
 
 <details><summary>Je suis sur le plan Starter avec 1 seul menu. Comment en essayer plus ?</summary>
-<p>Passez à <strong>Business ou Elite</strong> — vous bénéficiez d'un <strong>essai gratuit de 7 jours</strong> pour tout explorer avant de vous engager.</p>
+<p>Passez à <strong>Business ou Elite</strong> — vous bénéficiez d'un <strong>essai gratuit de 14 jours</strong> pour tout explorer avant de vous engager.</p>
 </details>

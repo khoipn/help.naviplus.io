@@ -46,7 +46,7 @@ Comienza gratis con el plan Starter. Los planes Business y Elite desbloquean fun
 
 #### ¿Hay una prueba gratuita?
 
-Sí, 7 días gratis, sin cargos. Cancela en cualquier momento.
+Sí, 14 días gratis, sin cargos. Cancela en cualquier momento.
 
 ***
 

@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ Grid Menu on WordPress with the Navi+ AI Menu Builder plugin. Insert it where it should appear using the [naviwp embed_id="..."] shortcode or Gutenberg block.
+description: Publish a Navi+ Grid Menu on WordPress with the Navi+ plugin. Insert it where it should appear using the [naviwp embed_id="..."] shortcode or Gutenberg block.
 lang: de
 layout: default
 permalink: /de/docs/usage/grid-menu/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Auf WordPress veröffentlichen
 ---
 # Auf WordPress veröffentlichen
 
-Ein **Grid Menu** ist ein **Abschnitts**-Menü — es wird an der Stelle auf der Seite angezeigt, an der Sie es einfügen. Es eignet sich hervorragend für Kategorienverknüpfungen, Hub-Seiten und "was möchten Sie tun?" Panels. Auf WordPress platziert das Navi+ AI Menu Builder-Plugin es über Shortcode oder Gutenberg-Block; Sie bearbeiten niemals die Theme-Dateien.
+Ein **Grid Menu** ist ein **Abschnitts**-Menü — es wird an der Stelle auf der Seite angezeigt, an der Sie es einfügen. Es eignet sich hervorragend für Kategorienverknüpfungen, Hub-Seiten und "was möchten Sie tun?" Panels. Auf WordPress platziert das Navi+-Plugin es über Shortcode oder Gutenberg-Block; Sie bearbeiten niemals die Theme-Dateien.
 
 > Andere Plattformen (Wix, Squarespace, Webflow, benutzerdefinierte Seiten): siehe [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/grid-menu/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ Ein **Grid Menu** ist ein **Abschnitts**-Menü — es wird an der Stelle auf der
 
 ## Schritte
 
-1. **Installieren Sie das Plugin** — siehe [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installieren Sie das Plugin** — siehe [Install the Navi+ plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Erstellen Sie Ihr Grid Menu** in **Aussehen → Naviplus Menu Builder**. Siehe [Grid Menu — How to use]({{ site.baseurl }}/docs/usage/grid-menu/how-to-use/) und [Responsive Grid Menu]({{ site.baseurl }}/docs/usage/grid-menu/responsive-grid-menu/).
 3. **Kopieren Sie die Embed-ID** (z. B. `SF-123456789`).
 4. **Fügen Sie es ein** mit einer der Methoden unten.

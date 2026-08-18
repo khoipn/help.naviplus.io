@@ -1,5 +1,5 @@
 ---
-description: Publish a Navi+ Mega Menu (Desktop) on WordPress with the Navi+ AI Menu Builder plugin. Place it in any post, page, widget, or page builder using the [naviwp embed_id="..."] shortcode or the Gutenberg block.
+description: Publish a Navi+ Mega Menu (Desktop) on WordPress with the Navi+ plugin. Place it in any post, page, widget, or page builder using the [naviwp embed_id="..."] shortcode or the Gutenberg block.
 lang: de
 layout: default
 permalink: /de/docs/usage/mega-menu-desktop/publish-on-wordpress/
@@ -7,7 +7,7 @@ title: Auf WordPress veröffentlichen
 ---
 # Auf WordPress veröffentlichen
 
-A **Mega Menu (Desktop)** ist ein **Abschnittsmenü** — es verankert sich nicht an der Ansicht, sondern wird an der genauen Stelle auf der Seite gerendert, an der Sie es einfügen (typischerweise im Kopfbereich der Seite). Auf WordPress bettet das Navi+ AI Menu Builder-Plugin es über Shortcode oder Gutenberg-Block ein — Sie bearbeiten niemals die Theme-Dateien.
+A **Mega Menu (Desktop)** ist ein **Abschnittsmenü** — es verankert sich nicht an der Ansicht, sondern wird an der genauen Stelle auf der Seite gerendert, an der Sie es einfügen (typischerweise im Kopfbereich der Seite). Auf WordPress bettet das Navi+-Plugin es über Shortcode oder Gutenberg-Block ein — Sie bearbeiten niemals die Theme-Dateien.
 
 > Andere Plattformen (Wix, Squarespace, Webflow, benutzerdefinierte Seiten): siehe [Publish on Wix / Squarespace / Others]({{ site.baseurl }}/docs/usage/mega-menu-desktop/publish-on-wordpress-woocommerce-wix-others/).
 
@@ -15,7 +15,7 @@ A **Mega Menu (Desktop)** ist ein **Abschnittsmenü** — es verankert sich nich
 
 ## Schritte
 
-1. **Installieren Sie das Plugin** — siehe [Install the Navi+ AI Menu Builder plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
+1. **Installieren Sie das Plugin** — siehe [Install the Navi+ plugin]({{ site.baseurl }}/docs/integrations/wordpress-woocommerce/install-plugin/).
 2. **Erstellen Sie Ihr Mega Menu** in **Aussehen → Naviplus Menu Builder**. Siehe [Mega Menu (Desktop) — How to use]({{ site.baseurl }}/docs/usage/mega-menu-desktop/how-to-use/) für Designanleitungen.
 3. **Kopieren Sie die Embed-ID** des Menüs (angezeigt im Veröffentlichungsbereich — sieht aus wie `SF-123456789`).
 4. **Fügen Sie das Menü** dort ein, wo Sie es auf der Seite haben möchten (nächster Abschnitt).

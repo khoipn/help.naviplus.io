@@ -118,7 +118,7 @@ title: 一般的なメニューを探る
 </details>
 
 <details><summary>私はStarterプランで1つのメニュー枠しかありません。もっと試すにはどうすればいいですか？</summary>
-<p><strong>BusinessまたはElite</strong>にアップグレードしてください — コミットする前にすべてを探索するための<strong>7日間の無料トライアル</strong>が得られます。</p>
+<p><strong>BusinessまたはElite</strong>にアップグレードしてください — コミットする前にすべてを探索するための<strong>14日間の無料トライアル</strong>が得られます。</p>
 </details>
 
 <details><summary>Navi+に既存のメニューをインポートできますか？</summary>

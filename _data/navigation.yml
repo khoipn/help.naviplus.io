@@ -271,6 +271,9 @@
   - processed_path: usage/menu-structure-and-css
     title: HTML & CSS structure of menus
     url: /docs/usage/menu-structure-and-css/
+  - processed_path: usage/menu-item-structure-and-css
+    title: Menu item structure and CSS
+    url: /docs/usage/menu-item-structure-and-css/
   - processed_path: usage/debug-mode-find-css-selectors
     title: Find CSS Selector / Debug mode
     url: /docs/usage/debug-mode-find-css-selectors/

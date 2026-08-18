@@ -46,7 +46,7 @@ Bắt đầu miễn phí với gói Starter. Các gói Business và Elite mở k
 
 #### Có bản dùng thử miễn phí không?
 
-Có — 7 ngày miễn phí, không tính phí. Hủy bất cứ lúc nào.
+Có — 14 ngày miễn phí, không tính phí. Hủy bất cứ lúc nào.
 
 ***
 

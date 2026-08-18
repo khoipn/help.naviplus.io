@@ -118,7 +118,7 @@ No tienes que elegir solo uno. Las tiendas de mejor rendimiento superponen múlt
 </details>
 
 <details><summary>Estoy en el plan Starter con solo 1 espacio de menú. ¿Cómo puedo probar más?</summary>
-<p>Actualiza a <strong>Business o Elite</strong>: obtienes una <strong>prueba gratuita de 7 días</strong> para explorar todo antes de comprometerte.</p>
+<p>Actualiza a <strong>Business o Elite</strong>: obtienes una <strong>prueba gratuita de 14 días</strong> para explorar todo antes de comprometerte.</p>
 </details>
 
 <details><summary>¿Puedo importar mi menú existente a Navi+?</summary>

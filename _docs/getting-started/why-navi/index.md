@@ -84,7 +84,7 @@ If you sell across multiple markets, your menu needs to go with you. Integration
 
 Finally, and perhaps most importantly: you — the site owner — must be able to change your menu when you need to. Upcoming sale season, new collection launch, new marketing strategy, A/B testing a different layout — all of this must be doable by drag-and-drop, without hiring a dev, without waiting on a deploy.
 
-## Our solution: Navi+ AI Menu Builder
+## Our solution: Navi+
 
 Navi+ is a **no-code menu builder** — it helps you create beautiful, high-converting menus for any website without touching your theme or writing a single line of code.
 

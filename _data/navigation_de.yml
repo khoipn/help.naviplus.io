@@ -292,7 +292,7 @@
     url: /docs/usage/shopify/
   - children:
     - processed_path: integrations/wordpress-woocommerce/install-plugin
-      title: Installieren Sie das Navi+ AI Menu Builder-Plugin
+      title: Installieren Sie das Navi+-Plugin
       url: /docs/integrations/wordpress-woocommerce/install-plugin/
     - processed_path: integrations/wordpress-woocommerce/get-started
       title: Erstellen Sie Ihr erstes Menü
@@ -304,7 +304,7 @@
       title: Navi+ Menü Builder FAQ
       url: /docs/integrations/wordpress-woocommerce/faq/
     processed_path: integrations/wordpress-woocommerce
-    title: WordPress / WooCommerce — Navi+ AI Menu Builder
+    title: WordPress / WooCommerce — Navi+
     url: /docs/integrations/wordpress-woocommerce/
   - children:
     - processed_path: integrations/chat-tools/shopify-inbox
