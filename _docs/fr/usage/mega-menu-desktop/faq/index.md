@@ -126,7 +126,15 @@ Ces deux paramètres sont indépendants — activer l'un n'active pas l'autre. I
 
 #### Question 2 : Comment puis-je afficher mon Desktop Mega Menu en tant que menu Slide sur mobile ?
 
-Utilisez **Smart responsive** au lieu de reconstruire l'arborescence à la main : ouvrez votre Desktop Mega Menu → **Setting → Mobile** → carte **« Smart responsive »**. Il incorpore une référence en direct de ce menu dans un menu Slide — vous continuez à éditer le contenu ici uniquement, et la version mobile se met à jour automatiquement.
+Parfois, vous voulez l'approche responsive classique : construire un seul Desktop Mega Menu et le laisser se replier automatiquement en menu Slide (Hamburger) sur mobile, plutôt que de construire un menu mobile séparé de zéro.
+
+**Point fort :** vous ne maintenez qu'un seul menu — la version bureau. La copie mobile suit automatiquement, il n'y a donc pas de second arbre à garder synchronisé.
+
+**Point faible critique :** le mobile-first est aujourd'hui la bonne façon de concevoir la navigation — pour la plupart des boutiques, le mobile apporte le plus de visites et souvent le plus de revenus. Un arbre conçu pour une large barre de bureau puis compressé est en réalité *desktop-first* : trop de taps pour atteindre un lien, des regroupements façon menu déroulant qui se lisent mal en liste empilée, et aucune place pour des raccourcis propres au mobile. Pour la navigation principale d'une boutique, un menu pensé pour le mobile dès le départ (un menu Slide, Grid ou TabBar dédié) vaut généralement l'entretien supplémentaire.
+
+**Une option intermédiaire :** utilisez **Smart responsive** de Navi+ pour refléter le Desktop Mega Menu dans un menu Slide (étapes ci-dessous), associé à un élément **TabBar** qui ouvre directement ce menu Slide. Réglez le champ **Link To** de l'élément TabBar sur `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)* — avec l'embed ID du menu Slide — pour que les visiteurs mobiles disposent d'un vrai point d'entrée dans la barre du bas plutôt que de dépendre d'une icône hamburger cachée. Cela garde une configuration quasi nulle tout en améliorant nettement l'expérience mobile.
+
+Ouvrez votre Desktop Mega Menu → **Setting → Mobile** → carte **« Smart responsive »** pour intégrer une **référence en direct** de ce menu dans un menu Slide — vous ne modifiez le contenu qu'ici, et la version mobile se met à jour automatiquement.
 
 <div align="center">
 
@@ -171,10 +179,14 @@ Utilisez **Smart responsive** au lieu de reconstruire l'arborescence à la main 
 
 **Étape 1 : Copiez ce modèle d'élément de menu** — cliquez sur **Copy embed item**.
 
-**Étape 2 : Choisissez le menu Slide pour le coller dedans** — collez-le au **level 1** d'un menu Slide existant (ou créez d'abord un nouveau menu Slide si vous n'en avez pas encore).
+**Étape 2 : Choisissez le menu Slide où le coller** — collez-le au **level 1** d'un menu Slide existant (ou créez d'abord un nouveau menu Slide si vous n'en avez pas encore).
 
-**Étape 3 : Masquez un élément de la copie mobile** *(optionnel)* — ouvrez n'importe quel élément → **Visibility** → activez **« Exclude when embedded »**. Il reste dans la version bureau et ne disparaît que de la copie mobile incorporée.
+Les mises en page multi-colonnes sont aplaties automatiquement : les colonnes deviennent une liste verticale unique, les titres de colonnes sont supprimés, et une ligne de séparation est insérée là où se trouvaient les colonnes séparées — pour que les visiteurs atteignent chaque lien en un appui au lieu de deux.
 
-Les mises en page multi-colonnes sont aplaties automatiquement : les colonnes deviennent une liste verticale unique, les titres de colonnes sont supprimés, et une ligne de séparation est insérée où les colonnes séparées se trouvaient autrefois — pour que les visiteurs atteignent chaque lien en un appui au lieu de deux.
+Une fois intégré, la carte affiche **« This menu already shows on mobile »** avec un lien direct vers le menu Slide, pour que vous puissiez le vérifier à tout moment.
 
-Une fois incorporé, la carte affiche **« This menu already shows on mobile »** avec un lien direct vers le menu Slide, pour que vous puissiez le vérifier à tout moment.
+**Réglages fins de la copie mobile :**
+
+- **Masquer les éléments réservés au bureau** — certaines colonnes ou certains liens n'ont de sens qu'en largeur bureau. Ouvrez l'élément sur le Desktop Mega Menu → **Visibility** → activez **« Exclude when embedded »**. Il reste sur le bureau et disparaît seulement de la copie mobile.
+- **Ajouter des éléments réservés au mobile** — le menu Slide n'est pas limité à ce que la référence y apporte. Ajoutez des éléments level-1 ordinaires juste à côté de celui intégré pour ce dont la barre de bureau n'a pas besoin : un bouton appel/WhatsApp, les horaires du magasin, un sélecteur de langue, ou des liens qui vivent normalement dans l'en-tête ou le pied de page du thème. Ceux-ci vivent directement dans le menu Slide et ne touchent en rien la version bureau.
+

@@ -124,9 +124,17 @@ Hai cài đặt này độc lập với nhau — bật một cái không bật c
 
 ***
 
-#### Câu hỏi 2: Làm cách nào để hiển thị Desktop Mega Menu dưới dạng Slide menu trên di động?
+#### Câu hỏi 2: Làm sao để hiển thị Desktop Mega Menu dưới dạng Slide menu trên di động?
 
-Sử dụng **Smart responsive** thay vì xây dựng lại cây bằng tay: mở Desktop Mega Menu của bạn → **Setting → Mobile** → thẻ **"Smart responsive"**. Nó nhúng một **tham chiếu trực tiếp** của menu này vào Slide menu — bạn chỉ chỉnh sửa nội dung ở đây, và phiên bản di động cập nhật tự động.
+Đôi khi bạn muốn dùng cách responsive kiểu cũ: dựng một Desktop Mega Menu duy nhất rồi để nó tự thu gọn thành Slide (Hamburger) menu trên di động, thay vì dựng riêng một menu mobile từ đầu.
+
+**Điểm mạnh:** chỉ cần maintain 1 menu — bản desktop. Bản mobile tự động ăn theo, không có cây thứ hai phải giữ đồng bộ.
+
+**Điểm yếu chí mạng:** mobile-first mới là xu hướng thiết kế điều hướng đúng hiện nay — với đa số store, điện thoại mang lại lượt truy cập nhiều nhất, thường cả doanh thu cao nhất. Một cây menu dựng cho thanh desktop rộng rồi ép xuống mobile thực chất là *desktop-first*: quá nhiều lần chạm mới tới được 1 link, các nhóm kiểu dropdown khi xếp dọc lại đọc rất khó, và không có chỗ cho các shortcut riêng cho mobile. Với menu điều hướng chính của store, dựng riêng 1 menu cho mobile ngay từ đầu (Slide, Grid, hoặc TabBar riêng) thường đáng công maintain thêm hơn.
+
+**Giải pháp trung dung:** dùng **Smart responsive** của Navi+ để phản chiếu Desktop Mega Menu vào 1 Slide menu (các bước bên dưới), kết hợp thêm 1 item **TabBar** mở thẳng Slide menu đó. Đặt **Link To** của item TabBar thành `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)* — dùng embed ID của Slide menu — để khách trên mobile có hẳn 1 điểm mở ở thanh dưới thay vì trông chờ vào icon hamburger ẩn. Cách này gần như không tốn thêm công thiết lập mà cải thiện trải nghiệm mobile rõ rệt.
+
+Mở Desktop Mega Menu của bạn → **Setting → Mobile** → thẻ **"Smart responsive"** để nhúng một **tham chiếu sống** của menu này vào Slide menu — bạn chỉ chỉnh nội dung ở đây, bản mobile tự cập nhật theo.
 
 <div align="center">
 
@@ -169,12 +177,16 @@ Sử dụng **Smart responsive** thay vì xây dựng lại cây bằng tay: m�
 
 </div>
 
-**Bước 1: Sao chép mẫu menu item này** — nhấp vào **Copy embed item**.
+**Bước 1: Sao chép mẫu item này** — nhấp **Copy embed item**.
 
-**Bước 2: Chọn Slide menu để dán vào** — dán nó ở **level 1** của một Slide menu hiện có (hoặc tạo một Slide menu mới trước nếu bạn chưa có).
+**Bước 2: Chọn Slide menu để dán vào** — dán ở **level 1** của một Slide menu có sẵn (hoặc tạo Slide menu mới trước nếu chưa có).
 
-**Bước 3: Ẩn mục khỏi bản sao di động** *(tùy chọn)* — mở bất kỳ mục nào → **Visibility** → bật **"Exclude when embedded"**. Nó vẫn ở trên phiên bản desktop và chỉ biến mất khỏi bản sao di động được nhúng.
+Bố cục nhiều cột tự động được làm phẳng: các cột trở thành 1 danh sách dọc, tiêu đề cột bị bỏ, và tự chèn 1 đường kẻ ngăn ở chỗ từng là ranh giới cột — để khách chạm 1 lần là tới được mọi link thay vì 2 lần.
 
-Các bố cục đa cột được làm phẳng tự động: các cột trở thành một danh sách dọc, tiêu đề cột bị loại bỏ, và một đường phân cách được chèn vào nơi các cột tách biệt từng có — để khách truy cập có thể truy cập mọi liên kết chỉ bằng một cú chạm thay vì hai.
+Sau khi nhúng, thẻ hiển thị **"This menu already shows on mobile"** kèm link thẳng tới Slide menu, để bạn kiểm tra bất cứ lúc nào.
 
-Sau khi nhúng, thẻ hiển thị **"This menu already shows on mobile"** với một liên kết thẳng tới Slide menu, để bạn có thể kiểm tra bất kỳ lúc nào.
+**Tinh chỉnh bản mobile:**
+
+- **Ẩn item chỉ hợp với desktop** — một số cột/link chỉ hợp lý ở chiều rộng desktop. Mở item đó trên Desktop Mega Menu → **Visibility** → bật **"Exclude when embedded"**. Item vẫn còn trên desktop, chỉ biến mất khỏi bản mobile.
+- **Thêm item riêng cho mobile** — Slide menu không bị giới hạn chỉ những gì tham chiếu mang qua. Thêm các item level-1 bình thường ngay cạnh item nhúng cho những thứ thanh desktop không cần: nút gọi/WhatsApp, giờ mở cửa, nút đổi ngôn ngữ, hay các link vốn nằm ở header/footer theme. Các item này sống trực tiếp trong Slide menu, không đụng gì tới bản desktop.
+

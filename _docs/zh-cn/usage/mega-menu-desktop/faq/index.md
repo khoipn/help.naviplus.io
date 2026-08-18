@@ -126,7 +126,15 @@ title: 常见问题
 
 #### 问题 2：我如何在移动设备上以 Slide menu 形式展示我的 Desktop Mega Menu？
 
-使用 **Smart responsive** 而不是手动重建树：打开您的 Desktop Mega Menu → **Setting → Mobile** → 卡片 **"Smart responsive"**。它将此菜单的 **live reference** 嵌入到 Slide menu 中 — 您只在此处编辑内容，移动版本会自动更新。
+有时你会想采用经典的响应式做法：只搭建一个 Desktop Mega Menu，让它在移动设备上自动折叠成 Slide（Hamburger）menu，而不是从零开始搭建一个独立的移动菜单。
+
+**优点：** 只需维护一个菜单——桌面版本。移动版会自动跟随，不需要再维护第二棵树来保持同步。
+
+**致命弱点：** 移动优先才是当今导航设计该走的方向——对大多数店铺来说，手机带来了最多的访问量，往往也带来最多的收入。为宽阔的桌面栏搭建再压缩到移动端的树，本质上其实是"*桌面优先*"：要点很多次才能到达一个链接，下拉式的分组在堆叠列表里读起来很别扭，也没有位置放移动端专属的快捷入口。对于店铺的主导航，从一开始就为移动端设计的菜单（专门的 Slide、Grid 或 TabBar menu）通常更值得多花的维护成本。
+
+**折中方案：** 用 Navi+ 的 **Smart responsive** 把 Desktop Mega Menu 镜像到一个 Slide menu 里（步骤见下），再搭配一个直接打开该 Slide menu 的 **TabBar** item。把 TabBar item 的 **Link To** 字段设为 `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)*——用这个 Slide menu 的 embed ID——这样移动端访客能有一个正经的底部栏入口，而不必依赖藏起来的汉堡图标。这样设置成本几乎为零，却能明显提升移动端体验。
+
+打开你的 Desktop Mega Menu → **Setting → Mobile** → 卡片 **"Smart responsive"**，把这个菜单的 **live reference** 嵌入到一个 Slide menu 中——你只需要在这里编辑内容，移动版会自动跟着更新。
 
 <div align="center">
 
@@ -171,10 +179,14 @@ title: 常见问题
 
 **步骤 1：复制此菜单项模板** — 点击 **Copy embed item**。
 
-**步骤 2：选择要粘贴的 Slide menu** — 将其粘贴到现有 Slide menu 的 **level 1**（如果您还没有 Slide menu，请先创建一个）。
+**步骤 2：选择要粘贴到的 Slide menu** — 粘贴到某个已有 Slide menu 的 **level 1**（如果还没有 Slide menu，先创建一个）。
 
-**步骤 3：从移动副本中隐藏项目** *(可选)* — 打开任何项目 → **Visibility** → 启用 **"Exclude when embedded"**。它保留在桌面版本中，仅从嵌入的移动副本中消失。
+多列布局会自动拉平：列会变成一个纵向列表，列标题被去掉，原本分隔各列的地方会自动插入一条分隔线——这样访客一次点击就能到达每个链接，而不用点两次。
 
-多列布局会自动展平：列变为一个垂直列表，列标题被删除，在原来的单独列之间插入分隔线 — 这样访问者只需点击一次就能到达每个链接，而不是两次。
+嵌入之后，卡片会显示 **"This menu already shows on mobile"**，并带有一个直达该 Slide menu 的链接，方便你随时查看。
 
-嵌入后，卡片会显示 **"This menu already shows on mobile"**，并带有直接指向 Slide menu 的链接，以便您随时检查。
+**微调移动端副本：**
+
+- **隐藏仅桌面需要的项目** — 有些列或链接只在桌面宽度下才有意义。打开 Desktop Mega Menu 上的该项目 → **Visibility** → 开启 **"Exclude when embedded"**。它会保留在桌面版，只从移动端副本中消失。
+- **添加仅移动端需要的项目** — Slide menu 并不局限于引用带过来的内容。可以在嵌入项旁边添加普通的 level-1 项目，放桌面栏不需要的东西：打电话/WhatsApp 按钮、营业时间、语言切换器，或平时放在主题页头/页脚的链接。这些直接存在于 Slide menu 里，完全不会影响桌面版本。
+
