@@ -1,5 +1,5 @@
 ---
-description: Trải nghiệm duyệt web trên máy tính để bàn và di động là khác nhau về cơ bản — đặc biệt là cách người dùng điều hướng và tương tác với một trang web.
+description: Hai cài đặt giúp ngăn Desktop Mega Menu xuống dòng thứ hai hoặc chuyển sang chế độ di động quá sớm, và một cách để hiển thị nó dưới dạng Slide menu trên di động.
 lang: vi
 layout: default
 permalink: /vi/docs/usage/mega-menu-desktop/faq/
@@ -7,23 +7,174 @@ title: Câu hỏi thường gặp
 ---
 # Câu hỏi thường gặp
 
-#### Câu hỏi 1: Tại sao Navi+ không tự động hiển thị Mega Menu trên máy tính để bàn trên các thiết bị di động?
+#### Câu hỏi 1: Làm cách nào để ngăn Desktop Mega Menu xuống dòng thứ hai?
 
-Trải nghiệm duyệt web trên máy tính để bàn và di động là khác nhau về cơ bản — đặc biệt là cách người dùng điều hướng và tương tác với một trang web.
+Có hai tình huống có thể làm hỏng bố cục thanh Desktop Mega Menu: quá nhiều mục ở cấp cao nhất, hoặc website được xem trong cửa sổ trình duyệt hẹp hơn desktop tiêu chuẩn. Hai cài đặt có thể sửa vấn đề này — không cần code.
 
-Trên máy tính để bàn, người dùng có nhiều không gian màn hình hơn và có thể dễ dàng xem các mega menu lớn, phức tạp được hiển thị dưới tiêu đề.
+<div align="center">
 
-Tuy nhiên, trên di động, màn hình nhỏ hơn và người dùng chủ yếu điều hướng bằng ngón tay cái, vì vậy việc hiển thị cùng một mega menu sẽ làm cho giao diện trở nên lộn xộn, khó chạm và chậm tải hơn.
+<svg viewBox="0 0 680 340" width="100%" style="max-width:640px;font-family:-apple-system,Segoe UI,Roboto,sans-serif" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="24" font-size="14" font-weight="600" fill="#1a1d21">Before — too many items wrap to a second line</text>
+  <rect x="20" y="36" width="640" height="110" rx="8" fill="#f8f9fa" stroke="#e6e8eb"/>
+  <g font-size="13" fill="#1a1d21">
+    <rect x="34" y="50" width="70" height="28" rx="14" fill="#fff" stroke="#e6e8eb"/><text x="69" y="68" text-anchor="middle">Home</text>
+    <rect x="112" y="50" width="70" height="28" rx="14" fill="#fff" stroke="#e6e8eb"/><text x="147" y="68" text-anchor="middle">Shop</text>
+    <rect x="190" y="50" width="110" height="28" rx="14" fill="#fff" stroke="#e6e8eb"/><text x="245" y="68" text-anchor="middle">Categories</text>
+    <rect x="308" y="50" width="70" height="28" rx="14" fill="#fff" stroke="#e6e8eb"/><text x="343" y="68" text-anchor="middle">Sale</text>
+    <rect x="386" y="50" width="70" height="28" rx="14" fill="#fff" stroke="#e6e8eb"/><text x="421" y="68" text-anchor="middle">Blog</text>
+    <rect x="464" y="50" width="82" height="28" rx="14" fill="#fff" stroke="#e6e8eb"/><text x="505" y="68" text-anchor="middle">About</text>
+    <rect x="554" y="50" width="42" height="28" rx="14" fill="#fff" stroke="#e6e8eb" stroke-dasharray="3 2"/>
+  </g>
+  <g font-size="13" fill="#1a1d21">
+    <rect x="34" y="92" width="42" height="28" rx="14" fill="#fff" stroke="#e6e8eb" stroke-dasharray="3 2"/>
+    <rect x="84" y="92" width="94" height="28" rx="14" fill="#fff" stroke="#e6e8eb"/><text x="131" y="110" text-anchor="middle">Contact</text>
+    <rect x="186" y="92" width="94" height="28" rx="14" fill="#fff" stroke="#e6e8eb"/><text x="233" y="110" text-anchor="middle">Support</text>
+  </g>
+  <text x="600" y="140" font-size="20" text-anchor="middle" fill="#dc2626">⚠</text>
+  <text x="20" y="170" font-size="12" fill="#4b5563">The second row pushes page content down, and the header height changes unpredictably across screen sizes.</text>
 
-Đó là lý do tại sao Navi+ không tự động chuyển đổi một mega menu trên máy tính để bàn thành phiên bản di động.
+  <text x="20" y="204" font-size="14" font-weight="600" fill="#1a1d21">After — "Menu overflow navigation" keeps it on one row</text>
+  <rect x="20" y="216" width="640" height="50" rx="8" fill="#f8f9fa" stroke="#e6e8eb"/>
+  <g font-size="13" fill="#1a1d21">
+    <rect x="34" y="228" width="70" height="26" rx="13" fill="#fff" stroke="#e6e8eb"/><text x="69" y="245" text-anchor="middle">Home</text>
+    <rect x="112" y="228" width="70" height="26" rx="13" fill="#fff" stroke="#e6e8eb"/><text x="147" y="245" text-anchor="middle">Shop</text>
+    <rect x="190" y="228" width="106" height="26" rx="13" fill="#fff" stroke="#e6e8eb"/><text x="243" y="245" text-anchor="middle">Categories</text>
+    <rect x="304" y="228" width="66" height="26" rx="13" fill="#fff" stroke="#e6e8eb"/><text x="337" y="245" text-anchor="middle">Sale</text>
+    <rect x="378" y="228" width="66" height="26" rx="13" fill="#fff" stroke="#e6e8eb"/><text x="411" y="245" text-anchor="middle">Blog</text>
+  </g>
+  <rect x="600" y="228" width="40" height="26" rx="13" fill="#1a7a4f"/>
+  <text x="620" y="246" font-size="14" text-anchor="middle" fill="#fff">›</text>
+  <path d="M615 216 L625 216 L620 208 Z" fill="#fff" stroke="#e6e8eb"/>
+  <rect x="520" y="150" width="140" height="66" rx="6" fill="#fff" stroke="#e6e8eb"/>
+  <text x="590" y="170" font-size="12" text-anchor="middle" fill="#1a1d21">About</text>
+  <text x="590" y="188" font-size="12" text-anchor="middle" fill="#1a1d21">Contact</text>
+  <text x="590" y="206" font-size="12" text-anchor="middle" fill="#1a1d21">Support</text>
+  <text x="20" y="298" font-size="12" fill="#4b5563">Items that don't fit (About, Contact, Support...) live behind the arrow button — click to reveal them, without wrapping.</text>
+</svg>
 
-Thay vào đó, bạn nên tạo một menu di động chuyên dụng cung cấp trải nghiệm người dùng tốt hơn:
+</div>
 
-* Menu chính — đặt chúng trong TabBar ở dưới cùng của màn hình, nơi dễ dàng với tới bằng ngón tay cái.
-* Menu bổ sung — di chuyển chúng vào một menu Slide (Hamburger) (bảng trượt) hoặc một Mega Menu dành riêng cho di động.
+**Menu overflow navigation** — đi tới **Setting → Layout → Desktop** và bật **"Show navigation arrows when menu overflows"**. Khi bật, thanh cấp cao nhất luôn ở một dòng; các mục không vừa được ẩn sau nút `›` thay vì xuống dòng. Hai trường bổ sung cho phép bạn tùy chỉnh nút: **Button background color** và **Arrow icon color**.
 
-👉 Với tính năng Copy & Paste menu tiện lợi của Navi+, bạn có thể sao chép mega menu trên máy tính để bàn và điều chỉnh nó cho di động chỉ trong vài phút — giúp bạn kiểm soát hoàn toàn và đảm bảo cả hai phiên bản đều được tối ưu hóa hoàn hảo cho nền tảng của chúng.
+**Mobile switch breakpoint** — theo mặc định, màn hình bất kỳ hẹp hơn 768px sẽ chuyển toàn bộ menu sang chế độ di động/hamburger, ngay cả khi vẫn còn đủ chỗ cho bố cục desktop (thường gặp trên tablet hoặc cửa sổ trình duyệt đã thay đổi kích thước). Trong cùng khu vực **Setting → Layout → Desktop**, hạ thấp trường **Breakpoint (px)** để giữ thanh desktop hiển thị cho đến chiều rộng hẹp hơn.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FIyqr51wbUWWEFQoBLJ21%2FSlide-0.webp?alt=media&#x26;token=1129dc86-8ebc-4447-8665-2863f0378f74" alt=""><figcaption></figcaption></figure>
+<div align="center">
+
+<svg viewBox="0 0 640 210" width="100%" style="max-width:600px;font-family:-apple-system,Segoe UI,Roboto,sans-serif" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="10" width="600" height="190" rx="10" fill="#fff" stroke="#e6e8eb"/>
+  <text x="40" y="34" font-size="12" font-style="italic" fill="#4b5563">Setting → Layout → Desktop</text>
+  <line x1="40" y1="44" x2="580" y2="44" stroke="#e6e8eb"/>
+  <rect x="40" y="62" width="24" height="24" rx="6" fill="#e6f4ed" stroke="#1a7a4f"/>
+  <text x="52" y="79" font-size="13" text-anchor="middle" fill="#1a7a4f">↔</text>
+  <text x="76" y="72" font-size="13" font-weight="600" fill="#1a1d21">Mobile switch breakpoint</text>
+  <text x="76" y="90" font-size="11" fill="#6b7280">Screen width below which the menu switches to mobile</text>
+  <rect x="480" y="60" width="80" height="26" rx="5" fill="#f8f9fa" stroke="#e6e8eb"/>
+  <text x="520" y="78" font-size="12" text-anchor="middle" fill="#1a1d21">768 px</text>
+  <line x1="40" y1="114" x2="580" y2="114" stroke="#f0f2f4"/>
+  <rect x="40" y="132" width="24" height="24" rx="6" fill="#e6f4ed" stroke="#1a7a4f"/>
+  <text x="52" y="149" font-size="13" text-anchor="middle" fill="#1a7a4f">›</text>
+  <text x="76" y="142" font-size="13" font-weight="600" fill="#1a1d21">Menu overflow navigation</text>
+  <text x="76" y="160" font-size="11" fill="#6b7280">Show navigation arrows when the menu overflows</text>
+  <rect x="520" y="130" width="40" height="22" rx="11" fill="#1a7a4f"/>
+  <circle cx="550" cy="141" r="9" fill="#fff"/>
+  <text x="40" y="188" font-size="11" fill="#6b7280">Both cards only appear for a Desktop Mega Menu — not Tabbar, FAB, Slide, or Mobile Mega Menu.</text>
+</svg>
+
+</div>
+
+<div align="center">
+
+<svg viewBox="0 0 680 260" width="100%" style="max-width:640px;font-family:-apple-system,Segoe UI,Roboto,sans-serif" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="22" font-size="14" font-weight="600" fill="#1a1d21">Default — fixed at 768px</text>
+  <rect x="40" y="34" width="384" height="34" fill="#e6e8eb"/>
+  <text x="232" y="56" font-size="12" text-anchor="middle" fill="#4b5563">Mobile / Hamburger</text>
+  <rect x="424" y="34" width="216" height="34" fill="#e6f4ed" stroke="#1a7a4f"/>
+  <text x="532" y="56" font-size="12" text-anchor="middle" fill="#0f5c3a">Desktop Mega Menu</text>
+  <line x1="424" y1="26" x2="424" y2="76" stroke="#1a1d21" stroke-dasharray="3 2"/>
+  <text x="424" y="90" font-size="11" text-anchor="middle" fill="#1a1d21">768px</text>
+
+  <text x="20" y="140" font-size="14" font-weight="600" fill="#1a1d21">After setting Breakpoint = 600 (+ overflow navigation enabled)</text>
+  <rect x="40" y="152" width="300" height="34" fill="#e6e8eb"/>
+  <text x="190" y="174" font-size="12" text-anchor="middle" fill="#4b5563">Mobile / Hamburger</text>
+  <rect x="340" y="152" width="84" height="34" fill="#e6f4ed" stroke="#1a7a4f" stroke-dasharray="4 2"/>
+  <text x="382" y="169" font-size="10.5" text-anchor="middle" fill="#0f5c3a">Desktop</text>
+  <text x="382" y="181" font-size="10.5" text-anchor="middle" fill="#0f5c3a">(new range)</text>
+  <rect x="424" y="152" width="216" height="34" fill="#e6f4ed" stroke="#1a7a4f"/>
+  <text x="532" y="174" font-size="12" text-anchor="middle" fill="#0f5c3a">Desktop Mega Menu</text>
+  <line x1="340" y1="144" x2="340" y2="194" stroke="#1a1d21" stroke-dasharray="3 2"/>
+  <text x="340" y="208" font-size="11" text-anchor="middle" fill="#1a1d21">600px</text>
+  <line x1="424" y1="144" x2="424" y2="194" stroke="#1a1d21" stroke-dasharray="3 2"/>
+  <text x="424" y="208" font-size="11" text-anchor="middle" fill="#1a1d21">768px</text>
+  <text x="20" y="238" font-size="12" fill="#4b5563">The 600–768px range used to be hidden as mobile — it now keeps the desktop layout.</text>
+</svg>
+
+</div>
+
+> Dải mới mà điều này mở ra (giữa breakpoint của bạn và 768px) hẹp hơn desktop tiêu chuẩn — bật **Menu overflow navigation** ở trên để các mục cấp cao nhất không xuống dòng trong dải đó.
+
+**Ví dụ:** Breakpoint = `600` với Menu overflow navigation đã bật:
+
+| Chiều rộng màn hình | Hành vi |
+|---|---|
+| Dưới 600px | Menu di động / hamburger |
+| 600px – 768px | Desktop Mega Menu, nút mũi tên giữ các mục ở một dòng |
+| Trên 768px | Desktop Mega Menu, hành vi tiêu chuẩn |
+
+Hai cài đặt này độc lập với nhau — bật một cái không bật cái kia. Chúng chỉ ảnh hưởng đến **Desktop Mega Menu**, không phải Tabbar, FAB, Slide menu, hoặc Mobile Mega Menu.
 
 ***
+
+#### Câu hỏi 2: Làm cách nào để hiển thị Desktop Mega Menu dưới dạng Slide menu trên di động?
+
+Sử dụng **Smart responsive** thay vì xây dựng lại cây bằng tay: mở Desktop Mega Menu của bạn → **Setting → Mobile** → thẻ **"Smart responsive"**. Nó nhúng một **tham chiếu trực tiếp** của menu này vào Slide menu — bạn chỉ chỉnh sửa nội dung ở đây, và phiên bản di động cập nhật tự động.
+
+<div align="center">
+
+<svg viewBox="0 0 640 300" width="100%" style="max-width:600px;font-family:-apple-system,Segoe UI,Roboto,sans-serif" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="20" font-size="13" font-weight="600" fill="#1a1d21">Desktop Mega Menu — 3 columns</text>
+  <rect x="20" y="30" width="270" height="230" rx="8" fill="#f8f9fa" stroke="#e6e8eb"/>
+  <text x="35" y="50" font-size="11" font-weight="600" fill="#1a1d21">Collections</text>
+  <line x1="20" y1="58" x2="290" y2="58" stroke="#e6e8eb"/>
+  <line x1="110" y1="66" x2="110" y2="252" stroke="#e6e8eb"/>
+  <line x1="200" y1="66" x2="200" y2="252" stroke="#e6e8eb"/>
+  <text x="35" y="76" font-size="10.5" font-weight="600" fill="#4b5563">Women</text>
+  <text x="35" y="94" font-size="10.5" fill="#1a1d21">Dresses</text>
+  <text x="35" y="112" font-size="10.5" fill="#1a1d21">Tops</text>
+  <text x="125" y="76" font-size="10.5" font-weight="600" fill="#4b5563">Men</text>
+  <text x="125" y="94" font-size="10.5" fill="#1a1d21">New in</text>
+  <text x="125" y="112" font-size="10.5" fill="#1a1d21">Sale</text>
+  <text x="215" y="76" font-size="10.5" font-weight="600" fill="#4b5563">Info</text>
+  <text x="215" y="94" font-size="10.5" fill="#1a1d21">Size guide</text>
+  <text x="215" y="112" font-size="10.5" fill="#1a1d21">Shipping</text>
+
+  <text x="315" y="150" font-size="22" text-anchor="middle" fill="#1a7a4f">→</text>
+  <text x="315" y="172" font-size="10" text-anchor="middle" fill="#6b7280">Smart</text>
+  <text x="315" y="184" font-size="10" text-anchor="middle" fill="#6b7280">responsive</text>
+
+  <text x="360" y="20" font-size="13" font-weight="600" fill="#1a1d21">Slide menu — flattened to 1 column</text>
+  <rect x="360" y="30" width="130" height="250" rx="16" fill="#1a1d21"/>
+  <rect x="368" y="42" width="114" height="226" rx="4" fill="#fff"/>
+  <text x="425" y="60" font-size="10.5" font-weight="600" text-anchor="middle" fill="#1a1d21">Collections</text>
+  <line x1="374" y1="68" x2="476" y2="68" stroke="#e6e8eb"/>
+  <text x="380" y="86" font-size="9.5" fill="#1a1d21">Dresses</text>
+  <text x="380" y="102" font-size="9.5" fill="#1a1d21">Tops</text>
+  <line x1="374" y1="112" x2="476" y2="112" stroke="#f0f2f4"/>
+  <text x="380" y="128" font-size="9.5" fill="#1a1d21">New in</text>
+  <text x="380" y="144" font-size="9.5" fill="#1a1d21">Sale</text>
+  <line x1="374" y1="154" x2="476" y2="154" stroke="#f0f2f4"/>
+  <text x="380" y="170" font-size="9.5" fill="#1a1d21">Size guide</text>
+  <text x="380" y="186" font-size="9.5" fill="#1a1d21">Shipping</text>
+  <text x="425" y="250" font-size="8.5" text-anchor="middle" fill="#6b7280">one tap reaches every link</text>
+</svg>
+
+</div>
+
+**Bước 1: Sao chép mẫu menu item này** — nhấp vào **Copy embed item**.
+
+**Bước 2: Chọn Slide menu để dán vào** — dán nó ở **level 1** của một Slide menu hiện có (hoặc tạo một Slide menu mới trước nếu bạn chưa có).
+
+**Bước 3: Ẩn mục khỏi bản sao di động** *(tùy chọn)* — mở bất kỳ mục nào → **Visibility** → bật **"Exclude when embedded"**. Nó vẫn ở trên phiên bản desktop và chỉ biến mất khỏi bản sao di động được nhúng.
+
+Các bố cục đa cột được làm phẳng tự động: các cột trở thành một danh sách dọc, tiêu đề cột bị loại bỏ, và một đường phân cách được chèn vào nơi các cột tách biệt từng có — để khách truy cập có thể truy cập mọi liên kết chỉ bằng một cú chạm thay vì hai.
+
+Sau khi nhúng, thẻ hiển thị **"This menu already shows on mobile"** với một liên kết thẳng tới Slide menu, để bạn có thể kiểm tra bất kỳ lúc nào.
