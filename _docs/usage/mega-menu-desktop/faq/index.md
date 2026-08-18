@@ -8,7 +8,7 @@ title: FAQ
 
 #### Question 1: How do I stop my Desktop Mega Menu from wrapping to a second line?
 
-There are two situations that can break the layout of a desktop Mega Menu bar: too many top-level items, or the site being viewed in a window narrower than a standard desktop. Two settings fix this — no code required.
+There are two situations that can break the layout of a desktop Mega Menu bar: too many top-level items, or the site viewed in a window narrower than a standard desktop. Two settings under `Setting → Layout → Desktop` fix this — no code required.
 
 <div align="center">
 
@@ -53,9 +53,13 @@ There are two situations that can break the layout of a desktop Mega Menu bar: t
 
 </div>
 
-**Menu overflow navigation** — go to **Setting → Layout → Desktop** and toggle **"Show navigation arrows when menu overflows"**. When enabled, the top-level bar always stays on one row; items that don't fit are tucked behind a `›` arrow button instead of wrapping. Two extra fields let you style the button: **Button background color** and **Arrow icon color**.
+##### Menu overflow navigation
 
-**Mobile switch breakpoint** — by default, any screen narrower than 768px switches the whole menu to mobile/hamburger mode, even if there's still enough room for a desktop layout (common on tablets or a resized browser window). In the same **Setting → Layout → Desktop** area, lower the **Breakpoint (px)** field to keep the desktop bar visible down to a narrower width.
+Turn on `Show navigation arrows when menu overflows`. The top-level bar always stays on one row; items that don't fit are tucked behind a `›` arrow button instead of wrapping. Two color fields, `Button background color` and `Arrow icon color`, let you style the button.
+
+##### Mobile switch breakpoint
+
+By default, any screen narrower than 768px switches the whole menu to mobile mode, even if there's still enough room for a desktop layout — common on tablets or a resized browser window. Lower the `Breakpoint (px)` field to keep the desktop bar visible down to a narrower width.
 
 <div align="center">
 
@@ -109,9 +113,9 @@ There are two situations that can break the layout of a desktop Mega Menu bar: t
 
 </div>
 
-> The new range this opens up (between your breakpoint and 768px) is narrower than a standard desktop — enable **Menu overflow navigation** above so top-level items don't wrap in that range.
+> The new range this opens up (between your breakpoint and 768px) is narrower than a standard desktop — turn on Menu overflow navigation too, so top-level items don't wrap in that range.
 
-**Example:** Breakpoint = `600` with Menu overflow navigation enabled:
+Example: breakpoint = `600` with Menu overflow navigation on:
 
 | Screen width | Behavior |
 |---|---|
@@ -119,7 +123,7 @@ There are two situations that can break the layout of a desktop Mega Menu bar: t
 | 600px – 768px | Desktop Mega Menu, arrow button keeps items on one row |
 | Above 768px | Desktop Mega Menu, standard behavior |
 
-These two settings are independent — turning one on does not turn on the other. They only affect the **Desktop Mega Menu**, not the Tabbar, FAB, Slide menu, or Mobile Mega Menu.
+These two settings are independent, and only affect the Desktop Mega Menu — not the Tabbar, FAB, Slide menu, or Mobile Mega Menu.
 
 ***
 
@@ -127,13 +131,24 @@ These two settings are independent — turning one on does not turn on the other
 
 Sometimes you want the classic responsive approach: build one Desktop Mega Menu and let it collapse into a Slide (Hamburger) menu on mobile automatically, instead of building a separate mobile menu from scratch.
 
-**Strength:** you only maintain one menu — the desktop version. The mobile copy follows automatically, so there's no second tree to keep in sync.
+<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.25rem 0;">
+<div style="flex:1 1 260px;border-left:3px solid #1a7a4f;background:#e6f4ed;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#0f5c3a;font-weight:600;">Strength</span><br>
+<span style="color:#374151;">You only maintain one menu — the desktop version. The mobile copy follows automatically, with no second tree to keep in sync.</span>
+</div>
+<div style="flex:1 1 260px;border-left:3px solid #dc2626;background:#fef2f2;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#b91c1c;font-weight:600;">Weakness</span><br>
+<span style="color:#374151;">Mobile-first is how navigation should be designed today — phones bring most visits and often most revenue. A tree squeezed down from a wide desktop bar is really desktop-first: too many taps per link, dropdown-style groups that read poorly as a stacked list, no room for mobile-only shortcuts.</span>
+</div>
+</div>
 
-**Critical weakness:** mobile-first is how navigation should be designed today — for most stores, phones bring the most visits and often the most revenue. A tree built for a wide desktop bar and then squeezed down is really *desktop-first*: too many taps to reach a link, dropdown-style groupings that don't read well as a stacked list, and no room for mobile-only shortcuts. For a store's main navigation, a menu designed for mobile from the start (a dedicated Slide, Grid, or TabBar menu) is usually worth the extra maintenance.
+For a store's main navigation, a menu designed for mobile from the start — a dedicated Slide, Grid, or TabBar menu — is usually worth the extra maintenance.
 
-**A middle-ground option:** use Navi+'s **Smart responsive** to mirror the Desktop Mega Menu into a Slide menu (steps below), paired with a **TabBar** item that opens that Slide menu directly. Set the TabBar item's **Link To** field to `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)* — using the Slide menu's embed ID — so mobile visitors get a proper bottom-bar entry point instead of relying on a hidden hamburger icon. This keeps setup close to zero while noticeably improving the mobile experience.
+> Middle ground: mirror the Desktop Mega Menu into a Slide menu with `Smart responsive` (steps below), and add a TabBar item that opens it directly. Set the item's `Link To` field to `open:NaviMenu(SF-xxxxxxxxxx)` (Business / Elite) — using the Slide menu's embed ID — so mobile visitors get a real bottom-bar entry point instead of a hidden hamburger icon.
 
-Open your Desktop Mega Menu → **Setting → Mobile** → card **"Smart responsive"** to embed a **live reference** of this menu into a Slide menu — you keep editing content here only, and the mobile version updates automatically.
+##### Set up Smart responsive
+
+Open your Desktop Mega Menu → `Setting → Mobile` → card `Smart responsive`. It embeds a live reference of this menu into a Slide menu — you keep editing content here only, and the mobile version updates automatically.
 
 <div align="center">
 
@@ -176,15 +191,14 @@ Open your Desktop Mega Menu → **Setting → Mobile** → card **"Smart respons
 
 </div>
 
-**Step 1: Copy this menu item template** — click **Copy embed item**.
-
-**Step 2: Pick the Slide menu to paste it into** — paste it at **level 1** of an existing Slide menu (or create a new Slide menu first if you don't have one yet).
+1. Click `Copy embed item` to copy this menu item template.
+2. Paste it at `level 1` of an existing Slide menu — or create one first if you don't have one yet.
 
 Multi-column layouts are flattened automatically: columns become one vertical list, column titles are dropped, and a divider line is inserted where separate columns used to be — so visitors reach every link in one tap instead of two.
 
-Once embedded, the card shows **"This menu already shows on mobile"** with a link straight to the Slide menu, so you can check it anytime.
+Once embedded, the card shows `This menu already shows on mobile` with a link straight to the Slide menu, so you can check it anytime.
 
-**Fine-tuning the mobile copy:**
+##### Fine-tune the mobile copy
 
-- **Hide desktop-only items** — some columns or links only make sense at desktop width. Open the item on the Desktop Mega Menu → **Visibility** → turn on **"Exclude when embedded"**. It stays on desktop and simply disappears from the mobile copy.
-- **Add mobile-only items** — the Slide menu isn't limited to what the reference brings in. Add regular level-1 items right next to the embedded one for things the desktop bar doesn't need: a call/WhatsApp button, store hours, a language switcher, or links that normally live in the theme header or footer. These live directly in the Slide menu and don't touch the desktop version at all.
+- **Hide desktop-only items.** Open the item on the Desktop Mega Menu → `Visibility` → turn on `Exclude when embedded`. It stays on desktop and disappears only from the mobile copy.
+- **Add mobile-only items.** The Slide menu isn't limited to what the reference brings in — add regular level-1 items right next to the embedded one for things the desktop bar doesn't need: a call/WhatsApp button, store hours, a language switcher, or links that normally live in the theme header or footer. These live directly in the Slide menu and don't touch the desktop version at all.
