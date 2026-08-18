@@ -1,5 +1,5 @@
 ---
-description: Zwei Einstellungen verhindern, dass Ihr Desktop Mega Menu in eine zweite Zeile umgebrochen wird oder zu früh auf Mobilgeräte wechselt, und eine ermöglicht es Ihnen, das Menu auf Mobilgeräten als Slide menu anzuzeigen.
+description: Zwei Einstellungen halten Ihr Desktop Mega Menu davon ab, sich auf eine zweite Zeile umzubrechen oder zu früh auf Mobilgeräte zu wechseln, und eine zeigt es auf Mobilgeräten als Slide-Menü an.
 lang: de
 layout: default
 permalink: /de/docs/usage/mega-menu-desktop/faq/
@@ -7,9 +7,9 @@ title: FAQ
 ---
 # FAQ
 
-#### Frage 1: Wie verhindere ich, dass mein Desktop Mega Menu in eine zweite Zeile umgebrochen wird?
+#### Frage 1: Wie kann ich verhindern, dass mein Desktop Mega Menu auf eine zweite Zeile umgebrochen wird?
 
-Es gibt zwei Situationen, die das Layout einer Desktop-Mega-Menu-Leiste beschädigen können: zu viele Elemente auf oberster Ebene oder die Website wird in einem Fenster angezeigt, das schmäler als ein Standard-Desktop ist. Zwei Einstellungen beheben dies – kein Code erforderlich.
+Es gibt zwei Situationen, die das Layout einer Desktop Mega Menu-Leiste beeinträchtigen können: zu viele Elemente auf der obersten Ebene oder die Website wird in einem Fenster angezeigt, das schmäler als ein Standard-Desktop ist. Zwei Einstellungen unter `Setting → Layout → Desktop` beheben dies – kein Code erforderlich.
 
 <div align="center">
 
@@ -54,9 +54,13 @@ Es gibt zwei Situationen, die das Layout einer Desktop-Mega-Menu-Leiste beschäd
 
 </div>
 
-**Menu overflow navigation** — gehen Sie zu **Setting → Layout → Desktop** und schalten Sie **"Show navigation arrows when menu overflows"** um. Wenn aktiviert, bleibt die Leiste der obersten Ebene immer auf einer Zeile; Elemente, die nicht passen, werden hinter einer Schaltfläche mit Pfeil `›` versteckt, anstatt umzubrechen. Zwei zusätzliche Felder ermöglichen es Ihnen, die Schaltfläche zu formatieren: **Button background color** und **Arrow icon color**.
+##### Menü-Overflow-Navigation
 
-**Mobile switch breakpoint** — Standardmäßig schaltet jeder Bildschirm, der schmäler als 768px ist, das gesamte Menu in den Mobil-/Hamburger-Modus, auch wenn noch genug Platz für ein Desktop-Layout vorhanden ist (häufig auf Tablets oder in einem Browserfenster mit geänderter Größe). Reduzieren Sie im selben **Setting → Layout → Desktop** Bereich das Feld **Breakpoint (px)**, um die Desktop-Leiste bis zu einer schmäleren Breite sichtbar zu halten.
+Schalten Sie `Show navigation arrows when menu overflows` ein. Die Leiste auf oberster Ebene bleibt immer in einer Reihe; Elemente, die nicht passen, sind stattdessen hinter einer `›`-Pfeilschaltfläche versteckt, anstatt umzubrechen. Zwei Farbfelder, `Button background color` und `Arrow icon color`, ermöglichen es Ihnen, die Schaltfläche zu gestalten.
+
+##### Mobiler Umschaltpunkt
+
+Standardmäßig schaltet jeder Bildschirm, der schmäler als 768px ist, das gesamte Menü in den Mobilmodus, auch wenn noch genug Platz für ein Desktop-Layout vorhanden ist – häufig auf Tablets oder in vergrößerten Browserfenstern. Senken Sie das Feld `Breakpoint (px)` auf eine schmalere Breite, um die Desktop-Leiste sichtbar zu halten.
 
 <div align="center">
 
@@ -110,31 +114,42 @@ Es gibt zwei Situationen, die das Layout einer Desktop-Mega-Menu-Leiste beschäd
 
 </div>
 
-> Der neue Bereich, der sich dadurch öffnet (zwischen Ihrem Breakpoint und 768px), ist schmäler als ein Standard-Desktop – aktivieren Sie **Menu overflow navigation** oben, damit Elemente der obersten Ebene in diesem Bereich nicht umgebrochen werden.
+> Der neue Bereich, den dies öffnet (zwischen Ihrem Breakpoint und 768px), ist schmäler als ein Standard-Desktop – schalten Sie auch die Menü-Overflow-Navigation ein, damit Elemente auf der obersten Ebene in diesem Bereich nicht umgebrochen werden.
 
-**Beispiel:** Breakpoint = `600` mit aktivierter Menu overflow navigation:
+Beispiel: breakpoint = `600` mit eingeschalteter Menü-Overflow-Navigation:
 
 | Bildschirmbreite | Verhalten |
 |---|---|
-| Unter 600px | Mobil-/Hamburger-Menu |
-| 600px – 768px | Desktop Mega Menu, Pfeiltaste hält Elemente in einer Zeile |
+| Unter 600px | Mobil-/Hamburger-Menü |
+| 600px – 768px | Desktop Mega Menu, Pfeilschaltfläche hält Elemente in einer Reihe |
 | Über 768px | Desktop Mega Menu, Standardverhalten |
 
-Diese beiden Einstellungen sind unabhängig – das Aktivieren der einen führt nicht zur Aktivierung der anderen. Sie beeinflussen nur das **Desktop Mega Menu**, nicht den Tabbar, FAB, Slide menu oder Mobile Mega Menu.
+Diese beiden Einstellungen sind unabhängig und beeinflussen nur das Desktop Mega Menu – nicht Tabbar, FAB, Slide-Menü oder Mobile Mega Menu.
 
 ***
 
-#### Frage 2: Wie kann ich mein Desktop Mega Menu auf Mobilgeräten als Slide menu anzeigen?
+#### Frage 2: Wie kann ich mein Desktop Mega Menu auf Mobilgeräten als Slide-Menü anzeigen?
 
-Manchmal möchten Sie den klassischen responsiven Ansatz: ein Desktop Mega Menu bauen und es auf Mobilgeräten automatisch in ein Slide (Hamburger) Menu einklappen lassen, statt ein separates Mobile-Menu von Grund auf zu erstellen.
+Manchmal möchten Sie den klassischen responsive Ansatz: Erstellen Sie ein Desktop Mega Menu und lassen Sie es auf Mobilgeräten automatisch in ein Slide-(Hamburger-)Menü einklappen, anstatt ein separates Mobilmenü von Grund auf zu erstellen.
 
-**Stärke:** Sie pflegen nur ein Menu — die Desktop-Version. Die mobile Kopie folgt automatisch, es gibt also keinen zweiten Baum, den Sie synchron halten müssen.
+<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.25rem 0;">
+<div style="flex:1 1 260px;border-left:3px solid #1a7a4f;background:#e6f4ed;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#0f5c3a;font-weight:600;">Stärke</span><br>
+<span style="color:#374151;">Sie verwalten nur ein Menü – die Desktop-Version. Die mobile Kopie folgt automatisch, ohne zweiten Baum, um synchron zu bleiben.</span>
+</div>
+<div style="flex:1 1 260px;border-left:3px solid #dc2626;background:#fef2f2;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#b91c1c;font-weight:600;">Schwäche</span><br>
+<span style="color:#374151;">Mobile-First ist die Art, wie Navigation heute gestaltet werden sollte – Telefone bringen die meisten Besuche und oft die meisten Einnahmen. Ein von einer breiten Desktop-Leiste zusammengepresstes Menü ist wirklich Desktop-First: zu viele Taps pro Link, Dropdown-Gruppen, die als gestapelte Liste schwer zu lesen sind, kein Platz für nur mobile Verknüpfungen.</span>
+</div>
+</div>
 
-**Kritische Schwäche:** Mobile-First ist heute die richtige Herangehensweise an Navigation — bei den meisten Shops bringen Mobilgeräte die meisten Besuche und oft auch die meisten Umsätze. Ein Baum, der für eine breite Desktop-Leiste gebaut und dann zusammengequetscht wird, ist eigentlich *Desktop-First*: zu viele Taps bis zu einem Link, Dropdown-artige Gruppierungen, die als gestapelte Liste schlecht lesbar sind, und kein Platz für mobile-exklusive Shortcuts. Für die Hauptnavigation eines Shops lohnt sich meist der zusätzliche Aufwand für ein von Anfang an mobil gedachtes Menu (ein eigenes Slide-, Grid- oder TabBar-Menu).
+Für die Hauptnavigation eines Shops ist ein von Anfang an für Mobilgeräte gestaltetes Menü – ein dediziertes Slide-, Grid- oder TabBar-Menü – normalerweise die zusätzliche Wartung wert.
 
-**Ein Mittelweg:** Nutzen Sie **Smart responsive** von Navi+, um das Desktop Mega Menu in ein Slide menu zu spiegeln (Schritte unten), kombiniert mit einem **TabBar**-Element, das dieses Slide menu direkt öffnet. Setzen Sie das **Link To**-Feld des TabBar-Elements auf `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)* — mit der Embed-ID des Slide menu — damit mobile Besucher einen richtigen Einstiegspunkt in der unteren Leiste bekommen, statt sich auf ein verstecktes Hamburger-Icon zu verlassen. So bleibt der Aufwand nahezu bei null, während sich die mobile Erfahrung deutlich verbessert.
+> Mittelweg: Spiegeln Sie das Desktop Mega Menu mit `Smart responsive` (Schritte unten) in ein Slide-Menü, und fügen Sie ein TabBar-Element hinzu, das es direkt öffnet. Legen Sie das Feld `Link To` des Elements auf `open:NaviMenu(SF-xxxxxxxxxx)` fest (Business / Elite) – mit der Embed-ID des Slide-Menüs – damit mobile Besucher einen echten Einstiegspunkt in der unteren Leiste bekommen, anstatt eines versteckten Hamburger-Symbols.
 
-Öffnen Sie Ihr Desktop Mega Menu → **Setting → Mobile** → Karte **"Smart responsive"**, um eine **Live-Referenz** dieses Menus in ein Slide menu einzubetten — Sie bearbeiten den Inhalt nur hier, die mobile Version aktualisiert sich automatisch.
+##### Richten Sie Smart responsive ein
+
+Öffnen Sie Ihr Desktop Mega Menu → `Setting → Mobile` → Karte `Smart responsive`. Es bettet einen Live-Verweis dieses Menüs in ein Slide-Menü ein – Sie bearbeiten den Inhalt hier nur noch, und die mobile Version wird automatisch aktualisiert.
 
 <div align="center">
 
@@ -177,16 +192,14 @@ Manchmal möchten Sie den klassischen responsiven Ansatz: ein Desktop Mega Menu 
 
 </div>
 
-**Schritt 1: Diese Menu-Item-Vorlage kopieren** — klicken Sie auf **Copy embed item**.
+1. Klicken Sie auf `Copy embed item`, um diese Menüelementvorlage zu kopieren.
+2. Fügen Sie es auf `level 1` eines vorhandenen Slide-Menüs ein – oder erstellen Sie zuerst eines, wenn Sie noch keines haben.
 
-**Schritt 2: Das Slide menu zum Einfügen wählen** — fügen Sie es auf **level 1** eines vorhandenen Slide menu ein (oder erstellen Sie zuerst ein neues, falls Sie noch keins haben).
+Layouts mit mehreren Spalten werden automatisch vereinfacht: Spalten werden zu einer vertikalen Liste, Spaltentitel werden gelöscht, und eine Trennlinie wird eingefügt, wo es früher separate Spalten gab – damit Besucher jeden Link in einem Tap anstelle von zwei erreichen.
 
-Mehrspaltige Layouts werden automatisch abgeflacht: Spalten werden zu einer vertikalen Liste, Spaltentitel entfallen, und an der Stelle ehemals getrennter Spalten wird automatisch eine Trennlinie eingefügt — so erreichen Besucher jeden Link mit einem statt zwei Taps.
+Nach der Einbettung zeigt die Karte `This menu already shows on mobile` mit direktem Link zum Slide-Menü an, damit Sie es jederzeit überprüfen können.
 
-Nach dem Einbetten zeigt die Karte **"This menu already shows on mobile"** mit einem direkten Link zum Slide menu, sodass Sie es jederzeit prüfen können.
+##### Verfeinern Sie die mobile Kopie
 
-**Feinschliff der mobilen Kopie:**
-
-- **Nur-Desktop-Elemente ausblenden** — manche Spalten/Links ergeben nur bei Desktop-Breite Sinn. Öffnen Sie das Element im Desktop Mega Menu → **Visibility** → aktivieren Sie **"Exclude when embedded"**. Es bleibt auf dem Desktop und verschwindet nur aus der mobilen Kopie.
-- **Nur-Mobile-Elemente hinzufügen** — das Slide menu ist nicht auf das beschränkt, was die Referenz mitbringt. Fügen Sie normale level-1-Elemente direkt neben dem eingebetteten hinzu, für Dinge, die die Desktop-Leiste nicht braucht: einen Anruf-/WhatsApp-Button, Öffnungszeiten, einen Sprachumschalter oder Links, die sonst im Theme-Header oder -Footer stehen. Diese liegen direkt im Slide menu und berühren die Desktop-Version überhaupt nicht.
-
+- **Desktop-Elemente ausblenden.** Öffnen Sie das Element auf dem Desktop Mega Menu → `Visibility` → schalten Sie `Exclude when embedded` ein. Es bleibt auf dem Desktop und verschwindet nur aus der mobilen Kopie.
+- **Nur mobile Elemente hinzufügen.** Das Slide-Menü ist nicht auf das beschränkt, was die Referenz einbringt – fügen Sie normale Elemente der Ebene 1 direkt neben dem eingebetteten ein für Dinge, die die Desktop-Leiste nicht benötigt: eine Anruf-/WhatsApp-Schaltfläche, Öffnungszeiten, ein Sprachschalter oder Links, die normalerweise in der Theme-Kopf- oder Fußzeile angezeigt werden. Diese befinden sich direkt im Slide-Menü und berühren die Desktop-Version überhaupt nicht.

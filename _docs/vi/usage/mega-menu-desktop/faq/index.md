@@ -1,5 +1,5 @@
 ---
-description: Hai cài đặt giúp ngăn Desktop Mega Menu xuống dòng thứ hai hoặc chuyển sang chế độ di động quá sớm, và một cách để hiển thị nó dưới dạng Slide menu trên di động.
+description: Hai cài đặt giúp ngăn Desktop Mega Menu của bạn xuống dòng thứ hai hoặc chuyển sang di động quá sớm, và một cài đặt cho phép bạn hiển thị nó dưới dạng menu Slide trên di động.
 lang: vi
 layout: default
 permalink: /vi/docs/usage/mega-menu-desktop/faq/
@@ -7,9 +7,9 @@ title: Câu hỏi thường gặp
 ---
 # Câu hỏi thường gặp
 
-#### Câu hỏi 1: Làm cách nào để ngăn Desktop Mega Menu xuống dòng thứ hai?
+#### Câu hỏi 1: Làm cách nào để ngăn Desktop Mega Menu của tôi xuống dòng thứ hai?
 
-Có hai tình huống có thể làm hỏng bố cục thanh Desktop Mega Menu: quá nhiều mục ở cấp cao nhất, hoặc website được xem trong cửa sổ trình duyệt hẹp hơn desktop tiêu chuẩn. Hai cài đặt có thể sửa vấn đề này — không cần code.
+Có hai tình huống có thể làm hỏng bố cục của thanh Desktop Mega Menu: quá nhiều mục cấp 1, hoặc trang web được xem trong cửa sổ hẹp hơn desktop tiêu chuẩn. Hai cài đặt trong `Setting → Layout → Desktop` sẽ khắc phục điều này — không cần code.
 
 <div align="center">
 
@@ -54,9 +54,13 @@ Có hai tình huống có thể làm hỏng bố cục thanh Desktop Mega Menu: 
 
 </div>
 
-**Menu overflow navigation** — đi tới **Setting → Layout → Desktop** và bật **"Show navigation arrows when menu overflows"**. Khi bật, thanh cấp cao nhất luôn ở một dòng; các mục không vừa được ẩn sau nút `›` thay vì xuống dòng. Hai trường bổ sung cho phép bạn tùy chỉnh nút: **Button background color** và **Arrow icon color**.
+##### Menu overflow navigation
 
-**Mobile switch breakpoint** — theo mặc định, màn hình bất kỳ hẹp hơn 768px sẽ chuyển toàn bộ menu sang chế độ di động/hamburger, ngay cả khi vẫn còn đủ chỗ cho bố cục desktop (thường gặp trên tablet hoặc cửa sổ trình duyệt đã thay đổi kích thước). Trong cùng khu vực **Setting → Layout → Desktop**, hạ thấp trường **Breakpoint (px)** để giữ thanh desktop hiển thị cho đến chiều rộng hẹp hơn.
+Bật `Show navigation arrows when menu overflows`. Thanh cấp 1 luôn ở một hàng; các mục không vừa được ẩn sau nút mũi tên `›` thay vì xuống dòng. Hai trường màu, `Button background color` và `Arrow icon color`, cho phép bạn tạo kiểu cho nút.
+
+##### Mobile switch breakpoint
+
+Theo mặc định, bất kỳ màn hình nào hẹp hơn 768px sẽ chuyển toàn bộ menu sang chế độ di động, ngay cả khi vẫn còn đủ chỗ cho bố cục desktop — thường gặp trên máy tính bảng hoặc cửa sổ trình duyệt đã thay đổi kích thước. Hạ thấp trường `Breakpoint (px)` để giữ thanh desktop hiển thị ở độ rộng hẹp hơn.
 
 <div align="center">
 
@@ -110,31 +114,42 @@ Có hai tình huống có thể làm hỏng bố cục thanh Desktop Mega Menu: 
 
 </div>
 
-> Dải mới mà điều này mở ra (giữa breakpoint của bạn và 768px) hẹp hơn desktop tiêu chuẩn — bật **Menu overflow navigation** ở trên để các mục cấp cao nhất không xuống dòng trong dải đó.
+> Dải mới mà điều này mở ra (giữa breakpoint của bạn và 768px) hẹp hơn desktop tiêu chuẩn — bật thêm Menu overflow navigation để các mục cấp 1 không xuống dòng trong dải đó.
 
-**Ví dụ:** Breakpoint = `600` với Menu overflow navigation đã bật:
+Ví dụ: breakpoint = `600` với Menu overflow navigation bật:
 
 | Chiều rộng màn hình | Hành vi |
 |---|---|
 | Dưới 600px | Menu di động / hamburger |
-| 600px – 768px | Desktop Mega Menu, nút mũi tên giữ các mục ở một dòng |
+| 600px – 768px | Desktop Mega Menu, nút mũi tên giữ các mục ở một hàng |
 | Trên 768px | Desktop Mega Menu, hành vi tiêu chuẩn |
 
-Hai cài đặt này độc lập với nhau — bật một cái không bật cái kia. Chúng chỉ ảnh hưởng đến **Desktop Mega Menu**, không phải Tabbar, FAB, Slide menu, hoặc Mobile Mega Menu.
+Hai cài đặt này độc lập với nhau, và chỉ ảnh hưởng đến Desktop Mega Menu — không phải Tabbar, FAB, Slide menu, hoặc Mobile Mega Menu.
 
 ***
 
-#### Câu hỏi 2: Làm sao để hiển thị Desktop Mega Menu dưới dạng Slide menu trên di động?
+#### Câu hỏi 2: Làm cách nào để hiển thị Desktop Mega Menu của tôi dưới dạng Slide menu trên di động?
 
 Đôi khi bạn muốn dùng cách responsive kiểu cũ: dựng một Desktop Mega Menu duy nhất rồi để nó tự thu gọn thành Slide (Hamburger) menu trên di động, thay vì dựng riêng một menu mobile từ đầu.
 
-**Điểm mạnh:** chỉ cần maintain 1 menu — bản desktop. Bản mobile tự động ăn theo, không có cây thứ hai phải giữ đồng bộ.
+<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.25rem 0;">
+<div style="flex:1 1 260px;border-left:3px solid #1a7a4f;background:#e6f4ed;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#0f5c3a;font-weight:600;">Điểm mạnh</span><br>
+<span style="color:#374151;">Bạn chỉ cần maintain 1 menu — bản desktop. Bản mobile tự động ăn theo, không có cây thứ hai phải giữ đồng bộ.</span>
+</div>
+<div style="flex:1 1 260px;border-left:3px solid #dc2626;background:#fef2f2;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#b91c1c;font-weight:600;">Điểm yếu</span><br>
+<span style="color:#374151;">Mobile-first mới là xu hướng thiết kế điều hướng đúng hiện nay — điện thoại mang lại lượt truy cập nhiều nhất, thường cả doanh thu cao nhất. Một cây menu dựng cho thanh desktop rộng rồi ép xuống mobile thực chất là desktop-first: quá nhiều lần chạm mới tới được 1 link, các nhóm kiểu dropdown khi xếp dọc lại đọc rất khó, không có chỗ cho các shortcut riêng cho mobile.</span>
+</div>
+</div>
 
-**Điểm yếu chí mạng:** mobile-first mới là xu hướng thiết kế điều hướng đúng hiện nay — với đa số store, điện thoại mang lại lượt truy cập nhiều nhất, thường cả doanh thu cao nhất. Một cây menu dựng cho thanh desktop rộng rồi ép xuống mobile thực chất là *desktop-first*: quá nhiều lần chạm mới tới được 1 link, các nhóm kiểu dropdown khi xếp dọc lại đọc rất khó, và không có chỗ cho các shortcut riêng cho mobile. Với menu điều hướng chính của store, dựng riêng 1 menu cho mobile ngay từ đầu (Slide, Grid, hoặc TabBar riêng) thường đáng công maintain thêm hơn.
+Với menu điều hướng chính của store, dựng riêng 1 menu cho mobile ngay từ đầu — Slide, Grid, hoặc TabBar riêng — thường đáng công maintain thêm hơn.
 
-**Giải pháp trung dung:** dùng **Smart responsive** của Navi+ để phản chiếu Desktop Mega Menu vào 1 Slide menu (các bước bên dưới), kết hợp thêm 1 item **TabBar** mở thẳng Slide menu đó. Đặt **Link To** của item TabBar thành `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)* — dùng embed ID của Slide menu — để khách trên mobile có hẳn 1 điểm mở ở thanh dưới thay vì trông chờ vào icon hamburger ẩn. Cách này gần như không tốn thêm công thiết lập mà cải thiện trải nghiệm mobile rõ rệt.
+> Giải pháp trung dung: phản chiếu Desktop Mega Menu vào 1 Slide menu bằng `Smart responsive` (các bước bên dưới), kết hợp thêm 1 item TabBar mở thẳng Slide menu đó. Đặt `Link To` của item thành `open:NaviMenu(SF-xxxxxxxxxx)` (Business / Elite) — dùng embed ID của Slide menu — để khách trên mobile có hẳn 1 điểm mở ở thanh dưới thay vì trông chờ vào icon hamburger ẩn.
 
-Mở Desktop Mega Menu của bạn → **Setting → Mobile** → thẻ **"Smart responsive"** để nhúng một **tham chiếu sống** của menu này vào Slide menu — bạn chỉ chỉnh nội dung ở đây, bản mobile tự cập nhật theo.
+##### Thiết lập Smart responsive
+
+Mở Desktop Mega Menu của bạn → `Setting → Mobile` → thẻ `Smart responsive`. Nó nhúng một tham chiếu sống của menu này vào Slide menu — bạn chỉ chỉnh nội dung ở đây, bản mobile tự cập nhật theo.
 
 <div align="center">
 
@@ -177,16 +192,14 @@ Mở Desktop Mega Menu của bạn → **Setting → Mobile** → thẻ **"Smart
 
 </div>
 
-**Bước 1: Sao chép mẫu item này** — nhấp **Copy embed item**.
-
-**Bước 2: Chọn Slide menu để dán vào** — dán ở **level 1** của một Slide menu có sẵn (hoặc tạo Slide menu mới trước nếu chưa có).
+1. Nhấp `Copy embed item` để sao chép mẫu item này.
+2. Dán ở `level 1` của một Slide menu có sẵn — hoặc tạo Slide menu mới trước nếu chưa có.
 
 Bố cục nhiều cột tự động được làm phẳng: các cột trở thành 1 danh sách dọc, tiêu đề cột bị bỏ, và tự chèn 1 đường kẻ ngăn ở chỗ từng là ranh giới cột — để khách chạm 1 lần là tới được mọi link thay vì 2 lần.
 
-Sau khi nhúng, thẻ hiển thị **"This menu already shows on mobile"** kèm link thẳng tới Slide menu, để bạn kiểm tra bất cứ lúc nào.
+Sau khi nhúng, thẻ hiển thị `This menu already shows on mobile` kèm link thẳng tới Slide menu, để bạn kiểm tra bất cứ lúc nào.
 
-**Tinh chỉnh bản mobile:**
+##### Tinh chỉnh bản mobile
 
-- **Ẩn item chỉ hợp với desktop** — một số cột/link chỉ hợp lý ở chiều rộng desktop. Mở item đó trên Desktop Mega Menu → **Visibility** → bật **"Exclude when embedded"**. Item vẫn còn trên desktop, chỉ biến mất khỏi bản mobile.
-- **Thêm item riêng cho mobile** — Slide menu không bị giới hạn chỉ những gì tham chiếu mang qua. Thêm các item level-1 bình thường ngay cạnh item nhúng cho những thứ thanh desktop không cần: nút gọi/WhatsApp, giờ mở cửa, nút đổi ngôn ngữ, hay các link vốn nằm ở header/footer theme. Các item này sống trực tiếp trong Slide menu, không đụng gì tới bản desktop.
-
+- **Ẩn item chỉ hợp với desktop.** Mở item đó trên Desktop Mega Menu → `Visibility` → bật `Exclude when embedded`. Item vẫn còn trên desktop, chỉ biến mất khỏi bản mobile.
+- **Thêm item riêng cho mobile.** Slide menu không bị giới hạn chỉ những gì tham chiếu mang qua — thêm các item level-1 bình thường ngay cạnh item nhúng cho những thứ thanh desktop không cần: nút gọi/WhatsApp, giờ mở cửa, nút đổi ngôn ngữ, hay các link vốn nằm ở header/footer theme. Các item này sống trực tiếp trong Slide menu, không đụng gì tới bản desktop.

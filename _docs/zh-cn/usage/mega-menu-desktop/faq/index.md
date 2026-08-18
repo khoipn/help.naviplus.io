@@ -1,5 +1,5 @@
 ---
-description: 两个设置可以防止您的 Desktop Mega Menu 换行或过早切换到移动版本，还有一种方式可以在移动设备上以 Slide menu 形式展示它。
+description: 两项设置可防止您的桌面大菜单换行或过早切换至移动版本，另一项设置可让您在移动版本中将其显示为侧滑菜单。
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/usage/mega-menu-desktop/faq/
@@ -7,9 +7,9 @@ title: 常见问题
 ---
 # 常见问题
 
-#### 问题 1：我如何防止 Desktop Mega Menu 换行到第二行？
+#### 问题 1：如何防止我的桌面大菜单换行？
 
-有两种情况会破坏桌面 Mega Menu 栏的布局：顶级项目过多，或网站在比标准桌面更窄的窗口中查看。两个设置可以解决这个问题 — 无需代码。
+有两种情况会破坏桌面大菜单栏的布局：顶级项目过多，或者在比标准桌面更窄的窗口中查看网站。`Setting → Layout → Desktop` 下的两项设置可以解决此问题 — 无需编码。
 
 <div align="center">
 
@@ -54,9 +54,13 @@ title: 常见问题
 
 </div>
 
-**Menu overflow navigation** — 前往 **Setting → Layout → Desktop**，然后切换 **"Show navigation arrows when menu overflows"**。启用后，顶级栏始终保持在一行；不适应的项目隐藏在 `›` 箭头按钮后面，而不是换行。两个额外字段让您为按钮设置样式：**Button background color** 和 **Arrow icon color**。
+##### 菜单溢出导航
 
-**Mobile switch breakpoint** — 默认情况下，任何宽度小于 768px 的屏幕都会将整个菜单切换到移动/汉堡菜单模式，即使仍有足够空间容纳桌面布局（在平板电脑或调整大小的浏览器窗口上常见）。在相同的 **Setting → Layout → Desktop** 区域中，降低 **Breakpoint (px)** 字段的值以保持桌面栏在更窄的宽度上可见。
+打开 `Show navigation arrows when menu overflows`。顶级栏始终保持在一行；不适应的项目被隐藏在 `›` 箭头按钮后面，而不是换行。两个颜色字段 `Button background color` 和 `Arrow icon color` 让您可以设置按钮的样式。
+
+##### 移动版切换断点
+
+默认情况下，任何宽度小于 768px 的屏幕都会将整个菜单切换到移动模式，即使桌面布局仍有足够空间 — 在平板电脑或调整大小的浏览器窗口上很常见。降低 `Breakpoint (px)` 字段的值可将桌面栏保持可见至更窄的宽度。
 
 <div align="center">
 
@@ -110,31 +114,42 @@ title: 常见问题
 
 </div>
 
-> 这打开的新范围（在您的断点和 768px 之间）比标准桌面更窄 — 启用上面的 **Menu overflow navigation** 以确保顶级项目在该范围内不换行。
+> 此操作打开的新范围（在您的断点和 768px 之间）比标准桌面更窄 — 也打开菜单溢出导航，以便顶级项目在该范围内不换行。
 
-**示例：** Breakpoint = `600`，启用 Menu overflow navigation：
+示例：断点 = `600`，启用菜单溢出导航：
 
 | 屏幕宽度 | 行为 |
 |---|---|
 | 低于 600px | 移动 / 汉堡菜单 |
-| 600px – 768px | Desktop Mega Menu，箭头按钮将项目保持在一行 |
-| 768px 以上 | Desktop Mega Menu，标准行为 |
+| 600px – 768px | 桌面大菜单，箭头按钮保持项目在一行 |
+| 高于 768px | 桌面大菜单，标准行为 |
 
-这两个设置是独立的 — 启用其中一个不会启用另一个。它们仅影响 **Desktop Mega Menu**，不影响 Tabbar、FAB、Slide menu 或 Mobile Mega Menu。
+这两项设置相互独立，仅影响桌面大菜单 — 不影响 Tabbar、FAB、Slide 菜单或移动大菜单。
 
 ***
 
-#### 问题 2：我如何在移动设备上以 Slide menu 形式展示我的 Desktop Mega Menu？
+#### 问题 2：如何在移动版本中将桌面大菜单显示为侧滑菜单？
 
-有时你会想采用经典的响应式做法：只搭建一个 Desktop Mega Menu，让它在移动设备上自动折叠成 Slide（Hamburger）menu，而不是从零开始搭建一个独立的移动菜单。
+有时您想要采用经典的响应式方法：构建一个桌面大菜单，让它在移动设备上自动折叠成 Slide (Hamburger) 菜单，而不是从头开始构建单独的移动菜单。
 
-**优点：** 只需维护一个菜单——桌面版本。移动版会自动跟随，不需要再维护第二棵树来保持同步。
+<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.25rem 0;">
+<div style="flex:1 1 260px;border-left:3px solid #1a7a4f;background:#e6f4ed;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#0f5c3a;font-weight:600;">优点</span><br>
+<span style="color:#374151;">您只需维护一个菜单 — 桌面版本。移动副本自动跟随，无需维护第二个树形结构以保持同步。</span>
+</div>
+<div style="flex:1 1 260px;border-left:3px solid #dc2626;background:#fef2f2;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#b91c1c;font-weight:600;">缺点</span><br>
+<span style="color:#374151;">移动优先是当今导航应该如何设计 — 手机带来最多访问量，通常也带来最多收入。从宽桌面栏压缩下来的树形结构实际上是桌面优先的：每个链接需要太多点击，下拉列表样式的组在堆叠列表中不好理解，没有为仅限移动的快捷方式留出空间。</span>
+</div>
+</div>
 
-**致命弱点：** 移动优先才是当今导航设计该走的方向——对大多数店铺来说，手机带来了最多的访问量，往往也带来最多的收入。为宽阔的桌面栏搭建再压缩到移动端的树，本质上其实是"*桌面优先*"：要点很多次才能到达一个链接，下拉式的分组在堆叠列表里读起来很别扭，也没有位置放移动端专属的快捷入口。对于店铺的主导航，从一开始就为移动端设计的菜单（专门的 Slide、Grid 或 TabBar menu）通常更值得多花的维护成本。
+对于商店的主导航，从一开始为移动设计的菜单 — 专用的 Slide、Grid 或 TabBar 菜单 — 通常值得付出额外的维护工作。
 
-**折中方案：** 用 Navi+ 的 **Smart responsive** 把 Desktop Mega Menu 镜像到一个 Slide menu 里（步骤见下），再搭配一个直接打开该 Slide menu 的 **TabBar** item。把 TabBar item 的 **Link To** 字段设为 `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)*——用这个 Slide menu 的 embed ID——这样移动端访客能有一个正经的底部栏入口，而不必依赖藏起来的汉堡图标。这样设置成本几乎为零，却能明显提升移动端体验。
+> 折中方案：使用 `Smart responsive` 将桌面大菜单镜像到侧滑菜单（下文步骤），并添加一个可直接打开它的 TabBar 项。将项的 `Link To` 字段设置为 `open:NaviMenu(SF-xxxxxxxxxx)` (Business / Elite) — 使用侧滑菜单的嵌入 ID — 这样移动访问者就能获得真实的底部栏入口点，而不是隐藏的汉堡菜单图标。
 
-打开你的 Desktop Mega Menu → **Setting → Mobile** → 卡片 **"Smart responsive"**，把这个菜单的 **live reference** 嵌入到一个 Slide menu 中——你只需要在这里编辑内容，移动版会自动跟着更新。
+##### 设置 Smart responsive
+
+打开您的桌面大菜单 → `Setting → Mobile` → 卡片 `Smart responsive`。它将此菜单的实时引用嵌入到侧滑菜单中 — 您只需在此处编辑内容，移动版本会自动更新。
 
 <div align="center">
 
@@ -177,16 +192,14 @@ title: 常见问题
 
 </div>
 
-**步骤 1：复制此菜单项模板** — 点击 **Copy embed item**。
+1. 点击 `Copy embed item` 复制此菜单项模板。
+2. 将其粘贴在现有侧滑菜单的 `level 1` — 如果没有，请先创建一个。
 
-**步骤 2：选择要粘贴到的 Slide menu** — 粘贴到某个已有 Slide menu 的 **level 1**（如果还没有 Slide menu，先创建一个）。
+多列布局会自动扁平化：列变成一个竖直列表，列标题被删除，在分开的列原本位置插入分隔线 — 这样访问者只需一次点击就能到达每个链接，而不是两次。
 
-多列布局会自动拉平：列会变成一个纵向列表，列标题被去掉，原本分隔各列的地方会自动插入一条分隔线——这样访客一次点击就能到达每个链接，而不用点两次。
+嵌入后，卡片显示 `This menu already shows on mobile` 并提供直接链接到侧滑菜单，您可以随时检查。
 
-嵌入之后，卡片会显示 **"This menu already shows on mobile"**，并带有一个直达该 Slide menu 的链接，方便你随时查看。
+##### 微调移动副本
 
-**微调移动端副本：**
-
-- **隐藏仅桌面需要的项目** — 有些列或链接只在桌面宽度下才有意义。打开 Desktop Mega Menu 上的该项目 → **Visibility** → 开启 **"Exclude when embedded"**。它会保留在桌面版，只从移动端副本中消失。
-- **添加仅移动端需要的项目** — Slide menu 并不局限于引用带过来的内容。可以在嵌入项旁边添加普通的 level-1 项目，放桌面栏不需要的东西：打电话/WhatsApp 按钮、营业时间、语言切换器，或平时放在主题页头/页脚的链接。这些直接存在于 Slide menu 里，完全不会影响桌面版本。
-
+- **隐藏仅限桌面的项。** 打开桌面大菜单上的项 → `Visibility` → 打开 `Exclude when embedded`。它保留在桌面上，仅从移动副本中消失。
+- **添加仅限移动的项。** 侧滑菜单不受参考引入内容的限制 — 在嵌入的项旁边添加常规一级项，用于桌面栏不需要的内容：呼叫/WhatsApp 按钮、营业时间、语言切换器或通常位于主题页眉或页脚中的链接。这些项直接存在于侧滑菜单中，完全不影响桌面版本。

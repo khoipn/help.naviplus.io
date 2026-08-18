@@ -1,5 +1,5 @@
 ---
-description: デスクトップメガメニューが2行目に折り返されたり、早期にモバイル版に切り替わったりするのを防ぐ2つの設定と、モバイルでスライドメニューとして表示する方法について解説します。
+description: デスクトップメガメニューが2行目に折り返すのを防ぎ、モバイルへの切り替えを遅延させる2つの設定と、モバイルでスライドメニューとして表示する方法について説明します。
 lang: jp
 layout: default
 permalink: /jp/docs/usage/mega-menu-desktop/faq/
@@ -7,9 +7,9 @@ title: FAQ
 ---
 # FAQ
 
-#### 質問1: デスクトップメガメニューが2行目に折り返してしまうのを防ぐにはどうすればいいですか？
+#### 質問1: Desktop Mega Menuが2行目に折り返すのを防ぐにはどうすればいいですか？
 
-デスクトップメガメニューのレイアウトが崩れてしまう状況には2つあります。トップレベルアイテムが多すぎる場合、または標準デスクトップより狭いウィンドウでサイトを表示している場合です。この問題を解決する2つの設定があり、コード変更は不要です。
+Desktop Mega Menuのレイアウトを崩す可能性がある2つの状況があります。トップレベルアイテムが多すぎるか、標準的なデスクトップより狭いウィンドウでサイトが表示されている場合です。`Setting → Layout → Desktop`の下にある2つの設定がこれを修正します——コード不要です。
 
 <div align="center">
 
@@ -54,9 +54,13 @@ title: FAQ
 
 </div>
 
-**Menu overflow navigation** — **Setting → Layout → Desktop** に移動して、**"Show navigation arrows when menu overflows"** をトグルします。有効にすると、トップレベルバーは常に1行に表示されます。収まらないアイテムは折り返す代わりに `›` 矢印ボタンの背後に隠れます。ボタンのスタイルを調整するための2つの追加フィールドがあります：**Button background color** と **Arrow icon color** です。
+##### Menu overflow navigation
 
-**Mobile switch breakpoint** — デフォルトでは、768pxより狭い画面は、デスクトップレイアウトの余裕があっても、メニュー全体がモバイル/ハンバーガーモードに切り替わります（タブレットやサイズ変更されたブラウザウィンドウでよくあります）。同じ **Setting → Layout → Desktop** エリアで、**Breakpoint (px)** フィールドを低い値に設定して、デスクトップバーをより狭い幅まで表示させられます。
+`Show navigation arrows when menu overflows`をオンにします。トップレベルバーは常に1行のままで、収まらないアイテムは折り返されるのではなく、`›`矢印ボタンの後ろに隠されます。`Button background color`と`Arrow icon color`の2つの色フィールドを使うと、ボタンをスタイルできます。
+
+##### Mobile switch breakpoint
+
+デフォルトでは、768pxより狭い画面はデスクトップレイアウト用のスペースがまだ十分にあってもモバイルモードに切り替わります——タブレットやサイズ変更されたブラウザウィンドウでよくあります。`Breakpoint (px)`フィールドを下げて、より狭い幅までデスクトップバーを表示させます。
 
 <div align="center">
 
@@ -110,31 +114,42 @@ title: FAQ
 
 </div>
 
-> この新しく開かれた範囲（ブレークポイントと768pxの間）は標準デスクトップより狭いため、上記の **Menu overflow navigation** を有効にして、トップレベルアイテムがこの範囲で折り返されないようにしてください。
+> 新しく開かれた範囲（ブレークポイントと768pxの間）は標準的なデスクトップより狭いため、その範囲でトップレベルアイテムが折り返されないよう、Menu overflow navigationもオンにしてください。
 
-**例：** Breakpoint = `600` で Menu overflow navigation 有効:
+例：ブレークポイント = `600`でMenu overflow navigationがオンの場合：
 
 | 画面幅 | 動作 |
 |---|---|
 | 600px未満 | モバイル/ハンバーガーメニュー |
-| 600px – 768px | Desktop Mega Menu、矢印ボタンが1行にアイテムを保つ |
-| 768px以上 | Desktop Mega Menu、標準動作 |
+| 600px – 768px | Desktop Mega Menu、矢印ボタンがアイテムを1行に保つ |
+| 768px以上 | Desktop Mega Menu、標準的な動作 |
 
-これら2つの設定は独立しています。一方をオンにしてもう一方はオンになりません。これらは **Desktop Mega Menu** にのみ影響し、TabBar、FAB、Slide menu、Mobile Mega Menu には影響しません。
+これら2つの設定は独立しており、Desktop Mega Menuにのみ影響します——TabBar、FAB、Slide menu、Mobile Mega Menuには影響しません。
 
 ***
 
-#### 質問2: Desktop Mega MenuをモバイルのSlide menuとして表示するには？
+#### 質問2: Desktop Mega Menuをモバイル上でSlide menuとして表示するにはどうすればいいですか？
 
-時には、クラシックなレスポンシブアプローチを採用したい場合があります。1つのDesktop Mega Menuを構築し、モバイル上でSlide（Hamburger）menuに自動的に折りたたまれるようにしたい場合です。ゼロからモバイル用メニューを別途構築する必要はありません。
+時々、古典的なレスポンシブアプローチが必要です。1つのDesktop Mega Menuを構築し、モバイルで自動的にSlide（Hamburger）メニューに折りたたまれるようにします——最初からモバイル用の別のメニューを構築する代わりに。
 
-**メリット:** メニューは1つだけ管理すればよいです。デスクトップバージョンだけです。モバイル版は自動的に追従するため、同期を保つ必要のある2番目のツリーはありません。
+<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.25rem 0;">
+<div style="flex:1 1 260px;border-left:3px solid #1a7a4f;background:#e6f4ed;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#0f5c3a;font-weight:600;">メリット</span><br>
+<span style="color:#374151;">メンテナンスするメニューは1つだけです——デスクトップバージョンです。モバイルコピーは自動的に従い、同期を保つための2番目のツリーはありません。</span>
+</div>
+<div style="flex:1 1 260px;border-left:3px solid #dc2626;background:#fef2f2;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#b91c1c;font-weight:600;">デメリット</span><br>
+<span style="color:#374151;">モバイルファーストは今日のナビゲーション設計の方法です——携帯電話はほとんどのアクセスをもたらし、多くの場合、最も多くの収益をもたらします。広いデスクトップバーから絞られたツリーは本当にデスクトップファーストです。リンクあたりのタップが多すぎる、スタックされたリストとして読まれるドロップダウンスタイルのグループ、モバイル専用のショートカット用のスペースがありません。</span>
+</div>
+</div>
 
-**重大な弱点:** 現代のナビゲーション設計はモバイルファーストが基本です。ほとんどのストアではスマートフォンからのアクセスが最も多く、売上の大部分もモバイルから来ています。デスクトップの広いバー向けに構築したツリーを圧縮したものは、実質的に*デスクトップファースト*です。リンクに到達するまでのタップ数が多すぎます。ドロップダウンスタイルのグループ分けはスタックされたリストではうまく機能しません。モバイル専用のショートカットの余地もありません。ストアのメインナビゲーションでは、最初からモバイル向けに設計されたメニュー（専用のSlide、Grid、またはTabBar menu）の方が、メンテナンスの手間がかかっても通常は優れています。
+ストアのメインナビゲーションでは、最初からモバイル用に設計されたメニュー——専用のSlide、Grid、またはTabBarメニュー——は通常、余分なメンテナンスの価値があります。
 
-**中間案:** Navi+の**Smart responsive**を使用して、Desktop Mega MenuをSlide menuにミラーリング（以下の手順）し、そのSlide menuを直接開く**TabBar**アイテムと組み合わせます。TabBarアイテムの**Link To**フィールドを`open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)*に設定します。Slide menuの埋め込みIDを使用することで、モバイル訪問者は非表示のハンバーガーアイコンに頼るのではなく、適切なボトムバーエントリーポイントを得られます。これにより設定を最小限に保ちながら、モバイル体験を大幅に改善できます。
+> 中間的な方法：`Smart responsive`を使用してDesktop Mega MenuをSlide menuにミラーリングし（以下の手順）、それを直接開くTabBarアイテムを追加します。アイテムの`Link To`フィールドを`open:NaviMenu(SF-xxxxxxxxxx)`に設定します（Business / Elite）——Slide menuの埋め込みIDを使用します——モバイル訪問者が非表示のハンバーガーアイコンの代わりに、実際の下部バーのエントリポイントを取得するようにします。
 
-Desktop Mega Menuを開いて → **Setting → Mobile** → **"Smart responsive"**カードで、このメニューの**ライブリファレンス**をSlide menuに埋め込みます。コンテンツはここでのみ編集し、モバイル版は自動的に更新されます。
+##### Smart responsiveをセットアップする
+
+Desktop Mega Menu → `Setting → Mobile` → カード`Smart responsive`を開きます。このメニューの生きたリファレンスをSlide menuに埋め込みます——ここのコンテンツのみを編集し続け、モバイルバージョンは自動的に更新されます。
 
 <div align="center">
 
@@ -177,16 +192,14 @@ Desktop Mega Menuを開いて → **Setting → Mobile** → **"Smart responsive
 
 </div>
 
-**ステップ1: このメニューアイテムテンプレートをコピー** — **Copy embed item**をクリック。
+1. `Copy embed item`をクリックして、このメニューアイテムテンプレートをコピーします。
+2. 既存のSlide menuの`level 1`に貼り付けます——またはまだない場合は最初に1つを作成します。
 
-**ステップ2: 貼り付けるSlide menuを選択** — 既存のSlide menuの**level 1**に貼り付けます（まだSlide menuがない場合は、最初に新しいSlide menuを作成してください）。
+マルチカラムレイアウトは自動的にフラット化されます。カラムが1つの垂直リストになり、カラムタイトルは削除され、別のカラムが使用されていた場所に区切り線が挿入されます——訪問者は2回ではなく1回のタップですべてのリンクに到達できます。
 
-複数列レイアウトは自動的にフラット化されます。列が1つの縦リストになり、列のタイトルが削除され、以前の別々の列があった場所に区切り線が挿入されます。そのため、訪問者は2回のタップではなく1回のタップですべてのリンクに到達できます。
+埋め込み後、カードは`This menu already shows on mobile`とSlide menuへのリンクを表示するので、いつでもチェックできます。
 
-埋め込まれると、カードは**"This menu already shows on mobile"**を表示し、Slide menuへのリンクが直接表示されるため、いつでも確認できます。
+##### モバイルコピーを微調整する
 
-**モバイル版の微調整:**
-
-- **デスクトップ専用アイテムを非表示** — 一部の列またはリンクはデスクトップ幅でのみ意味があります。Desktop Mega Menu上でアイテムを開く → **Visibility** → **"Exclude when embedded"**をオン。デスクトップに残り、モバイル版から自動的に消えます。
-- **モバイル専用アイテムを追加** — Slide menuはリファレンスがもたらすものに限定されません。デスクトップバーが必要としないもの（通話/WhatsAppボタン、営業時間、言語切り替え、またはテーマのヘッダーやフッターに通常ある場所のリンク）について、埋め込まれたアイテムの隣に通常のlevel-1アイテムを追加できます。これらはSlide menuに直接配置され、デスクトップバージョンにはまったく影響しません。
-
+- **デスクトップ専用アイテムを非表示にします。** Desktop Mega Menuのアイテムを開く → `Visibility` → `Exclude when embedded`をオンにします。デスクトップに留まり、モバイルコピーからのみ消えます。
+- **モバイル専用アイテムを追加します。** Slide menuはリファレンスが持ち込むものに限定されません——デスクトップバーが必要としないもの用に、埋め込まれたものの横に通常のレベル1アイテムを追加します。通話/WhatsAppボタン、営業時間、言語切り替え、またはテーマのヘッダーやフッターに通常存在するリンクなどです。これらはSlide menuに直接存在し、デスクトップバージョンには一切触れません。

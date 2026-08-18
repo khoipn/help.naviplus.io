@@ -1,5 +1,5 @@
 ---
-description: Due impostazioni impediscono al Desktop Mega Menu di andare a capo o di passare a mobile troppo presto, e una ti permette di mostrarlo come menu Slide su dispositivi mobili.
+description: Due impostazioni impediscono al Desktop Mega Menu di andare a capo o di passare al mobile troppo presto, e una ti permette di mostrarlo come menu Slide su mobile.
 lang: it
 layout: default
 permalink: /it/docs/usage/mega-menu-desktop/faq/
@@ -7,9 +7,9 @@ title: FAQ
 ---
 # FAQ
 
-#### Domanda 1: Come impedisco al mio Desktop Mega Menu di andare a capo su una seconda riga?
+#### Domanda 1: Come posso impedire al mio Desktop Mega Menu di andare a capo?
 
-Esistono due situazioni che possono rompere il layout di una barra Desktop Mega Menu: troppi elementi di primo livello, o il sito visualizzato in una finestra più stretta di un desktop standard. Due impostazioni risolvono questo — nessun codice richiesto.
+Ci sono due situazioni che possono rompere il layout di una barra Desktop Mega Menu: troppi elementi di primo livello, o il sito visualizzato in una finestra più stretta di uno schermo desktop standard. Due impostazioni in `Setting → Layout → Desktop` risolvono questo — nessun codice richiesto.
 
 <div align="center">
 
@@ -54,9 +54,13 @@ Esistono due situazioni che possono rompere il layout di una barra Desktop Mega 
 
 </div>
 
-**Menu overflow navigation** — vai a **Setting → Layout → Desktop** e attiva **"Show navigation arrows when menu overflows"**. Quando abilitato, la barra di primo livello rimane sempre su una riga; gli elementi che non entrano vengono nascosti dietro un pulsante freccia `›` anziché andare a capo. Due campi aggiuntivi ti permettono di personalizzare il pulsante: **Button background color** e **Arrow icon color**.
+##### Menu overflow navigation
 
-**Mobile switch breakpoint** — per impostazione predefinita, qualsiasi schermo più stretto di 768px cambia l'intero menu in modalità mobile/hamburger, anche se c'è ancora spazio sufficiente per un layout desktop (comune su tablet o in una finestra del browser ridimensionata). Nella stessa area **Setting → Layout → Desktop**, riduci il campo **Breakpoint (px)** per mantenere la barra desktop visibile fino a una larghezza più stretta.
+Attiva `Show navigation arrows when menu overflows`. La barra di primo livello rimane sempre su una sola riga; gli elementi che non si adattano sono nascosti dietro un pulsante freccia `›` invece di andare a capo. Due campi colore, `Button background color` e `Arrow icon color`, ti permettono di personalizzare il pulsante.
+
+##### Mobile switch breakpoint
+
+Per impostazione predefinita, qualsiasi schermo più stretto di 768px passa l'intero menu alla modalità mobile, anche se c'è ancora spazio per un layout desktop — comune su tablet o finestra del browser ridimensionata. Abbassa il campo `Breakpoint (px)` per mantenere la barra desktop visibile fino a una larghezza più stretta.
 
 <div align="center">
 
@@ -110,31 +114,42 @@ Esistono due situazioni che possono rompere il layout di una barra Desktop Mega 
 
 </div>
 
-> Il nuovo intervallo che questo apre (tra il tuo breakpoint e 768px) è più stretto di un desktop standard — abilita **Menu overflow navigation** sopra in modo che gli elementi di primo livello non vadano a capo in quell'intervallo.
+> Il nuovo intervallo che si apre (tra il tuo breakpoint e 768px) è più stretto di un desktop standard — attiva anche Menu overflow navigation, in modo che gli elementi di primo livello non vadano a capo in quell'intervallo.
 
-**Esempio:** Breakpoint = `600` con Menu overflow navigation abilitato:
+Esempio: breakpoint = `600` con Menu overflow navigation attivato:
 
 | Larghezza dello schermo | Comportamento |
 |---|---|
-| Inferiore a 600px | Menu mobile / hamburger |
-| 600px – 768px | Desktop Mega Menu, il pulsante freccia mantiene gli elementi su una riga |
-| Superiore a 768px | Desktop Mega Menu, comportamento standard |
+| Sotto 600px | Menu mobile / hamburger |
+| 600px – 768px | Desktop Mega Menu, il pulsante freccia mantiene gli elementi su una sola riga |
+| Sopra 768px | Desktop Mega Menu, comportamento standard |
 
-Queste due impostazioni sono indipendenti — attivare una non attiva l'altra. Influiscono solo sul **Desktop Mega Menu**, non su Tabbar, FAB, Slide menu o Mobile Mega Menu.
+Queste due impostazioni sono indipendenti e influiscono solo sul Desktop Mega Menu — non su Tabbar, FAB, menu Slide o Mobile Mega Menu.
 
 ***
 
 #### Domanda 2: Come posso mostrare il mio Desktop Mega Menu come menu Slide su mobile?
 
-A volte vuoi l'approccio responsive classico: crea un Desktop Mega Menu e lascialo collassare automaticamente in un menu Slide (Hamburger) su mobile, invece di creare un menu mobile separato da zero.
+A volte vuoi l'approccio classico responsive: crea un Desktop Mega Menu e lascialo collassare automaticamente in un menu Slide (Hamburger) su mobile, invece di creare un menu mobile separato da zero.
 
-**Punto forte:** mantieni solo un menu — la versione desktop. La copia mobile segue automaticamente, quindi non c'è un secondo albero da mantenere sincronizzato.
+<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.25rem 0;">
+<div style="flex:1 1 260px;border-left:3px solid #1a7a4f;background:#e6f4ed;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#0f5c3a;font-weight:600;">Punto di forza</span><br>
+<span style="color:#374151;">Mantieni solo un menu — la versione desktop. La copia mobile segue automaticamente, senza un secondo albero da mantenere sincronizzato.</span>
+</div>
+<div style="flex:1 1 260px;border-left:3px solid #dc2626;background:#fef2f2;padding:0.85rem 1.1rem;border-radius:0 8px 8px 0;">
+<span style="color:#b91c1c;font-weight:600;">Debolezza</span><br>
+<span style="color:#374151;">Mobile-first è come la navigazione dovrebbe essere progettata oggi — i telefoni portano la maggior parte delle visite e spesso la maggior parte dei ricavi. Un albero spremuto da una barra desktop ampia è davvero desktop-first: troppi tocchi per collegamento, gruppi di stile dropdown che si leggono male come elenco impilato, nessuno spazio per scorciatoie solo mobile.</span>
+</div>
+</div>
 
-**Debolezza critica:** mobile-first è il modo in cui la navigazione dovrebbe essere progettata oggi — per la maggior parte dei negozi, i telefoni portano la maggior parte delle visite e spesso anche la maggior parte dei ricavi. Un albero costruito per una barra desktop ampia e poi compresso è davvero *desktop-first*: troppi tap per raggiungere un link, raggruppamenti in stile dropdown che non si leggono bene come elenco impilato, e nessuno spazio per scorciatoie solo mobile. Per la navigazione principale di un negozio, un menu progettato per mobile fin dall'inizio (un menu Slide, Grid o TabBar dedicato) di solito vale la manutenzione extra.
+Per la navigazione principale di un negozio, un menu progettato per mobile fin dall'inizio — un menu Slide, Grid o TabBar dedicato — di solito vale la manutenzione extra.
 
-**Una soluzione di compromesso:** usa **Smart responsive** di Navi+ per duplicare il Desktop Mega Menu in un menu Slide (passaggi di seguito), abbinato a un elemento **TabBar** che apre quel menu Slide direttamente. Imposta il campo **Link To** dell'elemento TabBar su `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)* — usando l'ID di embed del menu Slide — così i visitatori mobile ottengono un vero punto di accesso bottom-bar invece di affidarsi a un'icona hamburger nascosta. Questo mantiene la configurazione vicina a zero mentre migliora notevolmente l'esperienza mobile.
+> Via di mezzo: rispecchia il Desktop Mega Menu in un menu Slide con `Smart responsive` (passaggi sotto), e aggiungi un elemento TabBar che lo apre direttamente. Imposta il campo `Link To` dell'elemento su `open:NaviMenu(SF-xxxxxxxxxx)` (Business / Elite) — usando l'ID embed del menu Slide — così i visitatori mobile hanno un punto di accesso diretto dalla barra inferiore, anziché ricorrere a un'icona hamburger nascosta.
 
-Apri il tuo Desktop Mega Menu → **Setting → Mobile** → scheda **"Smart responsive"** per incorporare un **riferimento attivo** di questo menu in un menu Slide — continui a modificare solo il contenuto qui, e la versione mobile si aggiorna automaticamente.
+##### Configura Smart responsive
+
+Apri il tuo Desktop Mega Menu → `Setting → Mobile` → scheda `Smart responsive`. Incorpora un riferimento live di questo menu in un menu Slide — continui a modificare i contenuti solo qui, e la versione mobile si aggiorna automaticamente.
 
 <div align="center">
 
@@ -177,16 +192,14 @@ Apri il tuo Desktop Mega Menu → **Setting → Mobile** → scheda **"Smart res
 
 </div>
 
-**Passo 1: Copia questo modello di elemento menu** — fai clic su **Copy embed item**.
+1. Fai clic su `Copy embed item` per copiare questo modello di elemento menu.
+2. Incollalo a `level 1` di un menu Slide esistente — o creane uno prima se non ne hai uno ancora.
 
-**Passo 2: Scegli il menu Slide in cui incollarlo** — incollalo a **level 1** di un menu Slide esistente (o crea prima un nuovo menu Slide se non ne hai ancora uno).
+I layout multi-colonna vengono appiattiti automaticamente: le colonne diventano un elenco verticale, i titoli delle colonne vengono eliminati e viene inserita una linea divisoria dove le colonne separate si trovavano in precedenza — in modo che i visitatori raggiungono ogni collegamento con un tocco invece di due.
 
-I layout multi-colonna vengono appiattiti automaticamente: le colonne diventano un unico elenco verticale, i titoli delle colonne vengono eliminati e una linea di divisione viene inserita dove le colonne separate si trovavano prima — così i visitatori raggiungono ogni link in un tap invece di due.
+Una volta incorporato, la scheda mostra `This menu already shows on mobile` con un collegamento diretto al menu Slide, in modo da poterlo controllare in qualsiasi momento.
 
-Una volta incorporato, la scheda mostra **"This menu already shows on mobile"** con un link diretto al menu Slide, così puoi verificarla in qualsiasi momento.
+##### Perfeziona la copia mobile
 
-**Personalizzazione della copia mobile:**
-
-- **Nascondi elementi solo desktop** — alcune colonne o link hanno senso solo alla larghezza del desktop. Apri l'elemento nel Desktop Mega Menu → **Visibility** → attiva **"Exclude when embedded"**. Rimane sul desktop e semplicemente scompare dalla copia mobile.
-- **Aggiungi elementi solo mobile** — il menu Slide non è limitato a ciò che il riferimento porta. Aggiungi elementi level-1 regolari accanto a quello incorporato per cose che la barra desktop non ha bisogno: un pulsante chiamata/WhatsApp, orari del negozio, un commutatore di lingua, o link che normalmente si trovano nell'intestazione o nel piè di pagina del tema. Questi vivono direttamente nel menu Slide e non toccano affatto la versione desktop.
-
+- **Nascondi elementi solo desktop.** Apri l'elemento nel Desktop Mega Menu → `Visibility` → attiva `Exclude when embedded`. Rimane su desktop e scompare solo dalla copia mobile.
+- **Aggiungi elementi solo mobile.** Il menu Slide non è limitato a quello che il riferimento porta — aggiungi elementi level-1 regolari proprio accanto a quello incorporato per cose che la barra desktop non ha bisogno: un pulsante call/WhatsApp, orari di negozio, un selezionatore di lingua o collegamenti che normalmente vivono nell'intestazione o nel piè di pagina del tema. Questi vivono direttamente nel menu Slide e non toccano affatto la versione desktop.
