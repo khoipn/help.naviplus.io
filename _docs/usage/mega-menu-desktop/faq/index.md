@@ -1,5 +1,5 @@
 ---
-description: The browsing experience on desktop and mobile is fundamentally different — especially in how users navigate and interact with a website.
+description: Two settings keep your Desktop Mega Menu from wrapping to a second line or switching to mobile too early, and one lets you show it as a Slide menu on mobile.
 layout: default
 permalink: /docs/usage/mega-menu-desktop/faq/
 title: FAQ
