@@ -125,7 +125,15 @@ These two settings are independent — turning one on does not turn on the other
 
 #### Question 2: How can I show my Desktop Mega Menu as a Slide menu on mobile?
 
-Use **Smart responsive** instead of rebuilding the tree by hand: open your Desktop Mega Menu → **Setting → Mobile** → card **"Smart responsive"**. It embeds a **live reference** of this menu into a Slide menu — you keep editing content here only, and the mobile version updates automatically.
+Sometimes you want the classic responsive approach: build one Desktop Mega Menu and let it collapse into a Slide (Hamburger) menu on mobile automatically, instead of building a separate mobile menu from scratch.
+
+**Strength:** you only maintain one menu — the desktop version. The mobile copy follows automatically, so there's no second tree to keep in sync.
+
+**Critical weakness:** mobile-first is how navigation should be designed today — for most stores, phones bring the most visits and often the most revenue. A tree built for a wide desktop bar and then squeezed down is really *desktop-first*: too many taps to reach a link, dropdown-style groupings that don't read well as a stacked list, and no room for mobile-only shortcuts. For a store's main navigation, a menu designed for mobile from the start (a dedicated Slide, Grid, or TabBar menu) is usually worth the extra maintenance.
+
+**A middle-ground option:** use Navi+'s **Smart responsive** to mirror the Desktop Mega Menu into a Slide menu (steps below), paired with a **TabBar** item that opens that Slide menu directly. Set the TabBar item's **Link To** field to `open:NaviMenu(SF-xxxxxxxxxx)` *(Business / Elite)* — using the Slide menu's embed ID — so mobile visitors get a proper bottom-bar entry point instead of relying on a hidden hamburger icon. This keeps setup close to zero while noticeably improving the mobile experience.
+
+Open your Desktop Mega Menu → **Setting → Mobile** → card **"Smart responsive"** to embed a **live reference** of this menu into a Slide menu — you keep editing content here only, and the mobile version updates automatically.
 
 <div align="center">
 
@@ -172,8 +180,11 @@ Use **Smart responsive** instead of rebuilding the tree by hand: open your Deskt
 
 **Step 2: Pick the Slide menu to paste it into** — paste it at **level 1** of an existing Slide menu (or create a new Slide menu first if you don't have one yet).
 
-**Step 3: Hide an item from the mobile copy** *(optional)* — open any item → **Visibility** → turn on **"Exclude when embedded"**. It stays on the desktop version and only disappears from the embedded mobile copy.
-
 Multi-column layouts are flattened automatically: columns become one vertical list, column titles are dropped, and a divider line is inserted where separate columns used to be — so visitors reach every link in one tap instead of two.
 
 Once embedded, the card shows **"This menu already shows on mobile"** with a link straight to the Slide menu, so you can check it anytime.
+
+**Fine-tuning the mobile copy:**
+
+- **Hide desktop-only items** — some columns or links only make sense at desktop width. Open the item on the Desktop Mega Menu → **Visibility** → turn on **"Exclude when embedded"**. It stays on desktop and simply disappears from the mobile copy.
+- **Add mobile-only items** — the Slide menu isn't limited to what the reference brings in. Add regular level-1 items right next to the embedded one for things the desktop bar doesn't need: a call/WhatsApp button, store hours, a language switcher, or links that normally live in the theme header or footer. These live directly in the Slide menu and don't touch the desktop version at all.
