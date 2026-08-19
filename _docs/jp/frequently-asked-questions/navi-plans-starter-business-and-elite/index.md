@@ -31,6 +31,7 @@ title: プランと価格の比較
 <div>最大4メニュー</div>
 <div>500,000ビュー/月</div>
 <div>多言語対応</div>
+<div>Basic SEO — Googleが読み取ってインデックスできるメニュー リンク</div>
 <div>画像アップロード</div>
 <div>24/7サポート</div>
 </div>
@@ -39,13 +40,13 @@ title: プランと価格の比較
 <div style="background:#fff;border:2px solid var(--color-primary);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem;position:relative">
 <div style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--color-primary);color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.2rem 0.65rem;border-radius:999px;white-space:nowrap">最も人気</div>
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Elite</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$10</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ 月 &nbsp;·&nbsp; $100/年</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$15</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ 月 &nbsp;·&nbsp; $150/年</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>無制限のメニュー</div>
 <div>無制限のビュー</div>
 <div>高度な画像ツール</div>
-<div>SEO最適化</div>
+<div>Full SEO</div>
 <div>SLA 99.99%</div>
 <div>ハンズオンサポート</div>
 </div>
@@ -53,8 +54,8 @@ title: プランと価格の比較
 
 <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Care</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$39</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ 月 &nbsp;·&nbsp; $390/年</div>
+<div style="font-size:1.5rem;font-weight:700;line-height:1;margin-bottom:0.25rem">お問い合わせ</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">プロジェクト単位の見積もり</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>Elite のすべて</div>
 <div>メニューを構築</div>
@@ -98,14 +99,14 @@ Starterのすべてに加えて:
 - 24/7サポート
 - 使用が制限を大幅に超えた場合、広告が表示される可能性があります — その前にメール通知が届きます
 
-## Elite — $10/月
+## Elite — $15/月
 
 Businessのすべてに加えて:
 
 - 無制限のNavi+メニュー — ページ間での複数メニュー、異なる条件下で、デフォルトのナビゲーション全体を置き換え
 - 無制限のNavi+ビュー
 - 高度な画像ツール: WebPへの変換 · 画像サイズの正規化 · 外部画像URL
-- SEO検索最適化サポート
+- Full SEO — 検索用に最適化されたalt属性、タイトル、画像
 - 完全なデータ分析 — 時間の経過とともにメニューを最適化するための強力な洞察
 - 包括的な高度な設定 — Businessのすべてとより深いカスタマイズ
 - 世界中のトップクラスのCDN — Cloudflare + BunnyCDN間のフェイルオーバー、SLA 99.99%
@@ -113,6 +114,22 @@ Businessのすべてに加えて:
 - ハンズオンサポート: 私たちのチームが直接あなたのショップに参加し、古いメニューを移行し、あなたの代わりにUIを構成および編集します
 
 ---
+
+## Care — お問い合わせ
+
+ターンキーサービス。Eliteのすべてに加えて、当チームがメニューを構築・管理します:
+
+- メニュー全体をお客様に構築いたします
+- 既存メニューの移行 — データ損失なし
+- 構造、ラベル、モバイル最適化はチームが実施
+- 1か月あたり最大5つのメニュー編集リクエスト
+- 24時間対応を保証
+- オンデマンドの個人メニューコンサルタント
+
+Careはプロジェクト単位で見積もりされます — 必要なことを教えてください。当チームから見積もりをお知らせします。チームの実務的な仕事に対する料金をお支払いいただくため、無料トライアルはありません。
+
+[Careについて詳しく →](https://naviplus.io/ja/pricing/plan-care/)
+
 
 ## 制限を超えた場合はどうなりますか？
 

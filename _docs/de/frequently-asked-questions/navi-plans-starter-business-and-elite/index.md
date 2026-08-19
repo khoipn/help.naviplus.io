@@ -31,6 +31,7 @@ Alle Pläne beinhalten jeden Menütetyp — Tab Bar, Mega Menu, Slide Menu, Grid
 <div>Bis zu 4 Menüs</div>
 <div>500.000 Ansichten/Monat</div>
 <div>Mehrsprachig</div>
+<div>Basic SEO — Menülinks, die Google lesen und indizieren kann</div>
 <div>Bild-Upload</div>
 <div>24/7 Support</div>
 </div>
@@ -39,13 +40,13 @@ Alle Pläne beinhalten jeden Menütetyp — Tab Bar, Mega Menu, Slide Menu, Grid
 <div style="background:#fff;border:2px solid var(--color-primary);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem;position:relative">
 <div style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--color-primary);color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.2rem 0.65rem;border-radius:999px;white-space:nowrap">Beliebtester</div>
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Elite</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$10</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ Monat &nbsp;·&nbsp; $100/Jahr</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$15</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ Monat &nbsp;·&nbsp; $150/Jahr</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>Unbegrenzte Menüs</div>
 <div>Unbegrenzte Ansichten</div>
 <div>Erweiterte Bildwerkzeuge</div>
-<div>SEO-Optimierung</div>
+<div>Full SEO</div>
 <div>SLA 99.99%</div>
 <div>Praktischer Support</div>
 </div>
@@ -53,8 +54,8 @@ Alle Pläne beinhalten jeden Menütetyp — Tab Bar, Mega Menu, Slide Menu, Grid
 
 <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Care</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$39</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ Monat &nbsp;·&nbsp; $390/Jahr</div>
+<div style="font-size:1.5rem;font-weight:700;line-height:1;margin-bottom:0.25rem">Kontaktieren Sie uns</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">pro Projekt angeboten</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>Alles aus Elite</div>
 <div>Wir bauen Ihr Menü</div>
@@ -98,14 +99,14 @@ Alles im Starter, plus:
 - 24/7 Support
 - Werbung kann erscheinen, wenn die Nutzung die Grenze erheblich überschreitet — Sie erhalten eine E-Mail-Benachrichtigung, bevor dies geschieht
 
-## Elite — $10/Monat
+## Elite — $15/Monat
 
 Alles im Business, plus:
 
 - Unbegrenzte Navi+ Menüs — mehrere Menüs über Seiten hinweg, unter verschiedenen Bedingungen, ersetzen Sie die gesamte Standardnavigation
 - Unbegrenzte Navi+ Ansichten
 - Erweiterte Bildwerkzeuge: In WebP konvertieren · Normalisierung der Bildgröße · Externe Bild-URL
-- Unterstützung für SEO-Suchoptimierung
+- Full SEO — optimierter Alt-Text, Titel und Bilder für die Suche
 - Vollständige Datenanalysen — leistungsstarke Einblicke zur Optimierung Ihres Menüs im Laufe der Zeit
 - Umfassende erweiterte Konfiguration — alles im Business und tiefere Anpassungen
 - Top-tier CDN weltweit — Failover über Cloudflare + BunnyCDN, SLA 99.99%
@@ -113,6 +114,22 @@ Alles im Business, plus:
 - Praktischer Support: Unser Team kann direkt in Ihren Shop eintreten, alte Menüs migrieren, UI in Ihrem Namen konfigurieren und bearbeiten
 
 ---
+
+## Care — Kontaktieren Sie uns
+
+Eine schlüsselfertige Lösung. Alles in Elite, plus unser Team entwickelt und verwaltet Ihre Menüs für Sie:
+
+- Wir entwickeln Ihr ganzes Menü für Sie
+- Migrieren Sie Ihr bestehendes Menü — kein Datenverlust
+- Struktur, Beschriftungen und mobile Optimierung durch unser Team
+- Bis zu 5 Menüänderungsanfragen pro Monat
+- 24-Stunden-Reaktionszeit garantiert
+- Persönlicher Menü-Berater bei Bedarf
+
+Care wird pro Projekt berechnet — erzählen Sie uns, was Sie brauchen, und wir kommen mit einem Preis zurück. Sie zahlen für praktische Arbeit von unserem Team, daher gibt es keine kostenlose Testversion.
+
+[Erfahren Sie mehr über Care →](https://naviplus.io/de/pricing/plan-care/)
+
 
 ## Was passiert, wenn Sie eine Grenze überschreiten?
 

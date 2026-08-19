@@ -31,6 +31,7 @@ title: 计划与定价比较
 <div>最多 4 个菜单</div>
 <div>每月 500,000 次浏览</div>
 <div>多语言</div>
+<div>Basic SEO — Google可以读取和索引的菜单链接</div>
 <div>图片上传</div>
 <div>24/7 支持</div>
 </div>
@@ -39,13 +40,13 @@ title: 计划与定价比较
 <div style="background:#fff;border:2px solid var(--color-primary);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem;position:relative">
 <div style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--color-primary);color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.2rem 0.65rem;border-radius:999px;white-space:nowrap">最受欢迎</div>
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Elite</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$10</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ 月 &nbsp;·&nbsp; $100/年</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$15</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ 月 &nbsp;·&nbsp; $150/年</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>无限菜单</div>
 <div>无限浏览</div>
 <div>高级图像工具</div>
-<div>SEO 优化</div>
+<div>Full SEO</div>
 <div>SLA 99.99%</div>
 <div>亲自支持</div>
 </div>
@@ -53,8 +54,8 @@ title: 计划与定价比较
 
 <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Care</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$39</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ 月 &nbsp;·&nbsp; $390/年</div>
+<div style="font-size:1.5rem;font-weight:700;line-height:1;margin-bottom:0.25rem">联系我们</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">按项目报价</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>Elite 全部内容</div>
 <div>我们构建菜单</div>
@@ -98,14 +99,14 @@ Starter 中的所有内容，外加：
 - 24/7 支持
 - 如果使用量显著超过限制，可能会出现广告 — 在此之前您会收到电子邮件通知
 
-## Elite — $10/月
+## Elite — $15/月
 
 Business 中的所有内容，外加：
 
 - 无限的 Navi+ 菜单 — 在不同条件下跨页面的多个菜单，替换整个默认导航
 - 无限的 Navi+ 浏览
 - 高级图像工具：转换为 WebP · 图像大小标准化 · 外部图像 URL
-- SEO 搜索优化支持
+- Full SEO — 针对搜索优化的alt文本、标题和图像
 - 完整的数据分析 — 强大的洞察力以优化您的菜单
 - 综合的高级配置 — Business 中的所有内容和更深层次的自定义
 - 全球顶级 CDN — 跨 Cloudflare + BunnyCDN 的故障转移，SLA 99.99%
@@ -113,6 +114,22 @@ Business 中的所有内容，外加：
 - 亲自支持：我们的团队可以直接加入您的商店，迁移旧菜单，代表您配置和编辑 UI
 
 ---
+
+## Care — 联系我们
+
+一站式服务。包括Elite的所有功能，加上我们的团队为您构建和维护菜单:
+
+- 我们为您构建整个菜单
+- 迁移现有菜单 — 不损失数据
+- 结构、标签和移动优化由我们的团队完成
+- 每月最多5个菜单编辑请求
+- 24小时响应时间保证
+- 按需提供个人菜单顾问
+
+Care按项目报价 — 告诉我们您的需求，我们会给您报价。您正在为我们团队的实际工作付费，因此没有免费试用。
+
+[了解更多关于Care →](https://naviplus.io/zh-cn/pricing/plan-care/)
+
 
 ## 超出限制时会发生什么？
 

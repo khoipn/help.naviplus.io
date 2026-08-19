@@ -31,6 +31,7 @@ All plans include every menu type — Tab Bar, Mega Menu, Slide Menu, Grid Menu,
 <div>Up to 4 menus</div>
 <div>500,000 views/month</div>
 <div>Multi-language</div>
+<div>Basic SEO — menu links that Google can read and index</div>
 <div>Image upload</div>
 <div>24/7 support</div>
 </div>
@@ -39,13 +40,13 @@ All plans include every menu type — Tab Bar, Mega Menu, Slide Menu, Grid Menu,
 <div style="background:#fff;border:2px solid var(--color-primary);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem;position:relative">
 <div style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--color-primary);color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.2rem 0.65rem;border-radius:999px;white-space:nowrap">Most popular</div>
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Elite</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$10</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ month &nbsp;·&nbsp; $100/yr</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$15</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ month &nbsp;·&nbsp; $150/yr</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>Unlimited menus</div>
 <div>Unlimited views</div>
 <div>Advanced image tools</div>
-<div>SEO optimization</div>
+<div>Full SEO</div>
 <div>SLA 99.99%</div>
 <div>Hands-on support</div>
 </div>
@@ -53,8 +54,8 @@ All plans include every menu type — Tab Bar, Mega Menu, Slide Menu, Grid Menu,
 
 <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Care</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$39</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ mois &nbsp;·&nbsp; $390/an</div>
+<div style="font-size:1.5rem;font-weight:700;line-height:1;margin-bottom:0.25rem">Nous contacter</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">devis par projet</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>Tout Elite</div>
 <div>Nous créons votre menu</div>
@@ -98,14 +99,14 @@ Everything in Starter, plus:
 - 24/7 support
 - Ads may appear if usage significantly exceeds the limit — you'll receive an email notification before this happens
 
-## Elite — $10/month
+## Elite — $15/month
 
 Everything in Business, plus:
 
 - Unlimited Navi+ menus — multiple menus across pages, under different conditions, replace the entire default navigation
 - Unlimited Navi+ views
 - Advanced image tools: Convert to WebP · Image size normalization · External image URL
-- SEO search optimization support
+- Full SEO — optimized alt text, titles and images for search
 - Full data analytics — powerful insights to optimize your menu over time
 - Comprehensive advanced configuration — everything in Business and deeper customizations
 - Top-tier CDN worldwide — failover across Cloudflare + BunnyCDN, SLA 99.99%
@@ -113,6 +114,22 @@ Everything in Business, plus:
 - Hands-on support: our team can join your shop directly, migrate old menus, configure and edit UI on your behalf
 
 ---
+
+## Care — Nous contacter
+
+Un service clés en main. Tout en Elite, plus notre équipe construit et maintient vos menus pour vous:
+
+- Nous construisons votre menu complet
+- Migrez votre menu existant — aucune perte de données
+- Structure, étiquettes et optimisation mobile effectuées par notre équipe
+- Jusqu'à 5 demandes de modification de menu par mois
+- Temps de réponse garanti de 24 heures
+- Consultant de menu personnel à la demande
+
+Care est devisé par projet — dites-nous ce dont vous avez besoin et nous reviendrons avec un prix. Vous payez pour le travail pratique de notre équipe, donc il n'y a pas d'essai gratuit.
+
+[En savoir plus sur Care →](https://naviplus.io/fr/pricing/plan-care/)
+
 
 ## What happens when you exceed a limit?
 

@@ -31,6 +31,7 @@ Tất cả các gói đều bao gồm mọi loại menu — Tab Bar, Mega Menu, 
 <div>Tối đa 4 menu</div>
 <div>500,000 lượt xem/tháng</div>
 <div>Hỗ trợ đa ngôn ngữ</div>
+<div>Basic SEO — các liên kết menu mà Google có thể đọc và lập chỉ mục</div>
 <div>Tải lên hình ảnh</div>
 <div>Hỗ trợ 24/7</div>
 </div>
@@ -39,13 +40,13 @@ Tất cả các gói đều bao gồm mọi loại menu — Tab Bar, Mega Menu, 
 <div style="background:#fff;border:2px solid var(--color-primary);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem;position:relative">
 <div style="position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--color-primary);color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.2rem 0.65rem;border-radius:999px;white-space:nowrap">Phổ biến nhất</div>
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Elite</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$10</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ tháng &nbsp;·&nbsp; $100/năm</div>
+<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$15</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ tháng &nbsp;·&nbsp; $150/năm</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>Không giới hạn menu</div>
 <div>Không giới hạn lượt xem</div>
 <div>Công cụ hình ảnh nâng cao</div>
-<div>Tối ưu hóa SEO</div>
+<div>Full SEO</div>
 <div>SLA 99.99%</div>
 <div>Hỗ trợ tận tay</div>
 </div>
@@ -53,8 +54,8 @@ Tất cả các gói đều bao gồm mọi loại menu — Tab Bar, Mega Menu, 
 
 <div style="background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1.25rem 1.25rem 1rem">
 <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-muted);margin-bottom:0.5rem">Care</div>
-<div style="font-size:1.75rem;font-weight:700;line-height:1;margin-bottom:0.25rem">$39</div>
-<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">/ tháng &nbsp;·&nbsp; $390/năm</div>
+<div style="font-size:1.5rem;font-weight:700;line-height:1;margin-bottom:0.25rem">Liên hệ chúng tôi</div>
+<div style="font-size:0.8rem;color:var(--color-muted);margin-bottom:1rem">báo giá theo dự án</div>
 <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.875rem">
 <div>Mọi thứ của Elite</div>
 <div>Chúng tôi dựng menu</div>
@@ -98,14 +99,14 @@ Mọi thứ trong Starter, cộng với:
 - Hỗ trợ 24/7
 - Quảng cáo có thể xuất hiện nếu sử dụng vượt quá giới hạn — bạn sẽ nhận được thông báo qua email trước khi điều này xảy ra
 
-## Elite — $10/tháng
+## Elite — $15/tháng
 
 Mọi thứ trong Business, cộng với:
 
 - Không giới hạn menu Navi+ — nhiều menu trên các trang, dưới các điều kiện khác nhau, thay thế toàn bộ điều hướng mặc định
 - Không giới hạn lượt xem Navi+
 - Công cụ hình ảnh nâng cao: Chuyển đổi sang WebP · Chuẩn hóa kích thước hình ảnh · URL hình ảnh bên ngoài
-- Hỗ trợ tối ưu hóa tìm kiếm SEO
+- Full SEO — văn bản thay thế được tối ưu hóa, tiêu đề và hình ảnh cho tìm kiếm
 - Phân tích dữ liệu đầy đủ — thông tin mạnh mẽ để tối ưu hóa menu của bạn theo thời gian
 - Cấu hình nâng cao toàn diện — mọi thứ trong Business và tùy chỉnh sâu hơn
 - CDN hàng đầu toàn cầu — chuyển đổi giữa Cloudflare + BunnyCDN, SLA 99.99%
@@ -113,6 +114,22 @@ Mọi thứ trong Business, cộng với:
 - Hỗ trợ tận tay: đội ngũ của chúng tôi có thể tham gia trực tiếp vào cửa hàng của bạn, di chuyển các menu cũ, cấu hình và chỉnh sửa UI thay mặt bạn
 
 ---
+
+## Care — Liên hệ chúng tôi
+
+Dịch vụ toàn diện. Tất cả những gì có trong Elite, cộng thêm đội ngũ chúng tôi xây dựng và duy trì menu cho bạn:
+
+- Chúng tôi xây dựng toàn bộ menu cho bạn
+- Chuyển đổi menu hiện tại — không mất dữ liệu
+- Cấu trúc, nhãn và tối ưu hóa di động được đội ngũ thực hiện
+- Tối đa 5 yêu cầu chỉnh sửa menu/tháng
+- Thời gian phản hồi 24 giờ được đảm bảo
+- Cố vấn menu cá nhân theo yêu cầu
+
+Care được báo giá theo dự án — hãy cho chúng tôi biết bạn cần gì và chúng tôi sẽ báo giá. Bạn đang trả tiền cho công sức trực tiếp của đội ngũ nên không có bản dùng thử.
+
+[Tìm hiểu thêm về Care →](https://naviplus.io/vi/pricing/plan-care/)
+
 
 ## Điều gì xảy ra khi bạn vượt quá giới hạn?
 
