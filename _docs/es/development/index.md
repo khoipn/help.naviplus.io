@@ -18,6 +18,7 @@ La sección **Desarrollo** cubre la personalización CSS, la estructura HTML de 
 | 1 | Estructura HTML del menú y selectores CSS | [Estructura del menú y CSS](/docs/development/menu-structure-and-css/) |
 | 2 | Cómo escribir código CSS correcto en Navi+ | [Cómo escribir CSS correcto](/docs/development/how-to-write-a-correct-css-code-in-navi/) |
 | 3 | Añadir guías paso a paso a los menús | [Agregar recorrido a Navi+](/docs/development/add-walk-through-to-navi/) |
+| 4 | Condiciones de visibilidad para menús y elementos de menú | [Configurar reglas de visibilidad](/docs/development/setup-visibility-rule/) |
 
 ---
 

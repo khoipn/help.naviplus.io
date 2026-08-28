@@ -18,6 +18,7 @@ Phần **Phát triển** bao gồm tùy chỉnh CSS, cấu trúc HTML menu và t
 | 1 | Cấu trúc HTML menu và CSS selectors | [Cấu trúc menu và CSS](/docs/development/menu-structure-and-css/) |
 | 2 | Cách viết mã CSS đúng trong Navi+ | [Cách viết CSS đúng](/docs/development/how-to-write-a-correct-css-code-in-navi/) |
 | 3 | Thêm hướng dẫn từng bước vào menu | [Thêm hướng dẫn vào Navi+](/docs/development/add-walk-through-to-navi/) |
+| 4 | Điều kiện hiển thị cho menu và menu item | [Cài đặt Visibility Rules](/docs/development/setup-visibility-rule/) |
 
 ---
 

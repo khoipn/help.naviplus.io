@@ -18,6 +18,7 @@ Der Bereich **Entwicklung** behandelt CSS-Anpassungen, die HTML-Struktur von Men
 | 1 | HTML-Menüstruktur und CSS-Selektoren | [Menüstruktur und CSS](/docs/development/menu-structure-and-css/) |
 | 2 | Wie man korrekten CSS-Code in Navi+ schreibt | [Wie man korrektes CSS schreibt](/docs/development/how-to-write-a-correct-css-code-in-navi/) |
 | 3 | Schritt-für-Schritt-Anleitungen zu Menüs hinzufügen | [Anleitung zu Navi+ hinzufügen](/docs/development/add-walk-through-to-navi/) |
+| 4 | Sichtbarkeitsbedingungen für Menüs und Menüelemente | [Visibility Rules einrichten](/docs/development/setup-visibility-rule/) |
 
 ---
 

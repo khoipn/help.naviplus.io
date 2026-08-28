@@ -271,6 +271,9 @@
   - processed_path: usage/menu-structure-and-css
     title: Estructura del menú y CSS
     url: /docs/usage/menu-structure-and-css/
+  - processed_path: usage/menu-item-structure-and-css
+    title: Estructura del elemento de menú y CSS
+    url: /docs/usage/menu-item-structure-and-css/
   - processed_path: usage/debug-mode-find-css-selectors
     title: Modo de depuración - Encontrar selectores CSS
     url: /docs/usage/debug-mode-find-css-selectors/
@@ -384,6 +387,9 @@
   - processed_path: development/add-walk-through-to-navi
     title: Agregar recorrido a Navi+
     url: /docs/development/add-walk-through-to-navi/
+  - processed_path: development/setup-visibility-rule
+    title: Configurar reglas de visibilidad
+    url: /docs/development/setup-visibility-rule/
   processed_path: development
   title: Desarrollo
   url: /docs/development/

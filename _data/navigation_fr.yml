@@ -269,8 +269,11 @@
     title: Comment Navi+ s'injecte dans votre site
     url: /docs/integrations/how-navi-injects/
   - processed_path: usage/menu-structure-and-css
-    title: Structure du menu et CSS
+    title: Structure et CSS du menu
     url: /docs/usage/menu-structure-and-css/
+  - processed_path: usage/menu-item-structure-and-css
+    title: Structure et CSS des éléments de menu
+    url: /docs/usage/menu-item-structure-and-css/
   - processed_path: usage/debug-mode-find-css-selectors
     title: Mode débogage - Trouver des sélecteurs CSS
     url: /docs/usage/debug-mode-find-css-selectors/
@@ -384,6 +387,9 @@
   - processed_path: development/add-walk-through-to-navi
     title: Ajouter un guide pas à pas à Navi+
     url: /docs/development/add-walk-through-to-navi/
+  - processed_path: development/setup-visibility-rule
+    title: Configurer les règles de visibilité
+    url: /docs/development/setup-visibility-rule/
   processed_path: development
   title: Développement
   url: /docs/development/

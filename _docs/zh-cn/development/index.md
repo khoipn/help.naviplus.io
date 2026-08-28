@@ -18,6 +18,7 @@ title: 开发
 | 1 | 菜单HTML结构和CSS选择器 | [菜单结构和CSS](/docs/development/menu-structure-and-css/) |
 | 2 | 如何在Navi+中编写正确的CSS代码 | [如何编写正确的CSS](/docs/development/how-to-write-a-correct-css-code-in-navi/) |
 | 3 | 向菜单添加分步引导 | [向Navi+添加演练](/docs/development/add-walk-through-to-navi/) |
+| 4 | 菜单和菜单项的可见性条件 | [设置可见性规则](/docs/development/setup-visibility-rule/) |
 
 ---
 

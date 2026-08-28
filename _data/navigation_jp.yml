@@ -271,6 +271,9 @@
   - processed_path: usage/menu-structure-and-css
     title: メニュー構造とCSS
     url: /docs/usage/menu-structure-and-css/
+  - processed_path: usage/menu-item-structure-and-css
+    title: メニューアイテムの構造とCSS
+    url: /docs/usage/menu-item-structure-and-css/
   - processed_path: usage/debug-mode-find-css-selectors
     title: デバッグモード - CSSセレクターを見つける
     url: /docs/usage/debug-mode-find-css-selectors/
@@ -384,6 +387,9 @@
   - processed_path: development/add-walk-through-to-navi
     title: Navi+にウォークスルーを追加
     url: /docs/development/add-walk-through-to-navi/
+  - processed_path: development/setup-visibility-rule
+    title: 表示ルールの設定
+    url: /docs/development/setup-visibility-rule/
   processed_path: development
   title: 開発
   url: /docs/development/

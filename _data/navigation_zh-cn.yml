@@ -269,8 +269,11 @@
     title: Navi+ 如何注入到您的网站
     url: /docs/integrations/how-navi-injects/
   - processed_path: usage/menu-structure-and-css
-    title: 菜单结构和CSS
+    title: 菜单结构和 CSS
     url: /docs/usage/menu-structure-and-css/
+  - processed_path: usage/menu-item-structure-and-css
+    title: 菜单项结构和 CSS
+    url: /docs/usage/menu-item-structure-and-css/
   - processed_path: usage/debug-mode-find-css-selectors
     title: 调试模式 - 查找 CSS 选择器
     url: /docs/usage/debug-mode-find-css-selectors/
@@ -384,6 +387,9 @@
   - processed_path: development/add-walk-through-to-navi
     title: 添加Navi+的引导
     url: /docs/development/add-walk-through-to-navi/
+  - processed_path: development/setup-visibility-rule
+    title: 设置可见性规则
+    url: /docs/development/setup-visibility-rule/
   processed_path: development
   title: 开发
   url: /docs/development/

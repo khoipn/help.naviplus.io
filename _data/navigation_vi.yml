@@ -271,6 +271,9 @@
   - processed_path: usage/menu-structure-and-css
     title: Cấu trúc menu và CSS
     url: /docs/usage/menu-structure-and-css/
+  - processed_path: usage/menu-item-structure-and-css
+    title: Cấu trúc mục menu và CSS
+    url: /docs/usage/menu-item-structure-and-css/
   - processed_path: usage/debug-mode-find-css-selectors
     title: Chế độ gỡ lỗi - Tìm CSS Selectors
     url: /docs/usage/debug-mode-find-css-selectors/
@@ -384,6 +387,9 @@
   - processed_path: development/add-walk-through-to-navi
     title: Thêm hướng dẫn cho Navi+
     url: /docs/development/add-walk-through-to-navi/
+  - processed_path: development/setup-visibility-rule
+    title: Cài đặt Visibility Rules
+    url: /docs/development/setup-visibility-rule/
   processed_path: development
   title: Phát triển
   url: /docs/development/

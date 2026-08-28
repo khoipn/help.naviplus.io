@@ -18,6 +18,7 @@ title: 開発
 | 1 | メニューのHTML構造とCSSセレクター | [メニュー構造とCSS](/docs/development/menu-structure-and-css/) |
 | 2 | Navi+で正しいCSSコードを書く方法 | [正しいCSSの書き方](/docs/development/how-to-write-a-correct-css-code-in-navi/) |
 | 3 | メニューにステップバイステップのガイドを追加する | [Navi+にウォークスルーを追加](/docs/development/add-walk-through-to-navi/) |
+| 4 | メニューとメニュー項目の表示条件 | [表示ルールの設定](/docs/development/setup-visibility-rule/) |
 
 ---
 
