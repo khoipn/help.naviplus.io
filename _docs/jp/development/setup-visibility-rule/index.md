@@ -15,6 +15,8 @@ title: 表示ルールの設定
 
 - **メニュー項目レベル**: **Edit item** を開く → **Visibility** グループ → **Setup the Visibility rules** をクリック。 *(Visibility グループは折りたたまれたブロック内にあります。すぐに見当たらない場合は、**See more** をクリックして展開してください。)*
 - **メニューレベル**: メニューの **Setting** パネルを開く → **Visibility Rules** カード。
+- **メニュー一覧からのショートカット**: メニュー一覧ページの **Visibility Rules** 列に各メニューの **No rule** または **Setup** が表示されます — **Setup** をクリックすると、そのメニューの Visibility Rules カードに直接移動します。
+- **メニューツリーからのショートカット**: 常に表示されるわけではない項目には、ツリー内の名前の横に目のアイコンが表示されます — ホバーすると有効な条件の概要が表示され、クリックするとその項目の Visibility Rules が直接開きます。
 
 以下では、すべての条件、構文、および組み合わせ方が両方のレベルで **共有** されます。異なるのは場所だけです。
 
@@ -28,14 +30,11 @@ title: 表示ルールの設定
 |---|---|---|---|
 | **Device** | Business 以上 | 選択されたデバイスに一致 | `All devices` / `Mobile only` / `Desktop only` |
 | **Page / URL** | Business 以上 | 正しいページタイプ、または URL がキーワードを含む/含まない | ページタイプをチェック（Home/Products/Collections/Pages/Blogs/Others）+ 2 つのキーワードフィールド |
-| **Cart contents** | Business 以上 | カートに N 個以上の商品がある | 整数、例 `1` |
-| **Schedule** | Business 以上 | 設定した日付範囲内 | 開始日 → 終了日（訪問者のデバイス時間で確認） |
-| **Referrer / campaign** | Business 以上 | リファラー URL がテキストを含む | 例 `instagram.com` または `utm_campaign=summer` |
+| **Cart contents** | Business 以上 | カートに N 個以上の商品がある（または「下回ったら非表示」を有効にした場合は N 未満） | 整数、例 `1` |
+| **Schedule** | Business 以上 | 設定した日付＋時刻の範囲内 | 開始 → 終了の日時を **UTC** で入力（入力前にローカル時間から変換）、訪問者のデバイス時計と比較 |
 | **Market / Country** | Elite | 選択された市場の下で訪問者が閲覧している | 市場ハンドル、複数の値はコンマ区切り: `us, ca` |
 | **Customer tag** | Elite | ログインした訪問者がタグを持っている | 単一のタグ、例 `vip` |
 | **B2B customer** | Elite | ログインした訪問者が B2B アカウントを使用している | オン/オフ切り替え |
-
-> ⚠️ **メニューレベル** の条件は現在 **Mobile Menu (Slide) には適用されません** — Mobile Menu に表示ルールを設定した場合、ストアフロントに表示される際には効果がありません。**項目レベル** の条件（Mobile Menu 内）は正常に機能します。この制限は修正中です。
 
 ---
 
@@ -68,7 +67,7 @@ title: 表示ルールの設定
   <line x1="240" y1="104" x2="240" y2="122" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
   <rect x="60" y="124" width="360" height="44" rx="8" fill="#f8f9fa" stroke="#e6e8eb"/>
-  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule, Referrer — 条件を満たす?</text>
+  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule — 条件を満たす?</text>
 
   <line x1="240" y1="168" x2="240" y2="186" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
@@ -124,7 +123,7 @@ VIP でタグ付けされた顧客にのみ表示される「VIP 特典」とい
 
 VIP 顧客に異なるナビゲーション体験を提供したいです。ダークバックグラウンド、グロウエフェクト、プレミアムな雰囲気です。他のすべての顧客と標準インターフェースを共有する代わりに。
 
-**方法:** プレミアムなダークテンプレートを使用した別の Tab Bar を作成し、ストアがデフォルトで使用する同じ Tab Bar 位置に公開します。**Setting → Visibility Rules** に移動し、**Customer tag** = `vip` を有効にします（例 3 のように Shopify Flow/Customer Segment 経由でタグを付けます）。結果：VIP タグの付いた顧客はプレミアム Tab Bar を見ます。一般顧客は依然として標準 Tab Bar を見ます。*(Mobile Menu は同じアプローチを使用します。ただし、まず上記の Mobile Menu (Slide) の制限事項をご確認ください。)*
+**方法:** プレミアムなダークテンプレートを使用した別の Tab Bar を作成し、ストアがデフォルトで使用する同じ Tab Bar 位置に公開します。**Setting → Visibility Rules** に移動し、**Customer tag** = `vip` を有効にします（例 3 のように Shopify Flow/Customer Segment 経由でタグを付けます）。結果：VIP タグの付いた顧客はプレミアム Tab Bar を見ます。一般顧客は依然として標準 Tab Bar を見ます。*(Mobile Menu は同じアプローチを使用します。)*
 
 ### 5. FAB は顧客が最初の項目を追加する直後にアップセルを促す（メニューレベル）
 

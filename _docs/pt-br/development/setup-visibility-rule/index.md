@@ -15,6 +15,8 @@ Regras de Visibilidade são um conjunto de condições que determinam se um **me
 
 - **Nível de item de menu**: abra **Edit item** → grupo **Visibility** → clique em **Setup the Visibility rules**. *(O grupo Visibility está dentro de um bloco contraído — se você não vê-lo imediatamente, clique em **See more** para expandi-lo.)*
 - **Nível de menu**: abra o painel **Setting** do menu → cartão **Visibility Rules**.
+- **Atalho pela lista de menus**: na página de lista de menus, a coluna **Visibility Rules** mostra **No rule** ou **Setup** para cada menu — clique em **Setup** para ir direto ao cartão Visibility Rules daquele menu.
+- **Atalho pela árvore do menu**: um item que não é sempre visível mostra um ícone de olho ao lado do nome na árvore — passe o mouse para ver um resumo das condições ativas, ou clique para abrir diretamente as Visibility Rules desse item.
 
 A partir daqui, todas as condições, sintaxe e como elas se combinam são **compartilhadas** para ambos os níveis — apenas a localização difere.
 
@@ -28,14 +30,11 @@ A partir daqui, todas as condições, sintaxe e como elas se combinam são **com
 |---|---|---|---|
 | **Device** | Business e superior | Corresponde ao dispositivo selecionado | `All devices` / `Mobile only` / `Desktop only` |
 | **Page / URL** | Business e superior | Tipo de página correto ou URL contém/não contém palavra-chave | Marque tipos de página (Home/Products/Collections/Pages/Blogs/Others) + 2 campos de palavra-chave |
-| **Cart contents** | Business e superior | Carrinho tem N ou mais produtos | Número inteiro, ex. `1` |
-| **Schedule** | Business e superior | Dentro de um intervalo de datas definido | Data de início → Data de término (verificado de acordo com a hora do dispositivo do visitante) |
-| **Referrer / campaign** | Business e superior | URL de referência contém texto | Ex. `instagram.com` ou `utm_campaign=summer` |
+| **Cart contents** | Business e superior | Carrinho tem N ou mais produtos (ou menos que N, com a inversão "ocultar quando menor" ativada) | Número inteiro, ex. `1` |
+| **Schedule** | Business e superior | Dentro do intervalo de data + hora definido | Data/hora de início → término, inseridas em **UTC** (converta do horário local antes de digitar), comparadas com o relógio do dispositivo do visitante |
 | **Market / Country** | Elite | Visitante navegando sob o mercado selecionado | Handle do mercado, múltiplos valores separados por vírgula: `us, ca` |
 | **Customer tag** | Elite | Visitante conectado tem a tag | Uma única tag, ex. `vip` |
 | **B2B customer** | Elite | Visitante conectado usando uma conta B2B | Chave liga/desliga |
-
-> ⚠️ As condições no **nível de menu** atualmente **não se aplicam ao Mobile Menu (Slide)** — se você definir Regras de Visibilidade em um Mobile Menu, elas não têm efeito quando exibidas na loja. As condições no **nível de item** (dentro do Mobile Menu) funcionam normalmente. Estamos corrigindo essa limitação.
 
 ---
 
@@ -68,7 +67,7 @@ Por exemplo, ativar tanto Device = Mobile only **quanto** Schedule = 01/09–15/
   <line x1="240" y1="104" x2="240" y2="122" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
   <rect x="60" y="124" width="360" height="44" rx="8" fill="#f8f9fa" stroke="#e6e8eb"/>
-  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule, Referrer — condições atendidas?</text>
+  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule — condições atendidas?</text>
 
   <line x1="240" y1="168" x2="240" y2="186" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
@@ -124,7 +123,7 @@ Você quer um item de menu "Ofertas VIP" visível apenas para clientes marcados 
 
 Sua loja quer que clientes VIP tenham uma experiência de navegação diferente — fundo escuro, efeitos brilhantes, sensação premium — em vez de compartilhar a interface padrão com todos os outros.
 
-**Como fazer:** Construa uma Tab Bar separada com um template escuro premium, publique-a na mesma posição de Tab Bar que sua loja usa por padrão. Vá para **Setting → Visibility Rules**, ative **Customer tag** = `vip` (marque via Shopify Flow/Customer Segment como no exemplo 3). Resultado: clientes marcados como VIP veem a Tab Bar premium; clientes normais ainda veem sua Tab Bar padrão. *(Mobile Menu usa a mesma abordagem — mas verifique primeiro a nota de limitação do Mobile Menu (Slide) acima.)*
+**Como fazer:** Construa uma Tab Bar separada com um template escuro premium, publique-a na mesma posição de Tab Bar que sua loja usa por padrão. Vá para **Setting → Visibility Rules**, ative **Customer tag** = `vip` (marque via Shopify Flow/Customer Segment como no exemplo 3). Resultado: clientes marcados como VIP veem a Tab Bar premium; clientes normais ainda veem sua Tab Bar padrão. *(Mobile Menu usa a mesma abordagem.)*
 
 ### 5. FAB solicita venda adicional quando cliente adiciona primeiro item (nível de menu)
 

@@ -14,6 +14,8 @@ Visibility Rules are a set of conditions that determine whether a **menu** or a 
 
 - **Menu item level**: open **Edit item** → **Visibility** group → click **Setup the Visibility rules**. *(The Visibility group is inside a collapsed block — if you don't see it immediately, click **See more** to expand it.)*
 - **Menu level**: open the menu's **Setting** panel → **Visibility Rules** card.
+- **Menu list shortcut**: on the menu list page, the **Visibility Rules** column shows **No rule** or **Setup** for each menu — click **Setup** to jump straight into that menu's Visibility Rules card.
+- **Menu tree shortcut**: an item that isn't always visible shows an eye icon next to its name in the tree — hover it to see a summary of its active conditions, or click it to open that item's Visibility Rules directly.
 
 From here on, all conditions, syntax, and how they combine are **shared** for both levels — only the location differs.
 
@@ -27,14 +29,11 @@ From here on, all conditions, syntax, and how they combine are **shared** for bo
 |---|---|---|---|
 | **Device** | Business and up | Matches the selected device | `All devices` / `Mobile only` / `Desktop only` |
 | **Page / URL** | Business and up | Correct page type, or URL contains/lacks a keyword | Tick page types (Home/Products/Collections/Pages/Blogs/Others) + 2 keyword fields |
-| **Cart contents** | Business and up | Cart has N or more products | Integer, e.g. `1` |
-| **Schedule** | Business and up | Within a set date range | Start date → end date (checked against visitor's device time) |
-| **Referrer / campaign** | Business and up | Referrer URL contains text | E.g. `instagram.com` or `utm_campaign=summer` |
+| **Cart contents** | Business and up | Cart has N or more products (or fewer than N, with "hide when below" flipped) | Integer, e.g. `1` |
+| **Schedule** | Business and up | Within the set date + time range | Start → end date-time, entered in **UTC** (convert from local time before typing), compared against the visitor's device clock |
 | **Market / Country** | Elite | Visitor browsing under the selected market | Market handle, multiple values comma-separated: `us, ca` |
 | **Customer tag** | Elite | Logged-in visitor has the tag | Single tag, e.g. `vip` |
 | **B2B customer** | Elite | Logged-in visitor using a B2B account | On/off toggle |
-
-> ⚠️ **Menu-level** conditions currently **do not apply to Mobile Menu (Slide)** — if you set Visibility Rules on a Mobile Menu, they have no effect when displaying on storefront. **Item-level** conditions (within Mobile Menu) work normally. We are fixing this limitation.
 
 ---
 
@@ -67,7 +66,7 @@ For example, enabling both Device = Mobile only **and** Schedule = 01/09–15/09
   <line x1="240" y1="104" x2="240" y2="122" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
   <rect x="60" y="124" width="360" height="44" rx="8" fill="#f8f9fa" stroke="#e6e8eb"/>
-  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule, Referrer — conditions met?</text>
+  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule — conditions met?</text>
 
   <line x1="240" y1="168" x2="240" y2="186" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
@@ -123,7 +122,7 @@ You want a menu item "VIP Perks" visible only to VIP-tagged customers, while reg
 
 Your shop wants VIP customers to have a different navigation experience — dark background, glowing effects, premium feel — instead of sharing the standard interface with everyone else.
 
-**How to do it:** Build a separate Tab Bar with a premium dark template, publish it to the same Tab Bar position your shop uses by default. Go to **Setting → Visibility Rules**, enable **Customer tag** = `vip` (tag via Shopify Flow/Customer Segment as in example 3). Result: VIP-tagged customers see the premium Tab Bar; regular customers still see your standard Tab Bar. *(Mobile Menu uses the same approach — but check the Mobile Menu (Slide) limitation note above first.)*
+**How to do it:** Build a separate Tab Bar with a premium dark template, publish it to the same Tab Bar position your shop uses by default. Go to **Setting → Visibility Rules**, enable **Customer tag** = `vip` (tag via Shopify Flow/Customer Segment as in example 3). Result: VIP-tagged customers see the premium Tab Bar; regular customers still see your standard Tab Bar. *(Mobile Menu uses the same approach.)*
 
 ### 5. FAB prompts upsell right when customer adds first item (menu level)
 

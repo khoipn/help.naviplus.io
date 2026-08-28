@@ -15,6 +15,8 @@ Visibility Rules là bộ điều kiện quyết định một **menu** hoặc m
 
 - **Cấp Menu item**: mở **Edit item** → nhóm **Visibility** → bấm **Setup the Visibility rules**. *(Nhóm Visibility nằm trong khối thu gọn — nếu không thấy ngay, bấm **See more** trước để mở ra.)*
 - **Cấp Menu**: mở panel **Setting** của menu → card **Visibility Rules**.
+- **Đường tắt từ Menu list** (bảng liệt kê tất cả menu của shop): cột **Visibility Rules** luôn có link **Setup** (kèm tóm tắt phía trước nếu menu đã có điều kiện) — bấm vào là nhảy thẳng tới đúng menu, tự mở panel Setting và cuộn tới đúng card.
+- **Trên cây menu**: item nào đang bật điều kiện thì có icon mắt 👁 ngay sau tên — di chuột vào để xem nhanh tóm tắt điều kiện mà không cần mở popup.
 
 Từ đây trở xuống, mọi điều kiện, cú pháp và cách kết hợp đều **dùng chung** cho cả hai cấp — chỉ khác đúng vị trí bấm vào ở trên.
 
@@ -28,14 +30,11 @@ Từ đây trở xuống, mọi điều kiện, cú pháp và cách kết hợp 
 |---|---|---|---|
 | **Device** | Business trở lên | Đúng loại thiết bị đang chọn | `All devices` / `Mobile only` / `Desktop only` |
 | **Page / URL** | Business trở lên | Đúng loại trang, hoặc URL có/không chứa từ khóa | Tick nhóm trang (Home/Products/Collections/Pages/Blogs/Others) + 2 ô từ khóa |
-| **Cart contents** | Business trở lên | Giỏ hàng có từ N sản phẩm trở lên | Số nguyên, ví dụ `1` |
-| **Schedule** | Business trở lên | Đang trong khung ngày đã đặt | Ngày bắt đầu → ngày kết thúc (tính theo đồng hồ máy khách) |
-| **Referrer / campaign** | Business trở lên | URL nguồn giới thiệu (referrer) chứa đoạn text | Ví dụ `instagram.com` hoặc `utm_campaign=summer` |
+| **Cart contents** | Business trở lên | Giỏ hàng có từ N sản phẩm trở lên (hoặc **ẩn** khi từ N sản phẩm trở lên — 2 chiều độc lập) | Số nguyên, ví dụ `1` |
+| **Schedule** | Business trở lên | Đang trong khung ngày + giờ đã đặt | Ngày giờ bắt đầu → kết thúc, nhập theo **UTC** (quy đổi từ giờ địa phương trước khi nhập), so sánh bằng đồng hồ thiết bị khách |
 | **Market / Country** | Elite | Khách đang duyệt dưới đúng Market đã chọn | Market handle, nhiều giá trị cách nhau dấu phẩy: `us, ca` |
 | **Customer tag** | Elite | Khách đã đăng nhập có đúng tag | Một tag, ví dụ `vip` |
 | **B2B customer** | Elite | Khách đã đăng nhập bằng tài khoản B2B | Bật/tắt |
-
-> ⚠️ Điều kiện **cấp Menu** hiện **chưa áp dụng cho Mobile Menu (Slide)** — nếu bạn đặt Visibility Rules cho một Mobile Menu, nó tạm thời chưa có tác dụng khi hiển thị ngoài storefront. Điều kiện **cấp Item** (bên trong Mobile Menu) vẫn hoạt động bình thường. Chúng tôi đang khắc phục hạn chế này.
 
 ---
 
@@ -68,7 +67,7 @@ Ví dụ bật cả Device = Mobile only **và** Schedule = 01/09–15/09: chỉ
   <line x1="240" y1="104" x2="240" y2="122" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
   <rect x="60" y="124" width="360" height="44" rx="8" fill="#f8f9fa" stroke="#e6e8eb"/>
-  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule, Referrer — đủ điều kiện?</text>
+  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule — đủ điều kiện?</text>
 
   <line x1="240" y1="168" x2="240" y2="186" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
@@ -124,7 +123,7 @@ Muốn có 1 mục menu "Ưu đãi VIP" chỉ khách hạng VIP mới thấy, tr
 
 Shop muốn khách VIP có trải nghiệm điều hướng khác biệt hẳn — nền đen, hiệu ứng lóng lánh, đúng cảm giác đẳng cấp — thay vì dùng chung giao diện tiêu chuẩn với mọi khách khác.
 
-**Cách làm:** Dựng riêng 1 Tab Bar theo mẫu đen sang trọng, publish vào đúng vị trí Tab Bar mặc định của shop. Vào **Setting → Visibility Rules**, bật **Customer tag** = `vip` (gắn tag qua Shopify Flow/Customer Segment như ví dụ 3). Kết quả: khách có tag `vip` thấy thanh điều hướng riêng, khách thường vẫn thấy Tab Bar mặc định như cũ. *(Mobile Menu áp dụng cùng cách — nhưng xem cảnh báo gap Mobile Menu (Slide) ở trên trước khi dùng.)*
+**Cách làm:** Dựng riêng 1 Tab Bar theo mẫu đen sang trọng, publish vào đúng vị trí Tab Bar mặc định của shop. Vào **Setting → Visibility Rules**, bật **Customer tag** = `vip` (gắn tag qua Shopify Flow/Customer Segment như ví dụ 3). Kết quả: khách có tag `vip` thấy thanh điều hướng riêng, khách thường vẫn thấy Tab Bar mặc định như cũ. *(Mobile Menu áp dụng cùng cách.)*
 
 ### 5. FAB mời khách xem ưu đãi ngay khi vừa thêm giỏ hàng (cấp Menu)
 

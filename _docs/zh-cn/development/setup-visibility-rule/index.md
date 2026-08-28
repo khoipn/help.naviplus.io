@@ -15,6 +15,8 @@ title: 设置可见性规则
 
 - **菜单项级别**: 打开 **Edit item** → **Visibility** 组 → 点击 **Setup the Visibility rules**。 *(Visibility 组在折叠的区块内 — 如果未立即看到，点击 **See more** 展开。)*
 - **菜单级别**: 打开菜单的 **Setting** 面板 → **Visibility Rules** 卡片。
+- **菜单列表快捷方式**: 在菜单列表页面，**Visibility Rules** 列会为每个菜单显示 **No rule** 或 **Setup** — 点击 **Setup** 直接跳转到该菜单的 Visibility Rules 卡片。
+- **菜单树快捷方式**: 非"始终显示"的项目会在树中的名称旁显示一个眼睛图标 — 悬停可查看已启用条件的摘要，点击可直接打开该项目的 Visibility Rules。
 
 从这里开始，所有条件、语法和组合方式在两个级别都是**共享的** — 只是位置不同。
 
@@ -28,14 +30,11 @@ title: 设置可见性规则
 |---|---|---|---|
 | **Device** | Business 及以上 | 与选定的设备匹配 | `All devices` / `Mobile only` / `Desktop only` |
 | **Page / URL** | Business 及以上 | 正确的页面类型，或 URL 包含/不包含关键词 | 勾选页面类型（Home/Products/Collections/Pages/Blogs/Others）+ 2 个关键词字段 |
-| **Cart contents** | Business 及以上 | 购物车有 N 个或更多产品 | 整数，例如 `1` |
-| **Schedule** | Business 及以上 | 在设定的日期范围内 | 开始日期 → 结束日期（根据访问者的设备时间检查） |
-| **Referrer / campaign** | Business 及以上 | 引荐网址包含文本 | 例如 `instagram.com` 或 `utm_campaign=summer` |
+| **Cart contents** | Business 及以上 | 购物车有 N 个或更多产品（或启用"低于时隐藏"反转后，少于 N 个） | 整数，例如 `1` |
+| **Schedule** | Business 及以上 | 在设定的日期+时间范围内 | 开始 → 结束的日期时间，按 **UTC** 输入（输入前从本地时间换算），与访问者设备时钟比较 |
 | **Market / Country** | Elite | 访问者在选定的市场下浏览 | 市场句柄，多个值用逗号分隔：`us, ca` |
 | **Customer tag** | Elite | 已登录的访问者有该标签 | 单个标签，例如 `vip` |
 | **B2B customer** | Elite | 已登录的访问者使用 B2B 帐户 | 开/关切换 |
-
-> ⚠️ **菜单级别**的条件目前**不适用于 Mobile Menu (Slide)** — 如果在 Mobile Menu 上设置可见性规则，在店铺前端显示时无效。**项目级别**的条件（Mobile Menu 内）正常工作。我们正在修复此限制。
 
 ---
 
@@ -68,7 +67,7 @@ title: 设置可见性规则
   <line x1="240" y1="104" x2="240" y2="122" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
   <rect x="60" y="124" width="360" height="44" rx="8" fill="#f8f9fa" stroke="#e6e8eb"/>
-  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule, Referrer — 满足条件?</text>
+  <text x="240" y="150" font-size="12.5" text-anchor="middle" fill="#1a1d21">Page/URL, Cart, Schedule — 满足条件?</text>
 
   <line x1="240" y1="168" x2="240" y2="186" stroke="#1a7a4f" stroke-width="1.5" marker-end="url(#vrArrowGreen)"/>
 
@@ -124,7 +123,7 @@ title: 设置可见性规则
 
 您的店铺希望 VIP 客户有不同的导航体验 — 深色背景、闪耀效果、高级感觉 — 而不是与所有人共享标准界面。
 
-**方法:** 建立一个高级深色模板的单独 Tab Bar，发布到您店铺默认使用的同一 Tab Bar 位置。进入 **Setting → Visibility Rules**，启用 **Customer tag** = `vip`（如示例 3 通过 Shopify Flow/Customer Segment 标记）。结果：VIP 标记的客户看到高级 Tab Bar；普通客户仍看到您的标准 Tab Bar。*(Mobile Menu 使用相同方法 — 但首先检查上面的 Mobile Menu (Slide) 限制说明。)*
+**方法:** 建立一个高级深色模板的单独 Tab Bar，发布到您店铺默认使用的同一 Tab Bar 位置。进入 **Setting → Visibility Rules**，启用 **Customer tag** = `vip`（如示例 3 通过 Shopify Flow/Customer Segment 标记）。结果：VIP 标记的客户看到高级 Tab Bar；普通客户仍看到您的标准 Tab Bar。*(Mobile Menu 使用相同方法。)*
 
 ### 5. 当客户添加第一个商品时 FAB 促进加购（菜单级别）
 
