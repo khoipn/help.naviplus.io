@@ -338,6 +338,9 @@
   - processed_path: troubleshooting/performance-issues
     title: Vấn đề hiệu suất
     url: /docs/troubleshooting/performance-issues/
+  - processed_path: frequently-asked-questions/second-cdn-bunnycdn
+    title: Navi+ giữ menu luôn hoạt động thế nào — tuỳ chọn "Use a second CDN (BunnyCDN)"
+    url: /docs/frequently-asked-questions/second-cdn-bunnycdn/
   processed_path: troubleshooting
   title: Khắc phục sự cố
   url: /docs/troubleshooting/

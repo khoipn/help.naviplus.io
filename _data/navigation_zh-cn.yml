@@ -338,6 +338,9 @@
   - processed_path: troubleshooting/performance-issues
     title: 性能问题
     url: /docs/troubleshooting/performance-issues/
+  - processed_path: frequently-asked-questions/second-cdn-bunnycdn
+    title: Navi+ 如何让菜单始终在线 — 「Use a second CDN (BunnyCDN)」选项
+    url: /docs/frequently-asked-questions/second-cdn-bunnycdn/
   processed_path: troubleshooting
   title: 故障排除
   url: /docs/troubleshooting/

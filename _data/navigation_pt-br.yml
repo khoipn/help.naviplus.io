@@ -338,6 +338,9 @@
   - processed_path: troubleshooting/performance-issues
     title: Problemas de desempenho
     url: /docs/troubleshooting/performance-issues/
+  - processed_path: frequently-asked-questions/second-cdn-bunnycdn
+    title: Como o Navi+ mantém seu menu online — a opção "Use a second CDN (BunnyCDN)"
+    url: /docs/frequently-asked-questions/second-cdn-bunnycdn/
   processed_path: troubleshooting
   title: Solução de Problemas
   url: /docs/troubleshooting/
