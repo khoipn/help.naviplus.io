@@ -14,7 +14,7 @@ I menu delle sezioni **non sono fluttuanti** — vengono inseriti in una posizio
 | | Metodo 1: Inserisci/Sostituisci | Metodo 2: Blocco App |
 |---|---|---|
 | Piattaforma | Shopify + Globale | Solo Shopify |
-| Meccanismo | Selettore CSS → inserisci prima/dopo/sostituisci elemento | Blocco App "Navi+ on Section" nell'Editor del Tema |
+| Meccanismo | Selettore CSS → inserisci prima/dopo/sostituisci elemento | Blocco App "Menu in Section" nell'Editor del Tema |
 | Flessibilità | Alta — incorporare ovunque | Media — limitata dallo schema della sezione Shopify |
 | Configurazione | Richiede conoscenza del Selettore CSS | È necessario solo inserire l'ID di Incorporamento |
 
@@ -77,7 +77,7 @@ Inserisci **un** Selettore CSS. Il menu sarà posizionato rispetto all'elemento 
 ### Come configurare
 
 1. Copia l'**ID di Incorporamento** del menu (mostrato nel modulo — clicca per copiare).
-2. Vai a **Editor del Tema Shopify** → trova il **"Navi+ on Section"** Blocco App.
+2. Vai a **Editor del Tema Shopify** → trova il **"Menu in Section"** Blocco App.
 3. Incolla l'ID di Incorporamento nel campo corrispondente.
 4. Salva il tema.
 

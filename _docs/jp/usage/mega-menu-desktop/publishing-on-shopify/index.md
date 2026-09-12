@@ -149,7 +149,7 @@ CSSセレクタがモバイル、デスクトップ、または両方に適用�
 
 この方法では、Shopifyテーマにブロック/セクションを追加することでメニューを挿入します。これは従来のアプローチなので、詳細には説明しません。この方法では、方法1のステップ1で必要なように**「App EmbedsでNavi+をオンにする」**必要すらありません。
 
-このメニューの埋め込みIDをコピーし、テーマセクションの"Navi+ on Section"という名前のブロックに挿入します。追加後にタイトルを追加し、全幅を設定し、このセクションのマージンを調整できます。
+このメニューの埋め込みIDをコピーし、テーマセクションの"Menu in Section"という名前のブロックに挿入します。追加後にタイトルを追加し、全幅を設定し、このセクションのマージンを調整できます。
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 

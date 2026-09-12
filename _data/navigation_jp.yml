@@ -393,6 +393,9 @@
   - processed_path: development/setup-visibility-rule
     title: 表示ルールの設定
     url: /docs/development/setup-visibility-rule/
+  - processed_path: development/optimize-loading-css-selectors
+    title: Speed と UX 最適化 — CSS セレクタ構文
+    url: /docs/development/optimize-loading-css-selectors/
   processed_path: development
   title: 開発
   url: /docs/development/

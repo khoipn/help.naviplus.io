@@ -14,7 +14,7 @@ Section menus are **not floating** — they are inserted at a specific position 
 | | Method 1: Insert/Replace | Method 2: App Block |
 |---|---|---|
 | Platform | Shopify + Global | Shopify only |
-| Mechanism | CSS Selector → insert before/after/replace element | App Block "Navi+ on Section" in Theme Editor |
+| Mechanism | CSS Selector → insert before/after/replace element | App Block "Menu in Section" in Theme Editor |
 | Flexibility | High — embed anywhere | Medium — limited by Shopify section schema |
 | Setup | Requires knowing CSS Selector | Only need to enter Embed ID |
 
@@ -77,7 +77,7 @@ Enter **one** CSS Selector. The menu will be placed relative to the matched elem
 ### How to set up
 
 1. Copy the menu's **Embed ID** (shown in the modal — click to copy).
-2. Go to **Shopify Theme Editor** → find the **"Navi+ on Section"** App Block.
+2. Go to **Shopify Theme Editor** → find the **"Menu in Section"** App Block.
 3. Paste the Embed ID into the corresponding field.
 4. Save theme.
 

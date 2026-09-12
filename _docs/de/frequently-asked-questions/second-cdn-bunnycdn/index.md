@@ -1,13 +1,13 @@
 ---
-description: "Wie Navi+ Ihr Menü über zwei unabhängige Content-Delivery-Netzwerke ausliefert, damit es online bleibt, und was die Option \"Use a second CDN (BunnyCDN)\" im App-Embed bewirkt — auch wenn Besucher in manchen Regionen Cloudflare nicht erreichen."
+description: "Wie Navi+ Ihr Menü über zwei unabhängige Content-Delivery-Netzwerke ausliefert, damit es online bleibt, und was die Option \"Use a Secondary CDN (BunnyCDN)\" im App-Embed bewirkt — auch wenn Besucher in manchen Regionen Cloudflare nicht erreichen."
 lang: de
 layout: default
 permalink: /de/docs/frequently-asked-questions/second-cdn-bunnycdn/
-title: "Wie Navi+ Ihr Menü online hält — die Option \"Use a second CDN (BunnyCDN)\""
+title: "Wie Navi+ Ihr Menü online hält — die Option \"Use a Secondary CDN (BunnyCDN)\""
 ---
-# Wie Navi+ Ihr Menü online hält — die Option "Use a second CDN (BunnyCDN)"
+# Wie Navi+ Ihr Menü online hält — die Option "Use a Secondary CDN (BunnyCDN)"
 
-Ihr Menü ist nicht in Ihrem Theme gespeichert. Bei jedem Seitenaufruf lädt der Browser einige kleine Dateien von Navi+ — die Menü-Engine, ihre Styles und Ihre Menüdaten. Woher diese Dateien kommen, entscheidet darüber, ob das Menü erscheint und wie schnell. Diese Seite erklärt, wie diese Auslieferung funktioniert, wie sie gegen Ausfälle abgesichert ist und was das Kontrollkästchen **Use a second CDN (BunnyCDN)** im Shopify-App-Embed ändert.
+Ihr Menü ist nicht in Ihrem Theme gespeichert. Bei jedem Seitenaufruf lädt der Browser einige kleine Dateien von Navi+ — die Menü-Engine, ihre Styles und Ihre Menüdaten. Woher diese Dateien kommen, entscheidet darüber, ob das Menü erscheint und wie schnell. Diese Seite erklärt, wie diese Auslieferung funktioniert, wie sie gegen Ausfälle abgesichert ist und was das Kontrollkästchen **Use a Secondary CDN (BunnyCDN)** im Shopify-App-Embed ändert.
 
 ---
 
@@ -101,7 +101,7 @@ Für einen Shop, dessen Kunden überwiegend an einem solchen Ort sitzen, kann ei
 
 ---
 
-## Was "Use a second CDN (BunnyCDN)" bewirkt
+## Was "Use a Secondary CDN (BunnyCDN)" bewirkt
 
 Wird die Option eingeschaltet, dreht sich die Priorität um, sodass das Menü überhaupt nicht mehr vom Hauptnetzwerk abhängt:
 
@@ -185,7 +185,7 @@ Es ist keine spürbare Änderung zu erwarten. BunnyCDN liefert dieselben Dateien
 1. Öffnen Sie in Ihrem Shopify-Admin **Onlineshop → Themes → Anpassen**.
 2. Klicken Sie in der linken Seitenleiste auf das Symbol **App-Embeds**.
 3. Suchen Sie **Navi+** und klappen Sie es auf.
-4. Setzen oder entfernen Sie unter **Advanced** das Häkchen bei **Use a second CDN (BunnyCDN)**.
+4. Setzen oder entfernen Sie das Häkchen bei **Use a Secondary CDN (BunnyCDN)**.
 5. Klicken Sie auf **Speichern**.
 
 Die Änderung gilt ab dem nächsten Seitenaufruf. In der Navi+-App muss nichts konfiguriert werden.

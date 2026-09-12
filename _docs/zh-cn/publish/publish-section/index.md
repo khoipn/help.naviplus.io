@@ -14,7 +14,7 @@ title: 发布部分 — Mega menu & grid
 | | 方法 1：插入/替换 | 方法 2：应用块 |
 |---|---|---|
 | 平台 | Shopify + Global | 仅限 Shopify |
-| 机制 | CSS 选择器 → 在元素之前/之后插入/替换 | 应用块 "Navi+ on Section" 在主题编辑器中 |
+| 机制 | CSS 选择器 → 在元素之前/之后插入/替换 | 应用块 "Menu in Section" 在主题编辑器中 |
 | 灵活性 | 高 — 可以嵌入任何地方 | 中 — 受限于 Shopify 部分架构 |
 | 设置 | 需要了解 CSS 选择器 | 只需输入嵌入 ID |
 
@@ -77,7 +77,7 @@ title: 发布部分 — Mega menu & grid
 ### 如何设置
 
 1. 复制菜单的**嵌入 ID**（在模态中显示 — 点击复制）。
-2. 转到**Shopify 主题编辑器** → 找到**"Navi+ on Section"** 应用块。
+2. 转到**Shopify 主题编辑器** → 找到**"Menu in Section"** 应用块。
 3. 将嵌入 ID 粘贴到相应字段中。
 4. 保存主题。
 

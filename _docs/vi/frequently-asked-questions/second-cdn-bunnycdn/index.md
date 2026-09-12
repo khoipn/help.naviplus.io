@@ -1,13 +1,13 @@
 ---
-description: "Cách Navi+ phân phối menu qua hai mạng CDN độc lập để menu luôn hoạt động, và tuỳ chọn \"Use a second CDN (BunnyCDN)\" trong app embed làm gì — kể cả khi khách ở một số vùng không truy cập được Cloudflare."
+description: "Cách Navi+ phân phối menu qua hai mạng CDN độc lập để menu luôn hoạt động, và tuỳ chọn \"Use a Secondary CDN (BunnyCDN)\" trong app embed làm gì — kể cả khi khách ở một số vùng không truy cập được Cloudflare."
 lang: vi
 layout: default
 permalink: /vi/docs/frequently-asked-questions/second-cdn-bunnycdn/
-title: "Navi+ giữ menu luôn hoạt động thế nào — tuỳ chọn \"Use a second CDN (BunnyCDN)\""
+title: "Navi+ giữ menu luôn hoạt động thế nào — tuỳ chọn \"Use a Secondary CDN (BunnyCDN)\""
 ---
-# Navi+ giữ menu luôn hoạt động thế nào — tuỳ chọn "Use a second CDN (BunnyCDN)"
+# Navi+ giữ menu luôn hoạt động thế nào — tuỳ chọn "Use a Secondary CDN (BunnyCDN)"
 
-Menu của bạn không nằm trong theme. Mỗi lần trang tải, trình duyệt lấy vài file nhỏ từ Navi+ — bộ máy vẽ menu, style của nó và dữ liệu menu. Các file này đến từ đâu quyết định menu có hiện hay không, và nhanh hay chậm. Trang này giải thích cơ chế phân phối đó, cách nó được bảo vệ trước sự cố, và ô **Use a second CDN (BunnyCDN)** trong app embed của Shopify thay đổi điều gì.
+Menu của bạn không nằm trong theme. Mỗi lần trang tải, trình duyệt lấy vài file nhỏ từ Navi+ — bộ máy vẽ menu, style của nó và dữ liệu menu. Các file này đến từ đâu quyết định menu có hiện hay không, và nhanh hay chậm. Trang này giải thích cơ chế phân phối đó, cách nó được bảo vệ trước sự cố, và ô **Use a Secondary CDN (BunnyCDN)** trong app embed của Shopify thay đổi điều gì.
 
 ---
 
@@ -101,7 +101,7 @@ Với cửa hàng có phần lớn khách ở những nơi như vậy, menu ho�
 
 ---
 
-## Tuỳ chọn "Use a second CDN (BunnyCDN)" làm gì
+## Tuỳ chọn "Use a Secondary CDN (BunnyCDN)" làm gì
 
 Bật tuỳ chọn này sẽ đảo thứ tự ưu tiên, để menu không còn phụ thuộc vào mạng chính nữa:
 
@@ -185,7 +185,7 @@ Không có thay đổi đáng kể. BunnyCDN phục vụ cùng bộ file từ c�
 1. Trong trang quản trị Shopify, mở **Online Store → Themes → Customize**.
 2. Bấm biểu tượng **App embeds** ở thanh bên trái.
 3. Tìm **Navi+** và mở rộng nó.
-4. Trong mục **Advanced**, tick hoặc bỏ tick **Use a second CDN (BunnyCDN)**.
+4. Tick hoặc bỏ tick **Use a Secondary CDN (BunnyCDN)**.
 5. Bấm **Save**.
 
 Thay đổi có hiệu lực ở lượt tải trang tiếp theo. Không cần cấu hình gì thêm trong app Navi+.

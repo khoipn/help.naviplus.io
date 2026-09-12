@@ -14,7 +14,7 @@ Các menu phần là **không nổi** — chúng được chèn vào một vị 
 | | Phương pháp 1: Chèn/Thay thế | Phương pháp 2: App Block |
 |---|---|---|
 | Nền tảng | Shopify + Global | Chỉ Shopify |
-| Cơ chế | CSS Selector → chèn trước/sau/thay thế phần tử | App Block "Navi+ on Section" trong Theme Editor |
+| Cơ chế | CSS Selector → chèn trước/sau/thay thế phần tử | App Block "Menu in Section" trong Theme Editor |
 | Tính linh hoạt | Cao — nhúng ở bất kỳ đâu | Trung bình — bị giới hạn bởi sơ đồ phần Shopify |
 | Cài đặt | Cần biết CSS Selector | Chỉ cần nhập Embed ID |
 
@@ -77,7 +77,7 @@ Nhập **một** CSS Selector. Menu sẽ được đặt tương đối với ph
 ### Cách thiết lập
 
 1. Sao chép **Embed ID** của menu (hiển thị trong modal — nhấp để sao chép).
-2. Đi tới **Shopify Theme Editor** → tìm **"Navi+ on Section"** App Block.
+2. Đi tới **Shopify Theme Editor** → tìm **"Menu in Section"** App Block.
 3. Dán Embed ID vào trường tương ứng.
 4. Lưu chủ đề.
 

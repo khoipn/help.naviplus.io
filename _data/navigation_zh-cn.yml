@@ -393,6 +393,9 @@
   - processed_path: development/setup-visibility-rule
     title: 设置可见性规则
     url: /docs/development/setup-visibility-rule/
+  - processed_path: development/optimize-loading-css-selectors
+    title: 速度与 UX 优化 — CSS 选择器语法
+    url: /docs/development/optimize-loading-css-selectors/
   processed_path: development
   title: 开发
   url: /docs/development/

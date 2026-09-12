@@ -393,6 +393,9 @@
   - processed_path: development/setup-visibility-rule
     title: Configurare le regole di visibilità
     url: /docs/development/setup-visibility-rule/
+  - processed_path: development/optimize-loading-css-selectors
+    title: Ottimizzazione della velocità e UX — sintassi dei selettori CSS
+    url: /docs/development/optimize-loading-css-selectors/
   processed_path: development
   title: Sviluppo
   url: /docs/development/

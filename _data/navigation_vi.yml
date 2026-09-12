@@ -393,6 +393,9 @@
   - processed_path: development/setup-visibility-rule
     title: Cài đặt Visibility Rules
     url: /docs/development/setup-visibility-rule/
+  - processed_path: development/optimize-loading-css-selectors
+    title: Tối ưu hóa tốc độ và UX — cú pháp CSS Selector
+    url: /docs/development/optimize-loading-css-selectors/
   processed_path: development
   title: Phát triển
   url: /docs/development/

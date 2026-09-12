@@ -14,7 +14,7 @@ Os menus de seção **não são flutuantes** — eles são inseridos em uma posi
 | | Método 1: Inserir/Substituir | Método 2: Bloco de App |
 |---|---|---|
 | Plataforma | Shopify + Global | Apenas Shopify |
-| Mecanismo | Seletor CSS → inserir antes/depois/substituir elemento | Bloco de App "Navi+ on Section" no Editor de Tema |
+| Mecanismo | Seletor CSS → inserir antes/depois/substituir elemento | Bloco de App "Menu in Section" no Editor de Tema |
 | Flexibilidade | Alta — embutir em qualquer lugar | Média — limitada pelo esquema de seção do Shopify |
 | Configuração | Requer conhecimento de Seletor CSS | Apenas precisa inserir o ID de Embed |
 
@@ -77,7 +77,7 @@ Insira **um** Seletor CSS. O menu será colocado em relação ao elemento corres
 ### Como configurar
 
 1. Copie o **ID de Embed** do menu (mostrado no modal — clique para copiar).
-2. Vá para **Editor de Tema do Shopify** → encontre o **"Navi+ on Section"** Bloco de App.
+2. Vá para **Editor de Tema do Shopify** → encontre o **"Menu in Section"** Bloco de App.
 3. Cole o ID de Embed no campo correspondente.
 4. Salve o tema.
 

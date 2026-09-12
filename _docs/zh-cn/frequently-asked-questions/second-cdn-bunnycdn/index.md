@@ -1,13 +1,13 @@
 ---
-description: "Navi+ 如何通过两个相互独立的内容分发网络交付菜单、确保菜单始终在线，以及应用嵌入中「Use a second CDN (BunnyCDN)」选项的作用 — 包括部分地区访客无法连接 Cloudflare 的情况。"
+description: "Navi+ 如何通过两个相互独立的内容分发网络交付菜单、确保菜单始终在线，以及应用嵌入中「Use a Secondary CDN (BunnyCDN)」选项的作用 — 包括部分地区访客无法连接 Cloudflare 的情况。"
 lang: zh-cn
 layout: default
 permalink: /zh-cn/docs/frequently-asked-questions/second-cdn-bunnycdn/
-title: "Navi+ 如何让菜单始终在线 — 「Use a second CDN (BunnyCDN)」选项"
+title: "Navi+ 如何让菜单始终在线 — 「Use a Secondary CDN (BunnyCDN)」选项"
 ---
-# Navi+ 如何让菜单始终在线 — 「Use a second CDN (BunnyCDN)」选项
+# Navi+ 如何让菜单始终在线 — 「Use a Secondary CDN (BunnyCDN)」选项
 
-菜单并不存储在你的主题里。每次页面加载时，浏览器会从 Navi+ 获取几个小文件 — 菜单引擎、它的样式以及你的菜单数据。这些文件来自哪里，决定了菜单能否显示、显示得有多快。本页说明这套交付机制如何运作、如何抵御故障，以及 Shopify 应用嵌入中的 **Use a second CDN (BunnyCDN)** 复选框会改变什么。
+菜单并不存储在你的主题里。每次页面加载时，浏览器会从 Navi+ 获取几个小文件 — 菜单引擎、它的样式以及你的菜单数据。这些文件来自哪里，决定了菜单能否显示、显示得有多快。本页说明这套交付机制如何运作、如何抵御故障，以及 Shopify 应用嵌入中的 **Use a Secondary CDN (BunnyCDN)** 复选框会改变什么。
 
 ---
 
@@ -101,7 +101,7 @@ Navi+ 通过内容分发网络（CDN）提供菜单文件：分布在全球的�
 
 ---
 
-## 「Use a second CDN (BunnyCDN)」的作用
+## 「Use a Secondary CDN (BunnyCDN)」的作用
 
 开启该选项会调换优先级，让菜单完全不再依赖主网络：
 
@@ -185,7 +185,7 @@ Navi+ 通过内容分发网络（CDN）提供菜单文件：分布在全球的�
 1. 在 Shopify 后台打开 **在线商店 → 模板 → 自定义**。
 2. 点击左侧边栏的 **应用嵌入** 图标。
 3. 找到 **Navi+** 并展开。
-4. 在 **Advanced** 下勾选或取消勾选 **Use a second CDN (BunnyCDN)**。
+4. 勾选或取消勾选 **Use a Secondary CDN (BunnyCDN)**。
 5. 点击 **保存**。
 
 变更在下一次页面加载时生效。Navi+ 应用内无需任何配置。

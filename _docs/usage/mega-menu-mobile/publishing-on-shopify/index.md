@@ -21,7 +21,7 @@ Step 2: Select the theme where you want to publish the menu.  Click: **Customize
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fg4GrkjBaBpEggTxDhmZ1%2FHelp.MenuTree.1.1.7.png?alt=media&#x26;token=891a8bf8-5e42-4ff7-8f69-dc965a699f3a" alt=""><figcaption></figcaption></figure>
 
-Step 3: Go to App embeds, find "Navi+ on All pages", and turn it on.
+Step 3: Go to App embeds, find "Store Connector", and turn it on.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FE4ekiVTzuxR9yxDM5Tcq%2FHelp.MenuTree.1.1.8.png?alt=media&#x26;token=40b62a4c-070a-479e-a883-c11b3f74bd19" alt=""><figcaption></figcaption></figure>
 
@@ -109,7 +109,7 @@ For mobile menus, using the `(M)` suffix ensures the menu only appears on mobile
 
 This method inserts the menu by adding a Block/Section in your Shopify theme. It's a traditional approach, so I won't describe it in detail. With this method, you don't even need to **"Turn on Navi+ in App Embeds"** as required in Step 1 of Method 1.
 
-Copy Embed ID of this menu, then insert to block named "Navi+ on Section" on Theme Sections. You can add a title, set up full width, and adjust the margin for this section after adding it.
+Copy Embed ID of this menu, then insert to block named "Menu in Section" on Theme Sections. You can add a title, set up full width, and adjust the margin for this section after adding it.
 
 <figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FO2uavUwCekKwBVqvtJrt%2FMargin-padding%201.1.png?alt=media&#x26;token=35261670-ad9b-445f-9730-b10be40e406e" alt=""><figcaption></figcaption></figure>
 

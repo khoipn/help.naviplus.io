@@ -1,13 +1,13 @@
 ---
-description: "Cómo Navi+ entrega tu menú a través de dos redes de distribución de contenido independientes para que siga en línea, y qué hace la opción \"Use a second CDN (BunnyCDN)\" del app embed — incluso cuando visitantes de algunas regiones no pueden llegar a Cloudflare."
+description: "Cómo Navi+ entrega tu menú a través de dos redes de distribución de contenido independientes para que siga en línea, y qué hace la opción \"Use a Secondary CDN (BunnyCDN)\" del app embed — incluso cuando visitantes de algunas regiones no pueden llegar a Cloudflare."
 lang: es
 layout: default
 permalink: /es/docs/frequently-asked-questions/second-cdn-bunnycdn/
-title: "Cómo Navi+ mantiene tu menú en línea — la opción \"Use a second CDN (BunnyCDN)\""
+title: "Cómo Navi+ mantiene tu menú en línea — la opción \"Use a Secondary CDN (BunnyCDN)\""
 ---
-# Cómo Navi+ mantiene tu menú en línea — la opción "Use a second CDN (BunnyCDN)"
+# Cómo Navi+ mantiene tu menú en línea — la opción "Use a Secondary CDN (BunnyCDN)"
 
-Tu menú no se guarda dentro de tu tema. Cada vez que se carga una página, el navegador descarga unos pocos archivos pequeños de Navi+: el motor del menú, sus estilos y los datos de tu menú. De dónde vienen esos archivos decide si el menú aparece, y con qué rapidez. Esta página explica cómo funciona esa entrega, cómo está protegida frente a caídas y qué cambia la casilla **Use a second CDN (BunnyCDN)** del app embed de Shopify.
+Tu menú no se guarda dentro de tu tema. Cada vez que se carga una página, el navegador descarga unos pocos archivos pequeños de Navi+: el motor del menú, sus estilos y los datos de tu menú. De dónde vienen esos archivos decide si el menú aparece, y con qué rapidez. Esta página explica cómo funciona esa entrega, cómo está protegida frente a caídas y qué cambia la casilla **Use a Secondary CDN (BunnyCDN)** del app embed de Shopify.
 
 ---
 
@@ -101,7 +101,7 @@ Para una tienda cuyos clientes están mayoritariamente en uno de esos lugares, u
 
 ---
 
-## Qué hace "Use a second CDN (BunnyCDN)"
+## Qué hace "Use a Secondary CDN (BunnyCDN)"
 
 Activar la opción invierte la prioridad para que el menú deje de depender por completo de la red principal:
 
@@ -185,7 +185,7 @@ No se espera ningún cambio apreciable. BunnyCDN sirve los mismos archivos desde
 1. En tu administrador de Shopify, abre **Tienda online → Temas → Personalizar**.
 2. Haz clic en el icono **Integraciones de apps** de la barra lateral izquierda.
 3. Busca **Navi+** y despliégalo.
-4. En **Advanced**, marca o desmarca **Use a second CDN (BunnyCDN)**.
+4. Marca o desmarca **Use a Secondary CDN (BunnyCDN)**.
 5. Haz clic en **Guardar**.
 
 El cambio se aplica en la siguiente carga de página. No hay nada que configurar dentro de la app Navi+.

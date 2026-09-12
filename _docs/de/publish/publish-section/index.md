@@ -14,7 +14,7 @@ Abschnittsmenüs sind **nicht schwebend** — sie werden an einer bestimmten Pos
 | | Methode 1: Einfügen/Ersetzen | Methode 2: App-Block |
 |---|---|---|
 | Plattform | Shopify + Global | Nur Shopify |
-| Mechanismus | CSS-Selektor → Element vor/nach/ersetzen einfügen | App-Block "Navi+ on Section" im Theme-Editor |
+| Mechanismus | CSS-Selektor → Element vor/nach/ersetzen einfügen | App-Block "Menu in Section" im Theme-Editor |
 | Flexibilität | Hoch — überall einbetten | Mittel — durch das Shopify-Abschnittsschema eingeschränkt |
 | Einrichtung | Erfordert Kenntnisse über CSS-Selektor | Nur Embed-ID eingeben |
 
@@ -77,7 +77,7 @@ Geben Sie **einen** CSS-Selektor ein. Das Menü wird relativ zum übereinstimmen
 ### So richten Sie es ein
 
 1. Kopieren Sie die **Embed-ID** des Menüs (im Modal angezeigt — klicken, um zu kopieren).
-2. Gehen Sie zu **Shopify Theme Editor** → finden Sie den **"Navi+ on Section"** App-Block.
+2. Gehen Sie zu **Shopify Theme Editor** → finden Sie den **"Menu in Section"** App-Block.
 3. Fügen Sie die Embed-ID in das entsprechende Feld ein.
 4. Theme speichern.
 

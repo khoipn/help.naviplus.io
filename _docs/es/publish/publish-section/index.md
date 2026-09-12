@@ -14,7 +14,7 @@ Los menús de sección **no son flotantes** — se insertan en una posición esp
 | | Método 1: Insertar/Reemplazar | Método 2: Bloque de Aplicación |
 |---|---|---|
 | Plataforma | Shopify + Global | Solo Shopify |
-| Mecanismo | Selector CSS → insertar antes/después/reemplazar elemento | Bloque de Aplicación "Navi+ on Section" en el Editor de Temas |
+| Mecanismo | Selector CSS → insertar antes/después/reemplazar elemento | Bloque de Aplicación "Menu in Section" en el Editor de Temas |
 | Flexibilidad | Alta — incrustar en cualquier lugar | Media — limitada por el esquema de sección de Shopify |
 | Configuración | Requiere conocer el Selector CSS | Solo necesita ingresar el ID de Incrustación |
 
@@ -77,7 +77,7 @@ Ingresar **un** Selector CSS. El menú se colocará en relación con el elemento
 ### Cómo configurar
 
 1. Copie el **ID de Incrustación** del menú (mostrado en el modal — haga clic para copiar).
-2. Vaya a **Editor de Temas de Shopify** → encuentre el Bloque de Aplicación **"Navi+ on Section"**.
+2. Vaya a **Editor de Temas de Shopify** → encuentre el Bloque de Aplicación **"Menu in Section"**.
 3. Pegue el ID de Incrustación en el campo correspondiente.
 4. Guardar tema.
 
