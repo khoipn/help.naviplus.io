@@ -7,6 +7,9 @@ title: Modo de depuração - Encontrar seletores CSS
 ---
 # Modo de depuração - Encontrar seletores CSS
 
+> **Usa Shopify? Talvez você não precise desta página.** O Navi+ já conhece os seletores corretos de **331 temas Shopify** (hambúrguer, cabeçalho, logo, menu principal, ícones de busca e carrinho). Basta escolher seu tema na etapa Publish — ou na etapa "Where should this menu go?" ao criar um menu — e os campos CSS Selector são preenchidos automaticamente. Veja a lista completa com capturas em [naviplus.io/shopify-themes](https://naviplus.io/shopify-themes/). Use os passos abaixo apenas para temas personalizados ou não listados, ou sites fora do Shopify.
+
+
 O modo de depuração é um conjunto de ferramentas leve incorporado na biblioteca Navi+ que ajuda você a trabalhar de forma mais eficaz com os menus Navi+.
 
 ### 1. Encontrar seletores CSS

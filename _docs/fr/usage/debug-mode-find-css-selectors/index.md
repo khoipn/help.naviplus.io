@@ -7,6 +7,9 @@ title: Mode débogage - Trouver des sélecteurs CSS
 ---
 # Mode débogage - Trouver des sélecteurs CSS
 
+> **Vous utilisez Shopify ? Cette page n'est peut-être pas nécessaire.** Navi+ connaît déjà les bons sélecteurs pour **331 thèmes Shopify** (hamburger, en-tête, logo, menu principal, icônes recherche et panier). Choisissez simplement votre thème à l'étape Publish — ou à l'étape « Where should this menu go? » lors de la création d'un menu — et les champs CSS Selector sont remplis automatiquement. Liste complète avec captures d'écran : [naviplus.io/shopify-themes](https://naviplus.io/shopify-themes/). Les étapes ci-dessous ne servent que pour les thèmes personnalisés ou non listés, ou les sites hors Shopify.
+
+
 Le mode débogage est un ensemble d'outils léger intégré à la bibliothèque Navi+ qui vous aide à travailler plus efficacement avec les menus Navi+.
 
 ### 1. Trouver des sélecteurs CSS

@@ -1,5 +1,8 @@
 # Debug mode - Find CSS Selectors
 
+> **Using Shopify? You may not need this page.** Navi+ already knows the right selectors for **331 Shopify themes** (hamburger, header, logo, main menu, search & cart icons). Just pick your theme in the Publish step — or in the "Where should this menu go?" step when creating a menu — and the CSS Selector fields are filled in for you. See the full list with screenshots at [naviplus.io/shopify-themes](https://naviplus.io/shopify-themes/). Use the steps below only for custom or unlisted themes, or non-Shopify websites.
+
+
 Debug mode is a lightweight toolset built into the Navi+ library that helps you work more effectively with Navi+ menus.
 
 ### 1. Find CSS selectors

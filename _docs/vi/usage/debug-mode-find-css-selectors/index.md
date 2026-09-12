@@ -7,6 +7,9 @@ title: Chế độ gỡ lỗi - Tìm CSS Selectors
 ---
 # Chế độ gỡ lỗi - Tìm CSS Selectors
 
+> **Dùng Shopify? Có thể bạn không cần trang này.** Navi+ đã có sẵn selector đúng cho **331 theme Shopify** (hamburger, header, logo, main menu, icon search & cart). Chỉ cần chọn theme ở bước Publish — hoặc ở bước "Where should this menu go?" khi tạo menu — là các ô CSS Selector được điền sẵn. Xem danh sách đầy đủ kèm ảnh tại [naviplus.io/shopify-themes](https://naviplus.io/shopify-themes/). Các bước dưới đây chỉ dành cho theme tuỳ biến/chưa có trong danh sách, hoặc website ngoài Shopify.
+
+
 Chế độ gỡ lỗi là một bộ công cụ nhẹ được tích hợp trong thư viện Navi+ giúp bạn làm việc hiệu quả hơn với các menu của Navi+.
 
 ### 1. Tìm CSS selectors

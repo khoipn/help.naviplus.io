@@ -7,6 +7,9 @@ title: 调试模式 - 查找 CSS 选择器
 ---
 # 调试模式 - 查找 CSS 选择器
 
+> **使用 Shopify？您可能不需要本页面。** Navi+ 已内置 **331 个 Shopify 主题**的正确选择器（汉堡菜单、页眉、Logo、主菜单、搜索和购物车图标）。只需在 Publish 步骤（或创建菜单时的 "Where should this menu go?" 步骤）中选择您的主题，CSS Selector 字段就会自动填写。完整列表和截图见 [naviplus.io/shopify-themes](https://naviplus.io/shopify-themes/)。以下步骤仅适用于自定义/未收录的主题，或非 Shopify 网站。
+
+
 调试模式是内置于 Navi+ 库的轻量级工具集，帮助您更有效地使用 Navi+ 菜单。
 
 ### 1. 查找 CSS 选择器

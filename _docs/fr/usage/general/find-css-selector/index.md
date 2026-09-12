@@ -7,6 +7,9 @@ title: Trouver le sélecteur CSS
 ---
 # Trouver le sélecteur CSS
 
+> **Vous utilisez Shopify ? Cette page n'est peut-être pas nécessaire.** Navi+ connaît déjà les bons sélecteurs pour **331 thèmes Shopify** (hamburger, en-tête, logo, menu principal, icônes recherche et panier). Choisissez simplement votre thème à l'étape Publish — ou à l'étape « Where should this menu go? » lors de la création d'un menu — et les champs CSS Selector sont remplis automatiquement. Liste complète avec captures d'écran : [naviplus.io/shopify-themes](https://naviplus.io/shopify-themes/). Les étapes ci-dessous ne servent que pour les thèmes personnalisés ou non listés, ou les sites hors Shopify.
+
+
 **CSS Selector** est un concept très intéressant en CSS — il définit quelle partie de votre site web peut être **remplacée** ou **avoir un menu Navi+ inséré** (soit *avant* soit *après* elle).
 
 Voici quelques **exemples de sélecteurs CSS** que vous pouvez utiliser :

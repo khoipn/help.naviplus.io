@@ -7,6 +7,9 @@ title: Modalità debug - Trova selettori CSS
 ---
 # Modalità debug - Trova selettori CSS
 
+> **Usi Shopify? Forse questa pagina non ti serve.** Navi+ conosce già i selettori corretti di **331 temi Shopify** (hamburger, header, logo, menu principale, icone ricerca e carrello). Scegli il tuo tema nel passaggio Publish — o nel passaggio "Where should this menu go?" quando crei un menu — e i campi CSS Selector vengono compilati automaticamente. Elenco completo con screenshot su [naviplus.io/shopify-themes](https://naviplus.io/shopify-themes/). I passaggi qui sotto servono solo per temi personalizzati o non presenti in elenco, oppure per siti non Shopify.
+
+
 La modalità debug è un insieme di strumenti leggeri integrati nella libreria Navi+ che ti aiuta a lavorare in modo più efficace con i menu Navi+.
 
 ### 1. Trova selettori CSS
