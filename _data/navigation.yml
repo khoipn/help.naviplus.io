@@ -329,6 +329,9 @@
   - processed_path: troubleshooting/menu-overlapping
     title: Menu overlapping other elements
     url: /docs/troubleshooting/menu-overlapping/
+  - processed_path: troubleshooting/menu-not-showing-canvas-theme
+    title: Menu not showing on a Canvas theme
+    url: /docs/troubleshooting/menu-not-showing-canvas-theme/
   - processed_path: frequently-asked-questions/why-arent-menu-search-cart-panels-working
     title: Search / Cart / Menu panel not working
     url: /docs/frequently-asked-questions/why-arent-menu-search-cart-panels-working/
