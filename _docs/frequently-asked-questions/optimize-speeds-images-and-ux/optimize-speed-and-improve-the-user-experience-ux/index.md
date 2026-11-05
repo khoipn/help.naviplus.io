@@ -1,49 +1,34 @@
 ---
-description: Navi+ is very fast. It is fully deployed on a leading CDN with very low latency (around 100ms) and can serve millions of customers without slowing down.
+description: Since November 5, 2026, Navi+ menus load almost instantly, so the loading effect is optional and rarely needed.
 layout: default
 permalink: /docs/frequently-asked-questions/optimize-speeds-images-and-ux/optimize-speed-and-improve-the-user-experience-ux/
-title: Optimize speed and improve the user experience (UX).
+title: Add a loading effect (optional)
 ---
-# Optimize speed and improve the user experience (UX).
+# Add a loading effect (optional)
 
-#### Why do you need to do this? Isn’t Navi+ already fast?
+The loading effect is a grey skeleton that holds the menu's place while Navi+ is still getting ready, so visitors never see an empty gap or your theme's old menu flashing. Since November 5, 2026 Navi+ prints your menu straight into the page, so it shows up almost instantly and you rarely need this.
 
-Navi+ is very fast. It is fully deployed on a leading CDN with very low latency (around 100ms) and can serve millions of customers without slowing down.
+It only does something for two menus: a **Mobile Menu opened by your theme's own ☰ button**, and a **Mega Menu set to Replace**. In the **Publish** window you will see a line **Add a loading effect (optional)**; click **X** to hide it if you don't need it.
 
-However, Navi+ still runs within the Shopify ecosystem. Shopify has its own loading rules:
+#### How to turn it on
 
-1. Shopify prioritizes loading its own resources first.
-2. Then Shopify loads the theme content.
-3. Finally, Shopify loads app content, but not in any specific order.
+Go to **Theme editor › App embeds › Store Connector**, open **Loading effect (optional)**, paste your CSS selector into the matching field and click **Save**: **Mobile Menu CSS Selector** for a Mobile Menu, **CSS Selector for Mega Menu Replacement** for a Mega Menu.
 
-This means if you are using multiple apps, Navi+ may sometimes be loaded later than expected. That’s why it can feel slower in certain cases.
+<figure><img src="/assets/images/loading-effect/loading-effect-1-theme-editor.png" alt="Theme editor, App embeds, Store Connector, Loading effect (optional) with the two CSS Selector fields"><figcaption></figcaption></figure>
 
-***
+* Add the suffix **(M)** to apply it only on mobile, **(D)** only on desktop. No suffix means both.
+* Leave both fields empty and the menu works as usual.
 
-### What is my solution?
+#### What visitors see
 
-Currently, Navi+ has high priority when loading on Shopify websites. However, there is still a certain delay. We will address these issues one by one here:
+**Mobile Menu.** A visitor taps ☰ while the page is still loading. A skeleton drawer slides in right away (white background, pulsing grey lines), then the real menu takes its place.
 
-#### Slide Menu: Add a loading effect and lock the trigger selector
+<figure><img src="/assets/images/loading-effect/loading-effect-2-mobile-loading.png" alt="Mobile skeleton drawer: white panel with grey placeholder lines" width="300"><figcaption>While loading</figcaption></figure>
 
-Very simple: just enter the CSS selector you use for the Slide Menu into the embed section of the Navi+ app (see image below).
+<figure><img src="/assets/images/loading-effect/loading-effect-3-mobile-ready.png" alt="The real Mobile Menu drawer" width="300"><figcaption>Ready</figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FYlq4CLWLSuRLKnmYmBHj%2F1.1.png?alt=media&#x26;token=c806da22-bcf7-4bfe-b88c-b5e17d95803b" alt=""><figcaption></figcaption></figure>
+**Mega Menu (Replace).** Your theme's menu bar becomes a row of grey pills with a light shimmer, holding its place. Then the Navi+ Mega Menu replaces it and the header doesn't jump.
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FEIocXFLDBcobQR68F7QI%2F1.2.png?alt=media&#x26;token=f7fc10da-d538-4e33-aa46-55b40223f417" alt=""><figcaption></figcaption></figure>
+<figure><img src="/assets/images/loading-effect/loading-effect-4-mega-loading.png" alt="Header with grey skeleton pills where the menu will be"><figcaption>While loading</figcaption></figure>
 
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2FgvnasnKF0IHLNHJUnl8n%2F1.3.png?alt=media&#x26;token=47ae5ab0-eb82-4fa7-99ae-264869a09059" alt=""><figcaption></figcaption></figure>
-
-#### Mega Menu (Replacement mode): Add a loading effect and lock the trigger selector
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fk4HYuop9Aq2GRnk4OEWT%2F2.1.png?alt=media&#x26;token=ddeb17b5-23d7-4870-b9ac-fb95b6e250b7" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2F3CWBvH8fNoj0AHJJ68so%2F2.2.png?alt=media&#x26;token=8282df62-c2c4-4fba-a087-2eb6ea4e50dd" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://4226540503-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4y2gLTmg4ToH5vkorG8s%2Fuploads%2Fqu827HEiR3F515aSXcH1%2F2.3.png?alt=media&#x26;token=0873fe1c-31a6-45a9-8700-f09dc39f9c52" alt=""><figcaption></figcaption></figure>
-
-Note:
-
-* Add the suffix **(M)** if you want it to apply only on mobile.
-* Add the suffix **(D)** if you want it to apply only on desktop.
-* Leave no suffix if you want it to apply on both platforms.
+<figure><img src="/assets/images/loading-effect/loading-effect-5-mega-ready.png" alt="Header with the Navi+ Mega Menu"><figcaption>Ready</figcaption></figure>
