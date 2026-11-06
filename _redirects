@@ -1,0 +1,7 @@
+# Link sai lộ ra sau khi có 404.html (06/11/2026, RESEARCH00005)
+/:a/:b/docs/* /:b/docs/:splat 301
+/:lang/docs/troubleshooting/menu-not-showing-canvas-theme/ /docs/troubleshooting/menu-not-showing-canvas-theme/ 302
+/docs/usage/:menu/ideas-use/ /docs/usage/:menu/ 301
+/docs/ / 301
+/docs/usage/getting-started/ /docs/getting-started/ 301
+/docs/integrations/the-html-and-css-structure-of-all-navi-menus/ /docs/development/menu-structure-and-css/ 301

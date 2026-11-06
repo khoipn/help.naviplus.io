@@ -30,3 +30,5 @@ collections:
     output: true
     permalink: /docs/:path/
     index: true
+
+include: ["_redirects"]
